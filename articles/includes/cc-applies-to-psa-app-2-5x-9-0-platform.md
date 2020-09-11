@@ -1,0 +1,1 @@
+<span data-ttu-id="41f73-101">A Dynamics 365 (online) 9.x verzióján futó Project Service 2.5.x vagy újabb alkalmazásverziójára vonatkozik</span><span class="sxs-lookup"><span data-stu-id="41f73-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>

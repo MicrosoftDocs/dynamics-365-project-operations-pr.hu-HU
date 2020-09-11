@@ -1,0 +1,1 @@
+<span data-ttu-id="e583e-101">Office 365-csoportok</span><span class="sxs-lookup"><span data-stu-id="e583e-101">Office 365 Groups</span></span>

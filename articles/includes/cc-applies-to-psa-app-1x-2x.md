@@ -1,0 +1,1 @@
+<span data-ttu-id="0a2b1-101">A Project Service 2.x és 1.x alkalmazásverziójára vonatkozik</span><span class="sxs-lookup"><span data-stu-id="0a2b1-101">Applies to Project Service app versions 2.x and 1.x</span></span>

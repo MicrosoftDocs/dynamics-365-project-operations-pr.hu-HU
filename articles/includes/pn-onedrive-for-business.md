@@ -1,0 +1,1 @@
+<span data-ttu-id="f527f-101">OneDrive Vállalati verzió</span><span class="sxs-lookup"><span data-stu-id="f527f-101">OneDrive for Business</span></span>
