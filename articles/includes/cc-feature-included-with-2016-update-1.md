@@ -1,0 +1,1 @@
+A funkció a Dynamics CRM Online 2016 Update 1 szolgáltatásában támogatott. Szeretné használni a szolgáltatást? [Dynamics 365-rendszergazda vagy támogatási szakember keresése](../basics/find-administrator-support.md)

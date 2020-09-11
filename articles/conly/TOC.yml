@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (2. mód)
+  items:
+    - name: Dynamics 365 Project Operations (2. mód) kezdőlap
+      href: project-operations-mode-2-home-page.md
+    - name: Alkalmazható forgatókönyvek
+      href: applicable-scenarios.md
+    - name: Újdonságok
+      href: whats-new-mode-2-project-operations.md
+    - name: Saját környezet beállítása
+      href: set-up-environment-mode-2.md
+    - name: Mintaadatok
+      href: sample-data-mode-2.md
+    - name: Értékesítési folyamat
+      items:
+        - name: Értékesítési folyamat áttekintése
+          href: ../project-operations/sales/sales-overview.md
+        - name: Főbb különbségek
+          href: ../project-operations/sales/key-differences.md
+        - name: Beállítás
+          items:
+            - name: Termékek
+              href: ../project-operations/sales/sales-products.md
+            - name: Egységek és egységcsoportok
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: Pénznem
+              href: ../project-operations/sales/sales-currency.md
+        - name: Érdeklődők kezelése
+          href: ../project-operations/sales/managing-leads.md
+        - name: Lehetőségek kezelése
+          items:
+            - name: Lehetőség fejléc
+              href: ../project-operations/sales/opportunity-header.md
+            - name: Termékalapú sorok
+              href: ../project-operations/sales/product-based-lines.md
+            - name: Projektalapú sorok
+              href: ../project-operations/sales/project-based-lines.md
+            - name: Árajánlatok és lehetőségek összekapcsolása
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: Lehetőség lezárása
+              href: ../project-operations/sales/close-opportunity.md
+        - name: Árajánlatok kezelése
+          items:
+            - name: Fő fogalmak
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: 'Megajánlott értékek, ügyfél-költségvetések és nem meghaladandó korlátok kezelése'
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: Több ügyfél kezelése egy árajánlaton
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: Termékalapú árajánlatsorok
+              items:
+                - name: Termékalapú árajánlatsorok költségszámítása
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: Bonyolult egységek kezelése termékalapú árajánlatsorokhoz
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektalapú árajánlatsorok
+              items:
+                - name: Projektárlisták kezelése
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Több ügyfél kezelése egy árajánlatsoron
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: Projektek és feladatok leképezése egy árajánlatsorba
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: Becslések létrehozása egy árajánlatsorban
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: Projektbecslések importálása egy árajánlatsorba
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: 'Megajánlott értékek, ügyfél-költségvetések és nem meghaladandó korlátok kezelése'
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Árajánlatsor számlaütemezései
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: Árajánlat elnyerése
+              href: ../project-operations/sales/win-quote.md
+            - name: Árajánlat elvesztése
+              href: ../project-operations/sales/lose-quote.md
+        - name: Szerződések kezelése
+          items:
+            - name: Fő fogalmak
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: 'Szerződéses értékek, ügyfél-költségvetések és nem meghaladandó korlátok kezelése'
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: Több ügyfél kezelése egy szerződésen
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: Termékalapú szerződéssorok
+              items:
+                - name: Termékalapú szerződéssorok költségszámítása
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: Bonyolult egységek kezelése termékalapú szerződéssorokhoz
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: Projektalapú szerződéssorok
+              items:
+                - name: Projektárlisták kezelése
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Több ügyfél kezelése egy szerződéssoron
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: Projektek és feladatok leképezése egy szerződéssorba
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: Projektbecslések létrehozása egy szerződéssorba
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: Projektbecslések importálása egy szerződéssorba
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: 'Szerződéses értékek, ügyfél-költségvetések és nem meghaladandó korlátok kezelése egy szerződéssoron'
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: Árajánlatsor számlaütemezései
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: Szerződés megerősítése
+              href: ../project-operations/sales/confirm-contract.md
+            - name: Szerződés lezárása befejezett munkaként
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: Szerződés lezárása felmondottként
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: Árazás és költségszámítás
+      items:
+        - name: Termékárlista
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: Projektárlisták
+          items:
+            - name: Árlista költséghez
+              items:
+                - name: Önköltségi árlisták beállítása
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: Árlista alapértelmezései
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: Alapértelmezések felülbírálása
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: Árlista beállítása értékesítéshez
+              items:
+                - name: Értékesítési árlista beállítása
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: Értékesítési árlista alapértelmezései
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: Alapértelmezések felülbírálása
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: Árazási dimenziók
+          items:
+            - name: Árazási dimenziók áttekintése
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: Meglévő mező használata a Project Operationsben árképzés dimenzióként
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Egyéni mezők árazási dimenzióként
+              items:
+                - name: Egyéni mezők és entitások létrehozása árazási dimenzióként
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Egyéni mezők beállítása árazási dimenziókként
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Árazási dimenzió kikapcsolása
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektmenedzsment
+      items:
+        - name: Projektkezelés áttekintése
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: Projektfázisok
+          href: ../project-operations/project-management/project-stages.md
+        - name: Navigálás a felhasználói felületen
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: Projekt állapotának megismerése
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: Projektnaptárak meghatározása
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: Projekt létrehozása
+          items:
+            - name: Kezdeti becslések létrehozása
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: Projektnaptár beállítása
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: Projektpénznem beállítása
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: Ügyfél meghatározása
+              href: ../project-operations/project-management/set-customer.md
+            - name: Csoport hozzáadása
+              href: ../project-operations/project-management/add-group.md
+        - name: Projekt frissítése
+          href: ../project-operations/project-management/update-project.md
+        - name: Projekt másolása
+          href: ../project-operations/project-management/copy-project.md
+        - name: Munkalebontási struktúra tervezése
+          items:
+            - name: Munkalebontási struktúra létrehozása
+              items:
+                - name: Feladatok létrehozása
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: 'Feladatok kivágása, másolása és beillesztése'
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: Feladatok visszavonása és ismételt elvégzése
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: Munkalebontási struktúra hierarchiája
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: Tömeges feladatfrissítések
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: Feladatadatok szerkesztése
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: Hozzárendelések létrehozása
+              items:
+                - name: Meglévő erőforrások hozzáadása
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: Általános erőforrások hozzáadása
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: 'A hozzárendelések a feladat munkamennyiségére, időtartamára és befejezési dátumára gyakorolt hatásának megismerése'
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Hozzárendelés-kontúrok megtekintése
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: Navigálás a feladatkezelőben
+              items:
+                - name: Oszlopkezelés
+                  href: ../project-operations/project-management/column-management.md
+                - name: Nézetek
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: Gyűjtők
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: Becslésprojektek
+          items:
+            - name: Becslésprojektek áttekintése
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: Erőforrás-becslések
+              items:
+                - name: Projektbecslések frissítése a projektterv változásainak tükrözése érdekében
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Árak és a költségarányok frissítése a projektek becslésén
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Erőforrás önköltségi árának és költségpénznemének alapértelmezései
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: Erőforrás számlázási arányának és értékesítési pénznemének alapértelmezései
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: Költségbecslés létrehozása
+              items:
+                - name: Költség önköltségi árának és költségpénznemének alapértelmezései
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: Költség számlázási arányának és értékesítési pénznemének alapértelmezései
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: Árajánlatok és szerződések kiépítése
+          items:
+            - name: Munkalebontási struktúra importálása árajánlatokba
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: Munkalebontási struktúra importálása szerződésekbe
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: Projekt nyomon követése
+          items:
+            - name: Projekt nyomon követésének kezdőlapja
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: Oszlop meghatározásai
+              items:
+                - name: Munkamennyiség
+                  href: ../project-operations/project-management/effort.md
+                - name: Költség
+                  href: ../project-operations/project-management/cost.md
+                - name: Értékesítés
+                  href: ../project-operations/project-management/sales.md
+            - name: Befejezéskori költség becslésének frissítése
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: Projektcsoporttagok
+          items:
+            - name: Projektcsoporttagok áttekintése
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: Csoporttagok karbantartása
+              items:
+                - name: Csoporttagok felvétele
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: Projektcsoporttagok frissítése
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: Csoporttagok törlése
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: Foglalások karbantartása
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: Projekt jóváhagyói
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: Értékesítés
+          items:
+            - name: Értékesítési fül áttekintése
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: Együttműködés
+          items:
+            - name: Csoportok
+              href: ../project-operations/project-management/groups.md
+        - name: Projekt tervezése GYIK
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: Erőforrás-kezelés
+      items:
+        - name: Erőforrás-kezelés áttekintése
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: Fő fogalmak
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: Foglalások és hozzárendelések
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: Erőforrás-kezelési módok
+          items:
+            - name: Erőforrás-kezelési módok áttekintése
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: Hibrid
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: Központosított
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: Központosított foglalás
+          items:
+            - name: Központosított foglalás áttekintése
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: Általános csoporttagok hozzáadása a feladatokhoz
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: Erőforrás-követelmények meghatározása
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: Követelménykontúrok meghatározása
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: Erőforrás-követelmények frissítése
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: Erőforrás-követelmények beküldése
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: Erőforrás-kérelmek
+              items:
+                - name: Erőforrás-kérelmek áttekintése
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: Mezők és műveletek áttekintése
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: Erőforrások keresése
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: Javasolt erőforrások áttekintése
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: Decentralizált erőforrás-foglalás
+          items:
+            - name: Decentralizált erőforrás-foglalás áttekintése
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: Közvetlen foglalási lehetőségek
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: Általános erőforrás-követelmények teljesítése
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Erőforrások kezelése
+          items:
+            - name: Erőforrások létrehozása
+              href: ../project-operations/resource-management/create-resources.md
+            - name: Képességek és jártasságok meghatározása
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: Szerepkörök meghatározása
+              href: ../project-operations/resource-management/define-roles.md
+            - name: Erőforrásnaptárak meghatározása
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: Erőforrások hozzárendelése szervezeti egységekhez
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: Erőforrások hozzárendelése vállalatokhoz
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: Foglalási allokációs módszerek
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: Foglalási állapotok
+          href: resource-management/booking-status.md
+        - name: Képességek és jártassági modellek
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: Erőforrás-egyeztetés
+          items:
+            - name: Erőforrás-egyeztetés áttekintése
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: Fő fogalmak
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigálás
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: A foglalások meghosszabbítása
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: Több időzóna kezelése
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: Erőforrás kihasználtsága
+          items:
+            - name: Erőforrás-kihasználtság áttekintése
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: 'Keresés, beállítások és navigálás'
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: Ütemezési tábla
+          items:
+            - name: Navigálás és fő beállítások
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: Testreszabás
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: Keresés
+              href: ../project-operations/resource-management/search-urs.md
+            - name: Foglalási műveletek
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: Foglalás
+              items:
+                - name: Projekt foglalása
+                  href: ../project-operations/resource-management/book-project.md
+                - name: Nyitott követelmények foglalása
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: Erőforrás helyettesítése
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: Meglévő foglalások szerkesztése
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: Erőforrás-kezelési GYIK
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: Időpont
+      items:
+        - name: Időbejegyzés áttekintése
+          href: ../project-operations/time/time-entry-overview.md
+        - name: Időbejegyzés létrehozása
+          items:
+            - name: 'Foglalások, hozzárendelések és naptárbejegyzések importálása'
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: Felhasználói felület működése
+              href: ../project-operations/time/ui-behavior.md
+        - name: Időbejegyzések elküldése
+          href: ../project-operations/time/submit-time-entries.md
+        - name: Időbejegyzések visszavonása
+          items:
+            - name: Jóváhagyás előtt
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: Jóváhagyás után
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: Időbejegyzések jóváhagyása
+          href: ../project-operations/time/approvals.md
+        - name: Fejlesztői jegyzetek
+          items:
+            - name: Időbejegyzések kiterjesztése
+              href: ../project-operations/time/extending-time-entries.md
+            - name: A heti időbejegyzési rács testreszabása
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: Biztonsági szempontok
+              href: ../project-operations/time/security-considerations.md
+    - name: Költség
+      items:
+        - name: Költség kezdőlap
+          href: ../project-operations/expense/expense-overview.md
+        - name: Költségbejegyzés
+          href: expense-entry.md
+    - name: Jóváhagyások
+      items:
+        - name: Áttekintés
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: Időbejegyzések jóváhagyása
+          href: approvals/approving-time-entries.md
+        - name: Költségbejegyzések jóváhagyása
+          href: approve-expense-entries.md
+    - name: Proforma számlázás
+      items:
+        - name: Számlaütemezés létrehozása
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: Kézi proforma számla létrehozása
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Proforma számla kezelése
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: Proforma számla megerősítése
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: Helyesbítő számlák
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: Automatikus számla létrehozásának konfigurálása
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md

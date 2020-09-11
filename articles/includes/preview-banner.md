@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> A cikkben ismertetett funkció az előzetes verzió részeként áll rendelkezésre a megcélzott felhasználók számára. A tartalom és a funkciók tekintetében a változtatás jogát fenntartjuk. Az előzetes verzióval kapcsolatos további tudnivalókért lásd: [One Version szolgáltatásfrissítés – GYIK](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
