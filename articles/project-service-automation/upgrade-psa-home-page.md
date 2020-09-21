@@ -1,0 +1,66 @@
+---
+title: A kezdőlap frissítése
+description: Ez a témakör azt mutatja, hogy hol találja a fontos információkat az új és módosult funkciókról a Dynamics 365 Project Service Automation rendszerben, és a folyamatot a legújabb verzióra történő frissítéshez.
+manager: kfend
+ms.service: business-applications
+ms.custom:
+- dyn365-projectservice
+ms.date: 05/30/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: Dynamics 365 for Project Service 3.x
+author: rumant
+ms.assetid: c92d0849-e40c-4a56-9719-34030fbf5991
+ms.author: rumant
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 55f544636f39fc4faae06fdd512f859800bb7b44
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3752261"
+---
+# <a name="upgrade-home-page"></a>A kezdőlap frissítése
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+## <a name="upgrade-from-psa-version-2x-or-1x-to-version-3x"></a>Frissítés a PSA 2.x vagy 1.x verziójáról a 3.x verzióra
+
+### <a name="new-instances"></a>Új példányok
+
+2019. május 17-től, amikor egy új példány létesítésekor a Project Service Automation van kiválasztva, az alapértelmezés szerint a 3.x verzió kerül telepítésre.
+
+### <a name="existing-instances"></a>Meglévő példányok
+
+Korábban azoknak az ügyfeleknek, akiknek PSA 2.x verziója volt, és frissíteniük kellett a 3.x verzióra, amely a PSA Unified Client Interface (UCI) verziója, fel kellett venniük a kapcsolatot a Microsoft ügyfélszolgálatával, és meg kell adniuk a részleteket a saját példányukkal kapcsolatosan, hogy az ügyfélszolgálat lehetővé tegye a példány frissítését a 3.x verzióra. 2020. március 1. után az ügyfelek, akik a PSA 2. x-es verziójával rendelkeznek, és frissíteniük kell a 3. x verzióra, közvetlenül a felügyeleti portálról frissíthetik a példányaikat, és nem kell kapcsolatba lépniük a Microsoft ügyfélszolgálatával.  
+
+> [!NOTE]
+> A PSA 3.x verziója jelentős változtatásokat tartalmaz. A továbbfejlesztett felhasználói élmény biztosítása érdekében az egységes interfész keretére épült. Az átalakított alkalmazás következetes, egységes felhasználói felületet (UI) biztosít, és reagáló tervezési elveket követ az optimális megtekintéshez bármilyen képernyőméretben vagy eszközön. Az alkalmazás egészében más változások is történtek. Néhány megváltozott terület magában foglalja az árazást, az erőforrások, az idő, a költségek és a jóváhagyások elrendelését és hozzárendelését.
+
+A frissítési folyamat megkezdése előtt javasoljuk, hogy hajtsa végre a következő feladatokat:
+
+- Ellenőrizze, hogy a Dynamics 365 Field Service és a Project Service Automation telepítve vannak-e az azonosított példányon. Ha mindkét megoldás telepítve van, akkor a példa rendszeres használatának folytatása előtt terveznie kell mindkettő frissítését.
+- Gondosan olvassa át a következő témákat. A verziók közötti változások ismerete és megértése segít a frissítési folyamatban. Ezek a témák információkat tartalmaznak a PSA jelentős változásairól, valamint a 3.x verzióra történő frissítés megfontolásairól és ajánlásairól.
+
+    - [Újdonságok és változások a Project Service Automation 3. verziójában](whats-new-changed-v3.md)
+    - [Frissítési szempontok - A Project Service Automation 2.x vagy 1.x verziója a 3. verzióra](upgrade-v3.md)
+
+- Frissítse a sandbox példányát a megvalósításban bekövetkező változások értékeléséhez, mielőtt frissítené a termelési példányt.
+
+Miután áttekintette a korábban említett témákat, és készen áll a PSA 3.x vagy UCI-alapú verzióra való frissítésre, kérje a Microsoft támogatását, hogy a frissítést elérhetővé tegye az adminisztrációs központból. Kérésében adja meg a példány részleteit.
+
+## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>A PSA régebbi verziói (PSA 2.x verzió) egy újonnan létrehozott példányban
+
+2019. május 17-től minden új példányon UCI lesz az alapértelmezett ügyfél. A változáshoz való hozzáigazításhoz a PSA 3.x és a Field Service 8.x verziója alapértelmezés szerint lesz biztosítva, mivel ezeket a verziókat úgy tervezték, hogy az UCI klienssel működjenek.
+
+2020. március 1-től a Dynamics PSA ügyfelei a továbbiakban nem tudnak új környezetet létrehozni a PSA régebbi verzióival, például a PSA 2. x vagy régebbi verziójával. Minden új környezet csak a PSA 3.X verziójában hozható létre.
+
+> [!NOTE]
+> A legjobb élmény érdekében, ha a Field Service és a PSA alkalmazások régebbi verzióit használja, keresse meg a **Rendszerbeállítások** oldalt és a mezőnél használja a **Csak az új egységes interfész használata (ajánlott)** mezőt, válassza a **Nem** lehetőséget, mivel ezek a verziók nem úgy vannak megtervezve, hogy megfelelően letöltsék az UCI-t. Az UCI kikapcsolása után a régi web kliens használatával megnyithatja és futtathatja a Field Service és a PSA ezeket a verzióit. Az UCI-kliens kikapcsolásáról lásd: [Csak az egységes felület engedélyezése](../admin/enable-unified-interface-only.md).
