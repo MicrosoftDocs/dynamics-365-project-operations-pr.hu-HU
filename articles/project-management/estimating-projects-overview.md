@@ -1,31 +1,21 @@
 ---
-title: A projektek becslése kezdőlapja
+title: Becslésprojektek áttekintése
 description: Ez a témakör a Dynamics 365 Project Operations becsléseiről nyújt információkat.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 10/06/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3e321212cd0714b1b901c083db8d31eb4bdf8b47
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: ruhercul
+ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
+ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897904"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968046"
 ---
-# <a name="estimating-projects-home-page"></a>A projektek becslése kezdőlapja
+# <a name="estimate-projects-overview"></a>Becslésprojektek áttekintése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
