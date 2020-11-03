@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078024"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál
 
@@ -29,8 +29,8 @@ A Project Operations ellenőrzi, hogy csak a numerikus vagy a numerikus adattíp
 
 Például a Dynamics 365 Sales a következő tulajdonságokkal rendelkezik:
 
-- **Felhasználók száma**: A felhasználók száma
-- **Hónapok száma**: Az előfizetési hónapok száma
+- **Felhasználók száma** : A felhasználók száma
+- **Hónapok száma** : Az előfizetési hónapok száma
 - **Termék cikkszáma**
 
 A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhetők mennyiségi tényezőként a terméksor tulajdonságainak szerkesztésével.

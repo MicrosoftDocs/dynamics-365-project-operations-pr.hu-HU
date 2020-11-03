@@ -3,17 +3,17 @@ title: Regisztráció az előzetes verziós előfizetésre
 description: Ez a témakör a Project Operations Lite telepítés – ajánlattól proforma számlázásig alkalmazásra való regisztrálással és annak telepítésével kapcsolatos információkat tartalmaz.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948909"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077955"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Regisztrálás a Lite telepítés – ajánlattól proforma számlázásig előzetes verziós előfizetésére
 
@@ -26,84 +26,42 @@ Ez a témakör a Dynamics 365 Project Operations Lite telepítés – ajánlatt�
 
 - Kapni fog egy e-mailt, amely meghívja, hogy részt vegyen az előzetes verzióban. Előzetes verziót kérhet a [Project Operations webhelyén](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Az előzetes verziót telepítő felhasználónak Azure-bérlői globális rendszergazdai jogosultsággal kell rendelkeznie.
-- Az előzetes verziót telepítő felhasználónak meg kell adnia egy telefonszámot és egy érvényes hitelkártyát. A regisztráció során hat hónapig nem terheljük meg a kártyát. Hat hónap elteltével le kell mondania az előfizetést. 
 - Tekintse át az összes általános szerződési feltételt.
 
 ## <a name="subscribe"></a>Feliratkozás
 
 Amikor megkapja az [előzetes verzióra vonatkozó kérelem](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) jóváhagyását, e-mailben két ajánlatot kap a Microsofttól. Ez lehetővé teszi, hogy telepítse a Project Operations előzetes verzióját:
 
-- Dynamics 365 Customer Service előzetes próbaverzió – egyszer használatos kód
-- Dynamics 365 Project Operations – előzetes próbaverzió
+- Dynamics 365 Project Operations (CRM) – Előzetes próbaverzió
+- Office 365 Project Operations – Előzetes próbaverzió
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Dynamics 365 Customer Service fizetett ajánlat
+> [!IMPORTANT]
+> A szervezetnél csak egy személynek, a bérlői rendszergazdának kell elvégeznie ezt a feladatot. Ha nem Ön ennek a kiadásnak az előfizetője, várjon, amíg a szervezete regisztrálva lesz, és megkapta a felhasználói hitelesítő adatokat.
 
-1. Privát/inkognitó böngésző használatával kiválthatja az első ajánlati kódot a Dynamics 365 Customer Service termékhez. A Customer Service alkalmazásra való regisztrációhoz a következők szükségesek:
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Előzetes próbaverzió 
 
-- Egy telefonszám
-- Egy hitelkártya. Amikor regisztrál, hat hónapig nem terheljük meg a kártyát. Hat hónap elteltével le kell mondania az előfizetést.
-- Tekintse át az összes általános szerződési feltételt.
+Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelentkezzen be a böngészőbe abban a bérlőben, ahol a Project Operations előzetes verzióját szeretné használni.
 
-2. Adja meg a kapcsolattartási adatait.
+1. Váltsa be az első **Dynamics 365 Project Operations (CRM) – előzetes próbaverzió** ajánlatkódját a böngésző URL-mezőjébe történő beillesztéssel.
 
-![Kapcsolatinformáció](./media/1ContactInformation.png)
+![Ajánlat beváltása](./media/16RedeemFirstOfferNew.png)
 
-3. Adja meg az új bérlő adatait.
+2. Hagyja jóvá a megrendelést.
+![Ellenőrizze a sorrendet](./media/17ConfirmOrderNew.png)
 
-![Felhasználói azonosító létrehozása](./media/2CreateUserID.png)
+A megerősítő ajánlat sikeres beváltását láthatja.
 
-4. Igazolja a személyazonosságát, mentse az új felhasználói azonosítót, majd válassza a **Beállítás** lehetőséget.
+![Jóváhagyás](./media/18OrderConfirmationNew.png)
 
-![Adatok mentése](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Előzetes próbaverzió
 
-5. Végezze el a hitelkártya regisztrálását, és tekintse át az összes általános szerződési feltételt. 
-
-![Hitelkártyaadatok kitöltése](./media/4CompleteCreditCard.png)
-
-![Fizetés hitelkártyával](./media/5CreditCardCheckout.png)
-
-![Megrendelés mentése](./media/6SaveOrder.png)
-
-![Hitelkártya megerősítése](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>A Dynamics 365 Customer Service Enterprise ajánlat lemondása
-
-A Dynamics 365 Customer Service Enterprise ajánlat hat hónapig ingyenes. Az ajánlat a hat hónapos időszak végén teljes áron megújítható. A megújítási dátum előtti lemondáshoz hajtsa végre az alábbi utasításokat. 
-
-> [!NOTE]
-> A lépések végrehajtása után a továbbiakban nem fogja tudni használni a Project Operations nyilvános előzetes verziós környezetet.
-
-1. Nyissa meg a [Felügyeleti portált](https://admin.microsoft.com/), és a **Számlázás** alatt válassza ki a **Saját termékek** lehetőséget.
-
-![Felügyeleti portál, Saját termékek oldal](./media/8AdminPortal.png)
-
-2. Válassza a **Dynamics 365 Customer Service Enterprise ajánlat** lehetőséget.
-
-![Előfizetés lemondása](./media/9CancelSubscription.png)
-
-3. Válassza a **Beállítások** > **Műveletek** > **Előfizetés lemondása** lehetőséget.
-4. Az **Előfizetés lemondása** űrlapon adja meg az adatokat a kötelező mezőkben.
-5. Válassza a **Lemondás** > **Előfizetés** lehetőséget.
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Előzetes próbaverzió
-
-1. Váltsa ki a második ajánlatot, a Dynamics 365 Project Operations próbaverzióját az üdvözlő e-mailben megadott URL-címmel.
-
-![2. ajánlat beváltása](./media/10RedeemOffer2.png)
-
-2. Ellenőrizze, hogy olyan felhasználóként van-e bejelentkezve, aki ugyanahhoz a szervezethez tartozik, amely az első ajánlat kódjával előfizetett, majd folytassa az ajánlat beváltását. 
-3. Válassza az **Igen, hozzáadás a fiókomhoz** lehetőséget.
-
-![Hozzáadás a fiókhoz](./media/11AddToAccount.png)
-
-![Kipróbálás most képernyő](./media/12TryNow.png)
-
-![Megrendelés adatai](./media/13Confirmation.png)
+Ismételje meg ugyanazokat a lépéseket, mint az első ajánlatkóddal. Ügyeljen arra, hogy a második ajánlatkódot ugyanazzal a felhasználói fiókkal adja hozzá, amelyet az első ajánlatkódhoz használt.
 
 ## <a name="assign-licenses"></a>Licencek hozzárendelése
 
 > [!IMPORTANT]
-> A következő lépések végrehajtásához rendszergazdai hozzáféréssel kell rendelkeznie a szervezete Office 365-portáljához.
+> A következő lépések végrehajtásához rendszergazdai hozzáféréssel kell rendelkeznie a szervezete Microsoft 365-portáljához.
+
 
 1. Nyissa meg a [Microsoft 365 felügyeleti központot](https://portal.office.com/), és rendelje hozzá a licenceket a felhasználókhoz.
 
@@ -113,11 +71,22 @@ A Dynamics 365 Customer Service Enterprise ajánlat hat hónapig ingyenes. Az aj
 
 ![Licencek hozzárendelése](./media/15AssignLicenses.png)
 
-3. Ellenőrizze, hogy a **Customer Service Enterprise** és a **Project operations** licenc ki van-e jelölve, majd válassza a **Módosítások mentése** lehetőséget.
+3. Ellenőrizze, hogy a **Dynamics 365 Project Operations (CRM) előzetes verzió** és az **Office 365 Project Operations - előzetes verzió** licencei ki legyenek választva majd válassza a módosítások mentése lehetőséget. 
+4. Válassza a **Módosítások mentése** lehetőséget.
 
 ## <a name="create-a-new-cds-environment"></a>Új CDS-környezet létrehozása
 
-Építsen ki új Project Pperations CDS-telepítési környezetet a [CDS telepítési modell](lite-deployment.md) utasításait követve.
+1. Építsen ki új Project Pperations CDS-telepítési környezetet a [CDS telepítési modell](lite-deployment.md) utasításait követve. A környezet típusának kiválasztása esetén ügyeljen arra, hogy a **Próba (előfizetés alapú)** változatot használja.
+![Új környezet](./media/19CreateEnvironment.png)
+
+2. Válassz a **Dynamics 365-alkalmazások engedélyezése** beállítást, és hagyja üresen az **Alkalmazások automatikus telepítése** jelölőnégyzetet.  
+3. Válassza ki a **Mentés** gombot a környezet létrehozásához.
+
+![Adatbázis hozzáadása](./media/20CreateEnvironment1.png)
+
+4. A környezet létrehozása után telepítse a **Microsoft Dynamics 365 Project Operations** megoldást. 
+
+![Megoldás telepítése](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-konfiguráció telepítése és a beállítási bemutató adatok alkalmazása
 

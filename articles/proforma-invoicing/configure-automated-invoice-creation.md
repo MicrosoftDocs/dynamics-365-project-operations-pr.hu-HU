@@ -1,38 +1,29 @@
 ---
-title: Automatikus számla létrehozásának konfigurálása
+title: Automatikus számlalétrehozás konfigurálása
 description: Ez a témakör a rendszer számlák automatikus létrehozásához történő konfigurálásáról tartalmaz információkat.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 764fd4568619e4f5676ee3cbf7fce14ffb069548
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 4e7572f2bc6201960ac01ce521adf39ac2577dbe
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898129"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077985"
 ---
-# <a name="configure-automated-invoice-creation"></a>Automatikus számla létrehozásának konfigurálása
+# <a name="configure-automatic-invoice-creation"></a>Automatikus számlalétrehozás konfigurálása
 
-_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
+_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ha automatikus számla futtatását szeretnó konfigurálni a Project Operations alkalmazásban, hajtsa végre a következő lépéseket.
 
-1. Lépjen a **Beállítások** \> **Kötegelt feladatok** menüpontra.
-2. Hozzon létre egy kötegelt feladatot, és adja neki a **Project operations számlák létrehozása** nevet. A kötegelt feladat nevének tartalmaznia kell a „számlák létrehozása” kifejezést.
+Ha automatikus számla futtatását szeretnó konfigurálni a Dynamics 365 Project Operations alkalmazásban, hajtsa végre a következő lépéseket.
+
+1. Lépjen a **Beállítások** > **Kötegelt feladatok** menüpontra.
+2. Hozzon létre egy kötegelt feladatot, és adja neki a **Project operations számlák létrehozása** nevet. A kötegelt feladat nevének tartalmaznia kell a „számlák létrehozása” szavakat.
 3. A **Feladat típusa** mezőben válassza a **Nincs** lehetőséget. Alapértelmezés szerint a **Napi gyakoriság** és az **Aktív** opciók értéke **Igen**.
 4. Válassza a **Munkamenet futtatása** lehetőséget. A **Rekord keresése** párbeszédpanelen három munkafolyamatot láthat:
 
@@ -43,7 +34,8 @@ Ha automatikus számla futtatását szeretnó konfigurálni a Project Operations
 5. Válassza a **ProcessRunCaller** elemet, majd a **Hozzáadás** lehetőséget.
 6. A következő párbeszédpanelen válassza az **OK** lehetőséget. Az **Alvás** munkafolyamatot egy **Folyamat** munkafolyamat követi.
 
-    Az 5. lépésben a **ProcessRunner** lehetőséget is választhatja. Ezt követően, ha az **OK** lehetőséget választja, a **Folyamat** munkafolyamatot egy **Alvás** munkafolyamat követi.
+  > [!NOTE]
+  > Az 5. lépésben a **ProcessRunner** lehetőséget is választhatja. Ezt követően, ha az **OK** lehetőséget választja, a **Folyamat** munkafolyamatot egy **Alvás** munkafolyamat követi.
 
 A **ProcessRunCaller** és a **ProcessRunner** munkafolyamatok számlákat hoznak létre. **A ProcessRunCaller** munkafolyamat meghívja a **ProcessRunner** munkafolyamatot. A **ProcessRunner** az a munkafolyamat, amely ténylegesen létrehozza a számlákat. Végighalad az összes szerződési soron, amelyhez számlákat kell létrehozni, és számlákat hoz létre ezekre a sorokhoz. Azon szerződési sorok meghatározásához, amelyekhez számlákat kell létrehozni, a feladat megvizsgálja a szerződési sorok számlafuttatási dátumait. Ha az adott szerződéshez tartozó szerződési sorok egyazon számlafuttatási dátummal rendelkeznek, a tranzakciók egyetlen számlába kerülnek egyesítésre, amely két számlasorral fog rendelkezni. Ha nincsenek tranzakciók a számlák létrehozására, akkor a feladat kihagyja a számla létrehozását.
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078004"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projektárajánlatok létrehozása lehetőségekből
 
@@ -55,4 +55,4 @@ A meglévő árajánlatok a lehetőséghez csatolhatók. Hajtsa végre az alább
 
    Ha a lehetőséget ebbe a fázisba helyezi, akkor ezt az árajánlatot a lehetőséghez társított árajánlatok listájából választhatja ki. Az árajánlat kiválasztása azt jelzi, hogy továbbhalad vele.
 
-   A lehetőséghez kapcsolódó összes egyéb árajánlat továbbra is elérhető lesz, és mindaddig aktív marad, amíg az egyiket el nem nyerik. Az értékesítési folyamatot visszahelyezheti az előző (**Minősítés**) fázisba, és másik ajánlatot választhat ki, amellyel továbbléphet.
+   A lehetőséghez kapcsolódó összes egyéb árajánlat továbbra is elérhető lesz, és mindaddig aktív marad, amíg az egyiket el nem nyerik. Az értékesítési folyamatot visszahelyezheti az előző ( **Minősítés** ) fázisba, és másik ajánlatot választhat ki, amellyel továbbléphet.

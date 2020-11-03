@@ -1,28 +1,200 @@
 ---
-title: Proforma számla jóváhagyása
+title: Proforma számla megerősítése
 description: Ez a témakör a proforma számlák jóváhagyását ismerteti.
 author: rumant
 manager: AnnBe
-ms.date: 06/21/2020
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be6b8efe7afb4d78cda6864baaa687a9c005117a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896059"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077937"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Proforma számla jóváhagyása
+# <a name="confirm-a-proforma-invoice"></a>Proforma számla megerősítése
+
+_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
+
+A proforma számla megerősítését követően a projektszámla- frissítések állapota **Megerősítve** lesz. A számla megerősítését követően csak olvasható lesz. Ezután a számla csak akkor helyesbíthető, ha ügyfél által kezdeményezett helyesbítések vagy jóváírások vannak, vagy ha kifizetettként van megjelölve.
+
+A következő táblázat a rendszer által létrehozott tényleges adatokat sorolja fel. A rendszer ezeket a tényleges adatokat akkor hozza létre, amikor bizonyos műveleteket végrehajtanak a projekt vázlat állapotú számláján a jóváhagyás előtt.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="416" valign="top">
+                <p>
+                    <strong>Forgatókönyv</strong>
+                </p>
+            </td>
+            <td width="608" valign="top">
+                <p>
+                    <strong>A jóváhagyáskor létrehozott tényleges adatok</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Az időtranzakciók számlázása szerkesztés nélkül vázlat állapotú számlára.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés összegének sztornírozása az eredeti jóváhagyási időpontra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Számlázott tényleges értékesítés összegének sztornírozása az eredeti jóváhagyási időpontra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+A mennyiség csökkentéséhez módosított időtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés összegének sztornírozása az eredeti jóváhagyási időpontra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható az órákhoz és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely nem felszámítható a fennmaradó órákhoz a javított értékek levonását követően és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+A mennyiség növeléséhez módosított időtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés összegének sztornírozása az eredeti jóváhagyási időpontra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható az órákhoz és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Az költségtranzakciók számlázása szerkesztés nélkül vázlat állapotú számlára.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés mennyiségének és összegének sztornírozása az eredeti költségjóváhagyásra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Számlázott tényleges értékesítés mennyiségéhez és összegéhez az eredeti költségjóváhagyásra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+A mennyiség csökkentéséhez módosított költségtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés mennyiségének és összegének sztornírozása az eredeti költségjóváhagyásra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely nem felszámítható a fennmaradó mennyiséghez a javított értékek levonását követően és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+A mennyiség növeléséhez módosított költségtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés mennyiségének és összegének sztornírozása az eredeti költségjóváhagyásra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Díj számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nem számlázott értékesítés díjösszegének sztornírozása az naplósoron.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Számlázott tényleges értékesítés mennyiségéhez és összegéhez az eredeti díj naplósorán.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Mérföldkő számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Számlázott tényleges értesítés a projektszerződés eredeti mérföldkövén a mérföldkő mennyiségéhez.
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

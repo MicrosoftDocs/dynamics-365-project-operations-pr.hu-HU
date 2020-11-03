@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077943"
 ---
 # <a name="project-tracking-overview"></a>Projekt nyomon követésének áttekintése
 
@@ -25,10 +25,10 @@ Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükséges
 
 A tevékenység **Nyomon követése** nézet nyomon követi a feladatok előrehaladását az ütemezésben, és összehasonlítja a feladat tervezett munkaidejét a feladatra fordított tényleges munkaórákkal. A Dynamics 365 Project Operations a következő képleteket használja a követési metrikák kiszámításához:
 
-- **Haladás százaléka**: Az eddig elvégzett tényleges erőfeszítés + teljes becslés (EAC) 
+- **Haladás százaléka** : Az eddig elvégzett tényleges erőfeszítés + teljes becslés (EAC) 
 - **Teljes becslés (ETC)** Tervezett erőfeszítés – A ténylegesen elvégzett erőfeszítés eddig 
-- **Teljes becslés (EAC)**: Fennmaradó erőfeszítés + Eddig elvégzett tényleges erőfeszítés 
-- **Tervezett erőfeszítés szórása**: Tervezett erőfeszítés – EAC
+- **Teljes becslés (EAC)** : Fennmaradó erőfeszítés + Eddig elvégzett tényleges erőfeszítés 
+- **Tervezett erőfeszítés szórása** : Tervezett erőfeszítés – EAC
 
 A Project Operations a feladat erőfeszítés-varianciájának előrejelzését mutatja. Ha az EAC meghaladja a tervezett erőfeszítéseket, akkor a feladat várhatóan több időt vesz igénybe, mint az eredetileg tervezték, és elmarad az ütemtervtől. Ha az EAC kevesebb, mint a tervezett erőfeszítés, akkor a feladat várhatóan kevesebb időt vesz igénybe, mint az eredetileg tervezték, és előrehaladottabb állapotban van az ütemtervhez képest.
 
@@ -62,8 +62,8 @@ A **Költségkövetés** nézet összehasonlítja a feladat tényleges költség
 
 - **Felhasznált költség százalékos aránya** A mai napig ténylegesen elköltött költség ÷ A becsült költség befejezéskor
 - **Teljes költség (CTC)** Tervezett költség – A mai napig ténylegesen elköltött költség
-- **EAC**: Fennmaradó költség + Eddig elköltött aktuális költség
-- **Tervezett költség szórás**: Tervezett költség – EAC
+- **EAC** : Fennmaradó költség + Eddig elköltött aktuális költség
+- **Tervezett költség szórás** : Tervezett költség – EAC
 
 A feladaton látható a költségváltozás vetülete. Ha az EAC meghaladja a tervezett költségeket, akkor a feladat várhatóan többet fog fizetni, mint az eredetileg tervezték. Ezért a költségvetés fölé emelkedik. Ha az EAC kevesebb, mint a tervezett költség, akkor a feladat várhatóan kevesebbre kerül, mint az eredetileg tervezték. Ezért a költségvetés keretein belül növekszik.
 

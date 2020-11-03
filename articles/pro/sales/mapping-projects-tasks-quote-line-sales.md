@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077984"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektek és feladatok leképezése egy projektalapú árajánlatsorba
 

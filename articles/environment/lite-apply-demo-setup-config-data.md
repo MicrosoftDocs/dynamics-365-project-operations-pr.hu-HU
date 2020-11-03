@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948907"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077957"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>A bemutató beállítás és a konfigurációs adatok alkalmazása a Project Operations Lite Lite telepítés – ajánlattól proforma számlázásig alkalmazásra
 
@@ -25,7 +25,7 @@ _**Lite telepítés – ajánlattól proforma számlázásig_
 
 ![Konfiguráció-áttelepítés](./media/1ConfigurationMigration.png)
 
-4. A CMT varázsló 2. oldalán jelölje ki az **Office 365** lehetőséget a **Telepítési típus** értékeként.
+4. A CMT varázsló 2. oldalán jelölje ki a **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
 5. Jelölje be az **Elérhető szervezetek listájának megjelenítése** és a **Speciális megjelenítése** jelölőnégyzeteket.
 6. Válassza ki a bérlő régióját, adja meg a hitelesítő adatait, majd válassza a **Bejelentkezés** lehetőséget.
 

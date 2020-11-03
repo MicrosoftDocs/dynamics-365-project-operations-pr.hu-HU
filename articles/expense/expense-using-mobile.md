@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897049"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078094"
 ---
 # <a name="expense-using-mobile"></a>Költségkezelés mobillal
 
@@ -198,7 +197,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 18. Ha a vállalati szabályzat értelmében vendégeket kell csatolni a költséghez, akkor válassza a **Vendégek** lehetőséget, majd hajtsa végre a következő lépéseket:
 
-    1. Válassza a **Vendég**, a **Korábbi vendégek** vagy a **Munkatársak** lehetőséget.
+    1. Válassza a **Vendég** , a **Korábbi vendégek** vagy a **Munkatársak** lehetőséget.
     2. Hajtsa végre az alábbi lépések egyikét:
 
         - Ha a **Vendég** lehetőséget választotta, hajtsa végre az alábbi lépéseket:

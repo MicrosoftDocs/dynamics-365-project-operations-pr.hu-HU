@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ad85262482f782391eca85f46ca0e63a887c89f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896106"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4078322"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Kézi proforma számla létrehozása
 
-_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
+_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 A számlázás használata esetén a projektvezetők egy második szintű jóváhagyást kapnak, mielőtt elkészítik a számlákat az ügyfelek számára. Az első szintű jóváhagyás akkor fejeződik be, amikor a projektcsoport tagjai által benyújtott idő- és költségbejegyzéseket jóváhagyják.
 

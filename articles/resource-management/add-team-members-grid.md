@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077970"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Csapattagok hozzáadása a Csapattag rácsból
 
@@ -21,9 +21,9 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A Dynamics 365 Project Operations tartalmaz egy erőforrás-kezelő irányítópultot, amely vizuális áttekintést nyújt az erőforrásigényről és -felhasználásról a szervezet egészében. Az irányítópult diagramjait felhasználhatja a következő információk megjelenítésére:
 
-- **Erőforrásigény**: Az **Aktív erőforrásigény** azokat a erőforrásokat mutatja, amelyeket benyújtottak. Az erőforrásokat szerepkör vagy projekt szerint összesíti.
-- **Nem benyújtott erőforrásigény**: A **Hozzá nem rendelt erőforrásigény** ábra az összes, még nem benyújtott erőforrásigényt mutatja. Ez a diagram segít az erőforrás-kezelőknek megtekinteni a nem biztos igényeket, amelyeket erőforráskéréssel nyújthatnak be.
-- **Számlázható felhasználás az elmúlt héten**: A **Használat szerep szerint** táblázat mutatja a szervezet tényleges számlázható felhasználásának százalékos arányát a szerepenkénti számlázandó felhasználás százalékában.
+- **Erőforrásigény** : Az **Aktív erőforrásigény** azokat a erőforrásokat mutatja, amelyeket benyújtottak. Az erőforrásokat szerepkör vagy projekt szerint összesíti.
+- **Nem benyújtott erőforrásigény** : A **Hozzá nem rendelt erőforrásigény** ábra az összes, még nem benyújtott erőforrásigényt mutatja. Ez a diagram segít az erőforrás-kezelőknek megtekinteni a nem biztos igényeket, amelyeket erőforráskéréssel nyújthatnak be.
+- **Számlázható felhasználás az elmúlt héten** : A **Használat szerep szerint** táblázat mutatja a szervezet tényleges számlázható felhasználásának százalékos arányát a szerepenkénti számlázandó felhasználás százalékában.
 
     > [!NOTE]
     > A **Használat szerep szerint** diagram elérhetővé tételéhez hozzon létre egy munkát, amely futtatja az **UpdateRoleUtilization** munkafolyamatot. Ez az ismétlődő munka hét naponként fut, hogy kiszámítsa a számlázható felhasználást az előző hét napra. Az eredményeket szerep szerint csoportosítják.
@@ -36,9 +36,9 @@ A projektmenedzserek az erőforrás-kezelő irányítópultját használhatják 
 
 Csapattag közvetlen hozzáadásához a projekthez a **Projektek** űrlapon, a **Csapat** lapon válassza az **Új** lehetőséget. Megjelenik a **Gyors létrehozás: Projektcsapattag** párbeszédpanel. Ezen a párbeszédpanelen a következő feladatokat hajthatja végre:
 
-- **Megnevezett erőforrás foglalása**: A **Foglalható erőforrás** mezőben válassza ki az erőforrás nevét. Ezután válassza ki a szerepet, állítsa be az időszakot, és válassza ki az allokációs módszert. A kiválasztott megnevezett erőforrás hozzáadódik a projekthez a kiválasztott elosztási módszer és az erőforrásnaptár használatával.
-- **Általános erőforrás hozzáadása**: Hagyja üresen a **Foglalható erőforrás** mezőt, majd válassza ki a szerepet, állítsa be az időszakot, és válassza ki a preferált allokációs módszert. Az általános erőforrások helyőrzőként kerülnek hozzáadásra a csoporthoz. A helyőrző tartalmazza az igénymintát, amely az elnevezett erőforrások lefoglalására szolgál a csoporton. A követelményt a projekt naptárának megfelelően kell megtenni.
-- **Adjon meg egy elnevezett erőforrást a csapatnak erőforrás-kapacitás felhasználása nélkül**: A **Foglalható erőforrás** mezőben válassza ki az erőforrást. Válassza ki az időszakot, majd válassza a **Nincs** lehetőséget allokációs módszerként. Az erőforrás hozzáadódik a csapathoz, de az erőforrás kapacitása nem merül fel a foglalás során.
+- **Megnevezett erőforrás foglalása** : A **Foglalható erőforrás** mezőben válassza ki az erőforrás nevét. Ezután válassza ki a szerepet, állítsa be az időszakot, és válassza ki az allokációs módszert. A kiválasztott megnevezett erőforrás hozzáadódik a projekthez a kiválasztott elosztási módszer és az erőforrásnaptár használatával.
+- **Általános erőforrás hozzáadása** : Hagyja üresen a **Foglalható erőforrás** mezőt, majd válassza ki a szerepet, állítsa be az időszakot, és válassza ki a preferált allokációs módszert. Az általános erőforrások helyőrzőként kerülnek hozzáadásra a csoporthoz. A helyőrző tartalmazza az igénymintát, amely az elnevezett erőforrások lefoglalására szolgál a csoporton. A követelményt a projekt naptárának megfelelően kell megtenni.
+- **Adjon meg egy elnevezett erőforrást a csapatnak erőforrás-kapacitás felhasználása nélkül** : A **Foglalható erőforrás** mezőben válassza ki az erőforrást. Válassza ki az időszakot, majd válassza a **Nincs** lehetőséget allokációs módszerként. Az erőforrás hozzáadódik a csapathoz, de az erőforrás kapacitása nem merül fel a foglalás során.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Csapattag lefoglalása az általános erőforrás erőforrásigényének teljesítéséhez
 
@@ -48,10 +48,10 @@ Kövesse ezeket a lépéseket a fejlesztői általános erőforráshoz szükség
 
 1. A **Projektek** űrlapon, a **Csapat** lapon válassza az **Új** lehetőséget egy általános forrás lefoglalásához.
 2. A **Minden csapattag** nézetben, az **Erőforrásigény** oszlopban válassza ki a hivatkozást a szükséges készségek hozzáadásához az általános erőforráshoz.
-3. A megjelenő **Erőforrásigény** űrlapon a **Tudás** rácsban válassza ki a három pontot (**...**), majd válassza az **Új igényjellemző hozzáadása** lehetőséget a szükséges képességek fejlesztőhöz való hozzáadásához.
+3. A megjelenő **Erőforrásigény** űrlapon a **Tudás** rácsban válassza ki a három pontot ( **...** ), majd válassza az **Új igényjellemző hozzáadása** lehetőséget a szükséges képességek fejlesztőhöz való hozzáadásához.
 4. A **Gyors létrehozás: Követelményjellemző** párbeszédűrlapon a **Jellemző** mezőben válassza ki a szükséges képességeket.
 5. Az **Értékelés** mezőben válassza ki az adott készséghez szükséges jártassági szintet. 
-6. Az **Erőforrásigény** mezőben állítsa be az erőforrások forrásának követelményét a szervezeti egységektől, vagy akár a megnevezett erőforrásokat is. Ha kész, válassza a **Mentés**lehetőséget.
+6. Az **Erőforrásigény** mezőben állítsa be az erőforrások forrásának követelményét a szervezeti egységektől, vagy akár a megnevezett erőforrásokat is. Ha kész, válassza a **Mentés** lehetőséget.
 7. A **Forrásigény** űrlapon válassza a **Foglalás** elemet az erőforrásigény teljesítéséhez. Kiválaszthatja az általános erőforrást a **Minden csapat tagja** rácsból, majd a **Foglalás** lehetőséget választhatja.
 
     > [!NOTE]
@@ -61,9 +61,9 @@ Kövesse ezeket a lépéseket a fejlesztői általános erőforráshoz szükség
 
    A leggyakrabban használt szűrők a következők:
 
-    - **Jellemzők és minősítés**: Szűrés készségek, igazolások és egyéb erőforrás-tulajdonságok alapján, a jártassági besoroláson felül.
-    - **Szerepek**: Szűrés az alapértelmezett szerepek szerint, amelyek a foglalható forrásokhoz vannak rendelve.
-    - **Szervezeti egységek**: Foglalható erőforrások szűrése szervezeti egységek szerint, amelyekhez hozzá vannak rendelve.
+    - **Jellemzők és minősítés** : Szűrés készségek, igazolások és egyéb erőforrás-tulajdonságok alapján, a jártassági besoroláson felül.
+    - **Szerepek** : Szűrés az alapértelmezett szerepek szerint, amelyek a foglalható forrásokhoz vannak rendelve.
+    - **Szervezeti egységek** : Foglalható erőforrások szűrése szervezeti egységek szerint, amelyekhez hozzá vannak rendelve.
 
 8. Ha nem elégedett a kezdeti keresési eredményekkel, megváltoztathatja a szűrési kritériumokat. Bontsa ki a bal oldalon a **Szűrő nézet** ablakot, majd válassza a **Keresés** lehetőséget további források kereséséhez. Az eredmények rendezésének megváltoztatásához válassza a **Rendezés** lehetőséget.
 9. Válassza ki az erőforrásokat a követelményben megadott igénynek megfelelően, a rács tetején feltüntetett módon. Törölheti a cellák kiválasztását a rácsban, és nyitva hagyhatja az erőforrás-kapacitást. Egyszerre csak egy erőforrás választható lefoglaltként.
@@ -130,10 +130,10 @@ Az alapértelmezett vagy az egyéni foglalás állapotának módosítása.
 
 A Project Operations a következő állapotokat tartalmazza:
 
-- **Törölve**: Visszavonja egy erőforrás foglalását, és felszabadítja az erőforrás kapacitását.
-- **Végleges lefoglalás**: Felhasználja az erőforrás kapacitását. A foglalás jellemzően akkor veszi fel ezt az állapotot, amikor megnyitja a **Foglalás fenntartása** panelt a **Minden csapattag** rácsból a **Projektek** űrlapon.
-- **Ideiglenes lefoglalás**: Hozzáad egy erőforrást a csapathoz, de nem használja fel az erőforrás kapacitását. Ez az állapot jelzi, hogy az erőforrást fenntartották a lehetséges munkavégzéshez, de még mindig rendelkezik kapacitással, ha más munkákhoz szükséges. Az általános erőforrás-rendelkezésre állás szempontjából a puha foglalások eltérő státusszal rendelkeznek, mint a kemény foglalások.
-- **Javasolt**: Egy erőforrás-kezelő vagy projektmenedzser erőforrásra tett javaslatát reprezentálja. A javaslatok nem használják fel egy erőforrás kapacitását, és az erőforrás nem kerül hozzáadásra a projekt csapatához. Annak érdekében, hogy az erőforrást a csapatba foglalhassák, a projektmenedzsernek el kell fogadnia a javaslatot.
+- **Törölve** : Visszavonja egy erőforrás foglalását, és felszabadítja az erőforrás kapacitását.
+- **Végleges lefoglalás** : Felhasználja az erőforrás kapacitását. A foglalás jellemzően akkor veszi fel ezt az állapotot, amikor megnyitja a **Foglalás fenntartása** panelt a **Minden csapattag** rácsból a **Projektek** űrlapon.
+- **Ideiglenes lefoglalás** : Hozzáad egy erőforrást a csapathoz, de nem használja fel az erőforrás kapacitását. Ez az állapot jelzi, hogy az erőforrást fenntartották a lehetséges munkavégzéshez, de még mindig rendelkezik kapacitással, ha más munkákhoz szükséges. Az általános erőforrás-rendelkezésre állás szempontjából a puha foglalások eltérő státusszal rendelkeznek, mint a kemény foglalások.
+- **Javasolt** : Egy erőforrás-kezelő vagy projektmenedzser erőforrásra tett javaslatát reprezentálja. A javaslatok nem használják fel egy erőforrás kapacitását, és az erőforrás nem kerül hozzáadásra a projekt csapatához. Annak érdekében, hogy az erőforrást a csapatba foglalhassák, a projektmenedzsernek el kell fogadnia a javaslatot.
 
 ### <a name="submit-resource-requests"></a>Erőforrás-kérelmek elküldése
 
@@ -190,8 +190,8 @@ A fül a projekt teljes nettó összértékét, valamint az Összesen oszlopot i
 
 Az egyes erőforrások esetében a fül kiszámítja a különbséget a csapattag foglalása és a csoporttag feladatainak összeállítása között. Ideális esetben ennek a különbségnek 0-nak (nulla) kell lennie. Más szavakkal, nem lehet különbség a foglalások és a megbízások között. A különbségek színesek és árnyaltak, hogy felhívják a figyelmet két körülményre:
 
-- **Foglalási hiány**: Akkor fordul elő, ha az erőforrás több hozzárendeléssel rendelkezik, mint a foglalások. Mivel ez a kapacitás nem volt fenntartva, a projektmenedzser javíthatja ezt a feltételt azáltal, hogy az erőforrás foglalásait kiterjeszti a hiány fedezésére.
-- **Többletfoglalások**: Akkor fordulnak elő, amikor egy erőforrást lefoglaltak a projekthez, de nem rendeltek hozzá feladatokhoz. Ez a feltétel elfogadható lehet azokban az esetekben, amikor az erőforrást a projekthez a feladat-hozzárendelés megtörténte előtt lefoglalták. Más esetekben azonban az erőforrást nem tervezik feladatokhoz rendelni. Ezekben az esetekben a projektmenedzsernek fontolóra kell vennie az erőforrás foglalásainak visszavonását, hogy a kapacitás felhasználható legyen egy másik projekthez.
+- **Foglalási hiány** : Akkor fordul elő, ha az erőforrás több hozzárendeléssel rendelkezik, mint a foglalások. Mivel ez a kapacitás nem volt fenntartva, a projektmenedzser javíthatja ezt a feltételt azáltal, hogy az erőforrás foglalásait kiterjeszti a hiány fedezésére.
+- **Többletfoglalások** : Akkor fordulnak elő, amikor egy erőforrást lefoglaltak a projekthez, de nem rendeltek hozzá feladatokhoz. Ez a feltétel elfogadható lehet azokban az esetekben, amikor az erőforrást a projekthez a feladat-hozzárendelés megtörténte előtt lefoglalták. Más esetekben azonban az erőforrást nem tervezik feladatokhoz rendelni. Ezekben az esetekben a projektmenedzsernek fontolóra kell vennie az erőforrás foglalásainak visszavonását, hogy a kapacitás felhasználható legyen egy másik projekthez.
 
 Bizonyos esetekben, ha az időt a napi szintnél magasabb szinten nézi (például a hónap szintjén), akkor az erőforrás nettó különbsége nulla lehet. Más szóval, foglalások = megbízások. Ha azonban az időt heti szinten tekinti, akkor láthatja, hogy az első héten nulla órás megbízások és 40 órás foglalások vannak, a második héten pedig 40 órás megbízások és nulla órás foglalások vannak. Összességében a foglalások és a feladatok összeegyeztethetők, de hetente különböznek.
 

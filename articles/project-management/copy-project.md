@@ -3,23 +3,23 @@ title: Projekt másolása
 description: Ez a témakör információkat nyújt a projektek másolásáról a Dynamics 365 Project Operations alkalmazásban.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908231"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078033"
 ---
 # <a name="copy-a-project"></a>Projekt másolása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations segítségével gyorsan létrehozhat új projekteket a **Projekt másolása** művelettel a **Projektek** űrlapon. Projekt másolásához jelöljön ki egy projektet, majd válassza a **Másolás** lehetőséget. A művelet a következőket másolja:
+A Dynamics 365 Project Operations segítségével gyorsan létrehozhat új projekteket a **Projekt másolása** művelet kiválasztásával a **Projektek** űrlapon. Projekt másolásához nyissa meg a másolni kívánt projektet, majd válassza a **Projekt másolása** lehetőséget. A művelet a következőket másolja:
 
 - Projekt tulajdonságai
 - A munkalebontási struktúra
@@ -58,4 +58,6 @@ Amikor egy projektcsoportot a forrásprojektből másol, az általános erőforr
 
 ## <a name="estimates"></a>Becslések
 
-A projekt másolásakor az erőforrás- és költségbecslési sorok is átkerülnek a forrásprojektből.
+A projekt másolásakor az erőforrás- és költségbecslési sorok is átkerülnek a forrásprojektből. 
+
+A projektek másolásának programozott elérésével kapcsolatos tudnivalók a [Projektsablonok fejlesztése a Projekt másolásával](dev-copy-project.md).

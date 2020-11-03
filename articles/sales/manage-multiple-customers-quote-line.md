@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965805"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077968"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Több ügyfél kezelése projektalapú árajánlatsorokon
+
+_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 A projektalapú árajánlatsorok olyan eseteket támogatnak, ahol minden árajánlatsorban szerepel azoknak az ügyfeleknek a listája, akik fizetnek érte. A projektalapú árajánlatsorban szereplő ügyfelek listája megegyező lehet az árajánlatban szereplő ügyfelek listájával. Másik lehetőségként megváltoztathatja az ügyfelek listáját is. Ha a projektárajánlat megnyerése után létre szeretné hozni a végleges projektszerződést, a program átmásolja a projektalapú árajánlatsorban szereplő ügyféllistát a megfelelő projektalapú szerződéssorra. A projektalapú árajánlatban szereplő ügyfeleket a program a projektszerződésbe másolja.
 

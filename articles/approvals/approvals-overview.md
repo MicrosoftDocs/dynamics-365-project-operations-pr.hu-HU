@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961169"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077952"
 ---
 # <a name="approvals-overview"></a>Jóváhagyások áttekintése
 
@@ -27,7 +27,7 @@ Amikor idő- vagy költségbejegyzést hoz létre és küld el, egy jóváhagyá
 ## <a name="approve-an-entry"></a>Bejegyzés jóváhagyása
 A **Jóváhagyások** űrlap lehetővé teszi a különböző nézetek közötti váltást, így a különböző típusú jóváhagyások tekinthetők meg.
   
-1. Nyissa meg a **Jóváhagyások** űrlapot, és válassza a **Kiadások**, az **Idő** vagy a **Visszahívások** lehetőséget.
+1. Nyissa meg a **Jóváhagyások** űrlapot, és válassza a **Kiadások** , az **Idő** vagy a **Visszahívások** lehetőséget.
 2. Tekintse át az egyes jóváhagyásokat, és jelölje ki a jóváhagyni kívántakat.
 3. Válassza a **Jóváhagyás** lehetőséget a kijelölt bejegyzések jóváhagyásához.
 A rendszer ezeket a bejegyzéseket feldolgozza, és tényleges adatokat vagy foglalást hoz létre.

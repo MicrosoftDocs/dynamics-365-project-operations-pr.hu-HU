@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077977"
 ---
 # <a name="security-model"></a>Biztonsági modell
 
@@ -36,10 +36,11 @@ A Project Operations előtéri szolgáltatásai a következő szerepköröket ta
 
 
 A Microsoft webes projekt a következő szerepköröket tartalmazza:
-| Szerepkör                          | Adatfolyam leírása                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projektfelhasználó | A projekt együttműködő felhasználója, aki saját projekteket hozhat létre, és megtekintheti a vele megosztott projekteket.| Felhasználó|
-| Projektrendszer | Az alkalmazáskörnyezethez használt szerepkör. Az ügyfelek nem használhatják ezt a rendszerszerepkört. | Globális|
+
+| Szerepkör           | Adatfolyam leírása                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projektfelhasználó   | A projekt együttműködő felhasználója, aki saját projekteket hozhat létre, és megtekintheti a vele megosztott projekteket. | Felhasználó   |
+| Projektrendszer | Az alkalmazáskörnyezethez használt szerepkör. Az ügyfelek nem használhatják ezt a rendszerszerepkört.                                    | Globális |
 
 ## <a name="security-enforcement"></a>Biztonsági szabályok kikényszerítése
 A projektek szintjén végrehajtott műveletek a bejelentkezett felhasználó kontextusában kerülnek végrehajtásra. Ez azt jelenti, hogy a projektek létrehozásához, megnyitásához és törléséhez a felhasználónak hozzáféréssel kell rendelkezniük a CDS-ben. A hozzáférés a CDS-ben a platform bármely lehetséges mechanizmusán keresztül megadható. A nagyobb hatókörű felhasználók például hozzáférhetnek a projekthez, vagy ha egy olyan explicit projektmegosztási műveletet hajtottak végre, amely a felhasználó számára hozzáférést biztosít.
@@ -56,6 +57,8 @@ A csoportok lehetővé teszik a projektek jogosultságait és támogatják az eg
 A Project Operations nem hoz létre csoportot implicit művelet révén, és csak a csoportok kifejezett megnyomására hajtja ezt végre.
 
 A csoport tagjainak keresése a **Csoportkezelés** párbeszédpanelen azokra korlátozódik, akik a környezet biztonsági csoportja részeként vannak beállítva. További információkért lásd: [Felhasználók hozzáférésének szabályozása a környezetekhez: biztonsági csoportok és licencek](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Csoportos mód](./media/groupsmode.png)
 
 1. A projektet a létrehozó felhasználó hozza létre és birtokolja.
 2. A projekt tulajdonosa a csoportra van frissítve.

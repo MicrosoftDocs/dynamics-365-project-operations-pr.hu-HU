@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2ebde2b3c5bcfb5faa02ee476065ac34b1953432
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078012"
 ---
 # <a name="resource-estimates"></a>Erőforrásbecslések
 

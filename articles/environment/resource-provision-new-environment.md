@@ -3,17 +3,17 @@ title: Új környezet kiépítése
 description: Ez a témakör az új Project Operations-környezet kialakításának módjával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077979"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
@@ -26,14 +26,14 @@ Ez a témakör információt nyújt arról, hogyan lehet új Dynamics 365 Projec
 A következő lépésekkel engedélyezheti az automatizált Project Operations-kiépítést az LCS-projektjéhez.
 
 1. Lépjen az [LCS](https://lcs.dynamics.com/v2) lehetőségre, és válassza az **Előnézeti funkció kezelése** csempét.
-2. Az **Előnézeti funkció** listában jelölje ki a **Project Operations** lehetőséget, majd válassza az **Előnézet funkció engedélyezve** lehetőséget a Project Operations engedélyezéséhez.
+2. Az **Előzetes funkció** listában jelölje ki a **Project Operations funkció** lehetőséget, majd válassza az **Előzetes funkció engedélyezve** lehetőséget a Project Operations engedélyezéséhez.
 
 > [!NOTE]
 > Ez a lépés csak egy alkalommal hajtható végre LCS-projektenként.
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations-környezet kiépítése
 
-1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezet](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [teszt-/éles környezet](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) telepítést. 
+1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezet](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [teszt-/éles környezet](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) telepítést. 
 2. Haladjon végig a **Környezet kiépítése** varázslón. 
 
 > [!IMPORTANT]
@@ -165,18 +165,19 @@ A frissítés megközelítőleg 20 percet vesz igénybe. A rendszer értesítés
 | **A projekt tranzakciókapcsolatainak integrációs entitása (msdyn\_transactionconnections)** | Nincs | Nincs | N. a. | Nincs | N. a. |
 | **A Project Operations integráció szerződéssor-mérföldkövei (msdyn\_contractlinesscheduleofvalues)** | Nincs | Nincs | N. a. | Nincs | N. a. |
 | **A Project Operations integrációs entitása kiadások becsléséhez (msdyn\_estimateslines)** | Nincs | Nincs | N. a. | Nincs | N. a. |
-| **A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments)** | Nincs | Nincs | N. a. | Nincs | N. a. |
+| **Project Operations integráció projektköltség-kategóriák exportálási entitása (msdyn\_expensecategories)** | Nincs | Nincs | N. a. | Nincs | N. a. |
 | **Project Operations integráció projektkiadások exportálási entitása (msdyn\_expenses)** | Igen | Nincs | N. a. | Nincs | N. a. |
 | **A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments)** | Igen | Nincs | N. a. | Nincs | N. a. |
 
+
 4. Az entitás frissítéséhez jelölje ki a leképezés nevét, majd válassza az **Entitások frissítése** lehetőséget. 
-5. A frissítés befejeződése után folytassa a leképezés futtatását.
+
 
 ![Leképezés frissítése](./media/20RefreshMapping.png)
 
-A következő leképezés engedélyezése előtt ellenőrizze, hogy a táblázatban a leképezés **Fut** állapotban van-e. A nagy számú előfeltétellel rendelkező leképezések futtatása eltarthat egy ideig.
+5. A frissítés befejeződése után futtassa a leképezést. A következő leképezés engedélyezése előtt ellenőrizze, hogy a táblázatban a leképezés **Fut** állapotban van-e. A nagy számú előfeltétellel rendelkező leképezések futtatása eltarthat egy ideig.
 
-Az előfeltételekkel rendelkező leképezés futtatásához engedélyezze a **Kapcsolódó entitásleképezések megjelenítése** kapcsolót. Ha a táblázat azt jelzi, hogy az **Előfeltétel kezdeti szinkronizálása** értéke **Nem**, ellenőrizze, hogy a **Kezdeti szinkronizálás** jelző **Ki** állapotban van-e minden előfeltétel leképezés előtt, mielőtt futtatá azokat.
+Az előfeltételekkel rendelkező leképezés futtatásához engedélyezze a **Kapcsolódó entitásleképezések megjelenítése** kapcsolót. Ha a táblázat azt jelzi, hogy az **Előfeltétel kezdeti szinkronizálása** értéke **Nem** , ellenőrizze, hogy a **Kezdeti szinkronizálás** jelző **Ki** állapotban van-e minden előfeltétel leképezés előtt, mielőtt futtatá azokat.
 
 ![Leképezés futtatása](./media/21RunMap.png)
 

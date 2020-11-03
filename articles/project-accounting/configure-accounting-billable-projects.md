@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078006"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Számlázható projektek könyvelésének konfigurálása
 
@@ -21,8 +21,8 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A Dynamics 365 Project Operations a számlázható projektek különféle könyvelési lehetőségeit támogatja, amelyek tartalmazzák a idővel és anyaggal kapcsolatos, valamint a rögzített árú tranzakciókat.
 
-- **Idővel és anyaggal kapcsolatos tranzakciók**: Ezeket a tranzakciókat a rendszer a projektnek az órák, a kiadások, a cikkek vagy a díjak fogyasztásán alapuló előrehaladása szerint számlázza. Ezek a tranzakciós költségek megfeleltethetők az egyes tranzakciók bevételeinek, és a projekt a munkafolyamat előrehaladásával kerül számlázásra. A projekt bevétele felhalmozható akkor is, amikor a tranzakció történik. A számlázás során a bevételt a rendszer felismeri, és adott esetben visszafordítja a bevételt.
-- **Rögzített árú tranzakciók**: Ezeket a tranzakciókat a projektszerződésben meghatározott számlázási ütemezés szerint kell kiszámlázni. A rögzített árú tranzakciók bevétele elismerhető a számlázásnál, vagy időszakonként kiszámítva és könyvelve, a **Teljesített szerződés** vagy a **Teljesített százalék** módszer szerint.
+- **Idővel és anyaggal kapcsolatos tranzakciók** : Ezeket a tranzakciókat a rendszer a projektnek az órák, a kiadások, a cikkek vagy a díjak fogyasztásán alapuló előrehaladása szerint számlázza. Ezek a tranzakciós költségek megfeleltethetők az egyes tranzakciók bevételeinek, és a projekt a munkafolyamat előrehaladásával kerül számlázásra. A projekt bevétele felhalmozható akkor is, amikor a tranzakció történik. A számlázás során a bevételt a rendszer felismeri, és adott esetben visszafordítja a bevételt.
+- **Rögzített árú tranzakciók** : Ezeket a tranzakciókat a projektszerződésben meghatározott számlázási ütemezés szerint kell kiszámlázni. A rögzített árú tranzakciók bevétele elismerhető a számlázásnál, vagy időszakonként kiszámítva és könyvelve, a **Teljesített szerződés** vagy a **Teljesített százalék** módszer szerint.
 
 A projekt akkor tekinthető számlázhatónak, ha egy vagy több szerződéssorral van társítva. A projektszerződéssor határozza meg, hogy milyen számlázási módszer és tranzakciótípusok engedélyezettek.
 
@@ -47,24 +47,24 @@ A következő lépések végrehajtásával hozzon létre egy új projektköltsé
 5. Bontsa ki a **Főkönyv** gyorslapot. Az ezen a lapon található mezők határozzák meg azokat a számviteli elveket, amelyeket a rendszer a Project Operations integrációs naplójának használatával naplóz, majd a Projektszámlázási javaslat segítségével számláz.
 6. Válassza ki a megfelelő adatokat a **Főkönyv** gyorslap következő mezőiben:
 
-    - **Költségek feladása – óra**:
+    - **Költségek feladása – óra** :
 
-       - *Nincs főkönyv*: Az időtranzakciók költségét a rendszer nem könyveli a főkönyvbe, amikor a Project Operations integrációs naplója kerül feladásra. A könyvelő azonban a Költségek feladása funkcióval későbbi időpontban is könyvelheti a költségeket.
-       - **Egyenleg**: Az időtranzakciók költsége a *Folyamatban lévő munka – költségértéke* főkönyvi számla típuson kerül terhelésre, valamint a *Bérlistafelosztási számlán* kerül jóváírásra a Főkönyvi feladás beállítása részben. A könyvelő a Költségek könyvelése funkció segítségével rendszeres időszakonként áthelyezi ezt a költséget egy Mérlegszámláról egy Eredményszámlára.
-       - **Eredmény**: Amikor a Project Operations integrációs naplóba történik feladás, az időtranzakció költsége terhelésre kerül a *Költség* főkönyvi számla típuson, és jóváírásra kerül a **Főkönyvi feladás beállítása** oldal (**Projektmenedzsment és könyvelés** \> **Beállítás** \> **Feladás** \> **Főkönyvi feladás beállítása**) **Költség** lapjának *Bérlistafelosztási számla* részén. Ez az idő-és anyagalapú tranzakciók leggyakrabban használt beállítása.
-        - *Nem kerül főkönyvbe*: Az időtranzakciók költségét a rendszer soha nem könyveli a főkönyvbe.
+       - *Nincs főkönyv* : Az időtranzakciók költségét a rendszer nem könyveli a főkönyvbe, amikor a Project Operations integrációs naplója kerül feladásra. A könyvelő azonban a Költségek feladása funkcióval későbbi időpontban is könyvelheti a költségeket.
+       - **Egyenleg** : Az időtranzakciók költsége a *Folyamatban lévő munka – költségértéke* főkönyvi számla típuson kerül terhelésre, valamint a *Bérlistafelosztási számlán* kerül jóváírásra a Főkönyvi feladás beállítása részben. A könyvelő a Költségek könyvelése funkció segítségével rendszeres időszakonként áthelyezi ezt a költséget egy Mérlegszámláról egy Eredményszámlára.
+       - **Eredmény** : Amikor a Project Operations integrációs naplóba történik feladás, az időtranzakció költsége terhelésre kerül a *Költség* főkönyvi számla típuson, és jóváírásra kerül a **Főkönyvi feladás beállítása** oldal ( **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Feladás** \> **Főkönyvi feladás beállítása** ) **Költség** lapjának *Bérlistafelosztási számla* részén. Ez az idő-és anyagalapú tranzakciók leggyakrabban használt beállítása.
+        - *Nem kerül főkönyvbe* : Az időtranzakciók költségét a rendszer soha nem könyveli a főkönyvbe.
 
-    - **Költségek feladása – kiadás**:
+    - **Költségek feladása – kiadás** :
 
-         - **Egyenleg**: A Project Operations integrációs naplóba történő feladáskor a rendszer a kiadási tranzakciós költséget a *Folyamatban lévő munka – költségértéke* főkönyvi számla típusra terheli a **Főkönyvi feladás beállítása** oldal **Költség** lapján megadott módon, és a naplósor ellenszámlájára írja jóvá. Az alapértelmezett ellenszámla a költségekhez a **Projektmenedzsment és könyvelés** > **Beállítás** \> **Feladás** \> **Alapértelmezett ellenszámla a költségekhez** részben van meghatározva. A könyvelő a **Költségek könyvelése** funkció segítségével rendszeres időszakonként áthelyezi ezt a költséget a mérlegszámláról egy eredményszámlára.
-        - **Eredmény**: A Project Operations integrációs naplóba történő feladáskor a rendszer a kiadási tranzakciós költséget a *Költség* főkönyvi számla típusra terheli a **Főkönyvi feladás beállítása** oldal **Költség** lapján megadott módon, és a naplósor ellenszámlájára írja jóvá. Az alapértelmezett ellenszámla a költségekhez a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Feladás** \> **Alapértelmezett ellenszámla a költségekhez** részben van meghatározva.
+         - **Egyenleg** : A Project Operations integrációs naplóba történő feladáskor a rendszer a kiadási tranzakciós költséget a *Folyamatban lévő munka – költségértéke* főkönyvi számla típusra terheli a **Főkönyvi feladás beállítása** oldal **Költség** lapján megadott módon, és a naplósor ellenszámlájára írja jóvá. Az alapértelmezett ellenszámla a költségekhez a **Projektmenedzsment és könyvelés** > **Beállítás** \> **Feladás** \> **Alapértelmezett ellenszámla a költségekhez** részben van meghatározva. A könyvelő a **Költségek könyvelése** funkció segítségével rendszeres időszakonként áthelyezi ezt a költséget a mérlegszámláról egy eredményszámlára.
+        - **Eredmény** : A Project Operations integrációs naplóba történő feladáskor a rendszer a kiadási tranzakciós költséget a *Költség* főkönyvi számla típusra terheli a **Főkönyvi feladás beállítása** oldal **Költség** lapján megadott módon, és a naplósor ellenszámlájára írja jóvá. Az alapértelmezett ellenszámla a költségekhez a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Feladás** \> **Alapértelmezett ellenszámla a költségekhez** részben van meghatározva.
        
-    - **Partneren történő számlázás**:
+    - **Partneren történő számlázás** :
 
-        - **Egyenleg**: A Projektszámlázási javaslat feladásakor egy számlára irányuló tranzakció (számlázási mérföldkő) kerül jóváírásra a *Számlázott folyamatban lévő munka – számlára* főkönyvi számlatípuson a **Főkönyvi feladás beállítása** oldal **Bevétel** lapján megadott módon, és terhelésre kerül az Ügyfél egyenlegszámláján.
-         - **Eredmény**: A Projektszámlázási javaslat feladásakor egy számlára irányuló tranzakció (számlázási mérföldkő) kerül jóváírásra a *Számlázott bevétel – számlára* főkönyvi számlatípuson a **Főkönyvi feladás beállítása** oldal **Bevétel** lapján megadott módon, és terhelésre kerül az Ügyfél egyenlegszámláján. Az ügyfélegyenleg-számlák a **Követelések** \> **Beállítás** \> **Ügyfélfeladási profilok** részben vannak meghatározva.
+        - **Egyenleg** : A Projektszámlázási javaslat feladásakor egy számlára irányuló tranzakció (számlázási mérföldkő) kerül jóváírásra a *Számlázott folyamatban lévő munka – számlára* főkönyvi számlatípuson a **Főkönyvi feladás beállítása** oldal **Bevétel** lapján megadott módon, és terhelésre kerül az Ügyfél egyenlegszámláján.
+         - **Eredmény** : A Projektszámlázási javaslat feladásakor egy számlára irányuló tranzakció (számlázási mérföldkő) kerül jóváírásra a *Számlázott bevétel – számlára* főkönyvi számlatípuson a **Főkönyvi feladás beállítása** oldal **Bevétel** lapján megadott módon, és terhelésre kerül az Ügyfél egyenlegszámláján. Az ügyfélegyenleg-számlák a **Követelések** \> **Beállítás** \> **Ügyfélfeladási profilok** részben vannak meghatározva.
 
-   Ha Idő- és anyagalapú számlázási módszerekhez határoz meg feladási profilokat, akkor lehetőség van a bevétel tranzakciótípus (óra, költség és díj) szerinti elhatárolására. Ha az **Elhatárolt bevétel** beállítás értéke **Igen**, akkor a Project Operations integrációs naplójában a nem számlázott értékesítési tranzakciók a főkönyvi naplóban kerülnek rögzítésre. Az értékesítési érték a **Folyamatban lévő munka – értékesítési érték számlán** kerül terhelésre, és az **Elhatárolt bevétel – értékesítési érték** számlán kerül jóváírásra, amely a **Főkönyvi feladás beállítása** lapon, a **Bevétel** lapon van beállítva. 
+   Ha Idő- és anyagalapú számlázási módszerekhez határoz meg feladási profilokat, akkor lehetőség van a bevétel tranzakciótípus (óra, költség és díj) szerinti elhatárolására. Ha az **Elhatárolt bevétel** beállítás értéke **Igen** , akkor a Project Operations integrációs naplójában a nem számlázott értékesítési tranzakciók a főkönyvi naplóban kerülnek rögzítésre. Az értékesítési érték a **Folyamatban lévő munka – értékesítési érték számlán** kerül terhelésre, és az **Elhatárolt bevétel – értékesítési érték** számlán kerül jóváírásra, amely a **Főkönyvi feladás beállítása** lapon, a **Bevétel** lapon van beállítva. 
   
   > [!NOTE]
   > Az **Elhatárolt bevétel** lehetőség csak akkor érhető el, ha a megfelelő **Költség** tranzakciótípus feladásra kerül az eredményszámlára.
@@ -72,20 +72,20 @@ A következő lépések végrehajtásával hozzon létre egy új projektköltsé
 7. Bontsa ki a **Becslés** gyorslapot. Az ezen a lapon található mezők határozzák meg a rögzített áras bevételre vonatkozó becslések számítási beállításait. A lapon található mezők csak a **Rögzített áras** számlázási móddal rendelkező projektköltség- és bevételi profilokra vonatkoznak.
 8. Válassza ki a megfelelő adatokat a **Becslés** gyorslap következő mezőiben:
 
-    - **A projektek teljesítési számításaihoz használt elv**:
+    - **A projektek teljesítési számításaihoz használt elv** :
 
-        - **Teljesített szerződés**: A költség egyeztetése és a bevétel elszámolása a projekt végéig nem történik meg. A költségek folyamatban lévő termelésként jelennek meg, amíg a projekt be nem fejeződik.
-        - **Teljesített százalék**: Az elhatárolt bevételt a rendszer kiszámítja és a főkönyvbe könyveli minden időszakra a projekt készültségi százaléka alapján. A készültségi százalék kiszámításához többféle módszer áll rendelkezésre. Ezek a módszerek lehetnek automatikusak, a konfiguráció alapján, vagy a manuálisak.
-        - **Nem folyamatban lévő termelés**: Ezt a beállítást rövid időtartamú, rögzített árú projektek esetén használja a rendszer, ahol a számla és a költségek ugyanabban az időszakban fordulnak elő. Ebben az esetben a rendszer a **Főkönyv** gyorslap **Részszámla készítése** mezőjét automatikusan **Eredmény** értékre állítja be, így biztosítva a bevétel elszámolását a számlázásnál. A Bevételbecslés folyamata nem kerül használatra ehhez a projektköltség- és bevételi profilhoz.
+        - **Teljesített szerződés** : A költség egyeztetése és a bevétel elszámolása a projekt végéig nem történik meg. A költségek folyamatban lévő termelésként jelennek meg, amíg a projekt be nem fejeződik.
+        - **Teljesített százalék** : Az elhatárolt bevételt a rendszer kiszámítja és a főkönyvbe könyveli minden időszakra a projekt készültségi százaléka alapján. A készültségi százalék kiszámításához többféle módszer áll rendelkezésre. Ezek a módszerek lehetnek automatikusak, a konfiguráció alapján, vagy a manuálisak.
+        - **Nem folyamatban lévő termelés** : Ezt a beállítást rövid időtartamú, rögzített árú projektek esetén használja a rendszer, ahol a számla és a költségek ugyanabban az időszakban fordulnak elő. Ebben az esetben a rendszer a **Főkönyv** gyorslap **Részszámla készítése** mezőjét automatikusan **Eredmény** értékre állítja be, így biztosítva a bevétel elszámolását a számlázásnál. A Bevételbecslés folyamata nem kerül használatra ehhez a projektköltség- és bevételi profilhoz.
 
-    - **Egyeztetési elv**: Ez a mező határozza meg, hogy a számított értékesítési érték (elhatárolt bevétel) hogyan kerül a főkönyvbe.
+    - **Egyeztetési elv** : Ez a mező határozza meg, hogy a számított értékesítési érték (elhatárolt bevétel) hogyan kerül a főkönyvbe.
 
         - Az **Értékesítési érték** elv használatával a rendszer kiszámítja az értékesítési értéket a költségek és a bevétel egyeztetésével, majd ezt követően egy összegként könyveli azt.
         - A **Termelés és a profit** elv segítségével a rendszer az értékesítési értéket realizált költségre és számított profitra osztja fel. Ezeket külön könyveli a rendszer.
 
-    - **Költségsablonok**: Lehetővé teszi a projekttranzakciók tranzakciótípus és projektkategória alapján történő csoportosítását, és ezekhez a csoportokhoz százalékos teljesítési számítási szabályokat határoz meg.
-    - **Időszakkódok**: Megadja, hogy milyen gyakorisággal számítja ki a program az adott projektköltség- és bevételi profil bevételi becsléseit.
-    - **Becslés kategóriái**: Az értékesítési érték (elhatárolt bevétel) Projekttranzakciókba történő feladására szolgál. Első lépésként állítsa be a dedikált projektkategóriát a **Díj** tranzakciótípushoz, majd állítsa be a **Becslés** jelzőt ehhez a projektkategóriához. Következő lépésként a kijelölt egyeztetési elv függvényében válassza ezt a projektkategóriát az **Értékesítés** érték vagy a **Profit** mezőben a projektköltség- és bevételi profilban.
+    - **Költségsablonok** : Lehetővé teszi a projekttranzakciók tranzakciótípus és projektkategória alapján történő csoportosítását, és ezekhez a csoportokhoz százalékos teljesítési számítási szabályokat határoz meg.
+    - **Időszakkódok** : Megadja, hogy milyen gyakorisággal számítja ki a program az adott projektköltség- és bevételi profil bevételi becsléseit.
+    - **Becslés kategóriái** : Az értékesítési érték (elhatárolt bevétel) Projekttranzakciókba történő feladására szolgál. Első lépésként állítsa be a dedikált projektkategóriát a **Díj** tranzakciótípushoz, majd állítsa be a **Becslés** jelzőt ehhez a projektkategóriához. Következő lépésként a kijelölt egyeztetési elv függvényében válassza ezt a projektkategóriát az **Értékesítés** érték vagy a **Profit** mezőben a projektköltség- és bevételi profilban.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>A projektköltség- és bevételi profilok mintakonfigurációi
 

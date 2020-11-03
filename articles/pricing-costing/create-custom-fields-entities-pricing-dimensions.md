@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898264"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078130"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Egyéni mezők és entitások létrehozása árazási dimenzióként
 
@@ -32,12 +31,12 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 Ha egyéni értékkészletet vagy entitást szeretne létrehozni, hajtsa végre az alábbi lépéseket.
 
 > [!IMPORTANT]
-> Javasoljuk, hogy minden egyéni árképzési dimenziót külön megoldásban hajtson végre. Ez a fontos gyakorlati tanács rugalmasságot biztosít a jövőben a változtatások frissítéséhez vagy eltávolításához szükség szerint, segítséget nyújt munkájának újbóli felhasználásában, és megkönnyíti a módosítások másik példányra való átvitelét. Miután elvégezte az összes szükséges módosítást, exportálja a megoldást **Felügyelt megoldásként**, majd importálja azt más példányokra az árképzési beállítások újbóli felhasználása céljából.
+> Javasoljuk, hogy minden egyéni árképzési dimenziót külön megoldásban hajtson végre. Ez a fontos gyakorlati tanács rugalmasságot biztosít a jövőben a változtatások frissítéséhez vagy eltávolításához szükség szerint, segítséget nyújt munkájának újbóli felhasználásában, és megkönnyíti a módosítások másik példányra való átvitelét. Miután elvégezte az összes szükséges módosítást, exportálja a megoldást **Felügyelt megoldásként** , majd importálja azt más példányokra az árképzési beállítások újbóli felhasználása céljából.
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Egyéni megoldás létrehozása árképzési dimenziókra
 1. Új megoldás létrehozásához lépjen a **Beállítások** > **Megoldások** részre, és válassza az **Új** lehetőséget. 
-2. Nevezze el a megoldást, (**\<your organization name> árképzési dimenziók**), írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
+2. Nevezze el a megoldást, ( **\<your organization name> árképzési dimenziók** ), írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Egyéni mezők és értékkészletek létrehozása az árképzési dimenzió megoldásban
 
@@ -63,7 +62,7 @@ Két értékkészlet-alapú dimenziót hozhat létre. Használja az **Erőforrá
 
 Entitásalapú dimenziókhoz manuálisan vagy Microsoft Excel importálással vagy szolgáltatáshívások használatával hozhat létre adatokat. Az eljárás lépéseinek követésévek hozhat létre két szabványos címet: a **Szabványos cím** entitásalapú dimenzióból származó **Rendszermérnök** és **Vezető rendszermérnök**. Ha a létrehozni kívánt adat kis méretű, a következő példához hasonlóan használhat szabványos űrlapot.
 
-1. Válassza az **Irányított keresés** lehetőséget, válassza ki az entitás **Normál címét**, majd válassza az **Eredmények** lehetőséget. A **Szabványos cím** összes sora megjelenik.
+1. Válassza az **Irányított keresés** lehetőséget, válassza ki az entitás **Normál címét** , majd válassza az **Eredmények** lehetőséget. A **Szabványos cím** összes sora megjelenik.
 2. Válassza az **Új** lehetőséget, és a **Név** mezőbe írja be a „Rendszermérnök” elemet, majd kattintson a **Mentés** gombra.
 3. Az űrlap bezárása. 
 4. Ismételje meg az 1–3. lépést egy újabb szabványos cím létrehozásához a „Vezető rendszermérnök” esetében.

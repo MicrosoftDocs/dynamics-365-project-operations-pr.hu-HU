@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077958"
 ---
 # <a name="maintain-team-members"></a>Csoporttagok karbantartása
 
@@ -21,7 +21,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 Nevesített erőforrást úgy adhat hozzá a projektcsoporthoz, ha közvetlenül a csoporthoz foglalja le azt.
 
-1. A Dynamics 365 Project Operations programban lépjen a **Projektek**elemre, majd válassza ki azt a projektet, amelyhez a foglalást végzi.
+1. A Dynamics 365 Project Operations programban lépjen a **Projektek** elemre, majd válassza ki azt a projektet, amelyhez a foglalást végzi.
 2. A **Projekt** oldal **Csoport** lapján válassza az **Új** lehetőséget. 
 3. Válassza ki a foglalható erőforrást a **Csoporttag gyors létrehozása** párbeszédablabkan. Ha van alapértelmezett szerepkör hozzárendelve az erőforráshoz, az a **Szerepkör** mezőben látható. A szerep megváltoztatható. 
 4. Válassza ki, hogy az erőforrásra melyik dátumok között lesz szüksége, majd az erőforrás kapacitásának felosztási módját. 

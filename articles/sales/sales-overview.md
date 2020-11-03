@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891488"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078291"
 ---
 # <a name="sales-processes-overview"></a>Az értékesítési folyamatok áttekintése
 
@@ -57,7 +56,7 @@ Például az Ön vállalkozása az értékesítési folyamat következő hat sza
  
 Előfordulhat, hogy szervezete különböző entitásokat használ fel ugyanazon ügylet reprezentálására, amint az alakul. Az értékesítési folyamat elején az ügyletet a Lehetőség entitás képviseli. Az idő múlásával és további részletek megjelenésével magas szintű becsléseket használhat egy vagy több árajánlat létrehozásához. Ha ezen árajánlatok egyikét a belső és az ügyfél érdekelt felei felülvizsgálják, akkor az Ajánlat entitás képviseli az ügyletet. Miután az ügyfél elfogadta az ajánlatot, egy projektszerződés vagy SOW képviseli az ügyletet. Ennek a viselkedésnek a támogatása érdekében a BPF-eket úgy strukturálják, hogy a folyamat egyes szakaszai különféle adatbázis-táblákhoz legyenek kapcsolva.
 
-Az értékesítési folyamat **Minősítés** szakaszát egy Lehetőség entitás támogathatja. A **Becslés** és a **Belső felülvizsgálat** szakaszokat egy Árajánlat entitás támogathatja. A **Szerződés**, **Teljesítés** és **Lezárás** szakaszokat egy Projektszerződés entitás támogathatja.
+Az értékesítési folyamat **Minősítés** szakaszát egy Lehetőség entitás támogathatja. A **Becslés** és a **Belső felülvizsgálat** szakaszokat egy Árajánlat entitás támogathatja. A **Szerződés** , **Teljesítés** és **Lezárás** szakaszokat egy Projektszerződés entitás támogathatja.
 
 Ahogyan az ügyletek a szakaszokon át mozognak, a rendszer felkéri Önt a megfelelő entitásrekord létrehozására, hogy segítsen és útmutatást nyújtson a folyamat során. A szakaszok feltételesek lehetnek. Például, ha csak egy árajánlat belső felülvizsgálatára van szüksége, ha az árajánlat egyéni árlistát használ, akkor konfigurálhatja ezt a feltételt az üzleti folyamat megfelelő szakaszában. A **Belső felülvizsgálat** szakasz csak akkor jelenik meg, ha egyéni árlistát használnak. Az összes többi ügylet és árajánlat esetében a **Becslés** szakaszt a **Szerződés** szakasz követi.
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967369"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077972"
 ---
 # <a name="expense-home-page"></a>Költség kezdőlap
 
@@ -24,8 +24,8 @@ A Dynamics 365 Project Operations támogatja a kiadások feldolgozását. A köl
 
 A Project Operationsben a Költség két támogatott telepítési modellje: 
 
-- **Teljes**: A teljes telepítés elérhető a **Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén** illetve a **Project Operations termelésirendelés-alapú forgatókönyvek esetén** esetében.
-- **Alapszintű**: Az alapszintű telepítés elérhető az **Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén**, illetve a **Lite telepítés – ajánlattól proforma számlázásig** esetében.
+- **Teljes** : A teljes telepítés elérhető a **Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén** illetve a **Project Operations termelésirendelés-alapú forgatókönyvek esetén** esetében.
+- **Alapszintű** : Az alapszintű telepítés elérhető az **Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén** , illetve a **Lite telepítés – ajánlattól proforma számlázásig** esetében.
 
 ## <a name="full"></a>Teljes 
 A Költség teljes telepítése teljes körű házirend-végrehajtást biztosít, amely magában foglalja a házirendeket létrehozásának képességét, például:

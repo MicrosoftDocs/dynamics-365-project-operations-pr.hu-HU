@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908237"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078025"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektalapú árajánlatsorok számlaütemezései
 
@@ -32,7 +32,7 @@ Amikor a projektalapú árajánlatsor számlázási módja Idő és anyag típus
 3. Nyissa meg azt az idő-és anyag árajánlatsort, amelyhez dátumalapú számlaütemezést kell létrehoznia. 
 4. A **Számlaütemezés** lapon válassza ki a kívánt értékeket a **Számlázás kezdete** és a **Számlázási gyakoriság** mezőkben. 
 5. Az alrácson válassza a **Számlaütemezés előállítása** lehetőséget.
-6. Az alkalmazás létrehozza a számlaütemezést a **Számlakészítés dátuma**, a **Tranzakció határideje** és a **Futtatás állapota** mezőket a következő módon beállítva:
+6. Az alkalmazás létrehozza a számlaütemezést a **Számlakészítés dátuma** , a **Tranzakció határideje** és a **Futtatás állapota** mezőket a következő módon beállítva:
 
     - A **Számlakészítés dátuma** a számla gyakorisága által meghatározott dátumra van beállítva.
     - A **Tranzakció határideje** a **Számlakészítés dátuma** előtti napra van beállítva.
@@ -58,7 +58,7 @@ Ha a projektalapú árajánlatsor **Rögzített** számlázási móddal rendelke
 
 A rögzített árú mérföldkövek létrehozhatók manuálisan is, ha nem időszakosan vannak felosztva. Mérföldkövek manuális létrehozása:
 
-Nyissa meg azt a rögzített áras árajánlatsort, ahol a mérföldkő-ütemezést létre kell hoznia. A **Számlaütemezés** lapon található alrácson válassza az **+ Új árajánlatsor-mérföldkő létrehozása**, és írja be a következő táblázat alapján a szükséges adatokat.
+Nyissa meg azt a rögzített áras árajánlatsort, ahol a mérföldkő-ütemezést létre kell hoznia. A **Számlaütemezés** lapon található alrácson válassza az **+ Új árajánlatsor-mérföldkő létrehozása** , és írja be a következő táblázat alapján a szükséges adatokat.
 
 | **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |

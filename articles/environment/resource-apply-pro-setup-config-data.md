@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077965"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Beállítási és konfigurációs adatok alkalmazása a Project Operations szolgáltatáshoz használható Common Data Service rendszerben
 
@@ -27,7 +27,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 ![Konfiguráció-áttelepítés](./media/1ConfigurationMigration.png)
 
-4. A CMT varázsló 2. oldalán jelölje ki az **Office 365** lehetőséget a **Telepítési típus** értékeként.
+4. A CMT varázsló 2. oldalán jelölje ki a **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
 5. Jelölje be az **Elérhető szervezetek listájának megjelenítése** és a **Speciális megjelenítése** jelölőnégyzeteket.
 6. Válassza ki a bérlő régióját, adja meg a hitelesítő adatait, majd válassza a **Bejelentkezés** lehetőséget.
 
@@ -114,10 +114,10 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
  
 12. Frissítse a következő mezőket:
 
- - **Alapértelmezett vállalat**: USPM
+ - **Alapértelmezett vállalat** : USPM
  - **Alapértelmezett szervezeti egység** : Contoso Robotics Global
- - **Számlázási gyakoriság**: Hetedik és utolsó nap
- - **Munkaidősablon**: Váltson a létrehozott sablonra.
+ - **Számlázási gyakoriság** : Hetedik és utolsó nap
+ - **Munkaidősablon** : Váltson a létrehozott sablonra.
 
 13. Válassza a **Mentés** parancsot. 
 
