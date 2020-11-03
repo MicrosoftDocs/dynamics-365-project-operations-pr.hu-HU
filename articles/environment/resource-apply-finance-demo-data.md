@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948915"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096625"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>A Project Operations bemutató adatainak alkalmazása a Finance felhőben szolgáltatott környezetbe
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
->[Fontos] Ez a témakör csak a Microsoft Dynamics 365 Finance 10.0.13-as verziója esetében alkalmazható, és csak felhőben üzemeltetett környezeten hajtható végre. A minőségi frissítések környezetbe való alkalmazása **ELŐTT** hajtsa végre a témakör lépéseit.
+> [!IMPORTANT]
+> Ez a témakör csak a Microsoft Dynamics 365 Finance 10.0.13-as verziója esetében alkalmazható, és csak felhőben üzemeltetett környezeten hajtható végre. A minőségi frissítések környezetbe való alkalmazása **ELŐTT** hajtsa végre a témakör lépéseit.
 
 1. Az LCS-projektben nyissa meg a **Környezet részletei** oldalt. Figyelje meg, hogy tartalmazza a környezethez a távoli asztali protokoll (RDP) használatával való kapcsolódáshoz szükséges adatokat.
 
