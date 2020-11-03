@@ -1,0 +1,1117 @@
+- name: Dynamics 365 Project Operations
+  href: index.md
+- name: Első lépések
+  items:
+    - name: A telepítés típusának meghatározása
+      href: environment/determine-deployment-type.md
+- name: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+  items:
+    - name: Első lépések
+      items:
+        - name: Regisztráljon előzetes verziójú előfizetésre (erőforrás-/nem készletalapú)
+          href: environment/resource-sign-up-preview-subscription.md
+        - name: Előfeltételek konfigurálása
+          items:
+            - name: Új LCS-projekt indítása
+              href: environment/create-lcs-project.md
+            - name: Azure-előfizetés hozzáadása LCS-projekthez
+              href: environment/resource-add-azure-subscription-lcs-project.md
+        - name: Bemutató adatok alkalmazása
+          items:
+            - name: A Project Operations bemutató adatainak alkalmazása a Finance felhőben szolgáltatott környezetbe
+              href: environment/resource-apply-finance-demo-data.md
+            - name: Konfigurációs adatok alkalmazása a Project Operations szolgáltatáshoz használható Common Data Service rendszerben
+              href: environment/resource-apply-pro-setup-config-data.md
+        - name: Környezetek üzembe helyezése
+          items:
+            - name: Új környezet kiépítése
+              href: environment/resource-provision-new-environment.md
+            - name: Biztonsági modell
+              href: environment/security-model.md
+            - name: A Project Operations jogi személyenkénti integrációjának konfigurálása
+              href: environment/resource-configure-integration-per-legal-entity.md
+    - name: Értékesítési folyamat
+      items:
+        - name: Értékesítés – áttekintés
+          href: sales/sales-overview.md
+        - name: Beállítás
+          items:
+            - name: Termékek
+              href: sales/sales-products.md
+            - name: Egységek és egységcsoportok
+              href: sales/sales-units-unit-groups.md
+            - name: Pénznem
+              href: sales/sales-currency.md
+        - name: Érdeklődők kezelése
+          href: sales/manage-leads.md
+        - name: Lehetőségek kezelése
+          items:
+            - name: Projektalapú lehetőségek kezelése
+              href: sales/manage-project-based-opportunities.md
+            - name: Lehetőségfejléc
+              href: sales/opportunity-header.md
+            - name: Projektalapú sorok
+              href: sales/project-based-lines.md
+            - name: Projektalapú lehetőségek másolása
+              href: sales/copy-project-based-opportunity.md
+            - name: Projektárajánlatok létrehozása lehetőségekből
+              href: sales/link-quotes-opportunities.md
+            - name: Lehetőség lezárása
+              href: sales/close-opportunity.md
+        - name: Árajánlatok kezelése
+          items:
+            - name: Fő fogalmak
+              href: sales/quotes-key-concepts.md
+            - name: Összefoglaló információk egy projektárajánlatról
+              href: sales/quote-values-budget-limits-contract.md
+            - name: Több ügyfél kezelése egy árajánlaton
+              href: sales/manage-multiple-customers-quote.md
+            - name: Termékalapú árajánlatsorok
+              item:
+                - name: Termékalapú árajánlatsorok költségszámítása
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Bonyolult egységek kezelése termékalapú árajánlatsorokhoz
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektalapú árajánlatsorok
+              items:
+                - name: Projektárlisták kezelése
+                  href: sales/managing-project-price-lists.md
+                - name: Több ügyfél kezelése projektalapú árajánlatsorokon
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Becslések létrehozása egy árajánlatsoron
+                  href: sales/create-estimate-quote-line.md
+                - name: Projektbecslések importálása egy projektalapú árajánlatsorhoz
+                  href: sales/import-estimate-quote-line.md
+                - name: 'Megajánlott értékek, ügyfélköltségvetések és nem meghaladandó korlátok kezelése'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Számlaütemezések projektalapú árajánlatsorokon
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Projektalapú árajánlatok másolása
+              href: sales/lose-quote.md
+            - name: Árajánlat lezárása
+              href: sales/win-quote.md
+        - name: Szerződések kezelése
+          items:
+            - name: Fő fogalmak – Projektszerződések
+              href: sales/contracts-key-concepts.md
+            - name: Projektszerződés beállításai
+              href: sales/project-contract-settings.md
+            - name: Projektalapú szerződéssorok
+              items:
+                - name: A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
+                  href: sales/configure-chargeable-contract-line.md
+                - name: Becslések importálása egy projektalapú szerződéssorba
+                  href: sales/import-estimate-project-contract-line.md
+                - name: Számlaütemezés létrehozása egy projektalapú szerződéssoron
+                  href: sales/invoice-schedules-contract-line.md
+            - name: Projektszerződés jóváhagyása
+              href: pro/sales/confirm-contract-sales.md
+    - name: Árképzés és költségszámítás
+      items:
+        - name: Árlisták beállítása
+          href: pricing-costing/price-list-setup.md
+        - name: Termékárlisták
+          href: pricing-costing/product-price-list.md
+        - name: Projektárlisták
+          items:
+            - name: Árlista beállítása értékesítéshez
+              items:
+                - name: Értékesítési árlista beállítása
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: A munka számlázási arányának beállítása
+                  href: pricing-costing/set-up-labor-bill-rate.md
+                - name: A munka költségarányának beállítása
+                  href: pricing-costing/set-up-labor-cost-rate.md
+                - name: Költség- és értékesítési árak beállítása a kiadásokhoz
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Alapértelmezett árlisták
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Az önköltségi árak megoldása a becslésekhez és a tényekhez
+                  href: pricing-costing/cost-price-resolution.md
+        - name: Alapértelmezések és felülbírálások
+          items:
+            - name: Az értékesítési árak megoldása a becslésekhez és a tényekhez
+              href: pricing-costing/sales-price-resolution.md
+            - name: Árlisták másolása
+              href: pricing-costing/copy-price-lists.md
+        - name: Árképzési dimenziók
+          items:
+            - name: Árképzési dimenziók áttekintése
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Meglévő mező használata árképzési dimenzióként
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Egyéni mezők árképzési dimenziókként
+              items:
+                - name: Egyéni mezők és entitások létrehozása árképzési dimenzióként
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Egyéni mezők beállítása árképzési dimenziókként
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Árképzési dimenzió kikapcsolása
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Projektmenedzsment
+      items:
+        - name: Projektmenedzsment áttekintése
+          href: project-management/project-management-overview.md
+        - name: Projektfázisok
+          href: project-management/project-stages.md
+        - name: Navigálás a felhasználói felületen
+          href: project-management/navigate-ui.md
+        - name: Projekt állapotának megismerése
+          href: project-management/understand-project-status.md
+        - name: Projektnaptárak meghatározása
+          href: project-management/define-project-calendars.md
+        - name: Projekt frissítése
+          href: project-management/update-project.md
+        - name: Projekt másolása
+          href: project-management/copy-project.md
+        - name: Munkalebontási struktúra tervezése
+          items:
+            - name: Hozzárendelések létrehozása
+              href: project-management/create-assignments.md
+        - name: Becslésprojektek
+          items:
+            - name: Becslésprojektek áttekintése
+              href: project-management/estimating-projects-overview.md
+            - name: Erőforrásbecslések
+              href: project-management/resource-estimates.md
+            - name: Költségbecslések létrehozása
+              href: project-management/create-expense-estimates.md
+        - name: Projekt nyomon követése
+          items:
+            - name: Projekt nyomon követésének áttekintése
+              href: project-management/project-tracking-overview.md
+            - name: Befejezéskori költség becslésének frissítése
+              href: project-management/update-completed-estimate.md
+        - name: Projektcsoporttagok
+          items:
+            - name: Projektcsoporttagok áttekintése
+              href: project-management/project-team-members-overview.md
+            - name: Csoporttagok karbantartása
+              href: project-management/maintain-team-members.md
+        - name: Együttműködés
+          items:
+            - name: Együttműködés Office-csoportokkal
+              href: project-management/collaboration-groups.md
+        - name: Fejlesztői jegyzetek
+          items:
+            - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
+              href: project-management/dev-copy-project.md
+    - name: Erőforrás-kezelés
+      items:
+        - name: Fő fogalmak
+          href: resource-management/resource-management-key-concepts.md
+        - name: Foglalások és hozzárendelések
+          href: resource-management/booking-vs-assignment.md
+        - name: Erőforrás-kezelési módok áttekintése
+          href: resource-management/resource-management-mode-overview.md
+        - name: Ütemezési segéd áttekintése
+          href: resource-management/schedule-assistant-overview.md
+        - name: Centralizált erőforrás-foglalás
+          items:
+            - name: Erőforrás-követelmények meghatározása
+              href: resource-management/define-resource-requirements.md
+            - name: Erőforrás-követelmények frissítése
+              href: resource-management/update-resource-requirements.md
+            - name: Erőforrás-kérelem elküldése
+              href: resource-management/submit-resource-requirements.md
+            - name: Foglalás egy projekthez
+              href: resource-management/book-project.md
+            - name: Javasolt erőforrások áttekintése
+              href: resource-management/review-proposed-resources.md
+        - name: Decentralizált erőforrás-foglalás (hibrid)
+          items:
+            - name: Csoporttagok hozzáadása a Csoporttag rácsból
+              href: resource-management/add-team-members-grid.md
+            - name: Általános erőforrás-követelmények teljesítése
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Erőforrások adminisztrációja
+          items:
+            - name: Képességek és jártasságok meghatározása
+              href: resource-management/define-skills-proficiencies.md
+            - name: Erőforrásnaptárak meghatározása
+              href: resource-management/define-resource-calendars.md
+        - name: Foglalásfelosztási módszerek
+          href: resource-management/booking-allocation-methods.md
+        - name: Készség- és jártasságmodellek
+          href: resource-management/skills-proficiency-models.md
+        - name: Erőforrás-egyeztetés
+          items:
+            - name: Erőforrás-egyeztetés áttekintése
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Időzónák kezelése
+              href: resource-management/manage-multiple-time-zones.md
+    - name: Idő
+      items:
+        - name: Idő áttekintése
+          href: time/time-entry-overview.md
+        - name: Időbejegyzések létrehozása
+          items:
+            - name: Időbejegyzés felhasználói felületének működése
+              href: time/ui-behavior-time.md
+        - name: Fejlesztői jegyzetek
+          items:
+            - name: A heti időbejegyzési rács testreszabása
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Költség
+      items:
+        - name: Költség áttekintése
+          href: expense/expense-overview.md
+        - name: Költségkezelési élmény projektekhez
+          items:
+            - name: Konfiguráció és beállítás
+              items:
+                - name: Beállítási házirendek
+                  href: expense/set-up-policies.md
+                - name: Beállítási munkafolyamatok
+                  href: expense/set-up-workflows.md
+                - name: Delegálás kezelése
+                  href: expense/manage-delegation.md
+                - name: Költségkezelési paraméterek konfigurálása
+                  href: expense/configure-expense-management-parameters.md
+                - name: Hitelkártya-integráció beállítása
+                  href: expense/set-up-credit-card-integration.md
+                - name: Költségkategóriák beállítása
+                  href: expense/set-up-expense-categories.md
+            - name: Költségjelentések létrehozása
+              items:
+                - name: Terjesztések egy költségjelentésen
+                  href: expense/distributions-expense-report.md
+            - name: Költségjelentések jóváhagyása
+              items:
+                - name: Költségjelentések és több jóváhagyó
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Költségjelentések közzététele
+              href: expense/posting-expense-reports.md
+            - name: Utazási kérelem
+              href: expense/travel-requisition.md
+            - name: Készpénzelőleg
+              href: expense/cash-advance.md
+            - name: Napidíjak
+              href: expense/per-diems.md
+            - name: Pénzügyi kezelés
+              items:
+                - name: ÁFA-visszaigénylés
+                  href: expense/vat-recovery.md
+            - name: Új költségélmény
+              items:
+                - name: Költségjelentések újragondolva
+                  href: expense/expense-reports-reimagined.md
+                - name: Nyugta párosítása a költséggel OCR segítségével
+                  href: expense/match-receipt-expense-ocr.md
+            - name: Mobil költségkezelés
+              href: expense/expense-using-mobile.md
+    - name: Jóváhagyások
+      items:
+        - name: Jóváhagyások áttekintése
+          href: approvals/approvals-overview.md
+    - name: Tények
+      items:
+        - name: Tények áttekintése
+          href: actuals/actuals-overview.md
+        - name: Helyesbítő naplók
+          items:
+            - name: Helyesbítő naplók létrehozása és megerősítése
+              href: actuals/create-confirm-correction-journals.md
+    - name: Proforma számlázás
+      items:
+        - name: A számlázási elmaradás kezelése
+          href: proforma-invoicing/manage-billing-backlog.md
+        - name: Kézi proforma számla létrehozása
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Proforma számla megerősítése
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Helyesbített számlák
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Automatikus számlalétrehozás konfigurálása
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Projekt könyvelése
+      items:
+        - name: Projektkategóriák konfigurálása
+          href: project-accounting/configure-project-categories.md
+        - name: Belső projektek könyvelésének konfigurálása
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Számlázható projektek könyvelésének konfigurálása
+          href: project-accounting/configure-accounting-billable-projects.md
+- name: Egyszerű központi telepítés – ajánlattól proforma számlázásig
+  items:
+    - name: Első lépések
+      items:
+        - name: Regisztráció az előzetes verziós előfizetésre (Lite)
+          href: environment/lite-preview-subscription-sign-up.md
+        - name: Project Operations Lite telepítés telepítése – ajánlattól proforma számlázásig
+          href: environment/lite-deployment.md
+        - name: Bemutató beállítások és konfigurációs adatok alkalmazása
+          href: environment/lite-apply-demo-setup-config-data.md
+        - name: Biztonsági modell
+          href: environment/security-model.md
+    - name: Értékesítési folyamat
+      items:
+        - name: Beállítás
+          items:
+            - name: Termékek
+              href: sales/sales-products.md
+            - name: Egységek és egységcsoportok
+              href: sales/sales-units-unit-groups.md
+            - name: Pénznem
+              href: sales/sales-currency.md
+        - name: Érdeklődők kezelése
+          href: pro/sales/managing-leads-sales.md
+        - name: Lehetőségek kezelése
+          items:
+            - name: Projektalapú lehetőségek kezelése
+              href: sales/manage-project-based-opportunities.md
+            - name: Lehetőségfejléc
+              href: pro/sales/opportunity-header-sales.md
+            - name: Projektalapú sorok
+              href: pro/sales/project-based-lines-sales.md
+            - name: Projektalapú lehetőségek másolása
+              href: sales/copy-project-based-opportunity.md
+            - name: Projektárajánlatok létrehozása lehetőségekből
+              href: sales/link-quotes-opportunities.md
+            - name: Termékalapú lehetőségsorok
+              href: pro/sales/product-based-lines-sales.md
+            - name: Lehetőség lezárása
+              href: sales/close-opportunity.md
+        - name: Árajánlatok kezelése
+          items:
+            - name: Projektárajánlat fő fogalmai
+              href: pro/sales/quotes-key-concepts-sales.md
+            - name: Összefoglaló információk projektárajánlatról (értékesítés)
+              href: pro/sales/quote-values-budget-limits-contract-sales.md
+            - name: Több ügyfél kezelése projektárajánlatokon
+              href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Termékalapú árajánlatsorok
+              items:
+                - name: Termékalapú árajánlatsorok költségszámítása
+                  href: pro/sales/costing-product-based-quote-lines-sales.md
+                - name: 'Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál'
+                  href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+            - name: Projektalapú árajánlatsorok
+              items:
+                - name: Projektárlisták kezelése projektárajánlatokon
+                  href: pro/sales/manage-project-price-lists-sales.md
+                - name: Több ügyfél kezelése projektalapú árajánlatsorokon
+                  href: pro/sales/manage-multiple-customers-quote-line-sales.md
+                - name: Projektek és feladatok leképezése egy projektalapú árajánlatsorba
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Projektalapú árajánlatsor becslése
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Projektalapú árajánlatsorok (értékesítés)
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Projektbecslések importálása egy projektalapú árajánlatsorhoz
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Számlaütemezések projektalapú árajánlatsorokon
+                  href: sales/invoice-schedule-quote-line.md
+                - name: Az árajánlatsor felszámítható összetevőinek konfigurálása
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+        - name: Projektalapú árajánlatok másolása
+          href: sales/lose-quote.md
+        - name: Árajánlat lezárása
+          href: pro/sales/win-quote-sales.md
+    - name: Szerződések kezelése
+      items:
+        - name: A projektszerződések fő fogalmai
+          href: pro/sales/contracts-key-concepts-sales.md
+        - name: Projekt-szerződésmezők és -információ
+          href: pro/sales/project-contract-settings-sales.md
+        - name: Termékalapú szerződéssorok
+          items:
+            - name: Termékalapú szerződéssorok áttekintése
+              href: pro/sales/product-based-contract-lines-overview-sales.md
+            - name: Termékalapú szerződéssorok költségszámítása
+              href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: Projektalapú szerződéssorok
+          items:
+            - name: A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
+              href: pro/sales/configure-chargeable-components-contract-line.md
+            - name: Becslés importálása egy projektalapú szerződéssorba
+              href: pro/sales/import-estimate-project-contract-line-sales.md
+            - name: Számlaütemezések létrehozása egy projektalapú szerződéssoron
+              href: pro/sales/invoice-schedules-contract-line-sales.md
+        - name: Projektszerződések másolása
+          href: pro/sales/copy-project-contracts-sales.md
+        - name: Projektszerződés jóváhagyása
+          href: pro/sales/confirm-contract-sales.md
+        - name: Foglalón alapuló szerződések beállítása
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+    - name: Árképzés és költségszámítás
+      items:
+        - name: Árlisták beállítása
+          href: pricing-costing/price-list-setup.md
+        - name: Projektárlisták
+          items:
+            - name: Árlista beállítása értékesítéshez
+              items:
+                - name: Értékesítési árlista beállítása
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: A munka számlázási arányának beállítása
+                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+                - name: A munka költségarányának beállítása
+                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+                - name: Költség- és értékesítési árak beállítása a katalógustermékekhez
+                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+                - name: Költség- és értékesítési árak beállítása a kiadásokhoz
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Alapértelmezett árlisták
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Az önköltségi árak megoldása a becsléseken és a tényeken
+                  href: pro/pricing-costing/cost-price-resolution-sales.md
+        - name: Alapértelmezések és felülbírálások
+          items:
+            - name: Az értékesítési árak megoldása a becslésekhez és a tényekhez
+              href: pro/pricing-costing/sales-price-resolution-sales.md
+            - name: Árlisták másolása
+              href: pricing-costing/copy-price-lists.md
+        - name: Árképzési dimenziók
+          items:
+            - name: Meglévő mező használata árképzési dimenzióként
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Egyéni mezők árképzési dimenzióként
+              items:
+                - name: Egyéni mezők és entitások létrehozása árképzési dimenzióként
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Egyéni mezők beállítása árképzési dimenziókként
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Árképzési dimenzió kikapcsolása
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Projektmenedzsment
+      items:
+        - name: Projektmenedzsment áttekintése
+          href: project-management/project-management-overview.md
+        - name: Projektfázisok
+          href: project-management/project-stages.md
+        - name: A felhasználói felületen történő navigálás
+          href: project-management/navigate-ui.md
+        - name: Projekt állapotának megismerése
+          href: project-management/understand-project-status.md
+        - name: Projektnaptárak meghatározása
+          href: project-management/define-project-calendars.md
+        - name: Projekt frissítése
+          href: project-management/update-project.md
+        - name: Projekt másolása
+          href: project-management/copy-project.md
+        - name: Munkalebontási struktúra tervezése
+          items:
+            - name: Hozzárendelések létrehozása
+              href: project-management/create-assignments.md
+        - name: Becslésprojektek
+          items:
+            - name: Becslésprojektek áttekintése
+              href: project-management/estimating-projects-overview.md
+            - name: Erőforrásbecslések
+              href: project-management/resource-estimates.md
+            - name: Költségbecslések létrehozása
+              href: project-management/create-expense-estimates.md
+        - name: Projekt nyomon követése
+          items:
+            - name: Projekt nyomon követésének áttekintése
+              href: project-management/project-tracking-overview.md
+            - name: Befejezéskori költség becslésének frissítése
+              href: project-management/update-completed-estimate.md
+        - name: Projektcsoporttagok
+          items:
+            - name: Projektcsoporttagok áttekintése
+              href: project-management/project-team-members-overview.md
+            - name: Csoporttagok karbantartása
+              href: project-management/maintain-team-members.md
+        - name: Együttműködés
+          items:
+            - name: Együttműködés Office-csoportokkal
+              href: project-management/collaboration-groups.md
+    - name: Erőforrás-kezelés
+      items:
+        - name: Fő fogalmak
+          href: resource-management/resource-management-key-concepts.md
+        - name: Foglalások és hozzárendelések
+          href: resource-management/booking-vs-assignment.md
+        - name: Erőforrás-kezelési módok áttekintése
+          href: resource-management/resource-management-mode-overview.md
+        - name: Ütemezési segéd áttekintése
+          href: resource-management/schedule-assistant-overview.md
+        - name: Centralizált erőforrás-foglalás
+          items:
+            - name: Erőforrás-követelmények meghatározása
+              href: resource-management/define-resource-requirements.md
+            - name: Erőforrás-követelmények frissítése
+              href: resource-management/update-resource-requirements.md
+            - name: Erőforrás-kérelem elküldése
+              href: resource-management/submit-resource-requirements.md
+            - name: Foglalás egy projekthez
+              href: resource-management/book-project.md
+            - name: Javasolt erőforrások áttekintése
+              href: resource-management/review-proposed-resources.md
+        - name: Decentralizált erőforrás-foglalás (hibrid)
+          items:
+            - name: Csoporttagok hozzáadása a Csoporttag rácsból
+              href: resource-management/add-team-members-grid.md
+            - name: Általános erőforrás-követelmények teljesítése
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Erőforrások adminisztrációja
+          items:
+            - name: Képességek és jártasságok meghatározása
+              href: resource-management/define-skills-proficiencies.md
+            - name: Erőforrásnaptárak meghatározása
+              href: resource-management/define-resource-calendars.md
+        - name: Foglalásfelosztási módszerek
+          href: resource-management/booking-allocation-methods.md
+        - name: Készség- és jártasságmodellek
+          href: resource-management/skills-proficiency-models.md
+        - name: Erőforrás-egyeztetés
+          items:
+            - name: Erőforrás-egyeztetés áttekintése
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Időzónák kezelése
+              href: resource-management/manage-multiple-time-zones.md
+    - name: Idő
+      items:
+        - name: Idő áttekintése
+          href: time/time-entry-overview.md
+        - name: Időbejegyzések létrehozása
+          items:
+            - name: Időbejegyzés felhasználói felületének működése
+              href: time/ui-behavior-time.md
+        - name: Fejlesztői jegyzetek
+          items:
+            - name: A heti időbejegyzési rács testreszabása
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Költség
+      items:
+        - name: Költség áttekintése
+          href: expense/expense-overview.md
+        - name: Költségbejegyzés (Lite)
+          href: expense/basic-expense.md
+    - name: Jóváhagyások
+      items:
+        - name: Jóváhagyások áttekintése
+          href: approvals/approvals-overview.md
+    - name: Tények
+      items:
+        - name: Tények áttekintése
+          href: actuals/actuals-overview.md
+        - name: Helyesbítő naplók
+          items:
+            - name: Helyesbítő naplók létrehozása és megerősítése
+              href: actuals/create-confirm-correction-journals.md
+        - name: Proforma számlázás
+          items:
+            - name: A számlázási elmaradás kezelése
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Kézi proforma számla létrehozása
+              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+            - name: Foglaló vagy előleg számlázása
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Helyesbített számlák
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Automatizált számlalétrehozás konfigurálása
+              href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: Projekt Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+  items:
+    - name: Projektmenedzsment és könyvelés – áttekintés
+      href: prod-pma/overview-project-management-accounting.md
+    - name: Vállalatközi számlázás
+      href: prod-pma/intercompany-invoicing.md
+    - name: A vállalatközi projektszámlázás konfigurálása
+      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: A munkaerő és költség általános költségének konfigurálása
+      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Szállítói kifizetéssel kapcsolatos adatmegőrzési feltételek létrehozása és alkalmazása
+      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Fizetéskor fizetett szállítói kifizetések beállítása és használata
+      href: prod-pma/setup-manage-vendor-payments.md
+    - name: A projekt költségének elhatárolása a beszerzési nyugtákon
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+    - name: Projekt számlázása
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Projektszerződések
+      href: prod-pma/project-contracts.md
+    - name: Speciális szerződések létrehozása folyamatalapú számlázáshoz
+      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+    - name: Projekt-előrejelzések és költségvetések
+      href: prod-pma/project-forecasts-budgets.md
+    - name: Előrejelzési modellek létrehozása a projektköltségvetésekhez
+      href: prod-pma/create-forecast-models-project-budgets.md
+    - name: A projektköltségvetések átadása a pénzügyi év végén
+      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Projekt értékesítési rendelései
+      href: prod-pma/project-sales-orders.md
+    - name: Beszerzési rendelések egy projekthez
+      href: prod-pma/project-purchase-orders.md
+    - name: Projektárajánlatok
+      href: prod-pma/project-quotations.md
+    - name: 'Projektárajánlat megerősítése, frissítése és küldése'
+      href: prod-pma/confirm-update-send-project-quotation.md
+    - name: Árajánlat átadása egy projekthez
+      href: prod-pma/transfer-quote-new-existing-project.md
+    - name: Projekt beszerzése
+      items:
+        - name: Projekt beszerzésének áttekintése
+          href: prod-pma/project-resourcing.md
+        - name: Projekterőforrások beállítása
+          href: prod-pma/set-up-project-resources.md
+        - name: Erőforrás-kompetenciák kezelése
+          href: prod-pma/manage-resource-competencies.md
+        - name: Új projekt létrehozása
+          href: prod-pma/create-new-project.md
+        - name: A szerepköralapú árképzés beállítása
+          href: prod-pma/set-up-role-based-pricing.md
+        - name: Projektcsoport létrehozása
+          href: prod-pma/create-project-team.md
+        - name: Erőforráskapacitás szinkronizálása
+          href: prod-pma/synchronize-resource-capacity.md
+        - name: Projekterőforrás ütemezési teljesítménye
+          href: prod-pma/project-scheduling-performance.md
+        - name: Szerepkörök beállítása a munkalebontási struktúra sablonjaihoz
+          href: prod-pma/set-up-roles-wbs-template.md
+        - name: Erőforrás teljesítése tervezett erőforrásokhoz
+          href: prod-pma/resource-fulfillment-planned-resources.md
+    - name: Cikkek bevételezése a cikkszükségletből származó beszerzési rendelésen
+      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+    - name: Munkalebontási struktúrák
+      items:
+        - name: Munkalebontási struktúrák áttekintése
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client integráció
+          href: prod-pma/project-integration.md
+        - name: Project mobilalkalmazások áttekintése
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Projekt időbeviteli mobil munkaterület
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Projekt munkaidő-nyilvántartás mobilalkalmazása
+          href: prod-pma/project-timesheet.md
+        - name: Projekt munkaidő-nyilvántartása mobileszközön
+          href: prod-pma/mobile-timesheets.md
+        - name: Egyéni mezők megvalósítása a Projekt munkaidő-nyilvántartás mobilalkalmazáshoz
+          href: prod-pma/custom-fields-mobile.md
+    - name: Projektjogosultságok
+      href: prod-pma/project-grants.md
+    - name: Projekt becslésének eltávolítása
+      href: prod-pma/eliminate-project-estimate.md
+- name: Költségkezelés
+  items:
+    - name: Költségkezelés áttekintése
+      href: prod-exp/expense-management.md
+    - name: Költségjelentések újragondolva
+      href: prod-exp/ExpenseWorkspaceNew.md
+    - name: Költségkezelés megtervezése
+      href: prod-exp/plan-expense-management.md
+    - name: Költségkezelési paraméterek
+      href: prod-exp/Expense-Management-Parameters.md
+    - name: Költségkezelés mobil munkaterület
+      href: prod-exp/expense-management-mobile-workspace.md
+    - name: Munkafolyamatok beállítása költségkezeléshez
+      href: prod-exp/expense-workflows.md
+    - name: Költségkezelési munkafolyamat
+      href: prod-exp/expense-workflow.md
+    - name: Költségdelegálás kezelése
+      href: prod-exp/manage-expense-delegation.md
+    - name: Költségnyugta feldolgozása
+      href: prod-exp/expense-receipt-processing.md
+    - name: Bankkártya-tranzakciók importálása és karbantartása
+      href: prod-exp/import-credit-card.md
+    - name: Terjesztések egy költségjelentésen
+      href: prod-exp/expense-report-distributions.md
+    - name: Vállalatközi költségek
+      href: prod-exp/intercompany-expense.md
+    - name: Költségszabályzatok meghatározása
+      href: prod-exp/travel-expense-policies.md
+    - name: Költségjelentés megtekintése
+      href: prod-exp/view-expense-report.md
+    - name: Költségjelentés közzététele
+      href: prod-exp/post-expense.md
+    - name: Költségjelentések és több jóváhagyó
+      href: prod-exp/expense-report-multiple-approvers.md
+    - name: Áfa-visszaigénylés a Költségkezelésben
+      href: prod-exp/VAT-expense-report.md
+    - name: Napidíjjal kapcsolatos szabályok
+      href: prod-exp/per-diem.md
+    - name: Utazási kérelmek
+      href: prod-exp/travel-req.md
+    - name: Személyes kiadások egy költségjelentésen
+      href: prod-exp/personal-expenses.md
+- name: Dynamics 365 Project Service Automation
+  items:
+    - name: Project Service Automation áttekintése
+      href: psa/overview.md
+    - name: Újdonságok
+      items:
+        - name: A Project Service 3.x frissítési kiadásának ütemezése
+          href: psa/version-history-ps.md
+        - name: 'A 24, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-24.md
+        - name: 'A 23, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-23.md
+        - name: 'A 22, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-21.md
+        - name: 'A 20, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-20.md
+        - name: 'A 19, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-19.md
+        - name: 'A 18, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-18.md
+        - name: 'A 17.5, Hotfix V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-17-5.md
+        - name: 'A 17, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-17.md
+        - name: 'A 16, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-16.md
+        - name: 'A 15, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-15.md
+        - name: 'A 14, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-14.md
+        - name: 'A 13, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-13.md
+        - name: 'A 12, V3-as frissítési kiadás újdonságai vagy változásai'
+          href: psa/whats-new-ur-12.md
+        - name: Újdonságok és változások a Project Service Automation 3.x wave 1 2020-as verziójában
+          href: psa/whats-new-v3-2020-wave1.md
+        - name: Újdonságok és változások a Project Service Automation 3. verziójában
+          href: psa/whats-new-changed-v3.md
+    - name: A Project Service Automation 3.x telepítése
+      items:
+        - name: Megvalósítás áttekintése
+          href: psa/install-sample-data-3-x.md
+    - name: Frissítés
+      items:
+        - name: A Project Service Automation frissítése (3.x)
+          href: psa/upgrade-psa-home-page.md
+        - name: Frissítéssel kapcsolatos szempontok – frissítés a 2.x vagy 1.x verzióról a 3. verzióra
+          href: psa/upgrade-v3.md
+        - name: Fejlesztés (3.x)
+          href: psa/developer-guides/overview-dev-notes-v3.x.md
+        - name: Entitásváltozások
+          href: psa/developer-guides/entity-changes-v3.x.md
+        - name: Idő és költség
+          href: psa/developer-guides/time-expense-changes-v3.x.md
+        - name: Erőforrás-kezelés
+          href: psa/developer-guides/resource-management-changes-v3.x.md
+        - name: Elavult webes erőforrások a Project Service Automation 3.x verziójában
+          href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Projekt tervezése
+      items:
+        - name: Projekt tervezésének áttekintése
+          href: psa/project-planning.md
+        - name: Projekt ütemezései
+          href: psa/project-creating.md
+        - name: Projekt költségei és bevételei
+          href: psa/project-estimating.md
+        - name: Értékesítési becslések és projektek
+          href: psa/project-leveraging.md
+        - name: Projekt előrehaladása és költségfogyasztása
+          href: psa/project-tracking.md
+        - name: Projektsablonok
+          href: psa/project-templates.md
+        - name: Projektfázisok
+          href: psa/project-stages.md
+        - name: Projektbeállítások
+          href: psa/project-settings.md
+    - name: Árképzési- és költségdimenziók
+      items:
+        - name: Árképzési- és költségdimenziók áttekintése
+          href: psa/pricing-costing-dimensions.md
+        - name: Megoldás létrehozása egyéni árképzési dimenziókhoz
+          href: psa/custompricingdimensionssolution.md
+        - name: Egyéni mezők és entitások létrehozása
+          href: psa/create-custom-fields-entities.md
+        - name: Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
+          href: psa/field-references.md
+        - name: Egyéni mezők beállítása árképzési dimenziókként
+          href: psa/set-up-pricing-dimensions.md
+        - name: Beépülő modul attribútumainak frissítése új árképzési dimenziók felvételéhez
+          href: psa/update-plug-in-attributes.md
+        - name: Elemek újrafelhasználása árképzési dimenziókként
+          items:
+            - name: Meglévő mező használata a Project Service-ben árképzési dimenzióként
+              href: psa/use-existing-field.md
+            - name: Foglalható erőforrás használata árképzési dimenzióként
+              href: psa/bookable-resource-pricing-dimension.md
+            - name: Tranzakciókategória használata árképzési dimenzióként
+              href: psa/transaction-category-pricing-dimension.md
+        - name: 'Foglalható, több szerepkörrel rendelkező erőforrás egy projektben'
+          href: psa/bookable-resource-multiple-roles.md
+        - name: Árképzési dimenzió kikapcsolása
+          href: psa/turn-off-pricing-dimension.md
+    - name: 'Árajánlat-készítés, árképzés és számlázás'
+      items:
+        - name: 'Árajánlat-készítés, árképzés és számlázás áttekintése'
+          href: psa/quote-bill-price.md
+        - name: Árajánlat-készítés
+          items:
+            - name: Értékesítési folyamatok
+              href: psa/basic-sales-process.md
+            - name: Egységcsoportok és egységek
+              href: psa/advanced-units.md
+            - name: Szervezeti egységek
+              href: psa/advanced-organizational.md
+            - name: Árajánlatok és árajánlatsorok
+              href: psa/basic-quote-lines.md
+            - name: Termékalapú árajánlatsorok
+              href: psa/product-based-quote-lines.md
+            - name: Projektárajánlatok elemzése
+              href: psa/basic-analyzing-quotes.md
+        - name: Árképzés
+          items:
+            - name: Projekt árképzése
+              href: psa/basic-pricing.md
+            - name: Termékkatalógus árképzése
+              hreF: psa/product-catalog-pricing.md
+            - name: Üzleti tranzakciók
+              href: psa/basic-business-transactions.md
+            - name: Becslések
+              href: psa/estimates.md
+        - name: Számlázás
+          items:
+            - name: Projektárajánlatok elemzése
+              href: psa/basic-analyzing-quotes.md
+            - name: Előzőleg jóváhagyott idő- vagy költségbejegyzések előhívása
+              href: psa/recall-approved.md
+            - name: Korábban jóváhagyott idő- vagy költségbejegyzések jóváhagyásának törlése
+              href: psa/cancel-approval.md
+            - name: Tények
+              href: psa/actuals.md
+            - name: A jóváhagyott idő-és költségtételek által létrehozott tények tömeges javítása
+              href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+            - name: Projekt számlázási elmaradásának áttekintése
+              href: psa/review-invoicing-backlog.md
+            - name: Számlázás
+              href: psa/invoicing.md
+            - name: Több pénznemű forgatókönyvek
+              href: psa/advanced-currency.md
+    - name: Projektek beszerzése
+      items:
+        - name: Projektek beszerzésének áttekintése
+          href: psa/resource-management.md
+        - name: 'Általános foglalható erőforrások hozzárendelése egy feladathoz, és erőforrás-követelmények generálása'
+          href: psa/assign-generic-bookable-resource.md
+        - name: Megnevezett foglalható erőforrások foglalása a projektcsoportba és feladat hozzárendelése
+          href: psa/assign-named-bookable-resource.md
+        - name: Erőforrás hozzárendelése egy feladathoz
+          href: psa/FAQ-assign-resources-to-tasks.md
+        - name: Nevesített erőforrások foglalása erőforrás-követelményekből
+          href: psa/book-named-resource.md
+        - name: Erőforrás-foglalások és hogy ezek miként függenek össze a feladat-hozzárendelésekkel
+          href: psa/FAQ-bookings-and-assignments.md
+        - name: Erőforrás-kérelem elküldése
+          href: psa/submit-resource-request.md
+        - name: A javasolt erőforrás elfogadása vagy elutasítása
+          href: psa/accept-reject-proposed-resource.md
+        - name: Az erőforrások díjköteles felhasználásának megtekintése
+          href: psa/FAQ-utilization-view.md
+        - name: Foglalások és hozzárendelések egyeztetése
+          href: psa/reconcile-booking-assignment.md
+    - name: Erőforrás-kezelés
+      items:
+        - name: Erőforrás-kezelés kezdőlapja
+          href: psa/resource-management-home-page.md
+        - name: Erőforrások kezelése
+          href: psa/manage-resources.md
+        - name: Fő fogalmak
+          href: psa/reports-key-concepts.md
+        - name: Erőforrás-kérések teljesítése
+          href: psa/resource-management-fulfill-requests.md
+        - name: Erőforrások előterjesztése
+          href: psa/resource-management-propose-resources.md
+        - name: Erőforrások lefoglalása
+          href: psa/resource-management-book-resources-scheduleboard.md
+        - name: Foglalásfelosztási módszerek
+          href: psa/FAQ-allocation-methods.md
+        - name: Puha foglalási követelmények
+          href: psa/resource-management-softbook-requirements.md
+        - name: Egy erőforrás puha foglalása
+          href: psa/FAQ-soft-book.md
+        - name: Projektfoglalás létrehozása az ütemezési táblából
+          href: psa/FAQ-project-booking-schedule-board.md
+        - name: Készség- és jártasságmodellek
+          href: psa/resource-management-skills-proficiency.md
+        - name: Erőforrás-kezelési GYIK
+          href: psa/resource-management-faq.md
+    - name: Jelentéskészítés
+      items:
+        - name: Jelentéskészítés – áttekintés
+          href: psa/reports-reporting-dynamics-365-project-service.md
+        - name: Irányítópultok
+          href: psa/reports-dashboards.md
+        - name: A Project Service Automation adatmodelljével való együttműködés
+          href: psa/reports-working-project-service-data-model.md
+    - name: Időbejegyzés
+      items:
+        - name: Időbejegyzések létrehozása
+          href: psa/time-entries.md
+        - name: Időbeviteli naptár
+          href: psa/time-entry-calendar.md
+        - name: A heti időbejegyzés testreszabása
+          href: psa/time-entry-extensibility-v3.md
+    - name: GYIK és hibaelhárítás
+      items:
+        - name: Az ár miért nulla alapértelmezésben az önköltség tényeiben?
+          href: psa/FAQ-zero-price-expense-cost-actuals.md
+        - name: Az ár miért nulla alapértelmezésben az értékesítési költségek tényadataiban?
+          href: psa/FAQ-zero-price-expense-sales-actuals.md
+        - name: Az ár miért nulla alapértelmezésben az időköltségek tényadataiban?
+          href: psa/FAQ-zero-price-time-cost-actuals.md
+        - name: Az ár miért nulla alapértelmezésben az időértékesítések tényeiben?
+          href: psa/FAQ-zero-price-time-sales-actuals.md
+        - name: Miért nem tudok rekordokat törölni a Tények entitásból?
+          href: psa/FAQ-deleting-actuals.md
+    - name: Project Service Automation 2.x és 1.x
+      items:
+        - name: GYIK és hibaelhárítás
+          items:
+            - name: Hogyan történik az erőforrás hozzárendelése egy feladathoz (2.x alkalmazásverzió)?
+              href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+            - name: Hogyan lehet „ideiglenesen lefoglalni” az erőforrásokat (2.x alkalmazásverzió)?
+              href: psa/FAQ-soft-book-in-web-app.md
+            - name: Hogyan szabható testre a Projektfázisok üzleti folyamat?
+              href: psa/FAQ-customize-bpf.md
+            - name: Frissítési szempontok a munkalebontási struktúrához
+              href: psa/upgrade-considerations-tasks.md
+        - name: Tanulmányok
+          href: psa/white-papers.md
+        - name: Rendszergazdák kézikönyve
+          href: psa/admin-guide.md
+        - name: Telepítés és testreszabás
+          href: psa/install-customize.md
+        - name: Bemutató adatok használata
+          href: psa/use-demo-data.md
+        - name: A Project Service Automation konfigurálása
+          items:
+            - name: A Project Service Automation alkalmazás konfigurálása
+              href: psa/configure.md
+            - name: Időegységek beállítása
+              href: psa/set-up-time-units.md
+            - name: Pénznemek és árfolyamok beállítása
+              href: psa/set-up-currencies-exchange-rates.md
+            - name: Szervezeti egységek létrehozása
+              href: psa/create-organizational-units.md
+            - name: Számlázási gyakoriságok beállítása
+              href: psa/set-up-invoice-frequencies.md
+            - name: Tranzakciókategóriák konfigurálása
+              href: psa/configure-transaction-categories.md
+            - name: Költségkategóriák konfigurálása
+              href: psa/configure-expense-categories.md
+            - name: Termékkatalógus cikkeinek létrehozása
+              href: psa/create-product-catalog-items.md
+            - name: Árlista létrehozása
+              href: psa/create-price-list.md
+        - name: Erőforrások
+          items:
+            - name: Erőforrások beállítása
+              href: psa/set-up-resources.md
+            - name: Erőforrások hozzáadása
+              href: psa/add-resources.md
+            - name: Erőforrás készségeinek hozzáadása
+              href: psa/add-resource-skills.md
+            - name: Jártassági modellek beállítása
+              href: psa/set-up-proficiency-models.md
+            - name: Erőforrás-szerepkörök hozzáadása
+              href: psa/add-resource-roles.md
+            - name: Erőforrás-szerepkörök konfigurálása
+              href: psa/configure-resource-roles.md
+            - name: Képességek társítása erőforrásokhoz
+              href: psa/associate-skills-with-resources.md
+            - name: Képességek társítása erőforrás-szerepkörökhöz
+              href: psa/associate-skills-with-resource-roles.md
+            - name: Munkaidősablon létrehozása
+              href: psa/create-work-hours-template.md
+            - name: Alkalmazzon naptárat egy erőforráshoz
+              href: psa/apply-calendar-resource.md
+            - name: További beállítások konfigurálása
+              href: psa/configure-additional-parameters-settings.md
+            - name: Project Finder Mobile engedélyezése
+              href: psa/enable-project-finder-mobile-app-features.md
+        - name: Erőforrás-kezelés
+          items:
+            - name: Erőforrás-kezelő útmutatója
+              href: psa/resource-manager-guide.md
+            - name: Erőforrás-kérelmek kezelése
+              href: psa/manage-resource-requests.md
+            - name: Erőforrások ütemezése egy projekthez
+              href: psa/schedule-resources-project.md
+            - name: Erőforrások elérhetőségének megtekintése
+              href: psa/view-resource-availability.md
+            - name: Erőforrás-kihasználtság megtekintése
+              href: psa/view-resource-utilization.md
+            - name: Universal Resource Scheduling (URS)
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+        - name: Projektmenedzsment
+          items:
+            - name: Projektmenedzseri útmutató
+              href: psa/project-manager-guide.md
+            - name: Munkabecsléseket biztosít
+              href: psa/provide-estimates-project-during-sales-process.md
+            - name: Projekt létrehozása
+              href: psa/create-project.md
+            - name: Projekt ütemezése munkalebontási struktúrával
+              href: psa/schedule-project-work-breakdown-structure.md
+            - name: Projekthez tartozó becsült költség és bevétel meghatározása
+              href: psa/determine-project-cost-revenue-estimates.md
+            - name: Projekt előrehaladásának és költségének nyomon követése
+              href: psa/track-project-progress-cost.md
+            - name: Projektsablon létrehozása
+              href: psa/create-project-template.md
+            - name: Erőforrás-kérelmek elküldése
+              href: psa/submit-resource-requests.md
+            - name: Office 365-csoport létrehozása projekthez
+              href: psa/create-office-365-group-project.md
+            - name: Dokumentumok hozzáadása egy projekthez
+              href: psa/add-documents-project.md
+            - name: Projektállapot nyomon követése
+              href: psa/track-project-status.md
+            - name: Projektcsoporttagok megtekintése és lefoglalások kezelése
+              href: psa/view-project-team-members-manage-bookings.md
+            - name: Projektbecslések megtekintése és szerkesztése
+              href: psa/view-edit-project-estimates.md
+            - name: Idő és költségek jóváhagyása
+              href: psa/approve-time-expenses.md
+            - name: Projekt tényleges adatainak áttekintése
+              href: psa/review-project-actuals.md
+            - name: Megtekintés és számlák küldése
+              href: psa/view-send-invoices.md
+            - name: Irányítópultok és jelentések megtekintése
+              href: psa/view-dashboards-reports.md
+            - name: Bővítmény használata a Microsoft Projectben lévő munkatervezéshez
+              href: psa/add-plan-work-microsoft-project.md
+        - name: Partnerkezelés
+          items:
+            - name: Partnerkezelői útmutató
+              href: psa/account-manager-guide.md
+            - name: Ügyfélfiók létrehozása
+              href: psa/create-customer-account.md
+            - name: Projektlehetőség létrehozása
+              href: psa/create-project-opportunity.md
+            - name: Projektárajánlat létrehozása
+              href: psa/create-project-quote.md
+            - name: Projektszerződés létrehozása
+              href: psa/create-project-contract.md
+        - name: Idő és költség
+          items:
+            - name: 'Idő, költségek és együttműködés'
+              href: psa/time-expense-collaboration-guide.md
+            - name: Alkalmazások letöltése
+              href: psa/get-apps.md
+            - name: Bejelentkezés
+              href: psa/sign-in.md
+            - name: Saját ütemezés megtekintése
+              href: psa/view-schedule.md
+            - name: Projektek és foglalások kezelése Office 365-ben
+              href: psa/manage-project-bookings-office-365-calendar.md
+            - name: Idő megadása
+              href: psa/enter-time.md
+            - name: Költségek megadása
+              href: psa/enter-expenses.md
+            - name: Idő- vagy költségbejegyzések kiosztása
+              href: psa/allow-someone-else-enter-time-entry-expense.md
+            - name: Szabadidő ütemezése
+              href: psa/schedule-time-off.md
+            - name: 'Együttműködés az Office 365-csoportok használatával] (collaborate-project-team-members-office-365-groups.md'
+            - name: Projektek keresése a Project Finder Mobile segítségével
+              href: psa/find-next-project-finder-mobile-app.md
+            - name: Projekterőforrás-központ útmutatója
+              href: psa/project-resource-hub-users-guide.md
+        - name: Fejlesztői jegyzetek
+          items:
+            - name: Egyéni űrlapok hozzáadása az entitásokhoz
+              href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
