@@ -1,0 +1,25 @@
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069734"
+---
+<span data-ttu-id="aba26-101">A Project Finder Mobile alkalmazás engedélyezésével lehetővé teszi, hogy a felhasználók megtekintsék a projekteket és munkára jelentkezzenek.</span><span class="sxs-lookup"><span data-stu-id="aba26-101">By enabling the Project Finder mobile app, you provide users in the organization with visibility into project work and the ability to sign up for work.</span></span> <span data-ttu-id="aba26-102">A felhasználók a saját képességeiket is megjeleníthetik, illetve frissíthetik a Project Finder alkalmazásban.</span><span class="sxs-lookup"><span data-stu-id="aba26-102">Users can also work with the Project Finder app to view and update their skills.</span></span> <span data-ttu-id="aba26-103">A Project Finder Mobile alkalmazást a Project Service – Paraméterek – Beállítások oldalon engedélyezheti úgy, hogy Igen értékre állítja „Az erőforrás-követelmények láthatók az erőforrások számára” és a „Képességek módosításának engedélyezése az erőforrásoknak” beállítást.</span><span class="sxs-lookup"><span data-stu-id="aba26-103">The Project Finder mobile app is enabled via the Project Service Parameters Setting, by setting the value of the Resource requirements visible to resources and Allow skill update by resource attributes to Yes.</span></span> <span data-ttu-id="aba26-104">Ha a fenti attribútumokat Nem értékre változtatja, azzal letiltja ezt a szolgáltatást.</span><span class="sxs-lookup"><span data-stu-id="aba26-104">Changing the value of these attributes to No disables this functionality.</span></span>  
+  
+ <span data-ttu-id="aba26-105">A szolgáltatás használatakor feltétlenül vegye figyelembe a következőket:</span><span class="sxs-lookup"><span data-stu-id="aba26-105">When using this feature, be sure to consider the following key points:</span></span>  
+  
+-   <span data-ttu-id="aba26-106">Az erőforrás-követelmények láthatók az erőforrások számára.</span><span class="sxs-lookup"><span data-stu-id="aba26-106">Resource requirements visible to resources.</span></span> <span data-ttu-id="aba26-107">Ha ezt az attribútumot Igen értékre állítja, a felhasználók megtekinthetik a projektek következő információit:</span><span class="sxs-lookup"><span data-stu-id="aba26-107">Setting this attribute to Yes provides users with visibility into project work exposes the following information about a project:</span></span>  
+  
+    -   <span data-ttu-id="aba26-108">Projekt neve</span><span class="sxs-lookup"><span data-stu-id="aba26-108">Project name</span></span>  
+  
+    -   <span data-ttu-id="aba26-109">Szerepkör neve</span><span class="sxs-lookup"><span data-stu-id="aba26-109">Role name</span></span>  
+  
+    -   <span data-ttu-id="aba26-110">Ügyfél neve</span><span class="sxs-lookup"><span data-stu-id="aba26-110">Customer name</span></span>  
+  
+    -   <span data-ttu-id="aba26-111">Ügyfél címe</span><span class="sxs-lookup"><span data-stu-id="aba26-111">Customer address</span></span>  
+  
+    -   <span data-ttu-id="aba26-112">Munka időtartama</span><span class="sxs-lookup"><span data-stu-id="aba26-112">Work duration</span></span>  
+  
+-   <span data-ttu-id="aba26-113">Képességek módosításának engedélyezése az erőforrásoknak.</span><span class="sxs-lookup"><span data-stu-id="aba26-113">Allow skill update by resource.</span></span> <span data-ttu-id="aba26-114">Ha ezt az attribútumot Igen értékre állítja, a felhasználók megadhatják a képességeiket a profiljukban, és beállíthatják, hogy milyen szintű tudással rendelkeznek a megadott területeken.</span><span class="sxs-lookup"><span data-stu-id="aba26-114">Setting this attribute to Yes provides users with the ability to add skills to their profiles and to set their level of proficiency for the skills they add.</span></span>
