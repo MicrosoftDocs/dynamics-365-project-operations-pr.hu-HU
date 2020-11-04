@@ -34,7 +34,7 @@ A befoglalt összetevők egy részhalmaza a **Számlázási típus** mező segí
 
 A felszámítható összetevők a feladatokon, szerepkörökön és tranzakciós kategóriákon határozhatók meg.
 
-A felszámíthatóság a projekt szerződéssor feladataihoz van definiálva, és a sorban szereplő összes tranzakciós osztályra vonatkozik. Ha a szerződéssor **Feladatok belefoglalása** mezője üres, vagy a * *Teljes projekt* értékre van állítva, a **Felszámítható feladatok** lap nem lesz elérhető.
+A felszámíthatóság a projekt szerződéssor feladataihoz van definiálva, és a sorban szereplő összes tranzakciós osztályra vonatkozik. Ha a szerződéssor **Feladatok belefoglalása** mezője üres, vagy a * *Teljes projekt* * értékre van állítva, a **Felszámítható feladatok** lap nem lesz elérhető.
 
 A Project szerződéssor szerepkörei meghatározott felszámíthatóság csak az **Idő** tranzakciós osztályra vonatkozik. Ha a szerződéssor **Idő belefoglalása** mezője **Nem** értékre van állítva, a **Felszámítható feladatok** lap nem lesz elérhető.
 
