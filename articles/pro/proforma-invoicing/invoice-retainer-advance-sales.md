@@ -1,21 +1,21 @@
 ---
-title: Foglaló vagy előleg számlázása
+title: Foglaló vagy előleg számlázása - Lite
 description: Ez a témakör foglaló és előleg a Project Operations rendszerben történő számlázásáról tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087955"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180555"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Foglaló vagy előleg számlázása
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Foglaló vagy előleg számlázása - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -43,7 +43,7 @@ Minden olyan számlához, ami egy projektszerződéshez lett létrehozva, amely 
 
 Ez az **Alkalmazott foglalók és előlegek** rácson látható a **Számla** oldalon. A következő táblázat a **Projektszámla** oldal **Alkalmazott foglalók és előlegek** rácsával kapcsolatos mezőkre vonatkozó információkat tartalmaz.
 
-| Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
 | Adatfolyam leírása | Az **Alkalmazott foglalók és előlegek** rács a **Projektszámla** oldalon |Ez az írásvédett mező a számlán szereplő foglaló vagy előleg leírását tartalmazza. Ez az érték nem módosítható a számlán. Ez az érték módosítható a **Projektszerződés** lapon lévő alrácson. | Ez a mező a nyomtatott számlán az ügyfélnek megjeleníthető, amely jelzi, hogy a számlán mely foglaló vagy előleg lesz alkalmazva. |
 | Kiszállítás dátuma | Az **Alkalmazott foglalók és előlegek** rács a **Projektszámla** oldalon  | Ez az írásvédett mező a számlán szereplő foglaló vagy előleg számlázási dátumát tartalmazza. Ez az érték nem módosítható a számlán. Ez az érték módosítható a **Projektszerződés** lapon lévő alrácson. | Ez a mező a nyomtatott számlán az ügyfélnek megjeleníthető, és azt jelzi, hogy a foglaló vagy előleg mikor lett először számlázva az ügyfélnek. |

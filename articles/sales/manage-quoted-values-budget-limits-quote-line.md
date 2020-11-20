@@ -1,21 +1,21 @@
 ---
-title: Projektalapú árajánlatsorok
+title: Projektalapú árajánlatsorok áttekintése
 description: Ez a témakör a projektalapú ajánlatsorok projektmunkához való használatáról tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077959"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181860"
 ---
-# <a name="project-based-quote-lines"></a>Projektalapú árajánlatsorok
+# <a name="project-based-quote-lines-overview"></a>Projektalapú árajánlatsorok áttekintése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
@@ -31,7 +31,7 @@ A projektalapú ajánlati sorok úgy vannak kialakítva, hogy elősegítsék az 
 
 A következő táblázat a projektalapú árajánlatsor **Általános** lapján található mezőkre vonatkozó információkat tartalmaz. Ezek a mezők segítséget nyújtanak a projektmunka részletes, jól felépített becslési alapjainak kialakításában.
 
-| **Mező** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- |
 | Adatfolyam neve | Az árajánlatsor neve, amely segít azonosítani a becslés alatt álló ajánlat elkülönített összetevőjét. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja az árajánlat megnyerése után. |
 | Számlázási mód | A lehetőségből létrehozott árajánlaton ezt az értéket a rendszer a lehetőség sor megfelelő mezőjéből másolja át. Ez a mező a Dynamics 365 Project Operations által támogatott két fő szerződési modellt tartalmazza:</br>- Rögzített ár</br>- Idő és anyag| A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
@@ -47,11 +47,11 @@ A következő táblázat a projektalapú árajánlatsor **Általános** lapján 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>A projektalapú árajánlatsorok Általános lapján található mezőkre vonatkozó ellenőrzési szabályok
 
-**1. szabály** : A kijelölt projekt bizonyos tranzakciós osztályai csak az árajánlat egy projektalapú árajánlatsorában szerepelhetnek.
+**1. szabály**: A kijelölt projekt bizonyos tranzakciós osztályai csak az árajánlat egy projektalapú árajánlatsorában szerepelhetnek.
 
-**2. szabály** : Ha a lehetőség több árajánlattal rendelkezik, akkor különböző árajánlatokból származó ajánlati sorok szerepelhetnek, amelyek ugyanarra a projektre hivatkoznak, és ugyanazt a tranzakciós osztályt tartalmazzák.
+**2. szabály**: Ha a lehetőség több árajánlattal rendelkezik, akkor különböző árajánlatokból származó ajánlati sorok szerepelhetnek, amelyek ugyanarra a projektre hivatkoznak, és ugyanazt a tranzakciós osztályt tartalmazzák.
 
-**3. szabály** : Ha az ajánlatok nem ugyanahhoz a lehetőséghez tartoznak, akkor nem tartalmazhatják ugyanazokat a projekt- és tranzakciós osztályokat.
+**3. szabály**: Ha az ajánlatok nem ugyanahhoz a lehetőséghez tartoznak, akkor nem tartalmazhatják ugyanazokat a projekt- és tranzakciós osztályokat.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

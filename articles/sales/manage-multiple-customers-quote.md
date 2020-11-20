@@ -1,21 +1,21 @@
 ---
-title: Több ügyfél kezelése projektárajánlatokon
+title: Több ügyfél kezelése egy projektárajánlaton
 description: Ez a témakör tájékoztatást nyújt a projekt finanszírozását végző több ügyfelet tartalmazó árajánlatok használatáról.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077946"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181995"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Több ügyfél kezelése projektárajánlatokon
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Több ügyfél kezelése egy projektárajánlaton
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
@@ -35,7 +35,7 @@ Az elsődleges ügyfél nem frissíthető az árajánlatban szereplő ügyfélli
 
 Az árajánlati ügyfél az **Árajánlat** oldal **Árajánlati ügyfelek** lapján hozható létre, frissíthető, illetve törölhető. Az alábbi táblázatban felsorolt mezők a projektárajánlat árajánlati ügyfélrekordjában találhatók.
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Fiók | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Felsorolja az összes aktív partnert. Ez a mező a rekord létrehozása után zárolva van. Ha frissíteni kívánja, törölje a rekordot, és hozza létre újra. Ha bármilyen tényleges adatot rögzített, vagy ha az árajánlati ügyfélrekord egy elsődleges ügyfél, akkor a bejegyzést törölheti. | Az árajánlati ügyfeleket a rendszer az árajánlatsor létrehozásakor árajánlatsori ügyfelekként másolja át. Az árajánlati ügyfelek az árajánlat megnyerése után átmásolásra kerülnek a projektszerződési ügyfelekbe is. |
 | Számlázásfelosztás százaléka | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Az adott árajánlati ügyfélnek tulajdonított, nem számlázott értékesítési tranzakciók százalékos arányát jeleníti meg. | Átmásolva a létrehozott új árajánlatsorokba és a projektszerződés ügyfeleihez. |
@@ -50,4 +50,4 @@ Az árajánlati ügyfél az **Árajánlat** oldal **Árajánlati ügyfelek** lap
 
 A számlázásfelosztási százalékokat a soros rácsszerkesztés használatával szerkesztheti. Ha a számlázási felosztási százalékok összege nem 100%, hiba lép fel. A számlázásfelosztási százalékok frissítése után frissítse az oldalt a hiba eltávolításához.
 
-Az árajánlati ügyfelek alrácsán megpróbálhatja kiválasztani az **Egyenletes elosztás lehetőséget** is. Ez a művelet a számlázásfelosztásokat az összes árajánlati ügyfél számára elosztja. Ha van kerekítési tényező, az hozzáadódik a kerekítő ügyfélhez. Az árajánlati ügyfelek egyike mindig a kerekítő vevőként van címkézve. Ez azt jelenti, hogy az árajánlat vevői rekordjának esetében a **Kerekítés** jelzője **Igen**. Általában ez az árajánlat elsődleges vevője, de ez módosítható.
+Megpróbálhatja kiválasztani az **Egyenlő elosztás** lehetőséget is az árajánlat ügyfeleinek részrácsán. Ez a művelet a számlázásfelosztásokat az összes árajánlati ügyfél számára elosztja. Ha van kerekítési tényező, az hozzáadódik a kerekítő ügyfélhez. Az árajánlati ügyfelek egyike mindig a kerekítő vevőként van címkézve. Ez azt jelenti, hogy az árajánlat vevői rekordjának esetében a **Kerekítés** jelzője **Igen**. Általában ez az árajánlat elsődleges vevője, de ez módosítható.

@@ -1,33 +1,33 @@
 ---
-title: A munka költségarányának beállítása
+title: A munka költségarányának beállítása – Lite
 description: Ez a témakör a Project Operations munkabérköltségeire vonatkozó díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078003"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180720"
 ---
-# <a name="setting-up-labor-cost-rates"></a>A munka költségarányának beállítása 
+# <a name="set-up-labor-cost-rates---lite"></a>A munka költségarányának beállítása – Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 Minden árlistához tartalmaz egy sor munkadíj (szerepkörárak), amelyek megfelelnek az árlista tartalmának és esedékességi dátumának.
 
-1. Hozzon létre egy árlistát, és a **Szerepkörár** lap részrácsában válassza az **Új szerepkör** lehetőséget.
+1. Hozzon létre egy árlistát, és a **szerepkörár** lap Alrács területén válassza az **Új szerepkör** lehetőséget.
 2. A **gyors létrehozás** lapon jelölje ki a szerepkört és a szervezeti egységet.
 3. Adja meg a többi kötelező mezők adatait.
 
 Az alábbi táblázat néhány olyan mezőt tartalmaz, amelyek fontosak a önköltségi árlistán a munkadíjak létrehozásakor.
 
-| Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
 | Szerepkör | **Általános** lap és a **Gyorslétrehozás** oldalak | Válassza ki a költségdíjhoz tartozó szerepkört. | A bejövő becslésen vagy a tényleges értéken szereplő szerepkört ezzel a sorral kell összehangolni a szerepkör alapértelmezett költségének meghatározásához. |
 | Erőforrás-kezelő részleg | **Általános** lap és a **Gyorslétrehozás** oldalak | Válassza ki azt a szervezeti egységet vagy részleget a vállalattól, ahol ezt a szerepkört használni kívánja. Például a Fabrikam India robotikai divíziójának fejlesztője vagy a Fabrikam USA szoftveres divíziójának fejlesztője. | A bejövő becslésen vagy a tényleges értéken szereplő erőforrás-kezelő egységet ezzel a sorral kell összehangolni a szerepkör alapértelmezett költségének meghatározásához. |
@@ -38,7 +38,7 @@ Az alábbi táblázat néhány olyan mezőt tartalmaz, amelyek fontosak a önkö
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>A divízión vagy jogi személyen kívüli erőforrásokra vonatkozó árak és költségek átadása
 
-A projektalapú vállalatokban gyakori a különböző jogi személyek vagy részlegek alkalmazottainak használata projekteken. Egy projektet elvégezhet egy jogi személy, de a projekten dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből vagy egy másikból, vagy a kettő kombinációjából. A Dynamics 365 Project Operations alkalmazásban a projekt teljesítését birtokló jogi személy a **tulajdonos vállalat** , és az a részleg, amely a végrehajtás tulajdonosa, a **szerződő egység**. Az erőforrásokat biztosító egyéb jogi személyek az **Erőforrás-kezelő vállalatok** , és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A legtöbb országban a vállalatoknak meg kell győződniük arról, hogy az erőforrás-kezelő jogi személy vagy részleg megterheli a tulajdonos vállalatot és a szerződő egységet az erőforrások használatáért.
+A projektalapú vállalatokban gyakori a különböző jogi személyek vagy részlegek alkalmazottainak használata projekteken. Egy projektet elvégezhet egy jogi személy, de a projekten dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből vagy egy másikból, vagy a kettő kombinációjából. A Dynamics 365 Project Operations alkalmazásban a projekt teljesítését birtokló jogi személy a **tulajdonos vállalat**, és az a részleg, amely a végrehajtás tulajdonosa, a **szerződő egység**. Az erőforrásokat biztosító egyéb jogi személyek az **Erőforrás-kezelő vállalatok**, és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A legtöbb országban a vállalatoknak meg kell győződniük arról, hogy az erőforrás-kezelő jogi személy vagy részleg megterheli a tulajdonos vállalatot és a szerződő egységet az erőforrások használatáért.
 
 A Fabrikam vállalatnak például biztosítania kell, hogy a Fabrikam India-Robotics rendelkezik egyeztetett költségdíjkártyával a Fabrikam US-Robotics vagy a Fabrikam UK-Robotics felé.
 

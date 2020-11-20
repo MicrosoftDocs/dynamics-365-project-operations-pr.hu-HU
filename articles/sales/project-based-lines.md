@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077953"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181950"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektalapú lehetőségsorok
 
@@ -26,7 +26,7 @@ A projektalapú lehetőségsorok azok a sorelemek, amelyek az ügyfélnek a proj
 
 Az alábbiakban láthatók a projektalapú lehetőségsorok mezői:
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Terméktípus | Általános lap (rejtett) | Ez egy értékkészletmező. Ha telepítve van a Dynamics 365 Operations, az egyik rendelkezésre álló lehetőség a **Projektalapú szolgáltatás**.  | Ennek a mezőnek az értékét **Projektalapú szolgáltatás** értékre állítja a program, amikor a lehetőséghez tartozó projektalapú sorok rácsából hozza létre a projektalapú lehetőségsort. <br> Ha módosítja vagy felülbírálja ezt az értéket, a projekt funkció nem lesz engedélyezve a projektalapú sorelemeiben. |
 | Lehetőség | Általános lap | Ez a mező csak olvasható, és hivatkozik arra a fölérendelt lehetőségrekordra, amelyhez ez a sorelem tartozik. | Ennek a mezőnek nincs későbbi hatása. |

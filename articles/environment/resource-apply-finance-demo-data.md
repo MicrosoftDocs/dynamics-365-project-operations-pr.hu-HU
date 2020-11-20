@@ -1,21 +1,21 @@
 ---
-title: A Project Operations bemutató adatainak alkalmazása a Finance felhőben szolgáltatott környezetbe
+title: Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
 description: Ez a témakör ismerteti, hogyan lehet alkalmazni a Project Operations bemutató adatait a Dynamics 365 Finance felhőben szolgáltatott környezetre.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096625"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365241"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>A Project Operations bemutató adatainak alkalmazása a Finance felhőben szolgáltatott környezetbe
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 

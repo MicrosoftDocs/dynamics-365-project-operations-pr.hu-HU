@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077996"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180375"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektalapú árajánlatsor becslése
 
@@ -30,9 +30,9 @@ A projektalapú árajánlatsor becsléséhez válassza ki a projektalapú áraj�
 
 Ha egy projektalapú árajánlatsor becslését szeretné létrehozni, akkor válassza ki az **Árajánlatsor részletei** lapot. Az ezen a lapon létrehozott sor összesíti az árajánlatsorhoz tartozó ajánlati értéket. 
 
-Az árajánlatsor részleteinek létrehozásához válassza az **+ Új árajánlatsor-részlet** lehetőséget az **Árajánlatsor részletei** alrácson. Megnyílik egy gyorslétrehozási csúszka. Az **Árajánlatsor** űrlap következő mezői:
+Az ajánlati sor részleteinek létrehozásához az **Árajánlatsor részletek** alrácsán jelölje ki a **+ új ajánlati sorrészletek** elemet. Megnyílik egy gyorslétrehozási csúszka. Az **Árajánlatsor** űrlap következő mezői:
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Adatfolyam leírása | Gyorslétrehozás | Egy adott becslés leírása. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
 | Tranzakció osztálya | Gyorslétrehozás | Ez a legördülő lista a projektalapú árajánlatsor **Általános** lapján szereplő tranzakciós osztályokat tartalmazza.  | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
@@ -54,7 +54,7 @@ Ha megváltoztatta az árakat az árajánlathoz mellékelt projektárlistán vag
 
 ## <a name="access-quote-line-details-for-cost"></a>A költség árajánlatsor-részleteinek elérése
 
-Az **Árajánlatsor részletei** lapon jelöljön ki egy sort a rácsban, hogy engedélyezze az alrács eszköztárának bizonyos műveleteit. Az alrács eszköztár első művelete, amikor az árajánlatsor részletei be van jelölve, a **Költség részleteinek megnyitása**. Válassza a **Költség részleteinek megnyitása** lehetőséget az árajánlatsorhoz kapcsolódó költségarány és -összeg megtekintéséhez.
+Az **Ajánlatsor részletei** lapon jelöljön ki egy sort a rácsban, hogy lehetővé tegyen bizonyos műveleteket az alrács eszköztárán. Az alrács eszköztár első művelete, amikor az ajánlati sor részletei be vannak jelölve a **Költség részleteinek megnyitása**. Válassza a **Költség részleteinek megnyitása** lehetőséget az árajánlatsorhoz kapcsolódó költségarány és -összeg megtekintéséhez.
 
 > [!NOTE]
 > Az erőforrásbiztosító egység, mennyiség, dátumok, szerep vagy kategória értékek módosítása a költség árajánlatsor-részletein módosítani fogja az értékesítések árajánlatsor-részleteinek megfelelő értékét.

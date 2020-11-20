@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4078324"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180780"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Számlaütemezés létrehozása egy projektalapú szerződéssoron 
 
@@ -29,10 +29,10 @@ Amikor a szerződéssor számlázási módja Idő és anyag típusú móddal ren
 2. Nyissa meg a projektszerződés-rekordot és az **Összesítés** lapon a **Kért szállítási dátum** mezőben jelöljön ki egy dátumot.
 3. Nyissa meg azt az **Idő-és anyag** szerződéssort, amelyhez dátumalapú számlaütemezést hoz létre. 
 4. A **Számlaütemezés** lapon válassza ki a számlázás kezdete és a számlázási gyakoriság elemeket.
-5. Az alrácson válassza a **Számlaütemezés előállítása** lehetőséget. Az számlaütemezés létre lesz hozva a **Számlakészítés dátuma** , a **Tranzakció határideje** és a **Futtatás állapota** mezőket a következő módon beállítva:
+5. Az alrácson válassza a **Számlaütemezés előállítása** lehetőséget. Az számlaütemezés létre lesz hozva a **Számlakészítés dátuma**, a **Tranzakció határideje** és a **Futtatás állapota** mezőket a következő módon beállítva:
 
     - A **Számlakészítés dátuma** Ezt számla gyakorisága által meghatározott dátuma határozza meg.
-    - A **Tranzakció határideje** : A Számlakészítés dátuma előtti nap.
+    - A **Tranzakció határideje**: A Számlakészítés dátuma előtti nap.
     - A **Futtatás állapota** Beállítás automatikusan a **Nem fut** értékre van beállítva. Amikor az automatikus számlalétrehozási feladat egy bizonyos számlázási futtatási dátumnál fut, akkor a program a **Futtatás sikerült** vagy a **Futtatás nem sikerült** értékre módosítja majd a mezőt.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Rögzített áras számlaütemezés létrehozása szerződéssorhoz
@@ -47,11 +47,11 @@ Hajtsa végre az alábbi lépéseket, egy mérföldkő alapú számlaütemezés 
 1. Válassza a **Beállítások** > **Számlázási gyakoriság** lehetőséget, és állítson be egy számlázási gyakoriságot.
 2. Nyissa meg a projektszerződés-rekordot és az **Összesítés** lapon a **Kért szállítási dátum** mezőben jelöljön ki egy dátumot.
 3. Nyissa meg azt a **Rögzített áras** szerződéssort, amelyhez mérföldkő-ütemezést hoz létre. A **Számlázási mérföldkövek** lapon válassza ki a számlázás kezdete és a számlázási gyakoriság elemeket. 
-4. Az alrácson válassza az **Időszakos mérföldkövek létrehozása** lehetőséget. A számla ütemezése a **Mérföldkő neve** , a **Mérföldkő dátuma** és a **Mérföldkő összege** mezőket a következőképpen jön létre:
+4. Az alrácson válassza az **Időszakos mérföldkövek létrehozása** lehetőséget. A számla ütemezése a **Mérföldkő neve**, a **Mérföldkő dátuma** és a **Mérföldkő összege** mezőket a következőképpen jön létre:
 
     - A **Mérföldkő neve** Ezt számla gyakorisága által meghatározott dátuma határozza meg.
-    - A **Mérföldkő dátuma** : Ezt számla gyakorisága által meghatározott dátuma határozza meg.
-    - **Mérföldkő összege** : Ezt az összeget úgy számítja ki a program, hogy a szerződéssoron szereplő szerződéses összeget elosztja a mérföldköveknek a gyakoriság, valamint a számlázás kezdete és a kért szállítási dátumok által megkövetelt számával.
+    - A **Mérföldkő dátuma**: Ezt számla gyakorisága által meghatározott dátuma határozza meg.
+    - **Mérföldkő összege**: Ezt az összeget úgy számítja ki a program, hogy a szerződéssoron szereplő szerződéses összeget elosztja a mérföldköveknek a gyakoriság, valamint a számlázás kezdete és a kért szállítási dátumok által megkövetelt számával.
 
     Ha a szerződéssor értéke a **Becsült adóösszeg** mezőben van, akkor ez a mező a periodikus mérföldkövek létrehozásakor egyenletesen lesz hozzárendelve az egyes mérföldkövekhez.
 
@@ -64,7 +64,7 @@ A rögzített árú mérföldköveket létrehozhat manuálisan is, ha nem idősz
 1. Nyissa meg azt a rögzített árú szerződéssort, amelyhez mérföldkövet hoz létre, és a **Számla ütemezése** lap alrácson válassza az **+ Új szerződéssor mérföldkő létrehozása** lehetőséget. 
 2. A **Mérföldkő létrehozása** lapon írja be a következő táblázat alapján a szükséges adatokat.
 
-| Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
 | Mérföldkő neve | Gyorslétrehozás | A mérföldkő nevének szövegmezője. | Ez továbbvitelre kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
 | Projektfeladat | Gyorslétrehozás | Ha a mérföldkő a projektfeladathoz van kötve, ezzel a hivatkozással egyéni logikát adhat hozzá a feladat állapota alapján a megadott mérföldkő-állapothoz. | Az alkalmazásnak nincs hatása alsóbb rétegekben ennek a feladathivatkozásnak az esetében. |

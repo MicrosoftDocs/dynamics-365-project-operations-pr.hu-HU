@@ -1,23 +1,33 @@
 ---
-title: Beállítási és konfigurációs adatok alkalmazása a Project Operations szolgáltatáshoz használható Common Data Service rendszerben
+title: Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban
 description: Ez a témakör a beállításról és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077965"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401131"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Beállítási és konfigurációs adatok alkalmazása a Project Operations szolgáltatáshoz használható Common Data Service rendszerben
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban 
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
+
+## <a name="prerequisites"></a>Előfeltételek
+
+Az adatok Common Data Service (CDS) felületén történő konfigurálásának megkezdése előtt a következő előfeltételeknek kell teljesülnie:
+
+1.  CDS-környezet és Dynamics 365 Finance-környezet kiépítése a Project Operationshoz.
+2.  A jogi személy adatait meg kell osztani a Dynamics 365 Finance-ből a CDS-környezetbe. Ez azt jelenti, hogy a **vállalat** entitás a CDS-ben a következő vállalati rekordokkal rendelkezik:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Beállítási és konfigurációs adatok telepítése
 
@@ -114,10 +124,10 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
  
 12. Frissítse a következő mezőket:
 
- - **Alapértelmezett vállalat** : USPM
+ - **Alapértelmezett vállalat**: USPM
  - **Alapértelmezett szervezeti egység** : Contoso Robotics Global
- - **Számlázási gyakoriság** : Hetedik és utolsó nap
- - **Munkaidősablon** : Váltson a létrehozott sablonra.
+ - **Számlázási gyakoriság**: Hetedik és utolsó nap
+ - **Munkaidősablon**: Váltson a létrehozott sablonra.
 
 13. Válassza a **Mentés** parancsot. 
 

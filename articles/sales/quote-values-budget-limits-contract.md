@@ -1,21 +1,21 @@
 ---
-title: Összefoglaló információk projektárajánlatról
+title: Projektárajánlat beállításai
 description: Ez a témakör a projektárajánlatokra érvényes és azokat érintő információkkal és beállításokkal kapcsolatos tudnivalókat tartalmaz.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077938"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180240"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Összefoglaló információk projektárajánlatról
+# <a name="project-quote-settings"></a>Projektárajánlat beállításai
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
@@ -24,7 +24,7 @@ Ez a cikk ismerteti a projektárajánlatra vonatkozó információkat. Ezek köz
 
 A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi, vagy a Dynamics 365 Sales viselkedésében fontos változásokat eredményező összegző információs mezőket sorolja fel.
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Típus szerint | Összegzés lap (rejtett) | Ez a értékkészlet mező a következő értékekkel rendelkezik:</br>- Munkaalapú (csak akkor érhető el, ha a Project Operations telepítve van)</br>- Cikkalapú (csak akkor érhető el, ha a Project Operations és a Sales telepítve van)</br>- Szolgáltatáskarbantartás-alapú (elérhető, ha a Dynamics 365 Field Service telepítve van) | A Project Operations alkalmazás használatakor a program automatikusan **Munkaalapú** értékre állítja a mezőt. Ez az árajánlatot projektalapú árajánlatként osztályozza. Az ajánlatnak projektalapúnak kell lennie, hogy minden projektspecifikus bővítmény és funkció futtatását lehetővé tegye. |
 | Tulajdonos vállalat | Összesítés | Az adott árajánlathoz kapcsolódó projektből vagy projektekből származó költségeket és bevételeket elkönyvelő jogi entitás. Amikor a lehetőségből egy árajánlat kerül létrehozásra, ezt a mezőt a rendszer a lehetőség megfelelő mezőjéből másolja át. | A tulajdonos vállalat a Project Operations **Projektmenedzsment és könyvelés** moduljában a jogi entitás fogalmának felel meg. A projektből származó összes költséget és bevételt a tulajdonos vállalat főkönyvében kell könyvelni. |
@@ -38,7 +38,7 @@ A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi
 
 Alább láthatók a projektárajánlatban rendelkezésre álló azon lapok és fő teljesítménymutatók, amelyek egyediek a Project Operations esetében, vagy néhány fontos változást okoznak a Sales árajánlataihoz képest:
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** |
+| **Mező** | **Hely** | **Leírás** |
 | --- | --- | --- |
 | Jövedelmezőségi elemzés | Árajánlat lapja | A lap a következő metrikákat mutatja meg:</br>- Teljes felszámítható költség</br></br>- Teljes fel nem számítható költség</br>- Összbevétel</br>- Összbevétel (alappénznem)</br>- Bruttó nyereség</br>- Helyesbített bruttó nyereség|
 | Összehasonlítás az ügyfél elvárásaival | Árajánlat lapja | Ez a lap a következő metrikákat mutatja meg:</br>- Becsült befejezés</br>- Kért befejezés</br>- Ügyfél költségvetése</br>- Árajánlat értéke |

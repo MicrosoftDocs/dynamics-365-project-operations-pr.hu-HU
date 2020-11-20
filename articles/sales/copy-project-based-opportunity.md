@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078031"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181655"
 ---
 # <a name="copy-project-based-opportunities"></a>Projektalapú lehetőségek másolása
 
-_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
 A projektek lehetőségei könnyen átmásolhatók új projektlehetőségek létrehozásához. 
@@ -25,7 +25,7 @@ A projektek lehetőségei könnyen átmásolhatók új projektlehetőségek lét
 1. Nyissa meg a **Projekt lehetőségei** listát, és jelöljön ki egy lehetőséget a listából. Vagy nyissa meg egy adott lehetőség adatait tartalmazó oldalt. 
 2. Bármelyik oldalról válassza a **Másolás** lehetőséget. Megnyílik egy párbeszédpanel, amely a következő mezőadatokat tartalmazza. A párbeszédpanelen kiválasztott értékektől függően előfordulhat, hogy a másolási folyamat más lehet.
 
-    | **Mező** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+    | **Mező** | **Leírás** | **Alsóbb rétegbeli hatás** |
     | --- | --- | --- |
     | Téma | Adja meg a célszerződés vonatkozó témáját. Amikor megnyílik a párbeszédpanel, a rendszer a forrás lehetőség témakörére állítja be a **-másolat** karaktersorozatot hozzáfűzve. | Ennek a mezőnek nincs későbbi hatása. |
     | Fiók | Hivatkozások az ügyfél vállalati vagy partneri rekordjára. Amikor megnyílik a párbeszédpanel, a rendszer beállítja a forráslehetőség partnerére. | Ez a mező az lehetőségben szereplő elsődleges ügyfél. |

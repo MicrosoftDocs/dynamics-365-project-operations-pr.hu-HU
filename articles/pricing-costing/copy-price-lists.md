@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078131"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181500"
 ---
 # <a name="copy-price-lists"></a>Árlisták másolása
 
@@ -26,7 +26,7 @@ A következő lépések végrehajtásával készítheti el az árlista másolat�
 1. Nyissa meg azt az árlistát, amelyről másolatot szeretne készíteni, és válassza a **Másolás** lehetőséget.
 2. Adja meg az árlista másolásához szükséges adatokat. A következő táblázat azt mutatja be, hogy milyen szempontokat érdemes figyelembe venni az adatok megadásakor.
 
-| Mező | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- |
 | Adatfolyam neve | A forrás árlista neve, amelyhez a **másolat** van hozzáfűzve. | Az árlista ezt az étéket tartalmazza minden lista és legördülő lapon. |
 | Környezet | Adja meg a célárlistához használni kívánt környezetet. | A **Költség** kontextussal rendelkező árlista a költségbecslések és a költségek tényleges árát keresi meg. A **Értékesítés** kontextussal rendelkező árlista az értékesítési becslések és a értékesítés tényleges árát keresi meg. Csak az **Értékesítés** környezetű árlisták csatolhatók az ügyfelek, ajánlatok és szerződések projektárlistáihoz. |
@@ -40,6 +40,6 @@ A következő lépések végrehajtásával készítheti el az árlista másolat�
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Árlista frissítése az árakra vonatkozó növelések alkalmazásával
 
-1. Az árlista **Szerepkör** , **Kategória** és **Árlistaelem** lapjain kiválaszthatja az **Árak frissítése** lehetőséget az alrácsban szereplő összes ár növelésének alkalmazásához. 
+1. Egy árlista **Szerepkör**, **Kategória** és **Árlistaelem** lapjain kiválaszthatja az **Árak frissítése** lehetőséget, hogy árrést alkalmazzon az alrácsban szereplő összes ár esetében. 
 2. A megnyíló párbeszédpanel lapján adjon meg egy növelést. Negatív növelést is megadhat, ha bizonyos százalékkal csökkenti az árakat. 
 3. Válassza az **OK** lehetőséget a párbeszédpanelen, és ellenőrizze, hogy az alrácsban szereplő árak tükrözik-e az elvégzett módosításokat.

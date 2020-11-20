@@ -1,21 +1,21 @@
 ---
-title: Összefoglaló információk projektárajánlatról (értékesítés)
+title: Összefoglaló információk egy projektárajánlatról - Lite
 description: Ez a témakör a projektárajánlatokra érvényes és azokat érintő információkkal és beállításokkal kapcsolatos tudnivalókat tartalmaz. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078023"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180959"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Összefoglaló információk projektárajánlatról (értékesítés)
+# <a name="summary-information-on-a-project-quote---lite"></a>Összefoglaló információk egy projektárajánlatról - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -23,7 +23,7 @@ Ez a cikk ismerteti a projektárajánlatra vonatkozó információkat. Ezek köz
 
 A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi, vagy a Dynamics 365 Sales viselkedésében fontos változásokat eredményező összegző információs mezőket sorolja fel.
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Típus szerint | Összegzés lap (rejtett) | Ez a értékkészlet mező a következő értékekkel rendelkezik:</br>- Munkaalapú (csak akkor érhető el, ha a Project Operations telepítve van)</br>- Cikkalapú (csak akkor érhető el, ha a Project Operations és a Sales telepítve van)</br>- Szolgáltatáskarbantartás-alapú (elérhető, ha a Dynamics 365 Field Service telepítve van) | A Project Operations alkalmazás használatakor a program automatikusan **Munkaalapú** értékre állítja a mezőt. Ez az árajánlatot projektalapú árajánlatként osztályozza. Az ajánlatnak projektalapúnak kell lennie, hogy minden projektspecifikus bővítmény és funkció futtatását lehetővé tegye. |
 | Potenciális ügyfél | Összegzés lap | Hivatkozás az ügyfél vállalati vagy partneri rekordjára. Amikor a lehetőségből egy árajánlat kerül létrehozásra, ezt a mezőt a rendszer a lehetőség megfelelő mezőjéből másolja át. | A projektárajánlatban szereplő pénznemet a program az ügyfél pénzneme alapján állítja be alapértelmezettként. Ez az árajánlat mentése előtt azonban módosítható. |
@@ -36,7 +36,7 @@ A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi
 
 Alább láthatók a projektárajánlatban rendelkezésre álló azon lapok és fő teljesítménymutatók, amelyek egyediek a Project Operations esetében, vagy néhány fontos változást okoznak a Sales árajánlataihoz képest:
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** |
+| **Mező** | **Hely** | **Leírás** |
 | --- | --- | --- |
 | Jövedelmezőségi elemzés | Árajánlat lapja | A lap a következő metrikákat mutatja meg:</br>- Teljes felszámítható költség</br></br>- Teljes fel nem számítható költség</br>- Összbevétel</br>- Összbevétel (alappénznem)</br>- Bruttó nyereség</br>- Helyesbített bruttó nyereség|
 | Összehasonlítás az ügyfél elvárásaival | Árajánlat lapja | Ez a lap a következő metrikákat mutatja meg:</br>- Becsült befejezés</br>- Kért befejezés</br>- Ügyfél költségvetése</br>- Árajánlat értéke |

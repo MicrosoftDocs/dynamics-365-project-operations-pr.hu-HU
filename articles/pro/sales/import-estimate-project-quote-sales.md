@@ -1,21 +1,21 @@
 ---
-title: Projektbecslések importálása egy projektalapú árajánlatsorhoz
+title: Projektbecslések importálása egy projektalapú árajánlatsorhoz - Lite
 description: Ez a témakör azt ismerteti, hogyan lehet becsléseket importálni egy projektből egy ajánlatsorba.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077994"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177739"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Projektbecslések importálása egy projektalapú árajánlatsorhoz
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Projektbecslések importálása egy projektalapú árajánlatsorhoz - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -30,7 +30,7 @@ Ha egy projekt az értékesítést megelőző fázisban jön létre, megadhatja,
   - **Szerepkör** 
   - **Projektfeladat**
 
-A kiválasztott érték alapján a program átmásolja a projekt becslését az árajánlatsorban található összes tranzakcióosztály esetében. Annak ellenőrzéséhez, hogy milyen tranzakciós osztályok szerepelnek a rendszerben, jelölje ki az **Általános** lapot a projektalapú árajánlatsorban, és ellenőrizze az **Idővel együtt** , a **Kiadásokkal együtt** és a **Díjakkal együtt** értékeit.  Ha szeretné megtekinteni, hogy milyen feladatok szerepelnek,válassza a **Számlázható feladatok** lapot az ajánlatsorok között.
+A kiválasztott érték alapján a program átmásolja a projekt becslését az árajánlatsorban található összes tranzakcióosztály esetében. Annak ellenőrzéséhez, hogy milyen tranzakciós osztályok szerepelnek a rendszerben, jelölje ki az **Általános** lapot a projektalapú árajánlatsorban, és ellenőrizze az **Idővel együtt**, a **Kiadásokkal együtt** és a **Díjakkal együtt** értékeit.  Ha szeretné megtekinteni, hogy milyen feladatok szerepelnek,válassza a **Számlázható feladatok** lapot az ajánlatsorok között.
 
 A hozzárendelt Feladatoktól és a belefoglalt tranzakciós osztályoktól függően, a rendszer a feladathoz és a tranzakciós osztályok kombinációhoz tartozó összes becslést a szerződéssorba importálja.
 

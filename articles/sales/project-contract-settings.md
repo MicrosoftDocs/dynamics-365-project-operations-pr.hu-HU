@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087959"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181140"
 ---
 # <a name="project-contract-settings"></a>Projektszerződés beállításai
 
@@ -23,7 +23,7 @@ Ez a témakör a teljes szerződésre vonatkozó mezőkre vonatkozó informáci�
 
 A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi, vagy a Dynamics 365 Sales értékesítési rendeléseiből származó viselkedésében fontos változásokat eredményező projektszerződési mezőket sorolja fel.
 
-| Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
 | Típus szerint | **Összegzés** lap (rejtett) | Ez a értékkészlet mező a következő beállításokkal rendelkezik:</br>- **Munkaalapú** (csak akkor érhető el, ha a Project Operations telepítve van)</br>- **Cikkalapú** (csak akkor érhető el, ha a Project Operations és a Sales telepítve van)</br>- **Szolgáltatáskarbantartás-alapú** (elérhető, ha a Dynamics 365 Field Service telepítve van) | A Project Operations esetében ennek a mezőnek az értéke alapértelmezés szerint a **Munkaalapú** és a szerződést projekt alapú szerződésként osztályozza. A szerződésnek projektalapúnak kell lennie, hogy minden projektspecifikus bővítmény és funkció futtatását lehetővé tegye. |
 | Tulajdonos vállalat | **Összegzés** lap | Az adott projektszerződéshez kapcsolódó projektekből származó költségeket és bevételeket elkönyvelő jogi entitás. Amikor az árajánlatból egy szerződés kerül létrehozásra, ezt a mezőt a rendszer az árajánlatrekord megfelelő mezőjéből másolja át. | A tulajdonos vállalat a Project Operations **Projektmenedzsment és könyvelés** moduljában a jogi személy fogalmának felel meg. A projektből származó összes költséget és bevételt a tulajdonos vállalat főkönyvében kell könyvelni. |
@@ -37,7 +37,7 @@ A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi
 
 A következő fő teljesítménymutatók érhetők el a projekt szerződés **Szerződési teljesítmény** lapján.
 
-| Mező | Hely | Relevancia, cél és útmutatás |
+| Mező | Hely | Adatfolyam leírása |
 | --- | --- | --- |
 | Szerződés értéke | Általános szerződés | A Projektszerződés teljes értéke. |
 | Számlázott összeg | Általános szerződés | A szerződésben szereplő összes számlán szereplő összegek összege. |

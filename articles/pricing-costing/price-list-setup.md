@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087958"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180195"
 ---
 # <a name="set-up-price-lists"></a>Árlisták beállítása
 
@@ -23,15 +23,15 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A következő kiterjesztések aProject Operationsra vonatkoznak, és a Dynamics 365 Salesből származó árlisták alapján kerülnek alkalmazásra.
 
-- **Környezet** : Ez a mező a támogatott értékekkel rendelkezik: **költség** és **értékesítés**. A **Beszerzés** érték nem támogatott. Állítsa be a környezet **költség** értékre, hogy egy önköltségi árlistát hozzon létre, vagy állítsa a környezetet **értékesítés** értékre az értékesítési árlistához. Az önköltségi árlisták határozzák meg a költség típusának árát a becslés és a tényleges bejegyzések esetében. Az értékesítési árlisták határozzák meg a nem számlázott és számlázott értékesítési típusok becsült és tényleges rekordjainak árát.
-- **Időegység** : ez az alapértelmezett időegység, amelyre vonatkozóan az ár a kapcsolódó **szerepkörár** táblában be van állítva ehhez az árlistához.
-- **Árlista entitás** : Ez a rejtett mező a Project Operations segítségével megkülönbözteti az árajánlatot vagy a szerződésre jellemző árlistákat, amelyek a szabványosak, és a globálisan alkalmazandók.
+- **Környezet**: Ez a mező a támogatott értékekkel rendelkezik: **költség** és **értékesítés**. A **Beszerzés** érték nem támogatott. Állítsa be a környezet **költség** értékre, hogy egy önköltségi árlistát hozzon létre, vagy állítsa a környezetet **értékesítés** értékre az értékesítési árlistához. Az önköltségi árlisták határozzák meg a költség típusának árát a becslés és a tényleges bejegyzések esetében. Az értékesítési árlisták határozzák meg a nem számlázott és számlázott értékesítési típusok becsült és tényleges rekordjainak árát.
+- **Időegység**: ez az alapértelmezett időegység, amelyre vonatkozóan az ár a kapcsolódó **szerepkörár** táblában be van állítva ehhez az árlistához.
+- **Árlista entitás**: Ez a rejtett mező a Project Operations segítségével megkülönbözteti az árajánlatot vagy a szerződésre jellemző árlistákat, amelyek a szabványosak, és a globálisan alkalmazandók.
 
 ## <a name="price-list-header"></a>Árlistafejléc
 
 A következő táblázat tartalmazza az árlista **Általános** lapján található mezőket, amelyek egyediek a Project Operations esetében, vagy jelentős változásokkal rendelkeznek az értékesítésben szereplő árlisták esetében.
 
-| Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
 | Adatfolyam neve | **Általános** lap és a **Gyorslétrehozás** űrlapok | Az árlista identitása. | Az árlista ezzel az értékkel jelenik meg minden lista és legördülő lapon.|
 | Környezet | **Általános** lap és a **Gyorslétrehozás** űrlapok | Ez a mező a **költség** vagy **értékesítés** értékre állítható be. | A **költség** értékre beállított árlista a költségbecslések és a költségek tényleges árát keresi meg. A **Értékesítés** értékre beállított árlista az értékesítési becslések és a értékesítés tényleges árát keresi meg. Csak az **Értékesítés** környezetű árlisták csatolhatók az ügyfelek, projektárajánlatok és projektszerződések projektárlistáihoz. |

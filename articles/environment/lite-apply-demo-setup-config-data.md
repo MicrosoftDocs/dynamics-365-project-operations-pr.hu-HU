@@ -1,23 +1,30 @@
 ---
-title: Bemutató beállítások és konfigurációs adatok alkalmazása
+title: Bemutató beállítások és konfigurációs adatok alkalmazása – Lite
 description: Ez a témakör a bemutató beállítás és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077957"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401266"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>A bemutató beállítás és a konfigurációs adatok alkalmazása a Project Operations Lite Lite telepítés – ajánlattól proforma számlázásig alkalmazásra
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Bemutató beállítások és konfigurációs adatok alkalmazása a Project Operations alkalmazáshoz – Lite 
 
 _**Lite telepítés – ajánlattól proforma számlázásig_
+
+## <a name="prerequisites"></a>Előfeltételek
+
+A konfiguráció megkezdése előtt rendelkeznie kell egy Common Data Service (CDS) környezettel, amelyet a Dynamics 365 Project Operations alkalmazáshoz létesítettek.
+
+
+## <a name="instructions"></a>Útmutatások
 
 1. Töltse le a [fő adatcsomagot](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Keresse meg a *ProjOpsDemoDataSetupAndMaster - Integrated CMT* mappát, és futtassa a végrehajtható *DataMigrationUtility* fájlt.
@@ -45,25 +52,25 @@ _**Lite telepítés – ajánlattól proforma számlázásig_
 10. Az Importálás a hálózat sebességétől függően körülbelül két-tíz percig tart. Az befejeződése után lépjen ki a CMT varázslóból. 
 11. Ellenőrizze a szervezet adatait a következő 20 entitásban:
 
-- Pénznem
-- Szervezeti egység
-- KAPCSOLATTARTÓ
-- Adócsoport
-- Ügyfélcsoport
-- Kiszerelés
-- Egységcsoport
-- Árlista
-- Projektparaméter árlistája
-- Számlázási gyakoriság
-- Számlázási gyakoriság részletei
-- Lefoglalható erőforrás kategóriája
-- Tranzakció kategóriája
-- Költségkategória
-- Szerepkörár
-- Tranzakciókategória ára
-- Jellemző
-- Lefoglalható erőforrás
-- Lefoglalható erőforrás kategóriatársítása
-- Lefoglalható erőforrás jellemzője
+-   Pénznem
+-   Fiók
+-   Szervezeti egység
+-   KAPCSOLATTARTÓ
+-   Adócsoport
+-   Ügyfélcsoport
+-   Kiszerelés
+-   Egységcsoport
+-   Árlista
+-   Projektparaméter árlistája 
+-   Számlázási gyakoriság
+-   Lefoglalható erőforrás kategóriája
+-   Tranzakció kategóriája
+-   Költségkategória
+-   Szerepkörár
+-   Tranzakciókategória ára
+-   Jellemző
+-   Lefoglalható erőforrás
+-   Lefoglalható erőforrás kategóriatársítása
+-   Lefoglalható erőforrás jellemzője
 
 ![Importálás befejezése](./media/6CompleteImport.png)

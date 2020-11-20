@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078116"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180699"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>A számlázási ráták beállítása a munkadíjszámlázáshoz 
+# <a name="set-up-labor-bill-rates"></a>A munka számlázási arányának beállítása
 
 **Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -27,7 +27,7 @@ Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, ame
 
    Az alábbi táblázat az **általános** lap és a **gyors létrehozás** ablaktáblájának mezőit tartalmazza, amelyeket érdemes szem előtt tartani, amikor értékesítési árlistát hoz létre a szerepkör-árakon:
 
-    | Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+    | Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
     | --- | --- | --- | --- |
     | Szerepkör | **Általános** lap és a **Gyorslétrehozás** panel | Válassza ki azt a szerepkört, amelynek számlázási értékét meg szeretné szabni. | A bejövő becslésen vagy a tényleges értéken szereplő szerepkört ezzel a sorral kell összehangolni a szerepkör alapértelmezett számlázási díjának meghatározásához. |
     | Erőforrás-kezelő vállalat | **Általános** lap és a **Gyorslétrehozás** panel | Válassza ki azt a vállalatot vagy jogi entitást, amelyből a szerepkör származik. Például a Fabrikam India fejlesztője vagy a Fabrikam USA egyik fejlesztője. | A bejövő becslésen vagy a tényleges értéken szereplő erőforrás-kezelő vállalatot ezzel a sorral kell összehangolni a szerepkör alapértelmezett számlázási díjának meghatározásához. |
@@ -39,7 +39,7 @@ Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, ame
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>Az transzferárazás vagy a számlázási ráták beállítása más szervezeti egységből vagy divízióból származó erőforrásokhoz 
 
-A projekten alapuló vállalatok gyakran használják a különböző jogi személyek alkalmazottait, és a jogi entitáson belül különböző divíziókat dolgoznak a projekteken végzett munkára. A projekteket elvégezhetnek egy bizonyos jogi személyből és részlegből, de a projekteken dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből és részlegből vagy egy másikból. A projekt a különböző jogi személyekből és divízióból álló emberek kombinációjára is kialakítható. A Project Operations alkalmazásban a projekt teljesítését birtokló jogi személy neve **tulajdonos vállalat** , és az a részleg, amely a végrehajtás tulajdonosa, a **szerződő egység**. Az erőforrásokat biztosító összes többi jogi személy neve az **Erőforrás-kezelő vállalatok** , és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A különböző földrajzi és munkaerőpiaci költségekben mutatkozó különbségek miatt a világ minden részén a munka számlázási díja is másképpen a különböző földrajzi helyekre van beállítva.
+A projekten alapuló vállalatok gyakran használják a különböző jogi személyek alkalmazottait, és a jogi entitáson belül különböző divíziókat dolgoznak a projekteken végzett munkára. A projekteket elvégezhetnek egy bizonyos jogi személyből és részlegből, de a projekteken dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből és részlegből vagy egy másikból. A projekt a különböző jogi személyekből és divízióból álló emberek kombinációjára is kialakítható. A Project Operations alkalmazásban a projekt teljesítését birtokló jogi személy neve **tulajdonos vállalat**, és az a részleg, amely a végrehajtás tulajdonosa, a **szerződő egység**. Az erőforrásokat biztosító összes többi jogi személy neve az **Erőforrás-kezelő vállalatok**, és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A különböző földrajzi és munkaerőpiaci költségekben mutatkozó különbségek miatt a világ minden részén a munka számlázási díja is másképpen a különböző földrajzi helyekre van beállítva.
 
 Például a Fabrikam India robotikai divíziójának egyik fejlesztője, aki egy amerikai projekten dolgozik, kiszámlázhat 100 USD óránkénti árfolyamon. A Fabrikam US robotikai divíziójának egyik fejlesztője, aki egy amerikai projekten dolgozik, kiszámlázhat 150 USD óránkénti árfolyamon. 
 

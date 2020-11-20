@@ -3,17 +3,17 @@ title: A telepítés típusának meghatározása
 description: Ez a témakör a Project Operations az Ön vállalatának megfelelő telepítéstípusának megállapításában segítő információkat tartalmaz.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078096"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401221"
 ---
 # <a name="determine-your-deployment-type"></a>A telepítés típusának meghatározása
 
@@ -25,11 +25,11 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>A Dynamics meglévő Dynamics 365 Project Service Automation rendszert használó ügyfelei
-A Project Operations a Project Service Automation szolgáltatással szállított képességeket tartalmazza. A jövőben ezen ügyfelek számára egy frissítési elérési út kerül kiadásra
+A Project Operations a Project Service Automation szolgáltatással szállított képességeket tartalmazza. A frissítés elérési úta 2021-es 1 kiadási hullámban jelennek meg az ügyfelek számára.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A Dynamics 365 Finance Projektmenedzsment és könyvelés alkalmazást használó meglévő ügyfelei 
 
-A Finance Projektmenedzsment és könyvelés funkciót használó meglévő ügyfelei továbbra is használhatják azt változatlanul. Lásd: [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma).
+A projektmenedzsment és-számlázási funkciót használó meglévő Finance ügyfelek továbbra is használhatják azt. Lásd: [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma).
 
 
 ## <a name="deployment-types"></a>A központi telepítés típusai
@@ -47,12 +47,13 @@ A Project Operations a készletalapú/gyártási megrendeléseken alapuló forga
 
 A Lite telepítés a következő lehetőségeket tartalmazza:
 
+- A Dynamics 365 Sales alkalmazás tapasztalatait kibővítő projektek Értékesítési folyamata
 - Projekttervezés a Microsoft Webes projekt segítségével
 - Többdimenziós árképzés
 - Egyesített erőforrás-kezelés
 - Időkövetés
 - Alapvető költség
-- Számlajavaslat
+- Proforma és az ügyfél felé irányuló számlázás 
 
 #### <a name="deployment-steps"></a>Központi telepítési lépések
 Határozza meg a Project Operations legjobb telepítési modelljét a [telepítési kérdőív](https://aka.ms/provisionprojectoperations) használatával.
@@ -62,7 +63,8 @@ Ehhez a telepítéshez lásd: [Regisztráció az előzetes verziós előfizetés
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Projekt Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
 A Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez az alábbi képességeket tartalmazza:
-  
+ 
+- A Dynamics 365 Sales alkalmazást kibővítő projektek Értékesítési folyamata
 - Projekttervezés a Microsoft Webes projekt segítségével
 - Többdimenziós árképzés
 - Egyesített erőforrás-kezelés
@@ -70,8 +72,8 @@ A Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvek
 - Alapvető költség
 - Teljes költség
 - Bizonylat OCR
-- Teljes számlázás
-- Bevételfelismerés
+- Proforma és az ügyfél felé irányuló számlázás 
+- Bevétel elszámolása projektekhez
 
 #### <a name="deployment-steps"></a>Központi telepítési lépések
 Határozza meg a Project Operations legjobb telepítési modelljét a [telepítési kérdőív](https://aka.ms/provisionprojectoperations) használatával.

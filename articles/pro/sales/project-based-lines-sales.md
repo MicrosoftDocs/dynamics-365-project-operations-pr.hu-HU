@@ -1,21 +1,21 @@
 ---
-title: Projektalapú lehetőségsorok (Pro)
+title: Projektalapú lehetőségsorok - Lite
 description: Ez a témakör a projektalapú lehetőségsorokat ismerteti. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078017"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181006"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Projektalapú lehetőségsorok (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Projektalapú lehetőségsorok - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -25,7 +25,7 @@ A projektalapú lehetőségsorok azok a sorelemek, amelyek az ügyfélnek a proj
 
 Az alábbiakban láthatók a projektalapú lehetőségsorok mezői:
 
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Terméktípus | Általános lap (rejtett) | Választhat egyet az alábbi lehetőségek közül:</br>- Projektalapú szolgáltatás (akkor érhető el, ha telepítve van a Dynamics 365 Operations)</br>- Termék (csak akkor érhető el, ha a Project Operations és a Dynamics 365 Sales telepítve van) | Ennek a mezőnek az értékét **Projektalapú szolgáltatás** értékre állítja a program, amikor a lehetőséghez tartozó projektalapú sorok rácsából hozza létre a projektalapú lehetőségsort. <br> Ha módosítja vagy felülbírálja ezt az értéket, a projekt funkció nem lesz engedélyezve a projektalapú sorelemeiben. |
 | Lehetőség | Általános lap | Ez a mező csak olvasható, és hivatkozik arra a fölérendelt lehetőségrekordra, amelyhez ez a sorelem tartozik. | Ennek a mezőnek nincs későbbi hatása. |

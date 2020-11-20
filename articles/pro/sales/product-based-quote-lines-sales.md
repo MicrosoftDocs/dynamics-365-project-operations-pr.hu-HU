@@ -1,0 +1,48 @@
+---
+title: Termékalapú árajánlatsorok áttekintése - Lite
+description: Ez a témakör információkat nyújt a termékalapú árajánlatsorok használatáról.
+author: rumant
+manager: Annbe
+ms.date: 10/30/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178191"
+---
+# <a name="product-based-quote-lines-overview---lite"></a>Termékalapú árajánlatsorok áttekintése - Lite
+
+_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+
+A Dynamics 365 Project Operations szolgáltatásban termékalapú árajánlatsorokat hozhat létre. A termékalapú árajánlatsorok lehetnek manuálisan megadott vagy a termékkatalógusban szereplő elemek.
+
+## <a name="product-catalog"></a>Termékkatalógus
+
+A termékkatalógusban szereplő egyes termékek alapértelmezett egységgel és egységcsoporttal rendelkeznek. Ha több termék ugyanazon attribútumkészlettel rendelkezik, akkor létrehozhat egy termékcsaládot, amely szintén rendelkezik ezekkel az attribútumokkal. 
+
+Például egy vállalat előfizetési licenceket értékesít különféle szoftverekre. Az összes előfizetési szoftver a következő két attribútummal rendelkezik:
+
+- Felhasználók száma
+- Az előfizetés időtartama hónapokban van megadva
+
+Az ilyen típusú katalógus fenntartásához hozzon létre egy **Előfizetési szoftver** nevű termékcsaládot, és adja hozzá a felhasználók számát és az előfizetés időtartamát attribútumként. Következő lépésként egyéni termékeket adhat hozzá az **Előfizetési szoftver** termékcsaládhoz.
+
+## <a name="add-product-catalog-items-to-a-project-quote"></a>Termékkatalógus-elemek hozzáadása a projektárajánlathoz
+
+A **projektárajánlat** és a **projektszerződés** oldalak tartalmaznak szakaszokat a projektalapú sorokhoz és termékalapú sorokhoz. A termékalapú soroknál az árajánlatsorban vagy a projektszerződés-sorban lévő legördülő lista tartalmazza az összes terméket és egységet a termék árlistájában. Olyan termékeket is hozzáadhat, amelyek nem képezik részét a termékárlistának.
+
+Ezen felül kiválaszthat termékeket más árlistákból, vagy közvetlenül a termékkatalógusból. Ha közvetlenül termékkatalógusból választja ki a termékeket, akkor az adott termék alapértelmezett árlistáját kell használnia a termék értékesítési árának meghatározásához. Ha nincs megadva alapértelmezett árlista, akkor az ár 0 (nulla) értékre lesz állítva.
+
+Ha az árajánlatsor egy termékkatalóguson alapul, akkor az értékesítési árat közvetlenül az árajánlatsoron bírálhatja felül. Az árajánlat sora az **Árképzés** mezőben két használható értékkel:
+
+- **Árképzés felülbírálása**
+- **Alapértelmezett használata**
+
+Ha az **Árképzés felülbírálása** lehetőséget választja, akkor az alapértelmezett ár nincs beállítva. Ehelyett az árajánlatsorba kell beírnia a termék árát. Ha az **alapértelmezett használata** lehetőséget választja, akkor az alapértelmezett értékesítési árat használja a program, és a mező szerkesztésre zárolva van.
+
+Az alapértelmezett eladási árak az árajánlat termékalapú soraiba kerülnek be. Az **Árképzés** mező ezután **Árképzés felülbírálása** értékre lesz állítva, hogy az alapértelmezett árat az árajánlatsorokon szerkeszthesse. Ez egy olyan Project Operations-specifikus felülbírálás, amely a terméken alapuló sorok viselkedését a Dynamics 365 Salesben felülbírálja.

@@ -1,21 +1,21 @@
 ---
-title: Előlegek és foglalón alapuló szerződések
+title: Foglalón alapuló szerződések beállítása – Lite
 description: Ez a témakör a Project Operationsban szereplő foglaló alapú szerződési modellek és előlegek információit tartalmazza.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087952"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180870"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Előlegek és foglalón alapuló szerződések 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Foglalón alapuló szerződések beállítása – Lite
 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
@@ -33,7 +33,7 @@ Az időszakos foglaló alapú ütemezés mellett a Project Operations egyszeri e
 
 A Project Operations foglalója nem használható fel, amíg nem számlázták ki az ügyfélnek. Ezt az alábbi mezők jelzik a részrácson az előlegek és a foglalók számára.
 
-| Mező | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- |
 | Rendelkezésre álló összeg | A foglaló vagy az előleg rekordján elérhető, használható összeg. | Amíg az előleget vagy a foglalót nem számlázzák, nem használható, azaz az elérhető összeg nulla lesz. |
 | Felhasznált mennyiség | A foglaló vagy az előleg rekordján már felhasznált összeg. | Az előleg vagy a foglaló részben egyeztethető a számlán a tényleges költséggel, és részben megjelölhető már felhasznált vagy elfogyasztott típusúként. Az előleg vagy a foglaló további összege elérhető a jövőbeli, tényleges költségekkel rendelkező számlák egyeztetésére. |

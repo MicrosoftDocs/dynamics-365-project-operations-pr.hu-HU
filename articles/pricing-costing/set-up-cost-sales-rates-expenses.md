@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078011"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180285"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Költség- és értékesítési árak beállítása a kiadásokhoz
 
@@ -24,17 +24,17 @@ Beállíthat költség- és értékesítési árakat a tranzakciós kategóriák
 A tranzakciós kategóriákhoz tartozó költség- és értékesítési árak beállításához hajtsa végre az alábbi lépéseket. 
 
 1. Hozzon létre egy árlistát az árlista fejléce alapján. 
-2. A **Kategóriaárak** részben válassza a részrács menü **+ Új kategória ár** pontját. 
+2. A **Kategóriaárak** helyen a részrács menüben válassza az **+ Új kategóriaár** lehetőséget. 
 3. A **gyors létrehozás** lapon adja meg a tranzakció kategóriáját és azt az egységet, amelyhez új árat hoz létre.
 
 Az alábbi táblázat egy kategória ársorának **általános** lap és a **gyors létrehozás** oldalának mezőit sorolja fel, amelyeket érdemes szem előtt tartani, amikor értékesítési vagy önköltségi árlistát hoz létre a kategóriaárakon.
 
-| Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
 | Tranzakció kategóriája | **Általános** lap és a **Gyorslétrehozás** oldalak | Válassza ki azt a tranzakciós kategóriát, amelyhez értékesítési vagy önköltségi árat hoz létre. | A bejövő becslésen vagy a tényleges költségértéken szereplő tranzakciós kategóriát ezzel a sorral kell összehangolni a tranzakciós kategória alapértelmezett költség- vagy értékesítési díjának meghatározásához. |
 | Egységütemezés | **Általános** lap és a **Gyorslétrehozás** oldalak | Az egység ütemezése alapértelmezett értéke a tranzakció kategóriájának egységütemezéséből származik. | Ennek a mezőnek nincs későbbi hatása. |
 | Kiszerelés | **Általános** lap és a **Gyorslétrehozás** oldalak | Válassza ki azt az egységet, amelyhez be vannak állítva az árak. | A bejövő becslésen vagy a tényleges értéken szereplő egység a sorban szereplő egységgel van megfeleltetve, hogy a költségbecslés vagy a tényleges érték díjának alapértelmezett értékét megadja. |
-| Árképzési mód | **Általános** lap és a **Gyorslétrehozás** oldalak | Az **árképzési mód** mező lehetséges értékei a következők: **Egységár** , **költségen** és **haszonkulcs a költségnél**. | Az ár beállítása közben az **Egységár** kiválasztásával zárolja a Kategória ára sor **százalékos** mezőjét. Ha a **Költségen** van kiválasztva, az **Ár** és a **Százalék** mezők zárolva vannak az értékesítési árlistán. A **Haszonkulcs a költség felett** zárolja az értékesítési árlista **Ár** mezőjét. A tényleges költségre vonatkozó bejövő aktuális sorban a **Költségen** vagy **Haszonkulcs a költség felett** árképzési módszer eredménye, hogy a kapcsolódó számlázatlan értékesítési sort olyan árhoz rendelik hozzá, amely megegyezik az ár felett haszonkulcsként számított ár vagy a tényleges kölség árával. |
+| Árképzési mód | **Általános** lap és a **Gyorslétrehozás** oldalak | Az **árképzési mód** mező lehetséges értékei a következők: **Egységár**, **költségen** és **haszonkulcs a költségnél**. | Az ár beállítása közben az **Egységár** kiválasztásával zárolja a Kategória ára sor **százalékos** mezőjét. Ha a **Költségen** van kiválasztva, az **Ár** és a **Százalék** mezők zárolva vannak az értékesítési árlistán. A **Haszonkulcs a költség felett** zárolja az értékesítési árlista **Ár** mezőjét. A tényleges költségre vonatkozó bejövő aktuális sorban a **Költségen** vagy **Haszonkulcs a költség felett** árképzési módszer eredménye, hogy a kapcsolódó számlázatlan értékesítési sort olyan árhoz rendelik hozzá, amely megegyezik az ár felett haszonkulcsként számított ár vagy a tényleges kölség árával. |
 | Ár | **Általános** lap és a **Gyorslétrehozás** oldalak | Állítson be egy egységárat a tranzakció kategóriára és az egység kombinációra vonatkozóan. Például a útiköltség ára 10 USD mérföldenként és a 8 USD kilométerenként. | Az útiköltség díja azt a költséget adja meg, amely a bejövő becslés vagy a tényleges sor egységnyi árára vagy költségére érvényes a költség tranzakciós osztályban.|
 | Százalék | **Általános** lap és a **Gyorslétrehozás** oldalak | Állítson be egy költség százalékot a tranzakció kategóriára és az egység kombinációra vonatkozóan. Például a repülőjegy értékesítési rátánál 10 százalék hoszonkulcsot kell alkalmazni a felmerült repülőjegy költségén felül. | Ez a költség feletti százalék csak akkor alkalmazható egy értékesítési árlistán, ha a kiválasztott árképzési mód **Haszonkulcs a költség felett**. |
 | Pénznem | **Általános** lap és a **Gyorslétrehozás** oldalak | Ez az érték alapértelmezés szerint az árlista fejlécében szereplő pénznemből származik. A tranzakciós kategóriák árazása esetén a pénznemet nem lehet felülírni. | Ez a pénznem alapértelmezett értéke a bejövő tényleges sor egységnyi ára, a költségre és értékesítésre vonatkozó költségtranzakciós osztályhoz. |

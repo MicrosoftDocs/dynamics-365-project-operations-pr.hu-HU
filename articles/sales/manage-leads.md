@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077950"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181770"
 ---
 # <a name="manage-leads"></a>Érdeklődők kezelése
 
@@ -38,7 +38,7 @@ Ahhoz, hogy a minősített érdeklődő automatikusan lehetőséget hozzon létr
 
 Az alábbi táblázat az érdeklődő fontos mezőinek adatait, valamint ezeknek a mezőknek az alsóbb rétegbeli hatásait tartalmazza.
  
-| **Mező** | **Hely** | **Relevancia, cél és útmutatás** | **Alsóbb rétegbeli hatás** |
+| **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
 | Téma | Általános lap | Ennek a szöveges mezőnek az üzlet rövid leírását kell tartalmaznia. | Az érdeklődő témaköre alapértelmezés szerint a Lehetőség, valamint az Árajánlat és Projektszerződés neve lesz. |
 | Típus szerint | Általános lap | Ez a értékkészlet mező a következő értékekkel rendelkezik:</br>- Munkaalapú (csak akkor érhető el, ha a Project Operations telepítve van)</br>- Cikkalapú (csak akkor érhető el, ha a Project Operations és a Sales telepítve van)</br>- Szolgáltatáskarbantartás-alapú (elérhető, ha a Field Service telepítve van) | Ha ennek a mezőnek az értéke **Munkaalapú** az érdeklődőn, akkor az érdeklődő minősítve van egy projektalapú lehetőség létrehozására. A projektalapú lehetőség szükséges ahhoz, hogy az adott üzletre vonatkozóan a későbbi értékesítési folyamatban az összes projektspecifikus kiterjesztés és funkció engedélyezve legyen. |
@@ -49,11 +49,11 @@ Az alábbi táblázat az érdeklődő fontos mezőinek adatait, valamint ezeknek
 
 ## <a name="qualify-a-new-project-based-lead"></a>Új projektalapú érdeklődő minősítése
 
-Az olyan érdeklődőket, akiknek a **Típus** értéke **Munkaalapú** , azokat projektalapú érdeklődőknek nevezzük. A projektalapú érdeklődők minősítése esetén a következő jön létre:
+Az olyan érdeklődőket, akiknek a **Típus** értéke **Munkaalapú**, azokat projektalapú érdeklődőknek nevezzük. A projektalapú érdeklődők minősítése esetén a következő jön létre:
 
 - Egy partner, amely az érdeklődő **Vállalat** mezőjét használja.
 - A partnerhez társított kapcsolattartó-bejegyzés, amely az érdeklődő **Utónév** és **Vezetéknév** mezőinek értékein alapul.
-- Olyan projektalapú lehetőség, amelynek **Típus** mezője &quot;**Munkaalapú** értékre van beállítva.
+- Olyan projektalapú lehetőség, amelynek **Típus** mezője **Munkaalapú** értékre van beállítva.
 
 Az érdeklődők minősítésével kapcsolatos további tudnivalókért lásd: [Érdeklődők minősítése vagy átalakítása](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

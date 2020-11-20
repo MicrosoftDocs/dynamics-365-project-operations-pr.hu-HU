@@ -1,21 +1,21 @@
 ---
-title: A munka számlázási arányának beállítása
+title: A munka számlázási arányának beállítása – Lite
 description: Ez a témakör a Project Operationsban a munkaszámlázási díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078154"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181184"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>A számlázási ráták beállítása a munkadíjszámlázáshoz 
+# <a name="set-up-labor-bill-rates---lite"></a>A munka számlázási arányának beállítása – Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -27,7 +27,7 @@ Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, ame
 
   Az alábbi táblázat az **általános** lap és a **gyors létrehozás** ablaktáblájának mezőit tartalmazza, amelyeket érdemes szem előtt tartani, amikor értékesítési árlistát hoz létre a szerepkör-árakon:
 
-  | Mező | Hely | Relevancia, cél és útmutatás | Alsóbb rétegbeli hatás |
+  | Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
   | --- | --- | --- | --- |
   | Szerepkör | **Általános** lap és a **Gyorslétrehozás** panel | Válassza ki azt a szerepkört, amelynek számlázási értékét meg szeretné szabni. | A bejövő becslésen vagy a tényleges értéken szereplő szerepkört ezzel a sorral kell összehangolni a szerepkör alapértelmezett számlázási díjának meghatározásához. |
   | Erőforrás-kezelő részleg | **Általános** lap és a **Gyorslétrehozás** panel | Válassza ki azt a szervezeti egységet vagy részleget a vállalattól, ahonnan ez a szerepkör származik. Például a Fabrikam India robotikai divíziójának fejlesztője vagy a Fabrikam USA szoftveres divíziójának fejlesztője. | A bejövő becslésen vagy a tényleges értéken szereplő erőforrás-kezelő egységet ezzel a sorral kell összehangolni a szerepkör alapértelmezett számlázási díjának meghatározásához. |
