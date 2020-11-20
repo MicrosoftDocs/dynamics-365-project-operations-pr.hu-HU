@@ -2,7 +2,7 @@
 title: Hogyan szabható testre a Projektfázisok üzleti folyamat?
 description: A Projektfázisok üzleti folyamat testreszabásánek áttekintése.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078278"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125045"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hogyan szabható testre a Projektfázisok üzleti folyamat?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Van egy ismert korlátozása a Project Service alkalmazás korábbi verzióiban, amely szerint a Projektfázisok üzleti folyamat fázisneveinek pontosan egyezniük a várt angol nevekkel ( **Quote** , **Plan** , **Close** ). Ellenkező esetben az üzleti logika, amely a fázisok angol nevén alapul, nem működik megfelelően. Ezért nem láthatók a megszokott, a projektűrlapon elérhető műveletek, például a **Folyamatváltás** vagy a **Folyamat szerkesztése** , és az üzleti folyamat testreszabás nem javasolt. 
+Van egy ismert korlátozása a Project Service alkalmazás korábbi verzióiban, amely szerint a Projektfázisok üzleti folyamat fázisneveinek pontosan egyezniük a várt angol nevekkel (**Quote**, **Plan**, **Close**). Ellenkező esetben az üzleti logika, amely a fázisok angol nevén alapul, nem működik megfelelően. Ezért nem láthatók a megszokott, a projektűrlapon elérhető műveletek, például a **Folyamatváltás** vagy a **Folyamat szerkesztése**, és az üzleti folyamat testreszabás nem javasolt. 
 
 Ezt a korlátozást a 2.4.5.48 és újabb verziókat már feloldottuk. Ebben a cikkben javasolt megoldások találhatók, ha testre kell szabnia az alapértelmezett üzleti folyamatot a korábbi verziókban.  
 
@@ -48,7 +48,7 @@ A Project Service alkalmazás 1.x verziójában a 8.2 platformon, ha a fázisok 
 
 A Project Service alkalmazás 2.4.4.30 vagy korábbi verzióban a 9.0 platformon, jelentős architekturális változás történt az üzleti folyamatokban, amely az üzleti folyamat üzleti logikájának újraírását tette szükségessé. Ennek következtében, ha a fázisnevek nem egyeznek meg a várt angol nevekkel, hibaüzenetet kap. 
 
-Ezért ha testre szeretné szabni a projektentitáshoz a Projektfázisok üzleti folyamatot, csak hozzáadhat teljesen új fázisokat az alapértelmezett üzleti folyamathoz a projektentitáshoz, miközben változatlanul tartja meg az **Ajánlat** , **Terv** és **Bezárás** fázisokat. Ez a korlátozás biztosítja, hogy nem kap hibákat az üzleti logikától, amely az üzleti folyamatban az angol fázisnevekre számít.
+Ezért ha testre szeretné szabni a projektentitáshoz a Projektfázisok üzleti folyamatot, csak hozzáadhat teljesen új fázisokat az alapértelmezett üzleti folyamathoz a projektentitáshoz, miközben változatlanul tartja meg az **Ajánlat**, **Terv** és **Bezárás** fázisokat. Ez a korlátozás biztosítja, hogy nem kap hibákat az üzleti logikától, amely az üzleti folyamatban az angol fázisnevekre számít.
 
 A 2.4.5.48 és újabb verziókban az üzleti logika, amelyről ebben a cikkben szó van, kikerült a projektentitás alapértelmezett üzleti folyamatából. A frissítés arra, vagy az újabb verziókra, lehetővé teszi majd az alapértelmezett üzleti folyamat lecserélését egy sajátra. 
 
@@ -56,12 +56,12 @@ A 2.4.5.48 és újabb verziókban az üzleti logika, amelyről ebben a cikkben s
 
 Ha a frissítés nem lehetséges, testreszabhatja a Projektfázisok üzleti folyamatot az alábbi két módon a projektentitáshoz:
 
-1. Adjon hozzá további fázisokat az alapértelmezett konfigurációhoz, miközben megtartja az angol fázisneveket az **Ajánlat** , a **Terv** és a **Bezárás** esetében.
+1. Adjon hozzá további fázisokat az alapértelmezett konfigurációhoz, miközben megtartja az angol fázisneveket az **Ajánlat**, a **Terv** és a **Bezárás** esetében.
 
 
 ![Fázisok hozzáadása az alapértelmezett konfigurációhoz képernyőkép](media/FAQ-Customize-BPF-1.png)
  
-2. Hozzon létre saját üzleti folyamatot, és legyen ez az elsődleges üzleti folyamat a projektentitáshoz, ami lehetővé teszi bármilyen kívánt fázisnév használatát. Azonban ha ugyanazokat a szabványos projektfázisokat is használni kívánja – **Ajánlat** , **Terv** és **Bezárás** – néhány testreszabást kell végrehajtani. A bonyolultabb logika a projektzárás, amely továbbra is kiváltható csak a projektbejegyzés inaktiválásával.
+2. Hozzon létre saját üzleti folyamatot, és legyen ez az elsődleges üzleti folyamat a projektentitáshoz, ami lehetővé teszi bármilyen kívánt fázisnév használatát. Azonban ha ugyanazokat a szabványos projektfázisokat is használni kívánja – **Ajánlat**, **Terv** és **Bezárás** – néhány testreszabást kell végrehajtani. A bonyolultabb logika a projektzárás, amely továbbra is kiváltható csak a projektbejegyzés inaktiválásával.
 
 ![BPF testreszabása](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Saját üzleti folyamat létrehozásához a projektentitáshoz tegye a következ
 
   ![Folyamat létrehozása](media/FAQ-Customize-BPF-3.png)
 
-2. A Folyamattervező segítségével hozza létre a kívánt fázisneveket. Ha szeretné az alapértelmezett fázisok funkcióit az **Ajánlat** , **Terv** és **Bezárás** esetében, akkor kell létrehozni ezt az egyéni üzleti folyamat fázisnevei alapján.
+2. A Folyamattervező segítségével hozza létre a kívánt fázisneveket. Ha szeretné az alapértelmezett fázisok funkcióit az **Ajánlat**, **Terv** és **Bezárás** esetében, akkor kell létrehozni ezt az egyéni üzleti folyamat fázisnevei alapján.
 
    ![BPF testreszabásához használt Folyamattervező képernyőképe](media/FAQ-Customize-BPF-4.png) 
 

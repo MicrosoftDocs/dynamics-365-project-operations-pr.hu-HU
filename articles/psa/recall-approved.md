@@ -3,7 +3,7 @@ title: Emlékezzen a jóváhagyott idő- vagy költségbejegyzésre
 description: Ez a témakör információkat tartalmaz egy korábban jóváhagyott idő- vagy költségügylet visszahívásáról.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078139"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120546"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Emlékezzen a jóváhagyott idő- vagy költségbejegyzésre
 
@@ -81,16 +81,16 @@ Ha egy visszahívási kérelmet jóváhagynak, a jóváhagyási rekordot **Eluta
 
 A projektcsoport tagja megtekintheti a bejegyzéseket, szerkesztheti és újra benyújthatja a bejegyzéseket, vagy teljes egészében törölheti a bejegyzéseket.
 
-Ha egy visszahívási kérelmet elutasítanak, akkor a bejegyzés állapota továbbra is **Jóváhagyva** , és a bejegyzés nem módosítható a projekt csapattagjának vagy a projekt jóváhagyójának.
+Ha egy visszahívási kérelmet elutasítanak, akkor a bejegyzés állapota továbbra is **Jóváhagyva**, és a bejegyzés nem módosítható a projekt csapattagjának vagy a projekt jóváhagyójának.
 
 ### <a name="financial-impact"></a>Pénzügyi hatás
 
 Ha egy visszahívási kérelmet jóváhagynak, a költség és az értékesítés vonatkozó aktuális tényezőit a következő módon frissítik:
 
-- A **Beállítás állapota** mező frissül **Korrigált** -ra.
-- A **Számlázás állapota** mező frissül **Megszakítva** -ra.
+- A **Beállítás állapota** mező frissül **Korrigált**-ra.
+- A **Számlázás állapota** mező frissül **Megszakítva**-ra.
 
-A következő lépésként létrejönnek a sztornózott bejegyzések a Tényadatok táblában. Sztornózott bejegyzések létrehozásához a rendszer átmásolja az eredeti tényadatok mezőinek értékeit. Csak a minőségi értékek nem lesznek átmásolva. Ezeket az értékeket sztornózza a rendszer. Mind a **Költség** , mind a **Számlázatlan értékesítés** tényadatai esetén létrejönnek sztornózott tényadatok. A **Beállítás állapota** mező **Nem állítható** értékre áll, és a **Számlázási állapot** mező értéke **Megszakítva** lesz. Ezeknek a változásoknak köszönhetően a projektre elszámolt kiadások és bevételmaradás már nem veszi figyelembe az aktuális tényezők által képviselt összegeket.
+A következő lépésként létrejönnek a sztornózott bejegyzések a Tényadatok táblában. Sztornózott bejegyzések létrehozásához a rendszer átmásolja az eredeti tényadatok mezőinek értékeit. Csak a minőségi értékek nem lesznek átmásolva. Ezeket az értékeket sztornózza a rendszer. Mind a **Költség**, mind a **Számlázatlan értékesítés** tényadatai esetén létrejönnek sztornózott tényadatok. A **Beállítás állapota** mező **Nem állítható** értékre áll, és a **Számlázási állapot** mező értéke **Megszakítva** lesz. Ezeknek a változásoknak köszönhetően a projektre elszámolt kiadások és bevételmaradás már nem veszi figyelembe az aktuális tényezők által képviselt összegeket.
 
 Ha a visszahívási kérelmet elutasítják, nincs pénzügyi hatása a projektre.
 

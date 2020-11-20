@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078029"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128692"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
 
@@ -35,13 +35,13 @@ A Project szerződéssor tranzakciós kategóriái meghatározott felszámíthat
 
 Egy szerepkör egy adott projektalapú szerződéssoron felszámítható vagy nem felszámítható lehet.
 
-A projektalapú szerződéssor **Felszámítható szerepkörök** lapján a **Felszámítható kategóriák** alrácson a **Számlázás** típusa mezőben frissítse egy szerepkör számlázási típusát.
+A projektalapú ajánlatsor **Számlázható szerepkörök** lapján állítható be az **Számlázható szerepkörök** alrács **Számlázási típus** mezőjén frissítse a számlázási típusát egy szerepkörhöz.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Tranzakciókategória frissítése felszámítható vagy nem felszámítható értékre
 
 Egy tranzakciós kategória egy adott projektalapú szerződéssoron felszámítható vagy nem felszámítható lehet.
 
-A projektalapú szerződéssor **Felszámítható kategóriák** lapján a **Felszámítható kategóriák** alrácson a **Számlázás** típusa mezőben frissítse egy tranzakció számlázási típusát.
+A projektalapú ajánlatsor **Számlázható kategóriák** lapján állítható be az **Számlázható szerepkörök** alrács **Számlázási típus** mezőjén frissítse a számlázási típusát egy tranzakcióhoz.
 
 ### <a name="resolve-chargeability"></a>A számlázhatóság feloldása
 

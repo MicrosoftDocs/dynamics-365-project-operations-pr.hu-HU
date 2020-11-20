@@ -3,7 +3,7 @@ title: A Project Resource Hub felhasználói útmutatója
 description: Végfelhasználói útmutató a Project Service Project Resource Hub alkalmazásához
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078083"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123156"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Felhasználói útmutató a Project Resource Hub alkalmazáshoz
 
@@ -88,7 +88,7 @@ Adja meg a kiadásokat legalább hetente – vagy az a igazgatók által kért g
 
 1. Koppintson a menüre ![Menü gomb](media/MenuButton.png "Menü gomb"), majd a **Költségek** elemre. Ez megjeleníti a naptárat.
 
-2. Átválthat **Nap** , **Hét** , vagy **Hónap** nézetre, vagy menjen az előző vagy utána következő időszakra. 
+2. Átválthat **Nap**, **Hét**, vagy **Hónap** nézetre, vagy menjen az előző vagy utána következő időszakra. 
 
 3. A költségek megadásához koppintson az **Új** parancsra a parancssávon. 
 

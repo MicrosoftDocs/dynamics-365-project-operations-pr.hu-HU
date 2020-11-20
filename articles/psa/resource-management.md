@@ -3,7 +3,7 @@ title: Projektek beszerzése kezdőlap
 description: Ez a témakör információkat nyújt a Dynamics 365 Project Service Automation (PSA) erőforrás-kezelési képességeiről.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d6a499ca8b143b549e0457fb967e4795e608050
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ca49c29f079f04dad127cfe56f262577ea8cc4a1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078304"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124056"
 ---
 # <a name="resourcing-projects-home-page"></a>Projektek beszerzése kezdőlap
 

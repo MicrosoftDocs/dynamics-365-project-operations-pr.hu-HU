@@ -2,7 +2,7 @@
 title: Frissítési szempontok - A Microsoft Dynamics 365 Project Service Automation 2.x vagy 1.x verziója a 3. verzióra
 description: Ez a témakör információkat nyújt azokról a szempontokról, amelyeket mérlegelnie kell, amikor a Project Service Automation 2.x vagy 1.x verziójáról a 3-as verzióra frissít.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078172"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121716"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Frissítési szempontok - A PSA 2.x vagy 1.x verziója a 3. verzióra
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4078172"
 A Dynamics 365 Project Service Automation és a Dynamics 365 Field Service is a Universal Resourcing Scheduling (URS) megoldást használja az erőforrás-ütemezéshez. Ha a példányában a Project Service Automation és a Field Service szolgáltatás szerepel, akkor azzal tervezzen, hogy mindkét megoldást a legújabb verzióra kell frissítenie (3. x a Project Service Automation és 8.x a Field Service esetében). A Project Service Automation vagy az Field Service frissítése telepíti az URS legújabb verzióját, ami azt jelenti, hogy következetlen viselkedés lehetséges, ha mind a Project Service Automation, mind az Field Service megoldásokat nem frissítik a legújabb verzióra.
 
 ## <a name="resource-assignments"></a>Erőforrás-hozzárendelések
-A Project Service Automation 2. és 1. verziójában a feladat-hozzárendeléseket gyermekfeladatokként (más néven sori feladatokként ) tárolták a **Feladatentitásban** , és közvetetten kapcsolódtak az **Erőforrás-hozzárendelés** entitáshoz. A sori feladat látható volt a munkalebontási struktúra (WBS) hozzárendelés előugró ablakában.
+A Project Service Automation 2. és 1. verziójában a feladat-hozzárendeléseket gyermekfeladatokként (más néven sori feladatokként ) tárolták a **Feladatentitásban**, és közvetetten kapcsolódtak az **Erőforrás-hozzárendelés** entitáshoz. A sori feladat látható volt a munkalebontási struktúra (WBS) hozzárendelés előugró ablakában.
 
 ![Sorfeladatok a WBS-ben a Project Service Automation 2. és 1. verziójában](media/upgrade-line-task-01.png)
 

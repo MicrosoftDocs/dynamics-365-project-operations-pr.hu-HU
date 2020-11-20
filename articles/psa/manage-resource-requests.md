@@ -3,7 +3,7 @@ title: Erőforrás-kérelmek kezelése
 description: Erőforrás-kérelmek kezelése a Project Service szolgáltatásban
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078091"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129006"
 ---
 # <a name="manage-resource-requests-project-service"></a>Erőforrás-kérelmek kezelése (Project Service)
 
@@ -37,7 +37,7 @@ A partnerkezelők és a projektmenedzserek gyakran kérnek erőforrásokat proje
   
     A következőket teheti a keresés optimalizálása érdekében:  
   
-   -   Válasszon ki egy nézetet vagy rendezési sorrendet a képernyő felső részén. Megadhatja azt is, hogy a megjelenített elérhetőségi időszak a **Nap** , a **Hét** vagy a **Hónap** legyen, és a nyilak segítségével tekintheti meg az előző vagy a következő időszakot. Egy konkrét erőforrás megtalálásához használja a keresőmezőt.  
+   -   Válasszon ki egy nézetet vagy rendezési sorrendet a képernyő felső részén. Megadhatja azt is, hogy a megjelenített elérhetőségi időszak a **Nap**, a **Hét** vagy a **Hónap** legyen, és a nyilak segítségével tekintheti meg az előző vagy a következő időszakot. Egy konkrét erőforrás megtalálásához használja a keresőmezőt.  
   
    -   Kattintson a **Beállítások** lehetőségre, hogy megadja, milyen elemek jelenjenek meg. Például megjeleníthet egy jelmagyarázatot, amely a különböző típusú lefoglalásokra vonatkozó színsémát mutatja, vagy beállíthatja, hogy csak egy bizonyos lefoglalástípus jelenjen meg (például végleges lefoglalás vagy ideiglenes lefoglalás).  
   

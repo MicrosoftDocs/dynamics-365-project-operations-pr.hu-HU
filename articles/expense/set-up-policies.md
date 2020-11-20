@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078162"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128421"
 ---
 # <a name="define-expense-policies"></a>Költségszabályzatok definiálása
 
@@ -36,12 +36,12 @@ hogy a dolgozó milyen üzenetet kapjon.
         
 Háromféle szabályzat hozható létre:         
         
-- **Figyelmeztetés** : A dolgozó beküldheti a költségjelentést vagy az utazási igénylést, de a rendszer minden jóváhagyó számára megjelöli a költséget         
+- **Figyelmeztetés**: A dolgozó beküldheti a költségjelentést vagy az utazási igénylést, de a rendszer minden jóváhagyó számára megjelöli a költséget         
   a későbbi jelentéskészítéshez.        
 
-- **Hiba** : A dolgozónak a költségjelentés vagy az utazási igénylés elküldése előtt úgy kell módosítania a költséget, hogy megfeleljen a szabályzatnak.        
+- **Hiba**: A dolgozónak a költségjelentés vagy az utazási igénylés elküldése előtt úgy kell módosítania a költséget, hogy megfeleljen a szabályzatnak.        
  
- - **Indoklás** : A dolgozónak vagy a vezetőnek a költségjelentés vagy az utazási igénylés elküldése előtt indokolnia kell, hogy miért lépte túl a szabályzatban szereplő összeget.        
+ - **Indoklás**: A dolgozónak vagy a vezetőnek a költségjelentés vagy az utazási igénylés elküldése előtt indokolnia kell, hogy miért lépte túl a szabályzatban szereplő összeget.        
 
 ## <a name="policy-tips"></a>Szabályzatra vonatkozó tippek
 Az alábbiakban néhány olyan javaslatot talál, amely segíthet a költségkezelés új szabályzatainak létrehozásában: 

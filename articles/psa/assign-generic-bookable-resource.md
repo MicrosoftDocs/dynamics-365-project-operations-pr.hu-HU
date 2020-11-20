@@ -3,7 +3,7 @@ title: Általános foglalható erőforrások hozzárendelése egy feladathoz és
 description: Ez a témakör információt nyújt az általános erőforrásoknak a feladatokhoz és a projektcsoportokhoz való foglalásáról.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078107"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127071"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása 
 

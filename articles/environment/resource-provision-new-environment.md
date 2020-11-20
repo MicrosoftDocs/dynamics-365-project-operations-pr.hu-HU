@@ -3,17 +3,17 @@ title: Új környezet kiépítése
 description: Ez a témakör az új Project Operations-környezet kialakításának módjával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077979"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121176"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
@@ -177,7 +177,7 @@ A frissítés megközelítőleg 20 percet vesz igénybe. A rendszer értesítés
 
 5. A frissítés befejeződése után futtassa a leképezést. A következő leképezés engedélyezése előtt ellenőrizze, hogy a táblázatban a leképezés **Fut** állapotban van-e. A nagy számú előfeltétellel rendelkező leképezések futtatása eltarthat egy ideig.
 
-Az előfeltételekkel rendelkező leképezés futtatásához engedélyezze a **Kapcsolódó entitásleképezések megjelenítése** kapcsolót. Ha a táblázat azt jelzi, hogy az **Előfeltétel kezdeti szinkronizálása** értéke **Nem** , ellenőrizze, hogy a **Kezdeti szinkronizálás** jelző **Ki** állapotban van-e minden előfeltétel leképezés előtt, mielőtt futtatá azokat.
+Az előfeltételekkel rendelkező leképezés futtatásához engedélyezze a **Kapcsolódó entitásleképezések megjelenítése** kapcsolót. Ha a táblázat azt jelzi, hogy az **Előfeltétel kezdeti szinkronizálása** értéke **Nem**, ellenőrizze, hogy a **Kezdeti szinkronizálás** jelző **Ki** állapotban van-e minden előfeltétel leképezés előtt, mielőtt futtatá azokat.
 
 ![Leképezés futtatása](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Az előfeltételekkel rendelkező leképezés futtatásához engedélyezze a **K
 
 ![Minden leképezés fut](./media/22AllMapsRunning.png)
 
-A Project Operations-környezet most már ki van alakítva, és konfigurálva van.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Konfigurációs adatok alkalmazása a Project Operations szolgáltatáshoz használható CDS rendszerben (nem kötelező)
+
+Ha alkalmazott bemutató adatokat a Finance környezetre, tekintse meg a [Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban a Project Operationshoz](resource-apply-pro-setup-config-data.md) cikket a bemutató adatok CDS-környezetre való alkalmazásához.
+
+
+A Project Operations-környezet most már ki van alakítva, és konfigurálva van. 

@@ -2,7 +2,7 @@
 title: Frissítse a munka lebontási struktúrájával kapcsolatos szempontokat
 description: Ez a témakör a munka bontási struktúrájának a Project Service Automation 2.x-ről a 3.x-re történő frissítéséről nyújt információkat.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078174"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121806"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Frissítse a munka lebontási struktúrájával kapcsolatos szempontokat
 Ez a témakör a munka bontási struktúrájának a Project Service Automation 2.x-ről a 3.x-re történő frissítéséről nyújt információkat. Ez a témakör a sikeres frissítéshez szükséges Project Service Automation (PSA) projekt egészségi állapotát határozza meg. Információ van a közös blokkolási körülményekről is, amelyek miatt a frissítés meghiúsul. A projektfeladatok és azok funkcióinak a projektütemezésen belüli meghatározásáról lásd: [Projektütemezések](project-creating.md).

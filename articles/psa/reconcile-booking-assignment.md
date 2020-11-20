@@ -3,7 +3,7 @@ title: Összehangolja a foglalásokat és a feladatokat
 description: Ez a témakör az aktuális tényezőkről nyújt információkat.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078138"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120456"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Összehangolja a foglalásokat és a feladatokat
 
@@ -35,7 +35,7 @@ A projektfoglalások és a feladatkiosztások laza csatolása miatt az **Összeh
 
 Az **Összehangolás** lapon minden megnevezett csapattag számára a foglalások és az egyes feladatokhoz rendelt hozzárendelések jelennek meg. Órákat mutat a cellákban, amelyek hónapoktól napokig tartó időszakokat reprezentálhatnak.
 
-Az **Időkeret** mezőben kiválaszthatja a **Hó** , **Hét** vagy **Nap** lehetőséget. Alapértelmezésben a **Hét** kiválasztva. Az alapértelmezett értéket azonban a **Beállítások** gomb megnyomásával módosíthatja. Amikor megnyitja az **Összehangolás** fület, megjeleníti az aktuális dátumot, de a naptárvezérlővel előre vagy hátra mozoghat. Ha egy projektnek a jövőbeni kezdő dátuma van, akkor a fül megjeleníti azt a dátumot, amikor megnyitja. A naptárvezérlőnek olyan opciói is vannak, amelyek lehetővé teszik a projekt kezdő és befejező dátumára való áttérést.
+Az **Időkeret** mezőben kiválaszthatja a **Hó**, **Hét** vagy **Nap** lehetőséget. Alapértelmezésben a **Hét** kiválasztva. Az alapértelmezett értéket azonban a **Beállítások** gomb megnyomásával módosíthatja. Amikor megnyitja az **Összehangolás** fület, megjeleníti az aktuális dátumot, de a naptárvezérlővel előre vagy hátra mozoghat. Ha egy projektnek a jövőbeni kezdő dátuma van, akkor a fül megjeleníti azt a dátumot, amikor megnyitja. A naptárvezérlőnek olyan opciói is vannak, amelyek lehetővé teszik a projekt kezdő és befejező dátumára való áttérést.
 
 Az egyes erőforrások kibővítő vezérlőkkel megjelenítheti az erőforrás foglalásainak részleteit. Az egyes erőforrások hozzárendeléseit az egyes feladatok szintjére is kibővítheti.
 
@@ -47,7 +47,7 @@ Az **Összeegyeztetés** lap alján látható a projekt teljes nettó összért�
 > [!NOTE]
 > Lehet, hogy ezeknek a feltételeknek a legendája rejtett, hogy több hely maradjon a rács számára. Ebben az esetben a jelmagyarázat láthatóvá **Beállítások** gomb megnyomásával.
 
-Bizonyos esetekben, ha az **Időskála** mezőt olyan értékre állítja, amely magasabb, mint a **Nap** , a különbségeket 0 (nulla) értékre lehet számítani. Például **Hónap** szinten az erőforrás nettó különbsége lehet 0 (nulla), jelezve, hogy a foglalások azonosak a hozzárendelésekkel. Ha azonban a **Hét** szintre nézzük, akkor láthatjuk, hogy a hónap első hetében 0 (nulla) óra foglalást és 40 órás foglalást, 40 órát és 0 (nulla) foglalást végeznek óra a hónap második hetében. Noha a hónap összes foglalása és megbízása egyenlő, hetenként különböznek.
+Bizonyos esetekben, ha az **Időskála** mezőt olyan értékre állítja, amely magasabb, mint a **Nap**, a különbségeket 0 (nulla) értékre lehet számítani. Például **Hónap** szinten az erőforrás nettó különbsége lehet 0 (nulla), jelezve, hogy a foglalások azonosak a hozzárendelésekkel. Ha azonban a **Hét** szintre nézzük, akkor láthatjuk, hogy a hónap első hetében 0 (nulla) óra foglalást és 40 órás foglalást, 40 órát és 0 (nulla) foglalást végeznek óra a hónap második hetében. Noha a hónap összes foglalása és megbízása egyenlő, hetenként különböznek.
 
 A magasabb időszint megtekintésekor az **Összehangolás** lapon megjelenik egy cellaindikátor, amely értesíti Önt, hogy alacsonyabb időszinteken vannak különbségek. Például a következő ábrán egy cellát jelző jelenik meg a cellában 2018. októberi hónapban az erőforrásnak, amelynek neve Katelyn Merritt. Ezért láthatja, hogy annak ellenére, hogy az erőforrás könyvelése és hozzárendelése egyenlő, ha **Hónap** szinten aggregálják, az alacsonyabb szinteken nem egyeznek.
 

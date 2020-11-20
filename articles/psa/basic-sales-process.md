@@ -3,7 +3,7 @@ title: Értékesítési folyamatok
 description: Ez a témakör információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078206"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129321"
 ---
 # <a name="sales-processes"></a>Értékesítési folyamatok
 
@@ -70,7 +70,7 @@ Ezt a hat fázist chevronok (\>) reprezentálják, amelyeket azért kiválaszt k
  
 Előfordulhat, hogy szervezete különböző entitásokat használ fel ugyanazon ügylet reprezentálására, amint az alakul. Az értékesítési folyamat elején az ügyletet a Lehetőség entitás képviseli. Az idő múlásával és további részletek megjelenésével magas szintű becsléseket használhat egy vagy több árajánlat létrehozásához. Ha ezen árajánlatok egyikét a belső és az ügyfél érdekelt felei felülvizsgálják, akkor az Ajánlat entitás képviseli az ügyletet. Miután az ügyfél elfogadta az ajánlatot, egy projektszerződés vagy SOW képviseli az ügyletet. Ennek a viselkedésnek a támogatása érdekében a BPF-eket úgy strukturálják, hogy a folyamat egyes szakaszai különféle adatbázis-táblákhoz legyenek kapcsolva.
 
-Az értékesítési folyamat **Minősítés** szakaszát egy Lehetőség entitás támogathatja. A **Becslés** és a **Belső felülvizsgálat** szakaszokat egy Árajánlat entitás támogathatja. A **Szerződés** , **Teljesítés** és **Lezárás** szakaszokat egy Projektszerződés entitás támogathatja.
+Az értékesítési folyamat **Minősítés** szakaszát egy Lehetőség entitás támogathatja. A **Becslés** és a **Belső felülvizsgálat** szakaszokat egy Árajánlat entitás támogathatja. A **Szerződés**, **Teljesítés** és **Lezárás** szakaszokat egy Projektszerződés entitás támogathatja.
 
 Ahogyan az ügyletek a szakaszokon át mozognak, a rendszer felkéri Önt a megfelelő entitásrekord létrehozására, hogy segítsen és útmutatást nyújtson a folyamat során. A szakaszok feltételesek lehetnek. Például, ha csak egy árajánlat belső felülvizsgálatára van szüksége, ha az árajánlat egyéni árlistát használ, akkor konfigurálhatja ezt a feltételt az üzleti folyamat megfelelő szakaszában. A **Belső felülvizsgálat** szakasz csak akkor jelenik meg, ha egyéni árlistát használnak. Az összes többi ügylet és árajánlat esetében a **Becslés** szakaszt a **Szerződés** szakasz követi.
 

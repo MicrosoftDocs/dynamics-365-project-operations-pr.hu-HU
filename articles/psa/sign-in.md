@@ -3,7 +3,7 @@ title: Jelentkezzen be a Project Service Automation szolgáltatásba
 description: Bejelentkezés a Project Service szolgáltatásba
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b256820c52214b76e377d84c99d809fad88b8abe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ecd3d38c11ffe17fbe967dc83db4c27d53807a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078186"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128958"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Jelentkezzen be a Project Service Automation szolgáltatásba
 

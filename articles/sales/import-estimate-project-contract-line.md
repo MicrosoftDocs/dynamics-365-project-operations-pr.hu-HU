@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4078327"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126396"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Becslések importálása egy projektalapú szerződéssorba
 
@@ -22,8 +22,8 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 A Dynamics 365 Project Operations alkalmazásban becsléseket importálhat egy projektből egy projektalapú szerződéssorba.
 
 1. Ellenőrizze, hogy a **Projekt** mező a projektalapú szerződéssoron ki van-e töltve.
-2. A **Szerződéssor részletei** lapon, az alrácson válassza az **Importálás projektbecslésből** lehetőséget. Megnyílik egy párbeszédpanel az összesítési lehetőséggel. A rendelkezésre álló összesítési lehetőségek a következők: **Tranzakcióosztály** , **Kategória** , **Szerepkör** és **Projektfeladat**. Az összegzésre kiválasztottak alapján a program átmásolja a projekt becslését a szerződéssorban található összes tranzakcióosztály és feladat esetében. 
-3. Annak ellenőrzéséhez, hogy milyen tranzakciós osztályok szerepelnek a rendszerben, az **Általános** lapot az árajánlatsorban, és ellenőrizze az **Idővel együtt** , a **Kiadásokkal együtt** és a **Díjakkal együtt** mezőket.
+2. A **Szerződéssor részletei** lapon, az alrácson válassza az **Importálás projektbecslésből** lehetőséget. Megnyílik egy párbeszédpanel az összesítési lehetőséggel. A rendelkezésre álló összesítési lehetőségek a következők: **Tranzakcióosztály**, **Kategória**, **Szerepkör** és **Projektfeladat**. Az összegzésre kiválasztottak alapján a program átmásolja a projekt becslését a szerződéssorban található összes tranzakcióosztály és feladat esetében. 
+3. Annak ellenőrzéséhez, hogy milyen tranzakciós osztályok szerepelnek a rendszerben, az **Általános** lapot az árajánlatsorban, és ellenőrizze az **Idővel együtt**, a **Kiadásokkal együtt** és a **Díjakkal együtt** mezőket.
 
 A becslések importálásakor az alkalmazás alapértelmezés szerint a szerződéshez kapcsolt projektárlisták és a szerződéssorban beállított számlázási típus alapján állítja be az árképzést. Ha a szerződéssorban egy feladat, szerepkör vagy kategória nem számlázhatóként van beállítva, az importált becslési sor ahhoz a szerepkörkategóriához nem számlázhatóként lesz beállítva, és nem lesz hozzáadva a szerződéssor szerződött értékéhez.
 
@@ -52,7 +52,7 @@ Amikor a felhasználó a **Tranzakciós osztály** és **Kategória** szerint ö
 | A feladat | Légi szállítás | 2020.01.10. | 4 | 400 | 1600 |
 | &nbsp;  | Szálloda | 2020.01.10. | 6 | 200 | 1200 |
 
-Amikor a felhasználó a **Tranzakciós osztály** , **Kategória** és **Levélcsomópont-feladat** szerint összesíti az adatokat, a következő információkat importálja a rendszer. Figyelje meg, hogy ez az eredmény ugyanaz, mint ami a projekten volt:
+Amikor a felhasználó a **Tranzakciós osztály**, **Kategória** és **Levélcsomópont-feladat** szerint összesíti az adatokat, a következő információkat importálja a rendszer. Figyelje meg, hogy ez az eredmény ugyanaz, mint ami a projekten volt:
 
 | Feladatok | Kategória | Dátum | Mennyiség | Egységár | Mennyiség |
 | --- | --- | --- | --- | --- | --- |

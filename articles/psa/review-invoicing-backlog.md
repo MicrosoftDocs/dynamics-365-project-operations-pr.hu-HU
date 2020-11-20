@@ -3,7 +3,7 @@ title: Tekintse át a projektek és a projektszerződések számlázási hátral
 description: Ez a témakör információkat nyújt arról, hogy miként lehet áttekinteni az időt, a költségeket és a termékmaradványokat, és hogyan jelölheti meg őket készen a számlázásra.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,18 +16,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078301"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123966"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Tekintse át a projektek és a projektszerződések számlázási hátralékát
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ha egy tranzakció kész, hogy egy számlát létrehozott és feldolgozott, a tranzakciót **Számlázásra kész** -ként kell jelölni. Ez a témakör leírja a létrehozható tranzakciók típusait.
+Ha egy tranzakció kész, hogy egy számlát létrehozott és feldolgozott, a tranzakciót **Számlázásra kész**-ként kell jelölni. Ez a témakör leírja a létrehozható tranzakciók típusait.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Tekintse át az idő- és anyagszámlázási elmaradást
 
@@ -36,7 +36,7 @@ Amikor egy idő- vagy költségbejegyzés benyújtásra és a projekt jóváhagy
 - Tényleges költség 
 - Számlázatlan értékesítés tényleges
 
-A nem értékesített tényleges tényezők a számlázási lemaradást képviselik, és számlázási állapotukat **Számlázásra kész** -re kell állítani. A projektszámla létrehozásakor a **Számlázásra kész** jelöléssel ellátott számlázatlan értékesített aktuális tényleges adatok számla sor részleteként kerülnek átmásolásra.
+A nem értékesített tényleges tényezők a számlázási lemaradást képviselik, és számlázási állapotukat **Számlázásra kész**-re kell állítani. A projektszámla létrehozásakor a **Számlázásra kész** jelöléssel ellátott számlázatlan értékesített aktuális tényleges adatok számla sor részleteként kerülnek átmásolásra.
 
 Az idő és az anyagok és a számlázási hátralék áttekintéséhez keresse meg az **Értékesítés** \> **Számlázás** \> **Idő és anyag számlázás hátralék** oldalát. Válassza ki az összes nem beépített értékesítési aktuális terméket, amely készen áll a számlázásra, majd válassza a **Számlázásra kész** lehetőséget. Ezeknek a tényleges értékeknek a számlázási állapota megváltozik: **Számlázásra kész**.
 

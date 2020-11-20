@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078199"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128466"
 ---
 # <a name="pricing-dimensions-overview"></a>Árazási dimenziók áttekintése
 
@@ -35,8 +35,8 @@ Az árképzéshez és a költségek meghatározásához az emberi erőforrásokb
 
 Emiatt kétféle árképzési dimenzió érhető el:
 
-- **Értékkészletek** : Azon dimenziók, amelyek értékcsoportok rögzített enumerálásai.
-- **Entitásalapú értékek** : Azon dimenziók, amelyek különböző értékcsoportok lehetnek.
+- **Értékkészletek**: Azon dimenziók, amelyek értékcsoportok rögzített enumerálásai.
+- **Entitásalapú értékek**: Azon dimenziók, amelyek különböző értékcsoportok lehetnek.
 
 ## <a name="pricing-dimensions"></a>Árazási dimenziók
 
@@ -47,7 +47,7 @@ Ha további attribútumok használatával szükséges árakat vagy költségeket
 ## <a name="pricing-human-resource-time"></a>Az emberi erőforrás munkaidejének árképzése
 Az, hogy a szervezet milyen módon képez árat a humán erőforrás munkaidejére gyakran fontos stratégiai szempont, amely közvetlenül befolyásolja a szervezet jövedelmezőségét. Dolgozzon együtt a pénzügyi csapatokkal és a gyakorlati vezetőkkel, amikor a szervezet készen áll arra, hogy meghatározza, hogyan kívánja beállítani a számla- és költségmértéket az emberi erőforrás munkaidejére vonatkozóan.
 
-Az árképzés egyéb szempontjai között szerepel, hogy újra kell-e használni olyan mezőket vagy entitásokat, amelyek jelenleg nem árképzési dimenziók, ugyanakkor a szervezetben érvényes árképzési dimenzióként alkalmazandók. Az olyan mezők, mint a **Tranzakciós kategória** ( **msdyn_transactioncategory** ) és a **Lefoglalható erőforrás** ( **bookableresource** ) példák a jelöltdimenziókra. 
+Az árképzés egyéb szempontjai között szerepel, hogy újra kell-e használni olyan mezőket vagy entitásokat, amelyek jelenleg nem árképzési dimenziók, ugyanakkor a szervezetben érvényes árképzési dimenzióként alkalmazandók. Az olyan mezők, mint a **Tranzakciós kategória** (**msdyn_transactioncategory**) és a **Lefoglalható erőforrás** (**bookableresource**) példák a jelöltdimenziókra. 
 
 Azt is gondolja át, hogy az árképzési dimenzió tábla vagy értékkészlet legyen-e. Ha egy dimenzió értékének olyan változásait látja előre, amelyek meghaladják a 10-et vagy 12-őt, és további attribútumokra van szüksége ezekhez az értékekhez, akkor érdemesebb entitást létrehoznia, mint értékkészletet. Az értékkészlet fenntartásához, például az értékek hozzáadásához vagy eltávolításához, rendszergazda vagy fejlesztő szükséges, míg új sorok hozzáadását a táblához a legtöbb felhasználó megteheti.
 

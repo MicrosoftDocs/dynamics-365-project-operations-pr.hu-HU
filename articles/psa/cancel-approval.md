@@ -3,7 +3,7 @@ title: A korábban jóváhagyott idő- és költségbejegyzések visszavonása
 description: Ez a témakör a projekt jóváhagyott idő- és költségtranzakciójának visszavonásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078267"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123336"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>A korábban jóváhagyott idő- vagy költségbejegyzések visszavonása
 
@@ -57,6 +57,6 @@ A projektet a jóváhagyás visszavonása után is éri pénzügyi hatás. Előr
 - A korrekció állapota **Korrigálva** érték lesz.
 - A számlázás állapota **Visszavonva** érték lesz.
 
-A következő lépésként létrejönnek a sztornózott bejegyzések a Tényadatok táblában. Sztornózott bejegyzések létrehozásához a rendszer átmásolja az eredeti tényadatok mezőinek értékeit. Csak a minőségi értékek nem lesznek átmásolva. Ezeket az értékeket sztornózza a rendszer. Mind a **Költség** , mind a **Számlázatlan értékesítés** tényadatai esetén létrejönnek sztornózott tényadatok. A sztornózott tényadat **Korrekció állapota** mezőjének értéke **Nem korrigálható** , a számlázás állapota mező értéke **Visszavonva** lesz.
+A következő lépésként létrejönnek a sztornózott bejegyzések a Tényadatok táblában. Sztornózott bejegyzések létrehozásához a rendszer átmásolja az eredeti tényadatok mezőinek értékeit. Csak a minőségi értékek nem lesznek átmásolva. Ezeket az értékeket sztornózza a rendszer. Mind a **Költség**, mind a **Számlázatlan értékesítés** tényadatai esetén létrejönnek sztornózott tényadatok. A sztornózott tényadat **Korrekció állapota** mezőjének értéke **Nem korrigálható**, a számlázás állapota mező értéke **Visszavonva** lesz.
 
 A módosítások elvégzése után a projektre költött összegként és a projekt bevételi tartalékaként rögzített összeg a továbbiakban nem lesz felszámítva az ezen tényadatok által jelentett összegek esetén.

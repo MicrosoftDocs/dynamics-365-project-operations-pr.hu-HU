@@ -3,7 +3,7 @@ title: Időegységek beállítása
 description: Időegységek beállítása a Project Service szolgáltatásban
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078187"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120096"
 ---
 # <a name="set-up-time-units-project-service"></a>Időegységek beállítása (Project Service)
 
@@ -39,9 +39,9 @@ ms.locfileid: "4078187"
   
 4. Az **Egységek** lapon kattintson az **Új egység hozzáadása** lehetőségre, majd szükség szerint módosítsa az értékeket. Adjon meg annyi egységet, amennyire szüksége van. Érdemes lehet például a következő egységeket létrehozni:  
   
-   - **Nap** , ahol az **Alapegység** = **Óra** és a **Mennyiség** = 8  
+   - **Nap**, ahol az **Alapegység** = **Óra** és a **Mennyiség** = 8  
   
-   - **Hét** , ahol az **Alapegység** = **Nap** és a **Mennyiség** = 5  
+   - **Hét**, ahol az **Alapegység** = **Nap** és a **Mennyiség** = 5  
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service testreszabása](../psa/configure.md)

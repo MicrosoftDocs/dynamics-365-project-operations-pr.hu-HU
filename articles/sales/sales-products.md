@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078189"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121266"
 ---
 # <a name="products"></a>Termékek
 
@@ -38,22 +38,22 @@ A termékek adják az üzlet gerincét. A termékkatalógus a Dynamics 365 Sales
 
     -  **Név**
     -  **Termékazonosító**
-    -  **Szülő** : Válasszon szülő termékcsaládot a termékhez. Ha egy termékcsaládban gyermek terméket hoz létre, a szülő termékcsalád neve itt szerepel. Ez a rekord mentése után nem módosítható.
-    -  **Érvényesség kezdete**/**Érvényesség vége** :  az **Érvényesség kezdete** és az **Érvényesség vége** mezőkkel adhatja meg az időtartamot, ameddig egy termék érvényes.
-    -  **Kiszereléscsoport** : Válasszon egy kiszereléscsoportot. Az egységcsoport azoknak a különböző egységeknek a gyűjteménye, amelyekben a terméket értékesítik, és azt határozza meg, hogy hogyan vannak az egyes elemek nagyobb mennyiségbe összecsoportosítva. Például a vetőmagok termékként történő hozzáadásakor, valószínűleg létrehozta a „Vetőmagok” nevű egységcsoportot, és elsődleges egységeként a „Csomag” egységet határozta meg.
-    -  **Alapértelmezett kiszerelés** : a termék értékesítéséhez leggyakrabban használt kiszerelés kiválasztása. Az egység az a mértékegység, amiben a terméket értékesíti. Például amennyiben a vetőmagokat termékként adja hozzá, értékesítheti őket csomagonként, dobozonként vagy raklaponként. Ezek mindegyike a termék egyik egysége. Ha a vetőmagokat többnyire csomagban értékesítik, ezt adja meg egységként.
-    -  **Alapértelmezett árlista** : ha új termékről van szó, akkor ez a mező írásvédett. Az alapértelmezett árlista kijelölése előtt az összes kötelező mezőt ki kell töltenie, és mentenie kell a bejegyzést. Annak ellenére, hogy az alapértelmezett árlistát nem kötelező megadni, a bejegyzés mentését követően érdemes megadni minden termék alapértelmezett árlistáját. Ezután, ha egy ügyfélbejegyzés nem tartalmaz árlistát, akkor a Sales az alapértelmezett árlistát használhatja az ajánlatok, megrendelések és számlák létrehozásához.
-    -  **Használható tizedesek** : adjon meg 0 és 5 közötti egész számot. Ha a termék nem darabolható, akkor nullát adjon meg. A rendszer az ebbe a mezőbe beírt érték alapján ellenőrzi az ajánlaton, a megrendelésen vagy a számlán szereplő termékbejegyzés **Mennyiség** mezője tizedesjegyeinek a számát, ha nincs a termékhez árlista társítva.
-    -  **Tárgy** : Társítsa a terméket egy tárggyal. A tárgyak segítségével kategorizálhatja a termékeket, és szűrheti a jelentéseket.
+    -  **Szülő**: Válasszon szülő termékcsaládot a termékhez. Ha egy termékcsaládban gyermek terméket hoz létre, a szülő termékcsalád neve itt szerepel. Ez a rekord mentése után nem módosítható.
+    -  **Érvényesség kezdete**/**Érvényesség vége**:  az **Érvényesség kezdete** és az **Érvényesség vége** mezőkkel adhatja meg az időtartamot, ameddig egy termék érvényes.
+    -  **Kiszereléscsoport**: Válasszon egy kiszereléscsoportot. Az egységcsoport azoknak a különböző egységeknek a gyűjteménye, amelyekben a terméket értékesítik, és azt határozza meg, hogy hogyan vannak az egyes elemek nagyobb mennyiségbe összecsoportosítva. Például a vetőmagok termékként történő hozzáadásakor, valószínűleg létrehozta a „Vetőmagok” nevű egységcsoportot, és elsődleges egységeként a „Csomag” egységet határozta meg.
+    -  **Alapértelmezett kiszerelés**: a termék értékesítéséhez leggyakrabban használt kiszerelés kiválasztása. Az egység az a mértékegység, amiben a terméket értékesíti. Például amennyiben a vetőmagokat termékként adja hozzá, értékesítheti őket csomagonként, dobozonként vagy raklaponként. Ezek mindegyike a termék egyik egysége. Ha a vetőmagokat többnyire csomagban értékesítik, ezt adja meg egységként.
+    -  **Alapértelmezett árlista**: ha új termékről van szó, akkor ez a mező írásvédett. Az alapértelmezett árlista kijelölése előtt az összes kötelező mezőt ki kell töltenie, és mentenie kell a bejegyzést. Annak ellenére, hogy az alapértelmezett árlistát nem kötelező megadni, a bejegyzés mentését követően érdemes megadni minden termék alapértelmezett árlistáját. Ezután, ha egy ügyfélbejegyzés nem tartalmaz árlistát, akkor a Sales az alapértelmezett árlistát használhatja az ajánlatok, megrendelések és számlák létrehozásához.
+    -  **Használható tizedesek**: adjon meg 0 és 5 közötti egész számot. Ha a termék nem darabolható, akkor nullát adjon meg. A rendszer az ebbe a mezőbe beírt érték alapján ellenőrzi az ajánlaton, a megrendelésen vagy a számlán szereplő termékbejegyzés **Mennyiség** mezője tizedesjegyeinek a számát, ha nincs a termékhez árlista társítva.
+    -  **Tárgy**: Társítsa a terméket egy tárggyal. A tárgyak segítségével kategorizálhatja a termékeket, és szűrheti a jelentéseket.
 
 4.  Válassza a **Mentés** parancsot.
-5.  A **További részletek** lap **Árlista elemei** szakaszában válassza a **További parancsok** , majd az **Új árlistaelem hozzáadása** lehetőséget.
+5.  A **További részletek** lap **Árlista elemei** szakaszában válassza a **További parancsok**, majd az **Új árlistaelem hozzáadása** lehetőséget.
 7.  A **További részletek** lap **Termékkapcsolat** szakaszában kattintson a **További parancsok** ikonra, majd válassza az **Új termékkapcsolat hozzáadása** lehetőséget.
 8.  Az **Új termékkapcsolat** űrlapon, adja meg a következő részleteket, és válassza ki a parancssávon a **Mentés és bezárás** parancsot:
 
-    -   **Kapcsolódó termék** : Válasszon egy olyan terméket, amelyet kapcsolódó termékként kíván hozzáadni ahhoz a termékhez, amellyel éppen dolgozik.
-    -   **Értékesítési kapcsolat típusa** : Válassza ki, hogy a terméket felülértékesítési, keresztértékesítési vagy helyettesítési termékként, illetve tartozékként kívánja hozzáadni.
-    -   **Irány** : Válassza ki, hogy a termékek közötti kapcsolat egyirányú vagy kétirányú legyen. Ha az egyirányú lehetőséget választja, a **Kapcsolódó termék** mezőben kiválasztott termék megjelenik ajánlásként a meglévő termékhez, de fordítva nem.
+    -   **Kapcsolódó termék**: Válasszon egy olyan terméket, amelyet kapcsolódó termékként kíván hozzáadni ahhoz a termékhez, amellyel éppen dolgozik.
+    -   **Értékesítési kapcsolat típusa**: Válassza ki, hogy a terméket felülértékesítési, keresztértékesítési vagy helyettesítési termékként, illetve tartozékként kívánja hozzáadni.
+    -   **Irány**: Válassza ki, hogy a termékek közötti kapcsolat egyirányú vagy kétirányú legyen. Ha az egyirányú lehetőséget választja, a **Kapcsolódó termék** mezőben kiválasztott termék megjelenik ajánlásként a meglévő termékhez, de fordítva nem.
 
 9.  A termék űrlapon válassza a **Mentés** lehetőséget.
 
@@ -119,8 +119,8 @@ A rendszer ellenőrzi, hogy csak a numerikus vagy a numerikus adattípusú term�
 
 A következő tulajdonságok esetén például: 
 
-- **Felhasználók száma** : A felhasználók száma 
-- **Hónapok száma** : Az előfizetési hónapok száma
+- **Felhasználók száma**: A felhasználók száma 
+- **Hónapok száma**: Az előfizetési hónapok száma
 - **Termék cikkszáma** 
 
 A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhetők mennyiségi tényezőként a terméksor tulajdonságainak szerkesztésével. 

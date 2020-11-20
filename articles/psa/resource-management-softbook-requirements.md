@@ -3,7 +3,7 @@ title: Szoftverkövetelmények
 description: Ez a témakör információkat nyújt arról, hogyan kell foglalni a követelményeket.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078302"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124101"
 ---
 # <a name="soft-book-requirements"></a>Szoftverkövetelmények
 
@@ -54,7 +54,7 @@ A puha foglalás átalakításához egy kemény foglalássá az Ütemező tábl�
 
 ![A foglalás státuszának keményre változtatása](media/Resource-Management-image82.png)
 
-A foglalás megváltozik, és az állapot megváltozik az Ütemezési táblán. Mivel a foglalási státus most **Kemény** , az erőforrás foglaltként jelenik meg, kapacitása és rendelkezésre állása módosítva.
+A foglalás megváltozik, és az állapot megváltozik az Ütemezési táblán. Mivel a foglalási státus most **Kemény**, az erőforrás foglaltként jelenik meg, kapacitása és rendelkezésre állása módosítva.
 
 Ugyanezt a módszert használhatja a kemény foglalás vagy az engedményes foglalás törlésére az Ütemezési táblán.
 

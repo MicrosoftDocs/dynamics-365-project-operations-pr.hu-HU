@@ -3,7 +3,7 @@ title: Használja a Project Service bővítményt munkájának megtervezéséhez
 description: Ez a témakör a Microsoft Project Service Microsoft Project bővítményének hozzáadásával, konfigurálásával és használatával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078222"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129681"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Munka tervezése a Microsoft Projekt programban a Project Service Automation bővítmény segítségével
 
@@ -80,7 +80,7 @@ ms.locfileid: "4078222"
 
 2.  Az **Erőforrás lefoglalása** képernyőn válassza ki a projekthez használni kívánt erőforrást.  
 
-3.  Kattintson a **Lefoglalás** , majd az **OK** gombra.  
+3.  Kattintson a **Lefoglalás**, majd az **OK** gombra.  
 
 ## <a name="publish-your-project"></a>Projekt közzététele  
 A projekttervezés befejezésekor a következő lépés a projekt importálása és közzététele a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban.  

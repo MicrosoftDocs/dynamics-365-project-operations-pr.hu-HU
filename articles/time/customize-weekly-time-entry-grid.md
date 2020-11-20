@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077991"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124641"
 ---
 # <a name="extending-time-entries"></a>Időbejegyzések kiterjesztése
 
@@ -33,7 +33,7 @@ Az időbejegyzések kiterjesztése két területen lehetséges:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Egyéni időbejegyzések hozzáadása saját használatra
 
-Az időbejegyzések több forgatókönyvben használt alapentitások. A 2020. áprilisi 1. hullámban, a TESA alapmegoldást bevezették. A TESA egy **Beállítások** entitást és egy új **Időbejegyzést kezelő felhasználó** biztonsági szerepkört biztosít. Az új mezők, a **msdyn_start** és a **msdyn_end** , amelyek közvetlen kapcsolatban állnak a **msdyn_duration** mezővel, szintén szerepelnek a rendszerben. Az új entitás, a biztonsági szerepkör és a mezők több termékre vonatkozóan egységesebb megközelítést biztosítanak az idővel kapcsolatban.
+Az időbejegyzések több forgatókönyvben használt alapentitások. A 2020. áprilisi 1. hullámban, a TESA alapmegoldást bevezették. A TESA egy **Beállítások** entitást és egy új **Időbejegyzést kezelő felhasználó** biztonsági szerepkört biztosít. Az új mezők, a **msdyn_start** és a **msdyn_end**, amelyek közvetlen kapcsolatban állnak a **msdyn_duration** mezővel, szintén szerepelnek a rendszerben. Az új entitás, a biztonsági szerepkör és a mezők több termékre vonatkozóan egységesebb megközelítést biztosítanak az idővel kapcsolatban.
 
 
 ### <a name="time-source-entity"></a>Időforrás-entitás
@@ -124,7 +124,7 @@ Az egyéni mező feladatfolyamathoz való hozzáadásához húzza a **Mező** el
 Ha új, egyedi TBX oldalt szeretne használni, hozzon létre egy új eljárást. Állítsa a kategóriát **Üzleti folyamat** értékre, állítsa az entitást **Időbevitel** értékre, és állítsa az üzleti folyamat típusát **Folyamat futtatása feladatfolyamatként** értékre. A **Tulajdonságok** alatt az **Oldal neve** tulajdonságot az oldal megjelenített nevére kell beállítani. Adja hozzá az összes vonatkozó mezőt a TBX oldalhoz. Mentse és aktiválja a folyamatot. Frissítse az adott feladatáramlás egyedi vezérlő tulajdonságát a folyamat **Név** értékére.
 
 ### <a name="add-new-option-set-values"></a>Új beállítási értékek hozzáadása
-Az opcionálisan beállított értékek kész mezőhöz történő hozzáadásához nyissa meg a mező szerkesztési oldalát, és a **Típus** alatt válassza a beállítás mellett a **Szerkesztés** lehetőséget. Adjon hozzá egy új opciót, amelynek egyedi címkéje és színe van. Ha új időbeviteli státust szeretne hozzáadni, akkor a kész mező neve **Beviteli állapot** , nem **Állapot**.
+Az opcionálisan beállított értékek kész mezőhöz történő hozzáadásához nyissa meg a mező szerkesztési oldalát, és a **Típus** alatt válassza a beállítás mellett a **Szerkesztés** lehetőséget. Adjon hozzá egy új opciót, amelynek egyedi címkéje és színe van. Ha új időbeviteli státust szeretne hozzáadni, akkor a kész mező neve **Beviteli állapot**, nem **Állapot**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Új időbeviteli állapot kijelölése csak olvashatóként
 Ha egy új időbeviteli állapotot csak olvashatónak szeretne megadni, akkor adja hozzá az új időbeviteli értéket a **Csak olvasható állapotlista** tulajdonsághoz. Az időbeviteli rács szerkeszthető része az új állapotú sorok számára zárolva lesz.

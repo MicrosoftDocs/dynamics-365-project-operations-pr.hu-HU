@@ -3,7 +3,7 @@ title: Projekt ütemezése munkalebontási szerkezettel
 description: Projekt ütemezése munkalebontási struktúrával a Project Service szolgáltatásban
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078274"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127881"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Projekt ütemezése munkalebontási struktúrával (Project Service)
 
@@ -86,14 +86,14 @@ A következő típusú feladatokat fogja használni, a munkalebontási szerkezet
   
 ### <a name="schedule-attributes"></a>Attribútumok ütemezése
 
- - Értékek hozzárendelése **Munkaórákhoz** , **Erőforrások számához** , **Kezdő dátumhoz** , **Befejezési dátumhoz** , és **időtartamhoz** a feladat ütemezésének meghatározása érdekében. 
+ - Értékek hozzárendelése **Munkaórákhoz**, **Erőforrások számához**, **Kezdő dátumhoz**, **Befejezési dátumhoz**, és **időtartamhoz** a feladat ütemezésének meghatározása érdekében. 
  - **Erőfeszítés** a feladat elvégzéséhez szükséges órák becsült értéke.
  - **Erőforrások száma** egy becslés, amit a projekt menedzser a feladatba juttat annak érdekében, hogy a lehető legjobb ütemezést eredményezze. 
  - **Időtartam** (napokban) jelzi azon munka napok számát, amely a feladat végrehajtásához szükséges.  
   
 ### <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
- - **Szerepkör** , **Erőforrás szervezeti egység** , **Erőforrások száma** , és **Erőforrások** leírják a munkaerő-szükségleteit a feladat számára. 
+ - **Szerepkör**, **Erőforrás szervezeti egység**, **Erőforrások száma**, és **Erőforrások** leírják a munkaerő-szükségleteit a feladat számára. 
  - **Szerepkör** leírja a feladat elvégzéséhez szükséges erőforrások típusát. 
  - **Erőforrás szervezeti egység** jelzi, hogy a szervezeti egységet, amelyből az erőforrásokat személyzettel kell ellátni a tevékenység számára, ami hatással van a feladat költségi- és az értékesítési becslésére, mivel az erőforráshoz tartozó egység költségi árának meghatározását igazolja. 
  - **Erőforrások** tartalmazza az általános erőforrást vagy elnevezett erőforrást, amikor talál egyet.  

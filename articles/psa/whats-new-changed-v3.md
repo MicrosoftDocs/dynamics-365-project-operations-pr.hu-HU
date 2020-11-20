@@ -2,7 +2,7 @@
 title: Újdonságok és változások a Project Service Automation 3. verziójában
 description: Ez a témakör információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 3. verziójában.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078054"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120006"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Újdonságok és változások a Project Service Automation 3. verziójában
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -192,7 +192,7 @@ A Common Data Service platform nem támogatja, hogy az egyik felhasználó megsz
 A testreszabás lehetővé teszi a **Foglalható erőforrás** hozzáadását a létrehozási és szerkesztési élményekhez, amelyek lehetővé teszik a felhasználó számára, hogy delegáltként cselekedjen, ha a **Foglalási erőforrás** mezőt egy másik felhasználóra változtatja, akinek idő- és költségbejegyzéseket kell rögzíteni. A következő lépések az időbejegyzés átruházására vonatkoznak. Ugyanez az információ vonatkozik a költségbejegyzések átruházására. 
  
 1.  Győződjön meg arról, hogy a delegált felhasználó globális biztonsági hozzáféréssel rendelkezik a projektekhez és a projektfeladatokhoz. 
-1.  Mivel a **Foglalható erőforrás** , amely egy mező az **Időbejegyzés** entitáson, nincs megjelenítve a **Gyors létrehozás** oldalon, hozzá kell adnia.
+1.  Mivel a **Foglalható erőforrás**, amely egy mező az **Időbejegyzés** entitáson, nincs megjelenítve a **Gyors létrehozás** oldalon, hozzá kell adnia.
 
     -vagy-
 
@@ -201,7 +201,7 @@ A testreszabás lehetővé teszi a **Foglalható erőforrás** hozzáadását a 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Hozzon létre egy új beépülő modult, hogy felülírja a **Kezelő** mezőt a felhasználó **Foglalható erőforrás** mezőben kijelölt kezelőjének. Használja ugyanazt a **Végrehajtási szakaszt** , mint a sávon kívüli (OOB) beépülő modul (előzetes érvényesítés), és használjon olyan **Végrehajtási sorrendet** , amely magasabb, mint az OOB beépülő modulok (nagyobb, mint 1). Ez biztosítja, hogy az egyedi beépülő modul az OOB beépülő modulok után kerül végrehajtásra.  
+1. Hozzon létre egy új beépülő modult, hogy felülírja a **Kezelő** mezőt a felhasználó **Foglalható erőforrás** mezőben kijelölt kezelőjének. Használja ugyanazt a **Végrehajtási szakaszt**, mint a sávon kívüli (OOB) beépülő modul (előzetes érvényesítés), és használjon olyan **Végrehajtási sorrendet**, amely magasabb, mint az OOB beépülő modulok (nagyobb, mint 1). Ez biztosítja, hogy az egyedi beépülő modul az OOB beépülő modulok után kerül végrehajtásra.  
  
 ### <a name="end-user-experience"></a>Végfelhasználói élmény
 1.  Amikor létrehoz egy időbejegyzést a gyors létrehozási oldalon, írja be a Projektet és a Projekt feladat részleteit, majd válassza a **Foglalható erőforrás** mezőben azt a felhasználót, aki számára az időbejegyzéseket rögzíteni kell. 

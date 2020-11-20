@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078120"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122931"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Becslések létrehozása egy árajánlatsorban
 
@@ -46,7 +46,7 @@ A szerződési sorok részleteiben nem szerepelhetnek anyagok becslései.
 
 A projektszerződésben támogatott folyamatok a számlalétrehozás és -megerősítés. A számla létrehozása létrehozza a projektalapú számla tervezetét, amely tartalmazza az összes érvénytelenített értékesítési tényt az aktuális dátumig.
 
-A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat** -ról **Megerősített** -re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
+A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat**-ról **Megerősített**-re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
 
 Az egyetlen különbség a szerződéstervezetek és a megerősített szerződések között az állapotuk és az a tény, hogy a szerződéstervezetek szerkeszthetők, míg a megerősített szerződések nem. A számlakészítés és a tényleges adatok követése mind a szerződéstervezeteken, mind a megerősített szerződéseken elvégezhető.
 
@@ -83,7 +83,7 @@ Ha hozzáadott egy egyéni mezőt az árajánlat sorrészleteihez, és azt akarj
 2. Válassza a **Keresés** lehetőséget, és keresse meg a frissítést igénylő bővítményt.
 3. Válassza ki a beépülő modult, majd a főoldalon válassza a **Kiválasztás** lehetőséget.
 4. Válassza ki a beépülő modul frissítésének lépését, kattintson a jobb gombbal, majd válassza a **Frissítés** lehetőséget.
-5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis ( **...** ) gombot:
+5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis (**...**) gombot:
 6. Az **Attribútumok kiválasztása** párbeszédpanelen jelölje be az egyedi attribútumok jelölőnégyzeteit.
 7. A párbeszédpanel bezárásához válassza az **OK** lehetőséget, majd válassza a **Lépés frissítése** lehetőséget.
 8. Ismételje meg az 1-7. lépéseket a második modullal.

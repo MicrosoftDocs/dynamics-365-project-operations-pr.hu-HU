@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077983"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127431"
 ---
 # <a name="project-team-members"></a>Projektcsoporttagok
 
@@ -47,16 +47,16 @@ A következő táblázat a projektcsoport egyik tagjának legfontosabb attribút
 
 A csoporttagok rácsából a következő műveleteket hajthatja végre:
 
-- **Foglalás** : A hibrid foglalási módszertant kihasználó szervezetek esetében a foglalási művelet lehetővé teszi, hogy a felhasználók egy elnevezett erőforrást foglaljanak le az általános csoporttag által előállított szükséges követelmények alapján.
-- **Követelmény létrehozása** : Ez a művelet hozza létre a követelményt.
-- **Minta megadása** : Lehetővé teszi, hogy a projektmenedzserek részletes szinten módosítsák az erőforrás-szükségletet. A projektmenedzserek a projekt konkrét igényeinek megfelelően módosíthatják azokat az eseteket, amikor az alapértelmezett elosztás nem megfelelő.
-- **Kérés elküldése** : A központi foglalási módszert alkalmazó szervezetek számára.
-- **Szerkesztés** : A csoporttagok attribútumai szerkeszthetők, beleértve a szervezeti egységet, a szerepkört és a pozíció nevét.
-- **Lefoglalások megőrzése** : Amikor az erőforrások foglalását frissíteni kell, a foglalások megőrzése lehetővé teszi, hogy a projektmenedzser módosítsa a következőket:
+- **Foglalás**: A hibrid foglalási módszertant kihasználó szervezetek esetében a foglalási művelet lehetővé teszi, hogy a felhasználók egy elnevezett erőforrást foglaljanak le az általános csoporttag által előállított szükséges követelmények alapján.
+- **Követelmény létrehozása**: Ez a művelet hozza létre a követelményt.
+- **Minta megadása**: Lehetővé teszi, hogy a projektmenedzserek részletes szinten módosítsák az erőforrás-szükségletet. A projektmenedzserek a projekt konkrét igényeinek megfelelően módosíthatják azokat az eseteket, amikor az alapértelmezett elosztás nem megfelelő.
+- **Kérés elküldése**: A központi foglalási módszert alkalmazó szervezetek számára.
+- **Szerkesztés**: A csoporttagok attribútumai szerkeszthetők, beleértve a szervezeti egységet, a szerepkört és a pozíció nevét.
+- **Lefoglalások megőrzése**: Amikor az erőforrások foglalását frissíteni kell, a foglalások megőrzése lehetővé teszi, hogy a projektmenedzser módosítsa a következőket:
 
     - Kezdet
     - End
     - Teljes munkamennyiség elosztása
 
-- **Új** : Az erőforrások közvetlenül az ütemezésből való hozzáadásán túl a projektmenedzserek új névvel rendelkező vagy általános csoporttagokat vehet fel a csoporttagok rácsába.
-- **Törlés** : Egy vagy több csoporttag kijelölésével a projektmenedzser törölheti azokat az erőforrásokat, akik már nem fognak részt venni a projektben. A csoporttagok törlésével az összes társított erőforrás-hozzárendelés is törlődik, és a meglévő foglalások visszavonhatók.
+- **Új**: Az erőforrások közvetlenül az ütemezésből való hozzáadásán túl a projektmenedzserek új névvel rendelkező vagy általános csoporttagokat vehet fel a csoporttagok rácsába.
+- **Törlés**: Egy vagy több csoporttag kijelölésével a projektmenedzser törölheti azokat az erőforrásokat, akik már nem fognak részt venni a projektben. A csoporttagok törlésével az összes társított erőforrás-hozzárendelés is törlődik, és a meglévő foglalások visszavonhatók.

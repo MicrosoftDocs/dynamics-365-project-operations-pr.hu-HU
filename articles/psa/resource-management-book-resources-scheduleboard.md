@@ -3,7 +3,7 @@ title: Használja az Ütemezési táblát a projekt erőforrásainak lefoglalás
 description: Ez a témakör információkat nyújt az erőforrások lefoglalásáról.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078314"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120231"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Használja az Ütemezési táblát a projekt erőforrásainak lefoglalásához
 

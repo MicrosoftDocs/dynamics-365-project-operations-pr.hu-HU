@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078004"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118116"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projektárajánlatok létrehozása lehetőségekből
 
@@ -30,7 +30,7 @@ Az árajánlatokat a következő módszerekkel lehet létrehozni a projektlehet�
 Ha projektárajánlatot szeretne létrehozni egy lehetőségből, hajtsa végre az alábbi lépéseket.
 
 1. Nyissa meg a **Projektlehetőség** oldalt, és válassza az **Árajánlatok** lapot. 
-2. Az **Árajánlatok** alrácson válassza a **+** lehetőséget, ha a lehetőség alapján új árajánlatot szeretne létrehozni. A rendszer az összes lehetőségsort és a kapcsolódó projektárlistákat átmásolja az új árajánlatba a lehetőségből.
+2. Az **Ajánlatok** alrácson válassza a **+** lehetőséget, ha a lehetőség alapján új árajánlatot szeretne létrehozni. A rendszer az összes lehetőségsort és a kapcsolódó projektárlistákat átmásolja az új árajánlatba a lehetőségből.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>A lehetőség értékesítési folyamatából
 
@@ -55,4 +55,4 @@ A meglévő árajánlatok a lehetőséghez csatolhatók. Hajtsa végre az alább
 
    Ha a lehetőséget ebbe a fázisba helyezi, akkor ezt az árajánlatot a lehetőséghez társított árajánlatok listájából választhatja ki. Az árajánlat kiválasztása azt jelzi, hogy továbbhalad vele.
 
-   A lehetőséghez kapcsolódó összes egyéb árajánlat továbbra is elérhető lesz, és mindaddig aktív marad, amíg az egyiket el nem nyerik. Az értékesítési folyamatot visszahelyezheti az előző ( **Minősítés** ) fázisba, és másik ajánlatot választhat ki, amellyel továbbléphet.
+   A lehetőséghez kapcsolódó összes egyéb árajánlat továbbra is elérhető lesz, és mindaddig aktív marad, amíg az egyiket el nem nyerik. Az értékesítési folyamatot visszahelyezheti az előző (**Minősítés**) fázisba, és másik ajánlatot választhat ki, amellyel továbbléphet.

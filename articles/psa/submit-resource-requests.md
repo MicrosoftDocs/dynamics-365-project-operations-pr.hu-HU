@@ -3,7 +3,7 @@ title: Erőforrás-kérelmek elküldése
 description: Erőforrás-kérelmek elküldése a Project Service szolgáltatásban
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078184"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126891"
 ---
 # <a name="submit-resource-requests-project-service"></a>Erőforrás-kérelmek elküldése (Project Service)
 
@@ -41,7 +41,7 @@ Egy projektszerződés elnyerése után személyzetet kell biztosítani a projek
   
 5.  Egy erőforrás végleges lefoglalásához válassza ki a szerepkört, és kattintson a **Végleges lefoglalás** lehetőségre. Megjelenik egy naptárnézet az összes erőforrásról és az elérhetőségükről; a színkódolás vizuálisan jelzi az erőforrások lefoglaltsági állapotát. A következőket teheti a keresés optimalizálása érdekében:  
   
-    -   Válasszon ki egy nézetet vagy rendezési sorrendet a képernyő felső részén. Megadhatja azt is, hogy a megjelenített elérhetőségi időszak a **Nap** , a **Hét** vagy a **Hónap** legyen, és a nyilak segítségével tekintheti meg az előző vagy a következő időszakot. Egy konkrét erőforrás megtalálásához használja a keresőmezőt.  
+    -   Válasszon ki egy nézetet vagy rendezési sorrendet a képernyő felső részén. Megadhatja azt is, hogy a megjelenített elérhetőségi időszak a **Nap**, a **Hét** vagy a **Hónap** legyen, és a nyilak segítségével tekintheti meg az előző vagy a következő időszakot. Egy konkrét erőforrás megtalálásához használja a keresőmezőt.  
   
     -   Kattintson a **Beállítások** lehetőségre, hogy megadja, milyen elemek jelenjenek meg. Például megjeleníthet egy jelmagyarázatot, amely a különböző típusú lefoglalásokra vonatkozó színsémát mutatja, vagy beállíthatja, hogy csak egy bizonyos lefoglalástípus jelenjen meg (például végleges lefoglalás vagy ideiglenes lefoglalás).  
   

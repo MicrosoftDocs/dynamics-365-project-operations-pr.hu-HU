@@ -3,7 +3,7 @@ title: Árajánlatok és árajánlatsorok
 description: Ez a témakör az árajánlatkról és az áranjánlatsorokról tartalmaz információkat.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078207"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129456"
 ---
 # <a name="quotes-and-quote-lines"></a>Árajánlatok és árajánlatsorok
 
@@ -35,7 +35,7 @@ A Dynamics 365 Project Service Automation rendszerben kétféle árajánlat lét
 - Az értékesítési árajánlat támogatja az aktiválást és a módosításokat. A projektárajánlat nem támogatja ezeket a folyamatokat.
 - Az értékesítési árajánlathoz több megrendelés is csatolható. Egy projektárajánlathoz csak egy projektszerződés csatolható.
 - Megszerezheti az értékesítési árajánlatot, és megtarthatja a kapcsolódó lehetőséget. A projekt árajánlatának megszerzése után a kapcsolódó lehetőség le lesz zárva.
-- Az értékesítési árajánlat nem tartalmaz bizonyos olyan mezőket és fogalmakat, amelyek szerepelnek a projektárajánlatban. A mezők közé tartozik a **Szerződő részleg** , a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
+- Az értékesítési árajánlat nem tartalmaz bizonyos olyan mezőket és fogalmakat, amelyek szerepelnek a projektárajánlatban. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
 - Az értékesítési árajánlatokat és a projektárajánlatokat egy értékkészlet-alapú **Típus** nevű mező is azonosítja. Értékesítési árajánlat esetén ebben a mezőben az érték **elemalapú**. A projektárajánlat esetén az érték **Munkaalapú**.
 
 Ez a témakör a projektárajánlat részletes adatait veszi figyelembe.
@@ -76,7 +76,7 @@ A PSA a rögzített árú árajánlatsorokra vonatkozóan mindhárom típusú sz
 A professzionális szolgáltatást végző szervezetek általában a költségek besorolásával készítenek árajánlatot, és számlázzák az ügyfelet. A PSA-ban a költségeket a következő tranzakciós besorolások jelentik:
 
 - **Idő** – ez az osztályozás a munka vagy a humánerőforrás idejének költségét jelenti a projektben.
-- **Költség** : – ez az osztályozás jelenti a projekt minden egyéb költségét. Mivel a költségek széles körben csoportosíthatók, a legtöbb szervezet olyan alkategóriákat hoz létre, mint az utazás, az autókölcsönzés, a szállodai vagy az irodai eszközök.
+- **Költség**: – ez az osztályozás jelenti a projekt minden egyéb költségét. Mivel a költségek széles körben csoportosíthatók, a legtöbb szervezet olyan alkategóriákat hoz létre, mint az utazás, az autókölcsönzés, a szállodai vagy az irodai eszközök.
 - **Díj** – ez az osztályozás vegyesen vonatkozik a karbantartásra, a büntetésekre és egyéb elemekre, amelyeket az ügyfélnek kell állnia. 
 - **Adó** – ez az osztályozás a felhasználók által a kiadások beírása során hozzáadott adó összegét jelenti.
 - **Anyaggal kapcsolatos tranzakció** – ez az osztályozás a jóváhagyott projektszámlán lévő terméksorok tényleges értékét jelenti.
@@ -91,7 +91,7 @@ Előfordulhat például, hogy egy árajánlat a következő két ajánlatsort ta
 - Rögzített árú számlázási módszert használó kapcsolódó utazási költségek. Például a **Dynamics AX-megvalósítás** példaprojekt összes utazási költségét rögzített pénzértéken számlázza a rendszer.
 
 > [!NOTE]
-> Az **Idő** , a **Költség** és a **Díj** projekt- és tranzakcióosztályozási kombinációjának, amelyek árajánlatsorral vagy szerződéssorral vannak társítva, egyedinek kell lennie. Ha a projekt- és tranzakcióosztály ugyanazon kombinációja egynél több szerződéssor vagy ajánlatsorhoz van társítva, akkor a PSA nem fog megfelelően működni.
+> Az **Idő**, a **Költség** és a **Díj** projekt- és tranzakcióosztályozási kombinációjának, amelyek árajánlatsorral vagy szerződéssorral vannak társítva, egyedinek kell lennie. Ha a projekt- és tranzakcióosztály ugyanazon kombinációja egynél több szerződéssor vagy ajánlatsorhoz van társítva, akkor a PSA nem fog megfelelően működni.
 
 ## <a name="billing-types"></a>Számlázási típusok
 

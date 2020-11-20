@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078089"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127757"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Helyesbítő naplók létrehozása és megerősítése
 
@@ -42,7 +42,7 @@ A következő lépések végrehajtásával helyesbítheti a projekt egy vagy tö
 
 3. Válassza a **Bejegyzések helyesbítése** lehetőséget. A rendszer automatikusan létrehoz egy új helyesbítő naplót az **Idő helyesbítése** hozzárendelt típussal. A kijelölt bejegyzéseket a rendszer hozzáadja a naplóhoz. 
 
-4. Az **Új napló** lapon adja meg a helyesbítő napló **Leírását** , majd válassza ki az **Időbejegyzések helyesbítései** lapot.  
+4. Az **Új napló** lapon adja meg a helyesbítő napló **Leírását**, majd válassza ki az **Időbejegyzések helyesbítései** lapot.  
 
 5. Az **Időbejegyzések új értékei** részben igény szerint frissítse a mezőket a megfelelő adatokkal. Megváltoztathatja például a hozzárendelt projektet vagy a lefoglalható erőforrást.
 
@@ -73,7 +73,7 @@ Hajtsa végre az alábbi lépéseket egy vagy több költségbejegyzés kijavít
 
 2. A **Jóváhagyott kiadások** listájában jelölje ki a helyesbíteni kívánt projektet, majd válassza a **Bejegyzések helyesbítése** lehetőséget. A rendszer automatikusan létrehoz majd egy új helyesbítő naplót a **Költség helyesbítése** hozzárendelt típussal. 
 
-3. Az **Új napló** lapon adja meg a helyesbítés **Leírását** , és a **Költség javítása** lapon, a **Költségek új értékei** szakaszban jelölje ki a kiválasztott költségsorhoz helyesbíteni kívánt adatmezőket. Például hozzárendelheti a költséget egy másik **Projekthez** , vagy helyesbítheti a **Költségkategóriát** , a **Költség dátumát** vagy a **Lefoglalható erőforrást**.
+3. Az **Új napló** lapon adja meg a helyesbítés **Leírását**, és a **Költség javítása** lapon, a **Költségek új értékei** szakaszban jelölje ki a kiválasztott költségsorhoz helyesbíteni kívánt adatmezőket. Például hozzárendelheti a költséget egy másik **Projekthez**, vagy helyesbítheti a **Költségkategóriát**, a **Költség dátumát** vagy a **Lefoglalható erőforrást**.
 
 4. Válassza a **Előnézet** elemet. A párbeszédpanelen válassza az **OK** lehetőséget. 
 

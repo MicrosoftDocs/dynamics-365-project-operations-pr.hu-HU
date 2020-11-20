@@ -3,7 +3,7 @@ title: Munka a Project Service Automation adatmodelljével
 description: Ez a témakör információt nyújt az adatmodell működéséről.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078277"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120276"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Munka a Project Service Automation adatmodelljével
 
@@ -33,15 +33,15 @@ A Dynamics 365 Project Service Automation kiterjeszti más alkalmazás entitáso
 
 ## <a name="reporting-on-opportunities"></a>Jelentés a lehetőségekről
 
-A Project Service Automation kibővíti a Dynamics 365 Sales **Opportunity** entitását olyan mezők hozzáadásával, amelyek lehetővé teszik a projekt alapú forgatókönyveket. Ezeket a mezőket egy sémanév azonosítja, amelyet az **msdyn\_** előtaggal jelölnek meg. Az egyik új terület, amely a PSA-lehetőségek beszámolása szempontjából fontos a **Rendelés típusa**. Ennek a mezőnek a **Munka alapú** értéke azt jelzi, hogy a lehetőség PSA lehetőség. Az entitáshoz hozzáadott egyéb mezők között szerepel a **Szerződő Szervezet** , amely megragadja a lehetőséget birtokló szervezetet, és a **Számlavezető** , amely rögzíti a lehetőségért felelős számlavezető nevét.
+A Project Service Automation kibővíti a Dynamics 365 Sales **Opportunity** entitását olyan mezők hozzáadásával, amelyek lehetővé teszik a projekt alapú forgatókönyveket. Ezeket a mezőket egy sémanév azonosítja, amelyet az **msdyn\_** előtaggal jelölnek meg. Az egyik új terület, amely a PSA-lehetőségek beszámolása szempontjából fontos a **Rendelés típusa**. Ennek a mezőnek a **Munka alapú** értéke azt jelzi, hogy a lehetőség PSA lehetőség. Az entitáshoz hozzáadott egyéb mezők között szerepel a **Szerződő Szervezet**, amely megragadja a lehetőséget birtokló szervezetet, és a **Számlavezető**, amely rögzíti a lehetőségért felelős számlavezető nevét.
 
 A **Lehetőség sor** entitás olyan mezőket is tartalmaz, amelyek a Project Service-hez kapcsolódnak. A **Számlázási módszer** jelzi, hogy az opció sorát idő- és anyag alapon, vagy rögzített áron kell-e számlázni, és a **Projekt** rögzíti annak a projektnek a nevét, amely támogatja a lehetőséget. Egyéb mezők, amelyekről beszámolhat a sor elfogási költségeiről és az ügyfél költségvetési összegeiről.
 
 ## <a name="reporting-on-quotes"></a>Jelentés az árajánlatokról
 
-A PSA a projekthez kapcsolódó mezők hozzáadásával kibővíti az Értékesítési **Ajánlat** entitást. A **Megrendelés típusa** megkülönbözteti a PSA és a nem PSA árajánlatokat. Ennek a mezőnek a **Munka alapú** értéke azt jelzi, hogy az ajánlat PSA-ajánlat. A PSA-árajánlatok jelentése szempontjából releváns mezők között szerepelnek az összegmezők , például: **Díjköteles költségek** , **Nem terhelhető költségek** , **Bruttó fedezet** , **Becslések** és **Költségvetés**. Egyéb hasznos mezők jelzik, hogy az árajánlat jövedelmező-e, vajon teljesül-e az ütemezés szerint, és megfelel-e az ügyfél költségvetési várakozásainak.
+A PSA a projekthez kapcsolódó mezők hozzáadásával kibővíti az Értékesítési **Ajánlat** entitást. A **Megrendelés típusa** megkülönbözteti a PSA és a nem PSA árajánlatokat. Ennek a mezőnek a **Munka alapú** értéke azt jelzi, hogy az ajánlat PSA-ajánlat. A PSA-árajánlatok jelentése szempontjából releváns mezők között szerepelnek az összegmezők , például: **Díjköteles költségek**, **Nem terhelhető költségek**, **Bruttó fedezet**, **Becslések** és **Költségvetés**. Egyéb hasznos mezők jelzik, hogy az árajánlat jövedelmező-e, vajon teljesül-e az ütemezés szerint, és megfelel-e az ügyfél költségvetési várakozásainak.
 
-A PSA kiterjeszti az Értékesítési **Árajánlat sor** entitást. Az egyik mező, amelyet a PSA hozzáad, a **Számlázási módszer** , amely megmutatja, hogy az árajánlat sorának hogyan kell számlázni (idő és anyagok, vagy rögzített ár). Az entitáshoz hozzáadott egyéb mezők rögzítik a kapcsolódó projektet, amely támogatja az árajánlati sort, a számlázást, a költségeket és a költségvetést.
+A PSA kiterjeszti az Értékesítési **Árajánlat sor** entitást. Az egyik mező, amelyet a PSA hozzáad, a **Számlázási módszer**, amely megmutatja, hogy az árajánlat sorának hogyan kell számlázni (idő és anyagok, vagy rögzített ár). Az entitáshoz hozzáadott egyéb mezők rögzítik a kapcsolódó projektet, amely támogatja az árajánlati sort, a számlázást, a költségeket és a költségvetést.
 
 A PSA új árajánlatokkal kapcsolatos entitásokat is hozzáad a Dynamics 365 adatmodellhez. Íme néhány példa:
 
@@ -50,13 +50,13 @@ A PSA új árajánlatokkal kapcsolatos entitásokat is hozzáad a Dynamics 365 a
 - **Árajánlat sor mérföldköve** - Ez az entitás a rögzített árú árajánlati sorok számlázási mérföldköveit tartalmazza.
 - **Árajánlat sor elemzési bontás** - Ez az entitás az árajánlat sor pénzügyi részleteit tartalmazza. Ezek a részletek hasznosak lehetnek az árajánlati eladások és a becsült költségek különféle dimenziók szerinti jelentésére.
 
-Egyéb elemek, amelyeket a PSA hozzáad az árajánlatokhoz, a következők: **Árajánlatsor projekt árlista** , **Árajánlatsor erőforrás kategória** és **Árajánlat sor tranzakciós kategória**.
+Egyéb elemek, amelyeket a PSA hozzáad az árajánlatokhoz, a következők: **Árajánlatsor projekt árlista**, **Árajánlatsor erőforrás kategória** és **Árajánlat sor tranzakciós kategória**.
 
 ![Árajánlatot, árajánlatsort és projektkapcsolatokat mutató diagram](media/PS-Reporting-image2.png "Árajánlatot, árajánlatsort és projektkapcsolatokat mutató diagram")
 
 ## <a name="reporting-on-project-contracts"></a>Jelentés a projektszerződésekről
 
-A PSA kiterjeszti az Értékesítési **Megrendelés** entitást, amelyet a projektszerződések rögzítésekor használnak. Hozzátesz egy fontos új mezőt, a **Megrendelés típusa** , amely a szerződést PSA projektszerződésként azonosítja értékesítési rendelés helyett. Ennek a mezőnek a **Munka alapú** értéke azt jelzi, hogy a megrendelés PSA projekt szerződés. A **Megrendelés** entitáshoz hozzáadott egyéb új mezők a költségekkel, a PSA-szerződés státusával és a szerződéssel bíró szervezettel kapcsolatos részleteket tartalmaznak.
+A PSA kiterjeszti az Értékesítési **Megrendelés** entitást, amelyet a projektszerződések rögzítésekor használnak. Hozzátesz egy fontos új mezőt, a **Megrendelés típusa**, amely a szerződést PSA projektszerződésként azonosítja értékesítési rendelés helyett. Ennek a mezőnek a **Munka alapú** értéke azt jelzi, hogy a megrendelés PSA projekt szerződés. A **Megrendelés** entitáshoz hozzáadott egyéb új mezők a költségekkel, a PSA-szerződés státusával és a szerződéssel bíró szervezettel kapcsolatos részleteket tartalmaznak.
 
 A PSA kiterjeszti az **Értékesítési rendelés sor** entitását is. A hozzáadott mezők között szerepelnek azok a mezők, amelyek rögzítik a számlázási módszert (idő és anyagok vagy rögzített ár), az ügyfél költségvetési összegeit és az alapul szolgáló projektet.
 
@@ -66,7 +66,7 @@ A PSA új entitásokat is felvesz, amelyeket projektszerződésekre terveztek. �
 - **Szerződéses számla ütemezése** - Ez az entitás tartalmazza a számlázási ütemezést, amelyet a szerződéshez rendelt számlázási gyakoriság alapján állítanak elő.
 - **Szerződés mérföldköve** - Ez az entitás a számlázási mérföldköveket tartalmazza azon szerződéses sorok számlázására, amelyek rögzített árú számlázási időtartammal rendelkeznek.
 
-Egyéb elemek, amelyeket a PSA hozzáad a szerződésekhez, a következők: **Projektszerződés sor projekt árlista** , **Projektszerződés sor erőforrás kategória** és **Projektszerződés sor tranzakciós kategória**.
+Egyéb elemek, amelyeket a PSA hozzáad a szerződésekhez, a következők: **Projektszerződés sor projekt árlista**, **Projektszerződés sor erőforrás kategória** és **Projektszerződés sor tranzakciós kategória**.
 
 ![Megrendelést, megredneléssort és projektkapcsolatokat mutató diagram](media/PS-Reporting-image3.png "Megrendelést, megredneléssort és projektkapcsolatokat mutató diagram")
 

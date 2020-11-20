@@ -3,7 +3,7 @@ title: Javaslattétel a projekt erőforrásaira
 description: Ez a témakör információt nyújt a projekt erőforrásainak javaslatáról.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078311"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120186"
 ---
 # <a name="propose-project-resources"></a>Javaslattétel a projekt erőforrásaira
 
@@ -82,7 +82,7 @@ Mivel az **Erőforrás-hasznosítás** nézet az Ütemezési táblán alapul, az
 
 A rács megköveteli, hogy állítson be egy célfelhasználást a szerepre vagy az egyes erőforrásokra. A beállítás elvégzéséhez ugorjon a **Erőforrások** \> **Erőforrás szerepek** elemre.
 
-Ezenkívül minden foglalható erőforráshoz alapértelmezett szerepet kell hozzárendelni. Lépjen a **Források** \> **Források** oldalra. A **Project Service** lapon ellenőrizze, hogy az erőforrás szerepe van meghatározva, és hogy a **Alapértelmezett** mező **Igen** értékre van állítva. További szerepeket adhat hozzá, ahol **Alapértelmezett = Nem**. A szerep, ahol az **Alapértelmezett = Igen** , az erőforrás felhasználásának értékelésére szolgál annak a célnak a függvényében.
+Ezenkívül minden foglalható erőforráshoz alapértelmezett szerepet kell hozzárendelni. Lépjen a **Források** \> **Források** oldalra. A **Project Service** lapon ellenőrizze, hogy az erőforrás szerepe van meghatározva, és hogy a **Alapértelmezett** mező **Igen** értékre van állítva. További szerepeket adhat hozzá, ahol **Alapértelmezett = Nem**. A szerep, ahol az **Alapértelmezett = Igen**, az erőforrás felhasználásának értékelésére szolgál annak a célnak a függvényében.
 
 ![Alapértelmezett szerepkészlet](media/Resource-Management-image67.png)
 

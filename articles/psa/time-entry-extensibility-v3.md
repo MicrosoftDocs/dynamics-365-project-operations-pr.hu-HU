@@ -3,7 +3,7 @@ title: A heti időbejegyzés testreszabása
 description: Ez a témakör ismerteti az egyéni üzleti szabályok végrehajtásának módját, amelyek támogatják a szervezet gyakorlatait.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078179"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127926"
 ---
 # <a name="customize-weekly-time-entry"></a>A heti időbejegyzés testreszabása 
 
@@ -51,7 +51,7 @@ A **Dimenziók** szakasz nem engedi meg a sorszerkesztést. Ezt a részt egy oly
 Az Időtartam szakasz a hét napjait mutatja oszlopfejlécként. Ez a szakasz lehetővé teszi a belső szerkesztést. Miután létrehozott egy időbeviteli sort, amely rendelkezik megfelelő dimenziókkal, a felhasználók gyorsan bevihetik az ezen dimenziókra fordított időt.
 
 ## <a name="create-a-new-time-entry"></a>Új időbejegyzés létrehozása
-Új időbejegyzés létrehozásához az időbeviteli rácsban válassza az **Új** lehetőséget. Megjelenik az **Időbevitel gyors létrehozása** párbeszédablak. Ezen a párbeszédpanelen a felhasználók kiválaszthatják az időbeviteli dátumot, majd a **h** , **m** vagy **d** és egy szám beírásával beírhatják a **Projekt** , **Projektfeladat** , **Szerep** és **Időtartam** dimenziókat percben, órában vagy napban. A felhasználók beírhatnak egy leírást és megjegyzéseket, amelyek külsőleg megoszthatók az időbevitelre vonatkozóan. Amikor a felhasználó menti a módosításokat, akkor a dimenziókhoz beírt értékek megjelennek a **Dimenziók** szakaszban. A **Időtartam** mezőbe beírt időtartam-információk abban az időpontban jelennek meg, amelyre az időbejegyzés létrejött.
+Új időbejegyzés létrehozásához az időbeviteli rácsban válassza az **Új** lehetőséget. Megjelenik az **Időbevitel gyors létrehozása** párbeszédablak. Ezen a párbeszédpanelen a felhasználók kiválaszthatják az időbeviteli dátumot, majd a **h**, **m** vagy **d** és egy szám beírásával beírhatják a **Projekt**, **Projektfeladat**, **Szerep** és **Időtartam** dimenziókat percben, órában vagy napban. A felhasználók beírhatnak egy leírást és megjegyzéseket, amelyek külsőleg megoszthatók az időbevitelre vonatkozóan. Amikor a felhasználó menti a módosításokat, akkor a dimenziókhoz beírt értékek megjelennek a **Dimenziók** szakaszban. A **Időtartam** mezőbe beírt időtartam-információk abban az időpontban jelennek meg, amelyre az időbejegyzés létrejött.
 
 A keresési mezőket rendszernézetek támogatják. Például, miután egy felhasználó belépett egy projektbe, a **Projektfeladat** mező alapértelmezés szerint **Másolat** nézetre van állítva. Felhasználóhoz nem rendelt feladatokhoz időbejegyzések létrehozásához válassza a **Nézet módosítása** elemet a keresési párbeszédablakban, és válassza ki az **Összes aktív projektfeladat** nézetet.
 
@@ -98,7 +98,7 @@ Az egyéni mezőt hozzá kell adnia az Időbejegyzés gyors létrehozása párbe
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>A rács konfigurálása az egyéni mező megjelenítéséhez
 Kétféle módon adhat hozzá egyéni mezőt a heti időbeviteli rácshoz. Az első lehetőség a **Heti** időbejegyzés nézet testreszabása és az egyedi mező hozzáadása. Kiválaszthatja az egyéni mező helyét és méretét a rácson, a nézetben szereplő tulajdonságok szerkesztésével.
 
-A második lehetőség egy új, egyéni időbeviteli nézet létrehozása és alapértelmezett nézetként beállítása. Ennek a nézetnek tartalmaznia kell a **Leírás** és **Külső megjegyzések** mezőket, azon oszlopok mellett, amelyeket a rácson szeretne elhelyezni. A rács pozícióját, méretét és alapértelmezett rendezési sorrendjét úgy választhatja meg, hogy szerkeszti ezeket a tulajdonságokat a nézetben. Ezután állítsa be a nézet egyedi vezérlőjét úgy, hogy az egy **Időbeviteli rács** vezérlő legyen. Adja hozzá ezt a vezérlőt a nézethez, és válassza ki az internethez, a telefonhoz és a táblagéphez. Ezután konfigurálja a heti időbeviteli rács paramétereit. Állítsa a **Kezdő dátum** mezőt **msdyn_date** értékre, állítsa az **Időtartam** mezőt **msdyn_duration** értékre, és állítsa az **Állapot** mezőt **msdyn_entrystatus** értékre. Az alapértelmezett nézethez a **Csak olvasható állapotlista** mező **192350002,192350003,192350004** értékre van állítva, a **Sor szerkesztési feladatfolyam** mező **msdyn_timeentryrowedit** , a **Cellaszerkesztési folyamat** mező pedig **msdyn_timeentryedit** értékre van állítva. Testreszabhatja ezeket a mezőket az írásvédett állapot hozzáadásához vagy eltávolításához, vagy egy sor feladat alapú élmény (TBX) használatához a sor vagy cella szerkesztéséhez. Ezeket a mezőket statikus értékhez kell kötni.
+A második lehetőség egy új, egyéni időbeviteli nézet létrehozása és alapértelmezett nézetként beállítása. Ennek a nézetnek tartalmaznia kell a **Leírás** és **Külső megjegyzések** mezőket, azon oszlopok mellett, amelyeket a rácson szeretne elhelyezni. A rács pozícióját, méretét és alapértelmezett rendezési sorrendjét úgy választhatja meg, hogy szerkeszti ezeket a tulajdonságokat a nézetben. Ezután állítsa be a nézet egyedi vezérlőjét úgy, hogy az egy **Időbeviteli rács** vezérlő legyen. Adja hozzá ezt a vezérlőt a nézethez, és válassza ki az internethez, a telefonhoz és a táblagéphez. Ezután konfigurálja a heti időbeviteli rács paramétereit. Állítsa a **Kezdő dátum** mezőt **msdyn_date** értékre, állítsa az **Időtartam** mezőt **msdyn_duration** értékre, és állítsa az **Állapot** mezőt **msdyn_entrystatus** értékre. Az alapértelmezett nézethez a **Csak olvasható állapotlista** mező **192350002,192350003,192350004** értékre van állítva, a **Sor szerkesztési feladatfolyam** mező **msdyn_timeentryrowedit**, a **Cellaszerkesztési folyamat** mező pedig **msdyn_timeentryedit** értékre van állítva. Testreszabhatja ezeket a mezőket az írásvédett állapot hozzáadásához vagy eltávolításához, vagy egy sor feladat alapú élmény (TBX) használatához a sor vagy cella szerkesztéséhez. Ezeket a mezőket statikus értékhez kell kötni.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Egyéni mező hozzáadása a megfelelő szerkesztési feladatfolyamathoz
 A szerkesztéshez használt TBX oldalak a **Folyamatok** alatt találhatók. Az alapértelmezett oldalak: **Project Service - Időbejegyzési sor szerkesztése** és **Project Service - Időbejegyzés szerkesztése**. Szerkesztheti ezeket az alapértelmezett oldalakat, vagy létrehozhat új, egyedi TBX oldalakat.
@@ -113,7 +113,7 @@ Az egyéni mező feladatfolyamathoz való hozzáadásához húzza a **Mező** el
 Ha új, egyedi TBX oldalt szeretne használni, hozzon létre egy új eljárást. Állítsa a kategóriát **Üzleti folyamat** értékre, állítsa az entitást **Időbevitel** értékre, és állítsa az üzleti folyamat típusát **Folyamat futtatása feladatfolyamatként** értékre. A **Tulajdonságok** alatt az **Oldal neve** tulajdonságot az oldal megjelenített nevére kell beállítani. Adja hozzá az összes vonatkozó mezőt a TBX oldalhoz. Mentse és aktiválja a folyamatot, majd frissítse az adott feladatáramlás egyedi vezérlő tulajdonságát a folyamat **Név** értékére.
 
 ### <a name="add-new-option-set-values"></a>Új beállítási értékek hozzáadása
-Az opcionálisan beállított értékek kész mezőhöz történő hozzáadásához nyissa meg a mező szerkesztési oldalát, majd a **Típus** alatt válassza a beállítás mellett a **Szerkesztés** lehetőséget. Ezután adjon hozzá egy új opciót, amelynek egyedi címkéje és színe van. Ha új időbeviteli státust szeretne hozzáadni, akkor a kész mező neve **Beviteli állapot** , nem **Állapot**.
+Az opcionálisan beállított értékek kész mezőhöz történő hozzáadásához nyissa meg a mező szerkesztési oldalát, majd a **Típus** alatt válassza a beállítás mellett a **Szerkesztés** lehetőséget. Ezután adjon hozzá egy új opciót, amelynek egyedi címkéje és színe van. Ha új időbeviteli státust szeretne hozzáadni, akkor a kész mező neve **Beviteli állapot**, nem **Állapot**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Új időbeviteli állapot kijelölése csak olvashatóként
 Ha egy új időbeviteli állapotot csak olvashatónak szeretne megadni, akkor adja hozzá az új időbeviteli értéket (a számot, ne a címkét) a **Csak olvasható állapotlista** tulajdonsághoz. Az időbeviteli rács szerkeszthető része az új állapotú sorok számára zárolva lesz.

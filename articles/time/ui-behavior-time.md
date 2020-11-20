@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078027"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124506"
 ---
 # <a name="time-entry-ui-behavior"></a>Időbevitel felhasználói felületének viselkedése
 
@@ -40,7 +40,7 @@ Az Időtartam szakasz a hét napjait mutatja oszlopfejlécként. Ez a szakasz le
 
 1. Az időbeviteli rácsban válassza az **Új** lehetőséget. 
 2. Az **Időbevitel gyors létrehozása** párbeszédpanelen válassza ki az időbevitel dátumát.
-3. Adja meg a **Projekt** , a **Projektfeladat** , a **Szerepkör** és az **Időtartam** dimenziók adatait. Ezt az információt percben, órában vagy napban kell megadni, a **h** , **m** vagy **d** értéket együtt megadva a számmal. 
+3. Adja meg a **Projekt**, a **Projektfeladat**, a **Szerepkör** és az **Időtartam** dimenziók adatait. Ezt az információt percben, órában vagy napban kell megadni, a **h**, **m** vagy **d** értéket együtt megadva a számmal. 
 4. Adjon meg egy leírást a bevitelhez, és tetszőleges megjegyzéseket, amelyek külsőleg megoszthatók az időbevitelre vonatkozóan. 
 
 Amikor menti a bejegyzést, a beírt értékek megjelennek a **Dimenziók** részben. Az **Időtartam** mezőbe beírt információk abban az időpontban jelennek meg, amelyre az időbejegyzés létrejött.
@@ -67,10 +67,10 @@ Előhívhatja a benyújtott időbejegyzéseket. Előhívhat egyetlen időbejegyz
 
 ## <a name="time-entry-status"></a>Időbejegyzés állapota
 
-- **Vázlat** : Az új időbevitelek automatikusan **Vázlat** státuszt kapnak. Csak a **Vázlat** állapotú időbejegyzéseket lehet törölni.
-- **Beküldve** : Időbevitel benyújtásakor az állapot frissül **Beküldve** értékre. 
-- **Jóváhagyott** : Amikor a benyújtott időbejegyzés jóváhagyásra kerül, az állapot frissül **Jóváhagyott** értékre. 
-- **Visszaadott** : Ha egy időbejegyzés elutasításra kerül, az állapot frissül **Visszaadott** értékre, és a bejegyzés javításra és újbóli elküldésre rendelkezésre áll. 
+- **Vázlat**: Az új időbevitelek automatikusan **Vázlat** státuszt kapnak. Csak a **Vázlat** állapotú időbejegyzéseket lehet törölni.
+- **Beküldve**: Időbevitel benyújtásakor az állapot frissül **Beküldve** értékre. 
+- **Jóváhagyott**: Amikor a benyújtott időbejegyzés jóváhagyásra kerül, az állapot frissül **Jóváhagyott** értékre. 
+- **Visszaadott**: Ha egy időbejegyzés elutasításra kerül, az állapot frissül **Visszaadott** értékre, és a bejegyzés javításra és újbóli elküldésre rendelkezésre áll. 
 
 ## <a name="view-rejection-comments"></a>Az elutasító megjegyzések megtekintése
 Ha egy jóváhagyó elutasítja az időbejegyzést, a jóváhagyó megjegyzéseket fűzhet hozzá, hogy segítse az erőforrást az elutasítás okának megértésében. Az időbejegyzés elutasító megjegyzéseinek megtekintéséhez válassza a **Bejegyzés megnyitása** lehetőséget. Az elutasító megjegyzések megjelennek az idővonalban. A felhasználó a bejegyzés újbóli elküldése előtt válaszolhat az elutasítási megjegyzésekre.

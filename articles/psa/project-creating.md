@@ -3,7 +3,7 @@ title: Projekt ütemezése
 description: Ez a témakör információt nyújt az ütemezés létrehozásáról.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078127"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123241"
 ---
 # <a name="project-schedules"></a>Projekt ütemezése 
 
@@ -83,12 +83,12 @@ A **Mozgatás felfelé** és a **Mozgatás lefelé** gombokkal változtatható m
 
 Az **Ütemezés** rács teljesen elérhető és képernyőolvasókkal, például a Narrátorral, JAWS vagy NVDA programokkal használható. A rácsterületen nyílbillentyűkkel mozoghat (a Microsoft Excel programhoz hasonlóan ), a Tab billentyű segítségével léphet tovább az interaktív felhasználói felület elemein, a lefelé mutató nyíl, az Enter vagy a szóköz segítségével választhat és hívhatja be a legördülő menüket. Az oszlopfejlécek szintén interaktívak. Az oszlopokat elrejtheti és megjelenítheti, a Tab billentyűvel és a nyílbillentyűkkel mozgathatja az oszlopfejléceket, és az eszköztár műveleti gombjait is használhatja. Ezenkívül a következő billentyűparancsokat használhatja:
 
-- **Frissítés** : ALT+SHIFT+F5
-- **Hozzáadás** : ALT+SHIFT+Insert
-- **Törlés** : ALT+SHIFT+Delete
-- **Mozgatás fel/le** : ALT+SHIFT+Fel/le nyilak
-- **Behúzás/kihúzás** : ALT_SHIFT+Balra/jobbra nyilak
-- **Hierarchiák kibontása/összecsukása** : ALT+SHIFT+Plusz/mínusz gombok
+- **Frissítés**: ALT+SHIFT+F5
+- **Hozzáadás**: ALT+SHIFT+Insert
+- **Törlés**: ALT+SHIFT+Delete
+- **Mozgatás fel/le**: ALT+SHIFT+Fel/le nyilak
+- **Behúzás/kihúzás**: ALT_SHIFT+Balra/jobbra nyilak
+- **Hierarchiák kibontása/összecsukása**: ALT+SHIFT+Plusz/mínusz gombok
 
 ## <a name="task-attributes"></a>Feladat attribútumok
 
@@ -98,19 +98,19 @@ A feladat neve leírja az elvégzendő munkát. A PSA-ban a feladattal kapcsolat
  
 ### <a name="schedule-attributes"></a>Attribútumok ütemezése
 
-Az **Erőfeszítés** , a **Kezdő dátum** , a **Befejező dátum** és az **Időtartam** attribútumok határozzák meg a feladat ütemezését.
+Az **Erőfeszítés**, a **Kezdő dátum**, a **Befejező dátum** és az **Időtartam** attribútumok határozzák meg a feladat ütemezését.
 
 További ütemezési attribútumok a következők:
 
-- **Erőfeszítés órái** : Adja meg a feladat elvégzéséhez szükséges órák becsült számát. 
-- **Időtartam** : Adja meg a feladat elvégzéséhez szükséges munkanapok számát.
-- **Ütemezésazonosító** : Ezzel az automatikusan generált azonosítóval rendelik meg a feladatokat a hierarchiában. A feladatok közötti függőségek kezelik a feladatok tényleges sorrendjét.
+- **Erőfeszítés órái**: Adja meg a feladat elvégzéséhez szükséges órák becsült számát. 
+- **Időtartam**: Adja meg a feladat elvégzéséhez szükséges munkanapok számát.
+- **Ütemezésazonosító**: Ezzel az automatikusan generált azonosítóval rendelik meg a feladatokat a hierarchiában. A feladatok közötti függőségek kezelik a feladatok tényleges sorrendjét.
  
 ### <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
 A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy kattintson a **Létrehozás** elemre, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.
 
-A **Szerepkör** , az **Erőforrásbiztosító egység** és a **Pozíció neve** mezők a feladat személyzeti követelményeinek leírására szolgálnak. A személyzeti attribútumokat és a feladatütemezést a rendelkezésre álló erőforrások megkeresésére használják az adott feladat végrehajtásához.
+A **Szerepkör**, az **Erőforrásbiztosító egység** és a **Pozíció neve** mezők a feladat személyzeti követelményeinek leírására szolgálnak. A személyzeti attribútumokat és a feladatütemezést a rendelkezésre álló erőforrások megkeresésére használják az adott feladat végrehajtásához.
 
 **Szerepkör** – Adja meg a feladat elvégzéséhez szükséges erőforrás típusát.
 

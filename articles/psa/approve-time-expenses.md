@@ -3,7 +3,7 @@ title: Idő és költségek jóváhagyása
 description: Idő és költségek jóváhagyása a Project Service szolgáltatásban
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078270"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127116"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Idő és költségek jóváhagyása (Project Service)
 
@@ -35,7 +35,7 @@ A tanácsadás után adja meg azok idejét és a költségeket a projekthez, hag
   
 2.  Kattintson az elemre a jóváhagyáshoz.  
   
-3.  Az **Időbejegyzések** , a **Kiadási bejegyezések** , és a **Hiányzás/Szabadság** lapokon tekintse át az egyes cikkeket, és szükség szerint módosítsa azokat.  
+3.  Az **Időbejegyzések**, a **Kiadási bejegyezések**, és a **Hiányzás/Szabadság** lapokon tekintse át az egyes cikkeket, és szükség szerint módosítsa azokat.  
   
 4.  Az elem jóváhagyásához, jelölje ki, majd kattintson a **Jóváhagyás** lehetőségre. Egyszerre több elemet jelölhet ki és hagyhat jóvá.  
   

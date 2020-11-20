@@ -3,7 +3,7 @@ title: Újdonságok vagy változások a Project Service Automation 21-es frissí
 description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 21-os frissítési kiadásában.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078043"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126711"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation 21-es frissítési kiadás, V3
 
@@ -38,7 +38,7 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
 
 A következő problémák kerültek kijavításra:
 
-- Amikor az irányítópulton található az **Időbeviteli rács vezérlő** , a rács nem használja az irányítópult rácsához tartozó tároló teljes szélességét.
+- Amikor az irányítópulton található az **Időbeviteli rács vezérlő**, a rács nem használja az irányítópult rácsához tartozó tároló teljes szélességét.
 - Bizonyos időzónák esetén az **Időbejegyzés** rácsvezérlő nem jeleníti meg a bejegyzéseket.
 - A 21:00 óra utáni időpontok nem megfelelő napon jelennek meg.
 - A felhasználók nem küldhetnek be költséget, ha a **Költségnyugta szükséges** költségkategória nem tartalmaz értéket.
@@ -54,7 +54,7 @@ A következő problémák kerültek kijavításra:
 
 A következő problémák kerültek kijavításra:
 
-- A **Projekt** űrlap rácsai ( **Erőforrás-hozzárendelés** , **Feladat** , **Egyeztetés** nézet, **Kiadások becslése** ) akkor is szerkeszthető maradnak, ha a projekt nem aktív.
+- A **Projekt** űrlap rácsai (**Erőforrás-hozzárendelés**, **Feladat**, **Egyeztetés** nézet, **Kiadások becslése**) akkor is szerkeszthető maradnak, ha a projekt nem aktív.
 - A duplikált ügyfelek nem egyesíthetők a megerősített projekt-szerződésekhez kapcsolt ügyfelekkel.
 - Ha érvényes naptárral nem rendelkező erőforrást ad hozzá, akkor a rendszer nem küld vissza felhasználóbarát hibaüzenetet.
 - A **Feladat hozzáadása** gomb a feladatrácson engedélyezve van, amikor a projekt társítva a van a **Microsoft Project bővítményhez**.
@@ -71,7 +71,7 @@ A következő problémák kerültek kijavításra:
 - A **Teljes eladási ár** nulla (0) a **Kategóriához** annak ellenére, hogy a **Szerepkörhöz** nem nulla teljes értékesítési ár tartozik.
 - Az ügyfelek nem módosíthatják a **Számlaállapot** mező értékét, **Számlázásra kész** értékre, amikor egy másik testreszabott folyamat egy további mezőt frissít.
 - A **Számlasorok frissítése** gomb több duplikált sort is létrehozhat, ha az ismételten ki van választva.
-- Az **Árak frissítése** gomb nem működik a **Szerepkörárak** alrácson **Betekintő nézet** űrlapon.
+- Az **Árak frissítése** gomb nem működik a **Szerepkörárak** alrácson a **Betekintő nézet** képernyőn.
 - Az **Értékesítési árlisták feloldási** logikája nem megfelelően kezeli az időzónákat, így az árlisták helytelenül lesznek kiválasztva.
 - A projekt **Összes tényleges költsége** egyetlen időbevitel jóváhagyása után tört összeggel is elvégezhető.
 - Az **Árfeloldás** logikája nem biztosít felhasználóbarát hibaüzenetet, ha a **Beolvasott szerepkörár** nem rendelkezik az **„Elsődleges kiszerelés”** és az **„Ár az elsődleges kiszerelésben”** mezőkben értékkel.
