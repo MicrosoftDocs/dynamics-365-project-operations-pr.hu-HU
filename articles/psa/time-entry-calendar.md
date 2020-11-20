@@ -3,7 +3,7 @@ title: Időbeviteli naptár
 description: Ez a témakör az időbeviteli naptár használatáról nyújt információkat.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 413aba735a5011a9b40c1d5b0bf43c6771db0f7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078182"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131189"
 ---
-# <a name="time-entry-calendar"></a><span data-ttu-id="1b6f2-103">Időbeviteli naptár</span><span class="sxs-lookup"><span data-stu-id="1b6f2-103">Time entry calendar</span></span>
+# <a name="time-entry-calendar"></a><span data-ttu-id="71853-103">Időbeviteli naptár</span><span class="sxs-lookup"><span data-stu-id="71853-103">Time entry calendar</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="1b6f2-104">Az **Időbevitel** oldalon megtekintheti az időbejegyzéseket a naptárban a **Megjelenítés mint** \> **Naptárvezérlés** kiválasztásával.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-104">On the **Time Entries** page, you can view the time entries on the calendar by selecting **Show as** \> **Calendar Control**.</span></span>
+<span data-ttu-id="71853-104">Az **Időbevitel** oldalon megtekintheti az időbejegyzéseket a naptárban a **Megjelenítés mint** \> **Naptárvezérlés** kiválasztásával.</span><span class="sxs-lookup"><span data-stu-id="71853-104">On the **Time Entries** page, you can view the time entries on the calendar by selecting **Show as** \> **Calendar Control**.</span></span>
 
-## <a name="updated-calendar-control"></a><span data-ttu-id="1b6f2-105">Frissített naptárvezérlés</span><span class="sxs-lookup"><span data-stu-id="1b6f2-105">Updated calendar control</span></span>
+## <a name="updated-calendar-control"></a><span data-ttu-id="71853-105">Frissített naptárvezérlés</span><span class="sxs-lookup"><span data-stu-id="71853-105">Updated calendar control</span></span>
 
-<span data-ttu-id="1b6f2-106">A Dynamics 365 Project Service Automation új és meghosszabbítható időbeviteli élményt kínál.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-106">Dynamics 365 Project Service Automation offers a new and extensible time entry experience.</span></span> <span data-ttu-id="1b6f2-107">Ez az új élmény felváltja a korábbi verziókban használt Egyéni naptárvezérlőt.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-107">This new experience replaces the Custom Calendar Control that was used in earlier versions.</span></span> <span data-ttu-id="1b6f2-108">Az időbejegyzéseket azonban csak olvasható naptárvezérlőn tekintheti meg, amelyet az Egyesített interfész keretrendszer biztosít napi, heti vagy havi nézetekhez.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-108">However, you can still view time entries through a read-only calendar control that the Unified Interface Framework provides for daily, weekly, or monthly views.</span></span>
+<span data-ttu-id="71853-106">A Dynamics 365 Project Service Automation új és meghosszabbítható időbeviteli élményt kínál.</span><span class="sxs-lookup"><span data-stu-id="71853-106">Dynamics 365 Project Service Automation offers a new and extensible time entry experience.</span></span> <span data-ttu-id="71853-107">Ez az új élmény felváltja a korábbi verziókban használt Egyéni naptárvezérlőt.</span><span class="sxs-lookup"><span data-stu-id="71853-107">This new experience replaces the Custom Calendar Control that was used in earlier versions.</span></span> <span data-ttu-id="71853-108">Az időbejegyzéseket azonban csak olvasható naptárvezérlőn tekintheti meg, amelyet az Egyesített interfész keretrendszer biztosít napi, heti vagy havi nézetekhez.</span><span class="sxs-lookup"><span data-stu-id="71853-108">However, you can still view time entries through a read-only calendar control that the Unified Interface Framework provides for daily, weekly, or monthly views.</span></span>
 
-<span data-ttu-id="1b6f2-109">A naptár nem támogatja az egyes naptári tételekkel kapcsolatos műveleteket, és egy vagy több naptár elemet nem választhat be benyújtásra vagy törlésre.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-109">The calendar doesn't support actions on individual calendar items, and you can't select one or more calendar items for submission or deletion.</span></span> <span data-ttu-id="1b6f2-110">Ehelyett válassza ki a naptár elemet az **Időbejegyzés** entitásoldal megnyitásához, ahol elvégezheti a szükséges műveleteket.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-110">Instead, select a calendar item to open the **Time Entry** entity page, where you can complete the required actions.</span></span>
+<span data-ttu-id="71853-109">A naptár nem támogatja az egyes naptári tételekkel kapcsolatos műveleteket, és egy vagy több naptár elemet nem választhat be benyújtásra vagy törlésre.</span><span class="sxs-lookup"><span data-stu-id="71853-109">The calendar doesn't support actions on individual calendar items, and you can't select one or more calendar items for submission or deletion.</span></span> <span data-ttu-id="71853-110">Ehelyett válassza ki a naptár elemet az **Időbejegyzés** entitásoldal megnyitásához, ahol elvégezheti a szükséges műveleteket.</span><span class="sxs-lookup"><span data-stu-id="71853-110">Instead, select a calendar item to open the **Time Entry** entity page, where you can complete the required actions.</span></span>
 
-## <a name="extensibility"></a><span data-ttu-id="1b6f2-111">Bővíthetőség</span><span class="sxs-lookup"><span data-stu-id="1b6f2-111">Extensibility</span></span>
+## <a name="extensibility"></a><span data-ttu-id="71853-111">Bővíthetőség</span><span class="sxs-lookup"><span data-stu-id="71853-111">Extensibility</span></span>
 
-<span data-ttu-id="1b6f2-112">Az **Időbejegyzések** oldalon, amelyen megtalálható az időbeviteli rács, hozzáadhat egyéni mezőket, beállíthat keresési mezőket, és létrehozhat egyéni nézeteket.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-112">On the **Time Entries** page that has the time entry grid, you can add custom fields, set up lookup fields, and create custom views.</span></span> <span data-ttu-id="1b6f2-113">Beállíthat egyéni üzleti logikát is, amely az egyéni mezőkben kiválasztott vagy bevitt értékeken alapul.</span><span class="sxs-lookup"><span data-stu-id="1b6f2-113">You can also set up custom business logic that is based on the values that are selected or entered in custom fields.</span></span>
+<span data-ttu-id="71853-112">Az **Időbejegyzések** oldalon, amelyen megtalálható az időbeviteli rács, hozzáadhat egyéni mezőket, beállíthat keresési mezőket, és létrehozhat egyéni nézeteket.</span><span class="sxs-lookup"><span data-stu-id="71853-112">On the **Time Entries** page that has the time entry grid, you can add custom fields, set up lookup fields, and create custom views.</span></span> <span data-ttu-id="71853-113">Beállíthat egyéni üzleti logikát is, amely az egyéni mezőkben kiválasztott vagy bevitt értékeken alapul.</span><span class="sxs-lookup"><span data-stu-id="71853-113">You can also set up custom business logic that is based on the values that are selected or entered in custom fields.</span></span>

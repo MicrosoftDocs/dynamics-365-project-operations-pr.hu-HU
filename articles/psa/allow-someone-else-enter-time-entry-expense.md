@@ -3,7 +3,7 @@ title: Engedélyezheti más személynek az idő- vagy kiadásbejegyzés megadás
 description: Idő- vagy költségbejegyzés bevitelének engedélyezése másoknak a Project Service szolgáltatásban
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,76 +18,76 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078065"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130374"
 ---
-# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="0065c-103">Idő- vagy költségbejegyzés bevitelének engedélyezése valaki más számára (Project Service)</span><span class="sxs-lookup"><span data-stu-id="0065c-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="e9868-103">Idő- vagy költségbejegyzés bevitelének engedélyezése valaki más számára (Project Service)</span><span class="sxs-lookup"><span data-stu-id="e9868-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="0065c-104">Adjon meghatalmazást más részére, hogy Ön helyett idő- és költségbejegyzéseket vigyen be [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="0065c-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+<span data-ttu-id="e9868-104">Adjon meghatalmazást más részére, hogy Ön helyett idő- és költségbejegyzéseket vigyen be [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="e9868-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
   
-## <a name="create-a-delegate"></a><span data-ttu-id="0065c-105">Meghatalmazás létrehozása</span><span class="sxs-lookup"><span data-stu-id="0065c-105">Create a delegate</span></span>  
+## <a name="create-a-delegate"></a><span data-ttu-id="e9868-105">Meghatalmazás létrehozása</span><span class="sxs-lookup"><span data-stu-id="e9868-105">Create a delegate</span></span>  
   
-1.  <span data-ttu-id="0065c-106">A főmenüben kattintson a **Project Service** > **Meghatalmazások** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="e9868-106">A főmenüben kattintson a **Project Service** > **Meghatalmazások** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="0065c-107">A parancssávon kattintson az **Új** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-107">On the command bar, click **New**.</span></span>  
+2.  <span data-ttu-id="e9868-107">A parancssávon kattintson az **Új** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-107">On the command bar, click **New**.</span></span>  
   
-3. <span data-ttu-id="0065c-108">**Név** : Adjon meg egy nevet a bejegyzés számára.</span><span class="sxs-lookup"><span data-stu-id="0065c-108">**Name** : Enter a name for the record.</span></span>  
+3. <span data-ttu-id="e9868-108">**Név**: Adjon meg egy nevet a bejegyzés számára.</span><span class="sxs-lookup"><span data-stu-id="e9868-108">**Name**: Enter a name for the record.</span></span>  
   
-4. <span data-ttu-id="0065c-109">**Típus** : Válassza ki, hogy a meghatalmazott idő- vagy költség bejegyzéseket adhat-e meg az Ön nevében.</span><span class="sxs-lookup"><span data-stu-id="0065c-109">**Type** : Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
+4. <span data-ttu-id="e9868-109">**Típus**: Válassza ki, hogy a meghatalmazott idő- vagy költség bejegyzéseket adhat-e meg az Ön nevében.</span><span class="sxs-lookup"><span data-stu-id="e9868-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
   
-5. <span data-ttu-id="0065c-110">**Meghatalmazott** : Válassza ki a meghatalmazni kívánt személy nevét.</span><span class="sxs-lookup"><span data-stu-id="0065c-110">**Delegate** : Select the name of the person you want to be the delegate.</span></span>  
+5. <span data-ttu-id="e9868-110">**Meghatalmazott**: Válassza ki a meghatalmazni kívánt személy nevét.</span><span class="sxs-lookup"><span data-stu-id="e9868-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
   
-6. <span data-ttu-id="0065c-111">**Kezdő és záró időpontok** : Válassza ki a meghatalmazás kezdeti és záró időpontját.</span><span class="sxs-lookup"><span data-stu-id="0065c-111">**Start and end dates** : Choose dates when delegation starts and ends.</span></span>  
+6. <span data-ttu-id="e9868-111">**Kezdő és záró időpontok**: Válassza ki a meghatalmazás kezdeti és záró időpontját.</span><span class="sxs-lookup"><span data-stu-id="e9868-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
   
-7.  <span data-ttu-id="0065c-112">Ha kész, kattintson a **Mentés és Bezárás** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-112">When you're done, click **Save & Close**.</span></span>  
+7.  <span data-ttu-id="e9868-112">Ha kész, kattintson a **Mentés és Bezárás** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-112">When you're done, click **Save & Close**.</span></span>  
   
-## <a name="turn-off-delegation"></a><span data-ttu-id="0065c-113">A meghatalmazás megszüntetése</span><span class="sxs-lookup"><span data-stu-id="0065c-113">Turn off delegation</span></span>  
+## <a name="turn-off-delegation"></a><span data-ttu-id="e9868-113">A meghatalmazás megszüntetése</span><span class="sxs-lookup"><span data-stu-id="e9868-113">Turn off delegation</span></span>  
   
-1.  <span data-ttu-id="0065c-114">A főmenüben kattintson a **Project Service** > **Meghatalmazások** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="e9868-114">A főmenüben kattintson a **Project Service** > **Meghatalmazások** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="0065c-115">Válassza ki a felfüggeszteni kívánt meghatalmazás bejegyzést.</span><span class="sxs-lookup"><span data-stu-id="0065c-115">Select the delegation record you want to turn off.</span></span>  
+2.  <span data-ttu-id="e9868-115">Válassza ki a felfüggeszteni kívánt meghatalmazás bejegyzést.</span><span class="sxs-lookup"><span data-stu-id="e9868-115">Select the delegation record you want to turn off.</span></span>  
   
-3.  <span data-ttu-id="0065c-116">A parancssávon kattintson az **Inaktiválás** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-116">On the command bar, click **Deactivate**.</span></span>  
+3.  <span data-ttu-id="e9868-116">A parancssávon kattintson az **Inaktiválás** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-116">On the command bar, click **Deactivate**.</span></span>  
   
-4.  <span data-ttu-id="0065c-117">Az **Inaktiválás megerősítése** párbeszédpanelben kattintson az **Inaktiválás** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="0065c-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
+4.  <span data-ttu-id="e9868-117">Az **Inaktiválás megerősítése** párbeszédpanelben kattintson az **Inaktiválás** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="e9868-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
   
-## <a name="enter-time-for-someone-else"></a><span data-ttu-id="0065c-118">Idő megadása más számára</span><span class="sxs-lookup"><span data-stu-id="0065c-118">Enter time for someone else</span></span>  
+## <a name="enter-time-for-someone-else"></a><span data-ttu-id="e9868-118">Idő megadása más számára</span><span class="sxs-lookup"><span data-stu-id="e9868-118">Enter time for someone else</span></span>  
   
-1.  <span data-ttu-id="0065c-119">A főmenüben kattintson a **Project Service** > **Idő bejegyzések** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
+1.  <span data-ttu-id="e9868-119">A főmenüben kattintson a **Project Service** > **Idő bejegyzések** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
   
-2.  <span data-ttu-id="0065c-120">A parancssávon, jelölje ki az **ERŐFORRÁS NEVE** legördülő menüt, és válassza ki a személy nevét akinek az időbejegyzést kívánja megadni.</span><span class="sxs-lookup"><span data-stu-id="0065c-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
+2.  <span data-ttu-id="e9868-120">A parancssávon, jelölje ki az **ERŐFORRÁS NEVE** legördülő menüt, és válassza ki a személy nevét akinek az időbejegyzést kívánja megadni.</span><span class="sxs-lookup"><span data-stu-id="e9868-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
   
-3.  <span data-ttu-id="0065c-121">Kattintson az **OK** gombra.</span><span class="sxs-lookup"><span data-stu-id="0065c-121">Click **OK**.</span></span>  
+3.  <span data-ttu-id="e9868-121">Kattintson az **OK** gombra.</span><span class="sxs-lookup"><span data-stu-id="e9868-121">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="0065c-122">Ez a lehetőség egy naptárat jelenít meg.</span><span class="sxs-lookup"><span data-stu-id="0065c-122">This brings up the calendar.</span></span> <span data-ttu-id="0065c-123">Az előző vagy a következő héthez tartozó naptár megtekintéséhez kattintson az **Előző** vagy a **Következő** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="0065c-124">Kattintson a **Ma** lehetőségre, hogy visszatérjen az aktuális héthez.</span><span class="sxs-lookup"><span data-stu-id="0065c-124">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="e9868-122">Ez a lehetőség egy naptárat jelenít meg.</span><span class="sxs-lookup"><span data-stu-id="e9868-122">This brings up the calendar.</span></span> <span data-ttu-id="e9868-123">Az előző vagy a következő héthez tartozó naptár megtekintéséhez kattintson az **Előző** vagy a **Következő** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="e9868-124">Kattintson a **Ma** lehetőségre, hogy visszatérjen az aktuális héthez.</span><span class="sxs-lookup"><span data-stu-id="e9868-124">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="0065c-125">Idő megadásához kattintson az **Új** lehetőségre, vagy kattintson duplán a naptárban arra a napra, amelyhez időt akar megadni.</span><span class="sxs-lookup"><span data-stu-id="0065c-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+5.  <span data-ttu-id="e9868-125">Idő megadásához kattintson az **Új** lehetőségre, vagy kattintson duplán a naptárban arra a napra, amelyhez időt akar megadni.</span><span class="sxs-lookup"><span data-stu-id="e9868-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-6.  <span data-ttu-id="0065c-126">Töltse ki a mezőket az **Időbejegyzés** űrlapon, majd kattintson a **Mentés** opcióra.</span><span class="sxs-lookup"><span data-stu-id="0065c-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+6.  <span data-ttu-id="e9868-126">Töltse ki a mezőket az **Időbejegyzés** űrlapon, majd kattintson a **Mentés** opcióra.</span><span class="sxs-lookup"><span data-stu-id="e9868-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-7.  <span data-ttu-id="0065c-127">Folytassa az idő megadását a hét további részére.</span><span class="sxs-lookup"><span data-stu-id="0065c-127">Continue entering time for the week.</span></span> <span data-ttu-id="0065c-128">Amikor elkészült, és minden jónak tűnik, kattintson a **Küldés** gombra.</span><span class="sxs-lookup"><span data-stu-id="0065c-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
+7.  <span data-ttu-id="e9868-127">Folytassa az idő megadását a hét további részére.</span><span class="sxs-lookup"><span data-stu-id="e9868-127">Continue entering time for the week.</span></span> <span data-ttu-id="e9868-128">Amikor elkészült, és minden jónak tűnik, kattintson a **Küldés** gombra.</span><span class="sxs-lookup"><span data-stu-id="e9868-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
   
-## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="0065c-129">Költségek megadása más számára</span><span class="sxs-lookup"><span data-stu-id="0065c-129">Enter expenses for someone else</span></span>  
+## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="e9868-129">Költségek megadása más számára</span><span class="sxs-lookup"><span data-stu-id="e9868-129">Enter expenses for someone else</span></span>  
   
-1.  <span data-ttu-id="0065c-130">A főmenüben kattintson a **Project Service** > **Költségek** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
+1.  <span data-ttu-id="e9868-130">A főmenüben kattintson a **Project Service** > **Költségek** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
   
-2.  <span data-ttu-id="0065c-131">A parancssávon, jelölje ki az **ERŐFORRÁS NEVE** legördülő menüt, és válassza ki a személy nevét akinek költségeket kíván megadni.</span><span class="sxs-lookup"><span data-stu-id="0065c-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
+2.  <span data-ttu-id="e9868-131">A parancssávon, jelölje ki az **ERŐFORRÁS NEVE** legördülő menüt, és válassza ki a személy nevét akinek költségeket kíván megadni.</span><span class="sxs-lookup"><span data-stu-id="e9868-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
   
-3.  <span data-ttu-id="0065c-132">Kattintson az **OK** gombra.</span><span class="sxs-lookup"><span data-stu-id="0065c-132">Click **OK**.</span></span>  
+3.  <span data-ttu-id="e9868-132">Kattintson az **OK** gombra.</span><span class="sxs-lookup"><span data-stu-id="e9868-132">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="0065c-133">Az előző vagy a következő héthez tartozó naptár megtekintéséhez kattintson az **Előző** vagy a **Következő** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="0065c-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="0065c-134">Kattintson a **Ma** lehetőségre, hogy visszatérjen az aktuális héthez.</span><span class="sxs-lookup"><span data-stu-id="0065c-134">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="e9868-133">Az előző vagy a következő héthez tartozó naptár megtekintéséhez kattintson az **Előző** vagy a **Következő** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="e9868-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="e9868-134">Kattintson a **Ma** lehetőségre, hogy visszatérjen az aktuális héthez.</span><span class="sxs-lookup"><span data-stu-id="e9868-134">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="0065c-135">Költség beviteléhez kattintson az **Új** lehetőségre</span><span class="sxs-lookup"><span data-stu-id="0065c-135">To enter an expense, either click **New**</span></span>  
+5.  <span data-ttu-id="e9868-135">Költség beviteléhez kattintson az **Új** lehetőségre</span><span class="sxs-lookup"><span data-stu-id="e9868-135">To enter an expense, either click **New**</span></span>  
   
-6.  <span data-ttu-id="0065c-136">Töltse ki a mezőket az **Új költség** űrlapon.</span><span class="sxs-lookup"><span data-stu-id="0065c-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="0065c-137">Nyugták hozzáadására is lehetőség van.</span><span class="sxs-lookup"><span data-stu-id="0065c-137">You can also add receipts.</span></span>  
+6.  <span data-ttu-id="e9868-136">Töltse ki a mezőket az **Új költség** űrlapon.</span><span class="sxs-lookup"><span data-stu-id="e9868-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="e9868-137">Nyugták hozzáadására is lehetőség van.</span><span class="sxs-lookup"><span data-stu-id="e9868-137">You can also add receipts.</span></span>  
   
-7.  <span data-ttu-id="0065c-138">Amikor elkészült, kattintson a **Mentés** gombra.</span><span class="sxs-lookup"><span data-stu-id="0065c-138">When you’re done, click **Save**.</span></span>  
+7.  <span data-ttu-id="e9868-138">Amikor elkészült, kattintson a **Mentés** gombra.</span><span class="sxs-lookup"><span data-stu-id="e9868-138">When you’re done, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="0065c-139">Kapcsolódó információk</span><span class="sxs-lookup"><span data-stu-id="0065c-139">See Also</span></span>  
- [<span data-ttu-id="0065c-140">Idő, Költségek és Együttműködési útmutató</span><span class="sxs-lookup"><span data-stu-id="0065c-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="e9868-139">Kapcsolódó információk</span><span class="sxs-lookup"><span data-stu-id="e9868-139">See Also</span></span>  
+ [<span data-ttu-id="e9868-140">Idő, Költségek és Együttműködési útmutató</span><span class="sxs-lookup"><span data-stu-id="e9868-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
