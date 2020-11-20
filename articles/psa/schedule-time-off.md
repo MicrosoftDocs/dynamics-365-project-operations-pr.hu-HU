@@ -3,7 +3,7 @@ title: Szabadidő ütemezése
 description: Szabadidő ütemezése a Project Service szolgáltatásban
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078317"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132201"
 ---
 # <a name="schedule-time-off-project-service"></a>Szabadidő ütemezése (Project Service)
 

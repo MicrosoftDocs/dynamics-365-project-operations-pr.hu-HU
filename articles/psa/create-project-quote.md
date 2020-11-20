@@ -3,7 +3,7 @@ title: Projekt árajánlat létrehozása
 description: Projektárajánlat létrehozása a Project Service szolgáltatásban
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078200"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133146"
 ---
 # <a name="create-a-project-quote-project-service"></a>Projektárajánlat létrehozása (Project Service)
 
@@ -45,7 +45,7 @@ Az árajánlatok hasonlóképpen hozhatók létre mint a lehetőségek. A lehet�
   
 7. Amikor végzett a szerkesztéssel, kattintson a **Mentés** gombra a képernyő jobb alsó részén.  
   
-8. Ha készen áll arra, hogy elküldje az árajánlatot az ügyfélnek, kattintson az **Egyebek** (...), **Jelentés futtatása** , majd az **Árajánlat** lehetőségre. Mentse a jelentést [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]-dokumentumként, végezze el az esetlegesen szükséges szerkesztést, és küldje el az árajánlatot az ügyfélnek.  
+8. Ha készen áll arra, hogy elküldje az árajánlatot az ügyfélnek, kattintson az **Egyebek** (...), **Jelentés futtatása**, majd az **Árajánlat** lehetőségre. Mentse a jelentést [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]-dokumentumként, végezze el az esetlegesen szükséges szerkesztést, és küldje el az árajánlatot az ügyfélnek.  
   
 9. Ha az ügyfél elfogadja az árajánlatot, kattintson a **Lezárás megnyertként** lehetőségre az **Árajánlat** képernyő felső részén. Amennyiben az ügyfél szeretné, ha módosítana néhány elemet, akkor végezze el ismét ezt az egész folyamatot egy új árajánlat létrehozásához. Ha az ügyfél úgy dönt, hogy ez alkalommal nem kívánja igénybe venni az Ön szolgáltatásait, kattintson a **Lezárás elveszítettként** lehetőségre az **Árajánlat** képernyő felső részén.  
   

@@ -3,7 +3,7 @@ title: Mintaadatok telepítése
 description: Ez a témakör a Project Service Automation alkalmazásban a mintaadatok telepítésével kapcsolatos tudnivalókat tartalmaz.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078157"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132426"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>A Project Service alkalmazás mintaadatok telepítése
 
@@ -49,7 +49,7 @@ Amikor telepíti a mintaadatcsomagok, a telepítési folyamat az alábbi művele
 
 - A Project Service, Field Service vagy mindkét alkalmazáshoz használt (amennyiben van) alapértelmezett paramétereket hoz léte, és állít be.
 
-- Mintaadatokat importál az alkalmazásokhoz, például a foglalható erőforrásokat, az alkalmazás-specifikus szerepköröket, értékesítési és a önköltség árlistákat, szervezeti egységeket értékesítési folyamat bejegyzéseket és más entitásokat a fontos funkciók bemutatásához.  
+- Mintaadatokat importál az alkalmazásokhoz, például a foglalható erőforrásokat, az alkalmazás-specifikus szerepköröket, értékesítési és a önköltség árlistákat, szervezeti egységeket értékesítési folyamat bejegyzéseket és más entitásokat a fontos funkciók bemutatásához.  
 
 A **demóadatok** csomaggal a fentiek és további tranzakciós adatok jelennek meg, például a munkarendelések és a projektek.
 
@@ -114,7 +114,7 @@ Az **FPSMasterData** csomag arra szolgál, hogy egy Spencer Low nevű felhaszná
 
 A felhasználókat létrehozásához vagy konfigurálásához válasza a **Beállítások** > **Biztonság** > **Felhasználók** lehetőséget, és tegye a következőket:
 
-1. A UserFullname = „Spencer Low” a felhasználónév „spencerl” ( **kisbetűs** ) a Projektmenedzser és Gyakorlatmenedzser szerepkörökhöz.
+1. A UserFullname = „Spencer Low” a felhasználónév „spencerl” (**kisbetűs**) a Projektmenedzser és Gyakorlatmenedzser szerepkörökhöz.
 
 2. Válassza ki **Spenver Low** felhasználót majd a **Szerepkörök kezelése** lehetőséget. Keresse meg és jelölje ki a **Rendszergazda** szerepkört, majd válassza az **OK** lehetőséget, hogy rendszergazdai jogokaz adjon Spencer Lownak. Ez a lépés szükséges annak biztosítására, hogy mintarekordok megfelelő felhasználói tulajdonjoggal jöjjenek létre és ezért megfelelően legyenek megjelenítve a nézetek.
 
@@ -143,7 +143,7 @@ A demó adatcsomaghoz hat felhasználó szükséges. Hogy a csomag telepítése 
    > [!div class="mx-imgBorder"]
    > ![UserMapFile képernyőképe](media/sample-data-7.png)
 
-4. Ha a „Spencer Low” teljes nevű felhasználónak más a felhasználói azonosítója, mint a **„spencerl”** , frissítenie kell a kiegészítő fájlt. Nyissa meg a **DemoDataPreImportConfig.xml** fájlt, és keresse meg a **userstocreateandconfigure** címkét. Frissítse a **\<login\>** címkét a loginId azonosítóval (kis-és nagybetűk megkülönböztetésével). 
+4. Ha a „Spencer Low” teljes nevű felhasználónak más a felhasználói azonosítója, mint a **„spencerl”**, frissítenie kell a kiegészítő fájlt. Nyissa meg a **DemoDataPreImportConfig.xml** fájlt, és keresse meg a **userstocreateandconfigure** címkét. Frissítse a **\<login\>** címkét a loginId azonosítóval (kis-és nagybetűk megkülönböztetésével). 
 
 5. Az első felhasználó naptárja (a **userstocreateandconfigure** címkén belül) a munkaórák feltöltésére használatos a demóadatok importálásához szükséges minden foglalható erőforrásra vonatkozóan. Navigáljon a **Beállítások** > **Biztonság** > **Felhasználók** elemhez, keresse meg az "Spencer Low" felhasználót, és nyissa meg a "Munkaórák" lehetőséget. Módosítsa a meglévő munkaórákat, válassza ki a **Teljes heti ismétlődési minta kezdéstől a befejezésig** lehetőséget. Ellenőrizze, hogy a **munkaidő 8:00-17:00-ig (9 óra) tart, hétfőtől péntekig, az időzóna pedig Csendes-óceáni idő (USA és Kanada)**. Ez biztosítja, hogy a projekt és ütemezési tábla megjelenítése az elvártnak megfelelő.
 
@@ -241,7 +241,7 @@ Számos konfigurációs összetevők található az importálás előtti konfigu
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>A Fabrikam Robotics kitalált forgatókönyv
 
-A Field Service és Project Service minta referenciaadat-csomagok telepítik a **Fabrikam Manufacturing Master Data (v3.0.0.0) megoldást** , körülbelül 4000 bejegyzéssel és mintegy 40 különböző entitással együtt. A külön mintaadatcsomagok a Field Service és Project Service alkalmazásokhoz a **v902FPSMasterData** mintadatok adott alkalmazásra vonatkozó részét tartalmazzák. A **Demóadat** csomag telepíti a **Fabrikam Manufacturing Demo Data (v3.0.0.7) megoldást** körülbelül 148 entitás 22 000 rekordjával.
+A Field Service és Project Service minta referenciaadat-csomagok telepítik a **Fabrikam Manufacturing Master Data (v3.0.0.0) megoldást**, körülbelül 4000 bejegyzéssel és mintegy 40 különböző entitással együtt. A külön mintaadatcsomagok a Field Service és Project Service alkalmazásokhoz a **v902FPSMasterData** mintadatok adott alkalmazásra vonatkozó részét tartalmazzák. A **Demóadat** csomag telepíti a **Fabrikam Manufacturing Demo Data (v3.0.0.7) megoldást** körülbelül 148 entitás 22 000 rekordjával.
 
 A Fabrikam Robotics képzeletbeli cég egy elektronikus eszközök összeszereléséhez használt robotokat gyárt, és híres a termei minőségéről, innovációiról és kiváló ügyfélszolgálatáról – foglalkoznak telepítéssel, tervezéssel, kivitelezéssel és folyamatos karbantartással. A Fabrikam székhelye az Egyesült Államokban van (US Fabrikam) és projektalapú szolgáltatási műveletei vannak Franciaország, India, Egyesült Királyság és Svájc területén.
 

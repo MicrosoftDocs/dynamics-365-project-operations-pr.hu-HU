@@ -3,7 +3,7 @@ title: Erőforrások ütemezése egy projekthez
 description: Erőforrások ütemezése projekthez a Project Service szolgáltatásban
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078298"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132143"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Erőforrások ütemezése projekthez (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078298"
 
 Ellenőrizheti az erőforrás-elérhetőséget, hogy átfogó képet kapjon az erőforrások foglaltságáról, vagy szűrheti a megjelenített elemeket képzettségek, csapat, hely és egyéb beállítások szerint.  
   
-Az ütemezési táblán az erőforrások és az elérhetőségük látható. Rendelkezésre állás megjelenítése módjának kiválasztása: **óra** , **nap** , **hét** , vagy **hónap**.  
+Az ütemezési táblán az erőforrások és az elérhetőségük látható. Rendelkezésre állás megjelenítése módjának kiválasztása: **óra**, **nap**, **hét**, vagy **hónap**.  
   
 Az ütemezés beállítása előtt fontos beállítani. További információ: [Ütemezési tábla konfigurálása (Field Service vagy Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -49,7 +49,7 @@ Régebbi verziójú rendszer használata esetén az erőforrások rendelkezésre
   
 ## <a name="find-available-resources"></a>Elérhető erőforrások keresése
 
-1.  A **Foglalási követelmény** -listán kattintson jobb gombbal egy nem ütemezett foglalásra és válasszon az alábbiak közül:  
+1.  A **Foglalási követelmény**-listán kattintson jobb gombbal egy nem ütemezett foglalásra és válasszon az alábbiak közül:  
   
 - Válassza a **Rendelkezésre állás keresése – Aktuális erőforrások** lehetőséget rendelkezésre álló erőforrások kereséséhez a listáról az ütemezési táblán.  
 - Válassza a **Rendelkezésre állás keresése – Minden erőforrás** lehetőséget rendelkezésre álló erőforrás kereséséhez a rendszerben  

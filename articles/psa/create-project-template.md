@@ -3,7 +3,7 @@ title: Projektsablon létrehozása
 description: Projektsablon létrehozása a Project Service szolgáltatásban
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078105"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133191"
 ---
 # <a name="create-a-project-template-project-service"></a>Projektsablon létrehozása (Project Service)
 
@@ -34,11 +34,11 @@ A projektsablonokkal időt takaríthat meg, ha a vállalat rendszeresen tesz aj�
 ## <a name="components-of-project-template"></a>Projektsablon összetevői
  A projektsablon három összetevőből áll:  
   
-- **Munkalebontási szerkezet** : A munkalebontási szerkezet egy projektsablonban ugyanazokat az elemeket tartalmazza, mint a projekt. Létrehozhat feladathierarchiát, kioszthat szerepeket feladatokhoz, meghatározhat ütemezési attribútumokat, beállíthat függőségeket és megtekinthet minden adatot a Gantt-diagramon. A projektsablonok munkalebontási szerkezete támogatja az egyes feladatok feladatmódját. Nincs különbség a projektsablon és a projekt között, amikor ütemtervet hoz létre.  
+- **Munkalebontási szerkezet**: A munkalebontási szerkezet egy projektsablonban ugyanazokat az elemeket tartalmazza, mint a projekt. Létrehozhat feladathierarchiát, kioszthat szerepeket feladatokhoz, meghatározhat ütemezési attribútumokat, beállíthat függőségeket és megtekinthet minden adatot a Gantt-diagramon. A projektsablonok munkalebontási szerkezete támogatja az egyes feladatok feladatmódját. Nincs különbség a projektsablon és a projekt között, amikor ütemtervet hoz létre.  
   
-- **Projektbecslés** : A projektbecslések a sablonokban ugyanúgy működnek, ahogy a projektekben, kivéve, hogy a költségeket és eladási árakat meghatározó árlisták mind a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] paraméterek között megtalálható alapértelmezett költség- és eladásiár-listák. A többi funkció ugyanaz, mint egy projektben.  
+- **Projektbecslés**: A projektbecslések a sablonokban ugyanúgy működnek, ahogy a projektekben, kivéve, hogy a költségeket és eladási árakat meghatározó árlisták mind a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] paraméterek között megtalálható alapértelmezett költség- és eladásiár-listák. A többi funkció ugyanaz, mint egy projektben.  
   
-- **Projektcsoport létrehozása** : Amikor projektcsoportot hoz létre projektsablonból, nem foglalhat le névvel rendelkező erőforrást a sablonban. A munkalebontási struktúrában használhatja a **Projektcsoport létrehozása** lehetőséget az általános erőforrások generálásához. Megadhatja a szükséges készségeket és a szakmai tapasztalatokat az általános erőforrásokhoz. Nem helyettesíthet általános erőforrást foglalható erőforrással a projektsablonokban.  
+- **Projektcsoport létrehozása**: Amikor projektcsoportot hoz létre projektsablonból, nem foglalhat le névvel rendelkező erőforrást a sablonban. A munkalebontási struktúrában használhatja a **Projektcsoport létrehozása** lehetőséget az általános erőforrások generálásához. Megadhatja a szükséges készségeket és a szakmai tapasztalatokat az általános erőforrásokhoz. Nem helyettesíthet általános erőforrást foglalható erőforrással a projektsablonokban.  
   
 ## <a name="create-a-project-from-a-template"></a>Projekt létrehozása sablonból  
  A következő módokon hozhat létre projektet sablonból:  
@@ -52,11 +52,11 @@ A projektsablonokkal időt takaríthat meg, ha a vállalat rendszeresen tesz aj�
 ## <a name="copying-components-of-a-template-to-a-project"></a>Összetevők másolása sablonból projektbe  
  Amikor összetevőt másol sablonból projektbe, van néhány dolog, amiről tudnia kell.  
   
- **Munkalebontási struktúra másolása** : Amikor munkalebontási struktúrát másol projektsablonba, ha a projektnek más a projektnaptára, mint a sablonnak, akkor a projektnaptár munkaórái a feladatok ütemezéséhez kerülnek. Ez az ütemezést a projektnaptárhoz igazítja. Ehhez hasonlóan a munkalebontási struktúrában az első feladat a projekt kezdési dátumának megadása, így a feladathierarchia ütemezésének fennmaradó része a sablon munkalebontási struktúrájában meghatározott időtartam és függőségek alapján frissül.  
+ **Munkalebontási struktúra másolása**: Amikor munkalebontási struktúrát másol projektsablonba, ha a projektnek más a projektnaptára, mint a sablonnak, akkor a projektnaptár munkaórái a feladatok ütemezéséhez kerülnek. Ez az ütemezést a projektnaptárhoz igazítja. Ehhez hasonlóan a munkalebontási struktúrában az első feladat a projekt kezdési dátumának megadása, így a feladathierarchia ütemezésének fennmaradó része a sablon munkalebontási struktúrájában meghatározott időtartam és függőségek alapján frissül.  
   
- **Projektbecslések másolása** : Ha projektbecslési sorokat másol, az árlisták a projekt tulajdonosegységének önköltségi listája alapján frissülnek, és az ügyfél az értékesítési árlista alapján. Az egységköltség és az eladási árak az árlista alapján kerülnek meghatározásra azoknál a projekteknél, amelyek értékesítési entitással vannak összekapcsolva.  
+ **Projektbecslések másolása**: Ha projektbecslési sorokat másol, az árlisták a projekt tulajdonosegységének önköltségi listája alapján frissülnek, és az ügyfél az értékesítési árlista alapján. Az egységköltség és az eladási árak az árlista alapján kerülnek meghatározásra azoknál a projekteknél, amelyek értékesítési entitással vannak összekapcsolva.  
   
- **Projektcsapat másolása** : Amikor a projektcsapatot sablonból projektbe másolja, akkor az általános erőforrásokat is másolja a rendszer a sablonban meghatározott képességekkel és szakmai tapasztalatokkal együtt. Az általános erőforrás-hozzárendelések is megmaradnak a projektsablon szerint.  
+ **Projektcsapat másolása**: Amikor a projektcsapatot sablonból projektbe másolja, akkor az általános erőforrásokat is másolja a rendszer a sablonban meghatározott képességekkel és szakmai tapasztalatokkal együtt. Az általános erőforrás-hozzárendelések is megmaradnak a projektsablon szerint.  
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)

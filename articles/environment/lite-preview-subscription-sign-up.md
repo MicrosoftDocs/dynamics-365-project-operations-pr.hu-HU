@@ -1,21 +1,21 @@
 ---
-title: Regisztráció az előzetes verziós előfizetésre
+title: Regisztráció az előzetes verziós előfizetésre – Lite
 description: Ez a témakör a Project Operations Lite telepítés – ajánlattól proforma számlázásig alkalmazásra való regisztrálással és annak telepítésével kapcsolatos információkat tartalmaz.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077955"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175894"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Regisztrálás a Lite telepítés – ajánlattól proforma számlázásig előzetes verziós előfizetésére
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Regisztráció az előzetes verziós előfizetésre – Lite 
 
 Ez a témakör a Dynamics 365 Project Operations Lite telepítés – ajánlattól proforma számlázásig alkalmazásra előzetes verziós partnerajánlatára való regisztrálással és annak telepítésével kapcsolatos információkat tartalmaz.
 

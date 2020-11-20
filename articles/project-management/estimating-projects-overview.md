@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077981"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131571"
 ---
 # <a name="estimate-projects-overview"></a>Becslésprojektek áttekintése
 
@@ -37,7 +37,7 @@ A szerződési sorok részleteiben nem szerepelhetnek anyagok becslései.
 
 A projektszerződésben támogatott folyamatok a számlalétrehozás és -megerősítés. A számla létrehozása létrehozza a projektalapú számla tervezetét, amely tartalmazza az összes érvénytelenített értékesítési tényt az aktuális dátumig.
 
-A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat** -ról **Megerősített** -re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
+A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat**-ról **Megerősített**-re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
 
 Az egyetlen különbség a szerződéstervezetek és a megerősített szerződések között az állapotuk és az a tény, hogy a szerződéstervezetek szerkeszthetők, míg a megerősített szerződések nem. A számlakészítés és a tényleges adatok követése mind a szerződéstervezeteken, mind a megerősített szerződéseken elvégezhető.
 
@@ -74,7 +74,7 @@ Ha egyéni mezőt adott az árajánlatsor részleteihez, és azt akarja, hogy a 
 2. Válassza a **Keresés** lehetőséget, és keresse meg a frissítést igénylő bővítményt.
 3. Válassza ki a beépülő modult, majd a főoldalon kattintson a **Kiválasztás** elemre.
 4. Válassza ki a beépülő modul frissítésének lépését, kattintson a jobb gombbal, majd válassza a **Frissítés** lehetőséget.
-5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis ( **...** ) gombot:
+5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis (**...**) gombot:
 6. Az **Attribútumok kiválasztása** párbeszédpanelen jelölje be az egyedi attribútumok jelölőnégyzeteit.
 7. A párbeszédpanel bezárásához válassza az **OK** lehetőséget, majd válassza a **Lépés frissítése** lehetőséget.
 8. Ismételje meg az 1-7. lépéseket a második modullal.

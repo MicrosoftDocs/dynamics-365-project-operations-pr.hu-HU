@@ -1,29 +1,23 @@
 ---
-title: Az értékesítési folyamatok áttekintése
+title: Értékesítési folyamat áttekintése
 description: Ez a témakör információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078291"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177604"
 ---
-# <a name="sales-processes-overview"></a>Az értékesítési folyamatok áttekintése
+# <a name="sales-process-overview"></a>Értékesítési folyamat áttekintése
+
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A projektalapú szervezetekben alkalmazott értékesítési folyamatok különböznek a termékalapú szervezeteknél alkalmazott értékesítési folyamatoktól. Ez azért van, mert a projektalapú szervezetek értékesítési ciklusai hosszabbak és testreszabott becslési technikákat igényelnek az egyes ügyletek elemzéséhez és árajánlatok létrehozásához. A Dynamics 365 Project Operations a következő funkciót használja, amelyet az értékesítési folyamat is használ.
 
@@ -56,7 +50,7 @@ Például az Ön vállalkozása az értékesítési folyamat következő hat sza
  
 Előfordulhat, hogy szervezete különböző entitásokat használ fel ugyanazon ügylet reprezentálására, amint az alakul. Az értékesítési folyamat elején az ügyletet a Lehetőség entitás képviseli. Az idő múlásával és további részletek megjelenésével magas szintű becsléseket használhat egy vagy több árajánlat létrehozásához. Ha ezen árajánlatok egyikét a belső és az ügyfél érdekelt felei felülvizsgálják, akkor az Ajánlat entitás képviseli az ügyletet. Miután az ügyfél elfogadta az ajánlatot, egy projektszerződés vagy SOW képviseli az ügyletet. Ennek a viselkedésnek a támogatása érdekében a BPF-eket úgy strukturálják, hogy a folyamat egyes szakaszai különféle adatbázis-táblákhoz legyenek kapcsolva.
 
-Az értékesítési folyamat **Minősítés** szakaszát egy Lehetőség entitás támogathatja. A **Becslés** és a **Belső felülvizsgálat** szakaszokat egy Árajánlat entitás támogathatja. A **Szerződés** , **Teljesítés** és **Lezárás** szakaszokat egy Projektszerződés entitás támogathatja.
+Az értékesítési folyamat **Minősítés** szakaszát egy Lehetőség entitás támogathatja. A **Becslés** és a **Belső felülvizsgálat** szakaszokat egy Árajánlat entitás támogathatja. A **Szerződés**, **Teljesítés** és **Lezárás** szakaszokat egy Projektszerződés entitás támogathatja.
 
 Ahogyan az ügyletek a szakaszokon át mozognak, a rendszer felkéri Önt a megfelelő entitásrekord létrehozására, hogy segítsen és útmutatást nyújtson a folyamat során. A szakaszok feltételesek lehetnek. Például, ha csak egy árajánlat belső felülvizsgálatára van szüksége, ha az árajánlat egyéni árlistát használ, akkor konfigurálhatja ezt a feltételt az üzleti folyamat megfelelő szakaszában. A **Belső felülvizsgálat** szakasz csak akkor jelenik meg, ha egyéni árlistát használnak. Az összes többi ügylet és árajánlat esetében a **Becslés** szakaszt a **Szerződés** szakasz követi.
 

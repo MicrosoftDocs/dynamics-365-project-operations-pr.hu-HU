@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078132"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130986"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Kötelező egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
 
@@ -49,24 +49,24 @@ Ha az egyéni árképzési dimenzió értékkészlet-alapú, mezőként adja hoz
 > [!IMPORTANT]
 > Ha egynél több entitáshoz ad hozzá egy mezőt, ugyanazt a mezőnevet használja az összes entitásnál. 
 
-Egy projekt értékesítési és becslési fázisában megbecsülheti a **Helyi** és **Helyszíni** munkák elvégzéséhez szükséges munkaráfordítást, a **Normál munkaórák** és a **Túlórák** pedig az Árajánlat/Projekt értékének becsléséhez használhatók. A rendszer az **Erőforrás munkahely** és az **Erőforrás munkaóra** mezőket hozzáadja az **Árajánlatsor részletei** , a **Szerződéssorrészletek** , a **Projektcsoporttag** és a **Becsléssor** becslési entitásokhoz.
+Egy projekt értékesítési és becslési fázisában megbecsülheti a **Helyi** és **Helyszíni** munkák elvégzéséhez szükséges munkaráfordítást, a **Normál munkaórák** és a **Túlórák** pedig az Árajánlat/Projekt értékének becsléséhez használhatók. A rendszer az **Erőforrás munkahely** és az **Erőforrás munkaóra** mezőket hozzáadja az **Árajánlatsor részletei**, a **Szerződéssorrészletek**, a **Projektcsoporttag** és a **Becsléssor** becslési entitásokhoz.
 
 1. A projektműveletek között válassza a **Beállítások** > **Megoldások** lehetőséget, és kattintson duplán a(z) **\<your organization name> árazási dimenzióira**. 
 2. A Megoldástallózóban a bal oldali ablaktáblában válassza az **Entitások > Árajánlatsor részletei** elemet.
 3. Bontsa ki az **Árajánlatsor részletei** entitást, és válassza a **Mezők** elemet.
 4. Kattintson az **Új** elemre egy új, **Erőforrás munkahely** nevű mező létrehozásához és válassza ki az **Értékkészlet** mezőtípust. 
 5. Válassza a **Meglévő értékkészlet használata** elemet, válassza az **Erőforrás munkahely** lehetőséget, majd kattintson a **Mentés** elemre.
-6. Ismételje meg az 1-5. lépéseket, hogy hozzáadja ezt a mezőt a **Projektszerződés sorának részletei** , a **Projektcsoporttag** és a **Becsléssor** entitásokhoz.
+6. Ismételje meg az 1-5. lépéseket, hogy hozzáadja ezt a mezőt a **Projektszerződés sorának részletei**, a **Projektcsoporttag** és a **Becsléssor** entitásokhoz.
 7. Ismételje meg az 1-6. lépéseket az **Erőforrás munkaóra** értékkészletnél. 
 
-A kézbesítéshez és a számlázáshoz a befejezett munka árképzését pontosan kell elvégezni: ki kell választani, hogy **Helyi** vagy **Helyszíni** munkavégzés történt-e, és hogy **Normál munkaórában** vagy **Túlórában** végezték-e a Projekt tényadatai szerint. Az **Erőforrás munkahely** és az **Erőforrás munkaóra** mezőket hozzá kell adni az **Időbejegyzés** , a **Tényadat** , a **Számlasor részletei** és a **Naplósor** entitásokhoz.
+A kézbesítéshez és a számlázáshoz a befejezett munka árképzését pontosan kell elvégezni: ki kell választani, hogy **Helyi** vagy **Helyszíni** munkavégzés történt-e, és hogy **Normál munkaórában** vagy **Túlórában** végezték-e a Projekt tényadatai szerint. Az **Erőforrás munkahely** és az **Erőforrás munkaóra** mezőket hozzá kell adni az **Időbejegyzés**, a **Tényadat**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 
 1. Válassza a **Beállítások** > **Megoldások** lehetőséget, és kattintson duplán a(z) **\<your organization name> árazási dimenzióira**.
 2. A Megoldástallózóban a bal oldali ablaktáblában válassza az **Entitások > Időbejegyzés** elemet.
 3. Bontsa ki az **Árajánlatsor részletei** entitást, és válassza a **Mezők** elemet.
 4. Kattintson az **Új** elemre egy új, **Erőforrás munkahely** nevű mező létrehozásához és válassza az **Értékkészlet** elemet a mező típusaként. 
 5. Válassza a **Meglévő értékkészlet használata** elemet, válassza az **Erőforrás munkahely** értékkészletet, majd kattintson a **Mentés** elemre.
-6. Ismételje meg az 1-5. lépéseket, hogy hozzáadja ezt a mezőt a **Tényadatok** , a **Számlasor részletei** és a **Naplósor** entitásokhoz.
+6. Ismételje meg az 1-5. lépéseket, hogy hozzáadja ezt a mezőt a **Tényadatok**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 7. Ismételje meg az 1-6. lépéseket az **Erőforrás munkaóra** értékkészletnél. 
 
 Ez kiegészíti az értékkészlet alapú egyéni dimenziókhoz szükséges sémaváltozásokat.
@@ -94,11 +94,11 @@ Egy projekt értékesítési és becslési fázisában az Árajánlat/Projekt á
 - **Projektcsoporttag**
 - **Becsléssor**
 
-5. Ismételje meg az 1-5. lépéseket 1:N kapcsolatok létrehozásához a **Szabványos munkakör** elemtől az **Árajánlatsor részletei** , a **Projektszerződés sorának részletei** , a **Projektcsoporttag** és a **Becsléssor** elemhez.
+5. Ismételje meg az 1-5. lépéseket 1:N kapcsolatok létrehozásához a **Szabványos munkakör** elemtől az **Árajánlatsor részletei**, a **Projektszerződés sorának részletei**, a **Projektcsoporttag** és a **Becsléssor** elemhez.
 
-  A kézbesítési és a számlázási szakaszban az egyes szabvány munkakörökkel elvégzett munkának pontosan beárazottnak kell lennie a Projekt tényadatainál. Ez azt jelenti, hogy 1:N kapcsolatokra van szükség a **Szabványos munkakör** elemtől az **Időbejegyzés** , a **Tényadat** , a **Számlasor részletei** és a **Naplósor** entitásokhoz.
+  A kézbesítési és a számlázási szakaszban az egyes szabvány munkakörökkel elvégzett munkának pontosan beárazottnak kell lennie a Projekt tényadatainál. Ez azt jelenti, hogy 1:N kapcsolatokra van szükség a **Szabványos munkakör** elemtől az **Időbejegyzés**, a **Tényadat**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 
-6. Ismételje meg az 1-6. lépéseket 1:N kapcsolatok létrehozásához a **Szabványos munkakör** elemtől az **Időbejegyzés** , a **Tényadat** , a **Számlasor részletei** és a **Naplósor** entitásokhoz.
+6. Ismételje meg az 1-6. lépéseket 1:N kapcsolatok létrehozásához a **Szabványos munkakör** elemtől az **Időbejegyzés**, a **Tényadat**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Állítson be alapértelmezett Dimenziós értéket a platform hozzárendelési funkciói segítségével
 Az időbejegyzésnél hasznos lenne, ha a rendszer alapértelmezettként kezelné a szabványos munkakört az Időbejegyzésnél a foglalható erőforrásoktól, amelyek az időbejegyzést rögzítik. A következő lépésekkel adjon hozzá mezőleképezéseket a **Foglalható erőforrás** elemtől az **Időbejegyzés** elemre mutató 1:N kapcsolathoz.

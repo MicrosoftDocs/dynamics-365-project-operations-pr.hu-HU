@@ -3,7 +3,7 @@ title: Engedélyezheti más személynek az idő- vagy kiadásbejegyzés megadás
 description: Idő- vagy költségbejegyzés bevitelének engedélyezése másoknak a Project Service szolgáltatásban
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078065"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130374"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Idő- vagy költségbejegyzés bevitelének engedélyezése valaki más számára (Project Service)
 
@@ -37,13 +37,13 @@ Adjon meghatalmazást más részére, hogy Ön helyett idő- és költségbejegy
   
 2.  A parancssávon kattintson az **Új** lehetőségre.  
   
-3. **Név** : Adjon meg egy nevet a bejegyzés számára.  
+3. **Név**: Adjon meg egy nevet a bejegyzés számára.  
   
-4. **Típus** : Válassza ki, hogy a meghatalmazott idő- vagy költség bejegyzéseket adhat-e meg az Ön nevében.  
+4. **Típus**: Válassza ki, hogy a meghatalmazott idő- vagy költség bejegyzéseket adhat-e meg az Ön nevében.  
   
-5. **Meghatalmazott** : Válassza ki a meghatalmazni kívánt személy nevét.  
+5. **Meghatalmazott**: Válassza ki a meghatalmazni kívánt személy nevét.  
   
-6. **Kezdő és záró időpontok** : Válassza ki a meghatalmazás kezdeti és záró időpontját.  
+6. **Kezdő és záró időpontok**: Válassza ki a meghatalmazás kezdeti és záró időpontját.  
   
 7.  Ha kész, kattintson a **Mentés és Bezárás** lehetőségre.  
   

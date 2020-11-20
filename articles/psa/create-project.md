@@ -3,7 +3,7 @@ title: Projekt létrehozása
 description: Projektárajánlat létrehozása a Project Service szolgáltatásban
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078104"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133101"
 ---
 # <a name="create-a-project-project-service"></a>Projekt létrehozása (Project Service)
 

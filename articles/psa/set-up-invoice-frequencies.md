@@ -3,7 +3,7 @@ title: Számlázási gyakoriságok beállítása
 description: Számlázási gyakoriságok beállítása a Project Service szolgáltatásban
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078308"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132037"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Számlázási gyakoriságok beállítása (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4078308"
   
 3.  Az **Általános** területen a **Név** elemhez írjon be egy számlázási gyakoriság-nevet.  
   
-4.  Az **Időszak** lehetőségnél válasszon: **Havonta** , **Kéthetente** vagy **Hetente**.  
+4.  Az **Időszak** lehetőségnél válasszon: **Havonta**, **Kéthetente** vagy **Hetente**.  
   
 5.  Ha havi vagy kétheti időszakot adott meg, a **Futási napok** lehetőségnél válassza az **Időszak napja** pontot, hogy a számlázás az időszak egy meghatározott napján történjen (munkanapon vagy hétvégén) vagy válassza az **Időszak munkanapja** pontot az időszak egy adott munkanapján való számlázáshoz.  
   

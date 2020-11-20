@@ -3,7 +3,7 @@ title: Becslések
 description: Ez a témakör információkat nyújt becslésekről a Dynamics 365 Project Service Automation rendszerben.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078294"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132729"
 ---
 # <a name="estimates"></a>Becslések
 
@@ -47,7 +47,7 @@ A PSA nem engedélyezi a szerződési sorok részleteiben az anyagok becsléseit
 
 A projektszerződésben támogatott folyamatok a számlalétrehozás és -megerősítés. A számla létrehozása létrehozza a projektalapú számla tervezetét, amely tartalmazza az összes érvénytelenített értékesítési tényt az aktuális dátumig.
 
-A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat** -ról **Megerősített** -re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
+A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat**-ról **Megerősített**-re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
 
 Az egyetlen különbség a szerződéstervezetek és a megerősített szerződések között az állapotuk és az a tény, hogy a szerződéstervezetek szerkeszthetők, míg a megerősített szerződések nem. A számlakészítés és a tényleges adatok követése mind a szerződéstervezeteken, mind a megerősített szerződéseken elvégezhető.
 
@@ -90,7 +90,7 @@ Ha hozzáadott egy egyéni mezőt az árajánlat sorrészleteihez, és azt akarj
 
     ![Egy lépés kiválasztása a beépülő modulban](media/basic-guide-20.png)
 
-5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis ( **...** ) gombot:
+5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis (**...**) gombot:
  
     ![A Meglévő lépés párbeszédpanel frissítése](media/basic-guide-21.png)
 

@@ -1,21 +1,21 @@
 ---
-title: Kézi proforma számla létrehozása
+title: Kézi proforma számla létrehozása – Lite
 description: Ez a témakör a kézi proforma számlák a Project Operations alkalmazásban való létrehozásáról nyújt tájékoztatást.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5e93206737507bf6698a9746815c790d3dfc904
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4078321"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176389"
 ---
-# <a name="creating-a-manual-proforma-invoice"></a>Kézi proforma számla létrehozása
+# <a name="create-a-manual-proforma-invoice---lite"></a>Kézi proforma számla létrehozása – Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 

@@ -1,21 +1,21 @@
 ---
-title: Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál
+title: Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál - Lite
 description: Ez a témakör az összetett egységek kezeléséről tartalmaz tájékoztatást a termékalapú árajánlatsorok esetében.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078024"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175579"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -29,8 +29,8 @@ A Project Operations ellenőrzi, hogy csak a numerikus vagy a numerikus adattíp
 
 Például a Dynamics 365 Sales a következő tulajdonságokkal rendelkezik:
 
-- **Felhasználók száma** : A felhasználók száma
-- **Hónapok száma** : Az előfizetési hónapok száma
+- **Felhasználók száma**: A felhasználók száma
+- **Hónapok száma**: Az előfizetési hónapok száma
 - **Termék cikkszáma**
 
 A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhetők mennyiségi tényezőként a terméksor tulajdonságainak szerkesztésével.

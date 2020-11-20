@@ -1,12 +1,12 @@
 ---
-title: Projektárlisták
+title: Projektárlisták kezelése árajánlatokon
 description: Ez a témakör a Projektárlista entitásról nyújt információkat.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078318"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177199"
 ---
-# <a name="project-price-lists"></a>Projektárlisták
+# <a name="manage-project-price-lists-on-a-quote"></a>Projektárlisták kezelése árajánlatokon
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
@@ -34,16 +34,16 @@ A Dynamics 365 Project Operations rendszerben bővítve áll rendelkezésre a Dy
 
 Az árlista olyan információkat tartalmaz, amelyeket négy különféle entitás nyújt:
 
-- **Árlista** : Ez az entitás információkat tárol a kontextusról, a pénznemről, a hatályba lépés dátumáról és az árazási időegységről. A kontextus azt mutatja meg, hogy az árlista a költségarányt vagy értékesítési arányt fejez-e ki. 
-- **Pénznem** : Ez az entitás tárolja az árak pénznemeit az árlistában. 
-- **Dátum** : Ez az entitás akkor használatos, amikor a rendszer megpróbálja megadni az alapértelmezett árat egy tranzakcióhoz. Olyan árlista van kiválasztva, amely hatályba lépési dátuma tartalmazza a tranzakció dátumát. Ha a rendszer több, a tranzakció dátumához hatályos, és a kapcsolódó ajánlathoz, szerződéshez vagy szervezeti egységhez csatolt árlistát talál, akkor nem lesz alapértelmezett ár. 
-- **Idő** : Ez az entitás tárolja azt az időegységet, amelyhez az árak tartoznak (például napi vagy óránkénti árak). 
+- **Árlista**: Ez az entitás információkat tárol a kontextusról, a pénznemről, a hatályba lépés dátumáról és az árazási időegységről. A kontextus azt mutatja meg, hogy az árlista a költségarányt vagy értékesítési arányt fejez-e ki. 
+- **Pénznem**: Ez az entitás tárolja az árak pénznemeit az árlistában. 
+- **Dátum**: Ez az entitás akkor használatos, amikor a rendszer megpróbálja megadni az alapértelmezett árat egy tranzakcióhoz. Olyan árlista van kiválasztva, amely hatályba lépési dátuma tartalmazza a tranzakció dátumát. Ha a rendszer több, a tranzakció dátumához hatályos, és a kapcsolódó ajánlathoz, szerződéshez vagy szervezeti egységhez csatolt árlistát talál, akkor nem lesz alapértelmezett ár. 
+- **Idő**: Ez az entitás tárolja azt az időegységet, amelyhez az árak tartoznak (például napi vagy óránkénti árak). 
 
 Az Árlista entitásnak három kapcsolódó táblája van, amelyek az árakat tárolják:
 
-  - **Szerepköralapú ár** : Ez a táblázat a szerepkör és a szervezeti egység értékei kombinációjának árait tárolja, és arra szolgál, hogy a humán erőforrásokhoz szerepköralapú árakat lehessen beállítani.
-  - **Tranzakciós kategória szerinti ár** : Ez a táblázat tranzakciós kategóriák szerint tárolja az árakat, és arra szolgál, hogy költségkategória-árakat lehessen beállítani.
-  - **Árlistatételek** : Ez a táblázat a katalógustermékek árait tartalmazza.
+  - **Szerepköralapú ár**: Ez a táblázat a szerepkör és a szervezeti egység értékei kombinációjának árait tárolja, és arra szolgál, hogy a humán erőforrásokhoz szerepköralapú árakat lehessen beállítani.
+  - **Tranzakciós kategória szerinti ár**: Ez a táblázat tranzakciós kategóriák szerint tárolja az árakat, és arra szolgál, hogy költségkategória-árakat lehessen beállítani.
+  - **Árlistatételek**: Ez a táblázat a katalógustermékek árait tartalmazza.
  
 Az árlista egy árkártya. Az árkártya az Árlista entitás és a kapcsolódó sorok kombinációja a Szerepkör, a Tranzakciós kategória ára és az Árlistatételek tábláiban.
 
@@ -59,9 +59,9 @@ Az **Idő** egységcsoport a Project Operations telepítésekor jön létre. Ala
 
 A projekttanácsadóknál felmerült utazási és egyéb költségeket az ügyfélnek számlázzák ki. A költségkategóriák árazása árlisták használatával történik. A repülőjegy, szálloda és autókölcsönző példák a költségkategóriákra. Az egyes költségárlisták adott költségkategóriák árazását határozzák meg. Az árak költségkategóriáihoz a következő három módszer használatos:
 
-- **Költségalapon** : A költségeket az ügyfélnek számlázzák ki, és nincs árrés.
-- **Felár százalék** : A tényleges költségek feletti százalékos arányt számlázzák az ügyfélnek. 
-- **Egységenkénti ár** : A költségkategória minden egységére külön számlázási ár van beállítva. Az ügyfélnek kiszámlázott összeget azoknak a költségegységeknek a számával számolják, amelyet a tanácsadó jelent. A futásteljesítmény az egységenkénti árképzési módszert használja. Például a futásteljesítmény-kategóriát naponta 30 dollárra (USD) vagy mérföldenként 2 USD-re lehet konfigurálni. Amikor egy tanácsadó beszámol egy projekt futásteljesítményéről, a számlázandó összeget a tanácsadó által jelentett mérföldszám alapján számítják ki.
+- **Költségalapon**: A költségeket az ügyfélnek számlázzák ki, és nincs árrés.
+- **Felár százalék**: A tényleges költségek feletti százalékos arányt számlázzák az ügyfélnek. 
+- **Egységenkénti ár**: A költségkategória minden egységére külön számlázási ár van beállítva. Az ügyfélnek kiszámlázott összeget azoknak a költségegységeknek a számával számolják, amelyet a tanácsadó jelent. A futásteljesítmény az egységenkénti árképzési módszert használja. Például a futásteljesítmény-kategóriát naponta 30 dollárra (USD) vagy mérföldenként 2 USD-re lehet konfigurálni. Amikor egy tanácsadó beszámol egy projekt futásteljesítményéről, a számlázandó összeget a tanácsadó által jelentett mérföldszám alapján számítják ki.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekt értékesítési árképzés és felülbírálás
 

@@ -1,21 +1,21 @@
 ---
-title: Az árajánlatsor számlázható összetevőinek konfigurálása
+title: Az árajánlatsor felszámítható összetevőinek konfigurálása - Lite
 description: Ez a témakör a számlázható és nem számlázható összetevők beállításával kapcsolatban tartalmaz tájékoztatást a projekt alapú árajánlatok soraiban.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078213"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177109"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Az árajánlatsor számlázható összetevőinek konfigurálása
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Az árajánlatsor felszámítható összetevőinek konfigurálása - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -46,19 +46,19 @@ A projekttevékenység egy projektalapú ajánlatsor kontextusában felszámíth
 
 Ha egy projekten alapuló ajánlati sor **Időt** és a **T1** feladatot tartalmazza, akkor a feladat számlázhatóként lesz az ajánlati sorhoz rendelve. Ha van egy második ajánlatsor , amely **Költségeket** tartalmaz , akkor a **T1** feladatot a szerződéssorok között nem felszámíthatóként társíthatja. Az eredmény az, hogy a feladathoz rögzített összes idő felszámítható, és a feladathoz rendelt minden költség nem felszámítható.
 
-A feladatok számlázási típusa a projektalapú ajánlatsorok **Számlázható feladatok** lapján konfigurálható az **Ajánlatsorhoz tartozó feladatok** alrács **Számlázási típus** mezőjének frissítésével. Másik lehetőségként frissítheti a projektfeladat számlázási típusát a **Számlázási típus** mezőben a projekt Számlázási beállításának alrácsán, amely a feladathoz társított ajánlatsorok listáját jeleníti meg.
+A feladatok számlázási típusa a projektalapú ajánlatsor **Számlázható feladatok** lapján állítható be az **Ajánlatisor-feladatok** alrács **Számlázási típus** mezőjének frissítésével. Másik lehetőségként frissítheti a projekttevékenységek számlázási típusát a **Számlázási típus** mezőben, a projekt számlázási beállítása alrácsán, amely a feladathoz társított ajánlati sorokat mutatja.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Szerepkör frissítése felszámítható vagy nem felszámítható értékre
 
 A szerepkör egy adott, projekten alapuló ajánlati sor környezetében számlázható vagy nem számlázható lehet.
 
-A szerepkör számlázási típusa a projektalapú ajánlatsorok **Számlázható szerepkörök** lapján konfigurálható az **Számlázható szerepkörök** alrács **Számlázási típus** mezőjének frissítésével.
+A szerepkör számlázási típusa a projektalapú ajánlatsor **Számlázható szerepkörök** lapján állítható be az **Számlázható szerepkörök** alrács **Számlázási típus** mezőjének frissítésével.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Tranzakciókategória frissítése felszámítható vagy nem felszámítható értékre
 
 Egy tranzakciós kategória egy adott ajánlatsoron felszámítható vagy nem felszámítható lehet.
 
-A tranzakció számlázási típusa a projektalapú ajánlatsorok **Számlázható kategóriák** lapján konfigurálható az **Számlázható kategóriák** alrács **Számlázási típus** mezőjének frissítésével.
+A tranzakció számlázási típusa a projektalapú ajánlatsor **Számlázható kategóriák** lapján állítható be az **Számlázható szerepkörök** alrács **Számlázási kategóriák** mezőjének frissítésével.
 
 ### <a name="resolve-chargeability"></a>A számlázhatóság feloldása
 Az időhöz létrehozott becslések vagy tényleges adatok csak akkor tekinthetők felszámíthatónak , ha az **Idő** szerepel az ajánlatsoron és ha a **Feladat** és a **Szerepkör** az ajánlatsoron felszámíthatónak van konfigurálva.

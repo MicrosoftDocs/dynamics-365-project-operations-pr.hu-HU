@@ -1,22 +1,22 @@
 ---
-title: Automatikus proforma számla létrehozásának konfigurálása
+title: Automatikus számlalétrehozás konfigurálása - Lite
 description: Ez a témakör a proforma számlák automatikus létrehozásának konfigurálását ismerteti.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078001"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176569"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Automatikus proforma számla létrehozásának konfigurálása
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Automatikus számlalétrehozás konfigurálása - Lite
+ 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 Az automatikus számlalétrehozás a Dynamics 365 Project Operations alkalmazásban konfigurálható. A rendszer egy proforma számlát hoz létre, amely az egyes projektek és szerződéssorok számlázási ütemezése alapján készült. A számlázási ütemezések a szerződéssorok szintjén konfigurálhatók. A szerződés minden sora rendelkezhet külön számlázási ütemezéssel, vagy ha a szerződés minden sorában ugyanazt a számlázási ütemezést lehet is lehet használni.
@@ -48,16 +48,16 @@ A két sorra vonatkozóan meghatározott számlázási ütemezések a következ�
 
 Ebben a példában, amikor az automatikus számlázás fut:
 
-- **Október 4. vagy bármely korábbi időpont** : Nem jön létre számla a szerződéshez, mert az egyes szerződéssorok **Számlázási ütemezés** táblázata nem hívja meg a számla futási dátumaként az október 4., vasárnap dátumot.
-- **Október 5., hétfő** : Egy számla a következőhöz jön létre:
+- **Október 4. vagy bármely korábbi időpont**: Nem jön létre számla a szerződéshez, mert az egyes szerződéssorok **Számlázási ütemezés** táblázata nem hívja meg a számla futási dátumaként az október 4., vasárnap dátumot.
+- **Október 5., hétfő**: Egy számla a következőhöz jön létre:
 
     - A mérföldkövet tartalmazó számító prototípus-mű, ha a **Számlázásra kész** értékkel van megjelölve.
     - A bevezetési munkák közé tartozik az összes Időtranzakció, amelyet a tranzakció zárási dátuma előtt hoztak létre. október 4., vasárnap előtt, ennek értéke **Számlázásra kész**.
     - A felmerült költségek közé tartozik az összes költségtranzakció, amelyet a tranzakció zárási dátuma előtt hoztak létre. október 4., vasárnap előtt, ennek értéke **Számlázásra kész**.
   
-- **Október 6. vagy bármely október 19. előtti időpont** : Nem jön létre számla a szerződéshez, mert az egyes szerződéssorok **Számlázási ütemezés** táblázata nem hívja meg a számla futási dátumaként október 6. és október 19 közötti dátumot.
+- **Október 6. vagy bármely október 19. előtti időpont**: Nem jön létre számla a szerződéshez, mert az egyes szerződéssorok **Számlázási ütemezés** táblázata nem hívja meg a számla futási dátumaként október 6. és október 19 közötti dátumot.
 - **Október 19,. hétfő** Egy számla lesz generálva a bevezetési munkákhoz ami az összes Időtranzakciót tartalmazza, amelyet a tranzakció zárási dátuma előtt hoztak létre. október 18., vasárnap előtt, ennek értéke **Számlázásra kész**.
-- **November 2., hétfő** : Egy számla a következőhöz jön létre:
+- **November 2., hétfő**: Egy számla a következőhöz jön létre:
 
     - A bevezetési munkák közé tartozik az összes Időtranzakció, amelyet a tranzakció zárási dátuma előtt hoztak létre. November 1., vasárnap előtt, ennek értéke **Számlázásra kész**.
     - A felmerült költségek közé tartozik az összes költségtranzakció, amelyet a tranzakció zárási dátuma előtt hoztak létre. november 1., vasárnap előtt, ennek értéke **Számlázásra kész**.

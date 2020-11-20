@@ -3,7 +3,7 @@ title: Az ár miért alapértelmezett nulla a tényleges a tényleges időkölts
 description: Annak meghatározása, hogy az ár miért alapértelmezett nulla a tényleges a tényleges időköltségeknél
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 44d4952b77ac0a541cdf8e3e55f202c9209efdf4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 124719410f89dea506d43a1b64cb91c85d4f3968
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078111"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131369"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Az ár miért alapértelmezett nulla a tényleges a tényleges időköltségeknél?
 

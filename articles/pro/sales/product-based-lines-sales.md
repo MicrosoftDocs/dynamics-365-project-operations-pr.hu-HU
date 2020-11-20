@@ -1,21 +1,21 @@
 ---
-title: Termékalapú lehetőségsorok
+title: Termékalapú lehetőségsorok - Lite
 description: Ez a témakör a Project Operations termékalapú lehetőség sorelemeit ismerteti.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078018"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176332"
 ---
-# <a name="product-based-opportunity-lines"></a>Termékalapú lehetőségsorok
+# <a name="product-based-opportunity-lines---lite"></a>Termékalapú lehetőségsorok - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -25,4 +25,4 @@ A termékalapú sorok lehetnek katalóguselemek vagy beírandó termékek. A leh
 
 A termékalapú lehetőségsorokkal kapcsolatos egyik fogalom, amely a projektalapú lehetőségekre jellemző, az az **Ügyfél költségvetése**. Ennek a mezőnek a segítségével nyomon követheti az összeget, amelyet az ügyfél a sorért hajlandó fizetni.
 
-Ha a lehetőség összesítésének bevételi módja a **Rendszer által számolt** , akkor a program a becsült bevétel kiszámításához összesíti az ügyfélköltségvetés értékeit a termék- és a projektalapú sorok között.
+Ha a lehetőség összesítésének bevételi módja a **Rendszer által számolt**, akkor a program a becsült bevétel kiszámításához összesíti az ügyfélköltségvetés értékeit a termék- és a projektalapú sorok között.

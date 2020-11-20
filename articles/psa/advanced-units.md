@@ -3,7 +3,7 @@ title: Egységcsoportok és egységek
 description: Ez a témakör az egységcsoportokról és egységekről tartalmaz információkat.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078108"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130581"
 ---
 # <a name="unit-groups-and-units"></a>Egységcsoportok és egységek
 
@@ -33,14 +33,14 @@ Az egységcsoportok és egységek a Microsoft Dynamics 365 alapentitásai. A egy
 
 Íme néhány példa egységekre és egységcsoportokra:
  
-- **Egységcsoport** : Távolság 
-    - **Egységek** : Mérföld, kilométer stb.
-- **Egységcsoport** : Idő
-    - **Egységek** : Óra, nap, hét stb. 
+- **Egységcsoport**: Távolság 
+    - **Egységek**: Mérföld, kilométer stb.
+- **Egységcsoport**: Idő
+    - **Egységek**: Óra, nap, hét stb. 
 
 Ha egy egységcsoporthoz több egységet állít be, akkor a köztük érvényes átváltási tényezőt is be kell állítania az egységcsoport alapértelmezett vagy elsődleges egységeként beállított egység kijelölésével. 
 
-Például ha az **Idő** egységcsoportban az **Óra** egységet állítja be elsődlegesként, a rendszer az **Óra** mértékegységet állítja be alapértelmezettként. Ha a következő beállított egység a **Nap** , akkor be kell állítania a **Nap** és **Óra** közötti átváltási tényezőt. Ha ezután a **Hét** mértékegységet adja hozzá harmadikként, akkor a **Hét** és a **Nap** , valamint az **Óra** közötti átváltási tényezőket is be kell állítania. 
+Például ha az **Idő** egységcsoportban az **Óra** egységet állítja be elsődlegesként, a rendszer az **Óra** mértékegységet állítja be alapértelmezettként. Ha a következő beállított egység a **Nap**, akkor be kell állítania a **Nap** és **Óra** közötti átváltási tényezőt. Ha ezután a **Hét** mértékegységet adja hozzá harmadikként, akkor a **Hét** és a **Nap**, valamint az **Óra** közötti átváltási tényezőket is be kell állítania. 
 
 A következő képen a **Nap** mértékegységre vonatkozó példa látható, ahol a **Mennyiség** mező az egy napon belüli órák számát mutatja, a **Hét** mértékegységre vonatkozó példa esetén pedig a **Mennyiség** mező mutatja az egy héten belüli napok számát.
 
@@ -52,7 +52,7 @@ A Dynamics 365 Project Service Automation az egységeket és egységcsoportokat 
 
 A költségek esetén minden költségkategóriához tartozik alapértelmezett egységcsoport és egység. Ezek az értékek alapértelmezett értékként szerepelnek az árlista-bejegyzésekben, a költségkategóriákra vonatkozóan. 
 
-Vegyünk egy példát, amelyben van egy **Megtett távolság** nevű költségkategóriája. Ennek van egy **Távolság** nevű egységcsoportja, amelyben van egy **Mérföld** nevű alapértelmezett egység. Ha a **Távolság** egységcsoportot úgy állítja be, hogy két egységgel rendelkezzen ( **Mérföld** és **Kilométer** ), akkor kér árat állíthat be a **Megtett távolság** kategóriához egy árlistán: ár/mérföld és ár/kilométer.
+Vegyünk egy példát, amelyben van egy **Megtett távolság** nevű költségkategóriája. Ennek van egy **Távolság** nevű egységcsoportja, amelyben van egy **Mérföld** nevű alapértelmezett egység. Ha a **Távolság** egységcsoportot úgy állítja be, hogy két egységgel rendelkezzen (**Mérföld** és **Kilométer**), akkor kér árat állíthat be a **Megtett távolság** kategóriához egy árlistán: ár/mérföld és ár/kilométer.
 
 | Költségkategória  | Egységcsoport  | Egység      | Árképzési mód  | Kiszerelésenkénti ár  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Az **Árajánlatra vonatkozó idő** mező becsléssorai tetszőleges időegysé
 A következő példa azt mutatja be, hogyan használja a PSA az egységcsoportokat, egységeket és átváltási tényezőket.
 - Egységek
 
-   - **Egységcsoport** : Idő 
-   - **Egységek** : Óra 
+   - **Egységcsoport**: Idő 
+   - **Egységek**: Óra 
     
     - **Nap** – Átváltási tényező: 8 óra       
     - **Hét** – Átváltási tényező: 40 óra  
         
 - Árlista beállítása az A projektnél:
 
-    - **Név** : Egyesült Királyság árazás 2016 
-    - **Alapértelmezett időegység** : nap 
-    - **Pénznem** : GBP
+    - **Név**: Egyesült Királyság árazás 2016 
+    - **Alapértelmezett időegység**: nap 
+    - **Pénznem**: GBP
 
 | Szerepkör      | Egységcsoport | Egység | Szervezeti egység | Ár   |
 |-----------|------------|------|---------------------|---------|

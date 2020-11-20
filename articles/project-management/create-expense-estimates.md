@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078014"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131706"
 ---
 # <a name="expense-estimates"></a>Költség becslések
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
@@ -32,9 +32,9 @@ Hajtsa végre a következő lépéseket a projektkiadások megtekintéséhez, ho
 
 Minden egyes költségsori tételhez a következő attribútumok vannak definiálva:
 
-- **Kategória** : A projekttel kapcsolatban felmerült összes kiadás leírására szolgáló közös csoportosítások.
-- **Kezdő dátum** : A kiadás várható felmerülésének dátuma.
-- **Mennyiség** : Egy adott kategóriához tartozó kiadási tételek becsült száma.
-- **Egység önköltségi ára** : A kiadás költségének kiszámításához használt egységár.
-- **Egység értékesítési ára** : A kiadás értékesítési árának kiszámításához használt egységár.
+- **Kategória**: A projekttel kapcsolatban felmerült összes kiadás leírására szolgáló közös csoportosítások.
+- **Kezdő dátum**: A kiadás várható felmerülésének dátuma.
+- **Mennyiség**: Egy adott kategóriához tartozó kiadási tételek becsült száma.
+- **Egység önköltségi ára**: A kiadás költségének kiszámításához használt egységár.
+- **Egység értékesítési ára**: A kiadás értékesítési árának kiszámításához használt egységár.
 

@@ -3,7 +3,7 @@ title: Szervezeti egységek
 description: Ez a témakör a Dynamics 365 Project Service Automation alkalmazás szervezeti egységeiről tartalmaz információkat.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078204"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130626"
 ---
 # <a name="organizational-units"></a>Szervezeti egységek 
 
@@ -50,7 +50,7 @@ Emellett az erőforrás entitás szervezeti egységéhez tartozik egy attribútu
 
 A szervezeti egységek két szerepet töltenek be a PSA-ban:
 
-- **Szerződő részleg** – Az a szervezeti egység, amely azt a vállalatot vagy részleget reprezentálja, amely elsősorban felelős az értékesítés megnyeréséért és a munka és szolgáltatások ügyfélnek történő leszállításáért. A szerződő részleget a fejlécben a **Szerződő részleg** mező azonosítja a **Lehetőség** , **Árajánlat** , **Projektszerződés** és **Projekt** oldalon.
+- **Szerződő részleg** – Az a szervezeti egység, amely azt a vállalatot vagy részleget reprezentálja, amely elsősorban felelős az értékesítés megnyeréséért és a munka és szolgáltatások ügyfélnek történő leszállításáért. A szerződő részleget a fejlécben a **Szerződő részleg** mező azonosítja a **Lehetőség**, **Árajánlat**, **Projektszerződés** és **Projekt** oldalon.
 - **Erőforrás-kezelő részleg** – Az a szervezeti egység, amelyhez egy erőforrás tartozik, vagy hozzá van rendelve. Ez a szervezeti egység erőforrásokat biztosít bizonyos szerepkörökhöz a munkanyilatkozatoknál (SOW) és projekteknél, amelyek a szerződő egység tulajdonában vannak.
 
 > ![Szerződő egységek és erőforrás-kezelő részlegek](media/advanced-1.png)
