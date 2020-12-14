@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Újdonságok
       items:
+        - name: 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projekt értékesítési folyamata
@@ -87,7 +89,7 @@
                 - name: Több ügyfél kezelése projektalapú árajánlatsorokon
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: A projektárajánlatsor felszámítható összetevőinek konfigurálása
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Becslések létrehozása egy árajánlatsoron
                   href: sales/create-estimate-quote-line.md
                 - name: Projektbecslések importálása egy projektalapú árajánlatsorból
@@ -109,7 +111,7 @@
             - name: Projektárlisták kezelése projektszerződéseken
               href: sales/contracts-manage-project-price-lists.md
             - name: Több ügyfél kezelése egy projektszerződésen
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projektalapú szerződéssorok
               items:
                 - name: Projektalapú szerződéssorok áttekintése
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Projektszerződés másolása
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Előlegek és foglalók
+              items:
+                - name: Előlegeken és foglalókon alapuló szerződések – Lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Foglalók ütemezésének beállítása – Lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Alkalmi előleg létrehozása szerződésen – Lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Árképzés és költségszámítás
       items:
         - name: Árlista beállítása
@@ -158,10 +168,18 @@
           items:
             - name: Árképzési dimenziók áttekintése
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Megoldás létrehozása egyéni árképzési dimenziókhoz
+              href: sales/create-solution-custompd.md
             - name: Meglévő mezők használata árképzési dimenziókként
               items:
                 - name: Project Operations-mezők mint árképzési dimenziók
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Foglalható erőforrás használata árképzési dimenzióként
+                  href: sales/use-br-as-pd.md
+                - name: Tranzakciókategória használata árképzési dimenzióként
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Foglalható, több szerepkörrel rendelkező erőforrás egy projektben'
+                  href: sales/br-playing-multiple-roles.md
             - name: Egyéni mezők árképzési dimenziókként
               items:
                 - name: Egyéni mezők és entitások létrehozása árképzési dimenzióként
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Egyéni mezők beállítása árképzési dimenziókként
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Beépülő modul attribútumainak frissítése új árképzési dimenziók felvételéhez
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Árképzési dimenzió kikapcsolása
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektmenedzsment
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Erőforrások adminisztrációja
           items:
+            - name: Erőforrások létrehozása
+              href: resource-management/create-resources.md
             - name: Képességek és jártasságok meghatározása
               href: resource-management/define-skills-proficiencies.md
+            - name: Szerepkörök meghatározása
+              href: resource-management/define-roles.md
             - name: Erőforrásnaptárak meghatározása
               href: resource-management/define-resource-calendars.md
         - name: Foglalásfelosztási módszerek
           href: resource-management/booking-allocation-methods.md
+        - name: Foglalási állapotok
+          href: resource-management/booking-status.md
         - name: Készség- és jártasságmodellek
           href: resource-management/skills-proficiency-models.md
         - name: Erőforrás-egyeztetés
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Proforma projektszámla kezelése
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Foglaló vagy előleg számlázása
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Proforma projektszámla megerősítése
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Projektszámla-automatizálás konfigurálása
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: A Project Operations integrációs naplója
           href: project-accounting/project-operations-integration-journal.md
+        - name: Vállalatközi számlázás
+          items:
+            - name: Vállalatközi számlázás áttekintése
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: A vállalatközi számlázás konfigurálása
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Vállalatközi ügyfél- és szállítói számlák létrehozása
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Vállalatközi tranzakciók létrehozása
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Bevételelszámolás
+      items:
+        - name: Bevételelszámolás áttekintése
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Bevételelszámolás beállítása
+          items:
+            - name: Időszaktípusok beállítása
+              href: project-accounting/period-types.md
+            - name: Költségsablonok beállítása
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Bevételi becslések kezelése
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Rögzített árú bevétel becslési projektjei
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Teljesítési költség módszerei
+          href: revenue-recognition/cost-complete-methods.md
 - name: Egyszerű központi telepítés – ajánlattól proforma számlázásig
   items:
     - name: Első lépések
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
+        - name: Újdonságok 2020. decemberben – Lite központi telepítés – ajánlattól proforma számlázásig
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Újdonságok 2020. novemberben – Lite központi telepítés – ajánlattól proforma számlázásig
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projekt értékesítési folyamata
@@ -500,7 +556,7 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Előlegek és foglalók
               items:
-                - name: Foglalón alapuló szerződések beállítása – Lite
+                - name: Előlegeken és foglalókon alapuló szerződések – Lite
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Foglalók ütemezésének beállítása – Lite
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -538,10 +594,18 @@
           items:
             - name: Árképzési dimenziók áttekintése
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Megoldás létrehozása egyéni árképzési dimenziókhoz
+              href: sales/create-solution-custompd.md
             - name: Meglévő mezők használata árképzési dimenziókként
               items:
-                - name: Meglévő mező használata árképzési dimenzióként
+                - name: Project Operations-mezők mint árképzési dimenziók
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Foglalható erőforrás használata árképzési dimenzióként
+                  href: sales/use-br-as-pd.md
+                - name: Tranzakciókategória használata árképzési dimenzióként
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Foglalható, több szerepkörrel rendelkező erőforrás egy projektben'
+                  href: sales/br-playing-multiple-roles.md
             - name: Egyéni mezők árképzési dimenziókként
               items:
                 - name: Egyéni mezők és entitások létrehozása árképzési dimenzióként
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Egyéni mezők beállítása árképzési dimenziókként
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Beépülő modul attribútumainak frissítése új árképzési dimenziók felvételéhez
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Árképzési dimenzió kikapcsolása
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektmenedzsment
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Erőforrások adminisztrációja
           items:
+            - name: Erőforrások létrehozása
+              href: resource-management/create-resources.md
             - name: Képességek és jártasságok meghatározása
               href: resource-management/define-skills-proficiencies.md
+            - name: Szerepkörök meghatározása
+              href: resource-management/define-roles.md
             - name: Erőforrásnaptárak meghatározása
               href: resource-management/define-resource-calendars.md
         - name: Foglalásfelosztási módszerek
           href: resource-management/booking-allocation-methods.md
+        - name: Foglalási állapotok
+          href: resource-management/booking-status.md
         - name: Készség- és jártasságmodellek
           href: resource-management/skills-proficiency-models.md
         - name: Erőforrás-egyeztetés
@@ -834,9 +906,11 @@
       items:
         - name: A Project Service 3.x frissítési kiadásának ütemezése
           href: psa/version-history-ps.md
-        - name: 'A 25, V3-as frissítési kiadás újdonságai vagy változásai'
+        - name: A 26-os frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-26.md
+        - name: A 25-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-25.md
-        - name: 'A 24, V3-as frissítési kiadás újdonságai vagy változásai'
+        - name: A 24-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-24.md
         - name: 'A 23, V3-as frissítési kiadás újdonságai vagy változásai'
           href: psa/whats-new-ur-23.md
