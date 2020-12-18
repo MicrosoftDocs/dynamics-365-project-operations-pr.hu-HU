@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121176"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642977"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a témakör információt nyújt arról, hogyan lehet új Dynamics 365 Project Operations-környezetet létrehozni az erőforrás-/nem készletalapú forgatókönyvek esetén.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Ez a témakör arról tartalmaz tájékoztatást, hogyan építhet ki új Dynamics 365 Project Operations-környezetet erőforrás-/nem készletalapú forgatókönyvekhez.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Az automatizált Project Operations-kiépítés engedélyezése egy LCS-projektben
 
@@ -120,7 +122,7 @@ A környezet javítása eltarthat egy ideig. Miután befejeződött, a környeze
 
 ![Megoldások alkalmazása](./media/13ApplySolutions.png)
 
-5. Válassza ki a **Dynamics 365 Finance and Operations kettős írású entitások leképezése** és a **Dynamics 365 Project Operations kettős írású entitások leképezése** elemet, majd válassza az **Alkalmaz** lehetőséget.
+5. Válassza a mindkét megoldást: **Dynamics 365 Finance and Operations kettős írású entitásleképezés** és **Dynamics 365 Project Operations kettős írású entitásleképezése**, majd válassza az **Alkalmaz** lehetőséget.
 
 ![Megoldások megerősítése](./media/14ConfirmSolutions.png)
 
@@ -158,9 +160,10 @@ A frissítés megközelítőleg 20 percet vesz igénybe. A rendszer értesítés
 
 | **Entitásleképezés** | **Entitás frissítése** | **Kezdeti szinkronizálás** | **Kezdeti szinkronizálás fő eleme** | **Előfeltételek futtatása** | **Előfeltételek kezdeti szinkronizálása** |
 | --- | --- | --- | --- | --- | --- |
-| **Az összes vállalat projekterőforrás-szerepkörei (bookableresourcecategories)** | Nincs | Igen | Common Data Service | Nincs | N. a. |
-| **Jogi entitások (cdm\_companies)** | Nincs | Igen | Finance and Operations alkalmazások | Nincs | N. a. |
-| **Projekttevékenységek integrációjának tényleges adatai (msdyn\_actuals)** | Nincs | Nincs | N. a. | Igen | Nincs |
+| **Az összes vállalat projekterőforrás-szerepkörei (bookableresourcecategories)** | No | Igen | Common Data Service | No | N. a. |
+| **Jogi entitások (cdm\_companies)** | No | Igen | Finance and Operations alkalmazások | No | N. a. |
+| **Főkönyv (msdyn_ledgers)** | No | Igen | Finance and Operations alkalmazások | Igen | Igen, Finance and Operations alkalmazások |
+| **Projekttevékenységek integrációjának tényleges adatai (msdyn\_actuals)** | No | Nincs | N. a. | Igen | Nincs |
 | **Projektszerződéssorok (salesorderdetails)** | Nincs | Nincs | N. a. | Nincs | Nincs |
 | **A projekt tranzakciókapcsolatainak integrációs entitása (msdyn\_transactionconnections)** | Nincs | Nincs | N. a. | Nincs | N. a. |
 | **A Project Operations integráció szerződéssor-mérföldkövei (msdyn\_contractlinesscheduleofvalues)** | Nincs | Nincs | N. a. | Nincs | N. a. |

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124371"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642906"
 ---
 # <a name="security-model"></a>Biztonsági modell
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Microsoft Dynamics 365 Project Operations egy egyedi biztonsági modellt tartalmaz, amely lehetővé teszi egy olyan szerepkörön alapuló üzleti biztonsági modell használatát, amely együttműködik a Microsoft Office Csoportokkal. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+A Microsoft Dynamics 365 Project Operations egyedi biztonsági modellt tartalmaz, amely lehetővé teszi egy szerepkörön alapuló üzleti biztonsági modell alkalmazását, amely együttműködik a Microsoft Office csoportokkal. 
 
 
 ## <a name="security-roles"></a>Biztonsági szerepkörök

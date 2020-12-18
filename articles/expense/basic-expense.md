@@ -3,17 +3,17 @@ title: Költségbejegyzés (Lite)
 description: Ez a témakör a költségbejegyzések Lite telepítésben történő használatának módjával kapcsolatos információkat tartalmaz.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121086"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590949"
 ---
 # <a name="expense-entry-lite"></a>Költségbejegyzés (Lite)
 
@@ -21,7 +21,7 @@ _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 Az alapszintű vagy a Lite költségkezelés az egyszerű kiadások rögzítésének képessége. A projektek költségeit rögzítheti egy projekthez, majd a projekt jóváhagyója áttekinti és jóváhagyja azokat.
 
-A Dynamics 365 Project Operations költségre vonatkozó képességeivel kapcsolatos további információkért lásd: [Költség áttekintése](expense-overview.md).
+A Dynamics 365 Project Operations költségképeségeivel kapcsolatos további információk a következő témakörben találhatók: [Költségek áttekintése](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Alapköltség rögzítése
 
@@ -36,6 +36,10 @@ Miután befejezte az összes kiadás rögzítését, és készen áll a jóváha
 
 1. Lépjen a **Kiadások** pontra, és válasszon egy kiadást. Másik lehetőségként jelölje ki az összes kiadást a fejlécen lévő jelölőnégyzet használatával.
 2. Válassza a **Küldés** lehetőséget. A rendszer feldolgozza a kijelölt bejegyzéseket, majd létrehozza a költségjóváhagyási kérelmeket.
+
+## <a name="add-an-attachment"></a>Melléklet hozzáadása
+
+Előfordulhat, hogy a jóváhagyónak további dokumentációt kell biztosítania az Ön költségére vonatkozóan. A költségbejegyzése idővonalában elismervényt csatolhat. Válassza a **Szerkesztés** lehetőséget, majd az **Idősor** szakaszban jelölje ki a gemkapocs ikont a nyugta csatolásához.
 
 ## <a name="recall-a-basic-expense"></a>Alapköltség visszahívása
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129681"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642771"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Munka tervezése a Microsoft Projekt programban a Project Service Automation bővítmény segítségével
 
@@ -173,6 +173,59 @@ A projekt importálása a [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 4. Kattintson a **Közzététel** lehetőségre.  
 
 A Project fájl [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programhoz történő csatolása során a projektfájlból főfájl jön létre, és csak olvashatóvá teszi a munkalebontási szerkezetet a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sablonban.  A projektterv módosítása érdekében a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] alkalmazásban kell azokat elkészíteni, és frissítésként kell közzétenni a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben.
+
+## <a name="read-a-resource-loaded-schedule"></a>Erőforrás betöltött ütemezésének olvasása
+
+Ha egy projektet a Project Service Automation szolgáltatásban olvasnak be, az erőforrás naptárát nem szinkronizálja az asztali ügyfél. Ha eltérések vannak a feladatok időtartamában, a ráfordításban vagy a befejezésben, valószínűleg azért van, mert az erőforrásoknak és az asztali ügyfélnek nem ugyanolyan munkaidő-sablon naptára a projektre vonatkozóan.
+
+
+## <a name="data-synchronization"></a>Adatszinkronizálás
+
+A következő táblázat felvázolja, hogyan történik az adatok szinkronizálása a Project Service Automation és a Microsoft Project Desktop bővítmény között.
+
+| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektfeladat | Esedékesség dátuma | ● | - |
+| Projektfeladat | Becsült munkamennyiség | ● | - |
+| Projektfeladat | MS Project ügyfél azonosítója | ● | - |
+| Projektfeladat | Fölérendelt feladat | ● | - |
+| Projektfeladat | Project | ● | - |
+| Projektfeladat | Projektfeladat | ● | - |
+| Projektfeladat | Projektfeladat neve | ● | - |
+| Projektfeladat | Erőforrás-kezelő részleg (a 3.0-s verziótól elavult) | ● | - |
+| Projektfeladat | Ütemezett időtartam | ● | - |
+| Projektfeladat | Kezdő dátum | ● | - |
+| Projektfeladat | WBS-azonosító | ● | - |
+
+| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
+| --- | --- | --- | --- |
+| Csoporttag | MS Project ügyfél azonosítója | ● | - |
+| Csoporttag | Pozíció neve | ● | - |
+| Csoporttag | projekt | ● | ● |
+| Csoporttag | Projektcsoport | ● | ● |
+| Csoporttag | Erőforrás-kezelő részleg | - | ● |
+| Csoporttag | Szerepkör | - | ● |
+| Csoporttag | Munkaidő | Nincs szinkronizálva | Nincs szinkronizálva |
+
+| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
+| --- | --- | --- | --- |
+| Erőforrás-hozzárendelés | Kezdő dátum | ● | - |
+| Erőforrás-hozzárendelés | Órák száma | ● | - |
+| Erőforrás-hozzárendelés | MS Project ügyfél azonosítója | ● | - |
+| Erőforrás-hozzárendelés | Tervezett munka | ● | - |
+| Erőforrás-hozzárendelés | Project | ● | - |
+| Erőforrás-hozzárendelés | Projektcsoport | ● | - |
+| Erőforrás-hozzárendelés | Erőforrás-hozzárendelés | ● | - |
+| Erőforrás-hozzárendelés | Feladatok | ● | - |
+| Erőforrás-hozzárendelés | Befejezési dátum | ● | - |
+
+| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektfeladat függőségei | Projektfeladat függősége | ● | - |
+| Projektfeladat függőségei | Hivatkozástípus | ● | - |
+| Projektfeladat függőségei | Elődfeladat | ● | - |
+| Projektfeladat függőségei | Project | ● | - |
+| Projektfeladat függőségei | Utódfeladat | ● | - |
 
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)

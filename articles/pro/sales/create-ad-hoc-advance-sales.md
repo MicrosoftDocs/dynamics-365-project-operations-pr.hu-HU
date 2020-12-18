@@ -1,5 +1,5 @@
 ---
-title: Alkalmi előleg létrehozása szerződésen – Lite
+title: Alkalmi előleg létrehozása szerződésen
 description: Ez a témakör a szerződéshez igény szerinti előleg létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181365"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595991"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Alkalmi előleg létrehozása szerződésen – Lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Alkalmi előleg létrehozása szerződésen
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Microsoft Dynamics 365 Project Operations támogatja az előre fizetést és előlegeket tartalmazó számlázási helyzeteket. A **Project Operations** alkalmazásban az **Előlegek** használatának folyamata hasonló a **Foglalóhoz** a szerződéseknél. 
+A Microsoft Dynamics 365 Project Operations támogatja az előre fizetést és előlegeket tartalmazó számlázási helyzeteket. A **Project Operations** alkalmazásban az **Előlegek** használatának folyamata hasonló a **Foglalóhoz** a szerződéseknél. 
 
 A következő lépések végrehajtásával számlázhat az ügyfélnek előleget.
 

@@ -1,5 +1,5 @@
 ---
-title: Foglalók ütemezésének beállítása – Lite
+title: Foglalóütemezés beállítása
 description: Ez a témakör információt nyújt a foglalói ütemezés beállításáról a Project Operations szolgáltatásban.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181275"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596375"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Foglalók ütemezésének beállítása – Lite
+# <a name="set-up-a-retainer-schedule"></a>Foglalóütemezés beállítása
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A foglalói ütemezések beállítása a Dynamics 365 Project Operations **projektszerződés** lapján állítható be.
+A foglalói ütemezések beállítása a Dynamics 365 Project Operations **Projektszerződés** lapján állítható be.
 
 1. A **projektszerződés** lap **előlegek és foglalók** lapján jelölje be a **Foglalói ütemezés beállítása** jelölőnégyzetet.
 2. A megnyíló párbeszédpanelen a következő táblázatban látható mezők jelennek meg. A táblázat azt ismerteti, hogy a beírt értékek hogyan hatnak vagy befolyásolják a létrehozott foglalói ütemezést.

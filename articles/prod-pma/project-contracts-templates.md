@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078226"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642636"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>A projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ez a témakör ismerteti azt a sablont és azokat az alapul szolgáló feladatokat, amelyek a szerződések és a projektek közvetlenül a Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
 
@@ -133,9 +135,9 @@ Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelveket:
 ## <a name="template-mapping-in-data-integration"></a>Sablonok leképezése az adatintegrációban
 
 > [!NOTE] 
-> A **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** és **AddressZipCode** mezők nem szerepelnek a projektszerződések alapértelmezett leképezésében. A leképezéseket hozzáadhatja, ha szükséges, hogy az adatok szinkronizálása megtörténjen a projektszerződések esetében.
+> A **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** és **AddressZipCode** mezők nem szerepelnek a projektszerződések alapértelmezett leképezésében. A leképezéseket hozzáadhatja, ha szükséges, hogy az adatok szinkronizálása megtörténjen a projektszerződések esetében.
 >
-> A **Leírás** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** és **ProjectType** mezők nem szerepelnek a projektek alapértelmezett leképezésében. A leképezéseket hozzáadhatja, ha szükséges, hogy az adatok szinkronizálása megtörténjen a projektek esetében.
+> A **Leírás**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** és **ProjectType** mezők nem szerepelnek a projektek alapértelmezett leképezésében. A leképezéseket hozzáadhatja, ha szükséges, hogy az adatok szinkronizálása megtörténjen a projektek esetében.
 
 A következő ábra példákat mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 

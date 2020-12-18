@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180780"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513927"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Számlaütemezés létrehozása egy projektalapú szerződéssoron 
 
@@ -49,7 +49,7 @@ Hajtsa végre az alábbi lépéseket, egy mérföldkő alapú számlaütemezés 
 3. Nyissa meg azt a **Rögzített áras** szerződéssort, amelyhez mérföldkő-ütemezést hoz létre. A **Számlázási mérföldkövek** lapon válassza ki a számlázás kezdete és a számlázási gyakoriság elemeket. 
 4. Az alrácson válassza az **Időszakos mérföldkövek létrehozása** lehetőséget. A számla ütemezése a **Mérföldkő neve**, a **Mérföldkő dátuma** és a **Mérföldkő összege** mezőket a következőképpen jön létre:
 
-    - A **Mérföldkő neve** Ezt számla gyakorisága által meghatározott dátuma határozza meg.
+    - **Mérföldkő neve**: Ezt a nevet a számla gyakorisága határozza meg.
     - A **Mérföldkő dátuma**: Ezt számla gyakorisága által meghatározott dátuma határozza meg.
     - **Mérföldkő összege**: Ezt az összeget úgy számítja ki a program, hogy a szerződéssoron szereplő szerződéses összeget elosztja a mérföldköveknek a gyakoriság, valamint a számlázás kezdete és a kért szállítási dátumok által megkövetelt számával.
 

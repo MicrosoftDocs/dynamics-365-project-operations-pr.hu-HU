@@ -1,5 +1,5 @@
 ---
-title: Foglaló vagy előleg számlázása - Lite
+title: Foglaló vagy előleg számlázása
 description: Ez a témakör foglaló és előleg a Project Operations rendszerben történő számlázásáról tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180555"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596195"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Foglaló vagy előleg számlázása - Lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Foglaló vagy előleg számlázása
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations támogatja a foglaló alapú szerződéseket és az egyszeri előlegeket. A projektszerződésekben rögzítheti a foglalók vagy egy egyszeri előleg ütemezését. A projekt szerződés szintjén történő rögzítés azonban nem teszi azonnal elérhetővé a foglalót vagy az előleget. Ahhoz, hogy az ügyfelet ténylegesen terhelő számlán egy foglalót vagy előleget használjon, a foglalót vagy az előleget először ki kell számlázni.
+Dynamics 365 Project Operations támogatja az előlegen alapuló szerződéseket és az egyszeri előlegeket. A projektszerződésekben rögzítheti a foglalók vagy egy egyszeri előleg ütemezését. A projekt szerződés szintjén történő rögzítés azonban nem teszi azonnal elérhetővé a foglalót vagy az előleget. Ahhoz, hogy az ügyfelet ténylegesen terhelő számlán egy foglalót vagy előleget használjon, a foglalót vagy az előleget először ki kell számlázni.
 
 Hajtsa végre az alábbi lépéseket egy foglaló vagy előleg számlázásához.
 

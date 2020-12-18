@@ -1,5 +1,5 @@
 ---
-title: Foglalón alapuló szerződések beállítása – Lite
+title: Előlegek és foglalón alapuló szerződések
 description: Ez a témakör a Project Operationsban szereplő foglaló alapú szerződési modellek és előlegek információit tartalmazza.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180870"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596105"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Foglalón alapuló szerződések beállítása – Lite
+# <a name="advances-and-retainer-based-contracts"></a>Foglalón alapuló szerződések beállítása
 
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations támogatja a foglaló alapú szerződéseket. A foglaló alapú szerződés olyan egyenlően elosztott kifizetések tárgyalt csoportja, amelyért az ügyfélnek számláznak a projekt időtartama alatt. Az ilyen típusú szerződéseket általában idő-és anyagelszámolású, illetve fogyasztási alapú számlázási modellekhez használatosak, ahol meg kell adni az ügyfélnek az előrejelezhető számlát és a fizetési ütemezést. Az egyes időszakokban elhatárolt tényleges bevételeket az időszak elején egyeztetik az ügyféltől kapott fizetéssel. Az idő-és anyagelszámolású számlázási modell fogalmával összhangban az egyes időszakok során elhatárolt bevételi értékek a felmerült költségektől függően változhatnak. Ha az elhatárolt bevétel nagyobb, mint az időszak elején kapott összeg, a projektvégrehajtó vállalat a következőket teheti:
+Dynamics 365 Project Operations támogatja a foglalón alapuló szerződéseket. A foglaló alapú szerződés olyan egyenlően elosztott kifizetések tárgyalt csoportja, amelyért az ügyfélnek számláznak a projekt időtartama alatt. Az ilyen típusú szerződéseket általában idő-és anyagelszámolású, illetve fogyasztási alapú számlázási modellekhez használatosak, ahol meg kell adni az ügyfélnek az előrejelezhető számlát és a fizetési ütemezést. Az egyes időszakokban elhatárolt tényleges bevételeket az időszak elején egyeztetik az ügyféltől kapott fizetéssel. Az idő-és anyagelszámolású számlázási modell fogalmával összhangban az egyes időszakok során elhatárolt bevételi értékek a felmerült költségektől függően változhatnak. Ha az elhatárolt bevétel nagyobb, mint az időszak elején kapott összeg, a projektvégrehajtó vállalat a következőket teheti:
 
 - Csak a többletet számlázza az ügyfélnek 
 - A bevétel egyeztetését elhalasztja a következő számlázási időszakra, és a projekt végén egy utolsó számlát kell létrehozni a többi nem egyeztetett bevételre vonatkozóan.

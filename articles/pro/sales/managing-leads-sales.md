@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180510"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513792"
 ---
 # <a name="manage-leads---lite"></a>Érdeklődők kezelése - Lite
 
@@ -23,7 +23,7 @@ A projektalapú érdeklődők kezelhetők és minősíthetők a Project Operatio
 
 ## <a name="list-of-project-sales-leads"></a>Projekt érdeklődőinek listája
 
-Az **Értékesítés** területen, a bal navigációs panelen nyissa meg az **Érdeklődők** listaoldalt a rendszerben lévő összes érdeklődőrekord listájának megjelenítéséhez. A megjelenített érdeklődők listája munkaalapú és más típusú érdeklődőkből áll, amelyek létrehozhatók akkor is, ha a Dynamics 365 Sales vagy a Dynamics 365 Field Service alkalmazásokkal rendelkezik.
+Az **Értékesítés** területen, a bal navigációs panelen nyissa meg az **Érdeklődők** listaoldalt a rendszerben lévő összes érdeklődőrekord listájának megjelenítéséhez. A listában szereplő érdeklődők munkaalapúak és más típusú érdeklődők is létrehozhatók, ha rendelkezik a Dynamics 365 Sales vagy a Dynamics 365 Field Service alkalmazással.
 
 Létrehozhat egy szűrt nézetet, amely csak a projektalapú érdeklődőket tekinti meg a **Típus** értékére vonatkozó szűrő létrehozásával. Megadhatja például, hogy csak a munkaalapú érdeklődők jelenjenek meg.
 
