@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Bemutató adatok alkalmazása
           items:
-            - name: Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
-              href: environment/resource-apply-finance-demo-data.md
             - name: Konfigurációs adatok alkalmazása a Common Data Service szolgáltatásban
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Környezetek üzembe helyezése
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Újdonságok
       items:
+        - name: 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: 2021. január – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Előlegek és foglalók
               items:
-                - name: Előlegeken és foglalókon alapuló szerződések – Lite
+                - name: Foglalón alapuló szerződések beállítása
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Foglalók ütemezésének beállítása – Lite
+                - name: Foglalóütemezés beállítása
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Alkalmi előleg létrehozása szerződésen – Lite
+                - name: Alkalmi előleg létrehozása szerződésen
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Árképzés és költségszámítás
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Munkalebontási struktúra tervezése
           items:
+            - name: Munkalebontási struktúra létrehozása
+              href: project-management/create-wbs.md
             - name: Hozzárendelések létrehozása
               href: project-management/create-assignments.md
         - name: Becslésprojektek
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Csoporttagok karbantartása
               href: project-management/maintain-team-members.md
+        - name: A Feladat rácson való munkával kapcsolatos hibaelhárítás
+          href: project-management/projectplanningUIFAQ.md
         - name: Együttműködés
           items:
             - name: Együttműködés Office-csoportokkal
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Javasolt erőforrások áttekintése
               href: resource-management/review-proposed-resources.md
+            - name: Foglalások szerkesztése
+              href: resource-management/edit-existing-bookings.md
         - name: Decentralizált erőforrás-foglalás (hibrid)
           items:
             - name: Csoporttagok hozzáadása a Csoporttag rácsból
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Költségkategóriák beállítása
                   href: expense/set-up-expense-categories.md
+            - name: Munkavégzés személyes kiadásokkal egy költségjelentésen
+              href: expense/personal-expenses-expense-report.md
             - name: Költségjelentések létrehozása
               items:
                 - name: Terjesztések egy költségjelentésen
@@ -370,22 +380,28 @@
           items:
             - name: Helyesbítő naplók létrehozása és megerősítése
               href: actuals/create-confirm-correction-journals.md
-    - name: Proforma számlázás
+    - name: Számlázás
       items:
-        - name: Projekt számlázási elmaradásának kezelése
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Nem meghaladandó állapot és ellenőrzések kezelése
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Proforma projektszámla manuális létrehozása
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Proforma projektszámla kezelése
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Foglaló vagy előleg számlázása
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Proforma projektszámla megerősítése
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Projektszámla-automatizálás konfigurálása
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Számlafeldolgozás áttekintése
+          href: invoicing/post-project-invoices.md
+        - name: Projektszámla-javaslatok kezelése
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Proforma számlázás
+          items:
+            - name: Projekt számlázási elmaradásának kezelése
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Nem meghaladandó állapot és ellenőrzések kezelése
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Proforma projektszámla manuális létrehozása
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Proforma projektszámla kezelése
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Foglaló vagy előleg számlázása
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Proforma projektszámla megerősítése
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Projektszámla-automatizálás konfigurálása
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projekt könyvelése
       items:
         - name: A pénzügyi dimenzió alapértelmezései
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: A vállalatközi számlázás konfigurálása
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Vállalatközi ügyfél- és szállítói számlák létrehozása
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Vállalatközi tranzakciók létrehozása
               href: project-accounting/create-intercompany-transactions.md
+            - name: Vállalatközi ügyfél- és szállítói számlák létrehozása
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Bevételelszámolás
       items:
         - name: Bevételelszámolás áttekintése
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Költségsablonok beállítása
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Bevételi becslések kezelése
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Rögzített árú bevétel becslési projektjei
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Teljesítési költség módszerei
           href: revenue-recognition/cost-complete-methods.md
+        - name: Bevételi becslések kezelése
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Egyszerű központi telepítés – ajánlattól proforma számlázásig
   items:
     - name: Első lépések
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2020. decemberben – Lite központi telepítés – ajánlattól proforma számlázásig
+        - name: Újdonságok 2021. februárban – egyszerű telepítés
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Újdonságok 2021. januárban – egyszerű telepítés
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Újdonságok 2020. decemberben – egyszerű telepítés
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Újdonságok 2020. novemberben – Lite központi telepítés – ajánlattól proforma számlázásig
+        - name: Újdonságok 2020. novemberben – egyszerű telepítés
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projekt értékesítési folyamata
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Munkalebontási struktúra tervezése
           items:
+            - name: Munkalebontási struktúra létrehozása
+              href: project-management/create-wbs.md
             - name: Hozzárendelések létrehozása
               href: project-management/create-assignments.md
         - name: Becslésprojektek
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Csoporttagok karbantartása
               href: project-management/maintain-team-members.md
+        - name: A Feladat rácson való munkával kapcsolatos hibaelhárítás
+          href: project-management/projectplanningUIFAQ.md
         - name: Együttműködés
           items:
             - name: Együttműködés Office-csoportokkal
               href: project-management/collaboration-groups.md
+        - name: Fejlesztői jegyzetek
+          items:
+            - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
+              href: project-management/dev-copy-project.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Javasolt erőforrások áttekintése
               href: resource-management/review-proposed-resources.md
+            - name: Foglalások szerkesztése
+              href: resource-management/edit-existing-bookings.md
         - name: Decentralizált erőforrás-foglalás (hibrid)
           items:
             - name: Csoporttagok hozzáadása a Csoporttag rácsból
@@ -768,11 +798,15 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projektszámla-automatizálás konfigurálása
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Projekt Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+- name: Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
   items:
     - name: Újdonságok
       items:
-        - name: Újdonságok 2020. novemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+        - name: Újdonságok 2021. januárban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Újdonságok 2020. decemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+        - name: Újdonságok 2020. novemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – telepítési útmutató
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -906,6 +940,14 @@
       items:
         - name: A Project Service 3.x frissítési kiadásának ütemezése
           href: psa/version-history-ps.md
+        - name: A 28.5-ös frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-28-5.md
+        - name: A 28-as frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-28.md
+        - name: A 27.5-ös frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-27-5.md
+        - name: A 27-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-27.md
         - name: A 26-os frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-26.md
         - name: A 25-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
@@ -936,7 +978,9 @@
           href: psa/whats-new-ur-13.md
         - name: 'A 12, V3-as frissítési kiadás újdonságai vagy változásai'
           href: psa/whats-new-ur-12.md
-        - name: Újdonságok és változások a Project Service Automation 3.x wave 1 2020-as verziójában
+        - name: Újdonságok és változások a Project Service Automation 3.x verziójának 2021. évi 1. hullámában
+          href: psa/whats-new-2021-wave1.md
+        - name: Újdonságok és változások a Project Service Automation 3.x verziójának 2020. évi 1. hullámában
           href: psa/whats-new-v3-2020-wave1.md
         - name: Újdonságok és változások a Project Service Automation 3. verziójában
           href: psa/whats-new-changed-v3.md
@@ -984,7 +1028,7 @@
               href: psa/project-estimating.md
             - name: Értékesítési becslések és projektek
               href: psa/project-leveraging.md
-            - name: Projekt előrehaladása és költségfogyasztása
+            - name: Projekt előrehaladása és költségfelhasználása
               href: psa/project-tracking.md
             - name: Projektsablonok
               href: psa/project-templates.md
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Projektbeállítások
               href: psa/project-settings.md
+            - name: Munkatervezés a Microsoft Projectben a Project Service bővítmény használatával
+              href: psa/add-in-plan-work-projects.md
         - name: Árképzési- és költségdimenziók
           items:
             - name: Árképzési- és költségdimenziók kezdőlapja
