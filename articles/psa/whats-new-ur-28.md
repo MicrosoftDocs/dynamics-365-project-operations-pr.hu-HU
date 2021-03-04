@@ -1,0 +1,57 @@
+---
+title: Újdonságok vagy változások a Project Service Automation 28-es frissítési kiadásának V3 változatában
+description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 28-os frissítési kiadásában.
+author: ruhercul
+manager: kfend
+ms.service: project-operations
+ms.custom: dyn365-projectservice
+ms.date: 01/26/2021
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 2c50d6bdc033836e1259a2fd12b78015280d8093
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150626"
+---
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="be2cc-103">Újdonságok vagy változások a Project Service Automation 28-es frissítési kiadásának V3 változatában</span><span class="sxs-lookup"><span data-stu-id="be2cc-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+<span data-ttu-id="be2cc-104">Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz.</span><span class="sxs-lookup"><span data-stu-id="be2cc-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="be2cc-105">Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz.</span><span class="sxs-lookup"><span data-stu-id="be2cc-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="be2cc-106">Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis.</span><span class="sxs-lookup"><span data-stu-id="be2cc-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="be2cc-107">A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra.</span><span class="sxs-lookup"><span data-stu-id="be2cc-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="be2cc-108">További információ: [Megoldás telepítése, frissítése vagy eltávolítása](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="be2cc-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="be2cc-109">Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy módosultak a Project Service Automation V3 verzió 28-es frissítéskiadásnál. Ez a verzió a V3.10.46.32 buildszámmal rendelkezik, és 2021 januárjában általánosan elérhető egy önkiszolgáló frissítéssel.</span><span class="sxs-lookup"><span data-stu-id="be2cc-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
+
+## <a name="update-release-28"></a><span data-ttu-id="be2cc-110">28-ös frissítési kiadás</span><span class="sxs-lookup"><span data-stu-id="be2cc-110">Update Release 28</span></span>
+
+### <a name="bug-fixes"></a><span data-ttu-id="be2cc-111">Hibajavítások</span><span class="sxs-lookup"><span data-stu-id="be2cc-111">Bug fixes</span></span>
+
+<span data-ttu-id="be2cc-112">**Idő és költség**</span><span class="sxs-lookup"><span data-stu-id="be2cc-112">**Time and Expense**</span></span>
+
+<span data-ttu-id="be2cc-113">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="be2cc-113">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="be2cc-114">A felhasználók a **Tömeges szerkesztés** segítségével frissíthetik a jóváhagyott és elküldött időbejegyzéseket.</span><span class="sxs-lookup"><span data-stu-id="be2cc-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
+
+<span data-ttu-id="be2cc-115">**Projektmenedzsment**</span><span class="sxs-lookup"><span data-stu-id="be2cc-115">**Project Management**</span></span>
+
+<span data-ttu-id="be2cc-116">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="be2cc-116">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="be2cc-117">Azokban az esetekben, amikor a tevékenység GUID-azonosítóját számként értelmezi, a tevékenységek nem nyithatók meg szerkesztésre **Munkalebontási struktúra** lap menüszalagján található **Tevékenység szerkesztése** használatával.</span><span class="sxs-lookup"><span data-stu-id="be2cc-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
+
+<span data-ttu-id="be2cc-118">**Sales**</span><span class="sxs-lookup"><span data-stu-id="be2cc-118">**Sales**</span></span>
+
+<span data-ttu-id="be2cc-119">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="be2cc-119">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="be2cc-120">Egy nulla hivatkozási kivétel jön létre a **GetEstimatesForProject** beépülő modul meghívásakor.</span><span class="sxs-lookup"><span data-stu-id="be2cc-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
+- <span data-ttu-id="be2cc-121">A mérföldkő rácson **Számlakészként megjelölés** csak részben frissíti az attribútumokat, kivéve a frissített **InvoiceStatus** attribútumot.</span><span class="sxs-lookup"><span data-stu-id="be2cc-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
+
