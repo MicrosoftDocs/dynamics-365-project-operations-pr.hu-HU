@@ -1,12 +1,12 @@
 ---
-title: Használja a Project Service bővítményt munkájának megtervezéséhez a Microsoft Project szolgáltatásban | MicrosoftDocs
-description: Ez a témakör a Microsoft Project Service Microsoft Project bővítményének hozzáadásával, konfigurálásával és használatával kapcsolatban tartalmaz tájékoztatást.
+title: Munka tervezése a Microsoft Projekt programban a Project Service bővítmény segítségével
+description: Ez a témakör a Microsoft Project Service Microsoft Project bővítményének használatával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145991"
+ms.locfileid: "5145946"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Munka tervezése a Microsoft Projekt programban a Project Service Automation bővítmény segítségével
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Munka tervezése a Microsoft Projekt programban a Project Service bővítmény segítségével
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] egyszerűbbé teszi Önnek a projekt tervezését, beleértve a becsléseket is. Meghatározhatja a munkát, így a munka költsége, a ráfordítás és az eladási érték egyértelmű, mivel benyújtották a végleges javaslatot.  
 
- Most telepítheti a(z) [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] rendszert és elvégezheti a tervezési munkát a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] megszokott környezetében. A [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] hatékony tervezési és igazgatási lehetőségek használata, majd a projektterv frissítése a Project Service Automation rendszerben.  
+Telepítheti a(z) [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] rendszert és elvégezheti a tervezési munkát a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] megszokott környezetében. A [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] hatékony tervezési és igazgatási lehetőségek használata, majd a projektterv frissítése a Project Service Automation rendszerben.  
 
 > [!IMPORTANT]
 > - A SharePoint dokumentumkezelési szolgáltatás segítségével tárolhatja a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] fájlokat a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projektekhez, a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rendszergazdának be kell kapcsolni a dokumentumkezelést. 
@@ -44,66 +44,66 @@ ms.locfileid: "5145991"
 
 1.  A Letöltőközpontból letöltheti a Project Service támogatott verziójához készült bővítményt, akár a [V2.X](https://go.microsoft.com/fwlink/?linkid=828268), akár a [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) verziót.  
 
-2.  Kattintson a letöltés hivatkozásra.  
+2.  Válassza ki a letöltés hivatkozását.  
 
-3.  Amikor a letöltés befejeződött, kattintson az **Igen** lehetőségre a bővítmény telepítéséhez.  
+3.  Amikor a letöltés befejeződött, válassza az **Igen** lehetőséget a bővítmény telepítéséhez.  
 
 ## <a name="configure-the-add-in"></a>Bővítmény konfigurálása  
 
-1. Nyissa meg a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rendszert, majd kattintson a **Project Service** fülre.  
+1. Nyissa meg a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rendszert, majd válassza a **Project Service** fület.  
 
-2. Kattintson a **Csatlakozás** lehetőségre.  
+2. Válassza a **Kapcsolódás** lehetőséget.  
 
-3. Adja meg a Bejelentkezési adatait, majd kattintson a **Bejelentkezés** lehetőségre.  
+3. Adja meg a Bejelentkezési adatait, majd válassza a **Bejelentkezés** lehetőséget.  
 
    Most már elkezdheti használni a bővítményt.  
 
 ## <a name="read-from-a-template"></a>Olvassa el a sablonból  
  Olvassa el abban a sablonban, amelyet a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben hozott létre és amelyet a(z) [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rendszerbe másolt a projekttervezés megkezdéséhez. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Projektsablon létrehozása (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  A **Project Service** fülön kattintson az **Olvasás** > **Project Service Automation Projektsablon** lehetőségre.  
+1.  A **Project Service** fülön jelölje ki az **Olvasás** > **Project Service Automation Projektsablon** lehetőséget.  
 
-2.  Válasszon ki egy projektsablont a listából, majd kattintson a **Megnyitás** lehetőségre.  
+2.  Válasszon ki egy projektsablont a listából, majd jelölje ki a **Megnyitás** lehetőséget.  
 
     > [!NOTE]
     >  Alapértelmezés szerint a sablonból a Project programba másolt feladatok manuális ütemezésre vannak beállítva.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] szerepkörök hozzárendelése projekterőforrásokhoz  
 
-1.  Nyisson meg egy projektet, majd kattintson a **Feladat** szalagra.  
+1.  Nyisson meg egy projektet, majd válassza a **Feladat** szalagot.  
 
-2.  Kattintson a **Gantt-diagram** menüre, majd válassza ki az **Erőforrás lap** lehetőséget.  
+2. Jelölje ki a **Gantt-diagram** menüt, majd válassza ki az **Erőforrás lap** lehetőséget.  
 
-3.  Az Erőforrás lapon kattintson a **Project Service Erőforrás-szerepkör** legördülő menüre, és válassza ki a Project Service Automation-szerepkört.  
+3. Az Erőforrás lapon jelölje ki a **Project Service Erőforrás-szerepkör** legördülő menüt, és válassza ki a Project Service Automation-szerepkört.  
 
 ## <a name="staff-your-project-with-resources"></a>Projekt biztosítása erőforrásokkal  
 
-1.  A Project Service fülön válasszon ki egy sort, majd kattintson az **Erőforrások keresése** lehetőségre.  
+1.  A Project Service fülön válasszon ki egy sort, majd jelölje ki az **Erőforrások keresése** lehetőséget.  
 
 2.  Az **Erőforrás lefoglalása** képernyőn válassza ki a projekthez használni kívánt erőforrást.  
 
-3.  Kattintson a **Lefoglalás**, majd az **OK** gombra.  
+3.  Válassza a **Foglalás**, majd az **OK** lehetőséget.  
 
 ## <a name="publish-your-project"></a>Projekt közzététele  
 A projekttervezés befejezésekor a következő lépés a projekt importálása és közzététele a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban.  
 
-A projekt importálása a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programba. A rendszer az árképzés és a csapat létrehozásának folyamatát alkalmazza. Nyissa meg a projektet a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban a létrehozott csoport, projekt becslések és a munkalebontási szerkezet megtekintéséhez. Az alábbi táblázat bemutatja, hogy hol találhatók az eredmények:
+A projekt importálása a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programba. A rendszer az árképzés és a csapat létrehozásának folyamatát alkalmazza. Nyissa meg a projektet a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban a létrehozott csoport, projekt becslések és a munkalebontási szerkezet megtekintéséhez. Az alábbi táblázat bemutatja, hogy hol találhatók az eredmények.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt diagram**   | Importálja a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Munkalebontási struktúra** képernyőjére. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Erőforráslap** |   Importálja a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** képernyőjére.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Felhasználás használata**    |    Importálja a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektbecslések** képernyőjére.     |
 
 **Importáláshoz és a projekt közzétételéhez**  
-1. A **Project Service** fülön kattintson a **Közzététel** > **Új Project Service Automation projekt** lehetőségre.  
+1. A **Project Service** fülön menjen a **Közzététel** > **Új Project Service Automation projekt** lehetőségre.  
 
 2. A **Közzététel a Project Service szolgáltatásban lévő új projekthez** párbeszédpanelen adja meg a **Projekt neve** mező tartalmát, és válassza ki az **Ügyfél** lehetőséget.  
 
-3. Igény szerint ellenőrizze a **Projektterv összekapcsolása a Project Service Automation bővítménnyel** a terv Project fájl Project Service Automation bővítményhez történő csatoláshoz.  
+3. Igény szerint jelölje ki a **Projektterv összekapcsolása a Project Service Automation bővítménnyel** lehetőséget a terv Project fájl Project Service Automation bővítményhez történő csatoláshoz.  
 
-4. Kattintson a **Közzététel** lehetőségre.  
+4. Válassza a **Közzététel** lehetőséget.  
 
    A Project fájl [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programhoz történő csatolása során a projektfájlból főfájl jön létre, és csak olvashatóvá teszi a munkalebontási szerkezetet a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban.  A projektterv módosítása érdekében a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] alkalmazásban kell azokat elkészíteni, és frissítésként kell közzétenni a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben.  
 
@@ -114,21 +114,21 @@ A projekt importálása a [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 - A fájl leválasztása és szerkesztése közvetlenül a Project Service-ben. Alapértelmezés szerint a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programból feltöltött projekt zárolva van, és csak szerkeszteni lehet a Project programban. A fájl [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban történő szerkesztéséhez le kell választani a fájlt.  
 
-### <a name="edit-in-pn_microsoft_project"></a>Szerkesztés a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban  
+### <a name="edit-in-pn_microsoft_project"></a>Szerkesztés [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]ben  
 
-1. A főmenüben kattintson a **Project Service** > **Projektek** lehetőségre.  
+1. A főmenüben menjen a **Project Service** > **Projektek** lehetőségre.  
 
 2. A projektek listájából nyissa meg azt, amelyet létrehozott a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban.  
 
-3. Kattintson a **Megnyitás a MS Project-ben** lehetőségre a menüszalagon. Ez nyitja meg a csatolt főfájlt a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban.  
+3. Jelölje ki a **Megnyitás a MS Project-ben** lehetőséget a menüszalagon. Ez nyitja meg a csatolt főfájlt a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban.  
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>A fájl leválasztása és szerkesztése a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service programban  
 
-1. A főmenüben kattintson a **Project Service** > **Projektek** lehetőségre.  
+1. A főmenüben menjen a **Project Service** > **Projektek** lehetőségre.  
 
 2. A projektek listájából nyissa meg azt, amelyet létrehozott a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban.  
 
-3. Kattintson a **MS Projekt-kapcsolat megszüntetése** lehetőségre a menüszalagon.  
+3. Jelölje ki a **MS Projekt-kapcsolat megszüntetése** lehetőséget a menüszalagon.  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>Project fájl feltöltése a SharePoint vagy az Office Groups programba  
  Feltöltheti a Project fájlt a SharePoint programba és megkeresheti a kapcsolódó dokumentumok alatt a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekthez.  A rendszergazdához kell fordulnia a SharePoint-dokumentumkezelő beállításához, és be kell kapcsolnia a Projekt entitásához. 
@@ -137,42 +137,42 @@ A projekt importálása a [!INCLUDE[pn_project_service_auto](../includes/pn-proj
 
 ### <a name="upload-a-file-for-sharepoint"></a>Fájl feltöltése a SharePoint szolgáltatásba  
 
-1. A főmenüben kattintson a **Project Service** > **Feltöltés** lehetőségre.  
+1. A főmenüben menjen a **Project Service** > **Feltöltés** lehetőségre.  
 
 2. Válassza ki a **Project Service Automation projektdokumentumokhoz** lehetőséget.  
 
 3. A **Megnyitás engedélyezése a következőben: [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** párbeszédpanelen válassza ki az **Igen** vagy **Nem** lehetőséget.  
 
-   - Ha az **Igen** lehetőségre kattint, akkor kiválaszthatja a **Megnyitás a következőben: [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** gombot a Project Service Automation programban, és futtatatja a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programot, illetve betöltheti a Projekt fájlt a SharePoint dokumentumtárból.  
+   - Ha az **Igen** lehetőséget választja, akkor rákattinthat a **Megnyitás a következőben: [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** lehetőségre a Project Service Automation programban, és futtatatja a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programot, illetve betöltheti a Projekt fájlt a SharePoint dokumentumtárból.  
 
-   - Ha a **Nem** lehetőségre kattint, akkor nem fog működni a **Megnyitás a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** programban gombhoz tartozó hivatkozás.  
+   - Ha a **Nem** lehetőséget választja, akkor a **Megnyitás a(z) [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban** hivatkozás nem fog működni.  
 
 4. A [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]-fájl nem található a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban, a **Dokumentumok** alatt, az adott [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projektnél.  
 
 ### <a name="upload-a-file-for-office-groups"></a>Fájl feltöltése az Office csoportokhoz  
 
-1. A főmenüben kattintson a **Project Service** > **Feltöltés** lehetőségre.  
+1. A főmenüben menjen a **Project Service** > **Feltöltés** lehetőségre.  
 
 2. Válassza ki a **Project Service Automation projektdokumentumokhoz** lehetőséget.  
 
 3. A **Megnyitás engedélyezése a következőben: [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** párbeszédpanelen válassza ki az **Igen** vagy **Nem** lehetőséget.  
 
-   - Ha az **Igen** lehetőségre kattint, akkor kiválaszthatja a **Megnyitás a következőben: [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** gombot a Project Service Automation programban, és futtatatja a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programot, illetve betöltheti a Projekt fájlt a SharePoint dokumentumtárból.  
+   - Ha az **Igen** lehetőséget választja, akkor rákattinthat a **Megnyitás a következőben: [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** lehetőségre a Project Service Automation programban, és futtatatja a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programot, illetve betöltheti a Projekt fájlt a SharePoint dokumentumtárból.  
 
-   - Ha a **Nem** lehetőségre kattint, akkor nem fog működni a **Megnyitás a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** programban gombhoz tartozó hivatkozás.  
+   - Ha a **Nem** lehetőséget választja, akkor a **Megnyitás a(z) [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] programban** hivatkozás nem fog működni.  
 
 4. A [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]-fájl nem található a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programban, a **Dokumentumok** alatt, az adott [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projektnél.  
 
 ## <a name="publish--your-project-as-a-template"></a>Projekt közzététele sablonként  
- A projektet elmentheti, de újból is felhasználhatja, ha projektsablonként menti a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben.  A projektsablonok újrafelhasználható projekttervek a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Projektsablon létrehozása (Project Service Automation)](../psa/create-project-template.md)  
+ A projektet elmentheti, de újból is felhasználhatja, ha projektsablonként menti a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben. A projektsablonok újrafelhasználható projekttervek a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben. További információt a [Projektsablon létrehozása (Project Service Automation)](../psa/create-project-template.md) című témakörben talál. 
 
-1. A **Project Service** fülön kattintson a **Közzététel** > **Új Project Service Automation Projektsablon** lehetőségre.  
+1. A **Project Service** fülön menjen a **Közzététel** > **Új Project Service Automation projektsablon** lehetőségre.  
 
 2. A **Közzététel a Project Service sablonban lévő új projekthez** párbeszédpanelen adja meg **Projektsablon neve** mező tartalmát.  
 
-3. Igény szerint ellenőrizze a **Projektterv összekapcsolása a Project Service Automation bővítménnyel** a Project fájl Project [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekthez történő csatoláshoz.  
+3. Igény szerint jelölje ki a **Projektterv összekapcsolása a Project Service Automation bővítménnyel** lehetőséget a Project fájl Project [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekthez történő csatoláshoz.  
 
-4. Kattintson a **Közzététel** lehetőségre.  
+4. Válassza a **Közzététel** lehetőséget.  
 
 A Project fájl [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] programhoz történő csatolása során a projektfájlból főfájl jön létre, és csak olvashatóvá teszi a munkalebontási szerkezetet a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sablonban.  A projektterv módosítása érdekében a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] alkalmazásban kell azokat elkészíteni, és frissítésként kell közzétenni a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerben.
 
@@ -182,52 +182,63 @@ Ha egy projektet a Project Service Automation szolgáltatásban olvasnak be, az 
 
 
 ## <a name="data-synchronization"></a>Adatszinkronizálás
+A jelen szakaszban található táblázatok az entitásadatok Project Service Automation és Microsoft Project desktop-bővítmény közötti szinkronizálásáról nyújtanak tájékoztatást.
 
-A következő táblázat felvázolja, hogyan történik az adatok szinkronizálása a Project Service Automation és a Microsoft Project Desktop bővítmény között.
-
-| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
-| --- | --- | --- | --- |
-| Projektfeladat | Esedékesség dátuma | ● | - |
-| Projektfeladat | Becsült munkamennyiség | ● | - |
-| Projektfeladat | MS Project ügyfél azonosítója | ● | - |
-| Projektfeladat | Fölérendelt feladat | ● | - |
-| Projektfeladat | Project | ● | - |
-| Projektfeladat | Projektfeladat | ● | - |
-| Projektfeladat | Projektfeladat neve | ● | - |
-| Projektfeladat | Erőforrás-kezelő részleg (a 3.0-s verziótól elavult) | ● | - |
-| Projektfeladat | Ütemezett időtartam | ● | - |
-| Projektfeladat | Kezdő dátum | ● | - |
-| Projektfeladat | WBS-azonosító | ● | - |
+### <a name="project-task-entity-table"></a>Projekttevékenység entitástáblája
+A következő táblázat felvázolja, hogyan történik a Projektfeladat entitásadatok szinkronizálása a Project Service Automation és a Microsoft Project Desktop bővítmény között.
 
 | **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
 | --- | --- | --- | --- |
-| Csoporttag | MS Project ügyfél azonosítója | ● | - |
-| Csoporttag | Pozíció neve | ● | - |
-| Csoporttag | projekt | ● | ● |
-| Csoporttag | Projektcsoport | ● | ● |
-| Csoporttag | Erőforrás-kezelő részleg | - | ● |
-| Csoporttag | Szerepkör | - | ● |
+| Projektfeladat | Esedékesség dátuma | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Becsült erőfeszítés | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | MS Project ügyfél azonosítója | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Fölérendelt feladat | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Project | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Projektfeladat | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Projektfeladat neve | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Erőforrás-kezelő részleg (a 3.0-s verziótól elavult) | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Ütemezett időtartam | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | Kezdő dátum | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat | WBS-azonosító | Szinkronizált | Nincs szinkronizálva |
+
+### <a name="team-member-entity-table"></a>Csapattag entitástáblája
+A következő táblázat felvázolja, hogyan történik a Csapattag entitásadatok szinkronizálása a Project Service Automation és a Micros
+
+| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
+| --- | --- | --- | --- |
+| Csoporttag | MS Project ügyfél azonosítója | Szinkronizált | Nincs szinkronizálva |
+| Csoporttag | Pozíció neve | Szinkronizált | Nincs szinkronizálva |
+| Csoporttag | projekt | Szinkronizált | Szinkronizált |
+| Csoporttag | Projektcsoport | Szinkronizált | Szinkronizált |
+| Csoporttag | Erőforrás-kezelő részleg | Nincs szinkronizálva | Szinkronizált |
+| Csoporttag | Szerepkör | Nincs szinkronizálva | Szinkronizált |
 | Csoporttag | Munkaidő | Nincs szinkronizálva | Nincs szinkronizálva |
 
-| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
-| --- | --- | --- | --- |
-| Erőforrás-hozzárendelés | Kezdő dátum | ● | - |
-| Erőforrás-hozzárendelés | Órák száma | ● | - |
-| Erőforrás-hozzárendelés | MS Project ügyfél azonosítója | ● | - |
-| Erőforrás-hozzárendelés | Tervezett munka | ● | - |
-| Erőforrás-hozzárendelés | Project | ● | - |
-| Erőforrás-hozzárendelés | Projektcsoport | ● | - |
-| Erőforrás-hozzárendelés | Erőforrás-hozzárendelés | ● | - |
-| Erőforrás-hozzárendelés | Feladatok | ● | - |
-| Erőforrás-hozzárendelés | Befejezési dátum | ● | - |
+### <a name="resource-assignment-entity-table"></a>Erőforrás-hozzárendelés entitástábla
+A következő táblázat felvázolja, hogyan történik az Erőforrás-hozzárendelés entitásadatok szinkronizálása a Project Service Automation és a Micros
 
 | **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
 | --- | --- | --- | --- |
-| Projektfeladat függőségei | Projektfeladat függősége | ● | - |
-| Projektfeladat függőségei | Hivatkozástípus | ● | - |
-| Projektfeladat függőségei | Elődfeladat | ● | - |
-| Projektfeladat függőségei | Project | ● | - |
-| Projektfeladat függőségei | Utódfeladat | ● | - |
+| Erőforrás-hozzárendelés | Kezdő dátum | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | Órák száma | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | MS Project ügyfél azonosítója | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | Tervezett munka | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | Project | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | Projektcsoport | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | Erőforrás-hozzárendelés | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | Feladatok | Szinkronizált | Nincs szinkronizálva |
+| Erőforrás-hozzárendelés | A mai napig | Szinkronizált | Nincs szinkronizálva |
 
-### <a name="see-also"></a>Kapcsolódó információk  
+### <a name="project-task-dependencies-entity-table"></a>Projekttevékenység függőségek entitástáblája
+A következő táblázat felvázolja, hogyan történik a Projekttevékenység függőségek entitásadatok szinkronizálása a Project Service Automation és a Micros
+
+| **Entitás** | **Mező** | **Microsoft Project – Project Service Automation** | **Project Service Automation – Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektfeladat függőségei | Projektfeladat függősége | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat függőségei | Hivatkozástípus | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat függőségei | Elődfeladat | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat függőségei | Project | Szinkronizált | Nincs szinkronizálva |
+| Projektfeladat függőségei | Utódfeladat | Szinkronizált | Nincs szinkronizálva |
+
+### <a name="additional-resources"></a>További információforrások
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
