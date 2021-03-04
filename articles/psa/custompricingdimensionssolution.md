@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078101"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144642"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Egyéni megoldások létrehozása árképzési dimenziókra
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 > [!IMPORTANT]
-> Az egyéni árképzésidimenzió-változásoknak külön megoldásban kell lenniük. Ez a fontos gyakorlati tanács rugalmasságot biztosít a jövőben a változtatások frissítéséhez vagy eltávolításához szükség szerint, segítséget nyújt munkájának újbóli felhasználásában, és megkönnyíti a módosítások másik példányra való átvitelét. Miután elvégezte az összes szükséges módosítást, exportálja a megoldást **Felügyelt megoldásként** , majd importálja azt más példányokra az árképzési beállítások újbóli felhasználása céljából.
+> Az egyéni árképzésidimenzió-változásoknak külön megoldásban kell lenniük. Ez a fontos gyakorlati tanács rugalmasságot biztosít a jövőben a változtatások frissítéséhez vagy eltávolításához szükség szerint, segítséget nyújt munkájának újbóli felhasználásában, és megkönnyíti a módosítások másik példányra való átvitelét. Miután elvégezte az összes szükséges módosítást, exportálja a megoldást **Felügyelt megoldásként**, majd importálja azt más példányokra az árképzési beállítások újbóli felhasználása céljából.
 
 1. Válassza a **Beállítások** > **Megoldások** opciót, majd az **Új** lehetőséget. 
-2. Nevezze el a megoldást, ( **\<your organization name> árképzési dimenziók** ), írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
+2. Nevezze el a megoldást, (**\<your organization name> árképzési dimenziók**), írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
 
 > ![Egyéni megoldás létrehozása árképzési dimenziókra](media/Creation-of-custom-pricing-dimension-solution.PNG)
   

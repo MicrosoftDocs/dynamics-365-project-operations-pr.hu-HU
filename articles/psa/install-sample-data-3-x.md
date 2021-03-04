@@ -11,14 +11,16 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132426"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144506"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>A Project Service alkalmazás mintaadatok telepítése
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Saját bemutatókörnyezetének felépítéséhez a Microsoft letölthető mintaadat-csomagokat biztosít, amelyek bemutatják az alkalmazások képességeit. Kétféle mintafájlcsomag létezik:
 - hivatkozási/beállítási adatok

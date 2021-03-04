@@ -1,6 +1,6 @@
 ---
-title: A projektek értékesítésének és költségeinek becslése, ha egy foglalható erőforrás több szerepkört tölt ki egy projektben
-description: Ez a témakör információt nyújt arról, hogy az árképzési dimenziók hogyan használhatók fel az árképzésre és a költségszámításra olyan erőforrások esetében, amelyek több szerepkört töltenek ki egy projektben.
+title: A projektek értékesítésének és költségeinek becslése, ha egy foglalt erőforrás több szerepkört tölt be egy projekthez
+description: Ez a témakör információkat tartalmaz arról, hogyan használhatók árképzési dimenziók a több szerepkörrel rendelkező erőforrásra vonatkozó árképzés és költségszámítás támogatására.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078144"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145046"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>A projektek értékesítésének és költségeinek becslése, ha egy foglalható erőforrás több szerepkört tölt ki egy projektben 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>A projektek értékesítésének és költségeinek becslése, ha egy foglalt erőforrás több szerepkört tölt be egy projekthez 
 
-A projektalapú vállalatoknak gyakran szükségük van egy olyan erőforrásra, amely több szerepkört hajt végre a projektben. Az egyes szerepkörök árazása és elszámolása eltérhet, ami azt jelenti, hogy ugyanazon erőforrás ideje a projektre vonatkozóan eltérő pénzügyi becslést kaphat az egyes szerepkörök számla- és költségmértékének függvényében. A Project Service Automation lehetővé teszi, hogy a csoporttagrekordban szereplő értékek a megadott erőforráshoz legyenek beállítva, valamint különböző felülbírálásokat tesz lehetővé a csoporttaghoz rendelt minden egyes feladat esetében.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+A projektalapú vállalatoknak gyakran szükségük van arra, hogy egy erőforrásra több szerepkört hajtson végre egy projekten. Az egyes szerepkörök árazása és elszámolása eltérhet, ami azt jelenti, hogy ugyanazon erőforrás ideje a projektre vonatkozóan eltérő pénzügyi becslést kaphat az egyes szerepkörök számla- és költségmértékének függvényében. A Project Service Automation lehetővé teszi, hogy a csoporttagrekordban szereplő értékek a megadott erőforráshoz legyenek beállítva, valamint különböző felülbírálásokat tesz lehetővé a csoporttaghoz rendelt minden egyes feladat esetében.
 
 A következő példa azt mutatja be, hogyan teszi lehetővé az érték egyszerű felülírása, hogy egy erőforrás több szerepkörrel rendelkezzen a projektben, ahol különböző költség- és számlázási mértékek szerepelnek.
 
@@ -51,16 +53,16 @@ Ismételje meg ezeket a lépéseket a „B” feladat esetében is, és győződ
   > Ha a Project Service Automation demóadatainak használatával hajtja végre ezt a műveletet, jelölje be a **Vezető tanácsadó** lehetőséget a szerepkörhöz, és a **Fabrikam US** lehetőséget a szervezeti egységhez.
 
 3. Jelölje ki a „B” feladatot, és válassza ki a **Feladat szerkesztése** lehetőséget.
-4. A **Feladat részletei** lapon keresse meg a **Szerepkör** és a **Szervezeti egység** mezőket, és adja hozzá a feladatot végrehajtó erőforráshoz szükséges értékeket. Ügyeljen arra, hogy a **Szerepkör** és a **Szervezeti egység** mezőkben szereplő értékek „B” feladat esetében eltérőek legyenek az „A” feladatban megadottaktól. 
+4. A **Feladat részletei** lapon keresse meg a **Szerepkör** és a **Szervezeti egység** mezőket, és adja hozzá a feladatot végrehajtó erőforráshoz szükséges értékeket. Győződjön meg arról, hogy a **Szerepkör** és **Szervezeti egység** mezők értékei eltérnek a B feladat és az A feladat esetében. 
 
   > [!NOTE]
   > Ha a Project Service Automation demóadatainak használatával hajtja végre ezt a műveletet, jelölje be a **Hálózati technikus** lehetőséget a szerepkörhöz, és a **Fabrikam US** lehetőséget a szervezeti egységhez.
 
 5. Mentse és zárja be a **Feladat részletei** lapot. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Csoporttag és becslések viselkedése 
+## <a name="team-member-and-estimates-behavior"></a>Csoporttag és a becslések működése 
 
-1. A **Feladat részletei** lapon a **Csoporttag** lehetőségnél jelölje ki a két általános csoporttagot, majd válassza a **Követelmények létrehozása** lehetőséget. Ez létrehozza az erőforrás-követelményeket. 
+1. A **Feladat részletei** lapon a **Csoporttag** lehetőségnél jelölje ki a két általános csoporttagot, majd válassza a **Követelmények létrehozása** lehetőséget. 
 2. Válassza ki a csoporttag sort a **Vezető tanácsadó** lehetőségnél, majd válassza a **Foglalás** opciót. Megnyílik az ütemezési tábla, és lefoglalja az adott követelménynek megfelelő erőforrást.
 3. Válassza ki a csoporttag sort a **Hálózati technikus** lehetőségnél, majd válassza a **Foglalás** opciót. Megnyílik az ütemezési tábla, és lefoglalja ugyanazt az erőforrást az adott követelménynek.
 
@@ -71,8 +73,4 @@ Ha kibontja a csoporttagrekord sorát, akkor mindkét feladathoz külön hozzár
 ### <a name="estimates-grid"></a>Becslések rács 
 Amikor megnyitja a **Becslések** rácsot, megfigyelheti, hogy az ugyanahhoz az erőforráshoz tartozó hozzárendelések eltérően vannak árazva.
 Az „A” feladatnál az erőforráshoz rendelt hozzárendelés árazása a **Vezető tanácsadó** opció **Szerepkör** attribútumának értéke szerint történik. A „B” feladatnál az ugyanazon erőforráshoz rendelt hozzárendelés árazása a **Hálózati technikus** opció **Szerepkör** attribútumának értéke szerint történik.
-
-
-
-
 

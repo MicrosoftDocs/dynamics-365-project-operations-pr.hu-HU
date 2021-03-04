@@ -2,6 +2,7 @@
 title: Frissítési szempontok - A Microsoft Dynamics 365 Project Service Automation 2.x vagy 1.x verziója a 3. verzióra
 description: Ez a témakör információkat nyújt azokról a szempontokról, amelyeket mérlegelnie kell, amikor a Project Service Automation 2.x vagy 1.x verziójáról a 3-as verzióra frissít.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121716"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144168"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Frissítési szempontok - A PSA 2.x vagy 1.x verziója a 3. verzióra
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation és Field Service
-A Dynamics 365 Project Service Automation és a Dynamics 365 Field Service is a Universal Resourcing Scheduling (URS) megoldást használja az erőforrás-ütemezéshez. Ha a példányában a Project Service Automation és a Field Service szolgáltatás szerepel, akkor azzal tervezzen, hogy mindkét megoldást a legújabb verzióra kell frissítenie (3. x a Project Service Automation és 8.x a Field Service esetében). A Project Service Automation vagy az Field Service frissítése telepíti az URS legújabb verzióját, ami azt jelenti, hogy következetlen viselkedés lehetséges, ha mind a Project Service Automation, mind az Field Service megoldásokat nem frissítik a legújabb verzióra.
+A Dynamics 365 Project Service Automation és a Dynamics 365 Field Service is a Universal Resourcing Scheduling (URS) megoldást használja az erőforrás-ütemezéshez. Ha Project Service Automation és a Field Service megoldások vannak a példányában, akkor mindkét megoldást frissítenie kell a legújabb verzióra. A 3.x verziójú Project Service Automation-höz. A Field Service esetében ez a 8.x verzió. A Project Service Automation vagy a Field Service frissítése telepíteni fogja az URS legújabb verzióját. Ha a Project Service Automation és a Field Service megoldások ugyanabban a példányban nem frissülnek a legújabb verzióra, annak valamilyen inkonzisztens viselkedés lehet az oka.
 
 ## <a name="resource-assignments"></a>Erőforrás-hozzárendelések
 A Project Service Automation 2. és 1. verziójában a feladat-hozzárendeléseket gyermekfeladatokként (más néven sori feladatokként ) tárolták a **Feladatentitásban**, és közvetetten kapcsolódtak az **Erőforrás-hozzárendelés** entitáshoz. A sori feladat látható volt a munkalebontási struktúra (WBS) hozzárendelés előugró ablakában.
@@ -40,9 +44,9 @@ A Project Service Automation 3. verziójában megváltozott a foglalható erőfo
 Ezek a változások befolyásolják minden meglévő projekt frissítését, amelyhez a projektcsoportban megnevezett foglalható erőforrásokhoz és általános erőforrásokhoz vannak hozzárendelve erőforrás-hozzárendelések. Ez a témakör azokat a szempontokat tartalmazza, amelyeket figyelembe kell vennie a projekteknél, amikor a 3. verzióra frissít. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>A megnevezett erőforrásokhoz rendelt feladatok
-Az alapul szolgáló feladat entitás felhasználásával a 2. és az 1. verzió feladatai lehetővé tették a csapat tagjai számára, hogy az alapértelmezésben meghatározott szerepüktől eltérő szerepet is ábrázoljanak. Például Gracie George-ot, aki alapértelmezés szerint a programmenedzser szerepét kapta, hozzá lehet rendelni egy Fejlesztői szereppel bíró feladathoz. A 3. verzióban a megnevezett csapattagok szerepe mindig az alapértelmezés, tehát minden olyan feladat, amelyre Gracie George hozzá van rendelve, a programkezelő alapértelmezett szerepét használja.
+Az alapul szolgáló feladat entitás felhasználásával a 2. és az 1. verzió feladatai lehetővé tették a csapat tagjai számára, hogy az alapértelmezésben meghatározott szerepüktől eltérő szerepet is ábrázoljanak. Például Gracie George-ot, aki alapértelmezés szerint a programmenedzser szerepét kapta, hozzá lehet rendelni egy Fejlesztői szereppel bíró feladathoz. A 3. verzióban a megnevezett csapattagok szerepe mindig az alapértelmezés, tehát minden olyan feladat, amelyre Gracie George hozzá van rendelve, Garcie a programkezelő alapértelmezett szerepét használja.
 
-Ha a 2. és az 1. verzióban az erőforrást az alapértelmezett szerepükön kívüli feladatokhoz rendelt, akkor a megnevezett erőforrás az összes feladat-hozzárendeléshez alapértelmezett szerepet kap, függetlenül a 2. verzióbeli szerepkör-hozzárendeléstől. Ez eltéréseket fog eredményezni a kiszámított becslésekben a 2. vagy 1. verzióról a 3. verzióra, mivel a becsléseket az erőforrás szerepe alapján számítják ki, nem pedig a sor feladat hozzárendelése alapján. Például a 2. verzióban két feladatot rendeltek Ashley Chinn-hez. Az 1. feladat online feladatában a Fejlesztő és a 2. feladatban a Programkezelő szerepe van. Ashley Chinn alapértelmezett szerepe a Programmenedzser.
+Ha a 2. és az 1. verzióban az erőforrást az alapértelmezett szerepükön kívüli feladatokhoz rendelt, akkor a megnevezett erőforrás az összes feladat-hozzárendeléshez alapértelmezett szerepet kap, függetlenül a 2. verzióbeli szerepkör-hozzárendeléstől. Ez a hozzárendelés eltéréseket fog eredményezni a kiszámított becslésekben a 2. vagy 1. verzióról a 3. verzióra, mivel a becsléseket az erőforrás szerepe alapján számítják ki, nem pedig a sor feladat hozzárendelése alapján. Például a 2. verzióban két feladatot rendeltek Ashley Chinn-hez. Az 1. feladat online feladatában a Fejlesztő és a 2. feladatban a Programkezelő szerepe van. Ashley Chinn alapértelmezett szerepe a Programmenedzser.
 
 ![Több erőforrás hozzárendelve egy erőforráshoz](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ A 3. verzióra való frissítéskor a sorfeladatok helyébe erőforrás-hozzáre
 
 ![Erőforrás-hozzárendelések](media/resource-assignment-v2-05.png)
 
-Mivel a becslések az erőforrás alapértelmezett szerepén alapulnak, az értékesítési és költségbecslések változhatnak. Vegye figyelembe, hogy a következő ábrán már nem látja a **Fejlesztő** szerepet, mivel a szerep most a foglalható erőforrás alapértelmezett szerepéből származik.
+Mivel a becslések az erőforrás alapértelmezett szerepén alapulnak, az értékesítési és költségbecslések változhatnak. A következő ábrán már nem látja a **Fejlesztő** szerepet, mivel a szerep most a foglalható erőforrás alapértelmezett szerepéből származik.
 
 ![Alapértelmezett szerepek költségbecslése](media/resource-assignment-cost-estimate-06.png)
 ![Alapértelmezett szerepek eladási becslése](media/resource-assignment-sales-estimate-07.png)
 
-A frissítés befejezése után szerkesztheti a csapattagok szerepét úgy, hogy az eltérjen a hozzárendelt alapértelmezettől. Ha azonban megváltoztatja a csapattagok szerepét, akkor az megváltozik minden hozzárendelt feladatban, mivel a 3. verzióban a csapattagok számára már nem engedélyezett több szerepkör kiosztása.
+A frissítés befejezése után szerkesztheti a csapattagok szerepét úgy, hogy az eltérjen a hozzárendelt alapértelmezettől. Ha azonban megváltoztatja a csapattagok szerepét, akkor az megváltozik minden hozzárendelt feladatban, mivel a 3. verzióban a csapattagoknak nem osztható ki több szerepkör.
 
 ![Erőforrás szerep frissítése](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ A becslések nézetben láthatja a szervezeti egységet.
  
 A frissítés befejezése után az általános csapattagnak megfelelő vonali feladatban lévő szervezeti egységet hozzáadják az általános csapattaghoz, és a vonali feladatot eltávolítják. Emiatt azt javasoljuk, hogy a frissítés előtt hozzon létre vagy generálja újra a csoportot minden olyan projekthez, amely általános erőforrásokat tartalmaz.
 
-Az olyan feladatok esetén, amelyeket egy olyan szerv-egységgel rendelnek hozzá, amely eltér a szerződéses projekt szervezeti egységétől, és nem alakult ki egy csapat, az frissítés általános csoporttagot hoz létre a szerephez, de a projekt a csapattag szervezeti egységéhez. Visszatérve a Z Projekt példájára, ez azt jelenti, hogy a Contoso US szerződéses szervezeti egységet és a megvalósítási szakaszban lévő projektterv-tesztelési feladatokat a Contoso Indiához rendelt szervezeti egységgel műszaki tanácsadóként látják el. Az integrációs teszt feladat, amely a végrehajtási szakasz után fejeződik be, a Műszaki tanácsadó szerepkörbe kerül. Az org egység Contoso USA, és nem hoztak létre csapatot. A Frissítés létrehoz egy általános csoporttagot, egy műszaki tanácsadót, akinek mindhárom feladat kijelölt órája van, és a Contoso USA szervezeti egységét, a projekt szerződéses szervezeti egységét.   
+Az olyan feladatok esetén, amelyeket egy olyan szerv-egységgel rendelnek hozzá, amely eltér a szerződéses projekt szervezeti egységétől, és nem alakult ki egy csapat, az frissítés általános csoporttagot hoz létre a szerephez, de a projekt a csapattag szervezeti egységéhez. Visszatérve a Z Projekt példájára, a Contoso US szerződéses szervezeti egységet és a megvalósítási szakaszban lévő projektterv-tesztelési feladatokat a Contoso Indiához rendelt szervezeti egységgel műszaki tanácsadóként látják el. Az integrációs teszt feladat, amely a végrehajtási szakasz után fejeződik be, a Műszaki tanácsadó szerepkörbe kerül. Az org egység Contoso USA, és nem hoztak létre csapatot. A Frissítés létrehoz egy általános csoporttagot, egy műszaki tanácsadót, akinek mindhárom feladat kijelölt órája van, és a Contoso USA szervezeti egységét, a projekt szerződéses szervezeti egységét.   
  
 A különféle erőforrás-ellátó szervezeti egységek alapértelmezett értékének megváltoztatása a nem létrehozott csoporttagoknál az az oka, hogy a frissítés előtt generáljunk vagy generáljunk újból minden olyan projektet, amely általános erőforrásokat tartalmaz, hogy az org egység-hozzárendelések ne vesszenek el.
 

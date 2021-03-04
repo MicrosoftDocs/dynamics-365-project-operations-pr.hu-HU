@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078286"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144596"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Új egyéni entitás-űrlapok hozzáadása (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Mező típusa 
 
-Dynamics 365 Project Service Automation a **Típus** ( **msdyn\_ordertype** ) mezőn és a Lehetőségek, Árajánlatok, Megrendelések és Számlák típusú entitások mezője alapján különbözteti meg ezeknek a **munkaalapú** az entitásoknak a verzióit az **elemalapú** és a **szolgáltatásalapú** verzióktól. Az entitások munkaalapú változatát a PSA kezeli. Az ügyfél oldalán és a kiszolgáló oldalán számos üzleti logika megoldása a **Típus** mezőtől függ. Ezért fontos, hogy az entitások létrehozásakor a program a megfelelő értékkel inicializálja a mezőt. A helytelen értékek helytelen viselkedést okozhatnak, és előfordulhat, hogy bizonyos üzleti logika nem működik megfelelően.
+Dynamics 365 Project Service Automation a **Típus** (**msdyn\_ordertype**) mezőn és a Lehetőségek, Árajánlatok, Megrendelések és Számlák típusú entitások mezője alapján különbözteti meg ezeknek a **munkaalapú** az entitásoknak a verzióit az **elemalapú** és a **szolgáltatásalapú** verzióktól. Az entitások munkaalapú változatát a PSA kezeli. Az ügyfél oldalán és a kiszolgáló oldalán számos üzleti logika megoldása a **Típus** mezőtől függ. Ezért fontos, hogy az entitások létrehozásakor a program a megfelelő értékkel inicializálja a mezőt. A helytelen értékek helytelen viselkedést okozhatnak, és előfordulhat, hogy bizonyos üzleti logika nem működik megfelelően.
 
 ## <a name="automatic-form-switching"></a>Automatikus űrlapváltás
 
@@ -37,7 +39,7 @@ Az automatikus űrlapátváltás logikája **a formId** és a **msdyn\_ordertype
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Egyéni űrlapok hozzáadása és az űrlapátváltás logikájának bekapcsolása
 
-A következő példa azt mutatja be, hogyan vehetők fel egyéni űrlapok, **Saját projektinformációk** , úgy, hogy munka-alapú lehetőségekkel működjön. Ugyanez a folyamat használható az egyéni űrlapok hozzáadására, hogy az ajánlatokat, megrendeléseket és számlákat használják.
+A következő példa azt mutatja be, hogyan vehetők fel egyéni űrlapok, **Saját projektinformációk**, úgy, hogy munka-alapú lehetőségekkel működjön. Ugyanez a folyamat használható az egyéni űrlapok hozzáadására, hogy az ajánlatokat, megrendeléseket és számlákat használják.
 
 A következő lépések végrehajtásával hozhatja létre a **Projektinformációk** űrlap egyéni verzióját.
 
@@ -47,7 +49,7 @@ A következő lépések végrehajtásával hozhatja létre a **Projektinformáci
     > [!IMPORTANT]
     > Ne távolítsa el a parancsfájlokat. Ellenkező esetben előfordulhat, hogy egyes adatok hibásan lesznek inicializálva.
 
-3. Ellenőrizze, hogy a **Típus** ( **msdyn\_ordertype** ) mező szerepel-e az űrlapon. 
+3. Ellenőrizze, hogy a **Típus** (**msdyn\_ordertype**) mező szerepel-e az űrlapon. 
 
     > [!IMPORTANT]
     > Ne távolítsa el ezt a mezőt. Ellenkező esetben az inicializációs parancsfájlok sikertelenek lesznek.

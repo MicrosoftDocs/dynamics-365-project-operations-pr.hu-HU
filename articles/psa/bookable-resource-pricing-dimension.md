@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078191"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145001"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Foglalható erőforrás használata árazási dimenzióként
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ez a témakör a foglalható erőforrások árazási dimenzióként való használatáról tartalmaz tájékoztatást. Mielőtt elkezdené, ha még nem hozott létre árképzési megoldást, akkor létre kell hoznia egy újat. Ha már van árképzési dimenziós megoldása, akkor megváltoztathatja azt. Ha még nem hozott létre új árképzési dimenziós megoldást a szervezetének, akkor hajtsa végre az [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md) témakörben szereplő eljárásokat.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Foglalható erőforrás hozzáadása az űrlapokhoz és a nézetekhez
@@ -52,12 +55,12 @@ Nyissa meg a Megoldáskezelő alkalmazást az árképzési dimenzió megoldásho
 2. Adja hozzá a **Foglalható erőforrás** elemet az árázi dimenziók listájához **msdyn_bookableresource** elemként. 
 3. Jelölje meg a környezetet, amelyben a foglalható erőforrás árazási dimenzióként működik, és állítsa be a **Költségre alkalmazható** és az **Értékesítésre alkalmazható** értékeket.
 4. A **Dimenzió típusa** mezőben válassza a **Mennyiségalapú** lehetőséget. 
-5. Válassza ki a foglalható erőforrás költség- és értékesítési prioritását. Rendszerint, ha árazási dimenzióként kerül alkalmazásra, a foglalható erőforrás a legmagasabb prioritással rendelkezik, így ennek **1** -re (vagy **0** -ra, a prioritás számolásának módjától függően) állítsa garantálja azt a viselkedést.
+5. Válassza ki a foglalható erőforrás költség- és értékesítési prioritását. Rendszerint, ha árazási dimenzióként kerül alkalmazásra, a foglalható erőforrás a legmagasabb prioritással rendelkezik, így ennek **1**-re (vagy **0**-ra, a prioritás számolásának módjától függően) állítsa garantálja azt a viselkedést.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Az árazási dimenziók mezőneveinek beállítása
 
 Ha egy árazási dimenzió mezőneve a **Szerepkör** táblázatban eltér bármely olyan entitásban lévő mezőnevétől, ahol az ár nemteljesítésnek dolgoznia kell, az árazási dimenzió bejegyzésének értesülnie kell az eltérő nevekről.    
-Foglalható erőforrás esetén, a **Projektcsoport tagjai** entitás mezőneve ( **msdyn_bookableresourceid** ) némileg eltér attól, ahogy a **Szerepkör ára** entitáson ( **msdyn_bookableresource** ) szerepel. Az **msydn_bookableresource** árazási dimenzió bejegyzését erről értesíteni kell. 
+Foglalható erőforrás esetén, a **Projektcsoport tagjai** entitás mezőneve (**msdyn_bookableresourceid**) némileg eltér attól, ahogy a **Szerepkör ára** entitáson (**msdyn_bookableresource**) szerepel. Az **msydn_bookableresource** árazási dimenzió bejegyzését erről értesíteni kell. 
 1. Ehhez kattintson duplán az **Árazási dimenziók** rácsban található sorra; ekkor megnyílik az **msdyn_bookableresource** dimenzió oldala.
 2. A dimenzió oldalán a **Kapcsolódó** lapon kattintson az **Árdimenziók mezőnevei** lehetőségre.
 

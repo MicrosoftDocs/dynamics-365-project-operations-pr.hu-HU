@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120231"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144416"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Használja az Ütemezési táblát a projekt erőforrásainak lefoglalásához
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Amellett, hogy egy projekten belül erőforrásokat foglal le egy projekten belül, az Ütemezési táblán is foglalhat keményen vagy puhán.
 

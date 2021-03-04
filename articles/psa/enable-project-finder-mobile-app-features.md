@@ -3,6 +3,7 @@ title: A Project Finder Mobile alkalmazás engedélyezése
 description: A Project Finder Mobile alkalmazás funkcióinak engedélyezése a Project Service szolgáltatásban
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132966"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144551"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>A Project Finder Mobile alkalmazás funkcióinak engedélyezése (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Erőforrásai a telefonjukon a Project Finder Mobile alkalmazás és a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] segítségével találhatják meg az új projekteket, illetve frissíthetik és alakíthatják készségeiket.  
   
  Az alkalmazás elérhető [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)]-telefon és [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] készülékekre.  
-  
- Be kell állítani néhány opciót szervezeti egysége paraméterbeállításainál, hogy a felhasználók megtekinthessék a projektek erőforráskövetelményeit, és frissíthessék készségeiket.  
+    
+ Ahhoz, hogy a felhasználók megtekinthessék a projekt erőforráskövetelményeit, és frissíthessék készségeiket, be kell állítani néhány lehetőséget szervezeti egysége paraméterbeállításainál.
   
 > [!NOTE]
 >  A Project Finder Mobile alkalmazás csak a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] rendszerrel működik együtt, a helyszíni telepítésekkel nem.  
@@ -57,8 +60,8 @@ Erőforrásai a telefonjukon a Project Finder Mobile alkalmazás és a [!INCLUDE
   
 |Címzett|Esemény|  
 |---------------|-----------|  
-|Projektvezető|-   Amikor egy erőforrás regisztrál egy projektre a Project Finder Mobile alkalmazás segítségével.|  
-|Erőforrás|-   Ha egy másik erőforrás már teljesítette a projektmunkát, amelyre az erőforrás regisztrált.<br />-   Ha a készségjóváhagyási kérelmüket elfogadták vagy visszautasították.<br />-   Ha a projektregisztrálási kérelmüket elfogadták vagy visszautasították.|  
+|Projektvezető|- Egy erőforrás feliratkozik egy projektre a Project Finder Mobile alkalmazás segítségével.|  
+|Erőforrás|- Egy másik erőforrás már teljesítette a projektmunkát, amelyre az erőforrás feliratkozott.<br />- A készségjóváhagyási kérelmüket elfogadták vagy visszautasították.<br />- A projektfeliratkozási kérelmüket elfogadták vagy visszautasították.|  
   
 ## <a name="privacy-notice"></a>Adatvédelmi nyilatkozat  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
