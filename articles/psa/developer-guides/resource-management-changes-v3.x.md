@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078283"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148646"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Erőforrás-menedzsment változások (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 A témakör szakaszai információkat tartalmaznak a Dynamics 365 Project Service Automation 3.x. változat erőforrás-kezelési területén végrehajtott változásokról.
 
 ## <a name="project-estimates"></a>Projektbecslések
 
-Az **msdyn\_projecttask** entitás **(Projektfeladat** ) helyett a projektbecslések az **msdyn\_resourceassignment** entitáson alapulnak ( **Erőforrás hozzárendelés** ). Az erőforrás-hozzárendelések váltak az igazság forrásává a feladatok ütemezése és árazása során.
+Az **msdyn\_projecttask** entitás **(Projektfeladat**) helyett a projektbecslések az **msdyn\_resourceassignment** entitáson alapulnak (**Erőforrás hozzárendelés**). Az erőforrás-hozzárendelések váltak az igazság forrásává a feladatok ütemezése és árazása során.
 
 ## <a name="line-tasks"></a>Sori feladatok
 
@@ -65,7 +67,7 @@ A PSA 3.x-ben a hozzá nem rendelt hozzárendelés egy olyan hozzárendelés, am
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>A mezők ütemezése a Project Task entitáson
 
-Az **msdyn\_projecttask** entitás mezői elavultak vagy átkerültek az **msdyn\_resourceassignment** entitásba, vagy most hivatkoznak ezekre a **msdyn\_projectteam** entitásból ( **Project Team Member** ).
+Az **msdyn\_projecttask** entitás mezői elavultak vagy átkerültek az **msdyn\_resourceassignment** entitásba, vagy most hivatkoznak ezekre a **msdyn\_projectteam** entitásból (**Project Team Member**).
 
 | Elavult mező az msdyn\_projecttaskban (Project Task) | Új mező az msdyn\_resourceassignmentben (erőforrás-hozzárendelés) | Megjegyzés |
 |---|---|---|
@@ -77,7 +79,7 @@ Az **msdyn\_projecttask** entitás mezői elavultak vagy átkerültek az **msdyn
 
 ## <a name="schedule-contour"></a>Ütemezéskontúr
 
-Az ütemezéskontúr van tárolva a **Tervezett munka** mezőben ( **msdyn\_plannedwork** ) az egyes **Erőforrás-hozzárendelés** egységekben ( **msdyn\_resourceassignment** ).
+Az ütemezéskontúr van tárolva a **Tervezett munka** mezőben (**msdyn\_plannedwork**) az egyes **Erőforrás-hozzárendelés** egységekben (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktúra
 
@@ -139,7 +141,7 @@ Ebben a példában a feladatot két erőforráshoz rendelik, és automatikusan �
 
 ## <a name="pricing-dimensions"></a>Árképzési dimenziók
 
-A PSA 3.x alkalmazásban az erőforrás-specifikus árazási dimenziós mezőket (például **Szerep** és **Szervezeti egység** ) eltávolították a **msdyn\_projecttask** entitásból. Ezek a mezők előhívhatók a megfelelő projekt csapat tagjából ( **msdyn\_projectteam** ) a erőforrás hozzárendelés ( **msdyn\_resourceassignment** ), amikor a projekt becslések keletkeznek. Egy új mező, az **msdyn\_organizationalunit** került hozzáadásra az **msdyn\_projectteam** entitáshoz.
+A PSA 3.x alkalmazásban az erőforrás-specifikus árazási dimenziós mezőket (például **Szerep** és **Szervezeti egység**) eltávolították a **msdyn\_projecttask** entitásból. Ezek a mezők előhívhatók a megfelelő projekt csapat tagjából (**msdyn\_projectteam**) a erőforrás hozzárendelés (**msdyn\_resourceassignment**), amikor a projekt becslések keletkeznek. Egy új mező, az **msdyn\_organizationalunit** került hozzáadásra az **msdyn\_projectteam** entitáshoz.
 
 | Elavult mező az msdyn\_projecttaskban (Project Task) | A helyette használt msdyn\_projectteam (Project Team Member) |
 |---|---|

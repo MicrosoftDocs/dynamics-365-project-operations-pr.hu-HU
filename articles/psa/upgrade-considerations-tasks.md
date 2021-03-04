@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121806"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149546"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Frissítse a munka lebontási struktúrájával kapcsolatos szempontokat
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ez a témakör a munka bontási struktúrájának a Project Service Automation 2.x-ről a 3.x-re történő frissítéséről nyújt információkat. Ez a témakör a sikeres frissítéshez szükséges Project Service Automation (PSA) projekt egészségi állapotát határozza meg. Információ van a közös blokkolási körülményekről is, amelyek miatt a frissítés meghiúsul. A projektfeladatok és azok funkcióinak a projektütemezésen belüli meghatározásáról lásd: [Projektütemezések](project-creating.md).
 
 ## <a name="key-entities"></a>Kulcsfontosságú entitások
