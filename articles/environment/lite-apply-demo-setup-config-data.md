@@ -3,17 +3,17 @@ title: Bemutató beállítások és konfigurációs adatok alkalmazása – Lite
 description: Ez a témakör a bemutató beállítás és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642096"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089122"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Bemutató beállítások és konfigurációs adatok alkalmazása a Project Operations alkalmazáshoz – Lite 
 
@@ -32,47 +32,45 @@ A konfiguráció megkezdése előtt rendelkeznie kell egy Common Data Service (C
 2. Keresse meg a *ProjOpsDemoDataSetupAndMaster - Integrated CMT* mappát, és futtassa a végrehajtható *DataMigrationUtility* fájlt.
 3. A Common Data Service konfigurációáttelepítő (CMT) varázsló 1. oldalán válassza az **Adatok importálása** lehetőséget, majd válassza a **Folytatás** lehetőséget.
 
-![Konfiguráció-áttelepítés](./media/1ConfigurationMigration.png)
+    ![Konfiguráció-áttelepítés](./media/1ConfigurationMigration.png)
 
 4. A CMT varázsló 2. oldalán jelölje ki a **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
 5. Jelölje be az **Elérhető szervezetek listájának megjelenítése** és a **Speciális megjelenítése** jelölőnégyzeteket.
 6. Válassza ki a bérlő régióját, adja meg a hitelesítő adatait, majd válassza a **Bejelentkezés** lehetőséget.
 
-![Konfiguráció bejelentkezés](./media/2ConfigurationSignin.png)
+   ![Konfiguráció bejelentkezés](./media/2ConfigurationSignin.png)
 
 7. A 3. oldalon, a bérlő szervezeteinek listájából válassza ki azt a szervezetet, amelybe importálni szeretné a bemutató adatokat, és válassza a **Bejelentkezés** lehetőséget.
 8. A 4. oldalon jelölje ki a *MasterAndSetupData* zip-fájlt a kicsomagolt *ProjOpsDemoDataSetupAndMaster - Integrated CMT* mappából.
 
-![Zip-fájl](./media/3ZipFile.png)
+   ![Zip-fájl](./media/3ZipFile.png)
 
-![Jelöljön ki fájlt](./media/4SelectAFile.png)
+   ![Jelöljön ki fájlt](./media/4SelectAFile.png)
 
 9. A zip-fájl kijelölése után válassza az **Adatok importálása** lehetőséget.
 
-![Adatok beolvasása](./media/5ImportData.png)
+   ![Adatok beolvasása](./media/5ImportData.png)
 
 10. Az Importálás a hálózat sebességétől függően körülbelül két-tíz percig tart. Az befejeződése után lépjen ki a CMT varázslóból. 
 11. Ellenőrizze a szervezet adatait a következő 20 entitásban:
 
--   Pénznem
--   Fiók
--   Szervezeti egység
--   KAPCSOLATTARTÓ
--   Adócsoport
--   Ügyfélcsoport
--   Kiszerelés
--   Egységcsoport
--   Árlista
--   Projektparaméter árlistája 
--   Számlázási gyakoriság
--   Lefoglalható erőforrás kategóriája
--   Tranzakció kategóriája
--   Költségkategória
--   Szerepkörár
--   Tranzakciókategória ára
--   Jellemző
--   Lefoglalható erőforrás
--   Lefoglalható erőforrás kategóriatársítása
--   Lefoglalható erőforrás jellemzője
+    -   Pénznem
+    -   Fiók
+    -   Szervezeti egység
+    -   KAPCSOLATTARTÓ
+    -   Kiszerelés
+    -   Egységcsoport
+    -   Árlista
+    -   Projektparaméter árlistája 
+    -   Számlázási gyakoriság
+    -   Lefoglalható erőforrás kategóriája
+    -   Tranzakció kategóriája
+    -   Költségkategória
+    -   Szerepkörár
+    -   Tranzakciókategória ára
+    -   Jellemző
+    -   Lefoglalható erőforrás
+    -   Lefoglalható erőforrás kategóriatársítása
+    -   Lefoglalható erőforrás jellemzője
 
-![Importálás befejezése](./media/6CompleteImport.png)
+    ![Importálás befejezése](./media/6CompleteImport.png)

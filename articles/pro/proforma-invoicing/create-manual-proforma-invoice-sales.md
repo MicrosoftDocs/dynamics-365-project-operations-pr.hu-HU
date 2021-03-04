@@ -5,21 +5,22 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176389"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764506"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Kézi proforma számla létrehozása – Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Dynamics 365 a Project Operations alkalmazásban igény szerint manuálisan is létrehozhatók a proforma számlák. A **Projektszerződések** listából vagy a **Projektszerződés** részletei oldalon manuálisan létrehozhatja a proforma számlát.
+A Dynamics 365 Project Operations-ben a proforma számlák szükség szerint manuálisan is létrehozathatóak. A **Projektszerződések** listából vagy a **Projektszerződés** részletei oldalon manuálisan létrehozhatja a proforma számlát.
 
 ##  <a name="project-contracts-list-page"></a>Projektszerződések listaoldala
 
@@ -31,6 +32,6 @@ Az összes létrehozott projektszámla elérhető a **Számla** oldalon az **Sz�
 
 ## <a name="project-contract-details-page"></a>Projektszerződés részletei oldala
 
-A proforma számla a **Projektszerződés** részletek oldaláról is létrehozható , amely létrehozza a számlát az adott projekt szerződéshez. A rendszer ellenőrzi, hogy a projektszerződés rendelkezik-e **Számlázásra kész** elmaradással a mai dátum előtt. Ezekből a szerződésekből a rendszer az egyes szerződéssorok ügyfeleinek számától függően létrehoz egy vázlat proforma számlát.
+Proforma számla is létrehozható a **Projektszerződés** részletei oldalon. A rendszer jóváhagyja azt a projektet, amely **Számlázásra kész** elmaradással rendelkezik a mai dátum előtt. Ezekből a szerződésekből a rendszer az egyes szerződéssorok ügyfeleinek számától függően létrehoz egy vázlat proforma számlát.
 
-Ha egyetlen proforma számla létre lett hozva, megnyílik a **Számla** lap. Ha a projektszerződéshez több számlát hoz létre, a **Számlák** listaoldala nyílik meg, és megjeleníti az összes létrehozott számlát.
+Ha egyetlen proforma számla létre lett hozva, megnyílik a **Számla** lap. Ha az adott projektszerződéshez több számlát is létrehoztak, akkor megnyílik a **Számlák** listaoldal, és megjelenik az összes létrehozott számla.

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700683"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727883"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -24,6 +24,8 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 
 - Project Operations a Dataverse-környezet 4.5.0.134 verzióján
 - Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.15-es verziójában
+
+A kiadás frissítésével kapcsolatban a [Project Operations frissítése a pénzügyi környezetben](ur5-nonstocked-installation.md) szakaszban talál további információkat.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 Ez a kiadás a következő funkciókat tartalmazza:

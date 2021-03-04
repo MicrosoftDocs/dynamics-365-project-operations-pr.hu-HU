@@ -3,17 +3,18 @@ title: Új környezet kiépítése
 description: Ez a témakör az új Project Operations-környezet kialakításának módjával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642977"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727793"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
@@ -60,17 +61,15 @@ A következő lépésekkel engedélyezheti az automatizált Project Operations-k
 
 ![Telepítési hozzájárulás](./media/2DeploymentConsent.png)
 
-7. Töltse ki a többi kötelező mezőt a varázslóban, és erősítse meg a telepítést. A környezet kiépítési ideje a környezet típusától függően változik. A kiépítés akár hat óráig is eltarthat.
+7. Választható – Bemutató adatok alkalmazása a környezetre. Menjen a **Speciális beállítások** lehetőségre, válassza az **SQL Database konfiguráció testreszabása** lehetőséget, és állítsa be az **Alkalmazásadatbázis adathalmazának megadása** lehetőséget **Bemutató** lehetőségre.
+
+8. Töltse ki a többi kötelező mezőt a varázslóban, és erősítse meg a telepítést. A környezet kiépítési ideje a környezet típusától függően eltér. A kiépítés akár hat óráig is eltarthat.
 
   A telepítés sikeres végrehajtása után a környezet **Telepített** állapottal jelenik meg.
 
-8. A környezet sikeres telepítésének ellenőrzéséhez válassza a **Bejelentkezés** lehetőséget, és jelentkezzen be a környezetbe a megerősítéshez.
+9. A környezet sikeres telepítésének megerősítéséhez válassza a **Bejelentkezés** lehetőséget, majd a megerősítéshez jelentkezzen be a környezetbe.
 
 ![A  környezetek részletei](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance bemutató adatainak alkalmazása (nem kötelező lépés)
-
-A Project Operations Finance bemutató adatait a 10.0.13-as szervizkiadású felhőben szolgáltatott környezethez az [ebben a cikkben](resource-apply-finance-demo-data.md) leírtak szerint alkalmazhatja.
 
 ## <a name="apply-updates-to-the-finance-environment"></a>A Finance-környezet frissítéseinek alkalmazása.
 
@@ -151,6 +150,21 @@ Az entitások alkalmazása után az összes elérhető leképezés megjelenik a 
 A frissítés megközelítőleg 20 percet vesz igénybe. A rendszer értesítést küld, amikor elkészült.
 
 ![Frissítés megerősítése](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>A Dataverse Project Operations biztonsági beállításainak frissítése
+
+1. Menjen a Project Operations lehetőségre a Dataverse-környezetben. 
+2. Válassza a **Beállítások** > **Biztonság** > **Biztonsági szerepkörök** elemet. 
+3. A **Biztonsági szerepkörök** oldalon, a szerepkörök listájából válassza ki a **kettős írású alkalmazásfelhasználót**, majd válassza az **Egyéni entitások** fület.  
+4. Ellenőrizze, hogy rendelkezik-e a szerepkörhöz **Olvasás** és **Hozzáfűzés** jogosultságokkal a következőhöz:
+      
+      - **Pénznem árfolyamának típusa**
+      - **Partnerek diagramja**
+      - **Pénzügyi naptár**
+      - **Főkönyv**
+
+5. A biztonsági szerepkör frissítése után válassza a **Beállítások** > **Biztonság** > **Csoportok** lehetőséget, és válassza ki az alapértelmezett csoportot a **Helyi vállalattulajdonos** csoportnézetben.
+6. Válassza a **Szerepkörök kezelése** lehetőséget, és ellenőrizze, hogy az alkalmazás **kettős írású alkalmazásfelhasználó** biztonsági jogosultsága érvényes-e erre a csoportra.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Project Operations kettős írás leképezéseinek futtatása
 

@@ -1,9 +1,9 @@
 ---
-title: A projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
+title: Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe
 description: Ez a témakör ismerteti azt a sablont és azokat az alapul szolgáló feladatokat, amelyek a szerződések és a projektek közvetlenül a Microsoft Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642636"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764822"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>A projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ A rendelkezésre álló sablonok eléréséhez a Microsoft Power Apps felügyele
 A következő sablonok és a mögöttes feladatok segítségével szinkronizálhatja a projektszerződéseket és projekteket a Project Service Automation alkalmazásból a Finance rendszerbe:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrálás a Dynamics 365 Project Service Automation v2.x verzióval
-- **A sablon neve az adatintegrációban:** Projektek és szerződések (PSA – Fin és Ops)
+- A **Sablon neve az Adatintegrációban:** Projektek és szerződések (Project Service Automation rendszerből a Pénzügybe)
 - **A feladat neve a projektben:**
 
-    - Projektszerződések PSA – Fin és Ops
-    - Projektek PSA – Fin és Ops
-    - Projektszerződéssorok PSA – Fin és Ops
-    - Projektszerződéssor mérföldkövei PSA – Fin és Ops
+    - Projektszerződések Project Service Automation rendszerből a Pénzügybe
+    - Projektek – Project Service Automation rendszerből a Pénzügybe
+    - Projekt szerződéssorok – Project Service Automation rendszerből a Pénzügybe
+    - Projekt szerződéssor-mérföldkövek – Project Service Automation rendszerből a Pénzügybe
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrálás a Dynamics 365 Project Service Automation v3.x verzióval
 A Project Service Automation alkalmazásban egy sémaváltás történt, amely hatással van a projektszerződéssor mérföldkövének sablonjára, és a sablon v2 verziójának használatára van szükség a Project Service Automation v3.x alkalmazásnak a Dynamics 365 alkalmazással való integrálásához.
 
-- **A sablon neve az adatintegrációban:** Projektek és szerződések (PSA 3.x – Fin és Ops) – v2
+- A **Sablon neve az Adatintegrációban:** Projektek és szerződések (Project Service Automation 3.x rendszerből a Pénzügybe) – v2
 - **A feladat neve a projektben:**
 
-    - Projektszerződések PSA – Fin és Ops
-    - Projektek PSA – Fin és Ops
-    - Projektszerződéssorok PSA – Fin és Ops
-    - Projektszerződéssor mérföldkövei PSA – Fin és Ops
+    - Projektszerződések Project Service Automation rendszerből a Pénzügybe
+    - Projektek – Project Service Automation rendszerből a Pénzügybe
+    - Projekt szerződéssorok – Project Service Automation rendszerből a Pénzügybe
+    - Projekt szerződéssor-mérföldkövek – Project Service Automation rendszerből a Pénzügybe
 
 A projektszerződések és projektek szinkronizálása előtt szinkronizálnia kell a partnereket.
 
@@ -87,7 +87,8 @@ A projektszerződések és projektek szinkronizálása előtt szinkronizálnia k
 
 A projektszerződések a Project Service Automation alkalmazásban kezelhetők, és a program projektszerződésekként szinkronizálja őket a Finance rendszerbe. Az integrációs sablon részeként beállíthatja az integrációs forrást a projektszerződéshez a Finance rendszerben.
 
-Az Idő és anyag típusú projektek és a Rögzített ár típusú projektek a Project Service Automation alkalmazásban kezelhetők, és a program projektekként szinkronizálja őket a Finance rendszerbe. A sablonintegráció részeként beállíthatja az integrációs forrást a projekthez a Finance rendszerben.
+Az idő-, anyag- és rögzített árú projekteket a Project Service Automation rendszerben kezelik és a Pénzügyekbe projektekként szinkronizálják. A sablonintegráció részeként beállíthatja a projekt integrációs forrását a Pénzügyben. Jelenleg csak az időpontok és az anyagok és a rögzített árú projektek támogatottak.
+
 
 A projektszerződéssorok a Project Service Automation alkalmazásban kezelhetők, és a program projektszerződés számlázási szabályaiként szinkronizálja őket a Finance rendszerbe. Ha a számlázási mód eltér az alapértelmezett projekttípustól, akkor a szinkronizálás frissíti a szerződéssor projektjének és a projektcsoportnak a projekttípusát.
 
@@ -122,7 +123,7 @@ Amikor a Project Service Automation és a Finance közötti integrációs megold
 
 ## <a name="power-query"></a>Power Query
 
-Ha a következő feltételek teljesülnek, az Excelhez készült Microsoft Power Query alkalmazást kell használnia az adatok szűréséhez:
+Az Excelhez készült Microsoft Power Query segítségével szűrheti az adatokat, ha teljesülnek a következő feltételek:
 
 - Értékesítésekkel rendelkezik a Dynamics 365 Sales alkalmazásban.
 - A Project Service Automation alkalmazásban több szervezeti egység is van, és ezek a szervezeti egységek több entitásra lesznek leképezve a Finance rendszerben.
@@ -130,7 +131,7 @@ Ha a következő feltételek teljesülnek, az Excelhez készült Microsoft Power
 Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelveket:
 
 - A Projektek és szerződések (PSA – Fin és Ops) sablonhoz egy alapértelmezett szűrő tartozik, amely csak a **Work item (msdyn\_ordertype = 192350001)** típusú értékesítési rendeléseket tartalmazza. Ez a szűrő segít biztosítani, hogy ne jöjjenek létre projektszerződések a Finance számára létrehozott értékesítési rendelésekhez. Ha saját sablont hoz létre, akkor ezt a szűrőt kell hozzáadnia.
-- Létre kell hoznia egy Power Query szűrőt, amely csak azokat a szerződéses szervezeteket tartalmazza, amelyeket szinkronizálni kell az integrációs kapcsolati készlet jogi entitásával. A Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket például a USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket a USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
+- Hozzon létre egy Power Query szűrőt, amely csak azokat a szerződéssel rendelkező szervezeteket tartalmazza, amelyeket az integrációs kapcsolatcsoport jogi entitással kell szinkronizálni. A Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket például a USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket a USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
 
 ## <a name="template-mapping-in-data-integration"></a>Sablonok leképezése az adatintegrációban
 

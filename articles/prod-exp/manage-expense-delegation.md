@@ -1,6 +1,6 @@
 ---
 title: Költségdelegálás kezelése
-description: A költségdelegált felhasználó a szervezet egy másik alkalmazottja nevében hozhat létre és kezelhet költségjelentéskat.
+description: A költség meghatalmazott felhasználója létrehozhatja és kezelheti a szervezet egy másik alkalmazottja költségjelentéseit.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078244"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960790"
 ---
 # <a name="manage-expense-delegation"></a>Költségdelegálás kezelése
 
-[!include [banner](../includes/banner.md)]
+A költségdelegált egy másik alkalmazotthoz tartozó költségjelentéseket készíthet és kezelhet.
 
-A költségdelegált felhasználó a szervezet egy másik alkalmazottja nevében hozhat létre és kezelhet költségjelentéskat.
+## <a name="configure-expense-delegation"></a>Költségdelegálás konfigurálása
 
-## <a name="configuring-expense-delegation"></a>Költségdelegálás konfigurálása
+1. A felhasználó költségmeghatalmazottként való beállításához válassza a **Költségkezelés > Beállítás > Általános > Meghatalmazottak** lehetőséget.
+2. A **Meghatalmazottak** oldalon válassza az **Új** lehetőséget.
+3. Válassza ki azt az alkalmazottat, aki meghatalmazottként lesz megadva. 
+4. Adja meg a delegált felhasználó aliasát, valamint a delegálási időszak kezdő és záró dátumát.
 
-A felhasználó költségdelegáltként való beállításához nyissa meg a **Költségkezelés > Beállítás > Általános > Delegáltak** pontot a **Delegáltak** oldal megnyitásához. Válassza az **Új** elemet, majd jelölje ki azt az alkalmazottat, akinek delegáltat kíván megadni. Adja meg a delegált felhasználó aliasát, valamint a delegálási időszak kezdő és záró dátumát.
+## <a name="manage-expense-delegation-for-another-employee"></a>Másik alkalmazott költségdelegálásának kezelése
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Költségdelegálás kezelése egy másik alkalmazott nevében
+Ha engedélyezve van a **Költség delegáltak listaoldalának engedélyezése** funkciókezelési kulcs, akkor elérhetővé válik a **Hozzám delegált kiadások** listaoldala. Lépjen a **Költségkezelés** > **Saját kiadások** > **Számomra delegált kiadások** részre.
 
-Ha a **Költségdelegáltak listaoldal engedélyezése** funkciókezelési kulcs engedélyezve van, akkor elérhetővé válik a **Hozzám delegált költségek** listaoldal a **Költségkezelés > Saját költségek > Hozzám delegált költségek** lapról.
+A meghatalmazott felhasználó gyorsan szűrheti és keresheti a már hozzárendelt költségjelentéseket. Új költségjelentést is létrehozhatnak más felhasználók számára az **Új költségjelentés** lehetőség kiválasztásával.
 
-A delegált felhasználó gyorsan szűrheti és keresheti a felhasználóhoz delegált meglévő költségjelentéseket. A felhasználó új költségjelentést is gyorsan létrehozhat más felhasználók nevében az **Új költségjelentés** lehetőség kiválasztásával.
-
-A delegált felhasználók létrehozhatnak és kezelhetnek költségjelentéseket más alkalmazottak nevében is a **Költségkezelés > Saját költségek > Költségjelentések** rész megnyitásával, majd a **Más felhasználó költségeinek megnyitása** gomb választásával.
+A meghatalmazott felhasználók más alkalmazottak költségjelentéseit is létrehozhatják és kezelhetik a **Költségkezelés** > **Saját kiadások** > **Költségjelentések** megnyitásával és a **Más felhasználók kiadásainak megnyitása** lehetőséggel.

@@ -3,19 +3,19 @@ title: Készpénzelőleg
 description: Ez a témakör a készpénzes előlegekről nyújt információkat.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122752"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098887"
 ---
 # <a name="cash-advance"></a>Készpénzelőleg
 
@@ -24,8 +24,9 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 A készpénzes előleg lehetővé teszi, hogy az alkalmazottak pénzt kölcsönözzenek a vállalattól a kiadások felmerülése előtt. A kért készpénzelőleg jóváhagyása és kifizetése esetén az alkalmazott a pénzösszeget felhasználhatja az esetlegesen felmerülő üzleti költségekre. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Készpénzelőleg-igénylés létrehozása és küldése
+Új készpénzelőleg létrehozásához és készpénzelőleg kérelem benyújtásához tegye a következőket: 
 
-1. A **Saját kiadások** területen válassza a **Készpénzelőleg** > **Új** lehetőséget új készpénzelőleg létrehozásához. 
+1. A **Saját kiadások** alatt válassza a **Készpénzelőleg** > **Új** lehetőséget. 
 2. Az **Új készpénzelőleg kérése** oldalon adja meg a kiadás célját, és válassza ki, hogy a költség hol fog felmerülni.
 3. Adja meg a kért összeget és pénznemet, majd kattintson a **Mentés** gombra. 
 4. Amikor készen áll a készpénzelőleg-igénylés elküldésére, a **Készpénzelőleg-igénylés** oldalon válassza a **Munkafolyamat** > **Küldés** lehetőséget.
@@ -34,7 +35,7 @@ A készpénzes előleg lehetővé teszi, hogy az alkalmazottak pénzt kölcsön�
 
 A készpénzelőleg-igénylések akkor módosíthatók, ha még nincsenek elküldve jóváhagyásra.
 
-1. A **Saját kiadások: Készpénzelőleg** területen keresse meg és jelölje ki a módosítani kívánt készpénzelőleget.
+1. Keresse meg és jelölje ki a szerkeszteni kívánt készpénzelőleget a **Saját kiadások: Készpénzelőleg** lehetőség alatt.
 2. Válassza a **Szerkesztés** lehetőséget, és hajtsa végre a szükséges módosításokat a készpénzelőleg-igénylésben. 
 3. Válassza a **Mentés és bezárás** lehetőséget.
 
@@ -57,7 +58,8 @@ A következő eljárást általában egy könyvelő vagy egy könyvelési enged�
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Költségjelentés küldése a kifizetett készpénzelőleghez 
 
-Ha a már megkapott készpénzelőleghez költségjelentést hoz létre és küld el, a rendszer automatikusan helyesbíti a költségeket az adott előleghez képest. Ha a készpénzelőleg nagyobb, mint a kiadott összeg, akkor az egyenleget vissza kell juttatnia a vállalathoz a **Készpénz visszaadása** költségkategória használatával. Ha a vállalat által fizetett készpénzelőleg kisebb, mint a kiadott összeg, a vállalatnak meg kell térítenie a különbözetet. 
+A már kapott készpénzelőleg költségjelentésének létrehozásakor és elküldésekor a kiadások automatikusan az előleghez igazítják. Ha a készpénzelőleg nagyobb, mint a kiadott összeg, akkor az egyenleget vissza kell juttatnia a vállalathoz a **Készpénz visszaadása** költségkategória használatával. Ha a vállalat által kifizetett készpénzelőleg kevesebb, mint a korábban kifizetett összeg, a vállalatnak vissza kell fizetnie Önnek az egyenleget. 
 
 ### <a name="example"></a>Példa
-Seattle-ből New York városába szeretne utazni egy konferenciára. 3000,00 USD összegű készpénzelőleg-igénylést hoz létre, mivel úgy becsülte, hogy a konferenciajegy, a repülőjáratok, a szálloda, az étkezés és a taxi költsége nagyjából ezt az összeget teszi ki. Csak akkor kapja meg a kifizetést, ha a vezetője jóváhagyta ezt a kérést. Miután a vezető jóváhagyta, a kért készpénzelőleg a bankszámlájára 3000.00 USD formájában kerül kifizetésre. Ezután részt vesz a konferencián. Az utazás befejezése után megállapíthatja, hogy a teljes kiadás csak 2790,00 USD volt. Válassza a **Készpénz** lehetőséget a **Fizetési mód** mezőben, és küldje el a 2790,00 USD-t kitevő kiadásait. A rendszer automatikusan helyesbíti a beküldött kiadások összegét az Önnek kölcsönadott 3000,00 USD készpénzelőleg alapján. Így a vállalat felé fennálló tartozásának egyenlege 210,00 USD (3000,00-2790,00), amelyet a **Készpénz visszaadása** költségkategória használatával vissza tud adni a vállalatnak. 
+Egy konferenciára utazik Seattle-ből New Yorkba. A konferenciával kapcsolatos becsült költségek – konferenciára szóló jegy, repjegyek, szállás, étkezések és taxi – összegéről, 3000,00 USD-ról létrehoz egy készpénzelőleg kérelmet. Ön csak akkor kapja meg ezt az összeget, ha a vezető jóváhagyja a kérelmet. Miután a vezető jóváhagyta, a kért készpénzelőleg a bankszámlájára 3000.00 USD formájában kerül kifizetésre. Ezután részt vesz a konferencián. Az utazás befejezése után megállapíthatja, hogy a teljes kiadás csak 2790,00 USD volt. Válassza a **Készpénz** lehetőséget a **Fizetési mód** mezőben, és küldje el a 2790,00 USD költségeiről szóló kérelmet. A rendszer automatikusan helyesbíti a beküldött kiadások összegét az Önnek kölcsönadott 3000,00 USD készpénzelőleg alapján. Mindössze 210,00 USD összeggel (3000,00-2790,00) tartozik a vállalatnak, ezt a **Készpénz visszautalása** költségkategória használatával tudja visszautalni.
+

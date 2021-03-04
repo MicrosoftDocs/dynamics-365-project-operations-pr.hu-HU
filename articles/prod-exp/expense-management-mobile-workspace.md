@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078251"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960475"
 ---
 # <a name="expense-management-mobile-workspace"></a>Költségkezelés mobil munkaterület
-
-[!include [banner](../includes/banner.md)]
 
 Ez a témakör a **Költségkezelés** mobilos munkaterület használatáról nyújt információkat. A munkaterület lehetővé teszi, hogy a felhasználók rögzítsék és feltöltsék a nyugtákat, amelyeket így a későbbiekben csatolni lehet a költségjelentésekhez. Csatolt nyugtákkal a felhasználók költségsorokat is gyorsan hozhatnak létre, illetve létrehozhatják és kezelhetik a költségjelentéseiket. A jóváhagyók ezenkívül a **Költségkezelés** mobilos munkaterületen megtekinthetik, jóváhagyhatják vagy elutasíthatják a hozzájuk rendelt költségjelentésket.
 
@@ -203,7 +201,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 18. Ha a vállalati szabályzat értelmében vendégeket kell csatolni a költséghez, akkor válassza a **Vendégek** lehetőséget, majd hajtsa végre a következő lépéseket:
 
-    1. Válassza a **Vendég** , a **Korábbi vendégek** vagy a **Munkatársak** lehetőséget.
+    1. Válassza a **Vendég**, a **Korábbi vendégek** vagy a **Munkatársak** lehetőséget.
     2. Hajtsa végre az alábbi lépések egyikét:
 
         - Ha a **Vendég** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
