@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078133"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151301"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Árképzés és költségdimenziók kezdőlap
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 A projektalapú szervezetekben a munkadíjak és a költségszámítás beállításához használt dimenziókat a következő attribútumok befolyásolják:
 
@@ -33,8 +35,8 @@ A projektalapú szervezetekben a munkadíjak és a költségszámítás beállí
 
 Tekintettel a munka ezen attribútumainak jellegzetességére és a munka végrehajtásához szükséges személyekre, a Project Service Automation rendszerben kétféle árazási dimenzióérték érhető el: 
 
-- **Értékkészletek** : azon attribútumok, amelyek értékcsoportok rögzített felsorolásai.
-- **Entitásalapú értékek** : azon attribútumok, amelyek olyan különböző, de véges értékcsoportokat tartalmazhatnak, amelyek idővel változhatnak.
+- **Értékkészletek**: azon attribútumok, amelyek értékcsoportok rögzített felsorolásai.
+- **Entitásalapú értékek**: azon attribútumok, amelyek olyan különböző, de véges értékcsoportokat tartalmazhatnak, amelyek idővel változhatnak.
 
 ## <a name="pricing-dimensions"></a>Árazási dimenziók
 
@@ -55,7 +57,7 @@ Ha további attribútumok használatával szükséges árakat vagy költségeket
 ## <a name="pricing-human-resource-time"></a>Az emberi erőforrás munkaidejének árképzése
 Az, hogy a szervezet milyen módon képez árat a humán erőforrás munkaidejére gyakran fontos stratégiai szempont, amely közvetlenül befolyásolja a szervezet jövedelmezőségét. Dolgozzon együtt a pénzügyi csapatokkal és a gyakorlati vezetőkkel, amikor a szervezet készen áll arra, hogy meghatározza, hogyan kívánja beállítani a számla- és költségmértéket az emberi erőforrás munkaidejére vonatkozóan.
 
-Az árképzés egyéb szempontjai között szerepel, hogy újra kell-e használni olyan mezőket vagy entitásokat, amelyek jelenleg nem árképzési dimenziók, ugyanakkor a szervezetben érvényes árképzési dimenzióként alkalmazandók. Az olyan mezők, mint a **Tranzakciós kategória** ( **msdyn_transactioncategory** ) és a **Lefoglalható erőforrás** ( **bookableresource** ) példák a jelöltdimenziókra. 
+Az árképzés egyéb szempontjai között szerepel, hogy újra kell-e használni olyan mezőket vagy entitásokat, amelyek jelenleg nem árképzési dimenziók, ugyanakkor a szervezetben érvényes árképzési dimenzióként alkalmazandók. Az olyan mezők, mint a **Tranzakciós kategória** (**msdyn_transactioncategory**) és a **Lefoglalható erőforrás** (**bookableresource**) példák a jelöltdimenziókra. 
 
 Azt is gondolja át, hogy az árképzési dimenzió tábla vagy értékkészlet legyen-e. Ha egy dimenzió értékének olyan változásait látja előre, amelyek meghaladják a 10-es vagy 12-es értéket, és további attribútumokra van szüksége ezekhez az értékekhez, akkor érdemesebb entitást létrehoznia, nem pedig értékkészletet. Az értékkészlet fenntartásához – például az értékek hozzáadásához vagy eltávolításához – rendszergazda vagy fejlesztő szükséges, míg új sorok hozzáadását a táblához a legtöbb üzleti felhasználó elvégezheti.
 
