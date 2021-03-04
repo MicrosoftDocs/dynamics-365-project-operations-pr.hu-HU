@@ -67,3 +67,6 @@ Miután a szervezeti és az ügyfélspecifikus alapértelmezett projektárlistá
 
 1. A **Projektárajánlat** részen a **Projektárlista** lapon ellenőrizze az alrácsban, hogy nincs-e kiválasztva specifikus árlistarekord.
 2. Válassza az **Egyéni árazás létrehozása** lehetőséget. Ezzel a rendszer az árajánlathoz jelenleg társított összes szabványos árlistáról másolatot készít, és ezeket a másolatokat társítja az árajánlathoz. A rendszer eltávolítja az általános árlisták meglévő hozzárendeléseit. Az értékesítő ezután megkezdheti az árak szerkesztését ezeken a példányokon. Ezek a megváltozott árak csak erre a projektárajánlatra vonatkoznak.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

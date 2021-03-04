@@ -35,3 +35,6 @@ Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az 
 
 
 A Project Operationsben általános vagy megnevezett erőforrásokkal láthatja el munkaerővel a projektet. Különböző módszerekkel felveheti és kijelölheti a csapattagokat, valamint kezelheti a foglalásaikat és feladataikat. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

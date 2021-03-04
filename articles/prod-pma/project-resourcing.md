@@ -55,3 +55,6 @@ A következő témakörök azokról a feladatokról tartalmaznak tájékoztatás
 - [Projekterőforrás ütemezési teljesítménye](project-scheduling-performance.md)
 - [Szerepkörök beállítása a munkalebontási struktúra sablonjaihoz](set-up-roles-wbs-template.md)
 - [Tervezett erőforrások erőforrás-teljesítése](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

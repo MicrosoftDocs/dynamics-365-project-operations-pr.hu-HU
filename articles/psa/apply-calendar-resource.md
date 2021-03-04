@@ -45,3 +45,6 @@ Ha már létrehozott egy munkaidő sablont, hozzá kell rendelnie egy erőforrá
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

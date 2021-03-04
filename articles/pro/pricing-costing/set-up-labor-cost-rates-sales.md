@@ -82,3 +82,6 @@ A Fabrikam UK-Robotics önköltségi árlistáján a költség aránya a követk
 | Fejlesztői | Fabrikam UK | 115 GBP |
 
 Az önköltségi árlistából több pénznemben is megadható a munkabérdíj. A projektre vonatkozó költségbecslés létrehozásakor a Project Operations ezeket a költségeket átminősíti a projekt pénznemére, és megjeleníti a felhasználó számára. Ha egy időbejegyzés jóváhagyása megtörténik, és a tényleges költség létrejön, akkor a tényleges költség ára a megfelelő szerepkörársor pénznemében történik az önköltségi árlista listáján. Egy projektnél az időpontokra vonatkozó tényleges költség több pénznemben is rögzíthető. Ha azonban a projekt szintjén a tényleges munkaköltséget összesítik, vagy összefoglalják, a Project Operations az összes munkaköltséget átváltja a projekt pénznemére, amelyet a felhasználó megtekinthet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

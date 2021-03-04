@@ -80,3 +80,6 @@ Ha egy szállító befejezi a munkát egy projekten, és számlát küld, akkor 
 2. A **Szállítói számla fizetéskori fizetéssel** oldalon a keresés mezőben adja meg az áttekinteni kívánt szállítói számla megkereséséhez használandó értékeket, majd kattintson a **Keresés** gombra.
 3. A **Szállítói számlasorok** gyorslapon jelölje ki a módosítani kívánt sorokat.
 4. Ha a **Fizetés fizetéskor** feltételek teljesülése esetén a számla sorában, válassza a **Szállítói kifizetés kiadása** lehetőséget. A **Fizetés fizetéskor** lehetőség törölve van, és a **Fizetésre kész** mező értéke **Igen** értékre változik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

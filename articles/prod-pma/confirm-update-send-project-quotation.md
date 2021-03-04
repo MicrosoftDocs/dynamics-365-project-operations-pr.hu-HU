@@ -57,3 +57,6 @@ Meglévő projektárajánlat módosításához az árajánlat állapot a **Létr
 
 > [!NOTE]
 > Az állapot **Elküldve** értékre módosítása után nem módosíthatja a projektajánlatot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Hajtsa végre a következő lépéseket a beépülő modulok frissítéséhez é
 7. Válassza az **OK** gombot, hogy bezárja az oldalt, majd válassza a **Lépés frissítése** elemet.
 8. Ismételje meg az 2–7. lépéseket a második **PreOperationQuoteLineDetail** beépülő modulhoz. Ehhez a beépülő modulhoz frissítse az **msdyn_quotelinetransaction frissítése** lépést.
 9. Zárja be a **PluginRegistrationTool** eszközt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

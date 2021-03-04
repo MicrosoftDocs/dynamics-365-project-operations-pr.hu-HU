@@ -26,3 +26,6 @@ A Dynamics 365 Project Operations eszközei segítenek a projektek egyszerű fut
 - Projektbecslések használata az értékesítési folyamat során.
 - Előrejelzés a folyamatban lévő projektek erőforrásigényeiről.
 - A projektek sikeres végrehajtása az előrehaladás és a költségfogyasztás nyomon követésével.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Entitásalapú dimenziókhoz manuálisan vagy Microsoft Excel importálással va
 > ![Mintaadatok a szabványos cím entitáshoz ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Ha engedélyezve van a **Költség delegáltak listaoldalának engedélyezése**
 A meghatalmazott felhasználó gyorsan szűrheti és keresheti a már hozzárendelt költségjelentéseket. Új költségjelentést is létrehozhatnak más felhasználók számára az **Új költségjelentés** lehetőség kiválasztásával.
 
 A meghatalmazott felhasználók más alkalmazottak költségjelentéseit is létrehozhatják és kezelhetik a **Költségkezelés** > **Saját kiadások** > **Költségjelentések** megnyitásával és a **Más felhasználók kiadásainak megnyitása** lehetőséggel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

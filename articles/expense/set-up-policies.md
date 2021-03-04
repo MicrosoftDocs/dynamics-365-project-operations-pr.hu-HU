@@ -53,3 +53,6 @@ Az alábbiakban néhány olyan javaslatot talál, amely segíthet a költségkez
 ## <a name="when-to-evaluate-policies"></a>Mikor kell értékelni a szabályzatokat?
 
 A költségkezelési paraméterek között kiválaszthatja, hogy a program csak egy sor mentésekor vagy a költségjelentés elküldésekor értékelje ki a költségkezelési szabályzatokat. Ha a sorok mentésekor történő kiértékelést választja, akkor a felhasználók korábban minden olyan részletet láthatnak, amit tenniük kell a költségjelentés végrehajtásához. Ellenkező esetben késleltetheti a szabályzat kiértékelését, és időt takaríthat meg, ha a befejezést követően, a beküldéskor ellenőrzi a munkafolyamatot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

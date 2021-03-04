@@ -55,3 +55,6 @@ Az erőforrások társíthatók szervezeti egységekhez, ha a vállalat különb
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ További információkért lásd:
 - [Project Operations áttekintése](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Dynamics 365 Project Operations 2020-as 1. kiadási hullámának áttekintése](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

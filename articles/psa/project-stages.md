@@ -65,3 +65,6 @@ Amikor a projekt munkája befejeződött, a projektmenedzser frissítheti a szak
 ## <a name="close"></a>Bezárás
 
 Amikor az összes tranzakciót rögzítik a projektnél, a projektmenedzser frissítheti a szakaszt a **Bezárás** értékre. Ezen a ponton nem lehet tranzakciókat rögzíteni, és a projektet csak olvashatóvá állítják be.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

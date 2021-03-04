@@ -71,3 +71,6 @@ Az eljárás megkezdése előtt ellenőrizze, hogy a biztonsági szerepkör tart
 
 > [!IMPORTANT]
 >  A más bejegyzések által használt pénznemek nem törölhetők, csak deaktiválhatók. A pénznembejegyzések inaktiválása nem távolítja el a létező bejegyzésekben (például lehetőségekben és megrendelésekben) tárolt pénznemadatokat. Azonban nem lehet új tranzakciókhoz deaktivált pénznemet választani.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

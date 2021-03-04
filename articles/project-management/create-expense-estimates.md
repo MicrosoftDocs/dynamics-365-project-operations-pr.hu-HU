@@ -38,3 +38,6 @@ Minden egyes költségsori tételhez a következő attribútumok vannak definiá
 - **Egység önköltségi ára**: A kiadás költségének kiszámításához használt egységár.
 - **Egység értékesítési ára**: A kiadás értékesítési árának kiszámításához használt egységár.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

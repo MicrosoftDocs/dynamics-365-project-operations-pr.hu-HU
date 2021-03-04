@@ -68,3 +68,6 @@ Nyissa meg azt a rögzített áras árajánlatsort, ahol a mérföldkő-ütemez�
 | Számla állapota | Gyorslétrehozás | Mérföldkő létrehozásakor az állapot mindig a **Nem kész a számlázásra** állapotra van beállítva. | Ez továbbításra kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
 | Sor összege | Gyorslétrehozás | Az ügyfélnek számlázott mérföldkő összege vagy értéke. | Ez továbbításra kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
 | Adó | Gyorslétrehozás | A mérföldkőre alkalmazandó adó összege. | Ez továbbításra kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

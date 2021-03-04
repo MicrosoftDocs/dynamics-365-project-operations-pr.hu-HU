@@ -81,3 +81,6 @@ A Project Operations a következő szerepköröket tartalmazza:
 A pénzügyi biztonsággal kapcsolatos további információkért lásd: [Szerepköralapú biztonság](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

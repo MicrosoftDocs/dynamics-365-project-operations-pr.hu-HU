@@ -45,3 +45,6 @@ Ezenkívül minden foglalható erőforráshoz alapértelmezett szerepet kell hoz
 A **Project Service** lapon az erőforrás egyedi célhasználatát is beállíthatja. A hasznosítási számítás ezt követően a célfelhasználást használja az erőforrás céljának értékelésére, az erőforrás alapértelmezett szerepének célpontja helyett.
 
 Az erőforrás felhasználása csak akkor jelenik meg, ha az erőforrás jóváhagyott, díjköteles időt mutat a rácson megjelenített időszakban.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

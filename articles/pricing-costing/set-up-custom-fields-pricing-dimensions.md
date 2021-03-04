@@ -96,3 +96,6 @@ A dimenzió prioritásának meghatározása abban az esetben is segít az árké
 
 - **Költségprioritás**: A dimenzió költség prioritásának értéke jelzi annak dimenzióját, amikor összeegyeztetik a költségárakkal. A **Költségprioritás** értékének egyedinek kell lennie, a **Költségre alkalmazható** dimenziókban.
 - **Értékesítési prioritás**: A dimenzió eladási prioritása értéke jelzi ennek a dimenziónak a súlyát, amikor egyeztetik az eladási árak vagy a számlázási tarifák beállításával. Az **Értékesítési prioritás** értékének egyedinek kell lennie, az **Értékesítésre alkalmazható** dimenziókban.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

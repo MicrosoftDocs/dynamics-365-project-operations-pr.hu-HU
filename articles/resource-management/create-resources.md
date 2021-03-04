@@ -20,3 +20,6 @@ ms.locfileid: "4514536"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A Dynamics 365 Field Service segítségével foglalható erőforrásokat hozhat létre a Dynamics 365 Project Operations-környezetében. Az erőforrások létrehozásáról a [Foglalható erőforrások beállítása](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources) című témakörben tájékozódhat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

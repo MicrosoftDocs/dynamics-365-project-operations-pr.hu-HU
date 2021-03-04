@@ -44,3 +44,6 @@ A következő témákban további információ található a PSA-ban szereplő a
 - [Egységcsoportok és egységek](advanced-units.md)
 - [Több egység pénzneme](advanced-currency.md)
 - [Tényadatok rögzítése](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

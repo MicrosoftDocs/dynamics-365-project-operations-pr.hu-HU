@@ -20,3 +20,6 @@ ms.locfileid: "4514538"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A Dynamics 365 Field Service funkciói segítségével meghatározhatja a szerepköröket a Dynamics 365 Project Operations környezetben. A beállítás végrehajtásához olvassa el [A foglalható erőforráskategóriák beállítása](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories) című témakört.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Ha projekt-előrejelzést használ, akkor a modelleket almodellekként azonosít
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

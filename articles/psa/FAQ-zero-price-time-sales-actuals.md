@@ -57,3 +57,6 @@ Ha nincs sor a szerepkörár rácson az árazási dimenzióhoz a tényleges idő
 
 Ha még mindig nem látható érvényes árat az tényleges időértékesítésnél miután elvégezte a három ellenőrzést, hozzon létre egy támogatási jegyet. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

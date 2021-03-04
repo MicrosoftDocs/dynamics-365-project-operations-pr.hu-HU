@@ -71,3 +71,6 @@ A következő példa azt a számlamértéket mutatja, amelyet azon szerepkör é
 | ----------------|-------------|----------|----------:|----------|
 | Cégem_Sáv1 | Contoso USA  |Hour | 145|USD     |
 | Cégem_Sáv2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

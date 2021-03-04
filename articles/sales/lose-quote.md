@@ -45,3 +45,6 @@ Amikor az **OK** lehetőséget választja, a párbeszédoldalon, a rendszer a p�
 > - Projekthivatkozás a projektalapú árajánlatsorok Ügyfélköltségvetés-információira
 >
 >Mivel ez az információ nagyon jellemző az egyes ajánlatokra, ezeket a mezőket és rekordokat nem másolja a rendszer. A projektek és termékek árajánlatsorai, az árajánlatsor-részletek becslései és a nem meghaladandó értékek az árajánlat szintjén másolásra kerülnek. Az ár és a költségarány alapértelmezései a **Paraméterek másolása** párbeszédpanelen kiválasztott **Árképzés másolása** beállítástól függnek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

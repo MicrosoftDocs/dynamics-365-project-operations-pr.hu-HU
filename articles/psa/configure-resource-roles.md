@@ -59,3 +59,6 @@ A szerepkörök az erőforrás-követelmények és a projektköltségek meghatá
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

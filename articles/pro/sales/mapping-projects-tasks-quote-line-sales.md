@@ -90,3 +90,6 @@ Visszavonhatja továbbá a projektfeladatok és az árajánlatsorok társítás�
 
 >[!NOTE]
 > Ez az eljárás nem törli a feladatot a projektből. Csak eltávolítja a feladat-hozzárendelést a projektalapú árajánlatsorból.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Mivel Nancy frankfurti tartózkodása alatt két külön projekten dolgozott, am
 |Szálloda         |725 EUR              |557 EUR                        |168 EUR                          |
 |Étkezések         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

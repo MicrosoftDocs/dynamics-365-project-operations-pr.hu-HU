@@ -48,3 +48,6 @@ Ha az erőforráshoz feladatok vannak hozzárendelve, de nincs foglalása, akkor
 A **Foglalás kiterjesztése** művelettel létrehozott foglalások az elsődleges projektkövetelményhez kapcsolódnak. A bővítmény kezdeményezésekor nem lehet meghatározni a kiterjesztendő konkrét követelményt, mivel az erőforrás a projekt több követelményéhez is hozzá lehet társítva.
 
 A projektmenedzser vagy az erőforrás-kezelő ezután felhasználhatja az Ütemezési táblát olyan helyzetek kezelésére, amikor egy erőforrás túlfoglalása meghaladja a kapacitást.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Ha az elveszettként lezárt projektszerződés a soraiban egy projektre hivatko
 
 > [!NOTE]
 > A Dynamics 365 Project Operations alkalmazásban a projektszerződések elveszettként való lezárása nem befolyásolja a hozzárendelt lehetőség állapotát. A lehetőség nyitva marad, és kézzel kell le zárni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

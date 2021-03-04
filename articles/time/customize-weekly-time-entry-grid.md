@@ -144,3 +144,6 @@ A beépülő modul érvényesítéseket használhatja minden olyan érvényesít
 
 ### <a name="copying-time-entries"></a>Időbejegyzések másolása
 Az **Időbejegyzés másolásához használt oszlopok** nézet használatával adja meg a másolandó mezők listáját az időbejegyzés során. A **Dátum** és az **Időtartam** kötelező mezők, és nem lehet ezeket eltávolítani a nézetből.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ A konfiguráció megkezdése előtt rendelkeznie kell egy Common Data Service (C
     -   Lefoglalható erőforrás jellemzője
 
     ![Importálás befejezése](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

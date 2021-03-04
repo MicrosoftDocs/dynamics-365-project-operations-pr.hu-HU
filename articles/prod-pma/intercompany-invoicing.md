@@ -113,3 +113,6 @@ Ha a USSI kölcsönadó jogi személy feladja a vállalatközi ügyfélszámlát
 További információkért lásd: [Vállalatközi projektszámlázás konfigurálása](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

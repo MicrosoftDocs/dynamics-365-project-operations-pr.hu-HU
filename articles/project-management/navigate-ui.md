@@ -102,3 +102,6 @@ A következő rész rövid áttekintést nyújt a különböző projekttervezés
 **Oszlop hozzáadása**: Lehetővé teszi, hogy a felhasználó a rácsban látható oszlopokat definiálja. A **Projekttervezés** űrlapján csak gyári oszlopok adhatók hozzá a rácsokhoz.
 
 ![Oszlop hozzáadása gomb](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

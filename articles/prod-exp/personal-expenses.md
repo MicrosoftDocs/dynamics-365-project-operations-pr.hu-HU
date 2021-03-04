@@ -33,3 +33,6 @@ A dolgozók személyes költségeinek kezeléséhez két módszer áll rendelkez
 - **Vállalat által fizetendő** - A szervezet kifizeti a vállalati hitelkártya teljes számláját, majd levonja a dolgozó számlájáról a személyes kiadásokat.
 
 Megadhatja, hogy a szervezet milyen módszert használ a **költségkezelési paraméterek** lapon.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

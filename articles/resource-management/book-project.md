@@ -66,3 +66,6 @@ Projektmenedzserként előfordulhat, hogy erőforrást kell lefoglalnia egy proj
 
 > [!NOTE]
 > Ez a módszer nem hoz létre az erőforráshoz tartozó foglalásokat. Ehelyett az erőforrást hozzáadja a projektcsoporthoz. Miután a csapattagot hozzáadta a projekthez, a projektmenedzser használhatja a foglalások fenntartását vagy a foglalások kiterjesztését, és felveheti a szükséges foglalásokat az erőforráshoz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

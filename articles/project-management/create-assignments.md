@@ -42,3 +42,6 @@ Használhatja az **Erőforrásválasztó** keresési mezőjét, hogy minden akt�
 1. A feladat rácsa, táblája vagy idővonala alatt keresse meg a **Hozzárendelve a következőhöz:** cellát.
 2. A keresőmezőbe kezdje beírni a nevet. A név keresési eredményei megjelennek az **Erőforrás választóban** az **Egyéb erőforrások** részen.
 3. Jelölje ki a feladathoz hozzárendelni kívánt erőforrást, vagy jelölje ki az erőforrás nevét a **Csoport egyéb erőforrásai** között.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

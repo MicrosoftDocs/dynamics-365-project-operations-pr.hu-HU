@@ -52,3 +52,6 @@ Használhatja ezeket az árlistákat, és frissítheti a munka (szerepkörár) �
 A Projektszerződésekben a projektek árazása mindig alapértelmezés szerint egyéni árlistaként szerepel a szerződés nevével és a létrehozott dátum- és időbélyegzővel, amelyet a rendszer a névhez fűzött. Ez akkor is igaz, ha a szerződés az árajánlat megnyerése után jött létre, vagy ha a szerződés a semmiből jött létre. Ha szükséges, eltávolíthatja ezt a társítást az egyéni árlistához, és ehelyett társíthat egy normál árlistát a projektszerződéshez.
 
 Ha normál árlistát rendel az árajánlathoz vagy a szerződéshez tartozó projektárlistákhoz, akkor az árlista árain végrehajtott változtatások hatással vannak az árlistát használó összes ajánlatra és szerződésre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ A Project Operations árajánlatai a Dynamics 365 Sales árajánlataira épülne
 - A Project Operations árajánlatok magukban foglalják saját űrlap- és a felhasználói felület elemeiket, az üzleti szabályokat, az üzleti logikát a beépülő modulokban és az ügyféloldali parancsfájlokat, amelyek megkülönbözteti őket a Sales árajánlataitól.
 
 A fenti okok miatt nem ajánlott a Sales árajánlatot és a Project Operations árajánlatot egymás helyett használni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

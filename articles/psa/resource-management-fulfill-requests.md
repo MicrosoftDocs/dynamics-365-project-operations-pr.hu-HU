@@ -46,3 +46,6 @@ Megjelenik az Ütemezési asszisztens, amelyet a követelmények kiszűrnek. Vá
 > ![Az erőforrás kiválasztva](media/Resource-Management-image61.png)
 
 Az általános csoporttagot a projektcsoportban a nehezen lefoglalt, megnevezett erőforrás és a projekt ütemtervében szereplő feladatok kiosztása váltja fel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

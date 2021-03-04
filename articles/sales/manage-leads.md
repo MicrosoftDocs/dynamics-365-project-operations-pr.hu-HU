@@ -80,3 +80,6 @@ Az Érdeklődőből lehetőség üzleti folyamat a következő fázisokat támog
 | Fejlesztés | Lehetőség | Fejlessze tovább a lehetőséget, hogy további információkat tudjon megadni az érintett munkára, a legfontosabb résztvevőkre és a versenytársakra vonatkozóan. |
 | Ajánlat | Lehetőség | Fejlessze a javaslatot, és szerezzen jóváhagyást a belső ellenőrzési csoporttól. |
 | Bezárás | Lehetőség | Nyerje meg a lehetőséget, és zárja le az üzletet. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

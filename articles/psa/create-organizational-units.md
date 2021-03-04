@@ -52,3 +52,6 @@ Vállalata valószínűleg földrajzi, funkciószerinti vagy más területszerin
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service Automation konfigurálása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

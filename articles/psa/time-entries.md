@@ -70,3 +70,6 @@ Adatokat importálhat a projektfoglalásokból és a megbízásokból. Adatok im
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Csoportosítás, rendezés, keresés és szűrési lehetőségek
 
 Az időbejegyzéseket az oszlopokban megadott méretek szerint csoportosíthatja és szűrheti. A **Csoportosítás** mezőben válassza ki az időbejegyzések szűréséhez használandó dimenziót. Az időbeviteli rekordokat növekvő vagy csökkenő sorrendbe is rendezheti az oszlopfejléceken található rendezési nyíl segítségével. Ezenkívül a bejegyzéseket megjelenítheti vagy elrejtheti, ha kiválasztja a **Szűrés** gombot az oszlopfejlécekben, majd a **Keresés** mezőbe írja be azt a szöveget, amelyet az időbejegyzés keresésére használnak a projekt neve, a projekt feladata, az idő szerint bejegyzés vagy erőforrás.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

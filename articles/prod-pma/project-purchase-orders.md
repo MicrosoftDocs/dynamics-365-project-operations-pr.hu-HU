@@ -76,3 +76,6 @@ A következő módszerekkel hozhat létre beszerzési rendelést a Projektmenedz
 
 További tudnivalókért lásd: [Cikkek bevételezése a beszerzési rendelésen cikkszükségletből](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

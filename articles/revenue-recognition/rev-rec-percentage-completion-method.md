@@ -35,3 +35,6 @@ A rögzített árú bevételbecslési projektek áttekintéséhez hajtsa végre 
 
   A projekt költségét, a bevételi profilt, a költségsablont és az időszak kódját manuálisan is megadhatja. Ha nem állítanak be manuálisan beállítást, akkor az értékek alapértelmezésre állnak a projekt első becslési számításaiban a projekt költség-és bevételi profiljaihoz beállított szabályok szerint.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

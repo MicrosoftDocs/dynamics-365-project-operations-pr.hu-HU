@@ -93,3 +93,6 @@ A PSA-ban nem követheti nyomon az árajánlatokon végzett módosításokat. Eh
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Az árajánlatok és a projektszerződések megjegyzéseinek és jóváhagyásának nyomon követése
 Az árajánlatok és a projektszerződések felülvizsgálatát és jóváhagyását a nyilvántartási fal és a hozzászólások segítségével kezelheti. A szervezet létrehozhat egyéni munkafolyamatokat és beépülő modulokat az áttekintési és jóváhagyási munkaelemek értesítéseinek hozzárendeléséhez, átirányításához, kibővítéséhez és kezeléséhez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

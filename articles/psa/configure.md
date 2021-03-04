@@ -58,3 +58,6 @@ Mielőtt használhatná a [!INCLUDE[pn_project_service_auto](../includes/pn-proj
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)   
  [Erőforrás-kezelői útmutató](../psa/resource-manager-guide.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

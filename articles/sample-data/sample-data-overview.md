@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4124596"
 ---
 # <a name="sample-data-home-page"></a>Mintaadatok kezdőlapja
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

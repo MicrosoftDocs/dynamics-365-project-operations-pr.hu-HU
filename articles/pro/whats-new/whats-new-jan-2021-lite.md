@@ -41,3 +41,6 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | **Lehetőségkezelés** | 2040713 | Kijavította a szerződésből és a Field Service szolgáltatásból származó számla létrehozásakor jelentkező parancsfájlhibát. |
 | **Projekttervezés és nyomon követés** | 2090202 | **Elavult** jelzéssel látta el a már nem használt üzleti szabályokat. |
 | **Idő és költség** | 2091249 | Szigorított a vezérlőkön, hogy a felhasználók ne módosíthassák a feladatot egy elküldött vagy jóváhagyott időbejegyzésen. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

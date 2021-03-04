@@ -105,3 +105,6 @@ A Dynamics 365 automatikusan kezeli a különböző pénznemekben lévő összeg
 | Költség           | Számlázatlan értékesítés   | Jún. 17. | Ferenc  | Autókölcsönzés           | Darabonként 1     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 A projekt teljes számlázatlan értékesítési értékének kiszámításához az összes kapcsolódó, számlázatlan értékesítésre vonatkozóan létrehozhat egy összesítési **Összeg** mezőt. Az összesítés mező a Dynamics 365 olyan konstrukciója, amely lehetővé teszi gyors képletek alkalmazását a kapcsolódó rekordokra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

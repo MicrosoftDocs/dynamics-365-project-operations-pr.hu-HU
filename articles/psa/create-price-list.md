@@ -71,3 +71,6 @@ Az árlisták szerepkörökre és költségkategóriákra támaszkodnak, így á
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service Automation konfigurálása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ A költségjelentések esetében a tranzakcióból az eredeti jelentésbe lefúr
 Ha az eredeti költségjelentésbe szeretne lefúrni, amelyen egy tranzakció megjelent, jelölje ki a tranzakciót, majd jelölje ki az **eredeti dokumentum** elemet .
 
 Az egyéni tranzakciók megtekintésekor a tranzakcióhoz kapcsolódó további adatok is megtekinthetők. Egy részletes szállodai költség esetén például megtekintheti a költségek részletes listáját, például az Internetelérés, a telefonhívások és a szobaszerviz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

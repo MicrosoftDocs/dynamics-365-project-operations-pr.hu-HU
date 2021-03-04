@@ -75,3 +75,6 @@ A Project Service Automation és a Finance közötti integrációs megoldás has
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Telepítse a Project Service Automation és Finance integrációs megoldását a Project Service Automation-példányba
 
 Töltse le a Project Service Automation és Finance közötti integrációs megoldást a [Microsoft letöltőközpontból](https://www.microsoft.com/download/details.aspx?id=57016), és kövesse a megoldásban szereplő útmutatást.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

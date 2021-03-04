@@ -24,3 +24,6 @@ A projektlehetőségek megnyertként vagy elvesztettként zárhatók le. A **Leh
 A lehetőség nem zárható le, ha vannak hozzárendelve aktív árajánlatok. A lehetőségekhez tartozó összes aktív és tervezet árajánlat egyszerre lezárható. Ezután lezárhatja a lehetőséget.
 
 A lehetőségek lezárásáról további általános tudnivalókért lásd: [Lehetőség lezárása megnyertként vagy elvesztettként](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

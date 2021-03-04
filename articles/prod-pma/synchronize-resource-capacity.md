@@ -49,3 +49,6 @@ Javasoljuk, hogy használja használjon köteget. A beállítások a kapacitásf
     | Befejező dátum    | Adja meg az erőforráskapacitás-összesítések szinkronizálási folyamatának záró dátumát. |
 
 [![Szinkronizálási folyamat](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

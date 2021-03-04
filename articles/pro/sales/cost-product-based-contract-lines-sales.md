@@ -30,3 +30,6 @@ Ha egy katalógustermékhez termékalapú szerződéssort hoz létre, a sor köl
 A termékalapú szerződéssor egységköltségének a célja, hogy lehetővé tegye a különböző termékköltségeket az egyes értékesítési egységekhez. Bár nem minden esetben szükségesek, vannak olyan helyzetek, hogy a termék költségét engedményesen adja a szállító az ügyfélnek. Gondolja át a következő példát:
 
 A Fabrikam Robotics a robotkarok telepítését végzi el az Adatum Corporation gyártósorain. A Fabrikam telepítési szolgáltatásokat nyújt, de a robotkarok a Trey Research vállalattól származnak. Ha a robotkarok telepítése az Adatum Corporation helyszínén új ipari vertikumot nyit a Trey Research robotkarjai számára, akkor a ők speciális engedményt adhatnak ehhez az üzlethez a Fabrikam számára. Ebben az esetben a Fabrikam termékalapú szerződéssort hoz létre a robotkarokhoz. A szerződésben kiszerelési költséget kell megadni. A költség eltér a Trey Research robotkarjainak költségétől.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

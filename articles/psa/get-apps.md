@@ -36,3 +36,6 @@ Ha azt szeretné megadni az időt és a költségeket mobileszközén [Szerezze 
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

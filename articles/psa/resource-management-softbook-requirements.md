@@ -63,3 +63,6 @@ Ugyanezt a módszert használhatja a kemény foglalás vagy az engedményes fogl
 A projekt **Csapat** lapján a foglalt erőforrás nehezen foglalttá történő konvertálásához válassza ki az erőforrást, majd válassza a **Megerősítés** lehetőséget.
 
 ![Megerősítés parancs](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

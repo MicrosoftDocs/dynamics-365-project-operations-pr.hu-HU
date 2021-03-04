@@ -32,3 +32,6 @@ A szervezete megkövetelheti, hogy az utazási kérelmet még az előtt benyújt
 Az utazási kérelmek és házirendek használhatók a költségvetés kezeléséhez. Ha például a szervezet olyan rögzített árú projekten dolgozik, amelyhez utazás szükséges, a projektcsoporttagok utazási költségeinek a projekt költségvetéséhez kell illeszkednie. Ha megköveteli, hogy az utazási költségeket a felszámításuk előtt jóvá kell hagyni, a szervezet segíthet annak biztosításában, hogy a projekt a költségvetésen belül maradjon.
 
 Az **Utazási kérelem** oldalról beállíthat az utazási kérelmekre vonatkozó szabályzatokat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

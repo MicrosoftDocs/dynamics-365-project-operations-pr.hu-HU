@@ -72,3 +72,6 @@ Ha a költségkategória árbeállítása nem érvényes, azonosította a probl�
 Ha még mindig nem látható érvényes árat az aktuális értékesítési költségnél, miután elvégezte a három ellenőrzést, hozzon létre egy támogatási jegyet.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

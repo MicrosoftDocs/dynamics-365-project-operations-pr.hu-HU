@@ -57,3 +57,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
 - Javítva: Amikor a tranzakció osztálya **Idő**, a **UnitGroup** nem szerkeszthető minden entitásnál, beleértve a, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** és **ContractLineDetails** entitásokat. Azonban az **Egység** csak a **JournalLine** és a **InvoiceLineDetails** entitásokhoz nem szerkeszthető.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

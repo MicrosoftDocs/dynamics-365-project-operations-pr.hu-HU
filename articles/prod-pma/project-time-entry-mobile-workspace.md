@@ -113,3 +113,6 @@ Finance and Operations mobilalkalmazás letöltése és telepítése:
 11. Válassza ki a sortulajdonságot.
 12. Opcionális: Megadhat külső és belső megjegyzéseket.
 13. Válassza a **Kész** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

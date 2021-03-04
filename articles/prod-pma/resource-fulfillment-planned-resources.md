@@ -40,3 +40,6 @@ A projektmenedzserek megtervezhetik a projektek szükséges erőforrás-szerepk�
 7. Válasszon ki egy dolgozót, majd válassza ismét a **Hozzárendelés** lehetőséget.
 8. Ellenőrizze, hogy az **1. szoftverfejlesztő** sora eltávolításra került-e az **XYZ frissítési projekt 2. fázis** projekt esetében.
 9. A **Projektcsapat és ütemezés** lapon az **XYZ frissítés 2. fázis** projektnél ellenőrizze, hogy az előző lépésben kiválasztott dolgozót **szoftverfejlesztőként** adták-e hozzá.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

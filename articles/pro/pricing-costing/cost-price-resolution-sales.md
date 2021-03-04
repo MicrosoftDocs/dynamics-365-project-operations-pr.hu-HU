@@ -36,3 +36,6 @@ Az önköltségi árlista feloldása után az Idő becslési sorában szereplő 
 A Költség becslés sorai az ajánlatra, a költségekhez tartozó szerződéssor részleteire és a projekt költségbecslési soraira vonatkozik.
 
 A költségárlista feloldása után a rendszer a költségbecslés sor **Kategória** és **Egység** mezőinek kombinációját használja a feloldott árlista **Kategóriaársor** lehetőséggel való egyezéshez. Ha a rendszer egy olyan kategória-ársort talál, amely rendelkezik önköltségi rátával a **Kategória** és az **Egység** mező kombinációjára, akkor az önköltségi ráta alapértelmezés szerint megjelenik. Ha a rendszer nem tudja egyeztetni a **Kategória** és az **Egység** értékeket, vagy ha talál egy megfelelő kategóriaársort, de az árképzési mód nem az **Egységár**, akkor a költségarány az alapértelmezett nulla (0) lesz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

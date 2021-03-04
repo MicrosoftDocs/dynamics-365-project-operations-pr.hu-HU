@@ -63,3 +63,6 @@ A már kapott készpénzelőleg költségjelentésének létrehozásakor és elk
 ### <a name="example"></a>Példa
 Egy konferenciára utazik Seattle-ből New Yorkba. A konferenciával kapcsolatos becsült költségek – konferenciára szóló jegy, repjegyek, szállás, étkezések és taxi – összegéről, 3000,00 USD-ról létrehoz egy készpénzelőleg kérelmet. Ön csak akkor kapja meg ezt az összeget, ha a vezető jóváhagyja a kérelmet. Miután a vezető jóváhagyta, a kért készpénzelőleg a bankszámlájára 3000.00 USD formájában kerül kifizetésre. Ezután részt vesz a konferencián. Az utazás befejezése után megállapíthatja, hogy a teljes kiadás csak 2790,00 USD volt. Válassza a **Készpénz** lehetőséget a **Fizetési mód** mezőben, és küldje el a 2790,00 USD költségeiről szóló kérelmet. A rendszer automatikusan helyesbíti a beküldött kiadások összegét az Önnek kölcsönadott 3000,00 USD készpénzelőleg alapján. Mindössze 210,00 USD összeggel (3000,00-2790,00) tartozik a vállalatnak, ezt a **Készpénz visszautalása** költségkategória használatával tudja visszautalni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

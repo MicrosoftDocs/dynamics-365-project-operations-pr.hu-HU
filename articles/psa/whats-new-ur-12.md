@@ -61,3 +61,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
     - Javítva: A **Szerződés fő** űrlapján található duplikált objektumazonosítók.
     - Javítva: a logika frissítve lett, így láthatóvá válik az **Ajánlat elemzése** lap, hogy megjelenítse a lap metaadat-beállításait.
     - Javítva: A tényleges bejegyzésen a számlázási dátum immár az idő/költség dátumából származik és nem a jóváhagyás dátumából.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

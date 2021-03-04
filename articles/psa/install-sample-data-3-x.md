@@ -297,3 +297,6 @@ Jelöljön ki egy felhasználót (például Spencer Low), és Spencer a munkaide
 
 > [!div class="mx-imgBorder"]
 > ![Az aktív lefoglalható erőforrások képernyőfotója](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

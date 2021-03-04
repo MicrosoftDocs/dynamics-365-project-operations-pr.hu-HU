@@ -113,3 +113,6 @@ Mivel a Dynamics 365 Project Service Automation a Universal Resource Scheduling 
 Az egyes erőforrásokkal kapcsolatos további részletek megtekintéséhez kattintson a jobb gombbal az erőforráskártya megnyitásához.
 
 ![Erőforrás-kártya](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

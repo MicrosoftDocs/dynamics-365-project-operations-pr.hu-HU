@@ -64,3 +64,6 @@ Adja hozzá a következő Project Service-entitásokat az árképzési megoldás
 5.  Amikor a rendszer kéri, hogy a kijelölt entitások függő entitásait is adja hozzá, válassza a **Nem adom hozzá a szükséges összetevőket** lehetőséget.
 
     ![Függő entitásokkal együtt](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

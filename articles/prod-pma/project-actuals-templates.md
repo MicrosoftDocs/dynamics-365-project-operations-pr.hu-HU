@@ -140,3 +140,6 @@ A következő ábra példákat mutat be az adatintegrációban az sablonfeladato
 [![Sablonok leképezése – Tényleges értékek frissítése](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Sablonok leképezése – Tranzakció frissítése](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ A költség árajánlatsor-részleteinek pénzneme az költség árajánlatsor-r
 A jövedelmezőségi számítások átváltják a költség és értékesítések árajánlatsor-részleteiben szereplő összeget a környezet alappénznemére az árajánlat teljes becsült hasznának jelentéséhez.
 
 Ennek következtében a pénznemek kerekítési hibái és a nyereségek módosulhatnak a tényleges átváltási árfolyamok hiánya miatt. Ezeket a számításokat a projektárajánlatok esetében csak közelítésként használja és nem a tényleges törvényi vagy egyéb jelentéskészítéshez, amely nagyobb kerekítési pontosságot vagy az átváltási árfolyamok érvényességének ismeretét követeli meg.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

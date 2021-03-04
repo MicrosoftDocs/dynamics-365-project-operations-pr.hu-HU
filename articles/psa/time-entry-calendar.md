@@ -42,3 +42,6 @@ A naptár nem támogatja az egyes naptári tételekkel kapcsolatos műveleteket,
 ## <a name="extensibility"></a>Bővíthetőség
 
 Az **Időbejegyzések** oldalon, amelyen megtalálható az időbeviteli rács, hozzáadhat egyéni mezőket, beállíthat keresési mezőket, és létrehozhat egyéni nézeteket. Beállíthat egyéni üzleti logikát is, amely az egyéni mezőkben kiválasztott vagy bevitt értékeken alapul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

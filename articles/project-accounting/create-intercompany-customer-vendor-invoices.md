@@ -61,3 +61,6 @@ Egyszerre több vállalatközi számlát is létrehozhat a kölcsönvevő jogi s
 ## <a name="post-the-intercompany-vendor-invoice"></a>A vállalatközi szállítói számla feladása
 
 A kölcsönvevő entitásban a projekt könyvelője áttekintheti a vállalatközi függőben lévő számlákat a megfelelő vállalatközi ügyfél-számla feladásakor. A Fininace-ben a kölcsönvevő jogi entitásban nyissa meg a **Kinnlévőségek** > **Számlák** > **Függőben lévő szállítói számla** lehetőséget. A függőben lévő számla száma megegyezik a vállalatközi ügyfél számlaszámával. Ellenőrizze, hogy a számla helyes-e, majd adja fel a számlát. A vállalatközi szállítói számla könyvelésekor létrehoz egy projekt alkönyvet és egy főkönyvi tranzakciót, amely tükrözi a kölcsönvevő jogiszemélynél megjelenő tranzakciós költségeket.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ A következő lépések végrehajtásával hozhatja létre a **Projektinformáci
     ```
 
 6. Mentse el, majd tegye közzé a testreszabásokat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

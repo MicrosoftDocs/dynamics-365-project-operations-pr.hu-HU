@@ -60,3 +60,6 @@ Az olyan nem számlázott értékesítések, amelyeknek **Nem meghaladandó** á
 Ha a több ügyfélből álló szerződéssorok idő-és anyagelszámolású számlázási móddal rendelkeznek, akkor az időpontok és a kiadások jóváhagyásakor a rendszer egy nem számlázott értékesítési tényadatot hoz létre az egyes ügyfelekhez a szerződéssoron az egyes ügyfelekhez meghatározott számlázási felosztási százalék alapján. Az **Idő- és anyagszámlázási hátralék** nézetben ezek az egyéni ügyfél-specifikus, nem számlázott tényleges értékesítések megjelennek. A számlázatlan tényleges értékesítési rekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül.
 
 Ebben a nézetben egy nem számlázott tényleges értékesítés jelenik meg, amely a számlavázlaton található, és a számlázási állapota **Ügyfélszámla létrehozva**. A számla vázlatának megerősítését követően a bejegyzésben szereplő számlázási állapot frissül a **Ügyfélszámla közzétéve** értékre. Ne frissítse ezt az állapotértékét egyéni kóddal. A Project Operations nem működik megfelelően, ha ezeket az értékeket egyéni kóddal frissítik.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

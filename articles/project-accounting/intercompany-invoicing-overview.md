@@ -43,3 +43,6 @@ A következő ábra a vállalatközi számlázást mutatja be, ahogy az kapcsol�
 - [A vállalatközi számlázás konfigurálása](configure-intercompany-invoicing.md)
 - [Vállalatközi tranzakciók rögzítése](create-intercompany-transactions.md)
 - [Vállalatközi ügyfél- és szállítói számlák létrehozása](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

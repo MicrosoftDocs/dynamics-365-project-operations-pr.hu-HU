@@ -146,3 +146,6 @@ Az alábbi táblázat entitásonként felsorolva, átfogó módon biztosítja az
 |  Tény|• Információ<br>• Aktív adatok|• Tényleges társított nézet|
 
 Előfordulhat, hogy az egyéni mezőket hozzá kell adni az üzleti szabályokhoz, attól függően, hogy mit határozott meg. Az egyik out-of-box példa az **Időbejegyzés szerkeszthetősége az állapot alapján** üzleti szabályra vonatkozik. Ez a szabály meghatározza, hogy mely mezőket kell zárolni, ha az Időbejegyzés nem szerkeszthető, például **Jóváhagyott** állapotban. Adjon hozzá mezőket ehhez az üzleti szabályhoz, hogy a mezők zárolva legyenek a szerkesztésre vonatkozóan, ha az Időbejegyzés nem **Vázlat** vagy **Visszaküldött** állapotban van.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

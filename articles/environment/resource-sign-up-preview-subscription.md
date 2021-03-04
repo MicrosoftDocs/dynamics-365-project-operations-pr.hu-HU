@@ -98,3 +98,6 @@ A telepítés végrehajtásához kövesse a következő témakör útmutatását
 
 Telepítse a CDS beállításait és konfigurációs adatait a következő témakörben leírtak szerint: [Beállítás és konfigurációs adatok alkalmazása a Common Data Service rendszerben](resource-apply-pro-setup-config-data.md).
 Ezt a lépést csak azután hajthatja végre, hogy Finance bemutatókörnyezete van telepítve, és elkészültek a bemutató adatok az FO-ban.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

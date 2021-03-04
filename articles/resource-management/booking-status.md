@@ -20,3 +20,6 @@ ms.locfileid: "4514537"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A Universal Resource Scheduling for Dynamics 365 Field Service funkcióinak használatával beállíthat foglalási állapotokat a szervezetéhez. A beállítás végrehajtásáról a [Foglalási állapotok beállítása](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses) című témakörben talál további információt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

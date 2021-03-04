@@ -48,3 +48,6 @@ Erőforrás közvetlen foglalása egy projekthez:
 Erőforrás foglalása az erőforrás-követelményekből:
 - [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Nevesített erőforrások foglalása erőforrás-követelményekből](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

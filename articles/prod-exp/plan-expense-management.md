@@ -160,3 +160,6 @@ A költségjelentés-házirendek létrehozásával segítséget nyújthat a szer
 - Mikor jár le a házirend?
 - Mi a házirendi szabály?
 - Mi a házirendi szabály kimenete?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

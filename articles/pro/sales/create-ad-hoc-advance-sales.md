@@ -39,3 +39,6 @@ A következő lépések végrehajtásával számlázhat az ügyfélnek előleget
     | **Számla állapota** | Ez egy opcióbeállítás, amely azt jelzi, hogy az előleg hozzáadódik-e az ügyfélre vonatkozó számlavázlathoz. A lehetséges értékek:</br>- **Nem kész a számlázásra**</br>- **Kész a számlázásra** | Ha egy előleget vagy előfizetést **Számlázásra készként** jelölnek meg, akkor a program a számlavázlathoz egy soridőpontként adja hozzá a számlát. A következő számlázási időszakra vonatkozóan csak egy teljesen számlázott előleg használható a projekt költségeivel szembeni egyeztetésére. |
 
 4. Az előleg vagy az előrefizetés rögzítéséhez válassza a **Mentés és bezárás** lehetőséget a gyorslétrehozási párbeszédpanelen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

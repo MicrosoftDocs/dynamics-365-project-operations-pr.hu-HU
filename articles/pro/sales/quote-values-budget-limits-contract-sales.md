@@ -41,3 +41,6 @@ Alább láthatók a projektárajánlatban rendelkezésre álló azon lapok és f
 | Jövedelmezőségi elemzés | Árajánlat lapja | A lap a következő metrikákat mutatja meg:</br>- Teljes felszámítható költség</br></br>- Teljes fel nem számítható költség</br>- Összbevétel</br>- Összbevétel (alappénznem)</br>- Bruttó nyereség</br>- Helyesbített bruttó nyereség|
 | Összehasonlítás az ügyfél elvárásaival | Árajánlat lapja | Ez a lap a következő metrikákat mutatja meg:</br>- Becsült befejezés</br>- Kért befejezés</br>- Ügyfél költségvetése</br>- Árajánlat értéke |
 | Árajánlat-elemzés | Árajánlat lapja | Ez a lap a projektárajánlat következő fő teljesítménymutatóit foglalja össze</br>- Összehasonlítás az ügyfelek költségvetésre és ütemezésre vonatkozó elvárásaival</br>- Bruttó nyereség</br>- Helyesbített bruttó nyereség |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

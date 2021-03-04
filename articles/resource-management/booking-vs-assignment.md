@@ -26,3 +26,6 @@ A foglalásoktó eltérően a hozzárendelések az erőforrások kötelezettség
 Az erőforráshoz tartozó foglalások összege általában egy vagy több tevékenységen belül megegyezik az erőforrás hozzárendeléseinek összegével. A Project Operations azonban nem kényszeríti ezt a megállapodást. Az **Egyeztetés** nézet egy projektmenedzser helyét mutatja, ahol az erőforrás foglalása és feladatai nem egyeznek meg.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

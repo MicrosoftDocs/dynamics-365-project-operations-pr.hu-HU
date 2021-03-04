@@ -96,3 +96,6 @@ A sikeres frissítés biztosításához a következő kapcsolatokat kell megfele
 
 - Az összes projektfeladat-függőségnek ugyanahhoz a projekthez kell kapcsolódnia.
 - Egy feladatnak nem lehet ugyanaz a függősége, többször hivatkozva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

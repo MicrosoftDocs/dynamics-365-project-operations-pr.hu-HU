@@ -57,3 +57,6 @@ A szűrőablakon a munkával kapcsolatos beállítások láthatók, például:
 -   Erőforrás-kezelő vállalat
 -   Erőforrástípusok
 -   Előnyben részesített erőforrások
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

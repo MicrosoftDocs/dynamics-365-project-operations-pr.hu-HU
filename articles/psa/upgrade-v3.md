@@ -110,3 +110,6 @@ Az olyan feladatok esetén, amelyeket egy olyan szerv-egységgel rendelnek hozz�
  
 A különféle erőforrás-ellátó szervezeti egységek alapértelmezett értékének megváltoztatása a nem létrehozott csoporttagoknál az az oka, hogy a frissítés előtt generáljunk vagy generáljunk újból minden olyan projektet, amely általános erőforrásokat tartalmaz, hogy az org egység-hozzárendelések ne vesszenek el.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

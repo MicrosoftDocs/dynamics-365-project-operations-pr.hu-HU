@@ -95,3 +95,6 @@ Ez az útmutató a projektek létrehozásához és kezeléséhez szükséges inf
  [Erőforrás-kezelői útmutató](../psa/resource-manager-guide.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

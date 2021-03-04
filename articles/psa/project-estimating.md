@@ -97,3 +97,6 @@ Mind a rács nézetben, mind az időszakos nézetben kiválaszthatja, hogy mely 
 ## <a name="expense-estimates"></a>Költség becslések
 
 Az **Új költségbecslés hozzáadása** gomb segítségével a rács nézetben feljegyezhetők a projekt során felmerülő költségek, amelyek nem közvetlenül kapcsolódnak a munkaerőhöz. Rögzítheti egy adott feladat vagy a teljes projekt költségbecsléseit. Válassza ki a költségkategóriákat és a kezdeti dátumot, amikor várhatóan felmerül a költség. Ha a kapcsolódó bekerülési és az eladási árlista alapértelmezett árakat tartalmaz (vagy ha a költségkategóriákhoz meghatározták a jelölési százalékokat), akkor azok automatikusan bekerülnek a becsléssorba, amikor a társítás megtörténik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

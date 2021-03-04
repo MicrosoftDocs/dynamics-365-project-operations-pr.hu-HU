@@ -27,3 +27,6 @@ A projektcsapat tagjai létrehozzák és elküldik az időbejegyzéseket jóváh
 
 A bejegyzések létrehozásával, küldésével vagy visszahívásával, illetve a jelentéskészítés végrehajtásában segítő egyéb eszközökkel kapcsolatban lásd: [Időbejegyzés felhasználói viselkedése](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

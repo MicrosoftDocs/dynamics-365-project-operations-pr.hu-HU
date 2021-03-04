@@ -53,3 +53,6 @@ A PSA-ban általános vagy megnevezett erőforrásokkal foglalkoztathatja a proj
 - [Nevesített erőforrások foglalása erőforrás-követelményekből](book-named-resource.md)
 - [Erőforrás-igény benyújtása](submit-resource-request.md)
 - [Fogadja el vagy utasítsa el a javasolt projekt erőforrást egy erőforrás-kérésből](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

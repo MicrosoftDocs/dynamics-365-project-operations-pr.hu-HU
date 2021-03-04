@@ -37,3 +37,6 @@ A Project Operations foglalója nem használható fel, amíg nem számlázták k
 | --- | --- | --- |
 | Rendelkezésre álló összeg | A foglaló vagy az előleg rekordján elérhető, használható összeg. | Amíg az előleget vagy a foglalót nem számlázzák, nem használható, azaz az elérhető összeg nulla lesz. |
 | Felhasznált mennyiség | A foglaló vagy az előleg rekordján már felhasznált összeg. | Az előleg vagy a foglaló részben egyeztethető a számlán a tényleges költséggel, és részben megjelölhető már felhasznált vagy elfogyasztott típusúként. Az előleg vagy a foglaló további összege elérhető a jövőbeli, tényleges költségekkel rendelkező számlák egyeztetésére. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

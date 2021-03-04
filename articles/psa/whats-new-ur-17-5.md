@@ -44,3 +44,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
 - Rögzített: A napi 24 órás munkaidő-sablonok helytelenül egy újabb napot vesznek fel a feladatokba, ez javítva lett.
 - Javítva: A + 13 GMT munkaidő-sablonjai helytelenül áthelyezik a feladatokat egy nappal előre.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

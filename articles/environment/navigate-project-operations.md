@@ -38,3 +38,6 @@ Válassza a **Bejelentkezés** > **Bejelentkezés a környezetbe** elemet, amive
 
 > [!NOTE]
 > A Project Operationst megnyithatja a Common Data Service rendszerben, és közvetlenül a **projektmenedzsment és könyvelés** modulban a megfelelő URL-címek segítségével. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

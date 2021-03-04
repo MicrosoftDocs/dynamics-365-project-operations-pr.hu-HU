@@ -66,3 +66,6 @@ Ha még mindig nem látható érvényes ár az aktuális időköltségnél, miut
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

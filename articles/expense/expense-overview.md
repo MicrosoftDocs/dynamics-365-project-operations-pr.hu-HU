@@ -44,3 +44,6 @@ További információkért lásd: [Költségbejegyzés (Lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>A Költség telepítési típusának meghatározása
 Annak megállapításához, hogy az alapszintű költségkezelési telepítést futtatja-e, ellenőrizze, hogy a cím URL-címe a **.crm.dynamics.com** végződéssel rendelkezik-e. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Szabály: Egy projekt és egy adott tranzakciós osztály csak egy projektalapú
 | C1       | CL2           | I1      | Nincs           | Igen             | Nincs          | Érvényes           | A P1 projektre vonatkozó idő és a díjak a CL1 sorban szerepelnek. A P1 projektre vonatkozó költséget a CS2 tartalmazza. </br>   Az egyes szerződéssorok tartalma között nincs átfedés, ezért érvényes.  |
 | C1       | CL1           | I1      | Igen          | Igen             | Igen         | Nem érvényes       | Megsérti a szabályt. A P1 projekt ideje díjai és költségei mindkét szerződés sorain szerepelnek.                                                                                               |
 | CL2      | CL2           | I1      | Igen          | Igen             | Igen         | Nem érvényes       | Megsérti a szabályt. A P1 projekt ideje díjai és költségei mindkét szerződés sorain szerepelnek.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

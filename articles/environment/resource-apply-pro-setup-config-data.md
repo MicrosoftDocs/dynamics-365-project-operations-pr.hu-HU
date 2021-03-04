@@ -134,3 +134,6 @@ Az adatok Common Data Service (CDS) felületén történő konfigurálásának m
 13. Válassza a **Mentés** parancsot. 
 
 ![Frissített projektparaméterek](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

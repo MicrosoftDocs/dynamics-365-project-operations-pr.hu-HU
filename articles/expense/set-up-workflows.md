@@ -48,3 +48,6 @@ Az alábbi táblázat a **Költségkezelés** részen létrehozható munkafolyam
 |       <strong>Utazási kérelem</strong>       |          Jóváhagyási munkafolyamatok létrehozása utazási kérelmekhez.           |
 |      <strong>Készpénzelőleg kérése</strong>      |         Jóváhagyási munkafolyamatok létrehozása készpénzelőleg kéréséhez.          |
 |        <strong>ÁFA-visszaigénylés</strong>        | Jóváhagyási munkafolyamatok létrehozása ÁFA visszaigényléséhez.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Az erőforrás-ütemezés teljesítménynövelésének engedélyezéséhez hajts
 
 > [!NOTE]
 > Ezzel az általános adatokat szétotsztja a **ResRollup** táblába a környezet minden vállalatában, így a kötegelt feldolgozást csak egy jogi személyben kell futtatni. Ez a kötegelt feldolgozás az összes **erőforrás-elérhetőségi** nézet esetében szükséges. Ha a kötegelt feldolgozást nem futtatják le, akkor a **ResRollup** -adatok menet közben jönnek létre, ami időt vesz igénybe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

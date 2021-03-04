@@ -43,3 +43,6 @@ Ha ügyfeleinek ajánlatokat vagy számlákat kíván létrehozni a [!INCLUDE[pn
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service testreszabása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

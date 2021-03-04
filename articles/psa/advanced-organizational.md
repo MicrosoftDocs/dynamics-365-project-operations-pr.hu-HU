@@ -167,3 +167,6 @@ Ha vállalata egy önköltségi árlistát tartalmazó egyetlen egységként mű
 Ha önmagában egy projektet hoznak létre, a projekt alapértelmezett szerződő részlege az a felhasználó, aki létrehozza azt. Ez a felhasználó egyben az alapértelmezett projektvezető is. Ha a projekt egy értékesítési entitásra van leképezve – például Árajánlathoz vagy Projektszerződéshez –, akkor a projektben szereplő szerződő részleg az értékesítési entitáson alapul. Ebben az esetben a projektbecslések újraszámíthatók, mivel az önköltségi árlista segítségével kiszámíthatók a költségbecslés változásai, a szerződő részleg módosulása esetén. Az értékesítési árlista segítségével kiszámíthatók a módosítani kívánt értékesítési becslések, hogy azok szinkronban legyenek az árajánlat projekt árlista mezőjében szereplő árakkal.
 
 A **Szerződő részleg** és a **Pénznem** mezők nem szerkeszthetők, mivel szinkronban kell lenniük az értékesítési entitások értékeivel (árajánlat vagy projektszerződés), amelyekre a projekt le van képezve.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

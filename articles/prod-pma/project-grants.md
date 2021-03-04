@@ -79,3 +79,6 @@ A támogatást létrehozhatja egy új rekord összes adatának megadásával, il
 2. Válassza ki a módosítani kívánt támogatást.
 3. A Műveleti ablaktáblán a **Támogatás** lapon, a **Karbantartás** csoportban válassza a **Szerkesztés** lehetőséget.
 4. Tekintse át a támogatási adatokat, és végezze el a szükséges módosításokat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

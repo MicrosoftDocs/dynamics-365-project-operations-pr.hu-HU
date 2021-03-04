@@ -52,3 +52,6 @@ A szerződéses ügyfél létrehozható, frissíthető, illetve törölhető a *
 A számlázás felosztási százaléka szerkeszthető a sorközi rácsszerkesztési felületen. Ha a számlázásfelosztási százalékértékek nem tesznek ki teljes 100 százalékot, akkor hiba jelenik meg. A számlázási felosztás százalékos értékének módosítása után frissítse a lapot a hiba elvetéséhez.
 
 Kiválaszhatja az **Egyenlő elosztás** lehetőséget is az **szerződéses ügyfelek** részrácsán, hogy a számlázási felosztásokat egyenletesen ossza el az összes szerződéses ügyfél esetén. Ha bármilyen kerekítési tényező van, akkor a rendszer hozzáadja a kerekítési ügyfélhez. A szerződés szerinti ügyfelek egyike mindig a **kerekítési** ügyfélként van címkézve, ami azt jelenti, hogy a szerződéses ügyfél rekordjánál **Igen** értékre van állítva a kerekítési jelző. Ez általában a szerződés elsődleges ügyfele, de szintén megváltoztatható.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

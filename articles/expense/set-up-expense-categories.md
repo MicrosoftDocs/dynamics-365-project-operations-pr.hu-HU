@@ -61,3 +61,6 @@ A beállítási folyamat megkezdése előtt a következő döntéseket kell megh
 
     - Van olyan alkategória, amely ki van zárva az adó visszaigényléséből?
     - Mi ezen alkategóriák cikkáfacsoportja?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

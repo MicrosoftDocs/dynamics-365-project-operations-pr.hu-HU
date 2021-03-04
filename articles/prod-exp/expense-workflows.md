@@ -50,3 +50,6 @@ Az alábbi táblázat a **Költség** részen létrehozható munkafolyamatok tí
 |      <strong>Készpénzelőleg kérése</strong>      |         Jóváhagyási munkafolyamatok létrehozása készpénzelőleg kéréséhez.          |
 |        <strong>ÁFA-visszaigénylés</strong>        | Jóváhagyási munkafolyamatok létrehozása ÁFA visszaigényléséhez.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

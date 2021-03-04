@@ -44,3 +44,6 @@ A Project Operations több telepítési modellt támogat. A legjobb telepítési
 2. Telepítse a **Microsoft Dynamics 365 Project Operations** lehetőséget a Dynamics 365 alkalmazások telepítési listájából. További információ: [Dynamics 365-alkalmazások kezelése](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

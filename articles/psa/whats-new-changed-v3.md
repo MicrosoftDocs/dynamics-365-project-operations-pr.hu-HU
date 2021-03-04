@@ -257,3 +257,6 @@ A következő ábra az egyedi árlisták létrehozása utáni állapotot mutatja
 
 > [!NOTE]
 > Egy rövid késleltetés történhet, ha rákattint az **Egyéni árképzés létrehozása** elemre, addig, hogy az egyéni árlista létrejön. Javasoljuk, hogy frissítse a rácsot a többszöri kattintás helyett. Létrehozott egy egyéni árlistát, ha a társított árlista nevéhez hozzá van fűzve az árajánlat neve vagy a projektszerződés neve.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

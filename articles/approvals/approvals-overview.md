@@ -59,3 +59,6 @@ Minden projekthez bizonyos számú projektcsapattag tartozik. Megadhatja, hogy m
 3. Válassza a **Mentés** parancsot.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. A m
 - [Puha foglalási követelmények](resource-management-softbook-requirements.md)
 - [Készségek és jártassági modellek](resource-management-skills-proficiency.md)
 - [Erőforrás-kezelési GYIK](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

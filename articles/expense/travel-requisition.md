@@ -56,3 +56,6 @@ Válassza ki a jóváhagyni kívánt utazási kérelmet, majd jelölje ki a **Mu
 
 > [!NOTE]
 > Ha egy költségjelentést jóváhagyott utazási kérelemhez képez hozzá, a tranzakció összege nem lehet nagyobb, mint az engedélyezett összeg. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

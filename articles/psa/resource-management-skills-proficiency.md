@@ -48,3 +48,6 @@ Az erőforrás-készségeket a jártassági modellek osztályozzák. Az egyes é
 > ![Meghatározott minimális és maximális besorolás](media/Resource-Management-image85.png)
 
 Ezek a minősítési értékek megjelennek az **Erőforrásigény**, **Ütemezési tábla** és **Ütemezési asszisztens** szűrőkön.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

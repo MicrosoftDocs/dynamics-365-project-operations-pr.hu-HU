@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119781"
 ---
 # <a name="resource-management-overview"></a>Erőforrás-kezelés áttekintése
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

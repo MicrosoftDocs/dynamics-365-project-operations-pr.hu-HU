@@ -77,3 +77,6 @@ A következő problémák kerültek kijavításra:
 - Az **Értékesítési árlisták feloldási** logikája nem megfelelően kezeli az időzónákat, így az árlisták helytelenül lesznek kiválasztva.
 - A projekt **Összes tényleges költsége** egyetlen időbevitel jóváhagyása után tört összeggel is elvégezhető.
 - Az **Árfeloldás** logikája nem biztosít felhasználóbarát hibaüzenetet, ha a **Beolvasott szerepkörár** nem rendelkezik az **„Elsődleges kiszerelés”** és az **„Ár az elsődleges kiszerelésben”** mezőkben értékkel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

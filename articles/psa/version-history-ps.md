@@ -73,3 +73,6 @@ A Project Service frissítéseivel kapcsolatos információkért keresse fel a [
 >[!Note]
 > - Az összes régióban dátumok, kivéve a Kormányzati Közösség Felhőjét (GCC), a következő automatikus frissítés időzítését jelzik. A GCC-ben lévő dátumok jelzik a verzió elérhetőségét, jelenleg nincs automatikus frissítés ezekben a régiókban.
 > - A többi régió esetében a legtöbb frissítés az ütemezett éjszakán történik. A több időt igénylő frissítésekre az **Ütemezett dátum** oszlopban látható hétvége éjszakai óráiban kerülhet sor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ A foglalói ütemezések beállítása a Dynamics 365 Project Operations **Proje
 | Létrehozandó foglalók száma | Ha megadja a létrehozandó foglalók számát, a rendszer a kezdési dátumot és gyakoriságot használja a mezőben a szám létrehozásához. | A mező manuális frissítésekor a rendszer figyelmen kívül hagyja a **Foglalói ütemezési vége** mezőben szereplő értéket, és ehelyett létrehozza a foglalók vagy előlegek adott számát. |
 | Számlázási gyakoriság | Milyen gyakran hozza létre az alkalmazás a foglalókat és az előlegeket? | Ez az érték közvetlenül befolyásolja a foglalók és az előlegek számát, valamint a létrehozott dátumokat. |
 | Összmennyiség | A teljes összeg az az összeg, amelyet a létrehozandó egyéni foglalói vagy a előlegfizetések között oszt meg. | Ennek a mezőnek nincs későbbi hatása. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

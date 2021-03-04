@@ -63,3 +63,6 @@ A Project Operationsben nem követheti nyomon az árajánlatokon végzett módos
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Az árajánlatok és a projektszerződések megjegyzéseinek és jóváhagyásának nyomon követése
 Az árajánlatok és a projektszerződések felülvizsgálatát és jóváhagyását a nyilvántartási fal és a hozzászólások segítségével kezelheti. A szervezet létrehozhat egyéni munkafolyamatokat és beépülő modulokat a vélemények értesítéseinek hozzárendeléséhez, átirányításához, felterjesztéséhez és kezeléséhez, illetve a munkaelemek jóváhagyásához.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Saját üzleti folyamat létrehozásához a projektentitáshoz tegye a következ
 
    ![Képernyőkép: projektentitáson nézetek módosítása](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

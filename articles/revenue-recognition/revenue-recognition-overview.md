@@ -60,3 +60,6 @@ A Dynamics 365 Project Operations alkalmazásban a bevételelszámolási elvek a
 [Bevételi becslések kezelése](rev-rec-completed-contract-method.md)
 
 [Teljesítési költség módszerei](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

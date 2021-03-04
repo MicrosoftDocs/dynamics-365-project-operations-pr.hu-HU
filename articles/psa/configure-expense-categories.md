@@ -55,3 +55,6 @@ Minden költségkategória rendelkezhet saját egységcsoporttal és egységgel.
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service Automation konfigurálása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

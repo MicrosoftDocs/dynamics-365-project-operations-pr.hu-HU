@@ -44,3 +44,6 @@ A költségvetés vagy a költségvetés-verzió felosztását követően áttek
 10. Ha a felosztás megfelel az elvárásainak, a Projektköltségvetés lapon kattintson a Küldés lehetőségre, és küldje tovább a költségvetést vagy a költségvetés-verziót a jóváhagyás munkafolyamatba.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

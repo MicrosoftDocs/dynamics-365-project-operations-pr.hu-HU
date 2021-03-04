@@ -200,3 +200,6 @@ Ha az időt magasabb szinteken tekinti meg, akkor az **Egyeztetés** lapon lév�
 Ha az erőforráshoz feladatok vannak hozzárendelve, de nincs foglalása, akkor a **Projektek** űrlapon, az **Egyeztetés** lapon válassza ki a foglalási hiányt, majd válassza a **Foglalás kiterjesztése** lehetőséget. Megjelenik a **Foglalás kiterjesztése** párbeszédpanel, amely megmutatja az erőforrás hiányának kezeléséhez szükséges foglalást. A párbeszédpanel ezenkívül megmutatja az erőforrás meglévő foglalásait az összes projektben vagy más ütemezhető entitásban. Ha az **OK** lehetőséget választja az erőforrás foglalásának elkészítéséhez, az erőforrás elérhetőségétől függetlenül túlfoglalást okozhat.
 
 A projektmenedzser vagy az erőforrás-kezelő ezután felhasználhatja az Ütemezési táblát olyan helyzetek kezelésére, amikor egy erőforrás túlfoglalása meghaladja a kapacitást.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

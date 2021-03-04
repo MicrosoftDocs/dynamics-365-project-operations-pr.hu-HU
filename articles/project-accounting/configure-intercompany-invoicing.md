@@ -101,3 +101,6 @@ A következő példában a Contoso Robotics USA (USPM) a kölcsönvevő jogi sze
           - **Erőforrás vállalat** = **Contoso Robotics UK**
           - **Számlázási ár** = **200 dollár**
       9. Nyissa meg a **Sales** > **Projektszerződések** lehetőséget és csatolja az **Adventure Works számlázási árak** a projektszerződés Adventure Works projektárlistájához.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

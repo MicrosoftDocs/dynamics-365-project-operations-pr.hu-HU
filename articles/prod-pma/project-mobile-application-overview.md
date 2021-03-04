@@ -49,3 +49,6 @@ A Saját időnyilvántartásaim (mobilra optimalizált) és az Időnyilvántart�
 - [Projektidő-bevitel]( project-time-entry-mobile-workspace.md)
 - [Projektszintű időnyilvántartások mobileszközön](Mobile-timesheets.md)
 - [Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Az engedélyezés most már kész.
 Sikeresen kapcsolódott az Azure-előfizetéséhez. Most már telepítheti a Dynamics 365 Finance felhőalapú környezeteit.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

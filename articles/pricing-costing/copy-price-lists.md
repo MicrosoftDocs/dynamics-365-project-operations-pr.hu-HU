@@ -43,3 +43,6 @@ A következő lépések végrehajtásával készítheti el az árlista másolat�
 1. Egy árlista **Szerepkör**, **Kategória** és **Árlistaelem** lapjain kiválaszthatja az **Árak frissítése** lehetőséget, hogy árrést alkalmazzon az alrácsban szereplő összes ár esetében. 
 2. A megnyíló párbeszédpanel lapján adjon meg egy növelést. Negatív növelést is megadhat, ha bizonyos százalékkal csökkenti az árakat. 
 3. Válassza az **OK** lehetőséget a párbeszédpanelen, és ellenőrizze, hogy az alrácsban szereplő árak tükrözik-e az elvégzett módosításokat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

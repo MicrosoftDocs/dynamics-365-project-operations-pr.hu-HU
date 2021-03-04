@@ -124,3 +124,6 @@ A következő ábra egy példát mutat be az adatintegrációban az sablonfelada
 > A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
 [![Project Service Automation és Finance sablonleképezése](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

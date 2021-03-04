@@ -125,3 +125,6 @@ Az entitások biztonsági jogosultságának alábbi frissítései az UR5-ös ver
  
  ![Főkönyvi leképezés szinkronizálása](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

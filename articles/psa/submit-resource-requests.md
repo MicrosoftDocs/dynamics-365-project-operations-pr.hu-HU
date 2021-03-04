@@ -55,3 +55,6 @@ Egy projektszerződés elnyerése után személyzetet kell biztosítani a projek
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

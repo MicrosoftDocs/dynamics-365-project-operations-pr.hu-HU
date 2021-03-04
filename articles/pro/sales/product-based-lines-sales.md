@@ -28,3 +28,6 @@ Az **Ügyfélköltségvetés** olyan fogalom, amely kifejezetten a projektalapú
 
 Ha a Lehetőség összegzésének bevételi módja **Rendszer által kiszámítva**, akkor a program a lehetőségsorok ügyfélköltségvetés értékeit összesítő módon kiszámítja a becsült bevételt. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

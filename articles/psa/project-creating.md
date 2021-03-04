@@ -149,3 +149,6 @@ Alapértelmezés szerint, ha a levélcsomópont-feladatnak nincsenek elődei, ak
 ### <a name="manual-scheduling"></a>Kézi ütemezés
 
 Ha az automatikus ütemezés szabályai nem felelnek meg az Ön igényeinek, beállíthatja a feladatmódot **Kézi ütemezés** értékre. Ez a beállítás megakadályozza, hogy az ütemezőmotor kiszámolja a többi ütemezési attribútum értékét. A feladatmódtól függetlenül, ha elődöket állít be a feladatokra, akkor mindig befolyásolni fogja a függő feladat kezdő dátumát.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -152,3 +152,6 @@ A következő típusú feladatokat fogja használni, a munkalebontási szerkezet
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

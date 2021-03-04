@@ -33,3 +33,6 @@ A projektárajánlatok listája az **Árajánlatok** listaoldalon látható.
 2. A **Nézetváltó** segítségével már szűrt nézeteket is kiválaszthat az árajánlatokhoz. Az egyéni szűrőfeltételek használatával saját nézeteket és navigációs beállításokat állíthat be.
 
 Árajánlatokat lehet létrehozni vagy törölni ebből a listából vagy részletes oldalakról.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

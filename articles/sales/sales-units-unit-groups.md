@@ -46,3 +46,6 @@ A témakör lépéseinek végrehajtásához rendszergazdai, Sales Professional m
 3. A **Mennyiség** mezőben adja meg azt a mennyiséget, amelyet az egység tartalmazni fog. Ha egy doboz például két darabot tartalmaz, akkor a „2” értéket írja be. 
 4. Az **Alapegység** mezőben válasszon egy alapegységet, az egység legkisebb mértékegységének megadásához. Megadhatja például a „Darab” lehetőséget.
 5. Válassza a **Mentés** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

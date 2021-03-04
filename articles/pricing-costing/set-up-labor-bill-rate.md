@@ -55,3 +55,6 @@ Például a Fabrikam India robotikai divíziójának egyik fejlesztője, aki egy
     | Fejlesztői | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Csatolja az értékesítési árlistát, a **Fabrikam US számlázási rátáit** a projektszerződés vagy egy bizonyos Partner projektárlistájához.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

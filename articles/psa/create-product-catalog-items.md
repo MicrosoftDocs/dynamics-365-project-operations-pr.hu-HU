@@ -37,3 +37,6 @@ Ha projektárajánlataiban és -becsléseiben szeretne termékeket feltüntetni 
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service testreszabása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

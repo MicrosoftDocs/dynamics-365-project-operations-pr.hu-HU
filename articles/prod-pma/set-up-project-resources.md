@@ -75,3 +75,6 @@ Az előző feladatok befejezését követően az alábbi műveleteket hajthatja 
 - Erőforrás-kérelmek teljesítése.
 - Munkatársakkal ellátott erőforrás kérelmezése a WBS-ből.
 - Erőforrások foglalása egy projekthez egy munkatársakkal ellátott erőforrásra vonatkozó kérelem nélkül.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

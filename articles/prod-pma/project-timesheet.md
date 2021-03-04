@@ -96,3 +96,6 @@ A **Küldés** gombra kattintva elküldheti a munkaidő-nyilvántartást a jóv�
 ## <a name="review-timesheets"></a>Munkaidő-nyilvántartások áttekintése
 
 Az áttekinteni kívánt munkaidő-nyilvántartások listája elérhető a menüben. Ez a beállítás csak akkor érhető el, ha a rendszer a munkafolyamat jóváhagyókjaént jelölte meg. A fejléc és a sor jóváhagyása egyaránt támogatott. A sorszintű jóváhagyás lehetővé teszi egy vagy több sor megjelölését jóváhagyásra. A munkaidő-nyilvántartás adatainak áttekintése után kattintson a **Jóváhagyás** , a **Delegálás** vagy a **Visszatérés** lehetőségre a munkafolyamat folytatásához.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

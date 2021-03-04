@@ -93,3 +93,6 @@ A Project Operations árajánlatai a Dynamics 365 Sales szerződéseire épülne
 - A Project Operations szerződések magukban foglalják saját űrlap- és a felhasználói felület elemeiket, az üzleti szabályokat, az üzleti logikát a beépülő modulokban és az ügyféloldali parancsfájlokat, amelyek megkülönbözteti őket a Sales szerződéseitől.
 
 A fenti okok miatt nem szabad a Sales szerződéseket és a Projekt szerződéseket felcserélhető módon használni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

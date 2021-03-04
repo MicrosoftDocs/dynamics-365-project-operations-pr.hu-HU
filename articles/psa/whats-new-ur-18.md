@@ -63,3 +63,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
 **Sales**
 
 - Rögzített: Az időbejegyzések újbóli jóváhagyása esetén (**Jóváhagyás > Visszavonás** ismételt jóváhagyás) egy duplikált, nem számlázható tényadat is létrehozásra kerül.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

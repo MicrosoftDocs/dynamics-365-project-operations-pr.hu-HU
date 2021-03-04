@@ -128,3 +128,6 @@ Rögzített árú árajánlatsor esetén a **Számla ütemezése** rács haszná
 - Az egyenlően eloosztott számlázási mérföldkövek létrehozásához válassza ki a számlázás gyakoriságát, írja be a számlázás kezdési dátumát az árajánlatsorba, és válassza a **Kért teljesítési dátumot** az árajánlatsor fejlécének **Összegzés** szakaszában. Ezután válassza az **Időszakos mérföldkövek létrehozása** lehetőséget a kiválasztott számlázási gyakoriság alapján egyformán elosztott mérföldkövek létrehozásához. 
 - Ha átalányösszegű számlázási mérföldkövet szeretne létrehozni, hozzon létre egy mérföldkövet, majd adja meg az árajánlatsor értékét a mérföldkő összegeként.
 - Ha a projektterv adott feladatain alapuló számlázási mérföldköveket szeretne létrehozni, hozzon létre mérföldkőet, és képezze le a projekt ütemezési elemére a számlázási mérföldkő felhasználó felületén.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

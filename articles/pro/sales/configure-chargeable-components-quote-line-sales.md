@@ -77,3 +77,6 @@ A költséghez létrehozott becslések vagy tényleges adatok csak akkor tekinth
 | Nincs | Igen | Teljes projekt | Nem állítható be | Fel nem számítható | Nem állítható be | Számlázás egy tényleges Időhöz: Nem érhető el </br>Számlázás típusa egy tényleges kiadáshoz: Nem számlázható |
 | Igen | Nincs | Teljes projekt | Felszámítható | Nem állítható be | Nem állítható be | Számlázás egy tényleges Időhöz: Számlázható</br>Számlázás típusa egy tényleges kiadáshoz: Nem érhető el |
 | Igen | Nincs | Teljes projekt | Nem számlázható | Nem állítható be | Nem állítható be | Számlázás egy tényleges Időhöz: Nem számlázható </br>Számlázás típusa egy tényleges kiadáshoz: Nem érhető el |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

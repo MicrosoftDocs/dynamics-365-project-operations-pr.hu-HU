@@ -55,3 +55,6 @@ A Project Operations integrációsnapló-soraiban csak a következő számlázá
 Az integrációs naplósorok törölhetők, de a feladatlan sorokat a rendszer ismét beszúrja a naplóba, miután újra futtatja az **Importálás az előkészítésből** időszakos folyamatot.
 
 Az integrációs napló feladásakor létrejön egy projektrészfőkönyv és főkönyvi tranzakciók. Ezeket használják a lefelé irányuló ügyfélszámlázás során, a bevétel elszámolása és a pénzügyi jelentéskészítés során.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

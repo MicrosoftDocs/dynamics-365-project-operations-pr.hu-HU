@@ -37,3 +37,6 @@ Ezt a telepítést használja, ha az elvárása a Project Operations szolgáltat
 - Integrált rendszer, amely a belső és a számlázható projekteket kezeli a projekt értékesítéstől a számlázásig történő ütemezése és pénzügyei szempontjából.
 - Egy harmadik féltől származó vállalati erőforrás-tervezési (ERP/pénzügyi könyvelési) rendszer a Project Operations integrálására.
 - Egy külső gyártótól származó rendszer az áfák, az átváltási árfolyamok, a költségtérítések és a projekten kívüli kiadások kezeléséhez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

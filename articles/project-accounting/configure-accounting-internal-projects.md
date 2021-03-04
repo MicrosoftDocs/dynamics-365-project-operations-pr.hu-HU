@@ -32,3 +32,6 @@ A Dynamics 365 Project Operations alkalmazásban szerződéshez nem társított 
 A tranzakciók feladása után a projektbe, ha a projekt egy projektszerződéssel van társítva, a rendszer sztornírozza az összes halmozott tranzakciót, és új számlázható tranzakciókat hoz létre. A számlázható tranzakciók az adott projekt költség és bevételi profiljaiban meghatározott könyvelési szabályokat követik.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

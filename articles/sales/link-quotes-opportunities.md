@@ -56,3 +56,6 @@ A meglévő árajánlatok a lehetőséghez csatolhatók. Hajtsa végre az alább
    Ha a lehetőséget ebbe a fázisba helyezi, akkor ezt az árajánlatot a lehetőséghez társított árajánlatok listájából választhatja ki. Az árajánlat kiválasztása azt jelzi, hogy továbbhalad vele.
 
    A lehetőséghez kapcsolódó összes egyéb árajánlat továbbra is elérhető lesz, és mindaddig aktív marad, amíg az egyiket el nem nyerik. Az értékesítési folyamatot visszahelyezheti az előző (**Minősítés**) fázisba, és másik ajánlatot választhat ki, amellyel továbbléphet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

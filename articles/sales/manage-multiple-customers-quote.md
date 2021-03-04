@@ -51,3 +51,6 @@ Az árajánlati ügyfél az **Árajánlat** oldal **Árajánlati ügyfelek** lap
 A számlázásfelosztási százalékokat a soros rácsszerkesztés használatával szerkesztheti. Ha a számlázási felosztási százalékok összege nem 100%, hiba lép fel. A számlázásfelosztási százalékok frissítése után frissítse az oldalt a hiba eltávolításához.
 
 Megpróbálhatja kiválasztani az **Egyenlő elosztás** lehetőséget is az árajánlat ügyfeleinek részrácsán. Ez a művelet a számlázásfelosztásokat az összes árajánlati ügyfél számára elosztja. Ha van kerekítési tényező, az hozzáadódik a kerekítő ügyfélhez. Az árajánlati ügyfelek egyike mindig a kerekítő vevőként van címkézve. Ez azt jelenti, hogy az árajánlat vevői rekordjának esetében a **Kerekítés** jelzője **Igen**. Általában ez az árajánlat elsődleges vevője, de ez módosítható.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

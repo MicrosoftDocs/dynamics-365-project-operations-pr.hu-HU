@@ -53,3 +53,6 @@ A dolgozó kompetenciáinak beállításához használhatja a **Dolgozók** list
 5. A **Szint dátuma** mezőben válassza a **2014.01.14.** lehetőséget.
 6. A **Tapasztalati évek** mezőben adja meg a **10** értéket.
 7. Válassza a **Mentés** lehetőséget, és zárja be az oldalt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
   - Javítva: A továbbiakban nem kap hibaüzenetet a **Projektkeresőben** az **Ajánlati sor** űrlapon, ha több mint 1000 projekt van.
   - Javítva: A **Becslések** rács a munka becsléséhez és a költségbecsléséhez immár a helyes pénznemszimbólummal jelenik meg.
   - Javítva: Miután egy szervezet frissítette a PSA-t 14. frissítési kiadásról a 15. frissítési kiadásra, az **Ütemezés** lap már nem üresen jelenik meg a **Projekt** űrlapon.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Amikor egy projektcsoportot a forrásprojektből másol, az általános erőforr
 A projekt másolásakor az erőforrás- és költségbecslési sorok is átkerülnek a forrásprojektből. 
 
 A projektek másolásának programozott elérésével kapcsolatos tudnivalók a [Projektsablonok fejlesztése a Projekt másolásával](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

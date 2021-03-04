@@ -51,3 +51,6 @@ A partnerkezelők és a projektmenedzserek gyakran kérnek erőforrásokat proje
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

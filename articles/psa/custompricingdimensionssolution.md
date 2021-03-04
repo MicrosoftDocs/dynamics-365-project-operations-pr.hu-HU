@@ -68,3 +68,6 @@ A következő Project Service entitásokat kell hozzáadnia az árképzési mego
 > ![Ne adja hozzá az összes kapcsolódó komponenst](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

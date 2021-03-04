@@ -113,3 +113,6 @@ Molly Clark, az GBPM-ben foglalkoztatott fejlesztő 10 órányi munkát végzett
     - Jóváírás: Projekt – elhatárolt bevétel 120 USD
 
     A rendszer most már készen áll a vállalatközi vevői számla létrehozására.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

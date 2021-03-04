@@ -59,3 +59,6 @@ Az **Erőforrás-követelmény** hivatkozásra kattintva a csoport rácson is me
 
 ![Erőforrás-követelmény](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

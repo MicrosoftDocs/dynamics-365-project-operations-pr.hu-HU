@@ -101,3 +101,6 @@ Ha nem látható számlázható kihasználtság, az alábbi néhány dolgot elle
   - A projekt mögöttes projekt szerződéssorán levő szerepkör nem számlázhatóra van beállítva.
   - A projektnek nincs hozzárendelt szerződéssora.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

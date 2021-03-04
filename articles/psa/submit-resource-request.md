@@ -41,3 +41,6 @@ A létrehozott erőforrás-igényt erőforrás-kérésként is beadhatja. Ezutá
 Az általános csapattag kérésének státusza **Benyújtott** lesz.
 
 Miután a kérést az erőforrás-kezelő teljesítette, az általános erőforrást egy megnevezett erőforrás váltja fel, ha az erőforrás-kezelő egy megnevezett erőforrás lefoglalásával teljesíti a kérést. Ellenkező esetben az általános erőforrás a csapaton marad, és a kérés állapota **Áttekintés szükséges** értékre változik , ha az erőforrás-kezelő egy megnevezett erőforrást javasolt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

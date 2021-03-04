@@ -26,3 +26,5 @@ Az erőforrás-követelményeket a projektmenedzser határozza meg a projekten v
 3.  A **Coporttag** lapon válassza ki az csoporttagot, majd válassza a **Követelmény generálása** lehetőséget.
 
 Az erőforrás-szükséglet módosításával kapcsolatos további tudnivalókért lásd: [Erőforrás-követelmény részleteinek módosítása](define-resource-requirements.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ A Dynamics 365 Finance projektmenedzsmentjéről és könyveléséről, lásd a 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
 A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

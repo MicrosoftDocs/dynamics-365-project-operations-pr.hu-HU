@@ -198,3 +198,6 @@ Számlázott tényleges értesítés a projektszerződés eredeti mérföldköv�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

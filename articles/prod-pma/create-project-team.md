@@ -62,3 +62,6 @@ Az alábbi eljárás bemutatja, hogyan hozhat létre egy projektcsapatot:
 ## <a name="monitor-project-teams"></a>Projektcsoportok figyelése
 1. A **Minden projekt** oldalon jelölje ki az **XYZ frissítés 2. fázis** projekt **Projektazonosító** hivatkozását.
 2. A **Projektcsapat és ütemezés** gyorslapon ellenőrizze, hogy helyesek-e a listában szereplő projekterőforrások.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

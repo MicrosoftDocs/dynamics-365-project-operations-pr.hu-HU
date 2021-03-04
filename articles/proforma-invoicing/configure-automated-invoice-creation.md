@@ -45,3 +45,6 @@ A számlák létrehozására szolgáló kötegelt folyamat feladat ismétlődő 
 
 > [!NOTE]
 > A kötegelt számlázás csak a számlázási ütemezések szerint konfigurált projektek szerződéssoraihoz fut. A rögzített árú számlázási móddal rendelkező szerződéssornál a mérföldkövek konfigurálása szükséges. Az idő-és anyagelszámolású számlázási móddal rendelkező projekt-szerződéssorok esetében el kell végezni a dátum alapú számlázási ütemezés beállítását. Ugyanez érvényes a projektalapú szerződéssor esetében is.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ A további segítség a feladatútmutatók formájában érhető el. A feladatú
 ### <a name="videos"></a>Videók
 
 Tekintse meg a [Microsoft Dynamics 365 YouTube csatornán](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) már elérhető oktatóvideókat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

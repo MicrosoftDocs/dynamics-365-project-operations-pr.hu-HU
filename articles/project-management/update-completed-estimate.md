@@ -36,3 +36,6 @@ Kétféle módon tudja egy projektmenedzser újraprogramozni a feladatokat:
 - A feladat valódi előrehaladásának új becslésével felülbírálja az alapértelmezett haladási százalékot.
 
 Ezeknek a megközelítéseknek a segítségével át kell számítani a feladat ETC-jét, a befejezéskori költség becslését és az előrehaladási százalékot, valamint a feladatra várható erőfeszítési varianciát. Az EAC, az ETC-t és az összefoglaló feladatok előrehaladási százalékát újraszámolja, és új leképezést ad az erőfeszítés varianciájára.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

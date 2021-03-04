@@ -107,3 +107,6 @@ Az alábbi ábra bemutatja a jóváhagyott időbejegyzéseknél a visszahívásk
 Az alábbi ábra bemutatja azokat a változásokat, amelyek a jóváhagyott kiadási tételeknél történnek visszahívásukkor.
 
 ![Költség belépési állapotátmenetek](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

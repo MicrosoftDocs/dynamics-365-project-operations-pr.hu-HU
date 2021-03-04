@@ -64,3 +64,6 @@ Ez a témakör azt mutatja be, hogyan állítható be projektszámlázás a szer
 32. Írjon be egy számot az **Árképzés** mezőbe.
 33. Válassza a **Mentés** parancsot.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

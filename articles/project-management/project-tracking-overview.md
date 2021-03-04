@@ -80,3 +80,6 @@ A követési adatok az **Erőfeszítés követése** és **Költség nyomon köv
 Az **Általános projekt állapota** mező egy szerkeszthető mező, amely a projekt általános állapotát mutatja. Színkódolást használ, például a zöld, a sárga és a vörös, hogy jelezze a növekvő kockázatot. A **Megjegyzések** mezőben a projektmenedzser konkrét megjegyzéseket fűzhet az állapothoz. A **Állapot frissítése** mező nem szerkeszthető, és ez az érték időbélyeg, amely jelzi, ha az állapot utolsó frissítése.
 
 Az **Ütemezés teljesítménye** és **Költség teljesítése** mezőket a követési dátumtól kezdve állítják be. Ha a gyökércsomópont ütemezése és költségvarianciája az **Erőfeszítés követése** nézetben pozitív, akkor ezeket a mezőket **Ahead** értékre állíthatja. Ha a gyökércsomópont ütemezése és költségeltérése negatív, akkor ezeket állíthatja **Mögött** értékre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ A következő fő teljesítménymutatók érhetők el a projekt szerződés **Sz
 | Felmerült költség | Termékalapú sorok | A termékalapú szerződési sorhoz leképezett naplózott összes költség összege. |
 | Bruttó nyereség | Projektalapú sorok | Számlázott összeg – a felmerült költség adott dátumig/számlázott összeg |
 | Várt árrés | Termékalapú sorok | (Szerződéssor értéke – a szerződéssor becsült költsége)/szerződéssor értéke |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

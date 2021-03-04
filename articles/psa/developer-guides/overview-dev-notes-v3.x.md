@@ -33,3 +33,6 @@ A Dynamics 365 Project Service Automation 3.x új funkciókat, új platformlehet
 - [Idő- és költségbeli változások (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Erőforráskezelési változások (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Elavult webes erőforrások a Project Service Automation 3.x verzióban](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

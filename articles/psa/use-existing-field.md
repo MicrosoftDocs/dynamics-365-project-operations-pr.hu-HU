@@ -31,3 +31,6 @@ ms.locfileid: "5144163"
 A Project Service Automation (PSA) az **Aktuális** entitáson számos mezőt tartalmaz, amelyek felhasználhatók árazási dimenziókként az erőforrás alapú árazáshoz a projekt szervezetekben. Például egy közös mező a **Foglalható erőforrás**. Kisebb, 20-30-nél kevesebb számlázható erőforrással rendelkező cégeknél egyszerűbb megközelítés lehet az egyes erőforrásokra jellemző számla- és költségráták meghatározása. A számlázható munkaerő növekedésével azonban adott arányokat irreális lehet fenntartani, mivel az erőforrás költségek és a számlázási arányok változnak, amikor az erőforrásokat promócióba kezdik, több tapasztalatot szereznek, vagy más készségeket szereznek. Mivel ez a megközelítés továbbra is működik egy bizonyos méretű vállalatnál, olvassa el: [Használjon foglalható erőforrást árképzési dimenzióként](bookable-resource-pricing-dimension.md), hogy megértse, hogyan lehet egy létező Project Service mezőt használni árazási dimenzióként.
 
 Egy másik példa a tranzakciós kategória. Az ügyfelek és az implementálók a PSA tranzakciós kategóriáját használják a munka osztályozására, és a mező használatára az ár és a költség alapján a munka kategóriája alapján. További információ: [Tranzakciós kategória használata árképzési dimenzióként](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

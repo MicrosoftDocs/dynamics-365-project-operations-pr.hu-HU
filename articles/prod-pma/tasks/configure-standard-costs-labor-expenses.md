@@ -54,3 +54,6 @@ Ez a témakör azt mutatja be, hogyan állíthatók be a munkaerő és a kiadás
 22. Írjon be egy számot az **Árképzés** mezőbe. A tényleges eladási ár, amelyet akkor alkalmaz a rendszer, amikor egy munkavállaló tranzakciókat ad meg egy Költségnaplóban, a legrészletesebb szintű eladási ár. Ha például egy általános és egy munkavállaló-specifikus értékesítési ár is be van állítva, akkor a rendszer a munkavállaló-specifikus értékesítési árat használja.  
 23. Válassza a **Mentés** parancsot.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

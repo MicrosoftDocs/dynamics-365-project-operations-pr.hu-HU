@@ -84,3 +84,6 @@ A következő webes erőforrások elavultak:
 > Az elavult erőforrások teljes listáját lásd: [Elavult webes erőforrások a Project Service Automation v3.x verzióban](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

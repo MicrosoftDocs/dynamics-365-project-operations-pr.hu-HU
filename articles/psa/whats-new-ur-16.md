@@ -64,3 +64,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
 
     -   Javítva: Amikor a felhasználók 2.X verzióról a 3.X verzóra a NULL projektnévértű projektek megengedettek.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Miután létrehozta a szállítói visszatartási feltételeket egy szállítóh
 6. Ha a projekt a szállítóra vonatkozóan fizetéskor fizetett (PWP) feltételek is be vannak állítva, akkor adja meg a projekt küszöbértékét a **PWP-küszöb százalékértéke** mezőben.
 
 A szállítóhoz létrehozott beszerzési megrendeléseken a szállítói visszatartási feltételek is megjelennek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

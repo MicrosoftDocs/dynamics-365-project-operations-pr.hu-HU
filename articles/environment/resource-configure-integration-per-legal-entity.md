@@ -51,3 +51,6 @@ A Project Operationst használó minden jogi személynek a Dynamics 365 Customer
   - **A számlázási típus alapértelmezései**: a Project Operations a számlázási típusú alapértékek rögzített halmazát használja, amelyeket le kell képeznie a Finance sortulajdonságaira. Hozzon létre egy rekordot minden egyes számlázási típushoz: **nincs megadva**, **számlázható**, **nem számlázható**, **ingyenes**, és **nem érhető el**.
   - **Projektkategória alapértelmezései**: válassza ki az alapértelmezett projektkategóriákat, amelyeket az egyes tranzakciótípusok esetén használni szeretne. Ezek az alapértelmezett értékek a **Project Operations integrációs naplóban** és azokban a becslésekben használhatók, ahol a tényleges projekthez nem adtak meg tranzakciós kategóriát.
   - **Előrejelzések**: válassza ki az idő-és költségbecslésekhez használandó előrejelzési modellt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Ez megnyitja az **msdyn_bookableresource** elem **Új árdimenzió mezőnév** l
 5. Adja hozzá az **msdyn_projectteam** elemet az **Entitás logikai neve** mezőhöz és az **msdyn_bookableresourceid** elemet a **Mezőnév** mezőhöz. Mentse a bejegyzést.
 
  ![Új árdimenzió mezőnév űrlap](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

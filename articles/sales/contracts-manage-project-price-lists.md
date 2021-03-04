@@ -72,3 +72,6 @@ Beállíthat ügyfélspecifikus projektárlistákat is, amikor az ügyfelekkel m
 ## <a name="custom-pricing-on-a-project-contract"></a>Egyéni árazás egy projektszerződésben
 
 Miután a szervezeti és az ügyfél-specifikus alapértelmezett projektárlistái is vannak, a projekt-szerződések automatikusan létrejönnek ezekkel a projektárlista-hozzárendelésekkel. A projektszerződésben szereplő árlisták azonban mindig a hozzájuk fűzött dátummal és szerződésnévvel vannak másolva. A partner-és projektmenedzserek ezután megkezdhetik az árak szerkesztését ezeken a példányokon. Ezek a módosított árak csak erre a projektszerződésre vonatkoznak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

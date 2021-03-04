@@ -46,3 +46,6 @@ Ha az árajánlatsor egy termékkatalóguson alapul, akkor az értékesítési �
 Ha az **Árképzés felülbírálása** lehetőséget választja, akkor az alapértelmezett ár nincs beállítva. Ehelyett az árajánlatsorba kell beírnia a termék árát. Ha az **alapértelmezett használata** lehetőséget választja, akkor az alapértelmezett értékesítési árat használja a program, és a mező szerkesztésre zárolva van.
 
 Az alapértelmezett eladási árak az árajánlat termékalapú soraiba kerülnek be. Az **Árképzés** mező ezután **Árképzés felülbírálása** értékre lesz állítva, hogy az alapértelmezett árat az árajánlatsorokon szerkeszthesse. Ez egy olyan Project Operations-specifikus felülbírálás, amely a terméken alapuló sorok viselkedését a Dynamics 365 Salesben felülbírálja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

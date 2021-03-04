@@ -50,3 +50,6 @@ Az alábbi táblázat entitásonként sorolja fel az összes előre telepített 
 2. A **Paraméterek** oldal **Mennyiségalapú árazási dimenziók** fülén ellenőrizze, hogy a fülön található rács az **Árazási dimenzió** entitás bejegyzéseit mutatja.
 3. Adja hozzá a **Tranzakciós Kategóriát** ehhez a listához, és állítsa be a **Vonatkozó költség** és **Vonatkozik eladásra** mezők beállítását **Igen** értékre.
 4. A **Dimenzió típusa** mezőben válassza az **Összeg alapú** lehetőséget , majd válassza a **Tranzakciós kategória** prioritását, mivel ez kapcsolódik a költségekhez és az eladásokhoz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

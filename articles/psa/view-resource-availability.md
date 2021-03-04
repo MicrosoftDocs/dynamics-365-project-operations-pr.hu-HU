@@ -48,3 +48,6 @@ Ellenőrizheti az erőforrás-elérhetőséget, hogy átfogó képet kapjon az e
 
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

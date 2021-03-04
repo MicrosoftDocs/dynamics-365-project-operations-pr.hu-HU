@@ -67,3 +67,6 @@ Amikor készen áll módosítani az ideiglenesen lefoglalt csoporttag erőforrá
 2. Kattintson a jobb gombbal a foglalásra, és az **Állapot módosítása** szakasz alatt válassza a **Kemény foglalás** \> **Kemény** lehetőséget. A foglalás ekkor **Kemény** állapotra módosul.
 3. Miután bezárta az Ütemezés táblát, térjen vissza a projekthez, és nyissa meg a **Csoport** lapot; ekkor az **Elnevezett csoporttagok** nézetben tartózkodva láthatja, hogy a **Csoport** lapon az erőforrás órái a **Puha foglalásos órák** oszlopból átkerültek a **Kemény foglalásos órák** oszlopba. Ha az erőforrást hozzárendelték feladatokhoz, akkor az **Egyeztetés** lapon nem jelennek meg a foglalási hiányok, mivel már kemény foglalással vannak foglalva.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

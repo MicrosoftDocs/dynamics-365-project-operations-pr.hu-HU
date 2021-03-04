@@ -78,3 +78,6 @@ A következő funkciók megtalálhatók a meglévő oldalon, de még nincsenek j
 - Sorszintű munkafolyamat
 - Ideiglenes jóváhagyói támogatás
 - Speciális tételesítés
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

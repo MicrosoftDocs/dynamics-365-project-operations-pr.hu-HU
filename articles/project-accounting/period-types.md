@@ -34,3 +34,6 @@ Az időszaktípusok létrehozásához és használatához hajtsa végre a követ
 4. Válassza ki az időszak típusú rekordot, majd válassza az **Időszakok generálása** lehetőséget az időszak típushoz tartozó időszakok létrehozásához. A kiválasztott időszaki gyakoriság alapján lehet, hogy meg kell adni a kezdési dátumot vagy a létrehozni kívánt időszakok számát.
 5. A létrehozott **Időszakok** véleményezésére szolgáló időszakok kiválasztása.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

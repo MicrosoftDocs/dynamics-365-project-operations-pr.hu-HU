@@ -62,3 +62,6 @@ A következő problémák kerültek kijavításra:
 - **A szervezeti egység önköltségi ára** lista engedélyezi az átfedéseket az érvényességi dátumokban.
 - A felhasználók nem módosíthatják a **OrgUnit** értékét, ha a megrendelés típusa nem munkaalapú, mert az egy NULL referenciakivételi hibát eredményez.
 - Amikor az **ajánlati sor részletei** űrlapról próbál meg navigálni vissza az **árajánlat** lapra, az űrlap frissül, és megjeleníti az **Összesítés** lapot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

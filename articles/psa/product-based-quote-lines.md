@@ -82,3 +82,6 @@ A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhe
 
 > ![A felhasználók számának és a hónapok számának megjelölése minőségi tényezőként](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

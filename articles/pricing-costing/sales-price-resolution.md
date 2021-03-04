@@ -54,3 +54,6 @@ Miután megoldódott az értékesítési árlista, a rendszer a következő lép
     | &nbsp; | Haszonkulcs feletti költség | A kategória ár sora szerint megadott árrés alkalmazása a kapcsolódó költség tényleges értékének egységköltségrátájára |
 
 4. Ha a rendszernem nem sikerül egyeztetni a **Kategória** és **Egység** mezőértékeket, az értékesítési ráta alapértelmezett értéke nulla lesz (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

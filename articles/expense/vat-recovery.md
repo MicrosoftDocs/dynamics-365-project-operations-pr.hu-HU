@@ -66,3 +66,6 @@ Amikor Arnie készen áll arra, hogy elküldje a költségjelentés adatait a ha
 Arnie-nak ellenőriznie kell, hogy a költségjelentés tranzakciói jogosultak-e az ÁFA-visszaigénylésre, és hogy a digitális bizonylatok csatolva vannak-e a jelentésekhez. A belföldi visszaigénylésre jogosult kiadások feldolgozásának megkezdéséhez Anna megnyitja a **Költségadó-visszaigénylés** oldalt, és kiválasztja az ellenőrzést igénylő költségjelentést. Ellenőrzi, hogy a nyugták a vállalat nevére, és nem az alkalmazott nevére lettek kiállítva. (ÁFA-visszaigényléshez a bizonylatoknak a vállalat nevére kell szólniuk.) Arnie ezután ellenőrzi, hogy az összes szükséges bizonylat csatolva van-e, és hogy a megfelelő áfacsoport és cikkáfakódok lettek-e megadva.
 
 Amikor Arnie megkapja a papíralapú bizonylatokat, a költségjelentést **Visszaigénylésre kész** állapotba állítja. Ezután benyújthatja a visszaigénylést a megfelelő adóhatósághoz. Ebben az esetben a megfelelő adóhatóság az Egyesült Államokban az Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

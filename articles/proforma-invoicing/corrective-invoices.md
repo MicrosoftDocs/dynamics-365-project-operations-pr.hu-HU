@@ -36,3 +36,6 @@ A korrekciós számla megerősítésekor az eredetileg számlázott tényleges �
 
 - Hat órás tényleges számlázott értékesítés.
 - Nem számlázott tényleges értékesítés a fennmaradó két órára. Ezt a tranzakciót később számlázhatják, vagy pedig díjmentesnek jelölhetik, az ügyféllel folytatott tárgyalásoktól függően.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

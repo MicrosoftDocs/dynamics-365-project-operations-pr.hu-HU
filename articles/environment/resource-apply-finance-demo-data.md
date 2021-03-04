@@ -79,3 +79,6 @@ Ez pár percet is igénybe vehet. Kapnia egy megerősítő üzenetet, hogy a ren
 18. Zárja be a távoli asztali munkamenetet, és az LCS **Környezet részletei** oldal használatával lépjen be a környezetbe, és ellenőrizze, hogy az a várt módon működik.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

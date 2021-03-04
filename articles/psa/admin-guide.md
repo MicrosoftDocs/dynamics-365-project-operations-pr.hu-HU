@@ -52,3 +52,6 @@ Ez a kézikönyv végigvezeti Önt a telepítési és konfigurálási folyamaton
  [Partnerkezelői útmutató](../psa/account-manager-guide.md) [Projektmenedzseri kézikönyv](../psa/project-manager-guide.md)   
  [Erőforrás-kezelői útmutató](../psa/resource-manager-guide.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

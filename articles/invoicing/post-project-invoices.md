@@ -30,3 +30,6 @@ A Projektmenedzser áttekintheti a számlázatlan értékesítési tranzakcióka
 [Manuálisan is létrehozhat proforma számlát](../proforma-invoicing/create-manual-proforma-invoice.md) vagy használhatja a [periodikus folyamat](../proforma-invoicing/configure-automated-invoice-creation.md) lehetőséget is. A Projektmenedzser szükség szerint [módosíthatja a tervezet proforma számlát](../proforma-invoicing/manage-proforma-invoice.md), majd megerősítheti.
 
 A megerősített proforma számlát elküldik a Pénzügyek **Projektmenedzsment és könyvelés** modulnak. A Projektkönyvelő formázza és frissíti a projekt számlajavaslatát, majd közzéteszi és kinyomtatja a dokumentumot. A közzétett projektszámlákat a rendszer a Főkönyvben, valamint az Ügyfél és a Projekt részfőkönyvekben rögzíti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

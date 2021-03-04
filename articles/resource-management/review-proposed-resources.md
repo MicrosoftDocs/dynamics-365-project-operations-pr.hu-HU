@@ -62,3 +62,6 @@ Mivel a Dynamics 365 Project Operations a Universal Resource Scheduling-motort h
 
 Az egyes erőforrásokkal kapcsolatos további részletek megtekintéséhez kattintson a jobb gombbal az erőforráskártya megnyitásához.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

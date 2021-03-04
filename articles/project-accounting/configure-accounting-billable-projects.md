@@ -125,3 +125,6 @@ Rögzített ár – százalékos teljesítés
 A projektköltség-és bevételi profil szabályai határozzák meg a projektköltség-és bevételi profilt, amelyet a számlázható projekttranzakciók feldolgozása során kell használni. A szabályok definiálásához lépjen a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Feladás** \> **Projektköltség- és bevételi profil szabályai** részre.
 
 A szabályok meghatározhatók projektszerződés, projektcsoport vagy adott projekt szerint. A rendszer mindig a legmagasabb részletességű szabályt választja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

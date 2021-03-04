@@ -64,3 +64,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
      - Javítva: A teljes értékesítési ár nincs kiszámítva addig, amíg a felhasználó nem ad meg önköltségi árat költségbecslésekhez egy projektben.
      - Javítva: Az ajánlat lezárása **Megnyert** állapottal sikertelen, ha a társított szerződés nem **Vázlat** állapotú.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ A következő mezők értékeinek megadásával elemezheti az árajánlatokat, �
 Az ügyfelek ütemezéssel kapcsolatos elvárásainak elemzése az árajánlatsor-részlet legutóbbi záró dátuma és a kért szállítási dátum összehasonlításával történik az árajánlat összes árajánlatsorában.
 
 A ügyfelek költségvetéssel kapcsolatos elvárásainak elemzése a teljes ügyfélköltségvetés összegének és a megajánlott összegnek az összes ajánlatsoraiban való összehasonlításával történik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

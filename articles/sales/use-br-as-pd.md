@@ -78,3 +78,6 @@ Az **msydn_bookableresource** árazási dimenzió bejegyzését erről a külön
 5. Az **msdyn_bookableresourceid** hozzáadása a **Mező neve** elemhez.
 
  ![Új árdimenzió mezőnév űrlap](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

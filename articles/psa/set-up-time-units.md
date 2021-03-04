@@ -47,3 +47,6 @@ ms.locfileid: "5149771"
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service testreszabása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Ha alkalmazott bemutató adatokat a Finance környezetre, tekintse meg a [Konfig
 
 
 A Project Operations-környezet most már ki van alakítva, és konfigurálva van. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

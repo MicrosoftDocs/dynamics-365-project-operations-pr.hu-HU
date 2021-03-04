@@ -62,3 +62,6 @@ A projektsablonokkal időt takaríthat meg, ha a vállalat rendszeresen tesz aj�
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

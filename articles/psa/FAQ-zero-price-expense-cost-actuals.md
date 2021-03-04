@@ -38,3 +38,6 @@ Ez a gyakori kérdések rész azokra a tényleges költségekre vonatkozik, ahol
 Nyissa meg a kapcsolódó költségbejegyzést, és győződjön meg arról, hogy van összeg a költség mezőben. Ha az eredeti költség bejegyzésben az összeg mező nincs kitöltve, akkor azonosította a problémát.
  
 A probléma megoldásához hozza létre újból a költségbejegyzést egy érvényes értékkel, és hagyja jóvá azt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

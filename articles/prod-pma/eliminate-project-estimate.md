@@ -51,3 +51,6 @@ A becsült projekt megszüntetéséhez annak teljesnek kell lennie. A következ�
 5. Az eltávolítási folyamat befejeződése után a megszüntetett becsült projekt negatív értékkel jelenik meg. 
 
 Ha nem kívánja eltávolítani a becslést, akkor kiválaszthatja az eltávolított becslést, és kiválaszthatja az **Eltávolítás visszaállítása** elemet.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

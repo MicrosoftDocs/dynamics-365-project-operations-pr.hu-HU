@@ -41,3 +41,6 @@ Ha úgy dönt, hogy a költségjelentést több személynek kell jóváhagynia, 
 
     1. Az alkalmazott felettese jóváhagyja a költségjelentést.
     2. A költségvetés tulajdonosa jóváhagyja a költségjelentést.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ További információért kattintson az alábbi hivatkozások egyikére [!INCLUD
  [Partnerkezelői útmutató](../psa/account-manager-guide.md)   
  [Projektmenedzseri kézikönyv](../psa/project-manager-guide.md)   
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

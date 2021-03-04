@@ -57,3 +57,6 @@ Ez a témakör ismerteti, hogyan lehet előrejelzési modellt létrehozni a fenn
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

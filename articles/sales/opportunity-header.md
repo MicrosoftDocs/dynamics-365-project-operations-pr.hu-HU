@@ -36,3 +36,6 @@ Az alábbi táblázat egy projektalapú lehetőség azon mezőit tartalmazza, am
 | Szerződő részleg | Általános lap | Az ügylethez kapcsolódó projekt vagy projektek teljesítéséért felelős szervezeti egység. | A szerződő egység a vállalat azon részlege, amely a projekteket az üzlet lezárását követően teljesíti. Minden egyes szerződő egység pénznemmel rendelkezik, és ez a pénznem kerül felhasználásra a projekthez kapcsolódó becsült és ténylegesen felmerült költségek jelentésére. |
 
 A lehetőség **Összegzés** lapjának minden egyéb mezője és szakasza esetében lásd: [Lehetőségek létrehozása és szerkesztése (Sales és Értékesítési központ)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

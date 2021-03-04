@@ -82,3 +82,6 @@ Az így hozzárendelt erőforrások foglalás nélkül lesznek hozzáadva a csap
 
 3. Válassza ki azt az erőforrást, amelyet hozzá szeretne rendelni a feladathoz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

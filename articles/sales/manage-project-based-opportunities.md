@@ -65,3 +65,6 @@ A lehetőség értékesítési folyamata a Project Operations rendszerben a Sale
 > Ha a projektalapú üzlet egy lehetőséggel kezdődött, akkor a Lehetőség értékesítési folyamatot kell használni.
 
 A termék üzleti folyamata szerkeszthető, vagy saját üzleti folyamatokat hozhat létre az értékesítési folyamat igény szerinti nyomon követéséhez. További információt az üzleti folyamatról itt talál: [Üzleti folyamatok áttekintése](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

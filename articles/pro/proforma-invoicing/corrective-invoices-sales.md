@@ -288,3 +288,6 @@ Nem támogatott </p>
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

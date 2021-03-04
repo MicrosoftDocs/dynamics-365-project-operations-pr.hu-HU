@@ -67,3 +67,6 @@ Amikor a felhasználó a tranzakciós osztály, kategória és levélcsomópont-
 | A feladat | Légi szállítás | 2020.01.10. | 4 | 400 | 1600 |
 | B feladat | Szálloda | 2020.01.10. | 4 | 200 | 800 |
 | C feladat | Szálloda | 2020.01.11. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

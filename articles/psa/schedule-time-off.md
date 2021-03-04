@@ -57,3 +57,6 @@ Nyaralását és távollétét szinte ugyanúgy ütemezheti, mint ahogy időt ad
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

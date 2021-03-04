@@ -43,3 +43,6 @@ Ezt a telepítést úgy kell megválasztani, hogy a Project Operations várható
 - Adatokban gazdag, nagyvállalati szintű áfa- és átváltásiárfolyam-kezelő rendszerre van hozzá szükség, amely a projektekre vonatkozóan ügyfeleknek kiállított számlákat hoz létre.
 - Egy Nemzetközi Pénzügyi Beszámolási Standardoknak (IFRS) megfelelő projektkönyvelési és bevételelszámolási rendszer.
 - Pénzügyi vagy ellátásilánc-kezelési alkalmazások és a projektalapú tranzakciók integrációja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

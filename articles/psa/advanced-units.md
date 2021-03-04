@@ -112,3 +112,6 @@ Szám Az ütemezési becslés jelenleg órákra van korlátozva, és nem módos�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Lehet szerkeszteni, törölni és hozzáadni az egységeket és egységcsoportokat?
 Igen. Az **Idő** egységcsoport és az **Óra** egység kivételével az összes egység törölhető vagy szerkeszthető, és új egységek is hozzáadhatók. A PSA-ban az **Idő** egységcsoport és az **Óra** egység nem törölhető. Ezek azonban frissíthetők a **Név** mező lefordított szövegével.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

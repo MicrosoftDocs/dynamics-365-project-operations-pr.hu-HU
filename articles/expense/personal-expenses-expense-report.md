@@ -28,3 +28,6 @@ Az alkalmazottak személyes kiadásait kétféleképpen kezelheti:
   - **Vállalat által fizetendő**: A vállalat fizeti a vállalati hitelkártya teljes költségét, majd a személyes kiadások összegével megterheli a dolgozó fiókját.
 
 Megadhatja, hogy a szervezet milyen módszert használ a **költségkezelési paraméterek** lapon.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

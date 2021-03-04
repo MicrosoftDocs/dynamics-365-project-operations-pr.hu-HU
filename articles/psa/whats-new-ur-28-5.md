@@ -42,3 +42,6 @@ A következő problémák kerültek kijavításra:
 
 - Segítségnyújtási keresési teljesítmény romlásának ütemezése
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ A tervezett kiadási dátumok változhatnak. További információkért tekintse
 | --- | --- |
 | 10.0.17 | 2021. március 19. |
 | 10.0.18 | 2021. április 16. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

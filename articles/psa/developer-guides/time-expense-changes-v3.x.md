@@ -32,3 +32,6 @@ A Dynamics 365 Project Service Automation 3.0-s verziójában az Idő és Költs
 Korábban az Idő and Költség naptár- és rácsnézeteit DHTMLX-vezérlőkként valósították meg. A naptár és a rács nézetek ezen megvalósításával kapcsolatos műtárgyak elavultak (kivezették).
 
 Az elavult erőforrások teljes listájáért lásd: [Elavult webes erőforrások a Project Service Automation 3.x](web-resources-deprecated-v3.x.md) alatt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

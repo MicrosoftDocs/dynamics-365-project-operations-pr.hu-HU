@@ -81,3 +81,6 @@ A következő problémák kerültek kijavításra:
 - A **Tényadatok frissítése** gomb hibásan számítja ki az összefoglaló feladatokat.
 - Microsoft Project-bővítmény: javítja a null referenciahibát, ha bármelyik csapattaghoz egy üres erőforrásbiztosító egység tartozik.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ A következő táblázat az előző munkafolyamat tranzakciós kapcsolat entitá
 | Számlatervezet helyesbítése       | Számlasor-tranzakció GUID | Csere          | msdyn_invoicelinetransaction | Számlázott értékesítési GUID            | Eredeti           | msdyn_actual       |
 | Számlahelyesbítés jóváhagyása     | Számlázott értékesítés sztornózási GUID    | Sztornózás          | msdyn_actual                 | Számlázott értékesítési GUID            | Eredeti           | msdyn_actual       |
 | Új, számlázatlan értékesítési tényadat GUID | Csere                     | msdyn_actual       | Számlázott értékesítési GUID            | Eredeti                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

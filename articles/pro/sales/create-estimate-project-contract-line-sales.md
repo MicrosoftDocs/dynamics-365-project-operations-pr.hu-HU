@@ -68,3 +68,6 @@ A jövedelmezőségi számítások átalakítják a **Költség** és **Értéke
 
 > [!NOTE]
 > A pénznem kerekítési hibái és a módosított árrések azért fordulhatnak elő, mert hiányoznak a dátumon érvényes átváltási árfolyamok. Ezeket a számításokat csak becslésként használhatja a projektszerződésekben, és nem a tényleges jogi vagy egyéb jelentéskészítésre, amely nagyobb pontosságot igényel az átváltási árfolyamok kerekítése és hatályossága tekintetében.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

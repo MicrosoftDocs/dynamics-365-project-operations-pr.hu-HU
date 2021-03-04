@@ -65,3 +65,6 @@ Mielőtt projektütemezéseket hozhatna létre, állítson be egy projektnaptár
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4078069"
 10. Kattintson az OK gombra. 
 
 Ezután a lépés után a jóváírás elérhető lesz a Számlajavaslathoz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

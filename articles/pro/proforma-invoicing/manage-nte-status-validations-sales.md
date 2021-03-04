@@ -73,3 +73,6 @@ A nem meghaladandó állapot tömeges újraértékelését is elvégezheti. A ne
 A nem meghaladandó állapot újraértékeléséhez jelöljön ki egy vagy több tényleges értéket az **Idő- és anyagszámlázási hátralék** vagy a **Tényleges adatok** nézetből, majd válassza a **Nem meghaladandó állapot újraértékelés** elemet.
 
 A rendszer az összes releváns, nem meghaladandó korláttal rendelkező kijelölt tényleges értéket értékeli a nem meghaladandó korlát beállításához viszonyítva. Azok a tényadatok, amelyek számára releváns a nem meghaladandó állapot újraértékelése, olyan nem számlázott értékesítési tényadatok, amelyeket nem számláztak, nem szerepelnek piszkozat állapotú számlán, és számlázhatóként vannak megjelölve. A többi kijelölt tényleges érték kijelölése.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

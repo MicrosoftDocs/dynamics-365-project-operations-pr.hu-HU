@@ -82,3 +82,6 @@ Ez az optimálisabb élmény a projekttevékenységek szerződéssorok közötti
 4. A megnyíló párbeszédpanelen válasszon egy szerződéssort a legördülő listából.
 5. Jelölje be a jelölőnégyzetet, ha jelezni szeretné, hogy a társítást el kell távolítani a kijelölt tevékenységek alárendelt feladataiból is. A jelölőnégyzet bejelölésével a kijelölt feladatok alárendelt feladatait is leválasztja a szerződéssorból.
 6. Kattintson az **OK** gombra. Egy figyelmeztető üzenet jelzi, hogy a társítás megszüntetése a feladathoz előzőleg rögzített tényleges adatok sztornírozását okozhatja. A figyelmeztető párbeszéden kattintson az **OK** gombra a feladat és a projektalapú szerződéssor közötti társítás eltávolításához.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

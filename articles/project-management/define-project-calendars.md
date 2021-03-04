@@ -49,3 +49,6 @@ A projekt ütemezésének elkészítéséhez létre kell hoznia egy projekt napt
 8. A **Munkasablon** párbeszédpanelen adja meg a munkasablon nevét, majd válassza az **Alkalmaz** lehetőséget. 
 
 Most már hozzárendelheti a munkasablont egy projekt naptársablonhoz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Mielőtt lefoglalhat az Ütemezési tábláról, létre kell hoznia vagy generá
 A követelmény a kiválasztott erőforrás felhasználásával teljesül. A **Foglalási követelmények** panelen vegye figyelembe, hogy a követelményt frissítették, és az erőforrás a projektnél lefoglaltként jelenik meg.
 
 ![Erőforrás lefoglalva a projektre](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

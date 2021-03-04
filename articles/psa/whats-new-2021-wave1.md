@@ -43,3 +43,6 @@ A következő problémák kerültek kijavításra:
 
 - A záró dátumok automatikusan ki lesznek töltve, amikor időbejegyzés létrejön, ha az időtartam null.
 - A felhasználók egy jóváhagyott vagy elküldött időbejegyzésen módosíthatják a feladatot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

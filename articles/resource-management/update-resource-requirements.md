@@ -37,3 +37,5 @@ Projektmenedzserként a következő lépések végrehajtásával szerkesztheti a
 ## <a name="edit-resource-assignment-contours"></a>Erőforrás-hozzárendelési kontúrok szerkesztése
 
 Az erőforrás-követelmények részleteinek szerkesztésén túl a projektmenedzser a **Minta megadása** funkció használatával frissítheti az erőforrás-szükséglet egyéni kontúrjait. Ha a **Minta megadása** ki van választva, megnyílik egy oldal, és megtekintheti a kontúrokat a nap, a hét vagy a hónap időskálán. Minden kontúr módosítható a kezdő időpont, a záró időpont és teljes erőfeszítés esetében egy adott időszakban.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

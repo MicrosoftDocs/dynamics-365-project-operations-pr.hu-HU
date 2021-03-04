@@ -43,3 +43,6 @@ Az alábbi táblázat megjeleníti a mezőket a projektalapú árajánlatsor ár
 A számlázásfelosztási százalékértékek a rendszerben módosíthatók. Ha a számlázásfelosztási százalékok összege nem 100%, hiba lép fel. A számlázásfelosztási százalékok szerkesztése után frissítse az árajánlatsor oldalát a hiba eltávolításához.
 
 Az árajánlatsori ügyfelek alrácsában az egyenletes elosztás műveletet használhatja a számlázási felosztás szétosztására az összes árajánlatsor ügyfélre. Ha van kerekítési tényező, az hozzáadódik a kerekítő ügyfélhez. Az egyik árajánlatsori ügyfelet a rendszer mindig a kerekítési ügyfélként címkézi fel, ami azt jelenti, hogy az árajánlatsori ügyfélrekord kerekítési jelzője **Igen** értékre van beállítva. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

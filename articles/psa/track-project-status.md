@@ -58,3 +58,6 @@ Az ügylet előrehaladásával a projekt fázisai frissülnek, hogy tükrözzék
 
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Hozzáadott szakmai ismertetők vannak kialakítva, hogy részletes információ
 
 ### <a name="see-also"></a>Kapcsolódó információk
  [A Project Service áttekintése](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

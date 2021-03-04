@@ -144,3 +144,6 @@ Ha a számla létrehozása után beérkezett tényleges adatokkal rendelkezik, a
 A Project Operationsban olyan termékekhez is létrehozhatók számlasorok, amelyek nem vonatkoznak a projektekre, illetve az összes projektre együtt vonatkoznak a projektalapú számlasorok esetében. Ezek a számlasorok termék alapú szerződéssorok formájában jönnek létre, és számlázásra készként való jelölésüket követően a rendszer termék alapú számlasorként adja hozzá azokat.
 
 A termékalapú számlasorok hozzáadását követően azok nem módosíthatók. Azonban a piszkozat proforma számláról törölhetők.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

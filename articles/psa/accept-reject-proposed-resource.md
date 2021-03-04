@@ -45,3 +45,6 @@ Az ajánlat elutasításához kattintson az **Erőforrás visszautasítása** le
 ![Erőforrás-ajánlat elfogadása](media/RM-how-to-20.png) 
 
 Egy általános erőforrás-kérés közvetlen teljesítése egy megnevezett erőforrással esetéhez hasonlóan az általános erőforrás lecserélésre kerül, és a hozzárendelt feladatokat frissíti a megnevezett csapattaggal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ A következő problémák kerültek kijavításra:
 - Ha egy projekten alapuló sort egy ajánlatban vagy szerződésben választ ki, akkor a **Javaslat** gomb csak akkor látható, ha egy termékalapú sort választ ki egy meglévő termékhez.
 - A **Create_Product** jogosultság le lett választva a **Create_ProjectContract** jogosultságról.
 - Egy számlasor törlése nullahivatkozás hibát okoz **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** elemnél.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

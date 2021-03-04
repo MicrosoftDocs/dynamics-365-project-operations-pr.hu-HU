@@ -43,3 +43,6 @@ Válassza ezt a telepítési típust, hogy a Dynamics 365 Project Operations szo
 - Nagyvállalati szintű áfa- és átváltásiárfolyam-kezelő rendszer, amely a projektekre vonatkozóan ügyfeleknek kiállított számlákat hoz létre.
 - Egy Nemzetközi Pénzügyi Beszámolási Standardoknak (IFRS) megfelelő projektkönyvelési és bevételelszámolási rendszer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

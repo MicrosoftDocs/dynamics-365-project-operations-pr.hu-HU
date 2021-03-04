@@ -85,3 +85,6 @@ Néhány bejegyzés létrehozása után a felhasználók egyszerre több időbej
 
 ## <a name="import"></a>Importálás
 Ugyanazt az alapvető eljárást használják a foglalásokból, megbízásokból és cserékből történő importáláshoz. Meghatározhatja az dátumtartományt, amelyből a foglalások importálásra kerülnek, majd kifejezetten kiválaszthatja azokat a foglalásokat, amelyeket vázlat időbejegyzésekbe kell másolni. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

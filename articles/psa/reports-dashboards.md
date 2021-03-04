@@ -40,3 +40,6 @@ A **Practice Manager** műszerfal grafikus irányítópultot nyújt a gyakorlatv
 ## <a name="resource-manager"></a>Resource Manager 
 
 A **Resource Manager** irányítópult grafikus irányítópult-élményt nyújt az erőforrás-kezelőknek az erőforrás-igények, valamint az erőforrás-igény és -felhasználás figyelésére. Azt is lehetővé teszi, hogy az erőforrás-kezelők a megfigyelt információkat különféle dimenziók szerint szeleteljék.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

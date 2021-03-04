@@ -131,3 +131,6 @@ A számlázási díjakhoz hasonlóan az emberi erőforrások költségei árlist
     1. A szervezeti egységhez csatolt költségárlista.
     2. A Project Service paraméterekhez csatolt költségárlista. Mivel a Project Service paraméterekhez számos különféle pénznemben megadott költségátlisták csatolhatók, a PSA egyeztet egy pénznemet a projekt szervezeti egysége, szerződés vagy árajánlat pénzneme és a költségárlista pénzneme között.
     3. Költségeknél a bekerülési és a haszonkulcs-felárazási módszerek nem vonatkoznak a költségárlistákra. Még ha ezeket az árképzési módszereket használják is a költségárlista sorokban a tranzakciós kategóriák költségeinek beállításához, a rendszer figyelmen kívül hagyja őket, és nem kerül megadásra az alapértelmezett költségár.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ A következő lépések végigvezetik a beépülő modulok regisztrálásának f
 
 9. Zárja be a plug-in regisztrációs eszközt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

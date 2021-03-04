@@ -55,3 +55,6 @@ A következő problémák kerültek kijavításra:
 - Egy nulla hivatkozási kivétel jön létre a **GetEstimatesForProject** beépülő modul meghívásakor.
 - A mérföldkő rácson **Számlakészként megjelölés** csak részben frissíti az attribútumokat, kivéve a frissített **InvoiceStatus** attribútumot.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

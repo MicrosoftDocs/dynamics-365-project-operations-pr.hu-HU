@@ -74,3 +74,6 @@ Ha kibontja a csoporttagrekord sorát, akkor mindkét feladathoz külön hozzár
 Amikor megnyitja a **Becslések** rácsot, megfigyelheti, hogy az ugyanahhoz az erőforráshoz tartozó hozzárendelések eltérően vannak árazva.
 Az „A” feladatnál az erőforráshoz rendelt hozzárendelés árazása a **Vezető tanácsadó** opció **Szerepkör** attribútumának értéke szerint történik. A „B” feladatnál az ugyanazon erőforráshoz rendelt hozzárendelés árazása a **Hálózati technikus** opció **Szerepkör** attribútumának értéke szerint történik.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

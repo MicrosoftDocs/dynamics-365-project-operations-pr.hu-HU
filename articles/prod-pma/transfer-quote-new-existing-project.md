@@ -36,3 +36,6 @@ Kövesse az alábbi lépéseket a varázsló használatához:
 1. Lépjen a **Projektvezetés és könyvelés** > **Árajánlatok** > **Projektárajánlatok** elemre.
 2. Válassza ki az átvinni kívánt árajánlatot, és a **követő** lap **módosítás** csoportjában válassza az **átvitel projektbe** lehetőséget.
 3. Kövesse az **Árajánlat átadása projektbe** varázslót az árajánlat hozzárendeléséhez és a projekthez történő átadásához.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

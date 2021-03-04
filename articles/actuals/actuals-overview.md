@@ -342,3 +342,6 @@ A Project Operations rögzíti a projekt során bekövetkező pénzügyi tranzak
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

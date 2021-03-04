@@ -37,3 +37,6 @@ A következő táblázat felsorolja a Project Operations frissítéseit a 4.4.0.
 | Idő- és gyors költségbejegyzések | 2047499.          | Az **Új** gomb az Időbejegyzés oldalon megnyitja az **Új e-mail-aláírás** oldalt.                                                                                               |
 | Idő- és gyors költségbejegyzések | 2059859.          | A költségbejegyzés létrehozásakor váratlan előugró ablak nyílik meg.                                                                                                                         |
 | Egyéb                        | 2044181.          | [PO eltávolítása] A „Rekord nem elérhető” hiba jelenik meg, mikor megpróbálja eltávolítani a **msdyn_ProjectServiceCore_Patch** és a msdyn a Project Service központi megoldásait.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -330,3 +330,6 @@ A PSA rögzíti a projekt során bekövetkező pénzügyi tranzakciókat. Ezeket
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

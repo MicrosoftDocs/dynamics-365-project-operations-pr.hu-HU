@@ -55,3 +55,6 @@ Mielőtt erőforrásokat kérne vagy társítana a(z) [!INCLUDE[pn_project_servi
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service testreszabása](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

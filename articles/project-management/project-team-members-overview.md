@@ -60,3 +60,6 @@ A csoporttagok rácsából a következő műveleteket hajthatja végre:
 
 - **Új**: Az erőforrások közvetlenül az ütemezésből való hozzáadásán túl a projektmenedzserek új névvel rendelkező vagy általános csoporttagokat vehet fel a csoporttagok rácsába.
 - **Törlés**: Egy vagy több csoporttag kijelölésével a projektmenedzser törölheti azokat az erőforrásokat, akik már nem fognak részt venni a projektben. A csoporttagok törlésével az összes társított erőforrás-hozzárendelés is törlődik, és a meglévő foglalások visszavonhatók.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

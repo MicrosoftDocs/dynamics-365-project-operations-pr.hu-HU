@@ -64,3 +64,6 @@ A Lehetőség, az Árajánlat és a Projektszerződés entitásai az alábbi sor
 Alapértelmezés szerint az árajánlatsor **Termék** mezője felsorolja az összes aktív terméket az árajánlat terméklistáján. Ha egy terméket inaktiváltak, vagy ha ez egy termékvázlat, akkor nem szerepel a listán még akkor sem, ha szerepel az árlistán. 
 
 A termékkatalógus-sorok számlasorokként kerülnek hozzáadásra az első számlára, amelyet egy projektszerződéshez készítenek. A számlatervezeten törölhetők ezek a számlasorok. Ebben az esetben a sorok egy későbbi számlán jelennek meg, amíg számlázásra nem kerülnek, vagy amíg a számlát el nem küldik az ügyfélnek. A PSA-ban nem számlázható ki egy termékszámlasor részleges mennyisége. Amikor a projektszerződés terméksorozatait kiszámlázzák, tényadatok jönnek létre. Ezek a tényadatok azonban nem kapcsolódnak a kapcsolódó projektentitáshoz. Más szavakkal: a termék-alapú projektszerződés-sorok függetlenek minden projektalapú felhasználástól. A PSA nem követi nyomon a projektek anyagfelhasználását.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

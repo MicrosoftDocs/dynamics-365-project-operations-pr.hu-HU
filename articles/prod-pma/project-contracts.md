@@ -344,3 +344,6 @@ Az első hónapban összesen 800 órát rögzítenek a projekten dolgozó tanác
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

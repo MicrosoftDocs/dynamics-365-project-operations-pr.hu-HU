@@ -83,3 +83,6 @@ Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelvet:
 A következő ábra egy példát mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
 [![Sablonok leképezése](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

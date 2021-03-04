@@ -72,3 +72,6 @@ A következő problémák kerültek kijavításra:
 - Ha az ajánlathoz tartozó üzleti folyamat az utolsó fázisban van, akkor a megnyertként lezárt ajánlat nem navigálja a felhasználót a létrehozott szerződésre.
 - A **Ki nem számlázott értékesítések** sztornírozása az eredeti költséghez kapcsolódik az időbejegyzés visszahívásakor.
 - A **Jóváhagyás** gomb kiválasztását követően a számla állapota nem módosul **Megerősített** értékre hacsak a számlát nem frissítik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

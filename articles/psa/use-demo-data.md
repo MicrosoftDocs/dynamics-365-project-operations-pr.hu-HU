@@ -55,3 +55,6 @@ További tudnivalókért látogassa meg ezt a [blogot](https://blogs.msdn.micros
  [Projektmenedzseri kézikönyv](../psa/project-manager-guide.md)   
  [Erőforrás-kezelői útmutató](../psa/resource-manager-guide.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

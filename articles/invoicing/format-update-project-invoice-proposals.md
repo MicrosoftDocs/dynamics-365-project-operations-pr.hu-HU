@@ -143,3 +143,6 @@ Ha meg szeretné tekinteni a számlát a közzététel előtt, akkor törölje a
 A **Számlajavaslat** lap mellett a számlajavaslatokat a periodikus feladat, a **Számlajavaslatok közzététele** futtatásával is közzéteheti. A feladat kereséséhez menjen a **Projektkezelés és a könyvelés** > **Periodikus** > **Projektszámlák** > **Projektjavaslatok közzététele** lehetőségre.
 
 Ez az oldal megjeleníti a közzétételre kész összes számlajavaslatot. A **Köteg** lehetőség kiválasztásával ütemezheti is a számlajavaslatok közzétételét. Állítsa a **Kötegfeldolgozás paraméter** lehetőséget **Igen** értékre, és állítsa be a kötegfeldolgozás ismétlődését az **Ismétlődés** lehetőség kiválasztásával.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

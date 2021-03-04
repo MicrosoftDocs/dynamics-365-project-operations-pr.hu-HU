@@ -94,3 +94,6 @@ Jelenleg az Egyesült Államokban támogatott.
 A Finance a Cognitive Services használatával nyeri ki a mezők adatait. A Cognitive Services legfeljebb 24 óráig, a feldolgozáshoz őrzi meg a nyugták másolatát. A feldolgozás befejezése után a Cognitive Services eltávolítja a nyugtát. A Finance továbbra is tárolja majd a nyugtákat.
 
 További információ: [A nyugták Form Recognizer új funkciójával történő felismerésének engedélyezése](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

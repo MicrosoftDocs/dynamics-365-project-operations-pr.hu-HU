@@ -47,3 +47,6 @@ Miközben erőforrás-szerepkörök hozzáadását végezte, valószínűleg má
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

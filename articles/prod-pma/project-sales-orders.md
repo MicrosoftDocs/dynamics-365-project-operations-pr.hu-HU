@@ -41,3 +41,6 @@ A projektalapú értékesítési rendelések kétféleképpen hozhatók létre:
 - Lépjen magára a projekre. A Művelet panelen válassza a **Kezelés > Cikkfeladatok > Értékesítési rendelés** lehetőséget. A projektadatok alapértelmezés szerint a projektből származó értékesítési rendelésre állnak be. Ha a projektben egynél több finanszírozási forrás van, akkor ki kell választania a finanszírozási forrást az értékesítési rendelés ügyfelének beállításához. Ha a projekthez csak egy finanszírozási forrás tartozik, a rendszer automatikusan beállítja az ügyfelet.
 - Nyissa meg az **Összes értékesítési rendelés** listaoldalt, és hozzon létre egy új értékesítési rendelést. Ki kell választania az értékesítési rendelés projektjét. A projekt kiválasztása után az ügyfél a finanszírozási forrásból lesz beállítva, vagy ha a projektszerződés több finanszírozási forrással rendelkezik, akkor ki kell választania a finanszírozási forrást.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

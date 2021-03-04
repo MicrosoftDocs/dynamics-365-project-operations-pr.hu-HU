@@ -124,3 +124,6 @@ A következő tulajdonságok esetén például:
 - **Termék cikkszáma** 
 
 A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhetők mennyiségi tényezőként a terméksor tulajdonságainak szerkesztésével. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

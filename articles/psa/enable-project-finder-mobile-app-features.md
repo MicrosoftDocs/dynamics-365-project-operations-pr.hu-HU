@@ -68,3 +68,6 @@ Erőforrásai a telefonjukon a Project Finder Mobile alkalmazás és a [!INCLUDE
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

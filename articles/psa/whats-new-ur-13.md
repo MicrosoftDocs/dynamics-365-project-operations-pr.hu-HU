@@ -59,3 +59,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
      - Rögzített: Extra gombok az **Új lehetőség**, **Árajánlat**, **Rendelési sor** és **Termék hozzáadása** elemekhez láthatóvá válnak a Lehetőségek, Árajánlatok és Rendeléshez tartozó termékek parancsaiban, és a projektalapú Sorok részrácson.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

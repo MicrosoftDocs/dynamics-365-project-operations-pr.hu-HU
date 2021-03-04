@@ -74,3 +74,6 @@ A rögzített árú mérföldköveket létrehozhat manuálisan is, ha nem idősz
 | Adó | Gyorslétrehozás | A mérföldkőre alkalmazott adó összege. | Ez továbbvitelre kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
 
 3. Válassza a **Mentés és bezárás** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

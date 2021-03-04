@@ -34,3 +34,6 @@ ms.locfileid: "5145721"
 A rendszer a projekt során bekövetkező összes pénzügyi tranzakciót rögzíti. Ezeket a tranzakciókat a rendszer **tényadatokként** rögzíti. A következő táblázat a létrehozott tényadatok különböző típusait mutatja be attól függően, hogy a projekt idő- és anyagelszámolású, rögzített árú vagy belső projekt-e, vagy az elővásárlási fázisban van-e.
 
 > ![A tényadatok rögzítését bemutató táblázat](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

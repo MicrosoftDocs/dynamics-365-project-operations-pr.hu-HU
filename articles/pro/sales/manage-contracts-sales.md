@@ -33,3 +33,6 @@ A projektszerződések listája a **Szerződések** listaoldalon látható.
 2. A többi szűrt nézet kiválasztásához válassza a **Nézetváltót** (a nézet neve melletti legördülő nyilat). Saját nézetet hozhat létre egyéni szűrési feltételekkel.
 
 Szerződéseket lehet létrehozni vagy törölni ebből a listából vagy részletes oldalakról.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

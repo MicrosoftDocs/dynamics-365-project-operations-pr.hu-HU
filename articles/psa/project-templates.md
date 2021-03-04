@@ -69,3 +69,6 @@ Ha a projektbecslési sorok között másol, az árlisták frissülnek. A költs
 ### <a name="copying-a-project-team"></a>Projektcsoport másolása
 
 Amikor egy projektcsoportot átmásolnak egy projekt sablonból egy projektbe, akkor az általános erőforrások másolódnak, a sablonban meghatározott készségekkel és jártasságokkal együtt. Az általános erőforrás-hozzárendeléseket szintén fenntartják, ahogy a projekt sablonjában is voltak. A megnevezett erőforrásokat a projektsablonok nem támogatják.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

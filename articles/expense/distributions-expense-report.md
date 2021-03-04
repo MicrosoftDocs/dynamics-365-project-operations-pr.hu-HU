@@ -30,3 +30,6 @@ Mivel Nancy frankfurti tartózkodása alatt két külön projekten dolgozott, am
 | Vonat viteldíja   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Szálloda        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Étkezések        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

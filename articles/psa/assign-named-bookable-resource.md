@@ -68,3 +68,6 @@ Az **Egyeztetés** lapon a Foglalás meghosszabbítása funkció, vagy az **Üte
 ![Csoporttag foglalásainak meghosszabbítása az Erőforrás-egyeztetés lapon](media/RM-how-to-7.png)
 
 Miután egy csoporttag foglalásra került a projekhez, használhatja a Foglalások karbantartása funkciót, vagy az Ütemezési tábla használatával közvetlenül kezelheti annak foglalásait.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

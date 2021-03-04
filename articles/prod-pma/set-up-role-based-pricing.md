@@ -34,3 +34,6 @@ A szerepkörökhöz minden költség, értékesítési és transzferár beállí
 1. Az **Értékesítési ár (óra)** oldalon válassza az **Új** lehetőséget, és adjon meg egy hatályossági dátumot.
 2. A **Szerepkör** oszlopban jelöljön ki egy szerepkört.
 3. Az **Árképzés** oszlopban adja meg a kijelölt erőforrás-szerepkör árát.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

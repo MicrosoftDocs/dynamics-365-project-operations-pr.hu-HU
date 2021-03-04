@@ -46,3 +46,6 @@ Ha mennyiségi tényezőket szeretne létrehozni a termék tulajdonságaiból, h
 7. Ismételje meg a 2–6 lépéseket az összes olyan tulajdonságra vonatkozóan, amelyek együttesen alkotják a termék alapú szerződéssor mennyiségét.
 
 A beállított mennyiségi tényezőkkel, amikor a felhasználó létrehoz egy szerződéssor ehhez a termékhez, a szerződéssor mennyisége zárolva van. A mennyiséget a program az adott szerződéssor tulajdonságértékeinek szorzataként számítja ki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

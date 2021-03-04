@@ -52,3 +52,6 @@ A következő témák olyan információkat nyújtanak, amelyek a PSA által tá
 - [Projektsablonok](project-templates.md)
 - [Projektszakaszok](project-stages.md)
 - [Projektbeállítások](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

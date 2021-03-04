@@ -43,3 +43,6 @@ A projekten dolgozó minden egyes lefoglalható erőforrásnak munkaidőnaptárr
 2. A rács nézetben akár 25 **Lefoglalható erőforrás** is kiválasztható frissítéshez.
 3. Válassza a **Naptár beállítása** lehetőséget, és egy párbeszéd jelenik meg a rendelkezésre álló munkaidősablonok listájával.
 4. Válassza ki a használni kívánt sablont, majd nyomja meg az **Alkalmaz** gombot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

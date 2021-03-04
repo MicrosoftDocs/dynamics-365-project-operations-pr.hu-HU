@@ -43,3 +43,5 @@ Az erőforrás-követelmények jellemzőinek hozzáadása lehetővé teszi, hogy
 3. A **Szakértelem** alrácsban válassza az **+ Új követelményjellemző hozzáadása** lehetőséget.
 4. A gyorslétrehozási panelen keresse meg és jelölje ki a szükséges jellemzőket, és adjon hozzá egy **Minősítési értéket**.
 5. Válassza a **Mentés és bezárás** lehetőséget.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

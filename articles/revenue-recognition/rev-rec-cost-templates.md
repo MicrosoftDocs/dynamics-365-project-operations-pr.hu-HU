@@ -79,3 +79,6 @@ Kövesse az alábbi a lépéseket költségsablonok létrehozásához:
 7. A **Kategóriák** lapon jelölje ki a költségsablon sorában szerepeltetni kívánt projektkategóriákat.
 8. Az **Általános** válassza ezt, ha a sor szerepelni fog a készenléti százalékban.
 9. Válassza ki a készültségi százalék kiszámításakor használandó teljesítési költség módszert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

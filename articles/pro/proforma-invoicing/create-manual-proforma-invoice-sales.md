@@ -35,3 +35,6 @@ Az összes létrehozott projektszámla elérhető a **Számla** oldalon az **Sz�
 Proforma számla is létrehozható a **Projektszerződés** részletei oldalon. A rendszer jóváhagyja azt a projektet, amely **Számlázásra kész** elmaradással rendelkezik a mai dátum előtt. Ezekből a szerződésekből a rendszer az egyes szerződéssorok ügyfeleinek számától függően létrehoz egy vázlat proforma számlát.
 
 Ha egyetlen proforma számla létre lett hozva, megnyílik a **Számla** lap. Ha az adott projektszerződéshez több számlát is létrehoztak, akkor megnyílik a **Számlák** listaoldal, és megjelenik az összes létrehozott számla.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

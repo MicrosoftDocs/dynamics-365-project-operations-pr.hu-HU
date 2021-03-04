@@ -116,3 +116,6 @@ Jelölje be a **Foglalás** elemet az általános erőforráshoz, és aztán az 
 Ha az általános erőforrás teljesítése elnevezett erőforrással történik, az általános erőforrás törlődik a csoportból, és az általános erőforrás feladat-hozzárendelései az elnevezett erőforráshoz lesznek rendelve, aki végrehajtotta az általán erőforrás erőforrás-követelményét.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

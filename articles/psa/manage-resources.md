@@ -344,3 +344,6 @@ Ha az erőforráshoz feladatok vannak hozzárendelve, de nincs foglalása, akkor
 ![A Foglalás kiterjesztése párbeszédpanel](media/Resource-Management-image58.png)
 
 A projektmenedzser vagy az erőforrás-kezelő ezután felhasználhatja az Ütemezési táblát olyan helyzetek kezelésére, amikor egy erőforrás túlfoglalása meghaladja a kapacitást.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Az árajánlatok hasonlóképpen hozhatók létre mint a lehetőségek. A lehet�
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Partnerkezelői útmutató](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

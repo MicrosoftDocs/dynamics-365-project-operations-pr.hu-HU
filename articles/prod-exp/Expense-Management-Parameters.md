@@ -89,3 +89,6 @@ Ez a paraméter szabályozza a költség-menedzsment általános működését.
 | <strong>Korrupcióellenes üzenet a beküldő számára</strong> |                                                                                             Írja be az új költségjelentés létrehozásakor az alkalmazottnak megjelenő szöveget. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, kattintson a <strong>Fordítások</strong> gombra.                                                                                             |
 | <strong>Korrupcióellenes üzenet a jóváhagyó számára</strong>  |                                                                                             Írja be az új költségjelentés létrehozásakor a jóváhagyónak megjelenő szöveget. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, kattintson a <strong>Fordítások</strong> gombra.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

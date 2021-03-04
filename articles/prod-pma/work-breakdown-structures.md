@@ -316,3 +316,6 @@ Másik lehetőségként az ütemezési hibákat egyenként is kijavíthatja, ha 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

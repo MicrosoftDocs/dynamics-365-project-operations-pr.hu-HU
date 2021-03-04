@@ -104,3 +104,6 @@ Az erőforrás-foglalás során a projektmenedzserek szűrhetik a projektek szá
 
 3. Válassza a **Mentés** lehetőséget, és zárja be az oldalt.
 4. A **Kompetenciák** lapon adja hozzá a **ProjectMgmt** készséget és a **PMP** tanúsítványt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

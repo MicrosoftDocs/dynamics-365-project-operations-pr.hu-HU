@@ -70,3 +70,6 @@ A következő problémák kerültek kijavításra:
 - Javított hibakezelés a következőből létrehozott nulla hivatkozású kivételek kezelésére: **Projekt másolása: becslések HelperResource kezelése**.
 - **Nem számlázásra kész** az **idő- és anyagelszámolású számlázási lemaradás** esetén nem törli a számlázási állapotot.
 - Javítottuk a helytelenül címkézett **Árak** gombokat a **Szerepkörárak** és **Katalóguscikkek** lapon.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

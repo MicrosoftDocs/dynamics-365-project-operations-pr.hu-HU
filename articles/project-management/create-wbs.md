@@ -116,3 +116,6 @@ A feladat mód nincs hatással a korábbi/függő feladatok kezdő és befejező
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kisegítő lehetőségek és billentyűparancsok
 
 Az **Ütemezés** rács teljesen elérhető és képernyőolvasókkal, például a Narrátorral, JAWS vagy NVDA programokkal használható. A rácsterületen nyílbillentyűkkel mozoghat (a Microsoft Excel programhoz hasonlóan ), a Tab billentyű segítségével léphet tovább az interaktív felhasználói felület elemein, a lefelé mutató nyíl, az Enter vagy a szóköz segítségével választhat és lenyithatja a legördülő menüket.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

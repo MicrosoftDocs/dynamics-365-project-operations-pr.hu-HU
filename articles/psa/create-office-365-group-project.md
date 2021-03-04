@@ -43,3 +43,6 @@ Biztosítson egy helyet, ahol egy projekt csapattagjai együttműködhetnek a pr
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

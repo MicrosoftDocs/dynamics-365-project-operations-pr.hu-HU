@@ -132,3 +132,6 @@ A beépülő modul érvényesítéseket használhatja minden olyan érvényesít
 
 > [!IMPORTANT] 
 > Jelenleg a TBX-oldalak ismert problémája megakadályozza a felhasználókat abban, hogy javítsák az információkat, és újból kiválasszák a Kész lehetőséget, ha a frissítés nem sikerül a beépülő modul érvényesítésében. Megkerülő megoldásként állítsa be az üzleti szabályok érvényesítését a helyzet lehető legnagyobb mértékű megelőzése érdekében.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

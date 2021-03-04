@@ -68,3 +68,6 @@ Az **Egyeztetés nézet** segítségével a projektmenedzser láthatja a projekt
 > [!NOTE]
 > Ha áthelyez egy olyan feladatot, amelyet saját maga kontúrozott, akkor ezek a kontúrok nem lesznek fenntartva. Az eloszlások újragenerálása a projektnaptár szerint történik meg, hogy tükrözze a változásokat a munkaórák és munkaszüneti napok szerint. Ez a rendszer kialakításából fakad, mivel a rendszer nem ismeri az eredeti kontúr szándékát, és nem tudja meghatározni, hogy van-e értelme megőrizni ezt a kontúrt egy új időszakban. Mivel a foglalások és a hozzárendelések le vannak választva, a foglalások megtartják az eredeti foglalási kontúrokat. Ebben az esetben törölni kell és újra le kell foglalni az új hozzárendelés eloszlásához.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Ha hozzáadott egy egyéni mezőt az árajánlat sorrészleteihez, és azt akarj
 7. A párbeszédpanel bezárásához válassza az **OK** lehetőséget, majd válassza a **Lépés frissítése** lehetőséget.
 8. Ismételje meg az 1-7. lépéseket a második modullal.
 9. Zárja be a PluginRegistrationTool eszközt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

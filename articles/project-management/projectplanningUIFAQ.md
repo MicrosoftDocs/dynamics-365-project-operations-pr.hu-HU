@@ -106,3 +106,6 @@ Ha egy vagy több frissítést eszközölnek a munkalebontási struktúrában, a
   - A Project Operations rendszer
   - Projektrendszer
   - A Project Operations kettős írási rendszere (Ez a szerepkör akkor szükséges, ha Project Operations erőforrását/nem készleten alapuló forgatókönyvét telepíti.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ A projektfázisok útmutatóul szolgálhatnak a projekt életciklusához. Megadh
 4. A listából válassza ki a módosítani kívánt előre definiált vagy felhasználó által megadott fázist. 
 5. Írja be az új nevet a Projektfázis mezőben.
 6. Kattintson a Mentés gombra.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

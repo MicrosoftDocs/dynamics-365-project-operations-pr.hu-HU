@@ -55,3 +55,6 @@ Ha ez az árképzési mód van kiválasztva az értékesítési árlistához tar
 
 ### <a name="markup-over-cost"></a>Haszonkulcs feletti költség
 Ha ez az árképzési mód van kiválasztva az értékesítési árlistához tartozó kategóriaár sorában, akkor a kategória -és az egység-kombinációra vonatkozó alapértelmezett ár csak a tényleges költségértékben szerepel. Például a kiadási tranzakció osztály nem számlázott értékesítési adatai. Ezt az egységárat a rendszer az adott költségre vonatkozó tényleges költség aktuális értéke alapján számított értékre állítja be a számlázott értékesítésre vonatkozóan, miután a megadott haszonkulcsi százalékot alkalmazza. A költségekre alapuló alapértelmezett ár nem a projektek becsült költségeire, illetve az ajánlati sorra, valamint a kiadásokra vonatkozó szerződéssorok részleteire vonatkozóan történik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

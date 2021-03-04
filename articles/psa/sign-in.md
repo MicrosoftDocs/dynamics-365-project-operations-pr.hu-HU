@@ -56,3 +56,6 @@ Amikor bejelentkezik a Dynamics 365 alkalmazásokba, a következő információk
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Az alábbi táblázat meghatározza az Dynamics 365 Project Service Automation a
 | Körvonal                    | Feladat, követelmény vagy kiosztási óra, mivel napi eloszlásra bontják őket. Például egy ötnapos, 40 órás feladatot napi nyolc órára alakíthatunk öt nap alatt. |
 | Egyeztető nézet        | Nézet, amely megmutatja a projektcsoport tagjainak foglalásait és feladatait. Ez a nézet lehetővé teszi, hogy a projektmenedzser megkeresse a foglalások és a feladatok közötti bármilyen eltérést, és bármilyen eltérés esetén korrekciós lépéseket tegyen. |
 | Munkaórák                 | Az entitás, amelyet az erőforrás-kapacitás, valamint a munkaidő és a munkaidőn kívüli idő azonosítására használnak. Ezt az entitást erőforrásnaptárnak is nevezik. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

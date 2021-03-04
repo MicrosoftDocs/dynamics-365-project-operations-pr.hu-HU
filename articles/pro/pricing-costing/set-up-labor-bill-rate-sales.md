@@ -55,3 +55,6 @@ Például a Fabrikam India egyik fejlesztője, aki egy amerikai projekten dolgoz
     | Fejlesztői | Fabrikam US | $150 |
 
 3. Csatolja az értékesítési árlistát, a **Fabrikam US számlázási rátáit** a projektszerződés vagy egy bizonyos Partner projektárlistájához.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Az erőfeszítés és az ütemezés becslései a **Projekt** oldal **Ütemezés*
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Becslések importálása projektből árajánlatba
 
 A projektbecslések meghatározása után importálhatja azokat az árajánlatsorba. Az **Árajánlatsor részletei** lapon válassza a szalag **Importálás becslésekből** lehetőségét a projektbecslések összefoglalásához tranzakciós típus, szerepkör vagy feladatszint alapján.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

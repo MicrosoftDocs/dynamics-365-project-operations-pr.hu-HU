@@ -66,3 +66,6 @@ A következő problémák kerültek kijavításra:
 - A projektek létrehozásakor az ügyfelek leromlott teljesítményt tapasztalhatnak, mivel a **GetBookableResourceIdFromUser** a foglalható erőforrások összes oszlopát beolvassa csak az elsődleges azonosító helyett.
 - **TransactionType** entitásból hiányzik az ellenőrzés előtti frissítés beépülő modul, amellyel megakadályozható, hogy a felhasználók tranzakciótípusokhoz nem érvényes **Kiszerelések** és **UnitGroups** értékeket adjanak meg.
 - Az **eltávolítás** lépés nem működik az időbejegyzés importálásához.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

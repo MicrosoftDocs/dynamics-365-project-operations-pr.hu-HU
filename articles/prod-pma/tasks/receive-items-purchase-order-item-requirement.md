@@ -56,3 +56,6 @@ Ez a feladat a USSI adatkészletet használja.
 21. A **Termékbizonylat** mezőbe írjon be egy értéket.
 22. Kattintson az **OK** gombra.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

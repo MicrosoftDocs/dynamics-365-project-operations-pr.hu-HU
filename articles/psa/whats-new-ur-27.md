@@ -81,3 +81,6 @@ A következő problémák kerültek kijavításra:
 - Ha a Dynamics 365 Field Service és a Project Service Automation egyaránt telepítve van, a **Zárolási díjszabás** és az **Aktuális díjszabás használata** beállítás nem jelenik meg egyszerre a **Számla** lapon.
 - A japán nyelv esetében nincs más naptáralapú oldalakkal konzisztens fordítás.
 - Az **Aktiválás** és **Inaktiválás** el lett távolítva a Project Service Automation **Árlistatársítás** entitásaiból.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

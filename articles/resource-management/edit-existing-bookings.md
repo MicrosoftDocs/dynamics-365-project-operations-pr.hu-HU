@@ -33,3 +33,6 @@ A **Csoporttag** rácsban a Projektmenedzser kijelölhet egy adott erőforrást,
 ## <a name="schedule-board"></a>Ütemezési tábla
 
 Az **Ütemezési tábla** segítségével Erőforrás-kezelő a szervezet összes foglalását egy portfólió nézetben tekintheti meg. Ebből a nézetből az Erőforrás-kezelő a **Foglalások karbantartása** lehetőségben kínált lehetőségekhez hasonlóan bővítheti, lerövidítheti vagy áthelyezheti a meglévő foglalásokat. Az Erőforrás-kezelő az adott foglaláshoz rendelt meglévő erőforrásokat is helyettesítheti, ha a jobb gombbal rákattint a foglalásra, és kiválasztja a **Helyettesítő erőforrás** lehetőséget. Az Erőforrás-kezelők szerkeszthetik a meglévő foglalások elosztásait, ha jobb gombbal rákattintanak a foglalásra, majd a **Szerkesztés** elemre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,3 +23,6 @@ A Dynamics 365 Project Operations olyan érvényesítési logikát tartalmaz, am
 
   - Az összes támogató sor a kapcsolódó táblákban jön létre, például a naplók és a tényadatok.
   - A jóváhagyó a továbblépés előtt a **Projekt jóváhagyójának** van megjelölve.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

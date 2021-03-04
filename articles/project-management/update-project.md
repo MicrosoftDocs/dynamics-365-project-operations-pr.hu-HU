@@ -48,3 +48,6 @@ Az alábbiakban található egy összefoglaló a mezőkről, amelyek a létrehoz
 - **A projekt általános állapota**: A projektmenedzser által megadott általános projektegészségi állapot.
 - **Megjegyzés**: A projektmenedzser által megadott aktuális állapotra vonatkozó leírás.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

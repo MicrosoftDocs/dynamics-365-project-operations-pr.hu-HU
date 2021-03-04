@@ -62,3 +62,6 @@ A projektet a jóváhagyás visszavonása után is éri pénzügyi hatás. Előr
 A következő lépésként létrejönnek a sztornózott bejegyzések a Tényadatok táblában. Sztornózott bejegyzések létrehozásához a rendszer átmásolja az eredeti tényadatok mezőinek értékeit. Csak a minőségi értékek nem lesznek átmásolva. Ezeket az értékeket sztornózza a rendszer. Mind a **Költség**, mind a **Számlázatlan értékesítés** tényadatai esetén létrejönnek sztornózott tényadatok. A sztornózott tényadat **Korrekció állapota** mezőjének értéke **Nem korrigálható**, a számlázás állapota mező értéke **Visszavonva** lesz.
 
 A módosítások elvégzése után a projektre költött összegként és a projekt bevételi tartalékaként rögzített összeg a továbbiakban nem lesz felszámítva az ezen tényadatok által jelentett összegek esetén.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

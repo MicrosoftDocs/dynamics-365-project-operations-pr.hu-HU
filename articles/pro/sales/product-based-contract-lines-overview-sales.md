@@ -46,3 +46,6 @@ Ha a szerződéssor egy termékkatalóguson alapul, akkor az értékesítési á
 Ha az **Árképzés** mezőt az **Árképzés felülbírálása** értékre állítja, nem állít be alapértelmezett árat. Adja meg a szerződéssor termékének árát. Ha a mezőt **Alapértelmezett érték használata** értékre állítja, akkor a rendszer az alapértelmezett értékesítési árat használja, és a mező nem szerkeszthető.
 
 A Project Operations telepítése után az alapértelmezett eladási árak a szerződés termékalapú soraiba kerülnek be. Az **Árképzés** mező **Árképzés felülbírálása** értékre lesz állítva, hogy az alapértelmezett árat a szerződéssorokon szerkeszthesse. Ez a Project Operations-specifikus felülbírálás a termék alapú sorok működésénál a Dynamics 365 Sales alkalmazásban.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

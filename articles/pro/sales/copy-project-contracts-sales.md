@@ -45,3 +45,6 @@ A következő információkat nem másolja a program a **Forrásból** a **Céls
   - Ügyfélköltségvetés adatai
 
 Mivel ez az információ specifikus az egyes szerződésekre, ezeket a mezőket és rekordokat nem másolja a rendszer. A projektek és termékek szerződéssorai, az szerződéssor részleteinek becslései és a nem meghaladandó értékek a szerződés szintjén másolásra kerülnek. Az ár és a költségarány alapértelmezései a **Paraméterek másolása** mezőben kiválasztott **Árképzés másolása** beállítástól függnek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

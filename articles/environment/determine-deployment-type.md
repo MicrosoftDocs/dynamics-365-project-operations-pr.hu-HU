@@ -98,3 +98,6 @@ Határozza meg a Project Operations legjobb telepítési modelljét a [telepít�
 
 Ehhez a telepítéshez lásd: [Regisztráció az előzetes verziós előfizetésekre](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) és az [Új környezet kiépítése](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

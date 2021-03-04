@@ -26,3 +26,6 @@ Az Office-csoportok lehetővé teszik, hogy egy projektet megosszon a többi cso
 > [!NOTE] 
 > A felhasználók csak akkor vannak hozzáadva a csoporthoz, ha megnyomja a **Csoportok** lehetőséget, és hozzáadja azokat. Ez különbözik a Webes projekt viselkedéstől. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

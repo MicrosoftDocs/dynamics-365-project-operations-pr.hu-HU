@@ -273,3 +273,6 @@ A terméksorhoz tartozó számlázott értékesítés, a termék alapú szerződ
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Most, hogy megnyerte az árajánlattal a projektet, ideje létrehozni az ügyfé
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Partnerkezelői útmutató](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

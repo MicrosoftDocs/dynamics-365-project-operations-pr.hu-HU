@@ -44,3 +44,6 @@ A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a ta
 
 > [!NOTE]
 > Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

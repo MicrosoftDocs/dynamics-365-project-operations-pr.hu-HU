@@ -105,3 +105,6 @@ Adja meg a kiadásokat legalább hetente – vagy az a igazgatók által kért g
  [Project Service áttekintése](../psa/overview.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

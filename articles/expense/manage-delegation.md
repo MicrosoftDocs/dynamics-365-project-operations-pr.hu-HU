@@ -39,3 +39,6 @@ Ha a **Költségdelegáltak listaoldalának engedélyezése** szolgáltatásfel�
 A delegált gyorsan szűrheti és keresheti a számára delegált meglévő költségjelentéseket. A delegált új költségjelentést is gyorsan létrehozhat más felhasználók számára az **Új költségjelentés** lehetőség kiválasztásával.
 
 A delegáltak létrehozhatnak és kezelhetnek költségjelentéseket más alkalmazottak nevében is a **Költségkezelés** > **Saját kiadások** > **Költségjelentések** rész megnyitásával, majd a **Más felhasználó kiadásainak megnyitása** lehetőség választásával.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

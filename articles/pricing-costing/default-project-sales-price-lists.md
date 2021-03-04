@@ -57,3 +57,6 @@ A önköltségi árlisták nem alapértelmezettek a Project Operations alkalmaz�
 5. A rendszer ezt követően azon árlisták hatályossági dátumát tekinti meg, amelyek megfelelnek a bejövő becslés vagy a tényleges sor dátumának. 
 6. Ha a bejövő becslésen vagy a tényleges időpont dátumára vonatkozóan több olyan árlista is van, a legutóbb létrehozott árlista lesz kiválasztva.
 7. Ha nincsenek olyan árlisták csatolva a projektparaméterekhez, amelyek megfelelnek a pénznemnek és az érvényességi dátumnak a rendszer alapértelmezetten nullára (0) állítja az önköltségi árat a bejövő becslésen vagy tényleges soron.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

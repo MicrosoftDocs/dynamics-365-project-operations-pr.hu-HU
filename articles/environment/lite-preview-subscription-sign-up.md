@@ -91,3 +91,6 @@ Ismételje meg ugyanazokat a lépéseket, mint az első ajánlatkóddal. Ügyelj
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-konfiguráció telepítése és a beállítási bemutató adatok alkalmazása
 
 Telepítse a CDS-konfigurációt, és állítsa be a bemutató adatokat a következő témakör utasításait követve: [Bemutató beállítások és konfigurációs adatok alkalmazása](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

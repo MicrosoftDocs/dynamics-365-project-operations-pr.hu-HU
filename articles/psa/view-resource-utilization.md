@@ -43,3 +43,6 @@ Ellenőrizheti az erőforrás-kihasználtságot az erőforrás-kihasználás szi
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

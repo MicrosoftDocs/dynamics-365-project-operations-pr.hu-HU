@@ -38,3 +38,6 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | **Projekttervezés és nyomon követés** | 2164035 | Kijavította a **Projekt másolása** funkcióval kapcsolatos problémákat. |
 | **Időbejegyzés** | 2129161 | Szigorúbb korlátozások vonatkoznak annak biztosítására, hogy a felhasználók ne módosíthassák és ne frissíthessék a beküldött vagy jóváhagyott időbejegyzéseket. |
 | **Időbejegyzés** | 2103572 | A projekten kívüli időbejegyzések időjóváhagyása nem kereshet projektjóváhagyói szerepkört. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

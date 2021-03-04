@@ -32,3 +32,6 @@ Ha egy költségjelentés költségeit az alkalmazottat foglalkoztató vállalat
 A költségjelentés elküldéséhez a **Jóváhagyott költségjelentések** oldalon válassza ki a költségjelentést, majd a Művelet panelen válassza a **Küldés** lehetőséget.
 
 Az összes költségjelentés egyszerre is elküldhető a listából. Jelölje ki az összes költségjelentést, majd válassza a **Küldés** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

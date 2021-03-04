@@ -107,3 +107,6 @@ A WBS további opciókkal lett bővítve az erőforrás-biztosítási funkció j
     > Nem kap figyelmeztetést arra vonatkozóan, hogy a megadott erőforrás most 2, mert az erőforrások száma 1 marad.
 
 14. A **Munkalebontási struktúra** oldalon ellenőrizze az erőforrás-hozzárendelést a WBS-ben, majd válassza a **Mentés** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

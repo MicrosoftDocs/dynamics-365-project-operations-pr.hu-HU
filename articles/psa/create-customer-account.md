@@ -47,3 +47,6 @@ Létrehozhat egy fiókot minden olyan ügyfél számára, akivel együtt dolgozi
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Partnerkezelői útmutató](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

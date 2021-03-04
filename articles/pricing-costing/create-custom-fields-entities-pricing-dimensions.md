@@ -77,3 +77,6 @@ Entitásalapú dimenziókhoz manuálisan vagy Microsoft Excel importálással va
 5. Ismételje meg az 1–3. lépést egy újabb szabványos cím létrehozásához a „Vezető rendszermérnök” esetében.
 
 > ![Mintaadatok a szabványos cím entitáshoz](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

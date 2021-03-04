@@ -28,3 +28,6 @@ ms.locfileid: "4960025"
 A *napidíj* olyan juttatás, amelyet a munka céljából utazó munkavállalónak fizetnek. A Költségkezelésben létrehoz napidíjszabályokat különböző utazási helyzetekhez. A napidíj az évszaktól, az utazás helyétől vagy mindkettőtől függhet. Amikor napidíjat hoz létre, megadhatja, hogy a napidíj bizonyos százalékát visszatartsák, ha egy dolgozó ingyenes étkezést vagy szolgáltatásokat kap. Beállíthatja azt a minimális és maximális óraszámot is, amelyre a napidíj a dolgozó utazása esetében vonatkozhat.
 
 A napidíj összegének kiszámítása a **Napidíjak** lapon megadott kezdési és befejezési dátumokon alapul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

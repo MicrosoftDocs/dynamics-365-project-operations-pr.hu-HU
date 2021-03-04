@@ -440,3 +440,6 @@ A kimutatás kiszámítását követően az alábbi információkat tekintheti m
 -   **Felhasználás** – az órák, a cikkek, a kiadások és a bérlista-tranzakciók felhasználására vonatkozó információk.
 -   **Számla** – a számlákra és a részszámlákra vonatkozó információk.
 -   **Óradíj** – a bevételi számlákhoz és a költségszámlákhoz feladott órákhoz tartozó óradíjak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

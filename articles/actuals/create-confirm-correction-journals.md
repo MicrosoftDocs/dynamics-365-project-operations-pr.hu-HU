@@ -89,3 +89,6 @@ Hajtsa végre az alábbi lépéseket egy vagy több költségbejegyzés kijavít
 8. A projekt oldalán a **Tényadatok** lapon tekintse át a **Tényleges adatok társított nézete** elemet. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva. A következő ábra az eredeti költségbejegyzés összegeket, illetve az azokhoz tartozó helyesbített költségbejegyzés-mennyiségeket. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

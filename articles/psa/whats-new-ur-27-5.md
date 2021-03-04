@@ -42,3 +42,6 @@ Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak 
 A következő problémák kerültek kijavításra:
 
 - Segítségnyújtási keresési teljesítmény romlásának ütemezése
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

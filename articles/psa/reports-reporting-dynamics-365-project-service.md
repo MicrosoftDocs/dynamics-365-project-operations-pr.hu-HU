@@ -52,3 +52,6 @@ A PSA-ban történő jelentéssel kapcsolatos további információkért lásd a
 - [Munka a Project Service adatmodellel](reports-working-project-service-data-model.md)
 - [Irányítópultok](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

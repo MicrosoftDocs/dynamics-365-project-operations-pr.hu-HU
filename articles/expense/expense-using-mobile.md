@@ -236,3 +236,6 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 22. Válassza a **Küldés** lehetőséget.
 23. Adja meg a jóváhagyó számára az esetleges megjegyzéseket.
 24. Válassza a **Kész** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

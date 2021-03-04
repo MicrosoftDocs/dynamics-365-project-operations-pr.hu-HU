@@ -42,3 +42,6 @@ Amikor választ, az erőforrás hozzáadódik a projektcsoporthoz, és hozzáren
 Az **Egyeztetés** lapon a Foglalás meghosszabbítása funkció, vagy az **Ütemezési tábla** használatával foglalhatja le az erőforrás kapacitását a projekt számára.
 
 Miután egy csoporttag foglalásra került a projekthez, használhatja a **Foglalások karbantartása** funkciót, vagy az **Ütemezési tábla** használatával közvetlenül kezelheti annak foglalásait.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

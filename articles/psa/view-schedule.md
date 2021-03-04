@@ -45,3 +45,6 @@ Ha meg szeretné tudni, hogy milyen munkán dolgozik a héten, tekintse át az �
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ A napidíj olyan juttatás, amelyet a munka céljából utazó munkavállalónak
     
 ## <a name="submit-expenses-using-per-diem"></a>Kiadások beküldése napidíj használatával
 A kiadások napidíjak használatával történő elküldéséhez használja a **Napidíj** költségkategóriát költségjelentés létrehozásakor. Adja meg a **Napidíj kezdő dátuma**, a **Napidíj záró dátuma** és a **Napidíjhely** értékét. Az összeget a kiválasztott hely napidíjmértékei alapján számítják ki, az étkezési csökkentés pedig a napidíjszintek alapján kerül kiszámításra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

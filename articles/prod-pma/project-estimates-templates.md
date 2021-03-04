@@ -170,3 +170,6 @@ A következő ábra példákat mutat be az adatintegrációban az sablonfeladato
 [![A költségbecslés-tranzakciók sablon szerinti leképezése](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![A költségbecslések sablon szerinti leképezése](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] le
  [Partnerkezelői útmutató](../psa/account-manager-guide.md)   
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

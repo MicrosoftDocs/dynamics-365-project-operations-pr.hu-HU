@@ -44,3 +44,6 @@ Ez a feladat-útmutató a tranzakciók projekten belüli beállítását mutatja
 13. A listán jelölje meg a kiválasztott sort. 
 14. Írjon be egy számot az Önköltségi ár mezőbe. 
 15. Kattintson a Feladás lehetőségre. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

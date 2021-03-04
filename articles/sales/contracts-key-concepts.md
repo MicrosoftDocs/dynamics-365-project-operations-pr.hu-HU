@@ -88,3 +88,6 @@ A számlázási ütemezések az egyes szerződéssorokra vonatkoznak, és az aut
 ## <a name="changes-from-dynamics-365-sales-orders"></a>A Dynamics 365 Sales rendelések változásai
 
 A Project Operations szerződései a Dynamics 365 Sales rendeléseire épülnek. Vannak azonban olyan fontos eltérések a funkciókban. A Szerződések magukban foglalják saját űrlap- és a felhasználói felület elemeiket, az üzleti szabályokat, az üzleti logikát a beépülő modulokban és az ügyféloldali parancsfájlokat, amelyek megkülönbözteti őket a rendelésektől. A fenti okok miatt nem szabad a Sales szerződéseket és a Project Operations szerződéseket felcserélhető módon használni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

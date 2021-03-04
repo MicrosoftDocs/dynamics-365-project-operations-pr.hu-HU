@@ -101,3 +101,6 @@ Miután az összes erőforráson végrehajtja a foglalás meghosszabbítása fun
 
 Azonban a foglalások részleteinek alaposabb tanulmányozásakor láthatóvá válnak a különbségek a foglalások kezdőidőpontjai között. A foglalások legkorábban a hozzárendelési felosztás kezdési időpontjában kezdődnek és nem korábban, mint az erőforráshoz elérhető kezdési idő.
  ![Erőforrások új foglalásai az ütemezési táblában](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

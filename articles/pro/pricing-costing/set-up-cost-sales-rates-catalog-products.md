@@ -26,3 +26,6 @@ A termékkatalógus-cikkek árképzésének beállítása ugyanolyan a Dynamics 
 A Project Operations programban a termékek nem becsülhetők meg vagy használhatók fel projektekben, így a termékkatalógus árait nem kell beállítani az ajánlatok és szerződések projektárlistáin.
 
 A termékkatalógus árak beállításához használja az ajánlat, szerződés vagy számla lehetőség **Termékár** mezőjét. Ne állítson be termékkatalógus-árakat a projektárlistákban. A projektárlisták kizárólag a Project Operationshoz kapcsolódnak. Az alkalmazásspecifikus üzleti logika az árlistákat egy ajánlatból a szerződésbe másolja. Ennek eredménye a szerződésspecifikus projektárlista. A másolási művelet késleltetheti az árajánlat megnyerésének folyamatát, ha az árajánlaton szereplő projektárlista túl nagy lesz. A termékárlisták nem kerülnek másolásra, ha a szerződéseken egyéni árlistát hoz létre. Mivel nincs szükség másolásra, az ajánlati folyamat teljesítményét ez nem befolyásolja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

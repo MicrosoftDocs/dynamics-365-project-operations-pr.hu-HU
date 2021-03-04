@@ -106,3 +106,6 @@ Ha kibontja az adott csoporttag rekordjának sorát, akkor mindkét feladathoz k
 ### <a name="estimates-grid"></a>Becslések rács 
 
 A **Becslések** rácsán az ugyanarra az erőforrásra vonatkozó hozzárendelések eltérő árúak. Az **A feladatnál** az erőforráshoz rendelt hozzárendelés árazása a **Vezető tanácsadó** opció **Szerepkör** attribútumának értéke szerint történik. A **B feladatnál** az ugyanazon erőforráshoz rendelt hozzárendelés árazása a **Hálózati technikus** opció **Szerepkör** attribútumának értéke szerint történik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

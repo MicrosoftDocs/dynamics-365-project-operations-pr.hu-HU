@@ -40,3 +40,6 @@ Ha az Elvesztettként lezárt projektajánlat hivatkozik valamelyik sorában lé
 
 > [!NOTE]
 > A Project Operationsben az árajánlat megnyertként vagy elvesztettként való lezárása nem befolyásolja a lehetőség állapotát, amely mindaddig nyitva marad, amíg manuálisan le nem zárja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

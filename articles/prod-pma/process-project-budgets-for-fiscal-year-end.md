@@ -98,3 +98,6 @@ A fennmaradó költségvetési összegek feldolgozása során a főkönyvben hoz
 5. A feldolgozni kívánt projektek mindegyikéhez jelölje ki a beállítást a projekt első sorában. 
 6. Válassza a **folyamat** lehetőséget a fennmaradó költségvetési összegek átadásához a kijelölt projekteknél a kijelölt pénzügyi évre.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

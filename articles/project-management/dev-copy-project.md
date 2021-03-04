@@ -112,3 +112,6 @@ A következő példa bemutatja, hogyan hívja a **CopyProject** egyéni művelet
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

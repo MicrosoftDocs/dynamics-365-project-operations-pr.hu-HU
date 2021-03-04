@@ -127,3 +127,6 @@ Ha új munkalebontási struktúrát szeretne létrehozni a Microsoft Project Cli
 8.  Válassza ki az erőforrás biztosításához használt **Naptár** elemet.
 
 11. Kattintson az **OK** gombra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

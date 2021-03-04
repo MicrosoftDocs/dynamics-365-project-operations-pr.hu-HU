@@ -57,3 +57,6 @@ A következő táblázat felsorolja a Project Operations frissítéseit a 4.5.0.
 | Idő és költség | 2034882. | Az **Új** gomb kétszer jelenik meg a parancssorban az időbejegyzésekhez a Dynamics 365 Field Service telepítésekor. |
 | Idő és költség | 2056028. | Az **Időszerkesztés** oldal frissítése, hogy tartalmazza az idősort. |
 | Idő és költség | 1983747. | Az időbevitel diagramja további adatokat jelenít meg. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

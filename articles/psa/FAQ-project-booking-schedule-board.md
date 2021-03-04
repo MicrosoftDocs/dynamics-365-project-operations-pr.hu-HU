@@ -91,3 +91,6 @@ Az új erőforrás-követelményből történő foglaláshoz hajtsa végre a kö
 
 4. Miután lefoglalta az erőforrást, kézileg kell hozzárendelnie a feladatokat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

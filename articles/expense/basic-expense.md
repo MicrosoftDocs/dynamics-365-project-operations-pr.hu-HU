@@ -55,3 +55,6 @@ A még el nem küldött kiadások törölhetők. Ha már elküldött kiadást sz
 ## <a name="see-also"></a>Kapcsolódó információk
 
 - [Jóváhagyások áttekintése](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

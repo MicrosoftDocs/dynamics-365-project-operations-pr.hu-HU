@@ -55,3 +55,6 @@ A következő folyamat egy Költségjelentég költségkezelési munkafolyamatá
 A követelmények ellenőrzése után a költségjelentés feladása megtörténik.
 
 A költségjelentés feladása után a költségjelentéshez tartozó kifizetés engedélyezve lesz, és az alkalmazott visszatérítést kap.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

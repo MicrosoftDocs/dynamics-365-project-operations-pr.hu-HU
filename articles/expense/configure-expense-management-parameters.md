@@ -83,3 +83,6 @@ Ez a témakör ismerteti azokat a paramétereket, amelyek a Költségkezelés á
 | Korrupcióellenes nyilatkozat megjelenítése   | Válassza ezt a lehetőséget, ha a költségjelentés létrehozásakor meg szeretné jeleníteni a korrupcióellenes szöveget. Ezután engedélyezhetők bizonyos költségkategóriák, amelyek megkövetelik a korrupcióellenes nyilatkozat kiválasztását a költségjelentés alatt. Például egy adott kormányzati tisztviselőkkel kapcsolatos kiadáshoz kapcsolódó ajándékkategória esetében előfordulhat, hogy az alkalmazottnak igazolnia kell, hogy a költség megfelel a kormányzati tisztviselőkhöz kapcsolódó vállalati irányelveknek. |
 | Korrupcióellenes üzenet a beküldő számára | Adja meg azt a szöveget, amelynek a költségjelentés létrehozását végző alkalmazott számára meg kell jelennie. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, válassza a **Fordítások** lehetőséget. |
 | Korrupcióellenes üzenet a jóváhagyó számára  | Adja meg azt a szöveget, amelynek a költségjelentés létrehozásakor a jóváhagyó számára meg kell jelennie. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, válassza a **Fordítások** lehetőséget. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

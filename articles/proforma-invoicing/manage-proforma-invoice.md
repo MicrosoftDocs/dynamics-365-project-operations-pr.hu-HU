@@ -135,3 +135,6 @@ Ha a számla létrehozása után beérkezett tényleges adatokkal rendelkezik, a
 2. Nyissa meg a proforma számlát, és a menüszalag **műveletek** lapján kattintson a **számlasor-tranzakciók frissítése** lehetőségre.
 
   Ezzel a számlasor adatait minden olyan tényleges értékhez létrehozza, amely **Számlázásra készként** van megjelölve, múltbeli dátumú, de nem szerepel a számlában.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

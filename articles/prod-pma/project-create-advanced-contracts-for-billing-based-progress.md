@@ -103,3 +103,6 @@ A költségvetési kategóriák segítségével a rendszer automatikusan kiszám
 8. Nem kötelező: a számlázási szabályt további projektekhez rendelje hozzá. A **Projekt** gyorslapon, a **rendelkezésre álló projektek** szakaszban jelöljön ki egy projektet, majd a jobb nyílra kattintva adja hozzá a projektet a **kijelölt projektek** szakaszhoz.
 9. Nem kötelező: a százalékos összeg kiszámítása, amelyet az ügyfél visszatart a számla kifizetéséről. A **fizetési adatok megőrzési feltételei** gyorslapon válassza ki a finanszírozási forrást, majd az **Adatmegőrzési százalék** mezőben adja meg a megőrzési százalékot.
 10. Ismételje meg ezeket a lépéseket, ha további számlázási szabályokat szeretne létrehozni a projektszerződéshez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

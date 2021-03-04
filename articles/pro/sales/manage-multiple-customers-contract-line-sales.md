@@ -43,3 +43,6 @@ Alább láthatók a projektalapú szerződéssor **szerződés** sor-ügyfélrek
 A számlázás felosztási százaléka a rácsban szerkeszthető. Ha a számlázásfelosztási százalékértékek nem tesznek ki teljes 100 százalékot, akkor hiba történik. A számlázási felosztás százalékos értékének módosítása után frissítse a lapot a hiba eltávolításához.
 
 Kiválaszthatja az **Egyenlő elosztás** lehetőséget is az szerződéssor ügyfeleinek részrácsán. Ez a művelet egyenletesen leosztja a számlázási felosztásokat az összes szerződéssor-ügyfél számára. Ha bármilyen kerekítési tényező van, akkor a rendszer hozzáadja a kerekítési ügyfélhez. Az egyik szerződéssor ügyfele mindig úgy van címkézve, mint az a **kerekítési** ügyfél, akinél a **Kerekítés** jelző **Igen** értékre van állítva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

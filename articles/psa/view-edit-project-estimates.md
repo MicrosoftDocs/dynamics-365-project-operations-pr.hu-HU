@@ -45,3 +45,6 @@ A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] k�
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

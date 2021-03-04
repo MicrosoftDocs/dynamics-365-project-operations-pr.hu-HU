@@ -87,3 +87,6 @@ Amikor készen áll módosítani az ideiglenesen lefoglalt csoporttag erőforrá
 2. Az ütemezés tábla megnyílásakor bontsa ki az erőforrást a foglalások megjelenítéséhez. A lefoglalás Ideiglenes állapotúként jelenik meg.
 3. Kattintson a jobb gombbal a Lefoglalásra, az állapot módosítása alatt válassza a Végleges lefoglalás, majd a Végleges lehetőséget. A foglalási állapot most már Végleges.
 4. Az ütemezési tábla bezárása után láthatja, az erőforrás munkaórái Ideiglenesről Véglegesre változtak csoport tagja rácson. Most már hozzárendelheti az erőforrást feladatokhoz (feltéve, hogy a végleges órák és hozzárendelésre váró feladat munkaórái között igazítás van). Vegye figyelembe, hogy ha a fenti 3. lehetőség általános erőforrás teljesítése lépéseit követte, amikor módosítja az ideiglenesen foglalható erőforrás állapotát véglegesre, az általános csoporttag törlődik a csoportból.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

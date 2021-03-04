@@ -41,3 +41,6 @@ Ha az ügyfél jóváhagyja a projekthez készült árajánlat adatait, akkor a 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

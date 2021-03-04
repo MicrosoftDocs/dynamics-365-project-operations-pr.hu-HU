@@ -68,3 +68,6 @@ Miután minden erőforráshoz kiterjeszti a foglalási funkciót, a rendszer sik
 Figyelje meg, hogy a foglalások részletes vizsgálata a foglalások kezdő időpontjában jelentkező különbségeket mutatja. A foglalások legkorábban a hozzárendelési kontúrok kezdési időpontjában jelennek meg, és legkorábban az erőforrás rendelkezésre álló kezdési időpontjában.
 
 ![Erőforrások új foglalásai az ütemezési táblában](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

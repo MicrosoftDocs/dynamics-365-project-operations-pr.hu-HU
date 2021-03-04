@@ -59,3 +59,6 @@ Minden rögzített árú számlázási módszerrel rendelkező projektszerződé
 A számlázási mérföldkövek áttekintéséhez nyissa meg az **Értékesítés** \> **Számlázás** \> **Rögzített árú mérföldkövek** oldalt. Válassza ki azokat a mérföldköveket, amelyek készen állnak a számlázásra, majd válassza a **Számlázásra kész** elemet. Ezeknek a mérföldköveknek a számlázási állapota megváltozik: **Számlázásra kész**.
 
 ![Rögzített árú mérföldkövek](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

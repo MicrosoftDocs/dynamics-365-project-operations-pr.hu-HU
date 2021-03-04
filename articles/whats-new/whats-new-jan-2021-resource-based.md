@@ -89,3 +89,6 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
 A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

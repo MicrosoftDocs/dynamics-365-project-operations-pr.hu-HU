@@ -62,3 +62,6 @@ Az Android a 16-os platformfrissítéssel is kompatibilis lesz, amint elérhető
 13. Nem kötelező: adjon meg a további időnyilvántartási sorokat.
 
 14. Az időnyilvántartási sorok megadását követően az időnyilvántartás munkafolyamat-jóváhagyási folyamatra való beküldéséhez válassza a **Munkafolyamat** \> **Küldés** elemet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

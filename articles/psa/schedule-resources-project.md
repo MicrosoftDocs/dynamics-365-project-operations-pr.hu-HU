@@ -83,3 +83,6 @@ Régebbi verziójú rendszer használata esetén az erőforrások rendelkezésre
   
 ### <a name="additional-resources"></a>További információforrások  
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

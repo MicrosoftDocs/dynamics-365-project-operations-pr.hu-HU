@@ -67,3 +67,6 @@ A következő problémák kerültek kijavításra:
 A következő problémák kerültek kijavításra:
 
 - Az **Összes tranzakciós kategória beolvasása** opcióra való dupla kattintás több sort hoz létre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

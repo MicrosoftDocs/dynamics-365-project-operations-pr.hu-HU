@@ -45,3 +45,6 @@ Ha mennyiségi tényezőket szeretne létrehozni a termék tulajdonságaiból, h
 6. Az űrlap mentése és bezárása. Ismételje meg ezeket a lépéseket minden olyan tulajdonságra vonatkozóan, amelyet a termékalapú árajánlatsor mennyiségének a kiszámításához használni szeretne.
 
 Ha egy termékhez termékalapú árajánlatsort hoz létre, az árajánlatsor mennyisége zárolva lesz. A mennyiséget az adott árajánlatsorhoz tartozó tulajdonságértékek szorzatával számítja ki a program.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

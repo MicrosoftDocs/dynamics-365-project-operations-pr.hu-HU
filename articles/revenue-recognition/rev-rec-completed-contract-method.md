@@ -90,3 +90,6 @@ A becslés az állapota **Megszüntetve** értékre változik.
 Ezen az oldalon a megadott becslési dátummal rendelkező összes eltávolítást sztornírozhatja, és megszüntetheti a **Becsült** állapotot. A tranzakció állapota a megfelelő mezők kiválasztása után módosul.
 
 Ezzel automatikusan a projekt állapotát **Folyamatban** állapotra változtatja, ha a projekt fázisa befejezett értékre van állítva. A projekt időszakának becsült állapota a **Feladott** értékre változik vissza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Miután áttekintette a korábban említett témákat, és készen áll a PSA 3.
 
 > [!NOTE]
 > A legjobb élmény érdekében, ha a Field Service és a PSA alkalmazások régebbi verzióit használja, keresse meg a **Rendszerbeállítások** oldalt és a mezőnél használja a **Csak az új egységes interfész használata (ajánlott)** mezőt, válassza a **Nem** lehetőséget, mivel ezek a verziók nem úgy vannak megtervezve, hogy megfelelően letöltsék az UCI-t. Az UCI kikapcsolása után a régi web kliens használatával megnyithatja és futtathatja a Field Service és a PSA ezeket a verzióit. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

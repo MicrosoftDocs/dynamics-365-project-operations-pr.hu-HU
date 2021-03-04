@@ -43,3 +43,6 @@ Emellett ha bármilyen egyéni alkalmazás-modullal rendelkezik, amely tartalmaz
 
 ### <a name="currently-extended-time-entry-changes"></a>Jelenleg meghosszabbított időbejegyzés-változások
 Hogy ez a lehető legkevésbé befolyásolja az időbejegyzést jelenleg használó felhasználókat, ez a szerepkörmódosítás az egyetlen alapvető feltétele az időbejegyzés további használatának. Ha egyéni nézeteket vagy különálló időbeviteli élményeket hozott létre, akkor az **Időbevitel beállítása** mezőket a megfelelő PSA-értékre kell állítania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

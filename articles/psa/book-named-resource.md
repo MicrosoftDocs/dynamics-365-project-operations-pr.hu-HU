@@ -68,3 +68,6 @@ Ez egy példa arra az esetre, amikor egy általános erőforrás-kérelem teljes
 A fő különbség ezen forgatókönyv esetén, hogy az általános erőforrás a feladathoz rendelt csoportban marad, és a foglalt elnevezett erőforráscsoport-tagok nem lesznek hozzárendelve a pozíció részeként. A projektvezető a munkát megfelelő módon hozzárendelheti az elnevezett erőforrásokhoz. Az **Egyeztetés** segíthet a projektkezelőnek a foglalás több erőforrás közötti lebontásában a feladat-hozzárendelésekhez. Ez nem történik meg automatikusan, mert a fenti egyszerű példánál bonyolultabb forgatókönyv esetén (például, ha a követelményt számos feladat teszi ki) a szándékkal, a rendszernek feltételeznie kell a projektkezelő által igényelt hozzárendelési módot. Mivel a rendszer nem érti a szándékot, előfordulhat, hogy a feltételezések eltérnek a szándékolt módszertől, és az nem megfelelő vagy kiszámíthatatlan eredményt okoz. A kiszámítható eredmény az, hogy az általános erőforrás mindaddig hozzá lesz rendelve, amíg a projetkezelő szándékosan hozza létre a hozzárendeléseket az **Egyeztetés** nézet segítségével.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

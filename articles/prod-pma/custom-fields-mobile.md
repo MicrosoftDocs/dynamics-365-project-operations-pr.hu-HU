@@ -429,3 +429,6 @@ Az alapértelmezett projektkategória időnyilvántartási bejegyzésbe történ
 1. Az alkalmazás megpróbálja elhelyezni az alapértelmezett kategóriát a projekterőforrásból. Ez az alapértelmezett kategória a **TSTimesheetSettingsService** osztály **getCurrentUserResource** és **getDelegatedResourcesForCurrentUser** metódusaiban van beállítva.
 2. Ha az alapértelmezett kategória nincs megadva a projekterőforrási szintjen, az alkalmazás a projekttevékenységből próbálja meg lekérni. Ez az alapértelmezett kategória a **TSTimesheetProjectService** osztály **getActivitiesForProject** metódusában van beállítva.
 3. Ha az alapértelmezett kategória nincs megadva a projekttevékenységi szintjen, a rendszer lekéri a az alapértelmezett kategóriát a projektparaméterekből. Ez az alapértelmezett kategória a **TSTimesheetProjectService** osztály **getProjectDetailsbyRule** metódusában van beállítva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

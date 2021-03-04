@@ -34,3 +34,6 @@ Az értékesítési árak egy alkalommal kerülnek alkalmazásra. Az értékesí
 1. Cég
 2. Ügyfél
 3. Árajánlat/szerződés
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

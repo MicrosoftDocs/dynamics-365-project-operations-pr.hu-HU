@@ -29,3 +29,6 @@ Az **Állapot** szakasz a **Projektentitás** oldalon a projekt állapotának k�
 - A **Megjegyzések** mezőben a projektmenedzser konkrét megjegyzéseket fűzhet az állapothoz. 
 - Az **Állapotfrissítés dátuma** mező nem szerkeszthető. A mező értéke egy időbélyeg, amely azt jelzi, hogy mikor történt az állapot utolsó frissítése.
 - Az **Ütemezés teljesítménye** és **Költség teljesítése** mezőket a követési rácsból állítják be. Ha a gyökércsomópont ütemezése és költségvarianciája az **Erőfeszítés követése** nézetben pozitív, akkor ezek a mezők **Ahead** értékre frissülnek. Ha a gyökércsomópont ütemezése és költségeltérése negatív, akkor ezeket **Ütemterv mögött** értékre vannak beállítva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ A Nincs módszer csak akkor érhető el, ha egy projekten belül a **Csapat** la
 - Órák egyenlő felosztása
 
 Ezen három hozzárendelési módszerek valamelyikének használatakor nem kap értesítést, hogy az erőforrás túlfoglalt. A túlfoglalás kijavításához az Ütemezés táblát kell használnia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

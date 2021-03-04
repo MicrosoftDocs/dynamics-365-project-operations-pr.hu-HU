@@ -47,3 +47,6 @@ A tanácsadás után adja meg azok idejét és a költségeket a projekthez, hag
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

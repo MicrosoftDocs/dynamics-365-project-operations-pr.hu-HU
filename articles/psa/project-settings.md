@@ -68,3 +68,6 @@ Minden szervezetnek be kell állítania ezeket a szerepköröket az **Aktív er�
 ## <a name="price-lists"></a>Árlisták
 
 Az árlisták segítségével beállíthatja a költség- és eladási árakat az erőforrás-szerepkörökhöz, a költségkategóriákhoz, a termékekhez és a szervezet más elemeihez. Mielőtt meghatározná a projekthez teljesítendő munkára vonatkozó pénzügyi becsléseket, el kell készítenie egy támogatási költség- és eladási árlistát. A paraméterek szakaszban be kell állítania egy alapértelmezett költség- és eladási árlistát, amely a szervezetben létrehozott projektekre vonatkozik. Az **Aktív projektparaméterek** oldalon ellenőrizze, hogy beállított-e alapértelmezett költség- és eladási árlistát.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

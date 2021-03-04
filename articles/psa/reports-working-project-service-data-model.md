@@ -123,3 +123,6 @@ Amikor a **Tényleges** entitással dolgozik, fontos, hogy megértse, mely tranz
 A **Tranzakció eredete** entitás rögzíti a **Tényleges** rekord eredetét, és a **Tranzakciós kapcsolat** entitás rögzíti a kapcsolódó nyilvántartásokat a **Tényleges** rekordhoz. Ezenkívül a **Tényleges** referenciák tartalmazzák a projektet, a projekt szerződést (megrendelés), a megrendelhető forrást és az ügyfelet.
 
 ![Tranzakciós kapcsolatot, eredetet és tényleges kapcsolatokat mutató diagram](media/PS-Reporting-image6.png "Tranzakciós kapcsolatot, eredetet és tényleges kapcsolatokat mutató diagram")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
