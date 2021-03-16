@@ -32,10 +32,12 @@
               href: environment/resource-provision-new-environment.md
             - name: Biztonsági modell
               href: environment/security-model.md
-            - name: A Project Operations jogi személyenkénti integrációjának konfigurálása
+            - name: A Project Operations integrációjának konfigurálása jogi személyenként
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Újdonságok
       items:
+        - name: 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: 2021. január – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -318,59 +320,59 @@
       items:
         - name: Költség áttekintése
           href: expense/expense-overview.md
-        - name: Költségkezelési élmény projektekhez
+        - name: Új költségekkel kapcsolatos felület
           items:
-            - name: Konfiguráció és beállítás
-              items:
-                - name: Beállítási házirendek
-                  href: expense/set-up-policies.md
-                - name: Beállítási munkafolyamatok
-                  href: expense/set-up-workflows.md
-                - name: Delegálás kezelése
-                  href: expense/manage-delegation.md
-                - name: Költségkezelési paraméterek konfigurálása
-                  href: expense/configure-expense-management-parameters.md
-                - name: Hitelkártya-integráció beállítása
-                  href: expense/set-up-credit-card-integration.md
-                - name: Költségkategóriák beállítása
-                  href: expense/set-up-expense-categories.md
-            - name: Munkavégzés személyes kiadásokkal egy költségjelentésen
-              href: expense/personal-expenses-expense-report.md
-            - name: Költségjelentések létrehozása
-              items:
-                - name: Terjesztések egy költségjelentésen
-                  href: expense/distributions-expense-report.md
-            - name: Költségjelentések jóváhagyása
-              items:
-                - name: Költségjelentések és több jóváhagyó
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Költségjelentések közzététele
-              href: expense/posting-expense-reports.md
-            - name: Utazási kérelem
-              href: expense/travel-requisition.md
-            - name: Készpénzelőleg
-              href: expense/cash-advance.md
-            - name: Napidíjak
-              href: expense/per-diems.md
-            - name: Pénzügyi kezelés
-              items:
-                - name: ÁFA-visszaigénylés
-                  href: expense/vat-recovery.md
-            - name: Új költségélmény
-              items:
-                - name: Költségjelentések újragondolva
-                  href: expense/expense-reports-reimagined.md
-                - name: Nyugta párosítása a költséggel OCR segítségével
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Mobil költségkezelés
-              href: expense/expense-using-mobile.md
+            - name: Költségjelentések újragondolva
+              href: expense/expense-reports-reimagined.md
+            - name: Nyugta rögzítése OCR használatával
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguráció és beállítás
+          items:
+            - name: Házirendek beállítása
+              href: expense/set-up-policies.md
+            - name: Munkafolyamatok beállítása
+              href: expense/set-up-workflows.md
+            - name: Delegálás kezelése
+              href: expense/manage-delegation.md
+            - name: Költségkezelési paraméterek konfigurálása
+              href: expense/configure-expense-management-parameters.md
+            - name: Hitelkártya-integráció beállítása
+              href: expense/set-up-credit-card-integration.md
+            - name: Költségkategóriák beállítása
+              href: expense/set-up-expense-categories.md
+        - name: Személyes költségek
+          href: expense/personal-expenses-expense-report.md
+        - name: Vállalatközi költségek
+          href: prod-exp/intercompany-expense.md
+        - name: Költségjelentések létrehozása
+          items:
+            - name: Felosztások egy költségjelentésen
+              href: expense/distributions-expense-report.md
+        - name: Költségjelentések jóváhagyása
+          items:
+            - name: Költségjelentések és több jóváhagyó
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Költségjelentések közzététele
+          href: expense/posting-expense-reports.md
+        - name: Utazási kérelem
+          href: expense/travel-requisition.md
+        - name: Készpénzelőleg
+          href: expense/cash-advance.md
+        - name: Napidíjak
+          href: expense/per-diems.md
+        - name: Költségekkel kapcsolatos mobilalkalmazás
+          href: expense/expense-using-mobile.md
+        - name: Pénzügyi kezelés
+          items:
+            - name: ÁFA-visszaigénylés
+              href: expense/vat-recovery.md
     - name: Jóváhagyások
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
         - name: Fejlesztői jegyzetek
           items:
-            - name: Fejlesztői jegyzetek jóváhagyásokhoz
+            - name: Fejlesztői jegyzetek a Jóváhagyásokhoz
               href: approvals/dev-notes-approvals.md
     - name: Tények
       items:
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021. márciusban – egyszerű telepítés
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Újdonságok 2021. februárban – egyszerű telepítés
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: Újdonságok 2021. januárban – egyszerű telepítés
@@ -770,7 +774,7 @@
           href: approvals/approvals-overview.md
         - name: Fejlesztői jegyzetek
           items:
-            - name: Fejlesztői jegyzetek jóváhagyásokhoz
+            - name: Fejlesztői megjegyzések a Jóváhagyásokhoz
               href: approvals/dev-notes-approvals.md
     - name: Tények
       items:
@@ -894,44 +898,52 @@
   items:
     - name: Költségkezelés áttekintése
       href: prod-exp/expense-management.md
-    - name: Költségjelentések újragondolva
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Költségkezelés megtervezése
-      href: prod-exp/plan-expense-management.md
-    - name: Költségkezelési paraméterek
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Költségkezelés mobil munkaterület
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Munkafolyamatok beállítása költségkezeléshez
-      href: prod-exp/expense-workflows.md
-    - name: Költségkezelési munkafolyamat
-      href: prod-exp/expense-workflow.md
-    - name: Költségdelegálás kezelése
-      href: prod-exp/manage-expense-delegation.md
-    - name: Költségnyugta feldolgozása
-      href: prod-exp/expense-receipt-processing.md
-    - name: Bankkártya-tranzakciók importálása és karbantartása
-      href: prod-exp/import-credit-card.md
-    - name: Terjesztések egy költségjelentésen
-      href: prod-exp/expense-report-distributions.md
+    - name: Új költségekkel kapcsolatos felület
+      items:
+        - name: Költségjelentések újragondolva
+          href: expense/expense-reports-reimagined.md
+        - name: Nyugta rögzítése OCR használatával
+          href: expense/match-receipt-expense-ocr.md
+    - name: Konfiguráció és beállítás
+      items:
+        - name: Házirendek beállítása
+          href: expense/set-up-policies.md
+        - name: Munkafolyamatok beállítása
+          href: expense/set-up-workflows.md
+        - name: Delegálás kezelése
+          href: expense/manage-delegation.md
+        - name: Költségkezelési paraméterek konfigurálása
+          href: expense/configure-expense-management-parameters.md
+        - name: Hitelkártya-integráció beállítása
+          href: expense/set-up-credit-card-integration.md
+        - name: Költségkategóriák beállítása
+          href: expense/set-up-expense-categories.md
+    - name: Személyes költségek
+      href: expense/personal-expenses-expense-report.md
     - name: Vállalatközi költségek
       href: prod-exp/intercompany-expense.md
-    - name: Költségszabályzatok meghatározása
-      href: prod-exp/travel-expense-policies.md
-    - name: Költségjelentés megtekintése
-      href: prod-exp/view-expense-report.md
-    - name: Költségjelentés közzététele
-      href: prod-exp/post-expense.md
-    - name: Költségjelentések és több jóváhagyó
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Áfa-visszaigénylés a Költségkezelésben
-      href: prod-exp/VAT-expense-report.md
-    - name: Napidíjjal kapcsolatos szabályok
-      href: prod-exp/per-diem.md
-    - name: Utazási kérelmek
-      href: prod-exp/travel-req.md
-    - name: Személyes kiadások egy költségjelentésen
-      href: prod-exp/personal-expenses.md
+    - name: Költségjelentések létrehozása
+      items:
+        - name: Felosztások egy költségjelentésen
+          href: expense/distributions-expense-report.md
+    - name: Költségjelentések jóváhagyása
+      items:
+        - name: Költségjelentések és több jóváhagyó
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Költségjelentések közzététele
+      href: expense/posting-expense-reports.md
+    - name: Utazási kérelem
+      href: expense/travel-requisition.md
+    - name: Készpénzelőleg
+      href: expense/cash-advance.md
+    - name: Napidíjak
+      href: expense/per-diems.md
+    - name: Költségekkel kapcsolatos mobilalkalmazás
+      href: expense/expense-using-mobile.md
+    - name: Pénzügyi kezelés
+      items:
+        - name: ÁFA-visszaigénylés
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,13 +952,19 @@
       items:
         - name: A Project Service 3.x frissítési kiadásának ütemezése
           href: psa/version-history-ps.md
+        - name: A 29-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-29.md
+        - name: A 28.6-os frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-28-6.md
         - name: A 28.5-ös frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-28-5.md
-        - name: A 28-as frissítési kiadás V3 verziójának újdonságai vagy változásai
+        - name: A 28-as frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-28.md
+        - name: A 27.6-os frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-27-6.md
         - name: A 27.5-ös frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-27-5.md
-        - name: A 27-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+        - name: A 27-es frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-27.md
         - name: A 26-os frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-26.md
