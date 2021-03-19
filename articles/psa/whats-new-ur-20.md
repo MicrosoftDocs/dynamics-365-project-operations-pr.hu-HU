@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147116"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280671"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 20-as frissítési kiadás, V3
 
@@ -42,7 +42,7 @@ A következő problémák kerültek kijavításra:
 
 - Ha a projektcsapat tagjait olyan felosztási módszerrel importálja, amelyhez órák szükségek, nem egyérlemű hibaüzenetet eredményezhet, ha a megadott órák értéke nulla.
 - A felhasználók helytelen hibaüzenetet kapnak, amikor a karakterek maximális számát megadták egy projektfeladat **Leírás** mezőjébe.
-- A **Microsoft Dynamics 365 Project Service Automation bővítmény letöltése** oldal átirányít az angol letöltési oldalra, ha a felhasználó nyelvi beállításainak értéke japán.
+- A **Microsoft Dynamics 365 Project Service Automation bővítmény letöltése** oldalt a rendszer átirányítja az angol letöltési oldalra, ha a felhasználó nyelvi beállításai japánra vannak állítva.
 - Kiszolgálóhiba esetén a **Projektek űrlap** **Ütemezés** lapján a szinkronizálási címke időnként megmarad.
 - Egy feladat módosításakor a rendszer elküldi a redundáns feladatok frissítéseit a kiszolgálónak.
 
