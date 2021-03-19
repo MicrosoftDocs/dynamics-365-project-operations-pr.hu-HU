@@ -17,67 +17,70 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c789a65f1996d082410b3d8dd9e76e5065e708a2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146711"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280491"
 ---
-# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="30159-103">Project Service Automation 24-es frissítési kiadás, V3</span><span class="sxs-lookup"><span data-stu-id="30159-103">Project Service Automation Update Release 24, V3</span></span>
+# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="70469-103">Project Service Automation 24-es frissítési kiadás, V3</span><span class="sxs-lookup"><span data-stu-id="70469-103">Project Service Automation Update Release 24, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="30159-104">Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz.</span><span class="sxs-lookup"><span data-stu-id="30159-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="30159-105">Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz.</span><span class="sxs-lookup"><span data-stu-id="30159-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="30159-106">Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis.</span><span class="sxs-lookup"><span data-stu-id="30159-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="30159-107">A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra.</span><span class="sxs-lookup"><span data-stu-id="30159-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="30159-108">További információ: [Megoldás telepítése, frissítése vagy eltávolítása](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="30159-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="70469-104">Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz.</span><span class="sxs-lookup"><span data-stu-id="70469-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="70469-105">Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz.</span><span class="sxs-lookup"><span data-stu-id="70469-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="70469-106">Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis.</span><span class="sxs-lookup"><span data-stu-id="70469-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="70469-107">A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra.</span><span class="sxs-lookup"><span data-stu-id="70469-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="70469-108">További információ: [Megoldás telepítése, frissítése vagy eltávolítása](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="70469-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="30159-109">Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 24-es frissítési kiadásában.</span><span class="sxs-lookup"><span data-stu-id="30159-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="30159-110">Ennek a verziónak a buildszáma V3.10.42.43, és általánosan elérhető egy önálló frissítésben 2020 októberében.</span><span class="sxs-lookup"><span data-stu-id="30159-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
+<span data-ttu-id="70469-109">Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 24-es frissítési kiadásában.</span><span class="sxs-lookup"><span data-stu-id="70469-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="70469-110">Ennek a verziónak a buildszáma V3.10.42.43, és általánosan elérhető egy önálló frissítésben 2020 októberében.</span><span class="sxs-lookup"><span data-stu-id="70469-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
 
-## <a name="update-release-24"></a><span data-ttu-id="30159-111">24-ös frissítési kiadás</span><span class="sxs-lookup"><span data-stu-id="30159-111">Update Release 24</span></span>
+## <a name="update-release-24"></a><span data-ttu-id="70469-111">24-ös frissítési kiadás</span><span class="sxs-lookup"><span data-stu-id="70469-111">Update Release 24</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="30159-112">Hibajavítások</span><span class="sxs-lookup"><span data-stu-id="30159-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="70469-112">Hibajavítások</span><span class="sxs-lookup"><span data-stu-id="70469-112">Bug fixes</span></span>
 
-<span data-ttu-id="30159-113">**Sales**</span><span class="sxs-lookup"><span data-stu-id="30159-113">**Sales**</span></span>
+<span data-ttu-id="70469-113">**Sales**</span><span class="sxs-lookup"><span data-stu-id="70469-113">**Sales**</span></span>
 
-<span data-ttu-id="30159-114">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="30159-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="70469-114">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="70469-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="30159-115">Probléma a termékek alapértelmezett árlistájának beállításakor.</span><span class="sxs-lookup"><span data-stu-id="30159-115">Problem while setting default price list of products.</span></span>
-- <span data-ttu-id="30159-116">Az árajánlat elnyerésének teljesítménye lassú a beágyazott árlista és a szerepkörár bejegyzések másolása miatt.</span><span class="sxs-lookup"><span data-stu-id="30159-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
-- <span data-ttu-id="30159-117">A **Projektszerződés/Értékesítési központ** > **Terméksorelem/Rendelési sor mennyisége** automatikusan a legközelebbi egész számra kerekítődik.</span><span class="sxs-lookup"><span data-stu-id="30159-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
-- <span data-ttu-id="30159-118">A rendszerjogosultság bővítése az árlisták olvasásakor.</span><span class="sxs-lookup"><span data-stu-id="30159-118">Elevate to system privileges when reading price lists.</span></span>
-- <span data-ttu-id="30159-119">A(z) **address1_freighttermscode** és a(z) **address1_shippingmethodcode** ügyfélcím mezőinek másolása az Árajánlat/Megrendelés mezőkbe.</span><span class="sxs-lookup"><span data-stu-id="30159-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
-
-
-<span data-ttu-id="30159-120">**Idő és költség**</span><span class="sxs-lookup"><span data-stu-id="30159-120">**Time and Expense**</span></span>
-
-<span data-ttu-id="30159-121">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="30159-121">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="30159-122">Az **Időbeviteli rács** nem támogatja a **Csak dátum** időműködést.</span><span class="sxs-lookup"><span data-stu-id="30159-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
-- <span data-ttu-id="30159-123">Az **Időbejegyzés** nem frissül automatikusan.</span><span class="sxs-lookup"><span data-stu-id="30159-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="30159-124">Manuális frissítés szükséges.</span><span class="sxs-lookup"><span data-stu-id="30159-124">A manual refresh is required.</span></span>
-- <span data-ttu-id="30159-125">Nem lehet importálni az időpontokat egy hozzárendelésből, ha az erőforrás hozzárendeléseiben szünet (0 óra) van.</span><span class="sxs-lookup"><span data-stu-id="30159-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
-- <span data-ttu-id="30159-126">Az időbejegyzés létrehozásakor állítsa a kezdést ugyanarra, mint a következő: **msdyn_date**.</span><span class="sxs-lookup"><span data-stu-id="30159-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
-- <span data-ttu-id="30159-127">Ismételten engedélyezheti az időbejegyzés csoportos szerkesztését.</span><span class="sxs-lookup"><span data-stu-id="30159-127">Re-enable bulk edit for time entry.</span></span>
-
-<span data-ttu-id="30159-128">**Erőforráskezelés**</span><span class="sxs-lookup"><span data-stu-id="30159-128">**Resource Management**</span></span>
-
-<span data-ttu-id="30159-129">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="30159-129">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="30159-130">A napközbeni foglalás állapotának frissítése követelmény nélkül egy null értékű referenciakivételt hoz létre.</span><span class="sxs-lookup"><span data-stu-id="30159-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
-- <span data-ttu-id="30159-131">Hiba történt az **Egyeztetés nézet** betöltésekor.</span><span class="sxs-lookup"><span data-stu-id="30159-131">Error loading the **Reconciliation View**.</span></span>
+- <span data-ttu-id="70469-115">Probléma a termékek alapértelmezett árlistájának beállításakor.</span><span class="sxs-lookup"><span data-stu-id="70469-115">Problem while setting default price list of products.</span></span>
+- <span data-ttu-id="70469-116">Az árajánlat elnyerésének teljesítménye lassú a beágyazott árlista és a szerepkörár bejegyzések másolása miatt.</span><span class="sxs-lookup"><span data-stu-id="70469-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
+- <span data-ttu-id="70469-117">A **Projektszerződés/Értékesítési központ** > **Terméksorelem/Rendelési sor mennyisége** automatikusan a legközelebbi egész számra kerekítődik.</span><span class="sxs-lookup"><span data-stu-id="70469-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
+- <span data-ttu-id="70469-118">A rendszerjogosultság bővítése az árlisták olvasásakor.</span><span class="sxs-lookup"><span data-stu-id="70469-118">Elevate to system privileges when reading price lists.</span></span>
+- <span data-ttu-id="70469-119">A(z) **address1_freighttermscode** és a(z) **address1_shippingmethodcode** ügyfélcím mezőinek másolása az Árajánlat/Megrendelés mezőkbe.</span><span class="sxs-lookup"><span data-stu-id="70469-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
 
 
-<span data-ttu-id="30159-132">**Projektmenedzsment**</span><span class="sxs-lookup"><span data-stu-id="30159-132">**Project Management**</span></span>
+<span data-ttu-id="70469-120">**Idő és költség**</span><span class="sxs-lookup"><span data-stu-id="70469-120">**Time and Expense**</span></span>
 
-<span data-ttu-id="30159-133">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="30159-133">The following issues have been fixed:</span></span>
+<span data-ttu-id="70469-121">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="70469-121">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="30159-134">A **Projekt ütemezése** menüben **Manuális** értékről **Automatikus** értékre történő váltáskor az automatikus mentés nem fejeződik be.</span><span class="sxs-lookup"><span data-stu-id="30159-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
-- <span data-ttu-id="30159-135">A költségeket nem szabad beleszámolni a **Projekt nyomonkövetési rács** pontban szereplő szórásokba.</span><span class="sxs-lookup"><span data-stu-id="30159-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
-- <span data-ttu-id="30159-136">Következetlen viselkedés a **Becslések címke** oszlopok betöltésekor, szemben az **Időfázis** típusának módosításával.</span><span class="sxs-lookup"><span data-stu-id="30159-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
-- <span data-ttu-id="30159-137">Előfordulhat, hogy a projekt tényleges költsége nem tükrözi **Tényadatok** pontban szereplő összegeket.</span><span class="sxs-lookup"><span data-stu-id="30159-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
-- <span data-ttu-id="30159-138">Az **Összegzés** lapon szereplő **Becsült befejezési dátum** nem egyezik meg a **WBS-ütemezéssel**.</span><span class="sxs-lookup"><span data-stu-id="30159-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
-- <span data-ttu-id="30159-139">A **Tényleges órák frissítése** a kihúzáson nem működik megfelelően.</span><span class="sxs-lookup"><span data-stu-id="30159-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
-- <span data-ttu-id="30159-140">A gyökér **üzleti egységen** kívüli projektmenedzserek nem tudnak projekteket létrehozni.</span><span class="sxs-lookup"><span data-stu-id="30159-140">A Project manager outside of root **BU** can't create a project.</span></span>
-- <span data-ttu-id="30159-141">A feladat vagy a kategória változtatásai nem maradnak meg a **Költségbecslések** pontban.</span><span class="sxs-lookup"><span data-stu-id="30159-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
-- <span data-ttu-id="30159-142">A **Szerződés másolata** átmásolja a számlák ütemezéseit, valamint a futtatási állapotot.</span><span class="sxs-lookup"><span data-stu-id="30159-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
-- <span data-ttu-id="30159-143">A **Tényadatok frissítése** gomb hibásan számítja ki az összefoglaló feladatokat.</span><span class="sxs-lookup"><span data-stu-id="30159-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
-- <span data-ttu-id="30159-144">Microsoft Project-bővítmény: javítja a null referenciahibát, ha bármelyik csapattaghoz egy üres erőforrásbiztosító egység tartozik.</span><span class="sxs-lookup"><span data-stu-id="30159-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
+- <span data-ttu-id="70469-122">Az **Időbeviteli rács** nem támogatja a **Csak dátum** időműködést.</span><span class="sxs-lookup"><span data-stu-id="70469-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
+- <span data-ttu-id="70469-123">Az **Időbejegyzés** nem frissül automatikusan.</span><span class="sxs-lookup"><span data-stu-id="70469-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="70469-124">Manuális frissítés szükséges.</span><span class="sxs-lookup"><span data-stu-id="70469-124">A manual refresh is required.</span></span>
+- <span data-ttu-id="70469-125">Nem lehet importálni az időpontokat egy hozzárendelésből, ha az erőforrás hozzárendeléseiben szünet (0 óra) van.</span><span class="sxs-lookup"><span data-stu-id="70469-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
+- <span data-ttu-id="70469-126">Az időbejegyzés létrehozásakor állítsa a kezdést ugyanarra, mint a következő: **msdyn_date**.</span><span class="sxs-lookup"><span data-stu-id="70469-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
+- <span data-ttu-id="70469-127">Ismételten engedélyezheti az időbejegyzés csoportos szerkesztését.</span><span class="sxs-lookup"><span data-stu-id="70469-127">Re-enable bulk edit for time entry.</span></span>
 
+<span data-ttu-id="70469-128">**Erőforráskezelés**</span><span class="sxs-lookup"><span data-stu-id="70469-128">**Resource Management**</span></span>
+
+<span data-ttu-id="70469-129">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="70469-129">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="70469-130">A napközbeni foglalás állapotának frissítése követelmény nélkül egy null értékű referenciakivételt hoz létre.</span><span class="sxs-lookup"><span data-stu-id="70469-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
+- <span data-ttu-id="70469-131">Hiba történt az **Egyeztetés nézet** betöltésekor.</span><span class="sxs-lookup"><span data-stu-id="70469-131">Error loading the **Reconciliation View**.</span></span>
+
+
+<span data-ttu-id="70469-132">**Projektmenedzsment**</span><span class="sxs-lookup"><span data-stu-id="70469-132">**Project Management**</span></span>
+
+<span data-ttu-id="70469-133">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="70469-133">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="70469-134">A **Projekt ütemezése** menüben **Manuális** értékről **Automatikus** értékre történő váltáskor az automatikus mentés nem fejeződik be.</span><span class="sxs-lookup"><span data-stu-id="70469-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
+- <span data-ttu-id="70469-135">A költségeket nem szabad beleszámolni a **Projekt nyomonkövetési rács** pontban szereplő szórásokba.</span><span class="sxs-lookup"><span data-stu-id="70469-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
+- <span data-ttu-id="70469-136">Következetlen viselkedés a **Becslések címke** oszlopok betöltésekor, szemben az **Időfázis** típusának módosításával.</span><span class="sxs-lookup"><span data-stu-id="70469-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
+- <span data-ttu-id="70469-137">Előfordulhat, hogy a projekt tényleges költsége nem tükrözi **Tényadatok** pontban szereplő összegeket.</span><span class="sxs-lookup"><span data-stu-id="70469-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
+- <span data-ttu-id="70469-138">Az **Összegzés** lapon szereplő **Becsült befejezési dátum** nem egyezik meg a **WBS-ütemezéssel**.</span><span class="sxs-lookup"><span data-stu-id="70469-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
+- <span data-ttu-id="70469-139">A **Tényleges órák frissítése** a kihúzáson nem működik megfelelően.</span><span class="sxs-lookup"><span data-stu-id="70469-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
+- <span data-ttu-id="70469-140">A gyökér **üzleti egységen** kívüli projektmenedzserek nem tudnak projekteket létrehozni.</span><span class="sxs-lookup"><span data-stu-id="70469-140">A Project manager outside of root **BU** can't create a project.</span></span>
+- <span data-ttu-id="70469-141">A feladat vagy a kategória változtatásai nem maradnak meg a **Költségbecslések** pontban.</span><span class="sxs-lookup"><span data-stu-id="70469-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
+- <span data-ttu-id="70469-142">A **Szerződés másolata** átmásolja a számlák ütemezéseit, valamint a futtatási állapotot.</span><span class="sxs-lookup"><span data-stu-id="70469-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
+- <span data-ttu-id="70469-143">A **Tényadatok frissítése** gomb hibásan számítja ki az összefoglaló feladatokat.</span><span class="sxs-lookup"><span data-stu-id="70469-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
+- <span data-ttu-id="70469-144">Microsoft Project-bővítmény: javítja a null referenciahibát, ha bármelyik csapattaghoz egy üres erőforrásbiztosító egység tartozik.</span><span class="sxs-lookup"><span data-stu-id="70469-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

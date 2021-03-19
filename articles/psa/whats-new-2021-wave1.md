@@ -17,29 +17,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3895f06c6a401f200cf832940ef85eaa8d66fbb2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281166"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="9f177-103">Újdonságok és változások a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában</span><span class="sxs-lookup"><span data-stu-id="9f177-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="a2bb5-103">Újdonságok és változások a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában</span><span class="sxs-lookup"><span data-stu-id="a2bb5-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="9f177-104">Project Service Automation korai hozzáférés 2021. évi 1. hulláma, V3 változata</span><span class="sxs-lookup"><span data-stu-id="9f177-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
+## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="a2bb5-104">Project Service Automation korai hozzáférés 2021. évi 1. hulláma, V3 változata</span><span class="sxs-lookup"><span data-stu-id="a2bb5-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
-<span data-ttu-id="9f177-105">Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz.</span><span class="sxs-lookup"><span data-stu-id="9f177-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9f177-106">Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz.</span><span class="sxs-lookup"><span data-stu-id="9f177-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9f177-107">Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis.</span><span class="sxs-lookup"><span data-stu-id="9f177-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9f177-108">A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra.</span><span class="sxs-lookup"><span data-stu-id="9f177-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9f177-109">További információ: [Megoldás telepítése, frissítése vagy eltávolítása](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="9f177-109">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="a2bb5-105">Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="a2bb5-106">Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="a2bb5-107">Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="a2bb5-108">A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="a2bb5-109">További információ: [Megoldás telepítése, frissítése vagy eltávolítása](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="a2bb5-109">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9f177-110">Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában.</span><span class="sxs-lookup"><span data-stu-id="9f177-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="9f177-111">Ennek a verziónak a build száma V3.10.49.3, és általánosan elérhető egy önálló frissítésben 2021 februárjában.</span><span class="sxs-lookup"><span data-stu-id="9f177-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="a2bb5-110">Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="a2bb5-111">Ennek a verziónak a build száma V3.10.49.3, és általánosan elérhető egy önálló frissítésben 2021 februárjában.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="9f177-112">Hibajavítások</span><span class="sxs-lookup"><span data-stu-id="9f177-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="a2bb5-112">Hibajavítások</span><span class="sxs-lookup"><span data-stu-id="a2bb5-112">Bug fixes</span></span>
 
-<span data-ttu-id="9f177-113">**Idő és költség**</span><span class="sxs-lookup"><span data-stu-id="9f177-113">**Time and Expense**</span></span>
+<span data-ttu-id="a2bb5-113">**Idő és költség**</span><span class="sxs-lookup"><span data-stu-id="a2bb5-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="9f177-114">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="9f177-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="a2bb5-114">A következő problémák kerültek kijavításra:</span><span class="sxs-lookup"><span data-stu-id="a2bb5-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9f177-115">A záró dátumok automatikusan ki lesznek töltve, amikor időbejegyzés létrejön, ha az időtartam null.</span><span class="sxs-lookup"><span data-stu-id="9f177-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
-- <span data-ttu-id="9f177-116">A felhasználók egy jóváhagyott vagy elküldött időbejegyzésen módosíthatják a feladatot.</span><span class="sxs-lookup"><span data-stu-id="9f177-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+- <span data-ttu-id="a2bb5-115">A záró dátumok automatikusan ki lesznek töltve, amikor időbejegyzés létrejön, ha az időtartam null.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
+- <span data-ttu-id="a2bb5-116">A felhasználók egy jóváhagyott vagy elküldött időbejegyzésen módosíthatják a feladatot.</span><span class="sxs-lookup"><span data-stu-id="a2bb5-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
