@@ -18,37 +18,40 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e170adcc87ac69e31a00c85aefa718cc316dbd5a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149141"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284406"
 ---
-# <a name="basic-guide-to-quoting-pricing-and-billing"></a><span data-ttu-id="37f51-103">Alapszintű árajánlat-készítési, árképzési és számlázási útmutató</span><span class="sxs-lookup"><span data-stu-id="37f51-103">Basic guide to quoting, pricing and billing</span></span>
+# <a name="basic-guide-to-quoting-pricing-and-billing"></a><span data-ttu-id="7de3c-103">Alapszintű árajánlat-készítési, árképzési és számlázási útmutató</span><span class="sxs-lookup"><span data-stu-id="7de3c-103">Basic guide to quoting, pricing and billing</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="37f51-104">A megfelelő erőforrások megfelelő időben történő megkeresése, a projektek erőforrásainak lefoglalása és a felhasznált erőforrások megtartása segíti a szervezeteket a bevételi célok és az ügyfél-elégedettségi célok teljesítésében.</span><span class="sxs-lookup"><span data-stu-id="37f51-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
+<span data-ttu-id="7de3c-104">A megfelelő erőforrások megfelelő időben történő megkeresése, a projektek erőforrásainak lefoglalása és a felhasznált erőforrások megtartása segíti a szervezeteket a bevételi célok és az ügyfél-elégedettségi célok teljesítésében.</span><span class="sxs-lookup"><span data-stu-id="7de3c-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
 
-<span data-ttu-id="37f51-105">A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi témakörökbe:</span><span class="sxs-lookup"><span data-stu-id="37f51-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="7de3c-105">A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi témakörökbe:</span><span class="sxs-lookup"><span data-stu-id="7de3c-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="37f51-106">Árajánlat-készítés, árképzés és számlázás</span><span class="sxs-lookup"><span data-stu-id="37f51-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
-- [<span data-ttu-id="37f51-107">Értékesítési folyamatok</span><span class="sxs-lookup"><span data-stu-id="37f51-107">Sales processes</span></span>](../basic-sales-process.md)
-- [<span data-ttu-id="37f51-108">Árajánlatok és árajánlatsorok</span><span class="sxs-lookup"><span data-stu-id="37f51-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
-- [<span data-ttu-id="37f51-109">Termékalapú árajánlatsorok</span><span class="sxs-lookup"><span data-stu-id="37f51-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
-- [<span data-ttu-id="37f51-110">Árképzés</span><span class="sxs-lookup"><span data-stu-id="37f51-110">Pricing</span></span>](../basic-pricing.md)
-- [<span data-ttu-id="37f51-111">Termékkatalógus árképzése</span><span class="sxs-lookup"><span data-stu-id="37f51-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
-- [<span data-ttu-id="37f51-112">Üzleti tranzakciók</span><span class="sxs-lookup"><span data-stu-id="37f51-112">Business transactions</span></span>](../basic-business-transactions.md)
-- [<span data-ttu-id="37f51-113">Becslések</span><span class="sxs-lookup"><span data-stu-id="37f51-113">Estimates</span></span>](../estimates.md)
-- [<span data-ttu-id="37f51-114">Tények</span><span class="sxs-lookup"><span data-stu-id="37f51-114">Actuals</span></span>](../actuals.md)
-- [<span data-ttu-id="37f51-115">A projektajánlat elemzése</span><span class="sxs-lookup"><span data-stu-id="37f51-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
-- [<span data-ttu-id="37f51-116">Szervezeti egységek</span><span class="sxs-lookup"><span data-stu-id="37f51-116">Organizational units</span></span>](../advanced-organizational.md)
-- [<span data-ttu-id="37f51-117">Egységcsoportok és egységek</span><span class="sxs-lookup"><span data-stu-id="37f51-117">Unit groups and units</span></span>](../advanced-units.md)
-- [<span data-ttu-id="37f51-118">Több pénznemű forgatókönyvek</span><span class="sxs-lookup"><span data-stu-id="37f51-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
-- [<span data-ttu-id="37f51-119">Tényadatok rögzítése</span><span class="sxs-lookup"><span data-stu-id="37f51-119">Recording actuals</span></span>](../advanced-actuals.md)
+- [<span data-ttu-id="7de3c-106">Árajánlat-készítés, árképzés és számlázás</span><span class="sxs-lookup"><span data-stu-id="7de3c-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
+- [<span data-ttu-id="7de3c-107">Értékesítési folyamatok</span><span class="sxs-lookup"><span data-stu-id="7de3c-107">Sales processes</span></span>](../basic-sales-process.md)
+- [<span data-ttu-id="7de3c-108">Árajánlatok és árajánlatsorok</span><span class="sxs-lookup"><span data-stu-id="7de3c-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
+- [<span data-ttu-id="7de3c-109">Termékalapú árajánlatsorok</span><span class="sxs-lookup"><span data-stu-id="7de3c-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
+- [<span data-ttu-id="7de3c-110">Árképzés</span><span class="sxs-lookup"><span data-stu-id="7de3c-110">Pricing</span></span>](../basic-pricing.md)
+- [<span data-ttu-id="7de3c-111">Termékkatalógus árképzése</span><span class="sxs-lookup"><span data-stu-id="7de3c-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
+- [<span data-ttu-id="7de3c-112">Üzleti tranzakciók</span><span class="sxs-lookup"><span data-stu-id="7de3c-112">Business transactions</span></span>](../basic-business-transactions.md)
+- [<span data-ttu-id="7de3c-113">Becslések</span><span class="sxs-lookup"><span data-stu-id="7de3c-113">Estimates</span></span>](../estimates.md)
+- [<span data-ttu-id="7de3c-114">Tények</span><span class="sxs-lookup"><span data-stu-id="7de3c-114">Actuals</span></span>](../actuals.md)
+- [<span data-ttu-id="7de3c-115">A projektajánlat elemzése</span><span class="sxs-lookup"><span data-stu-id="7de3c-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
+- [<span data-ttu-id="7de3c-116">Szervezeti egységek</span><span class="sxs-lookup"><span data-stu-id="7de3c-116">Organizational units</span></span>](../advanced-organizational.md)
+- [<span data-ttu-id="7de3c-117">Egységcsoportok és egységek</span><span class="sxs-lookup"><span data-stu-id="7de3c-117">Unit groups and units</span></span>](../advanced-units.md)
+- [<span data-ttu-id="7de3c-118">Több pénznemű forgatókönyvek</span><span class="sxs-lookup"><span data-stu-id="7de3c-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
+- [<span data-ttu-id="7de3c-119">Tényadatok rögzítése</span><span class="sxs-lookup"><span data-stu-id="7de3c-119">Recording actuals</span></span>](../advanced-actuals.md)
 
 > [!NOTE]
-> <span data-ttu-id="37f51-120">Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra.</span><span class="sxs-lookup"><span data-stu-id="37f51-120">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="7de3c-120">Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra.</span><span class="sxs-lookup"><span data-stu-id="7de3c-120">This topic will be removed in a future documentation update.</span></span> 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
