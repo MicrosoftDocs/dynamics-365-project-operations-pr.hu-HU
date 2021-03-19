@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290047"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Regisztráció az előzetes verziós előfizetésre – Lite 
 
-Ez a témakör a Dynamics 365 Project Operations Lite telepítés – ajánlattól proforma számlázásig alkalmazásra előzetes verziós partnerajánlatára való regisztrálással és annak telepítésével kapcsolatos információkat tartalmaz.
+Ez témakör ismerteti, hogyan lehet előfizetni az előzetes verziós partneri ajánlatra és a Dynamics 365 Project Operations Egyszerű központi telepítés – ajánlattól proforma számlázásig termékre.
 
 > [!NOTE]
 > Ez a folyamat a Project Operations következő kiadásaiban változni fog.
@@ -32,17 +32,17 @@ Ez a témakör a Dynamics 365 Project Operations Lite telepítés – ajánlatt�
 
 Amikor megkapja az [előzetes verzióra vonatkozó kérelem](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) jóváhagyását, e-mailben két ajánlatot kap a Microsofttól. Ez lehetővé teszi, hogy telepítse a Project Operations előzetes verzióját:
 
-- Dynamics 365 Project Operations (CRM) – Előzetes próbaverzió
+- Dynamics 365 Project Operations (CRM) – előzetes próbaverzió
 - Office 365 Project Operations – Előzetes próbaverzió
 
 > [!IMPORTANT]
 > A szervezetnél csak egy személynek, a bérlői rendszergazdának kell elvégeznie ezt a feladatot. Ha nem Ön ennek a kiadásnak az előfizetője, várjon, amíg a szervezete regisztrálva lesz, és megkapta a felhasználói hitelesítő adatokat.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Előzetes próbaverzió 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – előzetes próbaverzió 
 
 Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelentkezzen be a böngészőbe abban a bérlőben, ahol a Project Operations előzetes verzióját szeretné használni.
 
-1. Váltsa be az első **Dynamics 365 Project Operations (CRM) – előzetes próbaverzió** ajánlatkódját a böngésző URL-mezőjébe történő beillesztéssel.
+1. Váltsa be az első ajánlat kódot, **Dynamics 365 Project Operations (CRM) – előzetes próbaverzió** a böngésző URL-címébe történő beillesztéssel.
 
 ![Ajánlat beváltása](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Ismételje meg ugyanazokat a lépéseket, mint az első ajánlatkóddal. Ügyelj
 
 ![Licencek hozzárendelése](./media/15AssignLicenses.png)
 
-3. Ellenőrizze, hogy a **Dynamics 365 Project Operations (CRM) előzetes verzió** és az **Office 365 Project Operations - előzetes verzió** licencei ki legyenek választva majd válassza a módosítások mentése lehetőséget. 
+3. Ellenőrizze, hogy ki vannak-e jelölve a **Dynamics 365 Project Operations (CRM) előzetes verzió** és az **Office 365 Project Operations – előzetes verzió** licencek. 
 4. Válassza a **Módosítások mentése** lehetőséget.
 
 ## <a name="create-a-new-cds-environment"></a>Új CDS-környezet létrehozása

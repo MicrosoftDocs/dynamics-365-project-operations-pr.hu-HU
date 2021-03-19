@@ -1,6 +1,6 @@
 ---
 title: Tényadatok
-description: Ez a témakör a tényadatok Microsoft Dynamics 365 Project Operationsben való használatáról nyújt tájékoztatást.
+description: A témakör a Microsoft Dynamics 365 Project Operations tényadatokkal való munkára vonatkozó információit mutatja be.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291802"
 ---
-# <a name="actuals"></a>Tényadatok 
+# <a name="actuals"></a>Tények 
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
@@ -70,7 +70,7 @@ Nem áll rendelkezésre az egységenkénti alapértelmezett ár kategóriaalapú
 A bejegyzésnaplók segítségével rögzítheti a költséget vagy bevételt az anyag-, díj-, idő-, költség- vagy adózási tranzakciók osztályaiban. A naplók a következő célokra használhatók:
 
 - A tényleges anyagok és értékesítés költségének rögzítésére a projektben.
-- Amikor tranzakciós tényeket kell egy másik rendszerből a Microsoft Dynamics 365 Project Operationsbe áthelyezni.
+- Tranzakciós tényeket helyezhet egy másik rendszerből a Microsoft Dynamics 365 Project Operations rendszerbe.
 - Egy másik rendszerben felmerült költségek rögzítésére. Ezek a költségek beszerzési vagy alvállalkozói költségeket is tartalmazhatnak.
 
 > [!IMPORTANT]
