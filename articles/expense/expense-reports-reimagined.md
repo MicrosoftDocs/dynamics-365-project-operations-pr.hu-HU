@@ -1,9 +1,9 @@
 ---
 title: Költségjelentések újragondolva
-description: Ez a témakör a költségjelentés-bejegyzés újratervezett és újragondolt felhasználói élményére vonatkozó információkat tartalmaz.
+description: Ez témakör a költségjelentések bejegyzésének átalakított és újragondolt élményét ismerteti.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122797"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499719"
 ---
 # <a name="expense-reports-reimagined"></a>Költségjelentések újragondolva
 
@@ -59,25 +59,22 @@ A [Dynamics 365 for Finance and Operations költségélmény](https://youtu.be/O
 | Az üzenetek mennyiségének csökkentése az üzenetsávban| Az információs napló üzeneteinek száma csökkent, és erőfeszítéseket tettünk annak megakadályozására, hogy sok esetben duplikált üzenetek jelenjenek meg. |
 | Gyakori műveletek csoportosítása | A felület megtisztult az új műveletek gomb hozzáadásával a legtöbb gyakori sorszintű művelethez, valamint egy három pontot tartalmazó gomb (...) hozzáadásával a fejléc és más ritkább műveletek esetében. |
 | Új munkaterület a láthatóság növelése érdekében | Az új munkaterület egyesíti azokat a funkciókat és hivatkozásokat, amelyek segítségével a felhasználók különböző területekre léphetnek. |
-| A meglévő kiadások és bizonylatok hozzáadása a kiadások létrehozása során | A költségjelentés létrehozásakor az összes vagy a kijelölt kiadásokat és bizonylatokat is hozzáadhatja. |
+| A meglévő kiadások és bizonylatok hozzáadása a kiadások létrehozása során | A költségjelentések létrehozásakor felveheti az összes kiadást, illetve kijelölheti a nem kapcsolódó költségeket. A nem kapcsolódó költségek a vállalati hitelkártya hírcsatornából importált, illetve a felhasználó által manuálisan létrehozott, de költségjelentéshez nem csatolt kiadások.|
 | Árfolyamkalkulátor | Árfolyamkalkulátor került hozzáadásra, amely lehetővé teszi, hogy kiszámítsa a több pénznemű, saját pénzből fedezett tranzakciók árfolyamát. |
 | Új kiadási sorok mentése és hozzáadása | A **Mentés** és az **Új** gombok új kiadások beírása esetén elérhetők, hogy gyorsabban megadhassa a kiadási sorokat. |
 | Jobb láthatóság a felosztott és a tételezett sorokban | A tételezett és a felosztott sorok hozzá lettek adva közvetlenül a kiadások listájához, és segítségükkel könnyebben megállapíthatja, hogy vannak-e hibák. |
 | Bizonylatok megjelenítése a tételezés során | A bizonylatok megjeleníthetők a tételezés. |
+| Készpénzelőleg kiválasztása | Jelöljön ki egy vagy több készpénzelőleget egyetlen költségtranzakció teljesítéséhez. |
+| Készpénzelőleg egyenlege | Amikor költségbejegyzést hoz létre a jóváhagyott és a kifizetett készpénzelőlegek alapján, valós időben áttekinti a készpénzelőlegek egyenlegét. |
 
 A kezdeti kiadás a költségbejegyzési forgatókönyvekre fókuszál. A költségjelentés áttekintési vagy jóváhagyási forgatókönyve továbbra is a meglévő kiadásbejegyzési oldalt használja.
 
-A következő funkciók megtalálhatók a meglévő oldalon, de még nincsenek jelen az új oldalon. A következő kiadások során újra bevezetésre kerülnek ezek a funkciók:
+Az újragondolt költség-munkaterületen a következő funkciók nem támogatottak:
 
-- Jóváhagyások
-- A kötelezettségek jóváhagyása és a könyvelés módosításának képessége
-- Több beviteli pont
 - Utazási kérelem integrációja
-- Adatentitás a kiadás mező láthatóságához
-- A napidíjhoz kapcsolódó kiadások bejegyzése
-- Sorszintű munkafolyamat
+- Napidíj költségbejegyzések
 - Ideiglenes jóváhagyói támogatás
-- Speciális tételesítés
+- A munkafolyamat-előzmények megtekintésének lehetősége
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

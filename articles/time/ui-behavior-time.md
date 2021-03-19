@@ -3,17 +3,17 @@ title: Időbevitel felhasználói felületének viselkedése
 description: Ez a témakör az időbevitel felhasználói felületének viselkedéséről nyújt információkat.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124506"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499617"
 ---
 # <a name="time-entry-ui-behavior"></a>Időbevitel felhasználói felületének viselkedése
 
@@ -21,6 +21,19 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 
 A **Heti időbevitel** rács egy egyéni vezérlőelem, amely két fő részből áll: **Dimenziók** és **Időtartam**.
+
+## <a name="keyboard-shortcuts"></a>Billentyűparancsok
+| Művelet        | Parancsikon                  |
+|------------   |------------------------   |
+| Új           | Alt + Shift + n           |
+| Sor másolása      | Alt + Shift + c           |
+| Bejegyzés szerkesztése    | Alt + Shift + e           |
+| Sor szerkesztése      | Alt + Shift + Ctrl + e    |
+| Bejegyzés megnyitása    | Alt + Shift + o           |
+| Küldés        | Alt + Shift + s           |
+| Visszavonás        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Hét másolása     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenziók
 A **Dimenziók** szakasz az összes olyan dimenziót mutatja, amelyre az idő megadható. A következő dimenziók támogatottak gyárilag:

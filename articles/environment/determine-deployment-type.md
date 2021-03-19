@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401221"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479567"
 ---
 # <a name="determine-your-deployment-type"></a>A telepítés típusának meghatározása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 > [!IMPORTANT]
-> Miután megvásárolta a licencet, kezdje itt a Dynamics 365 Project Operations legjobb telepítési modelljének meghatározásával az [Irányított telepítési folyamat](https://aka.ms/provisionprojectoperations) használatával.
+> A licenc vásárlása után kezdje el itt meghatározni a Dynamics 365 Project Operations központi telepítési modelljét az [Irányított telepítési folyamat](https://aka.ms/provisionprojectoperations) használatával.
 > Miután befejezte az Irányított telepítési folyamatot, a rendszer a helyes felügyeleti portálra irányítja a telepítés befejezéséhez. A telepítés befejezéséhez tekintse meg a telepítés részleteit.
 
 
@@ -31,6 +31,9 @@ A Project Operations a Project Service Automation szolgáltatással szállított
 
 A projektmenedzsment és-számlázási funkciót használó meglévő Finance ügyfelek továbbra is használhatják azt. Lásd: [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma).
 
+
+## <a name="deployment-regions"></a>Központi telepítési régiók
+Annak meghatározásához, hogy mely régiók támogatják a Project Operations központi telepítlését, lásd: [Földrajzi elérhetőség a Dynamics 365 és a Power Platform jelentés esetében](https://dynamics.microsoft.com/en-us/geographic-availability/). Válassza a **Jelentés megtekintése** lehetőséget, majd a támogatott régiók megtekintéséhez bontsa ki a **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** alkalmazást.
 
 ## <a name="deployment-types"></a>A központi telepítés típusai
 A Project Operations több telepítési lehetőséget is támogat, hogy megfeleljen az igényeinek. Akár új, akár meglévő Dynamics 365-ügyfél, a Project Operations képes támogatni az igényeit.
