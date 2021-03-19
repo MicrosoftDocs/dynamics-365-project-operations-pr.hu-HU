@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287241"
 ---
 # <a name="integration-journal-in-project-operations"></a>A Project Operations integrációs naplója
 
@@ -28,9 +28,9 @@ Az idő- és Költségbejegyzések **tényleges érték** tranzakciókat hoznak 
 A Project Operations integrációs napló rekordjai az **Importálás az előkészítési táblából** időszakos folyamat segítségével jönnek létre. A folyamat futtatásához nyissa meg a **Dynamics 365 Finance** > **Projektmenedzsment és Könyvelés** > **Időszakos** > **Project Operations-integráció** > **Importálás az előkészítési táblából** menüpontot. A folyamatot interaktív módon futtathatja, illetve beállíthatja, hogy a folyamat szükség szerint a háttérben fusson.
 
 Az időszakos folyamat futtatásakor a rendszer megkeresi a Project Operations integrációs naplóhoz még nem hozzáadott összes tényleges adatot. Minden egyes tényleges tranzakcióhoz létrejön egy naplósor.
-A rendszer a naplósorokat külön naplókba csoportosítja a **Időszakegység a Project Operations integrációs naplóban** mezőben kiválasztott érték alapján (**Finance** > **Projektmenedzsment és könyvelés** > **Beállítás** > **Projektmenedzsment és könyvelési paraméterek**, **Project Operations a Dynamics 365 Customer Engagement szolgáltatásban** lap). A mező lehetséges értékei a következők:
+A rendszer a naplósorokat külön naplókba csoportosítja az **Időszakegység a Project Operations integrációs naplóban** mezőben kiválasztott érték alapján (**Finance** > **Projektmenedzsment és könyvelés** > **Beállítás** > **Projektmenedzsment és könyvelési paraméterek**, **Project Operations a Dynamics 365 Customer Engagement szolgáltatásban** lap). A mező lehetséges értékei a következők:
 
-  - _*Napok**: A tényadatok a tranzakció dátuma szerint vannak csoportosítva. Minden naphoz külön napló jön létre.
+  - **Napok**: A tényadatok a tranzakció dátuma szerint vannak csoportosítva. Minden naphoz külön napló jön létre.
   - **Hónapok**: a tényleges adatok naptári hónap szerint vannak csoportosítva. Minden hónaphoz külön napló jön létre.
   - **Évek**: a tényleges adatok naptári év szerint vannak csoportosítva. Minden évhez külön napló jön létre.
   - **Összes**: az összes tényleges tranzakció ugyanabban az integrációs naplóban szerepel. Ha a napló nem érhető el az időszakos folyamat futtatásakor, például akkor, ha a napló a tranzakciók elszámolási folyamatában van, akkor létrejön egy új napló.

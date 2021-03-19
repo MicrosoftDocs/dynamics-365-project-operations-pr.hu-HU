@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131706"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287061"
 ---
 # <a name="expense-estimates"></a>Költség becslések
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az erőforrásalapú becslések meghatározásával együtt a Dynamics 365 Project Operations lehetővé teszi, hogy a projektmenedzserek az egyes projektek projektalapú kiadásait definiálják. Minden egyes költségtétel hozzárendelhető egy adott projektfeladathoz vagy költségkategóriához. A költségkategóriák általában szervezeti szinten vannak meghatározva. Az egyes kiadások kategóriáinak árazását általában a következő hierarchia határozza meg:
+Az erőforrás-alapú becslésekkel együtt a projektmenedzserek a Dynamics 365 Project Operations alkalmazásnak köszönhetően meghatároznak projektalapú költségeket mindegyik projekthez. Minden egyes költségtétel hozzárendelhető egy adott projektfeladathoz vagy költségkategóriához. A költségkategóriák általában szervezeti szinten vannak meghatározva. Az egyes kiadások kategóriáinak árazását általában a következő hierarchia határozza meg:
 
 - Cég
 - Ügyfél

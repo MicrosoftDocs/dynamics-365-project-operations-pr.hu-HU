@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287511"
 ---
 # <a name="configure-project-categories"></a>Projektkategóriák konfigurálása
 
@@ -37,7 +37,7 @@ A tranzakciós kategóriákat a Project Operations modul definiálja.
 
 ## <a name="shared-categories"></a>Megosztott kategóriák
 
-A Dynamics 365 a megosztott kategóriák koncepciója segítségével kategorizálja a különböző alkalmazások, például a Dynamics 365 Finance, Dynamics 365 Supply Chain és a Dynamics 365 Project Operations kiadásait. Minden létrehozott tranzakciós kategória esetében a Project Operations automatikusan négy kapcsolódó megosztott kategóriát hoz létre: az órákat, a költségeket, a díjakat és a cikkeket. A megosztott kategóriákat áttekintheti és módosíthatja, ha a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Kategóriák** \> **Megosztott kategóriák** menüpontra lép.
+A Dynamics 365 a Megosztott kategóriák fogalom segítségével kategorizálja a kiadásokat különböző alkalmazásokban, mint például a Dynamics 365 Finance, a Dynamics 365 Supply Chain és a Dynamics 365 Project Operations. Minden létrehozott tranzakciós kategória esetében a Project Operations automatikusan négy kapcsolódó megosztott kategóriát hoz létre: az órákat, a költségeket, a díjakat és a cikkeket. A megosztott kategóriákat áttekintheti és módosíthatja, ha a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Kategóriák** \> **Megosztott kategóriák** menüpontra lép.
 
 ## <a name="project-categories"></a>Projektkategóriák
 

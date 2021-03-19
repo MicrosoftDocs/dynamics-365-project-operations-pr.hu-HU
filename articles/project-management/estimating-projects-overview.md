@@ -1,6 +1,6 @@
 ---
 title: Becslésprojektek áttekintése
-description: Ez a témakör a Dynamics 365 Project Operations becsléseiről nyújt információkat.
+description: Ez a témakör információkat nyújt becslésekről a Dynamics 365 Project Operations rendszerben.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286881"
 ---
 # <a name="estimate-projects-overview"></a>Becslésprojektek áttekintése
 
@@ -21,7 +21,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 Projektalapú árajánlatok esetén az **Ajánlat sor részletei** entitással becsülheti meg a projekt végrehajtásához szükséges munkát. Ezután megoszthatja ezt a becslést az ügyféllel.
 
-A projektalapú árajánlati soroknak nem feltétlenül kell árajánlati sorok részleteit tartalmaznia, de sok ilyen részletet is tartalmazhatnak. Az árajánlati részleteit az idő, a költségek vagy a díjak becslésére használják. A Microsoft Dynamics 365 Project Operations az árajánlatsor részleteiben nem engedélyezi az anyagok becslését. Ezeket tranzakciós osztályoknak nevezzük. A becsült adóösszegek tranzakciós osztályba is felvihetők.
+A projektalapú árajánlati soroknak nem feltétlenül kell árajánlati sorok részleteit tartalmaznia, de sok ilyen részletet is tartalmazhatnak. Az árajánlati részleteit az idő, a költségek vagy a díjak becslésére használják. A Microsoft Dynamics 365 Project Operations nem engedélyezi az árajánlati sor részleteiben az anyagok becslését. Ezeket tranzakciós osztályoknak nevezzük. A becsült adóösszegek tranzakciós osztályba is felvihetők.
 
 A tranzakciós osztályokon kívül az ajánlati sorok részletei tranzakciótípust is tartalmaznak. Az árajánlatsorok részleteihez két tranzakciótípus támogatott: a **Költség** és a **Projektszerződés**.
 

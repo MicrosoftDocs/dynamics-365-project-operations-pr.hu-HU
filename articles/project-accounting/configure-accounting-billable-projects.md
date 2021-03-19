@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131976"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287646"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Számlázható projektek könyvelésének konfigurálása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations a számlázható projektek különféle könyvelési lehetőségeit támogatja, amelyek tartalmazzák a idővel és anyaggal kapcsolatos, valamint a rögzített árú tranzakciókat.
+A Dynamics 365 Project Operations különféle könyvelési lehetőségeket támogat a számlázható projektekhez, amelyek időpontokat és anyagokat, valamint rögzített árú tranzakciókat tartalmaznak.
 
 - **Idővel és anyaggal kapcsolatos tranzakciók**: Ezeket a tranzakciókat a rendszer a projektnek az órák, a kiadások, a cikkek vagy a díjak fogyasztásán alapuló előrehaladása szerint számlázza. Ezek a tranzakciós költségek megfeleltethetők az egyes tranzakciók bevételeinek, és a projekt a munkafolyamat előrehaladásával kerül számlázásra. A projekt bevétele felhalmozható akkor is, amikor a tranzakció történik. A számlázás során a bevételt a rendszer felismeri, és adott esetben visszafordítja a bevételt.
 - **Rögzített árú tranzakciók**: Ezeket a tranzakciókat a projektszerződésben meghatározott számlázási ütemezés szerint kell kiszámlázni. A rögzített árú tranzakciók bevétele elismerhető a számlázásnál, vagy időszakonként kiszámítva és könyvelve, a **Teljesített szerződés** vagy a **Teljesített százalék** módszer szerint.
