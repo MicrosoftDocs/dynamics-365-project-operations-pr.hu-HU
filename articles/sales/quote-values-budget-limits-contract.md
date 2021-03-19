@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180240"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277566"
 ---
 # <a name="project-quote-settings"></a>Projektárajánlat beállításai
 
@@ -22,7 +22,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 Ez a cikk ismerteti a projektárajánlatra vonatkozó információkat. Ezek közé tartoznak az összes árajánlatsort érintő beállítások, valamint az árajánlatra vonatkozó olyan információk, amelyeket az összes sortétel összegez a projektárajánlat fő teljesítménymutatóinak előmozdításához.
 
-A következő táblázat a Dynamics 365 Project Operationsre vonatkozóan egyedi, vagy a Dynamics 365 Sales viselkedésében fontos változásokat eredményező összegző információs mezőket sorolja fel.
+A következő táblázat a projektajánlat olyan összegző információs mezőit sorolja fel, amelyek egyediek a Dynamics 365 Project Operations alkalmazásban, vagy a Dynamics 365 Sales ajánlatainál viselkedésük valamilyen fontos változással rendelkezik.
 
 | **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |

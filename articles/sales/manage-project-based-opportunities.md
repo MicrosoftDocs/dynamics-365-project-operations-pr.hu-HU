@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118476"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277836"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektalapú lehetőségek kezelése
 
@@ -21,7 +21,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A projektalapú vállalatok általában a több országra és földrajzi helyekre kiterjedő teljesítéssel működnek. A projekt végrehajtásának és a teljesítésnek a költsége attól függően változhat, hogy mely földrajzi terület vagy divízió kezeli a szállítást. Ez viszont hatással lehet az üzlet árrésére. A projektalapú szolgáltatások teljesítése jellemzően nagy mennyiségű humánerőforrás-időt, jelentős utazási költségeket, az anyagi költségeket és egyéb költségeket foglalja magában.
 
-A Dynamics 365 Project Operations programban a projektalapú lehetőségek a Dynamics 365 Sales programhoz tartozó bővítményekkel rendelkeznek. A témakör részletesen ismerteti a különböző mezőket és az üzleti logikát, amely a további funkciókban szerepel, amely a projektalapú vállalatok számára szükséges a projektalapú lehetőségek kezeléséhez.
+Projektalapú lehetőségek a Dynamics 365 Project Operations rendszerben Dynamics 365 Sales-bővítményekkel vannak kialakítva. A témakör részletesen ismerteti a különböző mezőket és az üzleti logikát, amely a további funkciókban szerepel, amely a projektalapú vállalatok számára szükséges a projektalapú lehetőségek kezeléséhez.
 
 ## <a name="view-all-project-based-opportunities"></a>Összes projektalapú lehetőség megtekintése
 

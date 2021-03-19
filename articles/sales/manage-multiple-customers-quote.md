@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277881"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Több ügyfél kezelése egy projektárajánlaton
 
@@ -23,7 +23,7 @@ A projektárajánlatok támogatják azt az esetet, amikor a javaslat több ügyf
 
 Az összes árajánlati ügyfél a projektárajánlat **Ügyfelek** lapján az árajánlatsori ügyfél alapértelmezett értékkel rendelkezik az árajánlathoz létrehozott minden **új** projektalapú árajánlatsor esetében. A meglévő projektalapú árajánlatsorok nem fogják örökölni az utánuk létrehozott új árajánlati ügyfélrekordokat.
 
-Az árajánlatban szereplő ügyfelek és ajánlatsor ügyfelei az árajánlat megnyerése előtt bármikor hozzáadhatók, frissíthetők és törölhetők. Az árajánlaton szereplő érvényes ügyfelet üygfélként kell beállítani a Tulajdonos vállalat vagy Jogi entitás részben az **Ügyfelek** oldalon. A jogi entitások a Dynamics 365 Project Operations **Projektmenedzsment és könyvelés** moduljában vannak beállítva, és a Project Operations **Projektértékesítések és szállítások** moduljában Vállalatokként érhetők el.
+Az árajánlatban szereplő ügyfelek és ajánlatsor ügyfelei az árajánlat megnyerése előtt bármikor hozzáadhatók, frissíthetők és törölhetők. Az árajánlaton szereplő érvényes ügyfelet üygfélként kell beállítani a Tulajdonos vállalat vagy Jogi entitás részben az **Ügyfelek** oldalon. A jogi személyek a Dynamics 365 Project Operations **Projektmenedzsment és könyvelés** moduljában állíthatók be és Vállalatként érhetők el a Project Operations **Projektértékesítés és szállítás** moduljaiban.
 
 ## <a name="concept-of-a-primary-customer"></a>Az elsődleges ügyfél fogalma
 

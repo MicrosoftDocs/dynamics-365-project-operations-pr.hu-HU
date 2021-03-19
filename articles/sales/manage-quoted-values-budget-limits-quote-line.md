@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181860"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277791"
 ---
 # <a name="project-based-quote-lines-overview"></a>Projektalapú árajánlatsorok áttekintése
 

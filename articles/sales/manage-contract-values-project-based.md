@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278106"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Projektalapú szerződéssorok használata
 
-A Dynamics 365 for Operations szerződéssorai úgy vannak kialakítva, hogy tárolják a becsléseket és számlázási megállapodásokat a projektmunka adott komponenseire egy aktivitásban. A projektalapú szerződéssorok felépítése a projektek becsült és számlázási helyzetére vonatkozóan a következő fogalmakkal bővül:
+A Dynamics 365 Project Operations szerződéssorai úgy vannak kialakítva, hogy tárolják a becsléseket és számlázási megállapodásokat a projektmunka adott komponenseire egy aktivitásban. A projektalapú szerződéssorok felépítése a projektek becsült és számlázási helyzetére vonatkozóan a következő fogalmakkal bővül:
 
 - Számlázási mód
 - Projekt és feladatleképezés

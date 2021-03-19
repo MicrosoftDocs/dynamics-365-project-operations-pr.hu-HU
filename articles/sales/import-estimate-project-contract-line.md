@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126396"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278376"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Becslések importálása egy projektalapú szerződéssorba
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Dynamics 365 Project Operations alkalmazásban becsléseket importálhat egy projektből egy projektalapú szerződéssorba.
+A Dynamics 365 Project Operations alkalmazásban projektbecsléseket importálhat egy projektalapú szerződéssorból.
 
 1. Ellenőrizze, hogy a **Projekt** mező a projektalapú szerződéssoron ki van-e töltve.
 2. A **Szerződéssor részletei** lapon, az alrácson válassza az **Importálás projektbecslésből** lehetőséget. Megnyílik egy párbeszédpanel az összesítési lehetőséggel. A rendelkezésre álló összesítési lehetőségek a következők: **Tranzakcióosztály**, **Kategória**, **Szerepkör** és **Projektfeladat**. Az összegzésre kiválasztottak alapján a program átmásolja a projekt becslését a szerződéssorban található összes tranzakcióosztály és feladat esetében. 

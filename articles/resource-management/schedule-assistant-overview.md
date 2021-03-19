@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125631"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279231"
 ---
 # <a name="schedule-assistant-overview"></a>Ütemezési segéd áttekintése
 
@@ -25,7 +25,7 @@ A megfelelő erőforrások azonosítását követően az erőforráskezelő vagy
 
 ## <a name="prerequisites"></a>Előfeltételek
 
-Az Ütemezési segéd a Universal Resource Scheduling megoldás része. Ez a megoldás megtalálható a Dynamics 365 Project Operations, a Dynamics 365 Field Service és a Dynamics 365 Customer Service termékekben, és azokkal együtt kerül telepítésre.
+Az Ütemezési segéd a Universal Resource Scheduling megoldás része. Ez a megoldás megtalálható és telepítve van a Dynamics 365 Project Operations, a Dynamics 365 Field Service és a Dynamics 365 Customer Service rendszerekbe.
 
 ## <a name="matching-requirements-and-resources"></a>Erőforrások és követelmények párosítása
 

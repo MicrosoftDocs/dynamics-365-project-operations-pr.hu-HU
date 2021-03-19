@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401176"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279276"
 ---
 # <a name="review-proposed-resources"></a>Javasolt erőforrások áttekintése
 
@@ -58,7 +58,7 @@ Az Ütemezési tábla színeket és árnyalatokat használ a foglalások, a rend
 
 Ha egy jobbra mutató nyíl jelenik meg az ütemező táblán az egyes foglalható források mellett, az erőforrás kibővíthető, hogy megjelenjen az erőforrás által lefoglalt munka részletei.
 
-Mivel a Dynamics 365 Project Operations a Universal Resource Scheduling-motort használja, ha telepítette a Dynamics 365 Field Service rendszert is, akkor megtekintheti a projektek erőforrás-foglalási és munkarendelési részleteit, illetve minden olyan más entitás részleteit, amelyekre kiterjesztette az ütemezést.
+Mivel a Dynamics 365 Project Operations a Universal Resource Scheduling motort használja, ha telepítette a Dynamics 365 Field Service rendszert is, akkor megtekintheti a projektek erőforrás-foglalási, munkamegrendelési és minden más entitás részleteit, amelyekre az ütemezést kiterjesztette.
 
 Az egyes erőforrásokkal kapcsolatos további részletek megtekintéséhez kattintson a jobb gombbal az erőforráskártya megnyitásához.
 

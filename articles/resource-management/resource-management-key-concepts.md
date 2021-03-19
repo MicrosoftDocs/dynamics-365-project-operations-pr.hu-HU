@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279501"
 ---
 # <a name="resource-management-key-concepts"></a>Erőforrás-kezelési alapfogalmak
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az a képesség, hogy megfelelő időben megtalálja a megfelelő erőforrásokat, lefoglalja ezeket az erőforrásokat a projektekre és felhasználhatóvá tegye őket, elősegíti a szervezet számára a bevételi célok és az ügyfelek elégedettségének elérését. A projekt-erőforrás-szolgáltatási funkciót a Dynamics 365 Project Operations szolgáltatásban a következő feladatok végrehajtásához használhatja:
+Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az a képesség, hogy megfelelő időben megtalálja a megfelelő erőforrásokat, lefoglalja ezeket az erőforrásokat a projektekre és felhasználhatóvá tegye őket, elősegíti a szervezet számára a bevételi célok és az ügyfelek elégedettségének elérését. A projekt-erőforrás-szolgáltatási funkciót a Dynamics 365 Project Operations a következő feladatokhoz használhatja:
 
 - A projektcsoportokat formálhatja a rendelkezésre álló és képzett erőforrások lefoglalásával.
 - Készítsen általános csapattag-nyilvántartásokat, és határozza meg szerepüket és az erőforrás-szervezeti egységet.

@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kezelési módok áttekintése
-description: Ez a témakör a Dynamics 365 Project Operations Erőforrás-kezelés funkciójával kapcsolatos információkat tartalmaz.
+description: Ez a témakör a Dynamics 365 Project Operations Erőforráskezelés funkciójáról nyújt információkat.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279456"
 ---
 # <a name="resource-management-modes-overview"></a>Erőforrás-kezelési módok áttekintése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-A Dynamics 365 Project Operations két módot támogat annak érdekében, hogy végrehajtsa a teljes foglalási folyamatot. A kezelési mód projektparaméterként van definiálva, és módosítható az üzleti igények változása esetén.    
+A Dynamics 365 Project Operations két módot támogat a teljes foglalási folyamat végrehajtásához. A kezelési mód projektparaméterként van definiálva, és módosítható az üzleti igények változása esetén.    
 
 ## <a name="central-mode"></a>Központi mód
 Azoknál a szervezeteknél, akik központosítják az erőforrások elosztását a projektek számára, a központi mód biztosítja, hogy a projektmenedzserek a projekt szintjén meghatározhatják az erőforrás-követelményeket. Az erőforrás-követelmények teljesítését egy erőforrás-kezelőre delegálja a rendszer. A projektmenedzserek elfogadhatják vagy visszautasíthatják azokat az erőforrásokat, amelyeket az erőforrás-kezelő javasolt.

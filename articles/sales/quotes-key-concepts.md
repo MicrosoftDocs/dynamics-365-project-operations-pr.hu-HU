@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121311"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277521"
 ---
 # <a name="quotes---key-concepts"></a>Árajánlatok – alapfogalmak
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations rendszerben kétfajta árajánlat áll rendelkezésre: a projektárajánlat és az értékesítési árajánlat. A két típusú árajánlat a következőkben különbözik:
+A Dynamics 365 Project Operations rendszerben kétféle árajánlat létezik: projektárajánlat és értékesítési árajánlat. A két típusú árajánlat a következőkben különbözik:
 
 - **Egyes sorelemekhez tartozó rácsok**: Az értékesítési árajánlatban csak egy rács szerepelhet a sorokban. A projektárajánlatokban két rács tartozik a sorelemekhez. Az egyik rács a projektek soraihoz, a másik pedig a termékek soraihoz használható.
 - **Aktiválás és revíziók**: Az értékesítéi árajánlatok támogatják az aktiválást és a revíziókat. A projektárajánlatokban ezek a folyamatok nem támogatottak.

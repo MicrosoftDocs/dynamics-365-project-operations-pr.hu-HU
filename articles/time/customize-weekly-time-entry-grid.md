@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277161"
 ---
 # <a name="extending-time-entries"></a>Időbejegyzések kiterjesztése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations egy bővíthető egyéni időbejegyzés-vezérlő tartozik. Ez a vezérlő többek között a következő funkciókat tartalmazza:
+A Dynamics 365 Project Operations bővíthető egyéni időbevitel-vezérlőt tartalmaz. Ez a vezérlő többek között a következő funkciókat tartalmazza:
 
 - Az idő vízszintes beírása egy hétre
 - Összesítések nap, sor vagy hét szerint
