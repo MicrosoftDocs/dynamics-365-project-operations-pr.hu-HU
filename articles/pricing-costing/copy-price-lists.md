@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181500"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275721"
 ---
 # <a name="copy-price-lists"></a>Árlisták másolása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations alkalmazásban az árlisták másolatát is létrehozhatja. Lehetőség van például arra, hogy az aktuális évhez tartozó árlistát használva a soron következő évhez tartozó árlistát hozzon létre.  Másik lehetőségként az önköltségek árlistája is átmásolható számlázási árak és eladási árak árlistájának létrehozásához. 
+A Dynamics 365 Project Operationsben az árlistákról másolatokat hozhat létre. Lehetőség van például arra, hogy az aktuális évhez tartozó árlistát használva a soron következő évhez tartozó árlistát hozzon létre.  Másik lehetőségként az önköltségek árlistája is átmásolható számlázási árak és eladási árak árlistájának létrehozásához. 
 
 A következő lépések végrehajtásával készítheti el az árlista másolatát.
 

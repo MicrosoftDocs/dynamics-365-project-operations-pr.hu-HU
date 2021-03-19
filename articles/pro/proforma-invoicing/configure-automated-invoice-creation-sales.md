@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274326"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Automatikus számlalétrehozás konfigurálása - Lite
  
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Az automatikus számlalétrehozás a Dynamics 365 Project Operations alkalmazásban konfigurálható. A rendszer egy proforma számlát hoz létre, amely az egyes projektek és szerződéssorok számlázási ütemezése alapján készült. A számlázási ütemezések a szerződéssorok szintjén konfigurálhatók. A szerződés minden sora rendelkezhet külön számlázási ütemezéssel, vagy ha a szerződés minden sorában ugyanazt a számlázási ütemezést lehet is lehet használni.
+Konfigurálhatja az automatikus számlalétrehozást a Dynamics 365 Project Operationsben. A rendszer egy proforma számlát hoz létre, amely az egyes projektek és szerződéssorok számlázási ütemezése alapján készült. A számlázási ütemezések a szerződéssorok szintjén konfigurálhatók. A szerződés minden sora rendelkezhet külön számlázási ütemezéssel, vagy ha a szerződés minden sorában ugyanazt a számlázási ütemezést lehet is lehet használni.
 
 A számla létrehozásakor a rendszer mindig legalább egy számlát hoz létre projektszerződésenként. Bizonyos esetekben több számla is létrehozható.
 

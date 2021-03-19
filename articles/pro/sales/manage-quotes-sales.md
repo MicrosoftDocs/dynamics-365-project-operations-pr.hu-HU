@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177829"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272931"
 ---
 # <a name="manage-project-quotes"></a>Projektárajánlatok kezelése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operationsban a projektárajánlatok segítséget nyújtanak a projekt munkára vonatkozó ajánlatok kialakításában. A projektárajánlat szerkezete a Project Operationsban a következő összetevőkkel épül fel a projektjavaslatokhoz:
+A Dynamics 365 Project Operations a projektárajánlatok segítséget nyújtanak a projekt munkára vonatkozó ajánlatok kialakításában. A projektárajánlat szerkezete a Project Operationsban a következő összetevőkkel épül fel a projektjavaslatokhoz:
 
   - Árajánlatsorok, amelyek beazonosítják a magas szintű összetevőként megjelenített különálló munkaösszetevőket.
   - Árajánlatsor-adatok, amelyek meghatározzák és megbecsülik az egyes magas szintű összetevőkhöz vagy árajánlatsorhoz szükséges munkát. Az ütemezés vagy a dátumbecslések, valamint a munka pénzügyi aspektusai az adott árajánlatsorhoz köthetők.

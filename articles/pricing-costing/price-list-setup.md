@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180195"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275496"
 ---
 # <a name="set-up-price-lists"></a>Árlisták beállítása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Árlisták a Dynamics 365 a Project Operationsban az árak katalógusát jelentik. Az árak költség, értékesítési és számlázási árak kifejezésére szolgálnak. Attól függően, hogy az árlista a költségeket vagy az értékesítési és a számlázási díjakat tartalmazza, az árlista környezete **értékesítés** vagy **költség** lesz.
+Az árlisták a Dynamics 365 Project Operationsben az árfolyamok katalógusát képviselik. Az árak költség, értékesítési és számlázási árak kifejezésére szolgálnak. Attól függően, hogy az árlista a költségeket vagy az értékesítési és a számlázási díjakat tartalmazza, az árlista környezete **értékesítés** vagy **költség** lesz.
 
 A következő kiterjesztések aProject Operationsra vonatkoznak, és a Dynamics 365 Salesből származó árlisták alapján kerülnek alkalmazásra.
 

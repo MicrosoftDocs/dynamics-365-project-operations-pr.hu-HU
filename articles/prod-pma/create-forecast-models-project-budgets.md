@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078228"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271041"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Előrejelzési modellek létrehozása a projektköltségvetésekhez 
 
@@ -41,9 +41,9 @@ Ez a témakör ismerteti, hogyan lehet előrejelzési modellt létrehozni a fenn
 5. Ha a projekt dátumát szeretné számlázási dátumként használni, akkor állítsa az **Előrejelzési számla dátuma** beállítást **Igen** értékre. 
 6. A **Költségvetés típusa** mezőben válassza ki a következő modelltípusok egyikét:
 
-   - **Eredeti költségvetés** : A kezdeti költségvetés létrehozásakor és jóváhagyásakor meghatározott eredeti költségvetési összegek használata.
-   - **Fennmaradó költségvetés** : A projekt élettartama során a fennmaradó költségvetési összegeket használja. Az ebben az előrejelzési modellben szereplő egyenlegeket a rendszer a tényleges tranzakciókkal csökkenti, és a költségvetési módosítások szerint növeli vagy csökkenti.
-   - **Átvitel** : A projekthez tartozó átviteli költségvetés összegeit használja. Az átvitel egy opcionálisfolyamat, amely a fel nem használt költségvetési összegek átvitelére szolgál az egyik pénzügyi évből a másikba.
+   - **Eredeti költségvetés**: A kezdeti költségvetés létrehozásakor és jóváhagyásakor meghatározott eredeti költségvetési összegek használata.
+   - **Fennmaradó költségvetés**: A projekt élettartama során a fennmaradó költségvetési összegeket használja. Az ebben az előrejelzési modellben szereplő egyenlegeket a rendszer a tényleges tranzakciókkal csökkenti, és a költségvetési módosítások szerint növeli vagy csökkenti.
+   - **Átvitel**: A projekthez tartozó átviteli költségvetés összegeit használja. Az átvitel egy opcionálisfolyamat, amely a fel nem használt költségvetési összegek átvitelére szolgál az egyik pénzügyi évből a másikba.
 
 7. Végezze el a következő beállításokat igény szerint:
 

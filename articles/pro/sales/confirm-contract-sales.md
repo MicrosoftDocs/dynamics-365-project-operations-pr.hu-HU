@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273831"
 ---
 # <a name="confirm-a-project-contract"></a>Projektszerződés jóváhagyása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations alkalmazásban a projektben szereplő szerződések a **Megerősített** okkal aktívak, illetve az **Elveszett** okkal lezártak lehetnek. A project-szerződések jóváhagyása esetén az állapot-frissítések **Vázlat** értékről **Aktív** értékre módosul az állapot oka pedig **Megerősítve**. Aktív vagy lezárt szerződés nem módosítható és nem nyitható meg újra. 
+A Dynamics 365 Project Operations projektszerződései aktívak lehet a **Megerősítve** okkal, vagy lezártak az **Elvesztett** okkal. A project-szerződések jóváhagyása esetén az állapot-frissítések **Vázlat** értékről **Aktív** értékre módosul az állapot oka pedig **Megerősítve**. Aktív vagy lezárt szerződés nem módosítható és nem nyitható meg újra. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Egy projektszerződés megerősítésének pénzügyi hatása
 
@@ -34,7 +34,7 @@ Ha elveszettként zár le egy projektszerződést, a szerződés állapota **Lez
 Ha az elveszettként lezárt projektszerződés a soraiban egy projektre hivatkozik, akkor azt a projektet is lezártként jelöli meg. Az ettől a naptól a függőben lévő összes erőforrás-foglalás visszavonásra kerül. A program sztornírozza a szerződésben szereplő, még nem számlázott tényleges értékesítéseket.
 
 > [!NOTE]
-> A Dynamics 365 Project Operations alkalmazásban a projektszerződések elveszettként való lezárása nem befolyásolja a hozzárendelt lehetőség állapotát. A lehetőség nyitva marad, és kézzel kell le zárni.
+> A Dynamics 365 Project Operations alkalmazásban a projektszerződés elvesztettként való lezárása nem befolyásolja a társított lehetőség állapotát. A lehetőség nyitva marad, és kézzel kell le zárni.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

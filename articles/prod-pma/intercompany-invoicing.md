@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078118"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270771"
 ---
 # <a name="intercompany-invoicing"></a>Vállalatközi számlázás
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078118"
 
 Ez a cikk a projekteket érintő vállalatközi számlázással kapcsolatos információkat és példákat tartalmaz.
 
-Előfordulhat, hogy a szervezethez több olyan részleg, leányvállalat és más jogi személy tartozik, amelyek termékeket és szolgáltatásokat biztosítanak egymásnak a projektjeihez. A szolgáltatást vagy a terméket biztosító jogi személyt *kölcsönadó jogi személynek* , míg a szolgáltatást vagy a terméket fogadó jogi személyt *kölcsönbe vevő jogi személynek* nevezzük. 
+Előfordulhat, hogy a szervezethez több olyan részleg, leányvállalat és más jogi személy tartozik, amelyek termékeket és szolgáltatásokat biztosítanak egymásnak a projektjeihez. A szolgáltatást vagy a terméket biztosító jogi személyt *kölcsönadó jogi személynek*, míg a szolgáltatást vagy a terméket fogadó jogi személyt *kölcsönbe vevő jogi személynek* nevezzük. 
 
 A következő ábrán egy tipikus forgatókönyv látható, ahol két jogi személy, az SI FR (a kölcsönbe vevő jogi személy) és az SI USA (a kölcsönadó jogi személy) megosztja az erőforrásait az „A” ügyfél projektének megvalósítása érdekében. Ennél a forgatókönyvnél a szerződés értelmében az SI FR teljesíti a munkát az „A” ügyfél részére. 
 

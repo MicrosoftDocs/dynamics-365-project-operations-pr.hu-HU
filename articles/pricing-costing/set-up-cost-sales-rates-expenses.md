@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180285"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274911"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Költség- és értékesítési árak beállítása a kiadásokhoz
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Beállíthat költség- és értékesítési árakat a tranzakciós kategóriákhoz a Dynamics 365 Project Operationsban. Mivel a költség- és értékesítési árakat a kiadásokhoz tervezték, az összes olyan tranzakciós kategóriát, amely tartalmazza ezeket, szintén költségkategóriaként kell beállítani. Ez a beállítás biztosítja a későbbi funkciók pontosságát. A tranzakciós kategóriákhoz tartozó költség- és értékesítési árak csak egy pénznemben szerepelhetnek, amelynek a pénznemnek kell lennie az árlista fejlécében.
+A Dynamics 365 Project Operations tranzakciókategóriáihoz tartozó költségeket és értékesítési árakat állíthat be. Mivel a költség- és értékesítési árakat a kiadásokhoz tervezték, az összes olyan tranzakciós kategóriát, amely tartalmazza ezeket, szintén költségkategóriaként kell beállítani. Ez a beállítás biztosítja a későbbi funkciók pontosságát. A tranzakciós kategóriákhoz tartozó költség- és értékesítési árak csak egy pénznemben szerepelhetnek, amelynek a pénznemnek kell lennie az árlista fejlécében.
 
 A tranzakciós kategóriákhoz tartozó költség- és értékesítési árak beállításához hajtsa végre az alábbi lépéseket. 
 

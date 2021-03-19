@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078146"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270996"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken
 
@@ -181,7 +181,7 @@ Ez a kód a mező megjelenítési beállításait szabályozza az alkalmazásban
 
 A következő példa egy karakterláncmezőt jelenít meg az időnyilvántartásban. A mezőben két lehetőség közül választhat a választógombok segítségével: **Első lehetőség** és **Második lehetőség**. Az alkalmazásban található mező a TSTimesheetLine táblázathoz hozzáadott **TestLineString** mezőhöz van társítva.
 
-Használja a **TSTimesheetCustomField::newFromMetatdata()** metódust az egyéni mező tulajdonságai inicializálásának leegyszerűsítésére: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** és **numberOfDecimals**. Ha szeretné, a paramétereket kézzel is megadhatja.
+Használja a **TSTimesheetCustomField::newFromMetatdata()** metódust az egyéni mező tulajdonságai inicializálásának leegyszerűsítésére: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** és **numberOfDecimals**. Ha szeretné, a paramétereket kézzel is megadhatja.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Ha egy egyéni mezőt tipikus használat során szeretne az adatbázisba menteni
 - A **populateTimesheetWeekFromEntry** metódus akkor is bővíthető, ha a **TSTimesheetEntry** objektumra leképezett egyéni mezőnek vissza kell írnia egy értéket a TSTimesheetLineweek adatbázis-táblázatba.
 
 > [!NOTE]
-> A következő példa a **firstOption** , illetve **secondOption** értékét menti, amelyet a felhasználó nyers karakterláncértékként választ az adatbázishoz. Ha az adatbázis mező **Felsorolás** típusú mező, akkor ezek az értékek kézileg is leképezhetők egy felsorolási értékre, majd menthetők az adatbázis-táblázat felsorolási mezőjébe.
+> A következő példa a **firstOption**, illetve **secondOption** értékét menti, amelyet a felhasználó nyers karakterláncértékként választ az adatbázishoz. Ha az adatbázis mező **Felsorolás** típusú mező, akkor ezek az értékek kézileg is leképezhetők egy felsorolási értékre, majd menthetők az adatbázis-táblázat felsorolási mezőjébe.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Az időnyilvántartási funkció adatbázisszintű logilája továbbra is válto
 
 - Ha a **validateWrite** az időnyilvántartási sor mentése során **hamis** értéket ad vissza a TSTimesheetLine táblázatban, akkor megjelenik egy hibaüzenet a mobilalkalmazásban.
 - Ha a **validateSubmit** az időnyilvántartás alkalmazásban történő küldése során **hamis** értéket ad vissza a TSTimesheetTable táblázatban, akkor a rendszer megjelenít egy hibaüzenetet.
-- Az **insert** metódus során a TSTimesheetLine táblázaton alkalmazott, mezők kitöltésére szolgáló logika (például a **Sortulajdonság** ) továbbra is futni fog.
+- Az **insert** metódus során a TSTimesheetLine táblázaton alkalmazott, mezők kitöltésére szolgáló logika (például a **Sortulajdonság**) továbbra is futni fog.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Alapértelmezett mezők elrejtése és írásvédettként való megjelölése konfigurálással
 

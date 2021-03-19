@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180699"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274821"
 ---
 # <a name="set-up-labor-bill-rates"></a>A munka számlázási arányának beállítása
 
 **Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
-Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, amelyek hatályosak az árlistafejlécen szereplő környezetnek és esedékességi dátumának megfelelően. A Dynamics 365 Project Operations időre vonatkozó számlázási díjak egyetlen pénznemben állíthatók be, amely az árlistafejlécen található pénznem.
+Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, amelyek hatályosak az árlistafejlécen szereplő környezetnek és esedékességi dátumának megfelelően. A Dynamics 365 Project Operations időre vonatkozó számlázási árfolyamai csak egy pénznemben állíthatók be, ez az Árlista fejlécében található pénznem.
 
 1. Az értékesítési árak listáján szereplő munkabérdíjak beállításához az árlista fejléce alapján hozzon létre egy árlistát. 
 2. A **Szerepkörárak** lap részrácsában válassza az **+ Új szerepkörár** lehetőséget. 

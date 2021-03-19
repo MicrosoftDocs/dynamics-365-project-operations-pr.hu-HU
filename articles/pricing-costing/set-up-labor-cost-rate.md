@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180600"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274776"
 ---
 # <a name="set-up-labor-cost-rates"></a>Munkabérköltségek díjainak beállítása
 
@@ -40,7 +40,7 @@ Az alábbi táblázat néhány olyan mezőt tartalmaz, amelyek fontosak a önkö
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>A divízión vagy jogi személyen kívüli erőforrásokra vonatkozó árak és költségek átadása
 
-A projektalapú vállalatokban gyakori a különböző jogi személyek vagy részlegek alkalmazottainak használata projekteken. Egy projektet elvégezhet egy jogi személy, de a projekten dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből vagy egy másikból, vagy a kettő kombinációjából. A Dynamics 365 Project Operations alkalmazásban a projekt teljesítését birtokló jogi személy a **tulajdonos vállalat**, és az a részleg, amely a végrehajtás tulajdonosa, a **szerződő egység**. Az erőforrásokat biztosító egyéb jogi személyek az **Erőforrás-kezelő vállalatok**, és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A legtöbb országban a vállalatoknak meg kell győződniük arról, hogy az erőforrás-kezelő jogi személy vagy részleg megterheli a tulajdonos vállalatot és a szerződő egységet az erőforrások használatáért.
+A projektalapú vállalatokban gyakori a különböző jogi személyek vagy részlegek alkalmazottainak használata projekteken. Egy projektet elvégezhet egy jogi személy, de a projekten dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből vagy egy másikból, vagy a kettő kombinációjából. A Dynamics 365 Project Operations alkalmazásban ban a projekt szállítását birtokló jogi személy a **Tulajdonos vállalat**, a szállítást birtokló részleg pedig a **Szerződéskötési egység**. Az erőforrásokat biztosító egyéb jogi személyek az **Erőforrás-kezelő vállalatok**, és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A legtöbb országban a vállalatoknak meg kell győződniük arról, hogy az erőforrás-kezelő jogi személy vagy részleg megterheli a tulajdonos vállalatot és a szerződő egységet az erőforrások használatáért.
 
 A Fabrikam vállalatnak például biztosítania kell, hogy a Fabrikam India-Robotics rendelkezik egyeztetett költségdíjkártyával a Fabrikam US-Robotics vagy a Fabrikam UK-Robotics felé.
 

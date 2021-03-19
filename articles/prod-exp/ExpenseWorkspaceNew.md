@@ -1,6 +1,6 @@
 ---
 title: Átdolgozott költségjelentések
-description: Ez a témakör a Microsoft Dynamics 365 Finance költségjelentés-bejegyzés újratervezett és újragondolt felhasználói élményére vonatkozó információkat tartalmaz. Az új élmény egyszerűsíti a költségjelentések készítésénekfolyamatát, és csökkenti az ehhez szükséges időt.
+description: Ez a témakör a költségjelentés-bejegyzés újratervezett és újragondolt felhasználói élményére vonatkozó információkat tartalmaz.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960250"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271986"
 ---
 # <a name="redesigned-expense-reports"></a>Átdolgozott költségjelentések
 
@@ -41,15 +41,9 @@ Az új felhasználói élmény bekapcsolásához a **Funkciókezelés** munkater
 - A rendszer nem távolítja el a költségjelentések (a meglévő oldal) vagy a költségjelentés-mezők meglévő menüelemeit.
 - A munkafolyamatok és a jóváhagyások továbbra is a meglévő költségjelentési oldalra irányítják át.
 
-## <a name="getting-started-video-for-new-users"></a>Kezdeti lépésekkel kapcsolatos videó az új felhasználók számára
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-A [Dynamics 365 for Finance and Operations költségélmény](https://youtu.be/Ocy-MsTvEE0) videó (fent látható) a [Finance and Operations lejátszási listában](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) érhető el a YouTube-on.
-
 ## <a name="new-features"></a>Új szolgáltatások
 
-| Új szolgáltatás | Adatfolyam leírása |
+| Új szolgáltatás | Ismertetés |
 |---|----|
 | Kiadás mező láthatósága | Az új beállítási oldalon megadhatja, hogy a szervezetre vonatkozóan mely mezők legyenek letiltva, és mely mezőkre van szükség, és mely mezők ajánlottak. |
 | Kötelező mezők | Az új, egyszerű konfiguráció lehetővé teszi, hogy bizonyos mezőket a házirend-keretrendszer használata nélkül is kötelezővé tegyen. |

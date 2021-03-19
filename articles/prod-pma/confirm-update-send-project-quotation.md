@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270816"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Projektárajánlat megerősítése, frissítése és küldése
 
@@ -39,7 +39,7 @@ A meglévő projektajánlatot elküldhet jóváhagyásra e-mailben vagy nyomtato
 2. A **Projektárajánlat** lapon jelölje ki a visszaigazolásra elküldeni kívánt árajánlatot. 
 3. Az **Utánkövetés** lap **Generálás** csoportjában válassza a **Jóváhagyás** lehetőséget. 
 4. Állítsa be a szükséges paramétereket az **Ajánlat jóváhagyása** lapon. Például a visszaigazolás kinyomtatásához a **Nyomtatási beállítások** részen kapcsolja be a **Visszaigazolás nyomtatása** elemet, majd kattintson az **OK** gombra.
-5. Az **Árajánlat küldése** válassza ki a **Beállítások** lehetőséget, és a **Nyomtatási cél beállításai** oldalon válassza ki, hogy az árajánlatot a **Képernyőn** , **E-mailben** , **Fájlba** , **Nyomtatási archívumba** vagy **Nyomtatóra** küldi-e, majd végezze el a kívánt módosításokat a **Specifikáció** területen, hogy átirányítsa az árajánlatot.
+5. Az **Árajánlat küldése** válassza ki a **Beállítások** lehetőséget, és a **Nyomtatási cél beállításai** oldalon válassza ki, hogy az árajánlatot a **Képernyőn** , **E-mailben**, **Fájlba**, **Nyomtatási archívumba** vagy **Nyomtatóra** küldi-e, majd végezze el a kívánt módosításokat a **Specifikáció** területen, hogy átirányítsa az árajánlatot.
 6. Válassza a **Nyomtatási cél beállításai** lapon az **OK** lehetőséget.  
 
 ## <a name="update-a-project-quotation"></a>Projektárajánlat frissítése

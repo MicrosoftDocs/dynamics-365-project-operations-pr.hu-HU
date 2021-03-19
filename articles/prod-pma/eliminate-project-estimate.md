@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078145"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270681"
 ---
 # <a name="eliminate-a-project-estimate"></a>Projekt becslésének eltávolítása
 
@@ -38,14 +38,14 @@ A becsült projekt megszüntetéséhez annak teljesnek kell lennie. A következ�
 3. A **Becslés eltávolítása** lap **Általános** fülén adja meg a következő beállításokat:
 
    - **Időszak kódja** : Válassza ki az időszak kódját a megfelelő becsült projektek kiválasztásához. 
-   - **Becslés dátuma** : Válassza ki a megfelelő becslési dátumot az eltávolításhoz.
-   - **Eltávolítás folyamatban lévő munka figyelmeztetésekkel** : Engedélyezze ezt a beállítást, ha értesítést szeretne kapni, amikor egy folyamatban lévő munkához kapcsolódó becslés el lesz távolítva. Ha a beállítás nincs engedélyezve, akkor az eltávolítás nem folytatható, ha nem becsült tranzakciók léteznek. 
+   - **Becslés dátuma**: Válassza ki a megfelelő becslési dátumot az eltávolításhoz.
+   - **Eltávolítás folyamatban lévő munka figyelmeztetésekkel**: Engedélyezze ezt a beállítást, ha értesítést szeretne kapni, amikor egy folyamatban lévő munkához kapcsolódó becslés el lesz távolítva. Ha a beállítás nincs engedélyezve, akkor az eltávolítás nem folytatható, ha nem becsült tranzakciók léteznek. 
    > [!NOTE]
    > Ez a beállítás csak akkor érhető el, ha az eltávolítást egy becsült projektre alkalmazza a rendszer. Periodikus feladás használata esetén nem érhető el. Ez a beállítás a **Projekt paraméterei** lap **Becslés** lapjának beállításaival működik az **Eltávolítás engedélyezése, ha nem becsült tranzakciók léteznek** mezőcsoportban.
-   - **Fázis beállítása befejezettre** : Engedélyezze ezt a beállítást, ha az eltávolítás futtatása után a becsült projekt fázisát **Befejezett** értékre szeretné állítani.
-   - **Becslési listák nyomtatása** : Válassza ki, hogy milyen adatok szerepeljenek a becslési listák kinyomtatásakor.
-   - **Információs napló megjelenítése** : Engedélyezze ezt a beállítást az információs napló megjelenítéséhez.
-   - **Könyvelési dátum** : Válassza ki a becslés főkönyvi feladási dátumát.
+   - **Fázis beállítása befejezettre**: Engedélyezze ezt a beállítást, ha az eltávolítás futtatása után a becsült projekt fázisát **Befejezett** értékre szeretné állítani.
+   - **Becslési listák nyomtatása**: Válassza ki, hogy milyen adatok szerepeljenek a becslési listák kinyomtatásakor.
+   - **Információs napló megjelenítése**: Engedélyezze ezt a beállítást az információs napló megjelenítéséhez.
+   - **Könyvelési dátum**: Válassza ki a becslés főkönyvi feladási dátumát.
 
 4.  Kattintson az **OK** gombra.
 5. Az eltávolítási folyamat befejeződése után a megszüntetett becsült projekt negatív értékkel jelenik meg. 

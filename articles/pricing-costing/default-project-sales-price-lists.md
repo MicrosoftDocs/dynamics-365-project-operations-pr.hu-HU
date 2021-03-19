@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130941"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275586"
 ---
 # <a name="default-price-lists"></a>Alapértelmezett árlisták
 
@@ -21,7 +21,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 ## <a name="sales-price-lists"></a>Értékesítési árlisták
 
-Minden projektajánlat és szerződés a Dynamics 365 Project Operations alkalmazásban egy alapértelmezett értékesítési árlistát tartalmaz. 
+A Dynamics 365 Project Operations rendszerben minden projektajánlat és szerződés tartalmaz egy alapértelmezett értékesítési árlistát. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Árlista alapértelmezései a projektajánlatokban
 A rendszer a következő folyamatot hajtja végre annak meghatározásához, hogy mely árlista legyen alapértelmezett a projektajánlatban:

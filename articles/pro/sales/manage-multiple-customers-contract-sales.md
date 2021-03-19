@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3c9804c77cc0931352b026f15fd764f43361757f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273156"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Több ügyfél kezelése egy projektszerződésen - Lite
 
