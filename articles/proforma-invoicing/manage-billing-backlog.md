@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122346"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287736"
 ---
 # <a name="manage-the-billing-backlog"></a>A számlázási elmaradás kezelése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations két külön nézetet kínál amelyek segítséget nyújtanak a számlázási lemaradás kezelésében. Ezek a **Rögzített árú mérföldkövek**, valamint az **Idő- és anyagszámlázási hátralék**; a nézet kiválasztásához Project Operations **Értékesítés** területén, a bal oldali navigációs oldalon válassza a **Számlázás** lehetőséget. A rendszer ott tárolja a számlázási elmaradás hivatkozásait.
+A Dynamics 365 Project Operations két dedikált nézetet kínál amelyek segítséget nyújtanak a számlázási elmaradás kezelésében. Ezek a **Rögzített árú mérföldkövek**, valamint az **Idő- és anyagszámlázási hátralék**; a nézet kiválasztásához Project Operations **Értékesítés** területén, a bal oldali navigációs oldalon válassza a **Számlázás** lehetőséget. A rendszer ott tárolja a számlázási elmaradás hivatkozásait.
 
 ## <a name="fixed-price-milestones"></a>Rögzített árú mérföldkövek
 

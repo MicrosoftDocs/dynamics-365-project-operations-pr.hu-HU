@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078225"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289732"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>A projektek költségvetésének átadása pénzügyi év végén
 
@@ -59,10 +59,10 @@ A fennmaradó költségvetési összegek feldolgozása során a főkönyvben hoz
 2. A **projektköltségvetés átviteli folyamata** lapon jelölje ki az **év végi** beállítást, majd engedélyezze a **Fennmaradó projektköltségvetési összegek átvitele** valamint a **Költségvetés tételjegyzék-tételek létrehozását a főkönyvi könyvelésben** lehetőséget. 
 3. A **Paraméterek** lapon, a **Projektparaméterek** mezőcsoportban válassza a következőt:
 
-   - A **Projektköltségvetési év** : válassza ki azt a pénzügyi év kezdetét, amelynek meg szeretné tekinteni a fennmaradó költségvetési összegeit. 
-   - **Nyereség és veszteség** : Eredménytranzakciók létrehozása a főkönyvi könyvelésben. 
-   -  **Befejezetlen termelés** : Befejezetlen termelési (WIP) tranzakciók létrehozása a főkönyvi könyvelésben.
-   -  **Bérelszámolása** : Bérelszámolás-felosztási tranzakciók létrehozása a főkönyvi naplóban. 
+   - A **Projektköltségvetési év**: válassza ki azt a pénzügyi év kezdetét, amelynek meg szeretné tekinteni a fennmaradó költségvetési összegeit. 
+   - **Nyereség és veszteség**: Eredménytranzakciók létrehozása a főkönyvi könyvelésben. 
+   -  **Befejezetlen termelés**: Befejezetlen termelési (WIP) tranzakciók létrehozása a főkönyvi könyvelésben.
+   -  **Bérelszámolása**: Bérelszámolás-felosztási tranzakciók létrehozása a főkönyvi naplóban. 
 
 5. Az **Főkönyv** mezőcsoportban adja meg a következő adatokat: 
 

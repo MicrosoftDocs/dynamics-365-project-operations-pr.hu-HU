@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078153"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289327"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client integráció
 
@@ -122,7 +122,7 @@ Ha új munkalebontási struktúrát szeretne létrehozni a Microsoft Project Cli
 
 6.  Adja meg a **Projektnév** elemet.
 
-7.  Válassza ki a **Projekttípus** , a **Projektcsoport** és a **Projektszerződés azonosítója** elemeket. Másik lehetőségként új projektszerződés is létrehozható az **Új** elemre kattintva.
+7.  Válassza ki a **Projekttípus**, a **Projektcsoport** és a **Projektszerződés azonosítója** elemeket. Másik lehetőségként új projektszerződés is létrehozható az **Új** elemre kattintva.
 
 8.  Válassza ki az erőforrás biztosításához használt **Naptár** elemet.
 

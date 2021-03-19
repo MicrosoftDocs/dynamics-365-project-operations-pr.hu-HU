@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289777"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektmenedzsment és könyvelés – áttekintés
 
@@ -205,7 +205,7 @@ A vállalat készletéből is rendelhet cikkeket a projektben való felhasznál�
 
 A cikkek megrendelésének módja attól függ, hogy honnan rendeli őket:
 
--   Ha a vállalat készletéből szeretne cikkeket rendelni, a megrendelést cikkszükségletként kell megadnia. A **Cikkszükségletek** oldalon úgy is beállíthatja a szükségletet, hogy a cikkeket részleges szállítás formájában kapja meg. Így elhalaszthatja egy adott cikkmennyiség felhasználását addig, amíg a cikkek szükségessé nem válnak.
+-   Ha a vállalat készletéből szeretne cikkeket rendelni, a megrendelést cikkszükségletként kell megadnia. A **Cikkszükségletek** oldalon úgy is beállíthatja a szükségletet, hogy a cikkeket részleges szállítás formájában kapja meg. Így elhalaszthatja egy adott cikkmennyiség felhasználását addig, amíg a cikkek szükségessé nem válnak.
 -   Ha külső szállítótól szeretne cikkeket rendelni, akkor a megrendelést beszerzési rendelésként kell létrehoznia a **Beszerzési megrendelés** oldalon.
 
 > [!NOTE] 
@@ -300,11 +300,11 @@ A beállítások alapján előrejelezheti a kiválasztott projekthez tartozó p�
 -   **Projekt dátuma:** 2012. március 5.
 -   **Számlázás dátuma:** 2012. március 31. A rendszer ezt a dátumot a számlázási gyakoriság alapján határozza meg. Ebben a példában a számlázási gyakoriságot a „hó vége” értékre állítjuk. Ez azt jelenti, hogy a márciusban feladott összes tranzakciót a hónap utolsó napján számlázzák ki.
 -   **Határidő:** 2012. április 14. A rendszer ezt a dátumot a projekthez beállított fizetési feltételek alapján határozza meg. Ebben a példában 14 napos fizetési határidőt adtak meg. Ezért a rendszer hozzáad 14 napot a számlázási dátumhoz, így megkapjuk a határidőt, ami 2012. április 14.
--   **Értékesítés várható kifizetési dátuma:** 2012. április 27. Ezt a dátumot úgy számítja ki a rendszer, hogy a **Projektvezetési és könyvelési paraméterek** oldalon, az **Általános puffernapok** mezőben megadott napok számát hozzáadja a **Projektszerződések** oldalon található **Egyedi puffernapok** mezőben szereplő napok számához, majd az így kapott értéket hozzáadja a **Határidő** mezőben szereplő napok számához. Ebben a példában az **Általános puffernapok** mezőben megadott érték **3** , míg az **Egyedi puffernapok** mezőben a **10** szerepel. Így 13 napot kell hozzáadni a határidőhöz, hogy megkapja az értékesítés várható kifizetési dátumát, ami 2012. április 27.
+-   **Értékesítés várható kifizetési dátuma:** 2012. április 27. Ezt a dátumot úgy számítja ki a rendszer, hogy a **Projektvezetési és könyvelési paraméterek** oldalon, az **Általános puffernapok** mezőben megadott napok számát hozzáadja a **Projektszerződések** oldalon található **Egyedi puffernapok** mezőben szereplő napok számához, majd az így kapott értéket hozzáadja a **Határidő** mezőben szereplő napok számához. Ebben a példában az **Általános puffernapok** mezőben megadott érték **3**, míg az **Egyedi puffernapok** mezőben a **10** szerepel. Így 13 napot kell hozzáadni a határidőhöz, hogy megkapja az értékesítés várható kifizetési dátumát, ami 2012. április 27.
 
 Az általános puffernapok az egyedi puffernapok helyébe léphetnek, de hozzá is adódhatnak ezekhez:
 
--   Ha az általános puffernapokat az egyedi puffernapok helyett szeretné használni, akkor adja meg a határidő és az ügyfelek tényleges fizetési dátuma között eltelt napok átlagát.
+-   Ha az általános puffernapokat az egyedi puffernapok helyett szeretné használni, akkor adja meg a határidő és az ügyfelek tényleges fizetési dátuma között eltelt napok átlagát.
 -   Ha az általános puffernapokat szeretné hozzáadni az egyedi puffernapokhoz, akkor az **Általános puffernapok** mezőben adja meg a becslését, hogy hány nap telik el aközött, hogy az ügyfél elküldi a kifizetést és hogy a szervezet megkapja a kifizetést.
 
 Állítsa be az egyedi puffernapokat a projektszerződésében. A napokat a rendszer az értékesítési számla határideje, valamint a szervezet által az ügyfélnél tapasztalt fizetési minták alapján számítja ki.
@@ -323,9 +323,9 @@ A megadott napok alapján a költség kifizetési dátuma eltérhet a projekt d�
 
 Példa: a tranzakció projektdátuma 2012. március 5., és az alábbi fizetési feltételek érvényesek:
 
--   **Órák:** hó vége ( **M** )
--   **Költségek:** 14 nap ( **D14** )
--   **Cikkek:** 30 nap ( **D30** )
+-   **Órák:** hó vége (**M**)
+-   **Költségek:** 14 nap (**D14**)
+-   **Cikkek:** 30 nap (**D30**)
 
 E beállítások alapján az egyes tranzakciótípusok esetén a következőképp alakul a költségek kifizetési dátuma:
 

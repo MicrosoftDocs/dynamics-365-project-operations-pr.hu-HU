@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128061"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287781"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Kézi proforma számla létrehozása
 
@@ -30,7 +30,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 A számlázás használata esetén a projektvezetők egy második szintű jóváhagyást kapnak, mielőtt elkészítik a számlákat az ügyfelek számára. Az első szintű jóváhagyás akkor fejeződik be, amikor a projektcsoport tagjai által benyújtott idő- és költségbejegyzéseket jóváhagyják.
 
-A Dynamics 365 Project Operationst nem az ügyféloldali számlák előállítására tervezték, a következő okok miatt:
+A Dynamics 365 Project Operations rendszert nem az ügyféloldali számlák előállítására tervezték, a következő okok miatt:
 
 - Nem tartalmaz adóinformációkat.
 - Megfelelően beállított árfolyamok használatával sem válthat át más valutákat a számlázási pénznemre.

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287691"
 ---
 # <a name="manage-a-proforma-invoice"></a>Proforma számla kezelése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Dynamics 365 Project Operationsban a proforma számlák a Dynamics 365 Salesben szereplő számlák bővítményeként jönnek létre. A számlázás során azonban számos különbség van a számlázási folyamatban a Sales és a Project Operations között. Például nem lehet új számlát létrehozni a Project Operations **Számlák listája** oldaláról, de a Salesben igen. Ezek a különbségek és bővítmények olyan projektek számlázási folyamatainak támogatásához szükségesek, amelyek eltérnek az értékesítési rendelések tipikus számláitól.
+A Dynamics 365 Project Operations alkalmazásban a proforma számlák a Dynamics 365 Salesben szereplő számlák bővítményeként jönnek létre. A számlázás során azonban számos különbség van a számlázási folyamatban a Sales és a Project Operations között. Például nem lehet új számlát létrehozni a Project Operations **Számlák listája** oldaláról, de a Salesben igen. Ezek a különbségek és bővítmények olyan projektek számlázási folyamatainak támogatásához szükségesek, amelyek eltérnek az értékesítési rendelések tipikus számláitól.
 
 > [!IMPORTANT]
 > A különbségek miatt a számlák nem használhatók fel egymás helyettesítéseként a Sales és a Project Operations szolgáltatásban.

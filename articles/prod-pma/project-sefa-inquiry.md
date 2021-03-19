@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078076"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288967"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
 
@@ -62,7 +62,7 @@ Be kell állítania azokat a CFDA-számokat, amelyek támogatásokhoz adhatók �
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>A szövetségi díjak kiadásának ütemezésére vonatkozó lekérdezés ütemezéséhez a jelentésekre vonatkozó támogatások beállítása
 
 1. Lépjen a **Projektmenedzsment és könyvelés \> Támogatások \> Támogatások** részre és válasszon egy meglévő támogatást.
-2. A **telepítés** gyorslapon, a **szövetségi belföldi támogatási katalógus** mezőben a CFDA-számot rendelje hozzá. A támogatás CFDA száma határozza meg a jelentéskészítéshez szükséges CFDA-fürtöt.
+2. A **Telepítés** gyorslapon, a **Szövetségi belföldi támogatási katalógus** mezőben a CFDA-számot rendelje hozzá. A támogatás CFDA száma határozza meg a jelentéskészítéshez szükséges CFDA-fürtöt.
 3. A **kapcsolatfelvételi adatok** gyorslapon adja meg a támogatóra vonatkozó információkat a következő lépések végrehajtásával:
 
     1. A **támogatott ügyfél** mezőben adja meg a támogatásért felelős ügyfelet. Meglévő támogatás esetén előfordulhat, hogy a rendszer ezeket az adatokat már megadta.
@@ -79,8 +79,8 @@ A szövetségi kormány egy állam számára infrastrukturális projektet finans
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Támogatások kizárása a SEFA-jelentésből a támogatás típusa alapján
 
-1. Válassza a **Projektmenedzsment és könyvelés \> Beállítás \> Támogatás \> Támogatási típus** elemet.
-2. Az **Alapértelmezett információ** gyorslapon jelölje be a **Szövetségi díjak kiadásainak ütemezéséből való kizárás** jelölőnégyzetet.
+1. Válassza a **Projektmenedzsment és könyvelés \> Beállítás \> Támogatás \> Támogatási típus** elemet.
+2. Az **Alapértelmezett információ** gyorslapon jelölje be a **Szövetségi díjak kiadásainak ütemezéséből való kizárás** jelölőnégyzetet.
 3. Válassza a **Mentés** lehetőséget a módosítások mentéséhez.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>A szövetségi díjak kiadásainak ütemezésére vonatkozó lekérdezés futtatása

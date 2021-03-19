@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288832"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projektszintű időnyilvántartás mobilalkalmazás
 
@@ -76,7 +76,7 @@ A **Projekt** mezőben jelölje ki azt a projektet, amelyhez időt szeretne mega
 
 Az ügyfél- és projektkeresések mind az ügyfeleken, mind a projekteken lehetővé teszik a keresést.
 
-Adja meg a kívánt adatokat a **Kategória** , a **Tevékenység** , a **Sortulajdonság** , az **Áfacsoport** és az **Cikk áfacsoportja** mezőkben. Ezeket a mezőket felülírhatja.
+Adja meg a kívánt adatokat a **Kategória**, a **Tevékenység**, a **Sortulajdonság**, az **Áfacsoport** és az **Cikk áfacsoportja** mezőkben. Ezeket a mezőket felülírhatja.
 
 A **Sortulajdonság** mező alapértelmezett értékre lesz beállítva a projektmenedzsment és a könyvelési paraméterek alapján. Ha a projekt/kategória és a kategória/erőforrás paraméterek engedélyezve vannak, a **Sortulajdonság** értékét a rendszer az érvényesítéshez megadott alapértelmezett értékre állítja be. Ha a projekt/kategória és a kategória/erőforrás paraméterek nincsenek engedélyezve, a **Sortulajdonság** értéke alapértelmezésre áll be az **Alapértelmezett sortulajdonság engedélyezése** mező alapján a **Projektmenedzsment és könyvelési paraméterek** lapon. A **Sortulajdonság** értéke felülírható.
 
@@ -95,7 +95,7 @@ A **Küldés** gombra kattintva elküldheti a munkaidő-nyilvántartást a jóv�
 
 ## <a name="review-timesheets"></a>Munkaidő-nyilvántartások áttekintése
 
-Az áttekinteni kívánt munkaidő-nyilvántartások listája elérhető a menüben. Ez a beállítás csak akkor érhető el, ha a rendszer a munkafolyamat jóváhagyókjaént jelölte meg. A fejléc és a sor jóváhagyása egyaránt támogatott. A sorszintű jóváhagyás lehetővé teszi egy vagy több sor megjelölését jóváhagyásra. A munkaidő-nyilvántartás adatainak áttekintése után kattintson a **Jóváhagyás** , a **Delegálás** vagy a **Visszatérés** lehetőségre a munkafolyamat folytatásához.
+Az áttekinteni kívánt munkaidő-nyilvántartások listája elérhető a menüben. Ez a beállítás csak akkor érhető el, ha a rendszer a munkafolyamat jóváhagyókjaént jelölte meg. A fejléc és a sor jóváhagyása egyaránt támogatott. A sorszintű jóváhagyás lehetővé teszi egy vagy több sor megjelölését jóváhagyásra. A munkaidő-nyilvántartás adatainak áttekintése után kattintson a **Jóváhagyás**, a **Delegálás** vagy a **Visszatérés** lehetőségre a munkafolyamat folytatásához.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

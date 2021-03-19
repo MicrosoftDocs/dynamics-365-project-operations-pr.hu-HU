@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078075"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289012"
 ---
 # <a name="project-resource-scheduling-performance"></a>Projekterőforrás ütemezési teljesítménye
 
@@ -54,7 +54,7 @@ Az erőforrás-ütemezés teljesítménynövelésének engedélyezéséhez hajts
  > [!NOTE]
  > Ezzel az általános adatokat szétotsztja a **ResCalendarCapacity** táblába a környezet minden vállalatában, így a kötegelt feldolgozást csak egy jogi személyben kell futtatni. Az ebben a kötegelt feldolgozásban szereplő adatok szükségesek az erőforrás-kapacitásnak a hozzárendelt naptáron keresztüli kiszámításához.
 
-8. Nyissa meg a **projektmenedzsment és a könyvelés** > **időszakos** > **Projekterőforrások** > **Projekterőforrások kitöltése az összes vállalatban** , majd válassza az **OK** elemet. Ez az adatfrissítési parancsfájl a **ResProjectResource** , a **ResCalendarDateTimeRange** és a **ResEffectiveDateTimeRange** tábláiban lévő általános adatokhoz. A **PSAPRojSchedRole.RootActivity** mező értékeit is frissíti a rendszer. Ha ez nem történik meg, akkor figyelmeztetés jelenik meg, amikor megpróbálja végrehajtani az erőforrás-ütemezési műveleteket.
+8. Nyissa meg a **projektmenedzsment és a könyvelés** > **időszakos** > **Projekterőforrások** > **Projekterőforrások kitöltése az összes vállalatban**, majd válassza az **OK** elemet. Ez az adatfrissítési parancsfájl a **ResProjectResource** , a **ResCalendarDateTimeRange** és a **ResEffectiveDateTimeRange** tábláiban lévő általános adatokhoz. A **PSAPRojSchedRole.RootActivity** mező értékeit is frissíti a rendszer. Ha ez nem történik meg, akkor figyelmeztetés jelenik meg, amikor megpróbálja végrehajtani az erőforrás-ütemezési műveleteket.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Erőforrás-ütemezési teljesítmény fokozásának kikapcsolása
 
@@ -68,7 +68,7 @@ Az erőforrás-ütemezés teljesítménynövelésének engedélyezéséhez hajts
 8. Kattintson az **OK** gombra.
 
 > [!NOTE]
-> Ezzel az általános adatokat szétotsztja a **ResRollup** táblába a környezet minden vállalatában, így a kötegelt feldolgozást csak egy jogi személyben kell futtatni. Ez a kötegelt feldolgozás az összes **erőforrás-elérhetőségi** nézet esetében szükséges. Ha a kötegelt feldolgozást nem futtatják le, akkor a **ResRollup** -adatok menet közben jönnek létre, ami időt vesz igénybe.
+> Ezzel az általános adatokat szétotsztja a **ResRollup** táblába a környezet minden vállalatában, így a kötegelt feldolgozást csak egy jogi személyben kell futtatni. Ez a kötegelt feldolgozás az összes **erőforrás-elérhetőségi** nézet esetében szükséges. Ha a kötegelt feldolgozást nem futtatják le, akkor a **ResRollup**-adatok menet közben jönnek létre, ami időt vesz igénybe.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
