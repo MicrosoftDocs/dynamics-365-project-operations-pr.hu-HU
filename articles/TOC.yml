@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Újdonságok
       items:
+        - name: 2021. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -64,7 +66,7 @@
           items:
             - name: Projekt lehetőségeinek kezelése – áttekintés
               href: sales/manage-project-based-opportunities.md
-            - name: Projektalapú lehetőség beállításai
+            - name: Fejlécadatok projektalapú lehetőségek esetében
               href: sales/opportunity-header.md
             - name: Projektalapú lehetőségsorok
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Projektárajánlatok kezelése – áttekintés
               href: pro/sales/manage-quotes-sales.md
-            - name: Projektárajánlatok fogalmai
+            - name: A csak projektalapú árajánlatokra jellemző fogalmak
               href: sales/quotes-key-concepts.md
-            - name: Projektárajánlatok beállításai
+            - name: Fejlécadatok projektalapú árajánlatok esetében
               href: sales/quote-values-budget-limits-contract.md
             - name: Több ügyfél kezelése egy projektárajánlaton
               href: sales/manage-multiple-customers-quote.md
             - name: Projektárlisták kezelése árajánlatokon
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektalapú árajánlatsorok
               items:
                 - name: Projektalapú árajánlatsorok áttekintése
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Több ügyfél kezelése projektalapú árajánlatsorokon
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Projektek és feladatok leképezése egy projektalapú árajánlatsorokba
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: A projektalapú árajánlatsor felszámítható összetevőinek konfigurálása
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: A projektárajánlatsor felszámítható összetevőinek konfigurálása
                   href: sales/configure-chargeable-quoteline.md
-                - name: Becslések létrehozása egy árajánlatsoron
+                - name: Projekt árajánlatsorának becslése
                   href: sales/create-estimate-quote-line.md
                 - name: Projektbecslések importálása egy projektalapú árajánlatsorból
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Projektszerződések kezelése – áttekintés
               href: pro/sales/manage-contracts-sales.md
-            - name: Projektszerződések fogalmai
+            - name: A csak projektalapú szerződésekre jellemző fogalmak
               href: sales/contracts-key-concepts.md
-            - name: Projektszerződés beállításai
+            - name: Fejlécadatok projektalapú szerződések esetében
               href: sales/project-contract-settings.md
             - name: Projektárlisták kezelése projektszerződéseken
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Projektalapú szerződéssorok
               items:
                 - name: Projektalapú szerződéssorok áttekintése
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Több ügyfél kezelése projektalapú szerződéssorokon
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Projektalapú szerződéssor becslése
+                - name: Projektek és feladatok leképezése egy projektszerződéssoron
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: A projektszerződéssor számlázható összetevőinek konfigurálása
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Projektszerződéssor becslése
                   href: sales/create-estimate-contract-line.md
                 - name: Projektbecslések importálása egy projektalapú szerződéssorból
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektszerződés jóváhagyása
               href: pro/sales/confirm-contract-sales.md
-            - name: Projektszerződés másolása
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Előlegek és foglalók
               items:
                 - name: Foglalón alapuló szerződések beállítása
@@ -146,16 +152,16 @@
       items:
         - name: Árlista beállítása
           items:
-            - name: Árlisták beállítása
+            - name: Árlista meghatározása
               href: pricing-costing/price-list-setup.md
-            - name: Termékárlisták
-              href: pricing-costing/product-price-list.md
             - name: A munka számlázási arányának beállítása
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: A munka költségarányának beállítása
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Költség- és értékesítési árak beállítása a kiadásokhoz
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Költség- és értékesítési árak beállítása az anyagokhoz
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Alapértelmezések és felülbírálások
           items:
             - name: Alapértelmezett árlisták
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Árlisták másolása
               href: pricing-costing/copy-price-lists.md
+            - name: Árlisták inaktiválása
+              href: pricing-costing/deactivatepricelists.md
         - name: Árképzési dimenziók
           items:
             - name: Árképzési dimenziók áttekintése
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Hozzárendelések létrehozása
               href: project-management/create-assignments.md
-        - name: Becslésprojektek
+        - name: Projektekre vonatkozó pénzügyi becslések
           items:
-            - name: Becslésprojektek áttekintése
+            - name: Pénzügyi becslésekre vonatkozó fogalmak
               href: project-management/estimating-projects-overview.md
-            - name: Erőforrásbecslések
+            - name: Erőforrásokhoz kapcsolódó idő pénzügyi becslései projekteknél
               href: project-management/resource-estimates.md
-            - name: Költségbecslések létrehozása
+            - name: Költségekre vonatkozó pénzügyi becslések projekteknél
               href: project-management/create-expense-estimates.md
+            - name: Anyagokra vonatkozó pénzügyi becslések projekteknél
+              href: project-management/create-material-estimate.md
         - name: Projekt nyomon követése
           items:
-            - name: Projekt nyomon követésének áttekintése
+            - name: Projektekhez kapcsolódó erőfeszítés nyomon követése
               href: project-management/project-tracking-overview.md
+            - name: Projektekre vonatkozó munkaköltség nyomon követése
+              href: project-management/project-cost-tracking.md
+            - name: Projektekre vonatkozó munkabevétel nyomon követése
+              href: project-management/project-sales-tracking.md
             - name: Befejezéskori költség becslésének frissítése
               href: project-management/update-completed-estimate.md
         - name: Projektcsoporttagok
@@ -248,6 +262,8 @@
           items:
             - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
               href: project-management/dev-copy-project.md
+            - name: Ütemezési API-k használata (nyilvános előzetes verzió)
+              href: project-management/schedule-api-preview.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -366,18 +382,24 @@
           items:
             - name: ÁFA-visszaigénylés
               href: expense/vat-recovery.md
+    - name: Anyagfelhasználás
+      items:
+        - name: Anyaghasználat rögzítése projekteknél és projektfeladatoknál
+          href: material/material-usage-log.md
     - name: Jóváhagyások
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
         - name: Fejlesztői jegyzetek
           items:
-            - name: Fejlesztői jegyzetek a Jóváhagyásokhoz
+            - name: Fejlesztői jegyzetek a jóváhagyásokhoz
               href: approvals/dev-notes-approvals.md
     - name: Tények
       items:
         - name: Tények áttekintése
           href: actuals/actuals-overview.md
+        - name: Tények csatolása az eredeti rekordokhoz
+          href: actuals/linkingactuals.md
         - name: Helyesbítő naplók
           items:
             - name: Helyesbítő naplók létrehozása és megerősítése
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma számlázás
           items:
-            - name: Projekt számlázási elmaradásának kezelése
+            - name: Projektalapú számlázási elmaradás kezelése
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Nem meghaladandó állapot és ellenőrzések kezelése
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Proforma projektszámla manuális létrehozása
+            - name: Projektalapú proforma számlák
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Proforma projektszámla kezelése
+            - name: Projektalapú proforma számla kezelése
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Foglaló vagy előleg számlázása
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Proforma projektszámla megerősítése
+            - name: Projektalapú proforma számla megerősítése
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Projektszámla-automatizálás konfigurálása
+            - name: Projektalapú helyesbítő számlák létrehozása
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Projektalapú számlák automatizálásának konfigurálása
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projekt könyvelése
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021. áprilisban – egyszerű telepítés
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Újdonságok 2021. márciusban – egyszerű telepítés
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Újdonságok 2021. februárban – egyszerű telepítés
@@ -486,7 +512,7 @@
           items:
             - name: Projekt lehetőségeinek áttekintése
               href: sales/manage-project-based-opportunities.md
-            - name: Projektlehetőség beállításai
+            - name: Fejlécadatok projektlehetőségek esetében
               href: pro/sales/opportunity-header-sales.md
             - name: Termékalapú lehetőségsorok kezelése
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Projektalapú árajánlatok áttekintése
               href: pro/sales/manage-quotes-sales.md
-            - name: Projektárajánlat fogalmai
+            - name: A csak projektárajánlatokra jellemző fogalmak
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Projektárajánlat beállításai
+            - name: Fejlécadatok projektárajánlatok esetében
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Több ügyfél projektárajánlatokon
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Projektalapú szerződések áttekintése
               href: pro/sales/manage-contracts-sales.md
-            - name: Projektszerződés fogalmai
+            - name: A csak projektszerződésekre jellemző fogalmak
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Projektszerződés beállításai
+            - name: Fejlécadatok projektszerződések esetében
               href: pro/sales/project-contract-settings-sales.md
             - name: Több ügyfél egy projektszerződésen
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Árlista beállítása
           items:
-            - name: Árlisták beállítása
+            - name: Árlista meghatározása
               href: pricing-costing/price-list-setup.md
-            - name: Értékesítési árlista beállítása
-              href: pricing-costing/sales-price-list-setup.md
-            - name: A munka számlázási arányának beállítása – Lite
+            - name: Termékárlisták beállítása
+              href: pricing-costing/product-price-list.md
+            - name: A munka számlázási arányának beállítása
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: A munka költségarányának beállítása – Lite
+            - name: A munka költségarányának beállítása
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Költség- és értékesítési árak beállítása a katalógustermékekhez – Lite
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Költség- és értékesítési árak beállítása a kiadásokhoz
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Költség- és értékesítési árak beállítása az anyagokhoz
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Alapértelmezések és felülbírálások
           items:
             - name: Alapértelmezett árlisták
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekt értékesítési árlistáinak felülbírálása
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Az önköltségi árak megoldása a becsléseken és a tényeken – Lite
+            - name: Az önköltségi árak megoldása a becsléseken és a tényeken
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Az értékesítési árak megoldása a becslésekhez és a tényekhez - Lite
+            - name: Az értékesítési árak megoldása a becslésekhez és a tényekhez
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Árlisták másolása
               href: pricing-costing/copy-price-lists.md
+            - name: Projektárlisták inaktiválása
+              href: pricing-costing/deactivatepricelists.md
         - name: Árképzési dimenziók
           items:
             - name: Árképzési dimenziók áttekintése
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Hozzárendelések létrehozása
               href: project-management/create-assignments.md
-        - name: Becslésprojektek
+        - name: Projektekre vonatkozó pénzügyi becslések
           items:
-            - name: Becslésprojektek áttekintése
+            - name: Pénzügyi becslésekre vonatkozó fogalmak
               href: project-management/estimating-projects-overview.md
-            - name: Erőforrásbecslések
+            - name: Erőforrásokhoz kapcsolódó idő pénzügyi becslései projekteknél
               href: project-management/resource-estimates.md
-            - name: Költségbecslések létrehozása
+            - name: Költségekre vonatkozó pénzügyi becslések projekteknél
               href: project-management/create-expense-estimates.md
+            - name: Anyagokra vonatkozó pénzügyi becslések projekteknél
+              href: project-management/create-material-estimate.md
         - name: Projekt nyomon követése
           items:
-            - name: Projekt nyomon követésének áttekintése
+            - name: Projektekhez kapcsolódó erőfeszítés nyomon követése
               href: project-management/project-tracking-overview.md
+            - name: Projektekre vonatkozó munkaköltség nyomon követése
+              href: project-management/project-cost-tracking.md
+            - name: Projektekre vonatkozó munkabevétel nyomon követése
+              href: project-management/project-sales-tracking.md
             - name: Befejezéskori költség becslésének frissítése
               href: project-management/update-completed-estimate.md
         - name: Projektcsoporttagok
@@ -694,6 +728,8 @@
           items:
             - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
               href: project-management/dev-copy-project.md
+            - name: Ütemezési API-k használata (nyilvános előzetes verzió)
+              href: project-management/schedule-api-preview.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -768,18 +804,24 @@
           href: expense/expense-overview.md
         - name: Költségbejegyzés (Lite)
           href: expense/basic-expense.md
+    - name: Anyagfelhasználás
+      items:
+        - name: Anyaghasználat rögzítése projekteknél és projektfeladatoknál
+          href: material/material-usage-log.md
     - name: Jóváhagyások
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
         - name: Fejlesztői jegyzetek
           items:
-            - name: Fejlesztői megjegyzések a Jóváhagyásokhoz
+            - name: Fejlesztői jegyzetek a jóváhagyásokhoz
               href: approvals/dev-notes-approvals.md
     - name: Tények
       items:
         - name: Tények áttekintése
           href: actuals/actuals-overview.md
+        - name: Tények csatolása az eredeti rekordokhoz
+          href: actuals/linkingactuals.md
         - name: Helyesbítő naplók
           items:
             - name: Helyesbítő naplók létrehozása és megerősítése
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Nem meghaladandó állapot és ellenőrzések kezelése
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Proforma projektszámla manuális létrehozása
+        - name: Proforma projektszámlák
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Proforma projektszámla kezelése
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021. márciusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Újdonságok 2021. januárban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Újdonságok 2020. decemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Projekt számlázása
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Projektszámla-javaslatok teljesítménye
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektszerződések
       href: prod-pma/project-contracts.md
     - name: Speciális szerződések létrehozása folyamatalapú számlázáshoz
@@ -950,8 +996,12 @@
       href: psa/overview.md
     - name: Újdonságok
       items:
-        - name: A Project Service 3.x frissítési kiadásának ütemezése
+        - name: A Project Service 3.x frissítési kiadásának frissítése
           href: psa/version-history-ps.md
+        - name: A 30-as frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-30.md
+        - name: A 29.5-ös frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-29-5.md
         - name: A 29-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-29.md
         - name: A 28.6-os frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
