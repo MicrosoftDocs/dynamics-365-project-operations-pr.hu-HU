@@ -3,17 +3,17 @@ title: Számlázható projektek könyvelésének konfigurálása
 description: A témakör a számlázható projektek könyvelési lehetőségeivel kapcsolatos információkat biztosít.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287646"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858656"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Számlázható projektek könyvelésének konfigurálása
 
@@ -58,13 +58,25 @@ A következő lépések végrehajtásával hozzon létre egy új projektköltsé
 
          - **Egyenleg**: A Project Operations integrációs naplóba történő feladáskor a rendszer a kiadási tranzakciós költséget a *Folyamatban lévő munka – költségértéke* főkönyvi számla típusra terheli a **Főkönyvi feladás beállítása** oldal **Költség** lapján megadott módon, és a naplósor ellenszámlájára írja jóvá. Az alapértelmezett ellenszámla a költségekhez a **Projektmenedzsment és könyvelés** > **Beállítás** \> **Feladás** \> **Alapértelmezett ellenszámla a költségekhez** részben van meghatározva. A könyvelő a **Költségek könyvelése** funkció segítségével rendszeres időszakonként áthelyezi ezt a költséget a mérlegszámláról egy eredményszámlára.
         - **Eredmény**: A Project Operations integrációs naplóba történő feladáskor a rendszer a kiadási tranzakciós költséget a *Költség* főkönyvi számla típusra terheli a **Főkönyvi feladás beállítása** oldal **Költség** lapján megadott módon, és a naplósor ellenszámlájára írja jóvá. Az alapértelmezett ellenszámla a költségekhez a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Feladás** \> **Alapértelmezett ellenszámla a költségekhez** részben van meghatározva.
+      
+    - **Költségek könyvelése – cikk**:
+
+         - **Egyenleg**: A Project Operations integrációs naplójának könyvelésekor a cikktranzakció költsége a Főkönyvi számla típusa *WIP – Költségérték – cikk* lesz, amint az meg van határozva a **Főkönyv könyvelési beállítás** lap **Költség** fülén, és a következő jóváírást tette:
+    
+              - Dokumentumtípus használatához: **Költség - cikk** számla a **Főkönyvi könyvelési beállításon**.  
+              - Dokumentumtípus vásárlásához: **Beszerzési integrációs fiók** a **Projektmenedzsment és a könyvelési paramétereken**.
+           A könyvelő a **Költségek könyvelése** funkció segítségével rendszeres időszakonként áthelyezi ezt a költséget a mérlegszámláról egy eredményszámlára.
+        - **Profit és veszteség**: A Project Operations integrációs naplójának könyvelésekor a cikktranzakció költsége a Főkönyvi számla típusa *Költség* lesz, amint az meg van határozva a **Főkönyv könyvelési beállítás** lap **Költség** fülén, és a következő jóváírást tette:
+         
+             - Dokumentumtípus használatához: **Költség - cikk** számla a **Főkönyvi könyvelési beállításon**.  
+             - Dokumentumtípus vásárlásához: **Beszerzési integrációs fiók** a **Projektmenedzsment és a könyvelési paramétereken**.
        
     - **Partneren történő számlázás**:
 
         - **Egyenleg**: A Projektszámlázási javaslat feladásakor egy számlára irányuló tranzakció (számlázási mérföldkő) kerül jóváírásra a *Számlázott folyamatban lévő munka – számlára* főkönyvi számlatípuson a **Főkönyvi feladás beállítása** oldal **Bevétel** lapján megadott módon, és terhelésre kerül az Ügyfél egyenlegszámláján.
          - **Eredmény**: A Projektszámlázási javaslat feladásakor egy számlára irányuló tranzakció (számlázási mérföldkő) kerül jóváírásra a *Számlázott bevétel – számlára* főkönyvi számlatípuson a **Főkönyvi feladás beállítása** oldal **Bevétel** lapján megadott módon, és terhelésre kerül az Ügyfél egyenlegszámláján. Az ügyfélegyenleg-számlák a **Követelések** \> **Beállítás** \> **Ügyfélfeladási profilok** részben vannak meghatározva.
 
-   Ha Idő- és anyagalapú számlázási módszerekhez határoz meg feladási profilokat, akkor lehetőség van a bevétel tranzakciótípus (óra, költség és díj) szerinti elhatárolására. Ha az **Elhatárolt bevétel** beállítás értéke **Igen**, akkor a Project Operations integrációs naplójában a nem számlázott értékesítési tranzakciók a főkönyvi naplóban kerülnek rögzítésre. Az értékesítési érték a **Folyamatban lévő munka – értékesítési érték számlán** kerül terhelésre, és az **Elhatárolt bevétel – értékesítési érték** számlán kerül jóváírásra, amely a **Főkönyvi feladás beállítása** lapon, a **Bevétel** lapon van beállítva. 
+   Az idő- és anyagszámlázási módszerek könyvelési profiljainak meghatározásakor tranzakciótípusonként (óra, költség, cikk és díj) bevétel halmozódhat fel. Ha az **Elhatárolt bevétel** beállítás értéke **Igen**, akkor a Project Operations integrációs naplójában a nem számlázott értékesítési tranzakciók a főkönyvi naplóban kerülnek rögzítésre. Az értékesítési érték a **Folyamatban lévő munka – értékesítési érték számlán** kerül terhelésre, és az **Elhatárolt bevétel – értékesítési érték** számlán kerül jóváírásra, amely a **Főkönyvi feladás beállítása** lapon, a **Bevétel** lapon van beállítva. 
   
   > [!NOTE]
   > Az **Elhatárolt bevétel** lehetőség csak akkor érhető el, ha a megfelelő **Költség** tranzakciótípus feladásra kerül az eredményszámlára.

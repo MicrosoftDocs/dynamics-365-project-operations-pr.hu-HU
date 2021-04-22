@@ -1,22 +1,22 @@
 ---
-title: Az önköltségi árak megoldása a becsléseken és a tényeken – Lite
-description: Ez a témakör a becsléseken a tényadatok önköltségi árának feloldásával kapcsolatban tartalmaz tájékoztatást.
+title: Az önköltségi árak megoldása a becsléseken és a tényeken
+description: Ez a témakör arról nyújt tájékoztatást, hogy a költségárakat hogyan használják a projektbecslésekhez, és a tényadatok hogyan lesznek megoldva.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274552"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877268"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Az önköltségi árak megoldása a becsléseken és a tényeken – Lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Az önköltségi árak megoldása a becsléseken és a tényeken 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -36,6 +36,12 @@ Az önköltségi árlista feloldása után az Idő becslési sorában szereplő 
 A Költség becslés sorai az ajánlatra, a költségekhez tartozó szerződéssor részleteire és a projekt költségbecslési soraira vonatkozik.
 
 A költségárlista feloldása után a rendszer a költségbecslés sor **Kategória** és **Egység** mezőinek kombinációját használja a feloldott árlista **Kategóriaársor** lehetőséggel való egyezéshez. Ha a rendszer egy olyan kategória-ársort talál, amely rendelkezik önköltségi rátával a **Kategória** és az **Egység** mező kombinációjára, akkor az önköltségi ráta alapértelmezés szerint megjelenik. Ha a rendszer nem tudja egyeztetni a **Kategória** és az **Egység** értékeket, vagy ha talál egy megfelelő kategóriaársort, de az árképzési mód nem az **Egységár**, akkor a költségarány az alapértelmezett nulla (0) lesz.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Költségárak megoldása a tényekhez és a becslésekhez az Anyag számára
+
+Az Anyagra vonatkozó becsléssorok az anyagra vonatkozó ajánlatsor- és szerződéssor-részletekre hivatkoznak, valamint a projekt anyagbecslését jelölik.
+
+Az önköltségi árlista feloldása után a rendszer a becsült sor **Termék** és **Kiszerelés** mezőinek kombinációját használja az anyagbecsléshez, hogy megfeleljen a feloldott árlista **Árlistaelemek** sorainak. Ha a rendszer olyan termékársort talál, amely a **Termék** és **Kiszerelés** mezőkombináció költségarányát tartalmazza, a költségarány alapértelmezettre lesz beállítva. Ha a rendszer nem tudja összeegyeztetni a **Termék** és **Kiszerelés** értékeket, vagy ha meg tudja találni az egyező árlistaelemsort, de az árképzési módszer a Standard költségen vagy a Jelenlegi költségen alapul, és egyik sincs meghatározva a terméken, akkor a kiszerelésköltség alapértelmezés szerint nulla.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

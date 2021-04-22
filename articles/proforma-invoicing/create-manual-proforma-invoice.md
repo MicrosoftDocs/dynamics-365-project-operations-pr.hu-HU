@@ -1,42 +1,27 @@
 ---
-title: Kézi proforma számla létrehozása
-description: Ez a témakör a proforma számlák létrehozását ismerteti.
+title: Proforma számlák
+description: Ez témakör a Project Operations szolgáltatásban lévő proforma számlákról nyújt információt.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287781"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866864"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Kézi proforma számla létrehozása
+# <a name="proforma-invoices"></a>Proforma számlák
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A számlázás használata esetén a projektvezetők egy második szintű jóváhagyást kapnak, mielőtt elkészítik a számlákat az ügyfelek számára. Az első szintű jóváhagyás akkor fejeződik be, amikor a projektcsoport tagjai által benyújtott idő- és költségbejegyzéseket jóváhagyják.
+A Proforma számlázás azért hasznos, mert a projektvezetőknek egy második szintű jóváhagyást biztosít, mielőtt számlákat készítenek az ügyfelek számára. Az első szintű jóváhagyás akkor fejeződik be, amikor a projektcsoport tagjai által benyújtott idő-, költség- és anyagbejegyzéseket jóváhagyják. A megerősített proforma számlák a Project Operations Projektkönyvelés modulban érhetők el. A projektkönyvelők további frissítéseket is végrehajtanak, például áfakódot, könyvelést és számlaelrendezést.
 
-A Dynamics 365 Project Operations rendszert nem az ügyféloldali számlák előállítására tervezték, a következő okok miatt:
-
-- Nem tartalmaz adóinformációkat.
-- Megfelelően beállított árfolyamok használatával sem válthat át más valutákat a számlázási pénznemre.
-- Nem tudja úgy formázni a számlákat, hogy kinyomtathatók legyenek.
-
-A létrehozott számlajavaslatokból származó információkat használó ügyféloldali számlák létrehozására ehelyett használhat pénzügyi vagy számviteli rendszert.
 
 ## <a name="creating-project-invoices"></a>Projektszámlák létrehozása
 
@@ -50,7 +35,7 @@ Kövesse ezeket a lépéseket egy adott projektszerződés számlájának létre
 
 - A **Projektszerződések** listán nyissa meg a projektszerződést, majd válassza a **Számla létrehozása** lehetőséget.
 
-    Egy számla készül az összes tranzakcióhoz azon kiválasztott projekt szerződés esetén, amely állapota **Számlázásra kész**. Ezek a tranzakciók magukban foglalják az időt, a költségeket, a mérföldköveket és a termékalapú szerződési sorokat.
+    Egy számla készül az összes tranzakcióhoz azon kiválasztott projekt szerződés esetén, amely állapota **Számlázásra kész**. Ezek a tranzakciók magukban foglalják az időt, költségeket, anyagokat, mérföldköveket és más nem számlázott értékesítési naplósorokat.
 
 Kövesse ezeket a lépéseket az ömlesztett számlák létrehozásához.
 
@@ -60,7 +45,7 @@ Kövesse ezeket a lépéseket az ömlesztett számlák létrehozásához.
 
 2. Az üzenetablak bezárásához válassza az **OK** lehetőséget.
 
-    Egy számla kerül létrehozásra valamennyi tranzakcióhoz olyan szerződéssor esetén, amely állapota **Számlázásra kész**. Ezek a tranzakciók magukban foglalják az időt, a költségeket, a mérföldköveket és a termékalapú szerződési sorokat.
+    Egy számla kerül létrehozásra valamennyi tranzakcióhoz olyan szerződéssor esetén, amely állapota **Számlázásra kész**. Ezek a tranzakciók magukban foglalják az időt, költségeket, anyagokat, mérföldköveket és más nem számlázott értékesítési naplósorokat.
 
 3. A létrehozott számlák megtekintéséhez lépjen az **Értékesítés** \> **Számlázás** \> **Számlák** pontra. Mindegyik projekt-szerződéshez egy számlát fog látni.
 
@@ -93,11 +78,10 @@ A számlák létrehozására szolgáló kötegelt folyamat feladat ismétlődő 
  
 ### <a name="edit-a-draft-invoice"></a>Számlatervezet szerkesztése
 
-Projektszámla-vázlat létrehozásakor minden olyan még nem számlázott értékesítési tranzakció, amelyet az idő- és költségbejegyzésének jóváhagyásának időpontjában hoztak létre, a számlára kerül. A számla vázlatos szakaszában a következő módosításokat végezheti el:
+Projektszámla-vázlat létrehozásakor minden olyan még nem számlázott értékesítési tranzakció, amelyet az idő-, költség- és anyagfelhasználás bejegyzésének jóváhagyásának időpontjában hoztak létre, a számlára kerül. A számla vázlatos szakaszában a következő módosításokat végezheti el:
 
 - A számlasor részleteinek törlése vagy módosítása.
 - A mennyiség és a számlázási típus szerkesztése és módosítása.
-- Idők, költsségek és díjak közvetlen hozzáadása a számlához tranzakcióként. Ezt a funkciót akkor használhatja, ha a számlasor olyan szerződési sorra van leképezve, amely lehetővé teszi ezeket a tranzakciós osztályokat.
 
 A számla megerősítéséhez válassza a **Megerősítés** lehetőséget. A Megerősítés egyirányú művelet. Ha a **Megerősítés** lehetőséget választja, a rendszer a számlát csak olvashatóvá teszi, és tényleges számlázott értékesítési értékeket hoz létre az egyes számlasorok adatairól. Ha a számlasor-adat egy nem számlázott tényleges értékesítésre mutat, akkor a rendszer a nem számlázott értékesítési értéket is megfordítja. (Azon számlasor-adatok, amelyeket egy idő- vagy költségbejegyzés alapján hoztak létre, egy nem számlázott tényleges értékesítésre vonatkoznak.) A főkönyvi integrációs rendszerek ezt a visszafordítást felhasználhatják a folyamatban lévő projektmunka (WIP) megfordítására, számviteli célokból.
 

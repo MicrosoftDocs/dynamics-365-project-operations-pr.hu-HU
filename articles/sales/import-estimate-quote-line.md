@@ -1,6 +1,6 @@
 ---
-title: Projekt becsléseinek importálása egy projektalapú árajánlatsorba
-description: Ez a témakör azt ismerteti, hogyan lehet becsléseket importálni egy projektből egy árajánlatsorba.
+title: Projektbecslések importálása egy projekt árajánlatsorhoz
+description: Ez témakör a projektből történő becslések importálása egy projekt árajánlatsorába műveletről nyújt tájékoztatást.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278331"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858746"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekt becsléseinek importálása egy projektalapú árajánlatsorba
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Projektbecslések importálása egy projekt árajánlatsorhoz
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 

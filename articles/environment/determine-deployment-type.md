@@ -3,17 +3,17 @@ title: A telepítés típusának meghatározása
 description: Ez a témakör a Project Operations az Ön vállalatának megfelelő telepítéstípusának megállapításában segítő információkat tartalmaz.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479567"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663597"
 ---
 # <a name="determine-your-deployment-type"></a>A telepítés típusának meghatározása
 
@@ -44,9 +44,9 @@ A [telepítési kérdőívünk](https://aka.ms/provisionprojectoperations) segí
 - [Projekt Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez](#integrated)
 - [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma)
 
-A Project Operations a készletalapú/gyártási megrendeléseken alapuló forgatókönyveket és a nem készletalapú/erőforrásalapú forgatókönyveket támogatja ugyanazon környezetben, jogientitás-szintű konfigurációkon keresztül. A Contoso például az Egyesült államokbeli gyártási létesítményben a készletezett/termelési rendelés funkcióit használhatja (Jogi személy = Contoso Manufacturing United States). A Contoso a nem készletezett/erőforrás alapú lehetőségeket használhatja a Contoso Robotics Arms karbantartási létesítményében az Egyesült Királyságban (a jogi személy = Contoso Robotics United Kingdom).
+A Project Operations a készletalapú/gyártási megrendeléseken alapuló forgatókönyveket és a nem készletalapú/erőforrásalapú forgatókönyveket támogatja ugyanazon környezetben, jogientitás-szintű konfigurációkon keresztül. Például a Contoso használhatja a készletezett/termelési rendelési képességeket az amerikai gyártóüzemben (Jogi személy = Contoso Manufacturing United States). A Contoso használhatja a nem készletezett/erőforrásalapú képességeket a Contoso Egyesült Királyságban található Robotics Arms szervizüzemében (Jogi személy = Contoso Robotics United Kingdom).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Egyszerű telepítés – proforma számlázás
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Egyszerű központi telepítés – ajánlattól proforma számlázásig
 
 A Lite telepítés a következő lehetőségeket tartalmazza:
 
@@ -56,7 +56,7 @@ A Lite telepítés a következő lehetőségeket tartalmazza:
 - Egyesített erőforrás-kezelés
 - Időkövetés
 - Alapvető költség
-- Proforma és az ügyfél felé irányuló számlázás 
+- Proforma számlázás a Projektmenedzser általi ellenőrzéshez és szerkesztésekhez 
 
 #### <a name="deployment-steps"></a>Központi telepítési lépések
 Határozza meg a Project Operations legjobb telepítési modelljét a [telepítési kérdőív](https://aka.ms/provisionprojectoperations) használatával.
@@ -87,14 +87,14 @@ Ehhez a telepítéshez lásd: [Regisztráció az előzetes verziós előfizetés
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez
 
 - Projekt tervezése WBS használatával
-- Erőforráskezelés
+- Erőforrás-kezelés
 - Időkövetés
 - Teljes költség
 - Bizonylat OCR
 - Teljes számlázás
-- Bevételfelismerés
+- Bevételelszámolás
 - Termelési rendelések
-- Anyagok támogatása
+- Készletezett anyagok támogatása készlettel
 
 #### <a name="deployment-steps"></a>Központi telepítési lépések
 Határozza meg a Project Operations legjobb telepítési modelljét a [telepítési kérdőív](https://aka.ms/provisionprojectoperations) használatával.

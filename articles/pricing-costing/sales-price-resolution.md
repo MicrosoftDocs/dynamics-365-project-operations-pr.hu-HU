@@ -3,17 +3,17 @@ title: Az értékesítési árak megoldása a becslésekhez és a tényekhez
 description: Ez a témakör a becslések és a tényadatok értékesítési díjának megoldásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274956"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877448"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Az értékesítési árak megoldása a becslésekhez és a tényekhez
 
@@ -54,6 +54,17 @@ Miután megoldódott az értékesítési árlista, a rendszer a következő lép
     | &nbsp; | Haszonkulcs feletti költség | A kategória ár sora szerint megadott árrés alkalmazása a kapcsolódó költség tényleges értékének egységköltségrátájára |
 
 4. Ha a rendszernem nem sikerül egyeztetni a **Kategória** és **Egység** mezőértékeket, az értékesítési ráta alapértelmezett értéke nulla lesz (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Értékesítési árak megoldása a tényekhez és a becslésekhez az anyag számára
+
+A Project Operations szolgáltatásban az anyagbecslési sorok az anyagra vonatkozó ajánlatsor- és szerződéssor-részleteket, valamint a projekt anyagbecslési sorait jelölik.
+
+Miután megoldódott az értékesítési árlista, a rendszer a következő lépéseket hajtja végre az értékesítési egységár alapértelmezett értékének meghatározására.
+
+1. A rendszer a becslési sorban szereplő **Termék** és **Egység** mezőkombinációt használja az anyaghoz, hogy megegyezzen a feloldott árlista árlistaelemeivel.
+2. Ha a rendszer olyan árlistaelem sort talál, amely a **Termék** és az **Egység** mezőkombináció eladási díját tartalmazza, illetve az árképzési módszer **Pénznem összege**, akkor a rendszer az árlistasorban megadott eladási árat használja.
+3. Ha a **Termék** és **Egység** mező értékei nem egyeznek, az értékesítési ár nullára csökken.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

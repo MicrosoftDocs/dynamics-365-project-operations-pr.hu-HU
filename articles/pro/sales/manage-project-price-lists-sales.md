@@ -1,27 +1,27 @@
 ---
-title: Projektárlisták kezelése projektárajánlatokon - Lite
-description: Ez a témakör a projektárlisták árajánlatokban történő használatát ismerteti. (Sales)
+title: Projektárlisták kezelése projektárajánlatokon
+description: Ez a témakör a projektárlisták árajánlatokban történő használatát ismerteti.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273021"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858611"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projektárlisták kezelése projektárajánlatokon - Lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Projektárlisták kezelése projektárajánlatokon 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 A projektárajánlatok több dátum szerint érvényes értékesítési árlisták támogatására készültek. A Dynamics 365 Project Operations program hozzáadja a **Projekt árlistái** nevű új társított entitást. Ez az entitás egy a sokhoz típusú kapcsolattal rendelkezik a projektárajánlathoz.
 
-A projektárlisták a projekt idő- és a kiadástranzakcióinak árazására szolgálnak. Ha egy ajánlathoz egy vagy több projektárlista tartozik, akkor ezek az árlisták kerülnek felhasználásra az idő- és költségbecslések, illetve az árajánlaton keresztül az árajánlattal társított projektek tényleges értékeinek árazására.
+A projektárlisták a projekt idő-, anyag- és költségtranzakcióinak árazására használhatók. Ha egy árajánlat egy vagy több projektárlistával rendelkezik, akkor ezek az árlisták az árajánlatsoron keresztül az árajánlathoz társított projektek idő-, anyag-, költségbecslései és tényadatai árazására használhatók.
 
 Ha egy projektárajánlat nem tartalmaz projektárlistát, a rendszer figyelmeztető üzenetet jelenít meg. Az üzenet jelzi, hogy mivel nincsenek projektárlisták, a becsült és a tényleges projektmunka és -költségek nem lesznek beárazva. Ehelyett nulla (0) árat fognak tartalmazni az értékesítési értékek esetében.
 

@@ -1,21 +1,21 @@
 ---
-title: Az értékesítési árak megoldása a becslésekhez és a tényekhez - Lite
-description: Ez a témakör a becslések és a tényadatok értékesítési árának megoldásával kapcsolatban tartalmaz tájékoztatást.
+title: Az értékesítési árak megoldása a projektbecslésekhez és a tényekhez
+description: Ez a témakör az értékesítési árak megoldása a projektbecslésekhez és a tényekhez művelethez nyújt információkat.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274506"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877359"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Az értékesítési árak megoldása a becslésekhez és a tényekhez - Lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Az értékesítési árak megoldása a projektbecslésekhez és a tényekhez
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -55,5 +55,14 @@ Miután megoldódott az értékesítési árlista, a rendszer a következő lép
 
 4. Ha a rendszernem nem sikerül egyeztetni a **Kategória** és **Egység** mezőértékeket, az értékesítési ráta alapértelmezett értéke nulla lesz (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Értékesítési árak megoldása a tényekhez és a becslésekhez az Anyag számára
+
+A Project Operations szolgáltatásban az anyagbecslési sorok az anyagra vonatkozó ajánlatsor- és szerződéssor-részleteket, valamint a projekt anyagbecslési sorait jelölik.
+
+Miután megoldódott az értékesítési árlista, a rendszer a következő lépéseket hajtja végre az értékesítési egységár alapértelmezett értékének meghatározására.
+
+1. A rendszer a becslési sorban szereplő **Termék** és **Egység** mezőkombinációt használja az anyaghoz, hogy megegyezzen a feloldott árlista árlistaelemeivel.
+2. Ha a rendszer olyan árlistaelem sort talál, amely a **Termék** és az **Egység** mezőkombináció eladási díját tartalmazza, illetve az árképzési módszer **Pénznem összege**, akkor a rendszer az árlistasorban megadott eladási árat használja.
+3. Ha a **Termék** és **Egység** mező értékei nem egyeznek, az értékesítési ár nullára csökken.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

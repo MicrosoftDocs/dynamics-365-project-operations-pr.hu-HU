@@ -3,17 +3,17 @@ title: Projektalapú szerződéssor becslése - lite
 description: Ez a témakör információkat nyújt a projektalapú szerződéssorokkal kapcsolatos becslésről.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273540"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858087"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Projektalapú szerződéssor becslése - lite
 
@@ -28,28 +28,33 @@ A projektalapú szerződéssor becsléséhez nyissa meg a **Szerződéssor rész
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Becslés létrehozása közvetlenül egy projektalapú szerződéssoron
 
-1. Nyissa meg a szerződéssort, és válassza a **Szerződéssor részletei** lapot. Az ezen a lapon létrehozott sorokat a rendszer összefoglalja, és a **Szerződött értékként** jeleníti meg ehhez a **Szerződéssorhoz**. 
-2. A **Szerződéssor részletei** alrácsban válassza a **+ Új szerződéssor-részlet** lehetőséget. Megnyílik egy gyorslétrehozás csúszka. A következő mezők a **Szerződéssorok részletei** űrlapon érhetők el:
+Ahhoz, hogy közvetlenül a projektalapú szerződéssoron tudjon becsléseket létrehozni, kövesse az alábbi lépéseket:
 
-| Mező | Hely | Adatfolyam leírása | Alsóbb rétegbeli hatás |
+1. Nyissa meg a szerződéssort, és válassza a **Szerződéssor részletei** lapot. Az ezen a lapon létrehozott sorokat a rendszer összefoglalja, és a **Szerződött értékként** jeleníti meg ehhez a **Szerződéssorhoz**. 
+2. A **Szerződéssor részletei** alrácsban válassza az **Új szerződéssor-részlet** lehetőséget. Megnyílik egy gyorslétrehozás csúszka. A következő mezők a **Szerződéssor részletei** lapon érhetők el.
+
+| Mező | Hely | Ismertetés | Alsóbb rétegbeli hatás |
 | --- | --- | --- | --- |
-| **Leírás** | **Gyorslétrehozás** | Egy adott becslés leírása. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Tranzakció osztálya** | **Gyorslétrehozás** | Ez a legördülő lista a projekt alapú szerződéssor **Általános** lapján szereplő tranzakciós osztályok listáját tartalmazza. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Szerepkör** | **Gyorslétrehozás** | Annak a személynek a szerepköre, aki ezt a munkát teljesíti, vagy ezt a költséget viseli. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Kategória** | **Gyorslétrehozás** | A munka vagy a költség kategóriája. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Kezdő dátum** | **Gyorslétrehozás** | A munka kezdődátuma. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Befejező dátum** | **Gyorslétrehozás** | A munka befejező dátuma. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költséghez. |
-| **Erőforrás-kezelő részleg** | **Gyorslétrehozás** | A beszerzési egység, amely ezt a költséget vállalja, és biztosítja az erőforrást amelyen a munkavégzés történik. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. Ez a mező az önköltségi ár beolvasása esetén is használatos. |
-| **Egységütemezés** | **Gyorslétrehozás** | A munka vagy költség egységcsoportja. Az egységek egy egységütemezéshez vagy egységcsoporthoz tartoznak. Például a *mérföld* és a *kilométer (km)* olyan egység, amely a távolságot leíró egységek csoportjához tartozik. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Egység** | **Gyorslétrehozás** | A munka vagy költség mértékegysége. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Mennyiség** | **Gyorslétrehozás** | A munka vagy költség mennyisége. | Ez a mező alapértelmezés szerint a kapcsolódó szerződéssor részleteit tartalmazza az automatikusan létrehozott költségekhez. |
-| **Egységár** | **Gyorslétrehozás** | A munkát elvégő szerepkör számlázási díja vagy a költségkategória eladási ára. Ez a mező alapértelmezés szerint arra az **Időre** áll be, amely a szerepkör és az erőforrásbiztosító egység kombinációja alapján kezdő dátumként érvényes a projekt árlistájában. A költségek esetében a mező alapértelmezett értéke az árbeállításból származik a projekt árlistában, ami a kezdő dátumon érvényes. Ha a tranzakciós kategória árképzési módja nem **egységár**, nincs alapértelmezett érték, és ez a mező üresen marad. | A munkát elvégő szerepkör költség díja vagy a költségkategória egységára. Ennek a mezőnek az alapértelmezett értéke a **Szerepkörön alapuló idő** és az erőforrásegység kombinációja a szerepkörár során az önköltségi ár listáján, amely a kezdődátumon érvényes szerződő egységhez kapcsolódik. A költségek esetében a mező alapértelmezett értéke az önköltségi árlista kategóriaár során alapul, ami a kezdő dátumon érvényes. Ha a tranzakciós kategória árképzési módja nem egységár, nincs alapértelmezett érték, és ez a mező üresen marad. |
-| **Becsült adó** | **Gyorslétrehozás** | A munkára vagy költségre vonatkozó becsült adó a felhasználó által bevitt adatként. | A munkára vagy költségre vonatkozó becsült adó a felhasználó által bevitt adatként. |
-| **Összeg** | **Gyorslétrehozás** | Ha a **Mennyiség** és az **Ár** mező üres, akkor a felhasználó hozzáadhatja ezt az értéket ebben a mezőben. Ha a **Mennyiség** és az **Ár** ki van töltve, az **Összeg** mező írásvédett, és számítása a következő **(Mennyiségi \* Egységár) + adó**. | &nbsp; |
+| **Leírás** | **Gyorslétrehozás** | Egy adott becslés leírása. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Tranzakcióosztály** | **Gyorslétrehozás** | A tranzakcióosztályok listája a projektalapú szerződéssor **Általános** fülön található. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Termék kiválasztása** | **Gyorslétrehozás** | Akkor érvényes, ha a tranzakcióosztály **Anyag**. Meghatározhatja, hogy a becsléssor a **Meglévő** (katalógus) termékhez vagy **Nem katalogizált** termékhez készült. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Termék** | **Gyorslétrehozás** | A termékkatalógus termékazonosítója. Ez a mező csak akkor érhető el, ha a **Termék kiválasztása** mezőben a **Meglévő termék** lehetőséget választja. Az azonosító az értékesítési ár szerződésen szereplő projektárlistából való lekéréséhez használható. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Nem katalogizált termék** | **Gyorslétrehozás** | A termék nevének beírásához használt szövegmező. Ez a mező csak akkor érhető el, ha a **Termék kiválasztása** mezőben a **Nem katalogizált** lehetőséget választja.| Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Szerepkör** | **Gyorslétrehozás** | Annak a személynek a szerepköre, aki ezt a munkát teljesíti, vagy ezt a költséget viseli. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez.|
+| **Kategória** | **Gyorslétrehozás** | A munka vagy a költség kategóriája. |Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez.|
+| **Kezdő dátum** | **Gyorslétrehozás** | A munka kezdődátuma. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Befejező dátum** | **Gyorslétrehozás** | A munka befejező dátuma. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Erőforrás-kezelő részleg** | **Gyorslétrehozás** | Az az erőforrásegység, amely ezt a költséget beszedi, és biztosítja a munkához szükséges erőforrást. |Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott és az önköltségi ár lekéréséhez használt költséghez. |
+| **Egységütemezés** | **Gyorslétrehozás** | A munka, a termék vagy a költség egységcsoportja. Az egységek egy egységütemezéshez vagy egységcsoporthoz tartoznak. Például a *mérföld* és a *kilométer (km)* olyan egység, amely a távolságot leíró egységek csoportjához tartozik. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Kiszerelés** | **Gyorslétrehozás** | A munka, a termék vagy a költség egysége. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Mennyiség** | **Gyorslétrehozás** | A munka, a termék vagy a költség mennyisége. | Ez az érték alapértelmezés szerint a kapcsolódó szerződéssor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
+| **Egységár** | **Gyorslétrehozás** | A munkát végző szerepkör számlázási aránya, a termék egységára, vagy a termék- vagy költségkategória értékesítési ára. Ez a mező alapértelmezetten az **Idő** értékre áll be a projektárlista kezdő dátumra vonatkozó szerepkör ársorában szereplő árképzési dimenzióértékek kombinációja alapján. A **Költségek** esetében a mező alapértelmezett értéke az árbeállításból származik a projekt árlistában, ami a kezdő dátumon érvényes. Ha a tranzakciós kategória árképzési módja nem **egységár**, nincs alapértelmezett érték, és ez a mező üresen marad. Termékek esetén ez a mező alapértelmezett értéke a projektárlista árlistán lévő **Árlistaelemen** alapul, amely a kezdő dátumra vonatkozik.| A munkát végző szerepkör költségaránya, vagy a költségkategória kiszerelésenkénti költsége, vagy a termék kiszerelésköltsége. Ez a mező alapértelmezetten az **Idő** értékre áll be a szerződő kiszereléshez csatolt önköltségi tárlista szerepkör ársorában szereplő árképzési dimenzióértékek kombinációján alapul, amely a kezdő dátumra vonatkozik. A költségek esetében a mező alapértelmezett értéke az önköltségi árlista kategóriaár során alapul, ami a kezdő dátumon érvényes. Ha a tranzakciós kategória árképzési módja nem egységár, nincs alapértelmezett érték, és ez a mező üresen marad. A termékek esetén ennek a mezőnek az alapértelmezett beállítása a szerződő kiszereléshez csatolt önköltségi árlistalista **Árlistaelem** soron alapszik, amely a kezdő dátumra vonatkozik.|
+| **Becsült adó** | **Gyorslétrehozás** | A becsült adó erre a munkára vagy költségre. | A becsült adó erre a munkára vagy költségre. |
+| **Mennyiség** | **Gyorslétrehozás** | Megadhat értéket ebben a mezőben, ha a **Mennyiség** és az **Ár** mezőket üresen hagyja. Ha a **Mennyiség** és az **Ár** mezők ki vannak töltve, az **Összeg** mező csak olvasható, és a program **(Mennyiség \* Egységár) + Adóként** kerül kiszámításra. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Az árak frissítése a szerződéssorok részleteiben
 
-Ha módosítja a szerződéshez vagy a szerződő egység önköltségi árlistájához tartozó projektárlista árait, akkor az egyes szerződéssorok részleteiben szereplő árakat frissítheti, hogy azok tükrözzék a változást. A **Szerződés** lapon válassza az **Újraszámolás** lehetőséget. Egy figyelmeztetés jelenik meg, amely közli, hogy a szerződés összes szerződéssorán az árak alaphelyzetbe lesznek állítva. Válassza az **Igen** lehetőséget, ha frissíteni szeretné az értékesítési és a költség szerződéssor-részleteinek árát is.
+Ha módosítja a szerződéshez vagy a szerződő egység önköltségi árlistájához tartozó projektárlista árait, akkor az egyes szerződéssorok részleteiben szereplő árakat frissítheti, hogy azok tükrözzék a változást. A **Szerződés** lapon válassza az **Újraszámolás** lehetőséget. Egy figyelmeztetés tájékoztatja Önt arról, hogy a szerződés összes szerződéssorának ára alaphelyzetbe állt. Válassza az **Igen** lehetőséget, ha frissíteni szeretné az értékesítési és a költség szerződéssor-részleteinek árát is.
 
 ## <a name="access-contract-line-details-for-cost"></a>A szerződéssor részleteinek elérése költséghez
 
@@ -67,7 +72,7 @@ A **Költség** szerződéssor részletei az alapértelmezett pénznemet határo
 A jövedelmezőségi számítások átalakítják a **Költség** és **Értékesítés** szerződéssor részleteinek összegét annak a környezetnek az alappénznemére, amelybe jelenteni kell a szerződés teljes tényleges és becsült árréseit.
 
 > [!NOTE]
-> A pénznem kerekítési hibái és a módosított árrések azért fordulhatnak elő, mert hiányoznak a dátumon érvényes átváltási árfolyamok. Ezeket a számításokat csak becslésként használhatja a projektszerződésekben, és nem a tényleges jogi vagy egyéb jelentéskészítésre, amely nagyobb pontosságot igényel az átváltási árfolyamok kerekítése és hatályossága tekintetében.
+> A pénznem kerekítési hibái és a módosított árrések azért fordulhatnak elő, mert hiányoznak a dátumon érvényes átváltási árfolyamok. Ezeket a számításokat csak projektszerződéseken használja, mivel ezek csak becslések, és nem való tényleges törvényi vagy egyéb jelentésekre, amelyek nagyobb pontosságot igényelnek az árfolyamok kerekítéséhez és a dátumhatékonyságra való figyelemfelhíváshoz.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

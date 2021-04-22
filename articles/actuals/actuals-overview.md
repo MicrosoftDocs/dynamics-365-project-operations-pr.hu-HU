@@ -3,7 +3,7 @@ title: Tényadatok
 description: A témakör a Microsoft Dynamics 365 Project Operations tényadatokkal való munkára vonatkozó információit mutatja be.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291802"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852547"
 ---
 # <a name="actuals"></a>Tények 
 
-_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű központi telepítés – proforma számlázás_
 
-A tények a projektben befejezett munka mennyiségét jelentik. Ezek idő- és költségbejegyzésekként, valamint naplóbejegyzésekként és számlákként kerülnek létrehozásra.
+A tényleges adatok a projekt felülvizsgált és jóváhagyott pénzügyi és ütemezési előrehaladását jelentik. Az idő-, költség-, anyagfelhasználási tételek, valamint a naplótételek és számlák jóváhagyásának eredményeként jönnek létre.
 
 ## <a name="journal-lines-and-time-submission"></a>Naplósorok és idő beküldése
 
@@ -45,7 +45,7 @@ Amikor egy rögzített árú szerződéssorra leképezett projekthez kapcsolt id
 
 Az alapértelmezett árak létrehozásának logikája a naplósorban található. Az időbejegyzésből származó mezőértékek a naplósorba vannak másolva. Ezekben az értékekben szerepel a tranzakció dátuma, a projekthez leképezett szerződéssor, és a megfelelő árlistában szereplő pénznem.
 
-Az alapértelmezett árazásra hatással lévő mezők, például a **Szerepkör** és a **Szervezeti egység** mezők a naplósorban a megfelelő ár meghatározására szolgálnak. Lehetőség van egyéni mező hozzáadására az időbejegyzésen. Ha azt szeretné, hogy a mező értéke a tényadatokra legyen propagálva, hozza létre a mezőt a Tények entitáson, és a mezők leképezésével másolja a mezőt az időbejegyzésből a tényekhez.
+Az alapértelmezett árképzésre hatással lévő mezők, például a **Szerepkör** és a **Erőforrás-kezelő részleg** mezők a naplósorban alapértelmezés szerint megfelelő ár meghatározására szolgálnak. Lehetőség van egyéni mező hozzáadására az időbejegyzésen. Ha azt szeretné, hogy a mezőérték tényleges értékre legyen propagálva, hozza létre a mezőt a **Tényleges** és a **Naplósor** táblákban. Egyéni kód használatával propagálhatja a kijelölt mezőértéket az Időbejegyzéstől a Tényleges adatokig a naplósoron keresztül tranzakcióeredeteket használva. A tranzakcióeredetekről és -kapcsolatokról további információt a [Tényleges adatok hozzákapcsolása az eredeti rekordokhoz](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection) részben talál.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Naplósorok és az alapvető költség benyújtása
 
@@ -57,24 +57,42 @@ Amikor egy elküldött alapvető költségbejegyzés egy idő- és anyag szerző
 
 ### <a name="fixed-price"></a>Rögzített ár
 
-Amikor egy rögzített árú szerződéssorra leképezett projekthez kapcsolt alapvető költségbejegyzést küldenek be, csak a költségekre vonatkozó naplósort hoz létre a rendszer.
+Amikor egy rögzített árú szerződéssorra leképezett projekthez küldenek be alapköltség-bejegyzést, a rendszer egy naplósort hoz létre költséghez.
 
 ### <a name="default-pricing"></a>Alapértelmezett árképzés
 
-A költségek alapértelmezett árának megadására vonatkozó logika a költségkategórián alapul. A tranzakció dátuma, a projekthez leképezett szerződéssor és a pénznem mind a megfelelő árlista meghatározására szolgál. Alapértelmezésben azonban az árként megadott össze közvetlenül a kapcsolódó költségnaplósorokban van beállítva a költségre és értékesítésre vonatkozóan.
+A költségek alapértelmezett árának megadására vonatkozó logika a költségkategórián alapul. A tranzakció dátuma, a projekthez leképezett szerződéssor és a pénznem mind a megfelelő árlista meghatározására szolgál. Az alapértelmezett árképzésre hatással lévő mezők, például a **Tranzakció kategóriája** és az **Egység** mezők a naplósorban alapértelmezés szerint megfelelő ár meghatározására szolgálnak. Ez azonban csak akkor működik, ha az árlistában szereplő árképzési módszer az **Egységár**. Ha az árképzési módszer **Költségen** vagy **Árrés a költség felett** érték, a program a költségbevitel létrehozásakor megadott árat használja költségként, és az értékesítési naplósorban megadott árat az árképzési módszer alapján számítja ki. 
 
-Nem áll rendelkezésre az egységenkénti alapértelmezett ár kategóriaalapú megadása a költségbejegyzésekre vonatkozóan.
+A költségbevitelhez hozzáadhat egyéni mezőt. Ha azt szeretné, hogy a mezőérték tényleges értékre legyen propagálva, hozza létre a mezőt a **Tényleges** és a **Naplósor** táblákban. Egyéni kód használatával propagálhatja a kijelölt mezőértéket az Időbejegyzéstől a Tényleges adatokig a naplósoron keresztül tranzakcióeredeteket használva. A tranzakcióeredetekről és -kapcsolatokról további információt a [Tényleges adatok hozzákapcsolása az eredeti rekordokhoz](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection) részben talál.
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Naplósorok és anyaghasználati napló benyújtása
+
+A költségbevitelről további információt az [Anyagfelhasználási naplóban](../material/material-usage-log.md) talál.
+
+### <a name="time-and-materials"></a>Idő és anyagok
+
+Ha egy beküldött anyaghasználatinapló-tétel egy idő- és anyagszerződési sorhoz leképezett projekthez kapcsolódik, a rendszer két naplósort hoz létre, egyet a költséghez, egyet pedig a számlázatlan értékesítésekhez.
+
+### <a name="fixed-price"></a>Rögzített ár
+
+Amikor egy rögzített árú szerződéssorra leképezett projekthez küldenek be anyagfelhasználásinapló-bejegyzést, a rendszer egy naplósort hoz létre a költséghez.
+
+### <a name="default-pricing"></a>Alapértelmezett árképzés
+
+Az anyaghoz tartozó alapértelmezett árak megadásának logikája a termék- és egységkombináción alapul. A tranzakció dátuma, a projekthez leképezett szerződéssor és a pénznem mind a megfelelő árlista meghatározására szolgál. Az alapértelmezett árképzésre hatással lévő mezők, például a **Termékazonosító** és az **Egység** mezők a naplósorban alapértelmezés szerint megfelelő ár meghatározására szolgálnak. Ez azonban csak katalogizált termékek esetében működik. Nem katalogizált termékek esetében az anyagfelhasználásinapló-tétel létrehozásakor megadott ár kerül felhasználásra a naplósorok költség- és eladási ára tekintetében. 
+
+Az **Anyagfelhasználási napló** bejegyzéshez hozzáadhat egyéni mezőt. Ha azt szeretné, hogy a mezőérték tényleges értékre legyen propagálva, hozza létre a mezőt a **Tényleges** és a **Naplósor** táblákban. Egyéni kód használatával propagálhatja a kijelölt mezőértéket az Időbejegyzéstől a Tényleges adatokig a naplósoron keresztül tranzakcióeredeteket használva. A tranzakcióeredetekről és -kapcsolatokról további információt a [Tényleges adatok hozzákapcsolása az eredeti rekordokhoz](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection) részben talál.
 
 ## <a name="use-entry-journals-to-record-costs"></a>Bejegyzésnaplók használata a költségek rögzítésére
 
 A bejegyzésnaplók segítségével rögzítheti a költséget vagy bevételt az anyag-, díj-, idő-, költség- vagy adózási tranzakciók osztályaiban. A naplók a következő célokra használhatók:
 
-- A tényleges anyagok és értékesítés költségének rögzítésére a projektben.
 - Tranzakciós tényeket helyezhet egy másik rendszerből a Microsoft Dynamics 365 Project Operations rendszerbe.
 - Egy másik rendszerben felmerült költségek rögzítésére. Ezek a költségek beszerzési vagy alvállalkozói költségeket is tartalmazhatnak.
 
 > [!IMPORTANT]
 > Az alkalmazás nem ellenőrzi a naplósor típusát vagy a kapcsolódó árazást, amelyet a naplósorban adtak meg. Ezért csak azoknak a felhasználóknak érdemes a bejegyzésnaplókat tényleges adatok létrehozására használniuk, akik teljes mértékben ismeretében vannak annak a számviteli hatásnak, amelyet a tényleges adatok gyakorolnak a projektre. A naplótípus hatása miatt gondosan válassza ki, hogy ki férhet hozzá a bejegyzésnaplók létrehozásához.
+
 ## <a name="record-actuals-based-on-project-events"></a>Tényadatok rögzítése projektesemények alapján
 
 A Project Operations rögzíti a projekt során bekövetkező pénzügyi tranzakciókat. Ezeket a tranzakciókat a rendszer tényadatokként rögzíti. A következő táblázatok a létrehozott tényadatok különböző típusait mutatják be attól függően, hogy a projekt idő- és anyagelszámolású vagy rögzített árú projekt, elővásárlási fázisban van-e, vagy belső projekt-e.

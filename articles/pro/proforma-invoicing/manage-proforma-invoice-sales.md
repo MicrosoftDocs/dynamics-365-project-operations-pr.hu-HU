@@ -1,21 +1,21 @@
 ---
-title: Proforma számla kezelése - Lite
-description: Ez a témakör információt nyújt a proforma számlák használatáról.
+title: Proforma projektszámla kezelése
+description: Ez témakör a proforma projektszámlák használatáról nyújt információt.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274038"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866909"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Proforma számla kezelése - Lite
+# <a name="manage-a-proforma-project-invoice"></a>Proforma projektszámla kezelése 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -69,9 +69,9 @@ A Project Operationsban mindig tartozik egy számlasor minden projektszerződés
 
 A projekt számláján szereplő minden számlasor tartalmazza a számlasor részleteit. Ezek a soradatok a számla sorában hivatkozott, a szerződéssorhoz kapcsolódó, nem számlázott értékesítési tényadatokkal és mérföldkövekkel kapcsolatosak. Az összes ilyen tranzakcióhoz **Számlázásra kész** jelölést kell alkalmazni.
 
-Az **idő-és anyagelszámolású számla** sor esetében a számlasor részleteit a rendszer a **Számlasor** oldalon **Számlázható**, **Nem számlázható** és **Kiegészítő** csoportokba sorolja. A **számlázható számlasorok** részleteinek összegzése adja a számlasor összesítését. Az **Ingyenes** és a **Nem számlázható tényadatok** nem számítanak bele a számlasor összegébe.
+Az **Idő- és anyagszámla** sor esetén a számlasor részletei a **Számalsor** lap **Felszámítható**, **Nem felszámítható** és **Kiegészítő** lehetőségekbe vannak csoportosítva. A **számlázható számlasorok** részleteinek összegzése adja a számlasor összesítését. A **Kiegészítő** és **Nem felszámítható tényadatok** nem adódnak össze a számlasor végösszegéhez.
 
-A **rögzített árú számla** sora esetében a rendszer a számlasor adatait a kapcsolódó szerződéssor **számlázásra kész** ként megjelölt mérföldkövei alapján hozza létre. Miután a számlasor részletei egy mérföldkőből származnak, a mérföldkő számlázási állapota **Ügyfélszámla létrehozva** értékre frissül.
+**Rögzített árú számla** sor esetén a számlasor részletei olyan mérföldkövekből jönnek létre, amelyek a kapcsolódó szerződéssoron **Számlázásra kész** jelöléssel vannak ellátva. Miután a számlasor részletei egy mérföldkőből származnak, a mérföldkő számlázási állapota **Ügyfélszámla létrehozva** értékre frissül.
 
 ### <a name="edit-invoice-line-details"></a>Számlasorrészletek szerkesztése
 
@@ -98,8 +98,12 @@ A következő mezők a számlasor részletes adatain láthatók, amelyeket a ren
 | **Adó** | Alapértelmezés szerint a forrás tényleges értékét adja meg. A mezőt a felhasználó módosíthatja | A mező a felhasználó által módosítható, amikor egy új számlasorrészletet hoz létre, és amely nem rendelkezik tényleges támogatással. |
 | **Kibővített összeg** | Számított mező, kiszámítása: **Összeg + Adó**. Írásvédett mező, amely a szerkesztéstől le van zárva. | &nbsp; |
 | **Számlázási típus** | Alapértelmezés szerint a forrás tényleges értékét adja meg. A mezőt a felhasználó módosíthatja. | A **Számlázható** lehetőség kiválasztásával hozzáadja a sort a számlasor végösszegéhez. A **Kiegészítő** és a **Nem számlázható** kizárja az értéket a számlasor összegéből. |
+| **Termék kiválasztása** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez írásvédett mező. | Ha új számlasorrészletet hoz létre háttér tényadat nélkül, akkor ez a mező szerkeszthető. |
+| **Termék** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez írásvédett mező. | Ha új számlasorrészletet hoz létre háttér tényadat nélkül, ez a mező akkor szerkeszthető, ha a **Termék kiválasztása** mező **Meglévő termék** értékre van állítva. |
+| **Terméknév** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez írásvédett mező. | Új számlasorrészleten, ahol a termékazonosító a katalógusból van kiválasztva, ez a mező a termék nevére van állítva. A nem katalogizált termékben a mező neve nem katalogizált értékre van állítva. |
+| **Nem katalogizált leírás** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez a mező írásvédett. | Ha új számlasorrészletet hoz létre háttér tényadat nélkül, akkor nem katalogizált leírást adhat hozzá a termékhez. |
 | **Tranzakció típusa** | Alapértelmezés szerint a forrás tényleges értékét adja meg. Írásvédett mező, amely a szerkesztéstől le van zárva. | Alapértelmezés szerint a **számlázott értékesítésre** van beállítva, amikor új **Számlasorrészletet** hoz létre támogató tényadat nélkül.  |
-| **Tranzakció osztálya** | Alapértelmezés szerint a forrás tényleges értékét adja meg. Írásvédett mező, amely a szerkesztéstől le van zárva. | Alapértelmezés szerint van beállítva attól függően, hogy a felhasználó **Idő**, **Költség** vagy **Díj** típusú számlasoradatot hoz létre, miközben új **Számlasoradatot** hoz létre tényleges támogatás nélkül. Szerkesztés elől zárolva. |
+| **Tranzakció osztálya** | Alapértelmezés szerint a forrás tényleges értékét adja meg. Írásvédett mező, amely a szerkesztéstől le van zárva. | Alapértelmezés szerint annak alapján állítható be, hogy a felhasználó hogy dönt, létrehoz-e egy **Idő**, **Költség**, **Anyag**, vagy **Díj** számlasorrészletet, miközben új **Számlasorrészletet** hoz létre tényadat háttér nélkül. Szerkesztés elől zárolva. |
 
 A következő mezők a számlasor részletes adatain láthatók, amelyeket a rendszer mérföldkővel támogat:
 

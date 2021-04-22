@@ -3,17 +3,17 @@ title: Munkaszámla díjainak beállítása
 description: Ez a témakör a Project Operationsban a munkaszámlázási díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274821"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877403"
 ---
 # <a name="set-up-labor-bill-rates"></a>A munka számlázási arányának beállítása
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274821"
 
 Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, amelyek hatályosak az árlistafejlécen szereplő környezetnek és esedékességi dátumának megfelelően. A Dynamics 365 Project Operations időre vonatkozó számlázási árfolyamai csak egy pénznemben állíthatók be, ez az Árlista fejlécében található pénznem.
 
-1. Az értékesítési árak listáján szereplő munkabérdíjak beállításához az árlista fejléce alapján hozzon létre egy árlistát. 
-2. A **Szerepkörárak** lap részrácsában válassza az **+ Új szerepkörár** lehetőséget. 
+1. Az eladási árlisták munka számlázási arányának beállításához válassza az **Értékesítés** > **Ügyfelek** > **Árlisták** lehetőséget, majd kattintson az **Új** lehetőségre az árlista létrehozásához. 
+2. A **Szerepkörárak** lap részrácsában válassza az **Új szerepkörár** lehetőséget. 
 3. A **gyors létrehozás** ablaktáblában adja meg azt a szerepkört és szervezeti egységet, amelyhez be kell állítania a számlázási rátát.
 
    Az alábbi táblázat az **általános** lap és a **gyors létrehozás** ablaktáblájának mezőit tartalmazza, amelyeket érdemes szem előtt tartani, amikor értékesítési árlistát hoz létre a szerepkör-árakon:

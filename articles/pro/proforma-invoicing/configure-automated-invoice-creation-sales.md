@@ -1,29 +1,27 @@
 ---
-title: Automatikus számlalétrehozás konfigurálása - Lite
-description: Ez a témakör a proforma számlák automatikus létrehozásának konfigurálását ismerteti.
+title: Automatikus számlalétrehozás beállítása
+description: Ez témakör proforma számlák automatikus létrehozásának beállításáról és konfigurálásáról nyújt tájékoztatást.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274326"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866820"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Automatikus számlalétrehozás konfigurálása - Lite
+# <a name="set-up-automatic-invoice-creation"></a>Automatikus számlalétrehozás beállítása 
  
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Egyszerű központi telepítés – proforma számlázás, Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 Konfigurálhatja az automatikus számlalétrehozást a Dynamics 365 Project Operationsben. A rendszer egy proforma számlát hoz létre, amely az egyes projektek és szerződéssorok számlázási ütemezése alapján készült. A számlázási ütemezések a szerződéssorok szintjén konfigurálhatók. A szerződés minden sora rendelkezhet külön számlázási ütemezéssel, vagy ha a szerződés minden sorában ugyanazt a számlázási ütemezést lehet is lehet használni.
 
-A számla létrehozásakor a rendszer mindig legalább egy számlát hoz létre projektszerződésenként. Bizonyos esetekben több számla is létrehozható.
-
-Ha például a szerződés több ügyfelet tartalmaz, ugyanannyi számla jön létre, mint azoknak az ügyfeleknek a száma, akiknek számlázható tranzakciói vannak a projekt szerződésben.
+A számla létrehozásakor a rendszer mindig legalább egy számlát hoz létre projektszerződésenként. Bizonyos esetekben több számla is létrehozható. Ha például a szerződés több ügyfelet tartalmaz, ugyanannyi számla jön létre, mint azoknak az ügyfeleknek a száma, akiknek számlázható tranzakciói vannak a projekt szerződésben.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Ebből a részből megtudhatja, hogyan kerülnek a tranzakciók egy számlára 
 

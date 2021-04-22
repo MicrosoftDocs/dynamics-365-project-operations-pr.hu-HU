@@ -1,23 +1,23 @@
 ---
-title: Projektalapú árajánlatsorok áttekintése - Lite
-description: Ez a témakör a projektalapú ajánlatsorok projektmunkához való használatáról tartalmaz tájékoztatást. (Pro)
+title: Projektalapú árajánlatsorok áttekintése
+description: Ez a témakör a projektalapú ajánlatsorok projektmunkához való használatáról tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272976"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858701"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a>Projektalapú árajánlatsorok áttekintése - Lite
+# <a name="project-based-quote-lines-overview"></a>Projektalapú árajánlatsorok áttekintése 
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Egyszerű központi telepítés – proforma számlázás, Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 A projektalapú ajánlati sorok úgy vannak kialakítva, hogy elősegítsék az aktivitásra vonatkozó projektmunka becslését. A projektalapú ajánlatsor felépítése a projektbecslésekhez a következő fogalmakkal bővül:
 
@@ -33,18 +33,19 @@ A következő táblázat a projektalapú árajánlatsor **Általános** lapján 
 
 | **Mező** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- |
-| Adatfolyam neve | Az árajánlatsor neve, amely segít azonosítani a becslés alatt álló ajánlat elkülönített összetevőjét. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja az árajánlat megnyerése után. |
-| Számlázási mód | A lehetőségből létrehozott árajánlaton ezt az értéket a rendszer a lehetőség sor megfelelő mezőjéből másolja át. Ez a mező a Dynamics 365 Project Operations által támogatott két fő szerződési modellt tartalmazza:</br>- Rögzített ár</br>- Idő és anyag| A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Project | Ezzel a nem kötelező mezővel azonosíthatja azt a projektet, amelyet a program az adott tevékenységgel kapcsolatos munkára fog használni. Amikor egy projektet egy ajánlati sorhoz rendelnek, az segítséget nyújt a felszámítható feladatok beállításában, valamint a projekten alapuló becslést hoz árajánlatsori részletekként az árajánlatsorba. Ha egy projekt nincs leképezve projektalapú árajánlatsorra, a becslést kézzel kell létrehozni az egyes árajánlati sorok részleteinek létrehozásával. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után.|
-| Hozzáadott feladatok | Azt jelzi, hogy az árajánlatsor a kijelölt projekt összes vagy néhány projektfeladatához kerül-e felhasználásra. Ez a mező az alábbi értékekkel rendelkezhet:</br>- Összes projektfeladat</br>- Csak a kiválasztott projektfeladatok</br>Ebben a mezőben az üres érték az **Összes projektfeladat** beállításnak felel meg. | Ha a **Csak a kiválasztott projektfeladatok** van bejelölve, akkor a projektoldalon, a **Feladat számlázási beállítása** lap lehetővé teszi, hogy konkrét feladatokat jelöljön ki, amelyeket ehhez az árajánlatsorhoz társít. A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Idővel együtt | Az **Igen**/**Nem** jelző azt jelzi, hogy a kiválasztott projekten az időtranzakciók és a munkaerőköltségek szerepelni fognak-e az árajánlatsorban szereplő becslésben. A **Nem** érték azt jelzi, hogy az időtranzakciók és a munkaerőköltségek nem fognak szerepelni az árajánlatsorban szereplő becslésben. Az **Igen** érték azt jelzi, hogy az időtranzakciók és a munkaerőköltségek szerepelni fognak az árajánlatsorban szereplő becslésben. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Költséggel együtt | Az **Igen**/**Nem** jelző azt jelzi, hogy a kiválasztott projekten a kiadási költségek szerepelni fognak-e az árajánlatsorban szereplő becslésben. A **Nem** érték azt jelzi, hogy a kiadási költségek nem fognak szerepelni az árajánlatsorban szereplő becslésben. Az **Igen** érték azt jelzi, hogy a kiadási költségek szerepelni fognak az árajánlatsorban szereplő becslésben. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Díjjal együtt | Az **Igen**/**Nem** jelző azt jelzi, hogy a kiválasztott projekten a díjak szerepelni fognak-e az árajánlatsorban szereplő becslésben. A **Nem** érték azt jelzi, hogy a díjak nem fognak szerepelni az árajánlatsorban szereplő becslésben. Az **Igen** érték azt jelzi, hogy a díjak szerepelni fognak az árajánlatsorban szereplő becslésben. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Megajánlott összeg | Ez az összeg jelenik meg árajánlatként az ügyfélnek az összes előrejelzett munka esetében a projektalapú árajánlatsoron. A lehetőségből létrehozott árajánlaton ezt az értéket a rendszer a lehetőség sor **Ügyfél költségvetése** mezőjéből másolja át. Ha a projektalapú árajánlatsor sorrészleteket tartalmaz, akkor a mező szerkesztésre zárolva van, és az árajánlatsor részleteiben szereplő összegből kerül összesítésre. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Becsült adó | Ez egy szerkeszthető mező, amellyel a felhasználó hozzáadhatja a becsült adót az árajánlatsorhoz. Ha a projektalapú árajánlatsor sorrészleteket tartalmaz, akkor a mező szerkesztésre zárolva van, és az árajánlatsor részleteiben szereplő adóösszegből kerül összesítésre. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Árajánlat összege adózás után | Ez a mező az árajánlatsor adózás utáni összege, amely csak olvasható. Az ebben a mezőben szereplő összeget a program *Árajánlat összege + adó* képlettel számítja ki. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Nem meghaladandó korlát | Ez a mező szerkeszthető, és csak azokban a projektalapú árajánlatsorokban érhető el, amelyek **Idő és anyag** számlázási móddal rendelkeznek. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
-| Ügyfél költségvetése | A mező szerkeszthető, és a rendszer a lehetőség sor megfelelő mezőjéből másolja át, ha az árajánlat egy lehetőségből lett létrehozva. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja ezt a mezőt az árajánlat megnyerése után. |
+| Adatfolyam neve | Az árajánlatsor neve, amely segít azonosítani a becsült árajánlat különálló összetevőjét. | A program az ebből az árajánlatból létrehozott projektszerződéssorba másolja az árajánlat megnyerése után. |
+| Számlázási mód | A lehetőségből létrehozott árajánlaton ezt az értéket a rendszer a lehetőség sor megfelelő mezőjéből másolja át. Ez a mező a Dynamics 365 Project Operations által támogatott két fő szerződési modellt tartalmazza:</br>- Rögzített ár</br>- Idő és anyag| Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Project | Ezzel a nem kötelező mezővel azonosíthatja azt a projektet, amelyet a program az adott tevékenységgel kapcsolatos munkára fog használni. Amikor egy projektet egy ajánlati sorhoz rendelnek, az segítséget nyújt a felszámítható feladatok beállításában, valamint a projekten alapuló becslést hoz árajánlatsori részletekként az árajánlatsorba. Ha egy projekt nincs leképezve projektalapú árajánlatsorra, a becslést kézzel kell létrehozni az egyes árajánlati sorok részleteinek létrehozásával. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva.|
+| Hozzáadott feladatok | Azt jelzi, hogy az árajánlatsor a kijelölt projekt összes vagy néhány projektfeladatához kerül-e felhasználásra. Ez a mező az alábbi értékekkel rendelkezhet:</br>- Összes projektfeladat</br>- Csak a kiválasztott projektfeladatok</br>Ebben a mezőben az üres érték az **Összes projektfeladat** beállításnak felel meg. | Ha a **Csak kijelölt projektfeladatok** van kiválasztva a projektoldalon, akkor a **Feleadatszámlázási beállítás** fülön kiválaszthatja azokat a feladatokat, amelyek ehhez az árajánlatsorhoz társítják őket. Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Idővel együtt | Az **Igen**/**Nem** érték azt jelzi, hogy a kiválasztott projekt időtranzakciói vagy munkaköltségei szerepelnek-e az árajánlatsor becslésében. A **Nem** érték azt jelzi, hogy az időtranzakciók és a munkaerőköltségek nem fognak szerepelni az árajánlatsorban szereplő becslésben. Az **Igen** érték azt jelzi, hogy az időtranzakciók és a munkaerőköltségek szerepelni fognak az árajánlatsorban szereplő becslésben. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Költséggel együtt | Az **Igen**/**Nem** érték azt jelzi, hogy a kiválasztott projekt önköltségei szerepelnek-e az árajánlatsor becslésében. A **Nem** érték azt jelzi, hogy a kiadási költségek nem fognak szerepelni az árajánlatsorban szereplő becslésben. Az **Igen** érték azt jelzi, hogy a kiadási költségek szerepelni fognak az árajánlatsorban szereplő becslésben. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Anyaggal együtt | Az **Igen**/**Nem** érték azt jelzi, hogy a kiválasztott projekt anyagköltségei szerepelnek-e az árajánlatsor becslésében. A **Nem** érték azt jelzi, hogy az anyagköltségek nem szerepelnek az árajánlatsor becslésében. Az **Igen** érték azt jelzi, hogy az anyagköltségek szerepelnek az árajánlatsor becslésében. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Díjjal együtt | Az **Igen**/**Nem** érték azt jelzi, hogy a kiválasztott projekt díjai szerepelnek-e az árajánlatsor becslésében. A **Nem** érték azt jelzi, hogy a díjak nem fognak szerepelni az árajánlatsorban szereplő becslésben. Az **Igen** érték azt jelzi, hogy a díjak szerepelni fognak az árajánlatsorban szereplő becslésben. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Megajánlott összeg | Ez az az összeg, amelyet az ügyfélnek a projektalapú árajánlatsorban előre jelzett összes munkára ki fognak számlázni. A lehetőségből létrehozott árajánlaton ezt az értéket a rendszer a lehetőség sor **Ügyfél költségvetése** mezőjéből másolja át. Ha a projektalapú árajánlatsor sorrészleteket tartalmaz, akkor a mező szerkesztésre zárolva van, és az árajánlatsor részleteiben szereplő összegből kerül összesítésre. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Becsült adó | Ez egy szerkeszthető mező, amellyel a felhasználó hozzáadhatja a becsült adót az árajánlatsorhoz. Ha a projektalapú árajánlatsor sorrészleteket tartalmaz, akkor a mező szerkesztésre zárolva van, és az árajánlatsor részleteiben szereplő adóösszegből kerül összesítésre. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Árajánlat összege adózás után | Ez a mező az árajánlatsor adózás utáni összege, amely csak olvasható. Az ebben a mezőben szereplő összeget a program *Árajánlat összege + adó* képlettel számítja ki. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Nem meghaladandó korlát | Ez a mező szerkeszthető, és csak azokban a projektalapú árajánlatsorokban érhető el, amelyek **Idő és anyag** számlázási móddal rendelkeznek. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
+| Ügyfél költségvetése | A mező szerkeszthető, és a rendszer a lehetőség sor megfelelő mezőjéből másolja át, ha az árajánlat egy lehetőségből lett létrehozva. | Ez az érték az árajánlat megnyerésekor az árajánlatsorból létrehozott projektszerződéssorba lesz átmásolva. |
 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>A projektalapú árajánlatsorok Általános lapján található mezőkre vonatkozó ellenőrzési szabályok
@@ -62,755 +63,818 @@ A következő táblázat a projektalapú árajánlatsor **Általános** lapján 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     <strong>Lehetőség</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     <strong>Ajánlat</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     <strong>Árajánlatsor</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     <strong>Hozzáadott feladatok</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     <strong>Idővel együtt</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     <strong>Költséggel együtt</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-                    <strong>Ezzel együtt</strong>
+                    <strong>Anyaggal együtt</strong>
+                </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+                    <strong>Tartalmazás</strong>
                 </p>
                 <p>
                     <strong>Díj</strong>
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="49" valign="top">
                 <p>
                     <strong>Érvényes/nem érvényes</strong>
                 </p>
             </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
                 <p>
                     <strong>Ok</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Nem érvényes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Az 2. szabály megsértése. A P1 projektre vonatkozó időt, költséget és díjat az ÁS1 és ÁS2 árajánlatsor tartalmazza.
-                </p>
+Az 2. szabály megsértése. A P1 projektre vonatkozó időt, költséget és díjat az ÁS1 és ÁS2 árajánlatsor tartalmazza </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Igen </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-Nincs </p>
+No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Nem érvényes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Az 2. szabály megsértése. A P1 projektre vonatkozó időt és díjakat az ÁS1 és ÁS2 árajánlatsor tartalmazza.
-                </p>
+Az 2. szabály megsértése. A P1 projektre vonatkozó időt, anyagot és díjat az ÁS1 és ÁS2 árajánlatsor tartalmazza </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Igen </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-Nincs </p>
+No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Érvényes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-A P1 projektre vonatkozó időt és díjakat az ÁS1 tartalmazza.
-A P1 projektre vonatkozó költséget az ÁS2 tartalmazza.
-Az egyes árajánlatsorokban szereplő elemek között nincs átfedés, így az érvényes.
+            <td width="200" rowspan="2" valign="top">
+                <p>
+A P1 projektre vonatkozó időt, anyagot és díjat az ÁS1 árajánlatsor tartalmazza <br>
+A P1 projektre vonatkozó költséget az ÁS2 tartalmazza <br>
+Nincs átfedés abban, hogy miket tartalmaznak az egyes árajánlatsorok, így ez érvényes.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-Nincs </p>
+No </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-Nincs </p>
+No </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+No </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Csak a kiválasztott feladatok </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Nem érvényes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-A fenti 2. szabály megsértése </p>
+A 2. szabály megsértése </p>
                 <p>
-Az Á1 tartalmazza az időt, a költségeket és a díjakat a P1 projekthez kapcsolódó feladatok egy részhalmazán.
-                </p>
+A Q1 tartalmazza a P1 projekttel kapcsolatos feladatok egy részhalmazának idejét, anyagát, költségeit és díjait </p>
                 <p>
-Az ÁS2 tartalmazza a teljes P1 teljes projektre vonatkozó időt, költségeket és díjakat, és átfedésben van az Á1-ben szereplő elemekkel.
+A QL2 tartalmazza az egész P1 projektre vonatkozó időt, költségeket és díjakat, ezért átfedésben van a Q1 sorral.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Igen </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Csak a kiválasztott feladatok </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Érvényes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-A fenti 3. szabály alapján, </p>
+A 3. szabály szerint </p>
                 <p>
-Az Á1 tartalmazza az időt, a költségeket és a díjakat a P1 projekthez kapcsolódó feladatok egy részhalmazán.
+a Q1 tartalmazza a P1 projekttel kapcsolatos feladatok egy részhalmazának idejét, anyagát, költségeit és díjait.
                 </p>
                 <p>
-Az ÁS2 tartalmazza az időt, a költségeket és a díjakat a P1 projekthez kapcsolódó feladatok egy részhalmazán.
+A QL2 tartalmazza a P1 projekttel kapcsolatos feladatok egy részhalmazának idejét, anyagát, költségeit és díjait.
                 </p>
                 <p>
-Az egyetlen további érvényesítés az ÁS1 feladatainak csak azon részhalmazára vonatkozik, amelyek eltérnek az ÁS2 feladatainak részhalmaztól. Ezzel biztosítható, hogy nincsenek átfedések. Ezt a rendszer hajtja végre a feladatok társításakor.
+Az egyetlen további ellenőrzés a QL1-es feladatok részhalmaza körül van, amely eltér a QL2-es feladatok részhalmazától, így biztosítva, hogy nincs átfedés. Ezt a rendszer hajtja végre a feladatok társításakor.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Csak a kiválasztott feladatok </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Igen </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Összes projektfeladat vagy üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Érvényes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-A 5. szabály alapján az Á1 és Á2 két árajánlat ugyanarra a lehetőségre, így mindkettő becsülheti egy projekt ugyanazon összetevőit.
+Az 5. szabály szerint a, Q1 és Q2 két árajánlat ugyanarra a lehetőségre, így mindkettő megbecsülheti a projekt ugyanazon összetevőit.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Összes projektfeladat vagy üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Igen </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Összes projektfeladat vagy üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Érvényes </p>
+Igen </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-A 4. szabály alapján az Á1 és Á2 két árajánlat különböző lehetőségekre, így nem becsülhetik ugyanazon projekt azonos összetevőit.
+Nem érvényes </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+A 4. szabály szerint a, Q1 és Q2 két árajánlat különböző lehetőségekre, így nem becsülheti meg mindkettő a projekt ugyanazon összetevőit.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 L2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 N1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 ÁS1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 I1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Összes projektfeladat vagy üres </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Igen </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Nem érvényes </p>
+Igen </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

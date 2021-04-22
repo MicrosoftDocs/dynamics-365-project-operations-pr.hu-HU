@@ -1,31 +1,41 @@
 ---
-title: Becslésprojektek áttekintése
-description: Ez a témakör információkat nyújt becslésekről a Dynamics 365 Project Operations rendszerben.
-author: ruhercul
+title: Pénzügyi becslésekre vonatkozó fogalmak
+description: Ez témakör a Project Operations szolgáltatásban lévő projekt pénzügyi becsléseiről nyújt információt.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286881"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701739"
 ---
-# <a name="estimate-projects-overview"></a>Becslésprojektek áttekintése
+# <a name="financial-estimation-concepts"></a>Pénzügyi becslésekre vonatkozó fogalmak
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
+A Dynamics 365 Project Operations szolgáltatásban pénzügyileg két szakaszban becsülheti meg a projekteket: 
+1. Az értékesítés előtti szakaszban, mielőtt az üzletet megnyerik. 
+2. A projektszerződés létrejöttét követő végrehajtási szakaszban. 
+
+A projektalapú munkához pénzügyi becslést hozhat létre az alábbi 3 oldal bármelyikével:
+- Az **Árajánlatsor** lap az árajánlatsor részleteivel.  
+- A **Projekt árajánlatsor** lap a szerződéssor részleteivel. 
+- A **Projekt** lap, a **Feladatok** vagy **Költségbecslések** fül lapok használatával.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Projektárajánlat használata becslés létrehozásához
 Projektalapú árajánlatok esetén az **Ajánlat sor részletei** entitással becsülheti meg a projekt végrehajtásához szükséges munkát. Ezután megoszthatja ezt a becslést az ügyféllel.
 
 A projektalapú árajánlati soroknak nem feltétlenül kell árajánlati sorok részleteit tartalmaznia, de sok ilyen részletet is tartalmazhatnak. Az árajánlati részleteit az idő, a költségek vagy a díjak becslésére használják. A Microsoft Dynamics 365 Project Operations nem engedélyezi az árajánlati sor részleteiben az anyagok becslését. Ezeket tranzakciós osztályoknak nevezzük. A becsült adóösszegek tranzakciós osztályba is felvihetők.
 
 A tranzakciós osztályokon kívül az ajánlati sorok részletei tranzakciótípust is tartalmaznak. Az árajánlatsorok részleteihez két tranzakciótípus támogatott: a **Költség** és a **Projektszerződés**.
 
-## <a name="estimate-by-using-a-contract"></a>Becslés szerződés felhasználásával
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Projektszerződés használata becslés létrehozásához
 
 Ha árajánlatot használt egy projektalapú szerződés létrehozásakor, akkor a becslések, amelyeket az egyes ajánlatsorokra tett, a projektszerződésbe másolódnak. A projektszerződés felépítése olyan, mint a projektajánlat szerkezete, amely sorokat, sorrészleteket és számla ütemezéseket tartalmaz.
 
@@ -35,23 +45,17 @@ A szerződési sorok részletei felhasználhatók az idő, a költségek vagy a 
 
 A szerződési sorok részleteiben nem szerepelhetnek anyagok becslései.
 
-A projektszerződésben támogatott folyamatok a számlalétrehozás és -megerősítés. A számla létrehozása létrehozza a projektalapú számla tervezetét, amely tartalmazza az összes érvénytelenített értékesítési tényt az aktuális dátumig.
+## <a name="use-a-project-to-create-an-estimate"></a>Projekt használata becslés létrehozásához 
 
-A megerősítés a szerződést csak olvashatóvá teszi, és állapotát **Vázlat**-ról **Megerősített**-re változtatja. A művelet elvégzése után azt nem vonhatja vissza. Mivel ez a művelet állandó, a bevált gyakorlat a szerződés **Vázlat** állapotban tartása.
-
-Az egyetlen különbség a szerződéstervezetek és a megerősített szerződések között az állapotuk és az a tény, hogy a szerződéstervezetek szerkeszthetők, míg a megerősített szerződések nem. A számlakészítés és a tényleges adatok követése mind a szerződéstervezeteken, mind a megerősített szerződéseken elvégezhető.
-
-A Project Operations nem támogatja a szerződések vagy projektek megváltoztatására vonatkozó megrendeléseket.
-
-## <a name="estimating-projects"></a>A projektek becslése
-
-Becsülhetők a projektek ideje és költségei. A Project operations nem engedélyezi a projektekben az anyagok vagy díjak becslését.
+Becsülhetők a projektek ideje és költségei. A Project Operations nem támogatja a projektek anyagbecslését vagy díjait.
 
 Az időbecslések akkor jönnek létre, amikor létrehoz egy feladatot, és azonosítja a feladat végrehajtásához szükséges általános erőforrás attribútumait. Az időbecsléseket az ütemezési feladatokból generálják. Az időbecslések nem kerülnek létrehozásra, ha általános csoporttagokat hoznak létre az ütemterv keretein kívül.
 
-A költségbecsléseket a rácsba kell beírni a **Becslések** oldalon.
+A költségbecsléseket a rácsba kell beírni a **Költségbecslések** oldalon.
 
-## <a name="understanding-estimation"></a>A becslés megértése
+A projekt becslésének létrehozása bevált gyakorlatnak minősül, mivel alulról felfelé építkezve részletes becsléseket lehet építeni a projektterv egyes feladataira vonatkozó munka-, idő- és költségbecslések alapján. Ezt a részletes becslést felhasználva becsléseket hozhat létre az egyes árajánlatsorokhoz, és hitelesebb árajánlatot hozhat létre az ügyfél számára. Amikor a projektterv használatával importál vagy hoz létre részletes becslést az árajánlatsoron, a Project Operations importálja ezeknek a becsléseknek az értékesítéso értékeit és költségértékeit. Az importálás után megtekintheti a projektárajánlat jövedelmezőségét, árrését és megvalósíthatósági metrikáit.
+
+## <a name="understanding-estimates"></a>A becslések megértése
 
 Az alábbi táblázatot használhatja útmutatóként az üzleti logika megértéséhez a becslési szakaszban.
 

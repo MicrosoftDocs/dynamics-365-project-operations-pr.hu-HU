@@ -3,7 +3,7 @@ title: Termékárlista
 description: Ez a témakör a projektárajánlatokhoz és szerződésekhez használatos katalógusárképzésben szereplő árlistákról nyújt információkat.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275361"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877493"
 ---
-# <a name="product-price-lists"></a>Termékárlista
+# <a name="product-price-lists"></a>Termékárlisták
 
-_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
+_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Az árlisták és az árlistán szereplő elemek támogatják a termékkatalógus árképzését. Ezt a funkciót leginkább katalógusalapú sorokhoz használják projektárjánlatokon és projektszerződéseken.
-
-Projektalapú sorok esetében egy szerződés jelenti az üzletkötést annak megszerzése után. Mivel a tárgyalási folyamat általában megelőzi a megszerzést, az árajánlathoz csatolt árat mindig egy új árlistába másolják és csatolják a szerződéshez. Ez az új árlista nem változtatható meg a szerződés hatályán kívül. Ez a korlátozás segít megvédeni a megbeszélt listaárat a fő árlistán bekövetkező bármilyen árváltozástól.
+ A Project Operations, a **Termékárlisták** és a kapcsolódó árlistaelem-entitások támogatják a termékalapú árajánlaton és szerződéssorokon alapuló árképzési termékek funkcióit. A projektekben használt termékek esetében a projektárlisták árlistarekordjait használja a elem. 
 
 A termékeket úgy kell beállítani, hogy azok alapértelmezett költséggel és árlistákkal rendelkezzenek a termékkatalógusban. Az alapértelmezett költség és a listaárak konfigurálásához használja a listaárat, illetve a szokásos és a jelenlegi költségeket. Az alapértelmezett listaárak csak akkor használhatók az árajánlatsoron vagy a projektszerződés-soron, ha a rendszer nem találja az adott termék árlistáját az árajánlatban vagy a projektszerződésben.
 
@@ -40,9 +38,7 @@ A termékkatalógus-sorok bekerülési ára árajánlatok között megváltoztat
 
 A termékkatalógusból felveheti termékeit a különböző árlistákra. A termékek árlistasorai mindig egy adott egységre utalnak. Az árlistán szereplő termékek árképzése devizaösszegként konfigurálható. Alternatív lehetőségként a listaár, az aktuális költség vagy a standard költség függvényében is konfigurálható.
 
-A PSA különféle kerekítési lehetőségeket támogat, ha az árakat a listaár, a standard költség vagy az aktuális költség függvényében konfigurálják. Amellett, hogy kihasználja a több árképzési módszer és a kerekítési lehetőség előnyeit, kedvezménylistákat kapcsolhat hozzá az árlisták elemeihez. 
-
-Amikor új egyéni árlistát hoz létre egy árajánlathoz a **Projektárajánlat** lap **Saját árképzés létrehozása** részén, a rendszer másolatot készít az árlistáról, és az új árlista fejlécén található **Entitás** mező beállítása **Értékesítési entitás** lesz. Az új árlista neve az árajánlat nevéhez és az időbélyegzőhöz lesz csatolva. Az egyéni munkafolyamatokban is használhatja az új árlista nevét és az árajánlatot az egyedi árképzést alkalmazó árajánlatok további felülvizsgálatának és jóváhagyásának indításához.
+Az árképzési funkció különféle kerekítési lehetőségeket támogat, ha a termékárakat a listaár, a standard költség vagy az aktuális költség függvényében konfigurálják. Amellett, hogy kihasználja a több árképzési módszer és a kerekítési lehetőség előnyeit, kedvezménylistákat kapcsolhat hozzá az árlisták elemeihez. 
 
  
 ## <a name="default-product-price-list"></a>Alapértelmezett termékárlista
@@ -57,7 +53,7 @@ A Lehetőség, az Árajánlat és a Projektszerződés entitásai az alábbi sor
 
 Alapértelmezés szerint az árajánlatsor **Termék** mezője felsorolja az összes aktív terméket az árajánlat terméklistáján. Ha egy terméket inaktiváltak, vagy ha ez egy termékvázlat, akkor nem szerepel a listán még akkor sem, ha szerepel az árlistán. 
 
-A termékkatalógus-sorok számlasorokként kerülnek hozzáadásra az első számlára, amelyet egy projektszerződéshez készítenek. A számlatervezeten törölhetők ezek a számlasorok. Ebben az esetben a sorok egy későbbi számlán jelennek meg, amíg számlázásra nem kerülnek, vagy amíg a számlát el nem küldik az ügyfélnek. Nem számlázható ki egy termékszámlasor részleges mennyisége. Amikor a projektszerződés terméksorozatait kiszámlázzák, tényadatok jönnek létre. Ezek a tényadatok azonban nem kapcsolódnak a kapcsolódó projektentitáshoz. Más szavakkal: a termék-alapú projektszerződés-sorok függetlenek minden projektalapú felhasználástól. A rendszer nem követi nyomon a projektek anyagfelhasználását.
+A termékkatalógus-sorok számlasorokként kerülnek hozzáadásra az első számlára, amelyet egy projektszerződéshez készítenek. A számlatervezeten törölhetők ezek a számlasorok. Ebben az esetben a sorok egy későbbi számlán jelennek meg, amíg számlázásra nem kerülnek, vagy amíg a számlát el nem küldik az ügyfélnek. Nem számlázható ki egy termékszámlasor részleges mennyisége. Amikor a projektszerződés terméksorozatait kiszámlázzák, tényadatok jönnek létre. Ezek a tényadatok azonban nem kapcsolódnak a kapcsolódó projektentitáshoz. Más szavakkal: a termék-alapú projektszerződés-sorok függetlenek minden projektalapú felhasználástól. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

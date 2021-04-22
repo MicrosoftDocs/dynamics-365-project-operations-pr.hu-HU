@@ -3,17 +3,17 @@ title: Projektárlisták kezelése projektszerződéseken
 description: Ez a témakör információt nyújt a projektárlisták a projektszerződéseken való kezeléséről.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278601"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858566"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projektárlisták kezelése projektszerződéseken
 
@@ -21,13 +21,13 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A Dynamics 365 Project Operations alkalmazásban a projektekszerződések segítségével több dátumon érvényes értékesítési árlistákat lehet támogatni egy szerződéshez. A Project Operations alkalmazásban egy új a **Projektárlisták** nevű új társított entitás is van. Ez az entitás egy-a-többhöz kapcsolatban van egy projektszerződéssel.
 
-A projektárlisták a projekt idő- és a kiadástranzakcióinak árazására szolgálnak. Ha a szerződés egy vagy több projektárlistát tartalmaz, akkor ezek az árlisták vannak használva azon projektek idő- és kölségbecsléseihez és tényadataihoz, amelyek a szerződéshez vannak társítva egy szerződéssoron keresztül.
+A projektárlisták a projekt idő-, anyag- és költségtranzakcióinak árazására használhatók. Ha egy szerződés egy vagy több projektárlistával rendelkezik, akkor ezek az árlisták a szerződéssoron keresztül a szerződéshez társított projektek idő-, anyag-, költségbecslései és tényadatai árazására használhatók.
 
-Ha a projektszerződés nem tartalmaz projekt-árlistákat, egy olyan figyelmeztető üzenet jelenik meg, amely szerint nincsenek projektárlisták, és a becslések, a projekt tényleges munkája és a kiadások nem lesznek árazva. Az értékesítési értékekhez nem tartozik majd ár.
+Ha egy projektszerződésen nincsenek projektárlisták, figyelmeztető üzenet jelenik meg arról, hogy a naplózott projektárlisták, becslések, tényleges projektmunka, anyag és költségek nem kerülnek beárazásra. Az értékesítési értékekhez nem tartozik majd ár.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Projekt-árlista hozzárendelése vagy hozzárendelésének megszüntetése egy projekt-szerződésben
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Adott árlista létrehozása vagy társítása a projektalapú munkák és kiadások megbecsléséhez
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Adott árlista létrehozása vagy társítása a projektalapú munka, anyag és költségek becsléséhez
 
 1. Nyissa meg a projektszerződést, és válassza ki a **Projektárlisták** lapot.
 2. Az alrácsban válassza a **+ új projektárlista hozzáadása** lehetőséget.
@@ -52,7 +52,7 @@ Ha a projektszerződés nem tartalmaz projekt-árlistákat, egy olyan figyelmezt
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>A projektárlisták automatikus alapértelmezésének beállítása a szerződésen
 
-A projektárlista a projekt szerződés alapértelmezett listájáként beállíthatók. A beállítás segítségével biztosítható, hogy a szervezet minden szerződése mindig az adott időszakra vonatkozó normál árlistával induljon.
+A projekt árlistája beállítható alapértelmezett projektárlistaként. Ez a beállítás biztosítja, hogy a szervezet összes szerződése mindig az adott áridőszakra vonatkozó standard projektárlistával kezdődjön.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>A projektárlisták szervezeti alapértelmezésének beállítása
 

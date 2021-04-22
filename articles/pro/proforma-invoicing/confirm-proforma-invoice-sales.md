@@ -1,26 +1,26 @@
 ---
-title: Proforma számla megerősítése – Lite
-description: Ez a témakör a proforma számlák a Project Operations alkalmazásban való megerősítéséről nyújt tájékoztatást.
+title: Proforma projektszámla megerősítése
+description: Ez témakör a proforma projektszámlák Project Operations szolgáltatásban való megerősítéséről nyújt információt.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274281"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867089"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Proforma számla megerősítése – Lite
+# <a name="confirm-a-proforma-project-invoice"></a>Proforma projektszámla megerősítése 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 
-A proforma számla megerősítését követően a projektszámla- frissítések állapota **Megerősítve** lesz. A számla megerősítését követően csak olvasható lesz. Ezután a számla csak akkor helyesbíthető, ha ügyfél által kezdeményezett helyesbítések vagy jóváírások vannak, vagy ha a számla kifizetettként van megjelölve.
+A proforma számla megerősítését követően a projektszámla- frissítések állapota **Megerősítve** lesz. A számla megerősítését követően csak olvasható lesz. A jövőben a számla csak akkor helyesbíthető, ha vannak ügyfél által kezdeményezett helyesbítések vagy jóváírások.
 
 A következő táblázat a rendszer által létrehozott tényleges adatokat sorolja fel. A rendszer ezeket a tényleges adatokat akkor hozza létre, amikor bizonyos műveleteket végrehajtanak a projekt vázlat állapotú számláján a jóváhagyás előtt.
 
@@ -225,6 +225,70 @@ Nem számlázott értékesítés mennyiségének és összegének sztornírozás
             <td width="408" valign="top">
                 <p>
 Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott tényleges értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Anyagtranzakció számlázása a számlatervezet szerkesztése nélkül.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg nem számlázott értékesítési sztornírozása az eredeti anyaghasználati jóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg számlázott értékesítési tényadat az eredeti anyaghasználati jóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+A mennyiség csökkentése érdekében szerkesztett anyagtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg nem számlázott értékesítési sztornírozása az eredeti időjóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely nem felszámítható a fennmaradó mennyiséghez a javított értékek levonását követően és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+A mennyiség növelése érdekében szerkesztett anyagtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg nem számlázott értékesítési sztornírozása az eredeti anyaghasználati jóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
                 </p>
             </td>
         </tr>

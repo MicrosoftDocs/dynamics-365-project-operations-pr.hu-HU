@@ -1,0 +1,59 @@
+---
+title: Újdonságok 2021. áprilisban – Project Operations egyszerű telepítés
+description: Ez témakör a Project Operations egyszerű telepítés 2021 áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+author: sigitac
+manager: tfehr
+ms.date: 04/07/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: bd6fbe8d75fbe9157a97d2edd38d40a97395c924
+ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5868041"
+---
+# <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Újdonságok 2021. áprilisban – Project Operations egyszerű telepítés
+
+_Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
+
+Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+
+  - Project Operations a Dataverse-környezet 4.9.0.221 verzióján 
+
+## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
+
+Ez a kiadás a következő funkciókat tartalmazza:
+
+- Nem készletezett anyagok projektekhez. A legfontosabb képességek a következők:
+  - Nem készletezett anyagok becslése és árképzése a projekt értékesítési ciklusa alatt. További információért lásd a [Költség- és értékesítési árak beállítása a katalógustermékekhez – Lite](../pricing-costing/set-up-cost-sales-rates-catalog-products.md) részt.
+  - A nem készletezett anyagok használatának követése a projekt teljesítése során. További információért lásd az [Anyaghasználat rögzítése projekteknél és projektfeladatoknál](../../material/material-usage-log.md) részt.
+  - A felhasznált nem készletezett anyagköltségek számlázása. További információért lásd a [Számlázási elmaradás kezelése – Lite](../proforma-invoicing/manage-billing-backlog-sales.md#product-billing-backlog) részt.
+  - A Dynamics 365 Dataverse-ben lévő új API-k lehetővé teszik az **Ütemezési entitásokkal** végzett műveletek létrehozását, frissítését és törlését. További információt az [Ütemezési API-k használata az Ütemezési entitásokkal végzett műveletekhez](../../project-management/schedule-api-preview.md).
+
+## <a name="quality-updates"></a>Minőségi frissítések
+
+| **Funkcióterület** | **Hivatkozási szám** | **Minőségi frissítés** |
+| --- | --- | --- |
+| Számlázás és árképzés | 2224568 | Hozzáadott logika a számlameghívó beépülő modult megerősítő testreszabások engedélyezéséhez. |
+| Számlázás és árképzés | 2101098 | Az alapértelmezett mezők logikáját proforma számlára javította: a **Számlázási cím**, a **Számlázási név** és a **Fizetési feltételek** mostantól alapértelmezetten a megfelelő projektszerződés ügyfélrekordból kerülnek beírásra. |
+| Számlázás és árképzés | 2021413 | Frissítette a **Tényleges költség** és **Értékesítés** mezőket a **Feladat** entitáson, hogy tartalmazza a feladatokon a számlázatlan és számlázott kiadások értékesítési értékeit. |
+| Számlázás és árképzés | 2182110 | Projektszerződés másolásakor a szerződéssor azonosítója újra lesz generálva a célprojekt-szerződésben, hogy biztosítsák egyediségét. |
+| Lehetőségkezelés | 2186741 | Hozzáadott ellenőrzések annak biztosítására, hogy az **Eredet** mező és a **Tranzakciótípus** ne legyen frissíthető a meglévő árajánlatsor részleteivel kapcsolatban. |
+| Lehetőségkezelés | 2191353 | Mérföldköveket nem szabad idő- és anyagszerződési sorokban létrehozni. |
+| Lehetőségkezelés | 2216956 | Kijavítottuk az **Árak frissítésével** kapcsolatos problémákat. |
+| Tervezés és nyomon követés | 2182979 | A projektmásolási funkció tovább lett fejlesztve annak biztosítására, hogy a költségbecslési sorok át legyenek másolva az eredeti projektből. |
+| Tervezés és nyomon követés | 2184144 | A projektmásolási funkció tovább lett fejlesztve annak biztosítására, hogy az erőforráspozíció neve át legyen másolva az eredeti projektből. |
+| Tervezés és nyomon követés | 2184799 | Projektmásolás: Szigorított vezérlés annak biztosítására, hogy a becsült kezdési dátum ne legyen módosítható a másolás közben. |
+| Tervezés és nyomon követés | 2185134 | Projektmásolás: A célprojekt becsült kezdési dátuma a mai dátumra van állítva. |
+| Tervezés és nyomon követés | 2196373 | Projektmásolás: Győződjön meg arról, hogy a projektmenedzser és a csoporttag rekordjai nem ismétlődnek meg a projektcsoportban. |
+| Tervezés és nyomon követés | 2211833 | Projektmásolás: Az erőforrás-hozzárendelések a forrásprojekt-feladatból a célprojektbe másolhatók. |
+| Tervezés és nyomon követés | 2186541 | A **Becslések** rácsban, az erőforrás szerinti csoportosításkor felmerült problémák kijavítva. |
+| Tervezés és nyomon követés | 2166906 | A feladat tranzakciókategóriáit át kell másolni az **Erőforrás-hozzárendelés** entitásba. |
+| Erőforráskezelés | 2125362 | Az általános csoporttag óraalapú felosztási módszerrel történő létrehozással kapcsolatos problémák kijavítva. |
+| Idő és költség | 2113603 | Az attribútumok **Időbejegyzés** lapról való eltávolításával, a testreszabással kapcsolatos probléma kijavítva. A rendszer most ellenőrzi, hogy az attribútum létezik-e a lapon, mielőtt parancsfájl használatával hozzájuk férne. |
+| Idő és költség | 2204377 | A másolt munkaidő-nyilvántartásoknak automatikusan meg kell jelenniük, amikor az időbejegyzés során a **Hét másolása** lehetőséget választja. |
+| Idő és költség | 2209059 | Az **Állapot** mező szerkeszthető a Dynamics 365 Field Service időbejegyzésekhez. |

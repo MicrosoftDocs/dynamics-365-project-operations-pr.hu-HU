@@ -1,21 +1,21 @@
 ---
-title: Projekt nyomon követésének áttekintése
-description: Ez a témakör a projekt előrehaladásának és a költségfelhasználásnak a nyomon követéséről nyújt információkat.
+title: Projektekhez kapcsolódó erőfeszítés nyomon követése
+description: Ez a témakör a projekt ráfordításának és a munkafolyamat nyomon követéséről nyújt információkat.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286611"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710943"
 ---
-# <a name="project-tracking-overview"></a>Projekt nyomon követésének áttekintése
+# <a name="project-effort-tracking"></a>Projektekhez kapcsolódó erőfeszítés nyomon követése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
@@ -26,50 +26,28 @@ Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükséges
 A tevékenység **Nyomon követése** nézet nyomon követi a feladatok előrehaladását az ütemezésben, és összehasonlítja a feladat tervezett munkaidejét a feladatra fordított tényleges munkaórákkal. A Dynamics 365 Project Operations a következő képleteket használja a követési mutatók kiszámításához:
 
 - **Haladás százaléka**: Az eddig elvégzett tényleges erőfeszítés + teljes becslés (EAC) 
-- **Teljes becslés (ETC)** Tervezett erőfeszítés – A ténylegesen elvégzett erőfeszítés eddig 
+- **Fennmaradó ráfordítás**: Befejezéskori becsült ráfordítás – Az eddigi tényleges ráfordítás 
 - **Teljes becslés (EAC)**: Fennmaradó erőfeszítés + Eddig elvégzett tényleges erőfeszítés 
 - **Tervezett erőfeszítés szórása**: Tervezett erőfeszítés – EAC
 
 A Project Operations a feladat erőfeszítés-varianciájának előrejelzését mutatja. Ha az EAC meghaladja a tervezett erőfeszítéseket, akkor a feladat várhatóan több időt vesz igénybe, mint az eredetileg tervezték, és elmarad az ütemtervtől. Ha az EAC kevesebb, mint a tervezett erőfeszítés, akkor a feladat várhatóan kevesebb időt vesz igénybe, mint az eredetileg tervezték, és előrehaladottabb állapotban van az ütemtervhez képest.
 
-## <a name="reprojecting-effort"></a>Az erőfeszítés újratervezése
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>A levélcsomópont-feladatok ráfordításának újratervezése
 
-A projektmenedzserek gyakran felülvizsgálják a feladat eredeti becsléseit. A projekt újratervezése a projekt menedzserének a becslésről alkotott felfogása, a projekt jelenlegi helyzetére tekintettel. Nem javasolt azonban, hogy a projektmenedzserek módosítsák az alaptervi számokat. Ez azért van, mert a projekt alapvonala a megállapított igazságforrást képviseli a projekt ütemterve és költségbecslése szempontjából, és a projekt összes érdekeltje egyetértett azzal.
+A projektmenedzserek gyakran felülvizsgálják a feladat eredeti becsléseit. A projekt újratervezése a projekt menedzserének a becslésről alkotott felfogása, a projekt jelenlegi helyzetére tekintettel. Nem javasoljuk azonban, hogy a projektmenedzserek megváltoztassák a tervezett ráfordítások számát. Ennek az az oka, hogy a projekt tervezett ráfordítása a projekt ütemtervének és költségbecslésének megállapított igazságforrást jelenti, és a projekt valamennyi érdekeltje egyetértett vele.
 
-Kétféle módon tudja egy projektmenedzser újraprogramozni a feladatokat:
-
-- Helyezze felül az alapértelmezett ETC-t egy új becsléssel a feladat tényleges hátralévő erőfeszítéseiről. 
-- A feladat valódi előrehaladásának új becslésével felülbírálja az alapértelmezett haladási százalékot.
-
-Ezeknek a megközelítéseknek a segítségével át kell számítani a feladat ETC-jét, EAC-ját és az előrehaladási százalékot, valamint a feladatra várható erőfeszítési varianciát. Az EAC, az ETC-t és az összefoglaló feladatok előrehaladási százalékát szintén újraszámolják, és új előrejelzést adnak az erőkifejtés szórására.
+A projektmenedzser a feladatokra vonatkozó alapértelmezett **Fennmaradó ráfordítás** frissítésével, a feladat új becslésével tudja újratervezni. Ez a frissítés a feladat befejezéskori munkamennyiség becslésének (EAC), a folyamat százalékos arányának és a tevékenység tervezett ráfordítási varianciájának újraszámítását eredményezi. Az EAC, az ETC-t és az összefoglaló feladatok előrehaladási százalékát szintén újraszámolják, és új előrejelzést adnak az erőkifejtés szórására.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Az erőfeszítések újratervezése az összefoglaló feladatok során
 
-Az összefoglaló vagy a tároló feladatokra tett erőfeszítések újratervezhetők. Függetlenül attól, hogy a felhasználó újratervezi-e a fennmaradó erőfeszítést vagy az összefoglaló feladatok előrehaladási százalékát, a következő számítási sorozat kezdődik:
+Az összefoglaló vagy a tároló feladatokra tett erőfeszítések újratervezhetők. A projektmenedzserek frissíthetik az összegző feladatok fennmaradó ráfordítását. A fennmaradó ráfordítás frissítése az alkalmazás következő számítási készletét indítja el:
 
-- Kiszámítják az EAC, ETC és a feladat előrehaladási százalékát.
+- Kiszámítják az EAC és a feladat előrehaladási százalékát.
 - Az új EAC eloszlik a gyermek feladataival azonos arányban, mint az eredeti EAC volt a feladatnál.
 - Kiszámítjuk az új EAC-t az egyes feladatok mindegyikétől egészen a levélcsomóponti feladatokig. 
-- Az érintett gyermek feladatait a levélcsomópontokig az ETC-vel és az előrehaladási százalékkal újraszámolják az EAC-érték alapján. Ez új előrejelzést eredményez a feladat erőfeszítési variációja szempontjából. 
+- Az érintett gyermek feladatait a levélcsomópontokig a fennmaradó ráfordítással és az előrehaladási százalékkal újraszámolják az EAC-érték alapján. Ez új előrejelzést eredményez a feladat erőfeszítési variációja szempontjából. 
 - Az összesítő feladatok EAC-ját egészen a gyökércsomópontig újraszámolják.
 
-### <a name="cost-tracking-view"></a>Költségkövetési nézet 
-
-A **Költségkövetés** nézet összehasonlítja a feladat tényleges költségeit a feladat tervezett költségével. 
-
-> [!NOTE]
-> Ez a nézet csak a munkaköltségeket mutatja, és nem tartalmazza a költségbecslésekből származó költségeket. A Project Operations a következő képleteket használja a követési metrikák kiszámításához:
-
-- **Felhasznált költség százalékos aránya** A mai napig ténylegesen elköltött költség ÷ A becsült költség befejezéskor
-- **Teljes költség (CTC)** Tervezett költség – A mai napig ténylegesen elköltött költség
-- **EAC**: Fennmaradó költség + Eddig elköltött aktuális költség
-- **Tervezett költség szórás**: Tervezett költség – EAC
-
-A feladaton látható a költségváltozás vetülete. Ha az EAC meghaladja a tervezett költségeket, akkor a feladat várhatóan többet fog fizetni, mint az eredetileg tervezték. Ezért a költségvetés fölé emelkedik. Ha az EAC kevesebb, mint a tervezett költség, akkor a feladat várhatóan kevesebbre kerül, mint az eredetileg tervezték. Ezért a költségvetés keretein belül növekszik.
-
-## <a name="project-managers-reprojection-of-cost"></a>A projektvezető költségeinek újratervezése
-
-Az erőfeszítés újratervezésekor a CTC, az EAC, a felhasznált költségek százalékos arányát és a várható költségváltozást mind a **Költségkövetés** nézetben újraszámolják.
 
 ## <a name="project-status-summary"></a>A projekt állapotának összefoglalása
 

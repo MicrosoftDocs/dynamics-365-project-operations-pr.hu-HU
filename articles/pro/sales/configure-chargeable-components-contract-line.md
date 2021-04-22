@@ -1,5 +1,5 @@
 ---
-title: A projektalapú szerződéssor felszámítható összetevőinek konfigurálása – Lite
+title: A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
 description: Ez a témakör tájékoztatást nyújt arról, hogyan lehet a felszámítható összetevőket felvenni a Project Operations szerződéssoraiba.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273921"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858476"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>A projektalapú szerződéssor felszámítható összetevőinek konfigurálása – Lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Egyszerű központi telepítés – proforma számlázás, Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 A projektalapú szerződéssor rendelkezik *mellékelt* összetevőkkel és a *felszámítható* összetevőkkel.
 
@@ -62,23 +62,582 @@ A tranzakció számlázási típusa a projektalapú szerződéssor **Számlázha
 
 ### <a name="resolve-chargeability"></a>A számlázhatóság feloldása
 
-Az időhöz létrehozott becslések vagy tényleges adatok csak akkor tekinthetők felszámíthatónak , ha az **Idő** szerepel a szerződéssoron és ha a **Feladat** és a **Szerepkör** a szerződéssoron felszámíthatónak van konfigurálva.
+Az időre létrehozott becslés vagy tényadat csak akkor tekinthető felszámíthatónak, ha:
 
-A költséghez létrehozott becslések vagy tényleges adatok csak akkor tekinthetők felszámíthatónak , ha a **Költség** szerepel a szerződéssoron és ha a **Feladat** és a **Tranzakció** kategória a szerződéssoron felszámíthatónak van konfigurálva.
+   - Az **Idő** szerepel a szerződéssorban.
+   - A **Szerepkör** a szerződéssorban felszámíthatóként van konfigurálva.
+   - A **Hozzáadott feladatok** érték **Kijelölt feladatok** elemre van állítva a szerződéssoron.
+ 
+ Ha ez a három dolog teljesül, akkor a feladat felszámíthatóként konfigurálható. 
+
+A költségre létrehozott becslés vagy tényadat csak akkor tekinthető felszámíthatónak, ha:
+
+   - A **Költség** szerepel a szerződéssorban
+   - A **Tranzakciókategória** a szerződéssorban felszámíthatóként van konfigurálva
+   - A **Hozzáadott feladatok** érték **Kijelölt feladat** elemre van állítva a szerződéssoron
+  
+ Ha ez a három dolog teljesül, akkor a **Feladat** felszámíthatóként konfigurálható. 
+
+Az anyagra létrehozott becslés vagy tényadat csak akkor tekinthető felszámíthatónak, ha:
+
+   - Az **Anyagok** szerepel a szerződéssorban
+   - A **Hozzáadott feladatok** érték **Kijelölt feladatok** elemre van állítva a szerződéssoron
+
+Ha ez a két dolog teljesül, akkor a **Feladat** felszámíthatóként konfigurálható. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Időt tartalmaz</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Költséget tartalmaz</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Anyagokkal együtt</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Hozzáadott feladatok</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Szerepkör</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategória</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Feladatok</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Felszámolhatósági hatás</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges kiadáshoz: <strong>Számítható</strong>
+                </p>
+                <p>
+Számlázási típus a tényanyagon: <strong>Számítható</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Csak a kiválasztott feladatok </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges kiadáshoz: <strong>Számítható</strong>
+                </p>
+                <p>
+Számlázási típus a tényanyagon: <strong>Számítható</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Csak a kiválasztott feladatok </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Fel nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges kiadáshoz: Számlázható </p>
+                <p>
+Számlázási típus a tényanyagon: Felszámítható </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Csak a kiválasztott feladatok </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Fel nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges költséghez: <strong>Nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges adathoz: <strong>Nem számítható</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Csak a kiválasztott feladatok </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Fel nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges költséghez: <strong>Nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges adathoz: <strong> Nem számítható</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Csak a kiválasztott feladatok </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Fel nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges költséghez: <strong> Nem számítható</strong>
+                </p>
+                <p>
+Számlázási típus a tényanyagon: Felszámítható </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Felszámítható</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges időhöz: <strong>Nem érhető el</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges kiadáshoz: Számlázható </p>
+                <p>
+Számlázási típus a tényanyagon: Felszámítható </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges időhöz: <strong>Nem érhető el</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges költséghez: <strong> Nem számítható</strong>
+                </p>
+                <p>
+Számlázási típus a tényanyagon: Felszámítható </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: Számlázható </p>
+                <p>
+Számlázás típusa egy tényleges költséghez: <strong>Nem érhető el</strong>
+                </p>
+                <p>
+Számlázási típus a tényanyagon: Felszámítható </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Fel nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges költséghez: <strong>Nem érhető el</strong>
+                </p>
+                <p>
+Számlázási típus a tényanyagon: Felszámítható </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Felszámítható </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: Számlázható </p>
+                <p>
+Számlázás típusa egy tényleges kiadáshoz: Számlázható </p>
+                <p>
+Számlázás típusa egy tényleges anyaghoz: <strong>Nem érhető el</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Igen </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Teljes projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nem számítható</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nem számlázható</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nem állítható be </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Számlázás egy tényleges Időhöz: <strong>Fel nem számítható</strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges költséghez:<strong> Nem számítható </strong>
+                </p>
+                <p>
+Számlázás típusa egy tényleges anyaghoz:<strong> Nem érhető el</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Időt tartalmaz | Költséget tartalmaz | Feladatokat tartalmaz | Szerepkör           | Kategória       | Feladatok                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Igen           | Igen              | Teljes projekt | Felszámítható     | Felszámítható     | Számlázás egy tényleges Időhöz: **Számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Számlázható**           |
-| Igen           | Igen              | Kiválasztott feladatok | Felszámítható     | Felszámítható     | Számlázás egy tényleges Időhöz: **Számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Számlázható**           |
-| Igen           | Igen              | Kiválasztott feladatok | Fel nem számítható | Felszámítható     | Számlázás egy tényleges Időhöz: **Nem számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Számlázható**       |
-| Igen           | Igen              | Kiválasztott feladatok | Felszámítható     | Felszámítható     | Számlázás egy tényleges Időhöz: **Nem számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Nem számlázható** |
-| Igen           | Igen              | Kiválasztott feladatok | Fel nem számítható | Felszámítható     | Számlázás egy tényleges Időhöz: **Nem számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Nem számlázható** |
-| Igen           | Igen              | Kiválasztott feladatok | Fel nem számítható | Fel nem számítható | Számlázás egy tényleges Időhöz: **Nem számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Nem számlázható** |
-| Nincs            | Igen              | Teljes projekt | Nem állítható be   | Felszámítható     | Számlázás egy tényleges Időhöz: **Nem érhető el**</br>Számlázás típusa egy tényleges kiadáshoz: **Számlázható**          |
-| Nincs            | Igen              | Teljes projekt | Nem állítható be   | Fel nem számítható | Számlázás egy tényleges Időhöz: **Nem érhető el**</br> Számlázás típusa egy tényleges kiadáshoz: **Nem számlázható**     |
-| Igen           | Nincs               | Teljes projekt | Felszámítható     | Nem állítható be   | Számlázás egy tényleges Időhöz: **Számlázható** </br> Számlázás típusa egy tényleges kiadáshoz: **Nem érhető el**        |
-| Igen           | Nincs               | Teljes projekt | Fel nem számítható | Nem állítható be   | Számlázás egy tényleges Időhöz: **Nem számlázható** </br>Számlázás típusa egy tényleges kiadáshoz: **Nem érhető el**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

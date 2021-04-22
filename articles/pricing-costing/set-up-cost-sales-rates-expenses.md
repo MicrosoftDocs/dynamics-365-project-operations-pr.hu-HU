@@ -3,17 +3,17 @@ title: Költség- és értékesítési árak beállítása a kiadásokhoz
 description: Ez a témakör a költség és értékesítési ráták tranzakciós és költségkategóriákhoz való beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274911"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877223"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Költség- és értékesítési árak beállítása a kiadásokhoz
 
@@ -23,9 +23,10 @@ A Dynamics 365 Project Operations tranzakciókategóriáihoz tartozó költsége
 
 A tranzakciós kategóriákhoz tartozó költség- és értékesítési árak beállításához hajtsa végre az alábbi lépéseket. 
 
-1. Hozzon létre egy árlistát az árlista fejléce alapján. 
-2. A **Kategóriaárak** helyen a részrács menüben válassza az **+ Új kategóriaár** lehetőséget. 
-3. A **gyors létrehozás** lapon adja meg a tranzakció kategóriáját és azt az egységet, amelyhez új árat hoz létre.
+1. Menjen az **Értékesítés** > **Ügyfelek** > **Árlisták** lehetőségre.
+2. Válassza az **Új** lehetőséget az új árlista létrehozásához. 
+3. A **Kategóriaárak** helyen a részrács menüben válassza az **Új kategóriaár** lehetőséget. 
+4. A **gyors létrehozás** lapon adja meg a tranzakció kategóriáját és azt az egységet, amelyhez új árat hoz létre.
 
 Az alábbi táblázat egy kategória ársorának **általános** lap és a **gyors létrehozás** oldalának mezőit sorolja fel, amelyeket érdemes szem előtt tartani, amikor értékesítési vagy önköltségi árlistát hoz létre a kategóriaárakon.
 
