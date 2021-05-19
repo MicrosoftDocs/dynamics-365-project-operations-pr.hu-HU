@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: A Project Operations integrációjának konfigurálása jogi személyenként
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: A kettős írás integrációjának konfigurálása
+          items:
+            - name: A kettős írás integrációjának áttekintése
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations kettős írás leképezési verziói
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations telepítése és a konfigurációs adatok integrációja
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Projektbecslések és tényadatok integrációja
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Projektszámla integrációja
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Költségkezelés integrációja
+              href: environment/resource-dual-write-expense.md
+            - name: Szállítói számla integrációja
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Újdonságok
       items:
         - name: 2021. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Projektnaptárak meghatározása
           href: project-management/define-project-calendars.md
+        - name: Ütemezési módok
+          href: project-management/scheduling-modes.md
         - name: Projekt frissítése
           href: project-management/update-project.md
         - name: Projekt másolása
@@ -404,11 +422,17 @@
           items:
             - name: Helyesbítő naplók létrehozása és megerősítése
               href: actuals/create-confirm-correction-journals.md
+    - name: Beszerzés
+      items:
+        - name: Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
+          href: procurement/configure-materials-nonstocked.md
+        - name: Nem készletezett anyagok beszerzése projektekhez függőben lévő szállítói számlák felhasználásával
+          href: procurement/pending-vendor-invoices.md
     - name: Számlázás
       items:
         - name: Számlafeldolgozás áttekintése
           href: invoicing/post-project-invoices.md
-        - name: Projektszámla-javaslatok kezelése
+        - name: Projektszámla-ajánlatok kezelése
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma számlázás
           items:
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektalapú számlák automatizálásának konfigurálása
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Projektszámla-ajánlatok kezelése
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projekt könyvelése
       items:
         - name: A pénzügyi dimenzió alapértelmezései
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Projektnaptárak meghatározása
           href: project-management/define-project-calendars.md
+        - name: Ütemezési módok
+          hreF: project-management/scheduling-modes.md
         - name: Projekt frissítése
           href: project-management/update-project.md
         - name: Projekt másolása
@@ -848,6 +876,8 @@
   items:
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021. áprilisban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Újdonságok 2021. márciusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Újdonságok 2021. januárban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
@@ -871,10 +901,10 @@
     - name: Fizetéskor fizetett szállítói kifizetések beállítása és használata
       href: prod-pma/setup-manage-vendor-payments.md
     - name: A projekt költségének elhatárolása a beszerzési nyugtákon
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projekt számlázása
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
-    - name: Projektszámla-javaslatok teljesítménye
+      href: /dynamics365/finance/accounts-payable/project-invoicing
+    - name: Projektszámla-ajánlatok teljesítménye
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektszerződések
       href: prod-pma/project-contracts.md
@@ -998,6 +1028,8 @@
       items:
         - name: A Project Service 3.x frissítési kiadásának frissítése
           href: psa/version-history-ps.md
+        - name: A 31-es frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
+          href: psa/whats-new-ur-31.md
         - name: A 30-as frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-30.md
         - name: A 29.5-ös frissítési kiadás V3 gyorsjavításában szereplő újdonságok vagy változások
@@ -1327,7 +1359,7 @@
             - name: Erőforrás-kihasználtság megtekintése
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Projektmenedzseri útmutató
           items:
             - name: Projektmenedzseri útmutató (Project Service)
