@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291847"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950942"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -67,7 +67,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Projekt könyvelése  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | A Több szerződéssor funkció engedélyezése a CDS-integráció nélkül nem lehetséges.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

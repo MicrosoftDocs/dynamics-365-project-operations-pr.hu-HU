@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278781"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949907"
 ---
 # <a name="close-an-opportunity"></a>Lehetőség lezárása
 
@@ -23,7 +23,7 @@ A projektlehetőségek megnyertként vagy elvesztettként zárhatók le. A **Leh
 
 A lehetőség nem zárható le, ha vannak hozzárendelve aktív árajánlatok. A lehetőségekhez tartozó összes aktív és tervezet árajánlat egyszerre lezárható. Ezután lezárhatja a lehetőséget.
 
-A lehetőségek lezárásáról további általános tudnivalókért lásd: [Lehetőség lezárása megnyertként vagy elvesztettként](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+A lehetőségek lezárásáról további általános tudnivalókért lásd: [Lehetőség lezárása megnyertként vagy elvesztettként](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

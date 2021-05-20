@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664092"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948287"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Fejlécadatok projektalapú lehetőségek esetében
 
@@ -35,7 +35,7 @@ Az alábbi táblázat egy projektalapú lehetőség azon mezőit tartalmazza, am
 | Partnerkezelő | Általános lap | A projektalapú lehetőség partnerkezelőjének neve. | A partnerkezelő felelős az ügyféllel való kapcsolat kezeléséért a projekt teljesítése során. A partnerkezelőhöz kötött foglalható erőforrásrekord alapján a szerződő részleg az alapértelmezett értéket veszi fel. |
 | Szerződő részleg | Általános lap | Az ügylethez kapcsolódó projekt vagy projektek teljesítéséért felelős szervezeti egység. | A szerződő egység a vállalat azon részlege, amely a projekteket az üzlet lezárását követően teljesíti. Minden egyes szerződő egység pénznemmel rendelkezik, és ez a pénznem kerül felhasználásra a projekthez kapcsolódó becsült és ténylegesen felmerült költségek jelentésére. |
 
-A lehetőség **Összegzés** lapjának minden egyéb mezője és szakasza esetében lásd: [Lehetőségek létrehozása és szerkesztése (Sales és Értékesítési központ)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+A lehetőség **Összegzés** lapjának minden egyéb mezője és szakasza esetében lásd: [Lehetőségek létrehozása és szerkesztése (Sales és Értékesítési központ)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

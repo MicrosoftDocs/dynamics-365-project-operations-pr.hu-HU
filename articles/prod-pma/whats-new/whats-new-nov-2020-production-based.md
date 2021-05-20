@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288006"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950762"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Újdonságok 2020. novemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -25,7 +25,7 @@ A frissítésben szereplő javításokkal kapcsolatos információkért jelentke
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Dynamics 365 Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Dynamics 365 Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

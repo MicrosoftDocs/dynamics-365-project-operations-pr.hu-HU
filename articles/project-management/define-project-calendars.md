@@ -1,9 +1,9 @@
 ---
 title: Projektnaptárak meghatározása
-description: Ez a témakör a projektütemezés nyomon követésére szolgáló projektnaptár használatáról tartalmaz információt.
+description: A témakör nyújt tájékoztatást arról, hogyan lehet naptári sablont alkalmazni a projekt ütemezésének nyomon követésére.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286971"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981303"
 ---
 # <a name="define-project-calendars"></a>Projektnaptárak meghatározása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A projekt ütemezésének elkészítéséhez létre kell hoznia egy projekt naptársablont, amely meghatározza a napi munkaórák számát és az esetleges szünnapokat. Projekt naptársablon létrehozásához társítson egy munkasablont a projekt **Naptársablon** mezőjéhez. Kövesse az alábbi a lépéseket munkasablon létrehozásához.
+Projekt létrehozásához és kezeléséhez naptársablont kell alkalmaznia a projektre. A naptársablon a következő projektjellemzőket határozza meg:
 
-1. A bal navigációs ablaktáblán válassza az **Erőforrások** elemet. 
-2. Az **Erőforrások** listaoldalon nyisson meg egy felhasználói rekordot, majd válassza a **Munkaórák megjelenítése** lehetőséget.
+- Munkaidő, beleértve a kezdési és befejezési időt
+- Munkanapok
+- Naptárkivételek, például munkaszüneti napok
 
-  > [!NOTE]
-  > Győződjön meg arról, hogy engedélyezte az előugró ablakokat a böngésző oldalán. Ez lehetővé teszi az erőforráshoz beállított munkaórák megtekintését.
-  
-3. A **Havi nézet** lapon válassza a **Beállítás** lehetőséget. Megjelenik egy három lehetőséget tartalmazó lista: 
+A projektre alkalmazott naptársablon a szervezet beállításaiban meghatározott naptársablon másolata.
 
-  - Új heti ütemezés
-  - Egynapi munkaütemezés
-  - Szabadidő
+> [!NOTE]
+> Ha módosítja a naptársablont, ezek a módosítások nem kerülnek át a projekt munkaidejébe. A projekt munkaidejének módosításához új sablont kell alkalmazni.
 
-4. Válassza az **Új heti ütemezés** elemet, majd állítsa be az erőforrás ütemezésének opcióit. Beállíthat ismétlődő heti ütemezést, napi óraparamétereket, szünnapokat stb.
-5. Állítsa be a dátumtartományt, válassza a **Mentés**, majd a **Bezárás** lehetőséget. 
-6. Lépjen vissza az **Erőforrások** listaoldalra, és válassza ki azt az erőforrást, amelyre beállította a munkaórákat. 
-7. A munkasablon beállításához válassza a **Naptár beállítása mint** lehetőséget. 
-8. A **Munkasablon** párbeszédpanelen adja meg a munkasablon nevét, majd válassza az **Alkalmaz** lehetőséget. 
+A szervezet naptársablonának létrehozásához két fő követelmény szükséges:
+
+- Új vagy meglévő foglalható erőforrással határozza meg a sablon kívánt munkaidejét.
+- Hozzon létre egy új naptársablont, és társítsa a sablont a foglalható erőforráshoz.
+
+**A sablon munkaidejének meghatározása**
+
+1. Lépjen a **Források** \> **Források** oldalra.
+2. Hozzon létre egy új hivatkozást a naptársablonban, vagy jelöljön ki egy meglévő erőforrást.
+3. Válassza ki az erőforrás **Munkaidő** lapját, és hajtsa végre a [Munkaidő beállítása erőforráshoz](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) felületen megjelenő utasításokat a naptárszabályok konfigurálásához.
+
+**Új naptársablon létrehozása**
+
+1. Lépjen a **Beállítások** \> **Naptársablon** pontra.
+2. Válassza az **Új** lehetőséget, és adjon meg egy nevet, leírást és sablonerőforrást.
+
+> [!NOTE]
+> Ha egy erőforrásra hivatkozik egy naptársablonban, az erőforrás naptárának egy példánya a naptársablonhoz társul. Ha módosítja a másolt sablon munkaidejét, akkor ezek a módosítások nem kerülnek át a projekt munkaidejébe.
 
 Most már hozzárendelheti a munkasablont egy projekt naptársablonhoz.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

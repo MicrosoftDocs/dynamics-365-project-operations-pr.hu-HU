@@ -3,18 +3,18 @@ title: Újdonságok 2021. áprilisban – Project Operations erőforrásalapú v
 description: Ez témakör a Project Operations 2021 áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást az erőforrásalapú/nem készletalapú forgatókönyvekhez.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867996"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935477"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2021. áprilisban – Project Operations erőforrásalapú vagy nem készletalapú forgatókönyvekhez
 
@@ -33,8 +33,26 @@ Ez a kiadás a következő funkciókat tartalmazza:
   - Nem készletezett anyagok becslése és árképzése a projekt értékesítési ciklusa alatt. További információért lásd a [Költség- és értékesítési árak beállítása a katalógustermékekhez – Lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md) részt.
   - A nem készletezett anyagok használatának követése a projekt teljesítése során. További információért lásd az [Anyaghasználat rögzítése projekteknél és projektfeladatoknál](../material/material-usage-log.md) részt.
   - A felhasznált nem készletezett anyagköltségek számlázása. További információért lásd a [Számlázási elmaradás kezelése](../proforma-invoicing/manage-billing-backlog.md) részt.
+  - A szolgáltatás konfigurálásról a [Nem készleten lévő anyagok és a függőben lévő szállítói számlák konfigurálása](../procurement/configure-materials-nonstocked.md) oldalon található további tájékoztatás.
 - Feladatalapú számlázás: Lehetővé tette a projektfeladatok projektszerződés-sorokkal való társítását, ezáltal ugyanaz a számlázási módszer, számlagyakoriság és vevők vonatkoznak rá, mint a szerződéssoron szereplőkre. Ez a társítás biztosítja a pontos számlázást, könyvelést, bevételbecslést és felismerést, hogy a projektfeladatokon ennek a beállításnak megfelelően működjön.
 - A Dynamics 365 Dataverse-ben lévő új API-k lehetővé teszik az **Ütemezési entitásokkal** végzett műveletek létrehozását, frissítését és törlését. További információt az [Ütemezési API-k használata az Ütemezési entitásokkal végzett műveletekhez](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
+
+Az alábbi lista a Project Operations 2021. áprilisi kiadásában módosított vagy hozzáadott kettős írású térképeket tartalmazza.
+
+| **Entitásleképezés** | **Frissített verzió** | **Hozzászólások** |
+| --- | --- | --- |
+| Project Operations integrációjának tényleges adatai (msdyn\_actuals) | 1.0.0.14 | Az anyag projekt tényének szinkronizálása során módosított leképezés. |
+| A Project Operations integrációs entitása kiadások becsléséhez (msdyn\_estimateslines) | 1.0.0.2 | A projektszerződéssor a(z) Finance and Operations alkalmazásokhoz való szinkronizálásának hozzáadása a feladat alapú számlázás támogatásához. |
+| A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments) | 1.0.0.5 | A projektszerződéssor a(z) Finance and Operations alkalmazásokhoz való szinkronizálásának hozzáadása a feladat alapú számlázás támogatásához. |
+| Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Új táblatérkép a(z) Dataverse és Finance and Operations alkalmazások közötti anyagbecslések szinkronizálásához. |
+| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn\_projectvendorinvoices) | 1.0.0.0 | Új táblatérkép a(z) Finance and Operations és Dataverse alkalmazások közötti szállítóiszámla-fejlécek szinkronizálásához. |
+| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Új táblatérkép a(z) Finance and Operations és Dataverse alkalmazások közötti szállítói számlasorok szinkronizálásához. |
+
+A Project Operations Dataverse megoldás és Finance and Operations megoldásverziójának frissítésekor mindig a térkép legújabb verzióját kell futtatnia a környezetében, és engedélyeznie kell az összes kapcsolódó táblatérképet. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verzióját aktiválhatja a **Táblatérkép verziói** pontban, ott pedig az legújabb verzió kiválasztásával, majd a kijelölt verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Ha problémát tapasztal a térkép elindításával kapcsolatban, kövesse a [Kettős írás hibaelhárítási útmutató térkép szakaszának Hiányzó táblaoszlopok című ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)részében található utasításokat.
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -67,7 +85,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 
 | **Funkcióterület** | **Hivatkozási szám** | **Minőségi frissítés** |
 | --- | --- | --- |
-| Projektvezetés és könyvelés | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | A fordított becslés megszüntetése nem működik **Időszakos** beállításban.  |
+| Projektvezetés és könyvelés | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | A becsült érték sztornírozása nem működik a **Periódikus** szakaszban.  |
 | Projektvezetés és könyvelés | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | A **Könyveléshelyesbítés** funkció problémát hoz létre azoknál a főkönyvi számláknál, amelyeknél a **Nincs engedélyezve manuális bevitel** van kiválasztva. |
 | Projektvezetés és könyvelés | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Hozzáadott üzleti logika a javítási számlák feldolgozásához, beleértve a foglalóösszeget vagy az alkalmazott foglalóösszeget. |
 | Projektvezetés és könyvelés | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Folyamatban lévő munka értékesítési érték feladása a vállalatközi projektszámlázásban egy nem várt számlát választ ki. |

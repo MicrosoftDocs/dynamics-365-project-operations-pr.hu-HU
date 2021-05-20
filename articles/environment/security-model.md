@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276801"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951212"
 ---
 # <a name="security-model"></a>Biztonsági modell
 
@@ -58,7 +58,7 @@ A csoportok lehetővé teszik a projektek jogosultságait és támogatják az eg
 
 A Project Operations nem hoz létre csoportot implicit művelet révén, és csak a csoportok kifejezett megnyomására hajtja ezt végre.
 
-A csoport tagjainak keresése a **Csoportkezelés** párbeszédpanelen azokra korlátozódik, akik a környezet biztonsági csoportja részeként vannak beállítva. További információkért lásd: [Felhasználók hozzáférésének szabályozása a környezetekhez: biztonsági csoportok és licencek](https://docs.microsoft.com/power-platform/admin/control-user-access).
+A csoport tagjainak keresése a **Csoportkezelés** párbeszédpanelen azokra korlátozódik, akik a környezet biztonsági csoportja részeként vannak beállítva. További információkért lásd: [Felhasználók hozzáférésének szabályozása a környezetekhez: biztonsági csoportok és licencek](/power-platform/admin/control-user-access).
 
 ![Csoportos mód](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ A csoport tagjainak keresése a **Csoportkezelés** párbeszédpanelen azokra ko
 ## <a name="deployment-recommendation"></a>Telepítési javaslat
 Mivel az Office-csoport együttműködési modellje fejlődik, további funkciók kerülnek később hozzáadásra, amelyek részletesebb ellenőrzést biztosítanak. A Project Operationst ma telepítő ügyfeleket arra ösztönözzük, hogy a hagyományos Microsoft Dynamics 365 biztonsági modellre összpontosítsanak.
 
-További tudnivalókért lásd: [Biztonság a Common Data Service rendszerben](https://docs.microsoft.com/power-platform/admin/wp-security).
+További tudnivalókért lásd: [Biztonság a Common Data Service rendszerben](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations és a Microsoft Dynamics 365 Finance biztonsága
 A Project Operations a következő szerepköröket tartalmazza:
@@ -78,7 +78,7 @@ A Project Operations a következő szerepköröket tartalmazza:
 - Projektvezető
 - Projekt könyvelője
 
-A pénzügyi biztonsággal kapcsolatos további információkért lásd: [Szerepköralapú biztonság](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+A pénzügyi biztonsággal kapcsolatos további információkért lásd: [Szerepköralapú biztonság](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

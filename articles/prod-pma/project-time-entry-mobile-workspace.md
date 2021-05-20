@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288877"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950177"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projektidő-beviteli mobil munkaterület
 
@@ -48,7 +48,7 @@ A **Projektidő-beviteli** mobil munkaterületen a felhasználók konkrétan a k
 Az előfeltételek eltérnek a szervezetnél telepített Microsoft Dynamics 365 verziójától függően.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek a Dynamics 365 Finance használata esetén
-Ha a szervezetnél Finance van telepítve, a rendszergazdának közzé kell tennie a **Projektidő-beviteli** mobil munkaterületet. További információk: [Mobil munkaterület közzététele](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Ha a szervezetnél Finance van telepítve, a rendszergazdának közzé kell tennie a **Projektidő-beviteli** mobil munkaterületet. További információk: [Mobil munkaterület közzététele](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Előfeltételek, ha az 1611-es verziót használja a 3. vagy újabb platformfrissítéssel
 Ha a z 1611-es verzió van telepítve a szervezeténél a 3. vagy újabb platformfrissítéssel, akkor a rendszergazdának a következő előfeltételeket kell elvégeznie. 
@@ -68,17 +68,17 @@ Ha a z 1611-es verzió van telepítve a szervezeténél a 3. vagy újabb platfor
 <td>Rendszergazda</td>
 <td>A KB 4018050 egy X++-frissítés vagy -metaadat-gyorsjavítás, amely a <strong>Projektidő-beviteli</strong> mobil munkaterületet tartalmazza. A KB 4018050 megvalósításához a rendszergazdának az alábbi lépéseket kell követnie.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Töltse le a metaadat-gyorsjavítást a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Telepítse a metaadat-gyorsjavítást</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Hozzon létre egy telepíthető csomagot,</a> amely tartalmazza az <strong>ApplicationSuite</strong> és <strong>ProjectMobile</strong> modelleket, majd töltse fel a telepíthető csomagokat az LCS-re.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Alkalmazza a telepíthető csomagot</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Töltse le a metaadat-gyorsjavítást a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Telepítse a metaadat-gyorsjavítást</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Hozzon létre egy telepíthető csomagot,</a> amely tartalmazza az <strong>ApplicationSuite</strong> és <strong>ProjectMobile</strong> modelleket, majd töltse fel a telepíthető csomagokat az LCS-re.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Alkalmazza a telepíthető csomagot</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Tegye közzé a <strong>Projektidő-beviteli</strong> mobil munkaterületet.</td>
 <td>Rendszergazda</td>
-<td>Lásd: <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil munkaterület közzététele</a>.</td>
+<td>Lásd: <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil munkaterület közzététele</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Finance and Operations mobilalkalmazás letöltése és telepítése:
 2.  Válassza az **Időbevitel** elemet. A rendszer megjeleníti az aktuális hét naptári dátumait.
 3.  A kiválasztott dátumnál válassza a **Művelet** &gt; **Új bejegyzés** lehetőséget.
 4.  Adja meg a rögzítendő órák számát.
-5.  Válassza ki a projektet az időbevitelhez. A listák az alkalmazásba offline használat céljából betöltött projekteket jelenítik meg. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. További tudnivalókért lásd: [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Válassza ki a projektet az időbevitelhez. A listák az alkalmazásba offline használat céljából betöltött projekteket jelenítik meg. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. További tudnivalókért lásd: [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Ha a projekt nem szerepel a listában, akkor válassza a **Keresés** lehetőséget. Keressen név szerint, vagy váltson át projektnév vagy ügyfél szerinti keresésre.
-7.  Válasszon ki egy kategóriát. A listák az alkalmazásba offline használat céljából betöltött kategóriákat jelenítik meg. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. További tudnivalókért lásd: [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Válasszon ki egy kategóriát. A listák az alkalmazásba offline használat céljából betöltött kategóriákat jelenítik meg. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. További tudnivalókért lásd: [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Ha a kategória nem szerepel a listában, akkor válassza a **Keresés** lehetőséget. Keressen kategória szerint, vagy váltson a kategórianév szerint történő keresésre.
-9.  Válasszon egy tevékenységet. A listák az alkalmazásba offline használat céljából betöltött tevékenységeket jelenítik meg. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. További tudnivalókért lásd: [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Válasszon egy tevékenységet. A listák az alkalmazásba offline használat céljából betöltött tevékenységeket jelenítik meg. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. További tudnivalókért lásd: [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Ha a tevékenység nem szerepel a listában, akkor válassza a **Keresés** lehetőséget. Keressen a tevékenység száma alapján, vagy váltson át cél szerinti keresésre.
 
 11. Válassza ki a sortulajdonságot.

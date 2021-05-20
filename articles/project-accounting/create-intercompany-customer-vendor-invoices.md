@@ -3,17 +3,17 @@ title: Vállalatközi ügyfél- és szállítói számlák létrehozása
 description: Ez a témakör a vállalatközi vevői és szállítói létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287466"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948398"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Vállalatközi ügyfél- és szállítói számlák létrehozása
 
@@ -25,7 +25,9 @@ A kölcsönadó jogi személy projektkönyvelője beállíthat egy kötegelt fol
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Vállalatközi vevői számla manuális létrehozása a projekttranzakciókhoz 
 
-Ezt a folyamatot használhatja vállalatközi vevői számla manuális létrehozására a projekttranzakciókhoz. Órák keresése, amelyeket olyan munkások adtak fel, amelyek a kölcsönvevő jogi személy projektjein dolgoztak, és amelyeket az Ön jogi személye számolt el a kölcsönvevő jogi személy nevében. Kereshet a jogi személy neve, a projekt szerződésszáma, a projektszám, dátumtartomány vagy ezek bármely kombinációja alapján. A keresési eredmények között jelölje ki a vállalatközi számlához adandó tranzakciókat.
+Ezt a folyamatot használhatja vállalatközi vevői számla manuális létrehozására a projekttranzakciókhoz. Órák keresése, amelyeket olyan munkások adtak fel, amelyek a kölcsönvevő jogi személy projektjein dolgoztak, és amelyeket az Ön jogi személye számolt el a kölcsönvevő jogi személy nevében. Kereshet a jogi személy neve, a projekt szerződésszáma, a projektszám, dátumtartomány vagy ezek bármely kombinációja alapján. A keresési eredmények között jelölje ki a vállalatközi számlához adandó tranzakciókat. 
+
+A kölcsönbeadó jogi személyben a következő lépéseket kell végrehajtani. 
 
 1. A Dynamics 365 Finance alkalmazásban válassza a **Projektvezetés és könyvelés** > **Projektszámlák** > **Vállalatközi vevői számlák** lehetőséget. A **Vállalatközi vevői számlák** listaoldalán, a műveleti ablaktáblán válassza az **Új** lehetőséget.
 2. A **Vállalatközi számla létrehozása** oldal **Jogi személy** mezőjében jelöljön ki egy kölcsönvevő jogi személyt.
@@ -35,9 +37,9 @@ Ezt a folyamatot használhatja vállalatközi vevői számla manuális létrehoz
 6. A keresési eredmények között jelölje ki a vállalatközi számlajavaslat részeként szerepeltetni kívánt tranzakciókat, majd kattintson az **OK** gombra.
 7. A **Vállalatközi vevői számla** lapon a keresési eredményekből kiválasztott vállalatközi projekttranzakciók jelennek meg. Ha módosítani szeretné a tranzakciókat, mielőtt elküldi a számlát a kölcsönvevő jogi entitásnak, tegye a következőket:
   
-    1. Nyissa meg a **Számlajavaslat létrehozása** oldalt. Jelöljön ki további vállalatközi tranzakciókat az aktuális számlához, majd válassza a **Sor hozzáadása** lehetőséget.
+    1. A **Vállalatközi vevői számla** lapon nyissa meg a számla adatait, majd válassza a **Sor hozzáadása** lehetőséget.
     2. Sor eltávolításához jelölje ki, majd válassza az **Eltávolítás** lehetőséget.
-    3. A **Számlasorok** gyorslap kiválasztott sorához tartozó megjegyzések, okok, pénzügyi dimenziók és egyéb információk megtekintése.
+    3. Megjegyzések, okok, pénzügyi dimenziók és egyéb információk megtekintése a számlasor adatainak kiválasztott sorával kapcsolatban.
     
 8. A vállalatközi vevői számla feladásához, a műveleti ablaktáblán válassza a **Feladás** lehetőséget.
 
@@ -52,7 +54,7 @@ Egyszerre több vállalatközi számlát is létrehozhat a kölcsönvevő jogi s
 2. A **Vállalatközi számlék létrehozása** oldal **Vállalat** mezőjében jelöljön ki egy jogi személyt, akinek számláz. Ha nem jelöl ki vállalatot, a keresési feltételeknek megfelelő összes tranzakció megjelenik az összes kölcsönvevő jogi személy esetében.
 3. A **Számla létrehozása ez alapján** mezőben válassza ki, hogy a vállalatközi tranzakciók számláját projekt vagy egy kölcsönvevő jogi személy alapján szeretné-e létrehozni.
 4. Nem kötelező: Adott projekt-és projekt-szerződés kiválasztásához a vállalatközi számlák létrehozásához kattintson a **Kijelölés** gombra. A **Lekérdezés** lapon a **Feltételek** mezőben jelölje ki a projektszerződést, a projektszámot vagy mindkettőt, majd válassza az **OK** lehetőséget.
-5. A **Köteg** lapon állítson be egy kötegelt feldolgozást, amellyel a vállalatközi számlákat ismétlődő módon hozza létre. További tájékoztatás a [Kötegelt feldolgozási munka beküldése egy űrlapról](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form) című témakörben olvasható.
+5. A **Köteg** lapon állítson be egy kötegelt feldolgozást, amellyel a vállalatközi számlákat ismétlődő módon hozza létre. További tájékoztatás a [Kötegelt feldolgozási munka beküldése egy űrlapról](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form) című témakörben olvasható.
 6. A vállalatközi számlák feladásához, a műveleti ablaktáblán válassza a **Feladás** lehetőséget.
 
 > [!NOTE]

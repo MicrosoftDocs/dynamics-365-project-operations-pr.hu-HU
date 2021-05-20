@@ -3,17 +3,17 @@ title: Projekt számlaajánlatok kezelése
 description: A témakör az ügyfél felé irányuló számlák Project Operations szolgáltatással való feldolgozását részletezi az erőforrás/nem készletezett anyagokon alapuló forgatókönyvekhez.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275856"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950717"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekt számlaajánlatok kezelése
 
@@ -80,7 +80,8 @@ Az új számlázási mérföldkő Dataverse-ből való létrehozásakor az **Ér
     - **Ügyfél**: az ügyfél számlázási áfacsoportja mindig alapértelmezett.
     - **Keresés**: a keresés a listában szereplő összes entitásban fog keresni, és kiválasztja az elérhető első értéket. A keresés a **Projekt** entitással, majd a **Projekt szerződés** entitással, majd az **Ügyfél** entitással kezdődik.
 
-- **A rögzített árú mérföldkő cikk értékesítési áfacsoportja** a **Cikk értékesítési áfacsoport** mező értékének alapértelmezett beállítására használatos.
+- A **Fixáras mérföldőtétel forgalmiadó-csoportja** a számlázási mérföldkő **Tétel forgalmiadó-csoportja** mezőjének alapértelmezett értékeként használatos. A könyvelő ezt az értéket a **Számlán végzett tranzakciók** oldalon tekintheti át és módosíthatja. A rendszer a projektszámla-javaslatsor létrehozásakor a számlán szereplő tranzakció értékét használja.
+ 
 
 ### <a name="financial-dimensions"></a>Pénzügyi dimenziók
 
@@ -132,7 +133,7 @@ A **Számlajavaslatok formázása** lapon az egyéni csoportosítási tranzakci�
 
 A nyomtatáskezelés különböző jelentésfájlokat használ a nyomtatáshoz, a célpontok megadásához és a számla láblécszövegének testreszabásához. A nyomtatáskezelés a modul szintjén beállítható, azonban ezek a beállítások felülírhatóak egy adott ügyfél, szerződés vagy számlajavaslat esetében. Ha hozzá szeretné férni ehhez a funkcióhoz a **Projekt számlajavaslat** oldalon, akkor válassza a **Nyomtatás** > **Nyomtatáskezelés** lehetőséget.
 
-A nyomtatáskezelési beállítások egy fanézetben jelennek meg, ahol minden csomópontszint megjeleníti a módosítható dokumentumokat. Az egyéni nyomtatások a modul, az ügyfél, a szerződés vagy a számla ajánlati dokumentumszinten rendelhetők hozzá. Az eredeti dokumentum nyomtatásának módosításához bontsa ki a kívánt csomópontot, és válassza az **Eredeti cikk** lehetőséget. A **Jelentésformátum** mezőben jelölje ki a nyomtatáshoz használni kívánt jelentésformátumot. Az egyéni jelentésformátumok a [Vállalat dokumentumkezelési keretrendszer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) segítségével használhatók.
+A nyomtatáskezelési beállítások egy fanézetben jelennek meg, ahol minden csomópontszint megjeleníti a módosítható dokumentumokat. Az egyéni nyomtatások a modul, az ügyfél, a szerződés vagy a számla ajánlati dokumentumszinten rendelhetők hozzá. Az eredeti dokumentum nyomtatásának módosításához bontsa ki a kívánt csomópontot, és válassza az **Eredeti cikk** lehetőséget. A **Jelentésformátum** mezőben jelölje ki a nyomtatáshoz használni kívánt jelentésformátumot. Az egyéni jelentésformátumok a [Vállalat dokumentumkezelési keretrendszer](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) segítségével használhatók.
 
 ## <a name="post-invoice-proposals"></a>Számlázási javaslatok közzététele
 

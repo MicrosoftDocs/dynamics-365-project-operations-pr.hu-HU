@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877538"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948242"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -49,23 +49,23 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | Állomás   | Régió        | Aktuális verzió | Következő verzió | Nyilvánosan elérhető |
 |-----------|---------------|-----------------|--------------|---------------------|
 | 1. állomás |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Első kiadás |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
+|   &nbsp;  | Első kiadás |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
 | 2. állomás |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
-|    &nbsp; | Kanada        |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
-|   &nbsp;  | India         |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
-|   &nbsp;  | Franciaország         |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
-|   &nbsp;  | Egyesült Arab Emírségek         |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
-|   &nbsp;  | Dél-afrikai Köztársaság         |  4.9.0.221       | Később eldöntendő     | 2021. április 23.           |
+|   &nbsp;  | Dél-Amerika |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
+|    &nbsp; | Kanada        |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
+|   &nbsp;  | India         |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
+|   &nbsp;  | Franciaország         |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
+|   &nbsp;  | Egyesült Arab Emírségek         |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
+|   &nbsp;  | Dél-afrikai Köztársaság         |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
 | 3. állomás  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japán         |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség  |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
-|   &nbsp;  | Nagy-Britannia |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
-|   &nbsp;  | Óceánia       |  4.9.0.221       | Később eldöntendő     | 2021. április 30.           |
+|   &nbsp;  | Japán         |  4.9.0.221       | Később eldöntendő     | 2021. május 7.           |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség  |  4.9.0.221       | Később eldöntendő     | 2021. május 7.           |
+|   &nbsp;  | Nagy-Britannia |  4.9.0.221       | Később eldöntendő     | 2021. május 7.           |
+|   &nbsp;  | Óceánia       |  4.9.0.221       | Később eldöntendő     | 2021. május 7.           |
 | 4. állomás |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Európa        |  4.8.0.92       | 4.9.0.221     | 2021. ápr. 16.           |
+|   &nbsp;  | Európa        |  4.9.0.221       | Később eldöntendő     | 2021. május 14.           |
 | 5. állomás |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika |  4.8.0.92       | 4.9.0.221     | 2021. április 23.           |
+|   &nbsp;  | Észak-Amerika |  4.9.0.221       | Később eldöntendő     | 2021. május 21.           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A Projektmenedzsment és a könyvelés kiadási ütemezése a Finance and Operations alkalmazások környezetében
 
@@ -73,15 +73,15 @@ A Projektmenedzsment és könyvelés frissítései évente nyolc alkalommal ker�
 
 | Támogatott kiadás | Nyilvánosan elérhető (önkiszolgáló frissítés) |
 | --- | --- |
+| 10.0.18 | 2021. április 16. |
 | 10.0.17 | 2021. március 19. |
 | 10.0.16 | 2021. január 22. |
 
 
-A tervezett kiadási dátumok változhatnak. További információkért tekintse meg: [Szolgáltatási frissítések megjelenése](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+A tervezett kiadási dátumok változhatnak. További információkért tekintse meg: [Szolgáltatási frissítések megjelenése](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Tervezett kiadás dátuma | Nyilvánosan elérhető (önkiszolgáló frissítés) |
 | --- | --- |
-| 10.0.18 | 2021. április 16. |
 | 10.0.19 | 2021. június 18. |
 | 10.0.20 | 2021. július 16. |
 

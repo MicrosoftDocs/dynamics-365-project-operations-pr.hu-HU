@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284181"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949637"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mi a Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Emellett a projektalapú munkák költségei felügyeletéhez és irányításá
 ## <a name="whats-new-in-psa"></a>A PSA újdonságai
 Örömmel jelentjük be legújabb frissítéseinket! A felhasználói felület tökéletesítése, hibák kijavítása, illetve fontos új funkciók és lehetőségek hozzáadása. Önök kértek, mi meghallgattuk Önöket.
 
-Vessen egy pillantást az [október 19-i kiadási megjegyzésekre](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index), amelyekből megismerheti a legújabb fejlesztéseket és kiegészítéseket.
+Vessen egy pillantást az [október 19-i kiadási megjegyzésekre](/dynamics365-release-plan/2019wave2/index), amelyekből megismerheti a legújabb fejlesztéseket és kiegészítéseket.
 
 ### <a name="in-development"></a>Fejlesztés alatt
-Ha szeretné megtudni, mit terveztünk a közeljövőre, lépjen tovább a [Dynamics 365: 2020 1. kiadási hullám tervére](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Ha szeretné megtudni, mit terveztünk a közeljövőre, lépjen tovább a [Dynamics 365: 2020 1. kiadási hullám tervére](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Segítség a PSA 3.x verziójával kapcsolatban
 Erőforrásokat keres a kivitelezés megtervezéséhez? Tekintse meg ezeket a letölthető útmutatókat.

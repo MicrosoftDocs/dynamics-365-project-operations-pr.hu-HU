@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289597"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950402"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe 
 
@@ -109,8 +109,8 @@ Amikor a Project Service Automation és a Finance közötti integrációs megold
 ## <a name="prerequisites-and-mapping-setup"></a>Előfeltételek és leképezési beállítások
 
 - A projektszerződések és projektek szinkronizálása előtt szinkronizálnia kell a partnereket.
-- A kapcsolati készletben vegyen fel egy integrációs kulcsmező leképezést a **msdyn\_organizationalunits** és a **msdyn\_name \[Name\]** között. Előfordulhat, hogy előbb hozzá kell adnia egy projektet a kapcsolati készlethez. További információkért lásd: [Adatok integrálása a Common Data Service for Apps rendszerbe](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- A kapcsolati készletben vegyen fel egy integrációs kulcsmező leképezést a **msdyn\_projects** és a **msdynce\_projectnumber \[Project Number\]** között. Előfordulhat, hogy előbb hozzá kell adnia egy projektet a kapcsolati készlethez. További információkért lásd: [Adatok integrálása a Common Data Service for Apps rendszerbe](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- A kapcsolati készletben vegyen fel egy integrációs kulcsmező leképezést a **msdyn\_organizationalunits** és a **msdyn\_name \[Name\]** között. Előfordulhat, hogy előbb hozzá kell adnia egy projektet a kapcsolati készlethez. További információkért lásd: [Adatok integrálása a Common Data Service for Apps rendszerbe](/powerapps/administrator/data-integrator).
+- A kapcsolati készletben vegyen fel egy integrációs kulcsmező leképezést a **msdyn\_projects** és a **msdynce\_projectnumber \[Project Number\]** között. Előfordulhat, hogy előbb hozzá kell adnia egy projektet a kapcsolati készlethez. További információkért lásd: [Adatok integrálása a Common Data Service for Apps rendszerbe](/powerapps/administrator/data-integrator).
 - A projektszerződések és projektek **SourceDataID** eleme frissíthetp egy eltérő értékre, vagy eltávolítható a leképezésből. Az alapértelmezett sablon értéke a **Project Service Automation**.
 - A **PaymentTerms** leképezést frissíteni kell, hogy az tükrözze a Finance érvényes fizetési feltételeit. Eltávolíthatja továbbá a leképezést a projektfeladatból is. Az alapértelmezett érték leképezése alapértelmezett értékekkel rendelkezik a demó adatokhoz. A következő táblázat a Project Service Automation értékeit mutatja be.
 
@@ -131,7 +131,7 @@ Az Excelhez készült Microsoft Power Query segítségével szűrheti az adatoka
 Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelveket:
 
 - A Projektek és szerződések (PSA – Fin és Ops) sablonhoz egy alapértelmezett szűrő tartozik, amely csak a **Work item (msdyn\_ordertype = 192350001)** típusú értékesítési rendeléseket tartalmazza. Ez a szűrő segít biztosítani, hogy ne jöjjenek létre projektszerződések a Finance számára létrehozott értékesítési rendelésekhez. Ha saját sablont hoz létre, akkor ezt a szűrőt kell hozzáadnia.
-- Hozzon létre egy Power Query szűrőt, amely csak azokat a szerződéssel rendelkező szervezeteket tartalmazza, amelyeket az integrációs kapcsolatcsoport jogi entitással kell szinkronizálni. A Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket például a USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket a USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
+- Hozzon létre egy Power Query szűrőt, amely csak azokat a szerződéssel rendelkező szervezeteket tartalmazza, amelyeket az integrációs kapcsolatcsoport jogi entitással kell szinkronizálni. Például az Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket az USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket az USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
 
 ## <a name="template-mapping-in-data-integration"></a>Sablonok leképezése az adatintegrációban
 

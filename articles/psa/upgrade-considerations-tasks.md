@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281751"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951347"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Frissítse a munka lebontási struktúrájával kapcsolatos szempontokat
 
@@ -34,20 +34,20 @@ Ez a témakör a munka bontási struktúrájának a Project Service Automation 2
 ## <a name="key-entities"></a>Kulcsfontosságú entitások
 A pontos, az erőforrásokkal már megterhelt munka bontási struktúrához a következő entitások szükségesek:
 
-- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektcsoport](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektfeladat](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Erőforrás-hozzárendelések](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projektfeladat függősége](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Lefoglalható erőforrások](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektcsoport](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektfeladat](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Erőforrás-hozzárendelések](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projektfeladat függősége](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Lefoglalható erőforrások](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Az erőforrások által betöltött munka bontási struktúrájának meghatározásához a következő lépéseket kell végrehajtania:
 
-1. Hozzon létre egy új projektet. További információ az új projekt létrehozásáról: [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Hozzon létre egy vagy több feladatot. A feladat létrehozásával kapcsolatos további információkért lásd: [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Határozza meg a feladat függőségeit. További információ a [Projektfeladat függősége](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency) című témakörben olvasható.
-4. Jelölje ki a projekt csapattagjait. További információ: [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Jelölje ki a projektcsoport tagjait a feladatokhoz. További információ: [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Hozzon létre egy új projektet. További információ az új projekt létrehozásáról: [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Hozzon létre egy vagy több feladatot. A feladat létrehozásával kapcsolatos további információkért lásd: [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Határozza meg a feladat függőségeit. További információ a [Projektfeladat függősége](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency) című témakörben olvasható.
+4. Jelölje ki a projekt csapattagjait. További információ: [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Jelölje ki a projektcsoport tagjait a feladatokhoz. További információ: [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projektcsapat-kapcsolatok
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283776"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948148"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Felhasználói útmutató a Project Resource Hub alkalmazáshoz
 
@@ -48,7 +48,7 @@ A [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-serv
 ## <a name="install-the-mobile-app"></a>A mobilalkalmazás telepítése
 Mielőtt elkezdené a Project Resource Hub alkalmazást használatát, telepítenie kell a mobilalkalmazást az eszközére. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [A Dynamics 365 for phones and tablets telepítése](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [A Dynamics 365 for phones and tablets telepítése](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Alapvető navigáció
 1.  Amikor bejelentkezik a mobilalkalmazásba, megjelenik a MyApps oldal, amely tartalmazza a hozzáférhető alkalmazások listáját. 
@@ -99,7 +99,7 @@ Adja meg a kiadásokat legalább hetente – vagy az a igazgatók által kért g
 5. Folytassa a kiadások megadását a hét további részére. Amikor elkészült, és minden megfelelőnek tűnik, koppintson a **Küldés** gombra. Egy vezető megvizsgálja és jóváhagyja a kiadásokat.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Általános információk a mobilalkalmazás használatáról 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobileszközök alapjai](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobileszközök alapjai](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service áttekintése](../psa/overview.md)   

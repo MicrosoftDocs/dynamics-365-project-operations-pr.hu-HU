@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275091"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950582"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>A Project Service alkalmazás mintaadatok telepítése
 
@@ -149,7 +149,7 @@ A demó adatcsomaghoz hat felhasználó szükséges. Hogy a csomag telepítése 
 
 5. Az első felhasználó naptárja (a **userstocreateandconfigure** címkén belül) a munkaórák feltöltésére használatos a demóadatok importálásához szükséges minden foglalható erőforrásra vonatkozóan. Navigáljon a **Beállítások** > **Biztonság** > **Felhasználók** elemhez, keresse meg az "Spencer Low" felhasználót, és nyissa meg a "Munkaórák" lehetőséget. Módosítsa a meglévő munkaórákat, válassza ki a **Teljes heti ismétlődési minta kezdéstől a befejezésig** lehetőséget. Ellenőrizze, hogy a **munkaidő 8:00-17:00-ig (9 óra) tart, hétfőtől péntekig, az időzóna pedig Csendes-óceáni idő (USA és Kanada)**. Ez biztosítja, hogy a projekt és ütemezési tábla megjelenítése az elvártnak megfelelő.
 
-**Javaslat:** Érdemes most megfontolni biztonsági másolat készítését a szervezetről arra az esetre ha vissza kellene állítania a kezdő állapotot, ha baj történne a példaadatok telepítése során. További információkért, látogasson el erre az oldalra: [Biztonsági és visszaállítási példányok.](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)
+**Javaslat:** Érdemes most megfontolni biztonsági másolat készítését a szervezetről arra az esetre ha vissza kellene állítania a kezdő állapotot, ha baj történne a példaadatok telepítése során. További információkért, látogasson el erre az oldalra: [Biztonsági és visszaállítási példányok.](/dynamics365/customer-engagement/admin/backup-restore-instances)
 
 ## <a name="run-the-package-deployer"></a>Futtassa a Package Deployer alkalmazást
 

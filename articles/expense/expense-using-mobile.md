@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499899"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950889"
 ---
 # <a name="mobile-expense-app"></a>Költségekkel kapcsolatos mobilalkalmazás
 
@@ -72,16 +72,16 @@ Ha a szervezet az 1611-es verziót telepítette 3. vagy újabb platformfrissít�
 <td>Rendszergazda</td>
 <td>A KB 4019015 olyan X++-frissítés vagy -metaadat-gyorsjavítás, amely a <strong>Költségkezelés</strong> mobilos munkaterületet tartalmazza. A KB 4019015 megvalósításához a rendszergazdának az alábbi lépéseket kell követnie.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Töltse le a frissítéseket a Lifecycle Servicesből</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Telepítse a metaadat-gyorsjavítást</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Hozzon létre egy olyan telepíthető csomagot,</a> amely tartalmazza az <strong>ApplicationSuite</strong> és az <strong>ExpenseMobile</strong> modellt, majd töltse fel a telepíthető csomagokat az LCS-re.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Alkalmazza a telepíthető csomagot</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Töltse le a frissítéseket a Lifecycle Servicesből</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Telepítse a metaadat-gyorsjavítást</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Hozzon létre egy olyan telepíthető csomagot,</a> amely tartalmazza az <strong>ApplicationSuite</strong> és az <strong>ExpenseMobile</strong> modellt, majd töltse fel a telepíthető csomagokat az LCS-re.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Alkalmazza a telepíthető csomagot</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Tegye közzé a <strong>Költségkezelés</strong> mobilos munkaterületet.</td>
 <td>Rendszergazda</td>
-<td>Lásd: <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil munkaterület közzététele</a>.</td>
+<td>Lásd: <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil munkaterület közzététele</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. Válassza a **Gyors költségbevitel** lehetőséget.
-3. Válassza ki a költség kategóriáját. Láthatja az alkalmazásba offline használatra betöltött költségkategóriák listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a kategória nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen költségkategória szerint, vagy váltson a költségtípus szerint történő keresésre.
+3. Válassza ki a költség kategóriáját. Láthatja az alkalmazásba offline használatra betöltött költségkategóriák listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a kategória nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen költségkategória szerint, vagy váltson a költségtípus szerint történő keresésre.
 4. Adja meg a költség tranzakciójának dátumát.
 5. Nem kötelező: Adja meg a kereskedőt a költséghez.
 6. Írja be a költség összegét.
-7. Válassza ki a költség pénznemét. Láthatja az alkalmazásba offline használatra betöltött pénznemkódok listáját. Alapértelmezés szerint 400 pénznem van betöltve, de a fejlesztők módosíthatják ezt. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a pénznem nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen pénznem szerint, vagy váltson a név szerint történő keresésre.
+7. Válassza ki a költség pénznemét. Láthatja az alkalmazásba offline használatra betöltött pénznemkódok listáját. Alapértelmezés szerint 400 pénznem van betöltve, de a fejlesztők módosíthatják ezt. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a pénznem nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen pénznem szerint, vagy váltson a név szerint történő keresésre.
 8. Válassza a **Fénykép készítése** vagy a **Kép kiválasztása** lehetőséget.
 9. Hajtsa végre az alábbi lépések egyikét:
 
@@ -159,11 +159,11 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 7. Válasszon ki egy vagy több költséget a listából.
 8. Válassza a **Kész** lehetőséget.
 9. Ha új költséget szeretne hozzáadni a költségjelentéshez, válassza az **Új költség** lehetőséget.
-10. Válassza ki a költség kategóriáját. Láthatja az alkalmazásba offline használatra betöltött költségkategóriák listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a kategória nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen költségkategória szerint, vagy váltson a költségtípus szerint történő keresésre.
+10. Válassza ki a költség kategóriáját. Láthatja az alkalmazásba offline használatra betöltött költségkategóriák listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a kategória nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen költségkategória szerint, vagy váltson a költségtípus szerint történő keresésre.
 11. Nem kötelező: Adja meg a kereskedőt a költséghez.
 12. Adja meg a költség tranzakciójának dátumát.
 13. Írja be a költség összegét.
-14. Válassza ki a költség pénznemét. Láthatja az alkalmazásba offline használatra betöltött pénznemkódok listáját. Alapértelmezés szerint 400 pénznem van betöltve, de a fejlesztők módosíthatják ezt. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a pénznem nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen pénznem szerint, vagy váltson a név szerint történő keresésre.
+14. Válassza ki a költség pénznemét. Láthatja az alkalmazásba offline használatra betöltött pénznemkódok listáját. Alapértelmezés szerint 400 pénznem van betöltve, de a fejlesztők módosíthatják ezt. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a pénznem nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen pénznem szerint, vagy váltson a név szerint történő keresésre.
 15. Válassza a **Kész** lehetőséget.
 16. Ha további adatokat kíván felvenni a költséghez, válassza a **További részletek hozzáadása** lehetőséget. A rendelkezésre álló mezők a vállalat költségkezelési beállításaitól függenek.
 17. Ha a vállalati szabályzat értelmében nyugtát kell csatolni a költséghez, akkor válassza a **Nyugták** lehetőséget, majd hajtsa végre a következő lépéseket:
@@ -209,12 +209,12 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
         - Ha a **Korábbi vendégek** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
 
-            1. Válasszon ki egy vagy több korábbi vendéget a listából. Láthatja az alkalmazásba offline használatra betöltött korábbi költségjelentésekhez hozzáadott korábbi vendégek listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a korábbi vendég nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen név szerint, vagy váltson át szervezet, ország vagy titulus szerinti keresésre.
+            1. Válasszon ki egy vagy több korábbi vendéget a listából. Láthatja az alkalmazásba offline használatra betöltött korábbi költségjelentésekhez hozzáadott korábbi vendégek listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a korábbi vendég nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen név szerint, vagy váltson át szervezet, ország vagy titulus szerinti keresésre.
             2. Válassza a **Kész** lehetőséget.
 
         - Ha a **Munkatársak** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
 
-            1. Válasszon ki egy vagy több munkatársat a listából. Láthatja az alkalmazásba offline használatra betöltött munkatársak listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a munkatárs nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen név szerint, vagy váltson át vállalat vagy titulus szerinti keresésre.
+            1. Válasszon ki egy vagy több munkatársat a listából. Láthatja az alkalmazásba offline használatra betöltött munkatársak listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha a munkatárs nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen név szerint, vagy váltson át vállalat vagy titulus szerinti keresésre.
             2. Válassza a **Kész** lehetőséget.
 
     3. A **Vissza** gombbal térjen vissza a költség részleteihez.
@@ -223,7 +223,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
     1. Válassza ki az első tételezendő dátumot.
     2. Válassza a **Tételezés hozzáadása** lehetőséget.
-    3. Válassza ki a költségtételezés alkategóriáját. Láthatja az alkalmazásba offline használatra betöltött költség-alkategóriák listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha az alkategória nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen a költség alkategóriájának neve szerint.
+    3. Válassza ki a költségtételezés alkategóriáját. Láthatja az alkalmazásba offline használatra betöltött költség-alkategóriák listáját. Alapértelmezés szerint 50 elem van betöltve, de a fejlesztők megváltoztathatják ezt a számot. A fejlesztők a [Mobilplatform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) című cikkben találnak további információt. Ha az alkategória nem szerepel a listában, akkor az online kereséshez válassza a **Keresés** lehetőséget. Keressen a költség alkategóriájának neve szerint.
     4. Adja meg a tételehéshez tartozó tranzakciós összeget.
     5. Ha szükséges, módosítsa a tranzakció dátumát.
     6. Válassza a **Kész** lehetőséget.

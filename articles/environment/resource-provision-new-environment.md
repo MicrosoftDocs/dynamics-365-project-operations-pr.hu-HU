@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276891"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950537"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
@@ -36,7 +36,7 @@ A következő lépésekkel engedélyezheti az automatizált Project Operations-k
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations-környezet kiépítése
 
-1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezet](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [teszt-/éles környezet](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) telepítést. 
+1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [teszt-/éles környezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) telepítést. 
 2. Haladjon végig a **Környezet kiépítése** varázslón. 
 
 > [!IMPORTANT]

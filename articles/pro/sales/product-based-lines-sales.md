@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f7dfabd068e180c7122ede0f79aaebfe220250a1
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272616"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949547"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Termékalapú lehetőségsorok - Lite
 
@@ -22,7 +22,7 @@ _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 A termékalapuló lehetőségsorok a lehetőségen szereplő sorelemek. Ezek a jól elkülöníthető sorelemek az ügyfélnek biztosított számlán vannak. A számla nem tartalmaz további szolgáltatásokat. A társított költés és felhasználás nem kerül követésre a kapcsolódó projektek feladatain.
 
-A termékalapú sorok lehetnek katalóguselemek vagy beírandó termékek. A lehetőség termékalapú soraiban a legtöbb funkció a Dynamics 365 Sales alkalmazás által biztosított funkciókat követi. A termékalapú lehetőség soraira vonatkozó további információkért tekintse meg a következőt: [Termékek hozzáadása egy lehetőséghez](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
+A termékalapú sorok lehetnek katalóguselemek vagy beírandó termékek. A lehetőség termékalapú soraiban a legtöbb funkció a Dynamics 365 Sales alkalmazás által biztosított funkciókat követi. A termékalapú lehetőség soraira vonatkozó további információkért tekintse meg a következőt: [Termékek hozzáadása egy lehetőséghez](/dynamics365/sales-enterprise/add-products-opportunity).
 
 Az **Ügyfélköltségvetés** olyan fogalom, amely kifejezetten a projektalapú lehetőségsorokra vonatkozik. Az **Ügyfélköltségvetés** mező nyomon követi azt az összeget, amit az ügyfél fizet a cikkért.
 

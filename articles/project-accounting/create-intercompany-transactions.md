@@ -3,17 +3,17 @@ title: Vállalatközi tranzakciók létrehozása
 description: Ez a témakör a vállalatközi tranzakciók létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287421"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880451"
 ---
 # <a name="create-intercompany-transactions"></a>Vállalatközi tranzakciók létrehozása
 
@@ -62,7 +62,7 @@ Molly Clark, az GBPM-ben foglalkoztatott fejlesztő 10 órányi munkát végzett
     4. Állítsa pénznemet **USD-re**.
     5. Mentse a bejegyzést.
 3. Nyissa meg a **Sales** > **Projektszerződések** lehetőséget, és hozzon létre egy új projekt szerződést az Adventure Works számára.
-    1. Állítsa be a tulajdonos vállalatot **USPM** értékre, és a szerződő egységet a **Contoso Robotics US** értékre.
+    1. Állítsa a tulajdonló található vállalatot **USPM**-re, a szerződéskötési egységet pedig **Contoso Robotics US-re**.
     2. Válassza az Adventure Workst ügyfélként.
     3. Válasszon egy termékárlistát, és mentse a rekordot.
     4. Hozzon létre egy új szerződéssort a **Szerződéssorok** lapon. Állítson be bármilyen nevet, és Számlázási módszerként válassza az **Idő és az anyagok** lehetőséget.
@@ -94,7 +94,7 @@ Molly Clark, az GBPM-ben foglalkoztatott fejlesztő 10 órányi munkát végzett
     Ez a nem számlázott értékesítés már készen áll a számlázásra. A számla az Adventure Works számára pénzügyi szempontból is feladható, ha szükséges.
 
 10. Jelentkezzen be **GBPM** könyvelőjeként. Nyissa meg a Project Operations Finance példányát, és nyissa meg a **GBPM** vállalatot. 
-11. Nyissa meg a **Projektvezetés és a Könyvelés** > **időszakos** > **Project Operations vagy Customer Engagement** > **Importálás az előkészítésből**, és futtassa az időszakos folyamatot a Project Operations integrációs naplójának kitöltéséhez.
+11. Lépjen a **Projektmenedzsment és könyvelés** > **Időszakos** > **Project Operations integrációja** > **Import előkészítő táblából** menüpontot, és futtassa az időszakos folyamatot a Project Operations integrációs naplójának kitöltéséhez.
 12. Nyissa meg a **Projektvezetés és könyvelés** > **Naplók** > **Project Operations integrációs napló** lehetőséget és tekintse át a sorokat. A rendszer a következő sorokat hozza létre.
 
     | **Tranzakció típusa** | **Ár** | **Tranzakció pénzneme** | **Összeg** |

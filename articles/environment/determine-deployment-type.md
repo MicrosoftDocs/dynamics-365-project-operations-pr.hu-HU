@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663597"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948108"
 ---
 # <a name="determine-your-deployment-type"></a>A telepítés típusának meghatározása
 
@@ -99,7 +99,7 @@ Ehhez a telepítéshez lásd: [Regisztráció az előzetes verziós előfizetés
 #### <a name="deployment-steps"></a>Központi telepítési lépések
 Határozza meg a Project Operations legjobb telepítési modelljét a [telepítési kérdőív](https://aka.ms/provisionprojectoperations) használatával.
 
-Ehhez a telepítéshez lásd: [Regisztráció az előzetes verziós előfizetésekre](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) és az [Új környezet kiépítése](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Ehhez a telepítéshez lásd: [Regisztráció az előzetes verziós előfizetésekre](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) és az [Új környezet kiépítése](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 
 

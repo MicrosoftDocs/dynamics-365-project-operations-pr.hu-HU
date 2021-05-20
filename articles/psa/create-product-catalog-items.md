@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292027"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950357"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Termékkatalógus elemek létrehozása (Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292027"
 
 Ha projektárajánlataiban és -becsléseiben szeretne termékeket feltüntetni (pl. szoftverlicencek), akkor az egyes termékeket hozzá kell adnia a termékkatalógushoz.  
   
- További információk a termékek termékkatalógushoz való hozzáadásáról: [Termék létrehozása (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ További információk a termékek termékkatalógushoz való hozzáadásáról: [Termék létrehozása (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Project Service testreszabása](../psa/configure.md)

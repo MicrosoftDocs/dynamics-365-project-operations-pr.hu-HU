@@ -3,17 +3,17 @@ title: Azure-előfizetés hozzáadása LCS-projekthez
 description: Ez a témakör az Azure-előfizetésnek egy LCS-projekttel való összekapcsolásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289912"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880541"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-előfizetés hozzáadása LCS-projekthez
 
@@ -62,7 +62,7 @@ Az engedélyezés most már kész.
 3. Az **Azure Resource Manager használatának konfigurálása** mezőben válassza az **Igen** lehetőséget.
 4. Ügyeljen arra, hogy az Azure-előfizetésének AAD bérlői tartománya megfeleljen a tartományt birtokló Azure-előfizetésnek, amelyet használ, és válassza a **Következő** lehetőséget.
 5. A **Microsoft Azure beállítása** képernyőn válassza a **Tovább** lehetőséget a megerősítéshez. Ha a képernyőn hibaüzenet jelenik meg, akkor térjen vissza a témakör [Hozzáférés biztosítása a Dynamics Deployment Services számára az Azure-előfizetéshez](#provide) szakaszához, és ellenőrizze, hogy az összes lépést végrehajtotta-e.
-6. Töltse le az Azure felügyeleti tanúsítványt a számítógép egy helyi mappájába, majd töltse fel az Azure felügyeleti portálra a **Beállítások** > **Felügyeleti tanúsítványok** lehetőségről. Ez a tanúsítvány lehetővé teszi, hogy az LCS az Ön nevében kommunikáljon az Azure-ral. Ezt a lépést kihagyhatja, ha a felhasználó hozzáféréssel rendelkezik az előfizetéshez.
+6. Töltse le az Azure felügyeleti tanúsítványt a számítógép egy helyi mappájába. Kérje meg az Azure előfizetés-rendszergazdát, hogy töltse fel a tanúsítványt az Azure felügyeleti portálra az előfizetés kiválasztásával és a **Beállítások** > **Felügyeleti tanúsítványok** pontra lépve. Ez a tanúsítvány teszi lehetővé, hogy a LCS az Ön nevében kommunikáljon az Azure-ral. Ezt a lépést kihagyhatja, ha a felhasználó hozzáféréssel rendelkezik az előfizetéshez.
 7. Válassza a **Következő** lehetőséget.
 8. Válassza ki a telepítendő Azure-régiót, és jelöljön ki egy olyan adatközpontot, amely közel van ahhoz a helyhez, ahol a rendszert használni kívánja.
 9.  Válassza a **Kapcsolódás** lehetőséget.
