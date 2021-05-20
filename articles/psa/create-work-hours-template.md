@@ -1,6 +1,6 @@
 ---
 title: Munkaidősablon létrehozása
-description: Munkaidősablon létrehozása a Project Service szolgáltatásban
+description: Ez a témakör ismerteti, hogyan hozható létre munkaidősablon a Project Service szolgáltatásban.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285036"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981258"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="b3aa5-103">Munkaidősablon létrehozása (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b3aa5-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="246e1-103">Munkaidősablon létrehozása (Project Service)</span><span class="sxs-lookup"><span data-stu-id="246e1-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="b3aa5-104">Mielőtt projektütemezéseket hozhatna létre, állítson be egy projektnaptárat, amely meghatározza a napi munkaórák számát és a szünnapokat.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="b3aa5-105">Ezt egy munkaidősablonnal teheti meg, amely tartalmazza a napi munkaidőre, szabadnapokra és egyéb szünnapokra vonatkozó részleteket.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="b3aa5-106">Egy projekt létrehozásakor egy munkasablont társít a projektnaptárhoz, hogy alkalmazza az ütemezést a projektre.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="b3aa5-107">Két módon hozhat létre egy munkaidő sablont:</span><span class="sxs-lookup"><span data-stu-id="b3aa5-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="b3aa5-108">Munkaidősablon létrehozása egy erőforrás naptára alapján.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="b3aa5-109">Új munkaidősablon létrehozása.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="b3aa5-110">Munkaidősablon létrehozása egy erőforrás naptára alapján</span><span class="sxs-lookup"><span data-stu-id="b3aa5-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="b3aa5-111">Lépjen a **Project Service > Erőforrások** pontba.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="b3aa5-112">Erőforrás kiválasztása, amelyre a munkaidőt akarja alapozni.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="b3aa5-113">Kattintson a **Naptár mentése másként** lehetőségre, adja meg a munkaidősablon nevét, és kattintson a **Mentés** gombra.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="b3aa5-114">Ha végzett a beállítások módosításával kattintson a **Mentés és bezárás** gombra.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="b3aa5-115">Kattintson a **Mentés** gombra a képernyő jobb alsó sarkában.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="b3aa5-116">Új munkaidősablon létrehozása</span><span class="sxs-lookup"><span data-stu-id="b3aa5-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="b3aa5-117">Lépjen a **Project Service > Munkaidősablonok** pontba.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="b3aa5-118">Kattintson az **Új** elemre.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="b3aa5-119">Adja meg a munkaidősablon nevét.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="b3aa5-120">Válasszon ki egy erőforrást, amelyre a munkaidőt akarja alapozni, és kattintson a **Mentés** gombra.</span><span class="sxs-lookup"><span data-stu-id="b3aa5-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="b3aa5-121">Kapcsolódó információk</span><span class="sxs-lookup"><span data-stu-id="b3aa5-121">See Also</span></span>  
- [<span data-ttu-id="b3aa5-122">Erőforrások beállítása</span><span class="sxs-lookup"><span data-stu-id="b3aa5-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="246e1-104">Projekt létrehozásához és kezeléséhez naptársablont kell alkalmaznia a projektre.</span><span class="sxs-lookup"><span data-stu-id="246e1-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="246e1-105">A naptársablon a következő projektjellemzőket határozza meg:</span><span class="sxs-lookup"><span data-stu-id="246e1-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="246e1-106">Munkaidő, beleértve a kezdési és befejezési időt</span><span class="sxs-lookup"><span data-stu-id="246e1-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="246e1-107">Munkanapok</span><span class="sxs-lookup"><span data-stu-id="246e1-107">Working days</span></span>
+- <span data-ttu-id="246e1-108">Naptárkivételek, például munkaszüneti napok</span><span class="sxs-lookup"><span data-stu-id="246e1-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="246e1-109">A projektre alkalmazott naptársablon a szervezet beállításaiban meghatározott naptársablon másolata.</span><span class="sxs-lookup"><span data-stu-id="246e1-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="246e1-110">Ha módosítja a naptársablont, ezek a módosítások nem kerülnek át a projekt munkaidejébe.</span><span class="sxs-lookup"><span data-stu-id="246e1-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="246e1-111">A projekt munkaidejének módosításához új sablont kell alkalmazni.</span><span class="sxs-lookup"><span data-stu-id="246e1-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="246e1-112">A szervezet naptársablonának létrehozásához két fő követelmény szükséges:</span><span class="sxs-lookup"><span data-stu-id="246e1-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="246e1-113">Új vagy meglévő foglalható erőforrással határozza meg a sablon kívánt munkaidejét.</span><span class="sxs-lookup"><span data-stu-id="246e1-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="246e1-114">Hozzon létre egy új naptársablont, és társítsa a sablont a foglalható erőforráshoz.</span><span class="sxs-lookup"><span data-stu-id="246e1-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="246e1-115">**A sablon munkaidejének meghatározása**</span><span class="sxs-lookup"><span data-stu-id="246e1-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="246e1-116">Lépjen a **Források** \> **Források** oldalra.</span><span class="sxs-lookup"><span data-stu-id="246e1-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="246e1-117">Hozzon létre egy új hivatkozást a naptársablonban, vagy jelöljön ki egy meglévő erőforrást.</span><span class="sxs-lookup"><span data-stu-id="246e1-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="246e1-118">Válassza ki az erőforrás **Munkaidő** lapját, és hajtsa végre a [Munkaidő beállítása erőforráshoz](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) felületen megjelenő utasításokat a naptárszabályok konfigurálásához.</span><span class="sxs-lookup"><span data-stu-id="246e1-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="246e1-119">**Új naptársablon létrehozása**</span><span class="sxs-lookup"><span data-stu-id="246e1-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="246e1-120">Lépjen a **Beállítások** \> **Naptársablon** pontra.</span><span class="sxs-lookup"><span data-stu-id="246e1-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="246e1-121">Válassza az **Új** lehetőséget, és adjon meg egy nevet, leírást és sablonerőforrást.</span><span class="sxs-lookup"><span data-stu-id="246e1-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="246e1-122">Ha egy erőforrásra hivatkozik egy naptársablonban, az erőforrás naptárának egy példánya a naptársablonhoz társul.</span><span class="sxs-lookup"><span data-stu-id="246e1-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="246e1-123">Ha módosítja a másolt sablon munkaidejét, akkor ezek a módosítások nem kerülnek át a projekt munkaidejébe.</span><span class="sxs-lookup"><span data-stu-id="246e1-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="246e1-124">Kapcsolódó információk</span><span class="sxs-lookup"><span data-stu-id="246e1-124">See Also</span></span>  
+ [<span data-ttu-id="246e1-125">Erőforrások beállítása</span><span class="sxs-lookup"><span data-stu-id="246e1-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
