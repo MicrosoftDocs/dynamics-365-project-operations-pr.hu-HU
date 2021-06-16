@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Újdonságok
       items:
+        - name: 2021. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Költségkategóriák beállítása
               href: expense/set-up-expense-categories.md
+            - name: Futásteljesítmény beállítása futásteljesítmény-szintek használatával
+              href: expense/set-up-mileage.md
         - name: Személyes költségek
           href: expense/personal-expenses-expense-report.md
         - name: Vállalatközi költségek
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021. májusában – egyszerű telepítés
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Újdonságok 2021. áprilisban – egyszerű telepítés
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Újdonságok 2021. márciusban – egyszerű telepítés
@@ -1026,8 +1032,10 @@
       href: psa/overview.md
     - name: Újdonságok
       items:
-        - name: A Project Service 3.x frissítési kiadásának frissítése
+        - name: A Project Service 3.x frissítési kiadásának ütemezése
           href: psa/version-history-ps.md
+        - name: A 32-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-32.md
         - name: A 31-es frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-31.md
         - name: A 30-as frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Heti időbejegyzés testreszabása
               href: psa/time-entry-extensibility-v3.md
+            - name: Jóváhagyási készletek
+              href: psa/approval-set.md
     - name: GYIK és hibaelhárítás (3.x)
       items:
         - name: Az ár miért nulla alapértelmezésben az önköltség tényadataiban?
