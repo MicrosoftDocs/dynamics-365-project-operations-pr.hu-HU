@@ -2,11 +2,9 @@
 title: Projektszámla-javaslatok teljesítménye
 description: Ez témakör a projektszámla-javaslatok teljesítményfejlesztéséről nyújt tájékoztatást.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,32 +16,32 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
+ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920305"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999494"
 ---
-# <a name="project-invoice-proposal-performance"></a><span data-ttu-id="acc41-103">Projektszámla-javaslatok teljesítménye</span><span class="sxs-lookup"><span data-stu-id="acc41-103">Project invoice proposal performance</span></span>
+# <a name="project-invoice-proposal-performance"></a><span data-ttu-id="c1b64-103">Projektszámla-javaslatok teljesítménye</span><span class="sxs-lookup"><span data-stu-id="c1b64-103">Project invoice proposal performance</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="acc41-104">Új számlajavaslat létrehozásakor a projektek és alprojektek számának növekedésével teljesítményproblémák merülhetnek fel.</span><span class="sxs-lookup"><span data-stu-id="acc41-104">When you create a new invoice proposal you might encounter performance issues as the number of projects and subprojects increase.</span></span> <span data-ttu-id="acc41-105">A teljesítmény javítása érdekében rendelkezésre áll egy funkció, amely csökkenti a könyvelt projekttranzakciókra vonatkozó új számlajavaslat létrehozásához szükséges időt.</span><span class="sxs-lookup"><span data-stu-id="acc41-105">To improve performance, a feature is available that reduces the time needed to create a new invoice proposal for posted project transactions.</span></span>
+<span data-ttu-id="c1b64-104">Új számlajavaslat létrehozásakor a projektek és alprojektek számának növekedésével teljesítményproblémák merülhetnek fel.</span><span class="sxs-lookup"><span data-stu-id="c1b64-104">When you create a new invoice proposal you might encounter performance issues as the number of projects and subprojects increase.</span></span> <span data-ttu-id="c1b64-105">A teljesítmény javítása érdekében rendelkezésre áll egy funkció, amely csökkenti a könyvelt projekttranzakciókra vonatkozó új számlajavaslat létrehozásához szükséges időt.</span><span class="sxs-lookup"><span data-stu-id="c1b64-105">To improve performance, a feature is available that reduces the time needed to create a new invoice proposal for posted project transactions.</span></span>
 
-## <a name="enable-project-invoice-proposal-performance-enhancement"></a><span data-ttu-id="acc41-106">Projektszámla-javaslatok teljesítményjavításának engedélyezése</span><span class="sxs-lookup"><span data-stu-id="acc41-106">Enable project invoice proposal performance enhancement</span></span>
-<span data-ttu-id="acc41-107">A projektszámla-javaslat teljesítményjavítási funkció engedélyezéséhez végezze el az alábbi lépéseket.</span><span class="sxs-lookup"><span data-stu-id="acc41-107">To enable the project invoice proposal performance enhancement feature, complete the following steps.</span></span>
+## <a name="enable-project-invoice-proposal-performance-enhancement"></a><span data-ttu-id="c1b64-106">Projektszámla-javaslatok teljesítményjavításának engedélyezése</span><span class="sxs-lookup"><span data-stu-id="c1b64-106">Enable project invoice proposal performance enhancement</span></span>
+<span data-ttu-id="c1b64-107">A projektszámla-javaslat teljesítményjavítási funkció engedélyezéséhez végezze el az alábbi lépéseket.</span><span class="sxs-lookup"><span data-stu-id="c1b64-107">To enable the project invoice proposal performance enhancement feature, complete the following steps.</span></span>
 
-1.  <span data-ttu-id="acc41-108">Menjen a **Funkciókezelés** > **Összes** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="acc41-108">Go to **Feature management** > **All**.</span></span> <span data-ttu-id="acc41-109">A szolgáltatáslistában keresse meg a **Projektszámla-javaslatok teljesítményjavítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="acc41-109">In the feature list, locate **Project invoice proposal performance enhancement**.</span></span>
-2.  <span data-ttu-id="acc41-110">Válassza ki az **Engedélyezés most** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="acc41-110">Select **Enable now**.</span></span>
-3.  <span data-ttu-id="acc41-111">Frissítse böngészőjét, majd hozzon létre egy új számlajavaslatot.</span><span class="sxs-lookup"><span data-stu-id="acc41-111">Refresh your browser, and then create a new invoice proposal.</span></span>
+1.  <span data-ttu-id="c1b64-108">Menjen a **Funkciókezelés** > **Összes** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="c1b64-108">Go to **Feature management** > **All**.</span></span> <span data-ttu-id="c1b64-109">A szolgáltatáslistában keresse meg a **Projektszámla-javaslatok teljesítményjavítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="c1b64-109">In the feature list, locate **Project invoice proposal performance enhancement**.</span></span>
+2.  <span data-ttu-id="c1b64-110">Válassza ki az **Engedélyezés most** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="c1b64-110">Select **Enable now**.</span></span>
+3.  <span data-ttu-id="c1b64-111">Frissítse böngészőjét, majd hozzon létre egy új számlajavaslatot.</span><span class="sxs-lookup"><span data-stu-id="c1b64-111">Refresh your browser, and then create a new invoice proposal.</span></span>
 
-## <a name="turn-off-project-invoice-proposal-performance-enhancement"></a><span data-ttu-id="acc41-112">Projektszámla-javaslatok teljesítményjavításának kikapcsolása</span><span class="sxs-lookup"><span data-stu-id="acc41-112">Turn off project invoice proposal performance enhancement</span></span>
-<span data-ttu-id="acc41-113">A projektszámla-javaslat teljesítményjavítási funkció kikapcsolásához végezze el az alábbi lépéseket.</span><span class="sxs-lookup"><span data-stu-id="acc41-113">Complete the following steps to turn off the project invoice proposal performance enhancement.</span></span>
+## <a name="turn-off-project-invoice-proposal-performance-enhancement"></a><span data-ttu-id="c1b64-112">Projektszámla-javaslatok teljesítményjavításának kikapcsolása</span><span class="sxs-lookup"><span data-stu-id="c1b64-112">Turn off project invoice proposal performance enhancement</span></span>
+<span data-ttu-id="c1b64-113">A projektszámla-javaslat teljesítményjavítási funkció kikapcsolásához végezze el az alábbi lépéseket.</span><span class="sxs-lookup"><span data-stu-id="c1b64-113">Complete the following steps to turn off the project invoice proposal performance enhancement.</span></span>
 
-1.  <span data-ttu-id="acc41-114">Menjen a **Funkciókezelés** > **Összes** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="acc41-114">Go to **Feature management** > **All**.</span></span> <span data-ttu-id="acc41-115">A szolgáltatáslistában keresse meg a **Projektszámla-javaslatok teljesítményjavítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="acc41-115">In the feature list, locate **Project invoice proposal performance enhancement**.</span></span>
-2.  <span data-ttu-id="acc41-116">Válassza ki a **Letiltás** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="acc41-116">Select **Disable**.</span></span>
-3.  <span data-ttu-id="acc41-117">Frissítse a böngészőjét.</span><span class="sxs-lookup"><span data-stu-id="acc41-117">Refresh your browser.</span></span>
+1.  <span data-ttu-id="c1b64-114">Menjen a **Funkciókezelés** > **Összes** lehetőségre.</span><span class="sxs-lookup"><span data-stu-id="c1b64-114">Go to **Feature management** > **All**.</span></span> <span data-ttu-id="c1b64-115">A szolgáltatáslistában keresse meg a **Projektszámla-javaslatok teljesítményjavítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="c1b64-115">In the feature list, locate **Project invoice proposal performance enhancement**.</span></span>
+2.  <span data-ttu-id="c1b64-116">Válassza ki a **Letiltás** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="c1b64-116">Select **Disable**.</span></span>
+3.  <span data-ttu-id="c1b64-117">Frissítse a böngészőjét.</span><span class="sxs-lookup"><span data-stu-id="c1b64-117">Refresh your browser.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="acc41-118">A számlajavaslat teljesítménye nem alkalmazható, ha a számlázási szabályok engedélyezve vannak, vagy ha a kötegelt folyamatok futnak.</span><span class="sxs-lookup"><span data-stu-id="acc41-118">Invoice proposal performance can't be applied when billing rules are enabled or batch processes are running.</span></span>
+> <span data-ttu-id="c1b64-118">A számlajavaslat teljesítménye nem alkalmazható, ha a számlázási szabályok engedélyezve vannak, vagy ha a kötegelt folyamatok futnak.</span><span class="sxs-lookup"><span data-stu-id="c1b64-118">Invoice proposal performance can't be applied when billing rules are enabled or batch processes are running.</span></span>
