@@ -2,11 +2,9 @@
 title: Projekt-erőforrások beállítása
 description: Ez a témakör információkat nyújt a projekterőforrások beállításáról vagy kéréséről.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 49e0ca6254518079d2e01d92ac2e31d119468c4b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288742"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997694"
 ---
 # <a name="set-up-project-resources"></a>Projekt-erőforrások beállítása
 

@@ -2,11 +2,9 @@
 title: Fizetéskor fizetett szállítói kifizetések beállítása és használata
 description: Ez a témakör elmagyarázza, hogyan hozhat létre fizetéskor fizetett (PWP) feltételeket annak érdekében, hogy az ügyfelek kifizetése alapján kiadja a részleges szállítói kifizetéseket.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c6f7888f3803b2c83a72bcac4caed1a7d7bc5f65
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288602"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997559"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Fizetéskor fizetett szállítói kifizetések beállítása és használata
 

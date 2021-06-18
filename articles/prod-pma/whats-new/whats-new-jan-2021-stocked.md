@@ -2,19 +2,17 @@
 title: Újdonságok vagy változások 2021 januárjában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 description: Ez a témakör információval szolgál a készletalapú/termelésalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2021 januári kiadásában váltak elérhetővé.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b987e998a36351bb00aaad475525872d407f774b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950852"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997469"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy változások 2021 januárjában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 

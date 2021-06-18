@@ -2,19 +2,17 @@
 title: Újdonságok vagy módosítások 2021 márciusában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 description: Ez témakör a Project Operations 2021 márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/gyártáson alapuló forgatókönyvek esetében.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701941"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997019"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 márciusában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -123,7 +121,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Projektvezetés és könyvelés | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | A régebbi munkalebontási struktúra (WBS) osztály metódus, a **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** elavult.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates.md) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
