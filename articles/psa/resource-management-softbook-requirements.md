@@ -2,8 +2,6 @@
 title: Szoftverkövetelmények
 description: Ez a témakör információkat nyújt arról, hogyan kell foglalni a követelményeket.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,49 +16,49 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 736d59976ad0f456a694cedbb28b516c90632fe6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282921"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997919"
 ---
-# <a name="soft-book-requirements"></a><span data-ttu-id="02141-103">Szoftverkövetelmények</span><span class="sxs-lookup"><span data-stu-id="02141-103">Soft-book requirements</span></span>
+# <a name="soft-book-requirements"></a><span data-ttu-id="964db-103">Szoftverkövetelmények</span><span class="sxs-lookup"><span data-stu-id="964db-103">Soft-book requirements</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="02141-104">Az erőforrás-igény keményen foglalható.</span><span class="sxs-lookup"><span data-stu-id="02141-104">A resource requirement can be hard-booked.</span></span> <span data-ttu-id="02141-105">A kemény foglalás olyan javaslatot hoz létre, amely felhasználja az erőforrás kapacitását.</span><span class="sxs-lookup"><span data-stu-id="02141-105">A hard booking creates a proposal that consumes a resource's capacity.</span></span> <span data-ttu-id="02141-106">A javaslatot ezután visszatérés céljából megküldik a kérelmezőnek jóváhagyás céljából.</span><span class="sxs-lookup"><span data-stu-id="02141-106">The proposal is then sent back to the requester for approval.</span></span> <span data-ttu-id="02141-107">A puha foglalás egy ideiglenesen hozzáad egy erőforrást a projektcsoporthoz, és más státusszal rendelkezik az Ütemezési táblán, de nem használja fel az erőforrás kapacitását.</span><span class="sxs-lookup"><span data-stu-id="02141-107">A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity.</span></span> <span data-ttu-id="02141-108">Az erőforrás ütemezéséhez az Ütemezési táblán állítsa be a **Foglalási állapot** mezőt **Lágy** értékre.</span><span class="sxs-lookup"><span data-stu-id="02141-108">To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.</span></span>
+<span data-ttu-id="964db-104">Az erőforrás-igény keményen foglalható.</span><span class="sxs-lookup"><span data-stu-id="964db-104">A resource requirement can be hard-booked.</span></span> <span data-ttu-id="964db-105">A kemény foglalás olyan javaslatot hoz létre, amely felhasználja az erőforrás kapacitását.</span><span class="sxs-lookup"><span data-stu-id="964db-105">A hard booking creates a proposal that consumes a resource's capacity.</span></span> <span data-ttu-id="964db-106">A javaslatot ezután visszatérés céljából megküldik a kérelmezőnek jóváhagyás céljából.</span><span class="sxs-lookup"><span data-stu-id="964db-106">The proposal is then sent back to the requester for approval.</span></span> <span data-ttu-id="964db-107">A puha foglalás egy ideiglenesen hozzáad egy erőforrást a projektcsoporthoz, és más státusszal rendelkezik az Ütemezési táblán, de nem használja fel az erőforrás kapacitását.</span><span class="sxs-lookup"><span data-stu-id="964db-107">A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity.</span></span> <span data-ttu-id="964db-108">Az erőforrás ütemezéséhez az Ütemezési táblán állítsa be a **Foglalási állapot** mezőt **Lágy** értékre.</span><span class="sxs-lookup"><span data-stu-id="964db-108">To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.</span></span>
 
 ![A foglalás státusa lágyra van állítva](media/Resource-Management-image77.png)
 
-<span data-ttu-id="02141-110">Amikor a **Csapat** fül a **Megnevezett csapattagok** nézetben található, ott jelenik meg az erőforrás.</span><span class="sxs-lookup"><span data-stu-id="02141-110">When the **Team** tab is in the **Named Team Members** view, the resource appears there.</span></span> <span data-ttu-id="02141-111">A puhán foglalt órákat a **Puhán foglalt órák** oszlopban kell feltüntetni.</span><span class="sxs-lookup"><span data-stu-id="02141-111">The soft-booked hours are reported in the **Soft Booked Hours** column.</span></span>
+<span data-ttu-id="964db-110">Amikor a **Csapat** fül a **Megnevezett csapattagok** nézetben található, ott jelenik meg az erőforrás.</span><span class="sxs-lookup"><span data-stu-id="964db-110">When the **Team** tab is in the **Named Team Members** view, the resource appears there.</span></span> <span data-ttu-id="964db-111">A puhán foglalt órákat a **Puhán foglalt órák** oszlopban kell feltüntetni.</span><span class="sxs-lookup"><span data-stu-id="964db-111">The soft-booked hours are reported in the **Soft Booked Hours** column.</span></span>
 
 ![Kedvezményesen lefoglalva tartott órák a Megnevezett csapattagok nézetében](media/Resource-Management-image78.png)
 
-<span data-ttu-id="02141-113">A puha foglalású csapattagokat feladatokhoz lehet rendelni.</span><span class="sxs-lookup"><span data-stu-id="02141-113">Soft-booked team members can be assigned to tasks.</span></span>
+<span data-ttu-id="964db-113">A puha foglalású csapattagokat feladatokhoz lehet rendelni.</span><span class="sxs-lookup"><span data-stu-id="964db-113">Soft-booked team members can be assigned to tasks.</span></span>
 
 ![A feladathoz kiosztott, puha foglalású csapattag](media/Resource-Management-image79.png)
 
-<span data-ttu-id="02141-115">Az **Összehangolás** lapon nem jelennek meg a puhán foglalt erőforrások foglalása, mivel az **Összehangolás** lapon csak a nehéz foglalásokat veszi figyelembe.</span><span class="sxs-lookup"><span data-stu-id="02141-115">On the **Reconciliation** tab, no bookings are shown for a soft-book resource, because the **Reconciliation** tab considers only hard-bookings.</span></span>
+<span data-ttu-id="964db-115">Az **Összehangolás** lapon nem jelennek meg a puhán foglalt erőforrások foglalása, mivel az **Összehangolás** lapon csak a nehéz foglalásokat veszi figyelembe.</span><span class="sxs-lookup"><span data-stu-id="964db-115">On the **Reconciliation** tab, no bookings are shown for a soft-book resource, because the **Reconciliation** tab considers only hard-bookings.</span></span>
 
 ![Szoftverkönyvvel ellátott erőforrás foglalások nélkül az Egyeztetés lapon](media/Resource-Management-image80.png)
 
 > [!NOTE]
-> <span data-ttu-id="02141-117">Az erőforrást nem lehet könyvelni egy általános csapattag által generált követelmény alapján.</span><span class="sxs-lookup"><span data-stu-id="02141-117">You can't soft-book a resource from a requirement that was generated from a generic team member.</span></span>
+> <span data-ttu-id="964db-117">Az erőforrást nem lehet könyvelni egy általános csapattag által generált követelmény alapján.</span><span class="sxs-lookup"><span data-stu-id="964db-117">You can't soft-book a resource from a requirement that was generated from a generic team member.</span></span>
 
-<span data-ttu-id="02141-118">Az Ütemezési táblán az erőforrás puha foglalásainak eltérő színezése történik.</span><span class="sxs-lookup"><span data-stu-id="02141-118">On the Schedule Board, a different coloring is used for soft bookings for a resource.</span></span>
+<span data-ttu-id="964db-118">Az Ütemezési táblán az erőforrás puha foglalásainak eltérő színezése történik.</span><span class="sxs-lookup"><span data-stu-id="964db-118">On the Schedule Board, a different coloring is used for soft bookings for a resource.</span></span>
 
 ![Puha foglalás a menetrend táblán](media/Resource-Management-image81.png)
 
-<span data-ttu-id="02141-120">A puha foglalás átalakításához egy kemény foglalássá az Ütemező táblán kattintson a jobb gombbal a puha foglalásra, majd válassza az **Állapot megváltoztatása** \> **Kemény foglalás** \> **Nehéz** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="02141-120">To convert a soft booking to a hard booking, on the Schedule Board, right-click the soft booking, and then select **Change Status** \> **Hard Book** \> **Hard**.</span></span>
+<span data-ttu-id="964db-120">A puha foglalás átalakításához egy kemény foglalássá az Ütemező táblán kattintson a jobb gombbal a puha foglalásra, majd válassza az **Állapot megváltoztatása** \> **Kemény foglalás** \> **Nehéz** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="964db-120">To convert a soft booking to a hard booking, on the Schedule Board, right-click the soft booking, and then select **Change Status** \> **Hard Book** \> **Hard**.</span></span>
 
 ![A foglalás státuszának keményre változtatása](media/Resource-Management-image82.png)
 
-<span data-ttu-id="02141-122">A foglalás megváltozik, és az állapot megváltozik az Ütemezési táblán.</span><span class="sxs-lookup"><span data-stu-id="02141-122">The booking is changed, and the status is changed on the Schedule Board.</span></span> <span data-ttu-id="02141-123">Mivel a foglalási státus most **Kemény**, az erőforrás foglaltként jelenik meg, kapacitása és rendelkezésre állása módosítva.</span><span class="sxs-lookup"><span data-stu-id="02141-123">Because the booking status is now **Hard**, the resource is shown as booked, and its capacity and availability are adjusted.</span></span>
+<span data-ttu-id="964db-122">A foglalás megváltozik, és az állapot megváltozik az Ütemezési táblán.</span><span class="sxs-lookup"><span data-stu-id="964db-122">The booking is changed, and the status is changed on the Schedule Board.</span></span> <span data-ttu-id="964db-123">Mivel a foglalási státus most **Kemény**, az erőforrás foglaltként jelenik meg, kapacitása és rendelkezésre állása módosítva.</span><span class="sxs-lookup"><span data-stu-id="964db-123">Because the booking status is now **Hard**, the resource is shown as booked, and its capacity and availability are adjusted.</span></span>
 
-<span data-ttu-id="02141-124">Ugyanezt a módszert használhatja a kemény foglalás vagy az engedményes foglalás törlésére az Ütemezési táblán.</span><span class="sxs-lookup"><span data-stu-id="02141-124">You can use the same method to cancel a hard booking or a soft booking from the Schedule Board.</span></span>
+<span data-ttu-id="964db-124">Ugyanezt a módszert használhatja a kemény foglalás vagy az engedményes foglalás törlésére az Ütemezési táblán.</span><span class="sxs-lookup"><span data-stu-id="964db-124">You can use the same method to cancel a hard booking or a soft booking from the Schedule Board.</span></span>
 
-<span data-ttu-id="02141-125">A projekt **Csapat** lapján a foglalt erőforrás nehezen foglalttá történő konvertálásához válassza ki az erőforrást, majd válassza a **Megerősítés** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="02141-125">To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.</span></span>
+<span data-ttu-id="964db-125">A projekt **Csapat** lapján a foglalt erőforrás nehezen foglalttá történő konvertálásához válassza ki az erőforrást, majd válassza a **Megerősítés** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="964db-125">To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.</span></span>
 
 ![Megerősítés parancs](media/Resource-Management-image83.png)
 
