@@ -2,8 +2,6 @@
 title: Erőforrások hozzáadása
 description: Erőforrások hozzáadása a Project Service szolgáltatásban
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ec7ac38475269f472f97f4537cfcdf1abcada37
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72d365171bbbcb94b8d63e825c9f98091772c274
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992654"
 ---
 # <a name="add-resources-project-service"></a>Erőforrások hozzáadása (Project Service)
 

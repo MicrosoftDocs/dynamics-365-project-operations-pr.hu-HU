@@ -2,18 +2,16 @@
 title: Projektkategóriák konfigurálása
 description: Ez a témakör információkat nyújt a projektkategóriák beállításáról.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287511"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995174"
 ---
 # <a name="configure-project-categories"></a>Projektkategóriák konfigurálása
 
@@ -29,7 +27,7 @@ A tranzakciós kategóriák a projekttranzakciók alapvető csoportosítása. Az
 
 ## <a name="transaction-categories"></a>Tranzakciókategóriák
 
-A tranzakciós kategóriák a projekttranzakciók alapvető csoportosítását jelentik, és nem vállalat- vagy tranzakciótípus-specifikusak. A Contoso Robotics például tervezési, utazási, telepítési és szolgáltatási tranzakciós kategóriákat használ a projekttranzakciók csoportosításához.
+A tranzakciós kategóriák a projekttranzakciók alapvető csoportosítását jelentik, és nem vállalat- vagy tranzakciótípus-specifikusak. Például a Contoso Robotics a Tervezés, Utazás, telepítés és Szolgáltatási tranzakció kategóriákat használja a Projekttranzakciók csoportosításához.
 
 A tranzakciós kategóriákat a Project Operations modul definiálja. 
 1. Az űrlap megnyitásához lépjen a **Beállítások** \> **Tranzakciós kategóriák** menüpontra. 

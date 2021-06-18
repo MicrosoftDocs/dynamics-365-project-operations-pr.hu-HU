@@ -2,18 +2,16 @@
 title: Lehetőség beállításai - Lite
 description: Ez a témakör a projektalapú ajánlatokról és a projektalapú lehetőségsorokról nyújt tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4539a34cface9999c9cd029f8d44f835a8fe27ca
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950627"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994679"
 ---
 # <a name="header-details-for-project-opportunities"></a>Fejlécadatok projektlehetőségek esetében
 

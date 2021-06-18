@@ -2,18 +2,16 @@
 title: Új LCS-projekt indítása
 description: Ez a témakör az új LCS-projektek Project Operations-környezet esetében történő létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d348515f8bd64df8aaab3a8a6dbee09237973f11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290227"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995579"
 ---
 # <a name="start-a-new-lcs-project"></a>Új LCS-projekt indítása
 

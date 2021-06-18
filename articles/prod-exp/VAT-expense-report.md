@@ -2,11 +2,9 @@
 title: ÁFA-visszaigénylés
 description: Ez a témakör ismerteti, hogyan állíthatók helyre visszatérítések a jogosult ÁFA-tranzakciókra vonatkozóan.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271916"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993599"
 ---
 # <a name="vat-recovery"></a>ÁFA-visszaigénylés 
 
@@ -41,25 +39,25 @@ Az előfeltételek teljesítését követően az alkalmazottaknak következő l�
 4. ÁFA-visszaigénylési adatok küldése a harmadik félnek a nemzetközi visszaigénylés benyújtásához.
 5. Dolgozza fel a belföldi ÁFA-visszaigénylésre jogosult kiadásokat.
 
-Az alábbi szakaszok olyan példákat tartalmaznak, amelyek bemutatják, hogyan hajtják végre a Contoso alkalmazottai az egyes lépéseket.
+A következő szakaszokban olyan példákat talál, amelyek bemutatják, hogy a Contoso alkalmazottak, hogyan teljesítik az egyes lépéseket.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>A költségjelentésen a jogosult ÁFA-visszatérítések azonosításához adja meg a hitelkártya-tranzakciókra vonatkozó adózási adatokat
 
-Nancy, a Contoso Egyesült Államokban tevékenykedő értékesítési képviselője a közelmúltban tért vissza egy értékesítési útról az Egyesült Királyságból. Az utazása során Nancy néhány személyes hitelkártyaköltést számolt fel az étkezésekre. Nancynek most létre kell hoznia egy költségjelentést a kiadások egyeztetéséhez.
+Nancy, a Contoso egyik értékesítési képviselője az USA-ban, és nemrég tért vissza egy üzleti útról az Egyesült Királyságba. Az utazása során Nancy néhány személyes hitelkártyaköltést számolt fel az étkezésekre. Nancynek most létre kell hoznia egy költségjelentést a kiadások egyeztetéséhez.
 
 Amikor Nancy beírja a költségjelentés adatait, az **Egyesült Királyság** lehetőséget választja ki az **Ország/régió** mezőben a **Költségjelentés szerkesztése** lapon. Ekkor a rendszer szűri az áfacsoportok listáját, hogy csak az Egyesült Királyságra érvényes csoportokat jelenítse meg. Nancy kijelöli az **Egyesült Királyság 001** áfacsoportot, majd kiválasztja az **Étkezések** cikkáfacsoportot. A következő lépésként Nancy hozzáad egy új tranzakciót a szállás esetében. Mivel az Egyesült Királyságban csak egy áfacsoport és egy cikkáfacsoport van, a rendszer ezeket az adatokat automatikusan kitölti Nancy költségjelentésében.
 
-A Contoso irányelvei szerint minden költségnek megfelelő bizonylattal kell rendelkeznie. Ezért amikor Nancy menti a költségjelentést, egy üzenetet kap, amely értesíti arról, hogy a költségjelentésében szereplő minden tranzakcióhoz bizonylatot kell csatolni. Nancy ellenőrzi, hogy minden tranzakciós bizonylat digitális képét csatolta a költségjelentéshez, majd jóváhagyás céljából benyújtja a jelentést. Ezután elküldi a papíralapú bizonylatokat az irodai feldolgozócsapatnak. Ez a csoport elküldi az ÁFA-visszaigénylési adatokat a harmadik félnek, aki nemzetközi ÁFA-visszaigénylést nyújt be a Contoso részére.
+A Contoso szabályzata szerint minden kiadáshoz kell lennie egy megfelelő nyugtának. Ezért amikor Nancy menti a költségjelentést, egy üzenetet kap, amely értesíti arról, hogy a költségjelentésében szereplő minden tranzakcióhoz bizonylatot kell csatolni. Nancy ellenőrzi, hogy minden tranzakciós bizonylat digitális képét csatolta a költségjelentéshez, majd jóváhagyás céljából benyújtja a jelentést. Ezután elküldi a papíralapú bizonylatokat az irodai feldolgozócsapatnak. Ez a csoport elküldi az áfa-visszaigénylési egy külső partnernek, aki a Contoso részére áfa-visszaigényléseket ad be.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Ellenőrizze, hogy az összes adózási információ teljes-e, majd küldje el a költségjelentést
 
-April, a Contoso Kötelezettségek-koordinátora a költségjelentéshez meg kell adnia minden hiányzó adózási információt, mielőtt elküldhetné a jelentést. Megnyitja a **Költségjelentés részletei** oldalt, és látja, hogy Nancy jóváhagyta a költségjelentést. April ezután megnyitja a költségjelentést a tranzakciók részleteinek megtekintéséhez. Látja, hogy Nancy nem adott meg egy cikkáfacsoportot az egyik tranzakcióhoz. Mivel ezek az információk nincsenek megadva, a költségjelentés nem könyvelhető. Ezért a Költségkezelés lapon April megkeresi az **Adókonfigurációk** oldalt, és megkeresi az országhoz/régióhoz tartozó megfelelő cikkáfacsoport és a tranzakciótípus értékét. April most már könyvelheti a költségjelentés a főkönyvbe.
+Április előtt a Contoso kötelezettségek koordinátának minden adóiformációt meg kell adnia, ami hiányzik a költségjelentésből, mielőtt a jelentést közzé lehetne tenni. Megnyitja a **Költségjelentés részletei** oldalt, és látja, hogy Nancy jóváhagyta a költségjelentést. April ezután megnyitja a költségjelentést a tranzakciók részleteinek megtekintéséhez. Látja, hogy Nancy nem adott meg egy cikkáfacsoportot az egyik tranzakcióhoz. Mivel ezek az információk nincsenek megadva, a költségjelentés nem könyvelhető. Ezért a Költségkezelés lapon April megkeresi az **Adókonfigurációk** oldalt, és megkeresi az országhoz/régióhoz tartozó megfelelő cikkáfacsoport és a tranzakciótípus értékét. April most már könyvelheti a költségjelentés a főkönyvbe.
 
 Amikor April feladja a költségjelentést, a rendszer létrehozza a visszaigényelhető áfájú munkatételt. Ezt a munkaelemet a rendszer az irodai feldolgozócsoport valamelyik tagjához rendeli hozzá. April egy olyan üzenetet kap, amely igazolja a feladás sikerességét. Ez az üzenet felsorolja a visszaigénylésre azonosított ÁFA-tranzakciók számát is.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>A nemzetközi ÁFA-visszaigénylésre jogosult kiadások feldolgozása
 
-Arnie, a Contoso irodai feldolgozócsoportjának tagja felelős annak ellenőrzéséért, hogy az ÁFA-visszaigényléshez szükséges összes információt tartalmazza-e a költségjelentés. Megnyitja a **Költségadó-visszaigénylés** oldalt, és kijelöli a Nancy által beküldött költségjelentést. Arnie ezután ellenőrzi, hogy az összes szükséges bizonylat csatolva van-e, és hogy a megfelelő áfacsoport és cikkáfakódok lettek-e megadva.
+Arnie, a Contoso back-office feldolgozási csoportjának tagja, feladata annak megerősítése, hogy az áfa-visszaigényléshez szükséges összes információ szerepel-e a költségjelentések között. Megnyitja a **Költségadó-visszaigénylés** oldalt, és kijelöli a Nancy által beküldött költségjelentést. Arnie ezután ellenőrzi, hogy az összes szükséges bizonylat csatolva van-e, és hogy a megfelelő áfacsoport és cikkáfakódok lettek-e megadva.
 
 Amikor Arnie megkapja a papíralapú bizonylatokat Nancytől, ellenőrzi a papíralapú nyugtákat a digitális bizonylatokkal összevetve, majd a költségjelentés állapotát a **Visszaigénylésre kész** értékre módosítja.
 
