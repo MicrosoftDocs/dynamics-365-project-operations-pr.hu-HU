@@ -2,8 +2,6 @@
 title: Tanulmányok a Project Service Automation szolgáltatáshoz
 description: Szakmai ismertetők gyűjteménye a Project Service szolgáltatáshoz
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b61e355f2caf2ce977e35e3ed3cdba0e855227cc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0385ca6684d0eb580502d792a5af143f51616237
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280131"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998909"
 ---
 # <a name="white-papers-for-project-service"></a>Szakmai ismertetők a Project Service szolgáltatáshoz
 

@@ -2,18 +2,16 @@
 title: Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban
 description: Ez a témakör a beállításról és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289822"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001294"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban 
 
@@ -23,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 ## <a name="prerequisites"></a>Előfeltételek
 
-Az adatok Common Data Service (CDS) felületén történő konfigurálásának megkezdése előtt a következő előfeltételeknek kell teljesülnie:
+Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolgáltatásban, a következő előfeltételeknek kell teljesülniük:
 
 1.  CDS-környezet és Dynamics 365 Finance-környezet kiépítése a Project Operationshoz.
 2.  A jogi személy adatait meg kell osztani a Dynamics 365 Finance-ből a CDS-környezetbe. Ez azt jelenti, hogy a **vállalat** entitás a CDS-ben a következő vállalati rekordokkal rendelkezik:
@@ -33,7 +31,7 @@ Az adatok Common Data Service (CDS) felületén történő konfigurálásának m
 
 ## <a name="install-setup-and-configuration-data"></a>Beállítási és konfigurációs adatok telepítése
 
-1. Töltse le, oldja fel, és csomagolja ki a [Beállítási és konfigurációs adatcsomagot](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Töltse le, oldja fel, és csomagolja ki a [Beállítási és konfigurációs adatcsomagot](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Keresse meg a kibontott mappát, és futtassa a végrehajtható *DataMigrationUtility* fájlt.
 3. A Common Data Service konfigurációáttelepítő (CMT) varázsló 1. oldalán válassza az **Adatok importálása** lehetőséget, majd válassza a **Folytatás** lehetőséget.
 
@@ -57,13 +55,20 @@ Az adatok Common Data Service (CDS) felületén történő konfigurálásának m
 ![Adatok beolvasása](./media/5ImportData.png)
 
 10. Az Importálás a hálózat sebességétől függően körülbelül két-tíz percig tart. Az importálás befejeződése után lépjen ki a CMT varázslóból. 
-11. Ellenőrizze a szervezet adatait a következő 19 entitásban:
+11. Ellenőrizze a szervezet adatait a következő 26 entitásban:
 
   - Pénznem
+  - Számlatükör
+  - Pénzügyi naptár
+  - Pénzváltásiárfolyam-típusok
+  - Fizetésnap
+  - Fizetési ütemezés
+  - Fizetési feltételek
   - Szervezeti egység
-  - KAPCSOLATTARTÓ
+  - Kapcsolat
   - Adócsoport
   - Ügyfélcsoport
+  - Szállítói csoport
   - Kiszerelés
   - Egységcsoport
   - Árlista
@@ -127,7 +132,7 @@ Az adatok Common Data Service (CDS) felületén történő konfigurálásának m
 12. Frissítse a következő mezőket:
 
  - **Alapértelmezett vállalat**: USPM
- - **Alapértelmezett szervezeti egység** : Contoso Robotics Global
+ - **Alapértelmezett szervezeti egység**: Contoso Robotics Global
  - **Számlázási gyakoriság**: Hetedik és utolsó nap
  - **Munkaidősablon**: Váltson a létrehozott sablonra.
 

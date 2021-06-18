@@ -2,18 +2,16 @@
 title: Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – telepítési útmutató
 description: Ez a témakör a telepítés típusával, a készletezett/előállítási forgatókönyvekkel kapcsolatos Project Operations kapcsolatos információkat tartalmaz.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289237"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999404"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – telepítési útmutató
 
