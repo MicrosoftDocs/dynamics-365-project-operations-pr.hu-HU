@@ -2,11 +2,9 @@
 title: Egyéni mezők beállítása árazási dimenziókként
 description: Ez a témakör az egyedi árazási dimenziók egyéni mezőkkel történő beállításáról nyújt információkat.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274866"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004714"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Egyéni mezők beállítása árazási dimenziókként
 
@@ -77,10 +75,10 @@ Az árképzési dimenzióknak két típusa létezik:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Telephely            |                    |Túlóra                 |15     |
 |             | Contoso India|Helyi             |                    |Túlóra                 |10     |
-|             | Contoso USA   |Helyi             |                    |Túlóra                 |20     |
+|             | Contoso US   |Helyi             |                    |Túlóra                 |20     |
 
 
-Ha a 100 USD alapdíjat használó Contoso India erőforrása működik a helyszínen, és napi 8 óra normál munkaidőt és 2 óra túlórát jelentenek az időbejegyzéshez, akkor az árképzési motor a 100-as alapdíjat használja a 8 órához, így 800 USD értéket rögzít. A 2 órás túlórára 15%-os felárat kell alkalmazni a 100-as alapárra, hogy 115 USD egységárhoz jussanak, és a teljes költség 230 USD lesz.
+Ha a Contoso India erőforrása, amelynek alapára 100 USD, működik a helyszínen, és napi 8 órát szokásos időt és 2 órát túlórát jelent az időbeíráskor, az árazási motor 8 órán keresztül 100-as alapárat fog használni rögzíteni 800 USD. A 2 órás túlórára 15%-os felárat kell alkalmazni a 100-as alapárra, hogy 115 USD egységárhoz jussanak, és a teljes költség 230 USD lesz.
 
 ### <a name="applicable-to-cost"></a>Költségre alkalmazható 
 Ha ezt **Igen**-re állítja , ez azt jelzi, hogy a bemeneti kontextus dimenzióértékét kell használni a **Szerepkörár** és **Szerepkör felár** összeegyeztetéséhez, amikor a költségeket és a felárarányokat lekérdezi.

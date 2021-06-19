@@ -2,18 +2,16 @@
 title: Vállalatközi számlázás áttekintése
 description: Ez a témakör információkat és példákat tartalmaz a vállalatközi számlázásról a projektekhez.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287331"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002644"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vállalatközi számlázás áttekintése
 
@@ -21,7 +19,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 Előfordulhat, hogy a szervezethez több olyan részleg, leányvállalat és más jogi személy tartozik, amelyek termékeket és szolgáltatásokat biztosítanak egymásnak a projektjeihez. Az a jogi személy, aki a szolgáltatást vagy terméket nyújtja, az úgynevezett *kölcsönadó jogi személy*. Az a jogi személy, aki a szolgáltatást vagy terméket kapja, az úgynevezett *kölcsönvevő jogi személy*.
 
-A következő ábra egy tipikus forgatókönyvet mutat be, ahol két jogi személy, a Contoso Robotics USA (a kölcsönvevő jogi személy) és a Contoso Robotics UK (a kölcsönvevő jogi személy) erőforrásokat oszt meg az ügyfélnek, a Kalandorboltnak. Ebben az esetben a Contoso Robotics USA szerződést kötött egy munka szállítására az Adventure Works számára.
+Az alábbi ábra egy tipikus forgatókönyvet mutat be, amelyben két jogi személy, a Contoso Robotics USA (a kölcsönvevő entitás) és a Contoso Robotics UK (a kölcsönadó entitás) megosztja az erőforrásokat a projekt elkészítéséhez az Adventure works számára. Ebben az esetben a Contoso Robotics USA van megbízva a szállítással az Adventure Works számára.
 
 ![Vállalatközi számlázás](./media/IntercompanyScenario.png) 
 

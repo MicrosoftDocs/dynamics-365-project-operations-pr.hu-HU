@@ -2,11 +2,9 @@
 title: Hitelkártya-integráció beállítása
 description: Ez témakör ismerteti, hogyan dolgozzon a költségekkel kapcsolatos hitelkártya-tranzakciókkal.
 author: suvaidya
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 3555e894e206c2aafb30b0df1e52efadd69b0713
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866686"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001822"
 ---
 # <a name="set-up-credit-card-integration"></a>Hitelkártya-integráció beállítása
 

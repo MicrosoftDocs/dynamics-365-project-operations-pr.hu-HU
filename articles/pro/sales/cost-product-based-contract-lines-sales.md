@@ -2,19 +2,17 @@
 title: Termékalapú szerződéssorok költségszámítása – Lite
 description: Ez a témakör a létrehozásról nyújt információkat
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 001b0b54abcdd5fcd1eca7f3271cc78392f68860
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9458a57863244a68359f57185325c03a46bd6569
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273696"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003544"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Termékalapú szerződéssorok költségszámítása – Lite
 

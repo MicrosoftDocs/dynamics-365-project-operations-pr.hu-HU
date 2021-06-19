@@ -2,18 +2,16 @@
 title: Terjesztések egy költségjelentésen
 description: Ha kiadásokat ad meg egy költségjelentésen, akkor a szervezeten belül eloszthatja őket több projekt, jogi entitás vagy partner között.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 96245e6da131c55b2452d7797402fa714fc41d07
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6e3e5faf6a0a4553ef19ded1e0a8cda386a51061
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276621"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002104"
 ---
 # <a name="distributions-on-an-expense-report"></a>Terjesztések egy költségjelentésen
 
