@@ -2,8 +2,6 @@
 title: Árajánlatok és árajánlatsorok
 description: Ez a témakör az árajánlatkról és az áranjánlatsorokról tartalmaz információkat.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e5b0dfb3db2ddc6d43545a0f1f9429e343e830b5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291127"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014928"
 ---
 # <a name="quotes-and-quote-lines"></a>Árajánlatok és árajánlatsorok
 

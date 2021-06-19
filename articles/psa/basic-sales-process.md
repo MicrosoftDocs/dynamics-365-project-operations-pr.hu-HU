@@ -2,8 +2,6 @@
 title: Értékesítési folyamatok
 description: Ez a témakör információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad32757821a4cf966abd0b98cc4632dece613bc4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291082"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014209"
 ---
 # <a name="sales-processes"></a>Értékesítési folyamatok
 
