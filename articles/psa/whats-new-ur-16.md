@@ -2,8 +2,6 @@
 title: Újdonságok vagy változások a Project Service Automation 16-es frissítési kiadásának V3 változatában
 description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 16-os frissítési kiadásában.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33a711816e8cca34c4595aa0929de9a808a48b0f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 5d4851ed27028117d25efb0610c25a5aac9c8b70
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949388"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006784"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation 16-os frissítési kiadás, V3
 

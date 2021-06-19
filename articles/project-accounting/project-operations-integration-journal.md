@@ -2,18 +2,16 @@
 title: A Project Operations integrációs naplója
 description: Ez a témakör a Project Operations integrációs naplójának használatáról nyújt tájékoztatást.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948333"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007144"
 ---
 # <a name="integration-journal-in-project-operations"></a>A Project Operations integrációs naplója
 

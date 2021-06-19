@@ -2,19 +2,17 @@
 title: Árazási dimenziók áttekintése
 description: Ez a témakör a Dynamics 365 Project Operations árazási dimenzióiról nyújt információkat.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275406"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004984"
 ---
 # <a name="pricing-dimensions-overview"></a>Árképzési dimenziók áttekintése
 
@@ -59,18 +57,18 @@ A következő példa azt a számlamértéket mutatja, amelyet azon szerepkör é
 
 **Számlaminta**
 
-| Szerepkör        | Szerv. egység    |Egység      |Ár      |Pénznem  |
+| Szerepkör        | Szerv. egység    |Kiszerelés      |Ár      |Pénznem  |
 | ------------|-------------|----------|----------:|----------|
-| Fejlesztő   | Contoso USA  |Hour | 200|USD     |
-| Fejlesztő   | Contoso India |Hour|   112|USD     |
+| Fejlesztő   | Contoso US  |Óra | 200|USD     |
+| Fejlesztő   | Contoso India |Óra|   112|USD     |
 
 
 **Költségminta**
 
-| Fizetési sáv     | Szerv. egység    |Egység      |Ár      |Pénznem  |
+| Fizetési sáv     | Szerv. egység    |Kiszerelés      |Ár      |Pénznem  |
 | ----------------|-------------|----------|----------:|----------|
-| Cégem_Sáv1 | Contoso USA  |Hour | 145|USD     |
-| Cégem_Sáv2 | Contoso India |Hour|   67|USD     |
+| Cégem_Sáv1 | Contoso US  |Óra | 145|USD     |
+| Cégem_Sáv2 | Contoso India |Óra|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
