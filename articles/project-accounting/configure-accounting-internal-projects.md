@@ -2,18 +2,16 @@
 title: Belső projektek könyvelésének konfigurálása
 description: Ez a témakör a Project Operations alkalmazásban a belső projektek könyvelési gyakorlatainak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: ad8b974ef75cb0a4e43af0aa254cec1bbcab154a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857981"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012859"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Belső projektek könyvelésének konfigurálása
 

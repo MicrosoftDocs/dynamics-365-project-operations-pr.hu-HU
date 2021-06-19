@@ -2,18 +2,16 @@
 title: Projektárajánlat beállításai
 description: Ez a témakör a projektárajánlatokra érvényes és azokat érintő információkkal és beállításokkal kapcsolatos tudnivalókat tartalmaz.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 9181fc1f6a4820662cb145abab55072e9743bbaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663642"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011329"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Fejlécadatok projektalapú árajánlatok esetében
 

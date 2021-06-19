@@ -2,18 +2,16 @@
 title: Helyesbítő projektalapú számlák
 description: Ez a témakör információt nyújt arról, hogyan hozhat létre és erősíthet meg helyesbítő projektalapú számlákat a Project Operations szolgáltatásban.
 author: rumant
-manager: Annbe
 ms.date: 03/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: f6b6670f823577bf7f784443f97f0b77e1e9a6aa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867044"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012274"
 ---
 # <a name="corrective-project-based-invoices"></a>Helyesbítő projektalapú számlák
 
