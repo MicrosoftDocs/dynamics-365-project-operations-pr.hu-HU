@@ -2,19 +2,17 @@
 title: Munkavégzés személyes kiadásokkal egy költségjelentésen
 description: A témakör tájékoztatást nyújt arról, hogyan kell használni az üzleti céllal utazó alkalmazottak személyes kiadásait.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276222"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025687"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Munkavégzés személyes kiadásokkal egy költségjelentésen
 
@@ -28,6 +26,15 @@ Az alkalmazottak személyes kiadásait kétféleképpen kezelheti:
   - **Vállalat által fizetendő**: A vállalat fizeti a vállalati hitelkártya teljes költségét, majd a személyes kiadások összegével megterheli a dolgozó fiókját.
 
 Megadhatja, hogy a szervezet milyen módszert használ a **költségkezelési paraméterek** lapon.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Költség felsosztása engedélyezése, ha a személyes összeg mező értéke meg van adva
+
+A **Költség felosztásának engedélyezése, ha a személyes összeg mező értéke meg van adva** csak azon költségjelentésekre vonatkozik, amelyek sorszintű munkafolyamattal vannak jóváhagyva. A jelentések jóváhagyása a **Költségjelentések feldolgozása** > **Hozzám rendelt költségjelentések** > **Költségjelentések megnyitása** helyen lehetséges. 
+
+A funkció engedélyezéséhez válassza a **Munkaterületek** > **Funkciókezelés** lehetőséget, válassza a **Költségek felosztásának engedélyezése, ha a személyes összeg mező értéke meg van adva** lehetőséget, majd válassza az **Engedélyezés most** lehetőséget. 
+
+Ha a szolgáltatás engedélyezve van, akkor a szolgáltatást használó költségsorok a jelentés elküldésekor két sort generálnak. Két sor jön létre, így a jóváhagyó külön-külön jóváhagyhatja a sorokat.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

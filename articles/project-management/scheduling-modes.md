@@ -2,18 +2,16 @@
 title: Ütemezési módok
 description: Ez a témakör az ütemezési módokkal kapcsolatban nyújt információkat.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981438"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116710"
 ---
 # <a name="scheduling-modes"></a>Ütemezési módok
 
@@ -25,12 +23,12 @@ A(z) Dynamics 365 Project Operations lehetővé teszi a szervezetek számára, h
 A Project Operations három ütemezési módból áll rendelkezésre:
 
   - Rögzített időtartam (ez az alapértelmezett mód)
-  - Rögzített munka
+  - Fix ráfordítás (*Munka*)
   - Rögzített egységek
 
 Az adott ütemezési mód meghatározásával érintett értékeket a következő képlet határozza meg:
 
-  Erőfeszítés ( *Munka* ) = Időtartam x Egységek
+  Erőfeszítés = Időtartam x Egység
 
 Amikor beállítja a projekt ütemezési módját, beállítja az alábbi értékek egyikét, amelyet ezután nem lehet módosítani. Ha ezt az értéket állandóként tartjuk, az elsőbbséget élvez ezzel az értékkel, ami értesíti a rendszert, hogy a másik két érték változásakor ne változtassa meg azt. Az alábbi táblázat egy adott mód kiválasztásának hatásairól ad tájékoztatást.
 

@@ -2,18 +2,16 @@
 title: Project Operations kettős írás leképezési verziói
 description: Ez a témakör a(z) Dynamics 365 Project Operations-hez szükséges kettős írású térképek listáját tartalmazza.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938995"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025777"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations kettős írás leképezési verziói
 
@@ -36,32 +34,32 @@ A Project Operations megoldáshoz a következő térképek szükségesek. Győz�
 
 ![Főkönyvi leképezés szinkronizálása](media/DW6.png)
 
-1. Kövesse ugyanazokat a lépéseket a fenti táblázatban felsorolt összes többi táblázattérképhez. A térképek futtatásakor ne jelölje be a **Kezdeti szinkronizálás** jelölőnégyzetet.
+2. Kövesse ugyanazokat a lépéseket a fenti táblázatban felsorolt összes többi táblázattérképhez. A térképek futtatásakor ne jelölje be a **Kezdeti szinkronizálás** jelölőnégyzetet.
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operations kettős írású térképei
 
-A Project Operations megoldáshoz a következő térképek szükségesek.
+A Project Operations megoldáshoz a következő térképek szükségesek. A kettős írású leképezés verziók a Project Operations 2021 májusi frissítésétől kezdve, 4.10.0.186 verzió.
 
 | **Entitásleképezés** | **Legutóbbi verzió** | **Kezdeti szinkronizálás** |
 | --- | --- | --- |
 | A projekt tranzakciókapcsolatainak integrációs entitása (msdyn\_transactionconnections) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
 | Projektszerződés fejlécei (értékesítési megbízások) | 1.0.0.1 | Nem szükséges a kiépítéshez. |
 | Projektszerződéssorok (salesorderdetails) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
-| Projektfinanszírozási forrás (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Nem szükséges a kiépítéshez. |
+| Projektfinanszírozási forrás (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
 | Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
-| Projektszámla-ajánlatok V2 (számlák) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
+| Projektszámla-ajánlatok V2 (számlák) | 1.0.0.3 | Nem szükséges a kiépítéshez. |
 | Project Operations integrációjának tényleges adatai (msdyn_actuals) | 1.0.0.14 | Nem szükséges a kiépítéshez. |
 | A Project Operations integráció szerződéssor-mérföldkövei (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nem szükséges a kiépítéshez. |
 | A Project Operations integrációs entitása kiadások becsléséhez (msdyn_estimateslines) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
 | A Project Operations integrációs entitása órabecslésekhez (msdyn_resourceassignments) | 1.0.0.5 | Nem szükséges a kiépítéshez. |
-| Project Operations integráció projektköltség-kategóriák exportálási entitása (msdyn_expensecategories) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
+| Project Operations integráció projektköltség-kategóriák exportálási entitása (msdyn_expensecategories) | 1.0.0.1 | Nem szükséges a kiépítéshez. |
 | Project Operations integráció projektkiadások exportálási entitása (msdyn_expenses) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
 | Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn_projectvendorinvoices) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
-| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
+| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Nem szükséges a kiépítéshez. |
 | Az összes vállalat projekterőforrás-szerepkörei (bookableresourcecategories) | 1.0.0.1 | A kiépítés során a Dynamics 365 Dataverse környezetben tartott projektmenedzseri és csapattagi erőforrás-szerepkörök szinkronizálásához a táblatérkép kezdeti szinkronizálása szükséges. Dataverse a kezdeti szinkronizálás fő forrása. |
 | Projektfeladatok (msdyn_projecttasks) | 1.0.0.4 | Nem szükséges a kiépítéshez. |
 | Projekttranzakciós kategóriák (msdyn_transactioncategories) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
-| V2 projektek (msdyn_projects) | 1.0.0.1 | Nem szükséges a kiépítéshez. |
+| V2 projektek (msdyn_projects) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
 
 Végezze el a következő lépéseket a felsorolt térképek futtatásához.
 
