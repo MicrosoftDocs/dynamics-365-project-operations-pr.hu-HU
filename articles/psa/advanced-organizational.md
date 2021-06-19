@@ -2,8 +2,6 @@
 title: Szervezeti egységek
 description: Ez a témakör a Dynamics 365 Project Service Automation alkalmazás szervezeti egységeiről tartalmaz információkat.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291667"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009619"
 ---
 # <a name="organizational-units"></a>Szervezeti egységek 
 
@@ -124,7 +122,7 @@ Szám A PSA jelenlegi kiadásában a szervezeti egységek nem hierarchikusak. Ez
 Ha komplex hierarchiájú költséghelyekkel, osztályokkal, számlázási irodákkal stb. rendelkezik, akkor az adott hierarchia levélcsomópontjait külön szervezeti egységként kell beállítani.
 A következő példa egy tipikus hierarchiát mutat:
 
-**Contoso India**
+**ContosoIndia**
 
   - SAP-gyakorlat 
 

@@ -2,8 +2,6 @@
 title: Egységcsoportok és egységek
 description: Ez a témakör az egységcsoportokról és egységekről tartalmaz információkat.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291622"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009574"
 ---
 # <a name="unit-groups-and-units"></a>Egységcsoportok és egységek
 
@@ -86,9 +84,9 @@ A következő példa azt mutatja be, hogyan használja a PSA az egységcsoportok
     - **Alapértelmezett időegység**: nap 
     - **Pénznem**: GBP
 
-| Szerepkör      | Egységcsoport | Egység | Szervezeti egység | Ár   |
+| Szerepkör      | Egységcsoport | Kiszerelés | Szervezeti egység | Ár   |
 |-----------|------------|------|---------------------|---------|
-| Fejlesztő | Time       | Day  | Contoso UK          | 800 GBP |
+| Fejlesztő | Idő       | nap  | Contoso Egyesült Királyság          | 800 GBP |
 
 ### <a name="time-entry"></a>Időbejegyzés
 

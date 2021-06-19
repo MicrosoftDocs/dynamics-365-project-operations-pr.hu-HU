@@ -2,12 +2,10 @@
 title: Egyéni mezők beállítása árazási dimenziókként
 description: Ez a témakör az egyedi árazási dimenziók beállításáról nyújt információkat.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282471"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008314"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Egyéni mezők beállítása árazási dimenziókként 
 
@@ -75,7 +73,7 @@ Az árképzési dimenzióknak két típusa létezik:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Telephely            |                    |Túlóra                 |15     |
 |             | Contoso India|Helyi             |                    |Túlóra                 |10     |
-|             | Contoso USA   |Helyi             |                    |Túlóra                 |20     |
+|             | Contoso US   |Helyi             |                    |Túlóra                 |20     |
 
 
 Ha a Contoso India erőforrása, amelynek alapára 100 USD, működik a helyszínen, és napi 8 órát szokásos időt és 2 órát túlórát jelent az időbeíráskor, a Project Service árazási motor 8 órán keresztül 100-as alapárat fog használni rögzíteni 800 USD. A 2 órás túlórára 15%-os felárat kell alkalmazni a 100-as alapárra, hogy 115 USD egységárhoz jussanak, és a teljes költség 230 USD lesz.

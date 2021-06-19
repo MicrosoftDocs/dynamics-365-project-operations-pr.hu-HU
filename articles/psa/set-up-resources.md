@@ -2,8 +2,6 @@
 title: Erőforrások beállítása
 description: Erőforrások beállítása a Project Service szolgáltatásban
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a4c16ce551c659be2c27fd125d97a74a9dfb3295
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0d83e30eb4e0f10a990f72e148c29db9d3cb0c83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282381"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008224"
 ---
 # <a name="set-up-resources-project-service"></a>Erőforrások beállítása (Project Service)
 

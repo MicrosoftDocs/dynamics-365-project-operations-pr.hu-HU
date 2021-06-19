@@ -2,8 +2,6 @@
 title: Idő és költségek jóváhagyása
 description: Idő és költségek jóváhagyása a Project Service szolgáltatásban
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55979dc8076ec2b226492060a7c034fbd62b325a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d17652d0d41c33739d163d024a9c26fcce1712dd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291487"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009439"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Idő és költségek jóváhagyása (Project Service)
 
