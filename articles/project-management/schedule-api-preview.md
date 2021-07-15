@@ -1,19 +1,19 @@
 ---
-title: Ütemezési API-k használata az Ütemezési entitásokkal végzett műveletekhez
-description: Ez témakör az ütemezési API-k használatával kapcsolatos információkat és mintákat tartalmaz.
+title: Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
+description: Ez témakör tájékoztatást és példákat tartalmaz a Projektütemezési API-k használatával kapcsolatban.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116800"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293230"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Ütemezési API-k használata az Ütemezési entitásokkal végzett műveletekhez
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
@@ -22,9 +22,9 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 ## <a name="scheduling-entities"></a>Ütemezési entitások
 
-Az ütemezési API-k lehetővé teszik a létrehozási, frissítési és törlési műveletek elvégzését az **Ütemezési entitásokkal**. Ezeket az entitásokat a Project for the web ütemezési motorja kezeli. Az **Ütemezési entitásokkal** végzett műveletek létrehozása, frissítése és törlése korlátozott volt a korábbi Dynamics 365 Project Operations kiadásokban.
+A projektütemezési API-k lehetőséget biztosítanak a létrehozási, frissítési és törlési műveletek végrehajtására **Ütemező entitásokkal**. Ezeket az entitásokat a Project for the web ütemezési motorja kezeli. Az **Ütemezési entitásokkal** végzett műveletek létrehozása, frissítése és törlése korlátozott volt a korábbi Dynamics 365 Project Operations kiadásokban.
 
-Az alábbi tábla az **Ütemezési entitások** teljes listáját tartalmazza.
+Az alábbi táblázat a Projektütemezési entitások teljes listáját tartalmazza.
 
 | Entitás neve  | Entitás logikai neve |
 | --- | --- |
@@ -39,19 +39,19 @@ Az alábbi tábla az **Ütemezési entitások** teljes listáját tartalmazza.
 
 Az OperationSet egy munkaegység-minta, amely akkor használható, ha egy tranzakción belül több ütemezést is fel kell dolgozni, amely a kérelmeket érinti.
 
-## <a name="schedule-apis"></a>API-k ütemezése
+## <a name="project-schedule-apis"></a>Projektütemezés API-k
 
-Az alábbiakban az aktuális ütemezési API-k listája szerepel.
+A következő lista az aktuális Projektütemezési API-kat sorolja fel.
 
 - **msdyn_CreateProjectV1**: Ez az API projekt létrehozására használható. A projekt és az alapértelmezett projektgyűjtő azonnal létrejön.
 - **msdyn_CreateTeamMemberV1**: Ez az API projekt csoporttag létrehozására használható. A csoporttag-rekord azonnal létrejön.
 - **msdyn_CreateOperationSetV1**: Ez az API több olyan kérés ütemezésére használható, amelyet egy tranzakción belül kell végrehajtani.
-- **msdyn_PSSCreateV1**: Ez az API entitás létrehozására használható. Az entitás lehet a létrehozási műveletet támogató Ütemezési entitások bármelyike.
-- **msdyn_PSSUpdateV1**: Ez az API entitás frissítésére használható. Az entitás lehet a frissítési műveletet támogató Ütemezési entitások bármelyike.
-- **msdyn_PSSDeleteV1**: Ez az API entitás törlésére használható. Az entitás lehet a törlési műveletet támogató Ütemezési entitások bármelyike.
+- **msdyn_PSSCreateV1**: Ez az API entitás létrehozására használható. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet.
+- **msdyn_PSSUpdateV1**: Ez az API entitás frissítésére használható. Az entitás a frissítés műveletet támogató bármely Projektütemezési entitás lehet.
+- **msdyn_PSSDeleteV1**: Ez az API entitás törlésére használható. Az entitás a törlés műveletet támogató bármely Projektütemezési entitás lehet.
 - **msdyn_ExecuteOperationSetV1**: Ez az API az adott műveletkészleten belüli összes művelet végrehajtására használható.
 
-## <a name="using-schedule-apis-with-operationset"></a>Ütemezési API-k használata az OperationSettel
+## <a name="using-project-schedule-apis-with-operationset"></a>Projektütemezési API-k használata az OperationSet elemmel
 
 Mivel a **CreateProjectV1** és a **CreateTeamMemberV1** rekordok azonnal létrejönnek, ezek az API-k nem használhatók közvetlenül az **OperationSetben**. Az API-val azonban létrehozhatja a szükséges rekordokat, létrehozhat egy **OperationSetet**, majd használhatja ezeket az előre létrehozott rekordokat az **OperationSetben**.
 
@@ -257,7 +257,7 @@ A következő táblázatok határozzák meg a **Létrehozás** és **Szerkeszté
 ## <a name="limitations-and-known-issues"></a>Korlátozások és ismert problémák
 Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
-- Az ütemezési API-kat csak **Microsoft Project licenccel rendelkező felhasználók használhatják**. Nem használhatják:
+- A Projektütemezési API-kat csak **Microsoft Project licensszel rendelkező felhasználók használhatjak.** Nem használhatják:
     - Alkalmazásfelhasználók
     - Rendszerfelhasználók
     - Integrációs felhasználók
@@ -271,7 +271,7 @@ Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 ## <a name="error-handling"></a>Hibakezelés
 
    - Az Operation Setsből generált hibák áttekintéséhez lépjen a **Beállítások** \> **Ütemezésintegráció** \> **Műveleti készletek** lapra.
-   - A Projektütemezési szolgáltatás által generált hibák áttekintéséhez lépjen a **Beállítások** \> **Ütemezési integráció** \> **PSS hibanaplók** menüpontba.
+   - A Projektütemező szolgáltatásból származó hibák megtekintéséhez menjena **Beállítások** \> **Ütemezésintegráció** \> **PSS hibanaplókban** menübe.
 
 ## <a name="sample-scenario"></a>Példaforgatókönyv
 

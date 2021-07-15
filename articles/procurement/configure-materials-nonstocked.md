@@ -2,17 +2,17 @@
 title: Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
 description: Ez a témakör elmagyarázza, hogyan engedélyezheti a nem raktározott anyagokat és a függőben lévő szállítói számlákat.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993914"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293050"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
 
@@ -59,11 +59,11 @@ Ha általános demo adatokat használ, előfordulhat, hogy a következő entitá
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Munkafolyamat aktiválása szállító entitáson alapuló fiókok létrehozásához
 
-A Kettős írású vezénylőmegoldás biztosítja a [szállítók fő integrációját](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Ennek a funkciónak az előfeltételeként a szállítói adatokat létre kell hozni a **Fiókok** entitásban. Sablon-munkafolyamat aktiválása szállítók létrehozásához a **Fiókok** táblázatban a [Szállítótervek közötti váltásban](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type) leírtak szerint.
+A Kettős írású vezénylőmegoldás biztosítja a [szállítók fő integrációját](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Ennek a funkciónak az előfeltételeként a szállítói adatokat létre kell hozni a **Fiókok** entitásban. Sablon-munkafolyamat aktiválása szállítók létrehozásához a **Fiókok** táblázatban a [Szállítótervek közötti váltásban](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch) leírtak szerint.
 
 ### <a name="set-products-to-be-created-as-active"></a>A létrehozandó termékek beállítása aktívként
 
-A nem raktározott anyagokat a Pénzügyekben **Megjelent termékekként** kell konfigurálni. A Dual Write Orchestration megoldás egyéni [Kiadott termékek integrációját biztosítja a Dataverse Termékkatalógusba](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Alapértelmezés szerint a Pénzügy termékeit egy tervezet állapotában szinkronizálják a(z) Dataverse helyre. A termék aktív állapotba szinkronizálásához, hogy közvetlenül felhasználható legyen az anyagfelhasználási dokumentumokban vagy a függőben lévő szállítói számlákban, lépjen a **Rendszer** > **Adminisztráció** > **Rendszeradminisztráció** > **Rendszerbeállítások** menüpontba, és az **Eladások** lapon állítsa a **Termékek aktív állapotba hozása** értéket **Igen**-re.
+A nem raktározott anyagokat a Pénzügyekben **Megjelent termékekként** kell konfigurálni. A Dual Write Orchestration megoldás egyéni [Kiadott termékek integrációját biztosítja a Dataverse Termékkatalógusba](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Alapértelmezés szerint a Pénzügy termékeit egy tervezet állapotában szinkronizálják a(z) Dataverse helyre. A termék aktív állapotba szinkronizálásához, hogy közvetlenül felhasználható legyen az anyagfelhasználási dokumentumokban vagy a függőben lévő szállítói számlákban, lépjen a **Rendszer** > **Adminisztráció** > **Rendszeradminisztráció** > **Rendszerbeállítások** menüpontba, és az **Eladások** lapon állítsa a **Termékek aktív állapotba hozása** értéket **Igen**-re.
 
 ## <a name="configure-prerequisites-in-finance"></a>Előfeltételek konfigurálása a Pénzügyekben
 
@@ -88,7 +88,7 @@ A Project Operations alkalmazásban rögzítheti a kiadott termékkatalógusban 
 2. A **Terméktípus** mezőben válassza az **Elem** lehetőséget, a **Termék altípus** mezőben pedig válassza a **Termék** lehetőséget.
 3. Adja meg a termékszámot (WRITEIN) és a termék nevét (Write-in Product).
 4. Jelölje ki az elemmodell-csoportot. Győződjön meg arról, hogy a kiválasztott cikkmodell-csoport **Készletezési szabályzatában a Készletezett termék** mező **Hamis** értékre van állítva.
-5. Válassza ki az értékeket az **Elemcsoport**, **Tárolási dimenziócsoport** és a **Dimenziócsoport nyomon követése** mezőben. Csak a **Webhely** **Tárhelydimenzióját** használja, és ne állítson be követési dimenziókat.
+5. Válassza ki az értékeket az **Elemcsoport**, **Tárolási dimenziócsoport** és a **Dimenziócsoport nyomon követése** mezőben. A **Tárolási dimenzió** elemet csak a **Tephely** elemhez használja, és a **Nyomonkövetési-dimenzió** mezőben válassza a **Nincs** lehetőséget.
 6. Válassza ki az értékeket a **Készlet egység**, **Beszerzési egység** és **Értékesítési egység** mezőben, majd mentse a módosításokat.
 7. A **Terv** lapon állítsa be az alapértelmezett rendelési beállításokat, a **Készlet** lapon pedig állítsa be az alapértelmezett webhelyet és tárhelyet.
 8. Lépjen a **Projektmenedzsment és -könyvelés** > **Beállítás** > **Projektkezelési és -könyvelési paraméterek** menüpontra, és nyissa meg a **Project Operations a Dynamics 365 Dataverse** projektet. 

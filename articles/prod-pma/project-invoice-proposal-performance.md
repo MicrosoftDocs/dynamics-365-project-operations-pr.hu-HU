@@ -2,7 +2,7 @@
 title: Projektszámla-javaslatok teljesítménye
 description: Ez témakör a projektszámla-javaslatok teljesítményfejlesztéséről nyújt tájékoztatást.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999494"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269793"
 ---
 # <a name="project-invoice-proposal-performance"></a>Projektszámla-javaslatok teljesítménye
 
@@ -44,4 +44,6 @@ A projektszámla-javaslat teljesítményjavítási funkció kikapcsolásához v�
 3.  Frissítse a böngészőjét.
 
 > [!NOTE]
-> A számlajavaslat teljesítménye nem alkalmazható, ha a számlázási szabályok engedélyezve vannak, vagy ha a kötegelt folyamatok futnak.
+> A számlajavaslat teljesítménye nem alkalmazható a számlázási szabályok engedélyezésekor.
+> 
+> A számlajavaslatok léterhozásának folyamata során az alfeladatok száma a számlázható tranzakciókkal rendelkező szerződések számától függően maximális számra osztja fel a feladatokat, függetlenül attól, hogy mit adott meg. Ha például **3**-as számot adja meg a számlajavaslat kötegben való létrehozásához szükséges alfeladatokhoz, és csak két olyan szerződés van, amely számlázható tranzakciókat tartalmaz, csak két alfeladat jön létre.
