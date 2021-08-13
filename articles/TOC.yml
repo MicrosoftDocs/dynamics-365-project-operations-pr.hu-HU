@@ -832,6 +832,16 @@
           items:
             - name: Erőforrás-kihasználtság áttekintése
               href: resource-management/resource-utilization-overview.md
+    - name: Alvállalkozói szerződések kezelése Project Operations-ben
+      items:
+        - name: Alvállalkozói szerződések kezelése – áttekintés
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Az alvállalkozói szerződéskötés kulcsfogalmai
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Szállítók és projekt árlisták kezelése
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Alvállalkozók lefoglalható erőforrásként
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Idő
       items:
         - name: Idő áttekintése
@@ -1048,8 +1058,10 @@
       href: psa/overview.md
     - name: Újdonságok
       items:
-        - name: A Project Service 3.x frissítési kiadásának frissítése
+        - name: A Project Service 3.x kiadási ütemezésének frissítése
           href: psa/version-history-ps.md
+        - name: A 34-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-34.md
         - name: A 33-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-33.md
         - name: A 32.5-es frissítési kiadás V3 verziójának újdonságai vagy változásai
