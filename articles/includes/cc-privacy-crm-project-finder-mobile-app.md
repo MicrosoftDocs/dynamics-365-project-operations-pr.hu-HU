@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069734"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004814"
 ---
 A Project Finder Mobile alkalmazás engedélyezésével lehetővé teszi, hogy a felhasználók megtekintsék a projekteket és munkára jelentkezzenek. A felhasználók a saját képességeiket is megjeleníthetik, illetve frissíthetik a Project Finder alkalmazásban. A Project Finder Mobile alkalmazást a Project Service – Paraméterek – Beállítások oldalon engedélyezheti úgy, hogy Igen értékre állítja „Az erőforrás-követelmények láthatók az erőforrások számára” és a „Képességek módosításának engedélyezése az erőforrásoknak” beállítást. Ha a fenti attribútumokat Nem értékre változtatja, azzal letiltja ezt a szolgáltatást.  
   
