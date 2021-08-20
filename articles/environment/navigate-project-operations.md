@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000125"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994594"
 ---
 # <a name="navigate-project-operations"></a>A Project Operations navigálása
 
@@ -28,11 +28,11 @@ A Project Operations jelen témakörben leírt kiépítése után a Lifecycle Se
 
 A **Common Data Service környezet neve** szakaszban található környezetnévvel navigáljon a Project Operationsba a CDS-környezeten. 
 
-  ![Common Data Service-környezet neve](./media/environment-name.PNG)
+  ![Common Data Service Környezet neve.](./media/environment-name.PNG)
 
 Válassza a **Bejelentkezés** > **Bejelentkezés a környezetbe** elemet, amivel megnyithatja a Finance **Projektmenedzsment és könyvelés** modulját.  
 
-   ![Belépés a Finance-ba](./media/environment-login.PNG)
+   ![Belépés a Finance-ba.](./media/environment-login.PNG)
 
 > [!NOTE]
 > A Project Operationst megnyithatja a Common Data Service rendszerben, és közvetlenül a **projektmenedzsment és könyvelés** modulban a megfelelő URL-címek segítségével. 

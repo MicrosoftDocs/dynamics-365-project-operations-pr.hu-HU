@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005619"
 ---
 # <a name="synchronize-resource-capacity"></a>Erőforrás-kapacitás szinkronizálása
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997514"
 
 Az erőforrás-szinkronizálási folyamatok segítségével biztosítható, hogy a naptár és az alapnaptár adatai eljutnak a projekterőforrás-ütemezésébe. A naptár módosítása esetén a folyamat végrehajtja a projektek erőforrásainak ütemezéséhez szükséges frissítéseket. A folyamatok a teljesítmény javítását is segítik, mivel a naptár erőforrás-információit előre szinkronizálja a rendszer. Ezért gyorsabban történnek az erőforrás-ütemezési adatok frissítései. Javasoljuk, hogy a folyamatokat ne egyenként, hanem kötegelve ütemezze. Ellenkező esetben fennáll annak a veszélye, hogy valaki elfelejti a bezárólagos dátumokat, amikor az adatok legutóbbi szinkronizálása megtörtént. Ha nem bezárólagos dátumokat használ, akkor a szinkronizálás során hézagok keletkezhetnek.
 
-![Naptár szinkronizálása](./media/projectresourcing04-1024x471.jpg)
+![Naptár szinkronizálása.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Erőforráskapacitás-összesítések szinkronizálása
 

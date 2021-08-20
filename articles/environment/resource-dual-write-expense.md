@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986584"
 ---
 # <a name="expense-management-integration"></a>Költségkezelés integrációja
 
@@ -28,7 +28,7 @@ A teljes költségkihelyezés helyezés esetén a költségkategóriák az alkal
 2. A Pénzügyekben lépjen a **Költségkezelés** > **Beállítás** > **Megosztott kategóriák**, és válasszon egy megosztott kategóriát a **Költség** tranzakciós osztállyal. Állítsa a **Költségben használható** paramétert **Igaz** értékre, és határozza meg a használni kívánt költségtípust.
 3. Ezzel a megosztott kategóriarekord használatával hozzon létre egy új költségkategóriát a **Költségkezelés** > **Beállítás** > **Költségkategóriák** pontra lépéssel, és az **Új** lehetőség kiválasztásával. A rekord mentésekor a kettős írás a **Project Operations integrációs projekt költségkategóriáinak exportáló entitása (msdyn \_expensecategories)** táblaleképezést használja a rekord Dataverse elemmel való szinkronizálásához: .
 
-  ![Költségkategóriák integrációja](./media/DW6ExpenseCategories.png)
+  ![Költségkategóriák integrációja.](./media/DW6ExpenseCategories.png)
 
 A(z) Finance and Operations alkalmazások költségkategóriái vállalat- vagy jogiszemély-specifikusak. Külön, megfelelő jogiszemély-specifikus nyilvántartások vannak a(z) Dataverse felületen. Amikor egy projektmenedzser megbecsüli a költségeket, nem választhatja ki azokat a költségkategóriákat, amelyeket egy másik vállalat tulajdonában lévő projekthez hoztak létre, mint az a vállalat, amely az éppen kidolgozás alatt lévő projekt tulajdonosa. 
 
@@ -40,7 +40,7 @@ A költségjelentések létrehozása és jóváhagyása a(z) Finance and Operati
   - A kettős írás szinkronizálása a(z) Dataverse elemmel a **Project Operations integrációs projektköltségeket exportáló entitás (msdyn \_expenses)** táblaleképezés használatával.
   - Az adózói alkönyv, a szállítói alkönyv és egyéb pénzügyi könyvelések a költségelszámolás könyvelésekor kerülnek rögzítésre.
 
-  ![Költségjelentések integrálása](./media/DW6ExpenseReports.png)
+  ![Költségjelentések integrálása.](./media/DW6ExpenseReports.png)
 
 Ha egy rekordot írnak a **Költség** entitásba a(z) Dataverse felületen, a rendszer elindítja a rekord automatikus jóváhagyási folyamatát. Szükség esetén az automatizált jóváhagyási folyamat állapota a(z) Dataverse felületen a **Kifejlett beállítások** > **Rendszer** > **Rendszeres munkák** pontban ellenőrizhető. A jóváhagyás befejezése után a költségtranzakció osztályrekordjai létrejönnek a **Tényleges adatok** entitásban.
 

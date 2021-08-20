@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998329"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Emlékezzen a jóváhagyott idő- vagy költségbejegyzésre
 
@@ -98,13 +98,13 @@ Ha a visszahívási kérelmet elutasítják, nincs pénzügyi hatása a projektr
 
 Az alábbi ábra bemutatja a jóváhagyott időbejegyzéseknél a visszahíváskor bekövetkező változásokat.
 
-![Időbeviteli állapotátmenetek](media/TimeEntryStateTransitions.png)
+![Időbeviteli állapotátmenetek.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>A költségbejegyzés nyilvántartásának változásai
 
 Az alábbi ábra bemutatja azokat a változásokat, amelyek a jóváhagyott kiadási tételeknél történnek visszahívásukkor.
 
-![Költség belépési állapotátmenetek](media/ExpenseEntryStateTransitions.png)
+![Költség belépési állapotátmenetek.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015064"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985504"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Számlázás a Project Service Automation alkalmazásban
 
@@ -50,7 +50,7 @@ Kövesse ezeket a lépéseket egy adott projektszerződés számlájának létre
 
 - A **Projektszerződések** listán nyissa meg a projektszerződést, majd válassza a **Számla létrehozása** lehetőséget.
 
-    ![Projektszámlák létrehozása egy adott projektszerződéshez](media/CreateProjectInvoicesOneByOne.png)
+    ![Projektszámlák létrehozása egy adott projektszerződéshez.](media/CreateProjectInvoicesOneByOne.png)
 
     Egy számla készül az összes tranzakcióhoz azon kiválasztott projekt szerződés esetén, amely állapota **Számlázásra kész**. Ezek a tranzakciók magukban foglalják az időt, a költségeket, a mérföldköveket és a termékalapú szerződési sorokat.
 
@@ -58,7 +58,7 @@ Kövesse ezeket a lépéseket az ömlesztett számlák létrehozásához.
 
 1. A **Projektszerződések** listán válasszon ki egy vagy több projektszerződést, amelyhez számlát kell létrehoznia, majd válassza a **Projektszámlák létrehozása** lehetőséget.
 
-    ![Projektszámlák ömlesztett létrehozása](media/CreateProjectInvoicesBulk.png)
+    ![Projektszámlák ömlesztett létrehozása.](media/CreateProjectInvoicesBulk.png)
 
     Egy figyelmeztető üzenet tájékoztatja arról, hogy a számlák létrehozása némileg késhet. Ezzel egyidejűleg a folyamat is látható.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011059"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986764"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>A Finance környezetben való Project Operations frissítése
 
@@ -33,7 +33,7 @@ Ez a témakör információt nyújt a Dynamics 365 Finance környezetben való D
 4. Erősítse meg, hogy a környezet működik. Ha nem indul el, indítsa el a környezetet.
 5. A **Rendelkezésre álló frissítések** rész **Új kiadás** szakaszában válassza a **Frissítés megtekintése** lehetőséget a 10.0.15-ös frissítéshez.
 
-![Frissítés gomb megtekintése](media/view-update.png)
+![Frissítés gomb megtekintése.](media/view-update.png)
 
 6. A **Bináris frissítések** oldalon válassza a **Csomag mentése** lehetőséget.
 7. A **Frissítések áttekintése és mentése** oldalon válassza a **Csomag mentése** lehetőséget.
@@ -47,11 +47,11 @@ Ez a témakör információt nyújt a Dynamics 365 Finance környezetben való D
 2. Válassza ki a listában a korábban mentett csomagot, majd válassza az **Alkalmaz** lehetőséget.
 3. A csomag telepítésének megerősítéséhez válassza az **Igen** lehetőséget.
 
-![Csomagtelepítés megerősítése párbeszédpanel](media/confirm-package-deployment.png)
+![Csomagtelepítés megerősítése párbeszédpanel.](media/confirm-package-deployment.png)
 
 4. Az alkalmazás frissítésének megerősítéséhez válassza az **Igen** lehetőséget.
 
-![Alkalmazásfrissítés megerősítése párbeszédpanel](media/confirm-application-update.png)
+![Alkalmazásfrissítés megerősítése párbeszédpanel.](media/confirm-application-update.png)
 
 Elindul a telepítés és az alkalmazás frissítése. 
 
@@ -84,7 +84,7 @@ Az entitások biztonsági jogosultságának alábbi frissítései az UR5-ös ver
 
 1. A Dataverse környezetben válassza a **Beállítások** lehetőséget, és a **Rendszer** csoportban válassza a **Biztonság** lehetőséget.
 
-![Dataverse-környezet beállításai](media/Picture21.png)
+![Dataverse-környezeti beállítások.](media/Picture21.png)
 
 2. Válassza a **Biztonsági szerepkörök** lehetőséget.
 3. A szerepkörök listájából válassza ki a **kettős írású alkalmazásfelhasználót**, majd válassza az **Egyéni entitások** fület. 
@@ -121,7 +121,7 @@ Az entitások biztonsági jogosultságának alábbi frissítései az UR5-ös ver
 6. A leképezések listájában válassza ki a **Főkönyvi (msdyn_ledgers)** leképezés minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. 
 7. Válassza ki a **Kezdeti szinkronizálás fő eleme** mezőjében az **Finance and Operations alkalmazásokat**, majd válassza a **Futtatás** lehetőséget.
  
- ![Főkönyvi leképezés szinkronizálása](media/DW6.png)
+ ![Főkönyvi leképezés szinkronizálása.](media/DW6.png)
  
 
 

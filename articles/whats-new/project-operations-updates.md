@@ -2,17 +2,17 @@
 title: Project Operations-frissítések
 description: Ez a témakör a Dynamics 365 Project Operations közzétett verzióival kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433566"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024786"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -36,7 +36,7 @@ A Dynamics 365 Project Operations két összetevőből áll:
 
 | Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a Finance and Operations alkalmazások környezetében | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 A Project Operations Erőforrás/Nem készletezett forgatókönyv esetén javasoljuk, hogy a Dual Write Orchestration 2.2.2.83-es vagy újabb verzióját használja.
 
@@ -45,27 +45,29 @@ A Project Operations Erőforrás/Nem készletezett forgatókönyv esetén javaso
 A Project Operations frissítései a Dataverse-környezetben havonta rendelkezésre állnak. 
 
 | Állomás | Régió | Aktuális verziószám | Az egyszerű központi telepítés automatikus frissítései | Automatikus frissítések az erőforráshoz/nem készlet alapú telepítés | Következő verziószám | A következő általánosan elérhető verzió |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Első kiadás         |  4.12.0.148     | Befejeződött     | 2021. július 09.          | Később eldöntendő                 | 2021. augusztus 06.        |
-| 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika         |  4.12.0.148     | 2021. július 09.   | 2021. július 16.          | Később eldöntendő                 | 2021. augusztus 06.        |
-|    &nbsp; | Kanada                |  4.12.0.148     | 2021. július 09.   | 2021. július 16.          | Később eldöntendő                 | 2021. augusztus 06.        |
-|   &nbsp;  | India                 |  4.12.0.148     | 2021. július 09.   | 2021. július 16.          | Később eldöntendő                 | 2021. augusztus 06.        |
-|   &nbsp;  | Franciaország                |  4.12.0.148     | 2021. július 09.   | 2021. július 16.          | Később eldöntendő                 | 2021. augusztus 06.        |
-|   &nbsp;  | Egyesült Arab Emírségek  |  4.12.0.148     | 2021. július 09.   | 2021. július 16.          | Később eldöntendő                 | 2021. augusztus 06.        |
-|   &nbsp;  | Dél-afrikai Köztársaság          |  4.12.0.148     | 2021. július 09.   | 2021. július 16.          | Később eldöntendő                 | 2021. augusztus 06.        |
-| 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japán                 |  4.11.0.164     | Befejeződött     | Befejeződött            | 4.12.0.148          | 2021. július 09.          |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.11.0.164     | Befejeződött     | Befejeződött            | 4.12.0.148          | 2021. július 09.          |
-|   &nbsp;  | Nagy-Britannia         |  4.11.0.164     | Befejeződött     | Befejeződött            | 4.12.0.148          | 2021. július 09.          |
-|   &nbsp;  | Óceánia               |  4.11.0.164     | Befejeződött     | Befejeződött            | 4.12.0.148          | 2021. július 09.          |
-| 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.11.0.164     | Befejeződött     | Befejeződött            | 4.12.0.148          | 2021. július 16.          |
-| 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika         |  4.11.0.164     | Befejeződött     | 2021. július 09.          | 4.12.0.148          | 2021. július 23.          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Első kiadás         |  4.13.0.152     | Teljesítés           | 2021. augusztus 13.     | Később eldöntendő                 | 2021. augusztus 27.     |
+| 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Dél-Amerika         |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|    &nbsp; | Kanada                |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|   &nbsp;  | India                 |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|   &nbsp;  | Franciaország                |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|   &nbsp;  | Egyesült Arab Emírségek  |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|   &nbsp;  | Dél-afrikai Köztársaság          |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+| 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japán                 |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
+|   &nbsp;  | Nagy-Britannia         |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
+|   &nbsp;  | Óceánia               |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
+| 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Európa                |  4.12.0.152     | Teljesítés           | Teljesítés            | 4.13.0.152          | 2021. augusztus 20.     |
+| 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Észak-Amerika         |  4.12.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | 4.13.0.152          | 2021. augusztus 27.     |
 
 
+> [!NOTE]
+> Az automatikus telepítés a 4.12.0.148 verzióra befejeződött. A 2021. júliusi kiadás frissített verziójához nem tervezünk automatikus telepítést.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A Projektmenedzsment és a könyvelés kiadási ütemezése a Finance and Operations alkalmazások környezetében
 
@@ -73,16 +75,16 @@ A Projektmenedzsment és könyvelés frissítései évente nyolc alkalommal ker�
 
 |          Támogatott verzió          | Előzetes verzió elérhetősége (PEAP) | Nyilvánosan elérhető (önkiszolgáló frissítés) | Automatikus frissítés ütemezése (via LCS frissítései beállításokon keresztül) – éles üzem kezdő dátuma |   Életciklus vége   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         2021. május 28.        |           2021. július 16.           |                             2021. július 30.                             |  2021. október 22.  |
 |          10.0.19          |        2021. április 23.       |            2021. június 18.           |                             2021. július 2.                             | 2021. szeptember 17. |
-|          10.0.18          |        2021. március 5.        |           2021. április 16.          |                            2021. április 30.                            |    2021. július 16.   |
+
 
 
 A tervezett kiadási dátumok változhatnak. További információkért tekintse meg: [Szolgáltatási frissítések megjelenése](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Célzott verzió          | Előzetes verzió elérhetősége (PEAP) | Nyilvánosan elérhető (önkiszolgáló frissítés) | Automatikus frissítés ütemezése (via LCS frissítései beállításokon keresztül) – éles üzem kezdő dátuma |   Életciklus vége   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         2021. május 28.        |           2021. július 16.           |                             2021. július 30.                             |  2021. október 22.  |
 |          10.0.21          |         2021. augusztus 02.     |           2021. szeptember 17.      |                             2021. október 1.                           |  2021. december 10.  |
-
+|          10.0.22          |      2021. szeptember 3.      |          2021. október 22.         |                           2021. november 5.                           |  2022. január 14.  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008314"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002334"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Egyéni mezők beállítása árazási dimenziókként 
 
@@ -41,11 +41,11 @@ Ahhoz, hogy egy mező árképzési dimenzióvá váljon, a következőknek kell 
 - Mezőként lett létrehozva a **Szerepkörát** és **Szerepkör felár** entitásokban. További információkért lásd: [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md).
 - Sorként jön létre az **Árazási dimenzió** táblázatban. Például adjon hozzá árképzési dimenziós sorokat a következő ábra szerint. 
 
-![Összeg alapú árképzési dimenziós sorok](media/Amt-based-PD.png)
+![Összeg alapú árképzési dimenziós sorok.](media/Amt-based-PD.png)
 
 Vegye figyelembe, hogy az erőforrás-munkaidőt (**msdyn_resourceworkhours**) feláralapú dimenzióként adták hozzá, és a **Feláron alapuló árképzési dimenzió** lapon a rácshoz adták.
 
-![Feláralapú árképzési dimenziós sorok](media/Markup-based-PD.png)
+![Feláralapú árképzési dimenziós sorok.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > A táblázat árazási dimenziós adatainak bármilyen megváltozása, létező vagy új, csak a gyorsítótár frissítése után kerül továbbításra a Project Service árazási üzleti logikájába. A gyorsítótár frissítési ideje akár 10 percet is igénybe vehet. Várja meg, amíg az ár alapértelmezett logikájában bekövetkező változások megjelennek, amelyeknek az árképzési dimenzió adatainak megváltozásából kell következniük.

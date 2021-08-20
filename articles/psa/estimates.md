@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007594"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992389"
 ---
 # <a name="estimates"></a>Becslések
 
@@ -83,24 +83,24 @@ Ha hozzáadott egy egyéni mezőt az árajánlat sorrészleteihez, és azt akarj
 1. Nyissa meg a PluginRegistrationTool eszközt, és csatlakozzon az online példányhoz.
 2. Válassza a **Keresés** lehetőséget, és keresse meg a frissítést igénylő bővítményt.
 
-    ![Keresési fa párbeszédpanel](media/basic-guide-19.png)
+    ![Keresési fa párbeszédpanel.](media/basic-guide-19.png)
 
 3. Válassza ki a beépülő modult, majd a főoldalon válassza a **Kiválasztás** lehetőséget.
 4. Válassza ki a beépülő modul frissítésének lépését, kattintson a jobb gombbal, majd válassza a **Frissítés** lehetőséget.
 
-    ![Egy lépés kiválasztása a beépülő modulban](media/basic-guide-20.png)
+    ![Egy lépés kiválasztása a beépülő modulban.](media/basic-guide-20.png)
 
 5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis (**...**) gombot:
  
-    ![A Meglévő lépés párbeszédpanel frissítése](media/basic-guide-21.png)
+    ![A Meglévő lépés párbeszédpanel frissítése.](media/basic-guide-21.png)
 
 6. Az **Attribútumok kiválasztása** párbeszédpanelen jelölje be az egyedi attribútumok jelölőnégyzeteit.
 
-    ![Az Attribútumok párbeszédpanel kiválasztása](media/basic-guide-22.png)
+    ![Az Attribútumok párbeszédpanel kiválasztása.](media/basic-guide-22.png)
 
 7. A párbeszédpanel bezárásához válassza az **OK** lehetőséget, majd válassza a **Lépés frissítése** lehetőséget.
  
-    ![Lépés frissítése gomb](media/basic-guide-23.png)
+    ![Lépés frissítése gomb.](media/basic-guide-23.png)
 
 8. Ismételje meg az 1-7. lépéseket a második modullal.
 9. Zárja be a PluginRegistrationTool eszközt.

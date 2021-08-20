@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991038"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Számlázható projektek könyvelésének konfigurálása
 
@@ -101,23 +101,23 @@ A következő lépések végrehajtásával hozzon létre egy új projektköltsé
 
 Idő és anyagok – nem folyamatban lévő termelés
 
-![Költség- és bevételi profil: Idő és anyagok – nem folyamatban lévő termelés](media/time-material-no-wip.png)
+![Költség- és bevételi profil: Idő és anyagok – nem folyamatban lévő termelés.](media/time-material-no-wip.png)
 
 Idő és anyagok – folyamatban lévő termelés (bevétel)
 
-![Költség- és bevételi profil: Idő és anyagok – folyamatban lévő termelés](media/time-material-with-wip.png)
+![Költség- és bevételi profil: Idő és anyagok – folyamatban lévő termelés.](media/time-material-with-wip.png)
 
 Rögzített ár – nem folyamatban lévő termelés
 
-![Költség- és bevételi profil: Rögzített ár – nem folyamatban lévő termelés](media/fixed-price-no-wip.png)
+![Költség- és bevételi profil: Rögzített ár – nem folyamatban lévő termelés.](media/fixed-price-no-wip.png)
 
 Rögzített ár – teljesített szerződés
 
-![Költség- és bevételi profil: Rögzített ár – teljesített szerződés](media/fixed-price-completed-contract.png)
+![Költség- és bevételi profil: Rögzített ár – teljesített szerződés.](media/fixed-price-completed-contract.png)
 
 Rögzített ár – százalékos teljesítés
 
-![Költség- és bevételi profil: Rögzített ár – százalékos teljesítés](media/fixed-price-completed-percentage.png)
+![Költség- és bevételi profil: Rögzített ár – százalékos teljesítés.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>A projektköltség- és bevételi profilok mintáinak könyvelésiesemény-példái.

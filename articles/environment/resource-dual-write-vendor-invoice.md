@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002271"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986494"
 ---
 # <a name="vendor-invoice-integration"></a>Szállítói számla integrációja
 
@@ -36,7 +36,7 @@ A Project Operations felületen a projekttel kapcsolatos szállítói számlák 
 
 Az adózói alkönyv, a szállítói alkönyv és egyéb pénzügyi könyvelések a szállítói számla Dynamics 365 Finance felületen való könyvelésekor kerülnek rögzítésre.
 
-![Szállítói számla integrációja](media/DW7VendorInvoice.png)
+![Szállítói számla integrációja.](media/DW7VendorInvoice.png)
 
 Amikor egy **Szállítói számla** entitásához írnak bejegyzéseket, megkezdődik a(z) Dataverse felületen a bejegyzések automatikus jóváhagyási folyamata. Szükség esetén az automatizált jóváhagyási folyamat állapota a(z) Dataverse felületen a **Kifejlett beállítások** > **Rendszer** > **Rendszeres munkák** pontban ellenőrizhető. A jóváhagyás befejezése után az anyag tranzakció osztályrekordjai létrejönnek a **Tényleges adatok** entitásban.
 

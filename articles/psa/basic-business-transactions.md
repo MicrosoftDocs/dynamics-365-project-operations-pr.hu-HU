@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011554"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987529"
 ---
 # <a name="business-transactions"></a>Üzleti tranzakciók
 
@@ -88,7 +88,7 @@ A tranzakció eredete és a tranzakciós kapcsolatok együttesen segítenek nyom
 
 A következő példa az időbejegyzések tipikus feldolgozását mutatja be a PSA projekt életciklusában.
 
-> ![Feldolgozási idő entitások a Project Service életciklusban](media/basic-guide-17.png)
+> ![Feldolgozási idő entitások a Project Service életciklusban.](media/basic-guide-17.png)
  
 1. Az időbejegyzések beküldése két naplósor létrehozását eredményezi: egy a költségről, egy pedig a nem számlázott értékesítésekről.
 2. Az időbejegyzés végleges jóváhagyása két tényadat létrehozását eredményezi: egy a költségről, egy pedig a nem számlázott értékesítésekről.

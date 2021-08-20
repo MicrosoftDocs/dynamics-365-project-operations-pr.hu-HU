@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998504"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008589"
 ---
 # <a name="product-based-quote-lines"></a>Termékalapú árajánlatsorok
 
@@ -58,7 +58,7 @@ Ha ezt a mezőt **Árképzés felülbírálása** értékre állítja, a Dynamic
 
 A PSA telepítése után az alapértelmezett eladási árak az árajánlat termékalapú soraiba kerülnek be. Az **Árképzés** mező ezután **Árképzés felülbírálása** értékre lesz állítva, hogy az alapértelmezett árat az árajánlatsorokon szerkeszthesse.
 
-> ![Árképzés felülbírálásának beállítása](media/basic-guide-10.png)
+> ![Árképzés felülbírálásának beállítása.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>A termékek mennyiségi tényezői
 
@@ -78,7 +78,7 @@ Például a Dynamics 365 a következő tulajdonságokkal rendelkezik:
 
 A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhetők mennyiségi tényezőként a terméksor tulajdonságainak szerkesztésével. 
 
-> ![A felhasználók számának és a hónapok számának megjelölése minőségi tényezőként](media/basic-guide-11.png)
+> ![A felhasználók számának és a hónapok számának megjelölése minőségi tényezőként.](media/basic-guide-11.png)
  
 
 

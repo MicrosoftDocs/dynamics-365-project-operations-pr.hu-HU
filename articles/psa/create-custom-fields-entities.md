@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998954"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992434"
 ---
 # <a name="create-custom-fields-and-entities"></a>Egyéni mezők és entitások létrehozása 
 
@@ -43,7 +43,7 @@ Az árképzési dimenzió lehet értékkészlet vagy entitás. Mindkettőt létr
 2. A Solution Explorerben a bal oldali navigációs panelen válassza az **Entitások** elemet.
 3. Kattintson az **Új** elemre, és hozzon létre egy új entitást, melynek neve: **Standard cím**. Írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
 
-> ![A standard című entitás meghatározása](media/Standard-Title-entity-definition.png)
+> ![A standard című entitás meghatározása.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Értékkészlet-alapú dimenziók 
@@ -54,9 +54,9 @@ Két értékkészlet-alapú dimenziót hozhat létre. Használja az **Erőforrá
 2. A Solution Explorerben a bal oldali navigációs panelen válassza az **Értékkészletek** elemet. 
 3. Új értékkészlet létrehozásához kattintson az **Új** elemre, majd írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
 
-> ![Erőforrás munkahelye nevű értékkészlet-alapú árképzési dimenzió ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Erőforrás munkahelye nevű értékkészlet-alapú árképzési dimenzió.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Erőforrás munkaideje nevű értékkészlet-alapú árképzési dimenzió ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Erőforrás munkaideje nevű értékkészlet-alapú árképzési dimenzió.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Adatok létrehozása entitásalapú dimenziókhoz
@@ -68,7 +68,7 @@ Entitásalapú dimenziókhoz manuálisan vagy Microsoft Excel importálással va
 3. Zárja be az űrlapot. 
 4. Ismételje meg az 1–3. lépést egy újabb szabványos cím létrehozásához a „Vezető rendszermérnök” esetében.
 
-> ![Mintaadatok a szabványos cím entitáshoz ](media/ST-data.png)
+> ![Mintaadatok a szabványos cím entitáshoz.](media/ST-data.png)
 
 
 

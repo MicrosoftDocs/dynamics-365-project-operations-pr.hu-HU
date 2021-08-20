@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369694"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007509"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektmenedzsment és könyvelés – áttekintés
 
@@ -34,14 +34,14 @@ Projektnek olyan tevékenységcsoportokat nevezünk, amelyeket szolgáltatások 
 ## <a name="projects-across-industries"></a>Projektek a különböző iparágakban
 A projektmenedzsment és könyvelési funkciók több iparágban is használhatók (lásd az alábbi illusztrációt).
 
-[![Projektek a különböző iparágakban](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projektek a különböző iparágakban.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 A telefonközpontban a beérkező hívások sikeres megoldások szükséges műveletek körének leírására jegyek használhatók. A tanácsadó cégek – például a vezetési vagy műszaki tanácsadó szervezetek vagy reklámügynökségek – projektekként hivatkoznak a tevékenységeikre. A marketingszakmában az elvégzendő munkákat „kampányoknak” nevezik. A projektalapú gyártásban a késztermékek előállításához szükséges különféle munkákat a gyártási rendelés írja le. Bárhogyan is nevezik őket, ezek a projektek erőforrásokat, ütemezéseket és költségeket foglalnak magukban, a projektmenedzsment és a könyvelési funkciók pedig segítséget nyújtanak a projektek tervezésében, végrehajtásában és elemzésében.
 
 ## <a name="project-phases"></a>A projektek szakaszai
 A következő folyamat főként a külső projektekre, azaz egy vagy több ügyfél számára teljesített projektekre vonatkozik, a funkciók a belső, csak költségekkel járó projektek esetében is érvényes. 
 
-![A projektek 3 szakasza](./media/3-stages-of-a-project.png) 
+![A projektek 3 szakasza.](./media/3-stages-of-a-project.png) 
 
 Ahogy a fenti illusztráción is látható, a projektmenedzsment és a könyvelés három szakaszra osztható fel:
 
@@ -50,7 +50,7 @@ Ahogy a fenti illusztráción is látható, a projektmenedzsment és a könyvel�
 3.  Elemzés
 
 ## <a name="initiate-the-project"></a>A projekt elindítása
-A projekt elindítása során több kulcsfontosságú folyamatra kerül sor. A projekthez készült árajánlattal tájékoztathatja az ügyfelet a becsült munkamennyiségről, költségekről és anyagokról. A számlázási feltételeket, a korlátozásokat és a megállapodásokat a projektszerződésben rögzítheti. A munkalebontási struktúra (WBS) segítségével megtervezheti és felbecsülheti az elvégzendő munkát. A projekt végrehajtásának irányításához előrejelzéseket és költségvetéseket is létrehozhat. Az alábbi illusztráció bemutatja a projektek szerkezetét.[![a projekt szerkezete](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+A projekt elindítása során több kulcsfontosságú folyamatra kerül sor. A projekthez készült árajánlattal tájékoztathatja az ügyfelet a becsült munkamennyiségről, költségekről és anyagokról. A számlázási feltételeket, a korlátozásokat és a megállapodásokat a projektszerződésben rögzítheti. A munkalebontási struktúra (WBS) segítségével megtervezheti és felbecsülheti az elvégzendő munkát. A projekt végrehajtásának irányításához előrejelzéseket és költségvetéseket is létrehozhat. Az alábbi illusztráció bemutatja a projektek szerkezetét.[![a projekt szerkezete.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Árajánlat létrehozása a projekthez
 

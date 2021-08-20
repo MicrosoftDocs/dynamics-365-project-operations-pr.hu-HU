@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334785"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991534"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Regisztráció az előzetes verziós előfizetésre – Lite 
 
@@ -52,16 +52,16 @@ Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelen
 
 1. Építsen ki új Project Operations Dataverse-telepítési környezetet a [Dataverse-telepítési modell](lite-deployment.md) utasításait követve. A környezet típusának kiválasztása esetén ügyeljen arra, hogy a **Próba (előfizetés alapú)** változatot használja.
 
-  ![Új környezet](./media/19CreateEnvironment.png)
+  ![Új környezet.](./media/19CreateEnvironment.png)
 
 2. Válassz a **Dynamics 365-alkalmazások engedélyezése** beállítást, és hagyja üresen az **Alkalmazások automatikus telepítése** jelölőnégyzetet.  
 3. Válassza ki a **Mentés** gombot a környezet létrehozásához.
 
-  ![Adatbázis hozzáadása](./media/20CreateEnvironment1.png)
+  ![Adatbázis hozzáadása.](./media/20CreateEnvironment1.png)
 
 4. A környezet létrehozása után telepítse a **Microsoft Dynamics 365 Project Operations** megoldást. 
 
-![Megoldás telepítése](./media/21InstallSolution.png)
+![Megoldás telepítése.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-konfiguráció telepítése és a beállítási bemutató adatok alkalmazása
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012094"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988969"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Foglalható erőforrás használata árazási dimenzióként
 
@@ -62,18 +62,18 @@ Foglalható erőforrás esetén, a **Projektcsoport tagjai** entitás mezőneve 
 1. Ehhez kattintson duplán az **Árazási dimenziók** rácsban található sorra; ekkor megnyílik az **msdyn_bookableresource** dimenzió oldala.
 2. A dimenzió oldalán a **Kapcsolódó** lapon kattintson az **Árdimenziók mezőnevei** lehetőségre.
 
- ![Árdimenziók mezőnevei lap](media/PD-fieldname.png)
+ ![Árdimenziók mezőnevei lap.](media/PD-fieldname.png)
 
 4. A megnyíló kapcsolódó nézeten kattintson az **Új árdimenzió mezőnév hozzáadása** lehetőségre.
 
- ![Új árdimenzió mezőnevek hozzáadása](media/Add-NewPD-fieldname.png)
+ ![Új árdimenzió mezőnevek hozzáadása.](media/Add-NewPD-fieldname.png)
 
 
 Ez megnyitja az **msdyn_bookableresource** elem **Új árdimenzió mezőnév** lapját. 
 
 5. Adja hozzá az **msdyn_projectteam** elemet az **Entitás logikai neve** mezőhöz és az **msdyn_bookableresourceid** elemet a **Mezőnév** mezőhöz. Mentse a bejegyzést.
 
- ![Új árdimenzió mezőnév űrlap](media/PD-fieldname-Added.png)
+ ![Új árdimenzió mezőnév űrlap.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

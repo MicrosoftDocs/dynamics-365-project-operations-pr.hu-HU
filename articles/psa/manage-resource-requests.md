@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985144"
 ---
 # <a name="manage-resource-requests-project-service"></a>Erőforrás-kérelmek kezelése (Project Service)
 
@@ -43,7 +43,7 @@ A partnerkezelők és a projektmenedzserek gyakran kérnek erőforrásokat proje
   
    -   Kattintson a **Szűrő** lehetőségre a **Szűrő** panel megjelenítéséhez, amely lehetővé teszi az eredmények szűrését szervezeti egység, szerepkör, képzettség vagy egyéb attribútumok alapján.  
   
-       ![Project Service Erőforrás-kérelmek képernyője](../psa/media/project-service-resource-request-screen.png "Project Service Erőforrás-kérelmek képernyője")  
+       ![Project Service Erőforrás-kérelmek képernyője.](../psa/media/project-service-resource-request-screen.png "Project Service Erőforrás-kérelmek képernyője")  
   
 3. A naptárban a lefoglalni kívánt erőforráshoz válassza ki a lefoglalási időszakot, ezután kattintson a **Lefoglalás** lehetőségre az erőforrás lefoglalásához, vagy kattintson a **Lefoglalás javaslása** lehetőségre, hogy javasolja a lefoglalást, amelyet a kérelmezőnek jóvá kell hagynia. Egy erőforrást le lehet foglalni ideiglenesen vagy véglegesen.  
   

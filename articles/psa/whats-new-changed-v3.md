@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987079"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Újdonságok és változások a Project Service Automation 3. verziójában
 
@@ -36,7 +36,7 @@ Ez a témakör információkat ad a felhasználói felület (UI), a funkcionalit
 ## <a name="project-scheduling"></a>Projekt ütemezése
 A korábbi verziókban Work Breakdown Structure (WBS) néven ismert projektütemezést átneveztük Ütemezésre, és az **Ütemezés** fülre kattintva érhető el. 
 
-![Projekt ütemezése](media/psa-schedule-01.png)
+![Projekt ütemezése.](media/psa-schedule-01.png)
 
 Az ütemezés egy új felületet kínál az interakciókhoz, amely modern és könnyen kezelhető. Ugyanakkor az alapul szolgáló Project Service Automation ütemezés motorja nem változott. Az ütemezési rács szalagján lévő vezérlőgombok lehetővé teszik, hogy az ütemezéssel műveletet végezzen, mint a Project Service Automation előző verziójában. Az ütemterv további változásai a következők:
 
@@ -95,22 +95,22 @@ A meglévő projekt ütemezésének előremozgatásakor a következő történik
 ## <a name="estimates"></a>Becslések
 A becsléseket két lapra osztottuk: **Erőforrás-hozzárendelés** és **Becslések**. Az **Erőforrás-hozzárendelés** lap tartalmazza az erőfeszítések becsléseit, és időben elosztott nézetben mutatja a feladatok erőforrás-hozzárendeléseit. A becsléseket az ütemezési motor által generált adatok alapján szerkesztheti.
 
-![Az erőforrás-hozzárendelés lap, amely megmutatja az erőfeszítések becslését és a feladatok erőforrás-hozzárendeléseit](media/resource-assignments-tab-02.png)
+![Az erőforrás-hozzárendelés lap, amely megmutatja az erőfeszítések becslését és a feladatok erőforrás-hozzárendeléseit.](media/resource-assignments-tab-02.png)
 
 A **Becslések** lapon megjelennek az erőforrás-hozzárendelések költségei és eladási összegei. Az összegek csak olvashatók. A költségek és az értékesítés árazását a csapatoknak az ütemezésben megadott megbízásai határozzák meg. Ez azt jelenti, hogy ha hozzárendelés nélkül van egy feladat, akkor a feladat a hozzá nem rendelt tároló alatt jelenik meg. Ez azt is jelenti, hogy a **szerepkör** nélkül, amely alapértelmezett árképzési dimenzió, nem lesznek becsült költségek vagy eladások, ha ügyféllel vagy projekthez rendelt szerződéssel/ajánlattal rendelkezik. 
 
-![Becslések fül, amely megmutatja a költségeket és az eladási összegeket](media/estimates-tab-03.png)
+![Becslések fül, amely megmutatja a költségeket és az eladási összegeket.](media/estimates-tab-03.png)
   
 A kategória az ütemezés nézetben is támogatott feladatoknál. A kategóriák szerinti csoportosítás a becslések időszakos nézetében jobb élményt nyújt, különösen akkor, ha a projektben költségelszámolással is rendelkezik. A költségbecsléseket egy külön fülön lévő rács segítségével adják meg. 
 
 A költségbecsléseket a rácsba lehet beírni a **Költségbecslések** lapon. 
 
-![Költségbecslések lap, amelyen megjelenik a költségbecslési rács](media/expense-estimates-tab-04.png)
+![Költségbecslések lap, amelyen megjelenik a költségbecslési rács.](media/expense-estimates-tab-04.png)
 
-## <a name="resource-management"></a>Erőforrás kezelése
+## <a name="resource-management"></a>Erőforrás-kezelés
 A Project Service Automation 3. verziójában, az új Unified Client felhasználói felülettel, valamint a foglalások és a megbízások kapcsolatának változásával a projekt személyzettel való ellátása általános vagy valós erőforrásokkal drasztikusan megváltozott a 2. és az 1. verzióhoz képest. Azonban a foglalható források fogalmak **valós** és **generikus** esetben is ugyanaz marad, mint ahogy a csapat tagjai, követelmények, feladatok, és a foglalások is.   
 
-![Az erőforrás-választó használata](media/resource-management-05.png)
+![Az erőforrás-választó használata.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Valódi foglalható erőforrás hozzárendelése 
 A Project Service Automation 3. verziójában a foglalások és a feladat-hozzárendelések nincsenek olyan szorosan összefonódva, mint a Project Service Automation korábbi verzióiban. A csapatrács segítségével **valódi** csapattagot foglalhat le, hasonlóan a piacon lévőkhöz.
@@ -136,7 +136,7 @@ Ha egy követelmény több erőforrással is teljesül, az általános erőforr�
 ### <a name="reconciliation"></a>Egyeztetés
 Az **Egyeztetés** lapon a projektcsoport tagjainak foglalása és az összes feladat látható. A nézet órákat mutat a cellákban, amelyek hónapoktól napokig terjedő időpontokat jelentenek. Ez a nézet lehetővé teszi a projektmenedzserek számára, hogy összehangolják a csapattagok foglalásait és feladataikat a projektcsapatuk számára. Ez azért hasznos, mert a foglalások és a feladatkiosztások nincsenek szorosan összekapcsolva, ami nagyobb rugalmasságot biztosít a projekt megtervezésekor. 
 
-![Egyeztetés fül, amely a projektcsoport tagjainak foglalásait és megbízásait mutatja](media/resource-reconciliation-tab-06.png)
+![Egyeztetés fül, amely a projektcsoport tagjainak foglalásait és megbízásait mutatja.](media/resource-reconciliation-tab-06.png)
 
 Az egyes erőforrások esetében a nézet veszi a különbséget a csapattagok foglalása és a feladatok összeállítása között, és bemutatja a következő két különbséget, amelyek egy projektben történő foglalásoknál és feladatoknál előfordulhatnak: 
 
@@ -151,21 +151,21 @@ Ez a szakasz információkat tartalmaz az idő, a költségek és a jóváhagyá
 ### <a name="landing-page"></a>Kezdőlap
 A nem kibővíthető egyedi időbeviteli környezetet kivezettük a 3. verzióban. Ehelyett most egy kibővíthető és hozzáférhető natív rácsélmény érhető el. Az időbeviteli funkcióhoz a bal oldali webhelytérkép segítségével férhet hozzá. Ezzel a változással többé nem lehet megadni időt hetenként. Ehelyett minden egyes naphoz időbejegyzést kell létrehoznia a rácsban. Néhány időbejegyzés létrehozása után a felhasználók tömegesen hozhatnak létre időbejegyzéseket a **Másolás** funkcióval, amelyet később a témakörben ismertetünk. 
 
-![Időbeviteli céloldal](media/time-entry-landing-page-07.png)
+![Időbeviteli céloldal.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Új időbejegyzések létrehozása 
 Kattintson az **Új** elemre a szalagban, és nyisson meg egy gyors létrehozási oldalt az időbevitelhez, ahol megadhatja az időtartam percet, órát vagy napot. Ehhez csak kezdje el gépelni a h, m vagy d betűt a mennyiséggel.  
 
-![Időbevitel gyors létrehozása](media/quick-create-time-entry-08.png)
+![Időbevitel gyors létrehozása.](media/quick-create-time-entry-08.png)
 
 A keresési mezőket rendszernézetek támogatják. Például, miután megadta a projekt adatait, a **Projektfeladat** mező alapértelmezés szerint **Saját nyitott projektfeladatok** nézetre van állítva. Időbejegyzések létrehozásához olyan feladatokhoz, amelyeket nem rendeltek hozzá a felhasználóhoz, kattintson a **Nézet megváltoztatása** elemre a keresésben, majd válassza a **Minden aktív projektfeladat** lehetőséget. Miután létrehozta az időbejegyzést és az megjelenik a rácsban, bármilyen sorértéket szerkeszthet közvetlenül a rácsban.  
 
 ### <a name="bulk-createcopy"></a>Tömeges létrehozás/másolás 
 Néhány időbejegyzés létrehozása után a másolási funkcióval további időbejegyzéseket hozhat létre tömegesen. Kattintson a **Másolás** pontra a **Másolás** párbeszédpanel megnyitásához. A **Periódus ettől: Kezdő dátum** részben állítsa be azt a dátumtartományt, ahonnan az időszakokat másolni kell. A **Periódus eddig: Kezdő dátum** mezőben adja meg azt az időpontot, amelyre az időbejegyzéseket létre kell hozni. Kattintson a **Másolás** gombra az időbejegyzések másolásához a hét megfelelő napjára, amelyet a **Periódus eddig** jelöl. Például a múlt hét hétfői időbejegyzését a **Periódus eddig** mezőben megjelölt hét hétfőjére másolja. 
 
-![Időbejegyzések tömeges másolása](media/bulk-copy-time-entry-09.png)
+![Időbejegyzések tömeges másolása.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Adatok importálása 
+### <a name="import-data"></a>Adatok beolvasása 
 A hozzárendelések és a csere ugyanazt a felhasználói felület mintát követik, amely lehetővé teszi a felhasználó számára, hogy meghatározza a dátumtartományt, ahova a foglalásokat importálni kell. Ezután kifejezetten ki kell választania azokat a foglalásokat, amelyeket másolni kell a **Vázlat** időbejegyzésekbe. A 3. verzióban már nem látja a **Javasolt** időbejegyzések mintáját a rácson és a naptárban.  
 
 ### <a name="change-in-calendar-control"></a>A naptárvezérlés változása
@@ -179,7 +179,7 @@ A 3. verzióban elmozdultunk az egyedi naptárvezérléstől, és most az UC nap
 
 **Az egyedi mezők adatainak rögzítése az idő- és költségbevitel során, és azokon a szervezeteken keresztüli propagálása, amelyek támogatják a benyújtási és jóváhagyási folyamatot** - Az időbevitelek tipikus feldolgozását az alábbi ábra mutatja.
 
-![Időbejegyzési folyamat feldolgozása](media/process-time-entries-10.png)
+![Időbejegyzési folyamat feldolgozása.](media/process-time-entries-10.png)
 
 Ha az üzleti követelmények előírják, hogy az idő- és költségentitásoknak rögzíteniük kell az egyedi árazási dimenziókat, és az egyéni árazási dimenzióban az idő- és bevételi erőforrás által meghatározott értékeket el kell terjeszteni az előző grafikán szereplő összes elem között, tekintse meg [Az egyedi mezők beállítása árazási dimenziókként](set-up-pricing-dimensions.md) című részt.
 
@@ -236,7 +236,7 @@ Az 1. és a 2. verzióban a szerepek és kategóriák díjazási beállítása a
 
 A 3. verziótól kezdve a díjazhatósági lehetőségek szerep- és költségkategóriák szerinti beállítása az ajánlati vagy a szerződési sor szintjén történik. Az árképzés beállítása elkülönül a Díjazhatósági beállítástól. A **Díjazható szerepkörök** és **Díjazható kategóriák** füleket a **Árajánlati sor** és **Szerződéses sor** oldalakon találja a felső navigáció használata nélkül.
 
-![Díjazható szerepkörök](media/chargeable-12.png)
+![Felszámítható szerepkörök.](media/chargeable-12.png)
  
 A Díjköteles szerepkörök és a Díjköteles kategóriák beállításánál a készen szerkeszthető rácsvezérlés is kihasználható. Az egyes szerepek és kategóriák esetében az árajánlat és a szerződéskötés szakaszában a számlázási típus támogatott opciói változatlanok maradnak a korábbi verziókhoz képest: **Díjazható** és **Nem díjazható**. Az **Ingyenes** nem támogatott típus az Árajánlat vagy a Szerződéskötés fázisa alatt. Az **Ingyenes** csak az Idő vagy Költség jóváhagyása során támogatott.  
  
@@ -247,11 +247,11 @@ A 3. verziótól kezdve a Project Service Automation árajánlaton és a Project
   
 A következő ábra még az egyedi árlisták létrehozása előtti állapotot mutatja.
 
-![Egyéni árlisták előtt](media/before-custom-price-lists-13.png)
+![Egyéni árlisták előtt.](media/before-custom-price-lists-13.png)
 
 A következő ábra az egyedi árlisták létrehozása utáni állapotot mutatja.
 
-![Egyéni árlisták után](media/after-custom-price-lists-14.png)
+![Egyéni árlisták után.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Egy rövid késleltetés történhet, ha rákattint az **Egyéni árképzés létrehozása** elemre, addig, hogy az egyéni árlista létrejön. Javasoljuk, hogy frissítse a rácsot a többszöri kattintás helyett. Létrehozott egy egyéni árlistát, ha a társított árlista nevéhez hozzá van fűzve az árajánlat neve vagy a projektszerződés neve.

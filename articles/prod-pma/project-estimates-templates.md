@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999719"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988204"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>A projektbecslések szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
 
@@ -38,7 +38,7 @@ A Project Service Automation és Finance közötti integrációs megoldás az ad
 
 A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálása a Project Service Automation és a Finance rendszer között.
 
-[![Adatfolyam a Project Service Automation és a Finance közötti integrációhoz](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Adatfolyam a Project Service Automation és a Finance közötti integrációhoz.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Projekt órabecslései
 
@@ -95,7 +95,7 @@ Hozzá kell adnia egy szűrőt az üres tranzakciós kategóriákat tartalmazó 
 
 A következő ábra egy példát mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
-[![Sablonfeladat leképezése az adatintegrációban](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Sablonfeladat leképezése az adatintegrációban.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Projekt költségbecslései
 
@@ -165,9 +165,9 @@ else **null**
 
 A következő ábra példákat mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
-[![A költségbecslés-tranzakciók sablon szerinti leképezése](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![A költségbecslés-tranzakciók sablon szerinti leképezése.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![A költségbecslések sablon szerinti leképezése](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![A költségbecslések sablon szerinti leképezése.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

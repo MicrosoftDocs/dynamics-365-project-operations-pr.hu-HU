@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000579"
 ---
 # <a name="project-pricing"></a>Projektárképzés 
 
@@ -46,7 +46,7 @@ Az Árlista entitásnak három kapcsolódó táblája van, amelyek az árakat t�
   - **Tranzakciós kategória szerinti ár** - Ez a táblázat tranzakciós kategóriák szerint tárolja az árakat, és arra szolgál, hogy költségkategória-árakat állítson fel.
   - **Árlistatételek** - Ez a táblázat a katalógustermékek árait tartalmazza.
 
-> ![Az árak konfigurálása árlista segítségével](media/basic-guide-12.png)
+> ![Az árak konfigurálása árlista segítségével.](media/basic-guide-12.png)
  
 Az árlista egy árkártya. Az árkártya az Árlista entitás és a kapcsolódó sorok kombinációja a Szerepkör, a Tranzakciós kategória ára és az Árlistatételek tábláiban.
 
@@ -58,7 +58,7 @@ A humánerőforrás-időt általában annak a szerepkörnek az alapján határoz
 
 Az **Idő** egységcsoport a PSA telepítésekor jön létre. Alapértelmezett egysége az **Óra**. Nem törölheti, nevezheti át és nem szerkesztheti az **Idő** egységcsoport vagy **Óra** egység attribútumait. Az **Idő** egységcsoporthoz azonban további egységeket is felvehet. Ha megpróbálja törölni az **Idő** egységcsoportot vagy az **Óra** egységet, akkor hibákat okozhat a PSA üzleti logikában.
 
-> ![Az árak konfigurálása szerepkörök szerint](media/basic-guide-13.png)
+> ![Az árak konfigurálása szerepkörök szerint.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Tranzakciós kategóriák és költségkategóriák
 
@@ -68,7 +68,7 @@ A projekttanácsadóknál felmerült utazási és egyéb költségeket általáb
 - **Felár százalék** - A tényleges költségek feletti százalékos arányt számlázzák az ügyfélnek. 
 - **Egységenkénti ár** - A költségkategória minden egységére külön számlázási ár van beállítva. Az ügyfélnek kiszámlázott összeget azoknak a költségegységeknek a számával számolják, amelyet a tanácsadó jelent. A futásteljesítmény az egységenkénti árképzési módszert használja. Például a futásteljesítmény-kategóriát naponta 30 dollárra (USD) vagy mérföldenként 2 USD-re lehet konfigurálni. Amikor egy tanácsadó beszámol egy projekt futásteljesítményéről, a számlázandó összeget a tanácsadó által jelentett mérföldszám alapján számítják ki.
 
-> ![A költségkategóriánkénti árképzés konfigurálása](media/basic-guide-14.png)
+> ![A költségkategóriánkénti árképzés konfigurálása.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekt értékesítési árképzés és felülbírálás
 
@@ -114,7 +114,7 @@ Alapértelmezés szerint a projektszerződés mindig megkapja a fő eladási ár
 
 Egyéni projektárlista létrehozásakor csak az árlista projektösszetevői kerülnek másolásra. Más szavakkal: egy új árlista jön létre a meglévő projektárlista másolataként, amelyet az ajánlathoz csatolnak, és ez az új árlista csak a kapcsolódó szerepkör- és tranzakciós kategóriák árait tartalmazza.
 
-> ![A projektszerződés egyedi árainak megtekintése és konfigurálása](media/basic-guide-15.png)
+> ![A projektszerződés egyedi árainak megtekintése és konfigurálása.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Követési költségek
 

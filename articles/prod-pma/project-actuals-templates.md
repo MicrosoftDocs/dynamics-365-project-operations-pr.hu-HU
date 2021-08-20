@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988114"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>A tényleges projektadatok szinkronizálása közvetlenül a Project Service Automation rendszerből a projektintegrációs naplóba a Finance and Operations rendszerbe való feladáshoz
 
@@ -42,7 +42,7 @@ A Project Service Automation és Finance közötti integrációs megoldás az ad
 
 A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálása a Project Service Automation és a Finance rendszer között.
 
-[![Adatfolyam a Project Service Automation és a Finance and Operations között integrációhoz](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Adatfolyam a Project Service Automation és a Finance and Operations között integrációhoz.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Tényleges projektadatok a Project Service Automation alkalmazásból
 
@@ -93,9 +93,9 @@ A sablonban a beszúrt feltételes oszlop frissítéséhez kattintson a **Lekép
 
 A következő ábrák egy példát mutatnak be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
-[![Sablonok leképezése – Aktualitások](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Sablonok leképezése – Aktualitások.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Sablonok leképezése – tranzakciós kapcsolatok](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Sablonok leképezése – tranzakciós kapcsolatok.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importálás az ideiglenes táblázatból a Project Service Automation alkalmazásból való integrációt követően
 
@@ -135,9 +135,9 @@ A tényleges projektadatok frissítési sablonjában a Power Query használatáv
 
 A következő ábra példákat mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Finance rendszerből a Project Service Automation alkalmazásba lesznek szinkronizálva.
 
-[![Sablonok leképezése – Tényleges értékek frissítése](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Sablonok leképezése – Tényleges értékek frissítése.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Sablonok leképezése – Tranzakció frissítése](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Sablonok leképezése – Tranzakció frissítése.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012319"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995269"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Egyéni megoldások létrehozása árképzési dimenziókra
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012319"
 1. Válassza a **Beállítások** > **Megoldások** opciót, majd az **Új** lehetőséget. 
 2. Nevezze el a megoldást, (**\<your organization name> árképzési dimenziók**), írja be a további szükséges információkat, majd kattintson a **Mentés** gombra.
 
-> ![Egyéni megoldás létrehozása árképzési dimenziókra](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Egyéni megoldás létrehozása árképzési dimenziókra.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Adja hozzá az összes szükséges entitást és a kapcsolódó komponenseket az árképzési dimenzió megoldáshoz
 A következő Project Service entitásokat kell hozzáadnia az árképzési megoldáshoz. Az eljárás lépéseit követve végezzen el néhány fontos sémaváltoztatást az árképzési megoldásban, hogy az entitások megismerjék az új árképzési dimenziókat.
@@ -54,16 +54,16 @@ A következő Project Service entitásokat kell hozzáadnia az árképzési mego
 - Szerepkörár 
 - Időbejegyzés 
 
-> ![Adjon hozzá meglévő elemeket az árképzési dimenzió megoldáshoz](media/Existing-entities-to-PD-solution.png)
+> ![Adjon hozzá meglévő elemeket az árképzési dimenzió megoldáshoz.](media/Existing-entities-to-PD-solution.png)
 
-> ![Megoldás-összetevők kiválasztása](media/Dimension-Components.png)
+> ![Megoldás-összetevők kiválasztása.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Ügyeljen arra, hogy minden kiválasztott entitás tartalmazzon minden űrlapot és nézetet.
 
 4. Amikor a rendszer felkéri egy függő entitásnak a kiválasztott entitásokhoz való felvételére, kattintson a **Nem** elemre.
 
-> ![Ne adja hozzá az összes kapcsolódó komponenst](media/Do-not-include-required.png)
+> ![Ne adja hozzá az összes kapcsolódó komponenst.](media/Do-not-include-required.png)
 
 
 

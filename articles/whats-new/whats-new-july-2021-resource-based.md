@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008049"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2021. júliusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433521"
 
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-   - Project Operations 4.12.0.148 verziójú Microsoft Dataverse-környezetben.
+   - Project Operations 4.12.0.148 vagy 4.12.0.152 verziójú Microsoft Dataverse-környezetben.
    - Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.20-es verziójában.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
@@ -79,7 +79,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó t
 | Általános                       | 2296857              | A hosszú feladatok előrehaladásának nyomon követése.                                                                                                                                                                        |
 | Általános                       | 2253682              | A Project Operations kettős írású megoldását nem szabad telepíteni, ha a kettős írás alapcsolmag telkepítve van egy környezetben a kettős írású vezénylési megoldás nélkül.                                                |
 | Általános                       | 2316420              | A Project Service alap központi kiépítése sikertelen az alkalmazásfelhasználó részlegének megváltozása esetén.                                                                                                                     |
-
+| Általános                       | 2376405              | Rögzített közzétevőre épülő frissítéssel kapcsolatos probléma (A minőségi frissítés a 4.12.0.152 verzióban érhető el)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance szolgáltatásban
 
 | Funkcióterület                      | Hivatkozási szám | Minőségi frissítés                                                                                                                                                                                                                                                                                                                |

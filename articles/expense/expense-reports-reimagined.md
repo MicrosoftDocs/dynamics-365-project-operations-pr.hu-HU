@@ -2,7 +2,7 @@
 title: Költségjelentések újragondolva
 description: Ez témakör a költségjelentések bejegyzésének átalakított és újragondolt élményét ismerteti.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997834"
 ---
 # <a name="expense-reports-reimagined"></a>Költségjelentések újragondolva
 
@@ -57,12 +57,13 @@ Az új élmény bekapcsolásához a **Szolgáltatáskezelés** munkaterületen k
 | Árfolyamkalkulátor | Árfolyamkalkulátor került hozzáadásra, amely lehetővé teszi, hogy kiszámítsa a több pénznemű, saját pénzből fedezett tranzakciók árfolyamát. |
 | Új kiadási sorok mentése és hozzáadása | A **Mentés** és az **Új** gombok új kiadások beírása esetén elérhetők, hogy gyorsabban megadhassa a kiadási sorokat. |
 | Jobb láthatóság a felosztott és a tételezett sorokban | A tételezett és a felosztott sorok hozzá lettek adva közvetlenül a kiadások listájához, és segítségükkel könnyebben megállapíthatja, hogy vannak-e hibák. |
-| Alkategóriák részleteinek megtekintése elemi sorokban | A fölérendelt költség elemi sorai az alkategóriák címkéit mutatják a költségjelentésben, így egy pillantással áttekinthet minden részletet.|
+| Alkategóriák részleteinek megtekintése elemi sorokban | A fölérendelt költség elemezett sorai az alkategóriák címkéit mutatják a költségjelentésen. Az elemek részletezése segítségével egy pillantással áttekintheti a részletes információkat.|
 | Bizonylatok megjelenítése a tételezés során | A bizonylatok megjeleníthetők a tételezés. |
 | Készpénzelőleg kiválasztása | Jelöljön ki egy vagy több készpénzelőleget egyetlen költségtranzakció teljesítéséhez. |
 | Készpénzelőleg egyenlege | Amikor költségbejegyzést hoz létre a jóváhagyott és a kifizetett készpénzelőlegek alapján, valós időben áttekinti a készpénzelőlegek egyenlegét. |
 
 A kezdeti kiadás a költségbejegyzési forgatókönyvekre fókuszál. A költségjelentés áttekintési vagy jóváhagyási forgatókönyve továbbra is a meglévő kiadásbejegyzési oldalt használja.
+
 
 A következő funkciók nem támogatottak a Költségjelentések újragondolva munkaterületen de a későbbi kiadásokban tervezzük bevezetésüket: 
 

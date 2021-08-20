@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002779"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995809"
 ---
 # <a name="intercompany-invoicing"></a>Vállalatközi számlázás
 
@@ -33,7 +33,7 @@ Előfordulhat, hogy a szervezethez több olyan részleg, leányvállalat és má
 
 A következő ábrán egy tipikus forgatókönyv látható, ahol két jogi személy, az SI FR (a kölcsönbe vevő jogi személy) és az SI USA (a kölcsönadó jogi személy) megosztja az erőforrásait az „A” ügyfél projektének megvalósítása érdekében. Ennél a forgatókönyvnél a szerződés értelmében az SI FR teljesíti a munkát az „A” ügyfél részére. 
 
-[![Példa a vállalatközi számlázásra](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Példa a vállalatközi számlázásra.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 A cél az, hogy rugalmasabbá és hatékonyabbá tegyük a vállalatközi projekttranzakciókhoz kapcsolódó költségkontrollt, bevételelszámolásokat, adókat és transzferárakat. Emellett a következő lehetőségek állnak a rendelkezésére:
 

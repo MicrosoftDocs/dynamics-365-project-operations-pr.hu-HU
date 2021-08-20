@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368479"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001974"
 ---
 # <a name="pricing-dimensions-overview"></a>Árképzési dimenziók áttekintése
 
@@ -33,7 +33,7 @@ Emiatt kétféle árképzési dimenzió érhető el:
 
 A Dynamics 365 Project Operations alapértelmezett árképzési dimenziókkal rendelkezik. Ezek az árképzési dimenziók a **Project Operations** > **Paraméterek** részén tekinthetők meg. A paraméterrekordban az **Összegalapú árképzési dimenziók** fülön ellenőrizze, hogy a **msdyn_resourcecategory** szerepkör és a **msdyn_organizationalunit** erőforrásbiztosító szervezeti egység rendelkezik **Értékesítésre vonatkozó** és **Költségre vonatkozó** mezőkkel, és hogy ezek beállítása **Igen** legyen. Ha engedélyezi ezeket a mezőket, beállíthatja az egyes szerepkörök és szervezeti egységek kombinációjához tartozó árakat és költségeket.
 
-![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével](media/PS-OOB-parameters.png)
+![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével.](media/PS-OOB-parameters.png)
 
 Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További tájékoztatás a következő témakörökben. 
   

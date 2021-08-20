@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005799"
 ---
 # <a name="create-a-project-team"></a>Projektcsapat létrehozása
 
@@ -33,7 +33,7 @@ A nézet beállításai is testreszabhatók, így könnyebben áttekinthető az 
 
 A projektmenedzser kiválaszthat egy szerepkört az oldalon, majd ha rendelkezésre áll egy, a követelménynek megfelelő erőforrás, akkor válassza a lehetőséget a szerepkör betöltéséhez szükséges erőforrás lefoglalásához. Ne feledje, hogy az erőforrásokat nem kell ezen a ponton a tervezési fázisban lefoglalni. Ha WBS-t hoz létre, a szerepköröket a projekthez tartozó munkatársakkal ellátott erőforrásokkal helyettesítheti. Ha a szerepeket munkatársakkal ellátott erőforrásokra cseréli le a WBS-ben, az erőforrás-beállítás automatikusan frissíti a projektcsapat felsorolását és ütemezését.
 
-[![Projektcsoport felsorolása, amely a szerepköröket és a tényleges erőforrásokat egyaránt tartalmazza](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektcsoport felsorolása, amely a szerepköröket és a tényleges erőforrásokat egyaránt tartalmazza.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 A projektmenedzser többféle lehetőséget kínál a projektek erőforrás-foglalására, például a **Hátralévő kapacitás**, a **Teljes kapacitás**, a **Kapacitás százalékos értéke**, valamint az **Órák megadása**. Ezek a foglalási lehetőségek bármikor visszavonhatók, ha az erőforrás-hozzárendelések megváltoznak. A foglalás két típusa támogatott:
 

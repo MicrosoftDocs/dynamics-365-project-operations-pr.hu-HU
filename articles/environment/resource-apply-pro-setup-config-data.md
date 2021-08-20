@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986629"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban 
 
@@ -35,24 +35,24 @@ Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolg�
 2. Keresse meg a kibontott mappát, és futtassa a végrehajtható *DataMigrationUtility* fájlt.
 3. A Common Data Service konfigurációáttelepítő (CMT) varázsló 1. oldalán válassza az **Adatok importálása** lehetőséget, majd válassza a **Folytatás** lehetőséget.
 
-![Konfiguráció-áttelepítés](./media/1ConfigurationMigration.png)
+![Konfiguráció-áttelepítés.](./media/1ConfigurationMigration.png)
 
 4. A CMT varázsló 2. oldalán jelölje ki a **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
 5. Jelölje be az **Elérhető szervezetek listájának megjelenítése** és a **Speciális megjelenítése** jelölőnégyzeteket.
 6. Válassza ki a bérlő régióját, adja meg a hitelesítő adatait, majd válassza a **Bejelentkezés** lehetőséget.
 
-![Konfiguráció bejelentkezés](./media/2ConfigurationSignin.png)
+![Konfiguráció bejelentkezés.](./media/2ConfigurationSignin.png)
 
 7. A 3. oldalon, a bérlő szervezeteinek listájából válassza ki azt a szervezetet, amelybe importálni szeretné a bemutató adatokat, és válassza a **Bejelentkezés** lehetőséget.
 8. A 4. oldalon jelölje ki a *SampleSetupAndConfigData* zip-fájlt a kicsomagolt mappából.
 
-![Zip-fájl kiválasztása](./media/3ZipFile.png)
+![Zip-fájl kiválasztása.](./media/3ZipFile.png)
 
-![Jelöljön ki fájlt](./media/4SelectAFile.png)
+![Válasszon egy fájlt.](./media/4SelectAFile.png)
 
 9. A zip-fájl kijelölése után válassza az **Adatok importálása** lehetőséget.
 
-![Adatok beolvasása](./media/5ImportData.png)
+![Adatok beolvasása.](./media/5ImportData.png)
 
 10. Az Importálás a hálózat sebességétől függően körülbelül két-tíz percig tart. Az importálás befejeződése után lépjen ki a CMT varázslóból. 
 11. Ellenőrizze a szervezet adatait a következő 26 entitásban:
@@ -84,50 +84,50 @@ Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolg�
   - Lefoglalható erőforrás kategóriatársítása
   - Lefoglalható erőforrás jellemzője
 
-![Importálás befejezése](./media/6CompleteImport.png)
+![Importálás befejezése.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>A Project Operations-konfigurációk frissítése
 
 1. Navigáljon a CE-környezethez. Ezt megtalálhatja a [Power Platform felügyeleti központ](https://admin.powerplatform.microsoft.com/environments) megnyitásával, a környezet kiválasztásával és a **Környezet megnyitása** lehetőség kiválasztásával. 
 
-![Környezet megnyitása](./media/7OpenEnvironment.png)
+![Környezet megnyitása.](./media/7OpenEnvironment.png)
 
 2. Nyissa meg a **Projektek** > **Erőforrások** részt, és válassza az **Új** lehetőséget foglalható erőforrás létrehozásához a felhasználó számára.
 
-![Lefoglalható erőforrások](./media/8BookableResources.png)
+![Lefoglalható erőforrások.](./media/8BookableResources.png)
 
 3. Az **Általános** lapon válassza ki a rendszergazdai felhasználót. Ellenőrizze, hogy az időzóna megegyezik-e az Ön által használt időzónával. 
 
-![Új foglalható erőforrás](./media/9NewBookableResource.png)
+![Új foglalható erőforrás.](./media/9NewBookableResource.png)
 
 4. Az **Ütemezés** lap **Vállalat** mezőjében válassza ki az **USPM** vállalatot, majd válassza a **Mentés** lehetőséget. 
 
-![Ütemezés lap](./media/10SchedulingTab.png)
+![Ütemezés lap.](./media/10SchedulingTab.png)
 
 5. Válassza a **Munkaórák** lapot.  
 
-![Munkaórák](./media/11WorkHours.png)
+![Munkaidő.](./media/11WorkHours.png)
 
 6. Kattintson duplán a naptár tetszőleges értékére, és válassza a **Szerkesztés** > **Minden esemény a sorozatban** lehetőséget. 
 
-![Munkanaptár](./media/12WorkCalendar.png)
+![Munkanaptár.](./media/12WorkCalendar.png)
 
 7. Módosítsa a munkaidőt nyolc (8) órás munkanapra, a hétvégék munkavégzés nélküli napokra történő megjelölésével, és győződjön meg arról, hogy az időzóna megfelel az Ön időzónájának. 
 8. Válassza a **Mentés és bezárás** lehetőséget.
 
-![Naptár frissítése](./media/13UpdateCalendar.png)
+![Naptár frissítése.](./media/13UpdateCalendar.png)
 
 9. Nyissa meg a **Beállítások** > **Naptársablonok** részt, és válassza az **Új** lehetőséget.
  
- ![Naptársablonok](./media/14CalendarTemplates.png)
+ ![Naptársablonok.](./media/14CalendarTemplates.png)
  
  10. Adja meg a nevet, jelölje ki a létrehozott sablonerőforrást, majd válassza a **Mentés** lehetőséget. 
  
- ![Naptársablon mentése](./media/15SaveCalendarTemplate.png)
+ ![Naptársablon mentése.](./media/15SaveCalendarTemplate.png)
  
  11. Nyissa meg a **Paraméterek** részt és kattintson duplán a rekordra. 
  
- ![Projektparaméterek](./media/16ProjectParameters.png)
+ ![Projektparaméterek.](./media/16ProjectParameters.png)
  
 12. Frissítse a következő mezőket:
 
@@ -138,7 +138,7 @@ Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolg�
 
 13. Válassza a **Mentés** parancsot. 
 
-![Frissített projektparaméterek](./media/17UpdatedProjectParameters.png)
+![Frissített projektparaméterek.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

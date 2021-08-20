@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003819"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations kettős írás leképezési verziói
 
@@ -32,7 +32,7 @@ A Project Operations megoldáshoz a következő térképek szükségesek. Győz�
 
 1. A leképezések listájában válassza ki a Főkönyvi **(msdyn\_ledgers)** térkép minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. A **Kezdeti szinkronizálási főelem** mezőjében válassza ki az **Finance and Operations alkalmazásokat** mind a főkönyvi térképhez, mind az összes előfeltétel térképhez. Válassza a **Futtatás** lehetőséget.
 
-![Főkönyvi leképezés szinkronizálása](media/DW6.png)
+![Főkönyvi leképezés szinkronizálása.](media/DW6.png)
 
 2. Kövesse ugyanazokat a lépéseket a fenti táblázatban felsorolt összes többi táblázattérképhez. A térképek futtatásakor ne jelölje be a **Kezdeti szinkronizálás** jelölőnégyzetet.
 
@@ -65,7 +65,7 @@ Végezze el a következő lépéseket a felsorolt térképek futtatásához.
 
 1. Engedélyezze a Projekt erőforrás-szerepköreit az **összes vállalat (bookableresourcecategories)** táblatérkép számára, mivel ez a térkép megköveteli a kezdeti szinkronizálást. A **Kezdeti szinkronizálás fő eleme** mezőjében válassza a **Common data service** lehetőséget. 
 
- ![Erőforrás-szerepkör-táblázat térképének szinkronizálása](media/6ResourceInitialSync.jpg)
+ ![Erőforrás-szerepkör-táblázat térképének szinkronizálása.](media/6ResourceInitialSync.jpg)
 
  Várjon, amíg a térkép állapota **fut**, mielőtt a következő lépésre lép.
 

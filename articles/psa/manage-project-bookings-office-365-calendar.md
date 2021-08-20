@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 575f3c94f886d12717496445d0e6357fdc01246b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000394"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985325"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>A naptárban lévő projektek és foglalások kezelése (Project Service)
 

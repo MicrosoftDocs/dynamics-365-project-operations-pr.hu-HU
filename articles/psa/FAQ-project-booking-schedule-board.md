@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987619"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projektfoglalás létrehozása az Ütemezés tábláról
 
@@ -43,7 +43,7 @@ Készíthet általános erőforrást, és egy vagy több feladatot rendelhet hoz
 
 1.  Az Ütemezés táblán ez az erőforrás megjelenik az **Nyílt követelmények** lapon. Lehet, hogy oszlopszűrőket kell használnia a rácson, ha sok nyílt követelmény van. 
 
-    ![A Követelmények lap megnyitása az Ütemezési táblán](media/FAQ-Project-Booking-Schedule-Board-1.png "A foglalások és hozzárendelések tábla – képernyőkép")
+    ![A Követelmények lap megnyitása az Ütemezési táblán.](media/FAQ-Project-Booking-Schedule-Board-1.png "A foglalások és hozzárendelések tábla – képernyőkép")
 
 2. Válassza ki a követelmény. A **Rendelkezésre állás keresése** fül jelenik meg a kiválasztott sor tetején.
  
@@ -53,7 +53,7 @@ Készíthet általános erőforrást, és egy vagy több feladatot rendelhet hoz
 
     A **Foglalás** kijelölése lefoglaja az erőforrást a projektcsoport számára.
 
-![Erőforrás-foglalási panel létrehozása](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Erőforrás-foglalási panel létrehozása.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Foglalás az elsődleges követelményből
@@ -62,7 +62,7 @@ Egy projekt létrehozása a Project Service megoldásban automatikusan hoz létr
 
 1. Erőforrás foglalásához az elsődleges követelménnyel az Ütemezés táblán válassza a **Projekt** fület. Szükség lehet az oszlopszűrő használatára a **Projekt** oszlopon, ha több projekttel rendelkezik.
 
-   ![Oszlopszűrők az Ütemezési táblán](media/FAQ-Project-Booking-Schedule-Board-2.png "A foglalások és hozzárendelések tábla – képernyőkép")
+   ![Oszlopszűrők az Ütemezési táblán.](media/FAQ-Project-Booking-Schedule-Board-2.png "A foglalások és hozzárendelések tábla – képernyőkép")
 
 2. Válassza ki azt a követelményt, amelynek csak a projekt neve lesz a neve, és időtartama nulla (0).
 

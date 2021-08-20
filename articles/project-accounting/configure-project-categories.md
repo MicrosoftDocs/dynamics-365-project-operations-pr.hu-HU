@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995174"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997114"
 ---
 # <a name="configure-project-categories"></a>Projektkategóriák konfigurálása
 
@@ -23,7 +23,7 @@ A következő ábra a tranzakciók kategóriái, a megosztott kategóriák és a
 
 A tranzakciós kategóriák a projekttranzakciók alapvető csoportosítása. Az adott csoportosításon belül van egy sor megosztott kategória, amelyek az alkalmazások és modulok között megoszthatók. Részletesebben vizsgálva a projektkategóriák a legrészletesebb szintű kategóriák. A projektkategóriák a jogi entitásra, a modulra és az alkalmazásra vonatkoznak.
 
-![A tranzakciók kategóriái, a megosztott kategóriák és a projektkategóriák közötti korreláció](media/project-categories.png)
+![A tranzakciók kategóriái, a megosztott kategóriák és a projektkategóriák közötti korreláció.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Tranzakciókategóriák
 

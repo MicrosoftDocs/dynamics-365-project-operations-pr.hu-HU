@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009214"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000174"
 ---
 # <a name="product-catalog-pricing"></a>Termékkatalógus árképzése 
 
@@ -44,7 +44,7 @@ A termékkatalógusból felveheti termékeit a különböző árlistákra. A ter
 
 A PSA különféle kerekítési lehetőségeket támogat, ha az árakat a listaár, a standard költség vagy az aktuális költség függvényében konfigurálják. Amellett, hogy kihasználja a több árképzési módszer és a kerekítési lehetőség előnyeit, kedvezménylistákat kapcsolhat hozzá az árlisták elemeihez. 
 
-> ![Termékek hozzáadása egy katalógusból különböző árlistákhoz](media/basic-guide-16.png)
+> ![Termékek hozzáadása egy katalógusból különböző árlistákhoz.](media/basic-guide-16.png)
 
 Amikor új egyéni árlistát hoz létre egy árajánlathoz a **Projektárajánlat** lap **Saját árképzés létrehozása** részén, a PSA másolatot készít az árlistáról, és az új árlista fejlécén található **Entitás** mező beállítása **Értékesítési entitás** lesz. Az új árlista neve az árajánlat nevéhez és az időbélyegzőhöz lesz csatolva. Az egyéni munkafolyamatokban is használhatja az új árlista nevét és az árajánlatot az egyedi árképzést alkalmazó árajánlatok további felülvizsgálatának és jóváhagyásának indításához.
 

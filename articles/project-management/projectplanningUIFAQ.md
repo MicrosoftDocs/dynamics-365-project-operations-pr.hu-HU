@@ -2,17 +2,17 @@
 title: A Feladat rácson való munka hibaelhárítása
 description: A témakör a Feladat rácson való munkavégzéshez szükséges hibaelhárítási információkat írja le.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989104"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>A Feladat rácson való munka hibaelhárítása 
 
@@ -24,7 +24,7 @@ A témakör azt ismerteti, hogyan tudja kijavítani a költségkezelés során e
 
 A Project Operations szolgáltatáshoz engedélyezni kell a külső gyártótól származó cookie-kat annak érdekében, hogy a munkalebontási struktúra elérhető legyen. Ha a külső gyártótól származó cookie-k nincsenek engedélyezve, a feladatok megjelenítése helyett egy üres oldal jelenik meg, amikor a **Projekt** lapon kijelöli a **Feladatok** fület.
 
-![Üres fül jelenik meg, ha a külső gyártótól származó cookie-k nincsenek engedélyezve](media/blankschedule.png)
+![Üres fül jelenik meg, ha a külső gyártótól származó cookie-k nincsenek engedélyezve.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Megoldás
@@ -52,11 +52,22 @@ A következő eljárások ismertetik, hogyan lehet frissíteni a böngésző be�
 A Project Operations szolgáltatáshoz szükséges, hogy a projektparaméter a PEX végpontra hivatkozzon. A végpontnak kommunikálnia kell a munkalebontási struktúra megjelenítéséhez használt szolgáltatással. Ha a paraméter nincs engedélyezve, a következő hibaüzenet jelenik meg: „A projektparaméter érvénytelen”. 
 
 ### <a name="workaround"></a>Megoldás
- ![A projektparaméteren lévő PEX végpont mező](media/projectparameter.png)
 
 1. Adja hozzá a **PEX végpont** mezőt a **Projektparaméterek** laphoz.
-2. Frissítse a mezőt a következő értékkel: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Távolítsa el a mezőt a **Projektparaméterek** oldalról.
+2. Azonosítsa a használt terméktípust. Ez az érték a PEX-végpont beállítása során van használva. A lekéréskor a terméktípus már definiálva van a PEX-végpontban. Tartsa meg ezt az értéket. 
+   
+    ![A projektparaméteren lévő PEX végpont mező.](media/pex-endpoint.png)
+
+3. Frissítse a mezőt a következő értékkel: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Terméktípus                         | Típus paraméter |
+   |--------------------------------------|----------------|
+   | Project for the Web az alapértelmezett szervezeten   | type=0         |
+   | Project for the Web a CDS elnevezésű szervezeten | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Távolítsa el a mezőt a **Projektparaméterek** oldalról.
 
 ## <a name="privileges-for-project-for-the-web"></a>Webes projekt jogosultságai
 
@@ -67,7 +78,7 @@ A Project Operations egy külső ütemezési szolgáltatásra támaszkodik. A sz
 
 1. Menjen a **Beállítások > Biztonság > Felhasználók > Alkalmazásfelhasználók** lehetőségre.  
 
-   ![Alkalmazásolvasó](media/applicationuser.jpg)
+   ![Alkalmazásolvasó.](media/applicationuser.jpg)
    
 2. Kattintson duplán az alkalmazás felhasználói bejegyzésére a következő jóváhagyásához:
 
@@ -76,7 +87,7 @@ A Project Operations egy külső ütemezési szolgáltatásra támaszkodik. A sz
  
 3. Ha ez a felhasználó nem létezik, létrehozhat egy új felhasználói rekordot. **Új felhasználó** kijelölése. Módosítsa a bejegyzési űrlapot **Alkalmazás felhasználó** lehetőségre, majd adja meg az **Alkalmazásazonosító** értékét.
 
-   ![Alkalmazás felhasználó részletei](media/applicationuserdetails.jpg)
+   ![Alkalmazás felhasználó részletei.](media/applicationuserdetails.jpg)
 
 4. Ellenőrizze, hogy a felhasználóhoz a megfelelő licenc van-e hozzárendelve, és hogy a szolgáltatás engedélyezve van-e a licenc szolgáltatási terveiben.
 5. Ellenőrizze, hogy a felhasználó meg tudja-e nyitni a project.microsoft.com webhelyet.

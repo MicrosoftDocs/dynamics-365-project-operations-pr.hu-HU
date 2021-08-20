@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009979"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992794"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>A projektfeladatok szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
 
@@ -39,7 +39,7 @@ A Project Service Automation és Finance közötti integrációs megoldás az ad
 
 A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálása a Project Service Automation és a Finance rendszer között.
 
-[![Adatfolyam a Project Service Automation és a Finance közötti integrációhoz](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Adatfolyam a Project Service Automation és a Finance közötti integrációhoz.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Sablon és feladat
 
@@ -80,7 +80,7 @@ Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelvet:
 
 A következő ábra egy példát mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
-[![Sablonok leképezése](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Sablonok leképezése.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

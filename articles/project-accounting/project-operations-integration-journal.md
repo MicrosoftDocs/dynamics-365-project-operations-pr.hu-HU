@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304259"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987934"
 ---
 # <a name="integration-journal-in-project-operations"></a>A Project Operations integrációs naplója
 
@@ -19,7 +19,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 Az idő- és Költségbejegyzések **tényleges érték** tranzakciókat hoznak létre, amelyek a projekttel kapcsolatban befejezett tevékenységek működési nézetét jelentik. A Dynamics 365 Project Operations a könyvelők számára eszközt biztosít a tranzakciók felülvizsgálatára, és szükség esetén a számviteli attribútumok módosítására. A felülvizsgálat és a helyesbítések befejeződése után a tranzakciókat a projekt részfőkönyvébe és a főkönyvbe könyveli a rendszer. A könyvelő ezeket a tevékenységeket a **Project Operations-integráció** naplójával hajtja végre(**Dynamics 365 Finance** > **Projektmenedzsment és könyvelés** > **Naplók** > **Project Operations-integrációs** napló).
 
-![Integrációs napló folyamata](./media/IntegrationJournal.png)
+![Integrációs napló folyamata.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Rekordok létrehozása a Project Operations integrációs naplójában
 

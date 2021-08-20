@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 09bb30f55ee8e1f24634e9d8b7dea95bd3dbd24f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006332"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991219"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Szállítói kifizetéssel kapcsolatos visszatartási feltételek létrehozása és alkalmazása
 

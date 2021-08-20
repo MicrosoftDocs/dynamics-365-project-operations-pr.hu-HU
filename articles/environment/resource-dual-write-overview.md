@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368434"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007914"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations kettős írás integrálásának áttekintése
 
@@ -23,7 +23,7 @@ A Project Operations [kettős írási képességeket](/dynamics365/fin-ops-core/
 
 Az alábbi ábra azt mutatja be, hogyan szinkronizálják az adatokat a(z) Dataverse és a pénzügyek közötti integráció részeként.
 
-![Project Operations adatáramlásainak áttekintése](./media/ProjectOperationsFlows.jpg)
+![Project Operations adatáramlásainak áttekintése.](./media/ProjectOperationsFlows.jpg)
 
 A(z) Dataverse felületen futó Project Operations modern felhasználói felületet (UI) és egyszerű, kód nélküli/alacsony kódú bővíthetőséget biztosít a(z) Power Platform képességek használatával. A projektmenedzserek, az erőforrás-kezelők, a projektcsapat tagjai és más front-office dolgozók a(z) Dataverse felületen végzik Project Operations-tevékenységeiket.
 

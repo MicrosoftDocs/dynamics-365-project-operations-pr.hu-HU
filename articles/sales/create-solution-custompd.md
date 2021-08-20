@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010339"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992209"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Megoldás létrehozása egyéni árképzési dimenziókhoz
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010339"
 2.  Nevezze el a megoldást, *<your organization name> árképzési dimenzióka*.
 3. Írja be a további szükséges információt, majd kattintson a **Mentés** gombra.
 
-  ![Egyéni árképzési megoldás létrehozása](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Egyéni árképzési megoldás létrehozása.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Adja hozzá az összes szükséges entitást és a kapcsolódó komponenseket az árképzési dimenzió megoldáshoz
 
@@ -49,19 +49,19 @@ Adja hozzá a következő Project Service-entitásokat az árképzési megoldás
    - **Szerepkörár**
    - **Időbejegyzés**
  
-   ![Adjon hozzá meglévő entitásokat az árképzési dimenzió megoldáshoz](./media/Existing-entities-to-PD-solution.png)
+   ![Adjon hozzá meglévő entitásokat az árképzési dimenzió megoldáshoz.](./media/Existing-entities-to-PD-solution.png)
  
  4. Tekintse át az egyes entitások hozzáadott összetevőit és az egyes entitások entitáseszközeinek végleges listáját. 
 
    >[!NOTE]
    > Minden kiválasztott entitás tartalmazzon minden űrlapot és nézetet.
 
-  ![Hozzáadott entitások](./media/solution-component-selection.png)
+  ![Hozzáadott entitások.](./media/solution-component-selection.png)
 
 
 5.  Amikor a rendszer kéri, hogy a kijelölt entitások függő entitásait is adja hozzá, válassza a **Nem adom hozzá a szükséges összetevőket** lehetőséget.
 
-    ![Függő entitásokkal együtt](./media/Do-not-include-required.png)
+    ![Függő entitásokkal együtt.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014928"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995449"
 ---
 # <a name="quotes-and-quote-lines"></a>Árajánlatok és árajánlatsorok
 
@@ -84,7 +84,7 @@ A professzionális szolgáltatást végző szervezetek általában a költségek
 
 Ezen tranzakcióosztályok egyike vagy ezek közül több is társítható az egyes árajánlatsorokkal. Az árajánlat megszerzése után a tranzakcióosztályozás és az árajánlatsor közötti leképezés a szerződéssorhoz kerül.
  
-> ![Képernyőkép a tranzakciótípusok árajánlatokra és szerződéssorokra való leképezéséről](media/basic-guide-5.png)
+> ![Képernyőkép a tranzakciótípusok árajánlatokra és szerződéssorokra való leképezéséről.](media/basic-guide-5.png)
   
 Előfordulhat például, hogy egy árajánlat a következő két ajánlatsort tartalmazza: 
 - Az idő- és anyagelszámolású számlázási módszert használó konzultációs munka, ahol alkalmazható az idő- és a díj tranzakcióosztálya. Például a **Dynamics AX-megvalósítással** kapcsolatos összes idő- és díjtranzakciót a rendszer az ügyfélnek számlázza a felhasznált idő és anyag alapján. 

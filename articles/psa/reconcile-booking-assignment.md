@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995134"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Összehangolja a foglalásokat és a feladatokat
 
@@ -51,11 +51,11 @@ Bizonyos esetekben, ha az **Időskála** mezőt olyan értékre állítja, amely
 
 A magasabb időszint megtekintésekor az **Összehangolás** lapon megjelenik egy cellaindikátor, amely értesíti Önt, hogy alacsonyabb időszinteken vannak különbségek. Például a következő ábrán egy cellát jelző jelenik meg a cellában 2018. októberi hónapban az erőforrásnak, amelynek neve Katelyn Merritt. Ezért láthatja, hogy annak ellenére, hogy az erőforrás könyvelése és hozzárendelése egyenlő, ha **Hónap** szinten aggregálják, az alacsonyabb szinteken nem egyeznek.
 
-![Nem egyező lefoglalások és hozzárendelések a havi szinten](media/reconcile-assignments-01.JPG)
+![Nem egyező lefoglalások és hozzárendelések a havi szinten.](media/reconcile-assignments-01.JPG)
 
 Kattintson duplán a cellára a következő alsó szintre való nagyításhoz és a különbség megtekintéséhez. Például, ha duplán kattint a Katelyn Merritt 2018. októberi különbségére, akkor a **Hét** szintre fúródik le. Ezután láthatja, hogy az erőforrás 16 órás foglalással rendelkezik, de október első két hetében nem rendelkezik hozzárendeléssel, és október harmadik hetében 16 órás foglalkozással rendelkezik, de nem foglal le.
 
-![Nem egyező lefoglalások és hozzárendelések a heti szinten](media/reconcile-assignments-02.JPG)
+![Nem egyező lefoglalások és hozzárendelések a heti szinten.](media/reconcile-assignments-02.JPG)
 
 Kattintson a jobb gombbal egy cellára, hogy kicsinyítse a következő magasabb szintet. A cella jelzőjét a **Beállítások** gomb megnyomásával is kikapcsolhatja. 
 
@@ -68,13 +68,13 @@ A Foglalás meghosszabbítása használatakor pontos és kiszámítható eredmé
 
 - A felhasználónak konfigurálnia kell az eszköze időzónáját, hogy az megfeleljen a rendszer Testreszabási beállításaiban megadott időzónának.
  
-  ![Időzóna-beállítások a Windows 10 rendszerben](media/reconcile-assignments-03.png)
+  ![Időzóna-beállítások a Windows 10 rendszerben.](media/reconcile-assignments-03.png)
 
-  ![Időzóna-beállítások a testreszabási beállításokban](media/reconcile-assignments-04.png)
+  ![Időzóna-beállítások a testreszabási beállításokban.](media/reconcile-assignments-04.png)
  
 - A foglalt erőforrásnak legalább egy perc munkaidővel kell rendelkeznie, amely átfedésben van az elosztásokkal, amelyeket a kért hosszabbítás definiálásához használnak. Például a következő példa áttekintett erőforrásokat mutat be, amelyek munkaórái 09:00 és 19:00 közé esnek. 
 
-  ![Az erőforrás-eloszlások összehasonlítása](media/reconcile-assignments-05.png)
+  ![Az erőforrás-eloszlások összehasonlítása.](media/reconcile-assignments-05.png)
 
 Az alábbi táblában a következők láthatók:
 
@@ -83,22 +83,22 @@ Az alábbi táblában a következők láthatók:
 - B erőforrás: Ez az erőforrás a projekttől eltérő időzónában van, ezért a 7:00-kor kezd az ő időzónája szerint. A foglalások azonban 9:00 órakor kezdődnek, mert ez a hozzárendelési felosztás legkorábbi kezdési időpontja.
 - C és D erőforrások: Az erőforrások a különböző időzónákban találhatók mindkettő eltér egymástól és a projekttől is, és a foglalásuk nem kezdődik előbb, mint a hozzájuk tartozó elérhető kezdési idő.
 
-|Entitás  |Naptár  |
+|Entity  |Naptár  |
 |-|-|
-|Projektnaptár-sablon   | ![projektnaptár](media/reconcile-assignments-06.png) |
-|A erőforrás  | ![A erőforrás naptárja](media/reconcile-assignments-06.png) |
-|B erőforrás  |  ![B erőforrás naptárja](media/reconcile-assignments-07.png) |
-|C erőforrás  |  ![C erőforrás naptárja](media/reconcile-assignments-08.png) |
-|D erőforrás  | ![D erőforrás naptárja](media/reconcile-assignments-09.png)  |
+|Projektnaptár-sablon   | ![projektnaptár.](media/reconcile-assignments-06.png) |
+|A erőforrás  | ![A erőforrás naptárja.](media/reconcile-assignments-06.png) |
+|B erőforrás  |  ![B erőforrás naptárja.](media/reconcile-assignments-07.png) |
+|C erőforrás  |  ![C erőforrás naptárja.](media/reconcile-assignments-08.png) |
+|D erőforrás  | ![D erőforrás naptárja.](media/reconcile-assignments-09.png)  |
  
 Az egyeztetési nézetre való navigáláskor az erőforrás-hozzárendelések és a kapcsolódó foglalási hiányok jelennek meg.
- ![Egyeztetési nézet a bővítés előtt](media/reconcile-assignments-10.png)
+ ![Egyeztetési nézet a bővítés előtt.](media/reconcile-assignments-10.png)
 
 Miután az összes erőforráson végrehajtja a foglalás meghosszabbítása funkciót, a foglalások sikeresen meg lesznek hosszabbítva az összes erőforráshoz. Ennek oka az, hogy az egyes erőforrások munkaideje átfedésben van a hiány körvonalával.
- ![Egyeztetési nézet a foglalás meghosszabbítása után](media/reconcile-assignments-11.png) 
+ ![Egyeztetési nézet a foglalás meghosszabbítása után.](media/reconcile-assignments-11.png) 
 
 Azonban a foglalások részleteinek alaposabb tanulmányozásakor láthatóvá válnak a különbségek a foglalások kezdőidőpontjai között. A foglalások legkorábban a hozzárendelési felosztás kezdési időpontjában kezdődnek és nem korábban, mint az erőforráshoz elérhető kezdési idő.
- ![Erőforrások új foglalásai az ütemezési táblában](media/reconcile-assignments-12.png)
+ ![Erőforrások új foglalásai az ütemezési táblában.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

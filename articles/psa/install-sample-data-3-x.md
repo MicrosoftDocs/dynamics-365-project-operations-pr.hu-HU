@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007279"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985549"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>A Project Service alkalmazás mintaadatok telepítése
 
@@ -86,7 +86,7 @@ A Windows egy újabb verziójával (lehetőleg Windows 10) rendelkező számít�
 A számítógépen ki kell kapcsolni a képernyővédő funkciót. Ellenkező esetben a telepítés munkamenetének hitelesítő adatai elveszhetnek, amikor a képernyővédő bekapcsol (kivéve, ha a munkamenet végig aktív marad).
 
 > [!div class="mx-imgBorder"]
-> ![A képernyőkímélő beállításainak képernyőképe, amikor a képernyővédő ki van kapcsolva](media/sample-data-1.png)
+> ![A képernyőkímélő beállításainak képernyőképe, amikor a képernyővédő ki van kapcsolva.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Letöltés és kicsomagolás
 
@@ -142,7 +142,7 @@ A demó adatcsomaghoz hat felhasználó szükséges. Hogy a csomag telepítése 
 3. Nyissa meg a **PkgFolder** elemet, majd keresése és nyissa meg a **ImportUserMapFile.xml** fájlt. Frissítse az **Új =** mezőket a rendszerben található megfelelő felhasználók e-mail címéhez.
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile képernyőképe](media/sample-data-7.png)
+   > ![UserMapFile képernyőképe.](media/sample-data-7.png)
 
 4. Ha a „Spencer Low” teljes nevű felhasználónak más a felhasználói azonosítója, mint a **„spencerl”**, frissítenie kell a kiegészítő fájlt. Nyissa meg a **DemoDataPreImportConfig.xml** fájlt, és keresse meg a **userstocreateandconfigure** címkét. Frissítse a **\<login\>** címkét a loginId azonosítóval (kis-és nagybetűk megkülönböztetésével). 
 
@@ -172,7 +172,7 @@ A demó adatcsomaghoz hat felhasználó szükséges. Hogy a csomag telepítése 
 5. Válassza a **Következő** lehetőséget. amíg meg nem jelenik a **Bemutatóadatok beállítása** párbeszédpanel.
 
    > [!div class="mx-imgBorder"]
-   > ![A bemutatóadatok telepítése állapotablak képernyőfotója](media/sample-data-3.png)
+   > ![A bemutatóadatok telepítése állapotablak képernyőfotója.](media/sample-data-3.png)
 
 6. A folytatás előtt fontos tudni, hogy a mintaadatok telepítése akár egy óráig is eltarthat (általában ~ 10 perc). Biztosítsa, hogy a számítógép és a kapcsolódva maradjon a hálózathoz, a telepítési folyamat során, hogy a munkamenet aktív maradjon.   
 
@@ -191,10 +191,10 @@ A mintaadatok teljesen betöltését követően, jelentkezzen be Spencer Low fel
 - Ha a Field Service alkalmazás telepítve van, lépjen **Project Service** > **Beállítások** > **Árlisták** helyre. Ellenőrizze, hogy számlázási díjak és a költségárfolyamok megvannak-e. Nyissa meg **Field Service** > **Beállítások** > **Árlisták** menüt, és ellenőrizze, hogy számlázási díjak és a költségárfolyamok léteznek, a megfelelő pénznemben, minden egyes országhoz/régióhoz az adatkészletben.
 
   > [!div class="mx-imgBorder"]
-  > ![Az aktív árlisták képernyőfotója](media/sample-data-4.png)
+  > ![Az aktív árlisták képernyőfotója.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Az aktív szervezeti egységek képernyőfotója](media/sample-data-5.png)
+  > ![Az aktív szervezeti egységek képernyőfotója.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Technikai megjegyzések
 
@@ -295,7 +295,7 @@ Ha módosítania kell a munkaórákat minta foglalható erőforrásokhoz, nyissa
 Jelöljön ki egy felhasználót (például Spencer Low), és Spencer a munkaidejét módosítsa arra az értékre, amelyet a többi felhasználóhoz is szeretne használni. Nyissa meg a **Universal Resource Scheduling** > **Beállítások** > **Munkaidősablonok** elemet és szerkessze az **Alapértelmezett munkasablon** rekordot. A **Sablonerőforrás** mezőben, jelöljön ki egy felhasználót akinek munkaóráit szeretne alkalmazni más erőforrásokhoz. Válassza az **Universal Resource Scheduling** > **Ütemezés** > **Erőforrások** > **Aktív lefoglalható erőforrások**. Jelölje ki az erőforrások, amelyeket módosítani szeretne és jelölje ki a **Naptár beállítása** elemet. A **Munkasablon** legördülő listán jelölje ki az **Alapértelmezett munkaidő** sablont vagy egy mási sablont a vonatkozó sablonerőforrással. Ha az ütemezési táblát megtekinti, látnia kell, hogy az erőforrásokhoz frissített munkaidő tartozik.
 
 > [!div class="mx-imgBorder"]
-> ![Az aktív lefoglalható erőforrások képernyőfotója](media/sample-data-6.png)
+> ![Az aktív lefoglalható erőforrások képernyőfotója.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

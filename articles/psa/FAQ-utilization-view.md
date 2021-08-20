@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992837"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007149"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Az erőforrások számlázható kihasználtságának megtekintése
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992837"
  
 A **Project Service Erőforrás-kihasználtság** oldal **Kihasználtsági nézete** az egyes foglalható erőforrások számlázható kihasználtságát jeleníti meg. Mivel a nézet az ütemezési táblán alapul, így számos funkció azonos.
 
-> ![Képernyőkép: Erőforrás-kihasználtság nézet](media/FAQ-utilization-1.png)
+> ![Képernyőkép: Erőforrás-kihasználtság nézet.](media/FAQ-utilization-1.png)
  
 
 A számlázható kihasználtság számítása a következőképpen történik:
@@ -48,7 +48,7 @@ A cél kihasználtság az erőforrás alapértelmezett szerepkörén vagy az egy
 2. Válasszon egy erőforrást a rekord megnyitásához. 
 3. A **Project Service** lapon beállíthatja az erőforrás cél kihasználtságát.
 
-> ![A Project Service lapjának használata a cél kihasználtság megadásához – képernyőkép](media/FAQ-utilization-2.png)
+> ![A Project Service lapjának használata a cél kihasználtság megadásához – képernyőkép.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Állítsa be a cél kihasználtságot egy szerepkörön
 
@@ -56,7 +56,7 @@ A cél kihasználtság az erőforrás alapértelmezett szerepkörén vagy az egy
 2. Válasszon ki egy szerepkört, és nyissa meg a rekordot. 
 3. A cél kihasználtság beállítása a szerepkörhöz.
 
-> ![Az Erőforrás-szerepkörök használata a cél kihasználtság megadásához – képernyőkép](media/FAQ-utilization-3.png)
+> ![Az Erőforrás-szerepkörök használata a cél kihasználtság megadásához – képernyőkép.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Számítsa ki az erőforrás számlázható kihasználtságát.
 

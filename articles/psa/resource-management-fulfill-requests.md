@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996844"
 ---
 # <a name="fulfilling-resource-requests"></a>Erőforrás-kérések teljesítése
 
@@ -33,15 +33,15 @@ Az erőforrás-követelmények erőforrás-igényekként elküldhetők az erőfo
 
 Az erőforrás-kérések listájaként jelennek meg az **Aktív erőforrás-igények** nézetben.
 
-> ![Erőforrás-kérelmek listája](media/Resource-Management-image59.png)
+> ![Erőforrás-kérelmek listája.](media/Resource-Management-image59.png)
 
 Egy kérelem teljesítéséhez válassza ki a listában, majd válassza a **Források keresése** lehetőséget. Másik lehetőségként kattintson duplán egy sorra a kérelem megnyitásához. Ezután kiválaszthatja az **Erőforrásigény** fület a kérelem követelményeinek megtekintéséhez. A kérés teljesítésének megkezdéséhez válassza a **Források keresése** lehetőséget.
 
-> ![Erőforrás-igény részletei](media/Resource-Management-image60.png)
+> ![Erőforrás-igény részletei.](media/Resource-Management-image60.png)
 
 Megjelenik az Ütemezési asszisztens, amelyet a követelmények kiszűrnek. Válassza ki az erőforrást, majd válassza a **Foglalás** lehetőséget.
 
-> ![Az erőforrás kiválasztva](media/Resource-Management-image61.png)
+> ![Az erőforrás kiválasztva.](media/Resource-Management-image61.png)
 
 Az általános csoporttagot a projektcsoportban a nehezen lefoglalt, megnevezett erőforrás és a projekt ütemtervében szereplő feladatok kiosztása váltja fel.
 

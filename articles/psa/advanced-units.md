@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009574"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987574"
 ---
 # <a name="unit-groups-and-units"></a>Egységcsoportok és egységek
 
@@ -44,7 +44,7 @@ Például ha az **Idő** egységcsoportban az **Óra** egységet állítja be el
 
 A következő képen a **Nap** mértékegységre vonatkozó példa látható, ahol a **Mennyiség** mező az egy napon belüli órák számát mutatja, a **Hét** mértékegységre vonatkozó példa esetén pedig a **Mennyiség** mező mutatja az egy héten belüli napok számát.
 
-> ![Egységcsoport: Információs oldal](media/advanced-2.png)
+> ![Egységcsoport: Információs oldal.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Egységek és egységcsoportok használata
 

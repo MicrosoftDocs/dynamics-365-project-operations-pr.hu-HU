@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995489"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988564"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
@@ -52,12 +52,12 @@ A következő lépésekkel engedélyezheti az automatizált Project Operations-k
 
 6. Válassza ki a telepítésének környezettípusát. Az előfizetésen alapuló próbaverzió 30 napig teszi lehetővé a CDS-környezet telepítését. 
 
-![Telepítés beállításai](./media/1DeploymentSettings.png)
+![Telepítés beállításai.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Válassza az **Elfogadom** lehetőséget a szolgáltatási feltételek elfogadásához, majd válassza a **Kész** lehetőséget a telepítési beállításokhoz való visszatéréshez.
 
-![Telepítési hozzájárulás](./media/2DeploymentConsent.png)
+![Telepítési hozzájárulás.](./media/2DeploymentConsent.png)
 
 7. Választható – Bemutató adatok alkalmazása a környezetre. Menjen a **Speciális beállítások** lehetőségre, válassza az **SQL Database konfiguráció testreszabása** lehetőséget, és állítsa be az **Alkalmazásadatbázis adathalmazának megadása** lehetőséget **Bemutató** lehetőségre.
 
@@ -67,7 +67,7 @@ A következő lépésekkel engedélyezheti az automatizált Project Operations-k
 
 9. A környezet sikeres telepítésének megerősítéséhez válassza a **Bejelentkezés** lehetőséget, majd a megerősítéshez jelentkezzen be a környezetbe.
 
-![A  környezetek részletei](./media/3EnvironmentDetails.png)
+![Környezet részletei.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>A Finance-környezet frissítéseinek alkalmazása.
 
@@ -77,19 +77,19 @@ Előfordulhat, hogy a Finance-környezetre minőségi frissítéseket kell alkal
 
 1. A LCS **Környezet részletei** oldalán a **Rendelkezésre álló frissítések** területen válassza a **Frissítések megtekintése** lehetőséget.
 
-![Frissítések megtekintése](./media/5ViewUpdates.png)
+![Frissítések megtekintése.](./media/5ViewUpdates.png)
 
 2. A **Bináris frissítések** oldalon válassza a **Csomag mentése** lehetőséget.
 
-![Csomag mentése](./media/6SavePackage.png)
+![Csomag mentése.](./media/6SavePackage.png)
 
 3. Kattintson az **Összes kiválasztása** elemre, majd válassza a **Csomag mentése** lehetőségre.
 
-![Frissítések áttekintése és mentése](./media/7ReviewAndSaveUpdates.png)
+![Frissítések áttekintése és mentése.](./media/7ReviewAndSaveUpdates.png)
 
 4. Adja meg a csomag nevét és leírását, majd kattintson a **Mentés** gombra. Az internetkapcsolattól függően ez a folyamat eltarthat egy ideig.
 
-![Csomag feltöltése az Eszközök könyvtárba](./media/8UploadPackageToAssetsLibrary.png)
+![Csomag feltöltése az Eszközök könyvtárba.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. A csomag mentése után válassza a **Kész** lehetőséget, és mentse a csomagot az LCS-projekt Eszközök könyvtárába.
 
@@ -97,15 +97,15 @@ A csomag mentése és ellenőrzése ~15 percet is igénybe vehet.
 
 6. A frissítés alkalmazásához keresse meg a **Környezet részletei** oldalt az LCS-ben, és válassza a **Karbantartás** > **Frissítések alkalmazása** lehetőséget.
 
-![Környezetek karbantartása](./media/9MaintainEnvironment.png)
+![Környezetek karbantartása.](./media/9MaintainEnvironment.png)
 
 7. A frissítések listájában jelölje ki a létrehozott csomagot, majd válassza az **Alkalmaz** lehetőséget.
 
-![Frissítések alkalmazása](./media/10ApplyUpdates.png)
+![Frissítések alkalmazása.](./media/10ApplyUpdates.png)
 
 A környezet javítása eltarthat egy ideig. Miután befejeződött, a környezet visszatér egy telepített állapotba.
 
-![Környezet telepítve](./media/11EnvironmentDeployed.png)
+![Környezet telepítve.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Kettős írási kapcsolat létrehozása 
 
@@ -113,41 +113,41 @@ A környezet javítása eltarthat egy ideig. Miután befejeződött, a környeze
 2. A **Common Data Service-környezet információi** területen válassza az **A CDS for Apps hivatkozása** lehetőséget.
 3. A hivatkozás létrejöttét követően válassza ismét az **A CDS for Apps hivatkozása** lehetőséget. A rendszer átirányítja a kettős írásra a Finance-ben.
 
-![A CDS for Apps hivatkozása](./media/12LinktoCDS.png)
+![A CDS for Apps hivatkozása.](./media/12LinktoCDS.png)
 
 4. Válassza **Megoldás alkalmazása** lehetőséget az integrációba leképezni kívánt entitások eléréséhez.
 
-![Megoldások alkalmazása](./media/13ApplySolutions.png)
+![Megoldások alkalmazása.](./media/13ApplySolutions.png)
 
 5. Válassza a mindkét megoldást: **Dynamics 365 Finance and Operations kettős írású entitásleképezés** és **Dynamics 365 Project Operations kettős írású entitásleképezése**, majd válassza az **Alkalmaz** lehetőséget.
 
-![Megoldások megerősítése](./media/14ConfirmSolutions.png)
+![Megoldások megerősítése.](./media/14ConfirmSolutions.png)
 
 A megoldások alkalmazása után a kettős írási entitások alkalmazásra kerülnek a környezetre.
 
-![Megoldások alkalmazása](./media/15ApplyingSolutions.png)
+![Megoldások alkalmazása.](./media/15ApplyingSolutions.png)
 
 Az entitások alkalmazása után az összes elérhető leképezés megjelenik a környezetben.
 
-![Kettős írású leképezések](./media/15DWMappings.png)
+![Kettős írású leképezések.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Az adatentitások frissítése a frissítés után
 
 1. A Finance-ben nyissa meg az **Adatkezelés** munkaterületet.
 
-![Adatkezelési munkaterület](./media/16DataManagement.png)
+![Adatkezelési munkaterület.](./media/16DataManagement.png)
 
 2. Válassza ki a **Keretrendszer paraméterei** csempét.
 
-![Keretrendszer paraméterei](./media/17FrameworkParameters.png)
+![Keretrendszer paraméterei.](./media/17FrameworkParameters.png)
 
 3. Az **Entitás beállításai** oldalon válassza az **Entitások listájának frissítése** lehetőséget.
 
-![Entitáslista frissítése](./media/18RefreshEntityList.png)
+![Entitáslista frissítése.](./media/18RefreshEntityList.png)
 
 A frissítés megközelítőleg 20 percet vesz igénybe. A rendszer értesítést küld, amikor elkészült.
 
-![Frissítés megerősítése](./media/19RefreshConfirmation.png)
+![Frissítés megerősítése.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>A Dataverse Project Operations biztonsági beállításainak frissítése
 
@@ -188,17 +188,17 @@ A frissítés megközelítőleg 20 percet vesz igénybe. A rendszer értesítés
 4. Az entitás frissítéséhez jelölje ki a leképezés nevét, majd válassza az **Entitások frissítése** lehetőséget. 
 
 
-![Leképezés frissítése](./media/20RefreshMapping.png)
+![Leképezés frissítése.](./media/20RefreshMapping.png)
 
 5. A frissítés befejeződése után futtassa a leképezést. A következő leképezés engedélyezése előtt ellenőrizze, hogy a táblázatban a leképezés **Fut** állapotban van-e. A nagy számú előfeltétellel rendelkező leképezések futtatása eltarthat egy ideig.
 
 Az előfeltételekkel rendelkező leképezés futtatásához engedélyezze a **Kapcsolódó entitásleképezések megjelenítése** kapcsolót. Ha a táblázat azt jelzi, hogy az **Előfeltétel kezdeti szinkronizálása** értéke **Nem**, ellenőrizze, hogy a **Kezdeti szinkronizálás** jelző **Ki** állapotban van-e minden előfeltétel leképezés előtt, mielőtt futtatá azokat.
 
-![Leképezés futtatása](./media/21RunMap.png)
+![Leképezés futtatása.](./media/21RunMap.png)
 
 6. Ellenőrizze, hogy a projekthez kapcsolódó leképezések mindegyike futó állapotban van.
 
-![Minden leképezés fut](./media/22AllMapsRunning.png)
+![Minden leképezés fut.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Konfigurációs adatok alkalmazása a Project Operations szolgáltatáshoz használható CDS rendszerben (nem kötelező)

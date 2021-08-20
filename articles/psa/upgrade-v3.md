@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014884"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000084"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Frissítési szempontok - A PSA 2.x vagy 1.x verziója a 3. verzióra
 
@@ -35,7 +35,7 @@ A Dynamics 365 Project Service Automation és a Dynamics 365 Field Service is a 
 ## <a name="resource-assignments"></a>Erőforrás-hozzárendelések
 A Project Service Automation 2. és 1. verziójában a feladat-hozzárendeléseket gyermekfeladatokként (más néven sori feladatokként ) tárolták a **Feladatentitásban**, és közvetetten kapcsolódtak az **Erőforrás-hozzárendelés** entitáshoz. A sori feladat látható volt a munkalebontási struktúra (WBS) hozzárendelés előugró ablakában.
 
-![Sorfeladatok a WBS-ben a Project Service Automation 2. és 1. verziójában](media/upgrade-line-task-01.png)
+![Sorfeladatok a WBS-ben a Project Service Automation 2. és 1. verziójában.](media/upgrade-line-task-01.png)
 
 A Project Service Automation 3. verziójában megváltozott a foglalható erőforrások feladatokhoz rendelésének alapjául szolgáló séma. A sori feladat már elavult, és van egy közvetlen 1:1 kapcsolat a feladatot a **Feladatentitás** és a csapat tagja az **Erőforrás-hozzárendelés** entitás között. A projektcsoport tagjaihoz rendelt feladatokat most közvetlenül az erőforrás-hozzárendelés entitás tárolja.  
 
@@ -46,26 +46,26 @@ Az alapul szolgáló feladat entitás felhasználásával a 2. és az 1. verzió
 
 Ha a 2. és az 1. verzióban az erőforrást az alapértelmezett szerepükön kívüli feladatokhoz rendelt, akkor a megnevezett erőforrás az összes feladat-hozzárendeléshez alapértelmezett szerepet kap, függetlenül a 2. verzióbeli szerepkör-hozzárendeléstől. Ez a hozzárendelés eltéréseket fog eredményezni a kiszámított becslésekben a 2. vagy 1. verzióról a 3. verzióra, mivel a becsléseket az erőforrás szerepe alapján számítják ki, nem pedig a sor feladat hozzárendelése alapján. Például a 2. verzióban két feladatot rendeltek Ashley Chinn-hez. Az 1. feladat online feladatában a Fejlesztő és a 2. feladatban a Programkezelő szerepe van. Ashley Chinn alapértelmezett szerepe a Programmenedzser.
 
-![Több erőforrás hozzárendelve egy erőforráshoz](media/upgrade-multiple-roles-02.png)
+![Több erőforrás hozzárendelve egy erőforráshoz.](media/upgrade-multiple-roles-02.png)
 
 Mivel a fejlesztő és a programmenedzser szerepei különböznek, a költség- és eladási becslések a következők:
 
-![Az erőforrás-szerepek költségbecslései](media/upggrade-cost-estimates-03.png)
+![Az erőforrás-szerepek költségbecslései.](media/upggrade-cost-estimates-03.png)
 
-![Értékesítési becslések az erőforrás-szerepekhez](media/upgrade-sales-estimates-04.png)
+![Értékesítési becslések az erőforrás-szerepekhez.](media/upgrade-sales-estimates-04.png)
 
 A 3. verzióra való frissítéskor a sorfeladatok helyébe erőforrás-hozzárendelések kerülnek, amelyeket a foglalható erőforrás-csoport tagja végez. A hozzárendelés a foglalható erőforrás alapértelmezett szerepét fogja használni. A következő ábrán Ashley Chinn van, aki Programmenedzser szerepet tölt be.
 
-![Erőforrás-hozzárendelések](media/resource-assignment-v2-05.png)
+![Erőforrás-hozzárendelések.](media/resource-assignment-v2-05.png)
 
 Mivel a becslések az erőforrás alapértelmezett szerepén alapulnak, az értékesítési és költségbecslések változhatnak. A következő ábrán már nem látja a **Fejlesztő** szerepet, mivel a szerep most a foglalható erőforrás alapértelmezett szerepéből származik.
 
 ![Alapértelmezett szerepek költségbecslése](media/resource-assignment-cost-estimate-06.png)
-![Alapértelmezett szerepek eladási becslése](media/resource-assignment-sales-estimate-07.png)
+![Alapértelmezett szerepek eladási becslése.](media/resource-assignment-sales-estimate-07.png)
 
 A frissítés befejezése után szerkesztheti a csapattagok szerepét úgy, hogy az eltérjen a hozzárendelt alapértelmezettől. Ha azonban megváltoztatja a csapattagok szerepét, akkor az megváltozik minden hozzárendelt feladatban, mivel a 3. verzióban a csapattagoknak nem osztható ki több szerepkör.
 
-![Erőforrás szerep frissítése](media/resource-role-assignment-08.png)
+![Erőforrás szerep frissítése.](media/resource-role-assignment-08.png)
 
 Ugyanez vonatkozik a megnevezett erőforrásokhoz rendelt vonali feladatokra is, amikor az erőforrás szervezeti egységét alapértelmezettről egy másik szervezeti egységre változtatja. Miután a 3. verzió frissítése befejeződött, a hozzárendelés az erőforrás alapértelmezett szervezeti egységét fogja használni a vonali feladatban beállított egység helyett.
 
@@ -83,24 +83,24 @@ Az általános csoporttagokhoz rendelt olyan feladatok esetében, amelyeket a **
 
 Például a Project Z projektben a szerződéses szervezeti egység a Contoso US. A projekttervben a végrehajtási szakaszon belüli tesztelési feladatokra technikai tanácsadó szerepet kaptak, és a kijelölt szervezeti egység a Contoso India.
 
-![Végrehajtási szakasz szervezeti hozzárendelés](media/org-unit-assignment-09.png)
+![Végrehajtási szakasz szervezeti hozzárendelés.](media/org-unit-assignment-09.png)
 
 A megvalósítási szakasz után az integrációs teszt feladatot a Műszaki tanácsadó szerephez rendelik, de az org értéke Contoso US.  
 
-![Integrációs teszt feladat org hozzárendelés](media/org-unit-generate-team-10.png)
+![Integrációs teszt feladat org hozzárendelés.](media/org-unit-generate-team-10.png)
 
 Amikor létrehoz egy csapatot a projekthez, akkor két általános csoporttagot hoznak létre a feladatok különböző szervezeti egységei miatt. Az 1. műszaki tanácsadó a Contoso India feladatait, a 2. műszaki tanácsadó pedig a Contoso USA feladatait kapja.  
 
-![Generált generikus csapattagok](media/org-unit-assignments-multiple-resources-11.png)
+![Generált generikus csapattagok.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > A Project Service Automation 2. és 1. verziójában a csapat tagja nem tartja a szervezeti egységet, amelyet a vonali feladatban tartanak fenn.
 
-![2. verziós és 1. verziós sorfeladatok a Project Service Automation megoldásban](media/line-tasks-12.png)
+![2. verziós és 1. verziós sorfeladatok a Project Service Automation megoldásban.](media/line-tasks-12.png)
 
 A becslések nézetben láthatja a szervezeti egységet. 
 
-![Org egység becslések](media/org-unit-estimates-view-13.png)
+![Org egység becslések.](media/org-unit-estimates-view-13.png)
  
 A frissítés befejezése után az általános csapattagnak megfelelő vonali feladatban lévő szervezeti egységet hozzáadják az általános csapattaghoz, és a vonali feladatot eltávolítják. Emiatt azt javasoljuk, hogy a frissítés előtt hozzon létre vagy generálja újra a csoportot minden olyan projekthez, amely általános erőforrásokat tartalmaz.
 

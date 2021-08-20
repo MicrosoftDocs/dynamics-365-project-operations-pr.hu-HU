@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003774"
 ---
 # <a name="invoicing-process-overview"></a>Számlafeldolgozás áttekintése
 
@@ -20,7 +20,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 A Project Operations erőforrás-/nem készleten alapuló forgatókönyvek átfogó lehetőségeket nyújtanak, amelyek mind a Projektmenedzser, mind a követelésügyintéző/projektkönyvelő igényeinek megfelelően testre vannak szabva. A számlázási folyamat során a Projektmenedzser kezeli a projekt számlázási elmaradását, és a követelésügyintéző/projektkönyvelő egy megfelelő és pontos számladokumentumot hoz létre az ügyfél számára.
 
-![Számlázási folyamat ábrája](./media/invoicing-flow.png)
+![Számlázási folyamat ábrája.](./media/invoicing-flow.png)
 
 A projektszerződéssor meghatározza a társított projekttranzakciók számlázási módját. Amikor a Projektmenedzser jóváhagyja az idő- és költségtranzakciókat, a rendszer rögzíti a tranzakciókat a **Projekt tényadatok** entitásban, és elküldi az adatokat a Dynamics 365 Finance-ben lévő **Projektmenedzsment és a könyvelés** modulnak. A Projektkönyvelő ezután a [Project Operations integrációs](../project-accounting/project-operations-integration-journal.md) napló segítségével áttekinti és közzéteszi a rekordokat. Ez a folyamat fontos könyvelési részleteket tartalmaz a projekt tényadataihoz, mint például a számlázás, az áfacsoport, a számlázási cikkek értékesítési áfacsoportja és a pénzügyi dimenziók.
 

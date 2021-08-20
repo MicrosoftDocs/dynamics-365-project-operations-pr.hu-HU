@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012814"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988789"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Bővítményattribútumok frissítése új árképzési dimenziók felvételéhez
 
@@ -42,25 +42,25 @@ A következő lépések végigvezetik a beépülő modulok regisztrálásának f
 1. Nyissa meg a **PluginRegistrationTool** elemet, és csatlakozzon az online példányhoz.
 2. Kattintson a **Keresés** elemre, és keresse meg a frissíteni kívánt bővítményt.
 
- ![A keresési fa képernyőképe](media/PRT-1.png)
+ ![A keresési fa képernyőképe.](media/PRT-1.png)
 
 3. Miután megtalálta a beépülő modult, válassza ki azt, majd kattintson a **Kiválasztás a fő űrlapon** elemre.
 
 4. Válassza ki a frissíteni kívánt bővítmény lépését, kattintson a jobb gombbal, majd válassza a **Frissítés** lehetőséget.
 
- ![A frissítendő plug-in képernyőképe](media/PRT-2.png)
+ ![A frissítendő plug-in képernyőképe.](media/PRT-2.png)
  
 5. A frissítési ablakban kattintson a ellipszisre (**...**) a szűrési attribútumokban.
 
- ![A létező lépéskonfigurációs információk frissítése képernyőképe](media/PRT-3.png)
+ ![A létező lépéskonfigurációs információk frissítése képernyőképe.](media/PRT-3.png)
  
 6. Jelölje be az árazási attribútum jelölőnégyzeteket.
 
- ![Képernyőkép, amely jelöli a jelölőnégyzet kiválasztását az árazási attribútumokhoz](media/PRT-4.png)
+ ![Képernyőkép, amely jelöli a jelölőnégyzet kiválasztását az árazási attribútumokhoz.](media/PRT-4.png)
 
 7. Kattintson az **OK**-ra, hogy zárja be az oldalt, majd válassza a **Lépés frissítése** elemet.
 
- ![A képernyő frissítése, amelyen megjelenik az „Update Step” gomb](media/PRT-5.png)
+ ![A képernyő frissítése, amelyen megjelenik az „Update Step” gomb.](media/PRT-5.png)
  
 8. Ismételje meg ezt a folyamatot a második plug-in számára, **PreOperationQuoteLineDetail - az msdyn_quotelinetransaction frissítése**.
 
