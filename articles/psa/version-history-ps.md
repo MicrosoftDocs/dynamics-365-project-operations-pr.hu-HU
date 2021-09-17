@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: 7abb9e851c99c66677dd45e20f5b8bd179e9464d
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024831"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474531"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>A Project Service 3.x frissítési kiadási ütemezése
 
@@ -37,7 +37,7 @@ ms.locfileid: "7024831"
 
 | Megoldás  | Legutóbbi verzió |
 |-------|----|
-| Project Service Automation    | 3.10.55.38 |
+| Project Service Automation    | 3.10.56.110 |
 | A Project Service Automation asztali bővítmény                | 3.15          |
 
 A Project Service frissítéseivel kapcsolatos információkért keresse fel a [Dynamics 365 kibocsátási terveket](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ A Project Service frissítéseivel kapcsolatos információkért keresse fel a [
 | Állomás  | Régió | Aktuális verzió | Következő verzió |  Ütemezett dátum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. állomás</strong> | |  |  | |
-| | <i>Első kiadás</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. augusztus 27.
+| | <i>Első kiadás</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
 |<strong>2. állomás</strong> | |  |  | |
-| | <i>Dél-Amerika</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>Kanada</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>India</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>Franciaország</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>Egyesült Arab Emírségek</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>Dél-afrikai Köztársaság</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>Németország</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
-| | <i>Svájc</i> | [3.10.55.38](whats-new-ur-34.md) | Később eldöntendő | 2021. szeptember 03.
+| | <i>Dél-Amerika</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>Kanada</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>India</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>Franciaország</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>Egyesült Arab Emírségek</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>Dél-afrikai Köztársaság</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>Németország</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
+| | <i>Svájc</i> | [3.10.56.110](whats-new-ur-35.md) | Később eldöntendő | 2021. október 01.
 |<strong>3. állomás</strong> | |  |  | |
-| | <i>Japán</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 13.
-| | <i>Ázsia és a Csendes-óceáni térség</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 13.
-| | <i>Nagy-Britannia</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 13.
-| | <i>Óceánia</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 13.
+| | <i>Japán</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 10.
+| | <i>Ázsia és a Csendes-óceáni térség</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 10.
+| | <i>Nagy-Britannia</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 10.
+| | <i>Óceánia</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 10.
 |<strong>4. állomás</strong> | |  |  | |
-| | <i>Európa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 20.
+| | <i>Európa</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 17.
 |<strong>5. állomás</strong> | |  |  | |
-| | <i>Észak-Amerika</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 27.
+| | <i>Észak-Amerika</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 24.
 |<strong>6. állomás</strong> | |  |  | |
-| | <i>Kormányzati közösségi felhő</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. augusztus 27.
-| | <i>Dedikált méretcsoportok</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. szeptember 03.
+| | <i>Kormányzati közösségi felhő</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. szeptember 24.
+| | <i>Dedikált méretcsoportok</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. október 01.
 
 >[!Note]
 > - Az összes régióban dátumok, kivéve a Kormányzati Közösség Felhőjét (GCC), a következő automatikus frissítés időzítését jelzik. A GCC-ben lévő dátumok jelzik a verzió elérhetőségét, jelenleg nincs automatikus frissítés ezekben a régiókban.

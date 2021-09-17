@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024786"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474496"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -28,15 +28,15 @@ A Dynamics 365 Project Operations két összetevőből áll:
 - A projektmenedzsment és könyvelés a Dynamics 365 Finance környezetben magában foglalja a költségkezelési lehetőségeket, a projektek könyvelését és az árbevétel-elszámolást. A Finance and Operations alkalmazáskörnyezet a Project Operations az erőforrás-/nem készletalapú forgatókönyvekhez, és Project Operations a készlet-/termelésalapú forgatókönyvekhez esetekben használatos.
 
 ## <a name="project-operations-release-notes"></a>Project Operations kiadási megjegyzései
-- Project Operations legfrissebb kiadási megjegyzései az [Erőforrás-/nem készletalapú](whats-new-july-2021-resource-based.md) forgatókönyvhöz.
-- Project Operations legfrissebb kiadási megjegyzései az [Egyszerű központi telepítés](../pro/whats-new/whats-new-july-2021-lite.md) forgatókönyvhöz.
+- Project Operations legfrissebb kiadási megjegyzései az [Erőforrás-/nem készletalapú](whats-new-august-2021-resource-based.md) forgatókönyvhöz.
+- Project Operations legfrissebb kiadási megjegyzései az [Egyszerű központi telepítés](../pro/whats-new/whats-new-august-2021-lite.md) forgatókönyvhöz.
 - Project Operations legfrissebb kiadási megjegyzései a [készleten vagy gyártáson alapuló](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) forgatókönyvhöz.
 
 ## <a name="project-operations-latest-version"></a>A Project Operations legújabb verziója
 
 | Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a Finance and Operations alkalmazások környezetében | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 A Project Operations Erőforrás/Nem készletezett forgatókönyv esetén javasoljuk, hogy a Dual Write Orchestration 2.2.2.83-es vagy újabb verzióját használja.
 
@@ -47,27 +47,24 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | Állomás | Régió | Aktuális verziószám | Az egyszerű központi telepítés automatikus frissítései | Automatikus frissítések az erőforráshoz/nem készlet alapú telepítés | Következő verziószám | A következő általánosan elérhető verzió |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Első kiadás         |  4.13.0.152     | Teljesítés           | 2021. augusztus 13.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|   &nbsp;  | Első kiadás         |  4.14.0.99      | Teljesítés           | 2021. szeptember 10.  | Később eldöntendő                 | 2021. október 01.    |
 | 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika         |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
-|   &nbsp;  | India                 |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
-|   &nbsp;  | Franciaország                |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
-|   &nbsp;  | Egyesült Arab Emírségek  |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
-|   &nbsp;  | Dél-afrikai Köztársaság          |  4.13.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | Később eldöntendő                 | 2021. augusztus 27.     |
+|   &nbsp;  | Dél-Amerika         |  4.14.0.152     | 2021. szeptember 10. | 2021. szeptember 17.  | Később eldöntendő                 | 2021. október 01.    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 2021. szeptember 10. | 2021. szeptember 17.  | Később eldöntendő                 | 2021. október 01.    |
+|   &nbsp;  | India                 |  4.14.0.152     | 2021. szeptember 10. | 2021. szeptember 17.  | Később eldöntendő                 | 2021. október 01.    |
+|   &nbsp;  | Franciaország                |  4.14.0.152     | 2021. szeptember 10. | 2021. szeptember 17.  | Később eldöntendő                 | 2021. október 01.    |
+|   &nbsp;  | Egyesült Arab Emírségek  |  4.14.0.152     | 2021. szeptember 10. | 2021. szeptember 17.  | Később eldöntendő                 | 2021. október 01.    |
+|   &nbsp;  | Dél-afrikai Köztársaság          |  4.14.0.152     | 2021. szeptember 10. | 2021. szeptember 17.  | Később eldöntendő                 | 2021. október 01.    |
 | 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japán                 |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
-|   &nbsp;  | Nagy-Britannia         |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
-|   &nbsp;  | Óceánia               |  4.12.0.152     | Teljes*          | Teljesítés            | 4.13.0.152          | 2021. augusztus 13.     |
+|   &nbsp;  | Japán                 |  4.13.0.152     | Teljesítés           | Teljesítés            | 4.14.0.152          | 2021. szeptember 10.  |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.13.0.152     | Teljesítés           | Teljesítés            | 4.14.0.152          | 2021. szeptember 10.  |
+|   &nbsp;  | Nagy-Britannia         |  4.13.0.152     | Teljesítés           | Teljesítés            | 4.14.0.152          | 2021. szeptember 10.  |
+|   &nbsp;  | Óceánia               |  4.13.0.152     | Teljesítés           | Teljesítés            | 4.14.0.152          | 2021. szeptember 10.  |
 | 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.12.0.152     | Teljesítés           | Teljesítés            | 4.13.0.152          | 2021. augusztus 20.     |
+|   &nbsp;  | Európa                |  4.13.0.152     | Teljesítés           | 2021. szeptember 03.  | 4.14.0.152          | 2021. szeptember 17.  |
 | 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika         |  4.12.0.152     | 2021. augusztus 13.    | 2021. augusztus 20.     | 4.13.0.152          | 2021. augusztus 27.     |
+|   &nbsp;  | Észak-Amerika         |  4.13.0.152     | 2021. szeptember 03. | 2021. szeptember 10.  | 4.14.0.152          | 2021. szeptember 24.  |
 
-
-> [!NOTE]
-> Az automatikus telepítés a 4.12.0.148 verzióra befejeződött. A 2021. júliusi kiadás frissített verziójához nem tervezünk automatikus telepítést.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A Projektmenedzsment és a könyvelés kiadási ütemezése a Finance and Operations alkalmazások környezetében
 

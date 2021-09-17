@@ -1,0 +1,66 @@
+---
+title: Alvállalkozói szerződés mérföldkövei
+description: Ez a témakör elmagyarázza, hogyan hozhat létre és tarthat fenn mérföldkőalapú számlaütemezést egy szállítóval kötött alvállalkozói szerződéshez.
+author: rumant
+ms.date: 08/06/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323779"
+---
+# <a name="subcontract-line-milestones"></a>Alvállalkozói szerződés mérföldkövei
+
+[!include [banner](../../includes/dataverse-preview.md)]
+
+_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+
+A Dynamics 365 Project Operations rendszerben egy fix áras számlázási módszerrel rendelkező alvállalkozói szerződéssor meghatározhat egy mérföldkő alapú számlázási ütemtervet a szállítóval.
+
+A szállítói számlázáshoz szükséges mérföldkövek automatikusan generálhatók egy meghatározott gyakorisággal, vagy manuálisan is létrehozhatók.
+
+## <a name="automatically-create-a-milestone-based-invoice-schedule-for-a-subcontract-line"></a>Automatikusan hozzon létre mérföldkő-alapú számlaütemezést egy alvállalkozói szerződéssorhoz
+
+Végezze el a következő lépéseket, hogy automatikusan létrehozzon egy mérföldkő-alapú számlaütemezést egyenletesen elosztott mérföldkövek rögzített halmazához.
+
+1. Menjen a **Beállítások** > **Számlázási gyakoriságok** menüpontba, és állítsa be a számlázási gyakoriságot az alvállalkozói szerződéssorokhoz.
+2. Nyissa meg az **Alvállalkozói szerződések** oldalt, nyissa meg azt az alvállalkozói szerződést, amellyel dolgozni szeretne, majd nyissa meg azt a fix áras alvállalkozói szerződéssort, amelyhez mérföldkő-ütemtervet fog készíteni.
+3. Az **Alvállalkozói szerződés sor Mérföldkövek** lapján válassza az **Időszakos mérföldkövek generálása** lehetőséget.
+4. A párbeszédpanelen adja meg vagy válassza ki a dátumtartományt, a mérföldkövek számát és a számlázás gyakoriságát. Kiválaszthatja a kezdeti dátumot, vagy kiválaszthatja a mérföldkövek számát és a számlázás gyakoriságát vagy a kezdeti dátumot, vagy kiválaszthatja a végdátumot és a számlázás gyakoriságát. Nem választhatja ki a végdátumot és a mérföldkövek számát.
+Ezen információk felhasználásával a rendszer mérföldköveket és rekordokat generál, amelyek a **Mérföldkövek** rácson jelennek meg.
+
+   - **Mérföldkő neve** - A mérföldkő neve a számla gyakorisága alapján a mérföldkő dátumára van beállítva.
+   - **Mérföldkő dátuma** - A számla gyakoriságán alapuló dátum.
+   - **Mérföldkő-összeg** - Az alvállalkozói szerződés sorában szereplő részösszeg és a mérföldkövek számának elosztásával kerül kiszámításra.
+
+Ha az alvállalkozói szerződés sorában a **Becsült adóösszeg** mezőben van érték, akkor ez az érték az időszakos mérföldkövek generálásakor minden egyes mérföldkőhöz egyenlő mértékben hozzáadódik.
+
+Az alvállalkozói szerződéssor mérföldköveinek összegének meg kell egyeznie az alvállalkozói szerződéssor értékével. Ha nem egyenlőek, hiba történik. A hibát a mérföldkő- és adóösszegek létrehozásával, szerkesztésével vagy törlésével javíthatja, és ellenőrizheti, hogy a mérföldkőösszeg megegyezik-e az alvállalkozói szerződés sorának értékével. A módosítások elvégzése után mentse el és frissítse az oldalt, hogy megbizonyosodjon arról, hogy nincs több hiba.
+
+## <a name="manually-create-subcontract-line-milestones"></a>Alvállalkozói szerződéssorok mérföldköveinek manuális létrehozása
+
+A fix áras mérföldkövek egy alvállalkozói szerződéssoron manuálisan generálhatók, ha nincsenek periodikusan felosztva. Egy alvállalkozói sor mérföldkő manuális létrehozásához végezze el a következő lépéseket.
+
+1. A navigációs ablaktáblán válassza az **Alvállalkozói szerződések** elemet, és nyissa meg azt az alvállalkozói szerződést, amellyel dolgozni szeretne.
+2. Nyissa meg azt a fix áras alvállalkozói szerződéssort, amelyhez mérföldkövet szeretne létrehozni.
+3. Az **Alvállalkozói szerződés sor mérföldkövei** lapon az alrácson válassza a **+ Új alvállalkozói szerződés sor mérföldkő** lehetőséget.
+4. Az **Új alvállalkozói szerződéssor mérföldkő** lapon adja meg a szükséges információkat az alábbi táblázat alapján.
+
+    | Mező | Ismertetés |
+    | --- | --- |
+    | Mérföldkő neve | A mérföldkő neve. |
+    | Ismertetés | A mérföldkő leírása.  |
+    | Mérföldkő dátuma | Az a dátum, amikor az automatikus számlakészítési folyamatnak meg kell keresnie ennek a mérföldkőnek az állapotát, hogy a számlázáshoz figyelembe vegye. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
+    | Mennyiség | Az ügyfélnek számlázandó mérföldkő összege vagy értéke. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
+    | Adó | A mérföldkőre alkalmazott adó összege. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
+    | Adó utáni összeg | Ez a csak olvasható mező, amely az összeg + adó összegeként kerül kiszámításra. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
+    | Számla állapota | A mérföldkő létrehozásakor ez a státusz mindig a **Nem áll készen a számlázásra** állapotra van beállítva.  Ha a státusz **Számlázásra kész**, a szállítói számla létrehozása során ez a mérföldkő szerepel a szállítói számlán. |
+
+5. Válassza a **Mentés és bezárás** lehetőséget.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

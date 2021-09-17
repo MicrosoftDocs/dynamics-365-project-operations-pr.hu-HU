@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001659"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440780"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Több ügyfél kezelése projektárajánlatokon - Lite
 
@@ -37,7 +37,7 @@ Az árajánlati ügyfél az **Árajánlat** oldal **Árajánlati ügyfelek** lap
 
 | **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
-| Fiók | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Felsorolja az összes aktív partnert. Ez a mező a rekord létrehozása után zárolva van. Ha frissíteni kívánja, törölje a rekordot, és hozza létre újra. Ha bármilyen tényleges adatot rögzített, vagy ha az árajánlati ügyfélrekord egy elsődleges ügyfél, akkor a bejegyzést törölheti. | Az árajánlati ügyfeleket a rendszer az árajánlatsor létrehozásakor árajánlatsori ügyfelekként másolja át. Az árajánlati ügyfelek az árajánlat megnyerése után átmásolásra kerülnek a projektszerződési ügyfelekbe is. |
+| Fiók | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Felsorolja az összes aktív partnert. Ez a mező a rekord létrehozása után zárolva van. Ha frissíteni kívánja, törölje a rekordot, és hozza létre újra. Ha rögzített tényleges adatokat, vagy ha az idézett ügyfélrekord elsődleges ügyfél, akkor nem törölheti a rekordot. | Az árajánlati ügyfeleket a rendszer az árajánlatsor létrehozásakor árajánlatsori ügyfelekként másolja át. Az árajánlati ügyfelek az árajánlat megnyerése után átmásolásra kerülnek a projektszerződési ügyfelekbe is. |
 | Számlázásfelosztás százaléka | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Az adott árajánlati ügyfélnek tulajdonított, nem számlázott értékesítési tranzakciók százalékos arányát jeleníti meg. | Átmásolva az új árajánlatsorokba és a projektszerződés ügyfeleihez. |
 | Számlázási kapcsolattartó neve | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Ez egy szöveges mező, amellyel azonosítható az ügyfélhez tartozó számlázási kapcsolattartó. Ezek alapértelmezés szerint a kapcsolódó partner rekordjából származnak. | Átmásolva a projektszerződés ügyfeleihez, amikor egy árajánlatot megnyernek, és ezzel a Számlázási kapcsolattartó neve mező létrehozásra kerül a számlán ehhez az ügyfélhez. |
 | Számlázási név | Szerkeszthető rács az árajánlati ügyfél **Árajánlati ügyfelek** lapján és a **Fő** és a **Gyorslétrehozás** űrlapjain. | Ezzel a szöveges mezővel azonosítható az ügyfélhez tartozó számlázási kapcsolattartó. | Átmásolva a projektszerződés ügyfeleihez, amikor egy árajánlatot megnyernek, és ezzel a **Számlázási kapcsolattartó neve** mező létrehozásra kerül a számlán ehhez az ügyfélhez. |

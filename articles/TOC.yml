@@ -4,6 +4,8 @@
   items:
     - name: A telepítés típusának meghatározása
       href: environment/determine-deployment-type.md
+    - name: Iratkozzon fel a Project Operations próbaverzióira
+      href: environment/admin-trials.md
     - name: Project Operations-frissítések
       href: whats-new/project-operations-updates.md
 - name: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Újdonságok
       items:
+        - name: 2021. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 2021. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -418,6 +422,8 @@
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
+        - name: Jóváhagyási készletek
+          href: approvals/approval-sets.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021 2. hullám korai hozzáférés – Egyszerű telepítés
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Újdonságok 2021. augusztus – egyszerű telepítés
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Újdonságok 2021. júliusában – egyszerű telepítés
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Újdonságok 2021. júniusában – egyszerű telepítés
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Alvállalkozói szerződések kezelése Project Operations-ben
       items:
-        - name: Alvállalkozói szerződések kezelése – áttekintés
+        - name: Alvállalkozói szerződések kezelése Project Operations-ben
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Alvállalkozói szerződések 2021 októberében Korai hozzáférés
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Az alvállalkozói szerződéskötés kulcsfogalmai
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Szállítók és projekt árlisták kezelése
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Alvállalkozók lefoglalható erőforrásként
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Fejlécadatok alvállalkozói szerződések esetében
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Alvállalkozóiszerződés-sorok az időre
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Alvállalkozóiszerződés-sorok a költségre
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Alvállalkozóiszerződés-sorok termékekre
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alvállalkozóiszerződéssor-erőforrások
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alvállalkozóiszerződéssor-mérföldkövek
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Idő
       items:
         - name: Idő áttekintése
@@ -868,6 +892,8 @@
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
+        - name: Jóváhagyási készletek
+          href: approvals/approval-sets.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
@@ -1060,6 +1086,8 @@
       items:
         - name: A Project Service 3.x kiadási ütemezésének frissítése
           href: psa/version-history-ps.md
+        - name: A 35-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-35.md
         - name: A 34-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-34.md
         - name: A 33-es frissítési kiadás V3 verziójának újdonságai vagy változásai
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Heti időbejegyzés testreszabása
               href: psa/time-entry-extensibility-v3.md
-            - name: Jóváhagyási készletek
+            - name: Jóváhagyási készletek a Project Service Automation-ben
               href: psa/approval-set.md
     - name: GYIK és hibaelhárítás (3.x)
       items:

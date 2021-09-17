@@ -1,5 +1,5 @@
 ---
-title: Jóváhagyási készletek
+title: Jóváhagyási készletek a Project Service Automation-ben
 description: Ez témakör információkat tartalmaz a jóváhagyási készletről, a kérelmekről, valamint ezen műveletek részhalmazairól.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e57944b3031ff8b6da163125bb6668875ae77bd06f23a5b8c4ef06f396210e4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995494"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323554"
 ---
-# <a name="approval-sets"></a>Jóváhagyási készletek
+# <a name="approval-sets-in-project-service-automation"></a>Jóváhagyási készletek a Project Service Automation-ben
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
