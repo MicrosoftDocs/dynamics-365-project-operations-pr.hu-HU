@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Újdonságok
       items:
+        - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 2021. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -292,7 +296,7 @@
           items:
             - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
               href: project-management/dev-copy-project.md
-            - name: Projektütemezési API-k használata (nyilvános előzetes verzió)
+            - name: Projektütemezési API-k használata
               href: project-management/schedule-api-preview.md
     - name: Erőforrás-kezelés
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Nem készletezett anyagok beszerzése projektekhez függőben lévő szállítói számlák felhasználásával
           href: procurement/pending-vendor-invoices.md
+        - name: Nem készletezett anyagok rendelése projektekhez a projekt beszerzési rendeléseivel
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Szállítók megtartása
+          items:
+            - name: Szállítók megtartása – áttekintés
+              href: procurement/vendor-retention-overview.md
+            - name: Szállítómegtartás beállítása
+              href: procurement/set-up-vendor-retention.md
     - name: Számlázás
       items:
         - name: Számlafeldolgozás áttekintése
@@ -528,9 +540,13 @@
       items:
         - name: Újdonságok 2021 2. hullám korai hozzáférés – Egyszerű telepítés
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Újdonságok 2021. augusztus – egyszerű telepítés
+        - name: Újdonságok 2021. októberben – egyszerű telepítés
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Újdonságok 2021. szeptemberben – egyszerű telepítés
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: Újdonságok 2021. augusztusban – egyszerű telepítés
           href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Újdonságok 2021. júliusában – egyszerű telepítés
+        - name: Újdonságok 2021. júliusban – egyszerű telepítés
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Újdonságok 2021. júniusában – egyszerű telepítés
           href: pro/whats-new/whats-new-june-2021-lite.md
@@ -784,7 +800,7 @@
           items:
             - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
               href: project-management/dev-copy-project.md
-            - name: Projektütemezési API-k használata (nyilvános előzetes verzió)
+            - name: Projektütemezési API-k használata
               href: project-management/schedule-api-preview.md
     - name: Erőforrás-kezelés
       items:
@@ -858,9 +874,9 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Alvállalkozóiszerződés-sorok az időre
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Alvállalkozóiszerződés-sorok a költségre
+        - name: Alvállalkozóiszerződés-sorok a költségkategóriákhoz
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Alvállalkozóiszerződés-sorok termékekre
+        - name: Alvállalkozóiszerződés-sorok termékekhez
           href: pro/subcontracting/subcontract-line-products.md
         - name: Alvállalkozóiszerződéssor-erőforrások
           href: pro/subcontracting/subcontract-line-resources.md
@@ -1086,6 +1102,8 @@
       items:
         - name: A Project Service 3.x kiadási ütemezésének frissítése
           href: psa/version-history-ps.md
+        - name: A 36-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-36.md
         - name: A 35-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-35.md
         - name: A 34-es frissítési kiadás V3 verziójának újdonságai vagy változásai
