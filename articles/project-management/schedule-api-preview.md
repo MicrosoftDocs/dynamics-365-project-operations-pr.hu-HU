@@ -2,23 +2,22 @@
 title: Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 description: Ez témakör tájékoztatást és példákat tartalmaz a Projektütemezési API-k használatával kapcsolatban.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008769"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487688"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-> [!IMPORTANT] 
-> A témakörben ismertetett egyes funkciók vagy az összes funkció az előzetes verzió részeként áll rendelkezésre. A tartalom és a funkciók tekintetében a változtatás jogát fenntartjuk. 
+
 
 ## <a name="scheduling-entities"></a>Ütemezési entitások
 

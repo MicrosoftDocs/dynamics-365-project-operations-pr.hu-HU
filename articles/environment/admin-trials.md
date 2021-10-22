@@ -2,16 +2,16 @@
 title: Regisztrálás a Project Operations próbaverziókra
 description: Ez a témakör a Dynamics 365 Project Operations próbaverziójának telepítésével kapcsolatos információkat tartalmazza.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418460"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599216"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Regisztrálás a Project Operations próbaverziókra 
 
@@ -85,15 +85,9 @@ Mielőtt elkezdené, jelentkezzen be egy böngészőbe a felhasználói munkafi�
 
    Miután elindult az üzembe helyezés, a rendszer átirányítja Önt a Power Platform admin központban található környezetlistára. Amíg az üzembe helyezés folyamatban van, a környezet állapota **PreparingInstance**.
  
-  Az üzembe helyezés befejezése után a környezet állapota **Kész**.
+  Amikor a kiépítés befejeződött, a környezet állapota **Kész**. A környezet kiépítése bemutató adatok telepítését is magában foglalja.
  
-4.  Ha az üzembe helyezés befejeződött, válassza ki a megfelelő Microsoft Dataverse URL-címet és a Finance and Operations alkalmazások URL-címét a telepítés érvényesítéséhez.
-
-## <a name="demo-data-installation"></a>Demo adatok telepítése
-
-Az alábbi linkeken keresztül elérheti a nem készletezett anyagok és a könnyű telepítési forgatókönyvek demó adatcsomagjait. 
-- [Nem készletezett anyagok demó adatai](resource-apply-pro-setup-config-data.md)
-- [Könnyű demo adatok](lite-apply-demo-setup-config-data.md)
+4.  A telepítés ellenőrzéséhez válassza ki a megfelelő Microsoft Dataverse URL-címet és a Finance and Operations alkalmazások URL-címekeit.
 
 ## <a name="configuring-dual-write"></a>Kettős írás beállítása
 Kizárólag nem készletezett anyagok telepítése esetén konfigurálja a kettős írási hozzárendeléseket. További információért lásd: [Project Operations kettős írásos térképverziók](resource-dual-write-maps.md).

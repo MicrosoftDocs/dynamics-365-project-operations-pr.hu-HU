@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323779"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558505"
 ---
 # <a name="subcontract-line-milestones"></a>Alvállalkozói szerződés mérföldkövei
 
@@ -50,15 +50,15 @@ A fix áras mérföldkövek egy alvállalkozói szerződéssoron manuálisan gen
 3. Az **Alvállalkozói szerződés sor mérföldkövei** lapon az alrácson válassza a **+ Új alvállalkozói szerződés sor mérföldkő** lehetőséget.
 4. Az **Új alvállalkozói szerződéssor mérföldkő** lapon adja meg a szükséges információkat az alábbi táblázat alapján.
 
-    | Mező | Ismertetés |
-    | --- | --- |
-    | Mérföldkő neve | A mérföldkő neve. |
-    | Ismertetés | A mérföldkő leírása.  |
-    | Mérföldkő dátuma | Az a dátum, amikor az automatikus számlakészítési folyamatnak meg kell keresnie ennek a mérföldkőnek az állapotát, hogy a számlázáshoz figyelembe vegye. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
-    | Mennyiség | Az ügyfélnek számlázandó mérföldkő összege vagy értéke. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
-    | Adó | A mérföldkőre alkalmazott adó összege. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
-    | Adó utáni összeg | Ez a csak olvasható mező, amely az összeg + adó összegeként kerül kiszámításra. Ez az érték szerepel a szállítói számla sorában az alvállalkozói szerződés számlázásakor. |
-    | Számla állapota | A mérföldkő létrehozásakor ez a státusz mindig a **Nem áll készen a számlázásra** állapotra van beállítva.  Ha a státusz **Számlázásra kész**, a szállítói számla létrehozása során ez a mérföldkő szerepel a szállítói számlán. |
+    | Mező | Ismertetés |Funkcionális hatás|
+    | --- | --- |----------------------|
+    | Mérföldkő neve | A mérföldkő neve. |Ez lesz megjelenítve első oszlopként minden olyan keresésben, amelyek az alvállalkozói sor mérföldköveken alapulnak. Az ezen mérföldkő alapján létrehozott szállítói számlasor az alvállalkozói sor mérföldkövének nevét is használja a szállító számlasorának alapértelmezett neveként.|
+    | Ismertetés | A mérföldkő leírása. |Az ezen mérföldkő alapján létrehozott szállítói számlasor az alvállalkozói sor mérföldkövének leírását is használja a szállító számlasorának alapértelmezett leírásaként.|
+    | Mérföldkő dátuma | Az a dátum, amikor az automatikus számlakészítési folyamatnak meg kell keresnie ennek a mérföldkőnek az állapotát, hogy a számlázáshoz figyelembe vegye.| Ez az érték lesz a szállító számlasorának alapértelmezett dátuma az alvállalkozói sorhoz való számlázásakor. |
+    | Mennyiség | Az ügyfélnek számlázandó mérföldkő összege vagy értéke. |Ez az érték lesz a szállító számlasorának alapértelmezett mennyisége az alvállalkozói sorhoz való számlázásakor. |
+    | Adó | A mérföldkőre alkalmazott adó összege.| Ez az érték lesz a szállító számlasorának alapértelmezett adómennyisége az alvállalkozói sorhoz való számlázásakor. |
+    | Adó utáni összeg | Ez a csak olvasható mező számítása Összeg + Adó.|Ez az érték lesz a szállító számlasorának alapértelmezettje az alvállalkozói sorhoz való számlázásakor. |
+    | Számla állapota | A mérföldkő létrehozásakor ez a státusz mindig a **Nem áll készen a számlázásra** állapotra van beállítva.|  Ha a státusz **Számlázásra kész**, a szállítói számla létrehozása során ez a mérföldkő szerepel a szállítói számlán. |
 
 5. Válassza a **Mentés és bezárás** lehetőséget.
 

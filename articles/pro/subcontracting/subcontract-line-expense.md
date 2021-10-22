@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323824"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506102"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Költségkategóriák alvállalkozói szerződéssorai
 
@@ -29,23 +29,23 @@ A Project Operations rendszerben a költségkategóriákhoz tartozó alvállalko
 
 A következő táblázat az **Alvállalkozói szerződés sorának** részletei lap és a **Gyors létrehozás** lap mezőivel kapcsolatos információkat tartalmazza.
 
-| **Mező** |  **Leírás** |
-| ----------| ---------------- |
-| Adatfolyam neve | Az alvállalkozói szerződés sorának neve. |
-| Ismertetés | Az alvállalkozói szerződéssoron vásárolt szolgáltatás- vagy termékkategóriák rövid leírása. |
-| Sor típusa | Ennek a mezőnek az alapértelmezett értéke **Mennyiségalapú**.  |
-| Számlázási mód | Az alvállalkozói szerződéssor számlázási módja. A sor számlázási módszere alapján mérföldkő alapú számlázási ütemterv áll rendelkezésre a fix áras számlázási módszerhez.  |
-| Tranzakcióosztály | Ennek a mezőnek az alapértelmezett értéke **Idő**. Ha alvállalkozói szerződéssorokat szeretne létrehozni a termékek beszerzéséhez, állítsa a **Tranzakcióosztály** mezőt **Költségre**. Ez a mezőérték azt jelzi, hogy az alvállalkozói szerződés sort a projektekben felhasználandó termék- vagy szolgáltatáskategória beszerzésének rögzítésére használják. |
-| Tranzakció kategóriája | Válassza ki a tranzakciókategóriát. |
-| Kért kezdés | Az az időpont, amikor a beszerzési kategóriáknak a szállítótól rendelkezésre kell állniuk. A kért kezdés az alvállalkozói szerződéshez csatolt projektárlisták közül a projektárlista kiválasztására szolgál. Az alvállalkozói szerződés sorában a kategória költsége alapértelmezés szerint ebből az árlistából származik. |
-| Kért végpont | Az a dátum, amikor a vásárlási kategóriákra már nincs szükség. Ez a dátum figyelmeztető jelzést ad, amikor a projektmenedzser ezt az alvállalkozói szerződéssort az ezen időpont után keltezett projektek konkrét költségbecsléseivel társítja. |
-| Megrendelt mennyiség | A szállítótól vásárolt kategória mennyisége. Ha a projektmenedzser túllépi a vásárolt mennyiséget, figyelmeztetés jelenik meg.  |
-| Egységcsoport | Ez a mező értéke alapértelmezés szerint a kiválasztott kategóriához beállított alapértelmezett egységcsoporton alapul. |
-| Kiszerelés | Ez a mező értéke alapértelmezés szerint a kiválasztott kategóriához beállított alapértelmezett egységen alapul. A kategória és az egység kombinációja az alvállalkozói szerződés sorában az egységár alapértelmezett értékének meghatározására szolgál. |
-| Egységár | Az egységár mező értéke alapértelmezés szerint az alvállalkozói szerződés sorának kért kezdésére vonatkozó projektárlistához kapcsolódó kategória és egység kombinációja.  |
-| Részösszeg | Ez a csak olvasható mező automatikusan a mennyiség egységáraként kerül kiszámításra, ha mind a mennyiség, mind az egységár értékét megadja. Ha valamelyik vagy mindkét mező üres, akkor manuálisan adhat meg egy értéket ebben a mezőben.  |
-| Forgalmi adó | Adja meg az áfa összegét.  |
-| Teljes összeg | Az alvállalkozói szerződés sorának teljes összege az adókkal együtt. Ez a mező a részösszeg + forgalmi adó összegeként kerül kiszámításra.  |
+| **Mező** | **Leírás** | **Funkcionális hatás** |
+| --- | --- | --- |
+| Adatfolyam neve | Az alvállalkozói szerződéssor neve, amely segítséget nyújt az azonosításában. | Ez lesz megjelenítve első oszlopként minden olyan keresésben, amelyek az alvállalkozói sorokon alapulnak. |
+| Ismertetés | Az alvállalkozói szerződéssorban megvásárolt költségkategóriák rövid leírása. | Egyik sem |
+|Sor típusa | Ennek a mezőnek az alapértelmezett értéke **Mennyiségalapú**. |Egyik sem |
+| Számlázási mód | Ez egy olyan értékkészlet, amely a Project Operations által támogatott két fő szerződési modelljét jelképezi: **Rögzített ár** és **Idő és anyag**. | A rögzített árú számlázási mód kiválasztása esetén a mérföldkőkalapú számlaütemezés elérhetővé válik az alvállalkozói szerződéssorok számára. |
+| Tranzakcióosztály | Ennek a mezőnek az alapértelmezett értéke **Idő**. Ha alvállalkozói szerződéssorokat szeretne létrehozni a termékek beszerzéséhez, állítsa a **Tranzakcióosztály** mezőt **Költségre**.  | Ez azt jelzi, hogy az alvállalkozói szerződéssor a projektekben használt költségkategóriák vásárlásának rögzítésére használatos. |
+| Tranzakció kategóriája | Megjeleníti a rendszerben az aktív tranzakciókategóriák listáját. |Egyik sem |
+| Kért kezdés | Adja meg azt a dátumot, amikor a vásárlási kategóriáknak elérhetőnek kell lennie a szállítótól. | A kért kezdés egy projektárlista választására használható az alvállalkozói szerződéshez csatolt projektárlistákból. Az alvállalkozói szerződéssor kategóriaköltsége az adott árlistából származik. |
+| Kért befejezése | Adja meg azt a dátumot, amikor már nem lesz szükség a vásárlási kategóriákra. | Ez figyelmeztetések megjelenítésekor használatos, amikor a projektmenedzser az alvállalkozói szerződéssort a projekt adott költségbecsléséhez társítja, amelyekre ezen dátum után van szükség. |
+| Megrendelt mennyiség | Az szállítótól megvásárolt kategória mennyisége. | Ez figyelmeztetések megjelenítésére használatos, ha a projektmenedzser túllép ezt a mennyiséget.|
+| Egységcsoport | Az alapértelmezett érték a kiválasztott kategóriához beállított alapértelmezett egységcsoporton alapul. |Egyik sem |
+| Kiszerelés | Az alapértelmezés a kiválasztott kategóriához beállított alapértelmezett egységen alapul.  | A rendszer a **Kategória** és az **Egység** kombinációját használja az alvállalkozói szerződéssor egységárának alapértelmezett vagy számított értékként.  |
+| Egységár | Az alapértelmezett érték a **Kategória** és **Egység** kombinációját használja a projektárlistához kapcsolódó kategóriaárakból, amely az alvállalkozói szerződéssor kért kezdéséhez alkalmazható. |Egyik sem |
+| Részösszeg | Ez egy csak olvasható mező, amely X mennyiség egységáraként van számítva, ha a mennyiség és az egységár is meg van adva. Ha bármelyik mező üres, akkor ebben a mezőben is megadhatja az értéket. |Egyik sem |
+| Forgalmi adó | Adja meg az áfa összegét. |Egyik sem |
+| Teljes összeg | Az alvállalkozói szerződés sorának teljes összege az adókkal együtt. Ez a mező a Részösszeg + Forgalmi adó összegeként kerül kiszámításra. |Egyik sem |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
