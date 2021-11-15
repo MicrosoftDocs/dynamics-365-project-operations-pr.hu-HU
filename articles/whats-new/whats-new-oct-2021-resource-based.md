@@ -2,17 +2,17 @@
 title: 2021. októberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 description: A témakör a Project Operations lite telepítés 2021. októberi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást az erőforrás / nem készletezett forgatókönyvekhez.
 author: sigitac
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5eb663f8b7450e4b7add6717aa717050ae94d571
-ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
-ms.translationtype: HT
+ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
+ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606771"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753295"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. októberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 

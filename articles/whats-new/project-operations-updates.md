@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623342"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783426"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -36,7 +36,7 @@ A Dynamics 365 Project Operations két összetevőből áll:
 
 | Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a Finance and Operations alkalmazások környezetében | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 A Project Operations Erőforrás/Nem készletezett forgatókönyv esetén javasoljuk, hogy a Dual Write Orchestration 2.2.2.83-es vagy újabb verzióját használja.
 
@@ -47,23 +47,23 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | Állomás | Régió | Aktuális verziószám | Az egyszerű központi telepítés automatikus frissítései | Automatikus frissítések az erőforráshoz/nem készlet alapú telepítés | Következő verziószám | A következő általánosan elérhető verzió |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Első kiadás         |  4.25.0.91      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2021. október 29.    |
+|   &nbsp;  | Első kiadás         |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 03.   |
 | 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika         |  4.25.0.91      | Teljesítés           | 2021. október 15.    | Később eldöntendő                 | 2021. október 29.    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Teljesítés           | 2021. október 15.    | Később eldöntendő                 | 2021. október 29.    |
-|   &nbsp;  | India                 |  4.25.0.91      | Teljesítés           | 2021. október 15.    | Később eldöntendő                 | 2021. október 29.    |
-|   &nbsp;  | Franciaország                |  4.25.0.91      | Teljesítés           | 2021. október 15.    | Később eldöntendő                 | 2021. október 29.    |
-|   &nbsp;  | Dél-afrikai Köztársaság          |  4.25.0.91      | Teljesítés           | 2021. október 15.    | Később eldöntendő                 | 2021. október 29.    |
+|   &nbsp;  | Dél-Amerika         |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 03.   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 03.   |
+|   &nbsp;  | India                 |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 03.   |
+|   &nbsp;  | Franciaország                |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 03.   |
+|   &nbsp;  | Dél-afrikai Köztársaság          |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 03.   |
 | 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japán                 |  4.25.0.91      | 2021. október 15.   | 2021. október 22.    | Később eldöntendő                 | 2021. november 05.   |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.25.0.91      | 2021. október 15.   | 2021. október 22.    | Később eldöntendő                 | 2021. november 05.   |
-|   &nbsp;  | Nagy-Britannia         |  4.25.0.91      | 2021. október 15.   | 2021. október 22.    | Később eldöntendő                 | 2021. november 05.   |
-|   &nbsp;  | Óceánia               |  4.25.0.91      | 2021. október 15.   | 2021. október 22.    | Később eldöntendő                 | 2021. november 05.   |
-|   &nbsp;  | Egyesült Arab Emírségek  |  4.25.0.91      | 2021. október 15.   | 2021. október 22.    | Később eldöntendő                 | 2021. november 05.   |
+|   &nbsp;  | Japán                 |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 10.   |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 10.   |
+|   &nbsp;  | Nagy-Britannia         |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 10.   |
+|   &nbsp;  | Óceánia               |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 10.   |
+|   &nbsp;  | Egyesült Arab Emírségek  |  4.26.0.145     | 2021. november 12.  | 2021. november 19.   | Később eldöntendő                 | 2021. december 10.   |
 | 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.14.0.99      | Teljesítés           | Teljesítés            | 4.25.0.91           | 2021. október 15.    |
+|   &nbsp;  | Európa                |  4.25.0.91      | Teljesítés           | Teljesítés            | 4.26.0.145          | 2021. november 12.   |
 | 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika         |  4.14.0.99      | Teljesítés           | 2021. október 08.    | 4.25.0.91           | 2021. október 22.    |
+|   &nbsp;  | Észak-Amerika         |  4.25.0.91      | Teljesítés           | Teljesítés            | 4.26.0.145          | 2021. november 19.   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A Projektmenedzsment és a könyvelés kiadási ütemezése a Finance and Operations alkalmazások környezetében
@@ -72,14 +72,15 @@ A Projektmenedzsment és könyvelés frissítései évente nyolc alkalommal ker�
 
 |Támogatott verzió| Előzetes verzió elérhetősége (PEAP) | Nyilvánosan elérhető (önkiszolgáló frissítés) | Automatikus frissítés ütemezése (via LCS frissítései beállításokon keresztül) – éles üzem kezdő dátuma |   Életciklus vége   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      2021. szeptember 3.      |        2021. október 22.           |                          2021. november 5.                            | 2022. január 14.   |
 |    10.0.21      |         2021. augusztus 02.     |           2021. szeptember 17.      |                             2021. október 1.                          |  2021. december 10. |
-|    10.0.20      |         2021. május 28.        |           2021. július 16.           |                             2021. július 30.                            |  2021. október 22.  |
+
 
 A tervezett kiadási dátumok változhatnak. További információkért tekintse meg: [Szolgáltatási frissítések megjelenése](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Célzott verzió | Előzetes verzió elérhetősége (PEAP) | Nyilvánosan elérhető (önkiszolgáló frissítés) | Automatikus frissítés ütemezése (via LCS frissítései beállításokon keresztül) – éles üzem kezdő dátuma |   Életciklus vége   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      2021. szeptember 3.      |          2021. október 22.         |                           2021. november 5.                           |  2022. január 14.  |
 |     10.0.23     |      2021. október 15.       |        2021. december 10.          |                          2021. december 31.                           | 2022. március 18.     |
+|     10.0.24     |      2021. december 3.       |        2022. január 14.           |                          2022. február 4.                            | 2022. április 15.     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

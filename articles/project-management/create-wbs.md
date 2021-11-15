@@ -2,16 +2,16 @@
 title: Munkalebontási struktúra létrehozása
 description: Ez témakör ismerteti, hogyan lehet létrehozni az új ütemezési felületen a munkalebontási struktúrát (WBS) az alapvezérlők számára.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998734"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655420"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Munkalebontási struktúra (WBS) létrehozása
 
@@ -117,5 +117,26 @@ A feladat mód nincs hatással a korábbi/függő feladatok kezdő és befejező
 
 Az **Ütemezés** rács teljesen elérhető és képernyőolvasókkal, például a Narrátorral, JAWS vagy NVDA programokkal használható. A rácsterületen nyílbillentyűkkel mozoghat (a Microsoft Excel programhoz hasonlóan ), a Tab billentyű segítségével léphet tovább az interaktív felhasználói felület elemein, a lefelé mutató nyíl, az Enter vagy a szóköz segítségével választhat és lenyithatja a legördülő menüket.
 
+## <a name="project-limitations"></a>Projekkorlátozások 
+Ha a Project Operations alkalmazásban a munkalebontási struktúrát használja, ismernie kell a következő korlátozásokat. Ezek a határértékek projektekre és feladatokra vonatkoznak. További tudnivalókért lásd: [Project for the web korlátok és határok](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Mező**                                          |  **Korlát**           |
+|----------------------------------------------------|----------------------|
+| Projekt maximális összfeladata                  | 500                  |
+| Projekt maximális összidőtartama               | 3650 nap (10 év) |
+| Maximális teljes erőforrás egy projekthez              | 150                  |
+| A linkek maximális száma (csak utód) egy projekthez | 600                  |
+| Maximális teljes egyéni mezők egy projekthez          | 10                   |
+
+**Feladatkorlátozások**
+
+| **Mező**                               |   **Korlát**           |
+|-----------------------------------------|-----------------------|
+| Maximális hierarchiaszint                 | 10 szint             |
+| Maximális hivatkozások (utód + előzmény) | 20                    |
+| A feladat maximális időtartama           | 1250 nap             |
+| Az összesítő feladat maximális időtartama      | 3650 nap (10 év)  |
+| Egy feladathoz rendelt maximális erőforrások    | 20 erőforrás          |
+| Támogatott dátumtartomány egy feladathoz         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

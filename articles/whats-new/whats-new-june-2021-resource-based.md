@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003864"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679212"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2021. júniusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
 
@@ -30,6 +30,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 - Lehetőség a [Projektszámla-javaslat sorok korrekciós esetekre](../invoicing/correct-project-invoice-proposals.md).
 - Az elemi költségsorok az alkategóriák neveit tükrözik a költségjelentésben [Újragondolt és új szolgáltatások a költségjelentésekben](../expense/expense-reports-reimagined.md#new-features).
 - Új költség létrehozásakor a fizetési mód az új költségmezőn elérhető.
+- A projekt ütemezési API-k általános elérhetősége. Ez az új funkció lehetővé teszi, hogy az ügyfelek programon keresztül létrehozzanak, frissítsenek vagy töröljenek műveleteket a projektfeladatokkal, erőforrás-hozzárendelésekkel, feladat függőségekkel és projektcsoporttag-bejegyzésekkel. További tudnivalók: [A Projektütemezési API-k használata műveletek végrehajtásához az entitások ütemezésével](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 

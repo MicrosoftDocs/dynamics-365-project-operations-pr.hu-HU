@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Szállítói számla integrációja
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: A Dynamics 365 Project Operations eltávolítása
+          href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
         - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektütemezési API-k használata
               href: project-management/schedule-api-preview.md
+            - name: Projektütemezési API teljesítménye
+              href: project-management/project-schedule-api-performance.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektütemezési API-k használata
               href: project-management/schedule-api-preview.md
+            - name: Projektütemezési API teljesítménye
+              href: project-management/project-schedule-api-performance.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -1102,15 +1108,17 @@
       items:
         - name: A Project Service 3.x kiadási ütemezésének frissítése
           href: psa/version-history-ps.md
-        - name: A 36-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+        - name: A 37-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-37.md
+        - name: A 36-os frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-36.md
         - name: A 35-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-35.md
         - name: A 34-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-34.md
-        - name: A 33-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+        - name: A 33-as frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-33.md
-        - name: A 32.5-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+        - name: A 32.5-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-32-5.md
         - name: A 32-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-32.md
