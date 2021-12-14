@@ -1,6 +1,6 @@
 ---
 title: A Project Service 3.x frissítési kiadási ütemezése
-description: Ez a témakör a Dynamics 365 Project Service Automation rendelkezésre álló és következő kiadásairól tartalmaz információkat.
+description: Ez a témakör tájékoztatást nyújt a Dynamics 365 Project Service Automation rendelkezésre álló és közelgő kiadásairól.
 ms.custom: dyn365-projectservice
 ms.date: 10/04/2021
 ms.reviewer: kfend
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
-ms.translationtype: MT
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773589"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892183"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>A Project Service 3.x frissítési kiadási ütemezése
 
@@ -37,8 +37,8 @@ ms.locfileid: "7773589"
 
 | Megoldás  | Legutóbbi verzió |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
-| A Project Service Automation asztali bővítmény                | 3.15          |
+| Project Service Automation    | 3.10.58.130 |
+| A Project Service Automation asztali bővítmény                | 3.15.          |
 
 A Project Service frissítéseivel kapcsolatos információkért keresse fel a [Dynamics 365 kibocsátási terveket](/dynamics365/release-plans/). 
 
@@ -55,18 +55,18 @@ A Project Service frissítéseivel kapcsolatos információkért keresse fel a [
 | | <i>Németország</i> | [3.10.58.120](whats-new-ur-37.md) | Később eldöntendő | 2021. december 10.
 | | <i>Svájc</i> | [3.10.58.120](whats-new-ur-37.md) | Később eldöntendő | 2021. december 10.
 |<strong>3. állomás</strong> | |  |  | |
-| | <i>Japán</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. november 12.
-| | <i>Ázsia és a Csendes-óceáni térség</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. november 12.
-| | <i>Nagy-Britannia</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. november 12.
-| | <i>Óceánia</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. november 12.
-| | <i>Egyesült Arab Emírségek</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. november 12.
+| | <i>Japán</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2021. december 17.
+| | <i>Ázsia és a Csendes-óceáni térség</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2021. december 17.
+| | <i>Nagy-Britannia</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2021. december 17.
+| | <i>Óceánia</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2021. december 17.
+| | <i>Egyesült Arab Emírségek</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2021. december 17.
 |<strong>4. állomás</strong> | |  |  | |
-| | <i>Európa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. november 19.
+| | <i>Európa</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2022. január 07.
 |<strong>5. állomás</strong> | |  |  | |
-| | <i>Észak-Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. december 03.
+| | <i>Észak-Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2022. január 14.
 |<strong>6. állomás</strong> | |  |  | |
-| | <i>Kormányzati közösségi felhő</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. december 03.
-| | <i>Dedikált méretcsoportok</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021. december 10.
+| | <i>Kormányzati közösségi felhő</i> | [3.10.58.130](whats-new-ur-37-5.md) | Később eldöntendő | 2022. január 14.
+| | <i>Dedikált méretcsoportok</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021. december 10.
 
 
 

@@ -2,7 +2,7 @@
 title: Költségekkel kapcsolatos mobilalkalmazás
 description: Ez a témakör a Költségkezelés mobilos munkaterület használatáról nyújt információkat.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993199"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818186"
 ---
 # <a name="mobile-expense-app"></a>Költségekkel kapcsolatos mobilalkalmazás
 
@@ -47,47 +47,14 @@ A következő funkciók ugyancsak rendelkezésre állnak:
 - Küldjön be költségjelentés jóváhagyásra és a költségek visszatérítéséhez.
 - Hagyja jóvá vagy utasítsa el azokat a költségjelentéseket, amelyeknek Ön a hozzárendelt jóváhagyója.
 
-## <a name="prerequisites"></a>Előfeltételek
-Az előfeltételek a szervezetnél használt verziótól függően eltérnek.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek, ha Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek a Dynamics 365 Finance használata esetén 
 Ha a szervezet a Finance rendszert használja, a rendszergazdának közzé kell tennie a **Költségkezelés** mobilos munkaterületet. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Előfeltételek az 1611-es verzió 3. vagy újabb platformfrissítéssel való használata esetén
-Ha a szervezet az 1611-es verziót telepítette 3. vagy újabb platformfrissítéssel, akkor a rendszergazdának a következő előzetes műveleteket kell elvégeznie. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Előfeltétel</th>
-<th>Szerepkör</th>
-<th>Adatfolyam leírása</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Telepítse a KB 4019015 elemet.</td>
-<td>Rendszergazda</td>
-<td>A KB 4019015 olyan X++-frissítés vagy -metaadat-gyorsjavítás, amely a <strong>Költségkezelés</strong> mobilos munkaterületet tartalmazza. A KB 4019015 megvalósításához a rendszergazdának az alábbi lépéseket kell követnie.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Töltse le a frissítéseket a Lifecycle Servicesből</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Telepítse a metaadat-gyorsjavítást</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Hozzon létre egy olyan telepíthető csomagot,</a> amely tartalmazza az <strong>ApplicationSuite</strong> és az <strong>ExpenseMobile</strong> modellt, majd töltse fel a telepíthető csomagokat az LCS-re.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Alkalmazza a telepíthető csomagot</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Tegye közzé a <strong>Költségkezelés</strong> mobilos munkaterületet.</td>
-<td>Rendszergazda</td>
-<td>Lásd: <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil munkaterület közzététele</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése
 A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
-- [Android rendszerű telefonokhoz](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Android telefonokhoz](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone-okhoz](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Bejelentkezés a mobilalkalmazásba
@@ -103,11 +70,11 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 3. Válassza a **Fénykép készítése** vagy a **Kép kiválasztása** lehetőséget.
 4. Hajtsa végre az alábbi lépések egyikét:
 
-   - Ha a **Fénykép készítése** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
+    - Ha a **Fénykép készítése** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
 
-      1. A mobileszköz kamerájával tud fényképet készíteni a nyugtáról. 
-      2. Ha elkészült a fénykép, az elfogadásához válassza az **OK** lehetőséget.
-      3. Nem kötelező: Adjon nevet a fényképnek, és adjon hozzá megjegyzést.
+        1. A mobileszköz kamerájával tud fényképet készíteni a nyugtáról. 
+        2. Ha elkészült a fénykép, az elfogadásához válassza az **OK** lehetőséget.
+        3. Nem kötelező: Adjon nevet a fényképnek, és adjon hozzá megjegyzést.
 
     - Ha a **Kép kiválasztása** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
 
@@ -133,20 +100,20 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 10. Válassza a **Kész** lehetőséget.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Költségjelentés jóváhagyása a Költségkezelés mobilos munkaterület használatával (ha a 2017. júliusi frissítést használja)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Költségjelentés jóváhagyása a Költségkezelés mobil munkaterület használatával
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. A **Kiadások jóváhagyása** részen látható, hogy hány költségjelentést rendeltek Önhöz jóváhagyásra. A szám hozzávetőlegesen 30 percenként frissül. Válassza a **Kiadások jóváhagyása** lehetőséget.
 
     Megjelenik az Önhöz jóváhagyásra rendelt költségjelentések listája.
-    
+
 3. A költségjelentés kiválasztásával megtekintheti a költség részleteit.
 4. A költség részleteinek megtekintéséhez válasszon ki egy költséget. A költséghez megjelenített információk között a nyugták, a vendégek és a tételezés részletei is szerepelnek.
 5. A **Költségjelentés** oldalon válassza ki, hogy jóváhagyja-e vagy elutasítja-e a költségjelentést.
 6. Adja meg az esetleges megjegyzéseket a jóváhagyási művelethez.
 7. Válassza a **Kész** lehetőséget.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Új költségjelentés létrehozása és beküldése jóváhagyásra a Költségkezelés mobilos munkaterület használatával (ha a 2017. júliusi frissítést használja)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Hozzon létre egy új költségjelentést, és küldje el jóváhagyásra a Költségkezelés mobil munkaterület használatával
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. Válassza a **Költségbevitel** lehetőséget.
@@ -184,12 +151,12 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
                     1. A listáról válasszon ki egy képet.
                     2. Nem kötelező: Adjon nevet a képnek, és adjon hozzá megjegyzést.
 
-            3.  Válassza a **Kész** lehetőséget.
+            3. Válassza a **Kész** lehetőséget.
 
         - Ha a **Nyugta csatolása** lehetőséget választotta, hajtsa végre az alábbi lépéseket:
 
-            1.  Válasszon ki egy vagy több képet a listából.
-            2.  Válassza a **Kész** lehetőséget.
+            1. Válasszon ki egy vagy több képet a listából.
+            2. Válassza a **Kész** lehetőséget.
 
     3. A **Vissza** gombbal térjen vissza a költség részleteihez.
 
@@ -235,5 +202,30 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 23. Adja meg a jóváhagyó számára az esetleges megjegyzéseket.
 24. Válassza a **Kész** lehetőséget.
 
+## <a name="frequently-asked-questions"></a>Gyakori kérdések
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miért nem adja meg alapértelmezés szerint a Költség mobilalkalmazás a fizetési módot?
+
+A szervezetek a létrehozáskor testreszabhatják az **alapértelmezett fizetési mód** beállítását az egyes költségkategóriákhoz. Emellett a fizetési módok beállításakor beállíthatja az **Alapértelmezett fizetési mód mezőt csak Importálás** **értékre**.
+
+Ha **az Importálás csak fizetési mód esetén** engedélyezve van, a rendszer alapértelmezés szerint nem ik meg a fizetési módot. Üres lesz azokban a költségkategóriákban, ahol ez a fizetési mód be van állítva. Ez a viselkedés következetes mind a webes élményben, mind a mobil élményben.
+    
+Ha **az Importálás csak fizetési mód esetén nincs** engedélyezve, a rendszer alapértelmezés szerint a program a költségkategóriákba írja be a beállított értéket, ahol ez a fizetési mód be van állítva. Van azonban egy ismert probléma, amely miatt az alapértelmezett érték nincs megadva a Költség mobilalkalmazásban. A probléma kezeléséhez manuálisan válasszon ki egy fizetési módot a költségjelentés mentése előtt. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miért nem tudok pénzügyi dimenziókat hozzáadni vagy szerkeszteni a Költség mobilalkalmazásban?
+
+A dimenziók és eloszlások bevitele nem támogatott. A korlátozás megkerülése érdekében ezeket a mezőket alapértelmezés szerint beállíthatja a mobilalkalmazásban az alapértelmezett pénzügyi dimenziók projekten vagy alkalmazottanként történő beállításával.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miért látok néha szinkronizálási hibát a Költség mobilalkalmazásban?
+
+Ha a költségsorok nem felelnek meg a házirend-követelményeknek, és a felhasználó a házirend-figyelmeztetés kezelése nélkül nyújtja be a költségjelentést, a mobiladatok nincsenek szinkronizálva a kiszolgálóval, és szinkronizálási hiba lép fel. A szinkronizálási hiba bekövetkezése után elküldött összes költségjelentés sikertelen állapotban marad, és további szinkronizálási hibákat okoz. A helyzet megoldásának egyetlen módja a szinkronizálási értesítések manuális törlése. Ezt a problémát úgy oldottuk meg, hogy a házirend-figyelmeztetések kezelésekor leállítottuk a költségjelentések benyújtását, így elkerülhetők a szinkronizálási hibák.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miért nem tükröződik megfelelően a projekt- és kategóriaérvényesítés a Költség mobilalkalmazásban?
+
+Ez az ellenőrzés jelenleg nem támogatott. A jövőben azonban támogatás is hozzáadható. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Milyen dokumentumtípusokat támogat a Költség mobilalkalmazás?
+
+A Költség mobilalkalmazás csak a képeket támogatja. Jelenleg nem támogatja a PDF-fájlokat vagy más dokumentumokat.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

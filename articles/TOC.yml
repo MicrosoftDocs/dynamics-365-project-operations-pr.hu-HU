@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
+        - name: 2021. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projektütemezési API teljesítménye
               href: project-management/project-schedule-api-performance.md
+            - name: Projektütemezési naplók
+              href: project-management/schedule-api-logs.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -544,6 +548,8 @@
       items:
         - name: Újdonságok 2021 2. hullám korai hozzáférés – Egyszerű telepítés
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Újdonságok 2021. novemberben – egyszerű telepítés
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Újdonságok 2021. októberben – egyszerű telepítés
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Újdonságok 2021. szeptemberben – egyszerű telepítés
@@ -952,6 +958,10 @@
   items:
     - name: Újdonságok
       items:
+        - name: Újdonságok 2021. októberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Újdonságok 2021. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Újdonságok 2021. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Újdonságok 2021. májusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
@@ -1108,6 +1118,8 @@
       items:
         - name: A Project Service 3.x kiadási ütemezésének frissítése
           href: psa/version-history-ps.md
+        - name: A 37.5-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-37-5.md
         - name: A 37-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-37.md
         - name: A 36-os frissítési kiadás V3 verziójának újdonságai vagy változásai
