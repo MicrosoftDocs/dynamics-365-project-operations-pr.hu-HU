@@ -2,16 +2,16 @@
 title: Munkalebontási struktúra létrehozása
 description: Ez témakör ismerteti, hogyan lehet létrehozni az új ütemezési felületen a munkalebontási struktúrát (WBS) az alapvezérlők számára.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655420"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928618"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Munkalebontási struktúra (WBS) létrehozása
 
@@ -95,11 +95,11 @@ Rendszergazdaként egyéni mezőket definiálhat a feladatentitáson. A mezők a
 
 ## <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
-A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.
+A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.  Ha erőforrást keres a tevékenységrács, a táblanézet vagy a gantt erőforrás-szedővel, a keresés a meglévő projektcsapat tagjait vagy az aktív foglalható erőforrásokat adja vissza.
 
 A **Szerepkör**, az **Erőforrásbiztosító egység** és a **Pozíció neve** mezők a feladat személyzeti követelményeinek leírására szolgálnak. A személyzeti attribútumokat és a feladatütemezést a rendelkezésre álló erőforrások megkeresésére használják az adott feladat végrehajtásához.
 
-   - **Szerepkör**: Adja meg a feladat elvégzéséhez szükséges erőforrás típusát.
+   - **Szerepkör** : Adja meg a tevékenység elvégzéséhez szükséges erőforrás típusát.,
    - **Erőforrásbiztosító egység**: Adja meg azt az egységet, ahonnan megtörténik az erőforrások hozzárendelése a feladathoz. Ez az attribútum befolyásolja a feladat költség- és értékesítési becslését, ha az erőforrás költségét és számlamértékét erőforrásbiztosító egységek alapján állítják be.
    - **Pozíció neve**: Adjon meg egy nevet az általános erőforrás számára, hogy a név helyőrzőjeként szolgáljon azon erőforrás számára, amely végül elvégzi majd a munkát.
 
@@ -127,6 +127,7 @@ Ha a Project Operations alkalmazásban a munkalebontási struktúrát használja
 | Maximális teljes erőforrás egy projekthez              | 150                  |
 | A linkek maximális száma (csak utód) egy projekthez | 600                  |
 | Maximális teljes egyéni mezők egy projekthez          | 10                   |
+| Tevékenységenként maximális ellenőrzőlista-elemek                   | 20                   |
 
 **Feladatkorlátozások**
 

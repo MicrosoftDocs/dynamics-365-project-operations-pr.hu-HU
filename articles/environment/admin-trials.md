@@ -2,16 +2,16 @@
 title: Regisztrálás a Project Operations próbaverziókra
 description: Ez a témakör a Dynamics 365 Project Operations próbaverziójának telepítésével kapcsolatos információkat tartalmazza.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599216"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901620"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Regisztrálás a Project Operations próbaverziókra 
 
@@ -90,7 +90,8 @@ Mielőtt elkezdené, jelentkezzen be egy böngészőbe a felhasználói munkafi�
 4.  A telepítés ellenőrzéséhez válassza ki a megfelelő Microsoft Dataverse URL-címet és a Finance and Operations alkalmazások URL-címekeit.
 
 ## <a name="configuring-dual-write"></a>Kettős írás beállítása
-Kizárólag nem készletezett anyagok telepítése esetén konfigurálja a kettős írási hozzárendeléseket. További információért lásd: [Project Operations kettős írásos térképverziók](resource-dual-write-maps.md).
+- A kettős írás biztonsági szerepkörei konfigurálásához olvassa el a [Project Operations biztonsági beállításainak frissítése a programban című témakört Dataverse](resource-provision-new-environment.md).
+- A kettős írású térképek konfigurálásához olvassa el a [Projektműveletek futtatása kettős írási leképezések című témakört](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licencek hozzárendelése
 

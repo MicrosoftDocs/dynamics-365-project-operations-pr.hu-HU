@@ -1,8 +1,8 @@
 ---
-title: Költségjelentések újragondolva
+title: Költségjelentések újragondolva (videót tartalmaz)
 description: Ez témakör a költségjelentések bejegyzésének átalakított és újragondolt élményét ismerteti.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997834"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941051"
 ---
 # <a name="expense-reports-reimagined"></a>Költségjelentések újragondolva
 
@@ -58,6 +58,7 @@ Az új élmény bekapcsolásához a **Szolgáltatáskezelés** munkaterületen k
 | Új kiadási sorok mentése és hozzáadása | A **Mentés** és az **Új** gombok új kiadások beírása esetén elérhetők, hogy gyorsabban megadhassa a kiadási sorokat. |
 | Jobb láthatóság a felosztott és a tételezett sorokban | A tételezett és a felosztott sorok hozzá lettek adva közvetlenül a kiadások listájához, és segítségükkel könnyebben megállapíthatja, hogy vannak-e hibák. |
 | Alkategóriák részleteinek megtekintése elemi sorokban | A fölérendelt költség elemezett sorai az alkategóriák címkéit mutatják a költségjelentésen. Az elemek részletezése segítségével egy pillantással áttekintheti a részletes információkat.|
+|Az ismétlődő költségek gyors tétele | Az újragondolt költség-munkaterület lehetővé teszi az ismétlődő költségek gyors részletezését az alkategória, a kezdési dátum és a mennyiség hozzáadásával. A mennyiség arra utal, hogy a töltés hányszor ismétlődik meg egy folyamatos időszakban. |
 | Bizonylatok megjelenítése a tételezés során | A bizonylatok megjeleníthetők a tételezés. |
 | Készpénzelőleg kiválasztása | Jelöljön ki egy vagy több készpénzelőleget egyetlen költségtranzakció teljesítéséhez. |
 | Készpénzelőleg egyenlege | Amikor költségbejegyzést hoz létre a jóváhagyott és a kifizetett készpénzelőlegek alapján, valós időben áttekinti a készpénzelőlegek egyenlegét. |
