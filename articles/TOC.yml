@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations-frissítések
       href: whats-new/project-operations-updates.md
+    - name: Eltávolított vagy elavult funkciók
+      items:
+        - name: Eltávolított vagy elavult funkciók a Project Operations alkalmazásban
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
   items:
     - name: Első lépések
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
+        - name: 2021. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Futásteljesítmény beállítása futásteljesítmény-szintek használatával
               href: expense/set-up-mileage.md
+        - name: Költségrészletezés
+          href: prod-exp/expense-itemization.md
         - name: Személyes költségek
           href: expense/personal-expenses-expense-report.md
         - name: Vállalatközi költségek
@@ -530,7 +538,13 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Bevételi becslések kezelése
           href: revenue-recognition/rev-rec-completed-contract-method.md
-- name: Egyszerű központi telepítés – ajánlattól proforma számlázásig
+    - name: Hibaelhárítás
+      items:
+        - name: Projekt értékesítési folyamata
+          items:
+            - name: 'Nem megegyező pénznemek hibaüzenete projekt, szerződés, árajánlat vagy foglalható erőforrás létrehozásakor'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
+- name: Egyszerű központi telepítés – ügylettől proforma számlázásig
   items:
     - name: Első lépések
       items:
@@ -546,9 +560,11 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2021 2. hullám korai hozzáférés – Egyszerű telepítés
+        - name: 'Újdonságok 2021 2. hullám, korai hozzáférés – egyszerű központi telepítés'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Újdonságok 2021. novemberben – egyszerű telepítés
+        - name: Újdonságok 2021. decemberben – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: Újdonságok 2021. novemberben – egyszerű központi telepítés
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Újdonságok 2021. októberben – egyszerű telepítés
           href: pro/whats-new/whats-new-oct-2021-lite.md
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Alvállalkozóiszerződéssor-mérföldkövek
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Alvállalkozóiprojektcsoporttag-regisztráció
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Alvállalkozói lehetőségek projektcsoporttagok számára
+          href: pro/subcontracting/subcon-options.md
+        - name: Az alvállalkozók erőforrás-hozzárendelései költségeinek becslése
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Ütemezési tábla konfigurálása a szerződéses alkalmazottak és az alvállalkozói szerződésben rögzített kapacitás megjelenítéséhez
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projekt felszerelése szerződéses alkalmazottakkal és az alvállalkozói szerződésben rögzített kapacitással
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Az alvállalkozói szerződésben rögzített összetevők felvételi ideje, költségei és anyagfelhasználása'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Állapotátváltások az alvállalkozói szerződésben
+          href: pro/subcontracting/subcon-states.md
     - name: Idő
       items:
         - name: Idő áttekintése
@@ -1116,9 +1146,11 @@
       href: psa/overview.md
     - name: Újdonságok
       items:
-        - name: A Project Service 3.x kiadási ütemezésének frissítése
+        - name: A Project Service 3.x frissítési kiadásának ütemezése
           href: psa/version-history-ps.md
-        - name: A 37.5-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+        - name: A 38-as frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-38.md
+        - name: A 37.5-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-37-5.md
         - name: A 37-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-37.md
@@ -1198,15 +1230,17 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Alapszintű árajánlat-készítési, árképzési és számlázási útmutató.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Haladó árajánlat-készítési, árképzési és számlázási útmutató'
+        - name: 'Haladó árajánlatkészítési, árképzési és számlázási útmutató'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Erőforráskezelési útmutató
           href: psa/implementation-guides/resource-management-guide.md
-        - name: Jelentéskészítő útmutató
+        - name: Jelentéskészítési útmutató
           href: psa/implementation-guides/reporting-guide.md
+    - name: Frissítés a Project Service Automation szolgáltatásról Project Operations alkalmazásra – Lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation frissítése (3.x alkalmazásverzió)
       items:
-        - name: A Project Service Automation frissítése
+        - name: Project Service Automation frissítése
           href: psa/upgrade-psa-home-page.md
         - name: Frissítéssel kapcsolatos szempontok – frissítés a 2.x vagy 1.x verzióról a 3. verzióra
           href: psa/upgrade-v3.md
