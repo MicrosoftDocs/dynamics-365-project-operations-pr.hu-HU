@@ -2,16 +2,18 @@
 title: Projektalapú árajánlatsorok számlaütemezései
 description: Ez a témakör a számlaütemezések és az árajánlatsorok mérföldköveinek létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988609"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180825"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektalapú árajánlatsorok számlaütemezései
 
@@ -66,6 +68,3 @@ Nyissa meg azt a rögzített áras árajánlatsort, ahol a mérföldkő-ütemez�
 | Számla állapota | Gyorslétrehozás | Mérföldkő létrehozásakor az állapot mindig a **Nem kész a számlázásra** állapotra van beállítva. | Ez továbbításra kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
 | Sor összege | Gyorslétrehozás | Az ügyfélnek számlázott mérföldkő összege vagy értéke. | Ez továbbításra kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
 | Adó | Gyorslétrehozás | A mérföldkőre alkalmazandó adó összege. | Ez továbbításra kerül a projekt szerződéssor-mérföldkövéhez és a számlához. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

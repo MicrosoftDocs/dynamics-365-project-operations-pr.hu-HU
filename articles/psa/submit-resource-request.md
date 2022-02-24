@@ -1,6 +1,8 @@
 ---
 title: Erőforrás-kérés benyújtása
 description: Ez a témakör információkat nyújt a projekt erőforrás iránti kérelem benyújtásáról.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985009"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149726"
 ---
 # <a name="submitting-a-resource-request"></a>Erőforrás-kérés benyújtása
 
@@ -34,11 +36,8 @@ A létrehozott erőforrás-igényt erőforrás-kérésként is beadhatja. Ezutá
 1. A Project Service Automation (PSA) rendszerben a **Projektek** oldalon kattintson a **Csapat** fülre, hogy megtekintse a foglalható erőforrások listáját. 
 2. Válassza ki a listából az általános erőforrást, amely rendelkezik erőforrás-követelménnyel, majd kattintson a **Kérés benyújtása** elemre.
 
-![Erőforrás-kérés benyújtása.](media/RM-how-to-18.png)
+![Erőforrás-kérés benyújtása](media/RM-how-to-18.png)
 
 Az általános csapattag kérésének státusza **Benyújtott** lesz.
 
 Miután a kérést az erőforrás-kezelő teljesítette, az általános erőforrást egy megnevezett erőforrás váltja fel, ha az erőforrás-kezelő egy megnevezett erőforrás lefoglalásával teljesíti a kérést. Ellenkező esetben az általános erőforrás a csapaton marad, és a kérés állapota **Áttekintés szükséges** értékre változik , ha az erőforrás-kezelő egy megnevezett erőforrást javasolt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

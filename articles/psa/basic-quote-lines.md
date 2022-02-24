@@ -2,6 +2,8 @@
 title: Árajánlatok és árajánlatsorok
 description: Ez a témakör az árajánlatkról és az áranjánlatsorokról tartalmaz információkat.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995449"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145129"
 ---
 # <a name="quotes-and-quote-lines"></a>Árajánlatok és árajánlatsorok
 
@@ -84,7 +86,7 @@ A professzionális szolgáltatást végző szervezetek általában a költségek
 
 Ezen tranzakcióosztályok egyike vagy ezek közül több is társítható az egyes árajánlatsorokkal. Az árajánlat megszerzése után a tranzakcióosztályozás és az árajánlatsor közötti leképezés a szerződéssorhoz kerül.
  
-> ![Képernyőkép a tranzakciótípusok árajánlatokra és szerződéssorokra való leképezéséről.](media/basic-guide-5.png)
+> ![Képernyőkép a tranzakciótípusok árajánlatokra és szerződéssorokra való leképezéséről](media/basic-guide-5.png)
   
 Előfordulhat például, hogy egy árajánlat a következő két ajánlatsort tartalmazza: 
 - Az idő- és anyagelszámolású számlázási módszert használó konzultációs munka, ahol alkalmazható az idő- és a díj tranzakcióosztálya. Például a **Dynamics AX-megvalósítással** kapcsolatos összes idő- és díjtranzakciót a rendszer az ügyfélnek számlázza a felhasznált idő és anyag alapján. 
@@ -129,6 +131,3 @@ Rögzített árú árajánlatsor esetén a **Számla ütemezése** rács haszná
 - Az egyenlően eloosztott számlázási mérföldkövek létrehozásához válassza ki a számlázás gyakoriságát, írja be a számlázás kezdési dátumát az árajánlatsorba, és válassza a **Kért teljesítési dátumot** az árajánlatsor fejlécének **Összegzés** szakaszában. Ezután válassza az **Időszakos mérföldkövek létrehozása** lehetőséget a kiválasztott számlázási gyakoriság alapján egyformán elosztott mérföldkövek létrehozásához. 
 - Ha átalányösszegű számlázási mérföldkövet szeretne létrehozni, hozzon létre egy mérföldkövet, majd adja meg az árajánlatsor értékét a mérföldkő összegeként.
 - Ha a projektterv adott feladatain alapuló számlázási mérföldköveket szeretne létrehozni, hozzon létre mérföldkőet, és képezze le a projekt ütemezési elemére a számlázási mérföldkő felhasználó felületén.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

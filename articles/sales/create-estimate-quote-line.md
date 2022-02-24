@@ -2,9 +2,11 @@
 title: Becslések létrehozása egy árajánlatsorban
 description: Ez a témakör azt ismerteti, hogyan lehet becslést létrehozni egy árajánlatsorban egy projekthez.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122931"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Becslések létrehozása egy árajánlatsorban
 
@@ -28,7 +30,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 Projektalapú árajánlatok esetén az Ajánlat sor részleteit felhasználva becsülheti meg a projekt végrehajtásához szükséges munkát. Ezután megoszthatja ezt a becslést az ügyféllel.
 
-A projektalapú árajánlati soroknak nem kell tartalmazniuk árajánlati sorok részleteit. Alternatív megoldásként sok árajánlati sorrészletet is tartalmazhatnak. Az árajánlati részleteit az idő, a költségek vagy a díjak becslésére használják. A Dynamics 365 Project Operations nem engedélyezi az árajánlati sor részleteiben az anyagok becslését. Ezeket tranzakciós osztályoknak nevezzük. A becsült adóösszegek tranzakciós osztályba is felvihetők.
+A projektalapú árajánlati soroknak nem kell tartalmazniuk árajánlati sorok részleteit. Alternatív megoldásként sok árajánlati sorrészletet is tartalmazhatnak. Az árajánlati részleteit az idő, a költségek vagy a díjak becslésére használják. A Dynamics 365 Project Operations az árajánlatsor részleteiben nem engedélyezi az anyagok becslését. Ezeket tranzakciós osztályoknak nevezzük. A becsült adóösszegek tranzakciós osztályba is felvihetők.
 
 A tranzakciós osztályokon kívül az ajánlati sorok részletei tranzakciótípust is tartalmaznak. Az árajánlatsorok részleteihez két tranzakciótípus támogatott: a **Költség** és a **Projektszerződés**.
 
@@ -86,6 +88,3 @@ Ha hozzáadott egy egyéni mezőt az árajánlat sorrészleteihez, és azt akarj
 7. A párbeszédpanel bezárásához válassza az **OK** lehetőséget, majd válassza a **Lépés frissítése** lehetőséget.
 8. Ismételje meg az 1-7. lépéseket a második modullal.
 9. Zárja be a PluginRegistrationTool eszközt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

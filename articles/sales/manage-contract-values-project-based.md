@@ -2,20 +2,22 @@
 title: Projektalapú szerződéssorok használata
 description: Ez a témakör információkat nyújt a projektalapú szerződéssorokról.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990049"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181724"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Projektalapú szerződéssorok használata
 
-A Dynamics 365 Project Operations szerződéssorai úgy vannak kialakítva, hogy tárolják a becsléseket és számlázási megállapodásokat a projektmunka adott komponenseire egy aktivitásban. A projektalapú szerződéssorok felépítése a projektek becsült és számlázási helyzetére vonatkozóan a következő fogalmakkal bővül:
+A Dynamics 365 for Operations szerződéssorai úgy vannak kialakítva, hogy tárolják a becsléseket és számlázási megállapodásokat a projektmunka adott komponenseire egy aktivitásban. A projektalapú szerződéssorok felépítése a projektek becsült és számlázási helyzetére vonatkozóan a következő fogalmakkal bővül:
 
 - Számlázási mód
 - Projekt és feladatleképezés
@@ -55,6 +57,3 @@ Szabály: Egy projekt és egy adott tranzakciós osztály csak egy projektalapú
 | C1       | CL2           | I1      | Nincs           | Igen             | Nincs          | Érvényes           | A P1 projektre vonatkozó idő és a díjak a CL1 sorban szerepelnek. A P1 projektre vonatkozó költséget a CS2 tartalmazza. </br>   Az egyes szerződéssorok tartalma között nincs átfedés, ezért érvényes.  |
 | C1       | CL1           | I1      | Igen          | Igen             | Igen         | Nem érvényes       | Megsérti a szabályt. A P1 projekt ideje díjai és költségei mindkét szerződés sorain szerepelnek.                                                                                               |
 | CL2      | CL2           | I1      | Igen          | Igen             | Igen         | Nem érvényes       | Megsérti a szabályt. A P1 projekt ideje díjai és költségei mindkét szerződés sorain szerepelnek.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

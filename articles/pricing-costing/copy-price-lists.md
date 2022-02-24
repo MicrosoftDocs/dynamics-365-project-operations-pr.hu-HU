@@ -2,22 +2,24 @@
 title: Árlisták másolása
 description: Ez a témakör az árlisták Project Operations alkalmazásban való másolásáról nyújt tájékoztatást.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003729"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181500"
 ---
 # <a name="copy-price-lists"></a>Árlisták másolása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operationsben az árlistákról másolatokat hozhat létre. Lehetőség van például arra, hogy az aktuális évhez tartozó árlistát használva a soron következő évhez tartozó árlistát hozzon létre.  Másik lehetőségként az önköltségek árlistája is átmásolható számlázási árak és eladási árak árlistájának létrehozásához. 
+A Dynamics 365 Project Operations alkalmazásban az árlisták másolatát is létrehozhatja. Lehetőség van például arra, hogy az aktuális évhez tartozó árlistát használva a soron következő évhez tartozó árlistát hozzon létre.  Másik lehetőségként az önköltségek árlistája is átmásolható számlázási árak és eladási árak árlistájának létrehozásához. 
 
 A következő lépések végrehajtásával készítheti el az árlista másolatát.
 
@@ -41,6 +43,3 @@ A következő lépések végrehajtásával készítheti el az árlista másolat�
 1. Egy árlista **Szerepkör**, **Kategória** és **Árlistaelem** lapjain kiválaszthatja az **Árak frissítése** lehetőséget, hogy árrést alkalmazzon az alrácsban szereplő összes ár esetében. 
 2. A megnyíló párbeszédpanel lapján adjon meg egy növelést. Negatív növelést is megadhat, ha bizonyos százalékkal csökkenti az árakat. 
 3. Válassza az **OK** lehetőséget a párbeszédpanelen, és ellenőrizze, hogy az alrácsban szereplő árak tükrözik-e az elvégzett módosításokat.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

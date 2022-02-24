@@ -1,10 +1,11 @@
 ---
 title: A kezdőlap frissítése
 description: Ez a témakör azt mutatja, hogy hol találja a fontos információkat az új és módosult funkciókról a Dynamics 365 Project Service Automation rendszerben, és a folyamatot a legújabb verzióra történő frissítéshez.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006744"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150086"
 ---
 # <a name="upgrade-home-page"></a>A kezdőlap frissítése
 
@@ -64,6 +65,3 @@ Miután áttekintette a korábban említett témákat, és készen áll a PSA 3.
 
 > [!NOTE]
 > A legjobb élmény érdekében, ha a Field Service és a PSA alkalmazások régebbi verzióit használja, keresse meg a **Rendszerbeállítások** oldalt és a mezőnél használja a **Csak az új egységes interfész használata (ajánlott)** mezőt, válassza a **Nem** lehetőséget, mivel ezek a verziók nem úgy vannak megtervezve, hogy megfelelően letöltsék az UCI-t. Az UCI kikapcsolása után a régi web kliens használatával megnyithatja és futtathatja a Field Service és a PSA ezeket a verzióit. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

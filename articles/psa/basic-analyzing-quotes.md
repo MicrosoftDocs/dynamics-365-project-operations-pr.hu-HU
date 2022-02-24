@@ -2,6 +2,8 @@
 title: A projektajánlat elemzése
 description: Ez a témakör a projectajánlatok elemzésével kapcsolatos információkat tartalmaz.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002829"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145226"
 ---
 # <a name="analysis-of-project-quotes"></a>A projektajánlat elemzése
 
@@ -58,6 +60,3 @@ A következő mezők értékeinek megadásával elemezheti az árajánlatokat, �
 Az ügyfelek ütemezéssel kapcsolatos elvárásainak elemzése az árajánlatsor-részlet legutóbbi záró dátuma és a kért szállítási dátum összehasonlításával történik az árajánlat összes árajánlatsorában.
 
 A ügyfelek költségvetéssel kapcsolatos elvárásainak elemzése a teljes ügyfélköltségvetés összegének és a megajánlott összegnek az összes ajánlatsoraiban való összehasonlításával történik.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

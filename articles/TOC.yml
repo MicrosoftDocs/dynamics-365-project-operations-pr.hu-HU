@@ -4,14 +4,8 @@
   items:
     - name: A telepítés típusának meghatározása
       href: environment/determine-deployment-type.md
-    - name: Iratkozzon fel a Project Operations próbaverzióira
-      href: environment/admin-trials.md
     - name: Project Operations-frissítések
       href: whats-new/project-operations-updates.md
-    - name: Eltávolított vagy elavult funkciók
-      items:
-        - name: Eltávolított vagy elavult funkciók a Project Operations alkalmazásban
-          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
   items:
     - name: Első lépések
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Környezetek üzembe helyezése
           items:
-            - name: A Project Operations Dataverse alkalmazás manuális telepítése kettős írási támogatással
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Új környezet kiépítése
               href: environment/resource-provision-new-environment.md
             - name: Biztonsági modell
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Szállítói számla integrációja
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: A Dynamics 365 Project Operations eltávolítása
-          href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
-        - name: 2021. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 2021. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 2021. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -306,12 +280,8 @@
           items:
             - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
               href: project-management/dev-copy-project.md
-            - name: Projektütemezési API-k használata
+            - name: Ütemezési API-k használata (nyilvános előzetes verzió)
               href: project-management/schedule-api-preview.md
-            - name: Projektütemezési API teljesítménye
-              href: project-management/project-schedule-api-performance.md
-            - name: Projektütemezési naplók
-              href: project-management/schedule-api-logs.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Költségkategóriák beállítása
               href: expense/set-up-expense-categories.md
-            - name: Futásteljesítmény beállítása futásteljesítmény-szintek használatával
-              href: expense/set-up-mileage.md
-        - name: Költségrészletezés
-          href: prod-exp/expense-itemization.md
         - name: Személyes költségek
           href: expense/personal-expenses-expense-report.md
         - name: Vállalatközi költségek
@@ -442,8 +408,6 @@
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
-        - name: Jóváhagyási készletek
-          href: approvals/approval-sets.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Nem készletezett anyagok beszerzése projektekhez függőben lévő szállítói számlák felhasználásával
           href: procurement/pending-vendor-invoices.md
-        - name: Nem készletezett anyagok rendelése projektekhez a projekt beszerzési rendeléseivel
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Szállítók megtartása
-          items:
-            - name: Szállítók megtartása – áttekintés
-              href: procurement/vendor-retention-overview.md
-            - name: Szállítómegtartás beállítása
-              href: procurement/set-up-vendor-retention.md
     - name: Számlázás
       items:
         - name: Számlafeldolgozás áttekintése
           href: invoicing/post-project-invoices.md
+        - name: Projektszámla-ajánlatok kezelése
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma számlázás
           items:
             - name: Projektalapú számlázási elmaradás kezelése
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektalapú számlák automatizálásának konfigurálása
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Ügyfélszámlázás
-          items:
-            - name: Projektszámla-ajánlatok kezelése
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Helyes könyvelés a tervezet állapotú projektszámla-ajánlatokon
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Vállalatközi számlázás
-          items:
-            - name: Vállalatközi számlázás áttekintése
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: A vállalatközi számlázás konfigurálása
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Vállalatközi tranzakciók létrehozása
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Vállalatközi ügyfél- és szállítói számlák létrehozása
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Projektszámla-ajánlatok kezelése
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projekt könyvelése
       items:
         - name: A pénzügyi dimenzió alapértelmezései
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: A Project Operations integrációs naplója
           href: project-accounting/project-operations-integration-journal.md
+        - name: Vállalatközi számlázás
+          items:
+            - name: Vállalatközi számlázás áttekintése
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: A vállalatközi számlázás konfigurálása
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Vállalatközi tranzakciók létrehozása
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Vállalatközi ügyfél- és szállítói számlák létrehozása
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Bevételelszámolás
       items:
         - name: Bevételelszámolás áttekintése
@@ -538,13 +492,7 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Bevételi becslések kezelése
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Hibaelhárítás
-      items:
-        - name: Projekt értékesítési folyamata
-          items:
-            - name: 'Nem megegyező pénznemek hibaüzenete projekt, szerződés, árajánlat vagy foglalható erőforrás létrehozásakor'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
-- name: Egyszerű központi telepítés – ügylettől proforma számlázásig
+- name: Egyszerű központi telepítés – ajánlattól proforma számlázásig
   items:
     - name: Első lépések
       items:
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: 'Újdonságok 2021 2. hullám, korai hozzáférés – egyszerű központi telepítés'
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Újdonságok 2021. decemberben – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Újdonságok 2021. novemberben – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Újdonságok 2021. októberben – egyszerű telepítés
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Újdonságok 2021. szeptemberben – egyszerű telepítés
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Újdonságok 2021. augusztusban – egyszerű telepítés
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Újdonságok 2021. júliusban – egyszerű telepítés
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Újdonságok 2021. júniusában – egyszerű telepítés
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Újdonságok 2021. májusában – egyszerű telepítés
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Újdonságok 2021. áprilisban – egyszerű telepítés
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Újdonságok 2021. márciusban – egyszerű telepítés
@@ -826,10 +756,8 @@
           items:
             - name: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
               href: project-management/dev-copy-project.md
-            - name: Projektütemezési API-k használata
+            - name: Ütemezési API-k használata (nyilvános előzetes verzió)
               href: project-management/schedule-api-preview.md
-            - name: Projektütemezési API teljesítménye
-              href: project-management/project-schedule-api-performance.md
     - name: Erőforrás-kezelés
       items:
         - name: Fő fogalmak
@@ -886,44 +814,6 @@
           items:
             - name: Erőforrás-kihasználtság áttekintése
               href: resource-management/resource-utilization-overview.md
-    - name: Alvállalkozói szerződések kezelése Project Operations-ben
-      items:
-        - name: Alvállalkozói szerződések kezelése Project Operations-ben
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Alvállalkozói szerződések 2021 októberében Korai hozzáférés
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Az alvállalkozói szerződéskötés kulcsfogalmai
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Szállítók és projekt árlisták kezelése
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Alvállalkozók lefoglalható erőforrásként
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Fejlécadatok alvállalkozói szerződések esetében
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Alvállalkozóiszerződés-sorok az időre
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Alvállalkozóiszerződés-sorok a költségkategóriákhoz
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Alvállalkozóiszerződés-sorok termékekhez
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Alvállalkozóiszerződéssor-erőforrások
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Alvállalkozóiszerződéssor-mérföldkövek
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Alvállalkozóiprojektcsoporttag-regisztráció
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Alvállalkozói lehetőségek projektcsoporttagok számára
-          href: pro/subcontracting/subcon-options.md
-        - name: Az alvállalkozók erőforrás-hozzárendelései költségeinek becslése
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Ütemezési tábla konfigurálása a szerződéses alkalmazottak és az alvállalkozói szerződésben rögzített kapacitás megjelenítéséhez
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Projekt felszerelése szerződéses alkalmazottakkal és az alvállalkozói szerződésben rögzített kapacitással
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Az alvállalkozói szerződésben rögzített összetevők felvételi ideje, költségei és anyagfelhasználása'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Állapotátváltások az alvállalkozói szerződésben
-          href: pro/subcontracting/subcon-states.md
     - name: Idő
       items:
         - name: Idő áttekintése
@@ -950,8 +840,6 @@
       items:
         - name: Jóváhagyások áttekintése
           href: approvals/approvals-overview.md
-        - name: Jóváhagyási készletek
-          href: approvals/approval-sets.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
@@ -988,14 +876,6 @@
   items:
     - name: Újdonságok
       items:
-        - name: Újdonságok 2021. októberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Újdonságok 2021. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Újdonságok 2021. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Újdonságok 2021. májusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Újdonságok 2021. áprilisban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Újdonságok 2021. márciusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
@@ -1146,26 +1026,8 @@
       href: psa/overview.md
     - name: Újdonságok
       items:
-        - name: A Project Service 3.x frissítési kiadásának ütemezése
+        - name: A Project Service 3.x frissítési kiadásának frissítése
           href: psa/version-history-ps.md
-        - name: A 38-as frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-38.md
-        - name: A 37.5-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-37-5.md
-        - name: A 37-es frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-37.md
-        - name: A 36-os frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-36.md
-        - name: A 35-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-35.md
-        - name: A 34-es frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-34.md
-        - name: A 33-as frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-33.md
-        - name: A 32.5-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-32-5.md
-        - name: A 32-es frissítési kiadás V3 verziójának újdonságai vagy változásai
-          href: psa/whats-new-ur-32.md
         - name: A 31-es frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
           href: psa/whats-new-ur-31.md
         - name: A 30-as frissítési kiadás V3 verziójában szereplő újdonságok vagy változások
@@ -1230,17 +1092,15 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Alapszintű árajánlat-készítési, árképzési és számlázási útmutató.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Haladó árajánlatkészítési, árképzési és számlázási útmutató'
+        - name: 'Haladó árajánlat-készítési, árképzési és számlázási útmutató'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Erőforráskezelési útmutató
           href: psa/implementation-guides/resource-management-guide.md
-        - name: Jelentéskészítési útmutató
+        - name: Jelentéskészítő útmutató
           href: psa/implementation-guides/reporting-guide.md
-    - name: Frissítés a Project Service Automation szolgáltatásról Project Operations alkalmazásra – Lite
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation frissítése (3.x alkalmazásverzió)
       items:
-        - name: Project Service Automation frissítése
+        - name: A Project Service Automation frissítése
           href: psa/upgrade-psa-home-page.md
         - name: Frissítéssel kapcsolatos szempontok – frissítés a 2.x vagy 1.x verzióról a 3. verzióra
           href: psa/upgrade-v3.md
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: Heti időbejegyzés testreszabása
               href: psa/time-entry-extensibility-v3.md
-            - name: Jóváhagyási készletek a Project Service Automation-ben
-              href: psa/approval-set.md
     - name: GYIK és hibaelhárítás (3.x)
       items:
         - name: Az ár miért nulla alapértelmezésben az önköltség tényadataiban?

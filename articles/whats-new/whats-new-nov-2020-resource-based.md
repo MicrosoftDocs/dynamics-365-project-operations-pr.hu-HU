@@ -2,16 +2,18 @@
 title: Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 description: Ez a témakör információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. novemberi kiadásában váltak elérhetővé.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007959"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367268"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -65,7 +67,4 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Projekt könyvelése  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | A Több szerződéssor funkció engedélyezése a CDS-integráció nélkül nem lehetséges.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.

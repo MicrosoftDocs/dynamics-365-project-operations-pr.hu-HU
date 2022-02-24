@@ -2,6 +2,8 @@
 title: A projekt beállításai
 description: Ez a témakör információkat nyújt a projektkezelési beállításokról.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996934"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148151"
 ---
 # <a name="project-settings"></a>A projekt beállításai
 
@@ -47,7 +49,7 @@ A projekt ütemezésének elkészítéséhez létre kell hoznia egy projekt napt
   - Egynapi munkaütemezés
   - Szabadidő
 
-> ![Opciók beállítása.](media/project-13.png)
+> ![Opciók beállítása](media/project-13.png)
 
 4. Válassza az **Új heti ütemezés** elemet, majd állítsa be az erőforrás ütemezésének opcióit. Beállíthat ismétlődő heti ütemezést, napi óraparamétereket, szünnapokat stb.
 5. Állítsa be a dátumtartományt, válassza a **Mentés** lehetőséget, majd kattintson a **Bezár** gombra. 
@@ -66,6 +68,3 @@ Minden szervezetnek be kell állítania ezeket a szerepköröket az **Aktív er�
 ## <a name="price-lists"></a>Árlisták
 
 Az árlisták segítségével beállíthatja a költség- és eladási árakat az erőforrás-szerepkörökhöz, a költségkategóriákhoz, a termékekhez és a szervezet más elemeihez. Mielőtt meghatározná a projekthez teljesítendő munkára vonatkozó pénzügyi becsléseket, el kell készítenie egy támogatási költség- és eladási árlistát. A paraméterek szakaszban be kell állítania egy alapértelmezett költség- és eladási árlistát, amely a szervezetben létrehozott projektekre vonatkozik. Az **Aktív projektparaméterek** oldalon ellenőrizze, hogy beállított-e alapértelmezett költség- és eladási árlistát.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

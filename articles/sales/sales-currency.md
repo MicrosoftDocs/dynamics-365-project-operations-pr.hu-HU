@@ -2,9 +2,11 @@
 title: Pénznem
 description: Ez a témakör a pénznemtípusok Project Operations rendszerben történő hozzáadásáról és eltávolításáról tartalmaz tájékoztatást.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999589"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642276"
 ---
 # <a name="currency"></a>Pénznem
 
@@ -69,6 +71,3 @@ Az eljárás megkezdése előtt ellenőrizze, hogy a biztonsági szerepkör tart
 
 > [!IMPORTANT]
 >  A más bejegyzések által használt pénznemek nem törölhetők, csak deaktiválhatók. A pénznembejegyzések inaktiválása nem távolítja el a létező bejegyzésekben (például lehetőségekben és megrendelésekben) tárolt pénznemadatokat. Azonban nem lehet új tranzakciókhoz deaktivált pénznemet választani.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

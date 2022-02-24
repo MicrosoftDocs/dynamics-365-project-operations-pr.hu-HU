@@ -2,6 +2,8 @@
 title: Munkaidősablon létrehozása
 description: Ez a témakör ismerteti, hogyan hozható létre munkaidősablon a Project Service szolgáltatásban.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987394"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981258"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Munkaidősablon létrehozása (Project Service)
 
@@ -49,7 +51,7 @@ A szervezet naptársablonának létrehozásához két fő követelmény szüksé
 
 1. Lépjen a **Források** \> **Források** oldalra.
 2. Hozzon létre egy új hivatkozást a naptársablonban, vagy jelöljön ki egy meglévő erőforrást.
-3. Válassza ki az erőforrás **Munkaidő** lapját, és hajtsa végre a [Munkaidő beállítása erőforráshoz](/dynamics365/field-service/set-work-hours-resource.md) felületen megjelenő utasításokat a naptárszabályok konfigurálásához.
+3. Válassza ki az erőforrás **Munkaidő** lapját, és hajtsa végre a [Munkaidő beállítása erőforráshoz](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) felületen megjelenő utasításokat a naptárszabályok konfigurálásához.
 
 **Új naptársablon létrehozása**
 

@@ -2,6 +2,8 @@
 title: Képességek társítása erőforrás-szerepkörökhöz
 description: Képességek társítása erőforrás-szerepkörökhöz a Project Service szolgáltatásban
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dd3d20593f55feccaaf67eb0af9550d6e3289edfeeaf4001a56fd39dbb1e3c07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8386948d8ea2431385e6aed9165b4018c34bcaf0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998599"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145316"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Képességek társítása erőforrás-szerepkörökhöz (Project Service)
 
@@ -45,6 +47,3 @@ Miközben erőforrás-szerepkörök hozzáadását végezte, valószínűleg má
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

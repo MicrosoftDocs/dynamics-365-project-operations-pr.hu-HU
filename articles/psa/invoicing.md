@@ -2,10 +2,12 @@
 title: Számlázás a Project Service Automation alkalmazásban
 description: Ez a témakör a számlázással kapcsolatban nyújt információkat.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985504"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151391"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Számlázás a Project Service Automation alkalmazásban
 
@@ -50,7 +52,7 @@ Kövesse ezeket a lépéseket egy adott projektszerződés számlájának létre
 
 - A **Projektszerződések** listán nyissa meg a projektszerződést, majd válassza a **Számla létrehozása** lehetőséget.
 
-    ![Projektszámlák létrehozása egy adott projektszerződéshez.](media/CreateProjectInvoicesOneByOne.png)
+    ![Projektszámlák létrehozása egy adott projektszerződéshez](media/CreateProjectInvoicesOneByOne.png)
 
     Egy számla készül az összes tranzakcióhoz azon kiválasztott projekt szerződés esetén, amely állapota **Számlázásra kész**. Ezek a tranzakciók magukban foglalják az időt, a költségeket, a mérföldköveket és a termékalapú szerződési sorokat.
 
@@ -58,7 +60,7 @@ Kövesse ezeket a lépéseket az ömlesztett számlák létrehozásához.
 
 1. A **Projektszerződések** listán válasszon ki egy vagy több projektszerződést, amelyhez számlát kell létrehoznia, majd válassza a **Projektszámlák létrehozása** lehetőséget.
 
-    ![Projektszámlák ömlesztett létrehozása.](media/CreateProjectInvoicesBulk.png)
+    ![Projektszámlák ömlesztett létrehozása](media/CreateProjectInvoicesBulk.png)
 
     Egy figyelmeztető üzenet tájékoztatja arról, hogy a számlák létrehozása némileg késhet. Ezzel egyidejűleg a folyamat is látható.
 
@@ -115,6 +117,3 @@ A korrekciós számla megerősítésekor az eredetileg számlázott tényleges �
 
 - Hat órás tényleges számlázott értékesítés.
 - Nem számlázott tényleges értékesítés a fennmaradó két órára. Ezt a tranzakciót később számlázhatják, vagy pedig díjmentesnek jelölhetik, az ügyféllel folytatott tárgyalásoktól függően.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Tranzakciókategória használata árképzési dimenzióként
 description: Ez a témakör a tranzakciós kategória mező árazási dimenzióként való használatáról nyújt tájékoztatást.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996124"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513992"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tranzakciókategória használata árképzési dimenzióként
 
@@ -48,6 +50,3 @@ Az alábbi táblázat entitásonként sorolja fel az összes előre telepített 
 2. A **Paraméterek** oldal **Mennyiségalapú árazási dimenziók** fülén ellenőrizze, hogy a fülön található rács az **Árazási dimenzió** entitás bejegyzéseit mutatja.
 3. Adja hozzá a **Tranzakciós Kategóriát** ehhez a listához, és állítsa be a **Vonatkozó költség** és **Vonatkozik eladásra** mezők beállítását **Igen** értékre.
 4. A **Dimenzió típusa** mezőben válassza az **Összeg alapú** lehetőséget , majd válassza a **Tranzakciós kategória** prioritását, mivel ez kapcsolódik a költségekhez és az eladásokhoz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

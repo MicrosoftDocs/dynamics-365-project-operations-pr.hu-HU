@@ -2,16 +2,18 @@
 title: Több ügyfél kezelése projektalapú árajánlatsorokon
 description: Ez a témakör azt ismerteti, hogyan lehet több ügyfelet kezelni projektalapú árajánlatsorokban.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992029"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118566"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Több ügyfél kezelése projektalapú árajánlatsorokon
 
@@ -42,6 +44,3 @@ Az alábbi táblázat megjeleníti a mezőket a projektalapú árajánlatsor ár
 A számlázásfelosztási százalékértékek a rendszerben módosíthatók. Ha a számlázásfelosztási százalékok összege nem 100%, hiba lép fel. A számlázásfelosztási százalékok szerkesztése után frissítse az árajánlatsor oldalát a hiba eltávolításához.
 
 Az árajánlatsori ügyfelek alrácsában az egyenletes elosztás műveletet használhatja a számlázási felosztás szétosztására az összes árajánlatsor ügyfélre. Ha van kerekítési tényező, az hozzáadódik a kerekítő ügyfélhez. Az egyik árajánlatsori ügyfelet a rendszer mindig a kerekítési ügyfélként címkézi fel, ami azt jelenti, hogy az árajánlatsori ügyfélrekord kerekítési jelzője **Igen** értékre van beállítva. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

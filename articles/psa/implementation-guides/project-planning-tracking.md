@@ -2,6 +2,8 @@
 title: Projekttervezés és nyomon követés
 description: Ez a témakör linket biztosít a Project Service Automation tervezéssel és nyomon követéssel kapcsolatos információihoz.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985392"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149096"
 ---
 # <a name="project-planning-and-tracking"></a>Projekttervezés és nyomon követés
 
@@ -43,6 +45,3 @@ A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a ta
 
 > [!NOTE]
 > Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

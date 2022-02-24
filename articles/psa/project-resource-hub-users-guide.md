@@ -2,6 +2,8 @@
 title: A Project Resource Hub felhasználói útmutatója
 description: Végfelhasználói útmutató a Project Service Project Resource Hub alkalmazásához
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987259"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948148"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Felhasználói útmutató a Project Resource Hub alkalmazáshoz
 
@@ -52,28 +54,28 @@ Mielőtt elkezdené a Project Resource Hub alkalmazást használatát, telepíte
 1.  Amikor bejelentkezik a mobilalkalmazásba, megjelenik a MyApps oldal, amely tartalmazza a hozzáférhető alkalmazások listáját. 
 2.  Válassza a **Project Resource Hub** alkalmazást.
 
-![Válasszon egy alkalmazást.](media/chooseApp_1.png "Válasszon alkalmazást")
+![Válasszon alkalmazást](media/chooseApp_1.png "Válasszon alkalmazást")
 
 **A navigációs sáv**
 
-A navigációs sáv segítségével elérheti a munkaterületét, új bejegyzést hozhat létre, kereshet, illetve egyéb feladatokat végezhet el. További parancsok eléréshez koppintson a ![Továbbiak gomb](media/MoreButton.png "Továbbiak gomb") gombra
+A navigációs sáv segítségével elérheti a munkaterületét, új bejegyzést hozhat létre, kereshet, illetve egyéb feladatokat végezhet el. További parancsok eléréshez koppintson a ![Továbbiak gombra](media/MoreButton.png "Továbbiak gomb")
 
-![Navigációs sáv.](media/NavBar_2.png "Navigációs sáv")
+![Navigációs sáv](media/NavBar_2.png "Navigációs sáv")
 
 **Kedvencek és legutóbb használt bejegyzések**
 
 A Kedvencek és a Legutóbb használt szakaszok biztosítják a bejegyzések, nézetek és irányítópultok gyors elérését. 
 
-- A szakaszok eléréséhez koppintson a **Menü** ![menü gomb.](media/MenuButton.png "Menü gomb") gombra a navigációs sávon, majd koppintson a **Kedvencek és a Legutóbbi** ![Kedvencek gomb](media/FavButton.png "Fav gomb") gombra.
+- Ezen szakaszok megnyitásához koppintson a **Menü** ![Menü gomb](media/MenuButton.png "Menü gomb") gombra a navigációs sávon, majd a **Kedvencek és legutóbbiak** ![Kedvencek gomb](media/FavButton.png "Fav gomb") gombra.
 
 - A **Legutóbb használt** elemek egyikének kedvencként való rögzítéséhez koppintson a gombostűre. Ezzel rögzíti az elemet, és áthelyezi azt a Kedvencek menübe.
 
-  ![Kedvencek és a Legutóbbi elemek.](media/Favs_3.png "Kedvencek és a Legutóbbi elemek")
+  ![Kedvencek és a Legutóbbi elemek](media/Favs_3.png "Kedvencek és a Legutóbbi elemek")
  
-## <a name="enter-time"></a>Idő megadása
+## <a name="enter-time"></a>Adja meg az időt
 Adja meg a munkaórákat legalább hetente – vagy az a igazgatók által kért gyakorisággal – annak biztosítása érdekében, az ügyfelek számlázása és az Ön hitelezése megfelelő legyen.
 
-1. Koppintson a menü ![menü gomb.](media/MenuButton.png "Menü gomb") gombra majd koppintson az **Időbejegyzések** gombra. Ez megjeleníti a naptárat.
+1. Koppintson a menüre ![Menü gomb](media/MenuButton.png "Menü gomb"), majd a **Időbejegyzések** elemre. Ez megjeleníti a naptárat.
 
 2. Az előző vagy a következő héthez tartozó naptár megtekintéséhez koppintson az **Előző** vagy a **Következő** gombra. Koppintson a **Ma** lehetőségre, hogy visszatérjen az aktuális héthez.
 

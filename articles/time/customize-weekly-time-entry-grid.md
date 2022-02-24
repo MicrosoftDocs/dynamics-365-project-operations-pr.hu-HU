@@ -2,22 +2,24 @@
 title: Időbejegyzések kiterjesztése
 description: Ez a témakör információt nyújt arról, hogy a fejlesztők hogyan tudják kiterjeszteni az időbejegyzés-vezérlőt.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993334"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124641"
 ---
 # <a name="extending-time-entries"></a>Időbejegyzések kiterjesztése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations bővíthető egyéni időbevitel-vezérlőt tartalmaz. Ez a vezérlő többek között a következő funkciókat tartalmazza:
+A Dynamics 365 Project Operations egy bővíthető egyéni időbejegyzés-vezérlő tartozik. Ez a vezérlő többek között a következő funkciókat tartalmazza:
 
 - Az idő vízszintes beírása egy hétre
 - Összesítések nap, sor vagy hét szerint
@@ -142,6 +144,3 @@ A beépülő modul érvényesítéseket használhatja minden olyan érvényesít
 
 ### <a name="copying-time-entries"></a>Időbejegyzések másolása
 Az **Időbejegyzés másolásához használt oszlopok** nézet használatával adja meg a másolandó mezők listáját az időbejegyzés során. A **Dátum** és az **Időtartam** kötelező mezők, és nem lehet ezeket eltávolítani a nézetből.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

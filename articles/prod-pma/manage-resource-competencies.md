@@ -2,9 +2,11 @@
 title: Erőforrás-kompetenciák kezelése
 description: Ez a témakör információkat nyújt a projekterőforrások kompetenciáinak beállításáról.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270636"
 ---
 # <a name="manage-resource-competencies"></a>Erőforrás-kompetenciák kezelése
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007419"
 
 Az erőforrás-kompetenciák az erőforrás-kezelés fontos részét képezik. A kompetenciák a készségek, az oktatás, a tanúsítványok és a projekttapasztalatok megfelelő egyensúlyával rendelkező erőforrások meghatározásához használhatók fel alapként. Minden egyes erőforráshoz be kell állítania ezeket az adatokat, és rendszeresen frissítenie kell őket. Ily módon maximalizálhatja a lehetőségeket, amikor bizonyos erőforrás-kompetenciákat a projekt erőforrás-hozzárendelése során megfeleltet a rendszer.
 
-[![Példák a készségekre, a tanúsítványokra, az oktatásra és a projekttapasztalatokra.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Példák a készségekre, a tanúsítványokra, az oktatásra és a projekttapasztalatokra](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 A következő eljárások ismertetik, hogyan kell beállítani az erőforrások bizonyos kompetenciáit.
 

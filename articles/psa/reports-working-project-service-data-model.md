@@ -2,6 +2,8 @@
 title: Munka a Project Service Automation adatmodelljével
 description: Ez a témakör információt nyújt az adatmodell működéséről.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002424"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147656"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Munka a Project Service Automation adatmodelljével
 
@@ -53,7 +55,7 @@ A PSA új árajánlatokkal kapcsolatos entitásokat is hozzáad a Dynamics 365 a
 
 Egyéb elemek, amelyeket a PSA hozzáad az árajánlatokhoz, a következők: **Árajánlatsor projekt árlista**, **Árajánlatsor erőforrás kategória** és **Árajánlat sor tranzakciós kategória**.
 
-![Árajánlatot, árajánlatsort és projektkapcsolatokat mutató diagram.](media/PS-Reporting-image2.png "Árajánlatot, árajánlatsort és projektkapcsolatokat mutató diagram")
+![Árajánlatot, árajánlatsort és projektkapcsolatokat mutató diagram](media/PS-Reporting-image2.png "Árajánlatot, árajánlatsort és projektkapcsolatokat mutató diagram")
 
 ## <a name="reporting-on-project-contracts"></a>Jelentés a projektszerződésekről
 
@@ -69,7 +71,7 @@ A PSA új entitásokat is felvesz, amelyeket projektszerződésekre terveztek. �
 
 Egyéb elemek, amelyeket a PSA hozzáad a szerződésekhez, a következők: **Projektszerződés sor projekt árlista**, **Projektszerződés sor erőforrás kategória** és **Projektszerződés sor tranzakciós kategória**.
 
-![Megrendelést, megredneléssort és projektkapcsolatokat mutató diagram.](media/PS-Reporting-image3.png "Megrendelést, megredneléssort és projektkapcsolatokat mutató diagram")
+![Megrendelést, megredneléssort és projektkapcsolatokat mutató diagram](media/PS-Reporting-image3.png "Megrendelést, megredneléssort és projektkapcsolatokat mutató diagram")
 
 ## <a name="reporting-on-projects"></a>Jelentés a projektekről
 
@@ -81,7 +83,7 @@ A **Projekt** entitás és az ahhoz kapcsolódó entitás kizárólag a PSA szá
 - **Erőforrásigény** - Ez az entitás tartalmazza az általános erőforráscsoport tagjaira vonatkozó követelményeket.
 - **Becslés** és **Becslés sor** - Ezeknek az entitásoknak fejléc/sor kapcsolata van, és tartalmazzák a projekt költségbecsléseit. A feladatbecsléseket az **Erőforrás becslés** entitás tárolja.
 
-![Erőforrás-szükségletet és projektkapcsolatokat mutató diagram.](media/PS-Reporting-image4.png "Erőforrás-szükségletet és projektkapcsolatokat mutató diagram")
+![Erőforrás-szükségletet és projektkapcsolatokat mutató diagram](media/PS-Reporting-image4.png "Erőforrás-szükségletet és projektkapcsolatokat mutató diagram")
 
 ## <a name="reporting-on-resources"></a>Jelentés az erőforrásokról
 
@@ -92,7 +94,7 @@ A projekt erőforrásai a Universal Resource Scheduling (URS) **Foglalható erő
 - **Foglalható erőforrás-kategória** - Ez az entitás képviseli a foglalható erőforrás szerepét.
 - **Foglalható erőforrás-foglalások** - Ez az entitás azt az időtartamot jelöli, amelyet a forrásokra a projekteknél lefoglalnak. Mindegyik foglalásnak van fejléces entitása és vonal entitásai is, és minden sornak egy olyan státusza van, amely a foglalás státusát jelzi.
 
-![Foglalható erőforrás-jellemzők kapcsolatait mutató diagram.](media/PS-Reporting-image5.png "Foglalható erőforrás-jellemzők kapcsolatait mutató diagram")
+![Foglalható erőforrás-jellemzők kapcsolatait mutató diagram](media/PS-Reporting-image5.png "Foglalható erőforrás-jellemzők kapcsolatait mutató diagram")
 
 ## <a name="reporting-on-actual-transactions"></a>Jelentés a tényleges tranzakciókról
 
@@ -120,7 +122,4 @@ Amikor a **Tényleges** entitással dolgozik, fontos, hogy megértse, mely tranz
 
 A **Tranzakció eredete** entitás rögzíti a **Tényleges** rekord eredetét, és a **Tranzakciós kapcsolat** entitás rögzíti a kapcsolódó nyilvántartásokat a **Tényleges** rekordhoz. Ezenkívül a **Tényleges** referenciák tartalmazzák a projektet, a projekt szerződést (megrendelés), a megrendelhető forrást és az ügyfelet.
 
-![Tranzakciós kapcsolatot, eredetet és tényleges kapcsolatokat mutató diagram.](media/PS-Reporting-image6.png "Tranzakciós kapcsolatot, eredetet és tényleges kapcsolatokat mutató diagram")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Tranzakciós kapcsolatot, eredetet és tényleges kapcsolatokat mutató diagram](media/PS-Reporting-image6.png "Tranzakciós kapcsolatot, eredetet és tényleges kapcsolatokat mutató diagram")

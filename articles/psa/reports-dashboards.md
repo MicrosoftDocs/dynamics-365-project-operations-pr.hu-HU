@@ -2,6 +2,8 @@
 title: Irányítópultok
 description: Ez a témakör a Dynamics 365 Project Service Automation részét képező jelentéskészítő műszerfalakkal kapcsolatos információkat nyújt.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990544"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147791"
 ---
 # <a name="dashboards"></a>Irányítópultok
 
@@ -33,11 +35,8 @@ A Dynamics 365 Project Service Automation két rendszer-irányítópultot tartal
 
 ## <a name="practice-manager"></a>Practice Manager 
 
-A **Practice Manager** műszerfal grafikus irányítópultot nyújt a gyakorlatvezetőknek a költségek, az értékesítés, a bruttó fedezet és a felhasználás nyomon követésére. Azt is lehetővé teszi, hogy a gyakorlati vezetők az információkat különféle dimenziók szerint szeleteljék, például ügyfél, projekt vagy erőforrás szerep alapján. Az irányítópultok létrehozásával és testreszabásával kapcsolatos további információkért lásd: [Irányítópultok létrehozása vagy szerkesztése](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+A **Practice Manager** műszerfal grafikus irányítópultot nyújt a gyakorlatvezetőknek a költségek, az értékesítés, a bruttó fedezet és a felhasználás nyomon követésére. Azt is lehetővé teszi, hogy a gyakorlati vezetők az információkat különféle dimenziók szerint szeleteljék, például ügyfél, projekt vagy erőforrás szerep alapján. Az irányítópultok létrehozásával és testreszabásával kapcsolatos további információkért lásd: [Irányítópultok létrehozása vagy szerkesztése](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Resource Manager 
 
 A **Resource Manager** irányítópult grafikus irányítópult-élményt nyújt az erőforrás-kezelőknek az erőforrás-igények, valamint az erőforrás-igény és -felhasználás figyelésére. Azt is lehetővé teszi, hogy az erőforrás-kezelők a megfigyelt információkat különféle dimenziók szerint szeleteljék.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Regisztráció a Project Operations előzetes verziós előfizetésekre az erőforrás-/nem készletalapú forgatókönyvek esetén
 description: Ez a témakör információt nyújt arról, hogyan lehet regisztrálni és telepíteni a Dynamics 365 Project Operations alkalmazást erőforrás-/nem készletalapú forgatókönyvek esetén.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323419"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948467"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regisztráció a Project Operations előzetes verziós előfizetésekre az erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -19,30 +21,48 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Ez témakör ismerteti, hogyan lehet előfizetni a próbaverziós ajánlatra, és hogyan lehet Project Operations környezetet telepíteni erőforrás-/nem készletalapú forgatókönyvekhez.
+Ez a témakör ismerteti, hogyan lehet előfizetni az előzetes verzióra/partnerajánlatra, és telepíteni a Project Operations-környezetet erőforrás-/nem készletalapú forgatókönyvek esetén.
 
 ## <a name="prerequisites"></a>Előfeltételek
-- Az előzetes verziót telepítő felhasználónak Azure-bérlői globális rendszergazdai jogosultsággal kell rendelkeznie. A bérlőt az első ajánlat beválátása során hozhatja létre. 
-- A Finance-környezet telepítéséhez érvényes Azure-előfizetésre van szükség, amely környezetenként kerül számlázásra. A kezdéshez használhatja a szervezet meglévő előfizetését, vagy egy [Azure-próbaverziót](https://azure.microsoft.com/free/). A CDS-környezet korlátozott, 30 napos időszakra ingyenesen biztosítva lesz.
+
+- Kapni fog egy e-mailt, amely meghívja, hogy részt vegyen az előzetes verzióban. Előzetes verziót kérhet a [Project Operations webhelyén](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Az előzetes verziót telepítő felhasználónak Azure-bérlői globális rendszergazdai jogosultsággal kell rendelkeznie.
+- A Finance-környezet telepítéséhez érvényes Azure-előfizetésre van szükség, amely környezetenként kerül számlázásra. A kezdéshez használhatja a szervezet meglévő előfizetését, vagy egy [Azure-próbaverziót](https://azure.microsoft.com/en-us/free/). A CDS-környezet korlátozott, 30 napos időszakra ingyenesen biztosítva lesz.
+
+## <a name="subscribe"></a>Feliratkozás
+
+Amikor megkapja az [előzetes verzióra vonatkozó kérelem](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) jóváhagyását, e-mailben három ajánlatot kap a Microsofttól. Ez lehetővé teszi, hogy telepítse a Project Operations előzetes verzióját:
+
+- Dynamics 365 Project Operations (CRM) – előzetes próbaverzió
+- Office 365 Project Operations – Előzetes próbaverzió
+- Dynamics 365 Finance – előzetes próbaverzió
 
 > [!IMPORTANT]
 > A szervezetnél csak egy személynek, a bérlői rendszergazdának kell elvégeznie ezt a feladatot. Ha nem Ön ennek a kiadásnak az előfizetője, várjon, amíg a szervezete regisztrálva lesz, és megkapta a felhasználói hitelesítő adatokat.
-> 
-> A próbaverziók a bérlőn és egyszer használhatók. Csak egyszer lehet futtatni a próbaverziót. Javasoljuk, hogy a próbaidőszak céljára hozzon létre új bérlőt.
 
-
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - előzetes verziójú próbeverzió 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – előzetes próbaverzió 
 
 Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelentkezzen be a böngészőbe abban a bérlőben, ahol a Project Operations előzetes verzióját szeretné használni.
 
-1. Váltsa be az első ajánlatkódot **Dynamics 365 Project Operations** itt [Project Operations próbaverzió](https://aka.ms/try-po).
+1. Váltsa be az első ajánlat kódot, **Dynamics 365 Project Operations (CRM) – előzetes próbaverzió** a böngésző URL-címébe történő beillesztéssel.
+
+![Ajánlat beváltása](./media/16RedeemFirstOfferNew.png)
+
 2. Hagyja jóvá a megrendelést.
 
-  A megerősítő ajánlatot sikeres beváltását láthatja.
+![Ellenőrizze a sorrendet](./media/17ConfirmOrderNew.png)
+
+A megerősítő ajánlatot sikeres beváltását láthatja.
+
+![Jóváhagyás](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Előzetes próbaverzió
+
+Ismételje meg ugyanazokat a lépéseket, mint az első ajánlatkóddal. Ügyeljen arra, hogy a második ajánlatkódot ugyanazzal a felhasználói fiókkal adja hozzá, amelyet az első ajánlatkódhoz használt.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance előzetes próbaverzió
 
-Menjen a [Dynamics 365 for Finance előzetesverzió kipróbálása](https://aka.ms/trypoche) helyre, és ismételje meg az előző szakasz lépéseit az ajánlattal, Iratkozzon fel a Felhőben szolgáltatott környezetre.  
+Ismételje meg ugyanezeket a lépéseket az üdvözlő e-mailben szereplő utolsó ajánlattal.
 
 ## <a name="assign-licenses"></a>Licencek hozzárendelése
 
@@ -51,9 +71,13 @@ Menjen a [Dynamics 365 for Finance előzetesverzió kipróbálása](https://aka.
 
 1. Nyissa meg a [Microsoft 365 felügyeleti központot](https://portal.office.com/), és rendelje hozzá a licenceket a felhasználókhoz.
 
+![Felügyeleti központ kezdőlapja](./media/14AdminPortal.png)
+
 2. Az **Aktív felhasználók** oldalon jelölje ki azokat a felhasználókat, akikhez licencet szeretne rendelni.
 
-3. Ellenőrizze, hogy a **Dynamics 365 Project Operations** licenc ki legyen jelölve, majd válassza a **Módosítások mentése** lehetőséget.
+![Licencek hozzárendelése](./media/15AssignLicenses.png)
+
+3. Ellenőrizze, hogy a **Dynamics 365 Project Operations (CRM) előzetes verzió** és az **Office 365 Project Operations előzetes verzió** licenc ki van-e jelölve, majd válassza a **Módosítások mentése** lehetőséget.
 
 > [!NOTE]
 > A Finance próbaverziójának ajánlatát nem kell felhasználóhoz rendelni.
@@ -73,7 +97,7 @@ A telepítés végrehajtásához kövesse a következő témakör útmutatását
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS beállításainak és konfigurációs adatainak telepítése
 
 Telepítse a CDS beállításait és konfigurációs adatait a következő témakörben leírtak szerint: [Beállítás és konfigurációs adatok alkalmazása a Common Data Service rendszerben](resource-apply-pro-setup-config-data.md).
-Ezt a lépést csak a Finance bemutatókörnyezet telepítése és a bemutatóadatok elkészülte után hajtsa végre.
+Ezt a lépést csak azután hajthatja végre, hogy Finance bemutatókörnyezete van telepítve, és elkészültek a bemutató adatok az FO-ban.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

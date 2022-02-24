@@ -2,22 +2,24 @@
 title: Egy ajánlat lezárása
 description: Ez a témakör az árajánlatok Project Operationsben való lezárásáról nyújt tájékoztatást.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993424"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124686"
 ---
 # <a name="close-a-quote"></a>Egy ajánlat lezárása
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A projektárajánlat megnyertként vagy elvesztettként zárható le. Mivel az Aktiválás és Áttekintés funkciók nem támogatottak az ajánlatok esetében a Microsoft Dynamics 365 Project Operations alkalmazásban, ezért lezárhat egy vázlat ajánlatot.
+A projektárajánlat megnyertként vagy elvesztettként zárható le. Mivel az Aktiválás és Felülvizsgálat funkciók nem támogatottak a Microsoft Dynamics 365 Project Operations árajánlataiban, lezárhatja az árajánlat-tervezetet.
 
 ## <a name="close-a-quote-as-won"></a>Árajánlat lezárása megnyertként
 
@@ -41,6 +43,3 @@ Ha az elvesztettként lezárt projektárajánlat valamely sorára egy projekt hi
 
 > [!NOTE]
 > A Project Operationsben az árajánlat megnyertként vagy elvesztettként való lezárása nem befolyásolja a lehetőség állapotát, amely mindaddig nyitva marad, amíg manuálisan le nem zárja.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

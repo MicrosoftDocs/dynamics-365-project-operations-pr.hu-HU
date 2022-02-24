@@ -2,6 +2,8 @@
 title: Termékkatalógus árképzése
 description: Ez a témakör ismerteti, hogyan működik a termékkatalógus árképzése a Dynamics 365 Project Service Automation (PSA) szolgáltatásban.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000174"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151211"
 ---
 # <a name="product-catalog-pricing"></a>Termékkatalógus árképzése 
 
@@ -44,7 +46,7 @@ A termékkatalógusból felveheti termékeit a különböző árlistákra. A ter
 
 A PSA különféle kerekítési lehetőségeket támogat, ha az árakat a listaár, a standard költség vagy az aktuális költség függvényében konfigurálják. Amellett, hogy kihasználja a több árképzési módszer és a kerekítési lehetőség előnyeit, kedvezménylistákat kapcsolhat hozzá az árlisták elemeihez. 
 
-> ![Termékek hozzáadása egy katalógusból különböző árlistákhoz.](media/basic-guide-16.png)
+> ![Termékek hozzáadása egy katalógusból különböző árlistákhoz](media/basic-guide-16.png)
 
 Amikor új egyéni árlistát hoz létre egy árajánlathoz a **Projektárajánlat** lap **Saját árképzés létrehozása** részén, a PSA másolatot készít az árlistáról, és az új árlista fejlécén található **Entitás** mező beállítása **Értékesítési entitás** lesz. Az új árlista neve az árajánlat nevéhez és az időbélyegzőhöz lesz csatolva. Az egyéni munkafolyamatokban is használhatja az új árlista nevét és az árajánlatot az egyedi árképzést alkalmazó árajánlatok további felülvizsgálatának és jóváhagyásának indításához.
 
@@ -62,6 +64,3 @@ A Lehetőség, az Árajánlat és a Projektszerződés entitásai az alábbi sor
 Alapértelmezés szerint az árajánlatsor **Termék** mezője felsorolja az összes aktív terméket az árajánlat terméklistáján. Ha egy terméket inaktiváltak, vagy ha ez egy termékvázlat, akkor nem szerepel a listán még akkor sem, ha szerepel az árlistán. 
 
 A termékkatalógus-sorok számlasorokként kerülnek hozzáadásra az első számlára, amelyet egy projektszerződéshez készítenek. A számlatervezeten törölhetők ezek a számlasorok. Ebben az esetben a sorok egy későbbi számlán jelennek meg, amíg számlázásra nem kerülnek, vagy amíg a számlát el nem küldik az ügyfélnek. A PSA-ban nem számlázható ki egy termékszámlasor részleges mennyisége. Amikor a projektszerződés terméksorozatait kiszámlázzák, tényadatok jönnek létre. Ezek a tényadatok azonban nem kapcsolódnak a kapcsolódó projektentitáshoz. Más szavakkal: a termék-alapú projektszerződés-sorok függetlenek minden projektalapú felhasználástól. A PSA nem követi nyomon a projektek anyagfelhasználását.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

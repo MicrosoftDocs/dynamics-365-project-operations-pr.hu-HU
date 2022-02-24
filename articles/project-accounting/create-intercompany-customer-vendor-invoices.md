@@ -2,16 +2,18 @@
 title: Vállalatközi ügyfél- és szállítói számlák létrehozása
 description: Ez a témakör a vállalatközi vevői és szállítói létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
+manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989258"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948398"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Vállalatközi ügyfél- és szállítói számlák létrehozása
 

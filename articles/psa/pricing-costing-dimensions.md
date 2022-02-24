@@ -2,11 +2,12 @@
 title: Árképzés és költségdimenziók kezdőlap
 description: Ez a témakör áttekintést nyújt az árképzési dimenziókról.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998464"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151301"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Árképzés és költségdimenziók kezdőlap
 
@@ -41,7 +42,7 @@ Tekintettel a munka ezen attribútumainak jellegzetességére és a munka végre
 
 A PSA alapértelmezett árképzési dimenziókkal rendelkezik. Megnézheti ezeket a **Project Service** > **Paraméterek** részére lépve. A paraméterrekordban az **Összegalapú árképzési dimenziók** fülön ellenőrizze, hogy a **msdyn_resourcecategory** szerepkör és a **msdyn_organizationalunit** erőforrásbiztosító szervezeti egység rendelkezik **Értékesítésre vonatkozó** és **Költségre vonatkozó** mezőkkel, és hogy ezek beállítása **Igen** legyen. Ez lehetővé teszi az egyes szerepkörök és szervezeti egységkombinációk árának és költségének beállítását.
 
-![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével.](media/PS-OOB-parameters.png)
+![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ha a PSA 3. verzióját megelőzően használta a használatra kész szerepköröket és szervezeti egységeket árképzési dimenziókként, akkor nem lesz észlelhető változás. Továbbra is használhatja a Project Service szolgáltatást a megszokott módon. 
@@ -64,18 +65,15 @@ A következő példa azt a számlamértéket mutatja, amelyet azon szerepkör é
 
 **Számlaminta**
 
-| Szerepkör        | Szerv. egység    |Kiszerelés      |Ár      |Pénznem  |
+| Szerepkör        | Szerv. egység    |Egység      |Ár      |Pénznem  |
 | ------------|-------------|----------|----------:|----------|
-| Fejlesztő   | Contoso US  |Óra | 200|USD     |
-| Fejlesztő   | Contoso India |Óra|   112|USD     |
+| Fejlesztő   | Contoso USA  |Hour | 200|USD     |
+| Fejlesztő   | Contoso India |Hour|   112|USD     |
 
 
 **Költségminta**
 
-| Fizetési sáv     | Szerv. egység    |Kiszerelés      |Ár      |Pénznem  |
+| Fizetési sáv     | Szerv. egység    |Egység      |Ár      |Pénznem  |
 | ----------------|-------------|----------|----------:|----------|
-| Cégem_Sáv1 | Contoso US  |Óra | 145|USD     |
-| Cégem_Sáv2 | Contoso India |Óra|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Cégem_Sáv1 | Contoso USA  |Hour | 145|USD     |
+| Cégem_Sáv2 | Contoso India |Hour|   67|USD     |

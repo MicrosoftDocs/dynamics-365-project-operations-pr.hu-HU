@@ -2,16 +2,18 @@
 title: Projekt értékesítés nyomon követése
 description: Ez témakör arról nyújt tájékoztatást, hogy a Project Operations hogyan követi nyomon a projektből származó munkabevételeket.
 author: rumant
+manager: AnnBe
 ms.date: 03/24/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 78d7bdaf9f5ca1757273cb81a1303befb0357ba547eb354097786fc3c38962b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 438c44dcfaf9677075eb07688c1e65c6e7053755
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995584"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711055"
 ---
 # <a name="project-sales-tracking"></a>Projekt értékesítés nyomon követése
 

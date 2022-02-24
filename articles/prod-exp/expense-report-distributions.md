@@ -2,9 +2,11 @@
 title: Költségjelentés-felosztások
 description: Ha kiadásokat ad meg egy költségjelentésen, akkor a szervezeten belül eloszthatja a költségeket több projekt, jogi entitás vagy partner között.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a00ea4337e59e5412bd885db9e80c82a34e4eb638a7482c98a4946c44c4d734e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271761"
 ---
 # <a name="expense-report-distributions"></a>Költségjelentés-felosztások
 

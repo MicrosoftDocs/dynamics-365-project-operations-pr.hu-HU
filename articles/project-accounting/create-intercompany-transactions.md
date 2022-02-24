@@ -2,16 +2,18 @@
 title: Vállalatközi tranzakciók létrehozása
 description: Ez a témakör a vállalatközi tranzakciók létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
+manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005484"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880451"
 ---
 # <a name="create-intercompany-transactions"></a>Vállalatközi tranzakciók létrehozása
 

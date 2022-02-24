@@ -2,22 +2,24 @@
 title: Árlisták beállítása
 description: Ez a témakör a költség- és értékesítési árlisták beállításáról nyújt információkat.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009489"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180195"
 ---
 # <a name="set-up-price-lists"></a>Árlisták beállítása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az árlisták a Dynamics 365 Project Operationsben az árfolyamok katalógusát képviselik. Az árak költség, értékesítési és számlázási árak kifejezésére szolgálnak. Attól függően, hogy az árlista a költségeket vagy az értékesítési és a számlázási díjakat tartalmazza, az árlista környezete **értékesítés** vagy **költség** lesz.
+Árlisták a Dynamics 365 a Project Operationsban az árak katalógusát jelentik. Az árak költség, értékesítési és számlázási árak kifejezésére szolgálnak. Attól függően, hogy az árlista a költségeket vagy az értékesítési és a számlázási díjakat tartalmazza, az árlista környezete **értékesítés** vagy **költség** lesz.
 
 A következő kiterjesztések aProject Operationsra vonatkoznak, és a Dynamics 365 Salesből származó árlisták alapján kerülnek alkalmazásra.
 
@@ -38,6 +40,3 @@ A következő táblázat tartalmazza az árlista **Általános** lapján találh
 | Pénznem | **Általános** lap és a **Gyorslétrehozás** űrlapok | Ez a mező az ehhez az árlistához kapcsolódó minden szerepkör, kategória vagy árlista típusú cikk sorában szereplő pénznem alapértelmezett értékének meghatározására szolgál. | Az **értékesítés** árlisták, szerepkörök, kategóriák vagy árlistacikkek nem hozhatók létre a pénznemtől eltérő pénznemben. Az **önköltségi** árlisták esetében bármilyen pénznemben létrehozható egy szerepkörár sor. Az itt megadott pénznem alapértelmezésként használatos. A szerepkörárakhoz kapcsolódó felhasználói beállítás felülírhatja ezt az értéket, ha bármilyen pénznemben engedélyezi a munkaköltségi ráta beállítását. A kategória költségrátái és árlistacikkek költségei csak az itt megadott pénznemben állíthatók be. |
 | Időegység | **Általános** lap és a **Gyorslétrehozás** űrlapok | Ez a mező az ehhez az árlistához kapcsolódó minden szerepkör időegységének alapértelmezett értékének meghatározására szolgál. | Ez a mezőérték csak a kapcsolódó szerepkörár beállításokban használatos. Az **önköltségi** és **Értékesítési** árlisták esetében bármilyen időegységben létrehozható egy szerepkörár sor. Az itt megadott időegység alapértelmezésként használatos. A szerepkörárakhoz kapcsolódó felhasználói beállítás felülírhatja ezt az értéket, ha bármilyen időegységben engedélyezi a munkaköltségi és számlázási ráta beállítását. |
 | Adatfolyam leírása | **Általános** lap és a **Gyorslétrehozás** űrlapok | Ez a szövegmező lehetővé teszi, hogy az árlista többsoros leírását adja meg. | Ez a mező az árlista **Társított** nézetében jelenik meg a kapcsolódó árlistát tartalmazó különböző entitásokokban. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

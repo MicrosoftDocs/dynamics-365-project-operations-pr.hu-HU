@@ -1,19 +1,21 @@
 ---
-title: Projekt számlázási elmaradásának kezelése
-description: Ez témakör a projektek számlázási elmaradásának kezelésekor használható különböző nézetekről nyújt tájékoztatást.
+title: A számlázási elmaradás kezelése - lite
+description: Ez a témakör a számlázási elmaradás kezelése során használható különféle nézetekre vonatkozó információkat tartalmaz.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988294"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176974"
 ---
-# <a name="manage-project-billing-backlog"></a>Projekt számlázási elmaradásának kezelése 
+# <a name="manage-the-billing-backlog---lite"></a>A számlázási elmaradás kezelése - lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
@@ -58,6 +60,3 @@ Az olyan nem számlázott értékesítések, amelyeknek **Nem meghaladandó** á
 Ha a több ügyfélből álló szerződéssorok idő-és anyagelszámolású számlázási móddal rendelkeznek, akkor az időpontok és a kiadások jóváhagyásakor a rendszer egy nem számlázott értékesítési tényadatot hoz létre az egyes ügyfelekhez a szerződéssoron az egyes ügyfelekhez meghatározott számlázási felosztási százalék alapján. Az **Idő- és anyagszámlázási hátralék** nézetben ezek az egyéni ügyfél-specifikus, nem számlázott tényleges értékesítések megjelennek. A számlázatlan tényleges értékesítési rekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül.
 
 Ebben a nézetben egy nem számlázott tényleges értékesítés jelenik meg, amely a számlavázlaton található, és a számlázási állapota **Ügyfélszámla létrehozva**. A számla vázlatának megerősítését követően a bejegyzésben szereplő számlázási állapot frissül a **Ügyfélszámla közzétéve** értékre. Ne frissítse ezt az állapotértékét egyéni kóddal. A Project Operations nem működik megfelelően, ha ezeket az értékeket egyéni kóddal frissítik.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

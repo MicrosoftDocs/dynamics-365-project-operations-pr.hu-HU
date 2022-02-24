@@ -2,23 +2,24 @@
 title: Egyszerű központi telepítés áttekintése
 description: Ez a témakör a Dynamics 365 Project Operations Lite telepítésével kapcsolatban tartalmaz tájékoztatást.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997384"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365509"
 ---
 # <a name="lite-deployment-overview"></a>Egyszerű központi telepítés áttekintése
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Dynamics 365 Project Operations Lite telepítési típusa a következő lehetőségeket nyújtja a Projektalapú cégek számára:
+A Dynamics 365 Project Operations Lite telepítési típusa a következő lehetőségeket nyújtja a projektalapú vállalatok számára:
 
 - Projekttervezés a Microsoft Webes projekt segítségével
 - Többdimenziós árazás és költségszámítás a munkaerő-erőforrások számára
@@ -36,6 +37,3 @@ Ezt a telepítést használja, ha az elvárása a Project Operations szolgáltat
 - Integrált rendszer, amely a belső és a számlázható projekteket kezeli a projekt értékesítéstől a számlázásig történő ütemezése és pénzügyei szempontjából.
 - Egy harmadik féltől származó vállalati erőforrás-tervezési (ERP/pénzügyi könyvelési) rendszer a Project Operations integrálására.
 - Egy külső gyártótól származó rendszer az áfák, az átváltási árfolyamok, a költségtérítések és a projekten kívüli kiadások kezeléséhez.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

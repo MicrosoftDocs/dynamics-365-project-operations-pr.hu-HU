@@ -2,6 +2,8 @@
 title: Jelentéskészítő útmutató
 description: Ez a témakör linkeket tartalmaz a jelentéssel kapcsolatos információkhoz.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 02/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dbfcbc724842a0c2dd507da63b45608f3a18b9eae489f72e2ec0bd50f9fd2f24
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 10f4a6cbd741008b696ae9dd147307413b5b7936
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985415"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150806"
 ---
 # <a name="reporting-guide"></a>Jelentéskészítő útmutató
 
@@ -39,6 +41,3 @@ A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a ta
 
 > [!NOTE]
 > Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

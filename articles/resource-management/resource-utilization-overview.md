@@ -2,17 +2,18 @@
 title: Erőforrás-kihasználtság áttekintése
 description: Ez a témakör információkat nyújt az erőforrás-kihasználtságról a Project Operations alkalmazásban.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002064"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401379"
 ---
 # <a name="resource-utilization-overview"></a>Erőforrás-kihasználtság áttekintése
 
@@ -44,6 +45,3 @@ Ezenkívül minden foglalható erőforráshoz alapértelmezett szerepet kell hoz
 A **Project Service** lapon az erőforrás egyedi célhasználatát is beállíthatja. A hasznosítási számítás ezt követően a célfelhasználást használja az erőforrás céljának értékelésére, az erőforrás alapértelmezett szerepének célpontja helyett.
 
 Az erőforrás felhasználása csak akkor jelenik meg, ha az erőforrás jóváhagyott, díjköteles időt mutat a rácson megjelenített időszakban.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

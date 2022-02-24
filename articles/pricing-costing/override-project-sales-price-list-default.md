@@ -2,17 +2,19 @@
 title: Projekt értékesítési árlistáinak felülbírálása
 description: Ez a témakör az egyéni értékesítési árlisták létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009579"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672234"
 ---
 # <a name="override-project-sales-price-lists"></a>Projekt értékesítési árlistáinak felülbírálása
 
@@ -50,6 +52,3 @@ Használhatja ezeket az árlistákat, és frissítheti a munka (szerepkörár) �
 A Projektszerződésekben a projektek árazása mindig alapértelmezés szerint egyéni árlistaként szerepel a szerződés nevével és a létrehozott dátum- és időbélyegzővel, amelyet a rendszer a névhez fűzött. Ez akkor is igaz, ha a szerződés az árajánlat megnyerése után jött létre, vagy ha a szerződés a semmiből jött létre. Ha szükséges, eltávolíthatja ezt a társítást az egyéni árlistához, és ehelyett társíthat egy normál árlistát a projektszerződéshez.
 
 Ha normál árlistát rendel az árajánlathoz vagy a szerződéshez tartozó projektárlistákhoz, akkor az árlista árain végrehajtott változtatások hatással vannak az árlistát használó összes ajánlatra és szerződésre.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

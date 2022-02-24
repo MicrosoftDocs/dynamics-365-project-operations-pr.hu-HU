@@ -2,6 +2,8 @@
 title: Újdonságok vagy változások a Project Service Automation 26-es frissítési kiadásának V3 változatában
 description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 26-os frissítési kiadásában.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004269"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143561"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation 26-es frissítési kiadás, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
+Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 26-os frissítési kiadásában. A Build száma V 3.10.44.59, és általánosan elérhető egy önálló frissítésként 2020 decemberében.
 
@@ -72,6 +74,3 @@ A következő problémák kerültek kijavításra:
 - Ha egy projekten alapuló sort egy ajánlatban vagy szerződésben választ ki, akkor a **Javaslat** gomb csak akkor látható, ha egy termékalapú sort választ ki egy meglévő termékhez.
 - A **Create_Product** jogosultság le lett választva a **Create_ProjectContract** jogosultságról.
 - Egy számlasor törlése nullahivatkozás hibát okoz **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** elemnél.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Több ügyfél kezelése projektalapú szerződéssorokon
 description: Ez a témakör a több ügyfelet tartalmazó szerződéssorok és szerződések használatáról tartalmaz tájékoztatást.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992119"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181905"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Több ügyfél kezelése projektalapú szerződéssorokon
 
@@ -42,6 +44,3 @@ Alább láthatók a projektalapú szerződéssor szerződéssor-ügyfélrekordj�
 A számlázás felosztási százaléka a rácsban szerkeszthető. Ha a számlázásfelosztási százalékértékek nem tesznek ki teljes 100 százalékot, akkor hiba történik. A számlázási felosztás százalékos értékének módosítása után frissítse a lapot a hiba eltávolításához.
 
 Megpróbálhatja kiválasztani az **Egyenlő elosztás** lehetőséget is az szerződéssor ügyfeleinek részrácsán. Ez a művelet egyenletesen leosztja a számlázási felosztásokat az összes szerződéssor-ügyfél számára. Ha bármilyen kerekítési tényező van, akkor a rendszer hozzáadja a kerekítési ügyfélhez. Az egyik szerződéssor ügyfele mindig úgy van címkézve, mint az a **kerekítési** ügyfél, akinél a **Kerekítés** jelző **Igen** értékre van állítva.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

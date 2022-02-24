@@ -2,16 +2,18 @@
 title: Bonyolult egységek kezelése termékalapú szerződéssorokhoz - lite
 description: Ez az témakör az előfizetéses termékek értékesítésének támogatásával kapcsolatos információkat tartalmaz.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003369"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177379"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Bonyolult egységek kezelése termékalapú szerződéssorokhoz - lite
 
@@ -44,6 +46,3 @@ Ha mennyiségi tényezőket szeretne létrehozni a termék tulajdonságaiból, h
 7. Ismételje meg a 2–6 lépéseket az összes olyan tulajdonságra vonatkozóan, amelyek együttesen alkotják a termék alapú szerződéssor mennyiségét.
 
 A beállított mennyiségi tényezőkkel, amikor a felhasználó létrehoz egy szerződéssor ehhez a termékhez, a szerződéssor mennyisége zárolva van. A mennyiséget a program az adott szerződéssor tulajdonságértékeinek szorzataként számítja ki.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

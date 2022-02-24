@@ -2,16 +2,18 @@
 title: Érdeklődők kezelése - Lite
 description: Ez a témakör információkat nyújt a projektalapú érdeklődőkkel kapcsolatban (pro).
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991399"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272841"
 ---
 # <a name="manage-leads---lite"></a>Érdeklődők kezelése - Lite
 
@@ -53,7 +55,7 @@ Az olyan érdeklődőket, akiknek a **Típus** értéke **Munkaalapú**, azokat 
 - A partnerhez társított kapcsolattartó-bejegyzés, amely az érdeklődő **Utónév** és **Vezetéknév** mezőinek értékein alapul.
 - Olyan projektalapú lehetőség, amelynek **Típus** mezője **Munkaalapú** értékre van beállítva.
 
-Az érdeklődők minősítésével kapcsolatos további tudnivalókért lásd: [Érdeklődők minősítése vagy átalakítása](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Az érdeklődők minősítésével kapcsolatos további tudnivalókért lásd: [Érdeklődők minősítése vagy átalakítása](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Üzleti folyamat a projektalapú üzletekhez
 

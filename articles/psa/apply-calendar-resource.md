@@ -2,6 +2,8 @@
 title: Alkalmazzon naptárat egy erőforráshoz
 description: Naptár használata egy erőforráshoz a Project Service szolgáltatásban
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24d300df710850df329c9fbba2b6eeceaa7d29125aae23a42bf3f2a94bed131a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94c646db684525cdc71bd935643a3b7ee2d40ea7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000669"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145496"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>Naptár használata egy erőforráshoz (Project Service)
 
@@ -43,6 +45,3 @@ Ha már létrehozott egy munkaidő sablont, hozzá kell rendelnie egy erőforrá
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

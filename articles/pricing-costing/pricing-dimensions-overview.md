@@ -2,18 +2,19 @@
 title: Árazási dimenziók áttekintése
 description: Ez a témakör a Dynamics 365 Project Operations árazási dimenzióiról nyújt információkat.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001974"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650197"
 ---
 # <a name="pricing-dimensions-overview"></a>Árképzési dimenziók áttekintése
 
@@ -33,7 +34,7 @@ Emiatt kétféle árképzési dimenzió érhető el:
 
 A Dynamics 365 Project Operations alapértelmezett árképzési dimenziókkal rendelkezik. Ezek az árképzési dimenziók a **Project Operations** > **Paraméterek** részén tekinthetők meg. A paraméterrekordban az **Összegalapú árképzési dimenziók** fülön ellenőrizze, hogy a **msdyn_resourcecategory** szerepkör és a **msdyn_organizationalunit** erőforrásbiztosító szervezeti egység rendelkezik **Értékesítésre vonatkozó** és **Költségre vonatkozó** mezőkkel, és hogy ezek beállítása **Igen** legyen. Ha engedélyezi ezeket a mezőket, beállíthatja az egyes szerepkörök és szervezeti egységek kombinációjához tartozó árakat és költségeket.
 
-![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével.](media/PS-OOB-parameters.png)
+![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével](media/PS-OOB-parameters.png)
 
 Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További tájékoztatás a következő témakörökben. 
   
@@ -58,18 +59,15 @@ A következő példa azt a számlamértéket mutatja, amelyet azon szerepkör é
 
 **Számlaminta**
 
-| Szerepkör        | Szerv. egység    |Kiszerelés      |Ár      |Pénznem  |
+| Szerepkör        | Szerv. egység    |Egység      |Ár      |Pénznem  |
 | ------------|-------------|----------|----------:|----------|
-| Fejlesztő   | Contoso US  |Óra | 200|USD     |
-| Fejlesztő   | Contoso India |Óra|   112|USD     |
+| Fejlesztő   | Contoso USA  |Hour | 200|USD     |
+| Fejlesztő   | Contoso India |Hour|   112|USD     |
 
 
 **Költségminta**
 
-| Fizetési sáv     | Szerv. egység    |Kiszerelés      |Ár      |Pénznem  |
+| Fizetési sáv     | Szerv. egység    |Egység      |Ár      |Pénznem  |
 | ----------------|-------------|----------|----------:|----------|
-| Cégem_Sáv1 | Contoso US  |Óra | 145|USD     |
-| Cégem_Sáv2 | Contoso India |Óra|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Cégem_Sáv1 | Contoso USA  |Hour | 145|USD     |
+| Cégem_Sáv2 | Contoso India |Hour|   67|USD     |

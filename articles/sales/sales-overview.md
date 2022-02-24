@@ -2,23 +2,24 @@
 title: Értékesítési folyamat áttekintése
 description: Ez a témakör információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991849"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177604"
 ---
 # <a name="sales-process-overview"></a>Értékesítési folyamat áttekintése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A projektalapú szervezetekben alkalmazott értékesítési folyamatok különböznek a termékalapú szervezeteknél alkalmazott értékesítési folyamatoktól. Ez azért van, mert a projektalapú szervezetek értékesítési ciklusai hosszabbak és testreszabott becslési technikákat igényelnek az egyes ügyletek elemzéséhez és árajánlatok létrehozásához. A Dynamics 365 Project Operations az alábbi, értékesítési folyamatban használt funkciókat használja:
+A projektalapú szervezetekben alkalmazott értékesítési folyamatok különböznek a termékalapú szervezeteknél alkalmazott értékesítési folyamatoktól. Ez azért van, mert a projektalapú szervezetek értékesítési ciklusai hosszabbak és testreszabott becslési technikákat igényelnek az egyes ügyletek elemzéséhez és árajánlatok létrehozásához. A Dynamics 365 Project Operations a következő funkciót használja, amelyet az értékesítési folyamat is használ.
 
 - Egy Potenciális ügyfél rekord használható az értékesítési folyamat nyomon követésére.
 - A jogosult potenciális ügyfeleket lehetőségekként követik.
@@ -62,6 +63,3 @@ A Project Operationsben nem követheti nyomon az árajánlatokon végzett módos
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Az árajánlatok és a projektszerződések megjegyzéseinek és jóváhagyásának nyomon követése
 Az árajánlatok és a projektszerződések felülvizsgálatát és jóváhagyását a nyilvántartási fal és a hozzászólások segítségével kezelheti. A szervezet létrehozhat egyéni munkafolyamatokat és beépülő modulokat a vélemények értesítéseinek hozzárendeléséhez, átirányításához, felterjesztéséhez és kezeléséhez, illetve a munkaelemek jóváhagyásához.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

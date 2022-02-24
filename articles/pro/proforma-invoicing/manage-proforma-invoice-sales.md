@@ -1,23 +1,25 @@
 ---
-title: Proforma projektszámla kezelése
-description: Ez témakör a proforma projektszámlák használatáról nyújt információt.
+title: Proforma számla kezelése - Lite
+description: Ez a témakör információt nyújt a proforma számlák használatáról.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997429"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181545"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Proforma projektszámla kezelése 
+# <a name="manage-a-proforma-invoice---lite"></a>Proforma számla kezelése - Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Dynamics 365 Project Operations alkalmazásban a proforma számlák a Dynamics 365 Salesben szereplő számlák bővítményeként jönnek létre. A számlázás során azonban számos különbség van a számlázási folyamatban a Sales és a Project Operations között. Például nem lehet új számlát létrehozni a Project Operations **Számlák listája** oldaláról, de a Salesben igen. Ezek a különbségek és bővítmények olyan projektek számlázási folyamatainak támogatásához szükségesek, amelyek eltérnek az értékesítési rendelések tipikus számláitól.
+A Dynamics 365 Project Operationsban a proforma számlák a Dynamics 365 Salesben szereplő számlák bővítményeként jönnek létre. A számlázás során azonban számos különbség van a számlázási folyamatban a Sales és a Project Operations között. Például nem lehet új számlát létrehozni a Project Operations **Számlák listája** oldaláról, de a Salesben igen. Ezek a különbségek és bővítmények olyan projektek számlázási folyamatainak támogatásához szükségesek, amelyek eltérnek az értékesítési rendelések tipikus számláitól.
 
 > [!IMPORTANT]
 > A különbségek miatt a számlák nem használhatók fel egymás helyettesítéseként a Sales és a Project Operations szolgáltatásban.
@@ -67,9 +69,9 @@ A Project Operationsban mindig tartozik egy számlasor minden projektszerződés
 
 A projekt számláján szereplő minden számlasor tartalmazza a számlasor részleteit. Ezek a soradatok a számla sorában hivatkozott, a szerződéssorhoz kapcsolódó, nem számlázott értékesítési tényadatokkal és mérföldkövekkel kapcsolatosak. Az összes ilyen tranzakcióhoz **Számlázásra kész** jelölést kell alkalmazni.
 
-Az **Idő- és anyagszámla** sor esetén a számlasor részletei a **Számalsor** lap **Felszámítható**, **Nem felszámítható** és **Kiegészítő** lehetőségekbe vannak csoportosítva. A **számlázható számlasorok** részleteinek összegzése adja a számlasor összesítését. A **Kiegészítő** és **Nem felszámítható tényadatok** nem adódnak össze a számlasor végösszegéhez.
+Az **idő-és anyagelszámolású számla** sor esetében a számlasor részleteit a rendszer a **Számlasor** oldalon **Számlázható**, **Nem számlázható** és **Kiegészítő** csoportokba sorolja. A **számlázható számlasorok** részleteinek összegzése adja a számlasor összesítését. Az **Ingyenes** és a **Nem számlázható tényadatok** nem számítanak bele a számlasor összegébe.
 
-**Rögzített árú számla** sor esetén a számlasor részletei olyan mérföldkövekből jönnek létre, amelyek a kapcsolódó szerződéssoron **Számlázásra kész** jelöléssel vannak ellátva. Miután a számlasor részletei egy mérföldkőből származnak, a mérföldkő számlázási állapota **Ügyfélszámla létrehozva** értékre frissül.
+A **rögzített árú számla** sora esetében a rendszer a számlasor adatait a kapcsolódó szerződéssor **számlázásra kész** ként megjelölt mérföldkövei alapján hozza létre. Miután a számlasor részletei egy mérföldkőből származnak, a mérföldkő számlázási állapota **Ügyfélszámla létrehozva** értékre frissül.
 
 ### <a name="edit-invoice-line-details"></a>Számlasorrészletek szerkesztése
 
@@ -96,12 +98,8 @@ A következő mezők a számlasor részletes adatain láthatók, amelyeket a ren
 | **Adó** | Alapértelmezés szerint a forrás tényleges értékét adja meg. A mezőt a felhasználó módosíthatja | A mező a felhasználó által módosítható, amikor egy új számlasorrészletet hoz létre, és amely nem rendelkezik tényleges támogatással. |
 | **Kibővített összeg** | Számított mező, kiszámítása: **Összeg + Adó**. Írásvédett mező, amely a szerkesztéstől le van zárva. | &nbsp; |
 | **Számlázási típus** | Alapértelmezés szerint a forrás tényleges értékét adja meg. A mezőt a felhasználó módosíthatja. | A **Számlázható** lehetőség kiválasztásával hozzáadja a sort a számlasor végösszegéhez. A **Kiegészítő** és a **Nem számlázható** kizárja az értéket a számlasor összegéből. |
-| **Termék kiválasztása** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez írásvédett mező. | Ha új számlasorrészletet hoz létre háttér tényadat nélkül, akkor ez a mező szerkeszthető. |
-| **Termék** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez írásvédett mező. | Ha új számlasorrészletet hoz létre háttér tényadat nélkül, ez a mező akkor szerkeszthető, ha a **Termék kiválasztása** mező **Meglévő termék** értékre van állítva. |
-| **Terméknév** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez írásvédett mező. | Új számlasorrészleten, ahol a termékazonosító a katalógusból van kiválasztva, ez a mező a termék nevére van állítva. A nem katalogizált termékben a mező neve nem katalogizált értékre van állítva. |
-| **Nem katalogizált leírás** | Alapértelmezés szerint az erőforrás tényadatból állítható be, akkor ez a mező írásvédett. | Ha új számlasorrészletet hoz létre háttér tényadat nélkül, akkor nem katalogizált leírást adhat hozzá a termékhez. |
 | **Tranzakció típusa** | Alapértelmezés szerint a forrás tényleges értékét adja meg. Írásvédett mező, amely a szerkesztéstől le van zárva. | Alapértelmezés szerint a **számlázott értékesítésre** van beállítva, amikor új **Számlasorrészletet** hoz létre támogató tényadat nélkül.  |
-| **Tranzakció osztálya** | Alapértelmezés szerint a forrás tényleges értékét adja meg. Írásvédett mező, amely a szerkesztéstől le van zárva. | Alapértelmezés szerint annak alapján állítható be, hogy a felhasználó hogy dönt, létrehoz-e egy **Idő**, **Költség**, **Anyag**, vagy **Díj** számlasorrészletet, miközben új **Számlasorrészletet** hoz létre tényadat háttér nélkül. Szerkesztés elől zárolva. |
+| **Tranzakció osztálya** | Alapértelmezés szerint a forrás tényleges értékét adja meg. Írásvédett mező, amely a szerkesztéstől le van zárva. | Alapértelmezés szerint van beállítva attól függően, hogy a felhasználó **Idő**, **Költség** vagy **Díj** típusú számlasoradatot hoz létre, miközben új **Számlasoradatot** hoz létre tényleges támogatás nélkül. Szerkesztés elől zárolva. |
 
 A következő mezők a számlasor részletes adatain láthatók, amelyeket a rendszer mérföldkővel támogat:
 
@@ -146,6 +144,3 @@ Ha a számla létrehozása után beérkezett tényleges adatokkal rendelkezik, a
 A Project Operationsban olyan termékekhez is létrehozhatók számlasorok, amelyek nem vonatkoznak a projektekre, illetve az összes projektre együtt vonatkoznak a projektalapú számlasorok esetében. Ezek a számlasorok termék alapú szerződéssorok formájában jönnek létre, és számlázásra készként való jelölésüket követően a rendszer termék alapú számlasorként adja hozzá azokat.
 
 A termékalapú számlasorok hozzáadását követően azok nem módosíthatók. Azonban a piszkozat proforma számláról törölhetők.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

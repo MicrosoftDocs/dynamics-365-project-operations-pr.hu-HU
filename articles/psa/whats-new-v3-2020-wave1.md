@@ -1,6 +1,8 @@
 ---
 title: Újdonságok és változások a Project Service Automation 3. verziójában – 2020 1. hullám
 description: Ez a témakör információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 3. verziójában – 2020. 1. hullám.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002109"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150941"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Újdonságok és változások a Project Service Automation 3-as verziójában – 2020 1. hullám
 
@@ -41,6 +43,3 @@ Emellett ha bármilyen egyéni alkalmazás-modullal rendelkezik, amely tartalmaz
 
 ### <a name="currently-extended-time-entry-changes"></a>Jelenleg meghosszabbított időbejegyzés-változások
 Hogy ez a lehető legkevésbé befolyásolja az időbejegyzést jelenleg használó felhasználókat, ez a szerepkörmódosítás az egyetlen alapvető feltétele az időbejegyzés további használatának. Ha egyéni nézeteket vagy különálló időbeviteli élményeket hozott létre, akkor az **Időbevitel beállítása** mezőket a megfelelő PSA-értékre kell állítania.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002964"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993149"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hogyan szabható testre a Projektfázisok üzleti folyamat?
 
@@ -60,11 +60,11 @@ Ha a frissítés nem lehetséges, testreszabhatja a Projektfázisok üzleti foly
 1. Adjon hozzá további fázisokat az alapértelmezett konfigurációhoz, miközben megtartja az angol fázisneveket az **Ajánlat**, a **Terv** és a **Bezárás** esetében.
 
 
-![Fázisok hozzáadása az alapértelmezett konfigurációhoz képernyőkép.](media/FAQ-Customize-BPF-1.png)
+![Fázisok hozzáadása az alapértelmezett konfigurációhoz képernyőkép](media/FAQ-Customize-BPF-1.png)
  
 2. Hozzon létre saját üzleti folyamatot, és legyen ez az elsődleges üzleti folyamat a projektentitáshoz, ami lehetővé teszi bármilyen kívánt fázisnév használatát. Azonban ha ugyanazokat a szabványos projektfázisokat is használni kívánja – **Ajánlat**, **Terv** és **Bezárás** – néhány testreszabást kell végrehajtani. A bonyolultabb logika a projektzárás, amely továbbra is kiváltható csak a projektbejegyzés inaktiválásával.
 
-![BPF-testreszabás.](media/FAQ-Customize-BPF-2.png)
+![BPF testreszabása](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>További szempontok a Project Service alkalmazás 2.4.4.30 vagy korábbi verzió esetében a 9.0 platformon
 
@@ -80,11 +80,11 @@ Saját üzleti folyamat létrehozásához a projektentitáshoz tegye a következ
 
 1. Válassza a **Beállítások** > **Folyamatközpont** lehetőséget. A Projektfázisok üzleti folyamatot ne másolja le, mert ezzel a Project Service üzleti logikáját is lemásolná.
 
-  ![Folyamat létrehozása.](media/FAQ-Customize-BPF-3.png)
+  ![Folyamat létrehozása](media/FAQ-Customize-BPF-3.png)
 
 2. A Folyamattervező segítségével hozza létre a kívánt fázisneveket. Ha szeretné az alapértelmezett fázisok funkcióit az **Ajánlat**, **Terv** és **Bezárás** esetében, akkor kell létrehozni ezt az egyéni üzleti folyamat fázisnevei alapján.
 
-   ![BPF testreszabásához használt Folyamattervező képernyőképe.](media/FAQ-Customize-BPF-4.png) 
+   ![BPF testreszabásához használt Folyamattervező képernyőképe](media/FAQ-Customize-BPF-4.png) 
 
 3. Kattintson a Folyamattervezőben a **Megrendelési folyamat** elemre, hogy az egyéni üzleti folyamatot tegye az elsődleges üzleti folyamattá a projektentitásba azzal, hogy áthelyezi a Projektfázisok üzleti folyamat fölé, a lista tetejére.
 
@@ -95,15 +95,15 @@ Saját üzleti folyamat létrehozásához a projektentitáshoz tegye a következ
 
 4. Adjon hozzá egy új egyéni mezőt a projektentitáshoz az fázisok rögzítésére az egyéni üzleti folyamatban. Üzleti logikát (beépülő modul vagy munkafolyamat) kell hozzáadnia, hogy a mező frissüljön az egyéni üzleti folyamat fázisának+ frissítésekor.
 
-   ![Képernyőkép: projektentitás testreszabása.](media/FAQ-Customize-BPF-6-720.png)
+   ![Képernyőkép: projektentitás testreszabása](media/FAQ-Customize-BPF-6-720.png)
 
 5. Módosítsa a **Projekt fázis szerint** diagramot, hogy az új egyéni mezőt használja a fázisokhoz.
 
-   ![Képernyőkép: Projekt fázis szerint diagram használata.](media/FAQ-Customize-BPF-7-720.png)
+   ![Képernyőkép: Projekt fázis szerint diagram használata](media/FAQ-Customize-BPF-7-720.png)
 
 6. Módosítsa az összes érintett nézetet a projektentitáshoz, hogy tartalmazza az új egyéni mezőt a fázisokhoz.
 
-   ![Képernyőkép: projektentitáson nézetek módosítása.](media/FAQ-Customize-BPF-8-720.png)
+   ![Képernyőkép: projektentitáson nézetek módosítása](media/FAQ-Customize-BPF-8-720.png)
 
 
 

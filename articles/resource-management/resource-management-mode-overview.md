@@ -1,52 +1,50 @@
 ---
 title: Erőforrás-kezelési módok áttekintése
-description: Ez a témakör a Dynamics 365 Project Operations Erőforráskezelés funkciójáról nyújt információkat.
+description: Ez a témakör a Dynamics 365 Project Operations Erőforrás-kezelés funkciójával kapcsolatos információkat tartalmaz.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008229"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118521"
 ---
 # <a name="resource-management-modes-overview"></a>Erőforrás-kezelési módok áttekintése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-A Dynamics 365 Project Operations két módot támogat a teljes foglalási folyamat végrehajtásához. A kezelési mód projektparaméterként van definiálva, és módosítható az üzleti igények változása esetén.    
+A Dynamics 365 Project Operations két módot támogat annak érdekében, hogy végrehajtsa a teljes foglalási folyamatot. A kezelési mód projektparaméterként van definiálva, és módosítható az üzleti igények változása esetén.    
 
 ## <a name="central-mode"></a>Központi mód
 Azoknál a szervezeteknél, akik központosítják az erőforrások elosztását a projektek számára, a központi mód biztosítja, hogy a projektmenedzserek a projekt szintjén meghatározhatják az erőforrás-követelményeket. Az erőforrás-követelmények teljesítését egy erőforrás-kezelőre delegálja a rendszer. A projektmenedzserek elfogadhatják vagy visszautasíthatják azokat az erőforrásokat, amelyeket az erőforrás-kezelő javasolt.
 
-![Központi mód.](./media/resource-management-central.png)
+![Központi mód](./media/resource-management-central.png)
 
 Az erőforrások központi móddal való kezeléséhez lásd:
 
-- [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](/dynamics365/project-service/assign-generic-bookable-resource)
-- [Nevesített erőforrások foglalása erőforrás-követelményekből](/dynamics365/project-service/book-named-resource)
-- [Erőforrás-kérelem elküldése](/dynamics365/project-service/submit-resource-request)
-- [Erőforrás-követelmény teljesítése](/dynamics365/project-service/resource-management-fulfill-requests)
-- [Fogadja el vagy utasítsa el a javasolt projekt erőforrást egy erőforrás-kérésből](/dynamics365/project-service/accept-reject-proposed-resource)
+- [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [Nevesített erőforrások foglalása erőforrás-követelményekből](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Erőforrás-kérelem elküldése](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
+- [Erőforrás-követelmény teljesítése](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
+- [Fogadja el vagy utasítsa el a javasolt projekt erőforrást egy erőforrás-kérésből](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hibrid mód
 Azoknál a szervezeteknél, akik rugalmasságot igényelnek az erőforrások elosztásában, a hibrid mód lehetővé teszi, hogy a projektmenedzserek és az erőforrás-menedzserek is tudják az erőforrásokat foglalni.
 
-![Hibrid mód.](./media/resource-management-hybrid.png)
+![Hibrid mód](./media/resource-management-hybrid.png)
 
 A támogatott központi mód folyamata mellett a következő témakörök nyújtanak információkat a hibrid módban használható további támogatott foglalási folyamatokkal kapcsolatban:
 
 Erőforrás közvetlen foglalása egy projekthez:
-- [Nevesített foglalható erőforrások foglalása projektcsoporthoz, és feladatok hozzárendelése](/dynamics365/project-service/assign-named-bookable-resource)
+- [Nevesített foglalható erőforrások foglalása projektcsoporthoz, és feladatok hozzárendelése](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
 
 Erőforrás foglalása az erőforrás-követelményekből:
-- [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](/dynamics365/project-service/assign-generic-bookable-resource)
-- [Nevesített erőforrások foglalása erőforrás-követelményekből](/dynamics365/project-service/book-named-resource)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [Nevesített erőforrások foglalása erőforrás-követelményekből](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)

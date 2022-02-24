@@ -2,17 +2,19 @@
 title: Újdonságok vagy módosítások 2021 áprilisában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 description: Ez témakör a Project Operations 2021 áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/gyártáson alapuló forgatókönyvek esetében.
 author: andchoi
+manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e2e3c1c717b5296964e0921aeec4999dd2f6e29
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005574"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935567"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 áprilisában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 

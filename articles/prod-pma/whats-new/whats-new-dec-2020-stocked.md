@@ -2,17 +2,19 @@
 title: Újdonságok 2020 decemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 description: Ez a témakör információval szolgál a készletalapú/termelésalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020 decemberi kiadásában váltak elérhetővé.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008814"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727972"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Újdonságok vagy változások 2020 decemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -139,7 +141,4 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Dynamics 365 Finance szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+A Dynamics 365 Finance szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.

@@ -2,6 +2,8 @@
 title: Becslések
 description: Ez a témakör információkat nyújt becslésekről a Dynamics 365 Project Service Automation rendszerben.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992389"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151436"
 ---
 # <a name="estimates"></a>Becslések
 
@@ -83,27 +85,24 @@ Ha hozzáadott egy egyéni mezőt az árajánlat sorrészleteihez, és azt akarj
 1. Nyissa meg a PluginRegistrationTool eszközt, és csatlakozzon az online példányhoz.
 2. Válassza a **Keresés** lehetőséget, és keresse meg a frissítést igénylő bővítményt.
 
-    ![Keresési fa párbeszédpanel.](media/basic-guide-19.png)
+    ![Keresési fa párbeszédpanel](media/basic-guide-19.png)
 
 3. Válassza ki a beépülő modult, majd a főoldalon válassza a **Kiválasztás** lehetőséget.
 4. Válassza ki a beépülő modul frissítésének lépését, kattintson a jobb gombbal, majd válassza a **Frissítés** lehetőséget.
 
-    ![Egy lépés kiválasztása a beépülő modulban.](media/basic-guide-20.png)
+    ![Egy lépés kiválasztása a beépülő modulban](media/basic-guide-20.png)
 
 5. A **Meglévő lépés frissítése** párbeszédpanelen a **Szűrési attribútumok** mezőben válassza az ellipszis (**...**) gombot:
  
-    ![A Meglévő lépés párbeszédpanel frissítése.](media/basic-guide-21.png)
+    ![A Meglévő lépés párbeszédpanel frissítése](media/basic-guide-21.png)
 
 6. Az **Attribútumok kiválasztása** párbeszédpanelen jelölje be az egyedi attribútumok jelölőnégyzeteit.
 
-    ![Az Attribútumok párbeszédpanel kiválasztása.](media/basic-guide-22.png)
+    ![Az Attribútumok párbeszédpanel kiválasztása](media/basic-guide-22.png)
 
 7. A párbeszédpanel bezárásához válassza az **OK** lehetőséget, majd válassza a **Lépés frissítése** lehetőséget.
  
-    ![Lépés frissítése gomb.](media/basic-guide-23.png)
+    ![Lépés frissítése gomb](media/basic-guide-23.png)
 
 8. Ismételje meg az 1-7. lépéseket a második modullal.
 9. Zárja be a PluginRegistrationTool eszközt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Újdonságok – 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 description: Ez a témakör információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. decemberi kiadásában váltak elérhetővé.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984874"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727883"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -106,7 +108,4 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Utazás és költség                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | A költségjelentés automatikus feladási munkafolyamata befejeződött, de a számla nincs feladva                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.

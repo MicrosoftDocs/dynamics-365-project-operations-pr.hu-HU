@@ -2,6 +2,8 @@
 title: Szervezeti egységek
 description: Ez a témakör a Dynamics 365 Project Service Automation alkalmazás szervezeti egységeiről tartalmaz információkat.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005079"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145632"
 ---
 # <a name="organizational-units"></a>Szervezeti egységek 
 
@@ -53,7 +55,7 @@ A szervezeti egységek két szerepet töltenek be a PSA-ban:
 - **Szerződő részleg** – Az a szervezeti egység, amely azt a vállalatot vagy részleget reprezentálja, amely elsősorban felelős az értékesítés megnyeréséért és a munka és szolgáltatások ügyfélnek történő leszállításáért. A szerződő részleget a fejlécben a **Szerződő részleg** mező azonosítja a **Lehetőség**, **Árajánlat**, **Projektszerződés** és **Projekt** oldalon.
 - **Erőforrás-kezelő részleg** – Az a szervezeti egység, amelyhez egy erőforrás tartozik, vagy hozzá van rendelve. Ez a szervezeti egység erőforrásokat biztosít bizonyos szerepkörökhöz a munkanyilatkozatoknál (SOW) és projekteknél, amelyek a szerződő egység tulajdonában vannak.
 
-> ![Szerződő egységek és erőforrás-kezelő részlegek.](media/advanced-1.png)
+> ![Szerződő egységek és erőforrás-kezelő részlegek](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Szervezeti egység GYIK
 
@@ -122,7 +124,7 @@ Szám A PSA jelenlegi kiadásában a szervezeti egységek nem hierarchikusak. Ez
 Ha komplex hierarchiájú költséghelyekkel, osztályokkal, számlázási irodákkal stb. rendelkezik, akkor az adott hierarchia levélcsomópontjait külön szervezeti egységként kell beállítani.
 A következő példa egy tipikus hierarchiát mutat:
 
-**ContosoIndia**
+**Contoso India**
 
   - SAP-gyakorlat 
 
@@ -165,6 +167,3 @@ Ha vállalata egy önköltségi árlistát tartalmazó egyetlen egységként mű
 Ha önmagában egy projektet hoznak létre, a projekt alapértelmezett szerződő részlege az a felhasználó, aki létrehozza azt. Ez a felhasználó egyben az alapértelmezett projektvezető is. Ha a projekt egy értékesítési entitásra van leképezve – például Árajánlathoz vagy Projektszerződéshez –, akkor a projektben szereplő szerződő részleg az értékesítési entitáson alapul. Ebben az esetben a projektbecslések újraszámíthatók, mivel az önköltségi árlista segítségével kiszámíthatók a költségbecslés változásai, a szerződő részleg módosulása esetén. Az értékesítési árlista segítségével kiszámíthatók a módosítani kívánt értékesítési becslések, hogy azok szinkronban legyenek az árajánlat projekt árlista mezőjében szereplő árakkal.
 
 A **Szerződő részleg** és a **Pénznem** mezők nem szerkeszthetők, mivel szinkronban kell lenniük az értékesítési entitások értékeivel (árajánlat vagy projektszerződés), amelyekre a projekt le van képezve.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

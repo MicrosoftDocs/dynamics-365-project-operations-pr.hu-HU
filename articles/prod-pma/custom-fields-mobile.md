@@ -2,9 +2,11 @@
 title: Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken
 description: Ez a témakör általános mintákat mutat be az egyéni mezők létrehozására szolgáló bővítmények használatához.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005754"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270996"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken
 
@@ -153,13 +155,13 @@ A **Dátum** típusú mezők esetében ez a tulajdonság továbbítja a mező d�
 
 Az alábbiakban az időnyilvántartási bejegyzések létrehozását bemutató képernyőkép látható a mobilalkalmazásból. A képen az alapértelmezett mezők, illetve az „Időbejegyzés” részben található „Tesztkarakterlánc” nevű egyéni mező látható. Ennél a mezőnél a „Második lehetőség” nevű felsorolási érték már be van állítva.
 
-![Tesztkarakterlánc egyéni mezője az alkalmazásban.](media/timesheet-entry.jpg)
+![Tesztkarakterlánc egyéni mezője az alkalmazásban](media/timesheet-entry.jpg)
 
 
 
 Az alábbiakban egy képernyőkép látható a mobilalkalmazásból, amelyen a felhasználó a „Tesztkarakterlánc” nevű egyéni mező felsorolási lehetőségei közül választ.  A két lehetőség választógomb formájában jelenik meg: „Első lehetőség” és „Második lehetőség”. Jelenleg a második lehetőség van kiválasztva.
 
-![A tesztkarakterlánc egyéni mezőjének választógombjai.](media/enum-option.jpg)
+![A tesztkarakterlánc egyéni mezőjének választógombjai](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Ne feledje, hogy az egyéni mezőkhöz nem szükséges semmilyen háttérben tá
 
 Az alábbiakban Visual Studio alkalmazásobjektumokat tartalmazó fájáról készült képernyőkép látható. A képen a TSTimesheetLine táblázat kiterjesztése és az egyéni mezőként hozzáadott a TestLineString mező látható.
 
-![Sor karakterlánca.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Sor karakterlánca](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Parancssor használata a TSTimesheetSettings osztály buildCustomFieldList metódusán az időnyilvántartás beviteli szakaszában lévő mező megjelenítésére
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Az alábbiakban egy időnyilvántartást olvasó felhasználót bemutató képernyőkép látható a mobilalkalmazásból. A jobb felső sarokban lévő „További információ” gombot úgy állították be, hogy a „További részletek megtekintése” lehetőséget jelenítse meg.  
 
-![További részletek megjelenítése parancs.](media/show-more.png)
+![További részletek megjelenítése parancs](media/show-more.png)
 
 Az alábbiakban az időnyilvántartás „Egyebek” részét bemutató képernyőkép látható a mobilalkalmazásból. A rendszer hozzáadta az „Időnyilvántartás kihasználtsági rátája (kiszámított egyéni mező)” nevű egyéni mezőt az időnyilvántartás fejlécszakaszához. Az egyéni mezőben beállított írásvédett érték a „0,667”.
 
-![Egyebek szakasz.](media/more-section.jpg)
+![Egyebek szakasz](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>A TSTimesheetTable táblázat kibővítése egyéni mezővel
 
@@ -414,7 +416,7 @@ Az időnyilvántartási funkció adatbázisszintű logilája továbbra is válto
 
 A projektparaméterek beállításaival írásvédetté teheti, illetve elrejtheti az alapértelmezett mezőket a mobilalkalmazásban. **Projektvezetési és könyvelési paraméterek** lap **Időnyilvántartás** fülének **Mobil időnyilvántartások** szakaszában állíthatja be a lehetőségeket.
 
-![Projektparaméterek.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektparaméterek](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>A kiválasztásra elérhető tevékenységek módosítása a bővítmények segítségével
 

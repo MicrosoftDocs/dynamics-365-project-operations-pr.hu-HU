@@ -2,16 +2,18 @@
 title: Költségsablonok beállítása
 description: Ez a témakör információt nyújt a költségsablonok létrehozásáról és használatáról a Project Operations szolgáltatásban.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993559"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642726"
 ---
 # <a name="set-up-cost-templates"></a>Költségsablonok beállítása
 
@@ -77,6 +79,3 @@ Kövesse az alábbi a lépéseket költségsablonok létrehozásához:
 7. A **Kategóriák** lapon jelölje ki a költségsablon sorában szerepeltetni kívánt projektkategóriákat.
 8. Az **Általános** válassza ezt, ha a sor szerepelni fog a készenléti százalékban.
 9. Válassza ki a készültségi százalék kiszámításakor használandó teljesítési költség módszert.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

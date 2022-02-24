@@ -2,9 +2,11 @@
 title: Egyéni mezők és entitások létrehozása árazási dimenzióként
 description: Ez a témakör az egyéni értékkészletek és entitások létrehozását ismerteti.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003639"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642816"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Egyéni mezők és entitások létrehozása árazási dimenzióként
 
@@ -44,7 +46,7 @@ Az entitásalapú dimenziók létrehozásához tegye a következőket:
 3. Válassza az **Új** lehetőséget, és hozzon létre egy **Standard cím** nevű új entitást. 
 4. Írja be a további szükséges információt, majd kattintson a **Mentés** gombra.
 
-> ![A standard című entitás meghatározása.](media/Standard-Title-entity-definition.png)
+> ![A standard című entitás meghatározása](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Értékkészlet-alapú dimenziók 
 Két értékkészlet-alapú dimenziót hozhat létre. 
@@ -54,11 +56,11 @@ Két értékkészlet-alapú dimenziót hozhat létre.
 
 A következő ábra az **Erőforrás munkavégzési helyének** dimenzióját jeleníti meg. 
 
-> ![Erőforrás munkahelye nevű értékkészlet-alapú árképzési dimenzió.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Erőforrás munkahelye nevű értékkészlet-alapú árképzési dimenzió](media/Option-set-PD-called-Resource-Work-Location.png)
 
 A következő ábra az **Erőforrás munkaóráinak** dimenzióját jeleníti meg. 
 
-> ![Erőforrás munkaideje nevű értékkészlet-alapú árképzési dimenzió.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Erőforrás munkaideje nevű értékkészlet-alapú árképzési dimenzió](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Lépjen a **Beállítások** > **Megoldások** részre, és kattintson duplán a(z) **\<your organization name> árképzési dimenzióira**. 
 2. A Solution Explorerben a bal oldali navigációs panelen válassza az **Értékkészletek** elemet. 
@@ -74,7 +76,4 @@ Entitásalapú dimenziókhoz manuálisan vagy Microsoft Excel importálással va
 4. Zárja be a lapot. 
 5. Ismételje meg az 1–3. lépést egy újabb szabványos cím létrehozásához a „Vezető rendszermérnök” esetében.
 
-> ![Mintaadatok a szabványos cím entitáshoz.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Mintaadatok a szabványos cím entitáshoz](media/ST-data.png)
