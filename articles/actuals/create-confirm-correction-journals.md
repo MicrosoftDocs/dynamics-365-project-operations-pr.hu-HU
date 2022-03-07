@@ -2,11 +2,9 @@
 title: Helyesbítő naplók létrehozása és megerősítése
 description: Ez a témakör a helyesbítő napló létrehozásáról és megerősítéséről tartalmaz további információt.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9d242741b2070f086bf8d3f1d40a5380c2a0f518
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127757"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996659"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Helyesbítő naplók létrehozása és megerősítése
 
@@ -89,3 +87,6 @@ Hajtsa végre az alábbi lépéseket egy vagy több költségbejegyzés kijavít
 8. A projekt oldalán a **Tényadatok** lapon tekintse át a **Tényleges adatok társított nézete** elemet. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva. A következő ábra az eredeti költségbejegyzés összegeket, illetve az azokhoz tartozó helyesbített költségbejegyzés-mennyiségeket. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

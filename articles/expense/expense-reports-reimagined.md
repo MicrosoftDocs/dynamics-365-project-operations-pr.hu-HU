@@ -1,12 +1,12 @@
 ---
 title: Költségjelentések újragondolva
-description: Ez témakör a költségjelentések bejegyzésének átalakított és újragondolt élményét ismerteti.
+description: Ez a témakör a költségjelentés-bejegyzés újratervezett és újragondolt felhasználói élményére vonatkozó információkat tartalmaz.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/26/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
-ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5717698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078158"
 ---
 # <a name="expense-reports-reimagined"></a>Költségjelentések újragondolva
 
@@ -41,11 +41,15 @@ Az új felhasználói élmény bekapcsolásához a **Funkciókezelés** munkater
 - A rendszer nem távolítja el a költségjelentések (a meglévő oldal) vagy a költségjelentés-mezők meglévő menüelemeit.
 - A munkafolyamatok és a jóváhagyások továbbra is a meglévő költségjelentési oldalra irányítják át.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
+## <a name="getting-started-video-for-new-users"></a>Kezdeti lépésekkel kapcsolatos videó az új felhasználók számára
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
+
+A [Dynamics 365 for Finance and Operations költségélmény](https://youtu.be/Ocy-MsTvEE0) videó (fent látható) a [Finance and Operations lejátszási listában](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) érhető el a YouTube-on.
 
 ## <a name="new-features"></a>Új szolgáltatások
 
-| Új szolgáltatás | Ismertetés |
+| Új szolgáltatás | Adatfolyam leírása |
 |---|----|
 | Kiadás mező láthatósága | Az új beállítási oldalon megadhatja, hogy a szervezetre vonatkozóan mely mezők legyenek letiltva, és mely mezőkre van szükség, és mely mezők ajánlottak. |
 | Kötelező mezők | Az új, egyszerű konfiguráció lehetővé teszi, hogy bizonyos mezőket a házirend-keretrendszer használata nélkül is kötelezővé tegyen. |
@@ -55,22 +59,22 @@ Az új felhasználói élmény bekapcsolásához a **Funkciókezelés** munkater
 | Az üzenetek mennyiségének csökkentése az üzenetsávban| Az információs napló üzeneteinek száma csökkent, és erőfeszítéseket tettünk annak megakadályozására, hogy sok esetben duplikált üzenetek jelenjenek meg. |
 | Gyakori műveletek csoportosítása | A felület megtisztult az új műveletek gomb hozzáadásával a legtöbb gyakori sorszintű művelethez, valamint egy három pontot tartalmazó gomb (...) hozzáadásával a fejléc és más ritkább műveletek esetében. |
 | Új munkaterület a láthatóság növelése érdekében | Az új munkaterület egyesíti azokat a funkciókat és hivatkozásokat, amelyek segítségével a felhasználók különböző területekre léphetnek. |
-| A meglévő kiadások és bizonylatok hozzáadása a kiadások létrehozása során | A költségjelentések létrehozásakor felveheti az összes kiadást, illetve kijelölheti a nem kapcsolódó költségeket. A nem kapcsolódó költségek a vállalati hitelkártya hírcsatornából importált, illetve a felhasználó által manuálisan létrehozott, de költségjelentéshez nem csatolt kiadások.|
+| A meglévő kiadások és bizonylatok hozzáadása a kiadások létrehozása során | A költségjelentés létrehozásakor az összes vagy a kijelölt kiadásokat és bizonylatokat is hozzáadhatja. |
 | Árfolyamkalkulátor | Árfolyamkalkulátor került hozzáadásra, amely lehetővé teszi, hogy kiszámítsa a több pénznemű, saját pénzből fedezett tranzakciók árfolyamát. |
 | Új kiadási sorok mentése és hozzáadása | A **Mentés** és az **Új** gombok új kiadások beírása esetén elérhetők, hogy gyorsabban megadhassa a kiadási sorokat. |
 | Jobb láthatóság a felosztott és a tételezett sorokban | A tételezett és a felosztott sorok hozzá lettek adva közvetlenül a kiadások listájához, és segítségükkel könnyebben megállapíthatja, hogy vannak-e hibák. |
 | Bizonylatok megjelenítése a tételezés során | A bizonylatok megjeleníthetők a tételezés. |
-| Készpénzelőleg kiválasztása | Jelöljön ki egy vagy több készpénzelőleget egyetlen költségtranzakció teljesítéséhez. |
-| Készpénzelőleg egyenlege | Amikor költségbejegyzést hoz létre a jóváhagyott és a kifizetett készpénzelőlegek alapján, valós időben áttekinti a készpénzelőlegek egyenlegét. |
 
 A kezdeti kiadás a költségbejegyzési forgatókönyvekre fókuszál. A költségjelentés áttekintési vagy jóváhagyási forgatókönyve továbbra is a meglévő kiadásbejegyzési oldalt használja.
 
-Az újragondolt költség-munkaterületen a következő funkciók nem támogatottak:
+A következő funkciók megtalálhatók a meglévő oldalon, de még nincsenek jelen az új oldalon. A következő kiadások során újra bevezetésre kerülnek ezek a funkciók:
 
+- Jóváhagyások
+- A kötelezettségek jóváhagyása és a könyvelés módosításának képessége
+- Több beviteli pont
 - Utazási kérelem integrációja
-- Napidíj költségbejegyzések
+- Adatentitás a kiadás mező láthatóságához
+- A napidíjhoz kapcsolódó kiadások bejegyzése
+- Sorszintű munkafolyamat
 - Ideiglenes jóváhagyói támogatás
-- A munkafolyamat-előzmények megtekintésének lehetősége
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- Speciális tételesítés

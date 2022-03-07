@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987709"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hogyan rendelhető hozzá foglalható erőforrás egy feladathoz a webes alkalmazásban (Project Service 2.x alkalmazás)?
 
@@ -43,7 +43,7 @@ Ennél a módszernél a projektcsoporthoz ad egy erőforrást, és feladatokat r
 3.  Jelölje ki a **Kezdő** és **Befejező** dátumokat.
 
     > [!div class="mx-imgBorder"] 
-    > ![Egy csapattag hozzáadásának képernyőképe](media/FAQ-Resources-to-Tasks2-1.png "Egy csapattag hozzáadásának képernyőképe")
+    > ![Egy csapattag hozzáadásának képernyőképe.](media/FAQ-Resources-to-Tasks2-1.png "Egy csapattag hozzáadásának képernyőképe")
  
 4.  A következő hozzárendelési módok közül választhat az erőforrás foglalásához:
     - **Teljes kapacitás** – legfoglalja az erőforrás teljes kapacitását a megadott kezdő és záró dátum között.
@@ -63,12 +63,12 @@ Ennél a módszernél a projektcsoporthoz ad egy erőforrást, és feladatokat r
     3. Kattintson az **OK** gombra. A csoport tagja most már hozzá van rendelve a feladathoz.
 
     > [!div class="mx-imgBorder"] 
-    > ![Erőforrások WBS-sel hozzáadásának képernyőképe](media/FAQ-Resources-to-Tasks2-2.png "Erőforrások WBS-sel hozzáadásának képernyőképe")
+    > ![Erőforrások WBS-sel hozzáadásának képernyőképe.](media/FAQ-Resources-to-Tasks2-2.png "Erőforrások WBS-sel hozzáadásának képernyőképe")
  
 A csoport tagja rácson megjelenik az erőforrás összesített hozzárendelt óraszáma a Hozzárendelt órák alatt. Az óraszám kisebb vagy egyelnő lesz, mint az erőforrás a lefoglalt óráinak száma. 
 
 > [!div class="mx-imgBorder"] 
-> ![Erőforráshoz rendelt munkaórák képernyőképe](media/FAQ-Resources-to-Tasks2-3.png "Erőforráshoz rendelt munkaórák képernyőképe")
+> ![Erőforráshoz rendelt munkaórák képernyőképe.](media/FAQ-Resources-to-Tasks2-3.png "Erőforráshoz rendelt munkaórák képernyőképe")
  
 Ha az erőforráshoz hozzárendelni kívánt feladat az erőforrás-foglalások záró dátuma után kezdődik, az erőforrás nem jelenik meg a legördülő listában.
 
@@ -92,22 +92,22 @@ Ez a módszer biztosítja, hogy az erőforrásoknak elég foglalásuk legyen a f
 4. Kattintson az **OK** gombra.
 
     > [!div class="mx-imgBorder"] 
-    > ![Képernyőfotó: WBS használata erőforrás hozzáadásához](media/FAQ-Resources-to-Tasks2-4.png "Képernyőfotó: WBS használata erőforrás hozzáadásához")
+    > ![Képernyőfotó: WBS használata erőforrás hozzáadásához.](media/FAQ-Resources-to-Tasks2-4.png "Képernyőfotó: WBS használata erőforrás hozzáadásához")
  
 Miután befejezte a WBS segítségével a szerepkörök hozzárendelését a feladatokhoz, válassza ezt: **Projektcsoport létrehozása**. A Project Service létrehozza a minimális számú általános csoporttagot a szerepkörök alapján, erőforrás-szervezeti egységek és a projektnaptár alapján, a feladat-hozzárendelések összesítésével.
 
 > [!div class="mx-imgBorder"] 
-> ![Képernyőfotó: projektcsoport generálása](media/FAQ-Resources-to-Tasks2-5.png "Képernyőfotó: projektcsoport generálása")
+> ![Képernyőfotó: projektcsoport generálása.](media/FAQ-Resources-to-Tasks2-5.png "Képernyőfotó: projektcsoport generálása")
  
 A Csoporttag rácsban látni fogja az általános erőforrástípusú erőforrásokat a szerepkör és a pozíció nevével. Ha a munka elvégzéséhez két erőforrás szükséges egy szerepkörhoz, a Csoport létrehozása funkció két csoporttagot hoz létre, és a pozíció neve segítségével különbözteti meg őket.
 
 > [!div class="mx-imgBorder"] 
-> ![Képernyőkép: két általános erőforrás hozzáadása](media/FAQ-Resources-to-Tasks2-6.png "Képernyőkép: két általános erőforrás hozzáadása")
+> ![Képernyőkép: két általános erőforrás hozzáadása.](media/FAQ-Resources-to-Tasks2-6.png "Képernyőkép: két általános erőforrás hozzáadása")
  
 Az Erőforrás-követelmény alatt található hivatkozás kiválasztásával megnyithatja az általános csoporttag mögöttes erőforrás-követelményeit.
 
 > [!div class="mx-imgBorder"] 
-> ![Képernyőkép: támogató erőforráskövetelmény megnyitása](media/FAQ-Resources-to-Tasks2-7.png "Képernyőkép: támogató erőforráskövetelmény megnyitása")
+> ![Képernyőkép: támogató erőforráskövetelmény megnyitása.](media/FAQ-Resources-to-Tasks2-7.png "Képernyőkép: támogató erőforráskövetelmény megnyitása")
 
 Jelölje be a **Foglalás** elemet az általános erőforráshoz, és aztán az ütemezési tábla használatával kereshet és foglalhat le egy tényleges erőforrást. A **Kérelem küldése** kiválasztásával el is küldheti a követelményt egy erőforrás-menedzser általi teljesítésre.
 

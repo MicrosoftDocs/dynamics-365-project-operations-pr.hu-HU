@@ -2,18 +2,16 @@
 title: Alapértelmezett árlisták
 description: Ez a témakör az alapértelmezett értékesítési és önköltségi árlistákról nyújt tájékoztatást a Project Operations alkalmazásban.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130941"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989869"
 ---
 # <a name="default-price-lists"></a>Alapértelmezett árlisták
 
@@ -21,7 +19,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 ## <a name="sales-price-lists"></a>Értékesítési árlisták
 
-Minden projektajánlat és szerződés a Dynamics 365 Project Operations alkalmazásban egy alapértelmezett értékesítési árlistát tartalmaz. 
+A Dynamics 365 Project Operations rendszerben minden projektajánlat és szerződés tartalmaz egy alapértelmezett értékesítési árlistát. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Árlista alapértelmezései a projektajánlatokban
 A rendszer a következő folyamatot hajtja végre annak meghatározásához, hogy mely árlista legyen alapértelmezett a projektajánlatban:
@@ -57,3 +55,6 @@ A önköltségi árlisták nem alapértelmezettek a Project Operations alkalmaz�
 5. A rendszer ezt követően azon árlisták hatályossági dátumát tekinti meg, amelyek megfelelnek a bejövő becslés vagy a tényleges sor dátumának. 
 6. Ha a bejövő becslésen vagy a tényleges időpont dátumára vonatkozóan több olyan árlista is van, a legutóbb létrehozott árlista lesz kiválasztva.
 7. Ha nincsenek olyan árlisták csatolva a projektparaméterekhez, amelyek megfelelnek a pénznemnek és az érvényességi dátumnak a rendszer alapértelmezetten nullára (0) állítja az önköltségi árat a bejövő becslésen vagy tényleges soron.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

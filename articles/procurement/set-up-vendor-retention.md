@@ -9,7 +9,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
 ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 10/02/2021
 ms.locfileid: "7594596"

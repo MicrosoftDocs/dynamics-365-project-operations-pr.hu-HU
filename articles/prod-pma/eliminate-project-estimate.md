@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270681"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078145"
 ---
 # <a name="eliminate-a-project-estimate"></a>Projekt becslésének eltávolítása
 
@@ -51,6 +51,3 @@ A becsült projekt megszüntetéséhez annak teljesnek kell lennie. A következ�
 5. Az eltávolítási folyamat befejeződése után a megszüntetett becsült projekt negatív értékkel jelenik meg. 
 
 Ha nem kívánja eltávolítani a becslést, akkor kiválaszthatja az eltávolított becslést, és kiválaszthatja az **Eltávolítás visszaállítása** elemet.   
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

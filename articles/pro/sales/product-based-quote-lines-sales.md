@@ -2,18 +2,17 @@
 title: Termékalapú árajánlatsorok áttekintése - Lite
 description: Ez a témakör információkat nyújt a termékalapú árajánlatsorok használatáról.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29d82637c6c8bb5b5cde7707d181d5b3d3b235c4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 8b904f9abd3d2505c5397906f63a5ae8ff4be41b
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272571"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369829"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Termékalapú árajánlatsorok áttekintése - Lite
 

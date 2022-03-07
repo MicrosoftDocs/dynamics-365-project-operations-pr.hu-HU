@@ -2,18 +2,16 @@
 title: Projekt másolása
 description: Ez a témakör információkat nyújt a projektek másolásáról a Dynamics 365 Project Operations alkalmazásban.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
-ms.translationtype: HT
+ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479522"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007194"
 ---
 # <a name="copy-a-project"></a>Projekt másolása
 
@@ -21,11 +19,12 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A Dynamics 365 Project Operations segítségével gyorsan építhet új projekteket a **Projektek** űrlap **Projektek másolása** lehetőségének kiválasztásával. Projekt másolásához nyissa meg a másolni kívánt projektet, majd válassza a **Projekt másolása** lehetőséget. A művelet a következőket másolja:
 
-- Projekttulajdonságok (A rendszer a forrásprojektből másolja a becsült kezdő dátumot)
-- A munkalebontási struktúra
+- Projekt tulajdonságai 
+- Munkalebontási struktúra
 - Projektcsoporttagok
 - Projektbecslések
 - Projekt költségbecslései
+- Projektanyag-becslések
 
 ## <a name="project-properties"></a>Projekt tulajdonságai
 
@@ -42,11 +41,15 @@ A projekt másolásakor a következő mezők értékei kerülnek másolásra:
 - Teljes projektállapot
 - Hozzászólások
 - Becslések
-- Becsült kezdő dátum
-- Befejezési dátum
+- Becsült kezdő dátum: Ez az a dátum, amikor a projektet létrehozzák a másolatból.
+- Becsült befejezési dátum: Az a program az másolatból készített új projekt kezdési dátumából van korrigálva.
 - Munkamennyiség (óra)
 - Becsült munkaköltség
 - Becsült önköltség
+- Várható anyagköltség
+
+> [!NOTE]
+> A projekt másolása hosszú ideig futó művelet. A rendszer a projektrekordokat, a kapcsolódó attribútumokat és számos kapcsolódó entitást is másol. A művelet hosszú ideig futó jellege miatt a másolás indítása után a cél projekt oldala szerkesztésre zárolva van, amíg be nem fejeződik a másolási művelet.
 
 ## <a name="work-breakdown-structure"></a>Munkalebontási struktúra
 
@@ -58,7 +61,7 @@ Amikor egy projektcsoportot a forrásprojektből másol, az általános erőforr
 
 ## <a name="estimates"></a>Becslések
 
-A projekt másolásakor az erőforrás- és költségbecslési sorok is átkerülnek a forrásprojektből. 
+A projekt másolása során a ez erőforrások, költségek és költségbecslési sorok a forrásprojektből vannak másolva. 
 
 A projektek másolásának programozott elérésével kapcsolatos tudnivalók a [Projektsablonok fejlesztése a Projekt másolásával](dev-copy-project.md).
 

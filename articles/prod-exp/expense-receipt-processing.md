@@ -2,9 +2,11 @@
 title: Költségnyugta feldolgozása
 description: Ez a témakör a nyugták optikai karakterfelismeréssel (OCR) való feldolgozásáról nyújt információkat. Ez a funkció javítja a felhasználói élményt, amikor költségjelentéseket hoznak létre a Microsoft Dynamics 365 Finance alkalmazásban.
 author: stsporen
+manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -13,14 +15,16 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ed9c97ba9cc505106599c2896dc2112358d0c408
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078250"
 ---
 # <a name="expense-receipt-processing"></a>Költségnyugta feldolgozása
+
+[!include [banner](../includes/banner.md)]
 
 A költségbejegyzést továbbfejlesztettük a nyugták optikai karakterfelismeréssel (OCR) való feldolgozási funkciójának bevezetésével. Ez a funkció javítja a felhasználói élményt, amikor költségjelentéseket hoznak létre.
 
@@ -93,6 +97,3 @@ Jelenleg az Egyesült Államokban támogatott.
 A Finance a Cognitive Services használatával nyeri ki a mezők adatait. A Cognitive Services legfeljebb 24 óráig, a feldolgozáshoz őrzi meg a nyugták másolatát. A feldolgozás befejezése után a Cognitive Services eltávolítja a nyugtát. A Finance továbbra is tárolja majd a nyugtákat.
 
 További információ: [A nyugták Form Recognizer új funkciójával történő felismerésének engedélyezése](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eab7b28dc542232da75b59cb45b9d89064c410a9a5816c8587783140daf54f46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2dab350c6eafed27f7d2b581fff3ec22bf345a5
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006564"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6294271"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-325-v3"></a>Újdonságok vagy változások a Project Service Automation 32.5-es frissítési kiadásának V3 változatában
 

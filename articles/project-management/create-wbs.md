@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841352"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287016"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Munkalebontási struktúra (WBS) létrehozása
 
@@ -93,6 +93,8 @@ Az alábbi tábla további ütemezési attribútumokat tartalmaz.
 | Adatfolyam neve | A feladat neve. |
 | Azonosító | A munkalebontási struktúrában (WBS) található feladat azonosítója. |
 
+Rendszergazdaként egyéni mezőket definiálhat a feladatentitáson. A mezők azonban nem jelennek meg az ütemezési táblázatban. Az egyéni mezők megtekintéséhez vegye fel őket a **Projektfeladat** részletei oldalon.
+
 ## <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
 A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.
@@ -116,3 +118,6 @@ A feladat mód nincs hatással a korábbi/függő feladatok kezdő és befejező
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kisegítő lehetőségek és billentyűparancsok
 
 Az **Ütemezés** rács teljesen elérhető és képernyőolvasókkal, például a Narrátorral, JAWS vagy NVDA programokkal használható. A rácsterületen nyílbillentyűkkel mozoghat (a Microsoft Excel programhoz hasonlóan ), a Tab billentyű segítségével léphet tovább az interaktív felhasználói felület elemein, a lefelé mutató nyíl, az Enter vagy a szóköz segítségével választhat és lenyithatja a legördülő menüket.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

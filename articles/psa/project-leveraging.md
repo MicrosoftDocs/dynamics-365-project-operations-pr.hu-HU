@@ -2,8 +2,6 @@
 title: Értékesítési becslések és projektek
 description: Ez a témakör információkat nyújt arról, hogyan lehet kihasználni az ütemezést és a becsléseket az értékesítési folyamatban.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995179"
 ---
 # <a name="sales-estimates-and-projects"></a>Értékesítési becslések és projektek
 
@@ -37,11 +35,11 @@ Az értékesítési folyamat során értékesítési becsléseket készíthet ú
 
 Projekt alapú árajánlatsor létrehozásakor létrehozhat egy új projektet, vagy társíthat egy meglévő projektet az **Árajánlatsor** oldalon. 
 
-> ![Árajánlat űrlapja](media/project-8.png)
+> ![Árajánlat űrlapja.](media/project-8.png)
  
 Amikor új projektet hoz létre az árajánlatsor részleteiből, felhasználhatja a projektsablonokat. A projektsablonok olyan modellprojektek, amelyek a szervezetre jellemző szabványos projektterveket és pénzügyi becsléseket jelentenek. Jelenthetik a projekttervek másolatait és a korábbi projektek becsléseit is.
 
-> ![Árajánlatsor részletei](media/project-9.png)
+> ![Árajánlatsor részletei.](media/project-9.png)
   
 Amikor létrehozza a projektet az árajánlatból, a projekt automatikusan társítva lesz az árajánlatsorhoz.
 
@@ -54,3 +52,6 @@ Az erőfeszítés és az ütemezés becslései a **Projekt** oldal **Ütemezés*
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Becslések importálása projektből árajánlatba
 
 A projektbecslések meghatározása után importálhatja azokat az árajánlatsorba. Az **Árajánlatsor részletei** lapon válassza a szalag **Importálás becslésekből** lehetőségét a projektbecslések összefoglalásához tranzakciós típus, szerepkör vagy feladatszint alapján.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,25 @@
 ---
-title: Automatikus számlalétrehozás konfigurálása - Lite
-description: Ez a témakör a proforma számlák automatikus létrehozásának konfigurálását ismerteti.
+title: Automatikus számlalétrehozás beállítása
+description: Ez témakör proforma számlák automatikus létrehozásának beállításáról és konfigurálásáról nyújt tájékoztatást.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 2d212f2279b28d900e75d45386e343f95b8e825e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176569"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004174"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Automatikus számlalétrehozás konfigurálása - Lite
+# <a name="set-up-automatic-invoice-creation"></a>Automatikus számlalétrehozás beállítása 
  
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Egyszerű központi telepítés – proforma számlázás, Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Az automatikus számlalétrehozás a Dynamics 365 Project Operations alkalmazásban konfigurálható. A rendszer egy proforma számlát hoz létre, amely az egyes projektek és szerződéssorok számlázási ütemezése alapján készült. A számlázási ütemezések a szerződéssorok szintjén konfigurálhatók. A szerződés minden sora rendelkezhet külön számlázási ütemezéssel, vagy ha a szerződés minden sorában ugyanazt a számlázási ütemezést lehet is lehet használni.
+Konfigurálhatja az automatikus számlalétrehozást a Dynamics 365 Project Operationsben. A rendszer egy proforma számlát hoz létre, amely az egyes projektek és szerződéssorok számlázási ütemezése alapján készült. A számlázási ütemezések a szerződéssorok szintjén konfigurálhatók. A szerződés minden sora rendelkezhet külön számlázási ütemezéssel, vagy ha a szerződés minden sorában ugyanazt a számlázási ütemezést lehet is lehet használni.
 
-A számla létrehozásakor a rendszer mindig legalább egy számlát hoz létre projektszerződésenként. Bizonyos esetekben több számla is létrehozható.
-
-Ha például a szerződés több ügyfelet tartalmaz, ugyanannyi számla jön létre, mint azoknak az ügyfeleknek a száma, akiknek számlázható tranzakciói vannak a projekt szerződésben.
+A számla létrehozásakor a rendszer mindig legalább egy számlát hoz létre projektszerződésenként. Bizonyos esetekben több számla is létrehozható. Ha például a szerződés több ügyfelet tartalmaz, ugyanannyi számla jön létre, mint azoknak az ügyfeleknek a száma, akiknek számlázható tranzakciói vannak a projekt szerződésben.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Ebből a részből megtudhatja, hogyan kerülnek a tranzakciók egy számlára 
 
@@ -91,3 +87,6 @@ A számlák létrehozására szolgáló kötegelt folyamat feladat ismétlődő 
 
 > [!NOTE]
 > A kötegelt számlázás a Project Operations alkalmazásban csak a számlázási ütemezések szerint konfigurált projektek szerződéssoraihoz fut. A rögzített árú számlázási móddal rendelkező szerződéssornál a mérföldkövek konfigurálása szükséges. Az idő-és anyagelszámolású számlázási móddal rendelkező projekt-szerződéssorok esetében el kell végezni a dátum alapú számlázási ütemezés beállítását.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

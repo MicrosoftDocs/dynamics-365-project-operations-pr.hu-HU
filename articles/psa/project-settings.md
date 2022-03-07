@@ -2,8 +2,6 @@
 title: A projekt beállításai
 description: Ez a témakör információkat nyújt a projektkezelési beállításokról.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148151"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998324"
 ---
 # <a name="project-settings"></a>A projekt beállításai
 
@@ -68,3 +66,6 @@ Minden szervezetnek be kell állítania ezeket a szerepköröket az **Aktív er�
 ## <a name="price-lists"></a>Árlisták
 
 Az árlisták segítségével beállíthatja a költség- és eladási árakat az erőforrás-szerepkörökhöz, a költségkategóriákhoz, a termékekhez és a szervezet más elemeihez. Mielőtt meghatározná a projekthez teljesítendő munkára vonatkozó pénzügyi becsléseket, el kell készítenie egy támogatási költség- és eladási árlistát. A paraméterek szakaszban be kell állítania egy alapértelmezett költség- és eladási árlistát, amely a szervezetben létrehozott projektekre vonatkozik. Az **Aktív projektparaméterek** oldalon ellenőrizze, hogy beállított-e alapértelmezett költség- és eladási árlistát.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

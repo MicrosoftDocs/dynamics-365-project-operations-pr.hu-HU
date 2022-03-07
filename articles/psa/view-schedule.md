@@ -2,8 +2,6 @@
 title: Ütemezésének megtekintése
 description: Ütemezés megtekintése a Project Service szolgáltatásban
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 902254394ecd7c1aa9ec16af6cfce81a347d7022
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 447d21ee7c88733cd4552fa02c74a72a6e0b54970c74d6a065a9b3fe93bbb266
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151031"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999859"
 ---
 # <a name="view-your-schedule-project-service"></a>Ütemezés megtekintése (Project Service)
 
@@ -45,3 +43,6 @@ Ha meg szeretné tudni, hogy milyen munkán dolgozik a héten, tekintse át az �
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

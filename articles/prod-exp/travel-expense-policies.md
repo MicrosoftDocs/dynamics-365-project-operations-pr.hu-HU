@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c014b0593a87ce50f09175b77d9cf498a65391e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271266"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650097"
 ---
 # <a name="set-up-expense-policies"></a>Költségházirendek beállítása
+
+[!include [banner](../includes/banner.md)]
 
 Meghatározhatók olyan szabályzatok, amelyeket a dolgozóknak be kell tartaniuk a költségjelentések és az utazási igénylések megadásakor és elküldésekor.         
 A költségszabályzatokkal hatékonyan kezelheti a költségeket.         
@@ -51,6 +53,3 @@ Az alábbiakban néhány olyan javaslatot talál, amely segíthet a költségkez
 ## <a name="when-to-evaluate-policies"></a>Mikor kell értékelni a szabályzatokat?
 
 A költségkezelési paraméterek között kiválaszthatja, hogy a program csak egy sor mentésekor vagy a költségjelentés elküldésekor értékelje ki a költségkezelési szabályzatokat. Ha a sorok mentésekor történő kiértékelést választja, akkor ez biztosítja, hogy a felhasználók korábban minden olyan részletet láthatnak, amit tenniük kell a költségjelentés végrehajtásához. Ellenkező esetben késleltetheti a szabályzat kiértékelését, és időt takaríthat meg, ha a befejezést követően, a beküldéskor kerül sor a munkafolyamat ellenőrzésére.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

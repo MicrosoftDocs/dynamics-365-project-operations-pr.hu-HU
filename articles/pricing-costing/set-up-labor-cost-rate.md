@@ -2,18 +2,16 @@
 title: Munkabérköltségek díjainak beállítása
 description: Ez a témakör a Project Operations munkabérköltségeire vonatkozó díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986179"
 ---
 # <a name="set-up-labor-cost-rates"></a>Munkabérköltségek díjainak beállítása
 
@@ -40,7 +38,7 @@ Az alábbi táblázat néhány olyan mezőt tartalmaz, amelyek fontosak a önkö
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>A divízión vagy jogi személyen kívüli erőforrásokra vonatkozó árak és költségek átadása
 
-A projektalapú vállalatokban gyakori a különböző jogi személyek vagy részlegek alkalmazottainak használata projekteken. Egy projektet elvégezhet egy jogi személy, de a projekten dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből vagy egy másikból, vagy a kettő kombinációjából. A Dynamics 365 Project Operations alkalmazásban a projekt teljesítését birtokló jogi személy a **tulajdonos vállalat**, és az a részleg, amely a végrehajtás tulajdonosa, a **szerződő egység**. Az erőforrásokat biztosító egyéb jogi személyek az **Erőforrás-kezelő vállalatok**, és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A legtöbb országban a vállalatoknak meg kell győződniük arról, hogy az erőforrás-kezelő jogi személy vagy részleg megterheli a tulajdonos vállalatot és a szerződő egységet az erőforrások használatáért.
+A projektalapú vállalatokban gyakori a különböző jogi személyek vagy részlegek alkalmazottainak használata projekteken. Egy projektet elvégezhet egy jogi személy, de a projekten dolgozó alkalmazottak vagy tanácsadók jöhetnek ugyanabból a jogi személyből vagy egy másikból, vagy a kettő kombinációjából. A Dynamics 365 Project Operations alkalmazásban ban a projekt szállítását birtokló jogi személy a **Tulajdonos vállalat**, a szállítást birtokló részleg pedig a **Szerződéskötési egység**. Az erőforrásokat biztosító egyéb jogi személyek az **Erőforrás-kezelő vállalatok**, és az erőforrásokat biztosító részlegek az **Erőforrás-kezelő egységek**. A legtöbb országban a vállalatoknak meg kell győződniük arról, hogy az erőforrás-kezelő jogi személy vagy részleg megterheli a tulajdonos vállalatot és a szerződő egységet az erőforrások használatáért.
 
 A Fabrikam vállalatnak például biztosítania kell, hogy a Fabrikam India-Robotics rendelkezik egyeztetett költségdíjkártyával a Fabrikam US-Robotics vagy a Fabrikam UK-Robotics felé.
 
@@ -84,3 +82,6 @@ A Fabrikam UK-Robotics önköltségi árlistáján a költség aránya a követk
 | Fejlesztői | Fabrikam UK | 115 GBP |
 
 Az önköltségi árlistából több pénznemben is megadható a munkabérdíj. A projektre vonatkozó költségbecslés létrehozásakor a Project Operations ezeket a költségeket átminősíti a projekt pénznemére, és megjeleníti a felhasználó számára. Ha egy időbejegyzés jóváhagyása megtörténik, és a tényleges költség létrejön, akkor a tényleges költség ára a megfelelő szerepkörársor pénznemében történik az önköltségi árlista listáján. Egy projektnél az időpontokra vonatkozó tényleges költség több pénznemben is rögzíthető. Ha azonban a projekt szintjén a tényleges munkaköltséget összesítik, vagy összefoglalják, a Project Operations az összes munkaköltséget átváltja a projekt pénznemére, amelyet a felhasználó megtekinthet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

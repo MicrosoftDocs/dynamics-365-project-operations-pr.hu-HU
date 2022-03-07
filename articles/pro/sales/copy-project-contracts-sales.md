@@ -2,18 +2,16 @@
 title: Projektszerződések másolása - Lite
 description: Ez a témakör információkat nyújt a projektszerződések másolásáról a Project Operations alkalmazásban.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181410"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006024"
 ---
 # <a name="copy-project-contracts---lite"></a>Projektszerződések másolása - Lite
 
@@ -45,3 +43,6 @@ A következő információkat nem másolja a program a **Forrásból** a **Céls
   - Ügyfélköltségvetés adatai
 
 Mivel ez az információ specifikus az egyes szerződésekre, ezeket a mezőket és rekordokat nem másolja a rendszer. A projektek és termékek szerződéssorai, az szerződéssor részleteinek becslései és a nem meghaladandó értékek a szerződés szintjén másolásra kerülnek. Az ár és a költségarány alapértelmezései a **Paraméterek másolása** mezőben kiválasztott **Árképzés másolása** beállítástól függnek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

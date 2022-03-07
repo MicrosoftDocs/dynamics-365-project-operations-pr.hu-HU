@@ -8,7 +8,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
 ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 09/27/2021
 ms.locfileid: "7558550"

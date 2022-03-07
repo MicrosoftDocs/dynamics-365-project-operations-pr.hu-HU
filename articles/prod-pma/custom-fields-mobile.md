@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078146"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken
 
@@ -429,6 +429,3 @@ Az alapértelmezett projektkategória időnyilvántartási bejegyzésbe történ
 1. Az alkalmazás megpróbálja elhelyezni az alapértelmezett kategóriát a projekterőforrásból. Ez az alapértelmezett kategória a **TSTimesheetSettingsService** osztály **getCurrentUserResource** és **getDelegatedResourcesForCurrentUser** metódusaiban van beállítva.
 2. Ha az alapértelmezett kategória nincs megadva a projekterőforrási szintjen, az alkalmazás a projekttevékenységből próbálja meg lekérni. Ez az alapértelmezett kategória a **TSTimesheetProjectService** osztály **getActivitiesForProject** metódusában van beállítva.
 3. Ha az alapértelmezett kategória nincs megadva a projekttevékenységi szintjen, a rendszer lekéri a az alapértelmezett kategóriát a projektparaméterekből. Ez az alapértelmezett kategória a **TSTimesheetProjectService** osztály **getProjectDetailsbyRule** metódusában van beállítva.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

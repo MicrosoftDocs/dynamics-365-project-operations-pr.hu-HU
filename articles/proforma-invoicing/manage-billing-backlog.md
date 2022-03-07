@@ -1,40 +1,62 @@
 ---
-title: A számlázási elmaradás kezelése
+title: Számlázási elmaradás kezelése
 description: Ez a témakör a Project Operationsban a számlázási elmaradások megtekintésével és használatával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
-ms.date: 10/20/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d7c242937cd9dd277f8d92b7a29333c1fa272e5f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122346"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011914"
 ---
-# <a name="manage-the-billing-backlog"></a>A számlázási elmaradás kezelése
+# <a name="manage-billing-backlog"></a>Számlázási elmaradás kezelése
 
-_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
+**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
-A Dynamics 365 Project Operations két külön nézetet kínál amelyek segítséget nyújtanak a számlázási lemaradás kezelésében. Ezek a **Rögzített árú mérföldkövek**, valamint az **Idő- és anyagszámlázási hátralék**; a nézet kiválasztásához Project Operations **Értékesítés** területén, a bal oldali navigációs oldalon válassza a **Számlázás** lehetőséget. A rendszer ott tárolja a számlázási elmaradás hivatkozásait.
+A Dynamics 365 Project Operations dedikált nézeteket kínál amelyek segítséget nyújtanak a számlázási elmaradás kezelésében. A számlázási elmaradás kezeléséhez válassza ki a hivatkozásokat az **Értékesítés** területen, a **Számlázás** alatt. 
+
+Az alábbi nézetek állnak rendelkezésre:
+
+- Foglalók és előlegek
+- Rendelkezésre álló foglalók és előlegek
+- Rögzített árú mérföldkövek
+- Idő- és anyagszámlázási hátralék
+
+## <a name="retainers-and-advances"></a>Foglalók és előlegek
+
+A **Foglalók és előlegek** nézet felsorolja az összes projektszerződésben lévő foglalókat és előlegeket. Egy foglaló vagy előleg számlázása után az előleg összege használható lesz.
+
+## <a name="available-retainers-and-advances"></a>Rendelkezésre álló foglalók és előlegek
+
+Az **Elérhető foglalók és előlegek** nézet felsorolja az összes projektszerződésben lévő elérhető foglalókat és előlegeket. Egy foglaló vagy előleg számlázása után az előleg összege használható lesz, és hozzá lesz adva a listához. Miután a foglaló vagy előleg összegét teljesen felhasználták, eltávolítják a listáról.
 
 ## <a name="fixed-price-milestones"></a>Rögzített árú mérföldkövek
 
-Ez a nézet felsorolja az összes rögzített árú mérföldkövet a rendszerben lévő összes projekt-szerződés sorára vonatkozóan. Egy vagy több mérföldkő is megjelölhető a **Számlázásra kész** vagy **Nem kész a számlázásra** értékre ebből a nézetből. Ha egy mérföldkővet **Számlázásra kész** értékkel jelöl meg, a mérföldkő elérhetővé válik a számlavázlathoz.
+A **Rögzített árú mérföldkövek** nézet felsorolja az összes rögzített árú mérföldkövet az összes projektszerződéssorban. Ebből a nézetből az egy vagy több mérföldkő **Számlázásra készként** vagy **Nem számlázhatóként** jelölhető meg. Ha egy mérföldkövet **Számlázásra kész** értékkel jelöl meg az készen áll arra, hogy számlavázlatra kerüljön.
 
-Ha a többügyfeles szerződéssorok rögzített árú számlázási móddal rendelkeznek, akkor egy mérföldkő jön létre minden szerződéssorhoz. A felhasználó mérföldkövet hoz létre, és a mérföldkő az ügyfél specifikus mérföldkőrekordokra lesz felosztva, a szerződéssoron az egyes ügyfelekhez meghatározott számlázás felosztása százalékérték alapján. A **Rögzített árú mérföldkövek** nézetben az ügyfélspecifikus mérföldkőrekordok jelennek meg. A mérföldkőrekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül. Ha egy vagy több kapcsolódó mérföldkőfelosztás van megjelölve a **Számlázásra kész** értékkel, akkor a fejléc a **Folyamatban** állapotról **Nincs elindítva** állapotra vált. Amikor az összes mérföldkőet kiszámlázták, a mérföldkő fejlécének állapota **Befejezett** lesz.
+Ha a többügyfeles szerződéssorok rögzített árú számlázási móddal rendelkeznek, akkor a szerződéssor minden egyes ügyfeléhez létre lesz hozva egy mérföldkő. Mérföldkő is létrehozható, majd felosztható egyedi, ügyfélspecifikus mérföldkő-rekordokra. Ez a felosztás belső, és összhangban van a számlázási százalékos felosztás, amely az egyes ügyfelekhez van definiálva szerződéssoron. A **Rögzített árú mérföldkövek** nézetben az adott ügyfélre specifikus mérföldkő-bejegyzések jelennek meg. A mérföldkőrekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül. Ha egy vagy több kapcsolódó mérföldkő felosztása **Számlázásra készként** van megjelölve, a fejléc állapota **Nem kezdődött el** értékről **Folyamatban** értékre vált. Ha az összes mérföldkő-felosztást számlázta, a fejléc mérföldkő állapota **Befejezett** értékre frissül.
 
-Ebben a nézetben egy mérföldkő szerepel a vázlat állapotú számlán, és a számlázási állapot **Ügyfélszámla létrehozva**. A számla vázlatának megerősítését követően a bejegyzésben szereplő számlázási állapot frissül a **Számla közzétéve** értékre. Az állapot értékének az egyéni kód használatával történő frissítése nem ajánlott. A Project Operations nem fog megfelelően működni, ha ezeket az állapotértékeket egyéni kóddal frissítik.
+Ebben a nézetben egy mérföldkő szerepel a vázlat állapotú számlán, és a számlázási állapot **Ügyfélszámla létrehozva**. A számla vázlatának megerősítésekor a program a bejegyzésben szereplő számlázási állapotot frissíti az **Ügyfélszámla feladva** értékre. 
+
+> [!NOTE] 
+> Ne frissítse ezt az állapotértéket egyéni kód használatával. A Project Operations nem működik megfelelően, ha ezeket az értékeket egyéni kóddal frissítik.
 
 ## <a name="time-and-material-billing-backlog"></a>Idő- és anyagszámlázási hátralék
 
-Ez a nézet felsorolja azokat a nem számlázott tényleges értékesítéseket, amelyeket nem számláztak le a rendszerben lévő összes projekt-szerződésre vonatkozóan. Egy vagy több nem számlázott tényleges értékesítés is megjelölhető a **Számlázásra kész** vagy **Nem kész a számlázásra** értékre ebből a nézetből. Ha egy nem számlázott tényleges értékesítést **Számlázásra kész** értékkel jelöl meg azzal elérhetővé teszi, hogy elhelyezzék számlavázlaton.
+Az **Idő- és anyagszámlázási hátralék** nézet felsorolja az összes nem számlázott értékesítési tényadatot, amely a rendszer összes olyan projekt-szerződésében szerepel, amely még nincs számlázva. Egy vagy több nem számlázott tényleges értékesítés is megjelölhető a **Számlázásra kész** vagy **Nem kész a számlázásra** értékre ebből a nézetből. Ha egy nem számlázott tényleges értékesítést **Számlázásra kész** értékkel jelöl meg azzal elérhetővé teszi, hogy elhelyezzék számlavázlaton.
 
-Azok a nem számlázott tényleges értékesítéseket, amelyek **Nem haladhatja meg** állapota **Sikertelen** nem jelölheti meg a **Számlázásra készként**. Ha ezeket a tényadatokat így kell meg jelölni, akkor állítsa vissza az állapotot a szerződéssor más véglegesített tényadatain, majd értékelje ki a **Nem haladhatja meg** állapotot.
+Az olyan nem számlázott értékesítések, amelyeknek **Nem meghaladandó** állapota **Sikertelen**, nem jelölhető meg **Számlázásra készként**. Ha a tényadatokat **Számlázásra készként** kell megjelölni, állítsa alaphelyzetbe a lekötött szerződéssor egyéb tényadatainak állapotát, majd értékelje újra **Meg nem haladható** állapotra.
 
-Többügyfeles szerződéssorok esetében, amelyekhez idő és anyag számlázási mód tartozik, az idő és költségek jóváhagyása esetén és az egyes ügyfelekre vonatkozóan a szerződés sorában meghatározott számlázási százalékérték szerint minden egyes ügyfélhez létre lesz hozva egy nem számlázott értékesítést. Az **Idő- és anyagszámlázási hátralék** nézetben ezek az egyéni ügyfél-specifikus, nem számlázott tényleges értékesítések láthatók. A számlázatlan tényleges értékesítési rekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül.
+Ha a több ügyfélből álló szerződéssorok idő-és anyagelszámolású számlázási móddal rendelkeznek, akkor az időpontok és a kiadások jóváhagyásakor a rendszer egy nem számlázott értékesítési tényadatot hoz létre az egyes ügyfelekhez a szerződéssoron az egyes ügyfelekhez meghatározott számlázási felosztási százalék alapján. Az **Idő- és anyagszámlázási hátralék** nézetben ezek az egyéni ügyfél-specifikus, nem számlázott tényleges értékesítések megjelennek. A számlázatlan tényleges értékesítési rekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül.
 
-Ebben a nézetben egy számlázatlan tényleges értékesítés szerepel a vázlat állapotú számlán, és a **Számlázási állapot** **Ügyfélszámla létrehozva**. A számla vázlatának megerősítését követően a bejegyzésben szereplő számlázási állapot frissül a **Ügyfélszámla közzétéve** értékre. Az állapot értékének az egyéni kód használatával történő frissítése nem ajánlott, amikor ebben az állapotban van. A Project Operations nem fog megfelelően működni, ha ezeket az állapotértékeket egyéni kóddal frissítik.
+Ebben a nézetben a számlatervezeten szereplő nem számlázott értékesítési tényadat jelenik meg az **Ügyfélszámla létrehozva** számlázási állapottal. A számla vázlatának megerősítését követően a bejegyzésben szereplő számlázási állapot frissül a **Ügyfélszámla közzétéve** értékre. 
+
+> [!NOTE] 
+> Ne frissítse ezt az állapotértéket egyéni kód használatával. A Project Operations nem működik megfelelően, ha ezeket az értékeket egyéni kóddal frissítik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

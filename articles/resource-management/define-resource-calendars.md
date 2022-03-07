@@ -2,18 +2,16 @@
 title: Erőforrásnaptárak meghatározása
 description: Ez a témakör a Project Operations erőforrásaihoz tartozó munkaidőnaptárak definiálásával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990319"
 ---
 # <a name="define-resource-calendars"></a>Erőforrásnaptárak meghatározása
 
@@ -43,3 +41,6 @@ A projekten dolgozó minden egyes lefoglalható erőforrásnak munkaidőnaptárr
 2. A rács nézetben akár 25 **Lefoglalható erőforrás** is kiválasztható frissítéshez.
 3. Válassza a **Naptár beállítása** lehetőséget, és egy párbeszéd jelenik meg a rendelkezésre álló munkaidősablonok listájával.
 4. Válassza ki a használni kívánt sablont, majd nyomja meg az **Alkalmaz** gombot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

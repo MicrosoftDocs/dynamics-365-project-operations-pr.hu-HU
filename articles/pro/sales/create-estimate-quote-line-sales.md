@@ -3,58 +3,54 @@ title: Projektalapú árajánlatsor becslése
 description: Ez a témakör azt ismerteti, hogyan lehet becslést létrehozni egy projektalapú árajánlatsorban.
 author: rumant
 manager: Annbe
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273516"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektalapú árajánlatsor becslése
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A projektalapú árajánlatsor olyan részletekkel rendelkezik, amelyek segítenek az árajánlatsor elkészítésére fordított munka költségének és potenciális bevételének becslésében.
 
 A projektalapú árajánlatsor becsléséhez válassza ki a projektalapú árajánlatsoron az **Árajánlatsor részletei** lapot. A becsléseket kétféleképpen lehet létrehozni egy projektalapú árajánlatsorban:
 
-- A becslés manuális létrehozása közvetlenül az árajánlatsorban az árajánlatsor részleteinek használatával. 
+- A becslés manuális létrehozása közvetlenül az árajánlatsorban az árajánlatsor részleteinek használatával 
 - Hozzon létre egy projektet és egy projekttervet, majd társítsa a projektet és a feladatokat a projekten az árajánlatsorhoz. A projektterv becsült értékének az árajánlatsorba való importálásának folyamata a megadott adatok alapján engedélyezve lesz.
 
 ## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Projektbecslések létrehozása közvetlenül egy projektalapú árajánlatsoron
 
 Ha egy projektalapú árajánlatsor becslését szeretné létrehozni, akkor válassza ki az **Árajánlatsor részletei** lapot. Az ezen a lapon létrehozott sor összesíti az árajánlatsorhoz tartozó ajánlati értéket. 
 
-Az ajánlati sor részleteinek létrehozásához az **Árajánlatsor részletek** alrácsán jelölje ki az **Árajánlati sorrészletek** elemet. Megnyílik egy gyorslétrehozási csúszka. Az alábbi tábla részletezi az **Árajánlatsor részletei** lap mezőit és azt, hogy az értékek hogyan befolyásolják a működést.
+Az ajánlati sor részleteinek létrehozásához az **Árajánlatsor részletek** alrácsán jelölje ki a **+ új ajánlati sorrészletek** elemet. Megnyílik egy gyorslétrehozási csúszka. Az **Árajánlatsor** űrlap következő mezői:
 
 | **Mező** | **Hely** | **Leírás** | **Alsóbb rétegbeli hatás** |
 | --- | --- | --- | --- |
-| Ismertetés | Gyorslétrehozás | Egy adott becslés leírása. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Tranzakció osztálya | Gyorslétrehozás | Ez a legördülő lista a projektalapú árajánlatsor **Általános** lapján szereplő tranzakcióosztályokat tartalmazza.  | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Termék kiválasztása | Gyorslétrehozás | Akkor érvényes, ha a tranzakcióosztály **Anyag**. Meghatározhatja, hogy a becsléssor a **Meglévő** (katalógus) termékhez vagy **Nem katalogizált** termékhez készült-e. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Termék | Gyorslétrehozás | A termékkatalógus termékazonosítója. Ez a mező csak akkor érhető el, ha a **Termék kiválasztása** mezőben a **Meglévő** lehetőséget választja. Az azonosító az értékesítési ár az árajánlaton szereplő projektárlistából való lekéréséhez használható. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Nem katalogizált termék | Gyorslétrehozás | A termék nevének beírásához használt szövegdoboz. Ez a mező csak akkor érhető el, ha a **Termék kiválasztása** mezőben a **Nem katalogizált** lehetőséget választja.| Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Szerepkör | Gyorslétrehozás | Annak a személynek a szerepköre, aki elvégzi ezt a munkát, vagy benyújtja ezt a költséget. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Kategória | Gyorslétrehozás | A munka vagy a költség kategóriája. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Kezdő dátum | Gyorslétrehozás | A munka kezdődátuma. | Ez a mező alapértelmezés szerint az árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Befejező dátum | Gyorslétrehozás | A munka befejező dátuma. | Ez a mező alapértelmezés szerint az árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Erőforrás-kezelő részleg | Gyorslétrehozás | Az az erőforrásegység, amely ezt a költséget be fogja szedni, és biztosítani fogja a munkához szükséges erőforrást. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott és az önköltségi ár lekéréséhez használt költséghez. |
-| Egységütemezés | Gyorslétrehozás | A munka, a termék vagy a költség egységcsoportja. Az egységek egy egységütemezéshez vagy egységcsoporthoz tartoznak. Például a mérföld és a kilométer olyan egység, amely a távolságot leíró egységek csoportjához tartozik. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Kiszerelés | Gyorslétrehozás | A munka, a termék vagy a költség egysége. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Mennyiség | Gyorslétrehozás | A munka, a termék vagy a költség mennyisége. | Ez az érték alapértelmezés szerint a kapcsolódó árajánlatsor részletéhez kapcsolódik az automatikusan létrehozott költséghez. |
-| Egységár | Gyorslétrehozás |A munkát végző szerepkör számlázási aránya, a termék egységára, vagy a termék- vagy költségkategória értékesítési ára. A mező alapértelmezett értéke, az **Idő** a projektárlista kezdő dátumra vonatkozó szerepkör ársorában szereplő árképzési dimenzióértékek kombinációján alapul. A **Költségek** esetén az alapértelmezett beállítása a projekt árlistájában szereplő tranzakciós kategória árbeállításából származik, amely a kezdő dátumra vonatkozik. Ha a tranzakciókategória árképzési módszere nem kiszerelésenkénti ár, akkor nincs alapértelmezett érték, és ez a mező üresen marad. Termékek esetén ez az alapértelmezett érték a projektárlista árlistán lévő **Árlistaelemen** alapul, amely a kezdő dátumra vonatkozik.| A munkát végző szerepkör költségaránya, a költségkategória kiszerelésenkénti költsége, vagy a termék kiszerelésköltsége. A mező alapértelmezett értéke, az **Idő** a projektárlista kezdő dátumra vonatkozó szerepkör ársorában szereplő árképzési dimenzióértékek kombinációján alapul. A **Költségek** esetén az alapértelmezett beállítása a projekt árlistájában szereplő tranzakciós kategória árbeállításából származik, amely a kezdő dátumra vonatkozik. Ha a tranzakciókategória árképzési módszere nem kiszerelésenkénti ár, akkor nincs alapértelmezett érték, és ez a mező üresen marad. Termékek esetén ez az alapértelmezett érték a projektárlista árlistán lévő **Árlistaelemen** alapul, amely a kezdő dátumra vonatkozik.|
+| Adatfolyam leírása | Gyorslétrehozás | Egy adott becslés leírása. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Tranzakció osztálya | Gyorslétrehozás | Ez a legördülő lista a projektalapú árajánlatsor **Általános** lapján szereplő tranzakciós osztályokat tartalmazza.  | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Szerepkör | Gyorslétrehozás | Az a személy, aki ezt a munkát végrehajtja, vagy akinél ez a kiadás felmerül. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Kategória | Gyorslétrehozás | A munka vagy kiadás kategóriája. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Kezdő dátum | Gyorslétrehozás | A munka kezdő dátuma. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Befejező dátum | Gyorslétrehozás | A munka záró dátuma. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Erőforrás-kezelő részleg | Gyorslétrehozás | A beszerzési egység, amelynél felmerül ez a költség, és biztosítja az erőforrást az azon végzett munkához. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. Ez a mező az önköltségi ár beolvasása esetén is használatos. |
+| Egységütemezés | Gyorslétrehozás | A munka vagy kiadás egységcsoportja. Az egységek egy egységütemezéshez vagy egységcsoporthoz tartoznak. Például a mérföldek és kilométerek távolságot leíró egységek egy csoportjába tartozik. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Kiszerelés | Gyorslétrehozás | A munka vagy kiadás egysége. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Mennyiség | Gyorslétrehozás | A munka vagy kiadás mennyisége. | Ez a mező az automatikusan létrehozott költség kapcsolódó árajánlatsor-részletére áll be. |
+| Egységár | Gyorslétrehozás | A költségkategóriára vonatkozó munkát végrehajtó szerepkör számlázási ára vagy az értékesítési ár. Ez a mező alapértelmezés szerint arra az időre áll be, amely a szerepkör és az erőforrásbiztosító egység kombinációja alapján kezdő dátumként érvényes a projekt árlistájában. A kiadások esetében ez a mező alapértelmezés szerint a kezdő dátumnál érvényben lévő, a projekt árlistájában szereplő tranzakciós kategóriához tartozó árból kerül beállításra. Ha a tranzakciós kategória árképzési módja nem egységár, nincs alapértelmezett érték, és ez a mező üresen marad. | A költségkategóriára vonatkozó munkát végrehajtó szerepkör költségára vagy az egységár. Ez a mező alapértelmezés szerint arra az időre áll be, amely a szerepkör és az erőforrásbiztosító egység kombinációja alapján kezdő dátumként érvényes az árajánlat árlistájához tartozó szerződő egység áránál. A kiadások esetében ez a mező alapértelmezés szerint a kezdő dátumnál érvényben lévő, a szerződő egység költség-árlistájában szereplő tranzakciós kategóriához tartozó árból kerül beállításra. Ha a tranzakciós kategória árképzési módja nem egységár, nincs alapértelmezett érték, és ez a mező üresen marad. |
 | Becsült adó | Gyorslétrehozás | A munkára vagy kiadásra vonatkozó becsült adót kézzel is megadhatja. | Ennek a mezőnek nincs későbbi hatása. |
 | Mennyiség | Gyorslétrehozás | Az adatokat manuálisan is beviheti ebbe a mezőbe, ha a **Mennyiség** és az **Ár** mező üresen marad. Ha ezek a mezők nem üresek, akkor ez a mező írásvédett lesz, és számítása a következőképp történik (Mennyiség \* Egységár) + Adó. | Ennek a mezőnek nincs későbbi hatása. |
 
-
 ## <a name="update-prices-on-quote-line-details"></a>Árak frissítése az árajánlatsor részleteiben
 
-Ha módosította az árakat az árajánlathoz csatolt projektárlistában vagy a szerződéskötési kiszerelés önköltségi árlistájában, akkor válassza az **Újraszámítás** lehetőséget az **Árajánlat** lapon, hogy frissítse az egyes ajánlatsorok adatait, és ezzel tükrözze ezt a változást. Ha kiválasztja az **Újraszámítás** lehetőséget, akkor megjelenik egy figyelmeztetés, hogy az árajánlatsorban az árajánlat sorainak árai alaphelyzetbe állnak. Válassza az **Igen** lehetőséget, ha az mind az értékesítés, mind a költség árajánlatsor-részletek árait frissíteni szeretné.
+Ha megváltoztatta az árakat az árajánlathoz mellékelt projektárlistán vagy a szerződési egység önköltségiár-listáján, akkor az **Árajánlat** oldalon az **Újraszámolás** lehetőségre kattinthat, és az egyes árajánlatsor-részletekben szereplő árakat frissítheti, hogy azok tükrözzék ezt a változást. Amikor az **Újraszámolás** lehetőséget választja, egy figyelmeztetés jelenik meg, hogy az árajánlatban szereplő összes árajánlatsor árajánlatsor-részleteihez tartozó árak alaphelyzetbe kerülnek. Válassza az **Igen** lehetőséget, ha az mind az értékesítés, mind a költség árajánlatsor-részletek árait frissíteni szeretné.
 
 ## <a name="access-quote-line-details-for-cost"></a>A költség árajánlatsor-részleteinek elérése
 
@@ -70,8 +66,7 @@ A költség árajánlatsor-részleteinek pénzneme az költség árajánlatsor-r
 
 A jövedelmezőségi számítások átváltják a költség és értékesítések árajánlatsor-részleteiben szereplő összeget a környezet alappénznemére az árajánlat teljes becsült hasznának jelentéséhez.
 
-> [!MEGJEGYZÉS
-> > A pénznem kerekítési hibái és a módosított árrések azért fordulhatnak elő, mert hiányoznak a dátumon érvényes átváltási árfolyamok. Ezeket a számításokat csak projektszerződéseken használja, mivel ezek csak becslések, és nem való tényleges törvényi vagy egyéb jelentésekre, amelyek nagyobb pontosságot igényelnek az árfolyamok kerekítéséhez és a dátumhatékonyságra való figyelemfelhíváshoz.
+Ennek következtében a pénznemek kerekítési hibái és a nyereségek módosulhatnak a tényleges átváltási árfolyamok hiánya miatt. Ezeket a számításokat a projektárajánlatok esetében csak közelítésként használja és nem a tényleges törvényi vagy egyéb jelentéskészítéshez, amely nagyobb kerekítési pontosságot vagy az átváltási árfolyamok érvényességének ismeretét követeli meg.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

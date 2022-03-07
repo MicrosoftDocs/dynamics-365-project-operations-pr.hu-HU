@@ -2,11 +2,9 @@
 title: Kötelező egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
 description: Ez a témakör a kötelező egyéni mezőhivatkozások entitásokhoz, űrlapokhoz és nézetekhez való hozzáadását ismerteti.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
-ms.translationtype: HT
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006160"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Kötelező egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
 
@@ -49,7 +47,7 @@ Ha az egyéni árképzési dimenzió értékkészlet-alapú, mezőként adja hoz
 > [!IMPORTANT]
 > Ha egynél több entitáshoz ad hozzá egy mezőt, ugyanazt a mezőnevet használja az összes entitásnál. 
 
-> ![Az erőforrás munkahely hozzáadása a Szerepkörárhoz](media/RWL-Field.png)
+> ![Az erőforrás munkahely hozzáadása a Szerepkörárhoz.](media/RWL-Field.png)
 
 Egy projekt értékesítési és becslési fázisában megbecsülheti a **Helyi** és **Helyszíni** munkák elvégzéséhez szükséges munkaráfordítást, a **Normál munkaórák** és a **Túlórák** pedig az Árajánlat/Projekt értékének becsléséhez használhatók. A rendszer az **Erőforrás munkahely** és az **Erőforrás munkaóra** mezőket hozzáadja az **Árajánlatsor részletei**, a **Szerződéssorrészletek**, a **Projektcsoporttag** és a **Becsléssor** becslési entitásokhoz.
 
@@ -61,7 +59,7 @@ Egy projekt értékesítési és becslési fázisában megbecsülheti a **Helyi*
 6. Ismételje meg az 1-5. lépéseket, hogy hozzáadja ezt a mezőt a **Projektszerződés sorának részletei**, a **Projektcsoporttag** és a **Becsléssor** entitásokhoz.
 7. Ismételje meg az 1-6. lépéseket az **Erőforrás munkaóra** értékkészletnél. 
 
-> ![Az erőforrás munkahely hozzáadása a Becsléssorhoz](media/RWL-Default-Value.png)
+> ![Az erőforrás munkahely hozzáadása a Becsléssorhoz.](media/RWL-Default-Value.png)
 
 A kézbesítéshez és a számlázáshoz a befejezett munka árképzését pontosan kell elvégezni: ki kell választani, hogy **Helyi** vagy **Helyszíni** munkavégzés történt-e, és hogy **Normál munkaórában** vagy **Túlórában** végezték-e a Projekt tényadatai szerint. Az **Erőforrás munkahely** és az **Erőforrás munkaóra** mezőket hozzá kell adni az **Időbejegyzés**, a **Tényadat**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 
@@ -73,7 +71,7 @@ A kézbesítéshez és a számlázáshoz a befejezett munka árképzését ponto
 6. Ismételje meg az 1-5. lépéseket, hogy hozzáadja ezt a mezőt a **Tényadatok**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 7. Ismételje meg az 1-6. lépéseket az **Erőforrás munkaóra** értékkészletnél. 
 
-> ![Az erőforrás munkahely hozzáadása az Időbejegyzéshez](media/RWL-time-entry.png)
+> ![Az erőforrás munkahely hozzáadása az Időbejegyzéshez.](media/RWL-time-entry.png)
 
 Ez kiegészíti az értékkészlet alapú egyéni dimenziókhoz szükséges sémaváltozásokat.
 
@@ -86,7 +84,7 @@ Ha az egyéni árképzési dimenzió entitás, 1:N kapcsolatot adhat a dimenzió
 3. Bontsa ki a **Szabványos munkakör** entitást, és válassza az **1:N kapcsolatok** elemet.
 4. Válassza az **Új** lehetőséget az új, **Szabványos munkakör foglalható erőforrásokhoz** nevű 1:N kapcsolat létrehozásához. Írja be a szükséges információkat, majd kattintson a **Mentés** elemre.
 
-> ![Szabványos munkakör hozzáadása foglalható erőforráshoz referenciamezőként](media/ST-BR.png)
+> ![Szabványos munkakör hozzáadása foglalható erőforráshoz referenciamezőként.](media/ST-BR.png)
 
 A szabványos munkakört szintén hozzá kell adni a **Szerepkörár** és a **Szerepkör-árrés** árképzési entitásokhoz. Ez is 1:N kapcsolatok létrehozásával fejeződik be a **Szabványos munkakör** és a **Szerepkörár** entitások, valamint a **Szabványos munkakör** és a **Szerepkör-árrés** entitások között.
 
@@ -104,13 +102,13 @@ Egy projekt értékesítési és becslési fázisában az Árajánlat/Projekt á
 
 5. Ismételje meg az 1-5. lépéseket 1:N kapcsolatok létrehozásához a **Szabványos munkakör** elemtől az **Árajánlatsor részletei**, a **Projektszerződés sorának részletei**, a **Projektcsoporttag** és a **Becsléssor** elemhez.
 
-> ![Szabványos munkakör hozzáadása becsléssorhoz referenciamezőként](media/ST-Estimate-Line.png)
+> ![Szabványos munkakör hozzáadása becsléssorhoz referenciamezőként.](media/ST-Estimate-Line.png)
 
   A kézbesítési és a számlázási szakaszban az egyes szabvány munkakörökkel elvégzett munkának pontosan beárazottnak kell lennie a Projekt tényadatainál. Ez azt jelenti, hogy 1:N kapcsolatokra van szükség a **Szabványos munkakör** elemtől az **Időbejegyzés**, a **Tényadat**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 
 6. Ismételje meg az 1-6. lépéseket 1:N kapcsolatok létrehozásához a **Szabványos munkakör** elemtől az **Időbejegyzés**, a **Tényadat**, a **Számlasor részletei** és a **Naplósor** entitásokhoz.
 
-> ![Szabványos munkakör hozzáadása időbejegyzéshez referenciamezőként](media/ST-Mapping.png)
+> ![Szabványos munkakör hozzáadása időbejegyzéshez referenciamezőként.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Állítson be alapértelmezett Dimenziós értéket a platform hozzárendelési funkciói segítségével
 Az időbejegyzésnél hasznos lenne, ha a rendszer alapértelmezettként kezelné a szabványos munkakört az Időbejegyzésnél a foglalható erőforrásoktól, amelyek az időbejegyzést rögzítik. A következő lépésekkel adjon hozzá mezőleképezéseket a **Foglalható erőforrás** elemtől az **Időbejegyzés** elemre mutató 1:N kapcsolathoz.
@@ -120,7 +118,7 @@ Az időbejegyzésnél hasznos lenne, ha a rendszer alapértelmezettként kezeln�
 3. Kattintson duplán a **Foglalható erőforrástól az időbejegyzéshez** elemre. A **Kapcsolat** oldalon válassza a **Mezőleképezések használata** lehetőséget. 
 4. Válassza az **Új** lehetőséget a **Foglalható erőforrás** entitás **Szabványos munkakör** mezője és az **Időbejegyzés** entitás **Szabványos munkakör** referenciamezője közötti új leképezés létrehozásához. 
 
-> ![Állítsa be az mezőleképezéseket a szabványos munkakör alapértelmezettségének engedélyezéséhez a foglalható erőforrástól az időbejegyzéshez](media/ST-Mapping2.png)
+> ![Állítsa be az mezőleképezéseket a szabványos munkakör alapértelmezettségének engedélyezéséhez a foglalható erőforrástól az időbejegyzéshez.](media/ST-Mapping2.png)
 
 Ez kiegészíti az entitás alapú egyéni dimenziókhoz szükséges sémaváltozásokat.
 
@@ -146,3 +144,6 @@ Az alábbi táblázat entitásonként felsorolva, átfogó módon biztosítja az
 |  Tény|• Információ<br>• Aktív adatok|• Tényleges társított nézet|
 
 Előfordulhat, hogy az egyéni mezőket hozzá kell adni az üzleti szabályokhoz, attól függően, hogy mit határozott meg. Az egyik out-of-box példa az **Időbejegyzés szerkeszthetősége az állapot alapján** üzleti szabályra vonatkozik. Ez a szabály meghatározza, hogy mely mezőket kell zárolni, ha az Időbejegyzés nem szerkeszthető, például **Jóváhagyott** állapotban. Adjon hozzá mezőket ehhez az üzleti szabályhoz, hogy a mezők zárolva legyenek a szerkesztésre vonatkozóan, ha az Időbejegyzés nem **Vázlat** vagy **Visszaküldött** állapotban van.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

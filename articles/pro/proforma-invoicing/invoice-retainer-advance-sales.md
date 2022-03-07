@@ -2,18 +2,16 @@
 title: Foglaló vagy előleg számlázása
 description: Ez a témakör foglaló és előleg a Project Operations rendszerben történő számlázásáról tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596195"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997474"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Foglaló vagy előleg számlázása
 
@@ -51,3 +49,6 @@ Ez az **Alkalmazott foglalók és előlegek** rácson látható a **Számla** ol
 | Felhasznált mennyiség | Az **Alkalmazott foglalók és előlegek** rács a **Projektszámla** oldalon  | Ez az írásvédett mező azt a számított értéket tartalmazza, amely összefoglalja, hogy a foglaló vagy az előleg mekkora részét használták fel. | Ez a mező a nyomtatott számlán az ügyfélnek megjeleníthető, és jelzi a foglaló vagy előleg eredeti összegét, ami már fel lett használva. |
 | Kibővített összeg | Az **Alkalmazott foglalók és előlegek** rács a **Projektszámla** oldalon  | Ez a szerkeszthető mező a foglaló vagy előleg összegét tartalmazza, ami fel van használva ezen a projektszámlán. Ez az összeg nem lehet nagyobb, mint ami elérhető az előleg. A rendszer ezt a mezőt automatikusan kiszámítja a rács **Összeg** és **Felhasznált összeg** mezői közötti különbségként. Csökkentheti ezt az összeget, hogy az rendelkezésre állónál kevesebbet használjon fel de a rendelkezésre álló összeg fölé nem növelheti az összeget. | Ez a mező a nyomtatott számlán az ügyfélnek megjeleníthető, és jelzi a foglaló vagy előleg eredeti összegét, ami fel van használva a számlán. |
 | Foglaló összegének egyenlege. | Az **Alkalmazott foglalók és előlegek** rács a **Projektszámla** oldalon  | Ez az írásvédett mező azt a értéket biztosítja, hogy a foglaló vagy az előleg mekkora része marad meg a számla megerősítése után. | Ez a mező a nyomtatott számlán az ügyfélnek megjeleníthető, és jelzi, hogy mennyi marad a foglaló vagy előleg eredeti összegéből a számla jóváhagyását és kifizetését követően. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

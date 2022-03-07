@@ -1,6 +1,6 @@
 ---
 title: Munkaidősablon létrehozása
-description: Ez a témakör ismerteti, hogyan hozható létre munkaidősablon a Project Service szolgáltatásban.
+description: Munkaidősablon létrehozása a Project Service szolgáltatásban
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285036"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Munkaidősablon létrehozása (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Projekt létrehozásához és kezeléséhez naptársablont kell alkalmaznia a projektre. A naptársablon a következő projektjellemzőket határozza meg:
-
-- Munkaidő, beleértve a kezdési és befejezési időt
-- Munkanapok
-- Naptárkivételek, például munkaszüneti napok
-
-A projektre alkalmazott naptársablon a szervezet beállításaiban meghatározott naptársablon másolata.
-
-> [!NOTE]
-> Ha módosítja a naptársablont, ezek a módosítások nem kerülnek át a projekt munkaidejébe. A projekt munkaidejének módosításához új sablont kell alkalmazni.
-
-A szervezet naptársablonának létrehozásához két fő követelmény szükséges:
-
-- Új vagy meglévő foglalható erőforrással határozza meg a sablon kívánt munkaidejét.
-- Hozzon létre egy új naptársablont, és társítsa a sablont a foglalható erőforráshoz.
-
-**A sablon munkaidejének meghatározása**
-
-1. Lépjen a **Források** \> **Források** oldalra.
-2. Hozzon létre egy új hivatkozást a naptársablonban, vagy jelöljön ki egy meglévő erőforrást.
-3. Válassza ki az erőforrás **Munkaidő** lapját, és hajtsa végre a [Munkaidő beállítása erőforráshoz](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) felületen megjelenő utasításokat a naptárszabályok konfigurálásához.
-
-**Új naptársablon létrehozása**
-
-1. Lépjen a **Beállítások** \> **Naptársablon** pontra.
-2. Válassza az **Új** lehetőséget, és adjon meg egy nevet, leírást és sablonerőforrást.
-
-
-> [!NOTE]
-> Ha egy erőforrásra hivatkozik egy naptársablonban, az erőforrás naptárának egy példánya a naptársablonhoz társul. Ha módosítja a másolt sablon munkaidejét, akkor ezek a módosítások nem kerülnek át a projekt munkaidejébe.
-
-
+Mielőtt projektütemezéseket hozhatna létre, állítson be egy projektnaptárat, amely meghatározza a napi munkaórák számát és a szünnapokat. Ezt egy munkaidősablonnal teheti meg, amely tartalmazza a napi munkaidőre, szabadnapokra és egyéb szünnapokra vonatkozó részleteket.  
+  
+ Egy projekt létrehozásakor egy munkasablont társít a projektnaptárhoz, hogy alkalmazza az ütemezést a projektre.  
+  
+ Két módon hozhat létre egy munkaidő sablont:  
+  
+-   Munkaidősablon létrehozása egy erőforrás naptára alapján.  
+  
+-   Új munkaidősablon létrehozása.  
+  
+#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Munkaidősablon létrehozása egy erőforrás naptára alapján  
+  
+1.  Lépjen a **Project Service > Erőforrások** pontba.  
+  
+2.  Erőforrás kiválasztása, amelyre a munkaidőt akarja alapozni.  
+  
+3.  Kattintson a **Naptár mentése másként** lehetőségre, adja meg a munkaidősablon nevét, és kattintson a **Mentés** gombra.  
+  
+4.  Ha végzett a beállítások módosításával kattintson a **Mentés és bezárás** gombra.  
+  
+5.  Kattintson a **Mentés** gombra a képernyő jobb alsó sarkában.  
+  
+#### <a name="to-create-a-new-work-hours-template"></a>Új munkaidősablon létrehozása  
+  
+1.  Lépjen a **Project Service > Munkaidősablonok** pontba.  
+  
+2.  Kattintson az **Új** elemre.  
+  
+3.  Adja meg a munkaidősablon nevét.  
+  
+4.  Válasszon ki egy erőforrást, amelyre a munkaidőt akarja alapozni, és kattintson a **Mentés** gombra.  
+  
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
 

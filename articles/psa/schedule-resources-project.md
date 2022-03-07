@@ -2,8 +2,6 @@
 title: Erőforrások ütemezése egy projekthez
 description: Erőforrások ütemezése projekthez a Project Service szolgáltatásban
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150446"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998149"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Erőforrások ütemezése projekthez (Project Service)
 
@@ -35,7 +33,7 @@ Ellenőrizheti az erőforrás-elérhetőséget, hogy átfogó képet kapjon az e
   
 Az ütemezési táblán az erőforrások és az elérhetőségük látható. Rendelkezésre állás megjelenítése módjának kiválasztása: **óra**, **nap**, **hét**, vagy **hónap**.  
   
-Az ütemezés beállítása előtt fontos beállítani. További információ: [Ütemezési tábla konfigurálása (Field Service vagy Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Az ütemezés beállítása előtt fontos beállítani. További információ: [Ütemezési tábla konfigurálása (Field Service vagy Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Régebbi verziójú rendszer használata esetén az erőforrások rendelkezésre állásához lásd: [Az erőforrás rendelkezésre állásának megtekintése](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Régebbi verziójú rendszer használata esetén az erőforrások rendelkezésre
   
 ### <a name="additional-resources"></a>További információforrások  
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271086"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642456"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation áttekintése
 
@@ -75,6 +75,3 @@ A Project Service Automation és a Finance közötti integrációs megoldás has
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Telepítse a Project Service Automation és Finance integrációs megoldását a Project Service Automation-példányba
 
 Töltse le a Project Service Automation és Finance közötti integrációs megoldást a [Microsoft letöltőközpontból](https://www.microsoft.com/download/details.aspx?id=57016), és kövesse a megoldásban szereplő útmutatást.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

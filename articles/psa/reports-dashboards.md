@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147791"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283371"
 ---
 # <a name="dashboards"></a>Irányítópultok
 
@@ -40,3 +40,6 @@ A **Practice Manager** műszerfal grafikus irányítópultot nyújt a gyakorlatv
 ## <a name="resource-manager"></a>Resource Manager 
 
 A **Resource Manager** irányítópult grafikus irányítópult-élményt nyújt az erőforrás-kezelőknek az erőforrás-igények, valamint az erőforrás-igény és -felhasználás figyelésére. Azt is lehetővé teszi, hogy az erőforrás-kezelők a megfigyelt információkat különféle dimenziók szerint szeleteljék.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

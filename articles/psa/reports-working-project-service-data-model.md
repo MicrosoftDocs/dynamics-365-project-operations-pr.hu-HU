@@ -18,19 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147656"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120276"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Munka a Project Service Automation adatmodelljével
 
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 A Dynamics 365 Project Service Automation kiterjeszti más alkalmazás entitásokat, és bevezeti saját entitásokat az Common Data Service adatmodellben. Ez a témakör leírja azokat az entitásokat, amelyekkel tipikus PSA jelentési forgatókönyvekben találkozhat.
 

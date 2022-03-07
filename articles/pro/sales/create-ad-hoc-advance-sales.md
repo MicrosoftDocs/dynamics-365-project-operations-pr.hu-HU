@@ -2,18 +2,16 @@
 title: Alkalmi előleg létrehozása szerződésen
 description: Ez a témakör a szerződéshez igény szerinti előleg létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999139"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Alkalmi előleg létrehozása szerződésen
 
@@ -39,3 +37,6 @@ A következő lépések végrehajtásával számlázhat az ügyfélnek előleget
     | **Számla állapota** | Ez egy opcióbeállítás, amely azt jelzi, hogy az előleg hozzáadódik-e az ügyfélre vonatkozó számlavázlathoz. A lehetséges értékek:</br>- **Nem kész a számlázásra**</br>- **Kész a számlázásra** | Ha egy előleget vagy előfizetést **Számlázásra készként** jelölnek meg, akkor a program a számlavázlathoz egy soridőpontként adja hozzá a számlát. A következő számlázási időszakra vonatkozóan csak egy teljesen számlázott előleg használható a projekt költségeivel szembeni egyeztetésére. |
 
 4. Az előleg vagy az előrefizetés rögzítéséhez válassza a **Mentés és bezárás** lehetőséget a gyorslétrehozási párbeszédpanelen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

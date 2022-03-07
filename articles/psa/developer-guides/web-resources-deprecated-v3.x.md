@@ -16,16 +16,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078103"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Elavult webes erőforrások a Project Service Automation 3.x-ben
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Az új kliens interfész és az Dynamics 365 Project Service Automation megoldás más módosításai miatt a megoldás néhány webes erőforrása hosszabb ideig használatban van. Ezért elavultak (kivezették) a 3.0 verziótól kezdve.
 

@@ -2,18 +2,16 @@
 title: Csoporttagok karbantartása
 description: Ez a témakör információt nyújt a nevesített erőforrásoknak a projektcsoportokhoz való foglalásáról, és a feladatokhoz való hozzárendeléséről.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 00312c5a701768e0042e7e0236477c192690ded3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131526"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998639"
 ---
 # <a name="maintain-team-members"></a>Csoporttagok karbantartása
 
@@ -42,3 +40,6 @@ Amikor választ, az erőforrás hozzáadódik a projektcsoporthoz, és hozzáren
 Az **Egyeztetés** lapon a Foglalás meghosszabbítása funkció, vagy az **Ütemezési tábla** használatával foglalhatja le az erőforrás kapacitását a projekt számára.
 
 Miután egy csoporttag foglalásra került a projekthez, használhatja a **Foglalások karbantartása** funkciót, vagy az **Ütemezési tábla** használatával közvetlenül kezelheti annak foglalásait.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

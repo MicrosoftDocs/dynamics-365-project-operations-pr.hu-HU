@@ -2,17 +2,17 @@
 title: Nem készleten lévő anyagok beszerzése függőben lévő szállítói számla alapján
 description: Ez témakör ismerteti, hogyan lehet rögzíteni a függőben lévő szállítói számlákat.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993799"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547292"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Nem készleten lévő anyagok beszerzése függőben lévő szállítói számla alapján
 
@@ -20,7 +20,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 Amikor egy vállalat nem készleten lévő anyagokat szerez egy projekthez, a költségek azonnal rögzítve lesznek a projekten belül. 
 
-A Contoso Robotics US például egy berendezésfelújítási projektjét hajtják végre, és szoftverlicencekre van szüksége. Ezeket a licenceket egy harmadik fél szállítótól szerzik be.  A(z) Dynamics 365 Finance használata esetén a kinnlevőségek számlák könyvelője rögzíti a függőben lévő szállítói számla dokumentumát, és a licencköltségeket közvetlenül a berendezésfelújítási projekthez rendeli. 
+A Contoso Robotics US például egy berendezés felújítási projektjét végzi, és szoftverlicencekre van szüksége. Ezeket a licenceket egy harmadik fél szállítótól szerzik be.  A(z) Dynamics 365 Finance használata esetén a kinnlevőségek számlák könyvelője rögzíti a függőben lévő szállítói számla dokumentumát, és a licencköltségeket közvetlenül a berendezésfelújítási projekthez rendeli. 
 
 > [!IMPORTANT]
 > Mielőtt a jelen témakör leírt funkciókat használod, tekintsd át és alkalmazd a szükséges konfigurációkat. További információkért lásd: [Nem raktározott anyagok és függőben lévő szállítói számlák engedélyezése](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ A függőben lévő szállítói számlák a **Függőben lévő szállítói sz
     - A szállító egyenlege.
     - Az áfa összege.
     - A projekttel szembeni költséget a rendszer a beszerzési integrációs számlához rögzíti.
-    - A projekt aktuális tranzakciója itt: Dataverse. A tranzakció további feldolgozása a [Project Operations Integration napló](../project-accounting/project-operations-integration-journal.md) segítségével történik. Ennek a naplónak a közzétételével az összeg a beszerzési integrációs számlából a projektköltség-számlába kerül át.
+    - A projekt tényadat költségtranzakciója a Dataverse-ben.  A tranzakció további feldolgozása a [Project Operations Integration napló](../project-accounting/project-operations-integration-journal.md) segítségével történik. Ennek a naplónak a közzétételével az összeg a beszerzési integrációs számlából a projektköltség-számlába kerül át. 
+    - A projektügyfél számára az idő és az anyag számlázási módja segítségével számlázható vásárlások. Emellett a Dataverse-ben is létrejönnek leszámlázatlan értékesítési tranzakciók. A termék árlistája a Dataverse-ben nem számlázott értékesítési tranzakció értékesítési árára és mennyiségeire használatos.

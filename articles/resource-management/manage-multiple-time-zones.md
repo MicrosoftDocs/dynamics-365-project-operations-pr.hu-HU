@@ -2,18 +2,16 @@
 title: Időzónák kezelése
 description: A projekt létrehozásakor az időzónája a munkaidősablonban megadott időzónán alapul.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119826"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988699"
 ---
 # <a name="manage-time-zones"></a>Időzónák kezelése
 
@@ -34,13 +32,13 @@ A **Foglalás kiterjesztése** funkció használatakor a pontos és kiszámítha
 
 - A felhasználónak konfigurálnia kell az eszköz időzónáját, hogy az megfeleljen a rendszer **Személyre szabási beállítások** részében megadott időzónának.
  
-  ![Időzóna-beállítások a Windows 10 rendszerben](media/reconcile-assignments-03.png)
+  ![Időzóna-beállítások a Windows 10 rendszerben.](media/reconcile-assignments-03.png)
 
-  ![Időzóna-beállítások a testreszabási beállításokban](media/reconcile-assignments-04.png)
+  ![Időzóna-beállítások a testreszabási beállításokban.](media/reconcile-assignments-04.png)
  
 - A foglalható erőforrásnak legalább egy perc munkaidővel kell rendelkeznie, amely átfedésben van az elosztásokkal, amelyeket a kért hosszabbítás definiálásához használnak. A következő erőforrások például 9:00 és 19:00 óra közötti munkaórákkal rendelkeznek. 
 
-  ![Az erőforrás-eloszlások összehasonlítása](media/reconcile-assignments-05.png)
+  ![Az erőforrás-eloszlások összehasonlítása.](media/reconcile-assignments-05.png)
 
 Az alábbi táblában a következők láthatók:
 
@@ -49,22 +47,25 @@ Az alábbi táblában a következők láthatók:
 - B erőforrás: Ez az erőforrás a projekttől eltérő időzónában helyezkedik el, és 7:00 órakor kezdőd az időzónájában. A foglalások azonban 9:00 órakor kezdődnek, mert ez a hozzárendelési felosztás legkorábbi kezdési időpontja.
 - C és D erőforrások: Az erőforrások különböző időzónákban találhatók, mindkettő eltér egymástól és a projektétől, és a foglalásuk a rendelkezésre álló kezdő időpontokhoz képest nem korábban kezdődik.
 
-|Entitás  |Naptár  |
+|Entity  |Naptár  |
 |-|-|
-|Projektnaptár-sablon   | ![projektnaptár](media/reconcile-assignments-06.png) |
-|A erőforrás  | ![A erőforrás naptárja](media/reconcile-assignments-06.png) |
-|B erőforrás  |  ![B erőforrás naptárja](media/reconcile-assignments-07.png) |
-|C erőforrás  |  ![C erőforrás naptárja](media/reconcile-assignments-08.png) |
-|D erőforrás  | ![D erőforrás naptárja](media/reconcile-assignments-09.png)  |
+|Projektnaptár-sablon   | ![projektnaptár.](media/reconcile-assignments-06.png) |
+|A erőforrás  | ![A erőforrás naptárja.](media/reconcile-assignments-06.png) |
+|B erőforrás  |  ![B erőforrás naptárja.](media/reconcile-assignments-07.png) |
+|C erőforrás  |  ![C erőforrás naptárja.](media/reconcile-assignments-08.png) |
+|D erőforrás  | ![D erőforrás naptárja.](media/reconcile-assignments-09.png)  |
  
 Amikor megnyitja az **Egyeztetés** nézetet, az erőforrás-hozzárendelések és a hozzájuk tartozó foglalási hiány jelenik meg.
 
-![Egyeztetési nézet a bővítés előtt](media/reconcile-assignments-10.png)
+![Egyeztetési nézet a bővítés előtt.](media/reconcile-assignments-10.png)
 
 Miután minden erőforráshoz kiterjeszti a foglalási funkciót, a rendszer sikeresen kiterjeszti a foglalásokat az egyes erőforrások esetében, mivel az egyes erőforrások munkaideje átfedésben van a hiány kontúrjaival.
 
-![Egyeztetési nézet a foglalás meghosszabbítása után](media/reconcile-assignments-11.png) 
+![Egyeztetési nézet a foglalás meghosszabbítása után.](media/reconcile-assignments-11.png) 
 
 Figyelje meg, hogy a foglalások részletes vizsgálata a foglalások kezdő időpontjában jelentkező különbségeket mutatja. A foglalások legkorábban a hozzárendelési kontúrok kezdési időpontjában jelennek meg, és legkorábban az erőforrás rendelkezésre álló kezdési időpontjában.
 
-![Erőforrások új foglalásai az ütemezési táblában](media/reconcile-assignments-12.png)
+![Erőforrások új foglalásai az ütemezési táblában.](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

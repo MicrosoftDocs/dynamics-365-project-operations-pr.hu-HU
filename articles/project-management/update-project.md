@@ -1,23 +1,23 @@
 ---
-title: Projekt frissítése
+title: Projekt létrehozása és frissítése
 description: Ez a témakör a projektek Project Operationsben való frissítéséről nyújt tájékoztatást.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993374"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678352"
 ---
-# <a name="update-a-project"></a>Projekt frissítése
+# <a name="create-and-update-a-project"></a>Projekt létrehozása és frissítése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az alábbiakban található egy összefoglaló a mezőkről, amelyek a létrehozást követően frissíthetők a projekten, és a frissítésre vonatkozó esetleges következmények.
+Az alábbiakban összefoglaljuk a mezőket, amelyek a létrehozás után frissíthetők a projekten. Ez kiterjed az ezen frissítésekre vonatkozó esetleges következményekre is.
 
 ## <a name="project-detail-fields"></a>Projekt részletei mezők
 
@@ -25,8 +25,8 @@ Az alábbiakban található egy összefoglaló a mezőkről, amelyek a létrehoz
 - **Leírás**: A projekt áttekintése.
 - **Ügyfél**: Az a vállalat, amelynek a projekt szállításra került.
 - **Naptársablon**: A projekt munkaideje. A mező módosítása után a program újraszámítja a teljes ütemezést.
-- **Pénznem**: A projekt pénzneme. Ez a mező a szerződő részlegben definiált pénznem alapján veszi fel az alapértelmezett értékét. A szerződő részleg frissítésekor a mező frissítése is megtörténik.
-- **Szerződő részleg**: Az a szervezeti egység, amely azt a vállalatot vagy részleget reprezentálja, amely elsősorban felelős az értékesítés megnyeréséért és a munka és szolgáltatások ügyfélnek történő leszállításáért. 
+- **Pénznem**: A projekt pénzneme. A mező alapértelmezett értéke a szerződésegységben definiált pénznemen alapul. A szerződő részleg frissítésekor a mező frissítése is megtörténik.
+- **Szerződő részleg**: Az a szervezeti egység, amely azt a vállalatot vagy részleget reprezentálja, amely elsősorban felelős az értékesítés megnyeréséért és a munka és szolgáltatások ügyfélnek történő leszállításáért.  Ha nincs meghatározva a projektvezető szervzatos egysége, akkor ez a mező alapértelmezés szerint a projektparaméterben megadott értékre van állítva.
 - **Projektvezető**: A projektcsapat azon tagja, akinek joga van az időbejegyzések és a kiadások áttekintésére és jóváhagyására.
 
 ## <a name="estimate-fields"></a>Becslés mezők

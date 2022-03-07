@@ -2,8 +2,6 @@
 title: Egységcsoportok és egységek
 description: Ez a témakör az egységcsoportokról és egységekről tartalmaz információkat.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987574"
 ---
 # <a name="unit-groups-and-units"></a>Egységcsoportok és egységek
 
@@ -46,7 +44,7 @@ Például ha az **Idő** egységcsoportban az **Óra** egységet állítja be el
 
 A következő képen a **Nap** mértékegységre vonatkozó példa látható, ahol a **Mennyiség** mező az egy napon belüli órák számát mutatja, a **Hét** mértékegységre vonatkozó példa esetén pedig a **Mennyiség** mező mutatja az egy héten belüli napok számát.
 
-> ![Egységcsoport: Információs oldal](media/advanced-2.png)
+> ![Egységcsoport: Információs oldal.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Egységek és egységcsoportok használata
 
@@ -86,9 +84,9 @@ A következő példa azt mutatja be, hogyan használja a PSA az egységcsoportok
     - **Alapértelmezett időegység**: nap 
     - **Pénznem**: GBP
 
-| Szerepkör      | Egységcsoport | Egység | Szervezeti egység | Ár   |
+| Szerepkör      | Egységcsoport | Kiszerelés | Szervezeti egység | Ár   |
 |-----------|------------|------|---------------------|---------|
-| Fejlesztő | Time       | Day  | Contoso UK          | 800 GBP |
+| Fejlesztő | Idő       | nap  | Contoso Egyesült Királyság          | 800 GBP |
 
 ### <a name="time-entry"></a>Időbejegyzés
 
@@ -112,3 +110,6 @@ Szám Az ütemezési becslés jelenleg órákra van korlátozva, és nem módos�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Lehet szerkeszteni, törölni és hozzáadni az egységeket és egységcsoportokat?
 Igen. Az **Idő** egységcsoport és az **Óra** egység kivételével az összes egység törölhető vagy szerkeszthető, és új egységek is hozzáadhatók. A PSA-ban az **Idő** egységcsoport és az **Óra** egység nem törölhető. Ezek azonban frissíthetők a **Név** mező lefordított szövegével.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

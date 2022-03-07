@@ -2,9 +2,11 @@
 title: A projektkiadás-kategóriák szinkronizálása a Finance and Operations és a Project Service Automation között
 description: Ez a témakör ismerteti azokat a sablonokat és azokat az alapul szolgáló feladatokat, amelyek a projektkiadás-kategóriák Microsoft Dynamics 365 Finance és a Dynamics 365 Project Service Automation rendszer között történő szinkronizálására szolgálnak.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001119"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078231"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>A projektkiadás-kategóriák szinkronizálása a Finance and Operations és a Project Service Automation között
 
@@ -56,7 +58,7 @@ Ha a projekt költségkategóriái a Project Service Automation alkalmazásban v
 
 A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálása a Project Service Automation és a Finance rendszer között.
 
-[![Adatfolyam a Project Service Automation és a Finance közötti integrációhoz.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Adatfolyam a Project Service Automation és a Finance közötti integrációhoz](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>A projekt költségkategóriájának szinkronizálása a Finance rendszerből a Project Service Automation alkalmazásba
 
@@ -93,7 +95,7 @@ Ha a Project Service Automation alkalmazásba szinkronizál, az Excelhez készü
 
 A következő ábra egy példát mutat be az adatintegrációban az sablonfeladatok leképezésére. A leképezés azokat a mezőinformációkat mutatja, amelyek a Finance rendszerből a Project Service Automation alkalmazásba lesznek szinkronizálva.
 
-[![A projekt költségkategóriái a Project Service Automation sablonleképezéséhez.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![A projekt költségkategóriái a Project Service Automation sablonleképezéséhez](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>A projekt költségkategóriájának szinkronizálása a Project Service Automation alkalmazásból a Finance rendszerbe
 
@@ -121,7 +123,4 @@ A következő ábra egy példát mutat be az adatintegrációban az sablonfelada
 > [!NOTE]
 > A leképezés azokat a mezőinformációkat mutatja, amelyek a Project Service Automation alkalmazásból a Finance rendszerbe lesznek szinkronizálva.
 
-[![Project Service Automation és Finance sablonleképezése.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Project Service Automation és Finance sablonleképezése](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

@@ -2,8 +2,6 @@
 title: Értékesítési folyamatok
 description: Ez a témakör információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000534"
 ---
 # <a name="sales-processes"></a>Értékesítési folyamatok
 
@@ -41,7 +39,7 @@ A projektalapú szervezetekben alkalmazott értékesítési folyamatok különb�
 
 Az alábbi ábra egy tipikus értékesítési folyamatot mutat be egy projektalapú szervezetben.
 
-> ![Értékesítési folyamat egy projektalapú szervezetben](media/basic-guide-1.png)
+> ![Értékesítési folyamat egy projektalapú szervezetben.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Értékesítés becslése
 Az értékesítés értéke a korábban teljesített projektek és a projektek összetettsége alapján becsülhető meg. Olyan projektek esetén, amelyek kiterjesztik a korábbi projekteket, vagy olyan projektek esetében, amelyekben a beszállító szaktudása magas, és jól ismert munkasablonokat használnak, egyszerűbb becslési eljárás is használható. A bonyolultabb projektek beszerzési folyamata általában hosszabb. Ezért az értékesítés becslési folyamatban több szakasz van. A folyamat elején az értékesítési csapat a fiókkezelők és a téma szakértőinek (kkv-k) adatait használja fel, hogy magas szintű becslést készítsen az árajánlatban szereplő munka minden egyes különálló elemére. A munka ezen alkotóelemeit az árajánlat sorai képviselik. 
@@ -52,7 +50,7 @@ Létrehozhat több árajánlatot is egy projekthez, és csoportosíthatja őket 
 
 Emellett alternatív ajánlatokat is létrehozhat egy lehetőségentitás-típus alatt, vagy beállíthatja a rendszert úgy, hogy egy projektszerződés jön létre, amikor egy árajánlat nyer. Ebben az esetben csatolhat egy Word-dokumentumot, amely a SOW-ot képviseli a projektszerződés-rekordhoz.
 
-![Árajánlat lezárása a projektszerződés létrehozásához](media/basic-guide-2.png)
+![Árajánlat lezárása a projektszerződés létrehozásához.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Az értékesítési folyamat konfigurálása
 Az üzleti folyamatok (BPF) felhasználhatók a Microsoft Dynamics 365-ben az értékesítési folyamat konfigurálásához. A BPF-ek vezetett vizuális felületet adnak az értékesítési munkatársaknak, amelyeket felhasználhatnak az ügyletek előrevitelére a vállalatra jellemző szakaszokon keresztül.
@@ -68,7 +66,7 @@ Például az Ön vállalkozása az értékesítési folyamat következő hat sza
 
 Ezt a hat fázist chevronok (\>) reprezentálják, amelyeket azért kiválaszt ki, hogy kibővítse minden létrehozott lehetőségentitás-típusba.
 
-![Üzleti folyamatok konfigurálása a Dynamics 365-ben](media/basic-guide-3.png)
+![Üzleti folyamatok konfigurálása a Dynamics 365-ben.](media/basic-guide-3.png)
  
 Előfordulhat, hogy szervezete különböző entitásokat használ fel ugyanazon ügylet reprezentálására, amint az alakul. Az értékesítési folyamat elején az ügyletet a Lehetőség entitás képviseli. Az idő múlásával és további részletek megjelenésével magas szintű becsléseket használhat egy vagy több árajánlat létrehozásához. Ha ezen árajánlatok egyikét a belső és az ügyfél érdekelt felei felülvizsgálják, akkor az Ajánlat entitás képviseli az ügyletet. Miután az ügyfél elfogadta az ajánlatot, egy projektszerződés vagy SOW képviseli az ügyletet. Ennek a viselkedésnek a támogatása érdekében a BPF-eket úgy strukturálják, hogy a folyamat egyes szakaszai különféle adatbázis-táblákhoz legyenek kapcsolva.
 
@@ -79,7 +77,7 @@ Ahogyan az ügyletek a szakaszokon át mozognak, a rendszer felkéri Önt a megf
 > [!NOTE]
 > A PSA speciális oldalakat tartalmaz a Lehetőség, Ajánlat, Megrendelés és Számla entitások számára. E szervezetek projektinformációs oldalainak felhasználásával létre kell hoznia Project Service lehetőségeket, árajánlatokat, megrendeléseket és számlákat. Ha másik oldalt használ egy rekord létrehozásához, akkor nem tudja megnyitni a rekordot a **Projektinformáció** oldalon. Ha egy rekordot a **Projektinformáció** oldalról szeretne megnyitni, akkor törölnie kell a rekordot, és újra létre kell hoznia a **Projektinformáció** oldalon. A **Projektinformáció** oldalon az ezen entitástípusok mindegyikének üzleti logikája biztosítja, hogy a rekord **Típus** mezője helyesen legyen beállítva, és az összes kötelező fogalom megfelelően inicializálva legyen.
 
-> ![Projektinformáció új rendeléshez](media/basic-guide-4.png)
+> ![Projektinformáció új rendeléshez.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>A Project Service Automation és az értékesítés közötti különbségek
 Noha a PSA-ban az értékesítési folyamat az Értékesítés értékesítési folyamatának alapvető képességeit használja, a projektalapú szervezetek üzleti gyakorlatának eltérései miatt vannak bizonyos alapvető különbségek. Íme néhány példa:
@@ -93,3 +91,6 @@ A PSA-ban nem követheti nyomon az árajánlatokon végzett módosításokat. Eh
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Az árajánlatok és a projektszerződések megjegyzéseinek és jóváhagyásának nyomon követése
 Az árajánlatok és a projektszerződések felülvizsgálatát és jóváhagyását a nyilvántartási fal és a hozzászólások segítségével kezelheti. A szervezet létrehozhat egyéni munkafolyamatokat és beépülő modulokat az áttekintési és jóváhagyási munkaelemek értesítéseinek hozzárendeléséhez, átirányításához, kibővítéséhez és kezeléséhez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

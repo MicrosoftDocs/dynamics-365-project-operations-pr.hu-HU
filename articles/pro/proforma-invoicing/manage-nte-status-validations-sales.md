@@ -2,18 +2,16 @@
 title: Nem meghaladandó állapot és ellenőrzések kezelése
 description: Ez a témakör információt nyújt a Project Operationsban végrehajtott nem meghaladandó korlát ellenőrzéseiről.
 author: rumant
-manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003504"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Nem meghaladandó állapot és ellenőrzések kezelése 
 
@@ -21,7 +19,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 ## <a name="not-to-exceed-on-approvals"></a>Nem meghaladható jóváhagyáskor
 
-Egy idő- vagy költségbejegyzés elküldése esetén a rendszer jóváhagyási rekordot hoz létre. Ha a jóváhagyás számlázható, és egy idő- és anyagelszámolású szerződéssorhoz van leképezve, a rendszer a következő szinteken teljesíti a nem-túllépési érvényesítési ellenőrzést:
+Idő-, költség- vagy anyagfelhasználási tétel elküldésekor jóváhagyási rekord jön létre. Ha a jóváhagyás számlázható, és egy idő- és anyagelszámolású szerződéssorhoz van leképezve, a rendszer a következő szinteken teljesíti a nem-túllépési érvényesítési ellenőrzést:
 
   - Az ügyfélre vonatkozóan beállított korlát ellenőrzése a projektszerződéssoron
   - A beállított korlát ellenőrzése a szerződéssoron
@@ -34,11 +32,11 @@ Ha az ellenőrzés megfelel, a jóváhagyáshoz a rendszer **Sikerült** ellenő
 
 Ha az ellenőrzés nem felel meg, a jóváhagyáshoz a rendszer **Sikertelen** ellenőrzési állapotot ad. A meg nem haladandó ellenőrzési részletek tájékoztatják a felhasználót, hogy melyik szinten hiúsult meg az ellenőrzés.
 
-Ha az elküldött idő- vagy költségbejegyzés nem számlázhatónak számít, a nem meghaladandó ellenőrzési állapot beállítása **Nem érvényes**, ahol az ellenőrzési részlet egyenlő a **Nem érvényes** értékkel.
+Ha a beküldött idő-, költség- vagy anyagfelhasználási tétel nem számlázható, akkor a nem meghaladandó ellenőrzési állapot **Nem alkalmazható** értékre van állítva, és az ellenőrzési részletek is **Nem alkalmazható** értékűek.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Nem meghaladandó érték a nem számlázott értékesítési tényadatokon
 
-Amikor egy idő- vagy Költségbejegyzés jóvá van hagyva, a költség és a nem számlázott értékesítések tényadatrekordjai létrejönnek. Ha a létrehozott nem számlázott értékesítési tényadat számlázható, és egy idő- és anyagelszámolású szerződéssorhoz van leképezve, az alkalmazás a következő szinteken teljesíti a nem-túllépési érvényesítési ellenőrzést:
+Az idő-, költség- vagy anyagfelhasználási tétel jóváhagyásakor a rendszer költség- és nem számlázható értékesítési tényadat rekordokat hoz létre. Ha a létrehozott nem számlázott értékesítési tényadat számlázható, és egy idő- és anyagelszámolású szerződéssorhoz van leképezve, az alkalmazás a következő szinteken teljesíti a nem-túllépési érvényesítési ellenőrzést:
 
   - Az ügyfélre vonatkozóan beállított korlát ellenőrzése a projektszerződéssoron
   - A beállított korlát ellenőrzése a szerződéssoron
@@ -55,9 +53,9 @@ Amikor a nem számlázott értékesítési tényadat nem számlázható vagy ing
 
 ## <a name="reset-the-not-to-exceed-status"></a>Nem meghaladandó állapot alaphelyzetbe állítása
 
-A nem meghaladandó állapot tömeges visszaállítását is végrehajthatja. Ez lehetővé teszi, hogy a projektmenedzserek úgy állítsák be a nem meghaladandó ellenőrzést, hogy egy adott munka, idő vagy költségtípus számlázását priorizálják másokkal szemben, amelyeket már vállaltak a rendelkezésre álló nem meghaladandó összegből.
+A nem meghaladandó állapot tömeges visszaállítását is végrehajthatja. A projektmenedzserek módosíthatják a nem meghaladható ellenőrézst, hogy rangsorolják egy adott munka-, idő-, költség- vagy anyagfelhasználási munkaeredmény számlázása a rendelkezésre álló, nem meghaladható összegből már véglegesítettekkel szemben.
 
-A nem meghaladó állapotra vonatkozó alaphelyzetbe állítás után a rendszer csökkenti a vállalt összeget. A projektmenedzser kiválaszthat egy másik munkafolyamatot, időpontot vagy költséget, amely korábban meghiúsult a nem meghaladandó ellenőrzésen, és újraértékelheti őket. A vállalt összeg csökkentésével ezek a tényadatok most már megfelelnek az érvényesítésen. Ez segíti a projektmenedzsert abban, hogy nagyobb befolyással és irányítással rendelkezzen az adott időszakra vonatkozó számlázható tranzakciók felett.
+A nem meghaladó állapotra vonatkozó alaphelyzetbe állítás után a rendszer csökkenti a vállalt összeget. A Projektmenedzser kijelölhet egy másik munka-, idő-, költség- vagy anyagfelhasználási bejegyzést, amely korábban nem ment át a nem meghaladható és újraértékelési ellenőrzésen. A véglegesített összeg csökkentésével ezek a tényadatok most átmennek az ellenőrzésen, amely segít a projektmenedzsernek nagyobb befolyást gyakorolni az adott időszak számlázható tranzakciói felett, és ellenőrizni azokat.
 
 A nem meghaladandó állapot visszaállításához jelöljön ki egy vagy több tényleges értéket az **Idő- és anyagszámlázási hátralék** vagy a **Tényleges adatok** nézetből, majd válassza a **Nem meghaladandó állapot alaphelyzetbe állítása** elemet.
 
@@ -73,3 +71,6 @@ A nem meghaladandó állapot tömeges újraértékelését is elvégezheti. A ne
 A nem meghaladandó állapot újraértékeléséhez jelöljön ki egy vagy több tényleges értéket az **Idő- és anyagszámlázási hátralék** vagy a **Tényleges adatok** nézetből, majd válassza a **Nem meghaladandó állapot újraértékelés** elemet.
 
 A rendszer az összes releváns, nem meghaladandó korláttal rendelkező kijelölt tényleges értéket értékeli a nem meghaladandó korlát beállításához viszonyítva. Azok a tényadatok, amelyek számára releváns a nem meghaladandó állapot újraértékelése, olyan nem számlázott értékesítési tényadatok, amelyeket nem számláztak, nem szerepelnek piszkozat állapotú számlán, és számlázhatóként vannak megjelölve. A többi kijelölt tényleges érték kijelölése.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

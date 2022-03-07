@@ -16,16 +16,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 68eb9d4334bed7562ffe0de7951a2d364bbf9a5d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078285"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Fejlesztési kezdőlap (Project Service Automation 3.x)
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 A Dynamics 365 Project Service Automation 3.x új funkciókat, új platformlehetőségek megvalósítását és a meglévő szolgáltatások fejlesztését kínálja különféle területeken. A következő témakörök további információkat nyújtanak a PSA legújabb verziójában végrehajtott változásokról:
 

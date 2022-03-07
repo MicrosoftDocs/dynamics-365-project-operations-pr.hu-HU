@@ -2,8 +2,6 @@
 title: Javaslattétel a projekt erőforrásaira
 description: Ez a témakör információt nyújt a projekt erőforrásainak javaslatáról.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995044"
 ---
 # <a name="propose-project-resources"></a>Javaslattétel a projekt erőforrásaira
 
@@ -34,21 +32,21 @@ Az erőforrás-kezelők erőforrás-igénylés felhasználásával erőforrást 
 1. A kérési rácsból vagy maga a kérelemből válassza a **Források keresése** lehetőséget.
 2. Az **Ütemezési asszisztens** oldalon válassza ki az erőforrást, majd az **Erőforrás foglalás létrehozása** ablaktáblában a **Foglalási állapot** mezőben válassza a **Foglalás** lehetőséget.
 
-    ![A javasolt erőforrás kiválasztva](media/Resource-Management-image62.png)
+    ![A javasolt erőforrás kiválasztva.](media/Resource-Management-image62.png)
 
 A következő állapotfrissítések történnek:
 
 - Az **Ütemezési asszisztens** oldalon az állapotjelzők frissülnek, jelezve, hogy a foglalást javasolják, nem pedig keményen lefoglalják.
 
-    ![A javasolt foglalás állapotjelzői az Ütemezési segéd oldalon](media/Resource-Management-image63.png)
+    ![A javasolt foglalás állapotjelzői az Ütemezési segéd oldalon.](media/Resource-Management-image63.png)
 
 - Az erőforrás-kérésnél az állapot megváltozik: **Áttekintést igényel**.
 
-    ![Az erőforrás-kérés státusza Áttekintést igényel-re változott](media/Resource-Management-image64.png)
+    ![Az erőforrás-kérés státusza Áttekintést igényel-re változott.](media/Resource-Management-image64.png)
 
 - A projekt **Csapat** lapján az általános csapattag **Állapotkérés** értéke megváltozik **Áttekintést igényel** értékre.
 
-    ![Az általános csapattag kérésének állapota a Csapat fülön átkerül az Áttekintést igényel elemre](media/Resource-Management-image48.png)
+    ![Az általános csapattag kérésének állapota a Csapat fülön átkerül az Áttekintést igényel elemre.](media/Resource-Management-image48.png)
 
 A projektvezető elfogadhatja vagy elutasíthatja a javaslatot.
 
@@ -72,7 +70,7 @@ A felhasználás kiszámításához a következő képleteket kell használni:
 
 Az **Erőforrás-hasznosítás** nézetet az **Erőforrások** ablaktáblában találhatja meg.
 
-![Erőforrás-felhasználás nézet](media/Resource-Management-image65.png)
+![Erőforrás-kihasználtság megtekintése.](media/Resource-Management-image65.png)
 
 A rács minden cellája képviseli az erőforrás számlázható felhasználási százalékát egy időszakban, például egy nap, hét vagy hónap. A cellák színezésére a következő képleteket használják:
 
@@ -86,7 +84,7 @@ A rács megköveteli, hogy állítson be egy célfelhasználást a szerepre vagy
 
 Ezenkívül minden foglalható erőforráshoz alapértelmezett szerepet kell hozzárendelni. Lépjen a **Források** \> **Források** oldalra. A **Project Service** lapon ellenőrizze, hogy az erőforrás szerepe van meghatározva, és hogy a **Alapértelmezett** mező **Igen** értékre van állítva. További szerepeket adhat hozzá, ahol **Alapértelmezett = Nem**. A szerep, ahol az **Alapértelmezett = Igen**, az erőforrás felhasználásának értékelésére szolgál annak a célnak a függvényében.
 
-![Alapértelmezett szerepkészlet](media/Resource-Management-image67.png)
+![Alapértelmezett szerepkészlet.](media/Resource-Management-image67.png)
 
 A **Project Service** lapon az erőforrás egyedi célhasználatát is beállíthatja. A hasznosítási számítás ezt követően a célfelhasználást használja az erőforrás céljának értékelésére, az erőforrás alapértelmezett szerepének célpontja helyett.
 
@@ -98,18 +96,21 @@ Fontos, hogy az erőforrás-kezelők képesek legyenek megtekinteni az erőforr�
 
 Az erőforrás rendelkezésre állásának kiszámításához az erőforrás munkaidőjét vesszük alapul. Az erőforrás-foglalások felhasználják az erőforrások kapacitását.
 
-![Ütemezési táblázat](media/Resource-Management-image68.png)
+![Ütemezési-tábla.](media/Resource-Management-image68.png)
 
 Az Ütemezési tábla színeket és árnyalatokat használ a foglalások, a rendelkezésre állás és a túlfoglalások, valamint a foglalások állapotának megjelenítésére. Az Ütemezési tábla beállításai lehetővé teszik a jelmagyarázat megjelenítését.
 
 Ha egy jobbra mutató nyíl jelenik meg az ütemező táblán az egyes foglalható források mellett, az erőforrás kibővíthető, hogy megjelenjen az erőforrás által lefoglalt munka részletei.
 
-![A foglalható erőforrás kibővült az Ütemezési táblán](media/Resource-Management-image69.png)
+![A foglalható erőforrás kibővült az Ütemezési táblán.](media/Resource-Management-image69.png)
 
 Mivel a Dynamics 365 Project Service Automation a Universal Resource Scheduling motort használja, ha telepítette a Dynamics 365 Field Service rendszert is, akkor megtekintheti a projektek erőforrás-foglalási, munkamegrendelési és minden más entitás részleteit, amelyekre az ütemezést kiterjesztette.
 
-![A projektek és a megrendelések forrásfoglalásainak részletei](media/Resource-Management-image70.png)
+![A projektek és a megrendelések forrásfoglalásainak részletei.](media/Resource-Management-image70.png)
 
 Az egyes erőforrásokkal kapcsolatos további részletek megtekintéséhez kattintson a jobb gombbal az erőforráskártya megnyitásához.
 
-![Erőforrás-kártya](media/Resource-Management-image71.png)
+![Erőforrás-kártya.](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

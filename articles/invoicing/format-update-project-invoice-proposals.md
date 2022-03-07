@@ -2,18 +2,16 @@
 title: Projekt számlaajánlatok kezelése
 description: A témakör az ügyfél felé irányuló számlák Project Operations szolgáltatással való feldolgozását részletezi az erőforrás/nem készletezett anyagokon alapuló forgatókönyvekhez.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089254"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989914"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekt számlaajánlatok kezelése
 
@@ -80,7 +78,8 @@ Az új számlázási mérföldkő Dataverse-ből való létrehozásakor az **Ér
     - **Ügyfél**: az ügyfél számlázási áfacsoportja mindig alapértelmezett.
     - **Keresés**: a keresés a listában szereplő összes entitásban fog keresni, és kiválasztja az elérhető első értéket. A keresés a **Projekt** entitással, majd a **Projekt szerződés** entitással, majd az **Ügyfél** entitással kezdődik.
 
-- **A rögzített árú mérföldkő cikk értékesítési áfacsoportja** a **Cikk értékesítési áfacsoport** mező értékének alapértelmezett beállítására használatos.
+- A **Fixáras mérföldőtétel forgalmiadó-csoportja** a számlázási mérföldkő **Tétel forgalmiadó-csoportja** mezőjének alapértelmezett értékeként használatos. A könyvelő ezt az értéket a **Számlán végzett tranzakciók** oldalon tekintheti át és módosíthatja. A rendszer a projektszámla-javaslatsor létrehozásakor a számlán szereplő tranzakció értékét használja.
+ 
 
 ### <a name="financial-dimensions"></a>Pénzügyi dimenziók
 
@@ -132,7 +131,7 @@ A **Számlajavaslatok formázása** lapon az egyéni csoportosítási tranzakci�
 
 A nyomtatáskezelés különböző jelentésfájlokat használ a nyomtatáshoz, a célpontok megadásához és a számla láblécszövegének testreszabásához. A nyomtatáskezelés a modul szintjén beállítható, azonban ezek a beállítások felülírhatóak egy adott ügyfél, szerződés vagy számlajavaslat esetében. Ha hozzá szeretné férni ehhez a funkcióhoz a **Projekt számlajavaslat** oldalon, akkor válassza a **Nyomtatás** > **Nyomtatáskezelés** lehetőséget.
 
-A nyomtatáskezelési beállítások egy fanézetben jelennek meg, ahol minden csomópontszint megjeleníti a módosítható dokumentumokat. Az egyéni nyomtatások a modul, az ügyfél, a szerződés vagy a számla ajánlati dokumentumszinten rendelhetők hozzá. Az eredeti dokumentum nyomtatásának módosításához bontsa ki a kívánt csomópontot, és válassza az **Eredeti cikk** lehetőséget. A **Jelentésformátum** mezőben jelölje ki a nyomtatáshoz használni kívánt jelentésformátumot. Az egyéni jelentésformátumok a [Vállalat dokumentumkezelési keretrendszer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) segítségével használhatók.
+A nyomtatáskezelési beállítások egy fanézetben jelennek meg, ahol minden csomópontszint megjeleníti a módosítható dokumentumokat. Az egyéni nyomtatások a modul, az ügyfél, a szerződés vagy a számla ajánlati dokumentumszinten rendelhetők hozzá. Az eredeti dokumentum nyomtatásának módosításához bontsa ki a kívánt csomópontot, és válassza az **Eredeti cikk** lehetőséget. A **Jelentésformátum** mezőben jelölje ki a nyomtatáshoz használni kívánt jelentésformátumot. Az egyéni jelentésformátumok a [Vállalat dokumentumkezelési keretrendszer](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) segítségével használhatók.
 
 ## <a name="post-invoice-proposals"></a>Számlázási javaslatok közzététele
 
@@ -143,3 +142,6 @@ Ha meg szeretné tekinteni a számlát a közzététel előtt, akkor törölje a
 A **Számlajavaslat** lap mellett a számlajavaslatokat a periodikus feladat, a **Számlajavaslatok közzététele** futtatásával is közzéteheti. A feladat kereséséhez menjen a **Projektkezelés és a könyvelés** > **Periodikus** > **Projektszámlák** > **Projektjavaslatok közzététele** lehetőségre.
 
 Ez az oldal megjeleníti a közzétételre kész összes számlajavaslatot. A **Köteg** lehetőség kiválasztásával ütemezheti is a számlajavaslatok közzétételét. Állítsa a **Kötegfeldolgozás paraméter** lehetőséget **Igen** értékre, és állítsa be a kötegfeldolgozás ismétlődését az **Ismétlődés** lehetőség kiválasztásával.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

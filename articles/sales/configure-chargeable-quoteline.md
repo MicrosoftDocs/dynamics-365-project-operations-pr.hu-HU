@@ -2,18 +2,16 @@
 title: A projektalapú árajánlatsor felszámítható összetevőinek konfigurálása
 description: Ez a témakör a projektenalapú ajánlatsorokban szereplő, számlázható és nem számlázható összetevőkkel kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003999"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>A projektalapú árajánlatsor felszámítható összetevőinek konfigurálása
 
@@ -53,3 +51,6 @@ Egy költséghez létrehozott elhatárolás vagy tényleges érték csak akkor l
 | Nincs | Igen | Nem állítható be | Nem számlázható | Számlázás egy tényleges Időhöz: Nem érhető el </br>Számlázás típusa egy tényleges kiadáshoz: Nem számlázható |
 | Igen | Nincs | Felszámítható | Nem állítható be | Számlázás egy tényleges Időhöz: Számlázható </br>Számlázás típusa egy tényleges kiadáshoz: Nem érhető el |
 | Igen | Nincs | Nem számlázható | Nem állítható be | Számlázás egy tényleges Időhöz: Nem számlázható </br> Számlázás típusa egy tényleges kiadáshoz: Nem érhető el |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

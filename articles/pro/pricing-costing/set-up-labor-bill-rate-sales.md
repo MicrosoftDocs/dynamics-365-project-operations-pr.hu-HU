@@ -2,24 +2,22 @@
 title: A munka számlázási arányának beállítása – Lite
 description: Ez a témakör a Project Operationsban a munkaszámlázási díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007599"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>A munka számlázási arányának beállítása – Lite
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, amelyek hatályosak az árlistafejlécen szereplő környezetnek és esedékességi dátumának megfelelően. A Dynamics 365 Project Operations időre vonatkozó számlázási díjak egyetlen pénznemben állíthatók be, amely az árlistafejlécen található pénznem.
+Minden árlistához tartalmaz egy sor szerepkörárakt vagy munkabérdíjat, amelyek hatályosak az árlistafejlécen szereplő környezetnek és esedékességi dátumának megfelelően. A Dynamics 365 Project Operations időre vonatkozó számlázási árfolyamai csak egy pénznemben állíthatók be, ez az Árlista fejlécében található pénznem.
 
 1. Az értékesítési árak listáján szereplő munkabérdíjak beállításához az árlista fejléce alapján hozzon létre egy árlistát. 
 2. A **Szerepkörárak** lap részrácsában válassza az **+ Új szerepkörár** lehetőséget. 
@@ -55,3 +53,6 @@ Például a Fabrikam India egyik fejlesztője, aki egy amerikai projekten dolgoz
     | Fejlesztői | Fabrikam US | $150 |
 
 3. Csatolja az értékesítési árlistát, a **Fabrikam US számlázási rátáit** a projektszerződés vagy egy bizonyos Partner projektárlistájához.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

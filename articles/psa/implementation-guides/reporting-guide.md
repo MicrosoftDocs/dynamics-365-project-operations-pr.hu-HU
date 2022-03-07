@@ -3,7 +3,7 @@ title: Jelentéskészítő útmutató
 description: Ez a témakör linkeket tartalmaz a jelentéssel kapcsolatos információkhoz.
 author: kfend
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 02/11/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 10f4a6cbd741008b696ae9dd147307413b5b7936
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 976c06f4b16bd969eba0ae06ccdd735256aeb044
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078192"
 ---
 # <a name="reporting-guide"></a>Jelentéskészítő útmutató
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 

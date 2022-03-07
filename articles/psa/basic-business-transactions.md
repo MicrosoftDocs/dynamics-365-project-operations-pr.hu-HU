@@ -2,8 +2,6 @@
 title: Üzleti tranzakciók
 description: Ez a témakör az üzleti tranzakciókról tartalmaz információkat.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149906"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987529"
 ---
 # <a name="business-transactions"></a>Üzleti tranzakciók
 
@@ -90,7 +88,7 @@ A tranzakció eredete és a tranzakciós kapcsolatok együttesen segítenek nyom
 
 A következő példa az időbejegyzések tipikus feldolgozását mutatja be a PSA projekt életciklusában.
 
-> ![Feldolgozási idő entitások a Project Service életciklusban](media/basic-guide-17.png)
+> ![Feldolgozási idő entitások a Project Service életciklusban.](media/basic-guide-17.png)
  
 1. Az időbejegyzések beküldése két naplósor létrehozását eredményezi: egy a költségről, egy pedig a nem számlázott értékesítésekről.
 2. Az időbejegyzés végleges jóváhagyása két tényadat létrehozását eredményezi: egy a költségről, egy pedig a nem számlázott értékesítésekről.
@@ -149,3 +147,6 @@ A következő táblázat az előző munkafolyamat tranzakciós kapcsolat entitá
 | Számlatervezet helyesbítése       | Számlasor-tranzakció GUID | Csere          | msdyn_invoicelinetransaction | Számlázott értékesítési GUID            | Eredeti           | msdyn_actual       |
 | Számlahelyesbítés jóváhagyása     | Számlázott értékesítés sztornózási GUID    | Sztornózás          | msdyn_actual                 | Számlázott értékesítési GUID            | Eredeti           | msdyn_actual       |
 | Új, számlázatlan értékesítési tényadat GUID | Csere                     | msdyn_actual       | Számlázott értékesítési GUID            | Eredeti                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

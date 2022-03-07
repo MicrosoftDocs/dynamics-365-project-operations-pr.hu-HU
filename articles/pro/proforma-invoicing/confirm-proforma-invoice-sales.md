@@ -1,26 +1,24 @@
 ---
-title: Proforma számla megerősítése – Lite
-description: Ez a témakör a proforma számlák a Project Operations alkalmazásban való megerősítéséről nyújt tájékoztatást.
+title: Proforma projektszámla megerősítése
+description: Ez témakör a proforma projektszámlák Project Operations szolgáltatásban való megerősítéséről nyújt információt.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176524"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992974"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Proforma számla megerősítése – Lite
+# <a name="confirm-a-proforma-project-invoice"></a>Proforma projektszámla megerősítése 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 
-A proforma számla megerősítését követően a projektszámla- frissítések állapota **Megerősítve** lesz. A számla megerősítését követően csak olvasható lesz. Ezután a számla csak akkor helyesbíthető, ha ügyfél által kezdeményezett helyesbítések vagy jóváírások vannak, vagy ha a számla kifizetettként van megjelölve.
+A proforma számla megerősítését követően a projektszámla- frissítések állapota **Megerősítve** lesz. A számla megerősítését követően csak olvasható lesz. A jövőben a számla csak akkor helyesbíthető, ha vannak ügyfél által kezdeményezett helyesbítések vagy jóváírások.
 
 A következő táblázat a rendszer által létrehozott tényleges adatokat sorolja fel. A rendszer ezeket a tényleges adatokat akkor hozza létre, amikor bizonyos műveleteket végrehajtanak a projekt vázlat állapotú számláján a jóváhagyás előtt.
 
@@ -231,6 +229,70 @@ Az új, nem számlázott tényleges értékesítés, amely felszámítható a me
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Anyagtranzakció számlázása a számlatervezet szerkesztése nélkül.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg nem számlázott értékesítési sztornírozása az eredeti anyaghasználati jóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg számlázott értékesítési tényadat az eredeti anyaghasználati jóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+A mennyiség csökkentése érdekében szerkesztett anyagtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg nem számlázott értékesítési sztornírozása az eredeti időjóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely nem felszámítható a fennmaradó mennyiséghez a javított értékek levonását követően és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+A mennyiség növelése érdekében szerkesztett anyagtranzakció számlázása.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+A mennyiség és az összeg nem számlázott értékesítési sztornírozása az eredeti anyaghasználati jóváhagyáson.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Az új, nem számlázott tényleges értékesítés, amely felszámítható a mennyiséghez és összeghez a szerkesztett számlasoradatokhoz, a nem számlázott ténylege értékesítés helyesbítése, és egy ennek megfelelő számlázott tényleges értékesítés.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Díj számlázása.
                 </p>
             </td>
@@ -273,3 +335,6 @@ A terméksorhoz tartozó számlázott értékesítés, a termék alapú szerződ
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Beépülő modul attribútumainak frissítése új árképzési dimenziókkal
 description: Ez a témakör az árazási dimenziókhoz tartozó bővítményattribútumok frissítésének módjáról nyújt információt.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643221"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988339"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Beépülő modul attribútumainak frissítése új árképzési dimenziókkal
 
@@ -52,3 +50,6 @@ Hajtsa végre a következő lépéseket a beépülő modulok frissítéséhez é
 7. Válassza az **OK** gombot, hogy bezárja az oldalt, majd válassza a **Lépés frissítése** elemet.
 8. Ismételje meg az 2–7. lépéseket a második **PreOperationQuoteLineDetail** beépülő modulhoz. Ehhez a beépülő modulhoz frissítse az **msdyn_quotelinetransaction frissítése** lépést.
 9. Zárja be a **PluginRegistrationTool** eszközt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176974"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274101"
 ---
 # <a name="manage-the-billing-backlog---lite"></a>A számlázási elmaradás kezelése - lite
 
@@ -60,3 +60,6 @@ Az olyan nem számlázott értékesítések, amelyeknek **Nem meghaladandó** á
 Ha a több ügyfélből álló szerződéssorok idő-és anyagelszámolású számlázási móddal rendelkeznek, akkor az időpontok és a kiadások jóváhagyásakor a rendszer egy nem számlázott értékesítési tényadatot hoz létre az egyes ügyfelekhez a szerződéssoron az egyes ügyfelekhez meghatározott számlázási felosztási százalék alapján. Az **Idő- és anyagszámlázási hátralék** nézetben ezek az egyéni ügyfél-specifikus, nem számlázott tényleges értékesítések megjelennek. A számlázatlan tényleges értékesítési rekordok mindegyike **Szálázásra kész** értékkel van megjelölve a nézettől függetlenül.
 
 Ebben a nézetben egy nem számlázott tényleges értékesítés jelenik meg, amely a számlavázlaton található, és a számlázási állapota **Ügyfélszámla létrehozva**. A számla vázlatának megerősítését követően a bejegyzésben szereplő számlázási állapot frissül a **Ügyfélszámla közzétéve** értékre. Ne frissítse ezt az állapotértékét egyéni kóddal. A Project Operations nem működik megfelelően, ha ezeket az értékeket egyéni kóddal frissítik.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

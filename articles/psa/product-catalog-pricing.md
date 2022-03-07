@@ -2,8 +2,6 @@
 title: Termékkatalógus árképzése
 description: Ez a témakör ismerteti, hogyan működik a termékkatalógus árképzése a Dynamics 365 Project Service Automation (PSA) szolgáltatásban.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151211"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009214"
 ---
 # <a name="product-catalog-pricing"></a>Termékkatalógus árképzése 
 
@@ -64,3 +62,6 @@ A Lehetőség, az Árajánlat és a Projektszerződés entitásai az alábbi sor
 Alapértelmezés szerint az árajánlatsor **Termék** mezője felsorolja az összes aktív terméket az árajánlat terméklistáján. Ha egy terméket inaktiváltak, vagy ha ez egy termékvázlat, akkor nem szerepel a listán még akkor sem, ha szerepel az árlistán. 
 
 A termékkatalógus-sorok számlasorokként kerülnek hozzáadásra az első számlára, amelyet egy projektszerződéshez készítenek. A számlatervezeten törölhetők ezek a számlasorok. Ebben az esetben a sorok egy későbbi számlán jelennek meg, amíg számlázásra nem kerülnek, vagy amíg a számlát el nem küldik az ügyfélnek. A PSA-ban nem számlázható ki egy termékszámlasor részleges mennyisége. Amikor a projektszerződés terméksorozatait kiszámlázzák, tényadatok jönnek létre. Ezek a tényadatok azonban nem kapcsolódnak a kapcsolódó projektentitáshoz. Más szavakkal: a termék-alapú projektszerződés-sorok függetlenek minden projektalapú felhasználástól. A PSA nem követi nyomon a projektek anyagfelhasználását.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

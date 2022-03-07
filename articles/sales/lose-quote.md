@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278151"
 ---
 # <a name="copy-project-based-quotes"></a>Projektalapú árajánlatok másolása
 
@@ -45,3 +45,6 @@ Amikor az **OK** lehetőséget választja, a párbeszédoldalon, a rendszer a p�
 > - Projekthivatkozás a projektalapú árajánlatsorok Ügyfélköltségvetés-információira
 >
 >Mivel ez az információ nagyon jellemző az egyes ajánlatokra, ezeket a mezőket és rekordokat nem másolja a rendszer. A projektek és termékek árajánlatsorai, az árajánlatsor-részletek becslései és a nem meghaladandó értékek az árajánlat szintjén másolásra kerülnek. Az ár és a költségarány alapértelmezései a **Paraméterek másolása** párbeszédpanelen kiválasztott **Árképzés másolása** beállítástól függnek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

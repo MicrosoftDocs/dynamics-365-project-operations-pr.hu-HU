@@ -2,11 +2,9 @@
 title: Projektcsoport létrehozása
 description: Ez a témakör a projektcsoportok létrehozásával és kezelésével kapcsolatban tartalmaz tájékoztatást.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270861"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005799"
 ---
 # <a name="create-a-project-team"></a>Projektcsapat létrehozása
 
@@ -35,7 +33,7 @@ A nézet beállításai is testreszabhatók, így könnyebben áttekinthető az 
 
 A projektmenedzser kiválaszthat egy szerepkört az oldalon, majd ha rendelkezésre áll egy, a követelménynek megfelelő erőforrás, akkor válassza a lehetőséget a szerepkör betöltéséhez szükséges erőforrás lefoglalásához. Ne feledje, hogy az erőforrásokat nem kell ezen a ponton a tervezési fázisban lefoglalni. Ha WBS-t hoz létre, a szerepköröket a projekthez tartozó munkatársakkal ellátott erőforrásokkal helyettesítheti. Ha a szerepeket munkatársakkal ellátott erőforrásokra cseréli le a WBS-ben, az erőforrás-beállítás automatikusan frissíti a projektcsapat felsorolását és ütemezését.
 
-[![Projektcsoport felsorolása, amely a szerepköröket és a tényleges erőforrásokat egyaránt tartalmazza](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektcsoport felsorolása, amely a szerepköröket és a tényleges erőforrásokat egyaránt tartalmazza.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 A projektmenedzser többféle lehetőséget kínál a projektek erőforrás-foglalására, például a **Hátralévő kapacitás**, a **Teljes kapacitás**, a **Kapacitás százalékos értéke**, valamint az **Órák megadása**. Ezek a foglalási lehetőségek bármikor visszavonhatók, ha az erőforrás-hozzárendelések megváltoznak. A foglalás két típusa támogatott:
 

@@ -17,17 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078198"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 Ez a témakör feltételezi, hogy elvégezte az [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md) című témakör eljárásait. Ha még nem fejezte be ezeket az eljárásokat, menjen vissza, és fejezze be őket, majd térjen vissza ehhez a témához. 
 
 Ebben a témakörben az eljárások megmutatják, hogyan lehet hozzáadni a szükséges egyéni mező hivatkozásokat az entitásokhoz és a felhasználói felület (UI) elemeihez, például űrlapokhoz és nézetekhez.

@@ -2,12 +2,10 @@
 title: Foglalható erőforrás használata árazási dimenzióként
 description: Ez a témakör a foglalható erőforrások árazási dimenzióként való használatáról tartalmaz tájékoztatást.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988969"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Foglalható erőforrás használata árazási dimenzióként
 
@@ -64,15 +62,18 @@ Foglalható erőforrás esetén, a **Projektcsoport tagjai** entitás mezőneve 
 1. Ehhez kattintson duplán az **Árazási dimenziók** rácsban található sorra; ekkor megnyílik az **msdyn_bookableresource** dimenzió oldala.
 2. A dimenzió oldalán a **Kapcsolódó** lapon kattintson az **Árdimenziók mezőnevei** lehetőségre.
 
- ![Árdimenziók mezőnevei lap](media/PD-fieldname.png)
+ ![Árdimenziók mezőnevei lap.](media/PD-fieldname.png)
 
 4. A megnyíló kapcsolódó nézeten kattintson az **Új árdimenzió mezőnév hozzáadása** lehetőségre.
 
- ![Új árdimenzió mezőnevek hozzáadása](media/Add-NewPD-fieldname.png)
+ ![Új árdimenzió mezőnevek hozzáadása.](media/Add-NewPD-fieldname.png)
 
 
 Ez megnyitja az **msdyn_bookableresource** elem **Új árdimenzió mezőnév** lapját. 
 
 5. Adja hozzá az **msdyn_projectteam** elemet az **Entitás logikai neve** mezőhöz és az **msdyn_bookableresourceid** elemet a **Mezőnév** mezőhöz. Mentse a bejegyzést.
 
- ![Új árdimenzió mezőnév űrlap](media/PD-fieldname-Added.png)
+ ![Új árdimenzió mezőnév űrlap.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

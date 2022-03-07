@@ -2,18 +2,16 @@
 title: Költségkezelési paraméterek konfigurálása
 description: Ez a témakör ismerteti azokat a paramétereket, amelyek a Költségkezelés általános működését szabályozzák.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121041"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007779"
 ---
 # <a name="configure-expense-management-parameters"></a>Költségkezelési paraméterek konfigurálása
 
@@ -83,3 +81,6 @@ Ez a témakör ismerteti azokat a paramétereket, amelyek a Költségkezelés á
 | Korrupcióellenes nyilatkozat megjelenítése   | Válassza ezt a lehetőséget, ha a költségjelentés létrehozásakor meg szeretné jeleníteni a korrupcióellenes szöveget. Ezután engedélyezhetők bizonyos költségkategóriák, amelyek megkövetelik a korrupcióellenes nyilatkozat kiválasztását a költségjelentés alatt. Például egy adott kormányzati tisztviselőkkel kapcsolatos kiadáshoz kapcsolódó ajándékkategória esetében előfordulhat, hogy az alkalmazottnak igazolnia kell, hogy a költség megfelel a kormányzati tisztviselőkhöz kapcsolódó vállalati irányelveknek. |
 | Korrupcióellenes üzenet a beküldő számára | Adja meg azt a szöveget, amelynek a költségjelentés létrehozását végző alkalmazott számára meg kell jelennie. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, válassza a **Fordítások** lehetőséget. |
 | Korrupcióellenes üzenet a jóváhagyó számára  | Adja meg azt a szöveget, amelynek a költségjelentés létrehozásakor a jóváhagyó számára meg kell jelennie. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, válassza a **Fordítások** lehetőséget. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

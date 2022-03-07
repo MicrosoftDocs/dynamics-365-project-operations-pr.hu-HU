@@ -2,8 +2,6 @@
 title: A projekt költségei és bevételei
 description: Ez a témakör információkat nyújt a projekt költségeinek és bevételeinek megbecsléséről.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148331"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002559"
 ---
 # <a name="project-costs-and-revenue"></a>A projekt költségei és bevételei
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148331"
 
 A projektbecslések biztosítják a becsült és a projekt ütemezésében ütemezett munka pénzügyi áttekintését. A **Projektek** oldal **Becslések** füle megmutatja a költségek és bevételek hatását a tervezés alatt álló munkára. Információt nyújt számos előre definiált dimenzióról is. 
 
-> ![Becslések fül](media/project-5.png)
+> ![Becslések fül.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>A projekt költségei és értékesítési értékei
 
@@ -68,13 +66,13 @@ Ha a rendszer nem talál árat a szerepkörre, akkor a becsléssor eladási ár�
 
 A **Becslések** lapon van egy rács nézet, amely becsléssorokat mutat. A rács az egység oszlopait, a teljes bekerülési árat és a teljes eladási árat tartalmazza, ahogy az a következő ábrán látható. 
 
-> ![Rács nézet a Becslések lapon](media/project-6.png)
+> ![Rács nézet a Becslések lapon.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>A projekt becslések időzített nézete
 
 A projektbecslések időszakos nézete a rács nézetének becsült adatait mutatja az idővonalon a kiválasztott idősávban. Alapértelmezés szerint a becsült adatok a **Szerepkör** dimenzióban vannak elforgatva.
 
-> ![Időszakos nézet a projektbecslésekhez](media/project-7.png)
+> ![Időszakos nézet a projektbecslésekhez.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>A becsült erőfeszítés elosztása a feladatmód alapján
 
@@ -97,3 +95,6 @@ Mind a rács nézetben, mind az időszakos nézetben kiválaszthatja, hogy mely 
 ## <a name="expense-estimates"></a>Költség becslések
 
 Az **Új költségbecslés hozzáadása** gomb segítségével a rács nézetben feljegyezhetők a projekt során felmerülő költségek, amelyek nem közvetlenül kapcsolódnak a munkaerőhöz. Rögzítheti egy adott feladat vagy a teljes projekt költségbecsléseit. Válassza ki a költségkategóriákat és a kezdeti dátumot, amikor várhatóan felmerül a költség. Ha a kapcsolódó bekerülési és az eladási árlista alapértelmezett árakat tartalmaz (vagy ha a költségkategóriákhoz meghatározták a jelölési százalékokat), akkor azok automatikusan bekerülnek a becsléssorba, amikor a társítás megtörténik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

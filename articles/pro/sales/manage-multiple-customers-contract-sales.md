@@ -2,18 +2,16 @@
 title: Több ügyfél kezelése egy projektszerződésen - Lite
 description: Ez a témakör információt nyújt a több ügyfélnek a projektszerződéseken való kezeléséről.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001749"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Több ügyfél kezelése egy projektszerződésen - Lite
 
@@ -52,3 +50,6 @@ A szerződéses ügyfél létrehozható, frissíthető, illetve törölhető a *
 A számlázás felosztási százaléka szerkeszthető a sorközi rácsszerkesztési felületen. Ha a számlázásfelosztási százalékértékek nem tesznek ki teljes 100 százalékot, akkor hiba jelenik meg. A számlázási felosztás százalékos értékének módosítása után frissítse a lapot a hiba elvetéséhez.
 
 Kiválaszhatja az **Egyenlő elosztás** lehetőséget is az **szerződéses ügyfelek** részrácsán, hogy a számlázási felosztásokat egyenletesen ossza el az összes szerződéses ügyfél esetén. Ha bármilyen kerekítési tényező van, akkor a rendszer hozzáadja a kerekítési ügyfélhez. A szerződés szerinti ügyfelek egyike mindig a **kerekítési** ügyfélként van címkézve, ami azt jelenti, hogy a szerződéses ügyfél rekordjánál **Igen** értékre van állítva a kerekítési jelző. Ez általában a szerződés elsődleges ügyfele, de szintén megváltoztatható.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

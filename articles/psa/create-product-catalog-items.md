@@ -3,7 +3,7 @@ title: Termékkatalógus elemek létrehozása
 description: Termékkatalógus elemek létrehozása a Project Service szolgáltatásban
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3c608f2aba408642a96bfc63a0638cf0760c15a4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078063"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Termékkatalógus elemek létrehozása (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

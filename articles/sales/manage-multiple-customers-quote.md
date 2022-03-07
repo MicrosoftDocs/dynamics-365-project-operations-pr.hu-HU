@@ -2,18 +2,16 @@
 title: Több ügyfél kezelése egy projektárajánlaton
 description: Ez a témakör tájékoztatást nyújt a projekt finanszírozását végző több ügyfelet tartalmazó árajánlatok használatáról.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 62bd8e3539102229c79126397cf60287747b187d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181995"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011419"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Több ügyfél kezelése egy projektárajánlaton
 
@@ -23,7 +21,7 @@ A projektárajánlatok támogatják azt az esetet, amikor a javaslat több ügyf
 
 Az összes árajánlati ügyfél a projektárajánlat **Ügyfelek** lapján az árajánlatsori ügyfél alapértelmezett értékkel rendelkezik az árajánlathoz létrehozott minden **új** projektalapú árajánlatsor esetében. A meglévő projektalapú árajánlatsorok nem fogják örökölni az utánuk létrehozott új árajánlati ügyfélrekordokat.
 
-Az árajánlatban szereplő ügyfelek és ajánlatsor ügyfelei az árajánlat megnyerése előtt bármikor hozzáadhatók, frissíthetők és törölhetők. Az árajánlaton szereplő érvényes ügyfelet üygfélként kell beállítani a Tulajdonos vállalat vagy Jogi entitás részben az **Ügyfelek** oldalon. A jogi entitások a Dynamics 365 Project Operations **Projektmenedzsment és könyvelés** moduljában vannak beállítva, és a Project Operations **Projektértékesítések és szállítások** moduljában Vállalatokként érhetők el.
+Az árajánlatban szereplő ügyfelek és ajánlatsor ügyfelei az árajánlat megnyerése előtt bármikor hozzáadhatók, frissíthetők és törölhetők. Az árajánlaton szereplő érvényes ügyfelet üygfélként kell beállítani a Tulajdonos vállalat vagy Jogi entitás részben az **Ügyfelek** oldalon. A jogi személyek a Dynamics 365 Project Operations **Projektmenedzsment és könyvelés** moduljában állíthatók be és Vállalatként érhetők el a Project Operations **Projektértékesítés és szállítás** moduljaiban.
 
 ## <a name="concept-of-a-primary-customer"></a>Az elsődleges ügyfél fogalma
 
@@ -51,3 +49,6 @@ Az árajánlati ügyfél az **Árajánlat** oldal **Árajánlati ügyfelek** lap
 A számlázásfelosztási százalékokat a soros rácsszerkesztés használatával szerkesztheti. Ha a számlázási felosztási százalékok összege nem 100%, hiba lép fel. A számlázásfelosztási százalékok frissítése után frissítse az oldalt a hiba eltávolításához.
 
 Megpróbálhatja kiválasztani az **Egyenlő elosztás** lehetőséget is az árajánlat ügyfeleinek részrácsán. Ez a művelet a számlázásfelosztásokat az összes árajánlati ügyfél számára elosztja. Ha van kerekítési tényező, az hozzáadódik a kerekítő ügyfélhez. Az árajánlati ügyfelek egyike mindig a kerekítő vevőként van címkézve. Ez azt jelenti, hogy az árajánlat vevői rekordjának esetében a **Kerekítés** jelzője **Igen**. Általában ez az árajánlat elsődleges vevője, de ez módosítható.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

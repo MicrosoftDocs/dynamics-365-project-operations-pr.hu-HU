@@ -2,9 +2,11 @@
 title: Költségkezelési paraméterek
 description: A következő paraméterek szabályozzák a költség-menedzsment általános működését.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -14,15 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 41d78726f6d0aa6b5e647dbb359824950cb6ca72
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078136"
 ---
 # <a name="expense-management-parameters"></a>Költségkezelési paraméterek
 
+[!include [banner](../includes/banner.md)]
+
+-----------------------------
 
 Ez a paraméter szabályozza a költség-menedzsment általános működését.
 
@@ -87,6 +92,3 @@ Ez a paraméter szabályozza a költség-menedzsment általános működését.
 | <strong>Korrupcióellenes üzenet a beküldő számára</strong> |                                                                                             Írja be az új költségjelentés létrehozásakor az alkalmazottnak megjelenő szöveget. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, kattintson a <strong>Fordítások</strong> gombra.                                                                                             |
 | <strong>Korrupcióellenes üzenet a jóváhagyó számára</strong>  |                                                                                             Írja be az új költségjelentés létrehozásakor a jóváhagyónak megjelenő szöveget. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, kattintson a <strong>Fordítások</strong> gombra.                                                                                             |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Napidíjak
 description: Ez a témakör a költségkezelésben használt napidíjszabályokról nyújt tájékoztatást.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986404"
 ---
 # <a name="per-diems"></a>Napidíjak
 
@@ -31,3 +29,6 @@ A napidíj olyan juttatás, amelyet a munka céljából utazó munkavállalónak
     
 ## <a name="submit-expenses-using-per-diem"></a>Kiadások beküldése napidíj használatával
 A kiadások napidíjak használatával történő elküldéséhez használja a **Napidíj** költségkategóriát költségjelentés létrehozásakor. Adja meg a **Napidíj kezdő dátuma**, a **Napidíj záró dátuma** és a **Napidíjhely** értékét. Az összeget a kiválasztott hely napidíjmértékei alapján számítják ki, az étkezési csökkentés pedig a napidíjszintek alapján kerül kiszámításra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

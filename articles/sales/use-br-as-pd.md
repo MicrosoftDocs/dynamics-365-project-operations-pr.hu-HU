@@ -2,18 +2,16 @@
 title: Foglalható erőforrás használata árképzési dimenzióként
 description: Ez a témakör a foglalható erőforrások árazási dimenzióként való használatának módjáról tartalmaz tájékoztatást.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643086"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011194"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Foglalható erőforrás használata árképzési dimenzióként
 
@@ -78,3 +76,6 @@ Az **msydn_bookableresource** árazási dimenzió bejegyzését erről a külön
 5. Az **msdyn_bookableresourceid** hozzáadása a **Mező neve** elemhez.
 
  ![Új árdimenzió mezőnév űrlap](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

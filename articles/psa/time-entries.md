@@ -2,8 +2,6 @@
 title: Időbejegyzések készítése
 description: Ez a témakör információkat nyújt az időbejegyzések létrehozásáról.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149681"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990409"
 ---
 # <a name="create-time-entries"></a>Időbejegyzések készítése
 
@@ -70,3 +68,6 @@ Adatokat importálhat a projektfoglalásokból és a megbízásokból. Adatok im
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Csoportosítás, rendezés, keresés és szűrési lehetőségek
 
 Az időbejegyzéseket az oszlopokban megadott méretek szerint csoportosíthatja és szűrheti. A **Csoportosítás** mezőben válassza ki az időbejegyzések szűréséhez használandó dimenziót. Az időbeviteli rekordokat növekvő vagy csökkenő sorrendbe is rendezheti az oszlopfejléceken található rendezési nyíl segítségével. Ezenkívül a bejegyzéseket megjelenítheti vagy elrejtheti, ha kiválasztja a **Szűrés** gombot az oszlopfejlécekben, majd a **Keresés** mezőbe írja be azt a szöveget, amelyet az időbejegyzés keresésére használnak a projekt neve, a projekt feladata, az idő szerint bejegyzés vagy erőforrás.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

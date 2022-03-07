@@ -2,6 +2,8 @@
 title: Erőforrásképességek hozzáadása
 description: Készségek társítása erőforrásokkal a Project Service szolgáltatásban
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e7b37c77c7ba688dc33ed382ec7ef610a5dee2d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4da69f1b1b14f02fd0d40c7b73ef7abbe1049d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992753"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145856"
 ---
 # <a name="add-resource-skills-project-service"></a>Erőforrás-képességek hozzáadása (Project Service)
 
@@ -45,6 +47,3 @@ Az ügyfelek projektjei kétségtelenül számos különböző képzettséget k�
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforrások beállítása](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
