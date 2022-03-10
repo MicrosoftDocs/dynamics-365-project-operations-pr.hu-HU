@@ -2,8 +2,6 @@
 title: Termékalapú árajánlatsorok
 description: Ez a témakör információkat nyújt a termékalapú árajánlatsorokról.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123202"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008589"
 ---
 # <a name="product-based-quote-lines"></a>Termékalapú árajánlatsorok
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -58,7 +58,7 @@ Ha ezt a mezőt **Árképzés felülbírálása** értékre állítja, a Dynamic
 
 A PSA telepítése után az alapértelmezett eladási árak az árajánlat termékalapú soraiba kerülnek be. Az **Árképzés** mező ezután **Árképzés felülbírálása** értékre lesz állítva, hogy az alapértelmezett árat az árajánlatsorokon szerkeszthesse.
 
-> ![Árképzés felülbírálásának beállítása](media/basic-guide-10.png)
+> ![Árképzés felülbírálásának beállítása.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>A termékek mennyiségi tényezői
 
@@ -78,5 +78,8 @@ Például a Dynamics 365 a következő tulajdonságokkal rendelkezik:
 
 A **Felhasználók száma** és a **Hónapok száma** tulajdonságok megjelölhetők mennyiségi tényezőként a terméksor tulajdonságainak szerkesztésével. 
 
-> ![A felhasználók számának és a hónapok számának megjelölése minőségi tényezőként](media/basic-guide-11.png)
+> ![A felhasználók számának és a hónapok számának megjelölése minőségi tényezőként.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

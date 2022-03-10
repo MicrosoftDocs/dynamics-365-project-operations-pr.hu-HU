@@ -2,12 +2,10 @@
 title: Árazási dimenzió kikapcsolása
 description: Ez a témakör bemutatja, hogyan állíthatja be az árazási dimenziókat a Project Service megoldásban.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281841"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006789"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Árazási dimenzió kikapcsolása
 
@@ -34,18 +32,18 @@ Előfordulhat, hogy néhány évente felül kell vizsgálnia és frissítenie ke
 
 Ennek végrehajtásakor azonban a következő hibaüzenet jelenhet meg.
 
-![Üzleti folyamat hiba valószínűsíthető, amikor kikapcsolja az árképzési dimenziót](media/Business-Process-Error.png)
+![Üzleti folyamat hiba valószínűsíthető, amikor kikapcsolja az árképzési dimenziót.](media/Business-Process-Error.png)
 
 
 Ez a hibaüzenet azt jelzi, hogy vannak árrekordok, amelyeket korábban beállítottak a kikapcsolt dimenzióhoz. Az összes **Szerepár** és **Szerep felár** rekordot, amely egy dimenzióra utal, törölni kell, mielőtt a dimenzió alkalmazhatóságát **Nem** értékre lehet állítani. Ez a szabály vonatkozik mind a beépített árképzési dimenziókra, mind az esetlegesen létrehozott egyedi árképzési dimenziókra. Ennek az érvényesítésnek az az oka, hogy a Project Service korlátozza, hogy minden **Szerepár** rekordnak egyedi dimenziókombinációval kell rendelkeznie. Például az **US Cost Rates 2018** nevű árlistán a következő **Szerepár** sorok vannak. 
 
-| Normál cím         | Szerv. egység    |Egység   |Ár  |Pénznem  |
+| Normál cím         | Szerv. egység    |Kiszerelés   |Ár  |Pénznem  |
 | -----------------------|-------------|-------|-------|----------|
-| Rendszermérnök|Contoso USA|Hour| 100|USD|
-| Vezető rendszermérnök|Contoso USA|Hour| 150| USD|
+| Rendszermérnök|Contoso US|Óra| 100|USD|
+| Vezető rendszermérnök|Contoso US|Óra| 150| USD|
 
 
-Ha kikapcsolja a **Normál cím**-et árképzési dimenzióként, és a Project Service árazási motorja árat keres, akkor csak a **Szerv. egység** értéket a bemeneti környezetből fogja használni. Ha a bemeneti kontextus **szervezeti egysége** a „Contoso US”, az eredmény nem lesz determinisztikus, hiszen mindkét sor egyezik. E forgatókönyv elkerülése érdekében, amikor **Szerepár** rekordokat hoz létre, a Project Service ellenőrzi, hogy a dimenziók kombinációja egyedi-e. Ha a dimenziót a **Szerepár** rekordok létrehozása után kikapcsolják, ez a korlátozás megsérthető. Ezért szükséges, hogy mielőtt kikapcsolna egy dimenziót, törölje az összes **Szerepár** és **Szerep felár** sort, amelyekben a dimenzió értéke kitöltve van.
+Ha kikapcsolja a **Normál cím**-et árképzési dimenzióként, és a Project Service árazási motorja árat keres, akkor csak a **Szerv. egység** értéket a bemeneti környezetből fogja használni. Ha a bemeneti kontextus **Szervezeti egysége** a „Contoso US”, az eredmény nem lesz meghatározó, hiszen mindkét sor egyezik. E forgatókönyv elkerülése érdekében, amikor **Szerepár** rekordokat hoz létre, a Project Service ellenőrzi, hogy a dimenziók kombinációja egyedi-e. Ha a dimenziót a **Szerepár** rekordok létrehozása után kikapcsolják, ez a korlátozás megsérthető. Ezért szükséges, hogy mielőtt kikapcsolna egy dimenziót, törölje az összes **Szerepár** és **Szerep felár** sort, amelyekben a dimenzió értéke kitöltve van.
 
 
 

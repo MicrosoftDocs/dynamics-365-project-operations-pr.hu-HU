@@ -2,18 +2,16 @@
 title: Munkalebontási struktúra létrehozása
 description: Ez témakör ismerteti, hogyan lehet létrehozni az új ütemezési felületen a munkalebontási struktúrát (WBS) az alapvezérlők számára.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287016"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928618"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Munkalebontási struktúra (WBS) létrehozása
 
@@ -97,11 +95,11 @@ Rendszergazdaként egyéni mezőket definiálhat a feladatentitáson. A mezők a
 
 ## <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
-A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.
+A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.  Ha erőforrást keres a tevékenységrács, a táblanézet vagy a gantt erőforrás-szedővel, a keresés a meglévő projektcsapat tagjait vagy az aktív foglalható erőforrásokat adja vissza.
 
 A **Szerepkör**, az **Erőforrásbiztosító egység** és a **Pozíció neve** mezők a feladat személyzeti követelményeinek leírására szolgálnak. A személyzeti attribútumokat és a feladatütemezést a rendelkezésre álló erőforrások megkeresésére használják az adott feladat végrehajtásához.
 
-   - **Szerepkör**: Adja meg a feladat elvégzéséhez szükséges erőforrás típusát.
+   - **Szerepkör** : Adja meg a tevékenység elvégzéséhez szükséges erőforrás típusát.,
    - **Erőforrásbiztosító egység**: Adja meg azt az egységet, ahonnan megtörténik az erőforrások hozzárendelése a feladathoz. Ez az attribútum befolyásolja a feladat költség- és értékesítési becslését, ha az erőforrás költségét és számlamértékét erőforrásbiztosító egységek alapján állítják be.
    - **Pozíció neve**: Adjon meg egy nevet az általános erőforrás számára, hogy a név helyőrzőjeként szolgáljon azon erőforrás számára, amely végül elvégzi majd a munkát.
 
@@ -119,5 +117,27 @@ A feladat mód nincs hatással a korábbi/függő feladatok kezdő és befejező
 
 Az **Ütemezés** rács teljesen elérhető és képernyőolvasókkal, például a Narrátorral, JAWS vagy NVDA programokkal használható. A rácsterületen nyílbillentyűkkel mozoghat (a Microsoft Excel programhoz hasonlóan ), a Tab billentyű segítségével léphet tovább az interaktív felhasználói felület elemein, a lefelé mutató nyíl, az Enter vagy a szóköz segítségével választhat és lenyithatja a legördülő menüket.
 
+## <a name="project-limitations"></a>Projekkorlátozások 
+Ha a Project Operations alkalmazásban a munkalebontási struktúrát használja, ismernie kell a következő korlátozásokat. Ezek a határértékek projektekre és feladatokra vonatkoznak. További tudnivalókért lásd: [Project for the web korlátok és határok](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Mező**                                          |  **Korlát**           |
+|----------------------------------------------------|----------------------|
+| Projekt maximális összfeladata                  | 500                  |
+| Projekt maximális összidőtartama               | 3650 nap (10 év) |
+| Maximális teljes erőforrás egy projekthez              | 150                  |
+| A linkek maximális száma (csak utód) egy projekthez | 600                  |
+| Maximális teljes egyéni mezők egy projekthez          | 10                   |
+| Tevékenységenként maximális ellenőrzőlista-elemek                   | 20                   |
+
+**Feladatkorlátozások**
+
+| **Mező**                               |   **Korlát**           |
+|-----------------------------------------|-----------------------|
+| Maximális hierarchiaszint                 | 10 szint             |
+| Maximális hivatkozások (utód + előzmény) | 20                    |
+| A feladat maximális időtartama           | 1250 nap             |
+| Az összesítő feladat maximális időtartama      | 3650 nap (10 év)  |
+| Egy feladathoz rendelt maximális erőforrások    | 20 erőforrás          |
+| Támogatott dátumtartomány egy feladathoz         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

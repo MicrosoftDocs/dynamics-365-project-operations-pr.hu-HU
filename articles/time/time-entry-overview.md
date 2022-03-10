@@ -6,12 +6,13 @@ ms.date: 10/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3d6bee3bbcf96002c1951733bbacc94c6fc9d888
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011104"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999499"
 ---
 # <a name="time-overview"></a>Idő áttekintése
 

@@ -2,8 +2,6 @@
 title: Rendszergazdák kézikönyve
 description: Részletes leírás a Project Service adminisztrációhoz
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b51c484aff032a52a0f0b4986588d95cb58653b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6e591bd9b00bb39efaf4bb2893329a1c853573f03cb2d51a7564e3a8fc8efa56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285306"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005168"
 ---
 # <a name="administrator-guide-project-service"></a>Rendszergazdai útmutató (Project Service)
 

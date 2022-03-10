@@ -2,18 +2,16 @@
 title: Projektalapú szerződéssorok használata
 description: Ez a témakör információkat nyújt a projektalapú szerződéssorokról.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278106"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990049"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Projektalapú szerződéssorok használata
 

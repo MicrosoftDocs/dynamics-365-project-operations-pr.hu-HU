@@ -2,18 +2,16 @@
 title: Projektárajánlatok létrehozása lehetőségekből
 description: Ez a témakör a projektárajánlatok lehetőségekből történő létrehozását ismerteti.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118116"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999634"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projektárajánlatok létrehozása lehetőségekből
 
@@ -56,3 +54,6 @@ A meglévő árajánlatok a lehetőséghez csatolhatók. Hajtsa végre az alább
    Ha a lehetőséget ebbe a fázisba helyezi, akkor ezt az árajánlatot a lehetőséghez társított árajánlatok listájából választhatja ki. Az árajánlat kiválasztása azt jelzi, hogy továbbhalad vele.
 
    A lehetőséghez kapcsolódó összes egyéb árajánlat továbbra is elérhető lesz, és mindaddig aktív marad, amíg az egyiket el nem nyerik. Az értékesítési folyamatot visszahelyezheti az előző (**Minősítés**) fázisba, és másik ajánlatot választhat ki, amellyel továbbléphet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

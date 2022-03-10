@@ -2,8 +2,6 @@
 title: Újdonságok vagy változások a Project Service Automation 17.5-es gyorsjavításának V3 változatában
 description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 17.5-os frissítési kiadásában.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b3d58cb4a2f8fea1495d143dd985ad17a5cc4130
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: df589cf9edc51e33ff33f486ba238d4f542297436d4bdaa80bd8af59b65e7481
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949277"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006655"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Project Service Automation 17.5-ös frissítési kiadás, V3
 

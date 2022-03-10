@@ -2,8 +2,6 @@
 title: Erőforrás kihasználtság megtekintése
 description: Erőforrás-kihasználtság megtekintése a Project Service szolgáltatásban
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5cab86cd6ce797d912ae17178c34bdcb2c87d1e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ae03b5e800add32286fe2226878621fe7286ec00efa131aba32957a63c9783cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124911"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999904"
 ---
 # <a name="view-resource-utilization-project-service"></a>Erőforrás-kihasználtság megtekintése (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -41,3 +41,6 @@ Ellenőrizheti az erőforrás-kihasználtságot az erőforrás-kihasználás szi
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Erőforráskezelői útmutató](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

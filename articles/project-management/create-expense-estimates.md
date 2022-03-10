@@ -1,28 +1,22 @@
 ---
-title: Költség becslések
+title: Költségekre vonatkozó pénzügyi becslések projekteknél
 description: Ez a témakör a projektalapú kiadások definiálásával vagy becslésével kapcsolatban tartalmaz tájékoztatást.
-author: ruhercul
-manager: Annbe
-ms.date: 10/01/2020
+author: rumant
+ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287061"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987844"
 ---
-# <a name="expense-estimates"></a>Költség becslések
+# <a name="financial-estimates-for-expenses-on-projects"></a>Költségekre vonatkozó pénzügyi becslések projekteknél
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az erőforrás-alapú becslésekkel együtt a projektmenedzserek a Dynamics 365 Project Operations alkalmazásnak köszönhetően meghatároznak projektalapú költségeket mindegyik projekthez. Minden egyes költségtétel hozzárendelhető egy adott projektfeladathoz vagy költségkategóriához. A költségkategóriák általában szervezeti szinten vannak meghatározva. Az egyes kiadások kategóriáinak árazását általában a következő hierarchia határozza meg:
-
-- Cég
-- Ügyfél
-- Árajánlat/szerződés
+A Dynamics 365 Project Operations lehetővé teszi a projektmenedzserek számára, hogy minden projekthez vagy feladathoz projektalapú költségeket határozzanak meg. Minden költségelem társítható egy adott projektfeladathoz. A költségek különböző költségkategóriákba vannak kategorizálva, amelyek szervezeti szinten vannak definiálva. Az egyes költségkategóriák árképzése és költségszámítása az árlistában van meghatározva. 
 
 Hajtsa végre a következő lépéseket a projektkiadások megtekintéséhez, hozzáadásához és törléséhez.
 
@@ -30,14 +24,20 @@ Hajtsa végre a következő lépéseket a projektkiadások megtekintéséhez, ho
 2. Válassza ki a **Projektbecslések** lapot, és tekintse meg a projektek kiadásainak listáját.
 3. Kiadás hozzáadásához válassza az **Új kiadás** lehetőséget. Másik lehetőségként jelölje ki a törlendő kiadást, majd válassza a **Kiadás törlése** lehetőséget.
 
-Minden egyes költségsori tételhez a következő attribútumok vannak definiálva:
+Az alábbi tábla a projekt **Költségbecslési sor** mezőiről nyújt tájékoztatást. 
 
-- **Kategória**: A projekttel kapcsolatban felmerült összes kiadás leírására szolgáló közös csoportosítások.
-- **Kezdő dátum**: A kiadás várható felmerülésének dátuma.
-- **Mennyiség**: Egy adott kategóriához tartozó kiadási tételek becsült száma.
-- **Egység önköltségi ára**: A kiadás költségének kiszámításához használt egységár.
-- **Egység értékesítési ára**: A kiadás értékesítési árának kiszámításához használt egységár.
-
+| **Mező** | **Leírás** | **Alsóbb rétegbeli hatás** |
+| --- | --- | --- |
+| Feladatok | A feladatok listája a projektben. Ez magában foglalja az összegző és levélcsomópont-feladatokat. | A költségbecslési sor feladatának kiválasztása hatással lesz a feladat becsült önköltségére és becsült költségértékesítésére. Ha ez a mező üresen lett hagyva, akkor a költségbecslés csak projektszinten lesz nyomon követve és összegezve. |
+| Kategória | Azon tranzakciókategóriák listája, amelyek költségkategóriákat kapcsoltak az alkalmazásban. | A költségbecslési sorban a kategória kiválasztása hajtja az árképzést és a költségszámítást. |
+| Kezdési dátum | Az előre jelzett dátum, amelyen a költség jelentkezni fog. | Ennek a mezőnek nincs későbbi hatása. |
+| Egységcsoport | Ebben a mezőben az alapértelmezett érték abból az egységcsoportból származik, amely alapértelmezettként van beállítva a kiválasztott kategóriában. A mező frissítésével másik kiszereléscsoportot jelölhet ki. | Ennek a mezőnek nincs későbbi hatása. |
+| Kiszerelés | Ebben a mezőben az érték alapértelmezetten a kijelölt kategória alapértelmezett kiszerelésére áll át. A mező frissítésével másik kiszerelést jelölhet ki. | A kiszerelés módosítása eltérő alapértelmezett kiszerelésárat és -költséget eredményez. |
+| Mennyiség | Az Ön által benyújtandó becsült költség mennyisége. | Ennek a mezőnek nincs későbbi hatása. |
+| Egységköltség | A kiválasztott kategória és kiszereléskombináció költsége a vonatkozó önköltségiár-listában beállítottak szerinti | A kiszerelésköltség mindig a projekt költségpénzében jelenik meg. |
+| Egységár | A kiválasztott kategória és kiszereléskombináció ára a vonatkozó értékesítési árlistában beállítottak szerinti. | A kiszerelésár mindig a projekt értékesítési pénznemében jelenik meg. |
+| Teljes összeg | A mennyiségi \* kiszerelésköltségként kiszámított költségösszeg.| A költségösszeg mindig a projekt költségpénznemében jelenik meg. |
+| Értékesítés összesen | A mennyiségi \* kiszerelésár kiszámított értékesítési összeg. | Az értékesítési összeg mindig a projekt értékesítési pénznemében jelenik meg. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

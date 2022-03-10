@@ -2,27 +2,25 @@
 title: Project Service Automation áttekintése
 description: Ez a témakör a Dynamics 365 Project Service Automation és Dynamics 365 Finance közötti integrációs megoldásra vonatkozó információkat tartalmaz.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642456"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005889"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation áttekintése
 
@@ -58,7 +56,7 @@ A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálás
 > [!NOTE]
 > Jelenleg nem minden sablon érhető el. A sablonok megjelennek, amikor elkészültek.
 
-[![Project Service Automation és a Finance közötti integráció](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation és a Finance közötti integráció.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>A Finance rendszerkövetelményei
 
@@ -75,3 +73,6 @@ A Project Service Automation és a Finance közötti integrációs megoldás has
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Telepítse a Project Service Automation és Finance integrációs megoldását a Project Service Automation-példányba
 
 Töltse le a Project Service Automation és Finance közötti integrációs megoldást a [Microsoft letöltőközpontból](https://www.microsoft.com/download/details.aspx?id=57016), és kövesse a megoldásban szereplő útmutatást.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

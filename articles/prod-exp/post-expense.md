@@ -2,11 +2,9 @@
 title: Költségjelentés közzététele
 description: Ez a témakör ismerteti, hogyan lehet költségjelentést könyvelni a főkönyvbe.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e6df49bb6831b08611b05e02bbb1a5a2a80a34193497e3020ccddd5370cf37a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078238"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993019"
 ---
 # <a name="post-an-expense-report"></a>Költségjelentés közzététele
-
-[!include [banner](../includes/banner.md)]
 
 A költségjelentés jóváhagyása és a főkönyvi naplóba történő átadása után elküldhető a főkönyvbe. A költségjelentés elküldésekor a rendszer azonosítja az áfa visszaigénylésére jogosult kiadásokat. Az ÁFA-kifizetések ellenőrzésének és visszaigénylésének feladata a költségjelentés ellenőrzéséért felelős alkalmazotthoz van hozzárendelve.
 
@@ -34,3 +30,6 @@ Ha egy költségjelentés költségeit az alkalmazottat foglalkoztató vállalat
 A költségjelentés elküldéséhez a **Jóváhagyott költségjelentések** oldalon válassza ki a költségjelentést, majd a Művelet panelen válassza a **Küldés** lehetőséget.
 
 Az összes költségjelentés egyszerre is elküldhető a listából. Jelölje ki az összes költségjelentést, majd válassza a **Küldés** lehetőséget.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

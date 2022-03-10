@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: a44d32358a9e88824efc5452b2b5493ac8b97c7f
-ms.sourcegitcommit: 18f99fbceccadd4b3e75875e1c5bcdd3e59ce206
-ms.translationtype: HT
+ms.openlocfilehash: 030c6abca169b712312ad70ed2ac8262f3d0777bcf93dcccfd956f2f9e0ea77c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6083674"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993064"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>A futásteljesítmény beállítása futásteljesítmény-szintek használatával
 

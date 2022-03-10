@@ -2,19 +2,17 @@
 title: Tények csatolása az eredeti rekordokhoz
 description: Ez témakör ismerteti, hogyan kapcsolhatja össze a tényleges adatokat az eredeti rekordokkal, például az időbejegyzési, költségbejegyzési vagy anyaghasználati naplókkal.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991759"
 ---
 # <a name="link-actuals-to-original-records"></a>Tények csatolása az eredeti rekordokhoz
 
@@ -79,7 +77,7 @@ A **tranzakció eredete** és a **tranzakciós kapcsolat** együttesen segítene
 
 A következő példa az időbejegyzések tipikus feldolgozását mutatja be a Project Operations projekt életciklusában.
 
-> ![Feldolgozási idő entitások a Project Service életciklusban](media/basic-guide-17.png)
+> ![Feldolgozási idő entitások a Project Service életciklusban.](media/basic-guide-17.png)
  
 1. Az időbejegyzések beküldése két naplósor létrehozását eredményezi: egyet a költségről, és egyet pedig a nem számlázott értékesítésekről.
 2. Az időbejegyzés végleges jóváhagyása két tényadat létrehozását eredményezi: egy tényadatot a költségről, egy tényadatot pedig a nem számlázott értékesítésekről.

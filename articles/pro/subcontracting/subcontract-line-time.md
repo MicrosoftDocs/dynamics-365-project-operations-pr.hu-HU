@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323869"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547247"
 ---
 # <a name="subcontract-lines-for-time"></a>Alvállalkozói szerződés sorai időre
 
@@ -30,23 +30,22 @@ Ha a Project Operations rendszerben szeretne létrehozni egy alvállalkozói sze
 
   A következő táblázat az **Alvállalkozói szerződés sor** lap és a **Gyors létrehozás** lap mezőivel kapcsolatos információkat tartalmazza.
 
-| **Mező** | **Leírás** |
-| --- | --- |
-| Adatfolyam neve | Az alvállalkozói szerződés sorának neve. |
-| Ismertetés | Az alvállalkozói szerződéssoron vásárolt szolgáltatások rövid leírása. | 
-| Sor típusa | Ez a mező alapértelmezett érték.  |
-| Számlázási mód | Válassza ki a számlázási módot. A hivatkozott alvállalkozói szerződéssor számlázási módszere alapján a fix áras számlázási módszerhez mérföldkő alapú számlázási ütemterv áll rendelkezésre. |
-| Tranzakcióosztály | Ez a mező egy alapértelmezett érték, amely azt jelzi, hogy az alvállalkozói szerződéssort az alvállalkozói idő beszerzésének rögzítésére használják. |
-| Beosztás | Azon alvállalkozói erőforrások szerepe, akiknek az idejét megvásárolják. Az alvállalkozói erőforrásokhoz rendelt szerepkör határozza meg a beszerzés költségét. |
-| Kért kezdés | Az az időpont, amikor az alvállalkozói erőforrásoknak meg kell kezdeniük a munkát. A kért kezdés az alvállalkozói szerződéshez csatolt projektárlisták közül a projektárlista kiválasztására szolgál. A szerep költsége az alvállalkozói szerződés soron ezután az adott árlistából adódik. |
-| Kért befejezés | Az alvállalkozói erőforrások megbízásának lejárati dátuma. Ez a dátum arra szolgál, hogy figyelmeztetéseket jelenítsen meg, amikor a projektmenedzser az ezen időpont után felmerülő erőforrásigényekre vonatkozóan ebből a kapacitásból merít. |
-| Megrendelt mennyiség | A szállítótól vásárolt Szerepkör órák száma. Ez az érték figyelmeztetések megjelenítésére szolgál, amikor a projektmenedzser túlterheli ezt a kapacitást az erőforrásigényeire. |
-| Egységcsoport | Ennek a mezőnek az értéke alapértelmezés szerint az Időegység csoportot jelenti, és nem módosítható.  |
-| Kiszerelés | Ez a mező alapértelmezés szerint az Időegység csoportból az órák alapegységét tartalmazza. Ezt az értéket úgy módosíthatja, hogy az Időegység csoport bármelyik egységét, például napot vagy hetet vásárolhassa meg. A Szerep és az Egység kombinációja az alvállalkozói szerződéssor egységárának kiszámítására szolgál. |
-| Egységár | Az egységár alapértelmezés szerint a projektárlistában szereplő, az alvállalkozói szerződéssor kért kezdőnapjára vonatkozó Szerep és Egység kombinációjából adódik. Ha az alkalmazandó projektárlista az árat az alvállalkozói szerződés sorában szereplő egységtől eltérő egységben határozza meg, a rendszer az egységár kiszámításához az egységre történő átváltást használja. |
-| Részösszeg | Ez egy csak olvasható mező, amely automatikusan a **Mennyiség x Egységár** számítással kerül kiszámításra, ha mind a mennyiség, mind az egységár értékét megadják. Ha a mennyiség, az egységár vagy mindkettő üres, akkor a mezőbe beírhat egy értéket. |
-| Forgalmi adó |  Adja meg az áfa összegét. |
-| Teljes összeg | Az alvállalkozói szerződés sorának teljes összege az adók figyelembevétele után. |
-
+| **Mező** | **Leírás** | **Funkcionális hatás** |
+| --- | --- | --- |
+| Adatfolyam neve | Az alvállalkozói szerződéssor neve, amely segítséget nyújt az azonosításában. | Ez lesz megjelenítve első oszlopként minden olyan keresésben, amelyek az alvállalkozói sorokon alapulnak. |
+| Ismertetés | Az alvállalkozói szerződéssoron vásárolt szolgáltatások rövid leírása. |Egyik sem |
+| Sor típusa |   Ennek a mezőnek az alapértelmezett értéke **Mennyiségalapú**.| Egyik sem |
+| Számlázási mód | Ez egy olyan értékkészlet, amely a Project Operations által támogatott két fő szerződési modelljét jelképezi: **Rögzített ár** és **Idő és anyag**. | A kiválasztott számlázási módtól függően a rögzített árú számlázási mód kiválasztása esetén a mérföldkőkalapú számlaütemezés elérhetővé válik az alvállalkozói szerződéssorok számára. |
+| Tranzakcióosztály | Alapértelmezett értéke **Idő**. | Ez azt jelzi, hogy az alvállalkozói szerződéssor az alvállalkozói idő vásárlásának rögzítésére használatos. |
+| Beosztás | Jelölje ki annak az alvállalkozói erőforrásnak a szerepkörét, amelynek az idejét vásárolják. | Az alvállalkozói erőforrások által betöltött szerepkör határozza meg a vásárlás költségét. |
+| Kért kezdés | Adja meg azt a dátumot, amikor az alvállalkozó erőforrásokra szükség van a munka elkezdéséhez. | Ez egy projektárlista kiválasztására használható az alvállalkozói szerződéshez csatolt projektárlistákból. Az alvállalkozói szerződéssor szerepkörköltsége az adott árlistából származik. |
+| Kért befejezése | Adja meg az alvállalkozó erőforrás hozzárendelésének végét. | Ez figyelmeztetés megjelenítéséhez lesz használható, ha a projektvezető ki használ a kapacitásból az ezt a dátumot követő erőforráskövetelményekhez. |
+| Megrendelt mennyiség | Adja meg, hogy hány órát vásárol ebből a szerepkörből a szállítótól. | Ez figyelmeztetések megjelenítéséhez lesz használható, ha a projektvezető felülhasználja ezt a kapacitást az erőforráskövetelményekhez. |
+| Egységcsoport | Az alapértelmezett érték az **Időegység csoport**, amely nem módosítható. | Egyik sem|
+| Kiszerelés | A mező alapértelmezett beállítása az **Időegység csoport** alapegysége, az óra. Ezt az értéket úgy módosíthatja, hogy az **Időegység csoport** bármelyik egységét, például napot vagy hetet vásárolhassa meg. | A rendszer a **Szerepkör** és az **Egység** kombinációját használja az alvállalkozói szerződéssor egységárának alapértelmezett vagy számított értékként. |
+| Egységár | Az alapértelmezett egységár a **Szerepkör** és **Egység** kombinációját használja a projektárlistából, ami az alvállakozói szerződéssor **Kért kezdés** dátumára vonatkozik. | Ha az alkalmazandó projektárlista az árat az alvállalkozói szerződés sorában szereplő egységtől eltérő egységben határozza meg, a rendszer az egységár kiszámításához az egységre történő átváltást használja. |
+| Részösszeg |    Ez egy csak olvasható mező, amely a Mennyiség és Egységár szorzataként van számítva, ha a mennyiség és az egységár is meg van adva. Ha a mennyiség, az egységár vagy mindkettő üres, akkor a mezőbe beírhat egy értéket. | Egyik sem|
+| Forgalmi adó |   Adja meg az áfa összegét. |Egyik sem |
+| Teljes összeg | Az alvállalkozói szerződés sorának teljes összege az adókkal együtt. Ez a mező a Részösszeg + Forgalmi adó összegeként kerül kiszámításra.|Egyik sem |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

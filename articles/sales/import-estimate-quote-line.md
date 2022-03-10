@@ -1,21 +1,19 @@
 ---
-title: Projekt becsléseinek importálása egy projektalapú árajánlatsorba
-description: Ez a témakör azt ismerteti, hogyan lehet becsléseket importálni egy projektből egy árajánlatsorba.
+title: Projektbecslések importálása egy projekt árajánlatsorhoz
+description: Ez témakör a projektből történő becslések importálása egy projekt árajánlatsorába műveletről nyújt tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993514"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekt becsléseinek importálása egy projektalapú árajánlatsorba
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Projektbecslések importálása egy projekt árajánlatsorhoz
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
@@ -67,3 +65,6 @@ Amikor a felhasználó a tranzakciós osztály, kategória és levélcsomópont-
 | A feladat | Légi szállítás | 2020.01.10. | 4 | 400 | 1600 |
 | B feladat | Szálloda | 2020.01.10. | 4 | 200 | 800 |
 | C feladat | Szálloda | 2020.01.11. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

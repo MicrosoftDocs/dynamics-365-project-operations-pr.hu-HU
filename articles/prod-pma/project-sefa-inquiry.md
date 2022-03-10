@@ -2,11 +2,9 @@
 title: A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
 description: Ez a témakör a szövetségi díjak kiadásával kapcsolatos lekérdezés ütemezésére vonatkozó információkat tartalmaz.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288967"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007239"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
 

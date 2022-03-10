@@ -2,18 +2,16 @@
 title: Projektalapú lehetőségek kezelése
 description: Ez a témakör a projektekhez kapcsolódó lehetőségekkel való munkára vonatkozó információkat tartalmaz.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
-ms.translationtype: HT
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991894"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektalapú lehetőségek kezelése
 
@@ -21,7 +19,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A projektalapú vállalatok általában a több országra és földrajzi helyekre kiterjedő teljesítéssel működnek. A projekt végrehajtásának és a teljesítésnek a költsége attól függően változhat, hogy mely földrajzi terület vagy divízió kezeli a szállítást. Ez viszont hatással lehet az üzlet árrésére. A projektalapú szolgáltatások teljesítése jellemzően nagy mennyiségű humánerőforrás-időt, jelentős utazási költségeket, az anyagi költségeket és egyéb költségeket foglalja magában.
 
-A Dynamics 365 Project Operations programban a projektalapú lehetőségek a Dynamics 365 Sales programhoz tartozó bővítményekkel rendelkeznek. A témakör részletesen ismerteti a különböző mezőket és az üzleti logikát, amely a további funkciókban szerepel, amely a projektalapú vállalatok számára szükséges a projektalapú lehetőségek kezeléséhez.
+Projektalapú lehetőségek a Dynamics 365 Project Operations rendszerben Dynamics 365 Sales-bővítményekkel vannak kialakítva. A témakör részletesen ismerteti a különböző mezőket és az üzleti logikát, amely a további funkciókban szerepel, amely a projektalapú vállalatok számára szükséges a projektalapú lehetőségek kezeléséhez.
 
 ## <a name="view-all-project-based-opportunities"></a>Összes projektalapú lehetőség megtekintése
 
@@ -64,4 +62,7 @@ A lehetőség értékesítési folyamata a Project Operations rendszerben a Sale
 >
 > Ha a projektalapú üzlet egy lehetőséggel kezdődött, akkor a Lehetőség értékesítési folyamatot kell használni.
 
-A termék üzleti folyamata szerkeszthető, vagy saját üzleti folyamatokat hozhat létre az értékesítési folyamat igény szerinti nyomon követéséhez. További információt az üzleti folyamatról itt talál: [Üzleti folyamatok áttekintése](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+A termék üzleti folyamata szerkeszthető, vagy saját üzleti folyamatokat hozhat létre az értékesítési folyamat igény szerinti nyomon követéséhez. További információt az üzleti folyamatról itt talál: [Üzleti folyamatok áttekintése](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

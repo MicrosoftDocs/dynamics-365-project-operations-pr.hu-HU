@@ -2,8 +2,6 @@
 title: Időbeviteli naptár
 description: Ez a témakör az időbeviteli naptár használatáról nyújt információkat.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0188258a7d3c0e1644ae6db051995e6e02bcbf58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282111"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996754"
 ---
 # <a name="time-entry-calendar"></a>Időbeviteli naptár
 

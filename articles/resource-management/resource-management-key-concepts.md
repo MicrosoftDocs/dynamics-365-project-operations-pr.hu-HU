@@ -2,24 +2,22 @@
 title: Erőforrás-kezelési alapfogalmak
 description: Ez a témakör a Microsoft Dynamics Project Operations erőforrás-kezelés képességével kapcsolatos információkat tartalmaz.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 124d9bad5cc0c16955417a8213db047a2d8bae1d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994819"
 ---
 # <a name="resource-management-key-concepts"></a>Erőforrás-kezelési alapfogalmak
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az a képesség, hogy megfelelő időben megtalálja a megfelelő erőforrásokat, lefoglalja ezeket az erőforrásokat a projektekre és felhasználhatóvá tegye őket, elősegíti a szervezet számára a bevételi célok és az ügyfelek elégedettségének elérését. A projekt-erőforrás-szolgáltatási funkciót a Dynamics 365 Project Operations szolgáltatásban a következő feladatok végrehajtásához használhatja:
+Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az a képesség, hogy megfelelő időben megtalálja a megfelelő erőforrásokat, lefoglalja ezeket az erőforrásokat a projektekre és felhasználhatóvá tegye őket, elősegíti a szervezet számára a bevételi célok és az ügyfelek elégedettségének elérését. A projekt-erőforrás-szolgáltatási funkciót a Dynamics 365 Project Operations a következő feladatokhoz használhatja:
 
 - A projektcsoportokat formálhatja a rendelkezésre álló és képzett erőforrások lefoglalásával.
 - Készítsen általános csapattag-nyilvántartásokat, és határozza meg szerepüket és az erőforrás-szervezeti egységet.
@@ -35,3 +33,6 @@ Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az 
 
 
 A Project Operationsben általános vagy megnevezett erőforrásokkal láthatja el munkaerővel a projektet. Különböző módszerekkel felveheti és kijelölheti a csapattagokat, valamint kezelheti a foglalásaikat és feladataikat. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

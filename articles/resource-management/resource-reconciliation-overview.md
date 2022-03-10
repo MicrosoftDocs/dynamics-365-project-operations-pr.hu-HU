@@ -2,27 +2,25 @@
 title: Erőforrás-egyeztetés áttekintése
 description: Ez témakör olyan információkat nyújt, amelyekkel biztosítható az erőforrásfoglalások és a projektek hozzárendeléseinek igazítása.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849627"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994774"
 ---
 # <a name="resource-reconciliation-overview"></a>Erőforrás-egyeztetés áttekintése
 
@@ -48,3 +46,6 @@ Ha az erőforráshoz feladatok vannak hozzárendelve, de nincs foglalása, akkor
 A **Foglalás kiterjesztése** művelettel létrehozott foglalások az elsődleges projektkövetelményhez kapcsolódnak. A bővítmény kezdeményezésekor nem lehet meghatározni a kiterjesztendő konkrét követelményt, mivel az erőforrás a projekt több követelményéhez is hozzá lehet társítva.
 
 A projektmenedzser vagy az erőforrás-kezelő ezután felhasználhatja az Ütemezési táblát olyan helyzetek kezelésére, amikor egy erőforrás túlfoglalása meghaladja a kapacitást.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projekt ütemezése
 description: Ez a témakör információt nyújt az ütemezés létrehozásáról.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123241"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998419"
 ---
 # <a name="project-schedules"></a>Projekt ütemezése 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -94,7 +94,7 @@ Az **Ütemezés** rács teljesen elérhető és képernyőolvasókkal, például
 
 A feladat neve leírja az elvégzendő munkát. A PSA-ban a feladattal kapcsolatos attribútumok leírják a feladat ütemezését és a személyzeti követelményeket.
 
-> ![Feladat attribútumok](media/project-2.png)
+> ![Feladat attribútumok.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Attribútumok ütemezése
 
@@ -147,3 +147,6 @@ Alapértelmezés szerint, ha a levélcsomópont-feladatnak nincsenek elődei, ak
 ### <a name="manual-scheduling"></a>Kézi ütemezés
 
 Ha az automatikus ütemezés szabályai nem felelnek meg az Ön igényeinek, beállíthatja a feladatmódot **Kézi ütemezés** értékre. Ez a beállítás megakadályozza, hogy az ütemezőmotor kiszámolja a többi ütemezési attribútum értékét. A feladatmódtól függetlenül, ha elődöket állít be a feladatokra, akkor mindig befolyásolni fogja a függő feladat kezdő dátumát.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

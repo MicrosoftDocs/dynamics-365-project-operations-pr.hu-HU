@@ -2,12 +2,10 @@
 title: Egyéni mezők beállítása árazási dimenziókként
 description: Ez a témakör az egyedi árazási dimenziók beállításáról nyújt információkat.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002334"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Egyéni mezők beállítása árazási dimenziókként 
 
@@ -43,11 +41,11 @@ Ahhoz, hogy egy mező árképzési dimenzióvá váljon, a következőknek kell 
 - Mezőként lett létrehozva a **Szerepkörát** és **Szerepkör felár** entitásokban. További információkért lásd: [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md).
 - Sorként jön létre az **Árazási dimenzió** táblázatban. Például adjon hozzá árképzési dimenziós sorokat a következő ábra szerint. 
 
-![Összeg alapú árképzési dimenziós sorok](media/Amt-based-PD.png)
+![Összeg alapú árképzési dimenziós sorok.](media/Amt-based-PD.png)
 
 Vegye figyelembe, hogy az erőforrás-munkaidőt (**msdyn_resourceworkhours**) feláralapú dimenzióként adták hozzá, és a **Feláron alapuló árképzési dimenzió** lapon a rácshoz adták.
 
-![Feláralapú árképzési dimenziós sorok](media/Markup-based-PD.png)
+![Feláralapú árképzési dimenziós sorok.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > A táblázat árazási dimenziós adatainak bármilyen megváltozása, létező vagy új, csak a gyorsítótár frissítése után kerül továbbításra a Project Service árazási üzleti logikájába. A gyorsítótár frissítési ideje akár 10 percet is igénybe vehet. Várja meg, amíg az ár alapértelmezett logikájában bekövetkező változások megjelennek, amelyeknek az árképzési dimenzió adatainak megváltozásából kell következniük.
@@ -75,7 +73,7 @@ Az árképzési dimenzióknak két típusa létezik:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Telephely            |                    |Túlóra                 |15     |
 |             | Contoso India|Helyi             |                    |Túlóra                 |10     |
-|             | Contoso USA   |Helyi             |                    |Túlóra                 |20     |
+|             | Contoso US   |Helyi             |                    |Túlóra                 |20     |
 
 
 Ha a Contoso India erőforrása, amelynek alapára 100 USD, működik a helyszínen, és napi 8 órát szokásos időt és 2 órát túlórát jelent az időbeíráskor, a Project Service árazási motor 8 órán keresztül 100-as alapárat fog használni rögzíteni 800 USD. A 2 órás túlórára 15%-os felárat kell alkalmazni a 100-as alapárra, hogy 115 USD egységárhoz jussanak, és a teljes költség 230 USD lesz.
@@ -94,3 +92,6 @@ A dimenzió prioritásának meghatározása segít a Project Service árazásáb
 
 - **Költségprioritás**: A dimenzió költség prioritásának értéke jelzi annak dimenzióját, amikor összeegyeztetik a költségárakkal. A **Költségprioritás** értékének egyedinek kell lennie, a **Költségre alkalmazható** dimenziókban.
 - **Értékesítési prioritás**: A dimenzió eladási prioritása értéke jelzi ennek a dimenziónak a súlyát, amikor egyeztetik az eladási árak vagy a számlázási tarifák beállításával. Az **Értékesítési prioritás** értékének egyedinek kell lennie, az **Értékesítésre alkalmazható** dimenziókban.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

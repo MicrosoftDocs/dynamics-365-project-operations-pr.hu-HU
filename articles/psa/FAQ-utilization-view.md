@@ -2,8 +2,6 @@
 title: Az erőforrások számlázható kihasználtságának megtekintése
 description: Ez a témakör információkat nyújt az erőforrás-kihasználtsági nézetről.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078114"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007149"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Az erőforrások számlázható kihasználtságának megtekintése
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 A **Project Service Erőforrás-kihasználtság** oldal **Kihasználtsági nézete** az egyes foglalható erőforrások számlázható kihasználtságát jeleníti meg. Mivel a nézet az ütemezési táblán alapul, így számos funkció azonos.
 
-> ![Képernyőkép: Erőforrás-kihasználtság nézet](media/FAQ-utilization-1.png)
+> ![Képernyőkép: Erőforrás-kihasználtság nézet.](media/FAQ-utilization-1.png)
  
 
 A számlázható kihasználtság számítása a következőképpen történik:
@@ -48,7 +48,7 @@ A cél kihasználtság az erőforrás alapértelmezett szerepkörén vagy az egy
 2. Válasszon egy erőforrást a rekord megnyitásához. 
 3. A **Project Service** lapon beállíthatja az erőforrás cél kihasználtságát.
 
-> ![A Project Service lapjának használata a cél kihasználtság megadásához – képernyőkép](media/FAQ-utilization-2.png)
+> ![A Project Service lapjának használata a cél kihasználtság megadásához – képernyőkép.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Állítsa be a cél kihasználtságot egy szerepkörön
 
@@ -56,7 +56,7 @@ A cél kihasználtság az erőforrás alapértelmezett szerepkörén vagy az egy
 2. Válasszon ki egy szerepkört, és nyissa meg a rekordot. 
 3. A cél kihasználtság beállítása a szerepkörhöz.
 
-> ![Az Erőforrás-szerepkörök használata a cél kihasználtság megadásához – képernyőkép](media/FAQ-utilization-3.png)
+> ![Az Erőforrás-szerepkörök használata a cél kihasználtság megadásához – képernyőkép.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Számítsa ki az erőforrás számlázható kihasználtságát.
 
@@ -99,3 +99,6 @@ Ha nem látható számlázható kihasználtság, az alábbi néhány dolgot elle
   - A projekt mögöttes projekt szerződéssorán levő szerepkör nem számlázhatóra van beállítva.
   - A projektnek nincs hozzárendelt szerződéssora.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

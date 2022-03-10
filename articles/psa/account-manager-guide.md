@@ -2,8 +2,6 @@
 title: Partnerkezelői útmutató
 description: A Project Service szolgáltatáshoz készült partnerkezelői útmutató végigvezeti a projektalapú partnerekre vonatkozó, értékesítéssel és szerződésekkel kapcsolatos folyamatokon.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 43f83ba5aa99d4a2c8d7939cb05a3f75db617d61
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129816"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985819"
 ---
 # <a name="account-manager-guide-project-service"></a>Partnerkezelői útmutató (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,3 +46,6 @@ A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] k�
  [Projektmenedzseri útmutató](../psa/project-manager-guide.md)   
  [Erőforrás-kezelői útmutató](../psa/resource-manager-guide.md)   
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

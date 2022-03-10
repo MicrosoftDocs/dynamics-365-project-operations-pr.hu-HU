@@ -2,28 +2,26 @@
 title: Projektmenedzsment és könyvelés – áttekintés
 description: A projektmenedzsment és könyvelési funkciók több iparágban is használhatók szolgáltatás nyújtására, termék előállítására vagy eredmény elérésére.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007509"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektmenedzsment és könyvelés – áttekintés
 
@@ -36,14 +34,14 @@ Projektnek olyan tevékenységcsoportokat nevezünk, amelyeket szolgáltatások 
 ## <a name="projects-across-industries"></a>Projektek a különböző iparágakban
 A projektmenedzsment és könyvelési funkciók több iparágban is használhatók (lásd az alábbi illusztrációt).
 
-[![Projektek a különböző iparágakban](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projektek a különböző iparágakban.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 A telefonközpontban a beérkező hívások sikeres megoldások szükséges műveletek körének leírására jegyek használhatók. A tanácsadó cégek – például a vezetési vagy műszaki tanácsadó szervezetek vagy reklámügynökségek – projektekként hivatkoznak a tevékenységeikre. A marketingszakmában az elvégzendő munkákat „kampányoknak” nevezik. A projektalapú gyártásban a késztermékek előállításához szükséges különféle munkákat a gyártási rendelés írja le. Bárhogyan is nevezik őket, ezek a projektek erőforrásokat, ütemezéseket és költségeket foglalnak magukban, a projektmenedzsment és a könyvelési funkciók pedig segítséget nyújtanak a projektek tervezésében, végrehajtásában és elemzésében.
 
 ## <a name="project-phases"></a>A projektek szakaszai
 A következő folyamat főként a külső projektekre, azaz egy vagy több ügyfél számára teljesített projektekre vonatkozik, a funkciók a belső, csak költségekkel járó projektek esetében is érvényes. 
 
-![A projektek 3 szakasza](./media/3-stages-of-a-project.png) 
+![A projektek 3 szakasza.](./media/3-stages-of-a-project.png) 
 
 Ahogy a fenti illusztráción is látható, a projektmenedzsment és a könyvelés három szakaszra osztható fel:
 
@@ -52,7 +50,7 @@ Ahogy a fenti illusztráción is látható, a projektmenedzsment és a könyvel�
 3.  Elemzés
 
 ## <a name="initiate-the-project"></a>A projekt elindítása
-A projekt elindítása során több kulcsfontosságú folyamatra kerül sor. A projekthez készült árajánlattal tájékoztathatja az ügyfelet a becsült munkamennyiségről, költségekről és anyagokról. A számlázási feltételeket, a korlátozásokat és a megállapodásokat a projektszerződésben rögzítheti. A munkalebontási struktúra (WBS) segítségével megtervezheti és felbecsülheti az elvégzendő munkát. A projekt végrehajtásának irányításához előrejelzéseket és költségvetéseket is létrehozhat. Az alábbi illusztráció bemutatja a projektek szerkezetét.[![a projekt szerkezete](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+A projekt elindítása során több kulcsfontosságú folyamatra kerül sor. A projekthez készült árajánlattal tájékoztathatja az ügyfelet a becsült munkamennyiségről, költségekről és anyagokról. A számlázási feltételeket, a korlátozásokat és a megállapodásokat a projektszerződésben rögzítheti. A munkalebontási struktúra (WBS) segítségével megtervezheti és felbecsülheti az elvégzendő munkát. A projekt végrehajtásának irányításához előrejelzéseket és költségvetéseket is létrehozhat. Az alábbi illusztráció bemutatja a projektek szerkezetét.[![a projekt szerkezete.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Árajánlat létrehozása a projekthez
 
@@ -227,7 +225,7 @@ A projekttípus határozza meg, hogy melyik számlázási eljárást kell alkalm
 Mielőtt létrehozná a projekthez kapcsolódó ügyfélszámlát, létrehozhat egy előzetes számlát vagy egy számlajavaslatot. A számlajavaslat segítségével kijelölheti a projektszámlára felvenni kívánt projekttranzakciókat. Mielőtt feladja a projektszámlát és elküldi az ügyfélnek vagy más finanszírozási forrásnak, áttekintheti a számlaadatokat. 
 
 
-A projektszámlák feldolgozásával kapcsolatos további információkért lásd a [Projektszámlázás](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing) című részt.
+A projektszámlák feldolgozásával kapcsolatos további információkért lásd a [Projektszámlázás](/dynamics365/finance/accounts-payable/project-invoicing) című részt.
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>A költségek kiszámítása a projekt lezárásához

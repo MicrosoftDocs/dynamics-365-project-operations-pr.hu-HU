@@ -2,11 +2,9 @@
 title: Költségházirendek beállítása
 description: Meghatározhatók olyan költségszabályzatok, amelyeket a dolgozóknak be kell tartaniuk a költségjelentések és az utazási igénylések megadásakor és elküldésekor a Microsoft Dynamics 365 Finance szolgáltatásban.
 author: suvaidya
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650097"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005934"
 ---
 # <a name="set-up-expense-policies"></a>Költségházirendek beállítása
-
-[!include [banner](../includes/banner.md)]
 
 Meghatározhatók olyan szabályzatok, amelyeket a dolgozóknak be kell tartaniuk a költségjelentések és az utazási igénylések megadásakor és elküldésekor.         
 A költségszabályzatokkal hatékonyan kezelheti a költségeket.         
@@ -53,3 +49,6 @@ Az alábbiakban néhány olyan javaslatot talál, amely segíthet a költségkez
 ## <a name="when-to-evaluate-policies"></a>Mikor kell értékelni a szabályzatokat?
 
 A költségkezelési paraméterek között kiválaszthatja, hogy a program csak egy sor mentésekor vagy a költségjelentés elküldésekor értékelje ki a költségkezelési szabályzatokat. Ha a sorok mentésekor történő kiértékelést választja, akkor ez biztosítja, hogy a felhasználók korábban minden olyan részletet láthatnak, amit tenniük kell a költségjelentés végrehajtásához. Ellenkező esetben késleltetheti a szabályzat kiértékelését, és időt takaríthat meg, ha a befejezést követően, a beküldéskor kerül sor a munkafolyamat ellenőrzésére.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

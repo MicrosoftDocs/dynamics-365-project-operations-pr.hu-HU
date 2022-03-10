@@ -2,18 +2,16 @@
 title: Bevételi becslések kezelése
 description: Ez a témakör információt nyújt a bevételi becslések használatához a projektekhez.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b63346f56db8b906e5aa45940465bdb18e3df480
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279006"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996529"
 ---
 # <a name="manage-revenue-estimates"></a>Bevételi becslések kezelése
 

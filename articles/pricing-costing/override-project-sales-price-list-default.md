@@ -2,18 +2,17 @@
 title: Projekt értékesítési árlistáinak felülbírálása
 description: Ez a témakör az egyéni értékesítési árlisták létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130851"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009579"
 ---
 # <a name="override-project-sales-price-lists"></a>Projekt értékesítési árlistáinak felülbírálása
 
@@ -27,7 +26,7 @@ Ha egy ügyfélhez tartozó projektárlistát szeretne létrehozni, akkor nyissa
 
 1. Nyissa meg a **Partnerek** listaoldalt.
 2. Keresse meg és kattintson duplán egy ügyfélrekordra a **partner** részletező lap megnyitásához.
-3. A **projektárlisták** lapon válassza a **+ új projektárlista^^ lehetőséget.
+3. A **Projektárlisták** lapon válassza a **+ új projektárlista** lehetőséget.
 4. Az **új projektárlista** lapon válasszon ki egy árlistát a legördülő listából. Csak azok az árlisták szerepelnek a rendszerben, amelyek esetében a környezet értéke **értékesítés**, és amelynek pénzneme megegyezik a partner pénznemével.
 5. Nevezze el a társítást, majd válassza a **Mentés** lehetőséget. Az ügyfélre jellemző projektárlista létrejön. Ezt az árlistát fogja használni a rendszer az ügyfélhez létrehozott projektárajánlatok vagy szerződések alapértelmezett projektáraihoz, ahol az árajánlat vagy a projektszerződés létrehozott dátuma az árlista érvényességi időszakába esik.
 
@@ -51,3 +50,6 @@ Használhatja ezeket az árlistákat, és frissítheti a munka (szerepkörár) �
 A Projektszerződésekben a projektek árazása mindig alapértelmezés szerint egyéni árlistaként szerepel a szerződés nevével és a létrehozott dátum- és időbélyegzővel, amelyet a rendszer a névhez fűzött. Ez akkor is igaz, ha a szerződés az árajánlat megnyerése után jött létre, vagy ha a szerződés a semmiből jött létre. Ha szükséges, eltávolíthatja ezt a társítást az egyéni árlistához, és ehelyett társíthat egy normál árlistát a projektszerződéshez.
 
 Ha normál árlistát rendel az árajánlathoz vagy a szerződéshez tartozó projektárlistákhoz, akkor az árlista árain végrehajtott változtatások hatással vannak az árlistát használó összes ajánlatra és szerződésre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

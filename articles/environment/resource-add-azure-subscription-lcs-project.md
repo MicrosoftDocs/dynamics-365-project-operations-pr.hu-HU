@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000619"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986674"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-előfizetés hozzáadása LCS-projekthez
 
@@ -23,35 +23,35 @@ A felhőalapú környezeteket meglévő Azure-előfizetések segítségével kel
 
 1. Az LCS-projektjében, a **Környezetek** részen válassza a **Microsoft Azure beállításai** lehetőséget.
 
-![Microsoft Azure beállításai](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure-beállítások.](./media/1MicrosoftAzureSettings.png)
 
 2. A **Projekt beállításai** oldalon, az **Azure-összekötők** lapon válassza az **Engedélyezés** lehetőséget. Ez lehetővé teszi a környezetek telepítését ehhez a projekthez.
 
-![Azure-összekötők](./media/2AzureConnectors.png)
+![Azure-összekötők.](./media/2AzureConnectors.png)
 
 3. A rendszergazdai hozzájárulás biztosítása érdekében ismét válassza az **Engedélyezés** lehetőséget.
 
-![Rendszergazdai jóváhagyás megadása](./media/3GrantAdminConsent.png)
+![Rendszergazdai jóváhagyás megadása.](./media/3GrantAdminConsent.png)
 
 4. Fogadja el az engedélykérést.
 
-![Engedélykérés elfogadása](./media/4AcceptPermissionRequest.png)
+![Engedélykérés elfogadása.](./media/4AcceptPermissionRequest.png)
 
 Az engedélyezés most már kész. 
 
-![Sikeres engedélyezés](./media/5AuthorizationComplete.png)
+![Sikeres engedélyezés.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Hozzáférés biztosítása a Dynamics Deployment Services számára az Azure-előfizetéshez
 
 1. Ugorjon a [Microsoft Azure-számlázás](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) lehetőségre, és válassza ki az előfizetését. A Dynamics Deployment Services hozzáférést igényel ehhez az előfizetéshez, hogy képes legyen környezeteket telepíteni.
 
-![Azure előfizetési adatok](./media/6AzureSubscription.png)
+![Azure-előfizetés részletei.](./media/6AzureSubscription.png)
 
 2. Válassza a navigációs ablak **Hozzáférés-vezérlés (IAM)** elemét, majd válassza a **Szerepkör-hozzárendelés hozzáadása** lehetőséget.
 3. A jobb oldalon lévő csúszka kiválasztásával jelölje ki a **Közreműködő szerepkör** elemet, és a megjelenő listájában keresse meg és jelölje ki a **Dynamics Deployment Services** szolgáltatást. 
 4. Válassza a **Mentés** parancsot.
 
-![Hozzáférés az előfizetéshez](./media/7SubscriptionAccess.png)
+![Hozzáférés az előfizetéshez.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Előfizetés-összekötő hozzáadása egy LCS-projekthez
 

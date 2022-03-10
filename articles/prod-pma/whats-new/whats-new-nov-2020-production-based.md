@@ -2,18 +2,16 @@
 title: Újdonságok 2020. novemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 description: Ez a témakör információval szolgál a készletalapú/termelésalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. novemberi kiadásában váltak elérhetővé.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288006"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003189"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Újdonságok 2020. novemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -25,7 +23,7 @@ A frissítésben szereplő javításokkal kapcsolatos információkért jelentke
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Dynamics 365 Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Dynamics 365 Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

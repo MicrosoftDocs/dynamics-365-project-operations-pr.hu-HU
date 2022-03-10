@@ -2,24 +2,22 @@
 title: Az értékesítési árak megoldása a becslésekhez és a tényekhez
 description: Ez a témakör a becslések és a tényadatok értékesítési díjának megoldásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
-manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b78d0f970f942513ecb6911d64fcffa629567f93f1a763eef20ca168080e4d02
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119556"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986269"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Az értékesítési árak megoldása a becslésekhez és a tényekhez
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ha a becslések és a tényleges adatok értékesítési árát megoldják a Dynamics 365 Project Operationsban, a rendszer először a kapcsolódó projektajánlat vagy szerződés dátumát és pénznemét használja az értékesítési árlista feloldásához. Az értékesítési árlista feloldását követően a rendszer feloldja az értékesítési vagy a számlázási rátát.
+A becsült és tény értékesítési árak feloldásakor a Dynamics 365 Project Operations alkalmazásban a rendszer először a kapcsolódó projektajánlat vagy szerződés dátumát és pénznemét használja az értékesítési árlista feloldásához. Az értékesítési árlista feloldását követően a rendszer feloldja az értékesítési vagy a számlázási rátát.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>A tényleges és a becslési sorok értékesítési arányainak feloldása időpontra
 
@@ -54,3 +52,17 @@ Miután megoldódott az értékesítési árlista, a rendszer a következő lép
     | &nbsp; | Haszonkulcs feletti költség | A kategória ár sora szerint megadott árrés alkalmazása a kapcsolódó költség tényleges értékének egységköltségrátájára |
 
 4. Ha a rendszernem nem sikerül egyeztetni a **Kategória** és **Egység** mezőértékeket, az értékesítési ráta alapértelmezett értéke nulla lesz (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Értékesítési árak megoldása a tényekhez és a becslésekhez az anyag számára
+
+A Project Operations szolgáltatásban az anyagbecslési sorok az anyagra vonatkozó ajánlatsor- és szerződéssor-részleteket, valamint a projekt anyagbecslési sorait jelölik.
+
+Miután megoldódott az értékesítési árlista, a rendszer a következő lépéseket hajtja végre az értékesítési egységár alapértelmezett értékének meghatározására.
+
+1. A rendszer a becslési sorban szereplő **Termék** és **Egység** mezőkombinációt használja az anyaghoz, hogy megegyezzen a feloldott árlista árlistaelemeivel.
+2. Ha a rendszer olyan árlistaelem sort talál, amely a **Termék** és az **Egység** mezőkombináció eladási díját tartalmazza, illetve az árképzési módszer **Pénznem összege**, akkor a rendszer az árlistasorban megadott eladási árat használja.
+3. Ha a **Termék** és **Egység** mező értékei nem egyeznek, az értékesítési ár nullára csökken.
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

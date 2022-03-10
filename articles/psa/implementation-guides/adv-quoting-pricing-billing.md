@@ -2,8 +2,6 @@
 title: Fejlett árajánlat-készítés, árképzés és számlázás
 description: Ez a témakör a Project Service Automation árajánlat-készítéséről, számlázásáról és árképzéséről nyújt információt.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4674aba1d152289c78a202f9da1f710e28f9960
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 4e589c83b8d9b0946f331b5ad03f4946fcddf6813a1529fb65d9b86f8ebf3a07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275226"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985639"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Fejlett árajánlat-készítési, árképzési és számlázási útmutató
 

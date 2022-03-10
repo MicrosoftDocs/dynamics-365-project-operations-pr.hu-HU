@@ -2,25 +2,25 @@
 title: Költség áttekintése
 description: Ez a témakör a Project Operations Költség funkciójával kapcsolatos információkat tartalmaz.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077972"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988474"
 ---
 # <a name="expense-home-page"></a>Költség kezdőlap
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-A Dynamics 365 Project Operations támogatja a kiadások feldolgozását. A költségfeldolgozás a projektekkel vagy anélkül, házirendek, tranzakciós kategóriák és jóváhagyások testreszabható munkafolyamata használatával történik.
+A Dynamics 365 Project Operations támogatja a költségeket feldolgozó képességet. A költségfeldolgozás a projektekkel vagy anélkül, házirendek, tranzakciós kategóriák és jóváhagyások testreszabható munkafolyamata használatával történik.
 
 A Project Operationsben a Költség két támogatott telepítési modellje: 
 
@@ -28,7 +28,7 @@ A Project Operationsben a Költség két támogatott telepítési modellje:
 - **Alapszintű**: Az alapszintű telepítés elérhető az **Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén**, illetve a **Lite telepítés – ajánlattól proforma számlázásig** esetében.
 
 ## <a name="full"></a>Teljes 
-A Költség teljes telepítése teljes körű házirend-végrehajtást biztosít, amely magában foglalja a házirendeket létrehozásának képességét, például:
+A teljes költségű központi telepítés teljes körű irányelvérvényesítést biztosít, amely magában foglalja a szabályzatok létrehozására vonatkozó képességet, például:
 
   - Költségkategória-korlátok
   - Utazás
@@ -43,3 +43,6 @@ További információkért lásd: [Költségbejegyzés (Lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>A Költség telepítési típusának meghatározása
 Annak megállapításához, hogy az alapszintű költségkezelési telepítést futtatja-e, ellenőrizze, hogy a cím URL-címe a **.crm.dynamics.com** végződéssel rendelkezik-e. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Költségkezelési paraméterek
 description: A következő paraméterek szabályozzák a költség-menedzsment általános működését.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,18 +14,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 2ef48f844656ff5197ae1731fb3f9bdf91a1a906b16f35bb2124469743a9e954
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078136"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991354"
 ---
 # <a name="expense-management-parameters"></a>Költségkezelési paraméterek
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 Ez a paraméter szabályozza a költség-menedzsment általános működését.
 
@@ -92,3 +87,6 @@ Ez a paraméter szabályozza a költség-menedzsment általános működését.
 | <strong>Korrupcióellenes üzenet a beküldő számára</strong> |                                                                                             Írja be az új költségjelentés létrehozásakor az alkalmazottnak megjelenő szöveget. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, kattintson a <strong>Fordítások</strong> gombra.                                                                                             |
 | <strong>Korrupcióellenes üzenet a jóváhagyó számára</strong>  |                                                                                             Írja be az új költségjelentés létrehozásakor a jóváhagyónak megjelenő szöveget. Ha nyelvfüggő szöveget szeretne beírni, amely a felhasználói nyelv alapján jelenik meg, kattintson a <strong>Fordítások</strong> gombra.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,13 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988654"
 ---
 # <a name="revenue-recognition-overview"></a>Bevételelszámolás áttekintése
 

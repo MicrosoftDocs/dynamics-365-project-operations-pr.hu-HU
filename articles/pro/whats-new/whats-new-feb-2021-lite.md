@@ -2,19 +2,17 @@
 title: Újdonságok – 2021. február – Project Operations Lite központi telepítés
 description: Ez a témakör információval szolgál a minőségi frissítésekről, amelyek a Project Operations Lite központi telepítés 2021 februári kiadásában váltak elérhetővé.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: df6490d3d9c28b095efd5ef856064de4b1517055
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f9f162dd07f62b1ef82367de7d8186002fedae57b56bb83dbc6741232d70e4f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272166"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009309"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Újdonságok – 2021. február – Project Operations Lite központi telepítés
 

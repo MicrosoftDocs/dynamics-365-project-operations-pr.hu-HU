@@ -2,12 +2,10 @@
 title: Tranzakciós kategória használata árképzési dimenzióként
 description: Ez a témakör a tranzakciós kategória árazási dimenzióként való használatáról nyújt tájékoztatást.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150761"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988864"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tranzakciós kategória használata árképzési dimenzióként
 
@@ -53,3 +51,6 @@ Az alábbi táblázat entitásonként felsorolva, átfogó módon tartalmazza az
 2. A **Paraméterek** oldal **Mennyiségalapú árazási dimenziók** fülén látható, hogy a fülön található rács az **Árazási dimenzió** entitás bejegyzéseit mutatja.
 3. Adja hozzá a **Tranzakciós Kategóriát** ehhez a listához, és állítsa be a **Vonatkozó költség** és **Vonatkozik eladásra** mezők beállítását **Igen** értékre.
 4. A **Dimenzió típusa** mezőben válassza az **Összeg alapú** lehetőséget , majd válassza a **Tranzakciós kategória** prioritását a költségekkel és az eladásokkal kapcsolatban.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

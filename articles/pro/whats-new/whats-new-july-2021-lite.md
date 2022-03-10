@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
-ms.translationtype: HT
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433656"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009219"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Újdonságok 2021. júliusában – Project Operations egyszerű telepítés
 
@@ -20,7 +20,7 @@ _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-  - Project Operations a Dataverse-környezet 4.12.0.148 verzióján.
+  - Project Operations 4.12.0.148 vagy 4.12.0.152 verziójú Dataverse-környezetben.
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 | **Funkcióterület**              | **Hivatkozási szám** | **Minőségi frissítés**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Általános                       | 2296857              | A hosszú feladatok előrehaladásának nyomon követése.                                                                                                                                                                        |
 | Általános                       | 2253682              | A Project Operations kettős írású megoldását nem szabad telepíteni, ha a kettős írás alapcsolmag telkepítve van egy környezetben a kettős írású vezénylési megoldás nélkül.                                                |
 | Általános                       | 2316420              | A Project Service alap központi kiépítése sikertelen az alkalmazásfelhasználó részlegének megváltozása esetén.                                                                                                                     |
+| Általános                       | 2376405              | Rögzített közzétevőre épülő frissítéssel kapcsolatos probléma (A minőségi frissítés a 4.12.0.152 verzióban érhető el)                                                                                                                     |

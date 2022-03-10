@@ -2,18 +2,16 @@
 title: Foglalások szerkesztése
 description: A témakör a foglalások frissítésével és módosításával kapcsolatos információkat tartalmaz.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
-ms.translationtype: HT
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841351"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008319"
 ---
 # <a name="edit-bookings"></a>Foglalások szerkesztése
 
@@ -33,3 +31,6 @@ A **Csoporttag** rácsban a Projektmenedzser kijelölhet egy adott erőforrást,
 ## <a name="schedule-board"></a>Ütemezési tábla
 
 Az **Ütemezési tábla** segítségével Erőforrás-kezelő a szervezet összes foglalását egy portfólió nézetben tekintheti meg. Ebből a nézetből az Erőforrás-kezelő a **Foglalások karbantartása** lehetőségben kínált lehetőségekhez hasonlóan bővítheti, lerövidítheti vagy áthelyezheti a meglévő foglalásokat. Az Erőforrás-kezelő az adott foglaláshoz rendelt meglévő erőforrásokat is helyettesítheti, ha a jobb gombbal rákattint a foglalásra, és kiválasztja a **Helyettesítő erőforrás** lehetőséget. Az Erőforrás-kezelők szerkeszthetik a meglévő foglalások elosztásait, ha jobb gombbal rákattintanak a foglalásra, majd a **Szerkesztés** elemre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Munka tervezése a Microsoft Projekt programban a Project Service bővítmény segítségével
 description: Ez a témakör a Microsoft Project Service Microsoft Project bővítményének használatával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 471d3c421cd9dc39a5864e37ef762b5d08e59762
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993874"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Munka tervezése a Microsoft Projekt programban a Project Service bővítmény segítségével
 

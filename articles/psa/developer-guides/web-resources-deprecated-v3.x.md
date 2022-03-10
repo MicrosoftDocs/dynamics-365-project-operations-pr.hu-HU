@@ -2,12 +2,10 @@
 title: Elavult webes erőforrások a Project Service Automation 3.x-ben
 description: Ez a témakör azokat a webes erőforrásokat írja le, amelyeket már nem használnak a Dynamics 365 Project Service Automation 3.0 verziójában.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078103"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988924"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Elavult webes erőforrások a Project Service Automation 3.x-ben
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Az új kliens interfész és az Dynamics 365 Project Service Automation megoldás más módosításai miatt a megoldás néhány webes erőforrása hosszabb ideig használatban van. Ezért elavultak (kivezették) a 3.0 verziótól kezdve.
 
@@ -536,3 +536,6 @@ Az új kliens interfész és az Dynamics 365 Project Service Automation megoldá
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

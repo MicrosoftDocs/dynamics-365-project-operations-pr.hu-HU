@@ -1,21 +1,19 @@
 ---
-title: A számlázási elmaradás kezelése - lite
-description: Ez a témakör a számlázási elmaradás kezelése során használható különféle nézetekre vonatkozó információkat tartalmaz.
+title: Projekt számlázási elmaradásának kezelése
+description: Ez témakör a projektek számlázási elmaradásának kezelésekor használható különböző nézetekről nyújt tájékoztatást.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274101"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988294"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>A számlázási elmaradás kezelése - lite
+# <a name="manage-project-billing-backlog"></a>Projekt számlázási elmaradásának kezelése 
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 

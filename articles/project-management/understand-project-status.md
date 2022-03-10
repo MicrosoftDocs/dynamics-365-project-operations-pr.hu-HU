@@ -1,19 +1,17 @@
 ---
 title: Projekt állapotának megismerése
-description: Ez a témakör információkat nyújt a projektekhez rendelt állapotokról a Dynamics 365 Project Operations alkalmazásban.
+description: Ez témakör a Dynamics 365 Project Operationsben található projektekhez rendelt állapotokkal kapcsolatos információkat biztosít.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bc5bc174518e46b32cf88ea7231bb2df10fde292
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 47d71b945a2d5e7aa41d2ac3731ac4a5d3051ce279229794e31c9673f688130e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127296"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997024"
 ---
 # <a name="understand-project-status"></a>Projekt állapotának megismerése
 
@@ -29,3 +27,6 @@ Az **Állapot** szakasz a **Projektentitás** oldalon a projekt állapotának k�
 - A **Megjegyzések** mezőben a projektmenedzser konkrét megjegyzéseket fűzhet az állapothoz. 
 - Az **Állapotfrissítés dátuma** mező nem szerkeszthető. A mező értéke egy időbélyeg, amely azt jelzi, hogy mikor történt az állapot utolsó frissítése.
 - Az **Ütemezés teljesítménye** és **Költség teljesítése** mezőket a követési rácsból állítják be. Ha a gyökércsomópont ütemezése és költségvarianciája az **Erőfeszítés követése** nézetben pozitív, akkor ezek a mezők **Ahead** értékre frissülnek. Ha a gyökércsomópont ütemezése és költségeltérése negatív, akkor ezeket **Ütemterv mögött** értékre vannak beállítva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

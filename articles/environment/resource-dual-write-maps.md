@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003819"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547112"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations kettős írás leképezési verziói
 
@@ -49,8 +49,8 @@ A Project Operations megoldáshoz a következő térképek szükségesek. A kett
 | Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Nem szükséges a kiépítéshez. |
 | Projektszámla-ajánlatok V2 (számlák) | 1.0.0.3 | Nem szükséges a kiépítéshez. |
 | Project Operations integrációjának tényleges adatai (msdyn_actuals) | 1.0.0.14 | Nem szükséges a kiépítéshez. |
-| A Project Operations integráció szerződéssor-mérföldkövei (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nem szükséges a kiépítéshez. |
-| A Project Operations integrációs entitása kiadások becsléséhez (msdyn_estimateslines) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
+| Project Operations integráció szerződéssor mérföldkövek (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nem szükséges a kiépítéshez. |
+| A Project Operations integráció entitása költségbecslésekhez (msdyn_estimatelines) | 1.0.0.2 | Nem szükséges a kiépítéshez. |
 | A Project Operations integrációs entitása órabecslésekhez (msdyn_resourceassignments) | 1.0.0.5 | Nem szükséges a kiépítéshez. |
 | Project Operations integráció projektköltség-kategóriák exportálási entitása (msdyn_expensecategories) | 1.0.0.1 | Nem szükséges a kiépítéshez. |
 | Project Operations integráció projektkiadások exportálási entitása (msdyn_expenses) | 1.0.0.2 | Nem szükséges a kiépítéshez. |

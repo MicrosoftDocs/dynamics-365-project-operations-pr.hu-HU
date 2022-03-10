@@ -2,8 +2,6 @@
 title: Adja meg a kiadásokat
 description: Kiadások megadása a Project Service szolgáltatásban
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b13aafffc2f418915ee7da7e3c9ec49230ec92d896cf8465557347c269df57f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988843"
 ---
 # <a name="enter-expenses-project-service"></a>Kiadások megadása (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -57,3 +57,6 @@ Adja meg a kiadásokat legalább hetente – vagy az a igazgatók által kért g
   
 ### <a name="see-also"></a>Kapcsolódó információk  
  [Idő, Költségek és Együttműködési útmutató](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

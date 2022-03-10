@@ -4,6 +4,7 @@ description: Ez a témakör áttekintést nyújt az árképzési dimenziókról.
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: rumant
@@ -15,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009259"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998464"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Árképzés és költségdimenziók kezdőlap
 
@@ -40,7 +41,7 @@ Tekintettel a munka ezen attribútumainak jellegzetességére és a munka végre
 
 A PSA alapértelmezett árképzési dimenziókkal rendelkezik. Megnézheti ezeket a **Project Service** > **Paraméterek** részére lépve. A paraméterrekordban az **Összegalapú árképzési dimenziók** fülön ellenőrizze, hogy a **msdyn_resourcecategory** szerepkör és a **msdyn_organizationalunit** erőforrásbiztosító szervezeti egység rendelkezik **Értékesítésre vonatkozó** és **Költségre vonatkozó** mezőkkel, és hogy ezek beállítása **Igen** legyen. Ez lehetővé teszi az egyes szerepkörök és szervezeti egységkombinációk árának és költségének beállítását.
 
-![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével](media/PS-OOB-parameters.png)
+![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ha a PSA 3. verzióját megelőzően használta a használatra kész szerepköröket és szervezeti egységeket árképzési dimenziókként, akkor nem lesz észlelhető változás. Továbbra is használhatja a Project Service szolgáltatást a megszokott módon. 
