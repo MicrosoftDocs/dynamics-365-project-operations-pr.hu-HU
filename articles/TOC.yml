@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
+        - name: 2022. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 2022. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 2022. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 2022. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 2021. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Pénznem
               href: sales/sales-currency.md
+            - name: Szervezeti egységek
+              href: sales/OrgUnits.md
         - name: Projekt érdeklődőinek kezelése
           href: sales/manage-leads.md
         - name: Projekt lehetőségeinek kezelése
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projektekre vonatkozó munkabevétel nyomon követése
               href: project-management/project-sales-tracking.md
-            - name: Befejezéskori költség becslésének frissítése
-              href: project-management/update-completed-estimate.md
         - name: Projektcsoporttagok
           items:
             - name: Projektcsoporttagok áttekintése
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektütemezési API-k használata
               href: project-management/schedule-api-preview.md
+            - name: Projektütemezési API-k használata a Power Automate-tel
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Projektütemezési API teljesítménye
               href: project-management/project-schedule-api-performance.md
             - name: Projektütemezési naplók
@@ -426,13 +436,13 @@
           href: expense/travel-requisition.md
         - name: Készpénzelőleg
           href: expense/cash-advance.md
-        - name: Napidíjak
-          href: expense/per-diems.md
+        - name: Napidíjköltségek
+          href: expense/per-diem-expenses.md
         - name: Költségekkel kapcsolatos mobilalkalmazás
           href: expense/expense-using-mobile.md
         - name: Pénzügyi kezelés
           items:
-            - name: ÁFA-visszaigénylés
+            - name: Áfa-visszaigénylés
               href: expense/vat-recovery.md
     - name: Anyagfelhasználás
       items:
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Jóváhagyási készletek
           href: approvals/approval-sets.md
+        - name: Jóváhagyás visszavonása korábban jóváhagyott bejegyzéseken
+          href: approvals/cancelapproval.md
+        - name: Korábban jóváhagyott bejegyzések visszahívása
+          href: approvals/recall-cancel.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
               href: approvals/dev-notes-approvals.md
-    - name: Tények
+    - name: Tényadatok
       items:
-        - name: Tények áttekintése
+        - name: Üzleti tranzakciók a Project Operations alkalmazásban
+          href: actuals/businesstransactions.md
+        - name: Tényadatok áttekintése
           href: actuals/actuals-overview.md
-        - name: Tények csatolása az eredeti rekordokhoz
+        - name: Tranzakciók eredete – tényadatok csatolása a forráshoz
           href: actuals/linkingactuals.md
-        - name: Helyesbítő naplók
+        - name: Tranzakciókapcsolatok – Különböző tranzakciótípusok tényadatainak csatolása
+          href: actuals/connectingactuals.md
+        - name: Naplók
           items:
+            - name: Bejegyzésnaplók létrehozása és megerősítése
+              href: actuals/create-confirm-entry-journals.md
             - name: Helyesbítő naplók létrehozása és megerősítése
               href: actuals/create-confirm-correction-journals.md
     - name: Beszerzés
       items:
         - name: Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
           href: procurement/configure-materials-nonstocked.md
-        - name: Nem készletezett anyagok beszerzése projektekhez függőben lévő szállítói számlák felhasználásával
+        - name: Projektekhez tartozó beszerzési kategóriák konfigurálása
+          href: procurement/configure-procurement-categories.md
+        - name: Áruk és szolgáltatások beszerzése projektekhez függőben lévő szállítói számlák felhasználásával
           href: procurement/pending-vendor-invoices.md
-        - name: Nem készletezett anyagok rendelése projektekhez a projekt beszerzési rendeléseivel
+        - name: Áruk és szolgáltatások rendelése projektekhez a projekt beszerzési rendeléseivel
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Szállítók megtartása
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Bevételi becslések kezelése
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Speciális konfiguráció
+      items:
+        - name: Teljesen számlázott számlázási mérföldkövek áttelepítése az átállás során
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Frissítés
+      items:
+        - name: A Modern jóváhagyások frissítési szempontjai
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations alkalmazások
+      items:
+        - name: Project Operations-csapattag alkalmazás
+          href: team-member/project-operations-team-member.md
     - name: Hibaelhárítás
       items:
         - name: Projekt értékesítési folyamata
@@ -562,6 +596,14 @@
       items:
         - name: 'Újdonságok 2021 2. hullám, korai hozzáférés – egyszerű központi telepítés'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Újdonságok 2022. májusában – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Újdonságok 2022. áprilisban – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Újdonságok 2022. márciusban – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Újdonságok 2022. februárban – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Újdonságok 2021. decemberben – egyszerű központi telepítés
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Újdonságok 2021. novemberben – egyszerű központi telepítés
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Pénznem
               href: sales/sales-currency.md
+            - name: Szervezeti egységek
+              href: sales/OrgUnits.md
         - name: Projekt érdeklődőinek kezelése
           href: pro/sales/managing-leads-sales.md
         - name: Projekt lehetőségeinek kezelése
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projektekre vonatkozó munkabevétel nyomon követése
               href: project-management/project-sales-tracking.md
-            - name: Befejezéskori költség becslésének frissítése
-              href: project-management/update-completed-estimate.md
         - name: Projektcsoporttagok
           items:
             - name: Projektcsoporttagok áttekintése
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektütemezési API-k használata
               href: project-management/schedule-api-preview.md
+            - name: Projektütemezési API-k használata a Power Automate-tel
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Projektütemezési API teljesítménye
               href: project-management/project-schedule-api-performance.md
     - name: Erőforrás-kezelés
@@ -886,15 +930,13 @@
           items:
             - name: Erőforrás-kihasználtság áttekintése
               href: resource-management/resource-utilization-overview.md
-    - name: Alvállalkozói szerződések kezelése Project Operations-ben
+    - name: Alvállalkozók kezelése
       items:
-        - name: Alvállalkozói szerződések kezelése Project Operations-ben
+        - name: Alvállalkozói szerződések kezelése a Project Operations alkalmazásban
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Alvállalkozói szerződések 2021 októberében Korai hozzáférés
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Az alvállalkozói szerződéskötés kulcsfogalmai
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Szállítók és projekt árlisták kezelése
+        - name: Szállítói és projektárlisták kezelése
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Alvállalkozók lefoglalható erőforrásként
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Állapotátváltások az alvállalkozói szerződésben
           href: pro/subcontracting/subcon-states.md
+    - name: Projekt szállítói számlái
+      items:
+        - name: Szállítói számlázás – koncepció és létrehozás
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Fejléc részletei szállítói számlákhoz
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Szállítói számlasorok időhöz
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Szállítói számlasorok termékekhez
+          href: pro/subcontracting/vi-line-material.md
+        - name: Szállítói számlasorok mérföldkövekhez
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Szállítói számlasorok költségkategóriákhoz
+          href: pro/subcontracting/vi-line-expense.md
+        - name: A szállítói számlák ellenőrzése jóváhagyott tényadatokkal
+          href: pro/subcontracting/VI-Verification.md
+        - name: Projekt szállítói számlájának érvénytelenítése
+          href: pro/subcontracting/cancel-vi.md
+        - name: Projekt szállítói számlájának megerősítése
+          href: pro/subcontracting/confirm-vi.md
+        - name: Állapotátváltások szállítói számlán
+          href: pro/subcontracting/vi-state-model.md
     - name: Idő
       items:
         - name: Idő áttekintése
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Jóváhagyási készletek
           href: approvals/approval-sets.md
+        - name: Jóváhagyás visszavonása korábban jóváhagyott bejegyzéseken
+          href: approvals/cancelapproval.md
+        - name: Korábban jóváhagyott bejegyzések visszahívása
+          href: approvals/recall-cancel.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
               href: approvals/dev-notes-approvals.md
-    - name: Tények
+    - name: Tényadatok
       items:
-        - name: Tények áttekintése
+        - name: Üzleti tranzakciók a Project Operations alkalmazásban
+          href: actuals/businesstransactions.md
+        - name: Tényadatok áttekintése
           href: actuals/actuals-overview.md
-        - name: Tények csatolása az eredeti rekordokhoz
+        - name: Tranzakciók eredete – tényadatok csatolása a forráshoz
           href: actuals/linkingactuals.md
-        - name: Helyesbítő naplók
+        - name: Tranzakciókapcsolatok – Különböző tranzakciótípusok tényadatainak csatolása
+          href: actuals/connectingactuals.md
+        - name: Naplók
           items:
+            - name: Bejegyzésnaplók létrehozása és megerősítése
+              href: actuals/create-confirm-entry-journals.md
             - name: Helyesbítő naplók létrehozása és megerősítése
               href: actuals/create-confirm-correction-journals.md
     - name: Proforma számlázás
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projektszámla-automatizálás konfigurálása
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Frissítés
+      items:
+        - name: A Modern jóváhagyások frissítési szempontjai
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations alkalmazások
+      items:
+        - name: Project Operations-csapattag alkalmazás
+          href: team-member/project-operations-team-member.md
 - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
   items:
     - name: Újdonságok
@@ -1006,49 +1088,45 @@
           href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Újdonságok 2020. novemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-    - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – telepítési útmutató
+    - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – központi telepítés áttekintése
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projektmenedzsment és könyvelés – áttekintés
       href: prod-pma/overview-project-management-accounting.md
-    - name: Vállalatközi számlázás
-      href: prod-pma/intercompany-invoicing.md
-    - name: A vállalatközi projektszámlázás konfigurálása
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: A munkaerő és költség általános költségének konfigurálása
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Szállítói kifizetéssel kapcsolatos adatmegőrzési feltételek létrehozása és alkalmazása
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Fizetéskor fizetett szállítói kifizetések beállítása és használata
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: A projekt költségének elhatárolása a beszerzési nyugtákon
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Projekt számlázása
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Projektszámla-ajánlatok teljesítménye
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Projektszerződések
-      href: prod-pma/project-contracts.md
-    - name: Speciális szerződések létrehozása folyamatalapú számlázáshoz
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Projekt-előrejelzések és költségvetések
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Előrejelzési modellek létrehozása a projektköltségvetésekhez
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: A projektköltségvetések átadása a pénzügyi év végén
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Projekt értékesítési rendelései
-      href: prod-pma/project-sales-orders.md
-    - name: Beszerzési rendelések egy projekthez
-      href: prod-pma/project-purchase-orders.md
-    - name: Projektárajánlatok
-      href: prod-pma/project-quotations.md
-    - name: 'Projektárajánlat megerősítése, frissítése és küldése'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Árajánlat átadása egy projekthez
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Projekt beszerzése
+    - name: Projekt értékesítési folyamata
       items:
-        - name: Projekt beszerzésének áttekintése
+        - name: Projektárajánlatok
+          href: prod-pma/project-quotations.md
+        - name: 'Projektárajánlat megerősítése, frissítése és küldése'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Árajánlat átadása egy projekthez
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Projektszerződések
+          href: prod-pma/project-contracts.md
+        - name: Projektjogosultságok
+          href: prod-pma/project-grants.md
+    - name: Árképzés és költségszámítás
+      items:
+        - name: A munkaerő és költség általános költségének konfigurálása
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Projektmenedzsment
+      items:
+        - name: Munkalebontási struktúrák áttekintése
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client integrációja
+          href: prod-pma/project-integration.md
+        - name: Project mobilalkalmazások áttekintése
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Projekt időbeviteli mobil munkaterület
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Projekt munkaidő-nyilvántartás mobilalkalmazása
+          href: prod-pma/project-timesheet.md
+        - name: Projekt munkaidő-nyilvántartása mobileszközön
+          href: prod-pma/mobile-timesheets.md
+        - name: Egyéni mezők megvalósítása a Project Timesheet mobilalkalmazáshoz
+          href: prod-pma/custom-fields-mobile.md
+    - name: Erőforrás-kezelés
+      items:
+        - name: Projekt-erőforráskezelés áttekintése
           href: prod-pma/project-resourcing.md
         - name: Projekterőforrások beállítása
           href: prod-pma/set-up-project-resources.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Erőforrás teljesítése tervezett erőforrásokhoz
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Cikkek bevételezése a cikkszükségletből származó beszerzési rendelésen
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Munkalebontási struktúrák
+    - name: Projekt-költségvetések és előrejelzések
       items:
-        - name: Munkalebontási struktúrák áttekintése
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client integráció
-          href: prod-pma/project-integration.md
-        - name: Project mobilalkalmazások áttekintése
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Projekt időbeviteli mobil munkaterület
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Projekt munkaidő-nyilvántartás mobilalkalmazása
-          href: prod-pma/project-timesheet.md
-        - name: Projekt munkaidő-nyilvántartása mobileszközön
-          href: prod-pma/mobile-timesheets.md
-        - name: Egyéni mezők megvalósítása a Projekt munkaidő-nyilvántartás mobilalkalmazáshoz
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projektjogosultságok
-      href: prod-pma/project-grants.md
-    - name: Projekt becslésének eltávolítása
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Projekt-előrejelzések és költségvetések
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Előrejelzési modellek létrehozása a projektköltségvetésekhez
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: A projektköltségvetések átadása a pénzügyi év végén
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Idő
+      items:
+        - name: Pénzügyi dimenziók alapértelmezéseinek megadása a projekt időbejegyzéseihez
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Költség
+      items:
+        - name: Költség áttekintése
+          href: expense/expense-overview.md
+        - name: Új költségekkel kapcsolatos felület
+          items:
+            - name: Költségjelentések újragondolva
+              href: expense/expense-reports-reimagined.md
+            - name: Nyugta rögzítése OCR használatával
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguráció és beállítás
+          items:
+            - name: Házirendek beállítása
+              href: expense/set-up-policies.md
+            - name: Munkafolyamatok beállítása
+              href: expense/set-up-workflows.md
+            - name: Delegálás kezelése
+              href: expense/manage-delegation.md
+            - name: Költségkezelési paraméterek konfigurálása
+              href: expense/configure-expense-management-parameters.md
+            - name: Hitelkártya-integráció beállítása
+              href: expense/set-up-credit-card-integration.md
+            - name: Költségkategóriák beállítása
+              href: expense/set-up-expense-categories.md
+            - name: Futásteljesítmény beállítása futásteljesítmény-szintek használatával
+              href: expense/set-up-mileage.md
+        - name: Költségrészletezés
+          href: prod-exp/expense-itemization.md
+        - name: Személyes költségek
+          href: expense/personal-expenses-expense-report.md
+        - name: Vállalatközi költségek
+          href: prod-exp/intercompany-expense.md
+        - name: Költségjelentések létrehozása
+          items:
+            - name: Felosztások egy költségjelentésen
+              href: expense/distributions-expense-report.md
+        - name: Költségjelentések jóváhagyása
+          items:
+            - name: Költségjelentések és több jóváhagyó
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Költségjelentések közzététele
+          href: expense/posting-expense-reports.md
+        - name: Utazási kérelem
+          href: expense/travel-requisition.md
+        - name: Készpénzelőleg
+          href: expense/cash-advance.md
+        - name: Napidíjköltségek
+          href: expense/per-diem-expenses.md
+        - name: Költségekkel kapcsolatos mobilalkalmazás
+          href: expense/expense-using-mobile.md
+        - name: Pénzügyi kezelés
+          items:
+            - name: Áfa-visszaigénylés
+              href: expense/vat-recovery.md
+    - name: Beszerzés
+      items:
+        - name: Beszerzési rendelések egy projekthez
+          href: prod-pma/project-purchase-orders.md
+        - name: A projekt költségének elhatárolása a beszerzési nyugtákon
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Cikkek bevételezése a cikkszükségletből származó beszerzési rendelésen
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Fizetéskor fizetett szállítói kifizetések beállítása és használata
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Szállítói kifizetéssel kapcsolatos adatmegőrzési feltételek létrehozása és alkalmazása
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Projekt számlázása
+      items:
+        - name: Projekt számlázása
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Projektszámla-ajánlatok teljesítménye
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Speciális szerződések létrehozása folyamatalapú számlázáshoz
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Projekt értékesítési rendelései
+          href: prod-pma/project-sales-orders.md
+        - name: Több forrással rendelkező projektszerződések cikk-követelményei
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Vállalatközi számlázás
+      items:
+        - name: Vállalatközi számlázás
+          href: prod-pma/intercompany-invoicing.md
+        - name: A vállalatközi projektszámlázás konfigurálása
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Bevételelszámolás
+      items:
+        - name: Projekt becslésének eltávolítása
+          href: prod-pma/eliminate-project-estimate.md
 - name: Költségkezelés
   items:
     - name: Költségkezelés áttekintése
@@ -1148,6 +1304,16 @@
       items:
         - name: A Project Service 3.x frissítési kiadásának ütemezése
           href: psa/version-history-ps.md
+        - name: A 43-as frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur43.md
+        - name: A 42-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-42.md
+        - name: A 41-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-41.md
+        - name: A 40-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-40.md
+        - name: A 39-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-39.md
         - name: A 38-as frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-38.md
         - name: A 37.5-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
@@ -1238,9 +1404,11 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Frissítés a Project Service Automation szolgáltatásról Project Operations alkalmazásra – Lite
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: A Project Service Automation szolgáltatásról Project Operations alkalmazás közötti funkcióváltozások
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation frissítése (3.x alkalmazásverzió)
       items:
-        - name: Project Service Automation frissítése
+        - name: A Project Service Automation frissítése
           href: psa/upgrade-psa-home-page.md
         - name: Frissítéssel kapcsolatos szempontok – frissítés a 2.x vagy 1.x verzióról a 3. verzióra
           href: psa/upgrade-v3.md
@@ -1332,7 +1500,7 @@
               href: psa/recall-approved.md
             - name: Korábban jóváhagyott idő- vagy költségbejegyzések jóváhagyásának törlése
               href: psa/cancel-approval.md
-            - name: Tények
+            - name: Tényadatok
               href: psa/actuals.md
             - name: A jóváhagyott idő-és költségtételek által létrehozott tények tömeges javítása
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
