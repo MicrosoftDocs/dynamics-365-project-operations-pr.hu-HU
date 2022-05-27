@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000264"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580183"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mi a Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ A Project Service Automation (PSA) alkalmazás segíti a szervezeteket a projekt
 - ...és egyebek
 
 Emellett a projektalapú munkák költségei felügyeletéhez és irányításához az egyéni tanácsadó egyszerűen adja meg és követi nyomon a projektidőt és költségeket mobil vagy webböngésző segítségével.
-
-## <a name="whats-new-in-psa"></a>A PSA újdonságai
-Örömmel jelentjük be legújabb frissítéseinket! A felhasználói felület tökéletesítése, hibák kijavítása, illetve fontos új funkciók és lehetőségek hozzáadása. Önök kértek, mi meghallgattuk Önöket.
-
-Vessen egy pillantást az [október 19-i kiadási megjegyzésekre](/dynamics365-release-plan/2019wave2/index), amelyekből megismerheti a legújabb fejlesztéseket és kiegészítéseket.
-
-### <a name="in-development"></a>Fejlesztés alatt
-Ha szeretné megtudni, mit terveztünk a közeljövőre, lépjen tovább a [Dynamics 365: 2020 1. kiadási hullám tervére](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Segítség a PSA 3.x verziójával kapcsolatban
 Erőforrásokat keres a kivitelezés megtervezéséhez? Tekintse meg ezeket a letölthető útmutatókat.
@@ -80,10 +73,6 @@ Erőforrásokat keres a kivitelezés megtervezéséhez? Tekintse meg ezeket a le
  [Szakmai ismertetők (alkalmazás verzió 2.x vagy 1.x)](../psa/white-papers.md)
 
  [Jegyzetek fejlesztők számára (2.x alkalmazásverzió)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>2 perces áttekintő videó megnézése
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

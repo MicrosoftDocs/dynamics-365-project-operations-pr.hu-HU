@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998644"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575353"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Nevesített foglalható erőforrások foglalása projektcsoporthoz, és feladatok hozzárendelése 
 

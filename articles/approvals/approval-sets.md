@@ -2,18 +2,16 @@
 title: Jóváhagyási készletek
 description: Ez a témakör elmagyarázza, hogyan kell dolgozni a jóváhagyási halmazokkal, a kérelmekkel és e műveletek részhalmazaival.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323239"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576227"
 ---
 # <a name="approval-sets"></a>Jóváhagyási készletek
 
@@ -27,6 +25,18 @@ A jóváhagyási készletek jelzik a kapcsolódó bejegyzések teljes feldolgoz�
 A feldolgozási sorban várakozó jóváhagyások a **Jóváhagyások feldolgozása** nézetben láthatók. A rendszer aszinkron módon többször is feldolgozza az összes bejegyzést, beleértve a jóváhagyás újbóli megkísérlését, ha az előző kísérletek sikertelenek voltak.
 
 A **Jóváhagyási készlet élettartama** mező rögzíti, hogy hány kísérlet maradt a készlet feldolgozására, mielőtt sikertelenként jelölték volna meg.
+
+A jóváhagyási készleteket a program a Project Service nevű **felhőfolyamaton** alapuló időszakos aktiválással **dolgozza fel – Ismétlődően ütemezi a projektjóváhagyási készleteket**. Ez a **Project Operations nevű** megoldásban **található**. 
+
+Győződjön meg arról, hogy a folyamat aktiválva van az alábbi lépések végrehajtásával.
+
+1. Rendszergazdaként jelentkezzen be a [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. A jobb felső sarokban váltson a használt környezetre Dynamics 365 Project Operations.
+3. Válassza a Megoldások **lehetőséget** a környezetben telepített megoldások felsorolásához.
+4. A megoldáslistában válassza a Projektműveletek **lehetőséget**.
+5. Módosítsa a szűrőt a Mindenről **a** **Felhőfolyamatokra**.
+6. Ellenőrizze, hogy a **Projektszolgáltatás – Ismétlődően ütemezett projekt-jóváhagyási készletek** folyamatának be van-e **kapcsolva**. Ha nem, jelölje ki a folyamatot, majd válassza a Bekapcsolás **lehetőséget**.
+7. Ellenőrizze, hogy a feldolgozás ötpercenként történik-e, ha áttekinti a **Rendszerfeladatok** listát a **Project Operations** környezet Beállítások Dataverse területén.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Meghiúsult jóváhagyások és jóváhagyási készletek
 A **Sikertelen jóváhagyások** nézet felsorolja az összes olyan jóváhagyást, amely felhasználói beavatkozást igényel. Nyissa meg a társított jóváhagyási készlet naplóit, hogy azonosítsa a hiba okát.

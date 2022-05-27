@@ -4,14 +4,14 @@ description: Ez a témakör azt ismerteti, hogyan lehet több ügyfelet kezelni 
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a6247c572284a5832cf2953578c98f6454e39dda
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001704"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575629"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Több ügyfél kezelése projektalapú árajánlatsorokon - Lite
 

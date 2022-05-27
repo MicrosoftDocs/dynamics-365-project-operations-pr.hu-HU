@@ -2,16 +2,16 @@
 title: Könyvelés javítása a tervezet állapotú projektszámla-ajánlatokon
 description: Ez témakör ismerteti, hogyan módosíthatók a könyvelési információk egy vázlat állapotú számlajavaslaton.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999319"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575077"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Könyvelés javítása a tervezet állapotú projektszámla-ajánlatokon
 
@@ -27,12 +27,21 @@ Az alapértelmezett számlázási áfacsoportok és a cikkáfacsoportok közvetl
 
 ## <a name="adjust-financial-dimensions"></a>Pénzügyi dimenziók korrekciója
 
+### <a name="header-dimensions"></a>Fejdimenziók
+
+Alapértelmezés szerint a számla pénzügyi dimenziói a számlázandó, nem számlázott projekttranzakció-rekordokból származnak. A rendszerbeállítások azonban lehetővé teszik, hogy a projektszámla-javaslatok fejlécében szereplő pénzügyi dimenziókat használjon a vevői egyenlegek feladásához. A funkció engedélyezéséhez válassza **a Projektkezelés és könyvelési paraméterek** lap Pénzügyek **lapján a** kinnlevőségek **projektdimenzióinak frissítéseinek engedélyezése lehetőséget**.
+
+A számlafejek pénzügyi dimenziói a számla könyvelése előtt szerkeszthetők. **A Projekt számlajavaslat** lapon váltson a **Fej** nézetre, majd szerkessze az értékeket a **Pénzügyi dimenziók** lapon.
+
+A **Fejléc** nézet csak akkor érhető el, ha a rendszergazda engedélyezi a Projektjavaslat és a **számlanapló képernyők használata a Szolgáltatáskezelés** munkaterület Fejléc és sorok nézet **funkciójával**. Ehhez a szolgáltatáshoz a Finance 10.0.25-ös vagy újabb frissítése szükséges.
+
+### <a name="line-dimensions"></a>Sordimenziók
+
 A pénzügyi dimenziók nem szerkeszthetők közvetlenül a projektszámla-javaslat sorában. Ehelyett a következő lépésekkel módosíthatja a projektszámlára-javaslat pénzügyi dimenzióit.
 
 1. A projektszámla-javaslaton válassza az **Összes törlése** lehetőséget a projektszámla-javaslat sorainak eltávolításához.
 
-    > [!NOTE]
-    > Az **Összes törlése** gomb csak akkor érhető el, ha a rendszergazda engedélyezte a **Számlajavaslat-sorok törlés a Project Operations használatakor erőforrás-/nem készletalapú forgatókönyvek esetén** funkciót a **Funkciókezelés** mukaterületen.
+    Az **Összes törlése** gomb csak akkor érhető el, ha a rendszergazda engedélyezte a **Számlajavaslat-sorok törlés a Project Operations használatakor erőforrás-/nem készletalapú forgatókönyvek esetén** funkciót a **Funkciókezelés** mukaterületen.
 
 2. A pénzügyi dimenziók korrekciója:
 

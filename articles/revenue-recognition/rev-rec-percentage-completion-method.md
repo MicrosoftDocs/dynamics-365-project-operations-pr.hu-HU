@@ -4,14 +4,14 @@ description: Ez a témakör információkat nyújt rögzített áru bevételekr�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006429"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578711"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Rögzített árú bevétel becslési projektjei 
 
@@ -26,7 +26,7 @@ Amikor létrehoz egy projektszerződés-sort a következő attribútumokkal a Dy
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Rögzített árú bevétel becslési projektek ellenőrzése
 A rögzített árú bevételbecslési projektek áttekintéséhez hajtsa végre a következő lépéseket:
 
-1. A Dynamics 365 Finance környezetben nyissa meg a **Projektvezetés és könyvelés** > **Projektek** > **Rögzített árú bevételbecslési projektek** lehetőséget.
+1. A Dynamics 365 Finance környezetben keresse fel a **Projektek menedzsment és számvitel** > **projektek** > **Rögzített árú bevételbecslési projekteket**.
 2. Jelölje ki a megtekinteni kívánt projektet, és kattintson duplán a **Projektbecslés azonosítójára** a bejegyzés megnyitásához, és tekintse át a projekt részleteit.
 3. Bontsa ki a **Projekt** lapot. A **Kijelölt projektek** rácsán egy projekt jelenik meg. A rendszer ezt használja alapértelmezett projektként, mert a projekt szerződéssorához társított projekt. 
 4. A társítás módosításához válasszon ki további projekteket, és vegye fel őket a **Kijelölt projektek** rácsára. Ha ebben a táblázatban több projektet is kijelöl, a projekt százalékos készültségi szintjét és a bevételi becsléseket a program az összes kijelölt projekthez együttesen számítja ki.

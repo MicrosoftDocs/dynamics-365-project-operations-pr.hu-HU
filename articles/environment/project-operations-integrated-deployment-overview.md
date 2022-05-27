@@ -3,16 +3,15 @@ title: Project Operations erőforrás-/nem készletalapú forgatókönyvek eset�
 description: Ez a témakör a telepítés típusával, az erőforrás-/nem készletalapú forgatókönyvekkel kapcsolatos Project Operations kapcsolatos információkat tartalmaz.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009714"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575124"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén – telepítési útmutató
 
@@ -32,7 +31,7 @@ A telepítés típusa, a Dynamics 365 Project Operations az erőforrás-/nem ké
 - Projektbevétel elszámolása
 - Bővíthetőség a Power Platform segítségével
 
-Ez a telepítési típus bővítmény biztosít a Dynamics 365 Finance és a Dynamics 365 Supply Chain Management alkalmazások által biztosított funkciókhoz.
+Ez az üzembe helyezési típus a Dynamics 365 Finance és Dynamics 365 Supply Chain Management alkalmazások által biztosított funkciók kiterjesztését biztosítja.
 
 Ezt a telepítést úgy kell megválasztani, hogy a Project Operations várhatóan a teljes projekt életciklusát használják, amely a következő követelményeket tartalmazza:
 
