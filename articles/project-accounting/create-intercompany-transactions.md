@@ -4,14 +4,14 @@ description: Ez a témakör a vállalatközi tranzakciók létrehozásával kapc
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005484"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599975"
 ---
 # <a name="create-intercompany-transactions"></a>Vállalatközi tranzakciók létrehozása
 
@@ -30,14 +30,14 @@ A vállalatközi tranzakciók jóváhagyásakor a rendszer a következő tényle
 
 A költségek, a beszerzési egységárak és a szervezeti egységek közötti értékesítési tranzakciók ára és pénzneme a **szervezeti egység** által vezérelt. Fontos ezt figyelembe venni, amikor eldönti, hogyan kell felépíteni a vállalatokat és a szervezeti egységeket a megvalósításban.
 
-A lehetőség, az ajánlat, a projekt szerződés és a projekt rekordjainak létrehozásakor a rendszer ellenőrzi, hogy a szerződő egység pénzneme megegyezik-e a szerződő vállalat pénzügyi pénznemével. Ha nem egyeznek meg, akkor ezek a rekordok nem hozhatók létre. A szervezeti egység pénznemét Dynamics 365 Project Operations szolgáltatásban lehet meghatározni a **Dataverse** > **Beállítások** > **Szervezeti egységek** helyen. A vállalat könyvelési pénzneme Dynamics 365 Finance van megadva az **Általános főkönyv** > **Főkönyv beállítása** > **Főkönyv** helyen. A pénznemet a rendszer a Dataverse-környezetébe a főköny kettős írású leképezésével szinkronizálja.
+A lehetőség, az ajánlat, a projekt szerződés és a projekt rekordjainak létrehozásakor a rendszer ellenőrzi, hogy a szerződő egység pénzneme megegyezik-e a szerződő vállalat pénzügyi pénznemével. Ha nem egyeznek meg, akkor ezek a rekordok nem hozhatók létre. A szervezeti egység pénznemét Dynamics 365 Project Operations szolgáltatásban lehet meghatározni a **Dataverse** > **Beállítások** > **Szervezeti egységek** helyen. A vállalat könyvelési pénznemét Dynamics 365 Finance a Főkönyvi főkönyv **beállítása Főkönyv beállítása Főkönyv felosztása Főkönyvre** > **lépéssel** > **határozzák meg**. A pénznemet a rendszer a Dataverse-környezetébe a főköny kettős írású leképezésével szinkronizálja.
 
 A rendszer a következő helyzetekben hozza létre az erőforráskezelés költségeket és a szervezeti egység közötti valós értékesítéseket:
 
   - Ha a beszerzési egység eltér a szerződő egységtől
   - Ha a beszerzési vállalat eltér a szerződő vállalattól
 
-Azonban csak olyan tranzakciók kerülnek át a Dynamics 365 Finance környezetbe további könyvelésre, ahol a beszerzési vállalat eltér a szerződő vállalattól.
+Azonban csak azok a tranzakciók kerülnek át a Dynamics 365 Finance környezetbe további elszámolás céljából, amelyeknek a beszerzési vállalatától eltérő forrásbevonással rendelkező vállalata van.
 
 A projektek tényleges adatainak könyvelése a Project Operations integrációs naplójában van rögzítve a Finance-ban. A rendszer a következő naplósorokat hozza létre.
 
@@ -60,7 +60,7 @@ Molly Clark, az GBPM-ben foglalkoztatott fejlesztő 10 órányi munkát végzett
     4. Állítsa pénznemet **USD-re**.
     5. Mentse a bejegyzést.
 3. Nyissa meg a **Sales** > **Projektszerződések** lehetőséget, és hozzon létre egy új projekt szerződést az Adventure Works számára.
-    1. Állítsa a tulajdonló található vállalatot **USPM**-re, a szerződéskötési egységet pedig **Contoso Robotics US-re**.
+    1. Állítsa be a tulajdonos vállalatot **USPM** értékre, és a szerződő egységet a **Contoso Robotics US** értékre.
     2. Válassza az Adventure Workst ügyfélként.
     3. Válasszon egy termékárlistát, és mentse a rekordot.
     4. Hozzon létre egy új szerződéssort a **Szerződéssorok** lapon. Állítson be bármilyen nevet, és Számlázási módszerként válassza az **Idő és az anyagok** lehetőséget.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753295"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598491"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. októberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753295"
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.25.0.91 verziójú Microsoft Dataverse-környezetben
-   - Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.21-es verziójában
+   - Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.21-es verzióban
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -49,7 +49,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a Kettős ír�
 | Számlázás és árképzés | 2338357 | A projekt kiválasztásakor az anyaghasználati napló pénznemének alapértelmezetten a projekt pénzneméből kell származnia. |
 | Idő és költség | 2414777 | A Jóváhagyás visszavonásának – amennyiben a költség vagy időbejegyzés több projekt-jóváhagyással rendelkezik – lehetségesnek kell lennie. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance szolgáltatásban
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

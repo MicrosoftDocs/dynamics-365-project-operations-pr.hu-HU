@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798043"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596283"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Nyugta rögzítése OCR használatával
 
@@ -52,7 +52,7 @@ Ha költséget szeretne létrehozni, vagy költséget szeretne egyeztetni egy ny
 
 ## <a name="installation"></a>Telepítés
 
-Ezeknek a speciális költségfunkcióknak a használatához telepítse a Microsoft Dynamics 365 Finance költségkezelési szolgáltatás bővítményét, és kapcsolja be a példány funkcióit. A bővítményt a projektből a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásban érheti el.
+Ezeknek a speciális költségelszámolási képességeknek a használatához telepítse a Költségkezelési szolgáltatás bővítményt a 365 Pénzügy szolgáltatáshoz Microsoft Dynamics, és kapcsolja be a példány szolgáltatásait. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
 
 1. Jelentkezzen be az LCS rendszerbe, és nyissa meg a kívánt környezetet.
 2. Válassza a **Minden részlet** lehetőséget.
@@ -73,7 +73,7 @@ Amikor bekapcsolja ezeket a funkciókat, a következő műveleteket hajtja végr
 - A rendszer új, a költség mező láthatóságával kapcsolatos menüelemet vesz fel.
 - A korábbi **Költségjelentés** lapot továbbra is megnyithatja a **Költségkezelés > Saját kiadások > Költségjelentések** beállítással.
 - A munkafolyamatok és a jóváhagyások továbbra is a meglévő költségjelentési oldalra irányítják át.
-- A bevételek feldolgozása Microsoft Azure Cognitive Services-en keresztül kerül feldolgozásra, és a metaadatokat kinyeri és hozzáadja.
+- A nyugtákat a rendszer a Microsoft Azure Cognitive Services szolgáltatáson keresztül dolgozza fel; a metaadatokat kinyeri és hozzáadja.
 - A rendszer hozzáad egy olyan beállítást, amellyel a megfeleltetett, nem csatolt nyugtákat tartalmazó költségjelentések hozhatók létre.
 - A rendszer hozzáad egy olyan beállítást a költségjelentésekhez, amellyel költségsor készíthető egy nyugtából, illetve amellyel megpróbálható a meglévő nyugták és költségsorok egyeztetése.
 
@@ -85,7 +85,7 @@ Nem, a Microsoft általános gépi tanulás modellt készített a nyugtákat fel
 
 **Hol érhető el és hol kerül feldolgozásra a szolgáltatás?**
 
-Ennek a funkciónak a különböző régiókban való elérhetősége az alábbi táblázatban található. Ha a régió jelenleg nem támogatott, nyújtson be egy kérelmet az OCR szolgáltatás elérhetőségének rangsorolására a régióban. 
+A szolgáltatás különböző régiókban való elérhetőségét az alábbi táblázat tartalmazza. Ha a régió jelenleg nem támogatott, küldjön egy kérelmet az OCR-szolgáltatás elérhetőségének rangsorolására a régióban. 
 
 | Régió | Támogatott                         |
 |--------|-----------------------------------|

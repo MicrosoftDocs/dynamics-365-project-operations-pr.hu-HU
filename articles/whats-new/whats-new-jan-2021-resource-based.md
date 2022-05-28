@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008094"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599549"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2021. január – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -22,7 +22,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
   - Project Operations a Dataverse-környezet 4.6.0.154 verzióján
-  - Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.16-es verziójában
+  - Projektmenedzsment és számvitel Dynamics 365 Finance környezetben 10.0.16-os verzió
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -43,7 +43,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | **Projekttervezés és nyomon követés** | 2090202 | **Elavult** jelzéssel látta el a már nem használt üzleti szabályokat. |
 | **Idő és költség** | 2091249 | Szigorított a vezérlőkön, hogy a felhasználók ne módosíthassák a feladatot egy elküldött vagy jóváhagyott időbejegyzésen. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance szolgáltatásban
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
 
 | **Funkcióterület** | **Hivatkozási szám** | **Minőségi frissítés** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

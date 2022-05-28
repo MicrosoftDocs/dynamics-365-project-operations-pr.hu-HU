@@ -1,40 +1,40 @@
 ---
-title: Az alvállalkozói alkatrészek töltött idejének, költségeinek és anyaghasználatának rögzítése
-description: Ez a témakör azt ismerteti, hogy az alvállalkozói összetevőkből származó projekteken rögzített időt, költségeket és anyaghasználatot a Microsoft hogyan követi nyomon Dynamics 365 Project Operations.
+title: Az alvállalkozói szerződésben rögzített összetevők felvételi ideje, költségei és anyagfelhasználása
+description: Ez a témakör azt mutatja be, hogy az alvállalkozói összetevőkből származó projekteken rögzített időt, költséget és anyagfelhasználást a Microsoft hogyan követi nyomon Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 04c78dd48367c3720b8f5ad5d924ed106da6a128
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903678"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599227"
 ---
-# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Az alvállalkozói alkatrészek projektjeinek ideje, költségei és anyaghasználata
+# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Az alvállalkozói összetevők projektjeinek idő-, költség- és anyagfelhasználásának rögzítése
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör azt ismerteti, hogy az alvállalkozói összetevőkből származó projekteken rögzített időt, költségeket és anyaghasználatot a Microsoft hogyan követi nyomon Dynamics 365 Project Operations.
+Ez a témakör azt mutatja be, hogy az alvállalkozói összetevőkből származó projekteken rögzített időt, költséget és anyagfelhasználást a Microsoft hogyan követi nyomon Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Az alvállalkozói idő költsége a projekteken
-A Projektműveletekben a szerződéses alkalmazottak az alkalmazottakhoz hasonló módon rögzíthetik a projektek idejét. A projektek és/vagy projektfeladatok időbe adásakor a szerződéses munkavállaló kiválaszthat egy adott alvállalkozói és alvállalkozói sort.
+A Projektműveletek mezőben a szerződéses dolgozók az alkalmazottakhoz hasonló módon rögzíthetik a projekteken eltöltött időt. Amikor időt ad meg a projekteken és/vagy projekttevékenységeken, a szerződéses dolgozó kiválaszthat egy adott alvállalkozói és alvállalkozói sort.
 
-A szerződéses alkalmazottak által benyújtott idő jóváhagyásakor a projektköltséget az adott szerződéses feldolgozói erőforráshoz az alvállalkozó beszerzési árlistájának Szerepkör árak szakaszában beállított egységköltség-arány alapján kell **elszámolni**.
+A szerződéses dolgozók által benyújtott idő jóváhagyásakor a projektköltséget az alvállalkozó beszerzési árlistájának Szerepkör árak **szakaszában az** adott szerződéses dolgozói erőforráshoz beállított egységköltség-ráta alapján rögzíti a program.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>A projektek alvállalkozásba adásának költségei
-A projektek költségeinek megadásakor a költségtételen kiválaszthat egy alvállalkozói és alvállalkozói sort. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>A projektek alvállalkozói költségeinek költsége
+A projekteken felmerült költségek megadásakor a költségtételen kiválaszthat egy alvállalkozói és alvállalkozói sort. 
 
-Amikor ezt a költségtételt benyújtják és jóváhagyják, a költségköltséget az adott tranzakciókategóriához az **alvállalkozó beszerzési árlistájának Kategória árak szakaszában beállított egységköltség alapján kell** elszámolni.
+A költségtétel benyújtásakor és jóváhagyásakor a program a költségköltséget az adott tranzakciókategóriához beállított egységköltség alapján rögzíti a program az **alvállalkozó beszerzési árlistájának Kategória árak** szakaszában.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>A projektek alvállalkozói anyagának költsége
-A projektek anyagfelhasználásának megadásakor az anyaghasználati naplóban kiválaszthat egy alvállalkozói és alvállalkozói sort. Az anyaghasználati napló benyújtásakor és jóváhagyásakor az anyagköltséget a projekten az adott termékhez az **alvállalkozói árlista Árlista-cikkek szakaszában beállított egységköltség alapján** rögzítik.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>A projektek alvállalkozói anyagainak költségszámítása
+Amikor anyagfelhasználást ad meg a projektekben, kiválaszthat egy alvállalkozói és alvállalkozói sort az anyaghasználati naplóban. Az anyaghasználati napló elküldésekor és jóváhagyásakor a program az alvállalkozói árlista árlistájának Árlistatétel szakaszában **az adott termékhez beállított egységköltség alapján rögzíti az anyagköltséget a** projekten.
 
-Az anyaghasználat a projekteken lévő termékek írására is rögzíthető. Az ilyen típusú anyagfelhasználás alvállalkozói és alvállalkozói vonalhoz is kapcsolható. A beírt termékek anyaghasználatának rögzítésekor meg kell adnia a beírt termék egységenkénti költségét. 
+Az anyagfelhasználás a projektekben szereplő termékekbe való íráshoz is rögzíthető. Az ilyen típusú anyaghasználat alvállalkozói és alvállalkozói sorhoz is csatolható. A beírt termékek anyaghasználatának rögzítésekor meg kell adnia a beírt termék egységköltségét. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

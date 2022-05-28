@@ -4,27 +4,27 @@ description: Ez a témakör a beállításról és a konfigurációs adatok Proj
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986629"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594719"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban 
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Előfeltételek
 
 Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolgáltatásban, a következő előfeltételeknek kell teljesülniük:
 
-1.  CDS-környezet és Dynamics 365 Finance-környezet kiépítése a Project Operationshoz.
-2.  A jogi személy adatait meg kell osztani a Dynamics 365 Finance-ből a CDS-környezetbe. Ez azt jelenti, hogy a **vállalat** entitás a CDS-ben a következő vállalati rekordokkal rendelkezik:
+1.  CDS-környezet és Dynamics 365 Finance környezet kiépítése a projektműveletek számára.
+2.  A Dynamics 365 Finance származó jogi személyek adatai meg vannak osztva a CDS-környezettel. Ez azt jelenti, hogy a **vállalat** entitás a CDS-ben a következő vállalati rekordokkal rendelkezik:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolg�
 
 ![Konfiguráció-áttelepítés.](./media/1ConfigurationMigration.png)
 
-4. A CMT varázsló 2. oldalán jelölje ki a **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
+4. A CMT varázsló 2. oldalán jelölje ki az **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
 5. Jelölje be az **Elérhető szervezetek listájának megjelenítése** és a **Speciális megjelenítése** jelölőnégyzeteket.
 6. Válassza ki a bérlő régióját, adja meg a hitelesítő adatait, majd válassza a **Bejelentkezés** lehetőséget.
 
@@ -132,7 +132,7 @@ Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolg�
 12. Frissítse a következő mezőket:
 
  - **Alapértelmezett vállalat**: USPM
- - **Alapértelmezett szervezeti egység**: Contoso Robotics Global
+ - **Alapértelmezett szervezeti egység** : Contoso Robotics Global
  - **Számlázási gyakoriság**: Hetedik és utolsó nap
  - **Munkaidősablon**: Váltson a létrehozott sablonra.
 

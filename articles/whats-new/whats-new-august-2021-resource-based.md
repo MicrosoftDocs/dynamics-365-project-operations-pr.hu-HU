@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501374"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594167"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok - 2021. augusztus - Project Operations erőforrás/nem készletalapú forgatókönyvekhez
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501374"
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.13.0.152 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.20-es verziójában.
+   - Projektmenedzsment és számvitel Dynamics 365 Finance környezetvédelmi verzióban 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -54,7 +54,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó t
 | Idő és költség | 2336884 | A **Hét másolása** időbejegyzés gombnak nem csak az aktuális felhasználó számára kell működnie. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance szolgáltatásban
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

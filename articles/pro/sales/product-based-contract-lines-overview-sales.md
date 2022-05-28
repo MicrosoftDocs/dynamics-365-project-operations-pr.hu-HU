@@ -3,16 +3,15 @@ title: Termékalapú szerződéssorok áttekintése - Lite
 description: Ez a témakör információkat nyújt a termékalapú szerződéssorokról.
 author: rumant
 ms.date: 10/07/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8006e90e0d4fdf02042f26b261775a92f87f47ca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007554"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598215"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Termékalapú szerződéssorok áttekintése - Lite
 
