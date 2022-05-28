@@ -4,14 +4,14 @@ description: Ez a témakör a nevesített erőforrásoknak egy általános erőf
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92255564e2a1ffa4077ded9b3cf5216dedba0913
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008274"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588601"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Általános erőforrás-követelmények teljesítése
 

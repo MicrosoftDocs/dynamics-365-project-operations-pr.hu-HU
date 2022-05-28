@@ -3,16 +3,15 @@ title: Erőforrás-kihasználtság áttekintése
 description: Ez a témakör információkat nyújt az erőforrás-kihasználtságról a Project Operations alkalmazásban.
 author: ruhercul
 ms.date: 11/05/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e24bbb33cdf34426d4e7fff21b68fcaea2fcef5e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002064"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587129"
 ---
 # <a name="resource-utilization-overview"></a>Erőforrás-kihasználtság áttekintése
 

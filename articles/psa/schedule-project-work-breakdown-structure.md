@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996799"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587359"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Projekt ütemezése munkalebontási struktúrával (Project Service)
 
@@ -63,7 +64,7 @@ A projektütemterv adja meg, hogy milyen munkát kell végezni, milyen erőforr�
 ## <a name="task-types"></a>Feladattípusok  
 A következő típusú feladatokat fogja használni, a munkalebontási szerkezet létrehozásakor:  
 
-| | | 
+| Feladatok | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Projekt gyökércsomópontja** | A felső szintű összefoglaló tevékenység a projekt számára. Minden más projekttevékenység ez alapján jönnek létre. A legfelső szintű gyökér tevékenység neve a projekt neve. Az erőkifejtés, a dátumok és a gyökércsomópont időtartama a hierarchiában lenn található értékeken alapulnak. Nem módosíthatja a gyökér csomópont tulajdonságait vagy törölheti a gyökér csomópontot. | 
 | **Összefoglaló vagy tárolófeladatok** | Összefoglaló tevékenység az a tevékenység, amely alatta altevékenységekkel rendelkezik. Az összefoglaló tevékenység nem rendelkezik semmilyen munka erőkifejtéssel vagy saját költséggel. A munka erőfeszítés és költség az altevékenységeinek összesítése. Módosíthatja az összefoglaló tevékenység nevét, de nem módosíthatja az erőkifejtést, a dátumokat, vagy az időtartamot, mert azokat automatikusan számítják ki. Az összegző tevékenység törlésével törlődik a feladat és az összes altevékenysége.|  

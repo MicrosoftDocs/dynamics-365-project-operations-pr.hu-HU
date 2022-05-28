@@ -3,15 +3,15 @@ title: Alvállalkozói szerződések kezelése Project Operations-ben
 description: Ez a téma áttekintést nyújt a projektalapú szervezeteknél jellemzően végponttól végpontig tartó alvállalkozói szerződéskezelési folyamatról.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323599"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593017"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Alvállalkozói szerződések kezelése Project Operations-ben
 
@@ -46,7 +46,7 @@ Az alvállalkozói szerződéssor lehet mennyiségi vagy munkaalapú.
 
 Ha egy alvállalkozói szerződéssor **mennyiségi alapú**, az alvállalkozói szerződéssoron időre, költségre vagy anyagra vásárolt mennyiség bármely projektben felhasználható.
 
-Ha egy alvállalkozói szerződés sora **munkaalapú**, az alvállalkozói szerződés sora a projekttervben egy csomópont által képviselt munkarészhez tartozik. Az alvállalkozói szerződéssor értéke az adott munkarész teljesítéséhez szükséges összes komponens összege. Ezeket alvállalkozói szerződéssor részleteiként modellezik, és lehetnek idő-, költség- vagy anyaggyűjtemények. Munkán alapuló alvállalkozói szerződéssor esetében az alvállalkozói szerződéssor szintén egyetlen projekthez van rendelve.
+Ha egy alvállalkozói szerződés sora **munkaalapú**, az alvállalkozói szerződés sora a projekttervben egy csomópont által képviselt munkarészhez tartozik. Az alvállalkozói szerződéssor értéke az adott munkarész teljesítéséhez szükséges összes komponens összege. Ezeket alvállalkozói szerződéssor részleteiként modellezik, és lehetnek idő-, költség- vagy anyaggyűjtemények. Munkán alapuló alvállalkozói szerződéssor esetében az alvállalkozói szerződéssor szintén egyetlen projekthez van rendelve. Az ilyen típusú alvállalkozói szerződések currenlty nem támogatott Projekt műveletek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

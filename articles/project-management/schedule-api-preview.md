@@ -2,16 +2,16 @@
 title: Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 description: Ez témakör tájékoztatást és példákat tartalmaz a Projektütemezési API-k használatával kapcsolatban.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
-ms.translationtype: HT
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487688"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592051"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 
@@ -42,7 +42,7 @@ Az OperationSet egy munkaegység-minta, amely akkor használható, ha egy tranza
 
 A következő lista az aktuális Projektütemezési API-kat sorolja fel.
 
-- **msdyn_CreateProjectV1**: Ez az API projekt létrehozására használható. A projekt és az alapértelmezett projektgyűjtő azonnal létrejön.
+- **msdyn_CreateProjectV1**: Ez az API projekt létrehozására használható. A projekt és az alapértelmezett projektvödör azonnal létrejön.
 - **msdyn_CreateTeamMemberV1**: Ez az API projekt csoporttag létrehozására használható. A csoporttag-rekord azonnal létrejön.
 - **msdyn_CreateOperationSetV1**: Ez az API több olyan kérés ütemezésére használható, amelyet egy tranzakción belül kell végrehajtani.
 - **msdyn_PSSCreateV1**: Ez az API entitás létrehozására használható. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet.
@@ -56,14 +56,14 @@ Mivel a **CreateProjectV1** és a **CreateTeamMemberV1** rekordok azonnal létre
 
 ## <a name="supported-operations"></a>Támogatott műveletek
 
-| Ütemezési entitás | Létrehozás | Frissítés | Delete | Fontos tényezők |
+| Ütemezési entitás | Létrehozás | Update | Delete | Fontos tényezők |
 | --- | --- | --- | --- | --- |
-Projektfeladat | Igen | Igen | Igen | Egyik sem |
-| Projektfeladat függősége | Igen | Igen | | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és új rekord is létrehozható. |
-| Erőforrás-hozzárendelés | Igen | Igen | | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és új rekord is létrehozható. |
-| Projektgyűjtő | N. a. | N. a. | N. a. | Az alapértelmezett gyűjtő létrehozása a **CreateProjectV1** API használatával jön létre. |
+Projektfeladat | Igen | Igen | Igen | A **Folyamat**, **a Munkamennyiség-kiegészítés** és **a EffortRemaining** mezők szerkeszthetők a Project for the Web programban, de a Project Operations alkalmazásban nem szerkeszthetők.  |
+| Projektfeladat függősége | Igen |  | Igen | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és új rekord hozható létre. |
+| Erőforrás-hozzárendelés | Igen | Igen | | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és új rekord hozható létre. |
+| Projektgyűjtő | Igen | Igen | Igen | Az alapértelmezett gyűjtő a **CreateProjectV1** API használatával jön létre. A projektvödörök létrehozásának és törlésének támogatása a 16. frissítésben került hozzáadásra. |
 | A projekt csapattagja | Igen | Igen | Igen | A létrehozáshoz használja a **CreateTeamMemberV1** API-t. |
-| Project | Igen | Igen | N. a. | A következő mezőkkel végzett műveletek nem támogatottak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, és **Duration**. |
+| Project | Igen | Igen |  | A következő mezőkkel végzett műveletek nem támogatottak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, és **Duration**. |
 
 Ezek az API-k egyéni mezőket tartalmazó entitásobjektumokkal hívhatóak meg.
 
@@ -71,196 +71,207 @@ Ez az azonosító-tulajdonság nem kötelező. Ha rendelkezésre áll, a rendsze
 
 ## <a name="restricted-fields"></a>Korlátozott mezők
 
-A következő táblázatok határozzák meg a **Létrehozás** és **Szerkesztés** mezőkre vonatkozó korlátozásokat.
+Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehozás **és** szerkesztés **szolgáltatásban** vannak korlátozva.
 
 ### <a name="project-task"></a>Projektfeladat
 
-| **Logikai név**                       | **Létrehozhat** | **Szerkeszthet**     |
+| Logikai név                           | Létrehozható     | Szerkeszthet         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | nem             | nem               |
-| msdyn_actualcost_base                  | nem             | nem               |
-| msdyn_actualend                        | nem             | nem               |
-| msdyn_actualsales                      | nem             | nem               |
-| msdyn_actualsales_base                 | nem             | nem               |
-| msdyn_actualstart                      | nem             | nem               |
-| msdyn_costatcompleteestimate           | nem             | nem               |
-| msdyn_costatcompleteestimate_base      | nem             | nem               |
-| msdyn_costconsumptionpercentage        | nem             | nem               |
-| msdyn_effortcompleted                  | nem             | nem               |
-| msdyn_effortestimateatcomplete         | nem             | nem               |
-| msdyn_iscritical                       | nem             | nem               |
-| msdyn_iscriticalname                   | nem             | nem               |
-| msdyn_ismanual                         | nem             | nem               |
-| msdyn_ismanualname                     | nem             | nem               |
-| msdyn_ismilestone                      | nem             | nem               |
-| msdyn_ismilestonename                  | nem             | nem               |
-| msdyn_LinkStatus                       | nem             | nem               |
-| msdyn_linkstatusname                   | nem             | nem               |
-| msdyn_msprojectclientid                | nem             | nem               |
-| msdyn_plannedcost                      | nem             | nem               |
-| msdyn_plannedcost_base                 | nem             | nem               |
-| msdyn_plannedsales                     | nem             | nem               |
-| msdyn_plannedsales_base                | nem             | nem               |
-| msdyn_pluginprocessingdata             | nem             | nem               |
-| msdyn_progress                         | nem             | nem (igen a P4W- hez) |
-| msdyn_remainingcost                    | nem             | nem               |
-| msdyn_remainingcost_base               | nem             | nem               |
-| msdyn_remainingsales                   | nem             | nem               |
-| msdyn_remainingsales_base              | nem             | nem               |
-| msdyn_requestedhours                   | nem             | nem               |
-| msdyn_resourcecategory                 | nem             | nem               |
-| msdyn_resourcecategoryname             | nem             | nem               |
-| msdyn_resourceorganizationalunitid     | nem             | nem               |
-| msdyn_resourceorganizationalunitidname | nem             | nem               |
-| msdyn_salesconsumptionpercentage       | nem             | nem               |
-| msdyn_salesestimateatcomplete          | nem             | nem               |
-| msdyn_salesestimateatcomplete_base     | nem             | nem               |
-| msdyn_salesvariance                    | nem             | nem               |
-| msdyn_salesvariance_base               | nem             | nem               |
-| msdyn_scheduleddurationminutes         | nem             | nem               |
-| msdyn_scheduledend                     | nem             | nem               |
-| msdyn_scheduledstart                   | nem             | nem               |
-| msdyn_schedulevariance                 | nem             | nem               |
-| msdyn_skipupdateestimateline           | nem             | nem               |
-| msdyn_skipupdateestimatelinename       | nem             | nem               |
-| msdyn_summary                          | nem             | nem               |
-| msdyn_varianceofcost                   | nem             | nem               |
-| msdyn_varianceofcost_base              | nem             | nem               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Nem (igen a projektre)             | Nem (igen a projektre)               |
+| msdyn_effortremaining                  | Nem (igen a projektre)              | Nem (igen a projektre)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Nem (igen a projektre)             | Nem (igen a projektre) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Projektfeladat függősége
 
-| **Logikai név**              | **Létrehozhat** | **Szerkeszthet** |
+| Logikai név                  | Létrehozható     | Szerkeszthet     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | nem             | nem           |
-| msdyn_linktypename            | nem             | nem           |
-| msdyn_predecessortask         | igen            | nem           |
-| msdyn_predecessortaskname     | igen            | nem           |
-| msdyn_project                 | igen            | nem           |
-| msdyn_projectname             | igen            | nem           |
-| msdyn_projecttaskdependencyid | igen            | nem           |
-| msdyn_successortask           | igen            | nem           |
-| msdyn_successortaskname       | igen            | nem           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Igen            | No           |
+| msdyn_predecessortaskname     | Igen            | No           |
+| msdyn_project                 | Igen            | No           |
+| msdyn_projectname             | Igen            | No           |
+| msdyn_projecttaskdependencyid | Igen            | No           |
+| msdyn_successortask           | Igen            | No           |
+| msdyn_successortaskname       | Igen            | No           |
 
 ### <a name="resource-assignment"></a>Erőforrás-hozzárendelés
 
-| **Logikai név**             | **Létrehozhat** | **Szerkeszthet** |
+| Logikai név                 | Létrehozható     | Szerkeszthet     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | igen            | nem           |
-| msdyn_bookableresourceidname | igen            | nem           |
-| msdyn_bookingstatusid        | nem             | nem           |
-| msdyn_bookingstatusidname    | nem             | nem           |
-| msdyn_committype             | nem             | nem           |
-| msdyn_committypename         | nem             | nem           |
-| msdyn_effort                 | nem             | nem           |
-| msdyn_effortcompleted        | nem             | nem           |
-| msdyn_effortremaining        | nem             | nem           |
-| msdyn_finish                 | nem             | nem           |
-| msdyn_plannedcost            | nem             | nem           |
-| msdyn_plannedcost_base       | nem             | nem           |
-| msdyn_plannedcostcontour     | nem             | nem           |
-| msdyn_plannedsales           | nem             | nem           |
-| msdyn_plannedsales_base      | nem             | nem           |
-| msdyn_plannedsalescontour    | nem             | nem           |
-| msdyn_plannedwork            | nem             | nem           |
-| msdyn_projectid              | igen            | nem           |
-| msdyn_projectidname          | nem             | nem           |
-| msdyn_projectteamid          | nem             | nem           |
-| msdyn_projectteamidname      | nem             | nem           |
-| msdyn_start                  | nem             | nem           |
-| msdyn_taskid                 | nem             | nem           |
-| msdyn_taskidname             | nem             | nem           |
-| msdyn_userresourceid         | nem             | nem           |
+| msdyn_bookableresourceid     | Igen            | No           |
+| msdyn_bookableresourceidname | Igen            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Igen            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>A projekt csapattagja
 
-| **Logikai név**                                 | **Létrehozhat** | **Szerkeszthet** |
+| Logikai név                                     | Létrehozható     | Szerkeszthet     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | nem             | nem           |
-| msdyn_creategenericteammemberwithrequirementname | nem             | nem           |
-| msdyn_deletestatus                               | nem             | nem           |
-| msdyn_deletestatusname                           | nem             | nem           |
-| msdyn_effort                                     | nem             | nem           |
-| msdyn_effortcompleted                            | nem             | nem           |
-| msdyn_effortremaining                            | nem             | nem           |
-| msdyn_finish                                     | nem             | nem           |
-| msdyn_hardbookedhours                            | nem             | nem           |
-| msdyn_hours                                      | nem             | nem           |
-| msdyn_markedfordeletiontimer                     | nem             | nem           |
-| msdyn_markedfordeletiontimestamp                 | nem             | nem           |
-| msdyn_msprojectclientid                          | nem             | nem           |
-| msdyn_percentage                                 | nem             | nem           |
-| msdyn_requiredhours                              | nem             | nem           |
-| msdyn_softbookedhours                            | nem             | nem           |
-| msdyn_start                                      | nem             | nem           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Project
 
-| **Logikai név**                       | **Létrehozhat** | **Szerkeszthet** |
+| Logikai név                           | Létrehozható     | Szerkeszthet     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | nem             | nem           |
-| msdyn_actualexpensecost_base           | nem             | nem           |
-| msdyn_actuallaborcost                  | nem             | nem           |
-| msdyn_actuallaborcost_base             | nem             | nem           |
-| msdyn_actualsales                      | nem             | nem           |
-| msdyn_actualsales_base                 | nem             | nem           |
-| msdyn_contractlineproject              | igen            | nem           |
-| msdyn_contractorganizationalunitid     | igen            | nem           |
-| msdyn_contractorganizationalunitidname | igen            | nem           |
-| msdyn_costconsumption                  | nem             | nem           |
-| msdyn_costestimateatcomplete           | nem             | nem           |
-| msdyn_costestimateatcomplete_base      | nem             | nem           |
-| msdyn_costvariance                     | nem             | nem           |
-| msdyn_costvariance_base                | nem             | nem           |
-| msdyn_duration                         | nem             | nem           |
-| msdyn_effort                           | nem             | nem           |
-| msdyn_effortcompleted                  | nem             | nem           |
-| msdyn_effortestimateatcompleteeac      | nem             | nem           |
-| msdyn_effortremaining                  | nem             | nem           |
-| msdyn_finish                           | igen            | igen          |
-| msdyn_globalrevisiontoken              | nem             | nem           |
-| msdyn_islinkedtomsprojectclient        | nem             | nem           |
-| msdyn_islinkedtomsprojectclientname    | nem             | nem           |
-| msdyn_linkeddocumenturl                | nem             | nem           |
-| msdyn_msprojectdocument                | nem             | nem           |
-| msdyn_msprojectdocumentname            | nem             | nem           |
-| msdyn_plannedexpensecost               | nem             | nem           |
-| msdyn_plannedexpensecost_base          | nem             | nem           |
-| msdyn_plannedlaborcost                 | nem             | nem           |
-| msdyn_plannedlaborcost_base            | nem             | nem           |
-| msdyn_plannedsales                     | nem             | nem           |
-| msdyn_plannedsales_base                | nem             | nem           |
-| msdyn_progress                         | nem             | nem           |
-| msdyn_remainingcost                    | nem             | nem           |
-| msdyn_remainingcost_base               | nem             | nem           |
-| msdyn_remainingsales                   | nem             | nem           |
-| msdyn_remainingsales_base              | nem             | nem           |
-| msdyn_replaylogheader                  | nem             | nem           |
-| msdyn_salesconsumption                 | nem             | nem           |
-| msdyn_salesestimateatcompleteeac       | nem             | nem           |
-| msdyn_salesestimateatcompleteeac_base  | nem             | nem           |
-| msdyn_salesvariance                    | nem             | nem           |
-| msdyn_salesvariance_base               | nem             | nem           |
-| msdyn_scheduleperformance              | nem             | nem           |
-| msdyn_scheduleperformancename          | nem             | nem           |
-| msdyn_schedulevariance                 | nem             | nem           |
-| msdyn_taskearlieststart                | nem             | nem           |
-| msdyn_teamsize                         | nem             | nem           |
-| msdyn_teamsize_date                    | nem             | nem           |
-| msdyn_teamsize_state                   | nem             | nem           |
-| msdyn_totalactualcost                  | nem             | nem           |
-| msdyn_totalactualcost_base             | nem             | nem           |
-| msdyn_totalplannedcost                 | nem             | nem           |
-| msdyn_totalplannedcost_base            | nem             | nem           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Igen            | No           |
+| msdyn_contractorganizationalunitid     | Igen            | No           |
+| msdyn_contractorganizationalunitidname | Igen            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costestimateatcomplete           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Igen            | Igen          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Projektgyűjtő
+
+| Logikai név          | Létrehozható      | Szerkeszthet     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Igen             | No           |
+| msdyn_name            | Igen             | Igen          |
+| msdyn_project         | Igen             | No           |
+| msdyn_projectbucketid | Igen             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Korlátozások és ismert problémák
 Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
-- A Projektütemezési API-kat csak **Microsoft Project licensszel rendelkező felhasználók használhatjak.** Nem használhatják:
+- A projektütemezés API-kat csak a Microsoft Project licenccel rendelkező felhasználók **használhatják**. Nem használhatják:
+
     - Alkalmazásfelhasználók
     - Rendszerfelhasználók
     - Integrációs felhasználók
     - Más felhasználók, akik nem rendelkeznek a szükséges licenccel
+
 - Minden **OperationSet** legfeljebb 100 művelettel rendelkezhet.
 - Minden felhasználó legfeljebb 10 nyitott **OperationSet** művelettel rendelkezhet.
 - A Project Operations jelenleg legfeljebb 500 projektfeladatot támogat.
@@ -269,8 +280,8 @@ Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
 ## <a name="error-handling"></a>Hibakezelés
 
-   - Az Operation Setsből generált hibák áttekintéséhez lépjen a **Beállítások** \> **Ütemezésintegráció** \> **Műveleti készletek** lapra.
-   - A Projektütemező szolgáltatásból származó hibák megtekintéséhez menjena **Beállítások** \> **Ütemezésintegráció** \> **PSS hibanaplókban** menübe.
+- Az Operation Setsből generált hibák áttekintéséhez lépjen a **Beállítások** \> **Ütemezésintegráció** \> **Műveleti készletek** lapra.
+- A Projektütemező szolgáltatásból származó hibák megtekintéséhez menjena **Beállítások** \> **Ütemezésintegráció** \> **PSS hibanaplókban** menübe.
 
 ## <a name="sample-scenario"></a>Példaforgatókönyv
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

@@ -4,20 +4,20 @@ description: Ez a témakör a bemutató beállítás és a konfigurációs adato
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993289"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586991"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Bemutató beállítások és konfigurációs adatok alkalmazása a Project Operations alkalmazáshoz – Lite 
 
 _**Lite telepítés – ajánlattól proforma számlázásig_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Előfeltételek
 
@@ -32,7 +32,7 @@ A konfiguráció megkezdése előtt rendelkeznie kell egy Common Data Service (C
 
     ![Konfiguráció-áttelepítés.](./media/1ConfigurationMigration.png)
 
-4. A CMT varázsló 2. oldalán jelölje ki a **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
+4. A CMT varázsló 2. oldalán jelölje ki az **Microsoft 365** lehetőséget a **Telepítési típus** értékeként.
 5. Jelölje be az **Elérhető szervezetek listájának megjelenítése** és a **Speciális megjelenítése** jelölőnégyzeteket.
 6. Válassza ki a bérlő régióját, adja meg a hitelesítő adatait, majd válassza a **Bejelentkezés** lehetőséget.
 

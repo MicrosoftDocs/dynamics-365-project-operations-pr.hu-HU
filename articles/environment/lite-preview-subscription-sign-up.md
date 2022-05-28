@@ -4,14 +4,14 @@ description: Ez a témakör a Project Operations Lite telepítés – ajánlatt�
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991534"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588003"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Regisztráció az előzetes verziós előfizetésre – Lite 
 
@@ -43,7 +43,7 @@ Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelen
 > A következő lépések végrehajtásához rendszergazdai hozzáféréssel kell rendelkeznie a szervezete Microsoft 365-portáljához.
 
 
-1. Nyissa meg a [Microsoft 365 felügyeleti központot](https://portal.office.com/), és rendelje hozzá a licenceket a felhasználókhoz.
+1. Nyissa meg a [Microsoft 365 Felügyeleti központot](https://portal.office.com/), hogy hozzárendelje a licenceket a felhasználókhoz.
 2. Az **Aktív felhasználók** oldalon jelölje ki azokat a felhasználókat, akikhez licencet szeretne rendelni.
 3. Ellenőrizze, hogy a **Dynamics 365 Project Operations** licenc ki legyen jelölve. 
 4. Válassza a **Módosítások mentése** lehetőséget.

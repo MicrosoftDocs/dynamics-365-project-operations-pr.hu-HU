@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002334"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591913"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Egyéni mezők beállítása árazási dimenziókként 
 
@@ -73,7 +74,7 @@ Az árképzési dimenzióknak két típusa létezik:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Telephely            |                    |Túlóra                 |15     |
 |             | Contoso India|Helyi             |                    |Túlóra                 |10     |
-|             | Contoso US   |Helyi             |                    |Túlóra                 |20     |
+|             | Contoso USA   |Helyi             |                    |Túlóra                 |20     |
 
 
 Ha a Contoso India erőforrása, amelynek alapára 100 USD, működik a helyszínen, és napi 8 órát szokásos időt és 2 órát túlórát jelent az időbeíráskor, a Project Service árazási motor 8 órán keresztül 100-as alapárat fog használni rögzíteni 800 USD. A 2 órás túlórára 15%-os felárat kell alkalmazni a 100-as alapárra, hogy 115 USD egységárhoz jussanak, és a teljes költség 230 USD lesz.

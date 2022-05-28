@@ -4,14 +4,14 @@ description: Ez a témakör információkat és példákat tartalmaz a vállalat
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994054"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591591"
 ---
 # <a name="configure-intercompany-invoicing"></a>A vállalatközi számlázás konfigurálása
 
@@ -21,11 +21,11 @@ Hajtsa végre az alábbi lépéseket a vállalatközi számlázás beállítás�
 
 ## <a name="example-configure-intercompany-invoicing"></a>Példa: A vállalatközi számlázás konfigurálása
 
-A következő példában a Contoso Robotics USA (USPM) a hitelfelvevő jogi személy, a Contoso Robotics UK (GBPM) pedig a kölcsönt nyújtó jogi személy. 
+A következő példában a Contoso Robotics USA (USPM) a kölcsönvevő jogi személy és a Contoso Robotics UK (GBPM) a kölcsönadó jogi személy. 
 
 1. **A vállalatközi könyvelés konfigurálása a jogi személyek között**. A kölcsönadó és kölcsönvevő jogi személyek minden párját tagját be kell állítani a főkönyvi [vállalatközi könyvelés](/dynamics365/finance/general-ledger/intercompany-accounting-setup) lapján.
     
-    1. A Dynamics 365 Finance alkalmazásban válassza a **Főkönyv** > **Feladás beállításai** > **Vállalatközi könyvelés** lehetőséget. Hozzon létre egy rekordot a következő adatokkal:
+    1. A Dynamics 365 Finance válassza a **Főkönyvi** > **könyvelés beállítása Vállalatközi könyvelést** > **·**. Hozzon létre egy rekordot a következő adatokkal:
 
         - **Eredeti vállalat** = **GBPM**
         - **Célvállalat** = **USPM**
@@ -35,13 +35,13 @@ A következő példában a Contoso Robotics USA (USPM) a hitelfelvevő jogi szem
      1. A Finance-ben válassza ki a jogi személyt: **GBPM**.
      2. Nyissa meg a **Kinnlevőségek** > **Ügyfél** > **Összes ügyfél** menüpontot. Hozzon létre egy új rekordot az **USPM** jogi személyhez.
      3. Bontsa ki a **Név** elemet, szűrje a rekordokat **Típus** szerint, és válassza a **Jogi személyek** lehetőséget. 
-     4. Keresse meg és válassza ki a **Contoso Robotics USA (USPM) ügyfélrekordját**.
+     4. Keresse meg és jelölje ki a **Contoso Robotics USA (USPM)** ügyfélrekordot.
      5. Válassza az **Egyezés használata** lehetőséget. 
      6. Válassza ki az **50 - Vállalatközi ügyfelek** ügyfélcsoportot, majd mentse a rekordot.
      7. Válassza ki a **USPM** jogi személyt.
      8. Nyissa meg a **Kötelezettségek** > **Szállítók** > **Összes szállító** lehetőséget. Hozzon létre egy új rekordot az **GBPM** jogi személyhez.
      9. Bontsa ki a **Név** elemet, szűrje a rekordokat **Típus** szerint, és válassza a **Jogi személyek** lehetőséget. 
-     10. Keresse meg és válassza ki a **Contoso Robotics UK (GBPM) ügyfélrekordját**.
+     10. Keresse meg és jelölje ki a **Contoso Robotics UK (GBPM)** ügyfélrekordot.
      11. Válassza az **Egyezés használata** lehetőséget , jelölje ki a szállítói csoportot, majd mentse a rekordot.
      12. A szállítói rekordban válassza az **Általános** > **Beállítás** > **Vállalatközi** lehetőséget.
      13. A **Kereskedelmi kapcsolat** lapon állítsa az **Aktív** beállítást **Igen** értékre.
@@ -80,23 +80,23 @@ A következő példában a Contoso Robotics USA (USPM) a hitelfelvevő jogi szem
 
 5. **A munkaerőhöz tartozó transzferár beállítása**. A vállalatközi transzferár konfigurálása a Project Operations alkalmazásban történik a Dataverse-ben. A [munkadíjak](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) és [munkaerő számlázási árak](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) konfigurálása vállalatközi számlázáshoz. A transzferár nem támogatott a vállalatközi költségtranzakciók esetében. A vállalatközi eladási ár mindig ugyanarra az értékre lesz beállítva, mint a beszerzési egységár.
 
-      A Contoso Robotics UK fejlesztői erőforrásköltsége óránként 88 GBP. Contoso Robotics UK 120 USD-t számláz a Contoso Robotics USA felé minden órában, amikor ezt az erőforrást az amerikai projektekben használják. Contoso Robotics USA az Adventure Works ügyfél felé 200 USD-t számláz a Contoso Robotics UK fejlesztői erőforrás által teljesített munkáért.
+      A Contoso Robotics UK vállalatnál a fejlesztői erőforrás ára 88 font/óra. A Contoso Robotics UK a Contoso Robotics USA felé120 dollárt számláz minden óráért amit az erőforrás az amerikai projekteken dolgozott. A Contoso Robotics USA az Adventure Works ügyfélnek 200 dollárt számláz a Contoso Robotics UK fejlesztői erőforrása által végzett munkáért.
 
-      1. A Dataverse Project Operations alkalmazásban válassza az **Értékesítés** > **Árlisták** lehetőséget. Hozzon létre egy új költség árlistát **Contoso Robotics UK költségaránya néven.** 
+      1. A Dataverse Project Operations alkalmazásban válassza az **Értékesítés** > **Árlisták** lehetőséget. Hozzon létre egy új önköltségi árlistát a **Contoso Robotics UK önköltségi árak** néven. 
       2. Hozzon létre egy rekordot az önköltségi árlistában, amely a következő információkat tartalmazza:
          - **Szerepkör** = **Fejlesztő**
          - **Költség** = **88 GBP**
-      3. Lépjen a **Beállítások** > **Szervezeti egységek** menübe, és csatolja ezt a költségárlistát a **Contoso Robotics UK** szervezeti egységéhez.
-      4. Válassza az **Értékesítés** > **Árlisták** lehetőséget. Hozzon létre egy új költség árlistát **Contoso Robotics UK költségaránya néven**. 
+      3. Nyissa meg a **Beállítások** > **Szervezeti egységek** elemet, és csatolja ezt az önköltségi árlistát a **Contoso Robotics UK** szervezeti egységhez.
+      4. Válassza az **Értékesítés** > **Árlisták** lehetőséget. Hozzon létre egy önköltségi árlistát a **Contoso Robotics USA önköltségi árak** néven. 
       5. Hozzon létre egy rekordot az önköltségi árlistában, amely a következő információkat tartalmazza:
           - **Szerepkör** = **Fejlesztő**
-          - **Beszerző cég** = **Contoso Robotics UK**
+          - **Erőforrás vállalat** = **Contoso Robotics UK**
           - **Költség** = **120 USD**
-      6. Lépjen a **Beállítások** > **Szervezeti egységek** menübe, és csatolja a **Contoso Robotics UK költségarányok** költségárlistát a **Contoso Robotics USA** szervezeti egységéhez.
+      6. Nyissa meg a **Beállítások** > **Szervezeti egységek** elemet, és csatolja a **Contoso Robotics USA önköltségi árak** önköltségi árlistát a **Contoso Robotics USA** szervezeti egységhez.
       7. Válassza az **Értékesítés** > **Árlisták** lehetőséget. Hozzon létre egy értékesítési árlistát **Adventure Works számlázási árak** néven. 
       8. Hozzon létre egy rekordot az értékesítési árlistában, amely a következő információkat tartalmazza:
           - **Szerepkör** = **Fejlesztő**
-          - **Beszerző cég** = **Contoso Robotics UK**
+          - **Erőforrás vállalat** = **Contoso Robotics UK**
           - **Számlázási ár** = **200 dollár**
       9. Nyissa meg a **Sales** > **Projektszerződések** lehetőséget és csatolja az **Adventure Works számlázási árak** a projektszerződés Adventure Works projektárlistájához.
 

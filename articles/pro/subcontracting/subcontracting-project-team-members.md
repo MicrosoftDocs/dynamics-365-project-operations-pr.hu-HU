@@ -1,59 +1,59 @@
 ---
-title: Alvállalkozói projektcsapat tagjai
-description: Ez a témakör elmagyarázza, hogyan alvállalkozásba adaktatja a projektcsapat tagjait a Microsoft programban Dynamics 365 Project Operations.
+title: Alvállalkozóiprojektcsoporttag-regisztráció
+description: Ez a témakör bemutatja, hogyan lehet alvállalkozásba adni a projektcsapat tagjait a Microsoftban Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903676"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587849"
 ---
-# <a name="subcontracting-project-team-members"></a>Alvállalkozói projektcsapat tagjai
+# <a name="subcontracting-project-team-members"></a>Alvállalkozóiprojektcsoporttag-regisztráció
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Microsoft Dynamics 365 Project Operations programban dönthet úgy, hogy nem személyzettel vagy személyzettel nem dolgozó projektcsapat-tagokat ad át.
+A Microsoft Dynamics 365 Project Operations programban választhat, hogy alvállalkozásba adja a személyzettel nem rendelkező vagy személyzettel rendelkező projektcsapat tagjait.
 
-- A nem személyzettel rendelkező projektcsapat tagjai általános erőforrással rendelkeznek.
+- A projektcsapat személyzettel nem rendelkező tagjaihoz általános erőforrás van hozzárendelve.
 - A személyzet tagjai egy elnevezett erőforrással rendelkeznek.
 
-Amikor egy projektcsapattagot egy alvállalkozói sorhoz kapcsol, a csapattag által végzett tevékenységekhez való hozzárendelések az alvállalkozóhoz csatolt beszerzési árlista alapján újracosodnak.  A **Projekt** részletei lap Becsültek lapján **válassza az Árak frissítése** gombot az **alvállalkozásról** szóló döntésből eredő frissített díjszabás és/vagy költségszámítás megtekintéséhez. 
+Amikor egy projektcsapat-tagot alvállalkozói sorhoz kapcsol, a csapattag tevékenységeihez rendelt hozzárendelések az alvállalkozóhoz csatolt beszerzési árlista alapján újraküldetjük.  **A Projekt részletei** lap Becslések **lapján** válassza az Árak frissítése gombot **az** alvállalkozói szerződéskötésről szóló döntésből eredő frissített árképzés és/vagy költségszámítás megtekintéséhez. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>A projektcsapat egy tagjának alvállalkozásba adása
-A **csapattag adatai** oldalon alvállalkozási és alvállalkozói sormezők találhatók, amelyek lehetővé teszik a projektmenedzser számára, hogy kifejezze, hogyan szeretné felhívni az alvállalkozótól igényelt kapacitást. Ha általános erőforrásként szeretne alvállalkozásba adni egy projektcsapattagot, kövesse az alábbi lépéseket:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Nem álló projektcsapat-tag alvállalkozásba adása
+A **Csapattag adatai** lap alvállalkozói és alvállalkozói sormezőkkel rendelkezik, amelyek lehetővé teszik a projektmenedzser számára, hogy kifejezze, hogyan szeretné lehívni az alvállalkozói szerződésből szükséges kapacitást. Ha egy projektcsapat-tagot általános erőforrásként szeretne alvállalkozásba adni, hajtsa végre az alábbi lépéseket:
 
-1.  Válasszon alvállalkozót a **Csapattag részletei** oldalon.
+1.  Válasszon egy alvállalkozót a **Csapattag részletes** oldalán.
 
-2.  Csak **Piszkozat vagy Megerősített állapotú alvállalkozókat választhat** **ki**. **A lezárt** vagy **a törölt** alvállalkozók nem választhatók ki. 
+2.  Csak Piszkozat **vagy** Megerősített **állapotú alvállalkozókat** választhat. **A lezárt** vagy **visszavont** alvállalkozók nem választhatók ki. 
 
-3.  **Az Alvállalkozó sor mező az alvállalkozó kiválasztása után** válik láthatóvá.
+3.  Az **Alvállalkozói sor mező az alvállalkozói szerződés** kiválasztása után válik láthatóvá.
 
-4.  Az **Alvállalkozó sor** mezőben csak az időre szóló alvállalkozói sorokat választhatja ki. A költségekhez vagy az anyaghoz nem választhat alvállalkozói sorokat.
+4.  Az Alvállalkozói **sor** mezőben csak az időre vonatkozó alvállalkozói sorokat választhatja ki. Költséghez vagy anyaghoz nem választhat alvállalkozói sorokat.
 
-5.  A projektcsapat-rekord szerepkörének meg kell egyeznie az alvállalkozói vonalon betöltött szereppel. Ez biztosítja, hogy a projekten becsült szerepkör ideje ugyanaz a szerepkör, amelyet az alvállalkozói sorban vásárolnak. 
+5.  A projektcsapat-bejegyzés szerepkörének meg kell egyeznie az alvállalkozói sorban szereplő szerepkörrel. Ez biztosítja, hogy a projekten becsült szerepkör ideje ugyanaz a szerepkör legyen, mint az alvállalkozói sorban. 
 
-Ha egy általános csapattag alvállalkozói és alvállalkozói sorhoz van társítva, az **általános csapattagsor Dolgozó típusa** mezője Szerződés-feldolgozóra frissül, és **az** **alvállalkozói érvényesség** érvényes **lesz**.
+Ha egy általános csapattag alvállalkozói és alvállalkozói sorhoz van társítva, az **általános csapattagsor Dolgozótípus** mezője Szerződés dolgozómunkásra **frissül**, az alvállalkozói szerződés érvényessége **pedig** Érvényes **értékre** lesz állítva.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>A projektcsapat munkatársának alvállalkozásba adása
-Az általános vagy személyzet nélküli csapattagokhoz hasonlóan a projekthez szükséges személyzettel rendelkező csapattag kapacitása is összekapcsolható egy alvállalkozóval. Egy megnevezett projektcsapat-tag alvállalkozásba adása az alábbi lépéseket:
+## <a name="subcontracting-a-staffed-project-team-member"></a>A projektcsapat személyzetének tagja alvállalkozói szerződése
+Az általános vagy személyzet nélküli csapattagokhoz hasonlóan a projekthez szükséges személyzettel rendelkező csapattag-kapacitás is összekapcsolható egy alvállalkozói szerződéssel. A projektcsapat megnevezett tagjának alvállalkozásba adásához hajtsa végre az alábbi lépéseket:
 
-1.  Győződjön meg arról, hogy a megnevezett erőforrás a foglalható erőforrás szerződéses feldolgozó típusaként van beállítva. Győződjön meg arról is, hogy **a foglalható erőforrás Szállító** mezője megegyezik a kiválasztott alvállalkozó szállítójával. 
+1.  Győződjön meg arról, hogy a megnevezett erőforrás szerződési dolgozó típusú könyvelhető erőforrásként van beállítva. Győződjön meg arról is, hogy a **könyvelhető erőforrás Szállító** mezője megegyezik a kiválasztott alvállalkozó szállítójával. 
 
-2.  Alvállalkozókat csak **Piszkozat vagy Megerősített állapotban választhat** **ki**. **A lezárt** vagy **a törölt** alvállalkozók nem választhatók ki. 
+2.  Az alvállalkozókat csak Piszkozat **vagy** **Megerősített** állapotban választhatja ki. **A lezárt** vagy **visszavont** alvállalkozók nem választhatók ki. 
 
-3.  **Az Alvállalkozó sor mező az alvállalkozó kiválasztása után** válik láthatóvá.
+3.  Az **Alvállalkozói sor mező az alvállalkozói szerződés** kiválasztása után válik láthatóvá.
 
-4.  Az **Alvállalkozó sor** mezőben csak az időre szóló alvállalkozói sorokat választhatja ki. A költségekhez vagy az anyaghoz nem választhat alvállalkozói sorokat.
+4.  Az Alvállalkozói **sor** mezőben csak az időre vonatkozó alvállalkozói sorokat választhatja ki. Költséghez vagy anyaghoz nem választhat alvállalkozói sorokat.
 
-5.  A projektcsapat-rekord szerepkörének meg kell egyeznie az alvállalkozói vonalon betöltött szereppel. Ez biztosítja, hogy a projekten becsült szerepkör ideje ugyanaz a szerepkör, amelyet az alvállalkozói sorban vásárolnak. 
+5.  A projektcsapat-bejegyzés szerepkörének meg kell egyeznie az alvállalkozói sorban szereplő szerepkörrel. Ez biztosítja, hogy a projekten becsült szerepkör ideje ugyanaz a szerepkör legyen, mint az alvállalkozói sorban. 
 
-A lefoglalható erőforrás szerződéses dolgozói típusként beállított megnevezett projektcsapat-tagok **nem** érvényes alvállalkozói érvényességi állapotúak **lesznek**, ha nem kapcsolódnak alvállalkozóhoz. Ha egy megnevezett projektcsapattag alvállalkozói és alvállalkozói sorhoz van társítva, a **csapattag sor Dolgozó típusa** mezője **szerződés-feldolgozóra frissül, az** **alvállalkozói érvényesség** pedig Érvényes **lesz**.
+A Könyvelhető erőforrás **szerződéses dolgozótípusaként** beállított megnevezett projektcsapat-tagok nem érvényes **alvállalkozói** érvényességi állapotúak lesznek, ha nem alvállalkozáshoz kapcsolódnak alvállalkozói szerződés szerinti jogcímen. Ha egy megnevezett projektcsapat-tag alvállalkozói és alvállalkozói sorhoz van társítva, a **csapattag sor Dolgozó típusa** mezője Szerződés dolgozói **és** alvállalkozói **érvényesség** **értékre** frissül.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

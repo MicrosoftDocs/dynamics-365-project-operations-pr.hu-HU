@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818186"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588923"
 ---
 # <a name="mobile-expense-app"></a>Költségekkel kapcsolatos mobilalkalmazás
 
@@ -54,7 +54,7 @@ Ha a szervezet a Finance rendszert használja, a rendszergazdának közzé kell 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése
 A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
-- [Android telefonokhoz](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Android rendszerű telefonokhoz](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone-okhoz](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Bejelentkezés a mobilalkalmazásba
@@ -100,7 +100,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 10. Válassza a **Kész** lehetőséget.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Költségjelentés jóváhagyása a Költségkezelés mobil munkaterület használatával
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Költségjelentés jóváhagyása a Költségkezelés mobil-munkaterület használatával
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. A **Kiadások jóváhagyása** részen látható, hogy hány költségjelentést rendeltek Önhöz jóváhagyásra. A szám hozzávetőlegesen 30 percenként frissül. Válassza a **Kiadások jóváhagyása** lehetőséget.
@@ -113,7 +113,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 6. Adja meg az esetleges megjegyzéseket a jóváhagyási művelethez.
 7. Válassza a **Kész** lehetőséget.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Hozzon létre egy új költségjelentést, és küldje el jóváhagyásra a Költségkezelés mobil munkaterület használatával
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Új költségjelentés létrehozása és elküldése jóváhagyásra a Költségkezelés mobil-munkaterület használatával
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. Válassza a **Költségbevitel** lehetőséget.
@@ -206,26 +206,26 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miért nem adja meg alapértelmezés szerint a Költség mobilalkalmazás a fizetési módot?
 
-A szervezetek a létrehozáskor testreszabhatják az **alapértelmezett fizetési mód** beállítását az egyes költségkategóriákhoz. Emellett a fizetési módok beállításakor beállíthatja az **Alapértelmezett fizetési mód mezőt csak Importálás** **értékre**.
+A szervezetek testreszabhatják az **Alapértelmezett fizetési mód** beállítást az egyes költségkategóriákhoz, amikor létrehozták őket. A fizetési módok beállításakor az **Alapértelmezett fizetési mód** mezőt is csak importálás értékre **állíthatja**.
 
-Ha **az Importálás csak fizetési mód esetén** engedélyezve van, a rendszer alapértelmezés szerint nem ik meg a fizetési módot. Üres lesz azokban a költségkategóriákban, ahol ez a fizetési mód be van állítva. Ez a viselkedés következetes mind a webes élményben, mind a mobil élményben.
+Ha **csak** az Importálás engedélyezve van egy fizetési módhoz, a fizetési mód alapértelmezés szerint nincs megadva. Üres lesz azokban a költségkategóriákban, ahol ez a fizetési mód be van állítva. Ez a viselkedés következetes mind a webes élményben, mind a mobil élményben.
     
-Ha **az Importálás csak fizetési mód esetén nincs** engedélyezve, a rendszer alapértelmezés szerint a program a költségkategóriákba írja be a beállított értéket, ahol ez a fizetési mód be van állítva. Van azonban egy ismert probléma, amely miatt az alapértelmezett érték nincs megadva a Költség mobilalkalmazásban. A probléma kezeléséhez manuálisan válasszon ki egy fizetési módot a költségjelentés mentése előtt. 
+Ha **az Importálás csak** importálása nincs engedélyezve egy fizetési módhoz, a beállított érték alapértelmezés szerint azokhoz a költségkategóriákhoz lesz beírva, ahol ez a fizetési mód be van állítva. Van azonban egy ismert probléma, amikor az alapértelmezett érték nincs megadva a Költség mobilalkalmazásban. A probléma megoldásához manuálisan válasszon ki egy fizetési módot a költségjelentés mentése előtt. 
 
 ### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miért nem tudok pénzügyi dimenziókat hozzáadni vagy szerkeszteni a Költség mobilalkalmazásban?
 
-A dimenziók és eloszlások bevitele nem támogatott. A korlátozás megkerülése érdekében ezeket a mezőket alapértelmezés szerint beállíthatja a mobilalkalmazásban az alapértelmezett pénzügyi dimenziók projekten vagy alkalmazottanként történő beállításával.
+A dimenziók és eloszlások megadása nem támogatott. A korlátozás megkerüléséhez ezeket a mezőket alapértelmezés szerint beállíthatja a mobilalkalmazásban, ha projektenként vagy alkalmazottanként beállítja az alapértelmezett pénzügyi dimenziókat.
 
 ### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miért látok néha szinkronizálási hibát a Költség mobilalkalmazásban?
 
-Ha a költségsorok nem felelnek meg a házirend-követelményeknek, és a felhasználó a házirend-figyelmeztetés kezelése nélkül nyújtja be a költségjelentést, a mobiladatok nincsenek szinkronizálva a kiszolgálóval, és szinkronizálási hiba lép fel. A szinkronizálási hiba bekövetkezése után elküldött összes költségjelentés sikertelen állapotban marad, és további szinkronizálási hibákat okoz. A helyzet megoldásának egyetlen módja a szinkronizálási értesítések manuális törlése. Ezt a problémát úgy oldottuk meg, hogy a házirend-figyelmeztetések kezelésekor leállítottuk a költségjelentések benyújtását, így elkerülhetők a szinkronizálási hibák.
+Ha a költségsorok nem felelnek meg a házirend követelményeinek, és a felhasználó a házirend-figyelmeztetés kezelése nélkül küldi el a költségjelentést, a mobiladatok nem lesznek szinkronizálva a kiszolgálóval, és szinkronizálási hiba lép fel. A szinkronizálási hiba bekövetkezése után elküldött összes költségjelentés sikertelen állapotban marad, és további szinkronizálási hibákat okoz. A helyzet megoldásának egyetlen módja a szinkronizálási értesítések manuális törlése. Ezt a problémát úgy küszöbölték ki, hogy leállította a költségjelentések benyújtását, ha a házirend-figyelmeztetéseket nem sikerült kijavítani, hogy elkerülhetők legyenek a szinkronizálási hibák.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miért nem tükröződik megfelelően a projekt- és kategóriaérvényesítés a Költség mobilalkalmazásban?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miért nem jelenik meg helyesen a projekt- és kategóriaérvényesítés a Költség mobilalkalmazásban?
 
-Ez az ellenőrzés jelenleg nem támogatott. A jövőben azonban támogatás is hozzáadható. 
+Ez az ellenőrzés jelenleg nem támogatott. A jövőben azonban támogatást kaphat. 
 
 ### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Milyen dokumentumtípusokat támogat a Költség mobilalkalmazás?
 
-A Költség mobilalkalmazás csak a képeket támogatja. Jelenleg nem támogatja a PDF-fájlokat vagy más dokumentumokat.
+A Költség mobilalkalmazás csak képeket támogat. Jelenleg nem támogatja a PDF-fájlokat vagy más dokumentumokat.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

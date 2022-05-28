@@ -1,24 +1,24 @@
 ---
 title: Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
-description: Ez a témakör ismerteti, hogyan lehet alkalmazni a Project Operations bemutató adatait a Dynamics 365 Finance felhőben szolgáltatott környezetre.
+description: Ez a témakör bemutatja, hogyan lehet a Project Operations demóadatait egy Dynamics 365 Finance felhőben üzemeltetett környezetre alkalmazni.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009669"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588969"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 > [!IMPORTANT]
-> Ez a témakör csak a Microsoft Dynamics 365 Finance 10.0.13-as verziója esetében alkalmazható, és csak felhőben üzemeltetett környezeten hajtható végre. A minőségi frissítések környezetbe való alkalmazása **ELŐTT** hajtsa végre a témakör lépéseit.
+> Ez a témakör csak Microsoft Dynamics a 365 Finance 10.0.13-as verziójára vonatkozik, és csak felhőalapú környezetben végezhető el. A minőségi frissítések környezetbe való alkalmazása **ELŐTT** hajtsa végre a témakör lépéseit.
 
 1. Az LCS-projektben nyissa meg a **Környezet részletei** oldalt. Figyelje meg, hogy tartalmazza a környezethez a távoli asztali protokoll (RDP) használatával való kapcsolódáshoz szükséges adatokat.
 
@@ -76,7 +76,7 @@ Ez pár percet is igénybe vehet. Kapnia egy megerősítő üzenetet, hogy a ren
 
 18. Zárja be a távoli asztali munkamenetet, és az LCS **Környezet részletei** oldal használatával lépjen be a környezetbe, és ellenőrizze, hogy az a várt módon működik.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Pénzügy és üzemeltetés.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

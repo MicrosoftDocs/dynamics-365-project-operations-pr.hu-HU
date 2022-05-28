@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005574"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589613"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 áprilisában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -20,7 +20,7 @@ _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson 
 
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.18-es verziójában
+- Projektmenedzsment és számvitel Dynamics 365 Finance környezetben 10.0.18-as verzió
  
 ### <a name="quality-updates"></a>Minőségi frissítések
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Utazás és költség                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Ha egy költségkategória nem projektkategória, a **Költségek** lapon kiválasztott pénzügyi dimenziók nem lesznek átmásolva a költségjelentésbe.                                          |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

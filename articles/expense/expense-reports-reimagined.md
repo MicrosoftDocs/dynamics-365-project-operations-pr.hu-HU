@@ -1,5 +1,5 @@
 ---
-title: Költségjelentések újragondolva (videót tartalmaz)
+title: Újragondolt költségjelentések (videót tartalmaz)
 description: Ez témakör a költségjelentések bejegyzésének átalakított és újragondolt élményét ismerteti.
 author: suvaidya
 ms.date: 12/16/2021
@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941051"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586945"
 ---
 # <a name="expense-reports-reimagined"></a>Költségjelentések újragondolva
 
@@ -58,7 +58,7 @@ Az új élmény bekapcsolásához a **Szolgáltatáskezelés** munkaterületen k
 | Új kiadási sorok mentése és hozzáadása | A **Mentés** és az **Új** gombok új kiadások beírása esetén elérhetők, hogy gyorsabban megadhassa a kiadási sorokat. |
 | Jobb láthatóság a felosztott és a tételezett sorokban | A tételezett és a felosztott sorok hozzá lettek adva közvetlenül a kiadások listájához, és segítségükkel könnyebben megállapíthatja, hogy vannak-e hibák. |
 | Alkategóriák részleteinek megtekintése elemi sorokban | A fölérendelt költség elemezett sorai az alkategóriák címkéit mutatják a költségjelentésen. Az elemek részletezése segítségével egy pillantással áttekintheti a részletes információkat.|
-|Az ismétlődő költségek gyors tétele | Az újragondolt költség-munkaterület lehetővé teszi az ismétlődő költségek gyors részletezését az alkategória, a kezdési dátum és a mennyiség hozzáadásával. A mennyiség arra utal, hogy a töltés hányszor ismétlődik meg egy folyamatos időszakban. |
+|Az ismétlődő költségek gyors részletezése | Az újragondolt költség-munkaterület lehetővé teszi az ismétlődő költségek gyors részletezését az alkategória, a kezdési dátum és a mennyiség hozzáadásával. A mennyiség arra utal, hogy a töltés hányszor ismétlődik meg egy folyamatos időszakban. |
 | Bizonylatok megjelenítése a tételezés során | A bizonylatok megjeleníthetők a tételezés. |
 | Készpénzelőleg kiválasztása | Jelöljön ki egy vagy több készpénzelőleget egyetlen költségtranzakció teljesítéséhez. |
 | Készpénzelőleg egyenlege | Amikor költségbejegyzést hoz létre a jóváhagyott és a kifizetett készpénzelőlegek alapján, valós időben áttekinti a készpénzelőlegek egyenlegét. |

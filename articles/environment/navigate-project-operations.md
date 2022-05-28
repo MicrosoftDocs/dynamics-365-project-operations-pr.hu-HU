@@ -4,25 +4,25 @@ description: Ez a témakör információt nyújt a Project Operations elérésé
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994594"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591867"
 ---
 # <a name="navigate-project-operations"></a>A Project Operations navigálása
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 A Dynamics 365 Project Operations az erőforrás/nem készletalapú forgatókönyvekhez a következő két összetevőből áll: 
 
  - A **Project Operations a Common Data Service (CDS) környezetben**: Ez az összetevő lefedi a lehetőségtől a proforma számlázásig vonatkozó lehetőségeket és folyamatokat. 
- - A **projektmenedzsment és könyvelés a Dynamics 365 Finance környezetben**: Ez az összetevő magában foglalja a költségkezelési lehetőségeket, a projektek könyvelését és az árbevétel-elszámolást. 
+ - **Projektmenedzsment és számvitel Dynamics 365 Finance környezetben**: Ez az összetevő magában foglalja a költségkezelési képességeket, a projektkönyvelést és a bevételelszámolást. 
 
 A Project Operations jelen témakörben leírt kiépítése után a Lifecycle Services (LCS) **Környezet részletei** oldalán egyszerűen elérheti a Project Operations mindkét összetevőjét.  
 

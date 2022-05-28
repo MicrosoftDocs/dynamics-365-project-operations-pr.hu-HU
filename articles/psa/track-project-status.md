@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996709"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593385"
 ---
 # <a name="track-a-projects-status-project-service"></a>Projekt állapotának nyomkövetése (Project Service)
 
@@ -33,14 +34,13 @@ A [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-serv
 
 Az ügylet előrehaladásával a projekt fázisai frissülnek, hogy tükrözzék az ügylet fázisát:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Új**    | A projekt létrehozásakor a fázis értéke az **Új**. Ha a projektet egy sablonból hozta létre, akkor a projekt ebben a fázisban rendelkezhet ütemezéssel, becslésekkel és a csoportadatokkal. Ellenkező esetben a projekt vázlata lesz, és manuálisan kell megadni a többi projekt-összetevőt. |
-|  **Ajánlat**   |      Amikor egy árajánlathoz társít egy projektet, vagy egy árajánlatból hozza azt létre, a projekt fázisa **Árajánlat** lesz, és frissülnek a becsült kezdési és befejezési dátumok is. Amikor a projekt az árajánlati fázisban tart, az árajánlat részletei a **Sales** lapon jelennek meg, a **Projekt** oldalon.      |
-|   **Terv**   |                                     Amikor nyer egy projekthez társított árajánlattal, és az ügylet eléri a szerződés fázist, a projekt fázis a **Terv** fázisra frissül. A szerződés részletei a **Sales** lapon jelennek meg, a **Projekt** oldalon.                                      |
-| **Teljes** |                    Amikor a projekten végzett munka véget ért, módosíthatja a fázist **Befejezettre**. Ha a projektfázis értéke befejezett, az azt jelenti, hogy a munka 100%-át sikerült elvégezni, de a projekt még nyitott, hogy meg lehessen adni az esetlegesen még függő idő- és kiadásbejegyzéseket.                     |
-|  **Bezárás**   |           Amikor a projekthez tartozó minden tranzakció rögzítésre került, és nem várja továbbiak naplózását, akkor manuálisan beállíthatja a fázist **Lezártra**. Ha a projekt fázisa **Lezárt**, nem rögzíthet további tranzakciókat a projekthez, és a projekt csak olvasható lesz.           |
+| Feladatok | Description | 
+|------------|----------|
+| **New** | A projekt létrehozásakor a fázis értéke az **Új**. Ha a projektet egy sablonból hozta létre, akkor a projekt ebben a fázisban rendelkezhet ütemezéssel, becslésekkel és a csoportadatokkal. Ellenkező esetben a projekt vázlata lesz, és manuálisan kell megadni a többi projekt-összetevőt. |
+| **Ajánlat** |  Amikor egy projektet ajánlathoz társít, vagy ajánlatból hoz létre, a projektszakasz Ajánlat **értékre** van állítva, és a becsült kezdési és befejezési dátumok is frissülnek. Amikor a projekt az árajánlati fázisban tart, az árajánlat részletei a **Sales** lapon jelennek meg, a **Projekt** oldalon. |
+| **Terv** |  Amikor nyer egy projekthez társított árajánlattal, és az ügylet eléri a szerződés fázist, a projekt fázis a **Terv** fázisra frissül. A szerződés részletei a **Sales** lapon jelennek meg, a **Projekt** oldalon. |
+| **Teljes** | Amikor a projekten végzett munka véget ért, módosíthatja a fázist **Befejezettre**. Ha a projektfázis értéke befejezett, az azt jelenti, hogy a munka 100%-át sikerült elvégezni, de a projekt még nyitott, hogy meg lehessen adni az esetlegesen még függő idő- és kiadásbejegyzéseket. |
+| **Bezárás** | Amikor a projekthez tartozó minden tranzakció rögzítésre került, és nem várja továbbiak naplózását, akkor manuálisan beállíthatja a fázist **Lezártra**. Ha a projekt fázisa **Lezárt**, nem rögzíthet további tranzakciókat a projekthez, és a projekt csak olvasható lesz. |
 
 ## <a name="to-track-a-projects-status"></a>Projektállapot követése  
 

@@ -4,14 +4,14 @@ description: A témakör ismerteti, hogyan lehet manuálisan telepíteni a Proje
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986449"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591223"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>A Project Operations Dataverse alkalmazás manuális telepítése kettős írási támogatással
 
@@ -37,7 +37,7 @@ A művelet befejezéséhez rendszergazdaként kell bejelentkeznie.
 3. Válassza ki a környezet típusát. Ha regisztrált a próbaverziós ajánlatra, válassza a **Próbaverzió (előfizetés alapú)** lehetőséget.
 4. Erősítse meg a telepítési régiót.
 5. Engedélyezze az **Adatbázis létrehozása ehhez a környezethez** beállítást. 
-6. Erősítse meg a nyelvet, és győződjön meg arról, hogy a pénznem megfelel a Finance and Operations alkalmazások pénznemének.
+6. Erősítse meg a nyelvet, majd ellenőrizze, hogy a pénznem megegyezik-e a Pénzügy és műveletek alkalmazás pénznemével.
 7. Engedélyezze a **Dynamics 365 alkalmazások** beállítást, és győződjön meg arról, hogy az **Automatikusan telepítse ezeket az alkalmazásokat** mező beállítása **Nincs**.
 8. Adjon hozzá egy biztonsági csoportot, ha szükséges biztonsági csoport.
 9. Válassza ki a **Mentés** gombot a környezet létrehozásához.
@@ -62,4 +62,4 @@ Ezt az eljárást csak akkor tudja végrehajtani, ha a Project Operations telep�
 
 ## <a name="link-your-environments"></a><a name="link"></a>Saját környezetek társítása
 
-A Dataverse-környezet telepítése után beállíthatja a hivatkozást az Finance and Operations alkalmazásaiban. Kövesse a [Kettős írású varázsló használata a környezetek összekapcsoláshoz](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) rész lépéseit.
+Dataverse A környezet üzembe helyezése után beállíthatja a hivatkozást a Pénzügy és műveletek alkalmazásban. Kövesse a [Kettős írású varázsló használata a környezetek összekapcsoláshoz](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) rész lépéseit.

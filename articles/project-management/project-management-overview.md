@@ -3,16 +3,15 @@ title: Projektkezelés áttekintése
 description: Ez a témakör információkat nyújt a Projektmenedzsment beállításokról a Dynamics 365 Project Operations rendszerben.
 author: ruhercul
 ms.date: 10/06/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990994"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590855"
 ---
 # <a name="project-management-overview"></a>Projektmenedzsment áttekintése
 
