@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007329"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684875"
 ---
 # <a name="project-resourcing-home-page"></a>Projektek erőforrás-kezelése kezdőlap
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007329"
 
 Ez a témakör információkat nyújt a projekterőforrások biztosításáról.
 
-Az egyik kihívás a projektmenedzserek és az erőforrás-menedzserek számára a projekt tervezési fázisában az erőforrás-elosztás, ahol meg kell határozniuk és le kell foglalniuk a megfelelő erőforrást a projekten végzett munkához. A Dynamics 365 Finance alkalmazásban a projektek erőforrás-biztosítási képességei lehetővé teszik ideiglenes erőforrásokként kezelt szerepek megadását, amelyek lefoglalhatók egy adott aktivitáshoz vagy egy aktivitás részéhez. Az ilyen típusú erőforrás-biztosítás segítségével a projektmenedzserek és az erőforrás-menedzserek a következő feladatokat hajthatják végre:
+Az egyik kihívás a projektmenedzserek és az erőforrás-menedzserek számára a projekt tervezési fázisában az erőforrás-elosztás, ahol meg kell határozniuk és le kell foglalniuk a megfelelő erőforrást a projekten végzett munkához. A Dynamics 365 Finance projektek forrásbeszerzési képességei lehetővé teszik olyan szerepkörök meghatározását, amelyek ideiglenes erőforrásként vannak kezelve, és amelyek egy adott elkötelezettség vagy egy elkötelezettség egy része számára tarthatók fenn. Az ilyen típusú erőforrás-biztosítás segítségével a projektmenedzserek és az erőforrás-menedzserek a következő feladatokat hajthatják végre:
 
 - Olyan szerepkört adhatnak meg, amely rendelkezik a szükséges kompetenciákkal, hogy könnyen megfeleltethető legyen az erőforrásokkal.
 - Szerepkörök használatával megadhatják a fenntartott erőforrásokon alapuló kezdeti aktivitási ütemezést.

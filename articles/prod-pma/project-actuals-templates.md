@@ -1,32 +1,31 @@
 ---
-title: A tényleges projektadatok szinkronizálása közvetlenül a Project Service Automation rendszerből a projektintegrációs naplóba a Finance and Operations rendszerbe való feladáshoz
-description: Ez a témakör ismerteti azokat a sablonokat és azokat az alapul szolgáló feladatokat, amelyek a tényleges projektadatok közvetlenül a Microsoft Dynamics 365 Project Service Automation alkalmazásból a Finance and Operations rendszerbe történő szinkronizálására szolgálnak.
+title: Projektacélok szinkronizálása közvetlenül a Project Service Automation programból a projektintegrációs naplóba a Pénzügy és műveletek mezőben történő feladáshoz
+description: Ez a témakör azokat a sablonokat és mögöttes tevékenységeket írja le, amelyek a projekt tényleges adatainak közvetlenül Microsoft Dynamics 365 Project Service Automation a Pénzügy és műveletek közötti szinkronizálására szolgálnak.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988114"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683541"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>A tényleges projektadatok szinkronizálása közvetlenül a Project Service Automation rendszerből a projektintegrációs naplóba a Finance and Operations rendszerbe való feladáshoz
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projektacélok szinkronizálása közvetlenül a Project Service Automation programból a projektintegrációs naplóba a Pénzügy és műveletek mezőben történő feladáshoz
 
 [!include[banner](../includes/banner.md)]
 
-Ez a témakör ismerteti azokat a sablonokat és azokat az alapul szolgáló feladatokat, amelyek a tényleges projektadatok közvetlenül a Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+Ez a témakör azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projektaték tényleges adatainak közvetlenül Dynamics 365 Project Service Automation Dynamics 365 Finance történő szinkronizálására szolgálnak.
 
 A sablon szinkronizálja a Project Service Automation tranzakcióit egy ideiglenes táblázatba a Finance rendszerben. Miután a szinkronizálás befejeződött, importálnia **kell** az adatokat az ideiglenes táblázatból az integrációs naplóba.
 
@@ -42,7 +41,7 @@ A Project Service Automation és Finance közötti integrációs megoldás az ad
 
 A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálása a Project Service Automation és a Finance rendszer között.
 
-[![Adatfolyam a Project Service Automation és a Finance and Operations között integrációhoz.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Adatfolyam a Project Service Automation és a Pénzügy és műveletek integrációjához.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Tényleges projektadatok a Project Service Automation alkalmazásból
 
@@ -75,7 +74,7 @@ A tényadatok szinkronizálása előtt be kell állítania a Project Service Aut
 
 ### <a name="power-query"></a>Power Query
 
-A tényleges projektadatok sablonjában az Excelhez készült Microsoft Power Query használatával kell végrehajtania ezeket a feladatokat:
+A projekt tényleges adatai sablonban a következő feladatok végrehajtásához a Microsoft Power Query for Excel programot kell használnia:
 
 - Alakítsa át a tranzakció típusát a Project Service Automation szolgáltatásban a megfelelő tranzakciótípusra a Finance rendszerben. Ez az átalakítás már meg van adva a Tényleges projektadatok (PSA – Fin és Ops) sablonban.
 - Alakítsa át a számlázás típusát a Project Service Automation szolgáltatásban a megfelelő számlázástípusra a Finance rendszerben. Ez az átalakítás már meg van adva a Tényleges projektadatok (PSA – Fin és Ops) sablonban. Ezután a számlázási típus leképezésre kerül a sortulajdonságra a **Project Service Automation integrációs paraméterei** oldalon található konfiguráció alapján.
@@ -84,9 +83,9 @@ A tényleges projektadatok sablonjában az Excelhez készült Microsoft Power Qu
 - Ha a vállalatközi időt vagy a vállalatközi költségeket a program nem szinkronizálja a Finance rendszerrel, akkor törölnie kell az utolsó beszúrt feltételes oszlopot a sablonból. Máskülönben előfordulhat, hogy integrációs hiba történik, vagy helytelen tényleges tranzakciók lesznek importálva a Finance alkalmazásba.
 
 #### <a name="contract-organizational-unit"></a>Szerződéses szervezeti egység
-A sablonban a beszúrt feltételes oszlop frissítéséhez kattintson a **Leképezés** nyílra a leképezés megnyitásához. Válasza ki a **Speciális lekérdezés és szűrés** hivatkozást a Power Query megnyitásához.
+A sablonban a beszúrt feltételes oszlop frissítéséhez kattintson a **Leképezés** nyílra a leképezés megnyitásához. A megnyitáshoz jelölje ki a **Speciális lekérdezés és szűrés hivatkozást** Power Query.
 
-- Ha az alapértelmezett Tényleges projektadatok (PSA – Fin és Ops) sablont használja, akkor a Power Query alkalmazásban jelölje ki az utolsó **Beszúrt feltétel** lehetőséget az **Alkalmazott lépések** szakaszból. A **Funkció** bejegyzésében cserélje le az **USSI** elemet az integrációval használni kívánt jogi entitás azonosítójával. Szükség szerint adjon hozzá további feltételeket a **Funkció** bejegyzéshez, és frissítse az **else** feltételt az **USMF** értékről a megfelelő jogi entitásra.
+- Ha az alapértelmezett Project actuals (PSA to Fin and Ops) sablont használja, a területen Power Query válassza ki az utolsó **Beszúrt feltételt** az **Alkalmazott lépések** szakaszból. A **Funkció** bejegyzésében cserélje le az **USSI** elemet az integrációval használni kívánt jogi entitás azonosítójával. Szükség szerint adjon hozzá további feltételeket a **Funkció** bejegyzéshez, és frissítse az **else** feltételt az **USMF** értékről a megfelelő jogi entitásra.
 - Ha új sablont hoz létre, akkor a vállalatközi idő és kiadások támogatásához hozzá kell adnia az oszlopot. Válassza ki a **Feltételes oszlop hozzáadása** jelölőnégyzetet, és adja meg az új oszlop nevét, például **LegalEntity**. Adja meg az oszlop feltételeit, ahol, ha a **msdyn\_contractorganizationalunitid.msdyn\_name** értéke \<organizational unit\>, akkor \<enter the legal entity\>, egyébként nulla.
 
 ### <a name="template-mapping-in-data-integration"></a>Sablonok leképezése az adatintegrációban
@@ -126,7 +125,7 @@ A tényleges projektadatok a Project Service Automation alkalmazásban kezelhet�
 
 ### <a name="power-query"></a>Power Query
 
-A tényleges projektadatok frissítési sablonjában a Power Query használatával kell végrehajtania ezeket a feladatokat:
+A projekt tényleges frissítése sablonban a következő tevékenységeket kell használnia Power Query:
 
 - Alakítsa át a tranzakció típusát a Finance rendszerben a megfelelő tranzakciótípusra a Project Service Automation alkalmazásban. Ez az átalakítás már meg van adva a Tényleges projektadatok frissítése (Fin Ops – PSA) sablonban.
 - Alakítsa át a számlázás típusát a Finance rendszerben a megfelelő számlázástípusra a Project Service Automation alkalmazásban. Ez az átalakítás már meg van adva a Tényleges projektadatok frissítése (Fin Ops – PSA) sablonban.

@@ -7,25 +7,24 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 62229d8565a594a75970a8e769443541c2b4cb19
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998914"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683863"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Projektfázis átnevezése vagy módosítása
 
 [!include [banner](../../includes/banner.md)]
 
-A projektfázisok útmutatóul szolgálhatnak a projekt életciklusához. Megadhatja azokat a projektfázisokat, amelyeket szerepeltetni szeretne a projektekben a Projektmenedzsment és könyvelési paraméterek oldal Projektfázis területén. A Dynamics 365 Finance öt előre definiált projektfázist és három felhasználó által megadott fázist biztosít. A projektek előrehaladásának nyomon követéséhez a használt projektfázis nevét frissítheti. A felhasználó által definiált állapotnevek is megadhatók. Ez a feladat azt mutatja be, hogyan lehet átnevezni vagy módosítani egy projektfázist, és a USSI adatkészlet használatát.
+A projektfázisok útmutatóul szolgálhatnak a projekt életciklusához. Megadhatja azokat a projektfázisokat, amelyeket szerepeltetni szeretne a projektekben a Projektmenedzsment és könyvelési paraméterek oldal Projektfázis területén. Dynamics 365 Finance öt előre definiált projektszakaszt és három felhasználó által definiált szakaszt biztosít. A projektek előrehaladásának nyomon követéséhez a használt projektfázis nevét frissítheti. A felhasználó által definiált állapotnevek is megadhatók. Ez a feladat azt mutatja be, hogyan lehet átnevezni vagy módosítani egy projektfázist, és a USSI adatkészlet használatát.
 
 1. Lépjen a Projektmenedzsment és könyvelés > Beállítás > Projektmenedzsment és könyvelési paraméterek lehetőségre.
 2. Kattintson a Projektfázis lapra.

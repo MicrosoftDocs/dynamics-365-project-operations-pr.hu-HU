@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993874"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728007"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Munka tervezése a Microsoft Projekt programban a Project Service bővítmény segítségével
 
@@ -40,7 +41,7 @@ Telepítheti a(z) [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-
 ## <a name="download-and-install-the-add-in"></a>Bővítmény letöltése és telepítse  
  Helyezze készenlétbe a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] bejelentkezési adatokat. Ez az információ szükséges a [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rendszerről a(z) [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rendszerre történő csatlakozáshoz.  
 
-1.  A Letöltőközpontból letöltheti a Project Service támogatott verziójához készült bővítményt, akár a [V2.X](https://go.microsoft.com/fwlink/?linkid=828268), akár a [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) verziót.  
+1.  A Letöltőközpontból letöltheti a Project Service támogatott verziójához készült bővítményt, akár a [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x), akár a [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) verziót.  
 
 2.  Válassza ki a letöltés hivatkozását.  
 

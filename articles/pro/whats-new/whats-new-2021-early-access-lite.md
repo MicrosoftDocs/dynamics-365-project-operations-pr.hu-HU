@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323914"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723679"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Újdonságok - 2021 wave 2 korai hozzáférés - Project Operations könnyű telepítés
 
@@ -26,7 +26,7 @@ A kiadás csak akkor kerül alkalmazásra, ha egy környezethez [kiválasztottal
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
-[Alvállalkozói szerződések kezelése](../subcontracting/subcontracting_EA_scope.md) - Ez a funkció jobb átláthatóságot és ellenőrzést biztosít a projektben végzett munka minden aspektusa felett. Az alvállalkozói szerződések kezelésének előnézete a következő képességeket tartalmazza:
+[Alvállalkozói szerződések kezelése](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Ez a funkció jobb átláthatóságot és ellenőrzést biztosít a projektben végzett munka minden aspektusa felett. Az alvállalkozói szerződések kezelésének előnézete a következő képességeket tartalmazza:
 
   - A projektmenedzser alvállalkozói szerződést köthet egy szállítóval. Alapértelmezés szerint a szállítói rekordhoz csatolt árlistákat használja a rendszer az alvállalkozóhoz. A szállítói fióknak egy **Szállító** vagy **Beszállító** kapcsolattípusa van.
   - A projektmenedzser az alvállalkozói szerződésben tételesen felsorolhatja az összes beszerzést. Az alvállalkozósorok időre, kiadásokra vagy termékekre vonatkoznak. Az alvállalkozói szerződéssor tranzakciós osztálya határozza meg, hogy mire szolgál a sor.

@@ -3,25 +3,23 @@ title: Költségkezelés áttekintése
 description: Ez a témakör általános tudnivalókat tartalmaz a Költésgkezelésről és a további erőforrásokra mutató hivatkozásokat is. A költségelszámolás segítségével integrált munkafolyamatot hozhat létre, ahol tárolhatja a fizetési mód adatait, importálhatja a hitelkártya-tranzakciókat, és nyomon követheti az alkalmazottak költéseit, amikor kiadásokat hoznak létre a vállalkozáshoz.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001434"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684829"
 ---
 # <a name="expense-management-overview"></a>Költségkezelés áttekintése
 
@@ -45,7 +43,7 @@ További információkért lásd: [Átdolgozott költségjelentések](ExpenseWor
 
 ### <a name="blogs"></a>Blogok
 
-A [Microsoft Dynamics 365 blogban](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) és a [Microsoft Dynamics 365 Finance and Operations – pénzügyek blogban](https://community.dynamics.com/365/financeandoperations/b/financials) is találhat véleményeket, híreket és egyéb információkat.
+Véleményeket, híreket és egyéb információkat találhat a [Microsoft Dynamics 365 blogon](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) és a [Microsoft Dynamics 365 Finance and Operations - Financials blogon](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 A [Microsoft Dynamics Operations partnerközösség blogja](https://community.dynamics.com/partner/b/operationspartnercommunityblog) a Microsoft Dynamics partnereknek egyetlen erőforrást biztosít, ahol megismerhetik, hogy mik az újdonságok és trendek az MBS Operations szolgáltatásban.
 

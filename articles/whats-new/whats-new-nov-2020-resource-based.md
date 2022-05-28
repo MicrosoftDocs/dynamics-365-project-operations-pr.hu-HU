@@ -4,14 +4,14 @@ description: Ez a témakör információval szolgál az erőforrás/nem készlet
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007959"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600377"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -20,7 +20,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a CDS-környezet 4.4.0.70 verzióján
-- Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.14-es verziójában
+- Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.14-es verzióban
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Project Operations erőforrás-/nem készletalapú forgatókönyvek frissítései
 
@@ -42,11 +42,11 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Idő- és gyors költségbejegyzések | 2059859.          | A költségbejegyzés létrehozásakor váratlan előugró ablak nyílik meg.                                                                                                                         |
 | Egyéb                        | 2044181.          | (A beszerzési rendelés eltávolítása) Amikor megpróbálja eltávolítani a msdyn_ProjectServiceCore_Patch és a msdyn a Project Service központi megoldásait, a következő hibaüzenet jelenik meg: "a rekord nem érhető el".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance szolgáltatásban
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
 
 | Funkcióterület        | Hivatkozási szám | Minőségi frissítés                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bevételfelismerés | [451662](https://fix.lcs.dynamics.com/Issue/Details/?bugId=451662)           | A projekt becsült készültségi százaléka nem megfelelő, ha a szerződés külföldi pénznemet használ, és a készültségi százalék a teljes módszer esetében.                     |
+| Bevételelszámolás | [451662](https://fix.lcs.dynamics.com/Issue/Details/?bugId=451662)           | A projekt becsült készültségi százaléka nem megfelelő, ha a szerződés külföldi pénznemet használ, és a készültségi százalék a teljes módszer esetében.                     |
 | Bevételfelismerés | [469894](https://fix.lcs.dynamics.com/Issue/Details/?bugId=469894)           | Nem lehet a becsléseket feladni a **tényleges költség** végrehajtási módszerrel könyvelni.                                                                                                    |
 | Bevételfelismerés | [485439](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485439)           | Az eltávolítás nem sikerül, mert a bizonylat-egyensúlyhiány hiba történt, amikor a vállalat pénzneme és a tranzakció pénzneme eltérő.                                              |
 | Költségkezelés  | [456882](https://fix.lcs.dynamics.com/Issue/Details/?bugId=456822)           | A nem rendszergazdai felhasználók esetében a költségsorok oszlopainak keresési értéke, pl. **Projektazonosító** és **Költségkategória** nem megfelelően jelennek meg az adatösszekötő keretében. |
@@ -65,7 +65,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Projekt könyvelése  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | A Több szerződéssor funkció engedélyezése a CDS-integráció nélkül nem lehetséges.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

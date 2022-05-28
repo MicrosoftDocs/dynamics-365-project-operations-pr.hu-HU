@@ -1,34 +1,33 @@
 ---
 title: Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe
-description: Ez a témakör ismerteti azt a sablont és azokat az alapul szolgáló feladatokat, amelyek a szerződések és a projektek közvetlenül a Microsoft Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+description: Ez a témakör a projektszerződések és projektek közvetlen Dynamics 365 Finance történő Microsoft Dynamics 365 Project Service Automation szinkronizálására használt sablont és mögöttes tevékenységeket írja le.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001074"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684645"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Ez a témakör ismerteti azt a sablont és azokat az alapul szolgáló feladatokat, amelyek a szerződések és a projektek közvetlenül a Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+
+Ez a témakör a projektszerződések és projektek közvetlen Dynamics 365 Finance történő Dynamics 365 Project Service Automation szinkronizálására használt sablont és mögöttes tevékenységeket írja le.
 
 > [!NOTE] 
 > Ha Enterprise Edition 7.3.0 verzit használ, akkor a KB 4074835 telepítésére van szükség.
@@ -112,7 +111,7 @@ Amikor a Project Service Automation és a Finance közötti integrációs megold
 - A projektszerződések és projektek **SourceDataID** eleme frissíthetp egy eltérő értékre, vagy eltávolítható a leképezésből. Az alapértelmezett sablon értéke a **Project Service Automation**.
 - A **PaymentTerms** leképezést frissíteni kell, hogy az tükrözze a Finance érvényes fizetési feltételeit. Eltávolíthatja továbbá a leképezést a projektfeladatból is. Az alapértelmezett érték leképezése alapértelmezett értékekkel rendelkezik a demó adatokhoz. A következő táblázat a Project Service Automation értékeit mutatja be.
 
-    | Value | Ismertetés   |
+    | Érték | Description   |
     |-------|---------------|
     | 0     | 30 napon belül        |
     | 2     | 30 napon belül (10 napon belül fizetve 2% engedmény) |
@@ -121,15 +120,15 @@ Amikor a Project Service Automation és a Finance közötti integrációs megold
 
 ## <a name="power-query"></a>Power Query
 
-Az Excelhez készült Microsoft Power Query segítségével szűrheti az adatokat, ha teljesülnek a következő feltételek:
+Ha az alábbi feltételek teljesülnek, a Microsoft Power Query for Excel programmal szűrheti az adatokat:
 
 - Értékesítésekkel rendelkezik a Dynamics 365 Sales alkalmazásban.
 - A Project Service Automation alkalmazásban több szervezeti egység is van, és ezek a szervezeti egységek több entitásra lesznek leképezve a Finance rendszerben.
 
-Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelveket:
+Ha használnia Power Query kell, kövesse az alábbi irányelveket:
 
 - A Projektek és szerződések (PSA – Fin és Ops) sablonhoz egy alapértelmezett szűrő tartozik, amely csak a **Work item (msdyn\_ordertype = 192350001)** típusú értékesítési rendeléseket tartalmazza. Ez a szűrő segít biztosítani, hogy ne jöjjenek létre projektszerződések a Finance számára létrehozott értékesítési rendelésekhez. Ha saját sablont hoz létre, akkor ezt a szűrőt kell hozzáadnia.
-- Hozzon létre egy Power Query szűrőt, amely csak azokat a szerződéssel rendelkező szervezeteket tartalmazza, amelyeket az integrációs kapcsolatcsoport jogi entitással kell szinkronizálni. Például az Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket az USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket az USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
+- Hozzon létre egy szűrőt Power Query, amely csak azokat a szerződésszervezeteket tartalmazza, amelyeket szinkronizálni kell az integrációs kapcsolatkészlet jogi személyével. A Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket például a USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket a USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
 
 ## <a name="template-mapping-in-data-integration"></a>Sablonok leképezése az adatintegrációban
 

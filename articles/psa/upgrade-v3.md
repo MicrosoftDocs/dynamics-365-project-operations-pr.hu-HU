@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000084"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601757"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Frissítési szempontok - A PSA 2.x vagy 1.x verziója a 3. verzióra
 
@@ -104,7 +105,7 @@ A becslések nézetben láthatja a szervezeti egységet.
  
 A frissítés befejezése után az általános csapattagnak megfelelő vonali feladatban lévő szervezeti egységet hozzáadják az általános csapattaghoz, és a vonali feladatot eltávolítják. Emiatt azt javasoljuk, hogy a frissítés előtt hozzon létre vagy generálja újra a csoportot minden olyan projekthez, amely általános erőforrásokat tartalmaz.
 
-Az olyan feladatok esetén, amelyeket egy olyan szerv-egységgel rendelnek hozzá, amely eltér a szerződéses projekt szervezeti egységétől, és nem alakult ki egy csapat, az frissítés általános csoporttagot hoz létre a szerephez, de a projekt a csapattag szervezeti egységéhez. Visszatérve a Z Projekt példájára, ez azt jelenti, hogy a Contoso US szerződéses szervezeti egységet és a megvalósítási szakaszban lévő projektterv-tesztelési feladatokat a Contoso Indiához rendelt szervezeti egységgel műszaki tanácsadóként látják el. Az integrációs teszt feladat, amely a végrehajtási szakasz után fejeződik be, a Műszaki tanácsadó szerepkörbe kerül. Az org egység Contoso USA, és nem hoztak létre csapatot. A Frissítés létrehoz egy általános csoporttagot, egy műszaki tanácsadót, akinek mindhárom feladat kijelölt órája van, és a Contoso USA szervezeti egységét, a projekt szerződéses szervezeti egységét.   
+Az olyan feladatok esetén, amelyeket egy olyan szerv-egységgel rendelnek hozzá, amely eltér a szerződéses projekt szervezeti egységétől, és nem alakult ki egy csapat, az frissítés általános csoporttagot hoz létre a szerephez, de a projekt a csapattag szervezeti egységéhez. Visszatérve a Z Projekt példájára, a Contoso US szerződéses szervezeti egységet és a megvalósítási szakaszban lévő projektterv-tesztelési feladatokat a Contoso Indiához rendelt szervezeti egységgel műszaki tanácsadóként látják el. Az integrációs teszt feladat, amely a végrehajtási szakasz után fejeződik be, a Műszaki tanácsadó szerepkörbe kerül. Az org egység Contoso USA, és nem hoztak létre csapatot. A Frissítés létrehoz egy általános csoporttagot, egy műszaki tanácsadót, akinek mindhárom feladat kijelölt órája van, és a Contoso USA szervezeti egységét, a projekt szerződéses szervezeti egységét.   
  
 A különféle erőforrás-ellátó szervezeti egységek alapértelmezett értékének megváltoztatása a nem létrehozott csoporttagoknál az az oka, hogy a frissítés előtt generáljunk vagy generáljunk újból minden olyan projektet, amely általános erőforrásokat tartalmaz, hogy az org egység-hozzárendelések ne vesszenek el.
 

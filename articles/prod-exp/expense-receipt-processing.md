@@ -1,24 +1,23 @@
 ---
 title: Költségnyugta feldolgozása
-description: Ez a témakör a nyugták optikai karakterfelismeréssel (OCR) való feldolgozásáról nyújt információkat. Ez a funkció javítja a felhasználói élményt, amikor költségjelentéseket hoznak létre a Microsoft Dynamics 365 Finance alkalmazásban.
+description: Ez a témakör a nyugták optikai karakterfelismeréssel (OCR) való feldolgozásáról nyújt információkat. Ez a funkció célja, hogy javítsa a felhasználói élményt, amikor költségjelentéseket hoz létre a 365 Pénzügy alkalmazásban Microsoft Dynamics.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001389"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684323"
 ---
 # <a name="expense-receipt-processing"></a>Költségnyugta feldolgozása
 
@@ -51,7 +50,7 @@ Ha költséget szeretne létrehozni, vagy költséget szeretne egyeztetni egy ny
 
 Ez a funkció a **Költségjelentések újragondolva** funkcióval együtt működik , amely segít leegyszerűsíteni a költségvetések élményét. Ez a funkció csak 2+ szintű +-környezetek esetén érhető el, amelyek teszt vagy éles környezetek.
 
-A költségek ilyen speciális funkcióinak használatához telepíteni kell a Költségkezelési szolgáltatás bővítményt a Microsoft Dynamics 365 Finance rendszerhez, és be kell kapcsolni a funkciókat a példányban. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
+Ezeknek a speciális költségelszámolási képességeknek a használatához telepítse a Költségkezelési szolgáltatás bővítményt a 365 Pénzügy szolgáltatáshoz Microsoft Dynamics, és kapcsolja be a példány szolgáltatásait. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
 
 1. Jelentkezzen be az LCS rendszerbe, és nyissa meg a kívánt környezetet.
 2. Válassza a **Minden részlet** lehetőséget.

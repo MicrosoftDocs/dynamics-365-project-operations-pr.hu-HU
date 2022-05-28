@@ -1,32 +1,31 @@
 ---
-title: A projektfeladatok szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
-description: Ez a témakör ismerteti azt a sablont és azt az alapul szolgáló feladatot, amelyek a projektfeladatok közvetlenül a Microsoft Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+title: Projekttevékenységek szinkronizálása közvetlenül a Projektszolgáltatás automatizálásától a Pénzügyekig és műveletekig
+description: Ez a témakör a projekttevékenységek közvetlen Microsoft Dynamics 365 Project Service Automation szinkronizálására használt sablont és mögöttes tevékenységet írja le Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992794"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683313"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>A projektfeladatok szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projekttevékenységek szinkronizálása közvetlenül a Projektszolgáltatás automatizálásától a Pénzügyekig és műveletekig
 
 [!include[banner](../includes/banner.md)]
 
-Ez a témakör ismerteti azt a sablont és azt az alapul szolgáló feladatot, amelyek a projektfeladatok közvetlenül a Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+Ez a témakör a projekttevékenységek közvetlen Dynamics 365 Project Service Automation szinkronizálására használt sablont és mögöttes tevékenységet írja le Dynamics 365 Finance.
 
 > [!NOTE]
 > - A projektfeladatok integrációja, a kiadási tranzakciók kategóriái, az órabecslések, a kiadásbecslések és a funkciók zárolása a 8.0 verzióban érhető el.
@@ -68,11 +67,11 @@ A projektfeladatok szinkronizálása előtt szinkronizálnia kell a projektszerz
 
 ## <a name="power-query"></a>Power Query
 
-Ha a következő feltétel teljesül, az Excelhez készült Microsoft Power Query alkalmazást kell használnia az adatok szűréséhez:
+Ha ez a feltétel teljesül, a Microsoft Power Query for Excel programot kell használni az adatok szűrésére:
 
 - A projektfeladatban erőforrás-specifikus rekordok vannak.
 
-Ha Power Query alkalmazást kell használnia, kövesse az alábbi irányelvet:
+Ha használnia Power Query kell, kövesse az alábbi iránymutatást:
 
 - A Projektfeladatok (PSA – Fin és Ops) sablonja egy alapértelmezett szűrővel rendelkezik, amely kizárja a projektfeladat erőforrás-specifikus bejegyzéseit az **IsLineTask** szűrőjét **Hemis** értékre állítva. Ha saját sablont hoz létre, akkor ezt a szűrőt kell hozzáadnia.
 

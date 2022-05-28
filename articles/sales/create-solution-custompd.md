@@ -4,14 +4,14 @@ description: Ez a témakör az árazási dimenziókhoz tartozó megoldások lét
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992209"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601113"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Megoldás létrehozása egyéni árképzési dimenziókhoz
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992209"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Megoldás létrehozása egyéni árképzési dimenziókhoz
 
 1.  Válassza a **Beállítások** > **Megoldások** opciót, majd az **Új** lehetőséget.
-2.  Nevezze el a megoldást, *<your organization name> árképzési dimenzióka*.
+2.  Nevezze el a megoldást, *\<your organization name\> árképzési dimenzióka*.
 3. Írja be a további szükséges információt, majd kattintson a **Mentés** gombra.
 
   ![Egyéni árképzési megoldás létrehozása.](./media/Creation-of-custom-pricing-dimension-solution.png)

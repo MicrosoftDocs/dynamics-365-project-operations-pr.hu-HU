@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991174"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723725"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 márciusában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -20,7 +20,7 @@ _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson 
 
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.17-es verziójában
+- Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.17-es verzióban
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 Ez a kiadás a következő funkciókat tartalmazza:
@@ -121,7 +121,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Projektvezetés és könyvelés | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | A régebbi munkalebontási struktúra (WBS) osztály metódus, a **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** elavult.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Finance and Operations alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates.md) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

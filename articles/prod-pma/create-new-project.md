@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985954"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685059"
 ---
 # <a name="create-a-new-project"></a>Új projekt létrehozása
 
@@ -53,7 +52,7 @@ A projektmenedzser a projekterőforrások biztosításának funkciójával létr
 
 [![Példa szerepkörre.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Szituáció:** A Contoso céget egy idő és anyag alapú projekttel bízták meg, amelyhez tartozik egy jóváhagyott projektcharterrel. A junior projektmenedzser még dolgozik a projekt hatókörének befejezésén. Az erőforrás-kezelő jelenleg azonosítja azokat az erőforrásokat, amelyek az új projekt munkájához lefoglalásra kerülnek. A projekt kritikus jellegéből adódóan a projekt szponzora az egyik szerepkörként a Senior projektmenedzsert kérelmezte. Az erőforrás-menedzsernek meg kell szereznie az új erőforrást, és meg kell adnia a szerepkört a rendszerben abban az esetben, ha a junior projektmenedzsernek erőforrásadatokra van szüksége a projekttervezés során.
+**Forgatókönyv:** A Contoso egy olyan Idő és anyag projekt elvégzésével bízták meg, amelyhez jóváhagyott projekt-charta tartozik. A junior projektmenedzser még dolgozik a projekt hatókörének befejezésén. Az erőforrás-kezelő jelenleg azonosítja azokat az erőforrásokat, amelyek az új projekt munkájához lefoglalásra kerülnek. A projekt kritikus jellegéből adódóan a projekt szponzora az egyik szerepkörként a Senior projektmenedzsert kérelmezte. Az erőforrás-menedzsernek meg kell szereznie az új erőforrást, és meg kell adnia a szerepkört a rendszerben abban az esetben, ha a junior projektmenedzsernek erőforrásadatokra van szüksége a projekttervezés során.
 
 A következő lépések azt mutatják, hogy az erőforrás-menedzser hogyan állíthatja be a Senior projektmenedzseri szerepkört, és társíthatja hozzá az erőforrás-jellemzőket. Később a szerepkör használható a szükséges erőforrás-kompetenciáknak megfelelő, rendelkezésre álló erőforrások keresésére.
 

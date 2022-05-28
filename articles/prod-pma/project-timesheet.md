@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997204"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683131"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projektszintű időnyilvántartás mobilalkalmazás
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997204"
 
 ## <a name="overview"></a>Áttekintés
 
-A Microsoft Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felhasználók elküldjék és jóváhagyják a mobileszközön (iPhone vagy Android) lévő projektek munkaidő-nyilvántartásait. Ez a mobil alkalmazás megjeleníti a munkaidő-nyilvántartási funkciót, amely a Dynamics 365 Finance Projektmenedzsment és könyvelés területén található, javítja a felhasználók termelékenységét és hatékonyságát, valamint lehetővé teszi a projektek munkaidő-nyilvántartásainak időben történő bevitelét és jóváhagyását.
+A Microsoft Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felhasználók elküldjék és jóváhagyják a mobileszközön (iPhone vagy Android) lévő projektek munkaidő-nyilvántartásait. Ez a mobilalkalmazás a Dynamics 365 Finance Projektmenedzsment és könyvelés területén található munkaidő-nyilvántartási funkciókat jeleníti meg, javítva a felhasználók termelékenységét és hatékonyságát, valamint lehetővé téve a projekt munkaidő-nyilvántartásainak időben történő bevitelét és jóváhagyását.
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilalkalmazás letöltése és telepítése
 

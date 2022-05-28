@@ -1,32 +1,31 @@
 ---
-title: A projektbecslések szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
-description: Ez a témakör ismerteti azokat a sablonokat és azokat az alapul szolgáló feladatokat, amelyek a projektórabecslések és a projektkiadás-becslések közvetlenül a Microsoft Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+title: Projektbecslések szinkronizálása közvetlenül a Project Service Automation-től a Finance and Operations-ig
+description: Ez a témakör azokat a sablonokat és mögöttes tevékenységeket írja le, amelyek a projektóra-becslések és a projektköltség-becslések közvetlenül Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance történő szinkronizálására szolgálnak.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988204"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684599"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>A projektbecslések szinkronizálása közvetlenül a Project Service Automation alkalmazásból a Finance and Operations rendszerbe
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projektbecslések szinkronizálása közvetlenül a Project Service Automation-től a Finance and Operations-ig
 
 [!include[banner](../includes/banner.md)]
 
-Ez a témakör ismerteti azokat a sablonokat és azokat az alapul szolgáló feladatokat, amelyek a projektórabecslések és a projektkiadás-becslések közvetlenül a Dynamics 365 Project Service Automation alkalmazásból a Dynamics 365 Finance rendszerbe történő szinkronizálására szolgálnak.
+Ez a témakör azokat a sablonokat és mögöttes tevékenységeket írja le, amelyek a projektóra-becslések és a projektköltség-becslések közvetlenül Dynamics 365 Project Service Automation Dynamics 365 Finance történő szinkronizálására szolgálnak.
 
 > [!NOTE]
 > - A projektfeladatok integrációja, a kiadási tranzakciók kategóriái, az órabecslések, a kiadásbecslések és a funkciók zárolása a 8.0 verzióban érhető el.
@@ -70,7 +69,7 @@ A projekt ürabecsléseinek szinkronizálása előtt szinkronizálnia kell a pro
 
 ### <a name="power-query"></a>Power Query
 
-A projekt órabecsléseinek sablonjában az Excelhez készült Microsoft Power Query használatával kell végrehajtania ezeket a feladatokat:
+A projektóra-becslések sablonban a Microsoft Power Query for Excel programot kell használnia a következő feladatok végrehajtásához:
 
 - Állítsa be az alapértelmezett előrejelzési modell azonosítóját, amelyet akkor használ a rendszer, ha az integráció új óra-előrejelzéseket hoz létre.
 - Szűrjön ki a feladatban minden olyan erőforrás-specifikus rekordot, amely miatt meghiúsul az óra-előrejelzésekkel való integráció.
@@ -81,7 +80,7 @@ A projekt órabecsléseinek sablonjában az Excelhez készült Microsoft Power Q
 A sablonban az alapértelmezett előrejelzési modell azonosítójának frissítéséhez kattintson a **Leképezés** nyílra a leképezés megnyitásához. Ezután jelölje ki a **Speciális lekérdezés és szűrés** hivatkozást.
 
 - Ha az alapértelmezett Projekt órabecslései (PSA – Fin és Ops) sablont használja, akkor jelölje ki a **Beszúrt feltétel** lehetőséget az **Alkalmazott lépések** listájában. A **Funkció** bejegyzésében cserélje le au **O\_forecast** elemet az integrációval használni kívánt előrejelzési modell azonosítójával. Az alapértelmezett sablon egy előrejelzési modell azonosítóval rendelkezik a demó adatokból.
-- Ha új sablont hoz létre, akkor ezt az oszlopot kell felvennie. A Power Query alkalmazásban jelölje be a **Feltételes oszlop hozzáadása** jelölőnégyzetet, és adja meg az új oszlop nevét, például **ModelID**. Adja meg az oszlop feltételeit, ahol, ha a projektfeladat nem nulla, akkor \<enter the forecast model ID\>, egyébként nulla.
+- Ha új sablont hoz létre, akkor ezt az oszlopot kell felvennie. A területen Power Query válassza a Feltételes oszlop **hozzáadása lehetőséget**, és adja meg az új oszlop nevét, például **a ModelID azonosítót**. Adja meg az oszlop feltételeit, ahol, ha a projektfeladat nem nulla, akkor \<enter the forecast model ID\>, egyébként nulla.
 
 #### <a name="filter-out-resource-specific-records"></a>Erőforrás-specifikus bejegyzések kiszűrése
 
@@ -126,7 +125,7 @@ A projekt költségbecsléseinek szinkronizálása előtt szinkronizálnia kell 
 
 ### <a name="power-query"></a>Power Query
 
-A projekt költségbecsléseinek sablonjában a Power Query használatával kell végrehajtania a következő feladatokat:
+A projektköltség-becslések sablonban a következő tevékenységeket kell használnia Power Query:
 
 - Végezzen szűrést, hogy csak a költségbecslés sorrekordjai szerepeljenek.
 - Állítsa be az alapértelmezett előrejelzési modell azonosítóját, amelyet akkor használ a rendszer, ha az integráció új óra-előrejelzéseket hoz létre.
@@ -141,8 +140,8 @@ A Projekt költségbecslései (PSA – Fin és Ops) sablon egy alapértelmezett 
 
 A sablonban az alapértelmezett előrejelzési modell azonosítójának frissítéséhez válassza a **Költségbecslések** feladatot, majd kattintson a **Leképezés** nyílra a leképezés megnyitásához. Jelölje ki a **Speciális lekérdezés és szűrés** hivatkozást.
 
-- Ha az alapértelmezett Projekt költségbecslései (PSA – Fin és Ops) sablont használja, akkor a Power Query alkalmazásban jelölje ki az első **Beszúrt feltétel** lehetőséget az **Alkalmazott lépések** szakaszból. A **Funkció** bejegyzésében cserélje le au **O\_forecast** elemet az integrációval használni kívánt előrejelzési modell azonosítójával. Az alapértelmezett sablon egy előrejelzési modell azonosítóval rendelkezik a demó adatokból.
-- Ha új sablont hoz létre, akkor ezt az oszlopot kell felvennie. A Power Query alkalmazásban jelölje be a **Feltételes oszlop hozzáadása** jelölőnégyzetet, és adja meg az új oszlop nevét, például **ModelID**. Adja meg az oszlop feltételeit, ahol, ha a becslési sor azonosítója nem nulla, akkor \<enter the forecast model ID\>, egyébként nulla.
+- Ha az alapértelmezett Projektköltség-becslések (PSA–Fin and Ops) sablont használja, a területen Power Query válassza ki az első **Beszúrt feltételt** az **Alkalmazott lépések** szakaszból. A **Funkció** bejegyzésében cserélje le au **O\_forecast** elemet az integrációval használni kívánt előrejelzési modell azonosítójával. Az alapértelmezett sablon egy előrejelzési modell azonosítóval rendelkezik a demó adatokból.
+- Ha új sablont hoz létre, akkor ezt az oszlopot kell felvennie. A területen Power Query válassza a Feltételes oszlop **hozzáadása lehetőséget**, és adja meg az új oszlop nevét, például **a ModelID azonosítót**. Adja meg az oszlop feltételeit, ahol, ha a becslési sor azonosítója nem nulla, akkor \<enter the forecast model ID\>, egyébként nulla.
 
 #### <a name="transform-the-billing-types"></a>Számlázási típusok átalakítása
 

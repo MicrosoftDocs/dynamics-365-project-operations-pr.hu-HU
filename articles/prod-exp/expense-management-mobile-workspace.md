@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001479"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682805"
 ---
 # <a name="expense-management-mobile-workspace"></a>Költségkezelés mobil munkaterület
 
@@ -35,7 +34,7 @@ Számos szervezetnél kötelezően csatolni kell a nyugtákat az olyan, utazásh
 
 A **Költségkezelés** mobilos munkaterületen a következő feladatok hajthatók végre:
 
-- Készítsen fényképet a nyugtáról, és töltse fel a Dynamics 365 Finance alkalmazásba. Ezt követően a fotót csatolhatja egy költségjelentéshez.
+- Készítsen fényképet egy nyugtáról, és töltse fel Dynamics 365 Finance. Ezt követően a fotót csatolhatja egy költségjelentéshez.
 - Töltse fel a fájlt rögzített nyugtaként. Ezt követően a fájlt csatolhatja egy költségjelentéshez.
 - Hozzon létre új költségsort csatolt nyugta használatával. Ezután hozzáadhatja a sortételt egy költségjelentéshez, majd beküldheti jóváhagyásra és visszatérítést kérhet.
 
@@ -53,7 +52,7 @@ A következő funkciók ugyancsak rendelkezésre állnak:
 ## <a name="prerequisites"></a>Előfeltételek
 Az előfeltételek a szervezetnél használt verziótól függően eltérnek.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek a Dynamics 365 Finance használata esetén 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek, ha Dynamics 365 Finance 
 Ha a szervezet a Finance rendszert használja, a rendszergazdának közzé kell tennie a **Költségkezelés** mobilos munkaterületet. További információk: [Mobil munkaterületek közzététele](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Előfeltételek az 1611-es verzió 3. vagy újabb platformfrissítéssel való használata esetén

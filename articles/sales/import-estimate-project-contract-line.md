@@ -4,14 +4,14 @@ description: Ez a témakör azt ismerteti, hogyan lehet becsléseket importálni
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8e03a384e401331aea6e65881b4ecc88da77d737
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990094"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601619"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Becslések importálása egy projektalapú szerződéssorba
 
