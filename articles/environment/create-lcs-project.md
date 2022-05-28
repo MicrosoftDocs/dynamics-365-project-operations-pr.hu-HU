@@ -4,14 +4,14 @@ description: Ez a témakör az új LCS-projektek Project Operations-környezet e
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989959"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584185"
 ---
 # <a name="start-a-new-lcs-project"></a>Új LCS-projekt indítása
 
@@ -27,7 +27,7 @@ A Dynamics 365 Project Operations-környezetek kezeléséhez használja a Lifecy
   ![LCS-projekttípus kiválasztása.](./media/create-lcs-1.png)
 
 5. Nevezze el a projektet. 
-6. Válassza ki a **Finance and Operations** elemet terméknévként, és válassza ki az iparágat és a módszertant. 
+6. Válassza **a Pénzügy és műveletek** lehetőséget terméknévként, és válassza ki az iparágat és a módszertant. 
 7. Válassza a **Létrehozás** parancsot.
 
 ![Projekt létrehozása.](./media/create-lcs-2.png)

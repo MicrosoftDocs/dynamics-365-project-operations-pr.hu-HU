@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986584"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585795"
 ---
 # <a name="expense-management-integration"></a>Költségkezelés integrációja
 
@@ -22,19 +22,19 @@ Ez témakör a Project Operations felületen a költségjelentések kettős ír�
 
 ## <a name="expense-categories"></a>Költségkategóriák
 
-A teljes költségkihelyezés helyezés esetén a költségkategóriák az alkalmazásokban jönnek létre és tartanak a(z) Finance and Operations alkalmazásokban. Új költségkategória létrehozásához hajtsa végre a következő lépéseket:
+A teljes költség-üzembe helyezés során költségkategóriákat hoz létre és tart fenn a Pénzügy és műveletek alkalmazásban. Új költségkategória létrehozásához hajtsa végre a következő lépéseket:
 
-1. A(z) Microsoft Dataverse-ben hozzon létre egy **Tranzakció** kategóriát. A kettős írás integrációja szinkronizálja ezt a tranzakciós kategóriát az Finance and Operations alkalmazásokkal. További információ: [Projektkategóriák konfigurálása](/dynamics365/project-operations/project-accounting/configure-project-categories) és [Project Operations beállítása és konfigurációs adatintegráció](resource-dual-write-setup-integration.md). Az integráció eredményeként a rendszer négy megosztott kategóriarekordot hoz létre az Finance and Operations alkalmazásokban.
+1. A(z) Microsoft Dataverse-ben hozzon létre egy **Tranzakció** kategóriát. A kettős írású integráció szinkronizálja ezt a tranzakciókategóriát a Pénzügy és műveletek alkalmazásokkal. További információ: [Projektkategóriák konfigurálása](/dynamics365/project-operations/project-accounting/configure-project-categories) és [Project Operations beállítása és konfigurációs adatintegráció](resource-dual-write-setup-integration.md). Ennek az integrációnak az eredményeként a rendszer négy megosztott kategóriarekordot hoz létre a Finance and Operations alkalmazásokban.
 2. A Pénzügyekben lépjen a **Költségkezelés** > **Beállítás** > **Megosztott kategóriák**, és válasszon egy megosztott kategóriát a **Költség** tranzakciós osztállyal. Állítsa a **Költségben használható** paramétert **Igaz** értékre, és határozza meg a használni kívánt költségtípust.
 3. Ezzel a megosztott kategóriarekord használatával hozzon létre egy új költségkategóriát a **Költségkezelés** > **Beállítás** > **Költségkategóriák** pontra lépéssel, és az **Új** lehetőség kiválasztásával. A rekord mentésekor a kettős írás a **Project Operations integrációs projekt költségkategóriáinak exportáló entitása (msdyn \_expensecategories)** táblaleképezést használja a rekord Dataverse elemmel való szinkronizálásához: .
 
   ![Költségkategóriák integrációja.](./media/DW6ExpenseCategories.png)
 
-A(z) Finance and Operations alkalmazások költségkategóriái vállalat- vagy jogiszemély-specifikusak. Külön, megfelelő jogiszemély-specifikus nyilvántartások vannak a(z) Dataverse felületen. Amikor egy projektmenedzser megbecsüli a költségeket, nem választhatja ki azokat a költségkategóriákat, amelyeket egy másik vállalat tulajdonában lévő projekthez hoztak létre, mint az a vállalat, amely az éppen kidolgozás alatt lévő projekt tulajdonosa. 
+A Pénzügy és műveletek alkalmazások költségkategóriái vállalat- vagy jogi személyspecifikusak. Külön, megfelelő jogiszemély-specifikus nyilvántartások vannak a(z) Dataverse felületen. Amikor egy projektmenedzser megbecsüli a költségeket, nem választhatja ki azokat a költségkategóriákat, amelyeket egy másik vállalat tulajdonában lévő projekthez hoztak létre, mint az a vállalat, amely az éppen kidolgozás alatt lévő projekt tulajdonosa. 
 
 ## <a name="expense-reports"></a>Költségjelentések
 
-A költségjelentések létrehozása és jóváhagyása a(z) Finance and Operations alkalmazásokban történik. További információt a [Költségjelentések létrehozása és feldolgozása a(z) Dynamics 365 Project Operations felületen](/learn/modules/create-process-expense-reports/) című lapban talál. Miután a projektmenedzser jóváhagyta a költségjelentést, az felkerült a főkönyvbe. A Project Operations felületen a projekttel kapcsolatos költségjelentési sorok feladása speciális könyvelési szabályok alkalmazásával történik:
+A költségjelentések a Pénzügy és műveletek alkalmazásban jönnek létre és kerülnek jóváhagyásra. További információt a [Költségjelentések létrehozása és feldolgozása a(z) Dynamics 365 Project Operations felületen](/learn/modules/create-process-expense-reports/) című lapban talál. Miután a projektmenedzser jóváhagyta a költségjelentést, az felkerült a főkönyvbe. A Project Operations felületen a projekttel kapcsolatos költségjelentési sorok feladása speciális könyvelési szabályok alkalmazásával történik:
 
   - A projekttel kapcsolatos költségek (beleértve a vissza nem térítendő adót is) nem kerülnek azonnal projektköltség-számlára a főkönyvben, hanem a költségintegrációs számlára kerülnek. Ez a fiók a **Projektkezelés és könyvelés** > **Beállítás** > **Projektkezelés és könyvelés paraméterei**, **Project Operations a Dynamics 365 Customer engagement felületen** lapon van beállítva.
   - A kettős írás szinkronizálása a(z) Dataverse elemmel a **Project Operations integrációs projektköltségeket exportáló entitás (msdyn \_expenses)** táblaleképezés használatával.

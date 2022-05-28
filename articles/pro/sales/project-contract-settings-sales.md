@@ -2,16 +2,16 @@
 title: Projektszerződés beállításai - Lite
 description: Ez a témakör a szerződéssorokra hatással levő mezőkről, valamint az összes sorra vonatkozóan összefoglalt szerződésre vonatkozó információkra vonatkozó információkat tartalmaz.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995944"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586393"
 ---
 # <a name="header-details-for-project-contracts"></a>Fejlécadatok projektszerződések esetében
 
@@ -32,12 +32,15 @@ A következő táblázat a projektszerződés olyan mezőit sorolja fel, amelyek
 | Nem meghaladandó korlát | **Összegzés** lap | Ez a mező jelzi az egyeztetett felső korlátot a végső értéken, amellyel az ügyfél egyetért az üzlet esetében. | Ez a felső korlát a végrehajtás során kerül kiértékelésre, és az üzlethez kapcsolódó összes sortételre és projektre érvényes. |
 | Kért kézbesítési dátum | **Összegzés** lap | Amikor a projektárajánlatból egy szerződés kerül létrehozásra, ezt a mezőt a rendszer az projektárajánlat megfelelő mezőjéből másolja át. | Ez a dátum kerül használatra a számlaütemezések előállításához használt záró dátumként. |
 
-A következő fő teljesítménymutatók érhetők el a projekt szerződés **Szerződési teljesítmény** lapján.
+A következő fő teljesítménymutatók érhetők el a projekt szerződés **Szerződési teljesítmény** lapján. 
 
-| Mező | Hely | Adatfolyam leírása |
+>[!NOTE]
+>A Szerződés teljesítése **lapon szereplő** összes összeg a környezet alapértelmezett pénznemében van kifejezve.
+
+| Mező | Hely | Description |
 | --- | --- | --- |
-| Szerződés értéke | Általános szerződés | A Projektszerződés teljes értéke. |
-| Számlázott összeg | Általános szerződés | A szerződésben szereplő összes számlán szereplő összegek összege. |
+| Szerződés értéke | Általános szerződés | A projektszerződés teljes értéke.|
+| Számlázott összeg | Általános szerződés | A szerződésben szereplő összes számlán szereplő összegek összege.|
 | Felmerült költség | Általános szerződés | A szerződéshez leképezett összes projektre vonatkozóan a naplózott összes költség összege. |
 | Bruttó nyereség | Általános szerződés | Számlázott összeg – a felmerült költség adott dátumig/számlázott összeg |
 | Várt árrés | Általános szerződés | (Szerződés értéke – becsült költség)/szerződés érték becsült költségei = a szerződésre leképezett összes projekt becsült költségének összege.|

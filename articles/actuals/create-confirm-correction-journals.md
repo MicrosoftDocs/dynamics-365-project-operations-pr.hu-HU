@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986719"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582806"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Helyesbítő naplók létrehozása és megerősítése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Időnként előfordulhat, hogy egy idő-vagy költségbejegyzés helytelenül van megadva. Előfordulhat például, hogy egy tanácsadó helytelen időpontot választki időbejegyzés létrehozásakor, vagy egy költség bevitelekor felcserél számokat. Ha egy tanácsadó nem tudja frissíteni a beküldött bejegyzéseket, az adminisztrátor közvetlenül kijavíthatja a projekthez tartozó bejegyzést.
-
-A jelen témakör eljárásainak végrehajtásához rendszergazdai jogosultságokra van szükség.
+Előfordulhat, hogy egy idő- vagy költségbejegyzés helytelenül van megadva. Előfordulhat például, hogy egy tanácsadó rossz dátumot választ ki időbejegyzés létrehozásakor, vagy rossz projektet választ ki költség megadásakor. Ha egy tanácsadó nem tudja frissíteni a beküldött bejegyzéseket, a háttéradminisztrátor közvetlenül kijavíthatja a projekt tényleges adatait.
 
 ## <a name="correct-approved-time-entries"></a>Jóváhagyott időbejegyzések kijavítása     
 
@@ -46,8 +42,8 @@ A következő lépések végrehajtásával helyesbítheti a projekt egy vagy tö
 
 6. Válassza a **Előnézet** elemet. A párbeszédpanelen válassza az **OK** lehetőséget. A **Naplósorok** lapon megtekintheti a sztornírozott kijelölt időpontokhoz kapcsolódó eredeti tényadatok listáját, valamint a hozzájuk tartozó helyesbített sorokat, amelyek létre lettek hozva. Ha további helyesbítésekre van szükség, ismételje meg az 5. és a 6. lépéseket. 
 
-> [!NOTE]
-> Minden helyesbített tényadatnak ugyanazok az értékei lesznek, mint amelyeket kiválasztott **Időbejegyzések új értékei** szakaszban.
+    > [!NOTE]
+    > Minden helyesbített tényadatnak ugyanazok az értékei lesznek, mint amelyeket kiválasztott **Időbejegyzések új értékei** szakaszban.
 
 7. Ha a javítások a várt módon jelennek meg ,válassza a **Jóváhagyás** lehetőséget. A párbeszédpanelen válassza az **OK** lehetőséget.
 
@@ -55,12 +51,10 @@ A következő lépések végrehajtásával helyesbítheti a projekt egy vagy tö
 
 9. A **Projektek** oldalon, a **Tényadatok** lapon tekintse meg a végrehajtott módosításokat. 
 
-> [!NOTE]
-> Ha a **Tényadatok** lap nem látható, válassza a **Kapcsolódó** > **Tényadatok** lehetőséget.  
+    > [!NOTE]
+    > Ha a **Tényadatok** lap nem látható, válassza a **Kapcsolódó** > **Tényadatok** lehetőséget.  
 
 10. A **Tényleges adatok társított nézete** listában látható, hogy a sztornírozott eredeti időbejegyzések továbbra is ott vannak, ahogy a hozzájuk tartozó helyesbített időpontok is. 
-
-A következő ábrán például két olyan sor tétel szerepel, amelyek mennyisége 8,00 és terhelések tartoznak hozzájuk a Mennyiség oszlopban. Emellett két olyan sor tétel szerepel, amelynek mennyisége -8,00, és ezekhez az Összeg oszlopban jóváírás látható. Ezek a javítások nullára módosítják a mennyiséget.
 
  
 ## <a name="correct-approved-expense-entries"></a>Jóváhagyott költségbejegyzések kijavítása
@@ -79,14 +73,30 @@ Hajtsa végre az alábbi lépéseket egy vagy több költségbejegyzés kijavít
 
 6. Ha a javított értékek a várt módon jelennek meg ,válassza a **Jóváhagyás** lehetőséget. A párbeszédpanelen válassza az **OK** lehetőséget. Ha az értékek nem a várt módon jelennek meg , válassza a **Mégse** lehetőséget a **Jóváhagyott kiadások** listájához való visszatéréshez. Ismételje meg a 2 – 5. lépéseket. 
 
-> [!NOTE]
-> Minden helyesbített tényadatnak ugyanazok az értékei lesznek, mint amelyeket kiválasztott **Költségek új értékei** szakaszban.
+7. Miután megerősítette a javítási naplót, térjen vissza a frissített projekthez vagy projektekhez a módosítások megtekintéséhez.
 
-7. A helyesbítő napló megerősítése után lépjen vissza a frissített projekthez vagy projektekhez, és tekintse meg a változtatásokat.  
-
-8. A projekt oldalán a **Tényadatok** lapon tekintse át a **Tényleges adatok társított nézete** elemet. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva. A következő ábra az eredeti költségbejegyzés összegeket, illetve az azokhoz tartozó helyesbített költségbejegyzés-mennyiségeket. 
+8. A projektlap **Tényleges adatok** lapján tekintse át a **Tényleges társított nézet** listát. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Jóváhagyott anyaghasználati naplók javítása
+
+Egy vagy több anyaghasználati naplóbejegyzés kijavításához hajtsa végre az alábbi lépéseket.
+
+1. **Az Értékesítés** területen, a bal oldali navigációs ablakban, a Tranzakciók **csoportban** válassza a Ténylegesek **lehetőséget**.
+
+2. **A Ténylegesek** listában oszlopszűrőkkel válassza ki az **Anyagtranzakció** osztályt, hogy csak az anyagok tényleges adatai jelenjenek meg. Más oszlopszűrők használatával tovább korlátozhatja a megjelenített tényleges adatokat. Miután megtalálta a kívánt tényleges adatokat, válassza ki a tényleges adatokat, majd válassza a Tételek javítása **lehetőséget**. A rendszer automatikusan létrehoz egy új korrekciós naplót, és hozzárendeli az **Anyagkorrekció** típusát.
+
+3. **Az Új napló** lap Megnevezés **mezőjében** adja meg a javítás leírását. Ezután az **Anyagkorrekció lap Anyagkorrekció** **lapján** válassza ki a kijelölt anyagsorokhoz helyesbíteni kívánt adatmezőket. Hozzárendelheti például az anyagot egy másik projekthez, vagy kijavíthatja a terméket, az anyagdátumot vagy az alvállalkozói szerződést.
+
+4. Válassza a **Előnézet** elemet. Ezután a párbeszédpanelen válassza az OK **lehetőséget**.
+
+5. **A Naplósorok** lapon ellenőrizze a javításokat. Megtekintheti a sztornírozott kijelölt anyagtételekhez és a létrehozott helyesbített megfelelő sorokhoz kapcsolódó eredeti tényleges értékek listáját.
+
+6. Ha a javított értékek a várt módon jelennek meg ,válassza a **Jóváhagyás** lehetőséget. Ezután a párbeszédpanelen válassza az OK **lehetőséget**. Ha az értékek nem a várt módon jelennek meg, válassza a Mégse gombra **a** **Ténylegesek** listához való visszatéréshez. Ezután ismételje meg a 2-től 5.-ig terjedő lépéseket.
+
+7. Miután megerősítette a javítási naplót, térjen vissza a frissített projekthez vagy projektekhez a módosítások megtekintéséhez.
+
+8. A projektlap **Tényleges adatok** lapján tekintse át a **Tényleges társított nézet** listát. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

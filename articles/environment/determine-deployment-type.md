@@ -4,14 +4,14 @@ description: Ez a témakör a Project Operations az Ön vállalatának megfelel�
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994639"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584139"
 ---
 # <a name="determine-your-deployment-type"></a>A telepítés típusának meghatározása
 
@@ -25,7 +25,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>A Dynamics meglévő Dynamics 365 Project Service Automation rendszert használó ügyfelei
 A Project Operations a Project Service Automation szolgáltatással szállított képességeket tartalmazza. A frissítés elérési úta 2021-es 1 kiadási hullámban jelennek meg az ügyfelek számára.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A Dynamics 365 Finance Projektmenedzsment és könyvelés alkalmazást használó meglévő ügyfelei 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A projektmenedzsmentet és számvitelt használó Dynamics 365 Finance meglévő ügyfelei 
 
 A projektmenedzsment és-számlázási funkciót használó meglévő Finance ügyfelek továbbra is használhatják azt. Lásd: [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma).
 
@@ -42,9 +42,9 @@ A [telepítési kérdőívünk](https://aka.ms/provisionprojectoperations) segí
 - [Projekt Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez](#integrated)
 - [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma)
 
-A Project Operations a készletalapú/gyártási megrendeléseken alapuló forgatókönyveket és a nem készletalapú/erőforrásalapú forgatókönyveket támogatja ugyanazon környezetben, jogientitás-szintű konfigurációkon keresztül. Például a Contoso használhatja a készletezett/termelési rendelési képességeket az amerikai gyártóüzemben (Jogi személy = Contoso Manufacturing United States). A Contoso használhatja a nem készletezett/erőforrásalapú képességeket a Contoso Egyesült Királyságban található Robotics Arms szervizüzemében (Jogi személy = Contoso Robotics United Kingdom).
+A Project Operations a készletalapú/gyártási megrendeléseken alapuló forgatókönyveket és a nem készletalapú/erőforrásalapú forgatókönyveket támogatja ugyanazon környezetben, jogientitás-szintű konfigurációkon keresztül. A Contoso például az Egyesült államokbeli gyártási létesítményben a készletezett/termelési rendelés funkcióit használhatja (Jogi személy = Contoso Manufacturing United States). A Contoso a nem készletezett/erőforrás alapú lehetőségeket használhatja a Contoso Robotics Arms karbantartási létesítményében az Egyesült Királyságban (a jogi személy = Contoso Robotics United Kingdom).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Egyszerű központi telepítés – ajánlattól proforma számlázásig
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Egyszerű telepítés – proforma számlázás
 
 A Lite telepítés a következő lehetőségeket tartalmazza:
 

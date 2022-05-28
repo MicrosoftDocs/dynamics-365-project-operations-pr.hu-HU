@@ -4,16 +4,16 @@ description: Ez a témakör a készpénzes előlegekről nyújt információkat.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988519"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585703"
 ---
 # <a name="cash-advance"></a>Készpénzelőleg
 
@@ -66,7 +66,7 @@ Költségjelentés elküldése előtt kiválaszthatja a jelentésben a költség
  
  Ha ezek a funkciók engedélyezve vannak:
  
-  - Az egyes költségsorokhoz egy vagy több készpénzelőleget is hozzáadhat.
+  - Minden költségsorhoz hozzáadhat egy vagy több készpénzelőleget.
   - A készpénzelőleg rendelkezésre álló egyenlege valós időben látható a költségjelentés mentésekor. Ez lehetővé teszi a költségtranzakciók feldolgozását és a készpénztranzakció egyidőben való visszaküldését.
   - Az egyes költségtranzakciókhoz több készpénzelőleget is kiválaszthat.
   - A készpénzelőleg egyeztetési adatai lekérdezéssel érhetők el. 

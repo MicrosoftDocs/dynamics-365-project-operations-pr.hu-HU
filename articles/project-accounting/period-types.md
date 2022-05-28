@@ -4,14 +4,14 @@ description: Ez a témakör információt nyújt az időszaktípusok beállítá
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998779"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580459"
 ---
 # <a name="period-types"></a>Időszaktípusok
 
@@ -22,7 +22,7 @@ Az időszak típusa határozza meg, hogy milyen gyakran kerüljön sor bevétel 
 ## <a name="create-and-work-with-period-types"></a>Időszaktípusok létrehozása és használata
 Az időszaktípusok létrehozásához és használatához hajtsa végre a következő lépéseket:
 
-1. A Dynamics 365 Finance környezetében nyissa meg a **Projektvezetés és könyvelés** > **Beállítások** > **Becslések** > **Időszaktípusok** elemet.
+1. A Dynamics 365 Finance környezetben keresse fel a **Projektmenedzsment és a könyvelés beállítása** > **·** > **becsült** > **időszaktípusokat**.
 2. Új időszaktípus létrehozásához válassza az **Új** lehetőséget. Adjon meg egy nevet és egy leírást.
 3. Válasszon egy értéket a **Gyakoriság** mezőben:
 

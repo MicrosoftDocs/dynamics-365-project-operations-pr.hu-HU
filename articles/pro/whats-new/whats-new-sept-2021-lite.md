@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4a8ad3f9bac9866a2e60811225a6d5392b4501c1
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: f84d19df59e9f726d6ee456ff6064ad24529b577
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501284"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582575"
 ---
 # <a name="whats-new-september-2021---project-operations-lite-deployment"></a>2021. szeptemberi újdonságok – A Project Operations Lite telepítés
 

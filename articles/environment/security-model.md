@@ -4,20 +4,20 @@ description: Ez a témakör a Dynamics 365 Project Operations biztonsági modell
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991489"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585749"
 ---
 # <a name="security-model"></a>Biztonsági modell
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 A Microsoft Dynamics 365 Project Operations egyedi biztonsági modellt tartalmaz, amely lehetővé teszi egy szerepkörön alapuló üzleti biztonsági modell alkalmazását, amely együttműködik a Microsoft Office csoportokkal. 
 
@@ -70,7 +70,7 @@ Mivel az Office-csoport együttműködési modellje fejlődik, további funkció
 
 További tudnivalókért lásd: [Biztonság a Common Data Service rendszerben](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations és a Microsoft Dynamics 365 Finance biztonsága
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projektműveletek és Microsoft Dynamics 365 pénzügyi biztonság
 A Project Operations a következő szerepköröket tartalmazza:
 
 - Projektvezető

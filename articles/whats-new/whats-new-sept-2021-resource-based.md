@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547157"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582897"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. szeptemberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547157"
 Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.14.0.99 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és könyvelés a Dynamics 365 Finance környezetének 10.0.20-es verziójában.
+   - Projektmenedzsment és számvitel Dynamics 365 Finance környezetvédelmi verzióban 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 
@@ -45,7 +45,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a Kettős ír�
 | Számlázás és árképzés | 2385802 | Javítottuk a projektösszegek frissítésekkor a negatív tényleges óráknál jelentkező hibát. |
 | Számlázás és árképzés | 2389675 | Továbbfejlesztett proforma számlamegerősítés viselkedés. A hosszú ideje futó feladatok entitásának figyelembe kell vennie a könyvelés számára a megerősítő eredmények írásához szükséges tevékenységet. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance szolgáltatásban
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

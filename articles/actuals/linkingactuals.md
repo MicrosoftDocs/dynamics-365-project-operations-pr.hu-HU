@@ -1,101 +1,46 @@
 ---
-title: Tények csatolása az eredeti rekordokhoz
-description: Ez témakör ismerteti, hogyan kapcsolhatja össze a tényleges adatokat az eredeti rekordokkal, például az időbejegyzési, költségbejegyzési vagy anyaghasználati naplókkal.
+title: Tranzakció eredete – Tényleges adatok csatolása a forrásukhoz
+description: Ez a témakör bemutatja, hogy a tranzakció eredetének fogalmát hogyan használják a tényleges adatok eredeti forrásrekordokhoz, például időbevitelhez, költségbevitelhez vagy anyaghasználati naplókhoz való kapcsolására.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991759"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584829"
 ---
-# <a name="link-actuals-to-original-records"></a>Tények csatolása az eredeti rekordokhoz
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Tranzakció eredete – Tényleges adatok csatolása a forrásukhoz
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-
-A Dynamics 365 Project Operations-ben lévő *üzleti tranzakció* olyan absztrakt fogalom, amelyet nem képvisel semmilyen entitás. Az entitások gyakori mezői és folyamatai azonban az üzleti tranzakciók fogalmának használatára vannak kialakítva. A következő entitások használják a fogalmat:
-
-- Árajánlatsor részletei
-- Szerződéssor részletei
-- Becslés sorai
-- Naplósorok
-- Tények
-
-Ezen entitások közül az **Árajánlatsor részletei**, a **Szerződéssor részletei** és a **Becsléssorok** a projekt életciklusának becslési fázisára vannak leképezve. A **Naplósorok** és a **Tényadat-entitások** a projekt életciklusának végrehajtási fázisára vannak leképezve.
-
-A Project Operations az öt entitás rekordjait üzleti tranzakcióként ismeri el. Az egyetlen különbség, hogy a becslési fázisra leképezett entitásokban lévő rekordok pénzügyi előrejelzésnek számítanak, míg a végrehajtási fázishoz leképezett entitások bejegyzései olyan pénzügyi tények, amelyek már megtörténtek.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Az üzleti tranzakciók esetében egyedi fogalmak
-A következő fogalmak egyediek az üzleti tranzakciók fogalma esetében:
-
-- Tranzakció típusa
-- Tranzakcióosztály
-- Tranzakcióeredet
-- Tranzakciós kapcsolat
-
-### <a name="transaction-type"></a>Tranzakció típusa
-
-A tranzakció típusa a projektre gyakorolt pénzügyi hatás időzítését és kontextusát jelenti. Ezt egy értékkészlet képviseli, amelynek a következő támogatott értékei a Project Operations szolgáltatásban szerepelnek:
-
-  - Költség
-  - Projektszerződés
-  - Számlázatlan értékesítés
-  - Számlázott értékesítés
-  - Szervezetek közötti értékesítések
-  - Erőforrás-kezelő részleg költsége
-
-### <a name="transaction-class"></a>Tranzakcióosztály
-
-A tranzakciós osztály a projektekkel kapcsolatban felmerülő költségek különböző típusait jelöli. Ezt egy értékkészlet képviseli, amelynek a következő támogatott értékei a Project Operations szolgáltatásban szerepelnek:
-
-  - Idő
-  - Költség
-  - Anyag
-  - Díj
-  - Mérföldkő
-  - Adó
-
-A **Mérföldkő** értékét általában az üzleti logika használja a rögzített árú számlázáshoz a Project Operations szolgáltatásban.
-
-### <a name="transaction-origin"></a>Tranzakcióeredet
-
-A **Tranzakció eredete** az egyes üzleti tranzakciók eredetét tároló entitás. Ahogy a projekt elindul, minden üzleti tranzakció egy másik üzleti tranzakciót fog generálni, ami szintén létrehoz egy másikat, és így tovább. A tranzakció eredeti entitásának célja az egyes tranzakciók eredetére vonatkozó adatok tárolása a jelentéskészítés és a nyomon követhetőség érdekében. 
-
-### <a name="transaction-connection"></a>Tranzakciós kapcsolat
-
-A **tranzakciós kapcsolat** olyan entitás, amely két hasonló üzleti tranzakció közötti kapcsolatot tárolja, például a költség és a kapcsolódó értékesítések tényleges értékét, vagy a tranzakció sztornózását, amelyet számlázási tevékenységek, például a számla visszaigazolása vagy a számla helyesbítése eredményeznek.
-
-A **tranzakció eredete** és a **tranzakciós kapcsolat** együttesen segítenek nyomon követni az üzleti tranzakciók és az olyan műveletek közötti kapcsolatokat, amelyek egy adott üzleti tranzakció létrehozását okozzák.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Példa: Hogyan működik a tranzakció eredete a tranzakciós kapcsolattal?
+A tranzakció eredetrekordjai úgy jönnek létre, hogy a tényleges adatokat összekapcsolják a forrásukkal, például az időtételekkel, a költségtételekkel, az anyaghasználati naplókkal és a projektszámlákkal.
 
 A következő példa az időbejegyzések tipikus feldolgozását mutatja be a Project Operations projekt életciklusában.
 
-> ![Feldolgozási idő entitások a Project Service életciklusban.](media/basic-guide-17.png)
+> ![A feldolgozási idő teljes egészében a Projektműveletekben.](media/basic-guide-17.png)
  
-1. Az időbejegyzések beküldése két naplósor létrehozását eredményezi: egyet a költségről, és egyet pedig a nem számlázott értékesítésekről.
-2. Az időbejegyzés végleges jóváhagyása két tényadat létrehozását eredményezi: egy tényadatot a költségről, egy tényadatot pedig a nem számlázott értékesítésekről.
-3. Amikor egy új projektszámla jön létre, a számlasor tranzakcióját a rendszer a nem számlázott értékesítésből származó tényadatok felhasználásával hozza létre. 
-4. A számla megerősítését követően két új tényadat jön létre: a nem számlázott értékesítés sztornózása tényadata és a számlázott értékesítés tényadata.
+1. Az időtétel beküldése két naplósor létrehozását eredményezi: egyet a költséghez és egyet a nem számlázott eladásokhoz.
+2. Az időbevitel esetleges jóváhagyása két tényleges értéket eredményez: egyet a költséghez és egyet a nem számlázott értékesítésekhez.
+3. Amikor a felhasználó létrehoz egy projektszámlát, a számlasor tranzakcióját a rendszer a nem számlázott értékesítésből származó tényadatok felhasználásával hozza létre.
+4. A számla megerősítését követően két új tényadat jön létre: a nem számlázott értékesítés sztornózása és a számlázott értékesítés tényadata.
 
-Ezen események mindegyike rekordot hoz létre a **Tranzakció eredete** és a **Tranzakciókapcsolat** entitásokban. Ezek az új rekordok segítenek létrehozni egy kapcsolati előzményt a rekordok között, amelyek az időbejegyzés, a naplósor, a tényadatok és a számlasor részletei között jönnek létre.
+A feldolgozási munkafolyamat minden eseménye elindítja a Tranzakciók származási entitásában lévő rekordok létrehozását, hogy segítsen az időbevitel, a naplósor, a tényleges és a számlasor részletei között létrehozott rekordok közötti kapcsolatok nyomának létrehozásában.
 
-A következő tábla a munkafolyamat **tranzakció eredete** entitásának rekordjait mutatja be.
+A következő táblázat az előző munkafolyamat tranzakció eredete entitásának rekordjait mutatja be.
 
-| Esemény                        | Eredet                   | Eredet típusa                       | Tranzakció                       | Tranzakciótípus         |
+| Esemény                        | Eredet                   | Eredet típusa                       | Tranzakció                       | Tranzakció típusa         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Időbejegyzés elküldése        | Időbejegyzés-rekord GUID   | Időbejegyzés                        | Naplósor-bejegyzés GUID (költség)   | Naplósor             |
 | Időbejegyzés-rekord GUID       | Időbejegyzés               | Naplósor-bejegyzés GUID (értékesítés)  | Naplósor                      |                          |
 | Jóváhagyási idő                | Naplósor-bejegyzés GUID | Naplósor                      | Számlázatlan értékesítési rekord GUID        | Tény                   |
 | Időbejegyzés-rekord GUID       | Időbejegyzés               | Számlázatlan értékesítési rekord GUID        | Tény                            |                          |
 | Naplósor-bejegyzés GUID     | Naplósor             | Költség tényleges rekordja GUID           | Tény                            |                          |
-| Időbejegyzés-rekord GUID       | Időbejegyzés               | Költség tényleges rekordja GUID           | Tényleges                            |                          |
+| Időbejegyzés-rekord GUID       | Időbejegyzés               | Költség tényleges rekordja GUID           | Tény                            |                          |
 | Számla létrehozása             | Időbejegyzés-rekord GUID   | Időbejegyzés                        | Számlasor-tranzakció GUID     | Számlasor-tranzakció |
 | Naplósor-bejegyzés GUID     | Naplósor             | Számlasor-tranzakció GUID     | Számlasor-tranzakció          |                          |
 | Számla jóváhagyása         | Számlasor GUID        | Számla sora                      | Számlázott értékesítési rekord GUID          | Tény                   |
@@ -122,20 +67,11 @@ A következő tábla a munkafolyamat **tranzakció eredete** entitásának rekor
 | Naplósor-bejegyzés GUID     | Naplósor             | Új, számlázatlan értékesítési tényadat GUID    | Tény                            |                          |
 | Helyesbítési ILD GUID          | Számlasor-tranzakció | Új, számlázatlan értékesítési tényadat GUID    | Tény                            |                          |
 | Helyesbítési IL GUID           | Számla sora             | Új, számlázatlan értékesítési tényadat GUID    | Tény                            |                          |
-| Helyesbítő számla GUID      | Számla                  | Új, számlázatlan értékesítési tényadat GUID    | Tény                            |                          |
+| Helyesbítő számla GUID      | Számla                  | Új, számlázatlan értékesítési tényadat GUID    | Tényleges                            |                          |
 
-A következő tábla a munkafolyamat **tranzakció kapcsolat** entitásának rekordjait mutatja be.
 
-| Esemény                          | 1. tranzakció                 | 1. tranzakció szerepköre | 1. tranzakció típusa           | 2. tranzakció                | 2. tranzakció szerepköre | 2. tranzakció típusa |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Időbejegyzés elküldése          | Naplósor (értékesítés) GUID     | Számlázatlan értékesítés     | msdyn_journalline            | Naplósor (költség) GUID     | Költség               | msdyn_journalline  |
-| Jóváhagyási idő                  | Számlázatlan tényadat (értékesítés) GUID  | Számlázatlan értékesítés     | msdyn_actual                 | Tényadat költsége (költség) GUID       | Költség               | msdyn_actual       |
-| Számla létrehozása               | Számlasor részletei GUID      | Számlázott értékesítés       | msdyn_invoicelinetransaction | Számlázatlan értékesítési tényleges GUID   | Számlázatlan értékesítés     | msdyn_actual       |
-| Számla jóváhagyása           | Tényleges GUID sztornózása         | Sztornózás          | msdyn_actual                 | Eredeti számlázatlan értékesítési GUID | Eredeti           | msdyn_actual       |
-| Számlázott értékesítési GUID              | Számlázott értékesítés                  | msdyn_actual       | Számlázatlan értékesítési tényleges GUID   | Számlázatlan értékesítés               | msdyn_actual       |                    |
-| Számlatervezet helyesbítése       | Számlasor-tranzakció GUID | Csere          | msdyn_invoicelinetransaction | Számlázott értékesítési GUID            | Eredeti           | msdyn_actual       |
-| Számlahelyesbítés jóváhagyása     | Számlázott értékesítés sztornózási GUID    | Sztornózás          | msdyn_actual                 | Számlázott értékesítési GUID            | Eredeti           | msdyn_actual       |
-| Új, számlázatlan értékesítési tényadat GUID | Csere                     | msdyn_actual       | Számlázott értékesítési GUID            | Eredeti                     | msdyn_actual       |                    |
+Az alábbi ábra a tényleges adatok és forrásaik között különböző eseményeken létrehozott hivatkozásokat mutatja be a Projektműveletek időbejegyzéseinek példájával.
 
+> ![Hogyan kapcsolódnak a tényleges adatok a Projektműveletek forrásrekordjaihoz?](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

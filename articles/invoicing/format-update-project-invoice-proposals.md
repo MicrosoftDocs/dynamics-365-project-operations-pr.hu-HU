@@ -4,14 +4,14 @@ description: A témakör az ügyfél felé irányuló számlák Project Operatio
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989914"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585611"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekt számlaajánlatok kezelése
 
@@ -22,7 +22,7 @@ A projekt számlajavaslatait feldolgozhatja a számlázási osztály, ha teljes�
   - A projektmenedzser jóváhagyja a proforma számlát a Microsoft Dataverse-ben.
   - A proforma számlán szereplő minden időre és anyagra vonatkozó számlázatlan értékesítési tranzakciók szerepet azon a proforma számlán, amelyet a Dynamics 365 **Project Operations integrációs** naplója segítségével tettek közzé.
 
-A következő lépésekkel teljesítsen egy projekt számlajavaslatot a Dynamics 365 Finance-ben.
+Az alábbi lépésekkel Dynamics 365 Finance projektszámla-javaslatot hajthat végre.
 
 1. Tekintse át az időpont- és anyagtranzakciók számlázási adatait, és tegye közzé a **Project Operations integrációs** naplót.
 2. Tekintse át a rögzített árú számlázási mérföldkövek számlázási adatait.

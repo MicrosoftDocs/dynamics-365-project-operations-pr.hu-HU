@@ -3,16 +3,15 @@ title: Vállalatközi számlázás áttekintése
 description: Ez a témakör információkat és példákat tartalmaz a vállalatközi számlázásról a projektekhez.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005394"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586255"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vállalatközi számlázás áttekintése
 
@@ -20,7 +19,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 Előfordulhat, hogy a szervezethez több olyan részleg, leányvállalat és más jogi személy tartozik, amelyek termékeket és szolgáltatásokat biztosítanak egymásnak a projektjeihez. Az a jogi személy, aki a szolgáltatást vagy terméket nyújtja, az úgynevezett *kölcsönadó jogi személy*. Az a jogi személy, aki a szolgáltatást vagy terméket kapja, az úgynevezett *kölcsönvevő jogi személy*.
 
-Az alábbi ábra egy tipikus forgatókönyvet mutat be, amelyben két jogi személy, a Contoso Robotics USA (a kölcsönvevő entitás) és a Contoso Robotics UK (a kölcsönadó entitás) megosztja az erőforrásokat a projekt elkészítéséhez az Adventure works számára. Ebben az esetben a Contoso Robotics USA van megbízva a szállítással az Adventure Works számára.
+A következő ábra egy tipikus forgatókönyvet mutat be, ahol két jogi személy, a Contoso Robotics USA (a kölcsönvevő jogi személy) és a Contoso Robotics UK (a kölcsönvevő jogi személy) erőforrásokat oszt meg az ügyfélnek, a Kalandorboltnak. Ebben az esetben a Contoso Robotics USA szerződést kötött egy munka szállítására az Adventure Works számára.
 
 ![Vállalatközi számlázás.](./media/IntercompanyScenario.png) 
 
