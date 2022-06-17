@@ -1,23 +1,23 @@
 ---
 title: Anyagokra vonatkozó pénzügyi becslések projekteknél
-description: Ez témakör a projektalapú anyagokra meghatározásáról vagy becsléséről nyújt tájékoztatást.
+description: Ez a cikk a projektalapú anyagok meghatározásáról vagy becsléséről nyújt tájékoztatást.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
-ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
+ms.openlocfilehash: eb33c8e2ead2a558bf53256095645011212ff343
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925700"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Anyagokra vonatkozó pénzügyi becslések projekteknél
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations lehetővé teszi a projektmenedzserek számára, hogy minden projekthez vagy feladathoz projektalapú anyagköltségeket határozzanak meg. Minden anyagbecslés társítható egy adott projektfeladathoz. A projektekben használt anyagok lehetnek beírt termékek vagy termékek a termékkatalógusból. Egy termék és egy egység minden egyes kombinációjához meg lehet határozni egy árat az értékesítések projektárlistáiban és a projekt költséglistáiban.  
+A Dynamics 365 Project Operations lehetővé teszi a projektmenedzserek számára, hogy minden projekthez vagy feladathoz projektalapú anyagköltségeket határozzanak meg. Minden anyagbecslés társítható egy adott projektfeladathoz. A projektekben használt anyagok lehetnek beírt termékek vagy termékek a termékkatalógusból. A termék és az egység minden egyes kombinációjához meghatározható egy ár az értékesítések projekt árlistáiban és a projekt árlistáiban a költségekhez.  
 
 Projektanyag-becslés megtekintéséhez, hozzáadásához vagy törléséhez végezze el a következő lépéseket.
 

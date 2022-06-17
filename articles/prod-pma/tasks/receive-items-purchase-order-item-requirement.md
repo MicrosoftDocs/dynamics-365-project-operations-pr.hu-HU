@@ -1,6 +1,6 @@
 ---
 title: Cikkek bevételezése a cikkszükségletből származó beszerzési rendelésen
-description: Ez a témakör ismerteti, hogyan lehet cikkeket bevételezni egy cikkszükségletből származó beszerzési rendelésen.
+description: Ez a cikk azt ismerteti, hogyan kaphat cikkeket egy beszerzési rendeléshez egy cikkszükségletből.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929539"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Cikkek bevételezése a cikkszükségletből származó beszerzési rendelésen
 
 [!include [banner](../../includes/banner.md)]
 
-Ez a témakör ismerteti, hogyan lehet cikkeket bevételezni egy cikkszükségletből származó beszerzési rendelésen.
+Ez a cikk azt ismerteti, hogyan kaphat cikkeket egy beszerzési rendeléshez egy cikkszükségletből.
 
 Cikktranzakció helyett egy cikkszükségletet használva megtervezheti a szállítást éppen a cikk tényleges felhasználása előtt, létrehozhat egy beszerzési rendelést, belefoglalhatja a cikket egy megállapodási keretrendszerbe, és belefoglalhatja a cikkszükségletet a gyártási tervezésbe. 
 

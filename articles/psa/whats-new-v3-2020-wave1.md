@@ -1,6 +1,6 @@
 ---
 title: Újdonságok és változások a Project Service Automation 3. verziójában – 2020 1. hullám
-description: Ez a témakör információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 3. verziójában – 2020. 1. hullám.
+description: Ez a cikk a Project Service Automation 2020-as 3. hullámának 2020-as verziójában újdonságokról és változásokról nyújt tájékoztatást.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928619"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Újdonságok és változások a Project Service Automation 3-as verziójában – 2020 1. hullám
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-A témakör bemutatja a legfontosabb frissítés szempontjait a Project Service Automation (PSA) 3. x 2020 1. hullám legújabb verziójára történő átállás során.
+A cikk kiemeli a legfontosabb frissítési szempontokat, amikor a Project Service Automation (PSA) 3.x wave 1 2020-as verziójának legújabb kiadására lép.
 
 ## <a name="time-entry"></a>Időbejegyzés
 Az időbevitel élménye bővítve lett, hogy az időbevitel több ügyfél-forgatókönyvre is kiterjedjen. Ez magában foglalja a bejegyzéstípusok hozzáadását is, amelyek adott viselkedést váltanak ki a **Időbevitel beállításai** mezőséma névben, amely **Időforrás** néven jelenik meg. A funkció támogatása érdekében új megoldást adtunk hozzá, amelynek neve: Idő, költség, állapotkezelés és jóváhagyások (TESA).

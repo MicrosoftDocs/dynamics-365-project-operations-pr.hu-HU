@@ -1,6 +1,6 @@
 ---
 title: Projektek beszerzése kezdőlap
-description: Ez a témakör információkat nyújt a Dynamics 365 Project Service Automation (PSA) erőforrás-kezelési képességeiről.
+description: Ez a cikk a Project Service Automation (PSA) for Dynamics 365 erőforrás-kezelési képességeiről nyújt tájékoztatást.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925261"
 ---
 # <a name="resourcing-projects-home-page"></a>Projektek beszerzése kezdőlap
 
@@ -46,7 +46,7 @@ Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az 
 - Fenntartja a készségek és jártassági adattárat.
 
 
-A PSA-ban általános vagy megnevezett erőforrásokkal foglalkoztathatja a projektet. Különböző módszerekkel felveheti és kijelölheti a csapattagokat, valamint kezelheti a foglalásaikat és feladataikat. További információkért lásd a következő témákat:
+A PSA-ban általános vagy megnevezett erőforrásokkal foglalkoztathatja a projektet. Különböző módszerekkel felveheti és kijelölheti a csapattagokat, valamint kezelheti a foglalásaikat és feladataikat. További információt a következő cikkekben talál:
 
 - [Megnevezett foglalható erőforrások foglalása a projektcsapatba és feladatokhoz hozzárendelés](assign-named-bookable-resource.md)
 - [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](assign-generic-bookable-resource.md)

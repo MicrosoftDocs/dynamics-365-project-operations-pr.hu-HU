@@ -1,17 +1,17 @@
 ---
 title: A Project Operations navigálása
-description: Ez a témakör információt nyújt a Project Operations elérésére a Lifecycle Services szolgáltatásból.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan férhet hozzá a Project Operationshez a Lifecycle Services szolgáltatásból.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931655"
 ---
 # <a name="navigate-project-operations"></a>A Project Operations navigálása
 
@@ -22,9 +22,9 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 A Dynamics 365 Project Operations az erőforrás/nem készletalapú forgatókönyvekhez a következő két összetevőből áll: 
 
  - A **Project Operations a Common Data Service (CDS) környezetben**: Ez az összetevő lefedi a lehetőségtől a proforma számlázásig vonatkozó lehetőségeket és folyamatokat. 
- - **Projektmenedzsment és számvitel Dynamics 365 Finance környezetben**: Ez az összetevő magában foglalja a költségkezelési képességeket, a projektkönyvelést és a bevételelszámolást. 
+ - **Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben**: Ez a komponens a költségkezelési képességeket, a projekt könyvelését és a bevétel elszámolását fedi le. 
 
-A Project Operations jelen témakörben leírt kiépítése után a Lifecycle Services (LCS) **Környezet részletei** oldalán egyszerűen elérheti a Project Operations mindkét összetevőjét.  
+Miután kiépítette a Project Operationst a cikkben leírtak szerint, a Lifecycle Services (LCS) **Environment részletes** oldala egyszerű hozzáférést biztosít a Project Operations mindkét összetevőjéhez.  
 
 A **Common Data Service környezet neve** szakaszban található környezetnévvel navigáljon a Project Operationsba a CDS-környezeten. 
 

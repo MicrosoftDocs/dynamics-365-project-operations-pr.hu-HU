@@ -1,17 +1,17 @@
 ---
 title: Regisztrálás a Project Operations próbaverziókra
-description: Ez a témakör a Dynamics 365 Project Operations próbaverziójának telepítésével kapcsolatos információkat tartalmazza.
+description: Ez a cikk a Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584277"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959640"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Regisztrálás a Project Operations próbaverziókra 
 
@@ -19,9 +19,9 @@ _**A következőre vonatkozik:** Project Operations az erőforrás-/nem készlet
 
 
 
-Ez a téma elmagyarázza, hogyan lehet előfizetni az előnézeti partnerajánlatra, és hogyan lehet telepíteni a Dynamics 365 Project Operations-környezetet.
+Ez a cikk azt ismerteti, hogyan iratkozhat fel az előzetes verziójú partnerajánlatra, és hogyan helyezhet üzembe egy Dynamics 365 Project Operations környezetet.
 
-Az új Project Operations próbaverzióval automatikusan telepítheti a három támogatott telepítési forgatókönyv bármelyikét egy kérdőív kitöltésével, amely javaslatot tesz a legjobb telepítési megközelítésre. Ez a témakör a következőkről nyújt tájékoztatást:
+Az új Project Operations próbaverzióval automatikusan telepítheti a három támogatott telepítési forgatókönyv bármelyikét egy kérdőív kitöltésével, amely javaslatot tesz a legjobb telepítési megközelítésre. Ez a cikk a következőkkel kapcsolatos információkat tartalmaz:
 
 - A próbaverzió-ajánlat beváltása.
 - Üzembe helyezés kezdeményezése.
@@ -86,17 +86,18 @@ Mielőtt elkezdené, jelentkezzen be egy böngészőbe a felhasználói munkafi�
  
   Amikor a kiépítés befejeződött, a környezet állapota **Kész**. A környezet kiépítése bemutató adatok telepítését is magában foglalja.
  
-4.  Válassza ki a megfelelő Microsoft Dataverse URL-címet és a Finance and Operations apps URL-címeket az üzembe helyezés érvényesítéséhez.
+4.  Válassza ki a megfelelő Microsoft Dataverse URL-címet és a Finance and Operations alkalmazások URL-címeit az üzembe helyezés ellenőrzéséhez.
 
 ## <a name="configuring-dual-write"></a>Kettős írás beállítása
-- A kettős írás biztonsági szerepköreinek konfigurálásához olvassa el a Project Operations biztonsági beállításainak frissítése a programban című témakört [Dataverse](resource-provision-new-environment.md).
-- A kettős írási leképezések konfigurálásához olvassa el a Project Operations kettős írási leképezések futtatása című [témakört](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- A kettős írás biztonsági szerepköreinek konfigurálásához lásd: [Biztonsági beállítások frissítése a Project Operations szolgáltatásban a Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- A kettős írású konfiguráció eléréséhez lépjen a Finance and Operations példányhoz, majd lépjen az Adatkezelés **kettős írása lapra** > **·**.
+- A kettős írású térképek konfigurálásához lásd: [Project Operations kettős írású leképezések](resource-provision-new-environment.md#run-project-operations-dual-write-maps) futtatása.
 
 ## <a name="assign-licenses"></a>Licencek hozzárendelése
 
 A következő lépések végrehajtásához rendszergazdai hozzáféréssel kell rendelkeznie a szervezete Microsoft 365-portáljához.
 
-1. Lépjen a [Microsoft 365 Felügyeleti központba](https://portal.office.com/), hogy hozzárendelje a licenceket a felhasználókhoz.
+1. A felügyeleti központba [Microsoft 365 kattintva](https://portal.office.com/) rendelje hozzá a licenceket a felhasználókhoz.
 
    ![Felügyeleti központ kezdőlapja](./media/14AdminPortal.png)
 
@@ -116,7 +117,7 @@ Az alábbi források hasznos útmutatást nyújtanak a Project Operations-szal k
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Mi a teendő, ha ALM-et vagy ELM-et igényelek a Pénzügyi és Üzemeltetési alkalmazások környezetéhez?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Mi a teendő, ha ALM-re vagy ELM-re van szükségem a Finance and Operations alkalmazások környezetéhez?
 
 - Azon partnerek számára, akiknek teljes körű környezet-életciklus-kezelési képességekre van szükségük, tekintse meg a [Partner tesztkörnyezeti licenckérelmet](https://experience.dynamics.com/requestlicense) az új partneri ajánlat áttekintéséhez. 
 - A belső felhasználási jogokról bővebb információt kereső partnerek számára lásd: [Belső felhasználási jogok felhő- és szoftverelőny (microsoft.com](https://partner.microsoft.com/membership/internal-use-software)).
@@ -124,7 +125,7 @@ Az alábbi források hasznos útmutatást nyújtanak a Project Operations-szal k
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Meghosszabbíthatom a próbaidőszakomat 30 napon túl?
 A próbaidőszak meghosszabbításához hajtsa végre a következő lépéseket.
 
-1. **Microsoft 365 Az Admin Centerben** nyissa meg a **Termékek számlázása** > **lehetőséget**.
+1. A Felügyeleti központban **Microsoft 365 nyissa meg** a **Termékek számlázása** > **lehetőséget**.
 2. Válassza ki a **Dynamics 365 Project Operations (CE) - Előzetes próbaverzió** elemet.
 3. A **Lejárat dátuma** alatt válassza a **Dátum meghosszabbítása** lehetőséget.
 

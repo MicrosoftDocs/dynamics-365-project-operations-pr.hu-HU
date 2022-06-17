@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 34-es frissítési kiadásának V3 változatában
-description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 34-os frissítési kiadásában.
+description: Ez a cikk a Project Service Automation 34-es, V3-as kiadásában elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928665"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Újdonságok vagy változások a Project Service Automation 34-es frissítési kiadásának V3 változatában
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588693"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 34-es frissítési kiadásában. Ennek a verziónak a buldszáma V3.10.55.38, és általánosan elérhető 2021. júliusában önálló frissítésen keresztül.
+Ez a cikk a Project Service Automation V3 3. verziójának 34. kiadásának újdonságaival és fejlesztéseivel kapcsolatos szolgáltatásokat és javításokat sorolja fel. Ennek a verziónak a buldszáma V3.10.55.38, és általánosan elérhető 2021. júliusában önálló frissítésen keresztül.
 
 ## <a name="update-release-34"></a>34-ös frissítési kiadás
 

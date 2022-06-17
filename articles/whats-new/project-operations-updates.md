@@ -1,18 +1,18 @@
 ---
 title: Project Operations-frissítések
-description: Ez a témakör a Dynamics 365 Project Operations közzétett verzióival kapcsolatban tartalmaz tájékoztatást.
+description: Ez a cikk a Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
-ms.translationtype: HT
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732934"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959712"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -25,7 +25,7 @@ _**A következőre vonatkozik:** Project Operations az erőforrás-/nem készlet
 A Dynamics 365 Project Operations két összetevőből áll:
 
 - A Project Operations a Dataverse környezetben lefedi a lehetőségtől a proforma számlázásig vonatkozó lehetőségeket. A Dataverse-t használja a rendszer a Project Operations Lite központi telepítésében és az erőforrás-/nem készletalapú forgatókönyvek telepítésében.
-- A projektmenedzsment és a számvitel a Dynamics 365 Finance környezetben magában foglalja a költségkezelési képességeket, a projektkönyvelést és a bevételelszámolást. A Finance and Operations alkalmazáskörnyezetet a Projektműveletek erőforrás-/nem készletezett forgatókönyvekhez, a Projektműveletek készletezett/termelésalapú forgatókönyvekhez és a Projektműveletek készletezett/termelésalapú forgatókönyvekhez használja.
+- A projektmenedzsment és a számvitel a Dynamics 365 Finance környezetben magában foglalja a költségkezelési képességeket, a projekt könyvelését és a bevételek elszámolását. A Finance and Operations alkalmazáskörnyezetet a Project Operations erőforrás-/nem készletalapú forgatókönyvekhez, a Project Operations pedig a készletezett/éles környezetben használt forgatókönyvekhez használja.
 
 ## <a name="project-operations-release-notes"></a>Project Operations kiadási megjegyzései
 - Project Operations legfrissebb kiadási megjegyzései az [Erőforrás-/nem készletalapú](whats-new-may-2022-resource-based.md) forgatókönyvhöz.
@@ -34,11 +34,11 @@ A Dynamics 365 Project Operations két összetevőből áll:
 
 ## <a name="project-operations-latest-version"></a>A Project Operations legújabb verziója
 
-| Project Operations a Dataverse-környezetben | Projektmenedzsment és -számvitel a Pénzügyi és Üzemeltetési alkalmazások környezetében | 
+| Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a Finance and Operations alkalmazáskörnyezetekben | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
-A Project Operations Resource/nem raktározott forgatókönyv esetén azt javasoljuk, hogy 2.3.1.15 vagy újabb verzióban használjon kettős írású vezénylési verziót.
+Project Operations-erőforrás/nem készletezett forgatókönyv esetén javasoljuk, hogy kétírásos Vezénylési verziót használjon 2.3.1.15 vagy újabb verzióval.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>A Project Operations kiadási ütemezése a Dataverse-környezetben
 
@@ -47,26 +47,26 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | Állomás | Régió | Aktuális verziószám | Az egyszerű központi telepítés automatikus frissítései | Automatikus frissítések az erőforráshoz/nem készlet alapú telepítés | Következő verziószám | A következő általánosan elérhető verzió |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Első kiadás         |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
+|   &nbsp;  | Első kiadás         |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
 | 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika         |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
-|   &nbsp;  | Kanada                |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
-|   &nbsp;  | India                 |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
-|   &nbsp;  | Franciaország                |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
-|   &nbsp;  | Dél-afrikai Köztársaság          |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
-|   &nbsp;  | Svájc           |  4.42.0.70      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. május 27.        |
+|   &nbsp;  | Dél-Amerika         |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
+|   &nbsp;  | Kanada                |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
+|   &nbsp;  | India                 |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
+|   &nbsp;  | Franciaország                |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
+|   &nbsp;  | Dél-afrikai Köztársaság          |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
+|   &nbsp;  | Svájc           |  4.43.0.77      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. július 01.       |
 | 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japán                 |  4.42.0.70      | 2022. május 13.       | 2022. május 13.        | Később eldöntendő                 | 2022. június 03.       |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.42.0.70      | 2022. május 13.       | 2022. május 13.        | Később eldöntendő                 | 2022. június 03.       |
-|   &nbsp;  | Nagy-Britannia         |  4.42.0.70      | 2022. május 13.       | 2022. május 13.        | Később eldöntendő                 | 2022. június 03.       |
-|   &nbsp;  | Óceánia               |  4.42.0.70      | 2022. május 13.       | 2022. május 13.        | Később eldöntendő                 | 2022. június 03.       |
-|   &nbsp;  | Egyesült Arab Emírségek  |  4.42.0.70      | 2022. május 13.       | 2022. május 13.        | Később eldöntendő                 | 2022. június 03.       |
+|   &nbsp;  | Japán                 |  4.43.0.77      | 2022. június 03.      | 2022. június 03.       | Később eldöntendő                 | 2022. július 08.       |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.43.0.77      | 2022. június 03.      | 2022. június 03.       | Később eldöntendő                 | 2022. július 08.       |
+|   &nbsp;  | Nagy-Britannia         |  4.43.0.77      | 2022. június 03.      | 2022. június 03.       | Később eldöntendő                 | 2022. július 08.       |
+|   &nbsp;  | Óceánia               |  4.43.0.77      | 2022. június 03.      | 2022. június 03.       | Később eldöntendő                 | 2022. július 08.       |
+|   &nbsp;  | Egyesült Arab Emírségek  |  4.43.0.77      | 2022. június 03.      | 2022. június 03.       | Később eldöntendő                 | 2022. július 08.       |
 | 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.41.0.45      | Teljesítés           | Teljesítés            | 4.42.0.70           | 2022. május 13.        |
+|   &nbsp;  | Európa                |  4.42.0.70      | Teljesítés           | Teljesítés            | 4.43.0.77           | 2022. június 10.       |
 | 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika         |  4.41.0.45      | Teljesítés           | Teljesítés            | 4.42.0.70           | 2022. május 20.        |
+|   &nbsp;  | Észak-Amerika         |  4.42.0.70      | Teljesítés           | Teljesítés            | 4.43.0.77           | 2022. június 17.       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A Projektmenedzsment és -számlázás kiadási ütemezése a Pénzügy és műveletek alkalmazáskörnyezetben
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A projektkezelés és könyvelés kiadási ütemezése a Finance and Operations alkalmazások környezetében
 
 A Projektmenedzsment és könyvelés frissítései évente nyolc alkalommal kerülnek kiadásra.
 

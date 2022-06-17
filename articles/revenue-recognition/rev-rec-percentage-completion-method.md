@@ -1,17 +1,17 @@
 ---
 title: Rögzített árú bevétel becslési projektjei
-description: Ez a témakör információkat nyújt rögzített áru bevételekről a projektekben.
+description: Ez a cikk a projektek rögzített árú bevételeiről nyújt tájékoztatást.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3febb22397faa31222015231481d43fb0449d0a2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928389"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Rögzített árú bevétel becslési projektjei 
 
@@ -26,7 +26,7 @@ Amikor létrehoz egy projektszerződés-sort a következő attribútumokkal a Dy
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Rögzített árú bevétel becslési projektek ellenőrzése
 A rögzített árú bevételbecslési projektek áttekintéséhez hajtsa végre a következő lépéseket:
 
-1. A Dynamics 365 Finance környezetben keresse fel a **Projektek menedzsment és számvitel** > **projektek** > **Rögzített árú bevételbecslési projekteket**.
+1. A Dynamics 365 Finance környezetben lépjen a **Projektek menedzsment és könyvelése** > **projektek** > **Fix árú bevételbecslési projektek**.
 2. Jelölje ki a megtekinteni kívánt projektet, és kattintson duplán a **Projektbecslés azonosítójára** a bejegyzés megnyitásához, és tekintse át a projekt részleteit.
 3. Bontsa ki a **Projekt** lapot. A **Kijelölt projektek** rácsán egy projekt jelenik meg. A rendszer ezt használja alapértelmezett projektként, mert a projekt szerződéssorához társított projekt. 
 4. A társítás módosításához válasszon ki további projekteket, és vegye fel őket a **Kijelölt projektek** rácsára. Ha ebben a táblázatban több projektet is kijelöl, a projekt százalékos készültségi szintjét és a bevételi becsléseket a program az összes kijelölt projekthez együttesen számítja ki.

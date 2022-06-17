@@ -1,6 +1,6 @@
 ---
 title: Újdonságok és változások a Project Service Automation 3. verziójában
-description: Ez a témakör információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 3. verziójában.
+description: Ez a cikk a Project Service Automation 3-as verziójában újdonságokról és változásokról nyújt tájékoztatást.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926595"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Újdonságok és változások a Project Service Automation 3. verziójában
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581655"
 
 
 
-Ez a témakör információkat ad a felhasználói felület (UI), a funkcionalitás és a terminológia változásairól a Project Service Automation programban a 2. vagy 1. verzió és a 3. verzió között.
+Ez a cikk a Project Service Automation felhasználói felületének (UI), funkcióinak és terminológiájának a 2-es vagy 1-es és 3-as verzió közötti változásairól nyújt tájékoztatást.
 
 ## <a name="project-scheduling"></a>Projekt ütemezése
 A korábbi verziókban Work Breakdown Structure (WBS) néven ismert projektütemezést átneveztük Ütemezésre, és az **Ütemezés** fülre kattintva érhető el. 
@@ -150,7 +150,7 @@ Ha feladatokkal rendelkezik erőforrásokra foglalások nélkül (foglaláshián
 Ez a szakasz információkat tartalmaz az idő, a költségek és a jóváhagyások változásairól a Project Service Automation 3. verziójában. A Dynamics 365 Project Service Automation megoldás részeként az **Időbevitel** szolgáltatást frissítették, hogy kihasználják az Egyesített felület keretrendszerét. Ez lehetővé teszi egy következetes, egységes felhasználói felület biztosítását, amely a reszponzív kialakítást követi az optimális megtekintéshez bármilyen képernyőméretben vagy eszközön. 
 
 ### <a name="landing-page"></a>Kezdőlap
-A nem kibővíthető egyedi időbeviteli környezetet kivezettük a 3. verzióban. Ehelyett most egy kibővíthető és hozzáférhető natív rácsélmény érhető el. Az időbeviteli funkcióhoz a bal oldali webhelytérkép segítségével férhet hozzá. Ezzel a változással többé nem lehet megadni időt hetenként. Ehelyett minden egyes naphoz időbejegyzést kell létrehoznia a rácsban. Néhány időbejegyzés létrehozása után a felhasználók tömegesen hozhatnak létre időbejegyzéseket a **Másolás** funkcióval, amelyet később a témakörben ismertetünk. 
+A nem kibővíthető egyedi időbeviteli környezetet kivezettük a 3. verzióban. Ehelyett most egy kibővíthető és hozzáférhető natív rácsélmény érhető el. Az időbeviteli funkcióhoz a bal oldali webhelytérkép segítségével férhet hozzá. Ezzel a változással többé nem lehet megadni időt hetenként. Ehelyett minden egyes naphoz időbejegyzést kell létrehoznia a rácsban. Néhány időbejegyzés létrehozása után a felhasználók tömegesen hozhatnak létre időbejegyzéseket a cikk későbbi részében ismertetett Másolás **funkcióval**. 
 
 ![Időbeviteli céloldal.](media/time-entry-landing-page-07.png)
  

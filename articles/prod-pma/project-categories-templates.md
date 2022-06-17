@@ -1,6 +1,6 @@
 ---
-title: Projektköltség-kategóriák szinkronizálása a Pénzügy és üzemeltetés, valamint a projektszolgáltatás automatizálása között
-description: Ez a témakör azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projektköltség-kategóriák Microsoft Dynamics szinkronizálására szolgálnak a 365 Pénzügy és a Dynamics 365 Project Service Automation.
+title: Projekt költségkategóriák szinkronizálása a Finance and Operations és a Project Service Automation között
+description: Ez a cikk azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projekt költségkategóriáinak Microsoft Dynamics szinkronizálására szolgálnak a 365 Finance és a Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927239"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projektköltség-kategóriák szinkronizálása a Pénzügy és üzemeltetés, valamint a projektszolgáltatás automatizálása között
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekt költségkategóriák szinkronizálása a Finance and Operations és a Project Service Automation között
 
 [!include[banner](../includes/banner.md)]
 
-Ez a témakör azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projektköltség-kategóriák szinkronizálására szolgálnak Dynamics 365 Finance és a között Dynamics 365 Project Service Automation.
+Ez a cikk azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projekt költségkategóriáinak szinkronizálására szolgálnak a Dynamics 365 Finance és a Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - A projektfeladatok integrációja, a kiadási tranzakciók kategóriái, az órabecslések, a kiadásbecslések és a funkciók zárolása a 8.0 verzióban érhető el.
@@ -80,10 +80,10 @@ A projekt költségkategóriái a Finance rendszerben kezelhetők, és a program
 
 ### <a name="power-query"></a>Power Query
 
-Amikor szinkronizál a Project Service Automation szolgáltatással, a Microsoft Power Query for Excel programot kell használnia a tranzakciós kategória számlázási típusának beállításához. A Projekt költségtranzakciós kategóriái (Fin és Ops – PSA) sablon egy alapértelmezett oszlopot és leképezést biztosít. Ha saját sablont hoz létre, hozzá kell adnia egy feltételes oszlopot a programhoz Power Query. Kövesse ezeket a lépéseket.
+Amikor szinkronizál a Project Service Automation szolgáltatással, a Microsoft Power Query for Excel használatával kell beállítania a számlázási típust a tranzakciós kategóriában. A Projekt költségtranzakciós kategóriái (Fin és Ops – PSA) sablon egy alapértelmezett oszlopot és leképezést biztosít. Ha saját sablont hoz létre, hozzá kell adnia egy feltételes oszlopot a Power Query. Kövesse ezeket a lépéseket.
 
 1. A nyílra kattintva megnyithatja a projekt költségkategóriáihoz tartozó feladat leképezését a Projekt költségtranzakciós kategóriái (Fin és Ops – PSA) sablonban.
-2. A megnyitáshoz kattintson az **Előzetes lekérdezés és szűrés** hivatkozásra Power Query.
+2. Kattintson az **Előzetes lekérdezés és szűrés** hivatkozásra a megnyitáshoz Power Query.
 2. Válassza a **Feltételes oszlop hozzáadása** lehetőséget.
 3. Adja meg az új oszlop nevét, például **BillingType**.
 4. Írja be a következő feltételt: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

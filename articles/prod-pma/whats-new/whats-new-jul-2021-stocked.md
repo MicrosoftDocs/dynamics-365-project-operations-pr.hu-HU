@@ -1,26 +1,26 @@
 ---
 title: Újdonságok és változások 2021. júliusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: A témakör a Project Operations 2021. júliusi kiadásában készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
+description: Ez a cikk a Project Operations 2021. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készletezett/éles környezetben üzembe helyezett forgatókönyvekhez.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933633"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Újdonságok és változások 2021. júliusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
 _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.20-as verzióban
+- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.20-as verzió
  
 ### <a name="quality-updates"></a>Minőségi frissítések
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Utazás és költség                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Ha a munkafolyamat nem található, akkor a **Költségdokeumentum állapotának visszaállítása** eszköz vissza kell állítsa a költségjelentést **Vázlat** állapotra. 
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). A Lifecycle Services (LCS) szolgáltatásba is bejelentkezhet, és megtekintheti a tervezett szabályozói frissítéseket a Problémakeresés eszköz segítségével. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A Lifecycle Services (LCS) szolgáltatásba is bejelentkezhet, és megtekintheti a tervezett szabályozói frissítéseket a Problémakeresés eszköz segítségével. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

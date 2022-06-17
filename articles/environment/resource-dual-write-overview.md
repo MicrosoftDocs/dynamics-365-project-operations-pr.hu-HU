@@ -1,24 +1,24 @@
 ---
 title: Project Operations kettős írás integrálása
-description: Ez a témakör áttekintést nyújt a Project Operations kettős írású integrációjáról.
+description: Ez a cikk áttekintést nyújt a Project Operations kettős írású integrációjáról.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d365a036f96ff4f7b14107b43e8c6b70df0b5362
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927975"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations kettős írás integrálásának áttekintése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Project Operations kettős írási képességeket [használ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) az adatok szinkronizálásához az adatok Dynamics 365 Finance Microsoft Dataverse között és Dynamics 365 Finance között.
+A Project Operations [kettős írási képességekkel](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) szinkronizálja az adatokat az adatok között Microsoft Dataverse és Dynamics 365 Finance.
 
 Az alábbi ábra azt mutatja be, hogyan szinkronizálják az adatokat a(z) Dataverse és a pénzügyek közötti integráció részeként.
 

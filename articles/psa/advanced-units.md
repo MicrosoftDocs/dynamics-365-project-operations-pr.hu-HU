@@ -1,6 +1,6 @@
 ---
 title: Egységcsoportok és egységek
-description: Ez a témakör az egységcsoportokról és egységekről tartalmaz információkat.
+description: Ez a cikk az egységcsoportokról és egységekről nyújt tájékoztatást.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ed413cc927901308a111263dbad1a59af8fce620
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933403"
 ---
 # <a name="unit-groups-and-units"></a>Egységcsoportok és egységek
 

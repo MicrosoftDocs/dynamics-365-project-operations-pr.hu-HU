@@ -1,6 +1,6 @@
 ---
 title: Kötelező egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
-description: Ez a témakör a kötelező egyéni mezőhivatkozások entitásokhoz, űrlapokhoz és nézetekhez való hozzáadását ismerteti.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan adhat hozzá kötelező egyéni mezőhivatkozásokat az entitásokhoz, valamint az űrlapokhoz és nézetekhez.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926043"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Kötelező egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Ez a témakör feltételezi, hogy elvégezte az [Egyéni mezők és entitások létrehozása árazási dimenziókként való használathoz](create-custom-fields-entities-pricing-dimensions.md) című témakör eljárásait. Ha még nem fejezte be ezeket az eljárásokat, menjen vissza, és fejezze be őket, majd térjen vissza ehhez a témához. 
+Ez a cikk feltételezi, hogy befejezte a Díjszabási dimenzióként használandó Egyéni mezők és entitások létrehozása című cikkben található [eljárásokat](create-custom-fields-entities-pricing-dimensions.md). Ha még nem fejezte be ezeket az eljárásokat, térjen vissza, fejezze be őket, majd térjen vissza ehhez a cikkhez. 
 
-Ebben a témakörben az eljárások megmutatják, hogyan lehet hozzáadni a szükséges egyéni mező hivatkozásokat az entitásokhoz és a felhasználói felület (UI) elemeihez, például űrlapokhoz és nézetekhez.
+Ebben a cikkben az eljárások bemutatják, hogyan adhatja hozzá a szükséges egyéni mezőhivatkozásokat az entitásokhoz és a felhasználói felület (UI) elemeihez, például űrlapokhoz és nézetekhez.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Egyéni árképzési dimenzió mezők hozzáadása 
 Az egyéni mezők és entitások létrehozása után a következő lépés az árbeállítás és a tranzakciós entitások értesítése az egyéni entitásokról és opciókészletekről referenciamezők létrehozásával. Attól függően, hogy az árképzési dimenziók listái tartalmaznak-e értékkészlet dimenziókat vagy entitás dimenziókat vagy mindkettőt csak az **Értékkészlet alapú egyéni árképzési dimenziók** vagy az **Entitás alapú egyéni árképzési dimenziók** vagy mindkettő lépéseit kövesse.

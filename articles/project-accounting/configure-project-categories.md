@@ -1,17 +1,17 @@
 ---
 title: Projektkategóriák konfigurálása
-description: Ez a témakör információkat nyújt a projektkategóriák beállításáról.
+description: Ez a cikk a projektkategóriák beállításával kapcsolatos információkat tartalmaz.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 440fc712750c07e8426d54e3a1f994f506879e3c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933587"
 ---
 # <a name="configure-project-categories"></a>Projektkategóriák konfigurálása
 
@@ -35,7 +35,7 @@ A tranzakciós kategóriákat a Project Operations modul definiálja.
 
 ## <a name="shared-categories"></a>Megosztott kategóriák
 
-A Dynamics 365 a Megosztott kategóriák koncepciót használja a különböző alkalmazások, például a Dynamics 365 Finance, a Dynamics 365 ellátási lánc és a Dynamics 365 Project Operations. Minden létrehozott tranzakciós kategória esetében a Project Operations automatikusan négy kapcsolódó megosztott kategóriát hoz létre: az órákat, a költségeket, a díjakat és a cikkeket. A megosztott kategóriákat áttekintheti és módosíthatja, ha a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Kategóriák** \> **Megosztott kategóriák** menüpontra lép.
+A Dynamics 365 a Megosztott kategóriák koncepciót használja a költségek kategorizálására különböző alkalmazásokban, például Dynamics 365 Finance, Dynamics 365 Ellátási lánc és Dynamics 365 Project Operations. Minden létrehozott tranzakciós kategória esetében a Project Operations automatikusan négy kapcsolódó megosztott kategóriát hoz létre: az órákat, a költségeket, a díjakat és a cikkeket. A megosztott kategóriákat áttekintheti és módosíthatja, ha a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Kategóriák** \> **Megosztott kategóriák** menüpontra lép.
 
 ## <a name="project-categories"></a>Projektkategóriák
 

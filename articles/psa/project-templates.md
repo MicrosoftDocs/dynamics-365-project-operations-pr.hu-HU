@@ -1,6 +1,6 @@
 ---
 title: Projektsablonok
-description: Ez a témakör ismerteti, hogyan lehet a projektsablonokat használni a gyors projektbeállításhoz.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan használhatja a projektsablonokat a projekt gyors beállításához.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aff6fc5bb855fe1e9007933fdc1a88eb020da0ad
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03cccf8f0201d82db57e52dc1175fcf9a7812a53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930873"
 ---
 # <a name="project-templates"></a>Projektsablonok 
 

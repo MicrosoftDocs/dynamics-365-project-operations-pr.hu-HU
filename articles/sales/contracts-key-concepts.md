@@ -1,17 +1,17 @@
 ---
 title: Projektszerződések – Fő fogalmak
-description: Ez a témakör információkat nyújt a projektszerződések fő fogalmairól a Project Operations alkalmazásban.
+description: Ez a cikk a Projektműveletek projektszerződéseinek kulcsfogalmairól nyújt tájékoztatást.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926227"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Egyedileg a projektalapú szerződésekre vonatkozó fogalmak
 
@@ -19,11 +19,11 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 
 
-Ez a témakör bemutatja a legfontosabb fogalmakat, amelyeket ismernie kell a Dynamics 365 Project Operations projektszerződéseinek használata előtt:
+Ez a cikk azokat a kulcsfogalmakat ismerteti, amelyekkel tisztában kell lennie, mielőtt elkezdené használni a Project-szerződéseket a következőben Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Tulajdonos vállalat
 
-A tulajdonos vállalat a projektműveletek projektmenedzsment és számviteli **moduljának** jogi személye Dynamics 365 Finance. A birtokló vállalat képviseli azt a jogi entitást, amely az üzletből származó költséget és bevételt könyveli.
+A tulajdonos társaság a projektműveletek projektmenedzsment és könyvelés moduljának **jogi** személye Dynamics 365 Finance. A birtokló vállalat képviseli azt a jogi entitást, amely az üzletből származó költséget és bevételt könyveli.
 
 ## <a name="contracting-unit"></a>Szerződő részleg
 

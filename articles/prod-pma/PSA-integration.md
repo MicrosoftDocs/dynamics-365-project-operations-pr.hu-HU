@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation áttekintése
-description: Ez a témakör a Dynamics 365 Finance integrációs megoldással kapcsolatos Dynamics 365 Project Service Automation információkat tartalmazza.
+description: Ez a cikk a Dynamics 365 Project Service Automation Dynamics 365 Finance integrációs megoldásról nyújt tájékoztatást.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 96fdb31b7b1d4f33cb565cf902039f72a3f90fd7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929585"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation áttekintése
 
 [!include[banner](../includes/banner.md)]
 
 
-A Project Service Automation to Finance integrációs megoldás az Adatintegrációs funkcióval szinkronizálja az adatokat a Dynamics 365 Finance példányai között és Dynamics 365 Project Service Automation a rendszeren keresztül Common Data Service. Az adatintegrációs szolgáltatással elérhető integrációs sablonok lehetővé teszik a projektek, projektszerződések, projektszerződéssorok, projektszerződéssor mérföldkövei, projektfeladatok, költségtranzakciós kategóriák, órabecslések és költségbecslések áramlását a Project Service Automation és a Finance között.
+A Project Service Automation to Finance integrációs megoldás az Adatintegrációs funkcióval szinkronizálja az adatokat a Dynamics 365 Finance példányai között és Dynamics 365 Project Service Automation a Common Data Service. Az adatintegrációs szolgáltatással elérhető integrációs sablonok lehetővé teszik a projektek, projektszerződések, projektszerződéssorok, projektszerződéssor mérföldkövei, projektfeladatok, költségtranzakciós kategóriák, órabecslések és költségbecslések áramlását a Project Service Automation és a Finance között.
 
 > [!NOTE]
 > - Ha 7.3.0 verziót használ, akkor a KB 4074835 telepítésére van szükség. Ekkor lehetőség van a rögzített árú projektek integrálására.

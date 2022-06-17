@@ -1,17 +1,17 @@
 ---
 title: Több ügyfél kezelése projektalapú árajánlatsorokon
-description: Ez a témakör azt ismerteti, hogyan lehet több ügyfelet kezelni projektalapú árajánlatsorokban.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan kezelhet több ügyfelet projektalapú árajánlatsorokon.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 38f89eaa61531d6814cb4a9d03f22616472b231d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0160a7023ff1d5f806b8c01115a48d0552008d15
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928251"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Több ügyfél kezelése projektalapú árajánlatsorokon
 

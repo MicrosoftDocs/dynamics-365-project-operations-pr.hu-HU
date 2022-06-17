@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 14-es frissítési kiadásának V3 változatában
-description: Ez a témakör információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 14-es frissítési kiadásának V3 verziójában.
+description: Ez a cikk a Project Service Automation 14 V3-as kiadásának újdonságairól nyújt tájékoztatást.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926549"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation 14-es frissítési kiadás, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594306"
 
 Örömmel jelentjük be a Dynamics 365 Project Service Automation (PSA) alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez nyissa meg a megoldások oldalt. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a PSA V3. 14-ös frissítési kiadásában. Ennek a verziónak a build száma V 3.10.4.21, és a következő ütemezés szerint érhető el:
+Ez a cikk a PSA V3 14-es kiadásának újdonságaival vagy módosításával kapcsolatos funkciókat és javításokat sorolja fel. Ennek a verziónak a build száma V 3.10.4.21, és a következő ütemezés szerint érhető el:
 
 - **Általános elérhetőség (Önálló frissítés):** 2020. január
 - **Automatikus frissítés:** 2020. február

@@ -1,6 +1,6 @@
 ---
 title: Entitás, vezérlés és a felhasználói felület változásai (Project Service Automation 3.x)
-description: Ez a témakör leírja a Microsoft Dynamics Project Service Automation 3.x megoldásbeli változásait.
+description: Ez a cikk a Project Service Automation 3.x megoldási változásait Microsoft Dynamics ismerteti.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926871"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Entitás, vezérlés és a felhasználói felület változásai (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-A Service Project Service Automation (PSA) 3.x Microsoft Dynamics kiadásával számos változtatást hajtottak végre az entitásokban, a vezérlőkben, a nézetekben és a felhasználói felületen. Ez a témakör információkat nyújt ezekről a fontos változásokról.
+A Service Project Service Automation (PSA) 3.x Microsoft Dynamics kiadásával számos változtatást hajtottak végre az entitásokban, a vezérlőkben, a nézetekben és a felhasználói felületen. Ez a cikk ezekről a fontos változásokról nyújt tájékoztatást.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>A szülő-gyermek kapcsolatok értékesítési dokumentumokhoz, értékesítési dokumentumsorokhoz, értékesítési dokumentumsorokhoz tartozó entitások
 A Dynamics 365 Project Service Automation (PSA) 3.0 verzió megjelenése előtti verziókban az értékesítési dokumentumok, az értékesítési dokumentumsorok és az értékesítési dokumentumsorok részletek entitások közötti egyes kapcsolatok olyan karakterlánc-mezők segítségével valósultak meg, amelyek a kapcsolódó entitás karakterlánc GUID-jének karakterlánc reprezentációját tartalmazták. Ennek oka a platform korlátai voltak, amelyek miatt jelentős egyedi kód volt szükséges a megoldás szerver- és kliens oldalán ahhoz, hogy ezek a kapcsolatok hasonlóan működjenek a tipikus Dynamics CRM-entitáskapcsolatokkal, és hogy a karakterláncmezők úgy működjenek, mint keresési mezők.

@@ -1,6 +1,6 @@
 ---
 title: Árajánlat, árazás és számlázás kezdőlapja
-description: Ez a témakör információkat nyújt az árajánlatokról, az árakról és a számlázásról.
+description: Ez a cikk az árajánlatokról, az árakról és a számlázásról nyújt tájékoztatást.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926733"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Árajánlat, árazás és számlázás kezdőlapja
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581103"
 
 Az árajánlat, az árazás és a számlázás olyan szolgáltatások, amelyeket mind a kis, mind a nagy szervezetek használnak. Ha megérti, hogy ezek a szolgáltatások hogyan működnek az alkalmazásban, a szervezetek könnyebben testreszabhatják a konfigurációkat.
 
-A következő témákban további információ található a PSA-ban szereplő ajánlatadási, árazási és számlázási funkciókról:
+A következő cikkek további információkat nyújtanak a PSA árajánlati, árképzési és számlázási funkcióiról:
 
 - [Értékesítési folyamat](basic-sales-process.md)
 - [Árajánlat sorok](basic-quote-lines.md)

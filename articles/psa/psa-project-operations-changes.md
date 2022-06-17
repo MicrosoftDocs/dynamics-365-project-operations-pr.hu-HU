@@ -1,6 +1,6 @@
 ---
-title: Szolgáltatásmódosítások a projektszolgáltatás automatizálásáról a projektműveletekre
-description: Ez a témakör áttekintést nyújt a Szolgáltatás automatizálásáról a programra történő váltásokról Dynamics 365 Project Operations.
+title: A Project Service Automation szolgáltatásról Project Operations alkalmazás közötti funkcióváltozások
+description: Ez a cikk áttekintést nyújt a szolgáltatás változásairól a Project Service Automationről a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,88 +16,88 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925353"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Szolgáltatásmódosítások a projektszolgáltatás automatizálásáról a projektműveletekre
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>A Project Service Automation szolgáltatásról Project Operations alkalmazás közötti funkcióváltozások
 
-A Lite-ról Dynamics 365 Project Service Automation a Lite-ra Dynamics 365 Project Operations való frissítés három fázisban történik. Ez a témakör tájékoztatást nyújt azokról a főbb változásokról, amelyek a frissítés befejezésekor várhatók.
+A Lite-ról Dynamics 365 Project Service Automation való Dynamics 365 Project Operations frissítés három fázisban történik. Ez a cikk azokról a főbb változásokról nyújt tájékoztatást, amelyekre számíthat, amikor a frissítés befejeződött.
 
-| Frissítési kézbesítés | 1. fázis <br>(2022. január) | 2. fázis <br>(2022. áprilisi hullám) | 3. fázis  |
+| Frissítés kézbesítése | 1. fázis <br>(2022. január) | 2. fázis <br>(2022. áprilisi hullám) | 3. fázis  |
 |------------------|------------------------|---------------------------|---------------------------|
-| A projektek munkalebontási struktúrájától (WBS) nem függ. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| A WBS a projektműveletek jelenleg támogatott korlátai közé tartozik. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| A WBS kívül esik a Project Operations jelenleg támogatott korlátain, beleértve az asztali Project ügyfél támogatását is. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Nincs függőség a projektek munkalebontási struktúrájától (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| A munkalebontási struktúrát a Project Operations jelenleg támogatott korlátai tartalmazzák. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| A munkalebontási struktúra a Project Operations jelenleg támogatott korlátain kívül esik, beleértve a Project asztali ügyfélprogramjának támogatását is. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Projektmenedzsment
 
-A felhasználói élményben a legjelentősebb változások a projekttervezés területén lesznek. A Project Operations új, modern élményt nyújt a munkalebontási struktúra (WBS) kezeléséhez a Project for the Web által [biztosított ütemezési képességek kihasználásával](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+A felhasználói élmény legjelentősebb változásai a projekttervezés területén lesznek. A Project Operations új, modern felhasználói élményt alkalmaz a munkalebontási struktúra (WBS) kezeléséhez a Project for the Web által [biztosított ütemezési képességek kihasználásával](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
 ## <a name="differences-in-the-scheduling-experience"></a>Az ütemezési élmény különbségei
 
-Az alábbi táblázat a Project Service Automation és a Project Operations közötti ütemezési különbségeket foglalja össze.
+Az alábbi táblázat összefoglalja a Project Service Automation és a Project Operations közötti ütemezési különbségeket.
 
 |  Ütemezés     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Projektsablonok – Projektsablonok definiálásának és alkalmazásának képessége projekt létrehozásakor  |  &nbsp;    | :heavy_check_mark: |
+| Projektsablonok – Projektsablonok definiálása és alkalmazása projektsablonok létrehozása a projekt létrehozásakor  |  &nbsp;    | :heavy_check_mark: |
 | Projektmunka-bontási struktúra (WBS) integrációja asztali ügyféllel   |    &nbsp;  | :heavy_check_mark: |
-| Megkötések – Legkorábban kezdődjön, de legkésőbb  | :heavy_check_mark: |   &nbsp;  |
-| Mérföldkövek - Nulla időtartamú tevékenységek   | :heavy_check_mark:  |  &nbsp;  |
-| Az erőforrás-alapú tevékenységek tiszteletben tartják a hozzárendelt erőforrások rendelkezésre állását   | :heavy_check_mark: |  &nbsp;    |
-| Időfázisos szerkesztés - Tervek szerkesztése és napi munka   |   &nbsp;  | :heavy_check_mark: |
-| Automatikus/kézi ütemezés – A Projektek ütemezési motorral automatikusan vagy manuálisan ütemezheti a tevékenységeket |  &nbsp; | :heavy_check_mark:  |
-| Nagy projektek szerkesztése közvetlenül a felhasználói felületen: A szerkeszthető tervek méretére nincs korlátozás  | 500 tevékenységkorlát  | :heavy_check_mark:       |
-| Készültségi szint – Tevékenység állapotának megjelölése   | :heavy_check_mark:  |  &nbsp;  |
-| [Projektütemezési módok](../project-management/scheduling-modes.md) – A projekt meghatározása rögzített egységként, rögzített erőfeszítésként vagy rögzített időtartamként | :heavy_check_mark: | &nbsp; |
-| Idővonal – Az ütemterv nézetének létrehozása és testreszabása az ütemezés részleteinek megjelenítéséhez és az érdekelt felekkel való kommunikációhoz. | :heavy_check_mark:  | &nbsp; |
-| Munkamennyiség-vezérelt feladatok – A tevékenység munkamennyiség-vezérelt ütemezésének ütemezése  | :heavy_check_mark:  | &nbsp; |
-| **Feladat adatai** párbeszédpanel – Feladat részleteinek mentése párbeszédpanelen | :heavy_check_mark:  |  &nbsp;  |
-| Fogd és vidd - Feladatok többszörös kijelölése és pozíciójuk módosítása a WBS-en | :heavy_check_mark: | &nbsp;  |
-| Rugalmas állandó nézetek – Tevékenységattribútumok részletesebb nézeteinek meghatározása   | :heavy_check_mark:  | &nbsp; |
-| A WBS rendezése és szűrése  | :heavy_check_mark:  | &nbsp; |
-| Táblák nézete a nem vízesés projekthez  | :heavy_check_mark:   | &nbsp; |
-| Idővonal nézet – Interaktív Gantt-diagram a WBS megjelenítéséhez és szerkesztéséhez   | :heavy_check_mark:  | &nbsp; |
-| Billentyűparancsok – Billentyűparancsok használata gyakori műveletekhez, például behúzáshoz vagy beszúráshoz  | :heavy_check_mark:  |  &nbsp; |
-| Többszintű visszavonás - Végezzen "mi lenne, ha" elemzést, hogy teljes mértékben megértse a változások hatását a műveletek teljes készletének megfordításával és újra alkalmazásával | :heavy_check_mark: | &nbsp; |
-| Kivágás/másolás/beillesztés – Együttműködés az ütemezés fejlesztésében az ütemezés részleteinek másolásával és beillesztésével az alkalmazások között  | :heavy_check_mark: | &nbsp; |
-| Feladat-ellenőrzőlisták – Legfeljebb 20 ellenőrzőlistaelem hozzáadása egy tevékenységhez   | :heavy_check_mark: | &nbsp; |
+| Megszorítások - Kezdés legkorábban, mint a következő időpontokban:  | :heavy_check_mark: |   &nbsp;  |
+| Mérföldkövek – Nulla időtartamú feladatok   | :heavy_check_mark:  |  &nbsp;  |
+| Az erőforrás-vezérelt tevékenységek tiszteletben tartják a hozzárendelt erőforrások rendelkezésre állását   | :heavy_check_mark: |  &nbsp;    |
+| Időfázisos szerkesztés - Tervek szerkesztése és napi szintű munka   |   &nbsp;  | :heavy_check_mark: |
+| Automatikus/manuális ütemezés – A Project ütemezési motorjának használata a tevékenységek automatikus vagy manuális ütemezéséhez |  &nbsp; | :heavy_check_mark:  |
+| Nagy projektek szerkesztése közvetlenül a felhasználói felületen: Nincs korlátozva a szerkeszthető csomagok mérete  | 500 feladatkorlát  | :heavy_check_mark:       |
+| Készültségi szint – Tevékenységállapot megjelölése   | :heavy_check_mark:  |  &nbsp;  |
+| [Projektütemezési módok](../project-management/scheduling-modes.md) – A projekt meghatározása rögzített egységként, fix erőfeszítésként vagy rögzített időtartamként | :heavy_check_mark: | &nbsp; |
+| Idővonal – Az idővonal-nézetet az ütemezés részleteinek megjelenítéséhez és az érdekelt felekkel való kommunikációhoz hozhatja létre és testre szabhatja. | :heavy_check_mark:  | &nbsp; |
+| Erőfeszítésvezérelt feladatok – Motortámogatás ütemezése egy feladat erőfeszítésvezérelt ütemezéséhez  | :heavy_check_mark:  | &nbsp; |
+| **Feladatinformáció** párbeszédpanel – Feladatadatok mentése párbeszédpanel használatával | :heavy_check_mark:  |  &nbsp;  |
+| Fogd és vidd – Feladatok többszörös kiválasztása és pozíciójuk módosítása a munkalebontási struktúrán | :heavy_check_mark: | &nbsp;  |
+| Rugalmas, állandó nézetek – A feladatattribútumok részletesebb nézeteinek definiálása   | :heavy_check_mark:  | &nbsp; |
+| A munkalebontási struktúrából való kitárolás és szűrés  | :heavy_check_mark:  | &nbsp; |
+| Táblák nézete a nem vízeséses projektek megvalósításához  | :heavy_check_mark:   | &nbsp; |
+| Idővonal nézet – A WBS vizualizálásához és szerkesztéséhez használt interaktív Gantt-diagram   | :heavy_check_mark:  | &nbsp; |
+| Billentyűparancsok – Billentyűparancsok használata a gyakori műveletekhez, például behúzáshoz vagy beszúráshoz  | :heavy_check_mark:  |  &nbsp; |
+| Többszintű visszavonás – Lehetőségelemzés végrehajtása a módosítások hatásának teljes megértéséhez a műveletek teljes készletének megfordításával és újraalkalmazásával | :heavy_check_mark: | &nbsp; |
+| Kivágás/másolás/beillesztés – Együttműködés az ütemezési fejlesztésben az ütemezés részleteinek az alkalmazások közötti másolásával és beillesztésével  | :heavy_check_mark: | &nbsp; |
+| Feladat-ellenőrzőlisták – Legfeljebb 20 ellenőrzőlista elem hozzáadása egy feladathoz   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Projekt tervezése
 
-A **Projektműveletek projektlapján** jelentős különbségek vannak a **Project szolgáltatás automatizálása Projekt** lapjához képest.
+A **Project Operations Projekt** lapja jelentős számú eltérést mutat a **Project Service Automation Projekt** oldalához képest.
 
-Az 1. fázisú frissítés részeként a **következő műveletek lettek eltávolítva a Projektek** lapról:
+A következő műveletek el lettek távolítva a **Projektek** lapról az 1. fázisú frissítés részeként:
 
   - **Megnyitás MS Projectben**
   - **Sablon létrehozása**
   - **MS Project-kapcsolat megszüntetése**
 
-A **Projektműveletek projektlapja** a következő új lapokat tartalmazza.
+A **Project Operations Projekt** lapja a következő új lapokat tartalmazza.
 
 - **Anyagbecslések**
 - **Feladat számlázási beállítása**
 
-Az **Állapot** lap el lett távolítva, és az **Állapot** mező most az **Összegzés** lapon van a projekt ütemezési módjával.
+Az **Állapot** lap el lett távolítva, és az **Állapot** mező most az **Összegzés** lapon található a projekt ütemezési módjával.
 
-   ![A Projekt lap frissítései.](media/projectform.png)
+   ![Frissítések a Projekt laphoz.](media/projectform.png)
 
-Az **Ütemezés** lap átnevezésre került a **Tevékenység** lapra, és a Project for the Web új projekttervezési élményét tartalmazza.
+Az **Ütemezés** lap új lett átnevezve a **Tevékenység** lapra, és az új projekttervezési élményt a Project for the Web szolgáltatással mutatja be.
 
    ![Új Projekttevékenységek lap.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Ütemezési módok
 
-A Project Operations új funkciót vezetett be, [az Ütemezési módokat](../project-management/scheduling-modes.md). Az összes meglévő Project Service Automation projekt alapértelmezés szerint Rögzített időtartam **lesz a** Projektműveletekben. Az új projektek alapértelmezett értéke azonban a Beállítások **paraméterek** > **paraméterütemezési** > **módra** > **kattintva** kezelhető.
+A Project Operations bevezetett egy új funkciót, az [Ütemezési módokat](../project-management/scheduling-modes.md). Az összes meglévő Project Service Automation-projekt alapértelmezés szerint rögzített időtartamú **lesz a** Projektműveletekben. Az új projektek alapértelmezett értéke azonban kezelhető a Beállítások **paraméterei paraméterütemezési** > **módba** > **való belépéssel** > **·**.
 
-   ![Projektparaméter-beállítások ütemezési módhoz.](media/projectparameter.png)
+   ![A Project paraméterbeállításai ütemezési módhoz.](media/projectparameter.png)
 
 ## <a name="project-planning-limits"></a>Projekttervezési korlátok
 
-A Project Operations a Project for the Web szolgáltatásra támaszkodik az összes projektütemezési művelethez. A Project for the Web az alábbi táblázat korlátaival kezeli a munkalebontási struktúrát.
+A Project Operations a Project for the Webre támaszkodik minden projektütemezési művelethez. A Webes Projekt az alábbi táblázatban szereplő korlátok alapján kezeli a munkalebontási struktúrát.
 
 | **Mező**                                          | **Korlát**             |
 |----------------------------------------------------|-----------------------|
@@ -114,9 +114,9 @@ A Project Operations a Project for the Web szolgáltatásra támaszkodik az öss
 | Támogatott dátumtartomány egy feladathoz                    | 1/1/2000 - 12/31/2149 |
 | Ellenőrzőlista elemei                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Projekttervezés bővíthetőség és fejlesztés
+## <a name="project-planning-extensibility-and-development"></a>Projekttervezés bővíthetősége és fejlesztése
 
-A Project Operations szolgáltatásra való frissítés után a Project Scheduling API-kat kell használnia a létrehozási, frissítési és törlési műveletek végrehajtásához a következő entitásokon:
+Miután frissített a Project Operationsre, a Projektütemezés API-kat kell használnia a létrehozási, frissítési és törlési műveletek végrehajtásához a következő entitásokon:
 
 |   Entitás neve           |   Entitás logikai neve       |
 |-------------------------|-----------------------------|
@@ -127,14 +127,14 @@ A Project Operations szolgáltatásra való frissítés után a Project Scheduli
 | Projektgyűjtő          | msdyn_projectbucket         |
 | Projektcsoporttag     | msdyn_projectteam           |
 
-Ha jelenleg olyan testreszabásokkal rendelkezik, amelyek magukban foglalják ezeket az entitásokat, olvassa el a Project ütemezési API-k használata az ütemezési entitásokkal [végzett műveletek végrehajtásához című témakört](../project-management/schedule-api-preview.md) a megvalósítási útmutatáshoz.
+Ha jelenleg olyan testreszabásokkal rendelkezik, amelyek ezeket az entitásokat érintik, a megvalósítási útmutatóért lásd: [Projektütemezési API-k használata műveletek végrehajtásához ütemezési entitásokkal](../project-management/schedule-api-preview.md).
 
-## <a name="data-model-changes"></a>Adatmodell-módosítások
+## <a name="data-model-changes"></a>Az adatmodell változásai
 
-Az 1. frissítési fázis részeként módosul az adatmodell. Ezek a módosítások elsősorban a meglévő entitások mezőmódosításai. Az 1. fázisban az entitások, **a msydn_project** és **a msdyn_projectteam** a testreszabások újrafaktorozását jelentik. 
+Az 1. frissítési fázis részeként az adatmodell módosul. Ezek a változások elsősorban a meglévő entitások mezőváltozásai. Az 1. fázisban az entitások, **a msydn_project** és **a msdyn_projectteam** a testreszabások újrabontása. 
 
 > [!IMPORTANT]
-> Ez a szakasz a jövőbeli frissítési fázisok befejezésekor további entitásokkal frissül.
+> Ez a szakasz további entitásokkal frissül, ahogy a jövőbeli frissítési fázisok befejeződnek.
 
 A következő mezőket új mezők váltották fel.
 
@@ -149,61 +149,61 @@ A következő mezőket új mezők váltották fel.
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
 
-A program a következő mezőket adta hozzá.
+A következő mezők lettek hozzáadva.
 
 |   Entity          |   Logikai név                               |   Description |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | A projekt tényleges díjeladásainak összességét jeleníti meg. Csak a Project Service Automation alkalmazásban használható. |
-| msdyn_project     | msdyn_actualmaterialcost                     | A projekt tényleges anyagköltségének összességét mutatja. Csak a Project Service Automation alkalmazásban használható. |
-| msdyn_project     | msdyn_actualmaterialsales                    | A projekt tényleges anyageladásainak összességét mutatja. Csak a Project Service Automation alkalmazásban használható. |
+| msdyn_project     | msdyn_actualfeesales                         | A projekten belüli tényleges díjeladások összesítését jeleníti meg. Csak a Project Service Automationben használható. |
+| msdyn_project     | msdyn_actualmaterialcost                     | A projekt tényleges anyagköltségének összesítését jeleníti meg. Csak a Project Service Automationben használható. |
+| msdyn_project     | msdyn_actualmaterialsales                    | A projekt tényleges anyageladásainak összesítését jeleníti meg. Csak a Project Service Automationben használható. |
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | A projekthez társított szerződéssor. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Ez egy belső rendszermező, amelyet a Korrelációs azonosítóhoz kapcsolódó Projekt **másolásakor** használnak. Csak a Project Service Automation alkalmazásban használható. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Ez egy belső rendszermező, amelyet a munkamenet-azonosítóhoz kapcsolódó Projekt **másolásakor** használnak. Csak a Project Service Automation alkalmazásban használható. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Utolsó szinkronizálás xRM globális verzió jogkivonat a Projektütemezési szolgáltatásból. |
-| msdyn_project     | msdyn_msprojectdocument                      | A projekthez tartozó Microsoft Project dokumentum. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | A projekt tervezett anyagköltségének összesítése. Csak a Project Service Automation alkalmazásban használható. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | A projekt tervezett anyagértékesítéseinek összesítése. Csak a Project Service Automation alkalmazásban használható. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Ez egy belső rendszermező, amely a Korrelációs azonosítóhoz kapcsolódó Copy Projecthez **használatos**. Csak a Project Service Automationben használható. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Ez egy belső rendszermező, amely a munkamenet-azonosítóhoz kapcsolódó Copy Projecthez **használatos**. Csak a Project Service Automationben használható. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Utoljára szinkronizálja az xRM globális revíziós tokent a Projektütemezés szolgáltatásból. |
+| msdyn_project     | msdyn_msprojectdocument                      | A projekthez tartozó Microsoft Project-dokumentum. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | A projekt tervezett anyagköltségének összesítése. Csak a Project Service Automationben használható. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | A projekt tervezett anyagértékesítésének összesítése. Csak a Project Service Automationben használható. |
 | msdyn_project     | msdyn_program                                | A program, amelyhez ez a projekt kapcsolódik. |
-| msdyn_project     | msdyn_quotelineproject                       | A projekthez társított Ajánlat sor. |
+| msdyn_project     | msdyn_quotelineproject                       | A projekthez társított Idézet sor. |
 | msdyn_project     | msdyn_replaylogheader                        | A visszajátszási naplók fejléce. |
 | msdyn_project     | msdyn_schedulemode                           | A projekt összes tevékenységéhez használt alapértelmezett ütemezési mód.  |
 | msdyn_project     | msdyn_taskearlieststart                      | A projekt bármely feladatának legkorábbi kezdési dátuma.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
-| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Az a projektcsapat-tag, akiből a projektcsapat-tagot másolták. |
-| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Azt jelzi, hogy létre kell-e hozni az erőforrás-szükségletet egy újonnan létrehozott általános csapattaghoz.  |
-| msdyn_projectteam | msdyn_deletestatus                           | A csoporttag törlési állapota annak nyomon követésére, hogy van-e törlési kérelem elküldve a Projektütemezési szolgáltatásnak, és hogy sikeresen visszaküldi-e a választ a várt időablakon belül. |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | A projektcsapat tagja, akitől a projektcsapat tagja másolt. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Azt jelzi, hogy létre kell-e hozni az erőforrás-követelményt egy újonnan létrehozott általános csapattag számára.  |
+| msdyn_projectteam | msdyn_deletestatus                           | A csapattag törlési állapota annak nyomon követéséhez, hogy van-e elküldve törlési kérelem a Projekt ütemezési szolgáltatásának, és hogy sikeresen küld-e választ a várt időablakon belül. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Nyomon követi a csapattag által a feladataik során elért erőfeszítéseket. |
-| msdyn_projectteam | msdyn_effortremaining                        | Nyomon követi a csapattag által a feladataikra még be nem fejezett erőfeszítéseket. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Az a várakozási idő, amelytől kezdve a csapattag törlési kérelmet küld a Projektütemezési szolgáltatásnak, amíg a csapattag ténylegesen törlődik a programból Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Az időbélyeg, amelyet a csapattag törlési kérelmének a Project ütemezési szolgáltatásba történő elküldésekor rögzít. |
+| msdyn_projectteam | msdyn_effortremaining                        | Nyomon követi a csapattag által a feladataikkal kapcsolatban még elvégzendő erőfeszítéseket. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | A várakozási idő attól kezdve, hogy a csapattag törlési kérelmet küld a Projekt ütemezési szolgáltatásának, amíg a csapattag ténylegesen törlődik Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Az időbélyeg, amelyet rögzíteni kell, amikor a csapattag törlési kérelmét elküldi a projekt ütemezési szolgáltatásának. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Megjeleníti azt a projektcsoporttagot, akiről ezt a projektcsoporttagot másolták.  |
 
 ## <a name="project-templates"></a>Projektsablonok
 
-A Project Operations nem támogatja a projektsablonokat. A Project Copy API használatával azonban replikálhatja az alapvető funkciók nagy [részét](../project-management/dev-copy-project.md).
+A Project Operations nem támogatja a projektsablonokat. A Project Copy API használatával [azonban az alapvető funkciók nagy részét replikálhatja](../project-management/dev-copy-project.md).
 
 ## <a name="desktop-add-in-support"></a>Asztali bővítmény támogatása
 
-A Microsoft Project Desktop bővítmény támogatása a frissítés első két fázisában nem lesz elérhető. A 3. fázisban azok az ügyfelek, akik a Project for the Web jelenleg támogatott korlátainál nagyobb projektekkel rendelkeznek, használhatják az asztali bővítményt.
+A Microsoft Project Desktop bővítmény támogatása nem lesz elérhető a frissítés első 2 fázisában. A 3. fázisban azok az ügyfelek, akiknek a projektjei nagyobbak, mint a Webes Project jelenleg támogatott korlátai, használhatják az asztali bővítményt.
 
-## <a name="editing-resource-assignment-contours"></a>Erőforrás-hozzárendelési kontúrok szerkesztése
+## <a name="editing-resource-assignment-contours"></a>Erőforrás-hozzárendelési eloszlások szerkesztése
 
-Az erőforrás-hozzárendelési kontúrok szerkesztésének lehetősége akkor lesz elérhető, ha a frissítés 2. fázisa elérhető.
+Az erőforrás-hozzárendelési eloszlások szerkesztésének lehetősége akkor lesz elérhető, ha a frissítés 2. fázisa elérhető.
 
 ## <a name="billing-and-pricing"></a>Számlázás és árképzés
 
-A project műveletekben a következő új funkciók kerültek hozzáadásra. Ezek a funkciók additív jellegűek, és nem befolyásolják a Project Service Automation adatmodellt.
+A következő új funkciók lettek hozzáadva a Project Operationshez. Ezek a funkciók additív jellegűek, és nincsenek hatással a Project Service Automation adatmodelljére.
 
-- [Projektek és projektfeladatok anyagfelhasználásának rögzítése](../material/material-usage-log.md)
-- [Alvállalkozói tevékenység kezelése](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Anyaghasználat rögzítése projekteken és projektfeladatokon](../material/material-usage-log.md)
+- [Alvállalkozói szerződések kezelése](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Foglalón alapuló szerződések beállítása](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [A szerződés állapota és érvényesítései nem lépik túl az állapotot és az ellenőrzéseket](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [A szerződés állapota és érvényesítése nem haladhatja meg a státuszt és az érvényesítést](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - [Feladatalapú számlázás](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## <a name="deprecated-components"></a>Elavult összetevők
 
-Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a frissítés után az elavult összetevők megoldásába kerülnek. További információt és a megoldásra mutató hivatkozást a 3x to Project Operations 4x elavult összetevők [Dynamics 365 Project Service Automation című témakörben talál](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a frissítés után átkerülnek az elavult összetevők megoldásába. További információ és a megoldásra [Dynamics 365 Project Service Automation mutató hivatkozás: 3x a Project Operations 4x elavult összetevőire](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
 ### <a name="invoicedetail"></a>invoicedetail
 
@@ -222,8 +222,8 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | Mezők                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_characteristicreqforteammember.msdyn_jellemző                                     |
-| msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
-| msdyn_characteristicreqforteammember.msdyn_characteristictype                                 |
+| msdyn_characteristicreqforteammember.msdyn_jellemzőreqforteammemberid                   |
+| msdyn_characteristicreqforteammember.msdyn_jellemzőtípus                                 |
 | msdyn_characteristicreqforteammember.msdyn_name                                               |
 | msdyn_characteristicreqforteammember.msdyn_ratingvalue                                        |
 | msdyn_characteristicreqforteammember.msdyn_resourcerequirementid                              |
@@ -287,7 +287,7 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_opportunitylineresourcecategory.msdyn_description                                       |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylineresourcecategoryid                 |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylinetransactionclassification          |
-| msdyn_opportunitylineresourcecategory.msdyn_resourcekategória                                  |
+| msdyn_opportunitylineresourcecategory.msdyn_resourcecategory                                  |
 
 ### <a name="msdyn_opportunitylinetransaction"></a>msdyn_opportunitylinetransaction
 
@@ -296,7 +296,7 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_opportunitylinetransaction.msdyn_accountcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_accountingdate                                         |
 | msdyn_opportunitylinetransaction.msdyn_accountvendor                                          |
-| msdyn_opportunitylinetransaction.msdyn_összeg                                                 |
+| msdyn_opportunitylinetransaction.msdyn_amount                                                 |
 | msdyn_opportunitylinetransaction.msdyn_amount_base                                            |
 | msdyn_opportunitylinetransaction.msdyn_amountmethod                                           |
 | msdyn_opportunitylinetransaction.msdyn_basisamount                                            |
@@ -310,7 +310,7 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_opportunitylinetransaction.msdyn_contactvendor                                          |
 | msdyn_opportunitylinetransaction.msdyn_customertype                                           |
 | msdyn_opportunitylinetransaction.msdyn_description                                            |
-| msdyn_opportunitylinetransaction.msdyn_documentdate                                           |
+| msdyn_opportunitylinetransaction.msdyn_documentdate fájl                                           |
 | msdyn_opportunitylinetransaction.msdyn_enddatetime                                            |
 | msdyn_opportunitylinetransaction.msdyn_exchangeratedate                                       |
 | msdyn_opportunitylinetransaction.msdyn_opportunityline                                        |
@@ -318,20 +318,20 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_opportunitylinetransaction.msdyn_százalék                                                |
 | msdyn_opportunitylinetransaction.msdyn_price                                                  |
 | msdyn_opportunitylinetransaction.msdyn_price_base                                             |
-| msdyn_opportunitylinetransaction.msdyn_pricelist                                              |
+| msdyn_opportunitylinetransaction.msdyn_árlista                                              |
 | msdyn_opportunitylinetransaction.msdyn_product                                                |
-| msdyn_opportunitylinetransaction.msdyn_project                                                |
+| msdyn_opportunitylinetransaction.msdyn_projekt                                                |
 | msdyn_opportunitylinetransaction.msdyn_quantity                                               |
-| msdyn_opportunitylinetransaction.msdyn_resourcekategória                                       |
+| msdyn_opportunitylinetransaction.msdyn_resourcecategory                                       |
 | msdyn_opportunitylinetransaction.msdyn_resourceorganizationalunitid                           |
 | msdyn_opportunitylinetransaction.msdyn_startdatetime                                          |
 | msdyn_opportunitylinetransaction.msdyn_task                                                   |
-| msdyn_opportunitylinetransaction.msdyn_transactionkategória                                    |
+| msdyn_opportunitylinetransaction.msdyn_transactioncategory                                    |
 | msdyn_opportunitylinetransaction.msdyn_transactionclassification                              |
 | msdyn_opportunitylinetransaction.msdyn_transactiontypecode                                    |
 | msdyn_opportunitylinetransaction.msdyn_unit                                                   |
 | msdyn_opportunitylinetransaction.msdyn_unitschedule                                           |
-| msdyn_opportunitylinetransaction.msdyn_vendortype típus                                             |
+| msdyn_opportunitylinetransaction.msdyn_vendortype                                             |
 
 ### <a name="msdyn_opportunitylinetransactioncategory"></a>msdyn_opportunitylinetransactioncategory
 
@@ -385,7 +385,7 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_project.msdyn_remaininghours                                                            |
 | msdyn_project.msdyn_scheduleddurationminutes                                                  |
 | msdyn_project.msdyn_scheduledend                                                              |
-| msdyn_project.msdyn_stagename                                                                 |
+| msdyn_project.msdyn_szakasznév                                                                 |
 | msdyn_project.msdyn_wbsduration                                                               |
 
 
@@ -402,8 +402,8 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_projecttask.msdyn_costestimatecontour                                                   |
 | msdyn_projecttask.msdyn_effortcontour                                                         |
 | msdyn_projecttask.msdyn_islinetask                                                            |
-| msdyn_projecttask.msdyn_numberofresources                                                     |
-| msdyn_projecttask.msdyn_remaininghours                                                        |
+| msdyn_projecttask.msdyn_number ofsources                                                     |
+| msdyn_projecttask.msdyn_megmaradthours                                                        |
 | msdyn_projecttask.msdyn_resourceutilization                                                   |
 | msdyn_projecttask.msdyn_salesestimatecontour                                                  |
 | msdyn_projecttask.msdyn_scheduledhours                                                        |
@@ -416,10 +416,10 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 | msdyn_projecttaskstatususer.msdyn_bookableresource                                            |
 | msdyn_projecttaskstatususer.msdyn_description                                                 |
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
-| msdyn_projecttaskstatususer.msdyn_expectedhourstocomplete                                     |
-| msdyn_projecttaskstatususer.msdyn_iscompleted                                                 |
+| msdyn_projecttaskstatususer.msdyn_várta, hogy teljesítsen                                     |
+| msdyn_projecttaskstatususer.msdyn_is befejeződött                                                 |
 | msdyn_projecttaskstatususer.msdyn_name                                                        |
-| msdyn_projecttaskstatususer.msdyn_percent teljes                                             |
+| msdyn_projecttaskstatususer.msdyn_percentcomplete                                             |
 | msdyn_projecttaskstatususer.msdyn_projecttaskid                                               |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatusindicator                                  |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatususerid                                     |
@@ -428,8 +428,8 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 
 | Mezők                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_projectteam.msdyn_applicantcount                                                        |
-| msdyn_projectteam.msdyn_pályázókava elérhető                                                   |
+| msdyn_projectteam.msdyn_kérelmező száma                                                        |
+| msdyn_projectteam.msdyn_applicantsavailable                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
 | msdyn_projectteam.msdyn_description                                                           |
 | msdyn_projectteam.msdyn_from                                                                  |
@@ -454,7 +454,7 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projecttransactioncategory.msdyn_billingtype                                            |
 | msdyn_projecttransactioncategory.msdyn_name                                                   |
-| msdyn_projecttransactioncategory.msdyn_project                                                |
+| msdyn_projecttransactioncategory.msdyn_projekt                                                |
 | msdyn_projecttransactioncategory.msdyn_projecttransactioncategoryid                           |
 | msdyn_projecttransactioncategory.msdyn_transactioncategory                                    |
 
@@ -473,15 +473,15 @@ Az alábbi táblázatok az összes elavult mezőt dokumentálják, amelyek a fri
 
 | Mezők                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_resourceassignment.msdyn_hours                                                          |
+| msdyn_resourceassignment.msdyn_óra                                                          |
 | msdyn_resourceassignment.msdyn_fromdate                                                       |
 | msdyn_resourceassignment.msdyn_msprojectclientid                                              |
 | msdyn_resourceassignment.msdyn_todate                                                         |
 | msdyn_resourceassignmentdetail.msdyn_duration                                                 |
 | msdyn_resourceassignmentdetail.msdyn_from                                                     |
-| msdyn_resourceassignmentdetail.msdyn_name                                                     |
+| msdyn_resourceassignmentdetail.msdyn_name (angolul)                                                     |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentdetailid                               |
-| msdyn_resourceassignmentdetail.msdyn_resourceassignmentid                                     |
+| msdyn_resourceassignmentdetail.msdyn_resourceassignmentid fájlt                                     |
 
 ### <a name="salesorderdetail"></a>salesorderdetail
 

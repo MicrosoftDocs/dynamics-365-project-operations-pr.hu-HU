@@ -1,6 +1,6 @@
 ---
 title: Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe
-description: Ez a témakör a projektszerződések és projektek közvetlen Dynamics 365 Finance történő Microsoft Dynamics 365 Project Service Automation szinkronizálására használt sablont és mögöttes tevékenységeket írja le.
+description: Ez a cikk azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projektszerződések és -projektek szinkronizálására szolgálnak közvetlenül Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933863"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Pénzügybe 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684645"
 
 
 
-Ez a témakör a projektszerződések és projektek közvetlen Dynamics 365 Finance történő Dynamics 365 Project Service Automation szinkronizálására használt sablont és mögöttes tevékenységeket írja le.
+Ez a cikk azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projektszerződések és -projektek szinkronizálására szolgálnak közvetlenül Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE] 
 > Ha Enterprise Edition 7.3.0 verzit használ, akkor a KB 4074835 telepítésére van szükség.
@@ -120,15 +120,15 @@ Amikor a Project Service Automation és a Finance közötti integrációs megold
 
 ## <a name="power-query"></a>Power Query
 
-Ha az alábbi feltételek teljesülnek, a Microsoft Power Query for Excel programmal szűrheti az adatokat:
+A Microsoft Power Query for Excel használatával szűrheti az adatokat, ha az alábbi feltételek teljesülnek:
 
 - Értékesítésekkel rendelkezik a Dynamics 365 Sales alkalmazásban.
 - A Project Service Automation alkalmazásban több szervezeti egység is van, és ezek a szervezeti egységek több entitásra lesznek leképezve a Finance rendszerben.
 
-Ha használnia Power Query kell, kövesse az alábbi irányelveket:
+Ha használni Power Query kell, kövesse az alábbi irányelveket:
 
 - A Projektek és szerződések (PSA – Fin és Ops) sablonhoz egy alapértelmezett szűrő tartozik, amely csak a **Work item (msdyn\_ordertype = 192350001)** típusú értékesítési rendeléseket tartalmazza. Ez a szűrő segít biztosítani, hogy ne jöjjenek létre projektszerződések a Finance számára létrehozott értékesítési rendelésekhez. Ha saját sablont hoz létre, akkor ezt a szűrőt kell hozzáadnia.
-- Hozzon létre egy szűrőt Power Query, amely csak azokat a szerződésszervezeteket tartalmazza, amelyeket szinkronizálni kell az integrációs kapcsolatkészlet jogi személyével. A Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket például a USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket a USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
+- Hozzon létre egy szűrőt Power Query, amely csak azokat a szerződéses szervezeteket tartalmazza, amelyeket szinkronizálni kell az integrációs kapcsolatkészlet jogi személyével. A Contoso US szerződéses szervezeti egységgel fennálló projektszerződéseket például a USSI jogi entitással kell szinkronizálni, de a Contoso Global szerződéses szervezeti egységgel fennálló projektszerződéseket a USMF jogi entitással kell szinkronizálni. Ha nem adja hozzá ezt a szűrőt a feladatleképezéshez, akkor a program az összes projektszerződést szinkronizálja a kapcsolati készlethez definiált jogi entitással, függetlenül a szerződéses szervezeti egységtől.
 
 ## <a name="template-mapping-in-data-integration"></a>Sablonok leképezése az adatintegrációban
 

@@ -1,18 +1,18 @@
 ---
 title: Új környezet kiépítése
-description: Ez a témakör az új Project Operations-környezet kialakításának módjával kapcsolatban tartalmaz tájékoztatást.
+description: Ez a cikk az új Project Operations-környezet kiépítéséről nyújt tájékoztatást.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931609"
 ---
 # <a name="provision-a-new-environment"></a>Új környezet kiépítése
 
@@ -20,7 +20,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 
 
-Ez a témakör arról tartalmaz tájékoztatást, hogyan építhet ki új Dynamics 365 Project Operations-környezetet erőforrás-/nem készletalapú forgatókönyvekhez.
+Ez a cikk arról nyújt tájékoztatást, hogyan építhet ki új Dynamics 365 Project Operations környezetet erőforrás-/nem készletalapú forgatókönyvekhez.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Az automatizált Project Operations-kiépítés engedélyezése egy LCS-projektben
 
@@ -34,7 +34,7 @@ A következő lépésekkel engedélyezheti az automatizált Project Operations-k
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations-környezet kiépítése
 
-1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezetet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [a sandbox/ éles környezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) üzembe helyezését. 
+1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezetet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [tesztkörnyezeti/éles környezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) üzembe helyezését. 
 2. Haladjon végig a **Környezet kiépítése** varázslón. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Előfordulhat, hogy a Finance-környezetre minőségi frissítéseket kell alkal
 
     ![Megoldások alkalmazása.](./media/13ApplySolutions.png)
 
-5. Válassza ki mindkét megoldást, **Dynamics 365 Finance and Operations kettős írási entitásleképezést** és **Dynamics 365 Project Operations a kettős írás entitásleképezést**, majd válassza az Alkalmaz **lehetőséget**.
+5. Válassza ki mindkét megoldást, **Dynamics 365 Finance and Operations a Kettős írási entitásleképezést** és **Dynamics 365 Project Operations a Kettős írási entitásleképezéseket**, majd válassza az Alkalmaz **lehetőséget**.
 
     ![Megoldások megerősítése.](./media/14ConfirmSolutions.png)
 

@@ -1,86 +1,86 @@
 ---
-title: Több finanszírozási forrással rendelkező projektszerződések tételkövetelményei
-description: Ez a témakör a cikkszükségletek több finanszírozási forrással való konfigurálásáról és használatáról nyújt tájékoztatást.
+title: Több forrással rendelkező projektszerződések cikk-követelményei
+description: Ez a cikk arról nyújt tájékoztatást, hogyan konfigurálhatja és használhatja az elemkövetelményeket több finanszírozási forrással.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931195"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Több finanszírozási forrással rendelkező projektszerződések tételkövetelményei
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Több forrással rendelkező projektszerződések cikk-követelményei
 
 _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez_
 
-A projektalapú eredményekre vonatkozó egyes szerződéses megállapodások több finanszírozási forrást is igényelhetnek. Ez a témakör bemutatja, hogyan lehet kiválasztani és konfigurálni a kívánt finanszírozási forrásokat, ha egy projekt- vagy projektszerződéshez több forrásra van szükség.
+A projektalapú teljesítésekre vonatkozó egyes szerződéses megállapodásokhoz több finanszírozási forrásra is szükség lehet. Ez a cikk azt ismerteti, hogyan választhatja ki és konfigurálhatja a kívánt finanszírozási forrásokat, ha egy projekthez vagy projektszerződéshez több forrásra van szükség.
 
 ## <a name="terminology"></a>Terminológia
 
-- **Finanszírozási forrás** – Az a szervezet, amely finanszírozza a projektszerződési munkát. Ez az entitás lehet belső szervezet vagy külső számlaszámla (vevő vagy támogatás).
-- **Projekt vevő** – az az entitás, amelynek a projektmunkát kézbesítik.
-- **Számlaszámla** – A projektmunkát fizető külső entitás.
+- **Finanszírozási forrás** – A projektszerződés munkáját finanszírozó entitás. Ez az entitás lehet belső szervezet vagy külső számlaszámla (vevő vagy támogatás).
+- **Projektügyfél** – Az az entitás, amelyhez a projektmunkát kézbesítik.
+- **Számla számla** – A projektmunkáért fizető külső entitás.
 
 ## <a name="example"></a>Példa
 
-Contoso két ügyfelével, az Adatum US-val és az Adatum Corporate vállalattal nyert berendezésmegújítási szerződést. A szerződés hardver- és telepítési szolgáltatásokat tartalmaz, amelyeket az Adatum US (a projekt ügyfele) részére szállítanak. A hardvert az Adatum Corporate (1. számlaszámla) finanszírozza, a telepítési munkát pedig az Adatum US (2. számlaszámla) finanszírozza.
+Contoso két ügyfelével, az Adatum US-val és az Adatum Corporate-val nyerte el a berendezés megújítására vonatkozó szerződést. A szerződés hardver- és telepítési szolgáltatásokat tartalmaz, amelyeket az Adatum US-nek (a projektügyfelnek) szállítanak. A hardvert az Adatum Corporate finanszírozza (1. számlaszámla), a telepítési munkákat pedig az Adatum US finanszírozza (2. számlaszámla).
 
-## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>Számlaszámla alapértelmezett szabályainak beállítása cikkszükségletekhez
+## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>Számlaszámla alapértelmezett szabályainak beállítása a cikkkövetelményekhez
 
 ### <a name="prerequisites"></a>Előfeltételek
 
-- Microsoft Dynamics 365 A több számlaszámlával rendelkező cikkkövetelmények használatához a 10.0.27-es vagy újabb **pénzügyi és műveleti** verziónak kell használnia.
-- A rendszergazdának engedélyeznie kell a **Cikkszükségletek engedélyezése több finanszírozási forrással a Szolgáltatáskezelő** munkaterületen található **Projektműveletek készletezett/termelésalapú forgatókönyvek** szolgáltatásához.
+- Microsoft Dynamics 365 A Finance and Operations **10.0.27-es vagy újabb** verziója szükséges a több számlaszámlával rendelkező cikkkövetelmények használatához.
+- A rendszergazdának engedélyeznie kell a Több finanszírozási forrással rendelkező elemkövetelmények engedélyezése a **Project Operations készletezett/éles környezetben futó forgatókönyvekhez** funkciót a **Funkciókezelés** munkaterületen.
 
-### <a name="set-up-the-invoice-account-defaulting-rules"></a>A számlaszámla alapértelmezett szabályainak beállítása
+### <a name="set-up-the-invoice-account-defaulting-rules"></a>A számla számla alapértelmezett szabályainak beállítása
 
-A számlaszámla alapértelmezett szabályainak beállításához hajtsa végre az alábbi lépéseket.
+A számlafiók alapértelmezett szabályainak beállításához kövesse az alábbi lépéseket.
 
 1. Lépjen a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Projektmenedzsment és könyvelési paraméterek** lehetőségre.
-1. **Az Általános** lap **Értékesítési rendelések és Cikkkövetelmények** szakaszában állítsa az **Engedélyezés több finanszírozási forrással** rendelkező projektek engedélyezése beállítást Igen **értékre**.
-1. **Az Alapértelmezett vevő** mezőben adja meg, hogy a cikkszükségletben szereplő projektkézbesítési vevő alapértelmezés szerint honnan származik:
+1. **Az Általános** lap **Értékesítési rendelések és cikkkövetelmények** szakaszában állítsa az **Engedélyezés több finanszírozási forrással** rendelkező projektekhez beállítást Igen **értékre**.
+1. **Az Alapértelmezett vevő** mezőben adja meg, hogy a cikkszükségleten szereplő projektszállítási vevő honnan származik alapértelmezés szerint:
 
-    - **Finanszírozási forrásból** – Az alapértelmezett projektkézbesítési ügyfél a finanszírozási forrásból származik. Ha több finanszírozási forrás kapcsolódik a projektszerződéshez, a lista első finanszírozási forrását használja a rendszer.
-    - **Projektből** – Az alapértelmezett projektkézbesítési vevő a Projekt rekordszámla **mezőben** kiválasztott vevőtől származik.
+    - **Finanszírozási forrásból** – Az alapértelmezett projektteljesítési ügyfél a finanszírozási forrásból származik. Ha több finanszírozási forrás van társítva a projektszerződéshez, a rendszer a lista első finanszírozási forrását használja.
+    - **Projektből** – Az alapértelmezett projektszállítási ügyfél a Projektrekord-fiók **mezőben kiválasztott** vevőtől származik.
 
-1. Nem kötelező: Az alapértelmezett számlaszámla beállítása vagy módosítása a projektrekordokon:
+1. Választható: Állítsa be vagy módosítsa az alapértelmezett számlafiókot a projektrekordokban:
 
-    1. Nyissa meg a **Projektmenedzsment és könyvelési** \> **projektek minden** \> **projektet**, és nyissa meg a projektbejegyzés részleteit.
-    2. **Az Általános** lapon állítsa be vagy frissítse az **Alapértelmezett számlaszámla** mezőt. A megadott számla a projekthez létrehozott új cikkszükségletek alapértelmezett számlaszámlájaként lesz használva. Ha üresen hagyja a mezőt, a program alapértelmezés szerint az első projektszerződés-finanszírozási forrás számlaszámláját használja. A felhasználók azonban a rekord mentésekor módosíthatják a fiókot.
+    1. Lépjen a Projektvezetési és **könyvelési**\> projektek **·**\> Minden projekt **elemre**, és nyissa meg a projektrekord részleteit.
+    2. **Az Általános** lapon állítsa be vagy frissítse az **Alapértelmezett számlaszámla** mezőt. A megadott fiók lesz a projekthez létrehozott új cikkkövetelmények alapértelmezett számlaszámla- fiókja. Ha üresen hagyja a mezőt, a rendszer alapértelmezés szerint az első projektszerződés-finanszírozási forrás számlaszámláját használja. A felhasználók azonban megváltoztathatják a fiókot a rekord mentésekor.
 
-### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Cikkszükséglet létrehozásakor használandó számlaszámla kiválasztása
+### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Válassza ki a cikkszükséglet létrehozásakor használni kívánt számlaszámlát
 
-A cikkszükséglet létrehozásakor használandó számlaszámla kiválasztásához hajtsa végre az alábbi lépéseket.
+A cikkszükséglet létrehozásakor használni kívánt számlafiók kiválasztásához kövesse az alábbi lépéseket.
 
-1. Nyissa meg a **Projektmenedzsment és könyvelési** \> **projektek minden** \> **projektet**, és válassza ki a projektbejegyzést.
-1. A Terv **lapon válassza** a **Cikkkövetelmények lehetőséget**.
-1. Hozzon létre egy új cikkszükséglet-rekordot.
+1. Lépjen a Projektvezetési és **könyvelési**\> projektek **·**\> Minden projekt **elemre**, és válassza ki a projektrekordot.
+1. A Csomag **lapon válassza a** Cikkkövetelmények **lehetőséget**.
+1. Hozzon létre egy új cikkszükségletrekordot.
 
-    - Alapértelmezés szerint a **rekord Számla számla mezője** a projekthez beállított számlaszámlára van állítva. Módosíthatja a Számla számla **mező értékét,** majd mentheti a rekordot. A rekord mentése után már nem frissítheti a **Számla számla** értékét. Ha frissítenie kell a **cikkszükséglet Számla számlaértékét**, törölje a meglévő cikkszükségletet, majd hozzon létre egy újat, amely rendelkezik a kívánt értékkel.
-    - Alapértelmezés szerint a **cikkszükséglet Vevő** mezője a **Projektkezelés és könyvelési paraméterek** lapon beállított **Alapértelmezett vevő** érték alapján van beállítva.
+    - Alapértelmezés szerint a **rekord Számlaszámla** mezője a projekthez beállított számlafiókra van beállítva. Módosíthatja a Számlaszámla **mező értékét,** majd mentheti a rekordot. A rekord mentése után már nem frissítheti a **Számla számla értékét**. Ha frissítenie kell a **számlaszámla** értékét a cikkszükséglethez, törölje a meglévő cikkszükségletet, majd hozzon létre egy újat, amely rendelkezik a kívánt értékkel.
+    - Alapértelmezés szerint a **cikkszükséglet Vevő** mezője a **Projektvezetési és könyvelési paraméterek** oldalon **beállított Alapértelmezett vevői** érték alapján van beállítva.
 
-    A cikkszükségleti rekord mentésekor a rendszer a Cikkszükséglet eladási rendelés **fejlécrekordjához** társítja. Ha egyetlen nyitott értékesítési rendelés fejében sem szerepel a kijelölt számlaszámla, a rendszer létrehoz egyet, és társítja hozzá a cikkszükségletsort.
+    A cikkszükségletrekord mentésekor a rendszer társítja azt a **Cikkszükséglet értékesítési rendelés** fejlécrekordjához. Ha nincs nyitott értékesítésirendelés fejléce a kiválasztott számlaszámlával, a rendszer létrehoz egyet, és társítja hozzá a cikkszükségleti sort.
 
 > [!NOTE]
-> A cikkszükségletek mindig teljes mértékben kiszámlázhatók a rekordban beállított számlaszámlára. A rendszer jelenleg nem támogatja a cikkkövetelményekkel rendelkező finanszírozási felosztási szabályokat, és nem osztja fel a feladást a finanszírozásallokációs szabályok beállítása alapján.
+> A cikkszükségletek számlázása mindig teljes egészében a rekordban beállított számlaszámlára történik. A rendszer jelenleg nem támogatja a cikkkövetelményekkel rendelkező finanszírozásfelosztási szabályokat, és nem osztja fel a feladást a forrásallokációs szabályok beállítása alapján.
 
 ### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Cikkszükséglet létrehozása cikk-előrejelzési rekordból
 
-Cikk-előrejelzési rekordból cikkszükséglet létrehozásához hajtsa végre az alábbi lépéseket.
+Ha cikkszükségletet szeretne létrehozni egy cikk-előrejelzési rekordból, kövesse az alábbi lépéseket.
 
-1. Ugrás a **Projektmenedzsment és könyvelés** \> **projektek minden** \> **projektre,** és válassza ki a projektbejegyzést.
-1. A Terv **lapon válassza a** Cikk-előrejelzések **lehetőséget**.
+1. Lépjen a Projektvezetési és **könyvelési**\> projektek **·**\> Minden projekt **elemre,** és válassza ki a projektrekordot.
+1. A Csomag lapon válassza a **Cikk-előrejelzések lehetőséget** **.**
 1. Hozzon létre egy új cikk-előrejelzési rekordot.
-1. Nem kötelező: A **Projekt** lap Finanszírozási forrás **mezőjében** válassza ki a kívánt számlaszámlát.
-1. Válassza az **Elemszükséglet** létrehozása lehetőséget, és erősítse meg a kapott üzenetet.
+1. Választható lehetőség: A **Projekt** lap Finanszírozási forrás **mezőjében** válassza ki a kívánt számlaszámlát.
+1. Válassza az Elemszükséglet **létrehozása lehetőséget**, és erősítse meg a kapott üzenetet.
 
     > [!NOTE]
-    > A rendszer átmásolja a **Finanszírozási forrás** értékét a cikk-előrejelzési rekordból az újonnan létrehozott cikkszükséglet-rekordba.
+    > A rendszer átmásolja a **Finanszírozási forrás** értékét a cikk-előrejelzési rekordból az újonnan létrehozott cikkszükségletrekordba.
 
-### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Alapértelmezett számlaszámla, amikor a rendszer automatikusan létrehoz egy cikkszükségletet egy beszerzésirendelés-sorból
+### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Alapértelmezett számlaszámla, ha a rendszer automatikusan létrehoz egy cikkszükségletet egy beszerzésirendelés-sorból
 
-Ha a Projektkezelés és könyvelési paraméterek **lapon a** **Cikkszükséglet** létrehozása beállítás **értéke Igen**, a rendszer egy új projekt beszerzésirendelés-sor mentésekor automatikusan létrehoz egy cikkszükségletet. Alapértelmezés szerint a Számla számla és a **Cikkszükséglet** mezők a projektrekord Alapértelmezett számla számla **mezőjének értékére** vannak **beállítva.** A rendszer jelenleg nem támogatja az ilyen típusú rekordok számlafiókjának frissítését vagy módosítását.
+Ha a **Cikkszükséglet** létrehozása beállítás Igen **értékre** van állítva a **Projektvezetési és könyvelési** paraméterek lapon, a rendszer automatikusan létrehoz egy cikkszükségletet egy új projektvásárlási rendelési sor mentésekor. Alapértelmezés szerint a Számlaszámla **és** a **Cikk követelmény** mezők a projektrekord Alapértelmezett számlaszámla **mezőjének értékére** vannak beállítva. A rendszer jelenleg nem támogatja az ilyen típusú rekordok számlafiókjának frissítését vagy módosítását.

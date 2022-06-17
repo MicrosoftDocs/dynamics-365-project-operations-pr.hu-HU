@@ -1,6 +1,6 @@
 ---
 title: Projekttervezés és nyomon követés
-description: Ez a témakör linket biztosít a Project Service Automation tervezéssel és nyomon követéssel kapcsolatos információihoz.
+description: Ez a cikk a Project Service Automationben a tervezéssel és a nyomon követéssel kapcsolatos információkra mutató hivatkozást tartalmaz.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933265"
 ---
 # <a name="project-planning-and-tracking"></a>Projekttervezés és nyomon követés
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589889"
 
 A Project Service alkalmazás segíti a szolgáltatószervezeteket a lehetőségek azonosításában, az ajánlatok benyújtásában, a szerződéses megállapodások megkötésében, az erőforrások kezelésében, az idő és költségek nyomon követésében, az ügyfeleknek való számlázásban, valamint a projektek időben és költségvetésen belüli teljesítésében. 
 
-A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi témakörökbe:
+A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
 
 - [Projekt ütemezése](../project-creating.md)
 - [A projekt költségei és bevételei](../project-estimating.md)
@@ -43,7 +43,7 @@ A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a ta
 - [Projektbeállítások](../project-settings.md)
 
 > [!NOTE]
-> Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
+> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

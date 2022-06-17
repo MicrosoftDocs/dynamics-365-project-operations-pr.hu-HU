@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 26-es frissítési kiadásának V3 változatában
-description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 26-os frissítési kiadásában.
+description: Ez a cikk a Project Service Automation 26-os, V3-as kiadásában elérhető szolgáltatásokat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cebfcd6425f11b74ce6331a093d8d3db3da356a0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 11f722c1f31c0e8aa08192cc955aabbe97018225
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928803"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation 26-es frissítési kiadás, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577285"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 26-os frissítési kiadásában. A Build száma V 3.10.44.59, és általánosan elérhető egy önálló frissítésként 2020 decemberében.
+Ez a cikk azokat a szolgáltatásokat és javításokat sorolja fel, amelyek újak vagy módosultak a Project Service Automation 26., V3-as kiadásához. A Build száma V 3.10.44.59, és általánosan elérhető egy önálló frissítésként 2020 decemberében.
 
 ## <a name="update-release-26"></a>26-ös frissítési kiadás
 

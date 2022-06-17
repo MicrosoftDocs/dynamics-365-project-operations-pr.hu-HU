@@ -1,23 +1,23 @@
 ---
 title: Projektekhez kapcsolódó erőfeszítés nyomon követése
-description: Ez a témakör a projekt ráfordításának és a munkafolyamat nyomon követéséről nyújt információkat.
+description: Ez a cikk a projekt erőfeszítéseinek és a munka előrehaladásának nyomon követéséről nyújt tájékoztatást.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929263"
 ---
 # <a name="project-effort-tracking"></a>Projektekhez kapcsolódó erőfeszítés nyomon követése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükségessége iparáganként eltérő. Egyes iparágak részletes szinten követnek nyomon, mások viszont magasabb szinten követnek nyomot. Ez a témakör bemutatja, hogyan kell ütemezni a szervezet követelményeit.
+Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükségessége iparáganként eltérő. Egyes iparágak részletes szinten követnek nyomon, mások viszont magasabb szinten követnek nyomot. Ez a cikk bemutatja, hogyan ütemezheti a szervezet követelményeinek való megfelelést.
 
 ## <a name="effort-tracking-view"></a>Erőfeszítések nyomon követésének megtekintése
 
@@ -45,8 +45,8 @@ Az összefoglaló vagy a tároló feladatokra tett erőfeszítések újratervezh
 - Kiszámítjuk az új EAC-t az egyes feladatok mindegyikétől egészen a levélcsomóponti feladatokig. 
 - Az érintett gyermek feladatait a levélcsomópontokig a fennmaradó ráfordítással és az előrehaladási százalékkal újraszámolják az EAC-érték alapján. Ez új előrejelzést eredményez a feladat erőfeszítési variációja szempontjából. 
 - Az összesítő feladatok EAC-ját egészen a gyökércsomópontig újraszámolják.
-- Az összefoglaló tevékenységre jóváhagyott erőfeszítés az összes gyermekfeladatra jóváhagyott erőfeszítés összege, valamint az összefoglaló tevékenység jóváhagyott erőfeszítése.
-- Az összefoglaló tevékenység fennmaradó erőfeszítése az összes gyermektevékenység fennmaradó erőfeszítésének összege, levonva az összefoglaló tevékenység jóváhagyott erőfeszítését.
+- Az összefoglaló tevékenységre vonatkozó jóváhagyott munkamennyiség az összes gyermekfeladatra jóváhagyott erőfeszítés, valamint az összefoglaló tevékenységen jóváhagyott erőfeszítés összege.
+- Az összefoglaló tevékenységen fennmaradó erőfeszítés az összes gyermekfeladaton fennmaradó erőfeszítés összege, levonva belőle az összefoglaló tevékenységen jóváhagyott erőfeszítést.
 
 ## <a name="project-status-summary"></a>A projekt állapotának összefoglalása
 

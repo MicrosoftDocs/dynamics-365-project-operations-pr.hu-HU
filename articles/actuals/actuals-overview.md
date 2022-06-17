@@ -1,6 +1,6 @@
 ---
 title: Tényadatok
-description: A témakör a Microsoft Dynamics 365 Project Operations tényadatokkal való munkára vonatkozó információit mutatja be.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan dolgozhat a tényleges adatokkal a Microsoftban Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,31 +13,31 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924801"
 ---
 # <a name="actuals"></a>Tények
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű központi telepítés – proforma számlázás_
 
-A tényleges adatok a projekt felülvizsgált és jóváhagyott pénzügyi és ütemezési előrehaladását jelentik. Ezek az idő-, költség- és anyagfelhasználási tételek, naplótételek és számlák jóváhagyásakor jönnek létre.
+A tényleges adatok a projekt felülvizsgált és jóváhagyott pénzügyi és ütemezési előrehaladását jelentik. Ezek akkor jönnek létre, amikor az idő-, költség- és anyaghasználati bejegyzéseket, naplóbejegyzéseket és számlákat jóváhagyják.
 
 > [!IMPORTANT]
-> A tényleges adatokat nem szabad szerkeszteni vagy törölni a rendszerből. Ellenkező esetben a pénzügyi integritást és az egyéb pénzügyi és számviteli rendszerekkel való bármilyen integrációt hátrányosan érintheti. A Microsoft Dynamics 365 Project Operations lehetővé teszi, hogy a tényleges adatok sztornírozásával és cseréjével szerkesztheti a tényleges adatokat a projektek üzleti folyamat életciklusának különböző pontjain.
+> A tényleges adatokat nem szabad szerkeszteni vagy törölni a rendszerből. Ellenkező esetben hátrányosan érintheti a pénzügyi integritást és a más pénzügyi és számviteli rendszerekkel való integrációt. A Microsoft Dynamics 365 Project Operations lehetővé teszi, hogy a tényleges adatok megfordításával és cseréjével szerkessze a tényleges adatokat a projektek üzleti folyamatának életciklusának különböző pontjain.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Tényadatok rögzítése projektesemények alapján
 
-A Project Operations a projektmegbízási életciklus során bekövetkező pénzügyi tranzakciókat tényleges értékként rögzíti. A tényleges adatok létrehozása az életciklus különböző eseményein változó, attól függően, hogy a projekt elkötelezettsége az idő- és anyagszámlázási modellt vagy a rögzített árú számlázási modellt használja-e, és hogy az értékesítés előtti szakaszban van-e, vagy belső projekt.
+A Project Operations a projekt elköteleződési életciklusa során bekövetkező pénzügyi tranzakciókat ténylegesként rögzíti. A tényleges adatok létrehozása az életciklus különböző eseményein attól függően változik, hogy a projekt elköteleződése az idő- és anyagszámlázási modellt vagy a rögzített árú számlázási modellt használja-e, és hogy az értékesítés előtti szakaszban van-e, vagy belső projektről van-e szó.
 
-A következő témakörök az Aktualitások táblára gyakorolt hatást ismertetik a különböző változatok különböző eseményein:
+A következő cikkek ismertetik a Tényleges adatok táblázatra gyakorolt hatást a különböző változatok különböző eseményeinél:
 
-- [Aktualitások hatása egy időben és az anyagokban](ActualsonTM.md)
-- [Tényleges hatás egy rögzített árú megbízásban](ActualonFP.md)
-- [Tényleges hatások az eljegyzés értékesítés előtti szakaszában](ActualonPreSales.md)
+- [A tényleges hatás egy adott időben és az anyagok bevonása](ActualsonTM.md)
+- [Tényleges hatás rögzített ármegállapításban](ActualonFP.md)
+- [Tényleges hatás az elköteleződés értékesítés előtti szakaszában](ActualonPreSales.md)
 - [A belső projekt tényleges hatása](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

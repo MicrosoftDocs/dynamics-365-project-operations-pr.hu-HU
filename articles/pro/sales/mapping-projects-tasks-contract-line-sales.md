@@ -1,17 +1,17 @@
 ---
 title: Projektek és feladatok leképezése egy projektalapú szerződéssorra - Lite
-description: Ez a témakör a projektek és feladatok szerződéssorhoz való hozzáadásával és eltávolításával kapcsolatban tartalmaz tájékoztatást.
+description: Ez a cikk a projektek és feladatok szerződéssorhoz való hozzáadásáról és eltávolításáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: da6017a6bbf138a4d30f1cd29b5b00a520e6990f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932529"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektek és feladatok leképezése egy projektalapú szerződéssorba 
 

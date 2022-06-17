@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 24-es frissítési kiadásának V3 változatában
-description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 24-os frissítési kiadásában.
+description: Ez a cikk a Project Service Automation 24-es, V3-as kiadásában elérhető szolgáltatásokat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 63bf96bfeed30ceefab072640172a6a0dafd20f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d2cd8c18a2ea10ae090d8258d835453b279d717f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926411"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation 24-es frissítési kiadás, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581563"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 24-es frissítési kiadásában. Ennek a verziónak a buildszáma V3.10.42.43, és általánosan elérhető egy önálló frissítésben 2020 októberében.
+Ez a cikk a Project Service Automation V3 24-es kiadásának újdonságaival vagy módosításával kapcsolatos szolgáltatásokat és javításokat sorolja fel. Ennek a verziónak a buildszáma V3.10.42.43, és általánosan elérhető egy önálló frissítésben 2020 októberében.
 
 ## <a name="update-release-24"></a>24-ös frissítési kiadás
 

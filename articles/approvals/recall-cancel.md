@@ -1,42 +1,42 @@
 ---
-title: A korábban jóváhagyott bejegyzések visszahívása
-description: Ez a témakör bemutatja, hogy a projektcsapat tagjai hogyan kérhetik a korábban benyújtott és jóváhagyott idő-, költség- és anyaghasználati rekordok visszahívását, valamint azt, hogy a projektmenedzser hogyan hagyhatja jóvá vagy utasíthatja el a visszahívási kérelmeket.
+title: Korábban jóváhagyott bejegyzések visszahívása
+description: Ez a cikk azt ismerteti, hogy a projektcsapat tagjai hogyan kérhetik a korábban beküldött és jóváhagyott idő-, költség- és anyaghasználati rekordok visszahívását, és hogyan hagyhatják jóvá vagy utasíthatják el a projektmenedzser a visszahívási kérelmeket.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930367"
 ---
-# <a name="recall-previously-approved-entries"></a>A korábban jóváhagyott bejegyzések visszahívása
+# <a name="recall-previously-approved-entries"></a>Korábban jóváhagyott bejegyzések visszahívása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az idő-, költség- vagy anyaghasználati bejegyzést beküldő projektcsapat-tag a jóváhagyás után visszahívhatja ezt a bejegyzést. A visszahívási folyamatnak két fő lépése van:
+A projektcsapat azon tagja, aki idő-, költség- vagy anyaghasználati bejegyzést küld be, a jóváhagyás után visszahívhatja a bejegyzést. A visszahívási folyamatnak két fő lépése van:
 
 1. A benyújtó visszahívást kér.
 2. A jóváhagyó jóváhagyja a visszahívási kérelmet.
 
 ## <a name="request-a-recall"></a>Kérjen visszahívást
 
-Az alábbi lépéseket követve kérheti a jóváhagyott idő-, költség- vagy anyaghasználati bejegyzések visszahívását.
+Kövesse az alábbi lépéseket a jóváhagyott idő-, költség- vagy anyaghasználati bejegyzések visszahívásának kéréséhez.
 
-1. A visszahívni kívánt bejegyzés típusától függően hajtsa végre az alábbi lépések egyikét:
+1. Kövesse az alábbi lépések egyikét attól függően, hogy milyen típusú bejegyzést szeretne visszahívni:
 
-    - Időbejegyzések esetén nyissa meg a **Projektek** \> **saját munkaidő** \> **tétel című témakört**, és válassza ki a projekt és a tevékenység adott kombinációjának összes időbejegyzését. Alternatív megoldásként a rácsban válassza ki az egyes cellákat az adott időpontra egy adott dátumra egy adott projekthez.
-    - Költségtételek esetén nyissa meg a **Projekt** \> **saját munkaköltsége** \> **lehetőséget**, és válassza ki a visszahívandó költségtétel sorát.
-    - Anyaghasználati bejegyzések esetén nyissa meg a **Projektek** \> **saját munkaanyag-használati** \> **naplója című témakört**, és válassza ki a visszahívandó anyaghasználati bejegyzés sorát.
+    - Időbejegyzések esetén lépjen a **Projektek**\> saját munkaidő-bejegyzése **·** \> **lapra**, és válassza ki a projekt és a tevékenység adott kombinációjának összes időbejegyzését. Alternatív megoldásként a rácsban válassza ki az egyes cellákat az adott időpontra egy adott dátumra egy adott projekthez.
+    - Költségbejegyzések esetén lépjen a **Projektek**\> saját **munkaköltségei** \> **lapra**, és válassza ki a visszahívni kívánt költségbejegyzés sorát.
+    - Az anyaghasználati bejegyzésekhez lépjen a **Projektek**\> saját munkaanyag-használati **·**\> naplója **oldalra**, és válassza ki a visszahívni kívánt anyaghasználati bejegyzés sorát.
 
-2. Válassza az **Előhívás** lehetőséget. Megjelenik a jóváhagyást kérő párbeszédpanel. Ha a kiválasztott idő-, költség- vagy anyagfelhasználási tételeket már jóváhagyták, a rendszer kéri, hogy adja meg a visszahívás okát.
+2. Válassza az **Előhívás** lehetőséget. Megjelenik a jóváhagyást kérő párbeszédpanel. Ha a kiválasztott idő-, költség- vagy anyaghasználati bejegyzéseket már jóváhagyták, a rendszer kéri, hogy adja meg a visszahívás okát.
 3. Írja be a visszahívás okát, majd a művelet megerősítéséhez válassza az **OK** lehetőséget. A rendszer kéri a bejegyzés jóváhagyóját a visszahívás jóváhagyására.
 
 > [!IMPORTANT]
-> Nem hozhat létre visszahívási kérelmet olyan jóváhagyott időpont-, költség- vagy anyaghasználati tételhez, amelyet már kiszámláztak a vevőnek. Ha megpróbálja, megjelenik egy üzenet, amely szerint az idő-, költség- vagy anyaghasználati bejegyzés nem hívható vissza, mert már kiszámlázták. Ebben az esetben csak akkor kérheti a tétel visszahívását, ha helyesbítő számlát használnak az eredeti számlán szereplő vevő teljes jóváírásának vagy visszatérítésének kibocsátására.
+> Nem hozhat létre visszahívási kérelmet olyan jóváhagyott idő-, költség- vagy anyaghasználati bejegyzéshez, amelyet már kiszámláztak a vevőnek. Ha megpróbálja, olyan üzenetet kap, amely szerint az idő-, költség- vagy anyaghasználati bejegyzés nem hívható vissza, mert már számlázták. Ebben az esetben csak akkor kérheti a bejegyzés visszahívását, ha helyesbítő számlát használnak a teljes jóváírás vagy visszatérítés kiadására az eredeti számlán szereplő vevőnek.
 
 ## <a name="approve-or-reject-a-recall-request"></a>A visszahívás jóváhagyása vagy elutasítása
 
@@ -52,7 +52,7 @@ A visszahívás jóváhagyásához vagy elutasításához kövesse ezeket a lép
     Ha az **Elutasítás** lehetőséget választotta, akkor a visszahívási kérelmet elutasítják.
 
 > [!IMPORTANT]
-> A visszahívás jóváhagyásakor a rendszer ellenőrzi az idő-, költség- vagy anyaghasználati tételek számlázási tevékenységeit. Ha egy tételt már kiszámláztak, vagy ha számlatervezeten van, a jóváhagyó hibaüzenetet kap, amely szerint az idő vagy a költség nem hagyható jóvá visszahívásra, mert már kiszámlázták. Ebben az esetben a jóváhagyó csak akkor hagyhatja jóvá a visszahívást, ha helyesbítő számlát használnak az eredeti számlán szereplő vevő teljes jóváírásának vagy visszatérítésének kibocsátására.
+> A visszahívás jóváhagyásakor, csakúgy, mint amikor azt kérik, a rendszer ellenőrzi, hogy vannak-e számlázási tevékenységek az idő-, költség- vagy anyaghasználati bejegyzéseken. Ha egy bejegyzés már ki lett számlázva, vagy ha az szerepel egy számlavázlaton, a jóváhagyó hibaüzenetet kap, amely szerint az idő vagy a költség nem hagyható jóvá visszahívásra, mert már kiszámlázták. Ebben az esetben a jóváhagyó csak akkor hagyhatja jóvá a visszahívást, ha helyesbítő számlát használ a teljes jóváírás vagy visszatérítés kiadására az eredeti számlán szereplő vevőnek.
 
 ## <a name="impact-of-a-recall-request"></a>A visszahívás kérésének hatása
 
@@ -60,7 +60,7 @@ A jóváhagyás visszavonásakor mind működési, mind pénzügyi hatásokkal j
 
 ### <a name="operational-impact"></a>Működési hatás
 
-Ha egy visszahívási kérelmet jóváhagynak, a jóváhagyási rekordot **Elutasítva** jelöléssel kell ellátni. A bejegyzés állapota visszaküldött **vagy** elutasított értékre **változik**, attól függően, hogy időbejegyzésről, költség- vagy anyaghasználati tételről van-e szó.
+Ha egy visszahívási kérelmet jóváhagynak, a jóváhagyási rekordot **Elutasítva** jelöléssel kell ellátni. A bejegyzés állapota Visszaadva **vagy** Elutasítva **állapotra** változik, attól függően, hogy időbemenetről, költség- vagy anyaghasználati bejegyzésről van-e szó.
 
 A projektcsapat tagja megtekintheti a bejegyzéseket, szerkesztheti, majd újra elküldheti a bejegyzéseket, vagy teljesen törölheti a bejegyzéseket.
 
@@ -79,14 +79,14 @@ Ha a visszahívási kérelmet elutasítják, nincs pénzügyi hatása a projektr
 
 ## <a name="changes-to-time-entry-records"></a>Változások az időbejegyzés rekordokban
 
-Az alábbi ábra a jóváhagyott időbejegyzések és a megfelelő jóváhagyási rekordok esetében a visszahívásukkor bekövetkező változásokat mutatja be.
+A következő ábra a jóváhagyott időbejegyzések és a visszahívásukkor a megfelelő jóváhagyási rekordok esetében bekövetkező változásokat mutatja be.
 
-![Időbeviteli állapot átmenetei.](media/TimeEntryStateTransitions.png)
+![Időbeviteli állapotátalakulások.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Költség- és anyaghasználati bejegyzési rekordok módosítása
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>A költség- és anyaghasználati bejegyzési rekordok változásai
 
-Az alábbi ábra a jóváhagyott költség- és anyagfelhasználási tételeknél bekövetkező változásokat, valamint a megfelelő jóváhagyási rekordokat mutatja be visszahívásukkor.
+Az alábbi ábra a jóváhagyott költség- és anyaghasználati bejegyzések, valamint a visszahíváskor a megfelelő jóváhagyási rekordokkal kapcsolatos változásokat mutatja be.
 
-![Költségbeviteli állapot átmenetei.](media/ExpenseEntryStateTransitions.png)
+![Költségbeviteli állapotátalakulások.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

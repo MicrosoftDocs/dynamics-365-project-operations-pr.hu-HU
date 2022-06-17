@@ -1,17 +1,17 @@
 ---
 title: A vállalatközi számlázás konfigurálása
-description: Ez a témakör információkat és példákat tartalmaz a vállalatközi számlázás konfigurálásához a projektekhez.
+description: Ez a cikk információkat és példákat tartalmaz a vállalatok közötti számlázás projektekhez való konfigurálásáról.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ae0c2662bb6b2789ab520f08c7c21935b651ced5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929367"
 ---
 # <a name="configure-intercompany-invoicing"></a>A vállalatközi számlázás konfigurálása
 
@@ -25,7 +25,7 @@ A következő példában a Contoso Robotics USA (USPM) a kölcsönvevő jogi sze
 
 1. **A vállalatközi könyvelés konfigurálása a jogi személyek között**. A kölcsönadó és kölcsönvevő jogi személyek minden párját tagját be kell állítani a főkönyvi [vállalatközi könyvelés](/dynamics365/finance/general-ledger/intercompany-accounting-setup) lapján.
     
-    1. A Dynamics 365 Finance válassza a **Főkönyvi** > **könyvelés beállítása Vállalatközi könyvelést** > **·**. Hozzon létre egy rekordot a következő adatokkal:
+    1. A Dynamics 365 Finance a **Főkönyvi** > **feladás beállítás vállalatközi könyvelése című** > **témakörben olvashat**. Hozzon létre egy rekordot a következő adatokkal:
 
         - **Eredeti vállalat** = **GBPM**
         - **Célvállalat** = **USPM**

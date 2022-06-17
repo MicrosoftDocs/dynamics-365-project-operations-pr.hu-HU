@@ -1,6 +1,6 @@
 ---
 title: Költségkezelés konfigurálása
-description: Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket a tervezési folyamat során meg kell tennie, mielőtt konfigurálná a Költségkezelést a 365 Pénzügy mezőben Microsoft Dynamics.
+description: Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket meg kell hoznia a tervezési folyamat során, mielőtt konfigurálná a Költségkezelést a 365 Finance alkalmazásban Microsoft Dynamics.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934001"
 ---
 # <a name="configure-expense-management"></a>Költségkezelés konfigurálása
 
-Ez a témakör azokat a szempontokat és döntéseket ismerteti, amelyeket a tervezési folyamat során el kell végeznie a Költségkezelés konfigurálása előtt. A Költségkezelés során információkat tárolhat a fizetési módszerekről, az utazási igénylésekről, a költségjelentésekről, a házirendekről stb.
+Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket a költségkezelés konfigurálása előtt meg kell hoznia a tervezési folyamat során. A Költségkezelés során információkat tárolhat a fizetési módszerekről, az utazási igénylésekről, a költségjelentésekről, a házirendekről stb.
 
 Mivel a Költségkezelésre szolgáló konfiguráció megtervezése során számos döntés a szervezet hierarchiája és pénzügyi struktúrája alapján történik, az adott területek esetén át kell tekintenie tervezési dokumentumokat.
 

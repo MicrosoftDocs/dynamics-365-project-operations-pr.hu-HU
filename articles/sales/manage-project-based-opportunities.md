@@ -1,17 +1,17 @@
 ---
 title: Projektalapú lehetőségek kezelése
-description: Ez a témakör a projektekhez kapcsolódó lehetőségekkel való munkára vonatkozó információkat tartalmaz.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet dolgozni a projektekhez kapcsolódó lehetőségekkel.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933219"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektalapú lehetőségek kezelése
 
@@ -19,7 +19,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A projektalapú vállalatok általában a több országra és földrajzi helyekre kiterjedő teljesítéssel működnek. A projekt végrehajtásának és a teljesítésnek a költsége attól függően változhat, hogy mely földrajzi terület vagy divízió kezeli a szállítást. Ez viszont hatással lehet az üzlet árrésére. A projektalapú szolgáltatások teljesítése jellemzően nagy mennyiségű humánerőforrás-időt, jelentős utazási költségeket, az anyagi költségeket és egyéb költségeket foglalja magában.
 
-Projektalapú lehetőségek a Dynamics 365 Project Operations rendszerben Dynamics 365 Sales-bővítményekkel vannak kialakítva. A témakör részletesen ismerteti a különböző mezőket és az üzleti logikát, amely a további funkciókban szerepel, amely a projektalapú vállalatok számára szükséges a projektalapú lehetőségek kezeléséhez.
+Projektalapú lehetőségek a Dynamics 365 Project Operations rendszerben Dynamics 365 Sales-bővítményekkel vannak kialakítva. A cikk részletesen ismerteti a projektalapú vállalatok által a projektalapú lehetőségek kezeléséhez szükséges további funkciókban található különböző területeket és üzleti logikát.
 
 ## <a name="view-all-project-based-opportunities"></a>Összes projektalapú lehetőség megtekintése
 

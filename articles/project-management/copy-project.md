@@ -1,17 +1,17 @@
 ---
 title: Projekt másolása
-description: Ez a témakör információkat nyújt a projektek másolásáról a Dynamics 365 Project Operations alkalmazásban.
+description: Ez a cikk a projektek másolásáról nyújt tájékoztatást Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b358f9e45278d886f3e6e8e8cd747fc0ea30212b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925767"
 ---
 # <a name="copy-a-project"></a>Projekt másolása
 
@@ -25,14 +25,14 @@ A Dynamics 365 Project Operations segítségével gyorsan építhet új projekte
 - Projektbecslések
 - Projekt költségbecslései
 - Projektanyag-becslések
-- Projekt-ellenőrzőlisták
+- Projekt ellenőrzőlisták
 - Projekt gyűjtők
 
 ## <a name="project-properties"></a>Projekt tulajdonságai
 
-A projekt másolásakor a program átmásolja a következő mezők értékeit.
+A projekt másolásakor a rendszer a következő mezőkben lévő értékeket másolja.
 
-| Mező | Projektműveletek nem raktározott anyagok | Projektműveletek Lite | Project for the Web |
+| Mező | Projektműveletek nem raktározott anyagok | Projektműveletek Lite | Webes projekt |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ A projekt másolásakor a program átmásolja a következő mezők értékeit.
 | Teljes projektállapot | :heavy_check_mark: | :heavy_check_mark: | |
 | Hozzászólások | :heavy_check_mark: | :heavy_check_mark: | |
 | Becslések | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Becsült kezdő dátum</p><p><strong>Megjegyzés:</strong> Ez a mező a projekt másolatból történő létrehozásának dátumát adja meg. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Becsült befejezési dátum</p><p><strong>Megjegyzés:</strong> Az ebben a mezőben szereplő dátumot a másolatból készült új projekt kezdési dátuma alapján módosítja a program.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Becsült kezdő dátum</p><p><strong>Megjegyzés:</strong> Ez a mező azt a dátumot határozza meg, amikor a projekt létrejön a másolatból. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Becsült befejezési dátum</p><p><strong>Megjegyzés:</strong> Az ebben a mezőben szereplő dátum az új projekt másolatból készült kezdési dátuma alapján módosul.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Munkamennyiség (óra) | :heavy_check_mark: | :heavy_check_mark: | |
 | Becsült munkaköltség | :heavy_check_mark: | :heavy_check_mark: | |
 | Becsült önköltség | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ A projekt másolásakor a program átmásolja a következő mezők értékeit.
 
 ## <a name="work-breakdown-structure"></a>Munkalebontási struktúra
 
-A projekt másolásakor a teljes erőforrásokkal feltöltött munkalebontási struktúra másolódik. A megnevezett erőforrások helyébe általános erőforrások lépnek. Ha a megnevezett erőforrások munkaideje nem azonos az általános erőforráséval, a program újraszámítja az ütemezést, és a tevékenység időtartama megváltozhat.
+A projekt másolásakor a teljes erőforrásokkal feltöltött munkalebontási struktúra másolódik. A megnevezett erőforrások helyébe általános erőforrások lépnek. Ha a megnevezett erőforrások nem rendelkeznek az általános erőforrással megegyező munkaidővel, a rendszer újraszámítja az ütemezést, és a tevékenység időtartama változhat.
 
 ## <a name="project-team-members"></a>Projektcsoporttagok
 
 Amikor egy projektcsoportot a forrásprojektből másol, az általános erőforrásokat átmásolja a program. Az általános erőforrások hozzárendelései szintén megmaradnak, ahogy a forrásprojektben voltak. A megnevezett erőforrásokat a rendszer általános csapattagokká alakítja.
 
 > [!NOTE]
-> A csapattagok és a hozzárendelések nem másolódnak a Webes Projektben.
+> A csapattagok és a hozzárendelések nem lesznek átmásolva a Webes Projektben.
 
 ## <a name="estimates"></a>Becslések
 
@@ -75,6 +75,6 @@ A projektek másolásának programozott elérésével kapcsolatos tudnivalók a 
 
 ## <a name="quotes-and-contracts"></a>Árajánlatok és szerződések
 
-Az ajánlatok és szerződések nem kapcsolódnak a célprojekthez.
+Az árajánlatok és szerződések nem kapcsolódnak a célprojekthez.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
 title: Több ügyfél kezelése egy projektszerződésen
-description: Ez a témakör információt nyújt arról, hogyan lehet kezelni több ügyfelet egy projektszerződésen.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan kezelhet több ügyfelet egy projektszerződésen.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928343"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Több ügyfél kezelése egy projektszerződésen
 
-Ez a témakör információt nyújt arról, hogyan lehet kezelni több ügyfelet egy projektszerződésen. A projektszerződés akkor használható, ha több ügyfélre vonatkozó szerződéses szükséges egy üzlet finanszírozásához. A **Projektszerződés** lapon az **Összegzés** lap információkat tartalmaz az üzlet elsődleges ügyfelével kapcsolatban. Az üzletben részt vevő egyéb ügyfelek hozzáadhatók az **Ügyfelek** laphoz.
+Ez a cikk arról nyújt tájékoztatást, hogyan kezelhet több ügyfelet egy projektszerződésen. A projektszerződés akkor használható, ha több ügyfélre vonatkozó szerződéses szükséges egy üzlet finanszírozásához. A **Projektszerződés** lapon az **Összegzés** lap információkat tartalmaz az üzlet elsődleges ügyfelével kapcsolatban. Az üzletben részt vevő egyéb ügyfelek hozzáadhatók az **Ügyfelek** laphoz.
 
 Az összes szerződésügyfél a Projektszerződés **Ügyfelek** lapján alapértelmezés szerint a projektszerződéshez létrehozott bármely új projektalapú szerződéssor szerződéssorügyfeleinek felel meg. A meglévő Projektalapú szerződéssorok nem öröklik az új szerződéses ügyfélrekordokat, amelyek később lettel létrehozva.
 

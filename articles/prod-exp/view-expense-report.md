@@ -1,6 +1,6 @@
 ---
 title: Költségjelentés megtekintése főkönyvből vagy beszerzésből
-description: Ez a témakör ismerteti, hogy miként tekinthető meg az eredeti költségjelentés, amelyen egy tranzakció jelent meg.
+description: Ez a cikk bemutatja, hogyan tekintheti meg az eredeti költségjelentést, amelyen egy tranzakció megjelent.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303bfff8b0e329bc47fb8df72939cf1266e9f1d7
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e17e34702f39cd8651899b3e0b68b7809bf10d86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929618"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Költségjelentés megtekintése főkönyvből vagy beszerzésből
 

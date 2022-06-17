@@ -1,6 +1,6 @@
 ---
 title: Foglaláselosztási módszerek a Project Service Automation alkalmazásban
-description: Ez a témakör információkat nyújt a beosztás lefoglalásának különféle módjairól.
+description: Ez a cikk a felosztások lefoglalásának különböző módjairól nyújt tájékoztatást.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929171"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Foglaláselosztási módszerek a Project Service Automation alkalmazásban
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Függetlenül attól, hogy közvetlenül ad hozzá egy csapattagot egy projekthez a **Csapat** lapon, vagy bejegyez egy erőforrást az Ütemezés tábla egy projektjéhez vagy követelményéhez, többféle beosztásfoglalási módszer áll rendelkezésre. Ez a témakör ismerteti az egyes módszerek működését, és azt, hogy mely módszerek vezethetnek az erőforrások túlfoglalásához.
+Függetlenül attól, hogy közvetlenül ad hozzá egy csapattagot egy projekthez a **Csapat** lapon, vagy bejegyez egy erőforrást az Ütemezés tábla egy projektjéhez vagy követelményéhez, többféle beosztásfoglalási módszer áll rendelkezésre. Ez a cikk ismerteti az egyes módszerek működését, és azt, hogy mely módszerek vezethetnek az erőforrások túlfoglalásához.
 
 ## <a name="full-capacity"></a>Teljes kapacitás 
 A teljes kapacitás módszer az erőforrás teljes kapacitását foglalja le a megadott kezdő és befejező dátum között. Ha például egy erőforrás a naptárja szerint napi nyolc órát dolgozik heti öt nap, akkor az öt munkanapot felölelő kezdő és befejező dátum 40 órára fogja lefoglalni az erőforrást. A foglalás az erőforrás fennmaradó kapacitására való tekintet nélkül történik. Ha egy erőforrást már más projektekre foglaltak le az adott időszakban, a 40 óra további órákként lesz elkönyvelve, ami túlfoglalást eredményez.

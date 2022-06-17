@@ -1,38 +1,38 @@
 ---
-title: Tranzakciós kapcsolatok – Különböző tranzakciótípusok tényleges adatainak összekapcsolása
-description: Ez a témakör bemutatja, hogy a tranzakciós kapcsolat hogyan használható a különböző típusú tényleges adatok összekapcsolására a jövedelmezőség, a számlázási hátralék és a számlázott és a nem számlázott bevételszámítások nyomon követése érdekében.
+title: Tranzakciókapcsolatok – Különböző tranzakciótípusok tényadatainak csatolása
+description: Ez a cikk bemutatja, hogyan használható a tranzakciós kapcsolat a különböző típusú tényleges adatok összekapcsolására a jövedelmezőség, a számlázási hátralék és a számlázott és a nem számlázott bevételi számítások nyomon követése érdekében.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926089"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Tranzakciós kapcsolatok – Különböző tranzakciótípusok tényleges adatainak összekapcsolása
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Tranzakciókapcsolatok – Különböző tranzakciótípusok tényadatainak csatolása
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A tranzakciókapcsolati rekordok úgy jönnek létre, hogy összekapcsolják a különböző típusú tényleges adatokat, mivel az idő-, költség- vagy anyaghasználat életciklusa az ajánlat vagy az értékesítés előtti szakaszból a szerződés szakaszába, a jóváhagyásokba és/vagy visszahívásokba, a számlázásba és potenciálisan a jóváírásba vagy a helyesbítő számlázásba kerül.
+A tranzakciós kapcsolati rekordok azért jönnek létre, hogy összekapcsolják a különböző típusú tényleges adatokat, mivel az idő, a költség vagy az anyaghasználat életciklusa során az árajánlatból vagy az értékesítés előtti szakaszból a szerződéses szakaszba, a jóváhagyások és/vagy visszahívások, a számlázás, valamint az esetleges jóváírási vagy korrekciós számlázás felé halad.
 
 A következő példa az időbejegyzések tipikus feldolgozását mutatja be a Project Operations projekt életciklusában.
 
-> ![Időbejegyzések feldolgozása a Projektműveletek mezőben.](media/basic-guide-17.png)
+> ![Feldolgozási időbejegyzések a Project Operationsben.](media/basic-guide-17.png)
 
-A Projektműveletek projekt életciklusában szereplő időbejegyzések feldolgozása az alábbi lépéseket követi: 
+A Project Operations-projekt életciklusában az időbejegyzések feldolgozása az alábbi lépéseket követi: 
 
-1. Az időtétel beküldése két naplósor létrehozását eredményezi: egyet a költséghez és egyet a nem számlázott eladásokhoz. 
-2. Az időbevitel esetleges jóváhagyása két tényleges értéket eredményez: egyet a költséghez és egyet a nem számlázott értékesítésekhez. Ez a két tényleges érték tranzakciós kapcsolatokkal kapcsolódik.
+1. Az időbevitel beküldése két naplósor létrehozását eredményezi: egyet a költségekhez, egyet pedig a számlázatlan értékesítésekhez. 
+2. Az időbevitel esetleges jóváhagyása két tényleges értéket eredményez: egyet a költségekhez, egyet pedig a számlázatlan értékesítésekhez. Ez a 2 tényleges adat tranzakciós kapcsolatokon keresztül kapcsolódik egymáshoz.
 3. Amikor a felhasználó létrehoz egy projektszámlát, a számlasor tranzakcióját a rendszer a nem számlázott értékesítésből származó tényadatok felhasználásával hozza létre.
-4. A számla megerősítésekor ez két új tényleges értéket hoz létre: egy nem számlázott értékesítési sztornírozást és egy számlázott értékesítés tényleges értékét. A meg nem oldott értékesítési sztornírozott és az eredeti nem számlázott értékesítési tényleges a tranzakciós kapcsolatok megfordításával kapcsolódik egymáshoz. A számlázott értékesítések és az eredeti, megszámlázatlan értékesítési tényleges adatok is kapcsolódnak ahhoz, hogy megmutassák az egykor elmaradt vagy folyamatban lévő munka (folyamatban lévő) bevételei és a jelenleg számlázott bevétel közötti kapcsolatot.   
+4. A számla megerősítésekor ez két új tényleges adatot hoz létre: egy számlázatlan értékesítési fordulatot és egy tényleges számlázott értékesítést. A számlázatlan értékesítési fordulat és az eredeti, számlázatlan értékesítések tényleges visszafordításával kapcsolódnak össze a tranzakciós kapcsolatok visszafordításával. A számlázott értékesítések és az eredeti, számlázatlan értékesítési tényleges adatok szintén kapcsolódnak egymáshoz, hogy megmutassák az egykor hátralékból vagy folyamatban lévő munkából (WIP) származó bevétel és a most kiszámlázott bevétel közötti kapcsolatot.   
 
-A feldolgozási munkafolyamat minden eseménye elindítja a rekordok létrehozását a **Tranzakciókapcsolat** táblában. Ez segít az időbevitel, a naplósor, a tényleges és a számlasor részletei között létrehozott rekordok közötti kapcsolatok nyomának létrehozásában.
+A feldolgozási munkafolyamat minden eseménye elindítja a rekordok létrehozását a **Tranzakciós kapcsolat** táblában. Ez segít felépíteni a kapcsolatok az időbevitel, a naplósor, a tényleges és a számlasor részletei között létrehozott rekordok között.
 
-Az alábbi táblázat az előző munkafolyamat Tranzakciókapcsolati **entitásának** rekordjait mutatja be.
+Az alábbi táblázat az előző munkafolyamat Tranzakciós kapcsolat **entitásának** rekordjait mutatja be.
 
 |Esemény                   |1. tranzakció                 |1. tranzakció szerepköre |1. tranzakció típusa       |2. tranzakció          |2. tranzakció szerepköre |2. tranzakció típusa |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Az alábbi táblázat az előző munkafolyamat Tranzakciókapcsolati **entitás�
 |                        |Számlázott értékesítési GUID             |Számlázott értékesítés   |msdyn_actual                 |Számlázatlan értékesítési tényleges GUID   |Számlázatlan értékesítés  |msdyn_actual       |
 |Számlatervezet helyesbítése |Számlasor-tranzakció GUID|Csere      |msdyn_invoicelinetransaction |Számlázott értékesítési GUID            |Eredeti        |msdyn_actual       |
 |Számlahelyesbítés jóváhagyása|Számlázott értékesítés sztornózási GUID  |Sztornózás      |msdyn_actual                 |Számlázott értékesítési GUID            |Eredeti        |msdyn_actual       |
-|                        |Új, nem számlázott értékesítési GUID azonosító |Csere            |msdyn_actual                 |Számlázott értékesítési GUID            |Eredeti        |msdyn_actual       |
+|                        |Új, számlázatlan értékesítési GUID |Csere            |msdyn_actual                 |Számlázott értékesítési GUID            |Eredeti        |msdyn_actual       |
 
 
-Az alábbi ábra a különböző típusú tényleges értékek között a Projektműveletek mezőben szereplő időbejegyzések példájával létrehozott hivatkozásokat mutatja be.
+Az alábbi ábra azokat a hivatkozásokat mutatja be, amelyek a különböző események különböző típusú tényleges adatai között jönnek létre a Project Operations időbejegyzéseinek példáján keresztül.
 
-> ![Hogyan kapcsolódnak egymáshoz a különböző típusú tényleges értékek a Projektműveletekben?](media/TransactionConnections.png)
+> ![Hogyan kapcsolódnak egymáshoz a különböző típusú tényleges adatok a Project Operationsben.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
 title: Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
-description: Ez témakör tájékoztatást és példákat tartalmaz a Projektütemezési API-k használatával kapcsolatban.
+description: Ez a cikk információkat és mintákat tartalmaz a Project ütemezési API-k használatához.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929217"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 
@@ -58,10 +58,10 @@ Mivel a **CreateProjectV1** és a **CreateTeamMemberV1** rekordok azonnal létre
 
 | Ütemezési entitás | Létrehozás | Update | Delete | Fontos tényezők |
 | --- | --- | --- | --- | --- |
-Projektfeladat | Igen | Igen | Igen | A **Folyamat**, **a Munkamennyiség-kiegészítés** és **a EffortRemaining** mezők szerkeszthetők a Project for the Web programban, de a Project Operations alkalmazásban nem szerkeszthetők.  |
-| Projektfeladat függősége | Igen |  | Igen | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és új rekord hozható létre. |
-| Erőforrás-hozzárendelés | Igen | Igen | | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és új rekord hozható létre. |
-| Projektgyűjtő | Igen | Igen | Igen | Az alapértelmezett gyűjtő a **CreateProjectV1** API használatával jön létre. A projektvödörök létrehozásának és törlésének támogatása a 16. frissítésben került hozzáadásra. |
+Projektfeladat | Igen | Igen | Igen | A **Folyamat,** **a Befejezett munkamennyiség** és **a Munkaigénylés** mezők szerkeszthetők a Webes Projektben, de a Project Operationsben nem szerkeszthetők.  |
+| Projektfeladat függősége | Igen |  | Igen | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és létrehozható egy új rekord. |
+| Erőforrás-hozzárendelés | Igen | Igen | | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és létrehozható egy új rekord. |
+| Projektgyűjtő | Igen | Igen | Igen | Az alapértelmezett gyűjtő a **CreateProjectV1** API használatával jön létre. A projektgyűjtők létrehozásának és törlésének támogatása a 16-os frissítésben lett hozzáadva. |
 | A projekt csapattagja | Igen | Igen | Igen | A létrehozáshoz használja a **CreateTeamMemberV1** API-t. |
 | Project | Igen | Igen |  | A következő mezőkkel végzett műveletek nem támogatottak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, és **Duration**. |
 
@@ -71,11 +71,11 @@ Ez az azonosító-tulajdonság nem kötelező. Ha rendelkezésre áll, a rendsze
 
 ## <a name="restricted-fields"></a>Korlátozott mezők
 
-Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehozás **és** szerkesztés **szolgáltatásban** vannak korlátozva.
+Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehozás **és** a Szerkesztés **beállításból** vannak korlátozva.
 
 ### <a name="project-task"></a>Projektfeladat
 
-| Logikai név                           | Létrehozható     | Szerkeszthet         |
+| Logikai név                           | Létrehozhat     | Szerkeszthet         |
 |----------------------------------------|----------------|------------------|
 | msdyn_actualcost                       | No             | No               |
 | msdyn_actualcost_base                  | No             | No               |
@@ -86,8 +86,8 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 | msdyn_costatcompleteestimate           | No             | No               |
 | msdyn_costatcompleteestimate_base      | No             | No               |
 | msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Nem (igen a projektre)             | Nem (igen a projektre)               |
-| msdyn_effortremaining                  | Nem (igen a projektre)              | Nem (igen a projektre)                |
+| msdyn_effortcompleted                  | Nem (a Project esetében igen)             | Nem (a Project esetében igen)               |
+| msdyn_effortremaining                  | Nem (a Project esetében igen)              | Nem (a Project esetében igen)                |
 | msdyn_effortestimateatcomplete         | No             | No               |
 | msdyn_iscritical                       | No             | No               |
 | msdyn_iscriticalname                   | No             | No               |
@@ -103,7 +103,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 | msdyn_plannedsales                     | No             | No               |
 | msdyn_plannedsales_base                | No             | No               |
 | msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Nem (igen a projektre)             | Nem (igen a projektre) |
+| msdyn_progress                         | Nem (a Project esetében igen)             | Nem (a Project esetében igen) |
 | msdyn_remainingcost                    | No             | No               |
 | msdyn_remainingcost_base               | No             | No               |
 | msdyn_remainingsales                   | No             | No               |
@@ -130,7 +130,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 
 ### <a name="project-task-dependency"></a>Projektfeladat függősége
 
-| Logikai név                  | Létrehozható     | Szerkeszthet     |
+| Logikai név                  | Létrehozhat     | Szerkeszthet     |
 |-------------------------------|----------------|--------------|
 | msdyn_linktype                | No             | No           |
 | msdyn_linktypename            | No             | No           |
@@ -144,7 +144,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 
 ### <a name="resource-assignment"></a>Erőforrás-hozzárendelés
 
-| Logikai név                 | Létrehozható     | Szerkeszthet     |
+| Logikai név                 | Létrehozhat     | Szerkeszthet     |
 |------------------------------|----------------|--------------|
 | msdyn_bookableresourceid     | Igen            | No           |
 | msdyn_bookableresourceidname | Igen            | No           |
@@ -174,7 +174,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 
 ### <a name="project-team-member"></a>A projekt csapattagja
 
-| Logikai név                                     | Létrehozható     | Szerkeszthet     |
+| Logikai név                                     | Létrehozhat     | Szerkeszthet     |
 |--------------------------------------------------|----------------|--------------|
 | msdyn_calendarid                                 | No             | No           |
 | msdyn_creategenericteammemberwithrequirementname | No             | No           |
@@ -196,7 +196,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 
 ### <a name="project"></a>Project
 
-| Logikai név                           | Létrehozható     | Szerkeszthet     |
+| Logikai név                           | Létrehozhat     | Szerkeszthet     |
 |----------------------------------------|----------------|--------------|
 | msdyn_actualexpensecost                | No             | No           |
 | msdyn_actualexpensecost_base           | No             | No           |
@@ -255,7 +255,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 
 ### <a name="project-bucket"></a>Projektgyűjtő
 
-| Logikai név          | Létrehozható      | Szerkeszthet     |
+| Logikai név          | Létrehozhat      | Szerkeszthet     |
 |-----------------------|-----------------|--------------|
 | msdyn_displayorder    | Igen             | No           |
 | msdyn_name            | Igen             | Igen          |
@@ -265,7 +265,7 @@ Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehoz�
 ## <a name="limitations-and-known-issues"></a>Korlátozások és ismert problémák
 Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
-- A projektütemezés API-kat csak a Microsoft Project licenccel rendelkező felhasználók **használhatják**. Nem használhatják:
+- A Projektütemezés API-kat csak a Microsoft Project licenccel **rendelkező felhasználók használhatják**. Nem használhatják:
 
     - Alkalmazásfelhasználók
     - Rendszerfelhasználók

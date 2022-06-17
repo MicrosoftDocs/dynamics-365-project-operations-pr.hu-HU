@@ -1,17 +1,17 @@
 ---
-title: Az árajánlatsor számlázható összetevőinek konfigurálása
-description: Ez a témakör a számlázható és nem számlázható összetevők beállításával kapcsolatban tartalmaz tájékoztatást a projekt alapú árajánlatok soraiban.
+title: Az árajánlatsor felszámítható összetevőinek konfigurálása
+description: Ez a cikk a díjköteles és nem terhelhető összetevők projektalapú árajánlatsoron való beállításáról nyújt tájékoztatást.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3c9bd23f4e78e3ea5ae8f74ff1a4829a11f91929
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930045"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>Az árajánlatsor felszámítható összetevőinek konfigurálása 
 

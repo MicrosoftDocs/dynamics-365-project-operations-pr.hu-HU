@@ -1,6 +1,6 @@
 ---
 title: A kezdőlap frissítése
-description: Ez a témakör azt mutatja, hogy hol találja a fontos információkat az új és módosult funkciókról a Dynamics 365 Project Service Automation rendszerben, és a folyamatot a legújabb verzióra történő frissítéshez.
+description: Ez a cikk bemutatja, hogy hol találhat fontos információkat az új és módosított funkciókról Dynamics 365 Project Service Automation, valamint a legújabb verzióra való frissítés folyamatáról.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926641"
 ---
 # <a name="upgrade-home-page"></a>A kezdőlap frissítése
 
@@ -48,14 +48,14 @@ Korábban azoknak az ügyfeleknek, akiknek PSA 2.x verziója volt, és frissíte
 A frissítési folyamat megkezdése előtt javasoljuk, hogy hajtsa végre a következő feladatokat:
 
 - Ellenőrizze, hogy a Dynamics 365 Field Service és a Project Service Automation telepítve vannak-e az azonosított példányon. Ha mindkét megoldás telepítve van, akkor a példa rendszeres használatának folytatása előtt terveznie kell mindkettő frissítését.
-- Gondosan olvassa át a következő témákat. A verziók közötti változások ismerete és megértése segít a frissítési folyamatban. Ezek a témák információkat tartalmaznak a PSA jelentős változásairól, valamint a 3.x verzióra történő frissítés megfontolásairól és ajánlásairól.
+- Gondosan tekintse át a következő cikkeket. A verziók közötti változások ismerete és megértése segít a frissítési folyamatban. Ezek a cikkek a PSA főbb változásairól nyújtanak információt, valamint a 3.x verzióra való frissítés megtervezésével kapcsolatos szempontokat és javaslatokat.
 
     - [Újdonságok és változások a Project Service Automation 3. verziójában](whats-new-changed-v3.md)
     - [Frissítési szempontok - A Project Service Automation 2.x vagy 1.x verziója a 3. verzióra](upgrade-v3.md)
 
 - Frissítse a sandbox példányát a megvalósításban bekövetkező változások értékeléséhez, mielőtt frissítené a termelési példányt.
 
-Miután áttekintette a korábban említett témákat, és készen áll a PSA 3.x vagy UCI-alapú verzióra való frissítésre, kérje a Microsoft támogatását, hogy a frissítést elérhetővé tegye az adminisztrációs központból. Kérésében adja meg a példány részleteit.
+Miután áttekintette a korábban említett cikkeket, és készen áll a PSA 3.x-es verziójára vagy az UCI-alapú verzióra való frissítésre, küldjön egy kérést a Microsoft ügyfélszolgálatának, hogy a frissítés elérhető legyen a Felügyeleti központból. Kérésében adja meg a példány részleteit.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>A PSA régebbi verziói (PSA 2.x verzió) egy újonnan létrehozott példányban
 

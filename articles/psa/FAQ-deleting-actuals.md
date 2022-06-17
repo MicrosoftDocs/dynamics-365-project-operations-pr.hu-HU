@@ -1,6 +1,6 @@
 ---
 title: Miért nem tudok rekordokat törölni a tényadatok entitásból?
-description: Ez a témakör arról tájékoztat, hogy miért nem lehet bejegyzéseket törölni a tényleges entitásból.
+description: Ez a cikk arról nyújt tájékoztatást, hogy miért nem törölhet rekordokat a tényleges entitásból.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ff2c951905324d5d05722f399057c03d22f1a1c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd446961432a8f18895db45699d7a731d55235b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925583"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Miért nem tudok rekordokat törölni a Tényadatok entitásból?
 

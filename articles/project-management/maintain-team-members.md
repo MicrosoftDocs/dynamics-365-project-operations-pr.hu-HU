@@ -1,17 +1,17 @@
 ---
 title: Csoporttagok karbantartása
-description: Ez a témakör információt nyújt a nevesített erőforrásoknak a projektcsoportokhoz való foglalásáról, és a feladatokhoz való hozzárendeléséről.
+description: Ez a cikk az elnevezett erőforrások projektcsapatokhoz való foglalásáról és a tevékenységekhez való hozzárendeléséről nyújt tájékoztatást.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6ab1541cc79870fcab9dbce45073e6b5a7bb0133
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933449"
 ---
 # <a name="maintain-team-members"></a>Csoporttagok karbantartása
 

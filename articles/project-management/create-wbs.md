@@ -1,17 +1,17 @@
 ---
 title: Munkalebontási struktúra létrehozása
-description: Ez témakör ismerteti, hogyan lehet létrehozni az új ütemezési felületen a munkalebontási struktúrát (WBS) az alapvezérlők számára.
+description: Ez a cikk azt ismerteti, hogyan hozhat létre munkalebontási struktúrát (WBS), amely tartalmazza az új ütemezési felület alapvető vezérlőit.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932069"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Munkalebontási struktúra (WBS) létrehozása
 
@@ -95,7 +95,7 @@ Rendszergazdaként egyéni mezőket definiálhat a feladatentitáson. A mezők a
 
 ## <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
-A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.  Amikor erőforrást keres a tevékenységrácson, a táblanézetben vagy a gantttban lévő erőforrás-választóval, a keresés a projektcsapat meglévő tagjait vagy az aktív lefoglalható erőforrásokat adja vissza.
+A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.  Amikor erőforrást keres az erőforrás-választóval a tevékenységrácsban, a táblanézetben vagy a ganttban, a keresés vagy a meglévő projektcsapat tagjait, vagy aktív foglalható erőforrásokat ad vissza.
 
 A **Szerepkör**, az **Erőforrásbiztosító egység** és a **Pozíció neve** mezők a feladat személyzeti követelményeinek leírására szolgálnak. A személyzeti attribútumokat és a feladatütemezést a rendelkezésre álló erőforrások megkeresésére használják az adott feladat végrehajtásához.
 
@@ -127,7 +127,7 @@ Ha a Project Operations alkalmazásban a munkalebontási struktúrát használja
 | Maximális teljes erőforrás egy projekthez              | 300                  |
 | A linkek maximális száma (csak utód) egy projekthez | 600                  |
 | Maximális teljes egyéni mezők egy projekthez          | 10                   |
-| Feladatonkénti ellenőrzőlistaelemek maximális száma                   | 20                   |
+| Ellenőrzőlistaelemek maximális száma tevékenységenként                   | 20                   |
 
 **Feladatkorlátozások**
 

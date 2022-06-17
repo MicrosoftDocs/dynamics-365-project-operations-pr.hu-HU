@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők és entitások létrehozása
-description: A témakör ismerteti, hogyan hozhatók létre értékkészlet-halmazok és entitások saját megoldásban a Power Apps platformon.
+description: Ez a cikk azt ismerteti, hogyan hozhat létre beállításkészleteket és entitásokat a saját megoldásában a Power Apps platformon.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926917"
 ---
 # <a name="create-custom-fields-and-entities"></a>Egyéni mezők és entitások létrehozása 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Hajtsa végre az alábbi lépéseket minden olyan alkalommal, amikor egyéni értékkészletet vagy entitást szeretne létrehozni a Power Apps platformon.  
-A témakör eljárásait a Project Service Automation (PSA) webfelületének használatával kell elvégezni.
+A cikkben ismertetett eljárásokat a Project Service Automation (PSA) webes felületének használatával kell elvégezni.
 
 > [!IMPORTANT]
 > Javasoljuk, hogy minden egyéni árképzési dimenziót külön megoldásban hajtson végre. Ez a fontos gyakorlati tanács rugalmasságot biztosít a jövőben a változtatások frissítéséhez vagy eltávolításához szükség szerint, segítséget nyújt munkájának újbóli felhasználásában, és megkönnyíti a módosítások másik példányra való átvitelét. Miután elvégezte az összes szükséges módosítást, exportálja a megoldást **Felügyelt megoldásként**, majd importálja azt más példányokra az árképzési beállítások újbóli felhasználása céljából.

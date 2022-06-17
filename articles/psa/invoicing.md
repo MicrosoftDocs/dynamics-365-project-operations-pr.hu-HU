@@ -1,6 +1,6 @@
 ---
 title: Számlázás a Project Service Automation alkalmazásban
-description: Ez a témakör a számlázással kapcsolatban nyújt információkat.
+description: Ez a cikk a számlázással kapcsolatos információkat tartalmaz.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926825"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Számlázás a Project Service Automation alkalmazásban
 
@@ -94,7 +94,7 @@ Miután a **ProcessRunner** munkafolyamat futtatása befejeződött, meghívja a
 A számlák létrehozására szolgáló kötegelt folyamat feladat ismétlődő feladat. Ha ezt a kötegelt folyamatot többször futtatja, akkor a feladatból több példány jön létre, és hibákat okoz. Ezért a kötegelt folyamatot csak egyszer kell elindítania, és csak akkor kell újraindítania, ha az leáll.
 
 > [!NOTE]
-> A Project Service Automation alkalmazásban a kötegelt számlázás csak azoknál a projekt-szerződéssoroknál fut, amelyeket a számlák ütemezései konfigurálnak. A rögzített árú számlázási móddal rendelkező szerződéssornál a mérföldkövek konfigurálása szükséges. Az idő-és anyagelszámolású számlázási móddal rendelkező projekt-szerződéssorok esetében el kell végezni a dátum alapú számlázási ütemezés beállítását. A számlázási gyakoriság egy ajánlati soron alapuló projekt környezetében történő beállításával kapcsolatos információk az [Árajánlatok és árajánlatsorok](basic-quote-lines.md#invoice-schedule) témakörben találhatók. Ugyanez érvényes a projektalapú szerződéssor esetében is.      
+> A Project Service Automation alkalmazásban a kötegelt számlázás csak azoknál a projekt-szerződéssoroknál fut, amelyeket a számlák ütemezései konfigurálnak. A rögzített árú számlázási móddal rendelkező szerződéssornál a mérföldkövek konfigurálása szükséges. Az idő-és anyagelszámolású számlázási móddal rendelkező projekt-szerződéssorok esetében el kell végezni a dátum alapú számlázási ütemezés beállítását. A számlázási gyakoriságok beállításáról egy árajánlaton alapuló projekt összefüggésében az Árajánlatok és árajánlatsorok című cikkben [található információk](basic-quote-lines.md#invoice-schedule). Ugyanez érvényes a projektalapú szerződéssor esetében is.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA számlavázlat szerkesztése
 

@@ -1,17 +1,17 @@
 ---
 title: Projektalapú proforma számla kezelése
-description: Ez témakör a proforma projektalapú számlák kezeléséről használatáról nyújt információt.
+description: Ez a cikk a proforma projektalapú számlák kezeléséről és használatáról nyújt tájékoztatást.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c61b0d887ae35988f1765d40de0447aa5fd7efd4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31822947a4fbb60218ce1c3c9415a60491f6d8fa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932115"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>Projektalapú proforma számla kezelése
 

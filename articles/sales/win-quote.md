@@ -1,17 +1,17 @@
 ---
-title: Egy ajánlat lezárása
-description: Ez a témakör az árajánlatok Project Operationsben való lezárásáról nyújt tájékoztatást.
+title: Árajánlat lezárása
+description: Ez a cikk a Project Operationsben az idézetek záró idézőjeleiről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 25f5a515769b97e963b2a2ac8738884b3f0db2fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931885"
 ---
 # <a name="close-a-quote"></a>Egy ajánlat lezárása
 

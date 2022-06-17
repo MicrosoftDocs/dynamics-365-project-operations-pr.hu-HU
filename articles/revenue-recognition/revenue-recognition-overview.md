@@ -1,23 +1,23 @@
 ---
 title: Bevételelszámolás áttekintése
-description: Ez a témakör információkat nyújt a bevételelszámolásról a Project Operations alkalmazásban.
+description: Ez a cikk a Project Operations bevételeinek elszámolásáról nyújt tájékoztatást.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926273"
 ---
 # <a name="revenue-recognition-overview"></a>Bevételelszámolás áttekintése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Dynamics 365 Project Operations alkalmazásban a bevételelszámolási elvek a projekt vagy a projekt egy részének kiválasztott számlázási módszerén alapulnak. Ez a témakör információkat nyújt a bevételelszámolásról a Project Operations alkalmazásban.
+A Dynamics 365 Project Operations alkalmazásban a bevételelszámolási elvek a projekt vagy a projekt egy részének kiválasztott számlázási módszerén alapulnak. Ez a cikk a Project Operations bevételeinek elszámolásáról nyújt tájékoztatást.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Az idő és anyag számlázási módszerrel könyvelt tranzakciók
 

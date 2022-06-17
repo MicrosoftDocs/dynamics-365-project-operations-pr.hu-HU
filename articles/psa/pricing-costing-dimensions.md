@@ -1,6 +1,6 @@
 ---
 title: Árképzés és költségdimenziók kezdőlap
-description: Ez a témakör áttekintést nyújt az árképzési dimenziókról.
+description: Ez a cikk áttekintést nyújt a díjszabási dimenziókról.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925445"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Árképzés és költségdimenziók kezdőlap
 
@@ -47,7 +47,7 @@ A PSA alapértelmezett árképzési dimenziókkal rendelkezik. Megnézheti ezeke
 > [!IMPORTANT]
 > Ha a PSA 3. verzióját megelőzően használta a használatra kész szerepköröket és szervezeti egységeket árképzési dimenziókként, akkor nem lesz észlelhető változás. Továbbra is használhatja a Project Service szolgáltatást a megszokott módon. 
 
-Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információt a következő témakörökben talál, azonban vegye figyelembe, hogy az eljárásokat az alábbiakban felsorolt sorrendben kell elvégeznie:
+Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információt a következő cikkekben talál, azonban vegye figyelembe, hogy az eljárásokat az alább felsorolt sorrendben kell végrehajtania:
 
 - [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md)
 - [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md)

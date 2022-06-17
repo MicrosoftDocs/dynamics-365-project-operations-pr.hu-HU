@@ -1,6 +1,6 @@
 ---
 title: Költségekkel kapcsolatos mobilalkalmazás
-description: Ez a témakör a Költségkezelés mobilos munkaterület használatáról nyújt információkat.
+description: Ez a cikk a Költségkezelés mobil munkaterületről nyújt tájékoztatást.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930229"
 ---
 # <a name="mobile-expense-app"></a>Költségekkel kapcsolatos mobilalkalmazás
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Ez a témakör a **Költségkezelés** mobilos munkaterület használatáról nyújt információkat. A munkaterület lehetővé teszi, hogy a felhasználók rögzítsék és feltöltsék a nyugtákat, amelyeket így a későbbiekben csatolni lehet a költségjelentésekhez. Csatolt nyugtákkal a felhasználók költségsorokat is gyorsan hozhatnak létre, illetve létrehozhatják és kezelhetik a költségjelentéseiket. A jóváhagyók ezenkívül a **Költségkezelés** mobilos munkaterületen megtekinthetik, jóváhagyhatják vagy elutasíthatják a hozzájuk rendelt költségjelentésket.
+Ez a cikk a **Költségkezelés** mobil munkaterületről nyújt tájékoztatást. A munkaterület lehetővé teszi, hogy a felhasználók rögzítsék és feltöltsék a nyugtákat, amelyeket így a későbbiekben csatolni lehet a költségjelentésekhez. Csatolt nyugtákkal a felhasználók költségsorokat is gyorsan hozhatnak létre, illetve létrehozhatják és kezelhetik a költségjelentéseiket. A jóváhagyók ezenkívül a **Költségkezelés** mobilos munkaterületen megtekinthetik, jóváhagyhatják vagy elutasíthatják a hozzájuk rendelt költségjelentésket.
 
 Ez a mobil munkaterület a Dynamics 365 Unified Ops mobilalkalmazással való használatra készült.
 
@@ -100,7 +100,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 10. Válassza a **Kész** lehetőséget.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Költségjelentés jóváhagyása a Költségkezelés mobil-munkaterület használatával
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Költségjelentés jóváhagyása a Költségkezelés mobil munkaterület használatával
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. A **Kiadások jóváhagyása** részen látható, hogy hány költségjelentést rendeltek Önhöz jóváhagyásra. A szám hozzávetőlegesen 30 percenként frissül. Válassza a **Kiadások jóváhagyása** lehetőséget.
@@ -113,7 +113,7 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 6. Adja meg az esetleges megjegyzéseket a jóváhagyási művelethez.
 7. Válassza a **Kész** lehetőséget.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Új költségjelentés létrehozása és elküldése jóváhagyásra a Költségkezelés mobil-munkaterület használatával
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Hozzon létre egy új költségjelentést, és küldje el jóváhagyásra a Költségkezelés mobil munkaterület használatával
 
 1. A mobileszközön nyissa meg a **Költségkezelés** munkaterületet.
 2. Válassza a **Költségbevitel** lehetőséget.
@@ -204,28 +204,28 @@ A Dynamics 365 Unified Ops mobilalkalmazás letöltése és telepítése:
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miért nem adja meg alapértelmezés szerint a Költség mobilalkalmazás a fizetési módot?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miért nem adja meg alapértelmezés szerint az Expense mobilalkalmazás a fizetési módot?
 
-A szervezetek testreszabhatják az **Alapértelmezett fizetési mód** beállítást az egyes költségkategóriákhoz, amikor létrehozták őket. A fizetési módok beállításakor az **Alapértelmezett fizetési mód** mezőt is csak importálás értékre **állíthatja**.
+A szervezetek testre szabhatják az **Alapértelmezett fizetési mód** beállítást az egyes költségkategóriákhoz a létrehozásukkor. Ezenkívül a fizetési módok beállításakor beállíthatja az **Alapértelmezett fizetési mód** mezőt Csak importálás **értékre**.
 
-Ha **csak** az Importálás engedélyezve van egy fizetési módhoz, a fizetési mód alapértelmezés szerint nincs megadva. Üres lesz azokban a költségkategóriákban, ahol ez a fizetési mód be van állítva. Ez a viselkedés következetes mind a webes élményben, mind a mobil élményben.
+Ha **a csak** importálás engedélyezve van egy fizetési módhoz, a rendszer alapértelmezés szerint nem adja meg a fizetési módot. Üres lesz azokban a költségkategóriákban, ahol ez a fizetési mód be van állítva. Ez a viselkedés mind a webes, mind a mobilos élményben konzisztens.
     
-Ha **az Importálás csak** importálása nincs engedélyezve egy fizetési módhoz, a beállított érték alapértelmezés szerint azokhoz a költségkategóriákhoz lesz beírva, ahol ez a fizetési mód be van állítva. Van azonban egy ismert probléma, amikor az alapértelmezett érték nincs megadva a Költség mobilalkalmazásban. A probléma megoldásához manuálisan válasszon ki egy fizetési módot a költségjelentés mentése előtt. 
+Ha **a csak** importálás nincs engedélyezve egy fizetési módhoz, a rendszer alapértelmezés szerint megadja a beállított értéket azoknál a költségkategóriáknál, ahol ez a fizetési mód be van állítva. Van azonban egy ismert probléma, amely miatt az alapértelmezett érték nincs megadva az Expense mobilalkalmazásban. A probléma megoldásához manuálisan válasszon ki egy fizetési módot a költségjelentés mentése előtt. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miért nem tudok pénzügyi dimenziókat hozzáadni vagy szerkeszteni a Költség mobilalkalmazásban?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miért nem tudok pénzügyi dimenziókat hozzáadni vagy szerkeszteni az Expense mobilalkalmazásban?
 
-A dimenziók és eloszlások megadása nem támogatott. A korlátozás megkerüléséhez ezeket a mezőket alapértelmezés szerint beállíthatja a mobilalkalmazásban, ha projektenként vagy alkalmazottanként beállítja az alapértelmezett pénzügyi dimenziókat.
+A dimenziók és eloszlások bevitele nem támogatott. A korlátozás megkerüléséhez ezeket a mezőket alapértelmezés szerint beállíthatja a mobilalkalmazásban a projektenkénti vagy alkalmazotti alapértelmezett pénzügyi dimenziók beállításával.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miért látok néha szinkronizálási hibát a Költség mobilalkalmazásban?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miért látok néha szinkronizálási hibát az Expense mobilalkalmazásban?
 
-Ha a költségsorok nem felelnek meg a házirend követelményeinek, és a felhasználó a házirend-figyelmeztetés kezelése nélkül küldi el a költségjelentést, a mobiladatok nem lesznek szinkronizálva a kiszolgálóval, és szinkronizálási hiba lép fel. A szinkronizálási hiba bekövetkezése után elküldött összes költségjelentés sikertelen állapotban marad, és további szinkronizálási hibákat okoz. A helyzet megoldásának egyetlen módja a szinkronizálási értesítések manuális törlése. Ezt a problémát úgy küszöbölték ki, hogy leállította a költségjelentések benyújtását, ha a házirend-figyelmeztetéseket nem sikerült kijavítani, hogy elkerülhetők legyenek a szinkronizálási hibák.
+Ha a költségsorok nem felelnek meg a szabályzat követelményeinek, és a felhasználó a szabályzat figyelmeztetésének kezelése nélkül küldi el a költségjelentést, a rendszer nem szinkronizálja a mobiladatokat a kiszolgálóval, és szinkronizálási hiba lép fel. A szinkronizálási hiba bekövetkezte után elküldött összes költségjelentés sikertelen állapotban marad, és több szinkronizálási hibát okoz. A helyzet megoldásának egyetlen módja a szinkronizálási értesítések manuális törlése. A rendszer úgy hárította el a problémát, hogy leállította a költségjelentések benyújtását, ha a házirend-figyelmeztetéseket nem oldották meg, így elkerülhetők a szinkronizálási hibák.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miért nem jelenik meg helyesen a projekt- és kategóriaérvényesítés a Költség mobilalkalmazásban?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miért nem jelenik meg megfelelően a projekt- és kategóriaérvényesítés az Expense mobilalkalmazásban?
 
-Ez az ellenőrzés jelenleg nem támogatott. A jövőben azonban támogatást kaphat. 
+Ez az érvényesítés jelenleg nem támogatott. A jövőben azonban támogatásra kerülhet sor. 
 
 ### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Milyen dokumentumtípusokat támogat a Költség mobilalkalmazás?
 
-A Költség mobilalkalmazás csak képeket támogat. Jelenleg nem támogatja a PDF-fájlokat vagy más dokumentumokat.
+Az Expense mobilalkalmazás csak a képeket támogatja. Jelenleg nem támogatja a PDF-eket vagy más dokumentumokat.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
