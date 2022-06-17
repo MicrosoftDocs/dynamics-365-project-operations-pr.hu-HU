@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 27-es frissítési kiadásának V3 változatában
-description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 27-os frissítési kiadásában.
+description: Ez a cikk a Project Service Automation 27., V3-as kiadásában elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aab77411760c3d64daa377bffc06391c8e4ed54a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c8f4f736f0659f9b6db25f4685ef1278c45d034
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912933"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Újdonságok vagy változások a Project Service Automation 27-es frissítési kiadásának V3 változatában
 
@@ -29,7 +29,7 @@ ms.locfileid: "8599595"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 27-es frissítési kiadásában. Ennek a verziónak a build száma V3.10.45.98, és általánosan elérhető egy önálló frissítésben 2021. januárjában.
+Ez a cikk a Project Service Automation V3 27.,27- es kiadásának újdonságaival és fejlesztéseivel kapcsolatos szolgáltatásokat és javításokat sorolja fel. Ennek a verziónak a build száma V3.10.45.98, és általánosan elérhető egy önálló frissítésben 2021. januárjában.
 
 ## <a name="update-release-27"></a>27-ös frissítési kiadás
 

@@ -1,24 +1,24 @@
 ---
 title: Újdonságok - 2021 wave 2 korai hozzáférés - Project Operations könnyű telepítés
-description: Ez a témakör a Project Operations könnyű telepítés 2021 wave 2 korai hozzáférésű kiadásában elérhető funkciókról nyújt tájékoztatást.
+description: Ez a cikk a Project Operations lite üzembe helyezésének 2021. hullám 2. hullámának korai hozzáférésű kiadásában elérhető funkciókról nyújt tájékoztatást.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924111"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Újdonságok - 2021 wave 2 korai hozzáférés - Project Operations könnyű telepítés
 
 _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
   - Project Operations a Dataverse-környezet 4.23.0.4 verzióján
 

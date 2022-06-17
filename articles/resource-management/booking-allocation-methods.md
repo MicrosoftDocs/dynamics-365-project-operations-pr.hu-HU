@@ -1,6 +1,6 @@
 ---
 title: Foglalási allokációs módszerek
-description: Ez a témakör arról tartalmaz információkat, hogy a foglalási allokációs módszerek hogyan működnek a Project Operations rendszerben.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan működnek a foglalási kiosztási módszerek a Project Operationsben.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912749"
 ---
 # <a name="booking-allocation-methods"></a>Foglalási allokációs módszerek
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Függetlenül attól, hogy közvetlenül ad hozzá egy csapattagot egy projekthez a **Csapat** lapon, vagy bejegyez egy erőforrást az Ütemezés tábla egy projektjéhez vagy követelményéhez, többféle beosztásfoglalási módszer áll rendelkezésre. Ez a témakör ismerteti az egyes módszerek működését, és azt, hogy mely módszerek vezethetnek az erőforrások túlfoglalásához.
+Függetlenül attól, hogy közvetlenül ad hozzá egy csapattagot egy projekthez a **Csapat** lapon, vagy bejegyez egy erőforrást az Ütemezés tábla egy projektjéhez vagy követelményéhez, többféle beosztásfoglalási módszer áll rendelkezésre. Ez a cikk ismerteti az egyes módszerek működését, és azt, hogy mely módszerek vezethetnek az erőforrások túlfoglalásához.
 
 ## <a name="booking-allocation-methods"></a>Foglalási allokációs módszerek
 

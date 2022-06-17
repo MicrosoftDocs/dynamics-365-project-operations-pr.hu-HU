@@ -1,21 +1,21 @@
 ---
 title: Regisztráció az előzetes verziós előfizetésre – Lite
-description: Ez a témakör a Project Operations Lite telepítés – ajánlattól proforma számlázásig alkalmazásra való regisztrálással és annak telepítésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet előfizetni és üzembe helyezni a Project Operations lite üzembe helyezését – foglalkozni a proforma számlázással.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921259"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Regisztráció az előzetes verziós előfizetésre – Lite 
 
-Ez témakör ismerteti, hogyan lehet előfizetni a próbaverziós ajánlatra és kiépíteni a Dynamics 365 Project Operations egyszerű telepítését a proforma számlázás kezeléséhez.
+Ez a cikk bemutatja, hogyan lehet előfizetni a próbaverziós ajánlatra, és hogyan helyezheti üzembe Dynamics 365 Project Operations a lite üzembe helyezését – hogyan kezelheti a proforma számlázást.
 
 > [!NOTE]
 > Ez a folyamat a Project Operations következő kiadásaiban változni fog.
@@ -43,14 +43,14 @@ Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelen
 > A következő lépések végrehajtásához rendszergazdai hozzáféréssel kell rendelkeznie a szervezete Microsoft 365-portáljához.
 
 
-1. Nyissa meg a [Microsoft 365 Felügyeleti központot](https://portal.office.com/), hogy hozzárendelje a licenceket a felhasználókhoz.
+1. [Microsoft 365 A felügyeleti központba kattintva](https://portal.office.com/) rendelje hozzá a licenceket a felhasználókhoz.
 2. Az **Aktív felhasználók** oldalon jelölje ki azokat a felhasználókat, akikhez licencet szeretne rendelni.
 3. Ellenőrizze, hogy a **Dynamics 365 Project Operations** licenc ki legyen jelölve. 
 4. Válassza a **Módosítások mentése** lehetőséget.
 
 ## <a name="create-a-new-dataverse-environment"></a>Új Dataverse-környezet létrehozása
 
-1. Építsen ki új Project Operations Dataverse-telepítési környezetet a [Dataverse-telepítési modell](lite-deployment.md) utasításait követve. A környezet típusának kiválasztása esetén ügyeljen arra, hogy a **Próba (előfizetés alapú)** változatot használja.
+1. Új Project Operations Dataverse üzembe helyezési környezetet hozhat létre az üzembe helyezési modellről szóló [Dataverse cikkben található utasításokat követve](lite-deployment.md). A környezet típusának kiválasztása esetén ügyeljen arra, hogy a **Próba (előfizetés alapú)** változatot használja.
 
   ![Új környezet.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelen
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-konfiguráció telepítése és a beállítási bemutató adatok alkalmazása
 
-Telepítse a CDS-konfigurációt, és állítsa be a bemutató adatokat a következő témakör utasításait követve: [Bemutató beállítások és konfigurációs adatok alkalmazása](lite-apply-demo-setup-config-data.md).
+Telepítse a CDS-konfigurációt, és állítsa be a bemutató adatait a bemutató beállítási és konfigurációs adatainak alkalmazása című cikkben található [utasításokat követve](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

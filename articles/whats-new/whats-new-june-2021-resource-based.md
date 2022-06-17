@@ -1,27 +1,27 @@
 ---
 title: Újdonságok 2021. júniusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
-description: A témakör a Project Operations 2021. júniusi kiadásában erőforrás-alapú vagy nem készletalapú forgatókönyvekhez elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
+description: Ez a cikk a Project Operations 2021. júniusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910587"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2021. júniusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations 4.11.0.156 vagy 4.11.0.164 verziójú Dynamics 365 Dataverse-környezetben.
-- Projektmenedzsment és számvitel a Pénzügy és Műveletek alkalmazáskörnyezetekben 10.0.19-es verzió.
+- Projektmenedzsment és könyvelés a Finance and Operations alkalmazáskörnyezetekben a 10.0.19-es verzió.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -38,7 +38,7 @@ Ebben a kiadásban nincsenek frissítések a Project Operations kettős írású
 
 A Project Operations kettős írású leképezései aktuális listájának és verzióinak felsorolását lásd: [Project Operations kettős írás leképezési verziói](../environment/resource-dual-write-maps.md).
 
-Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldás és a Finance and Operations alkalmazások megoldásverziójának frissítésekor. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verziója **Kettős írás** oldalon látható a **Verzió** oszlopban. Aktiválhatja a leképzés új verzióját a **Táblaleképezés verziója** lehetőség kiválasztásával, majd a legújabb verzió kiválasztásával, majd a kiválasztott verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations-megoldás Dataverse és a Finance and Operations alkalmazások megoldásverziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verziója **Kettős írás** oldalon látható a **Verzió** oszlopban. Aktiválhatja a leképzés új verzióját a **Táblaleképezés verziója** lehetőség kiválasztásával, majd a legújabb verzió kiválasztásával, majd a kiválasztott verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó táblaoszlopokkal kapcsolatos probléma a leképezésekben](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) részt a Kettős írás hibaelhárítási útmutatójában.
 
@@ -62,7 +62,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó t
 | Idő és költség | 2194431 | Az **Időbejegyzés** rácsnak tiszteletben kell tartania a hét kezdetét a **Rendszerbeállítások** között megadottak szerint. |
 | Idő és költség | 2277311 | Miután törölte az értéket egy cellában az **Időbejegyzés** rácsban, a kurzor a rácsban marad. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

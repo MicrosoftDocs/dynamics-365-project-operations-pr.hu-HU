@@ -1,6 +1,6 @@
 ---
 title: Munkaidősablon létrehozása
-description: Ez a témakör ismerteti, hogyan hozható létre munkaidősablon a Project Service szolgáltatásban.
+description: Ez a cikk azt ismerteti, hogyan hozhat létre munkaidő-sablont a Project Szolgáltatásban.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f3ac17a29e79f86f7c3ce127edb4b02ca63ea04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916061"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Munkaidősablon létrehozása (Project Service)
 

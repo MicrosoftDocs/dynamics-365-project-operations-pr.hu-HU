@@ -1,6 +1,6 @@
 ---
 title: Projekttervezési kezdőlap
-description: Ez a témakör információkat nyújt a projekttervezésről.
+description: Ez a cikk a projekttervezéssel kapcsolatos információkat tartalmaz.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919097"
 ---
 # <a name="project-planning-home-page"></a>Projekttervezési kezdőlap
 
@@ -43,7 +43,7 @@ A PSA projektmenedzsment eszközei segítenek a projektek egyszerű futtatásáb
 - Előrejelzés a folyamatban lévő projektek erőforrásigényeiről.
 - A projektek sikeres végrehajtása az előrehaladás és a költségfogyasztás nyomon követésével.
 
-A következő témák olyan információkat nyújtanak, amelyek a PSA által támogatott eszközök használatával segítenek a projektmenedzsereknek a munka megbecslésében, a projektköltségek megbecslésében és az erőforrásigény előrejelzésében:
+A következő cikkek olyan információkat tartalmaznak, amelyek segítenek a projektmenedzsereknek a munka becslésében, a projektköltségek becslésében és az erőforrás-követelmények előrejelzésében a PSA által támogatott eszközök használatával:
 
 - [Ütemezés létrehozása](project-creating.md)
 - [A projekt költségének és bevételének megbecslése](project-estimating.md)

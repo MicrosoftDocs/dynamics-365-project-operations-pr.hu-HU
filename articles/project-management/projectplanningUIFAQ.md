@@ -1,25 +1,25 @@
 ---
 title: A Feladat rácson való munka hibaelhárítása
-description: A témakör a Feladat rácson való munkavégzéshez szükséges hibaelhárítási információkat írja le.
+description: Ez a cikk a Feladatrácsban való munkavégzéshez szükséges hibaelhárítási információkat tartalmazza.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911047"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>A Feladat rácson való munka hibaelhárítása 
 
 
 _**A következőre érvényes:** Project Operations erőforrás / nem készletezett alapú forgatókönyvek, Lite telepítése – üzlet a proforma számlázáshoz, Project for the Web_
 
-A Dynamics 365 Project Operations által használt feladatrács egy hosztolt iframe a Microsoft Dataverse-en belül. Ennek következtében a hitelesítés és az engedélyezés megfelelő működésének biztosításához specifikus követelményeknek kell teljesülniük. A témakör ismerteti a gyakori problémákat, amelyek hatással lehetnek a rács megjelenítésének képességére vagy a feladatok kezelésére a munkalebontási struktúrában (WBS).
+A Dynamics 365 Project Operations által használt feladatrács egy hosztolt iframe a Microsoft Dataverse-en belül. Ennek következtében a hitelesítés és az engedélyezés megfelelő működésének biztosításához specifikus követelményeknek kell teljesülniük. Ez a cikk azokat a gyakori problémákat ismerteti, amelyek befolyásolhatják a rács renderelésének vagy a feladatok kezelésének képességét a munkalebontási struktúrában (WBS).
 
 A gyakori problémák a következők:
 
@@ -71,8 +71,8 @@ A Project Operations szolgáltatáshoz szükséges, hogy a projektparaméter a P
 
 4. Távolítsa el a mezőt a **Projektparaméterek** oldalról.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. mérséklés: bejelentkezés project.microsoft.com
-Microsoft Edge A böngészőben nyisson meg egy új lapot, lépjen project.microsoft.com, és jelentkezzen be a Project Operations eléréséhez használt felhasználói szerepkörrel.
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. megoldás: jelentkezzen be project.microsoft.com
+Microsoft Edge A böngészőben nyisson meg egy új lapot, lépjen a project.microsoft.com, és jelentkezzen be a Project Operations eléréséhez használt felhasználói szerepkör használatával.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Probléma: Nem töltődik be a projekt, és a felhasználói felület elakad a betöltésjelzőnél
 

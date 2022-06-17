@@ -1,18 +1,18 @@
 ---
-title: Árazási dimenziók áttekintése
-description: Ez a témakör a Dynamics 365 Project Operations árazási dimenzióiról nyújt információkat.
+title: Árképzési dimenziók áttekintése
+description: Ez a cikk a Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918039"
 ---
 # <a name="pricing-dimensions-overview"></a>Árképzési dimenziók áttekintése
 
@@ -34,7 +34,7 @@ A Dynamics 365 Project Operations alapértelmezett árképzési dimenziókkal re
 
 ![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével.](media/PS-OOB-parameters.png)
 
-Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További tájékoztatás a következő témakörökben. 
+Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információt a következő cikkekben talál. 
   
   > [!NOTE]
   > Az eljárásokat a felsorolás sorrendjében kell elvégezni.

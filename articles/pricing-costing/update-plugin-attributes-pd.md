@@ -1,33 +1,33 @@
 ---
 title: Beépülő modul attribútumainak frissítése új árképzési dimenziókkal
-description: Ez a témakör az árazási dimenziókhoz tartozó bővítményattribútumok frissítésének módjáról nyújt információt.
+description: Ez a cikk a bővítményattribútumok díjszabási dimenziókhoz való frissítésével kapcsolatos információkat tartalmaz.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920017"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Beépülő modul attribútumainak frissítése új árképzési dimenziókkal
 
-Ez a témakör az árazási dimenziókhoz tartozó bővítményattribútumok frissítésének módjáról nyújt információt.
+Ez a cikk a bővítményattribútumok díjszabási dimenziókhoz való frissítésével kapcsolatos információkat tartalmaz.
 
 > [!NOTE]
-> Ez a témakör csak az Dynamics 365 Project Operations ajánlat és a szerződés funkciókra vonatkozik.
+> Ez a cikk csak a Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Előfeltételek
-A témakör lépéseinek végrehajtása előtt az alábbi témakörökben ismertetett lépéseket kell végrehajtania:
+A cikkben található lépések végrehajtása előtt el kell végeznie a következő cikkekben található eljárásokat:
 
   - [Egyéni mezők és entitások létrehozása](create-custom-fields-entities-pricing-dimensions.md) 
   - [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz ](add-custom-fields-price-setup-transactional-entities.md)
   - [Egyéni mezők beállítása árazási dimenziókként](set-up-custom-fields-pricing-dimensions.md). 
   
-Ha még nem fejezte be ezeket az eljárásokat, fejezze be őket, majd térjen vissza ehhez a témához.
+Ha még nem fejezte be ezeket az eljárásokat, fejezze ki őket, majd térjen vissza ehhez a cikkhez.
 
 ## <a name="register-a-plug-in"></a>Beépülő modul regisztrációja
 Ha egy projektajánlatsora jön létre az **Ajánlati sor** lapon a projekt ajánlati sora esetében, a rendszer két becslési sort hoz létre. Az egyik sor a becslés költségoldalán van, a másik sor pedig az értékesítés oldalon. Ugyanez vonatkozik a projektszerződésekre.

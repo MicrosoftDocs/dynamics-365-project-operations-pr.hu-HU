@@ -1,26 +1,26 @@
 ---
 title: Újdonságok 2020 decemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: Ez a témakör információval szolgál a készletalapú/termelésalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020 decemberi kiadásában váltak elérhetővé.
+description: Ez a cikk a Project Operations 2020. decemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/éles környezetben üzembe helyezett forgatókönyvekhez.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911369"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Újdonságok vagy változások 2020 decemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
 _A következőre vonatkozik: Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-  - Projektmenedzsment és -számvitel Dynamics 365 Finance környezetvédelmi verzióban 10.0.15
+  - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.15-ös verzió
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -139,7 +139,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Dynamics 365 Finance szabályozási frissítéseiről a Szabályozási frissítések című témakörben [olvashat](/dynamics365/finance/localizations/regulatory-updates). A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a Dynamics 365 Finance szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

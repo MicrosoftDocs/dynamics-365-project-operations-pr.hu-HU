@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők és entitások létrehozása árazási dimenzióként
-description: Ez a témakör az egyéni értékkészletek és entitások létrehozását ismerteti.
+description: Ez a cikk az egyéni beállításkészletek vagy entitások létrehozásáról nyújt tájékoztatást.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4912087d7a19f5f342beff94723acd6131ce2dd8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 198faf7e51fad2d9573aaeab316170a84bf558ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917855"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Egyéni mezők és entitások létrehozása árazási dimenzióként
 

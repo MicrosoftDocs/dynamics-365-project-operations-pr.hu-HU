@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken
-description: Ez a témakör általános mintákat mutat be az egyéni mezők létrehozására szolgáló bővítmények használatához.
+description: Ez a cikk gyakori mintákat tartalmaz a bővítmények egyéni mezők megvalósításához való használatához.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913715"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Egyéni mezők létrehozása a Microsoft Dynamics 365 Project Timesheet mobilalkalmazásban iOS és Android rendszereken
 
 [!include [banner](../includes/banner.md)]
 
-Ez a témakör általános mintákat mutat be az egyéni mezők létrehozására szolgáló bővítmények használatához. Az alábbi témakörökről esik szó:
+Ez a cikk gyakori mintákat tartalmaz a bővítmények egyéni mezők megvalósításához való használatához. A következő cikkek a következőkre terjednek ki:
 
 - Az egyéni mezők keretrendszere által támogatott különféle adattípusok
 - Útmutatás az írásvédett vagy szerkeszthető mezők időnyilvántartási bejegyzésekben történő megjelenítéséhez, illetve a felhasználó által megadott értékek adatbázisba történő mentéséhez
@@ -35,7 +35,7 @@ Ez a témakör általános mintákat mutat be az egyéni mezők létrehozására
 
 ## <a name="audience"></a>Célközönség
 
-Ez a témakör olyan fejlesztők számára készült, akik egyéni mezők integrálását végzik Apple iOS és Google Android rendszereken elérhető Microsoft Dynamics 365 Project Timesheet mobilalkalmazásba. A témakör olyan olvasóknak készült, akik ismerik az X++ fejlesztést és a projektszintű időnyilvántartási funkciót.
+Ez a cikk azoknak a fejlesztőknek szól, akik egyéni mezőiket integrálják az Apple iOS és a Microsoft Dynamics 365 Project Timesheet Google számára elérhető mobilalkalmazásba Android. A témakör olyan olvasóknak készült, akik ismerik az X++ fejlesztést és a projektszintű időnyilvántartási funkciót.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Adatszerződés – TSTimesheetCustomField X++ osztály
 
@@ -64,7 +64,7 @@ Az alkalmazásban megjelenő mező típusát a **TsTimesheetCustom** objektum **
 
 - Ha a **stringOptions** tulajdonság meg van adva a **TSTimesheetCustomField** objektumban, akkor a felhasználók csak ezeket a listaelemeket választhatják ki a választógombok segítségével.
 
-    Ebben az esetben a karakterlánc mező felhasználói bejegyzések céljából felsorolási értékként is működhet. Ha az értéket felsorolásként szeretné menteni az adatbázisba, akkor az adatbázisba való mentés előtt manuálisan végezze el a karakterlánc értékének felsorolási értékre való leképezését egy parancssor használatával. Példákat a témakör „Parancssor használata a TSTimesheetEntryService osztályon az időnyilvántartási bejegyzés alkalmazásból az adatbázisba történő mentéséhez” című részében talál.
+    Ebben az esetben a karakterlánc mező felhasználói bejegyzések céljából felsorolási értékként is működhet. Ha az értéket enumként szeretné menteni az adatbázisba, manuálisan képezze vissza a karakterlánc értékét az enum értékre, mielőtt az adatbázisba mentené a parancslánc használatával (példaként tekintse meg a cikk későbbi, "A TSTimesheetEntryService osztály parancsláncának használata az alkalmazásból az alkalmazásból az adatbázisba való visszamentéséhez" című szakaszát).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Ez a tulajdonság az alkalmazásban található mező mellett látható címke m
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Ez a tulajdonság csak akkor használható, ha a **fieldBaseType** paraméter a **String** értékre van állítva. Ha a **stringOptions** karakterlánc be van állítva, akkor a választógombokkal kijelölhető karakterláncértékeket a listán lévő karakterláncok határozzák meg. Ha nem ad meg karakterláncot, akkor a karakterláncmezőben szabadszöveges bejegyzés megadása engedélyezésre kerül. Példákat a témakör „Parancssor használata a TSTimesheetEntryService osztályon az időnyilvántartási bejegyzés alkalmazásból az adatbázisba történő mentéséhez” című részében talál.
+Ez a tulajdonság csak akkor használható, ha a **fieldBaseType** paraméter a **String** értékre van állítva. Ha a **stringOptions** karakterlánc be van állítva, akkor a választógombokkal kijelölhető karakterláncértékeket a listán lévő karakterláncok határozzák meg. Ha nincs megadva sztring, a karakterláncmező szabad szöveges bejegyzése engedélyezett (példaként lásd a cikk későbbi, "A TSTimesheetEntryService osztály parancsláncának használata az alkalmazásból származó időnyilvántartás-bejegyzés mentéséhez az alkalmazásból az adatbázisba" című szakaszát).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

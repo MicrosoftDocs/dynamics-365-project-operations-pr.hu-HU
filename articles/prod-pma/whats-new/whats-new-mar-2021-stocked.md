@@ -1,26 +1,26 @@
 ---
 title: Újdonságok vagy módosítások 2021 márciusában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: Ez témakör a Project Operations 2021 márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/gyártáson alapuló forgatókönyvek esetében.
+description: Ez a cikk a Project Operations 2021. márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készletezett/éles környezetben használt forgatókönyvekhez.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911323"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 márciusában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
 _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.17-es verzióban
+- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.17-es verzió
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 Ez a kiadás a következő funkciókat tartalmazza:
@@ -121,7 +121,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Projektvezetés és könyvelés | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | A régebbi munkalebontási struktúra (WBS) osztály metódus, a **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** elavult.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

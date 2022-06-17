@@ -1,88 +1,88 @@
 ---
-title: Szállító számlázása - Koncepció és létrehozás
-description: Ez a témakör a szállítói számlák fogalmát, a használati forgatókönyveket és a szállítói számlák Microsoftban történő létrehozásának módját ismerteti Dynamics 365 Project Operations.
+title: Szállítói számlázás – koncepció és létrehozás
+description: Ez a cikk a szállítói számlák fogalmát, a használati forgatókönyveket és a szállítói számlák Microsoftban történő létrehozásának módját ismerteti Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911461"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Szállító számlázása - Koncepció és létrehozás
+# <a name="vendor-invoicing---concept-and-creation"></a>Szállítói számlázás – koncepció és létrehozás
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Microsoft Dynamics 365 Project Operations szállítói számlázása a szállítók által a projekten nyújtott szolgáltatásokból és/vagy anyagokból származó költségek rögzítésére használható.
+A Microsoftnál Dynamics 365 Project Operations a szállítói számlázással rögzítheti a szállítók által a projekteken keresztüli szolgáltatások és/vagy anyagok szállításából származó költségeket.
 
-Ha a szolgáltatásokat és/vagy anyagokat alvállalkozóként adják át egy szállítónak, az alvállalkozó az adott szállítóval kötött szerződéses megállapodást jelenti. Mivel a szállító szállítja a szolgáltatásokat, vagy az anyagokat megkapja és felhasználja a projekttevékenységekben, a költségeket a projekten rögzítik. A szállító rendszeresen küld olyan számlákat, amelyeket ellenőriznek és egyeztetnek a projekten rögzített költségekkel. Az ellenőrzési folyamat befejezése után a szállítói számla megerősítésre kerül, és kifizetésre kerül.
+Amikor a szolgáltatásokat és/vagy anyagokat alvállalkozásba adják egy szállítónak, az alvállalkozói szerződés az adott szállítóval kötött szerződéses megállapodást jelenti. Ahogy a szállító nyújtja a szolgáltatásokat, vagy az anyagokat megkapja és felhasználja a projektfeladatokhoz, a költségeket a projekten rögzítik. A szállító rendszeres időközönként olyan számlákat küld, amelyek ellenőrzöttek és egyeznek a projekten rögzített költségekkel. Az ellenőrzési folyamat befejezése után a szállítói számlát visszaigazolják, és kifizetésre felszabadítják.
 
 ## <a name="scenarios-for-use"></a>Használati forgatókönyvek
 
-A Projektműveletek szállítói számlái két különböző forgatókönyv támogatására használhatók.
+A Project Operations szállítói számlái két különböző forgatókönyv támogatására használhatók.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Az ügyfelek a teljes alvállalkozói élményt kihasználják
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Az ügyfelek a teljes alvállalkozói élményt használják
 
-A szállítói számla felhasználói lehetővé teszik az alvállalkozói számlasorokra hivatkozó időtételek, anyagfelhasználás és költségtételek ellenőrzését és egyeztetését. Ezzel a folyamattal ellenőrizheti a szállítói számlasorok pontosságát. Az ellenőrzési folyamat befejezése és a szállítói számla megerősítése után az alkalmazás a jóváhagyott idő-, költség- és anyaghasználati naplókban rögzített tényleges adatokat sztornírozza, és a szállítói számlasorok használatával új költségalapokat hoz létre.
+A szállítói számla felhasználói felülete lehetővé teszi az alvállalkozásba adott összetevőkre hivatkozó időbevitelek, anyaghasználati és költségbejegyzések ellenőrzését és egyeztetését a szállítói számlasorokkal. Ezzel a folyamattal ellenőrizhető a szállítói számlasorok pontossága. Az ellenőrzési folyamat befejezése és a szállítói számla megerősítése után az alkalmazás visszavonja a jóváhagyott idő-, költség- és anyaghasználati naplókban rögzített tényleges adatokat, és új költség tényleges költségeket hoz létre a szállítói számlasorok használatával.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Az ügyfelek nem használják ki a teljes alvállalkozói élményt, de egységes képet szeretnének kapni a projektek költségeiről a Projektműveletekben
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Az ügyfelek nem használják a teljes alvállalkozói élményt, de egységes képet szeretnének kapni a project operations-projektek költségeinekről
 
-Ha az alvállalkozói folyamatot egy harmadik féltől származó rendszerben követi nyomon, akkor az adott külső rendszertől származó költségeket a Project Operations-be rögzítheti olyan szállítói számlák létrehozásával, amelyek nem hivatkoznak alvállalkozói szerződésekre. Ily módon a projektmenedzserek egységes, egységes képet kaphatnak egy adott projekt összes költségéről.
+Ha az alvállalkozói folyamatot egy harmadik féltől származó rendszerben követi nyomon, az adott harmadik féltől származó rendszerből származó költségeket rögzítheti a Project Operationsbe olyan szállítói számlák létrehozásával, amelyek nem hivatkoznak alvállalkozói szerződésekre. Ily módon a projektmenedzserek egyetlen, egységes nézetet kaphatnak egy adott projekt összes költségéről.
 
-## <a name="creation-of-vendor-invoices-in-project-operations"></a>Szállítói számlák létrehozása a Projektműveletekben
+## <a name="creation-of-vendor-invoices-in-project-operations"></a>Szállítói számlák létrehozása a Project Operationsben
 
 A szállítói számlák kétféleképpen hozhatók létre:
 
-- A szállítói számlalista vagy egyetlen szállítói számla részleteket tartalmazó lapján
-- Az alvállalkozói listaoldalról vagy egyetlen alvállalkozói szerződés részletes oldaláról
+- A szállítói számla listaoldaláról vagy egyetlen szállítói számla részletek oldaláról
+- Az alvállalkozói lista oldaláról vagy egyetlen alvállalkozói szerződés részletes oldaláról
 
-### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Létrehozás a szállítói számlalista oldaláról vagy a részletek lapjáról
+### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Létrehozás a szállítói számla listaoldaláról vagy a részletek oldalról
 
-1. Nyissa meg a **Szállítói számlák beszerzési** \> **értékét**.
-2. A szállítói számlalista vagy egyetlen szállítói számla részletei lapján válassza az Új **lehetőséget** új szállítói számla létrehozásához.
+1. Lépjen a **Szállítói számlák vásárlása** \> **elemre**.
+2. A szállítói számla listaoldalán vagy egyetlen szállítói számla részletek lapján válassza az Új **lehetőséget** egy új szállítói számla létrehozásához.
 
-Az így létrehozott szállítói számlák alvállalkozói szerződésekre is hivatkozhatnak.
+Az így létrehozott szállítói számlák alvállalkozói szerződésre is hivatkozhatnak.
 
-### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Létrehozás az alvállalkozói listaoldalról vagy a részletek oldaláról
+### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Létrehozás az alvállalkozói listaoldalról vagy a részletek oldalról
 
-1. Nyissa meg az **Alvállalkozók vásárlását** \> **·**.
-2. Jelöljön ki egy vagy több alvállalkozót.
-3. Az alvállalkozói lista vagy egyetlen alvállalkozói szerződés részletei lapján válassza a Szállítói számla **létrehozása lehetőséget** új szállítói számla létrehozásához.
+1. Lépjen az **Alvállalkozói** \> **szerződések vásárlása oldalra.**
+2. Válasszon ki egy vagy több alvállalkozói szerződést.
+3. Az alvállalkozói listaoldalon vagy egyetlen alvállalkozói szerződés részletei lapján válassza a Szállítói számla **létrehozása lehetőséget** egy új szállítói számla létrehozásához.
 
-Minden kiválasztott alvállalkozóhoz létrejön egy új szállítói számla **Piszkozat** állapotú állapotban.
+Minden kiválasztott alvállalkozói alvállalkozáshoz létrejön egy új szállítói számla **Vázlat** állapotban.
 
-Az ily módon létrehozott szállítói számlák mindig a szállítói számla fejében szereplő alvállalkozói szerződésre hivatkoznak. Az alvállalkozó minden olyan sora, amely idő- és anyagszámlázási módszerrel rendelkezik, egy sor létrehozását eredményezi a szállítói számlán. Az alvállalkozó minden olyan sora, amely rögzített árú számlázási módszerrel rendelkezik, a szállítói számlán egy sor létrehozását eredményezi minden olyan alvállalkozói sor mérföldkőhöz, amelynek állapota **Kész a számlázásra**.
+Az így létrehozott szállítói számlák mindig hivatkoznak a szállítói számla fejlécében található alvállalkozói szerződésre. Az alvállalkozói szerződés minden olyan sora, amely idő- és anyagszámlázási móddal rendelkezik, egy sor létrehozását eredményezi a szállítói számlán. Az alvállalkozói szerződés minden olyan sora, amely rögzített árú számlázási módszerrel rendelkezik, létrehoz egy sort a szállítói számlán minden olyan alvállalkozói sor mérföldkövet, amelynek állapota **Készen áll a számlára**.
 
-A program a következő mezőket és kapcsolódó rekordokat másolja az alvállalkozói szerződésből a szállítói számla fejlécébe:
+A rendszer a következő mezőket és a kapcsolódó rekordokat másolja az alvállalkozói szerződésből a szállítói számla fejlécébe:
 
 - Eladó.
-- A kapcsolódó árlisták árlistaként lesznek átmásolva a szállítói számlára.
+- A kapcsolódó árlistákat a rendszer árlistaként másolja a szállítói számlára.
 - Pénznem:
-- Ajánlatkérő egység.
+- Szerződő egység.
 - Fizetési feltételek.
 
-Idő- és anyag alvállalkozói sorok esetén a program a következő mezőket és kapcsolódó rekordokat másolja át az alvállalkozói sorból a szállítói számla sorába:
+Az idő- és anyag-alvállalkozói sorok esetében a rendszer a következő mezőket és a kapcsolódó rekordokat másolja az alvállalkozói sorból a szállítói számla sorába:
 
-- Alvállalkozói és alvállalkozói sorhivatkozások
+- Alvállalkozói és alvállalkozói sorok hivatkozásai
 - Tranzakcióosztály
 - Beosztás
 - Tranzakció kategóriája
-- Termékmezők
+- Termék mezők
 - Project
 - Feladatok
 - Lefoglalható erőforrás
 
-Rögzített árú alvállalkozói sorok esetén a program a következő mezőket másolja át az alvállalkozói sorból és az alvállalkozói sor mérföldkőjéből a szállítói számla sorába:
+A Rögzített árú alvállalkozói sorok esetében a rendszer a következő mezőket másolja az alvállalkozói sorból és az alvállalkozói sor mérföldkövéből a szállítói számlasorba:
 
-- Alvállalkozói és alvállalkozói sorhivatkozások.
+- Alvállalkozói és alvállalkozói sorok hivatkozásai.
 - Tranzakciós osztály. Alapértelmezés szerint az érték Mérföldkő **lesz**.
-- A mérföldkő neve és összege a program átmásolja a kapcsolódó alvállalkozói sor mérföldkőjét.
-- A felhasználó kiválaszthat egy projektet és feladatot a szállítói számlasorban.
+- A mérföldkő neve és összege a kapcsolódó alvállalkozói sor mérföldkövéből lesz átmásolva.
+- A felhasználó kiválaszthat egy projektet és feladatot a szállítói számlasoron.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Tételnaplók létrehozása és megerősítése
-description: Ez a témakör a Bejegyzésnaplók Microsoft programban való létrehozásáról és megerősítéséről nyújt tájékoztatást Dynamics 365 Project Operations.
+title: Bejegyzésnaplók létrehozása és megerősítése
+description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre és erősíthet meg bejegyzési naplókat a Microsoftban Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,77 +13,77 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912335"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Tételnaplók létrehozása és megerősítése
+# <a name="create-and-confirm-entry-journals"></a>Bejegyzésnaplók létrehozása és megerősítése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az Entry naplók segítségével közvetlenül a Microsoft alkalmazásban rögzítheti a tényleges adatokat Dynamics 365 Project Operations. A Tételnaplók használatakor nem kell idő-, költség- és anyaghasználati naplókat megadnia a Projektműveletek mezőben.
+A bejegyzési naplók segítségével közvetlenül a Microsoftban rögzítheti a tényleges adatokat Dynamics 365 Project Operations. A bejegyzési naplók használatakor nem kell megadnia az idő-, költség- és anyaghasználati naplókat a Project Operationsben.
 
-Egyetlen tételnaplóval több naplósort hozhat létre. A napló megerősítésekor a Tétel naplósor a következő részletekkel rögzíti a tényleges értéket:
+Egyetlen bejegyzési napló lehetővé teszi több naplósor létrehozását. A napló megerősítésekor a bejegyzési napló sor a következő adatok tényleges adatait rögzíti:
 
 - A költség vagy bevétel a kiválasztott tranzakciótípustól függően.
-- A kiválasztott tranzakcióosztály. A rendelkezésre álló osztályok az **idő**, a költség **,** **az anyag**, **a retainer**, **a milestone** és **az adó**.
-- A naplósorban kijelölt projekt és/vagy tevékenység.
+- A kiválasztott tranzakciós osztály. A rendelkezésre álló osztályok az **Idő, a Költség**, **az Anyag**, **a** Megtartó **,** a Mérföldkő **és** az **Adó**.
+- A naplósorban kiválasztott projekt és/vagy tevékenység.
 
-Az alábbi lépéseket követve hozzon létre egy tételnaplót a Projektműveletek programban.
+Kövesse az alábbi lépéseket egy bejegyzési napló létrehozásához a Project Operationsben.
 
-1. Nyissa meg az **Eladási** \> **tranzakciók** \> **naplóit.**
-2. **A Bejegyzésnaplók** listalap Művelet ablaktábláján válassza az Új **lehetőséget** napló létrehozásához.
-3. **Az Új naplólap** Megnevezés **mezőjében** adja meg a napló leírását.
-4. Győződjön meg arról, hogy a **Napló típusa** mező értéke Tétel **, majd válassza a** Mentés **lehetőséget**. Az új bejegyzésnapló mentése után a naplólapon meg kell jelennie a **Naplósorok** lapnak.
-5. **A Naplósorok** lap rács feletti eszköztárán válassza az Új **lehetőséget** a Bejegyzés naplósor létrehozásához.
-6. **A** Tételnaplósor létrehozásához párbeszédpanelen állítsa be a mezőket az alábbi táblázatban leírtak szerint.
+1. Lépjen az **Értékesítési** \> **tranzakciók naplói** \> **oldalra.**
+2. **A Bejegyzési naplók** listaoldal Műveleti ablaktábláján válassza az Új **lehetőséget** egy napló létrehozásához.
+3. **Az Új napló** lap Leírás **mezőjében** adja meg a napló leírását.
+4. Győződjön meg arról, hogy a **Napló típusa** mező Bejegyzés **értékre** van állítva, majd válassza a Mentés **lehetőséget**. Az új Bejegyzési napló mentése után a Naplólapon meg kell jelennie egy **Naplósorok** lapnak.
+5. **A Naplósorok** lap rács feletti eszköztárán válassza az Új **lehetőséget** egy bejegyzési naplósor létrehozásához.
+6. **A Bejegyzési naplósor létrehozásához használt Gyorslétrehozás** párbeszédpanelen állítsa be a mezőket az alábbi táblázatban leírtak szerint.
 
     | Mező | Description | Funkcionális hatás |
     | --- | --- | --- |
-    | Tranzakció osztálya | A naplósor a hat tranzakciós osztály egyikébe sorolható: **Idő**, Költség **,** Anyag **,** **Megtartó**, **Mérföldkő** vagy **Adó**. | Az **adótranzakció-osztály** elavult a Projektműveletek mappában. <br> Ha létrehoz egy adótranzakciós **osztályt**, azt a rendszer nem dolgozza fel számlázással, illetve költség- vagy bevételszámítással. **A Milestone** egy csak bevételre vonatkozó tranzakciós osztály. <br>A **Retainer** tranzakcióosztály egy vevőtől kapott előleget jelöl. Mindig számlázott eladások és nem számlázott eladási naplósorok párjaként kell létrehozni. |
-    | Tranzakció típusa | A költség rögzítéséhez a **Költség**, **az Interorg értékesítés** és **a beszerzési egységköltség** tranzakciótípusokat kell használni.<br> A bevétel rögzítéséhez a **Nem számlázott eladások** és **a számlázott értékesítés** tranzakciótípusokat kell használni. | A **Retainer** tranzakcióosztály csak a Nem számlázott eladások és **a** számlázott eladások **tranzakciótípusokkal** működik.<br> A **Milestone** tranzakciós osztály csak a **Számlázott eladás** tranzakciótípussal működik. <br>Az **Interorg értékesítési** és **beszerzési egységköltség-tranzakciótípusai** csak az Időtranzakció **osztályra vonatkoznak, és ezek csak a** Lite üzembe helyezési scneario bejegyzésnaplóiban kezelhetők, és nem akkor, ha a Projektműveleteket erőforrás- és nem raktározott forgatókönyvekben telepíti. |
-    | Termék kiválasztása | Ha az Anyagtranzakció **osztály van kiválasztva, ez a** mező azt adhatja meg, hogy az anyagtranzakció, amelyhez a naplósort létrehozza, meglévő termék vagy beírási termék-e. | Ha a Beírás lehetőséget **választja**, megadhatja a termék nevét. |
-    | Termék | Hivatkozás a katalógusból származó termékre. | |
-    | Description | A naplósor leírása, amely megkönnyíti az azonosítást. | Nem számlázott eladási naplósorok esetén a program a számlasor részleteinek létrehozásakor az értéket használja leírásként. |
-    | Külső leírás | A külső érdekelt felekkel való megosztásra használható naplósor leírása. | Nem számlázott eladási naplósorok esetén a program külső megnevezésként használja az értéket a számlasor részleteinek létrehozásakor. A vevőnek küldött számlán is megjelenhet. |
-    | Számlázási típus | Olyan érték, amely azt jelzi, hogy a naplósor a projekt felszámítható, ingyenes vagy fel nemszámítható összetevőjének számít-e. | Egy tipikus folyamatban a számlázási típus a szerződésen beállított, egyeztetett feltételekből származik. Naplósor rögzítésekor azonban ebben a mezőben megadhat egy értéket. |
-    | Dokumentum kelte | Használjon dátumot a tranzakció megtörténtének dátumára. | |
-    | Kezdési dátum | Használja a tranzakció időpontjának dátumát. | Ez a mező a Kiegyenlítetlen eladás **típusú tranzakciók** számla létrehozásának dátumával való összehasonlításra szolgál. Ez az összehasonlítás segít eldönteni, hogy a tranzakció határidős vagy elavult-e. Csak lejárt dátumú tranzakciók kerülnek hozzáadásra a számlához. |
-    | Befejező dátum | Használja a tranzakció időpontjának dátumát. | |
-    | Könyvelési dátum | Használja azt a dátumot, amikor a könyvelési hatást rögzítik. | |
-    | Szerződéssor vevője | Alapértelmezés szerint, ha a szerződéssornak csak egy vevője van, akkor ez a mező a naplósor mentésekor a szerződéssorban szereplő vevőre lesz állítva. Ha a szerződéssornak több vevője van, válassza ki a megfelelő vevőt a szerződéssorban. | Ha a rendszer nem tudja meghatározni a naplósorban szereplő szerződéssor vevőjét, és ha üres a naplósorból létrehozott Nem számlázott eladás **típus tényleges értékén**, akkor a tényleges nem lesz számlázva. |
-    | Project | Válassza ki azt a projektet, amelyen rögzíteni szeretné a tényleges beállítást. | A kiválasztott projekt, tranzakcióosztály és tevékenység alapján a rendszer megpróbálja meghatározni a szerződést, a szerződéssort és a szerződéssor vevőjét. |
-    | Feladatok | Válassza ki azt a feladatot, amelyen a tényleges beállítást rögzíteni szeretné. | Ha a szerződés beállítása során tevékenységeket társított a szerződéssorokhoz, a rendszer a kiválasztott tevékenységet, valamint a projekt- és tranzakcióosztályt használja a szerződés, a szerződéssor és a szerződéssor vevőjének meghatározásához. |
-    | Tranzakció kategóriája | Válassza ki azt a tranzakciókategóriát, amelyen rögzíteni szeretné a tényleges beállítást. | Költségek esetén a kiválasztott tranzakciókategória határozza meg a naplósorban mentéskor beírandó alapértelmezett árat. |
-    | Beosztás | Ez a mező az Időnapló sorokra vonatkozik. Válassza ki annak az erőforrásnak a szerepét, aki időt töltött a projekten és/vagy tevékenységen. | Időnaplósorok esetén, ha az alapértelmezett erőforrásköltségek és számladíjak beviteléhez a beépített konfigurációt használja, a program a kijelölt szerepkört a forrásegységcel együtt használja a naplósorban a mentéskor beírandó alapértelmezett ár meghatározásához. Ha egyéni konfigurációt használ az alapértelmezett árak beviteléhez, tekintse át ezt a konfigurációt annak megállapításához, hogy a Szerepkör **mező az** alapértelmezett árértékek megadására szolgál-e. |
-    | Alvállalkozói szerződés | Ha a naplósor alvállalkozói kapacitást, illetve alvállalkozói költségeket vagy anyagokat jelöl, válassza ki a megfelelő alvállalkozói szerződést. | Költségnaplósorok rögzítésekor a kiválasztott alvállalkozó határozza meg az alapértelmezett egységköltség megadásához használt árlistát. |
-    | Alvállalkozói sor | Ha a naplósor alvállalkozói kapacitást, illetve alvállalkozói költségeket vagy anyagokat jelöl, válassza ki a megfelelő alvállalkozói sort. | Költségnaplósorok rögzítésekor a kiválasztott alvállalkozói sor biztosítja az alvállalkozói sorban rendelkezésre álló kapacitásszámítások helyes kiszámítását. |
-    | Összegszámítási mód | Alapértelmezés szerint ez a mező a Mennyiség és ár szorzata értékre **van állítva**. Ha ezt a módszert használja, a program az összeget mennyiségként *×* árként *számítja* ki. A másik támogatott módszer a **Fix ár**. Ha ezt a módszert használja, az ár az összegre lesz állítva, és a mennyiség nem lesz felhasználva a számításban. | |
-    | Egységütemezés és egység | Az egységütemezés és az egység együttesen azonosítja a mennyiség egységét. | Az egység és a tranzakciós kategória kombinációja a költségek alapértelmezett árainak megadására szolgál. A Projektműveletek alapértelmezett konfigurációjában az egység, a szerepkör és a forrásegység kombinációja az alapértelmezett árak idő szerinti megadására szolgál. Ha egyéni konfigurációval rendelkezik az alapértelmezett árak beviteléhez, akkor azt a rendszer az egységgel együtt használja. A termék és az egység kombinációja az anyagok alapértelmezett árának megadására szolgál. |
+    | Tranzakció osztálya | A naplósor a hat tranzakciós osztály egyikébe sorolható: **Idő**, Költség **,** **Anyag**, **Megtartó**, **Mérföldkő** vagy **Adó**. | Az **Adótranzakció** osztály elavult a Project Operationsben. <br> Ha adótranzakciós **osztályt** hoz létre, azt nem számítja fel a rendszer számlázással, illetve költség- vagy bevételszámítással. **A Milestone** egy csak bevételt biztosító tranzakciós osztály. <br>A **Megtartó** tranzakciós osztály egy vevőtől kapott előleget jelöl. Mindig számlázott értékesítési és nem számlázott értékesítési naplósorok párjaként kell létrehozni. |
+    | Tranzakció típusa | A költség rögzítéséhez a **Költség**, **az Interorg Értékesítés** és **az Erőforrásegység költségtranzakciós** típusokat kell használni.<br> A bevétel rögzítéséhez a **Számlázatlan értékesítések** és **a Számlázott értékesítés** tranzakciótípusokat kell használni. | A **Megőrző** tranzakciós osztály csak a Számlázatlan értékesítések **és** a **Számlázott értékesítések** tranzakciótípusokkal működik.<br> A **Mérföldkő** tranzakciós osztály csak a **Számlázott értékesítés** tranzakciótípussal működik. <br>Az **Interorg Sales** and **Resourcing unit cost** transaction típusok csak az **Időtranzakciós** osztályra vonatkoznak, és ezek csak a Lite deployment scneario bejegyzési naplóiban érhetők el, a Project Operations erőforrás/nem készletezett forgatókönyvekben való telepítésekor nem. |
+    | Termék kiválasztása | Ha az Anyagtranzakció osztály van kiválasztva, ez a mező lehetővé teszi annak megadását, hogy az anyagtranzakció, amelyhez a naplósort létrehozza, meglévő termék vagy beírt termék.If can the **Material transaction class, this field (Anyagtranzakció**) osztály, ezzel a mezővel megadhatja, hogy az anyagtranzakció, amelyhez a naplósort létrehozza, létező vagy beírt termék-e. | Ha az Írási termék **lehetőséget választja**, megadhatja a termék nevét. |
+    | Termék | Hivatkozás a termékre a katalógusból. | |
+    | Description | A naplósor leírása, amely megkönnyíti az azonosítást. | A nem számlázott értékesítési naplósorok esetében a rendszer az értéket használja leírásként a számlasor részleteinek létrehozásakor. |
+    | Külső leírás | A naplósor leírása, amely a külső érdekelt felekkel való megosztáshoz használható. | A nem számlázott értékesítési naplósorok esetében az érték lesz a külső leírás, amikor a számlasor részletei létrejönnek. A vevőnek küldött számlán is megjelenhet. |
+    | Számlázási típus | Egy érték, amely jelzi, hogy a naplósor a projekt díjköteles, ingyenes vagy nem terhelhető összetevőjének számít-e bele. | Egy tipikus folyamatban a számlázási típus a szerződésen beállított, megállapodás szerinti feltételekből származik. Naplósor rögzítésekor azonban értéket is megadhat ebben a mezőben. |
+    | Dokumentum kelte | Adjon meg egy dátumot, amikor a tranzakció történt. | |
+    | Kezdési dátum | Használja a tranzakció bekövetkezésének dátumát. | Ez a mező összehasonlításra szolgál a számla létrehozásának dátumával a **nem számlázott értékesítés** típusú tranzakciók esetében. Ez az összehasonlítás segít eldönteni, hogy a tranzakció határidős vagy múltbeli dátumú-e. Csak a korábbi dátummal rendelkező tranzakciók kerülnek a számlára. |
+    | Befejező dátum | Használja a tranzakció bekövetkezésének dátumát. | |
+    | Könyvelési dátum | Használja azt a dátumot, amikor a számviteli hatás rögzítésre kerül. | |
+    | Szerződéses vonali ügyfél | Alapértelmezés szerint, ha a szerződéssornak csak egy vevője van, ez a mező a naplósor mentésekor a szerződéssor vevőjére lesz beállítva. Ha a szerződéssornak több vevője van, válassza ki a megfelelő vevőt a szerződéssoron. | Ha a rendszer nem tudja meghatározni a szerződéssor vevőjét a naplósorban, és ha az üres a **naplósorból létrehozott Nem számlázott értékesítés** típus tényleges állapotában, akkor a tényleges nem lesz kiszámlázva. |
+    | Project | Válassza ki azt a projektet, amelyen rögzíteni szeretné a tényleges beállítást. | A kiválasztott projekt, tranzakciós osztály és feladat alapján a rendszer megpróbálja meghatározni a szerződést, a szerződéssort és a szerződéssor vevőjét. |
+    | Feladatok | Válassza ki azt a feladatot, amelyen rögzíteni szeretné a tényleges beállítást. | Ha a szerződés beállítása során feladatokat társított a szerződéssorokhoz, a rendszer a kiválasztott feladatot, valamint egy projekt- és tranzakcióosztályt fogja használni a szerződés, a szerződéssor és a szerződéssor-vevő meghatározásához. |
+    | Tranzakció kategóriája | Válassza ki azt a tranzakciós kategóriát, amellyel rögzíteni szeretné a tényleges értéket. | A költségek esetében a kiválasztott tranzakciós kategória határozza meg azt az alapértelmezett árat, amely a naplósoron lesz megadva a mentéskor. |
+    | Beosztás | Ez a mező az Időnapló soraihoz kapcsolódik. Válassza ki annak az erőforrásnak a szerepkörét, aki időt töltött a projekten és/vagy a tevékenységen. | Időnapló-sorok esetén, ha a beépített konfigurációt használja az alapértelmezett erőforrásköltségek és számladíjak beviteléhez, a rendszer a kiválasztott szerepkört az erőforrásegységgel együtt használja a naplósorban a mentéskor a naplósorban megadott alapértelmezett ár meghatározásához. Ha egyéni konfigurációt használ az alapértelmezett árak megadásához, tekintse át ezt a konfigurációt annak megállapításához, hogy a **Szerepkör** mező az alapértelmezett árértékek megadására szolgál-e. |
+    | Alvállalkozói szerződés | Ha a naplósor alvállalkozói kapacitást, illetve alvállalkozásba adott költségeket vagy anyagokat képvisel, válassza ki a megfelelő alvállalkozói szerződést. | A költségnapló-sorok rögzítésekor a kiválasztott alvállalkozó határozza meg az alapértelmezett egységköltség megadásához használt árlistát. |
+    | Alvállalkozói vonal | Ha a naplósor alvállalkozói kapacitást, illetve alvállalkozásba adott költségeket vagy anyagokat jelöl, válassza ki a megfelelő alvállalkozói sort. | A költségnapló-sorok rögzítésekor a kiválasztott alvállalkozói sor biztosítja, hogy az alvállalkozói sorban rendelkezésre álló kapacitásszámítások helyesen legyenek kiszámítva. |
+    | Összegszámítási mód | Alapértelmezés szerint ez a mező a Mennyiség megszorzása árral értékre van **állítva**. Ha ezt a módszert használja, az összeg mennyiségként *×* árként *kerül* kiszámításra. A másik támogatott módszer a **Rögzített ár**. Ha ezt a módszert használja, az ár az összegre lesz beállítva, és a mennyiség nem lesz használva a számításban. | |
+    | Egység ütemezése és egysége | Az egység ütemezése és az egység együttesen azonosítja a mennyiség egységét. | Az egység és a tranzakciós kategória kombinációja a költségek alapértelmezett árainak megadására szolgál. A Project Operations alapértelmezett konfigurációjában a rendszer az egység, a szerepkör és az erőforrásegység kombinációját használja az idő alapértelmezett árainak megadásához. Ha egyéni konfigurációval rendelkezik az alapértelmezett árak megadásához, akkor azt az egységgel együtt fogja használni. A termék és az egység kombinációját használják az anyagok alapértelmezett árainak megadására. |
     | Mennyiség | Adja meg a mennyiséget. | |
-    | Ár | Ha az ár üresen marad a naplósor létrehozásakor, a program a tranzakcióosztálytól függően a megfelelő értékeket használja az alapértelmezett árak megadásához. Ha a naplósor létrehozásakor árat ad meg, a program ezt az árat használja. | |
-    | Adó | Adja meg az adó összegét. | A megadott adóösszegtől függően a program a kiterjesztett összeget *Összegadóként* + *számítja* ki. |
+    | Ár | Ha az ár üresen marad a naplósor létrehozásakor, a rendszer a tranzakciós osztálytól függően a megfelelő értékeket használja az alapértelmezett árak megadásához. Ha a naplósor létrehozásakor meg van adva egy ár, akkor a rendszer ezt az árat használja. | |
+    | Adó | Adja meg az adó összegét. | A megadott adóösszegtől függően a kiterjesztett összeg összege *adóként* + *kerül* kiszámításra. |
 
-## <a name="confirm-an-entry-journal"></a>Tételnapló megerősítése
+## <a name="confirm-an-entry-journal"></a>Nevezési napló megerősítése
 
-Miután beírta az összes naplósort egy tételnaplóba, megerősítheti a naplót. Ez a folyamat minden naplósort ténylegesként rögzít a megfelelő projektekben.
+Miután beírta az összes naplósort egy bejegyzési naplóba, megerősítheti a naplót. Ez a folyamat minden naplósort ténylegesként rögzít a megfelelő projekteken.
 
-A napló megerősítése után a továbbiakban nem szerkesztheti sem azt, sem annak sorait.
+A napló megerősítése után már nem szerkesztheti azt vagy annak bármely sorát.
 
-## <a name="actuals-created-by-entry-journal-confirmation"></a>A tételnapló visszaigazolása által létrehozott aktualitások
+## <a name="actuals-created-by-entry-journal-confirmation"></a>A bejegyzési napló visszaigazolása által létrehozott tényleges adatok
 
-Van néhány kulcsfontosságú különbség a Tételnapló visszaigazolása által létrehozott tényleges értékek és a Projektműveletek programban az idő-, költség- és anyaghasználati naplók jóváhagyása és a számla-visszaigazolás során létrehozott tényleges értékek között:
+Van néhány fő különbség a bejegyzési napló visszaigazolása által létrehozott tényleges adatok és az idő-, költség- és anyaghasználati naplók jóváhagyása, valamint a projektműveletekben a számla megerősítése során létrehozott tényleges adatok között:
 
-- A tételnaplók nem használnak tranzakciós kapcsolatokat a tényleges költség és a nem számlázott értékesítési tényleges érték összekapcsolására. Az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott tényleges értékek mindig tranzakciós kapcsolatokat használnak a költség és a nem számlázott értékesítési tényleges értékek összekapcsolására.
-- A tételnaplók nem használnak tranzakció eredetet a tényleges költség és a nem számlázott értékesítési tényleges értékek bármely származó rekordhoz való csatolására. Az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott tényleges értékek mindig tranzakciós eredetet használnak a költség- és nem számlázott értékesítési tényleges értékeknek az eredeti időbevitelhez való kapcsolásához.
-- A Tételnapló visszaigazolásával létrehozott nem számlázott értékesítési tényleges értékek számlázásakor a számla megerősítése során létrehozott számlázott értékesítési tényleges értékek a nem számlázott értékesítési tényleges értékekhez kapcsolódnak, hasonlóan az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott nem számlázott értékesítési tényleges értékekhez.
-- A szervezetközi erőforrások által megadott időre létrehozott tételnaplósorok nem eredményezik automatikusan a beszerzési egységköltség **és** az **Interorg sales** típusok tényleges értékét. Ezeket a tényleges adatokat manuálisan kell létrehozni. Ez a viselkedés eltér a szervezetközi erőforrások által rögzített időbejegyzések viselkedésétől. Ebben az esetben az idő jóváhagyásakor az alkalmazás automatikusan létrehozza a Költség **típus tényleges értékét a** projektben, valamint a beszerzési egység költségének **és** az Interorg Sales **típusoknak a** tényleges értékét az alkalmazott tulajdonosi részlegén. Ezután tranzakciós kapcsolatokat használ, hogy összekapcsolja ezeket a tényleges adatokat és a tranzakció eredetét, hogy összekapcsolja őket az eredeti időbevitellel.
-- A tételnaplók megerősítésekor tényleges adatokat hoznak létre. A korrekciós naplók azonban nem használhatók a tényleges adatok kijavítására. Ez a viselkedés eltér az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott tényleges adatok viselkedésétől. Ebben az esetben az alkalmazás lehetővé teszi, hogy a Javítási naplók segítségével kijavítsa a tényleges adatokat a hibák kijavításához, feltéve, hogy ezeket a tényleges adatokat még nem számlázták ki. Ha már kiszámlázták őket, akkor is kijavíthat egy tényleges értéket, ha feldolgozza a tényleges teljes jóváírást a vevőnek.
+- A bejegyzési naplók nem használnak tranzakciós kapcsolatokat a tényleges költség és a számlázatlan értékesítések tényleges összekapcsolására. Az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott tényleges adatok mindig tranzakciós kapcsolatokat használnak a költség és a nem számlázott értékesítési tényleges adatok összekapcsolásához.
+- A bejegyzési naplók nem használnak tranzakciós eredetet a tényleges költség és a nem számlázott értékesítési tényleges adatok bármely származó rekordhoz való kapcsolásához. Az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott tényleges adatok mindig tranzakciós eredetet használnak a költségek és a nem számlázott értékesítési tényleges adatoknak az eredeti időbevitelhez való kapcsolásához.
+- Amikor a bejegyzésnapló visszaigazolása által létrehozott, nem számlázott értékesítési tényleges adatokat számlázzák ki, a számlaigazolás során létrehozott számlázott értékesítési tényleges adatok a nem számlázott értékesítési tényleges adatokhoz kapcsolódnak, hasonlóan az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott, nem számlázott értékesítési tényleges adatokhoz.
+- A szervezetek közötti erőforrások által megadott időre létrehozott bejegyzési naplósorok nem okozzák az erőforrásegység költségének **és** az Interorg Sales **típusoknak a** tényleges adatait. Ezeket a tényeket manuálisan kell létrehozni. Ez a viselkedés eltér a szervezetek közötti erőforrások által rögzített időbejegyzések viselkedésétől. Ebben az esetben az idő jóváhagyásakor az alkalmazás automatikusan létrehozza a **Költség** típus tényleges adatait a projekten, valamint a Resourcing egységköltség **és** az **Interorg Sales** típusok tényleges adatait az alkalmazott saját részlegén. Ezután tranzakciós kapcsolatokkal kapcsolja össze ezeket a tényleges adatokat és a tranzakciós eredetet, hogy összekapcsolja őket az eredeti időbevitellel.
+- Amikor a bejegyzési naplók megerősítést nyernek, tényleges adatokat hoznak létre. A javítási naplók azonban nem használhatók a tényleges adatok kijavítására. Ez a viselkedés eltér az idő-, költség- és anyaghasználati naplók jóváhagyásakor létrehozott tényleges adatok viselkedésétől. Ebben az esetben az alkalmazás lehetővé teszi, hogy javítási naplókat használjon a tényleges adatok kijavításához a hibák kijavításához, feltéve, hogy ezeket a tényleges adatokat még nem számlázták ki. Ha már kiszámlázták őket, akkor is kijavíthatja a tényleges értéket, ha ennek a tényleges jóváírásnak a teljes jóváírását feldolgozza az ügyfélnek.
 
 > [!NOTE]
-> A bejegyzésnaplók nem kényszerítenek szigorú alapértelmezett szabályokat. Ezért használja ezeket a bejegyzésnaplókat a lehető legkisebb mértékben, és legyen óvatos és körültekintő, hogy ne hozzon létre sérült pénzügyi adatokat a rendszerben. Amikor csak lehet, használja az Idő-, Költség- és Anyaghasználati naplókat, a projektszerződések mérföldkő- és megőrzőbeállítását, valamint a projektszámla-visszaigazolási folyamatot a Tételnaplók helyett a tényleges adatok létrehozásához.
+> A bejegyzési naplók nem érvényesítik a szigorú alapértelmezett szabályokat. Ezért használja ezeket a bejegyzési naplókat a lehető legkevesebbet, és legyen óvatos és körültekintő annak biztosítása érdekében, hogy ne hozzon létre sérült pénzügyi adatokat a rendszerében. Amikor csak teheti, használja az idő-, költség- és anyaghasználati naplókat, a mérföldkő és a megtartó beállítását a projektszerződéseken, valamint a projektszámla-visszaigazolási folyamatot a bejegyzési naplók helyett a tényleges adatok létrehozásához.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

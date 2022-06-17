@@ -1,17 +1,17 @@
 ---
 title: A telepítés típusának meghatározása
-description: Ez a témakör a Project Operations az Ön vállalatának megfelelő telepítéstípusának megállapításában segítő információkat tartalmaz.
+description: Ez a cikk olyan információkat tartalmaz, amelyek segítségével meghatározhatja a Project-műveletek megfelelő telepítési típusát a vállalat számára.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 592c1bfdaf5ea6bdbf6c67bc5b82dd5cf979b367
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912197"
 ---
 # <a name="determine-your-deployment-type"></a>A telepítés típusának meghatározása
 
@@ -25,7 +25,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>A Dynamics meglévő Dynamics 365 Project Service Automation rendszert használó ügyfelei
 A Project Operations a Project Service Automation szolgáltatással szállított képességeket tartalmazza. A frissítés elérési úta 2021-es 1 kiadási hullámban jelennek meg az ügyfelek számára.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A projektmenedzsmentet és számvitelt használó Dynamics 365 Finance meglévő ügyfelei 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A projektmenedzsmentet és könyvelést használó Dynamics 365 Finance meglévő ügyfelei 
 
 A projektmenedzsment és-számlázási funkciót használó meglévő Finance ügyfelek továbbra is használhatják azt. Lásd: [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma).
 

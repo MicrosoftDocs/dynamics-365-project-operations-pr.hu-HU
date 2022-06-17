@@ -1,27 +1,27 @@
 ---
 title: 2021. szeptemberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: A témakör a Project Operations lite telepítés 2021. szeptemberi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást az erőforrás / nem készletezett forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2021. szeptemberi kiadásában elérhető minőségi frissítésekről nyújt információt erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923375"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. szeptemberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
 *Érvényesség: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén*
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.14.0.99 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és számvitel Dynamics 365 Finance környezetvédelmi verzióban 10.0.20.
+   - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.20-as verzió.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 

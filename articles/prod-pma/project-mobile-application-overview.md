@@ -1,6 +1,6 @@
 ---
 title: Projek mobilalkalmazásainak áttekintése
-description: Ez a témakör általános információkat tartalmaz a projekt időhöz kapcsolódó alkalmazásairól a Microsoft Dynamics 365 Project Timesheet alkalmazáshoz, a Projektidő-beviteli alkalmazáshoz, valamint a Saját időnyilvántartásaim/Időnyilvántartások alkalmazáshoz, amelyek mobilszközön elérhetők.
+description: Ez a cikk általános információkat nyújt a mobileszközön elérhető Projektidő-bevitel és Saját munkaidő-nyilvántartások/időnyilvántartások projektidőhöz kapcsolódó alkalmazásairól Microsoft Dynamics 365 Project Timesheet.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922869"
 ---
 # <a name="project-mobile-applications-overview"></a>Projek mobilalkalmazásainak áttekintése
 
@@ -29,11 +29,11 @@ A projekt idejéhez kapcsolódó három mobilalkalmazás érhető el, a Microsof
 
 ## <a name="project-timesheet-mobile-app"></a>Projektszintű időnyilvántartás mobilalkalmazás
 
-A Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felhasználók elküldjék és jóváhagyják a projektek munkaidő-nyilvántartásait a mobileszközeiken. Ez a mobilalkalmazás a Dynamics 365 Finance Projektmenedzsment és könyvelés területén jeleníti meg a munkaidő-nyilvántartási funkciót. Segít a felhasználók termelékenységének és hatékonyságának növelésében, valamint segítséget nyújt a munkaidő-nyilvántartások időben történő bevitelében és jóváhagyásában is.
+A Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felhasználók elküldjék és jóváhagyják a projektek munkaidő-nyilvántartásait a mobileszközeiken. Ez a mobilalkalmazás megjeleníti a munkaidő-nyilvántartási funkciókat a Dynamics 365 Finance Projektvezetési és könyvelési területén. Segít a felhasználók termelékenységének és hatékonyságának növelésében, valamint segítséget nyújt a munkaidő-nyilvántartások időben történő bevitelében és jóváhagyásában is.
 
 ## <a name="project-time-entry-workspace"></a>Projektidő-beviteli munkaterület
 
-A Projektidő-beviteli munkaterület lehetővé teszi, hogy a felhasználók időt adjanak meg és mentsenek a projekthez. Nem engedi azonban, hogy a felhasználók projekthez tartozó munkaidő-nyilvántartásokat küldjenek el vagy hagyjanak jóvá. Csak időbevitelre használható. Ez a mobil munkaterület a Finance and Operations mobilalkalmazással együtt használható.
+A Projektidő-beviteli munkaterület lehetővé teszi, hogy a felhasználók időt adjanak meg és mentsenek a projekthez. Nem engedi azonban, hogy a felhasználók projekthez tartozó munkaidő-nyilvántartásokat küldjenek el vagy hagyjanak jóvá. Csak időbevitelre használható. Ezt a mobil munkaterületet a Finance and Operations mobilalkalmazással együtt kell használni.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Saját időnyilvántartásaim/Időnyilvántartások áttekintésre
 

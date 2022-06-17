@@ -1,17 +1,17 @@
 ---
 title: Vállalatközi ügyfél- és szállítói számlák létrehozása
-description: Ez a témakör a vállalatközi vevői és szállítói létrehozásával kapcsolatban tartalmaz tájékoztatást.
+description: Ez a cikk a vállalatközi vevői és szállítói számlák létrehozásával kapcsolatos információkat tartalmaz.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd7696c32760423c876362ca3ae0ee2c7b5716e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916383"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Vállalatközi ügyfél- és szállítói számlák létrehozása
 
@@ -27,7 +27,7 @@ Ezt a folyamatot használhatja vállalatközi vevői számla manuális létrehoz
 
 A kölcsönbeadó jogi személyben a következő lépéseket kell végrehajtani. 
 
-1. A Dynamics 365 Finance a Projektmenedzsment és könyvelés **projektszámlák** > **Vállalatközi vevői számlák című témakörben talál** > **helyet**. A **Vállalatközi vevői számlák** listaoldalán, a műveleti ablaktáblán válassza az **Új** lehetőséget.
+1. A Dynamics 365 Finance a Projektvezetési és könyvelési **projektszámlák** > **vállalatközi vevői számlák című** > **témakörben találja**. A **Vállalatközi vevői számlák** listaoldalán, a műveleti ablaktáblán válassza az **Új** lehetőséget.
 2. A **Vállalatközi számla létrehozása** oldal **Jogi személy** mezőjében jelöljön ki egy kölcsönvevő jogi személyt.
 3. Nem kötelező: Adja meg a specifikus projektszerződést és projektszámot.
 4. Szűkítse a keresést egy dátumtartomány kiválasztásával. Adja meg a **Kezdődátum** és a **Záró dátum** mezőben az adott dátumokat. A keresési eredményekben csak azok a vállalatközi tranzakciók jelennek meg, amelyek a dátumtartományban lettek feladva.

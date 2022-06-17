@@ -1,23 +1,23 @@
 ---
 title: Teljesítési költség módszerei
-description: Ez a témakör a projektek teljesítési költségének kiszámításához használt módszerekre vonatkozó információkat tartalmaz.
+description: Ez a cikk a projekt befejezéséhez szükséges költségek kiszámításához használt módszerekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920293"
 ---
 # <a name="cost-to-complete-methods"></a>Teljesítési költség módszerei
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a témakör a projektek teljesítési költségének kiszámításához használt módszerekre vonatkozó információkat tartalmaz. Többféle módszerrel is kiszámíthatja a projektek teljesítéséhez szükséges költséget. 
+Ez a cikk a projekt befejezéséhez szükséges költségek kiszámításához használt módszerekről nyújt tájékoztatást. Többféle módszerrel is kiszámíthatja a projektek teljesítéséhez szükséges költséget. 
 
 Ha egy projekthez becslést hoz létre, a **Becslés létrehozása** lapon a **Teljesítési költség módszerhez** mezőben, kiválaszthatja a következő teljesítési költség módszerek egyikét.
 

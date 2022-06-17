@@ -1,17 +1,17 @@
 ---
 title: Projektsablonok fejlesztése a Projekt másolása lehetőséggel
-description: Ez a témakör információt nyújt arról, hogyan hozhat létre projektsablonokat a Projekt másolása egyéni művelettel.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre projektsablonokat a Projekt másolása egyéni művelettel.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923835"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektsablonok fejlesztése a Projekt másolása lehetőséggel
 
@@ -25,7 +25,7 @@ Ha a **Projekt másolása** lehetőséget választja, akkor a program frissíti 
 
 ### <a name="name"></a>Name 
 
-msdyn\_ CopyProjectV3
+msdyn\_ MásolatProjectV3
 
 ### <a name="input-parameters"></a>Bemeneti paraméterek
 
@@ -33,32 +33,32 @@ Három bemeneti paraméter van:
 
 - **ReplaceNamedResources** vagy **ClearTeamsAndAssignments** – Csak az egyik beállítást adja meg. Ne állítsa be mindkettőt.
 
-    - **\{"ReplaceNamedResources":true\}** – A Project Operations alapértelmezett viselkedése. A rendszer lecseréli a megnevezett erőforrásokat az általános erőforrásokra.
-    - **\{"ClearTeamsAndAssignments":true\}** – A Project for the Web alapértelmezett viselkedése. Minden feladat és csapattag eltávolításra kerül.
+    - **\{"ReplaceNamedResources":true\}** – A Project Operations alapértelmezett viselkedése. A megnevezett erőforrásokat a rendszer általános erőforrásokra cseréli.
+    - **\{"ClearTeamsAndAssignments":true\}** – A Project for the Web alapértelmezett viselkedése. A rendszer minden feladatot és csapattagot eltávolít.
 
-- **SourceProject** – a forrásprojekt entitáshivatkozása, amelyből másolni szeretne. Ez a paraméter nem lehet null értékű.
-- **Cél** – a másolás célprojekt entitáshivatkozása. Ez a paraméter nem lehet null értékű.
+- **SourceProject** – A forrásprojekt entitáshivatkozása, amelyből másolni szeretne. Ez a paraméter nem lehet null.
+- **Cél** – A célprojekt entitáshivatkozása, amelybe másolni szeretne. Ez a paraméter nem lehet null.
 
-Az alábbi táblázat összefoglalja a három paramétert.
+Az alábbi táblázat a három paraméter összefoglalását tartalmazza.
 
 | Paraméter                | Type             | Érték                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Boolean          | **Igaz** vagy **hamis** |
-| ClearTeamsAndAssignments | Boolean          | **Igaz** vagy **hamis** |
+| ReplaceNamedResources (Cserenévnév)    | Boolean          | **Igaz** vagy **Hamis** |
+| ClearTeamsAndAssignments | Boolean          | **Igaz** vagy **Hamis** |
 | SourceProject            | Entitásreferencia | A forrásprojekt    |
 | Target                   | Entitásreferencia | A célprojekt    |
 
-A műveletek alapértelmezett beállításairól a Webes API-műveletek [használata című témakörben olvashat bővebben](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+A műveletek további alapértelmezett beállításaiért lásd: [Webes API-műveletek](/powerapps/developer/common-data-service/webapi/use-web-api-actions) használata.
 
 ### <a name="validations"></a>Érvényesítés
 
-A következő érvényesítések történnek.
+A következő ellenőrzéseket végezzük.
 
-1. Null ellenőrzi és lekéri a forrás- és célprojekteket, hogy megerősítse mindkét projekt létezését a szervezetben.
+1. A null ellenőrzi és lekéri a forrás- és célprojekteket, hogy megerősítse mindkét projekt létezését a szervezetben.
 2. A rendszer a következő feltételek ellenőrzésével ellenőrzi, hogy a célprojekt érvényes-e másolásra:
 
-    - A projektben nincs korábbi tevékenység (beleértve a **Tevékenységek** lap kiválasztását is), és a projekt újonnan jön létre.
-    - Nincs korábbi másolat, nincs importálás kérve ehhez a projekthez, és a projekt állapota **nem sikerült**.
+    - A projekten nincs korábbi tevékenység (beleértve a **Feladatok** lap kiválasztását), és a projekt újonnan jött létre.
+    - Nincs korábbi példány, nem kértek importálást ehhez a projekthez, és a projekt nem rendelkezik **Sikertelen** állapottal.
 
 3. A művelet nem HTTP használatával hívható meg.
 
@@ -68,7 +68,7 @@ A művelet meghívásakor a **Projekt másolása** megnézi a **Projektoszlopok 
 
 ### <a name="example"></a>Példa
 
-Az alábbi példa bemutatja, hogyan hívható meg a **CopyProjectV3** egyéni művelet az **removeNamedResources** paraméterkészlettel.
+Az alábbi példa bemutatja, hogyan hívhatja meg a **CopyProjectV3** egyéni műveletet a **removeNamedResources** paraméterkészlettel.
 
 ```C#
 {

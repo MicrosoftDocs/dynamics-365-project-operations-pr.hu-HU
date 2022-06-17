@@ -1,17 +1,17 @@
 ---
 title: Az értékesítési árak megoldása a projektbecslésekhez és a tényekhez
-description: Ez a témakör az értékesítési árak megoldása a projektbecslésekhez és a tényekhez művelethez nyújt információkat.
+description: Ez a cikk az értékesítési árak projektbecslések és tényleges adatok alapján történő feloldásáról nyújt tájékoztatást.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917487"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Az értékesítési árak megoldása a projektbecslésekhez és a tényekhez
 

@@ -1,6 +1,6 @@
 ---
-title: A heti időbejegyzés testreszabása
-description: Ez a témakör ismerteti az egyéni üzleti szabályok végrehajtásának módját, amelyek támogatják a szervezet gyakorlatait.
+title: Heti időbejegyzés testreszabása
+description: Ez a cikk arról nyújt tájékoztatást, hogyan valósíthat meg olyan egyéni üzleti szabályokat, amelyek támogatják a szervezet gyakorlatait.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918959"
 ---
 # <a name="customize-weekly-time-entry"></a>Heti időbejegyzés testreszabása 
 
@@ -46,9 +46,9 @@ A **Dimenziók** szakasz oszlopfejlécként mutatja az összes olyan méretet, a
 - Típus
 - Bejegyzés állapota
 
-A **Dimenziók** szakasz nem engedi meg a sorszerkesztést. Ezt a részt egy olyan nézet támogatja, amely lehetővé teszi az egyedi mezők hozzáadását a heti időbeviteli rácshoz. Az egyéni mezők hozzáadásával kapcsolatos információkat a téma későbbi szakaszában, a „Bővíthetőség” szakaszban talál.
+A **Dimenziók** szakasz nem engedi meg a sorszerkesztést. Ezt a részt egy olyan nézet támogatja, amely lehetővé teszi az egyedi mezők hozzáadását a heti időbeviteli rácshoz. Az egyéni mezők hozzáadásával kapcsolatos információkért tekintse meg a cikk későbbi, "Bővíthetőség" című szakaszát.
 
-### <a name="duration"></a>Időtartam
+### <a name="duration"></a>Duration
 Az Időtartam szakasz a hét napjait mutatja oszlopfejlécként. Ez a szakasz lehetővé teszi a belső szerkesztést. Miután létrehozott egy időbeviteli sort, amely rendelkezik megfelelő dimenziókkal, a felhasználók gyorsan bevihetik az ezen dimenziókra fordított időt.
 
 ## <a name="create-a-new-time-entry"></a>Új időbejegyzés létrehozása

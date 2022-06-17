@@ -1,32 +1,32 @@
 ---
 title: A Project Operations integrációs naplója
-description: Ez a témakör a Project Operations integrációs naplójának használatáról nyújt tájékoztatást.
+description: Ez a cikk az integrációs naplóval való munkáról nyújt tájékoztatást a Project Operationsben.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923881"
 ---
 # <a name="integration-journal-in-project-operations"></a>A Project Operations integrációs naplója
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Az idő- és Költségbejegyzések **tényleges érték** tranzakciókat hoznak létre, amelyek a projekttel kapcsolatban befejezett tevékenységek működési nézetét jelentik. A Dynamics 365 Project Operations a könyvelők számára eszközt biztosít a tranzakciók felülvizsgálatára, és szükség esetén a számviteli attribútumok módosítására. A felülvizsgálat és a helyesbítések befejeződése után a tranzakciókat a projekt részfőkönyvébe és a főkönyvbe könyveli a rendszer. A könyvelő ezeket a tevékenységeket a **Project Operations Integration** (**Dynamics 365 Finance** > **Projektkezelés és könyvelési** > **naplók projektműveleti integrációs** > **naplója**) segítségével hajthatja végre.
+Az idő- és Költségbejegyzések **tényleges érték** tranzakciókat hoznak létre, amelyek a projekttel kapcsolatban befejezett tevékenységek működési nézetét jelentik. A Dynamics 365 Project Operations a könyvelők számára eszközt biztosít a tranzakciók felülvizsgálatára, és szükség esetén a számviteli attribútumok módosítására. A felülvizsgálat és a helyesbítések befejeződése után a tranzakciókat a projekt részfőkönyvébe és a főkönyvbe könyveli a rendszer. A könyvelő ezeket a tevékenységeket a **Project Operations Integration** journal(**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration journal használatával végezheti** el.
 
 ![Integrációs napló folyamata.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Rekordok létrehozása a Project Operations integrációs naplójában
 
-A Project Operations integrációs napló rekordjai az **Importálás az előkészítési táblából** időszakos folyamat segítségével jönnek létre. Ezt a folyamatot úgy futtathatja, hogy **Dynamics 365 Finance** > **Projektkezelés és könyvelés** > **Időszakos** > **projektművelet-integráció** > **importálása az átmeneti táblából**. A folyamatot interaktív módon futtathatja, illetve beállíthatja, hogy a folyamat szükség szerint a háttérben fusson.
+A Project Operations integrációs napló rekordjai az **Importálás az előkészítési táblából** időszakos folyamat segítségével jönnek létre. Ezt a folyamatot úgy futtathatja, hogy **megnyitja Dynamics 365 Finance** > **Project management and accounting Periodic Project Operations Integration Import from staging table (Projektkezelés és könyvelés** > **időszakos projektműveletek** > **integrációja** > **) integrációs táblázatot**. A folyamatot interaktív módon futtathatja, illetve beállíthatja, hogy a folyamat szükség szerint a háttérben fusson.
 
 Az időszakos folyamat futtatásakor a rendszer megkeresi a Project Operations integrációs naplóhoz még nem hozzáadott összes tényleges adatot. Minden egyes tényleges tranzakcióhoz létrejön egy naplósor.
-A rendszer a naplósorokat külön naplókba csoportosítja a Projektműveleti integráció napló mező Időszak egységében **kiválasztott érték alapján (** Pénzügyi **projektmenedzsment és könyvelési** > **beállítás Projektmenedzsment és könyvelési** > **paraméterek** > **,** Projektműveletek Dynamics 365 Customer Engagement **lapon).** A mező lehetséges értékei a következők:
+A rendszer a naplósorokat külön naplókba csoportosítja a Projektműveletek integrációs naplója **mező Időszaki egységében** kiválasztott érték alapján (**Finance** > **Project management and accounting** > **Setup Project management and accounting Setup** > **Project management and accounting parameters**, **Project Operations Dynamics 365 Customer Engagement** lapon). A mező lehetséges értékei a következők:
 
   - **Napok**: A tényadatok a tranzakció dátuma szerint vannak csoportosítva. Minden naphoz külön napló jön létre.
   - **Hónapok**: a tényleges adatok naptári hónap szerint vannak csoportosítva. Minden hónaphoz külön napló jön létre.
@@ -40,10 +40,10 @@ A naplósorok a Projektadatok alapján jönnek létre. A következő felsorolás
   - A **bizonylat** mező az összes tényleges tranzakcióhoz tartozó bizonylatszámot jeleníti meg. A bizonylatszám-sorozatot a **Számsorozatok** lapon, a **projektmenedzsment és a könyvelési paraméterek** lapon lehet megadni. Az egyes sorokhoz új szám tartozik. A bizonylat feladása után megtekintheti, hogyan kapcsolódik a költség és a nem számlázott értékesítési tranzakció a **kapcsolódó bizonylatok** kiválasztásával a **bizonylattranzakció** lapon.
   - A **Kategória** mező a kapcsolódó projekt tényadatainak tranzakciós kategóriája alapján egy projekttranzakciót és alapértelmezett értékeket jelent.
     - Ha a **tranzakció kategóriája** meg van adva a projekt tényadataiban és egy kapcsolódó **projektkategória** létezik egy adott jogi entitásban, akkor a kategória alapértelmezés szerint ebbe a kategóriába tartozik.
-    - Ha **a Tranzakciókategória** nincs beállítva a Projekt tényleges mezőben, a rendszer a Projektmenedzsment és könyvelési paraméterek **lap Projektműveletek lapján Dynamics 365 Customer Engagement található** **Projektkategória alapértelmezései** mezőjének **értékét** használja.
+    - Ha **a Tranzakció kategória** nincs beállítva a Projekt tényleges elemében, a rendszer a **Projektkategória alapértelmezései mezőjében található értéket használja a** Projektműveletek **panelen, Dynamics 365 Customer Engagement** a Projektvezetési és könyvelési **paraméterek lapon**.
   - Az **erőforrás** mező a tranzakcióhoz kapcsolódó projekterőforrást jelenti. Az erőforrás hivatkozásként szolgál az ügyfeleknek szóló projektszámla-ajánlatokhoz.
-  - Az **Árfolyam** mező alapértelmezése a Dynamics 365 Finance pénznemben beállított árfolyamból **származik**. Ha az átváltási árfolyam beállítása hiányzik, akkor az **Importálás az előkészítésből** időszakos folyamat nem veszi fel a rekordot egy naplóba, és egy hibaüzenet jelenik meg a feladat végrehajtási naplójában.
-  - A **Sortulajdonság** mező a projekt tényleges adatokban szereplő számlázási típust jelöli. A sortulajdonság és a számlázási típus hozzárendelése a **Projektműveletek Dynamics 365 Customer Engagement** lapon, a **Projektkezelés és könyvelési paraméterek** lapon található.
+  - Az **Árfolyam** mező alapértelmezés szerint a Dynamics 365 Finance beállított Devizaárfolyamból **származik**. Ha az átváltási árfolyam beállítása hiányzik, akkor az **Importálás az előkészítésből** időszakos folyamat nem veszi fel a rekordot egy naplóba, és egy hibaüzenet jelenik meg a feladat végrehajtási naplójában.
+  - A **Sortulajdonság** mező a projekt tényleges adatokban szereplő számlázási típust jelöli. A sortulajdonságok és a számlázási típus leképezése a **Projektműveletek lapon, a Projektvezetési és könyvelési** paraméterek lap Dynamics 365 Customer Engagement **lapján** van meghatározva.
 
 A Project Operations integrációsnapló-soraiban csak a következő számlázási attribútumok frissíthetők:
 

@@ -1,6 +1,6 @@
 ---
 title: Erőforrások kezelése
-description: Ez a témakör információkat nyújt az erőforrások kezeléséről.
+description: Ez a cikk az erőforrások kezelésének módjáról nyújt tájékoztatást.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5788a457c888bd2ab945fa52df82157a7c17d56b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5709f7f179b14606690549c77ede7ba03b77e1b1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920431"
 ---
 # <a name="manage-resources"></a>Erőforrások kezelése
 

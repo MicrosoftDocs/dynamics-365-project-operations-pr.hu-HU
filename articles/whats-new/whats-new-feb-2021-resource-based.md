@@ -1,27 +1,27 @@
 ---
 title: Újdonságok – 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a témakör információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2021 februári kiadásában váltak elérhetővé.
+description: Ez a cikk a Project Operations 2021. februári kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910641"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a Dataverse-környezetben 4.7.0.95
-- Projektmenedzsment és számvitel Dynamics 365 Finance környezetben 10.0.16-os verzió 
+- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.16-os verzió 
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -46,12 +46,12 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance 
 
-A projektmenedzsmenttel és -számlázással kapcsolatos további információkért Dynamics 365 Finance: [Újdonságok 2021. január – Projektműveletek erőforrás-/nem raktározott forgatókönyvekhez](whats-new-jan-2021-resource-based.md).
+A projektmenedzsmenttel és a könyveléssel kapcsolatos további információkért Dynamics 365 Finance lásd: [Újdonságok 2021. január – Projektműveletek erőforrás-/nem készletalapú forgatókönyvekhez](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

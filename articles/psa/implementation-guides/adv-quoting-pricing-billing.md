@@ -1,6 +1,6 @@
 ---
 title: Fejlett árajánlat-készítés, árképzés és számlázás
-description: Ez a témakör a Project Service Automation árajánlat-készítéséről, számlázásáról és árképzéséről nyújt információt.
+description: Ez a cikk a Project Service Automation árajánlatáról, számlázásáról és díjszabásáról nyújt tájékoztatást.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921811"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Fejlett árajánlat-készítési, árképzési és számlázási útmutató
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579355"
 
 A megfelelő erőforrások megfelelő időben történő megkeresése, a projektek erőforrásainak lefoglalása és a felhasznált erőforrások megtartása segíti a szervezeteket a bevételi célok és az ügyfél-elégedettségi célok teljesítésében. 
 
-A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi témakörökbe:
+A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
 
 - [Árajánlat-készítés, árképzés és számlázás](../quote-bill-price.md)
 - [Értékesítési folyamatok](../basic-sales-process.md)
@@ -50,7 +50,7 @@ A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a ta
 - [Tényadatok rögzítése](../advanced-actuals.md)
 
 > [!NOTE]
-> Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
+> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

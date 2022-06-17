@@ -1,6 +1,6 @@
 ---
 title: Frissítse a munka lebontási struktúrájával kapcsolatos szempontokat
-description: Ez a témakör a munka bontási struktúrájának a Project Service Automation 2.x-ről a 3.x-re történő frissítéséről nyújt információkat.
+description: Ez a cikk a munkalebontási struktúra Project Service Automation 2.x-ről 3.x-re történő frissítéséről nyújt tájékoztatást.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913117"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Frissítse a munka lebontási struktúrájával kapcsolatos szempontokat
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ez a témakör a munka bontási struktúrájának a Project Service Automation 2.x-ről a 3.x-re történő frissítéséről nyújt információkat. Ez a témakör a sikeres frissítéshez szükséges Project Service Automation (PSA) projekt egészségi állapotát határozza meg. Információ van a közös blokkolási körülményekről is, amelyek miatt a frissítés meghiúsul. A projektfeladatok és azok funkcióinak a projektütemezésen belüli meghatározásáról lásd: [Projektütemezések](project-creating.md).
+Ez a cikk a munkalebontási struktúra Project Service Automation 2.x-ről 3.x-re történő frissítéséről nyújt tájékoztatást. Ez a cikk a projekt kifogástalan állapotát határozza meg a Project Service Automationben (PSA) a sikeres frissítéshez szükséges. Információ van a közös blokkolási körülményekről is, amelyek miatt a frissítés meghiúsul. A projektfeladatok és azok funkcióinak a projektütemezésen belüli meghatározásáról lásd: [Projektütemezések](project-creating.md).
 
 ## <a name="key-entities"></a>Kulcsfontosságú entitások
 A pontos, az erőforrásokkal már megterhelt munka bontási struktúrához a következő entitások szükségesek:

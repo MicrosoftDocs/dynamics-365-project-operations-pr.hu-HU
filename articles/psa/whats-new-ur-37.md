@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 37-es frissítési kiadásának V3 változatában
-description: Ez a témakör a Microsoft Dynamics 365 Project Service Automation Update Release 37, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a 37-es kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e8696d84aaca019c2e12d852e669df71146484b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdbb125b4f41bb9970f5bd8a01cf0bb863c34738
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922501"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-37-v3"></a>Újdonságok vagy változások a Project Service Automation 37-es frissítési kiadásának V3 változatában
 
@@ -29,7 +29,7 @@ ms.locfileid: "8593477"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 37-os frissítési kiadásában. Ennek a verziónak a buildszáma V3.10.58.120, és általában 2021 novemberében önfrissítéssel érhető el.
+Ez a cikk a Project Service Automation 37-es, V3-as kiadásának újdonságaival vagy módosításaival kapcsolatos szolgáltatásokat és javításokat sorolja fel. Ennek a verziónak a buildszáma V3.10.58.120, és általában 2021 novemberében önfrissítéssel érhető el.
 
 ## <a name="update-release-37"></a>37-ös frissítési kiadás
 

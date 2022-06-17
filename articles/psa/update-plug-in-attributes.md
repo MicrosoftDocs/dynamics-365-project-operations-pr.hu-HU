@@ -1,6 +1,6 @@
 ---
 title: Bővítményattribútumok frissítése új árképzési dimenziók felvételéhez
-description: Ez a témakör az árazási dimenziókhoz tartozó bővítményattribútumok frissítéséről nyújt információt.
+description: Ez a cikk a tarifadimenziók beépülő modulattribútumainak frissítésével kapcsolatos információkat tartalmaz.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913209"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Bővítményattribútumok frissítése új árképzési dimenziók felvételéhez
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ha nem a Project Service Automation (PSA) ajánlati és szerződéses szolgáltatásokat használja, kihagyhatja ezt a témát.
+> Ha nem használja a Project Service Automation (PSA) árajánlati és szerződéskötési funkcióit, kihagyhatja ezt a cikket.
 
-Ez a témakör feltételezi, hogy először elvégezte a következő eljárásokat: [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md), [Egyéni mezők hozzáadása az ár a telepítést és tranzakciós szervezetek](field-references.md) és [Egyéni mezők beállítása árképzési dimenziókként](set-up-pricing-dimensions.md). Ha még nem fejezte be ezeket az eljárásokat, menjen vissza, és fejezze be őket, majd térjen vissza ehhez a témához.
+Ez a cikk feltételezi, hogy befejezte a cikkek eljárásait, Egyéni mezők és entitások [létrehozása,](create-custom-fields-entities.md)[Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md), valamint [Egyéni mezők beállítása árképzési dimenzióként](set-up-pricing-dimensions.md). Ha még nem fejezte be ezeket az eljárásokat, térjen vissza, fejezze be őket, majd térjen vissza ehhez a cikkhez.
 
 Amikor egy **Árajánlatsor** oldalon elkészül egy árajánlati sor egy projekt árajánlatsorához, a rendszer két becslési sort hoz létre a háttérben - egy sort a becslés költségoldalához, egy pedig az értékesítés oldalához. Ugyanez vonatkozik a projektszerződésekre.
 

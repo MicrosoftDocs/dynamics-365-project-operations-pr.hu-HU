@@ -1,17 +1,17 @@
 ---
 title: Bemutató beállítások és konfigurációs adatok alkalmazása – Lite
-description: Ez a témakör a bemutató beállítás és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan alkalmazhat bemutató beállítási és konfigurációs adatokat a Project Operations számára.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922317"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Bemutató beállítások és konfigurációs adatok alkalmazása a Project Operations alkalmazáshoz – Lite 
 

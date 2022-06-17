@@ -1,6 +1,6 @@
 ---
 title: Hitelkártya-integráció beállítása
-description: Ez témakör ismerteti, hogyan dolgozzon a költségekkel kapcsolatos hitelkártya-tranzakciókkal.
+description: Ez a cikk bemutatja, hogyan lehet dolgozni a költségekkel kapcsolatos hitelkártya-tranzakciókkal.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4d32754548af67bdd5b9f7345f6363bd6193b36d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924479"
 ---
 # <a name="set-up-credit-card-integration"></a>Hitelkártya-integráció beállítása
 
@@ -30,12 +30,12 @@ A költséggel kapcsolatos hitelkártya-tranzakciók úgy is beállíthatók, ho
 
 Hitelkártya-tranzakciók importálása esetén kövesse az alábbi lépéseket:
 
-1. A **Hitelkártya-tranzakciók** oldalon válassza a **Tranzakciók importálása** lehetőséget. Ha először nyitja meg az adatkezelést, a rendszernek frissítenie kell az adat entitások listáját a folytatás előtt.
+1. A **Hitelkártya-tranzakciók** oldalon válassza a **Tranzakciók importálása** lehetőséget. Ha első alkalommal nyitja meg az adatkezelést, a rendszernek a folytatáshoz frissítenie kell az adatentitások listáját.
 2. A **Név** mezőbe írja be az importálási feladat egyedi leírását.
 3. A **Forrás adatformátuma** mezőben válassza ki az importálandó hitelkártya-tranzakciókat tartalmazó fájl formátumát.
 4. Válassza a **Feltöltés** lehetőséget, majd keresse meg és jelölje ki az importálandó fájlt.
 5. A fájl feltöltése után érvényesítse a hitelkártya-tranzakciós fájl és a hitelkártya-tranzakciók adatentitáshoz tartozó oszlopok leképezését a csempe **Leképezés megtekintése** hivatkozásával. Ha vannak leképezési hibák, vagy ha módosítania kell a leképezést, akkor a szükséges módosításokat a **Leképezés vizualizációja** vagy a **Leképezés részletei** lapon adhatja meg.
-6. A hitelkártya-tranzakciók automatizálásához válassza az **Ismétlődő feladat létrehozása adatokhoz** lehetőséget. Ezután beállíthatja azt az ismétlődést, amely meghatározza, hogy milyen gyakran kerüljön sor a hitelkártya-tranzakciók importálására. Ha végzett, válassza az OK **lehetőséget**.
+6. A hitelkártya-tranzakciók automatizálásához válassza az **Ismétlődő feladat létrehozása adatokhoz** lehetőséget. Ezután beállíthatja azt az ismétlődést, amely meghatározza, hogy milyen gyakran kerüljön sor a hitelkártya-tranzakciók importálására. Ha végzett, válassza az OK **gombot**.
 7. Ha azonnal szeretné importálni a kijelölt fájlt, válassza az **Importálás** lehetőséget.
 8. Ha az importálás során hibák történnek, megtekintheti a végrehajtási naplót vagy az előkészítési adatokat a sikeres importálás érdekében javítható hibák megtekintéséhez.
 
@@ -44,13 +44,13 @@ Hitelkártya-tranzakciók importálása esetén kövesse az alábbi lépéseket:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Lezárt alkalmazottakhoz tartozó hitelkártya-tranzakciók ismételt hozzárendelése
 
-Az alkalmazotti bejegyzés megszüntetése után az alkalmazott Active Directory tartományi szolgáltatások (AD DS) fiókja le van tiltva. Előfordulhat azonban, hogy vannak olyan aktív hitelkártya-tranzakciók, amelyeket továbbra is ki kell fizetni, és meg kell téríteni. A **Hitelkártya-tranzakciók** lapon újra hozzárendelheti az alkalmazottat minden olyan hitelkártya-tranzakcióhoz, ahonnan a társított alkalmazottat eltávolították.
+Az alkalmazotti rekord megszüntetése után az alkalmazott Active Directory tartományi szolgáltatások (AD DS) fiókja le van tiltva. Előfordulhat azonban, hogy vannak olyan aktív hitelkártya-tranzakciók, amelyeket továbbra is ki kell fizetni, és meg kell téríteni. A **Hitelkártya-tranzakciók** lapon újra hozzárendelheti az alkalmazottat minden olyan hitelkártya-tranzakcióhoz, ahonnan a társított alkalmazottat eltávolították.
 
 Jelöljön ki egy vagy több hitelkártya-tranzakciót, majd válassza a **Tranzakciók ismételt hozzárendelése** lehetőséget. Ezután kiválaszthat egy másik alkalmazottat, akit hozzá szeretne rendelni a hitelkártya-tranzakciókhoz. A hitelkártya-tranzakciók újbóli hozzárendelése után ezeket a tranzakciókat a rendszer kiválaszthatja a költségjelentésekhez, és kifizethetők a visszatérítések a a költségjelentés szokásos folyamatán keresztül.
 
 ## <a name="delete-credit-card-transactions"></a>Hitelkártya-tranzakciók törlése 
 
-Előfordulhat, hogy a hitelkártya-tranzakciók importálása után bizonyos tranzakciókat törölni kell. Ennek az lehet az oka, hogy a tranzakciók ismétlődnek, vagy azért, mert az adatok nem pontosak. A rendszergazdák a **„Hitelkártya-tranzakciók törlése”** funkcióval kiválaszthatják és törölhetik azokat a hitelkártya-tranzakciókat, amelyek **nem kapcsolódnak** költségjelentéshez. 
+Előfordulhat, hogy a hitelkártya-tranzakciók importálása után bizonyos tranzakciókat törölni kell. Ennek az lehet az oka, hogy a tranzakciók duplikátumok, vagy mert az adatok nem pontosak. A rendszergazdák a **„Hitelkártya-tranzakciók törlése”** funkcióval kiválaszthatják és törölhetik azokat a hitelkártya-tranzakciókat, amelyek **nem kapcsolódnak** költségjelentéshez. 
 
 1. Menjen az **Időszakos feladatok** > **Hitelkártya-tranzakciók törlése** lehetőségre.
 2. Válassza a **Szűrés** lehetőséget, és adjon meg adatokat a felvenni kívánt rekordok azonosításához.
@@ -58,10 +58,10 @@ Előfordulhat, hogy a hitelkártya-tranzakciók importálása után bizonyos tra
 
 ## <a name="storing-credit-card-numbers"></a>Hitelkártyaszámok tárolása
 
-Három lehetőség áll rendelkezésre a hitelkártyaszámok tárolására. A hitelkártyaszámok a **Költségkezelési paraméterek** oldalon tárolódnak.
+Három lehetőség áll rendelkezésre a hitelkártyaszámok tárolására. A hitelkártyaszámok a **Költségkezelés paraméterei oldalon tárolódnak**.
 
-- **Kártyaszámbevitel** megakadályozása – A hitelkártyaszámok nem tárolódnak.
-- **Kivonatkártya számok (tárolja az utolsó négy számjegyet)** – A hitelkártyaszámok utolsó négy számjegye titkosított formátumban tárolódik.
-- **Tárolókártyaszámok** – A hitelkártyaszámok titkosítatlan formátumban vannak tárolva. Ez a beállítás nem felel meg a Fizetésikártya-ipar (PCI) adatbiztonsági szabványának (DSS). Ezért annak érdekében, hogy szervezetük megfeleljen a PCI DSS-előírásoknak, a szervezet rendszergazdáinak úgy kell dönteniük, hogy nem tárolják a hitelkártyaszámokat, vagy tárolják a kivonatkártyaszámokat.
+- **Kártyaszám bevitelének** megakadályozása – A hitelkártyaszámok nem tárolódnak.
+- **Hash kártyaszámok (az utolsó négy számjegy tárolása)** – A hitelkártyaszámok utolsó négy számjegye titkosított formátumban kerül tárolásra.
+- **Áruházi kártyaszámok** – A hitelkártyaszámok titkosítatlan formátumban tárolódnak. Ez a beállítás nem felel meg a Payment Card Industry (PCI) adatbiztonsági szabványának (DSS). Ezért annak érdekében, hogy szervezetük megfeleljen a PCI DSS-előírásoknak, a szervezeti rendszergazdáknak választaniuk kell, hogy nem tárolják a hitelkártyaszámokat, vagy nem tárolják a kivonatkártyaszámokat.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

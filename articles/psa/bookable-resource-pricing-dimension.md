@@ -1,6 +1,6 @@
 ---
 title: Foglalható erőforrás használata árazási dimenzióként
-description: Ez a témakör a foglalható erőforrások árazási dimenzióként való használatáról tartalmaz tájékoztatást.
+description: Ez a cikk a foglalható erőforrások díjszabási dimenzióként való használatáról nyújt tájékoztatást.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916107"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Foglalható erőforrás használata árazási dimenzióként
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ez a témakör a foglalható erőforrások árazási dimenzióként való használatáról tartalmaz tájékoztatást. Mielőtt elkezdené, ha még nem hozott létre árképzési megoldást, akkor létre kell hoznia egy újat. Ha már van árképzési dimenziós megoldása, akkor megváltoztathatja azt. Ha még nem hozott létre új árképzési dimenziós megoldást a szervezetének, akkor hajtsa végre az [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md) témakörben szereplő eljárásokat.
+Ez a cikk a foglalható erőforrások díjszabási dimenzióként való használatáról nyújt tájékoztatást. Mielőtt elkezdené, ha még nem hozott létre árképzési megoldást, akkor létre kell hoznia egy újat. Ha már van árképzési dimenziós megoldása, akkor megváltoztathatja azt. Ha még nem hozott létre új árképzési dimenziós megoldást a szervezet számára, hajtsa végre az [Egyéni mezők és entitások](create-custom-fields-entities.md) létrehozása cikkben található eljárásokat.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Foglalható erőforrás hozzáadása az űrlapokhoz és a nézetekhez
 Ha az árazási dimenzió megoldás felhasználói felületén láthatóvá szeretné tenni a mezőket, akkor végig kell haladnia a főbb Project Service entitások összes űrlapján és nézetén, és fel kell vennie ezeket a mezőket az entitások űrlapjaira és nézeteire.

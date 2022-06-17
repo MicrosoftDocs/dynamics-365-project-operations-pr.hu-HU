@@ -1,17 +1,17 @@
 ---
 title: Az alvállalkozói szerződések fejlécének adatai
-description: Ez a témakör a Project Operations alvállalkozói szerződés fejlécének funkcióit ismerteti.
+description: Ez a cikk a Project Operations alvállalkozói fejlécén biztosított funkciókat ismerteti.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914175"
 ---
 # <a name="header-details-for-subcontracts"></a>Az alvállalkozói szerződések fejlécének adatai
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598169"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör a Dynamics 365 Project Operations alvállalkozói szerződés fejlécén található funkciókat ismerteti.
+Ez a cikk az alvállalkozói fejlécen biztosított funkciókat ismerteti a Dynamics 365 Project Operations.
 
 A projektmenedzser a projektek tervezése és végrehajtása során alvállalkozókat alkalmazhat, valamint termékeket és szolgáltatásokat vásárolhat a szállítóktól. Ha egy projektmenedzsernek termékeket vagy szolgáltatásokat kell vásárolnia, a Project Operations-ben alvállalkozói szerződést hozhat létre.
 

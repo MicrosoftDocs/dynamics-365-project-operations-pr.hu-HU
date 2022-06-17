@@ -1,17 +1,17 @@
 ---
 title: Regisztráció a Project Operations előzetes verziós előfizetésekre az erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a témakör információt nyújt arról, hogyan lehet regisztrálni és telepíteni a Dynamics 365 Project Operations alkalmazást erőforrás-/nem készletalapú forgatókönyvek esetén.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan iratkozhat fel és helyezheti üzembe a Project Operationst újrakezdés/nem készletalapú forgatókönyvek esetén.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920109"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regisztráció a Project Operations előzetes verziós előfizetésekre az erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -19,7 +19,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 
 
-Ez témakör ismerteti, hogyan lehet előfizetni a próbaverziós ajánlatra, és hogyan lehet Project Operations környezetet telepíteni erőforrás-/nem készletalapú forgatókönyvekhez.
+Ez a cikk azt ismerteti, hogyan iratkozhat fel a próbaverziós ajánlatra, és hogyan helyezheti üzembe a Project Operations környezetet erőforrás-/nem készletalapú forgatókönyvekhez.
 
 ## <a name="prerequisites"></a>Előfeltételek
 - Az előzetes verziót telepítő felhasználónak Azure-bérlői globális rendszergazdai jogosultsággal kell rendelkeznie. A bérlőt az első ajánlat beválátása során hozhatja létre. 
@@ -40,7 +40,7 @@ Mielőtt elkezdené, ügyeljen arra, hogy a felhasználó munkafiókjával jelen
 
   A megerősítő ajánlatot sikeres beváltását láthatja.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance előnézeti próbaverzió
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance előzetes próbaverzió
 
 Menjen a [Dynamics 365 for Finance előzetesverzió kipróbálása](https://aka.ms/trypoche) helyre, és ismételje meg az előző szakasz lépéseit az ajánlattal, Iratkozzon fel a Felhőben szolgáltatott környezetre.  
 
@@ -49,7 +49,7 @@ Menjen a [Dynamics 365 for Finance előzetesverzió kipróbálása](https://aka.
 > [!IMPORTANT]
 > A következő lépések végrehajtásához rendszergazdai hozzáféréssel kell rendelkeznie a szervezete Microsoft 365-portáljához.
 
-1. Nyissa meg a [Microsoft 365 Felügyeleti központot](https://portal.office.com/), hogy hozzárendelje a licenceket a felhasználókhoz.
+1. [Microsoft 365 A felügyeleti központba kattintva](https://portal.office.com/) rendelje hozzá a licenceket a felhasználókhoz.
 
 2. Az **Aktív felhasználók** oldalon jelölje ki azokat a felhasználókat, akikhez licencet szeretne rendelni.
 
@@ -60,19 +60,19 @@ Menjen a [Dynamics 365 for Finance előzetesverzió kipróbálása](https://aka.
 
 ## <a name="start-a-new-project-in-lcs"></a>Új projekt indítása LCS-ben
 
-Hozzon létre egy új LCS-projektet a következő témakörben leírtak szerint: [Új projekt indítása LCS-ben](create-lcs-project.md)
+Új LCS-projekt létrehozása a következő cikkben leírtak szerint: [Új projekt indítása az LCS-ben](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-előfizetés hozzáadása LCS-projekthez
 
-A feladat végrehajtásához hajtsa végre a következő témakör lépéseit: [Azure-előfizetés hozzáadása LCS-projekthez](resource-add-azure-subscription-lcs-project.md).
+A feladat elvégzéséhez kövesse az Azure-előfizetés hozzáadása LCS-projekthez című cikkben található [lépéseket](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>A Finance-bemutatókörnyezet telepítése a Project Operations erőforrás-/nem készletalapú forgatókönyvekhez alkalmazással
 
-A telepítés végrehajtásához kövesse a következő témakör útmutatását: [Új környezet kiépítése](resource-provision-new-environment.md). Használja a [bemutatókörnyezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) telepítési típust az előzetes verzióhoz. 
+Kövesse az új környezet [kiépítése az üzembe helyezés befejezéséhez című cikkben](resource-provision-new-environment.md) található útmutatást. Használja a [bemutatókörnyezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) telepítési típust az előzetes verzióhoz. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS beállításainak és konfigurációs adatainak telepítése
 
-Telepítse a CDS beállításait és konfigurációs adatait a következő témakörben leírtak szerint: [Beállítás és konfigurációs adatok alkalmazása a Common Data Service rendszerben](resource-apply-pro-setup-config-data.md).
+Telepítse a CDS telepítési és konfigurációs adatait a cikkben leírtak szerint, [Konfigurációs adatok beállítása és alkalmazása a Common Data Service](resource-apply-pro-setup-config-data.md).
 Ezt a lépést csak a Finance bemutatókörnyezet telepítése és a bemutatóadatok elkészülte után hajtsa végre.
 
 

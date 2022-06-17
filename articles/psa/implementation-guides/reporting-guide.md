@@ -1,6 +1,6 @@
 ---
 title: Jelentéskészítő útmutató
-description: Ez a témakör linkeket tartalmaz a jelentéssel kapcsolatos információkhoz.
+description: Ez a cikk a jelentésekkel kapcsolatos információkra mutató hivatkozásokat tartalmaz.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919189"
 ---
 # <a name="reporting-guide"></a>Jelentéskészítő útmutató
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577561"
 
 Az alkalmazás jelentési módszerei és technológiái segíthetnek meghatározni a projektek állapotát, és meghatározni, mikor kell korrekciós lépéseket tenni. 
 
-A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi témakörökbe:
+A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
 
 - [Jelentés kezdőlapja](../reports-reporting-dynamics-365-project-service.md)
 - [Irányítópultok](../reports-dashboards.md)
 - [A Project Service Automation adatmodelljével való együttműködés](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
+> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

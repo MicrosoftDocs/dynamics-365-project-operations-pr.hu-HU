@@ -1,6 +1,6 @@
 ---
 title: Frissítéssel kapcsolatos szempontok – frissítés a Microsoft Dynamics 365 Project Service Automation 2.x vagy 1.x verzióról a 3. verzióra
-description: Ez a témakör információkat nyújt azokról a szempontokról, amelyeket mérlegelnie kell, amikor a Project Service Automation 2.x vagy 1.x verziójáról a 3-as verzióra frissít.
+description: Ez a cikk azokról a szempontokról nyújt tájékoztatást, amelyeket a Project Service Automation 2.x vagy 1.x verziójáról a 3-as verzióra való frissítéskor meg kell vizsgálnia.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918913"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Frissítési szempontok - A PSA 2.x vagy 1.x verziója a 3. verzióra
 
@@ -40,7 +40,7 @@ A Project Service Automation 2. és 1. verziójában a feladat-hozzárendelések
 
 A Project Service Automation 3. verziójában megváltozott a foglalható erőforrások feladatokhoz rendelésének alapjául szolgáló séma. A sori feladat már elavult, és van egy közvetlen 1:1 kapcsolat a feladatot a **Feladatentitás** és a csapat tagja az **Erőforrás-hozzárendelés** entitás között. A projektcsoport tagjaihoz rendelt feladatokat most közvetlenül az erőforrás-hozzárendelés entitás tárolja.  
 
-Ezek a változások befolyásolják minden meglévő projekt frissítését, amelyhez a projektcsoportban megnevezett foglalható erőforrásokhoz és általános erőforrásokhoz vannak hozzárendelve erőforrás-hozzárendelések. Ez a témakör azokat a szempontokat tartalmazza, amelyeket figyelembe kell vennie a projekteknél, amikor a 3. verzióra frissít. 
+Ezek a változások befolyásolják minden meglévő projekt frissítését, amelyhez a projektcsoportban megnevezett foglalható erőforrásokhoz és általános erőforrásokhoz vannak hozzárendelve erőforrás-hozzárendelések. Ez a cikk azokat a szempontokat tartalmazza, amelyeket figyelembe kell vennie a projekteknél, amikor a 3-as verzióra frissít. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>A megnevezett erőforrásokhoz rendelt feladatok
 Az alapul szolgáló feladat entitás felhasználásával a 2. és az 1. verzió feladatai lehetővé tették a csapat tagjai számára, hogy az alapértelmezésben meghatározott szerepüktől eltérő szerepet is ábrázoljanak. Például Gracie George-ot, aki alapértelmezés szerint a programmenedzser szerepét kapta, hozzá lehet rendelni egy Fejlesztői szereppel bíró feladathoz. A 3. verzióban a megnevezett csapattagok szerepe mindig az alapértelmezés, tehát minden olyan feladat, amelyre Gracie George hozzá van rendelve, Garcie a programkezelő alapértelmezett szerepét használja.

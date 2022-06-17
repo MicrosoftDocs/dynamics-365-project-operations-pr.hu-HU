@@ -1,17 +1,17 @@
 ---
 title: Könyvelés javítása a tervezet állapotú projektszámla-ajánlatokon
-description: Ez témakör ismerteti, hogyan módosíthatók a könyvelési információk egy vázlat állapotú számlajavaslaton.
+description: Ez a cikk azt ismerteti, hogyan lehet kiigazítani a számviteli vonatkozású információkat a számlajavaslat-tervezetben.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921213"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Könyvelés javítása a tervezet állapotú projektszámla-ajánlatokon
 
@@ -19,7 +19,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 A projektszámlák *Műveleti részleteit* a projektmenedzser egy pro számlán tartja fenn. Az adatok közé tartozik a számlázható órákról, kiadásokról, anyagokról és mérföldkövekről szóló döntés, az árak, valamint az alkalmazott előlegek és a foglalók összegei. Miután megerősített az eredeti pro pro számlát, módosíthatja a műveleti részleteket egy [helyesbítő pro számla](../proforma-invoicing/corrective-invoices.md) létrehozásával és megerősítésével.
 
-A projektszámlák *könyvelési adatait* az ügyfél számára elérhető számladokumentum tartalmazza. Az adatok közé tartozik a áfa számítása és a számlára alkalmazott pénzügyi dimenziók. A témakör részletesen bemutatja, hogyan módosíthatók ezek a könyvelési adatok a projekt számla tervezetén.
+A projektszámlák *könyvelési adatait* az ügyfél számára elérhető számladokumentum tartalmazza. Az adatok közé tartozik a áfa számítása és a számlára alkalmazott pénzügyi dimenziók. Ez a cikk részletesen ismerteti, hogyan módosíthatók ezek a számviteli adatok a projektszámla-javaslattervezetben.
 
 ## <a name="adjust-sales-tax"></a>Áfakorrekció
 
@@ -27,15 +27,15 @@ Az alapértelmezett számlázási áfacsoportok és a cikkáfacsoportok közvetl
 
 ## <a name="adjust-financial-dimensions"></a>Pénzügyi dimenziók korrekciója
 
-### <a name="header-dimensions"></a>Fejdimenziók
+### <a name="header-dimensions"></a>Fejléc méretei
 
-Alapértelmezés szerint a számla pénzügyi dimenziói a számlázandó, nem számlázott projekttranzakció-rekordokból származnak. A rendszerbeállítások azonban lehetővé teszik, hogy a projektszámla-javaslatok fejlécében szereplő pénzügyi dimenziókat használjon a vevői egyenlegek feladásához. A funkció engedélyezéséhez válassza **a Projektkezelés és könyvelési paraméterek** lap Pénzügyek **lapján a** kinnlevőségek **projektdimenzióinak frissítéseinek engedélyezése lehetőséget**.
+Alapértelmezés szerint a számla pénzügyi dimenziói a számlázatlan projekttranzakciós rekordokból származnak. A rendszerbeállítások azonban lehetővé teszik, hogy pénzügyi dimenziókat használjon a projektszámla-javaslatok fejlécében a vevői egyenlegek feladásához. A funkció engedélyezéséhez válassza a Kinnlevőségek projektdimenzióinak frissítésének **engedélyezése lehetőséget** a **Projektvezetési és könyvelési paraméterek** lap Pénzügyek **lapján.**
 
-A számlafejek pénzügyi dimenziói a számla könyvelése előtt szerkeszthetők. **A Projekt számlajavaslat** lapon váltson a **Fej** nézetre, majd szerkessze az értékeket a **Pénzügyi dimenziók** lapon.
+A számlafejlécek pénzügyi dimenziói a számla feladása előtt szerkeszthetők. **A Projektszámla-javaslat** lapon váltson a **Fejléc** nézetre, majd szerkessze az értékeket a **Pénzügyi dimenziók** lapon.
 
-A **Fejléc** nézet csak akkor érhető el, ha a rendszergazda engedélyezi a Projektjavaslat és a **számlanapló képernyők használata a Szolgáltatáskezelés** munkaterület Fejléc és sorok nézet **funkciójával**. Ehhez a szolgáltatáshoz a Finance 10.0.25-ös vagy újabb frissítése szükséges.
+A **Fejléc** nézet csak akkor érhető el, ha a rendszergazda engedélyezi a **Projektszámla-javaslat és a számlanapló űrlapok használata a Fejléc és sorok nézettel** a **Funkciókezelés** munkaterületen. Ehhez a funkcióhoz a Finance 10.0.25-ös vagy újabb verziójára van szükség.
 
-### <a name="line-dimensions"></a>Sordimenziók
+### <a name="line-dimensions"></a>A vonal méretei
 
 A pénzügyi dimenziók nem szerkeszthetők közvetlenül a projektszámla-javaslat sorában. Ehelyett a következő lépésekkel módosíthatja a projektszámlára-javaslat pénzügyi dimenzióit.
 

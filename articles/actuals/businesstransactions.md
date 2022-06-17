@@ -1,6 +1,6 @@
 ---
-title: Üzleti tranzakciók a projektműveletekben
-description: Ez a témakör áttekintést nyújt a Microsoft üzleti tranzakcióinak fogalmáról Dynamics 365 Project Operations.
+title: Üzleti tranzakciók a Project Operations alkalmazásban
+description: Ez a cikk áttekintést nyújt az üzleti tranzakciók fogalmáról a Microsoftban Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923283"
 ---
-# <a name="business-transactions-in-project-operations"></a>Üzleti tranzakciók a projektműveletekben
+# <a name="business-transactions-in-project-operations"></a>Üzleti tranzakciók a Project Operations alkalmazásban
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű központi telepítés – proforma számlázás_
 
-A Microsoftban Dynamics 365 Project Operations *az üzleti tranzakció* olyan absztrakt fogalom, amelyet egyetlen entitás sem képvisel. Az entitások gyakori mezői és folyamatai azonban az üzleti tranzakciók fogalmának használatára vannak kialakítva. A következő entitások használják az absztrakciót:
+A Microsoftban Dynamics 365 Project Operations *az üzleti tranzakció* egy absztrakt fogalom, amelyet egyetlen entitás sem képvisel. Az entitások gyakori mezői és folyamatai azonban az üzleti tranzakciók fogalmának használatára vannak kialakítva. A következő entitások használják az absztrakciót:
 
 - Árajánlatsor részletei
 - Szerződéssor részletei
@@ -32,9 +32,9 @@ A Microsoftban Dynamics 365 Project Operations *az üzleti tranzakció* olyan ab
 - Naplósorok
 - Tények
 
-Ezen entitások közül az Ajánlatsor részletei, a Szerződéssor részletei és a Becslés sorok a *projekt életciklusának becslési fázisához* vannak leképezve. A Naplósorok és a Tényleges értékek entitások a *projekt életciklusának végrehajtási fázisához* vannak rendelve.
+Ezen entitások közül az Árajánlat sor részletei, a Szerződéssor részletei és a Becsült sorok a *projekt életciklusának becslési fázisára* vannak leképezve. A Naplósorok és a Tényleges adatok entitások a *projekt életciklusának végrehajtási fázisára* vannak leképezve.
 
-A Project Operations mind az öt entitás rekordjait üzleti tranzakcióként kezeli. Az egyetlen különbség az, hogy a becslési fázishoz rendelt entitások rekordjai (Ajánlatsor részletei, Szerződéssor részletei és Becslés sorok) pénzügyi előrejelzéseknek minősülnek *, míg a végrehajtási szakaszhoz rendelt entitások rekordjai (Naplósorok és Tényleges adatok) már megtörtént pénzügyi tényeknek* minősülnek *.*
+A Project Operations mind az öt entitás rekordjait üzleti tranzakcióként kezeli. Az egyetlen különbség az, hogy az entitások azon rekordjai, amelyek a becslési fázisra vannak leképezve (Árajánlatsor részletei, Szerződéssor részletei és Becsült sorok), pénzügyi előrejelzéseknek minősülnek *, míg a végrehajtási fázisra leképezett entitások (Naplósorok és Tényleges adatok) rekordjai már megtörtént pénzügyi tényeknek* minősülnek *.*
 
 További információért lásd: [Becslések](../project-management/estimating-projects-overview.md) és [Tényadatok](actuals-overview.md).
 
@@ -49,7 +49,7 @@ A következő fogalmak egyediek az üzleti tranzakciók fogalma esetében:
 
 ### <a name="transaction-type"></a>Tranzakció típusa
 
-A tranzakció típusa a projektre gyakorolt pénzügyi hatás időzítését és kontextusát jelenti. Ezt egy olyan értékkészlet határozza meg, amely a következő támogatott értékekkel rendelkezik a Projektműveletekben:
+A tranzakció típusa a projektre gyakorolt pénzügyi hatás időzítését és kontextusát jelenti. Ezt egy olyan értékkészlet határozza meg, amely a következő támogatott értékekkel rendelkezik a Project Operationsben:
 
 - Költség
 - Projektszerződés
@@ -60,7 +60,7 @@ A tranzakció típusa a projektre gyakorolt pénzügyi hatás időzítését és
 
 ### <a name="transaction-class"></a>Tranzakcióosztály
 
-A tranzakciós osztály a projektekkel kapcsolatban felmerülő költségek különböző típusait jelöli. Ezt egy olyan értékkészlet határozza meg, amely a következő támogatott értékekkel rendelkezik a Projektműveletekben:
+A tranzakciós osztály a projektekkel kapcsolatban felmerülő költségek különböző típusait jelöli. Ezt egy olyan értékkészlet határozza meg, amely a következő támogatott értékekkel rendelkezik a Project Operationsben:
 
 - Idő
 - Költség
@@ -70,16 +70,16 @@ A tranzakciós osztály a projektekkel kapcsolatban felmerülő költségek kül
 - Adó
 
 > [!NOTE]
-> A **Milestone** értéket általában az üzleti logika használja a rögzített árú számlázáshoz a Projektműveletek programban.
+> A **Mérföldkő** értéket általában az üzleti logika használja a rögzített árú számlázáshoz a Project Operationsben.
 
 ### <a name="transaction-origin"></a>Tranzakcióeredet
 
-A tranzakció eredete olyan entitás, amely tárolja az egyes üzleti tranzakciók eredetét, hogy segítse a jelentéstételt és a nyomonkövethetőséget. A projektvégrehajtás megkezdésekor minden üzleti tranzakció létrehoz egy másik üzleti tranzakciót, amely viszont létrehoz egy másik üzleti tranzakciót, és így tovább.
+A tranzakció eredete olyan entitás, amely tárolja az egyes üzleti tranzakciók eredetét, hogy segítse a jelentéseket és a nyomonkövethetőséget. A projekt végrehajtásának megkezdésekor minden üzleti tranzakció létrehoz egy másik üzleti tranzakciót, amely viszont egy másik üzleti tranzakciót hoz létre, és így tovább.
 
 ### <a name="transaction-connection"></a>Tranzakciós kapcsolat
 
-A tranzakciós kapcsolat olyan entitás, amely két hasonló üzleti tranzakció közötti kapcsolatot tárolja, például a költség és a kapcsolódó értékesítési tényleges értékek vagy a számlázási tevékenységek, például a számla-visszaigazolás vagy a számlajavítások által kiváltott tranzakció-sztornírozások között.
+A tranzakciós kapcsolat olyan entitás, amely két hasonló üzleti tranzakció, például a költség- és kapcsolódó értékesítési tényleges adatok vagy a tranzakció-visszafordítások közötti kapcsolatot tárolja, amelyeket olyan számlázási tevékenységek váltanak ki, mint a számla megerősítése vagy a számlakorrekciók.
 
-A Tranzakció eredete és a Tranzakciókapcsolati entitások együttesen segítenek nyomon követni kapcsolatok az üzleti tranzakciók és az adott üzleti tranzakció létrehozását eredményező műveletek között.
+A Tranzakció eredete és a Tranzakciókapcsolat entitások együttesen segítenek nyomon követni az üzleti tranzakciók és az adott üzleti tranzakció létrehozását okozó műveletek közötti kapcsolatok.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,55 +1,55 @@
 ---
 title: Project Operations telepítése és a konfigurációs adatok integrációja
-description: Ez a témakör a Project Operations kettős írású térképeinek beállításával és konfigurálásával kapcsolatban nyújt tájékoztatást.
+description: Ez a cikk a Project Operations kettős írású leképezéseinek beállításával és konfigurálásával kapcsolatos információkat tartalmaz.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914543"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations telepítése és a konfigurációs adatok integrációja
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a témakör a Project Operations alkalmazásnak a beállítási és konfigurációs entitások kettős írású integrációjával kapcsolatos információkat nyújt.
+Ez a cikk a Project Operations kettős írású integrációjáról nyújt tájékoztatást a beállítási és konfigurációs entitásokhoz.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektszerződés, szerződéssorok és projektek
 
-A projektszerződések, szerződéssorok és projektek további könyvelés céljából a Pénzügy és műveletek alkalmazásban jönnek létre Dataverse és szinkronizálódnak velük. Az ezekben az entitásokban lévő rekordok csak a(z) Dataverse felületen hozhatók létre és törölhetők. A Pénzügyi és műveletek alkalmazásban azonban hozzáadható ezekhez a rekordokhoz olyan könyvelési attribútumok, mint az áfacsoport alapértelmezései és a pénzügyi dimenziók.
+A projektszerződések, a szerződéssorok és a Dataverse projektek a Finance and Operations alkalmazásokban jönnek létre és szinkronizálódnak a rendszer a további könyvelés érdekében. Az ezekben az entitásokban lévő rekordok csak a(z) Dataverse felületen hozhatók létre és törölhetők. Ezekhez a rekordokhoz azonban hozzáadhatók olyan könyvelési attribútumok, mint az áfacsoport alapértelmezett értékei és a pénzügyi dimenziók a Finance and Operations alkalmazásokban.
 
   ![Projekt szerződés integrációs koncepciók.](./media/1ProjectContract.jpg)
 
-Az értékesítési tevékenység érdeklődői, a lehetőségek és az ajánlatok nyomon követhetők Dataverse, és nem szinkronizálódnak a Pénzügy és műveletek alkalmazásokkal, mert ehhez a tevékenységhez nincs downstream könyvelés társítva.
+Az értékesítési tevékenység érdeklődőinek, lehetőségeinek és árajánlatainak nyomon követése megtörténik Dataverse, és nem szinkronizálódnak a Finance and Operations alkalmazásokkal, mert ehhez a tevékenységhez nincs kapcsolódó alsóbb rétegbeli könyvelés.
 
-A projektszerződések funkciója a Projektszerződések Dataverse **táblaleképezés segítségével projektszerződés-rekordot hoz létre a** Pénzügy és műveletek alkalmazásban. A projektszerződés Dataverse felületre történő mentése egyben elindítja a projektszerződés ügyfél entitási rekordjának létrehozását is. Ez a rekord szinkronizálva van a Pénzügyi és üzemeltetési alkalmazásokkal a **Projektfinanszírozási forrás (msdyn\_ projectcontractssplitbillingrules)** táblatérkép használatával. Ez a térkép szinkronizálja a projektszerződések vevőinek kiegészítéseit, frissítéseit és törlését is. A projektszerződés-ügyfelek közötti megosztott számlázási százalékok csak a Pénzügy és műveleti alkalmazásokban Dataverse vannak elsajátítva, és nem szinkronizálódnak velük.
+A projektszerződés funkciója Dataverse létrehoz egy projektszerződés-rekordot a Finance and Operations alkalmazásokban a **Project-szerződés fejlécei (értékesítési rendelések)** táblatérképének használatával. A projektszerződés Dataverse felületre történő mentése egyben elindítja a projektszerződés ügyfél entitási rekordjának létrehozását is. Ez a rekord a Project finanszírozási forrás (msdyn **projectcontractssplitbillingrules)\_ táblatérkép használatával szinkronizálódik a** Finance and Operations alkalmazásokkal. Ez a térkép szinkronizálja a projektszerződések vevőinek kiegészítéseit, frissítéseit és törlését is. A projektszerződés-ügyfelek közötti felosztott számlázási százalékok csak a Dataverse Finance and Operations alkalmazásokban vannak elsajátítva, és nem szinkronizálódnak velük.
 
-A projektszerződés létrehozása Dataverse után a projektkönyvelő frissítheti a projektszerződés könyvelési attribútumait a Pénzügy és műveletek alkalmazásban, ha a Projektmenedzsment és könyvelés **projektszerződések** > **beállítása Beállítás** > **Alapértelmezett könyvelés** > **megjelenítése parancsra megy**. A könyvelő áttekintheti a műveleti projektszerződés attribútumait, például a kért szállítási dátumot és a szerződés összegét, ha kiválasztja a projektszerződés azonosítóját a Pénzügy és műveletek alkalmazásban, amely megnyitja a kapcsolódó projektszerződés-rekordot a alkalmazásban Dataverse.
+Miután létrehozta Dataverse a projektszerződést, a projektkönyvelő frissítheti a projektszerződés könyvelési attribútumait a Finance and Operations alkalmazásokban a Projektvezetési és könyvelési **projektszerződések** > **beállítása beállítás alapértelmezett könyvelés** > **beállítása** > **menüpontban**. A könyvelő áttekintheti az operatív projektszerződés attribútumait, például a kért szállítási dátumot és a szerződés összegét, ha kiválasztja a projektszerződés azonosítóját a Finance and Operations alkalmazásokban, amely megnyitja a kapcsolódó projektszerződés-rekordot a következőben Dataverse: .
 
-A projekt entitás szinkronizálva van a Finance and Operations alkalmazásokkal a **Projects V2 (msdyn\_ projects)** táblatérkép segítségével. A projekt könyvelője:
+A projektentitás szinkronizálása a Finance and Operations alkalmazásokkal a **Projects V2 (msdyn\_ projects)** táblatérkép használatával történik. A projekt könyvelője:
 
-  - Tekintse át a projekteket a Pénzügyi és üzemeltetési alkalmazásokban a **Projektmenedzsment és a számvitel** > **minden projekt** megnyitásával. 
-  - A projekt számviteli attribútumainak frissítése a Pénzügy és műveletek alkalmazásban a **Projektkezelés és számlázás** > **lapon Minden projekt** > **beállítása** > **Alapértelmezett könyvelés** megjelenítése.  
-  - Tekintse át a működési projektattribútumokat, például a becsült kezdési és befejezési dátumokat, ha kiválasztja a projektazonosítót a Pénzügy és műveletek alkalmazásban, amely megnyitja a kapcsolódó projektrekordot a alkalmazásban Dataverse.
+  - Tekintse át a Projekteket a Finance and Operations alkalmazásokban a **Projektvezetés és könyvelés** > **Minden projekt** oldalon. 
+  - Frissítse a projekt könyvelési attribútumait a Finance and Operations alkalmazásokban a **Projektvezetés és könyvelés** > **Minden projekt** > **beállítása Beállítás** > **Alapértelmezett könyvelés** megjelenítése elemre kattintva.  
+  - Tekintse át az operatív projektattribútumokat, például a becsült kezdési és befejezési dátumokat úgy, hogy kiválasztja a projektazonosítót a Finance and Operations alkalmazásokban, amely megnyitja a kapcsolódó projektrekordot a következő helyen:Dataverse.
 
 A projektek a **Projekt szerződéssor** entitáson keresztül kapcsolódnak egy projektszerződéshez.
 
-A projektszerződéssorok Dataverse létrehozása projektszerződés számlázási szabályt hoz létre a Pénzügy és műveletek alkalmazásban a **Projektszerződéssorok (salesorderdetails)** táblatérkép használatával. A számlázási módszer határozza meg a projektszerződés számlázási szabálytípusát a Pénzügy és műveletek alkalmazásban:
+A projektszerződés-sorok létrehoznak Dataverse egy projektszerződés számlázási szabályt a Finance and Operations alkalmazásokban a **Project-szerződéssorok (salesorderdetails)** táblatérkép használatával. A számlázási módszer határozza meg a projektszerződés számlázási szabályának típusát a Finance and Operations alkalmazásokban:
 
   - Az idő és az anyag számlázási módjával rendelkező projektszerződés-sorok létrehozzák az idő és az anyagtípus számlázási szabályát.
   - A fix áras számlázási mód szerződéses sorok mérföldkő számlázási szabályt hoznak létre.
 
-A projektszerződéssorokat a Projektkönyvelő a Pénzügy és műveletek alkalmazásban **a Projektmenedzsment és könyvelés** > **projektszerződések** > **beállítása Alapértelmezett** > **könyvelés** megjelenítése menüpontban, valamint a **Szerződéssorok** lapon található részletek áttekintésével tekintheti felül a projektkönyvelő. A könyvelő ezen a lapon is beállíthatja a rögzített árú számlázási mód szerződéssorainak alapértelmezett pénzügyi dimenzióit.
+A projektszerződések sorait a Projektkönyvelő a Finance and Operations alkalmazásokban úgy tekintheti meg, hogy megnyitja a **Projektvezetési és könyvelési** > **projektszerződések** > **beállítása Alapértelmezett könyvelés** > **megjelenítése lehetőséget**, és áttekinti a részleteket a **Szerződés sorok** lapon. A könyvelő ezen a lapon alapértelmezett pénzügyi dimenziókat is beállíthat a rögzített árú számlázási módszer szerződéses soraihoz.
 
 ## <a name="billing-milestones"></a>Számlázási mérföldkövek
 
-A fix áras számlázási módszert alkalmazó projektszerződések számlázása mérföldköveken keresztül történik. A számlázási mérföldkövek szinkronizálása a Projektműveletek integrációs szerződéssor mérföldkövei (msdyn **contractlineschedule ofvalues)\_ táblatérkép segítségével szinkronizálódik a** projekt részszámlázási tranzakcióival.
+A fix áras számlázási módszert alkalmazó projektszerződések számlázása mérföldköveken keresztül történik. A számlázási mérföldkövek szinkronizálása a Finance and Operations alkalmazások projektszámlás tranzakcióival a **Project Operations integrációs szerződés sorának mérföldkövei (msdyn\_ contractlinescheduleofvalues)** táblatérkép használatával történik.
 
   ![Számlázási mérföldkövek integrációja.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Amikor először hoz létre számlázási mérföldkövet egy adott projektszerz
 
 ### <a name="project-tasks"></a>Projektfeladatok
 
-A projekttevékenységek szinkronizálása a Pénzügy és műveletek alkalmazásokkal a **Project tevékenységek (msdyn\_ projecttasks)** táblatérképen keresztül történik, csak referenciacélokra. A létrehozási, frissítési és törlési műveleteket a Pénzügy és műveletek alkalmazások nem támogatják.
+A projekttevékenységek szinkronizálása a Finance and Operations alkalmazásokkal a **Project-tevékenységek (msdyn\_ projecttasks)** táblatérképen keresztül történik, csak referenciaként. A műveletek létrehozása, frissítése és törlése nem támogatott a Finance and Operations alkalmazásokon keresztül.
 
   ![Projektfeladatok integrálása.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projekt-erőforrások
 
-A **Project erőforrás-szerepkörök** entitása szinkronizálva van a Pénzügy és műveletek alkalmazásokkal, amelyek a **Project erőforrás-szerepköreit használják az összes vállalat (könyvelhető forráskategória)** táblatérképén, csak referencia célokra. Mivel a programban szereplő Dataverse erőforrás-szerepkörök nem vállalatspecifikusak, a rendszer automatikusan létrehozza a megfelelő vállalatspecifikus erőforrás-szerepkörrekordokat a Pénzügy és műveletek alkalmazásokban a kettős írási integrációs hatókörbe tartozó összes jogi személy számára.
+A **Projekterőforrás-szerepkörök** entitás szinkronizálása a Finance and Operations alkalmazásokkal az **összes vállalat (foglalható erőforráskategória)** táblatérkép projekterőforrás-szerepköreinek használatával történik, csak referenciaként. Mivel az Dataverse erőforrás-szerepkörök nem vállalatspecifikusak, a rendszer automatikusan létrehozza a megfelelő vállalatspecifikus erőforrásszerepkörök-rekordokat a Finance and Operations alkalmazásokban automatikusan a kettős írású integrációs hatókörbe tartozó összes jogi személy számára.
 
 ![Erőforrás-szerepek konfigurálása.](./media/5Resources.jpg)
 
-A Project Operations projekterőforrásai a rendszerben Dataverse vannak, és nincsenek szinkronizálva a Pénzügy és műveletek alkalmazásokkal.
+A Project Operations projekterőforrásai a Dataverse finance and operations alkalmazásokban vannak karbantartva, és nincsenek szinkronizálva a Finance and Operations alkalmazásokkal.
 
 ### <a name="transaction-categories"></a>Tranzakciókategóriák
 
-A tranzakciókategóriákat a Project tranzakciókategóriák (msdyn Dataverse tranzakciókategóriák) **táblatérképén a Rendszer a \_ Pénzügy és műveletek alkalmazásokkal** tartja karban, és szinkronizálja velük. A tranzakciókategória-rekord szinkronizálása után a rendszer automatikusan létrehoz négy megosztott kategóriarekordot. Minden rekord megfelel egy tranzakciótípusnak a Pénzügy és műveletek alkalmazásban, és összekapcsolja őket a tranzakciókategória-bejegyzéssel.
+A tranzakciós kategóriák karbantartása a Dataverse Finance and Operations alkalmazásokban történik, és szinkronizálódik velük a **Project tranzakciós kategóriák (msdyn\_ transactioncategories)** táblatérkép használatával. A tranzakciókategória-rekord szinkronizálása után a rendszer automatikusan létrehoz négy megosztott kategóriarekordot. Minden rekord egy tranzakciótípusnak felel meg a Finance and Operations alkalmazásokban, és összekapcsolja őket a tranzakciós kategória rekordjával.
 
 ![Tranzakciókategóriák integrálása.](./media/4TransactionCategories.jpg)
 

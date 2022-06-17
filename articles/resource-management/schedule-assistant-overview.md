@@ -1,17 +1,17 @@
 ---
 title: Ütemezési segéd áttekintése
-description: Ez a témakör az erőforrások Ütemezési segéddel végzett foglalásához nyújt tájékoztatást.
+description: Ez a cikk az ütemezési segéddel az erőforrások lefoglalásához való használatáról nyújt tájékoztatást.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d2146e959119a78a27927b9e694474b3f04579fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 884684aa572cd8444c11211a35894073d0f128b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918453"
 ---
 # <a name="schedule-assistant-overview"></a>Ütemezési segéd áttekintése
 

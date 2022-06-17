@@ -1,18 +1,18 @@
 ---
 title: Szállítói számla integrációja
-description: Ez témakör a Project Operations szolgáltatásban lévő szállítói számlák integrációjáról nyújt információt.
+description: Ez a cikk a szállítói számlák Project Operationsben való integrációjával kapcsolatos információkat tartalmaz.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912059"
 ---
 # <a name="vendor-invoice-integration"></a>Szállítói számla integrációja
 
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 A projekthez kapcsolódó beszerzés a(z) Dynamics 365 Project Operations felületen a **Kötelezettségek** > **Számlák** > **Függőben lévő szállítói számlák** pontban egy függőben lévő szállítói számla bizonylat használatával rögzíthető. További információkért lásd: [Nem raktározott anyagok beszerzése függőben lévő szállítói számlával](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Mielőtt a jelen témakör leírt funkciókat használod, tekintsd át és alkalmazd a szükséges konfigurációkat. További információkért lásd: [Nem raktározott anyagok és függőben lévő szállítói számlák engedélyezése](../procurement/configure-materials-nonstocked.md).
+> A cikkben ismertetett funkciók használata előtt tekintse át és alkalmazza a szükséges konfigurációkat. További információkért lásd: [Nem raktározott anyagok és függőben lévő szállítói számlák engedélyezése](../procurement/configure-materials-nonstocked.md).
 
 A Project Operations felületen a projekttel kapcsolatos szállítói számlák feladása speciális könyvelési szabályok alkalmazásával történik:
 
@@ -34,7 +34,7 @@ A Project Operations felületen a projekttel kapcsolatos szállítói számlák 
      > [!NOTE]
      > A szállítói számla részletei a(z) Dataverse felületen nem szerkeszthetők.
 
-Az adóalászt, a szállítói alfejezőt és az egyéb pénzügyi feladásokat a szállítói számla könyvelésekor Dynamics 365 Finance adott módon kell elszámolni.
+Az adó-alrendszeri adatszolgáltatási kötelezettség, a szállítói analitikus és egyéb pénzügyi feladások a szállítói számla feladásakor Dynamics 365 Finance adott esetben kerülnek rögzítésre.
 
 ![Szállítói számla integrációja.](media/DW7VendorInvoice.png)
 

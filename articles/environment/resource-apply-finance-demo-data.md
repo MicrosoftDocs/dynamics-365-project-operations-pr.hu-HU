@@ -1,24 +1,24 @@
 ---
 title: Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
-description: Ez a témakör bemutatja, hogyan lehet a Project Operations demóadatait egy Dynamics 365 Finance felhőben üzemeltetett környezetre alkalmazni.
+description: Ez a cikk azt ismerteti, hogyan alkalmazhat bemutató adatokat a Project Operationsből egy Dynamics 365 Finance felhőben üzemeltetett környezetre.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924663"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 > [!IMPORTANT]
-> Ez a témakör csak Microsoft Dynamics a 365 Finance 10.0.13-as verziójára vonatkozik, és csak felhőalapú környezetben végezhető el. A minőségi frissítések környezetbe való alkalmazása **ELŐTT** hajtsa végre a témakör lépéseit.
+> Ez a cikk csak a 365 Finance 10.0.13-as verziójára vonatkozik Microsoft Dynamics, és csak felhőben üzemeltetett környezetben hajtható végre. Kövesse a cikkben **található lépéseket, MIELŐTT** minőségi frissítéseket alkalmazna a környezetben.
 
 1. Az LCS-projektben nyissa meg a **Környezet részletei** oldalt. Figyelje meg, hogy tartalmazza a környezethez a távoli asztali protokoll (RDP) használatával való kapcsolódáshoz szükséges adatokat.
 
@@ -76,7 +76,7 @@ Ez pár percet is igénybe vehet. Kapnia egy megerősítő üzenetet, hogy a ren
 
 18. Zárja be a távoli asztali munkamenetet, és az LCS **Környezet részletei** oldal használatával lépjen be a környezetbe, és ellenőrizze, hogy az a várt módon működik.
 
-![Pénzügy és üzemeltetés.](./media/10FinanceAndOperations.png)
+![Pénzügyek és műveletek.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

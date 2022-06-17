@@ -1,17 +1,17 @@
 ---
 title: A(z) Dynamics 365 Project Operations eltávolítása
-description: Ez a témakör információkat ad arról, hogyan távolítható el a Dynamics 365 Project Operations.
+description: Ez a cikk az eltávolítás módjáról nyújt tájékoztatást Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 33a505594d6db47b4f8a0c8a630a0836f424e7d5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911967"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>A(z) Dynamics 365 Project Operations eltávolítása 
 
@@ -35,8 +35,8 @@ Az Dynamics 365 Project Operations eltávolításhoz rendszergazdai szerepkörre
     | 6 | ProjectServiceCore_Patch                           | Nincsenek további megjegyzések.                                                                         |
     | 7 | ProjectServiceCore                                 | Nincsenek további megjegyzések.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Ha nem található, hagyja ki ezt a megoldást.                                                            |
-    | 9 | FieldServiceCommon                                 | A kettős íráshoz Dynamics 365 Finance vagy a programmal szükséges Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | A kettős íráshoz Dynamics 365 Finance vagy a programmal szükséges Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Szükséges a kettős íráshoz Dynamics 365 Finance vagy Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Szükséges a kettős íráshoz Dynamics 365 Finance vagy Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | A Dynamics 365 Field Service használatához szükséges.                                                     |
     | 12 | msdyn_TESA_Patch                                   | A Dynamics 365 Field Service használatához szükséges.                                                     |
     | 13 | msdyn_TESA                                         | A Dynamics 365 Field Service használatához szükséges.                                                     |

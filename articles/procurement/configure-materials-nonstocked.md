@@ -1,18 +1,18 @@
 ---
 title: Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
-description: Ez a témakör elmagyarázza, hogyan engedélyezheti a nem raktározott anyagokat és a függőben lévő szállítói számlákat.
+description: Ez a cikk a nem raktározott anyagok és a függőben lévő szállítói számlák engedélyezését ismerteti.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913761"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Kettős írású térképek futtatása nem raktározott anyagokhoz és szállítói számlaintegrációhoz
 
-Ez a rész a nem raktározott anyagokhoz és szállítói számlákhoz szükséges térképek konkrét adatairól nyújt tájékoztatást. Ellenőrizze, hogy a Rendelkezésben felsorolt előfeltételes térképek [új környezet](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) témakör fut-e a környezetében.
+Ez a rész a nem raktározott anyagokhoz és szállítói számlákhoz szükséges térképek konkrét adatairól nyújt tájékoztatást. Ellenőrizze, hogy az Új környezet [kiépítése cikkben felsorolt](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) előfeltétel-leképezések futnak-e a környezeten.
 
 1. Nyissa meg a Lifecycle Services (LCS) lapot, navigáljon az LCS-projekthez, és lépjen a **Környezetvédelem részletei** oldalra.
 2. A **Common Data Service Környezeti információk** szakaszban válassza a **CDS-re alkalmazásokra mutató hivatkozás** lehetőséget. Miután kijelölte a hivatkozást, a rendszer átirányítja a leképezésekben szereplő entitások listájára.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920661"
 ---
 # <a name="work-breakdown-structures-overview"></a>Munkalebontási struktúrák áttekintése
 
@@ -35,7 +35,7 @@ A munkalebontási struktúra részletessége a becslések pontosságától, vala
 
 Ezzel szemben az olyan iparágakban lévő projektek, mint a média és a hirdetések, a szoftverek és az informatikai infrastruktúra általában egyfajta jellegűek, és a termelékenység a feladatot teljesítő egyén tapasztalatainak és kompetenciájának függvénye. Ezért ezek az iparágak a WBS-t a projektek méretének megközelítő becslésére használják, és nem a projekt előrehaladásának részletes nyomon követésére. 
 
-A WBS építése olyan intenzív folyamat, amelyet általában hosszú időszakon keresztül végeznek, és amely emberek széles körétől igényel együttműködést és információkat. Ez a témakör ismerteti, hogyan használhatók a WBS-fejlesztések a becslésekre és a nyomon követésre vonatkozó követelmények teljesítésére.
+A WBS építése olyan intenzív folyamat, amelyet általában hosszú időszakon keresztül végeznek, és amely emberek széles körétől igényel együttműködést és információkat. Ez a cikk azt ismerteti, hogyan használhatja a WBS fejlesztéseit a becslésekre és a nyomon követésre vonatkozó követelmények teljesítéséhez.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>A WBS létrehozásának előfeltételei
 WBS létrehozásához létre kell hoznia egy munkaütemezést, és meg kell becsülnie a munka költségét.
@@ -166,7 +166,7 @@ A pénzügy három nézetet tartalmaz a projekt WBS-éhez: a Tervezési nézet, 
 
 ### <a name="planning-view"></a>Tervezési nézet
 
-A Tervezési nézet az ütemezésre és a költségre vonatkozó információk tervezett vagy alap becslését jeleníti meg. Bár nincsenek a projekt WBS verzióinak és alapértékeinek követésére szolgáló funkciók, az ebben a nézetben szereplő értékek az alapverziót képviselik. Ennek a témakörnek az Ütemezés becslése és a Költségbecslés szakaszai ezt a nézetet mutatják be, valamint azt, hogy milyen módon lehet a használatával WBS-t létrehozni.
+A Tervezési nézet az ütemezésre és a költségre vonatkozó információk tervezett vagy alap becslését jeleníti meg. Bár nincsenek a projekt WBS verzióinak és alapértékeinek követésére szolgáló funkciók, az ebben a nézetben szereplő értékek az alapverziót képviselik. A cikk Ütemezésbecslés és Költségbecslés szakasza ismerteti ezt a nézetet, valamint azt, hogy hogyan használható a munkalebontási struktúrához.
 
 ### <a name="effort-tracking-view"></a>Erőfeszítések nyomon követésének megtekintése
 

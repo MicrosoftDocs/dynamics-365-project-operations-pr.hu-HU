@@ -1,25 +1,25 @@
 ---
 title: Újdonságok – 2021. március – Project Operations Lite központi telepítés
-description: Ez a témakör információval szolgál a minőségi frissítésekről, amelyek a Project Operations Lite központi telepítés 2021 márciusi kiadásában váltak elérhetővé.
+description: Ez a cikk a Project Operations lite telepítésének 2021. márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913899"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Újdonságok – 2021. március – Project Operations Lite központi telepítés
 
 _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a Dataverse-környezet 4.8.0.91 verzióján 
 

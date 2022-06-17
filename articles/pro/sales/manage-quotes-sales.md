@@ -1,17 +1,17 @@
 ---
 title: Projektárajánlatok kezelése
-description: Ez a témakör információkat nyújt a projektárajánlatokról.
+description: Ez a cikk a projekt idézeteiről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911645"
 ---
 # <a name="manage-project-quotes"></a>Projektárajánlatok kezelése
 
@@ -33,7 +33,7 @@ A projektárajánlatok listája az **Árajánlatok** listaoldalon látható.
 Árajánlatokat lehet létrehozni vagy törölni ebből a listából vagy részletes oldalakról.
 
  > [!NOTE]
- > Azok az ajánlatok, amelyekhez projektek, tevékenységek, becslések, naplók és/vagy tényleges programok kapcsolódnak, nem törölhetők. Továbbá, ha egy ajánlat won vagy elveszettként van lezárva, akkor már nem törölhető vagy módosítható. 
+ > Azok az idézetek, amelyekhez projektek, tevékenységek, becslések, naplók és/vagy tényleges adatok vannak társítva, nem törölhetők. Továbbá, ha egy idézetet Megnyert vagy Elveszettként zárnak le, akkor a továbbiakban nem törölhető vagy módosítható. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

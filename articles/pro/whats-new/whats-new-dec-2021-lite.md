@@ -1,49 +1,49 @@
 ---
-title: Újdonságok 2021. december - Project Operations lite deployment
-description: Ez a témakör a Project Operations lite üzembe helyezésének 2021. decemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+title: Újdonságok 2021. december - Project Operations lite üzembe helyezése
+description: Ez a cikk a Project Operations lite telepítésének 2021. decemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914083"
 ---
-# <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Újdonságok 2021. december - Project Operations lite deployment
+# <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Újdonságok 2021. december - Project Operations lite üzembe helyezése
 
 _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
 
-- Projektműveletek környezeti Dataverse verzióban 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Project Operations egy Dataverse környezeti verzióban 4.27.0.195, 4.27.0.242, 4.27.0.244
 
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
-### <a name="subcontract-management"></a>Alvállalkozói tevékenység kezelése 
+### <a name="subcontract-management"></a>Alvállalkozói szerződések kezelése 
 
-- [A projektcsapat tagjainak](../subcontracting/subcontracting-project-team-members.md) alvállalkozói: A projektmenedzser megnevezett vagy általános csapattagokat hozhat létre alvállalkozói szerződésekkel és alvállalkozói sorokkal, hogy befolyásolja a személyzetet és a becslést.
-- [Alvállalkozói lehetőségek a projektcsapat tagjai](../subcontracting/subcon-options.md) számára: Amikor megnevezett vagy általános projektcsapat-tagok számára személyzeti döntéseket hoz, a projektmenedzser áttekintheti a meglévő alvállalkozókat, vagy új alvállalkozói szerződéseket hozhat létre egy vagy több projektcsapat-tag számára. 
-- [Alvállalkozói erőforrás-hozzárendelések](../subcontracting/costing-subcon-ra.md) költségbecslése: A projektköltség-becslés figyelembe veszi az alvállalkozói erőforrás-hozzárendeléseket, és az alvállalkozókhoz társított beszerzési árlisták használatával kerül költséget. 
-- [Az Ütemezési tábla konfigurálása a szerződéses dolgozók és az alvállalkozói kapacitás](../subcontracting/configure-sb-subcon.md) megjelenítésére: A Projektműveletek ütemezési táblája mostantól konfigurálható úgy, hogy az alkalmazottakkal együtt megkeresse és javasolja a szerződéses dolgozó típusú lefoglalható erőforrásokat és alvállalkozói kapacitást. Ez a konfiguráció akkor alkalmazható, ha erőforrásokat keres egy adott projektkövetelmény személyzeti környezetében, vagy ha egy projektkövetelmény kontextusán kívül keres.
-- [A szerződéses munkavállalókkal és alvállalkozói kapacitással rendelkező projekt személyzete](../subcontracting/staffing-cw.md): A szerződéses munkavállalók most már az ütemterv-tábla tapasztalatait kihasználó projektekre foglalhatók.
-- [Az alvállalkozói](../subcontracting/recording-subcon-actuals.md) összetevők projektjeinek idő-, költség- és anyagfelhasználásának rögzítése: A szerződéses dolgozók rögzíthetik az időt és a költségeket, és a projektcsapat tagjai a projekt alvállalkozói szerződéssel vásárolt anyagok felhasználását is rögzíthetik. Ez azt eredményezi, hogy pontos költségeket rögzítenek a megvásárolt kapacitást vagy anyagokat használó projekteknél.
-- [Állami átmenetek egy alvállalkozói szerződésen](../subcontracting/subcon-states.md): Az alvállalkozók megerősíthetők a szállítóval folytatott tárgyalások befejezéséhez, lezárhatók a szállítás befejezésének jelzésére, vagy visszavonhatók, hogy jelezzék a szerződés megszüntetését az eladóval a szállítás befejezése előtt.
+- [Alvállalkozói projektcsapat tagjainak](../subcontracting/subcontracting-project-team-members.md): A projektmenedzser létrehozhat megnevezett vagy általános csapattagokat alvállalkozói és alvállalkozói vonalakkal a személyzet és a becslés befolyásolása érdekében.
+- [Alvállalkozási lehetőségek a projektcsapat tagjainak](../subcontracting/subcon-options.md): Amikor a megnevezett vagy általános projektcsapat tagjai számára személyzeti döntéseket hoz, a projektmenedzser áttekintheti a meglévő alvállalkozói szerződéseket, vagy új alvállalkozói szerződéseket hozhat létre egy vagy több projektcsapat-tag számára. 
+- [Alvállalkozói erőforrás-hozzárendelések](../subcontracting/costing-subcon-ra.md) költségbecslése: A projekt költségbecslése figyelembe veszi az alvállalkozói erőforrás-hozzárendeléseket, és az alvállalkozókhoz társított beszerzési árlisták használatával kerül nekik. 
+- [Az ütemezési tábla konfigurálása a szerződéses dolgozók és az alvállalkozói kapacitás](../subcontracting/configure-sb-subcon.md) megjelenítésére: A Project Operations ütemezési táblája mostantól konfigurálható úgy, hogy az alkalmazottakkal együtt megkeresse és javasolja a szerződéses dolgozói típusát a foglalható erőforrásoknak és az alvállalkozói kapacitásnak. Ez a konfiguráció akkor alkalmazható, ha erőforrásokat keres egy adott projektkövetelmény személyzetének kontextusában, vagy ha a projektkövetelmény kontextusán kívül keres.
+- [Projekt személyzete szerződéses alkalmazottakkal és alvállalkozói kapacitással](../subcontracting/staffing-cw.md): A szerződéses dolgozók mostantól lefoglalhatók olyan projektekre, amelyek az ütemezési igazgatóság tapasztalatait használják fel.
+- [Idő, költségek és anyagfelhasználás rögzítése az alvállalkozói összetevők](../subcontracting/recording-subcon-actuals.md) projektjein: A szerződéses dolgozók rögzíthetik az időt és a költségeket, a projektcsapat tagjai pedig rögzíthetik a projekt alvállalkozói szerződésével vásárolt anyagok felhasználását is. Ez azt eredményezi, hogy a megvásárolt kapacitást vagy anyagokat felhasználó projektek pontos költségeit rögzítik.
+- [Alvállalkozói szerződésre](../subcontracting/subcon-states.md) vonatkozó állapotátlépések: Az alvállalkozói szerződések megerősíthetők a szállítóval folytatott tárgyalások befejezéséhez, lezárhatók a szállítás befejezésének jelzésére, vagy lemondhatók, hogy jelezzék a szállítóval kötött szerződés megszűnését a szállítás befejezése előtt.
 
-### <a name="task-planning"></a>Tevékenységtervezés
-- Továbbfejlesztett hibaelhárítás rendszergazdák számára. Ha egy felhasználó nem tud megnyitni egy projektet, a rendszergazda áttekintheti a Project for the Web projektprogramozási naplóiban [a](../../project-management/schedule-api-logs.md) Project for the Web szolgáltatásból származó, nem licenccel kapcsolatos hibákat.
-- [Használjon feladatellenőrző listákat a Microsoft Project for the Web programban](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). A Microsoft Project for the Web programban ellenőrzőlistát adhat egy tevékenységhez, hogy nyomon kövesse az egyes elemeket.
+### <a name="task-planning"></a>Feladattervezés
+- Továbbfejlesztett hibaelhárítás rendszergazdák számára. Ha egy felhasználó nem tud megnyitni egy projektet, a rendszergazda áttekintheti a Project for the webből létrehozott, licenccel nem kapcsolatos hibákat a Project ütemezési [naplóiban](../../project-management/schedule-api-logs.md).
+- [Feladat-ellenőrzőlisták használata a](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) Webes Microsoft Projectben. A Webes Microsoft Projectben ellenőrzőlistát adhat hozzá egy feladathoz, hogy nyomon kövesse az adott elemeket.
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
 | **Funkcióterület** | **Hivatkozási szám** | **Minőségi frissítés** |
 | --- | --- | --- |
-| Tervezés és nyomon követés | 2392596 | Az ütemezési API-k mostantól lehetővé teszik a Hátralévő **erőfeszítés,** a Befejezett **erőfeszítés és** a **Készültségi** % mezők frissítését. |
-| Tervezés és nyomon követés | 2478497 | Az API-k **ütemezése A tevékenységszám** és **a tevékenységazonosító** mezők üresek lehetnek a bemeneten, mert a rendszer automatikus számozással tölti fel őket.|
+| Tervezés és nyomon követés | 2392596 | Az ütemezési API-k mostantól lehetővé teszik a Hátralévő **erőfeszítés,** a Befejezett **erőfeszítés és** a **Készültségi %** mezők frissítését. |
+| Tervezés és nyomon követés | 2478497 | Az ÜTEMEZÉSI API-k **tevékenységszáma** és **a tevékenységazonosító** mezők üresek lehetnek a bevitelkor, mert a rendszer automatikus számozással tölti fel őket.|
 | Idő és költség | 2468135 | A jóváhagyási újrapróbálkozások száma ötről háromra csökken. |
-| Idő és költség | 2468188 | Kijavítottuk azt a problémát, hogy a naplószöveg túllépte a jegyzettömb **entitás jegyzetszöveg-attribútumában** **a** maximális hosszúságot. |
+| Idő és költség | 2468188 | Kijavítottuk azt a hibát, amely miatt a naplószöveg túllépte a jegyzetszöveg attribútumában található maximális hosszúságot a **kommentár** entitás notetext **attribútumában**. |

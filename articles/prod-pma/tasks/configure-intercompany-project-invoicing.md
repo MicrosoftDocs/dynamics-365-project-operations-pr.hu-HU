@@ -1,6 +1,6 @@
 ---
 title: A vállalatközi projektek számlázásának konfigurálása
-description: Ez a témakör azt mutatja be, hogyan állítható be projektszámlázás a szervezet két vállalata között.
+description: Ez a cikk bemutatja, hogyan állíthatja be a projekt számlázását a szervezet két vállalata között.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916613"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>A vállalatközi projektek számlázásának konfigurálása
 
 [!include [banner](../../includes/banner.md)]
 
-Ez a témakör azt mutatja be, hogyan állítható be projektszámlázás a szervezet két vállalata között. Ez a feladat a USSI adatkészletet használja.
+Ez a cikk bemutatja, hogyan állíthatja be a projekt számlázását a szervezet két vállalata között. Ez a feladat a USSI adatkészletet használja.
 
 1. A Navigáció ablaktáblán nyissa meg a következőt: **Modulok > Kötelezettségek > Szállítók > Minden szállító**.
 2. Keresse meg, majd jelölje ki a kívánt rekordot a **Minden szállító** listán.

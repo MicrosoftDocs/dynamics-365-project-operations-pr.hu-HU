@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 23-es frissítési kiadásának V3 változatában
-description: Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 23-os frissítési kiadásában.
+description: Ez a cikk a Project Service Automation 23-as, V3-as kiadásában elérhető szolgáltatásokat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cc918f1516d4751b3f8e70a93d8fc66058201f22
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 968626c7b2097a9b85178cb000b3633a766f54c9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913032"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation 23-es frissítési kiadás, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581609"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 23-es frissítési kiadásában. Ennek a verziónak a buildszáma V3.10.34.30, és általánosan elérhető egy önálló frissítésben 2020 augusztusában.
+Ez a cikk azokat a funkciókat és javításokat sorolja fel, amelyek a Project Service Automation V3 23., 23. kiadásának frissítésével kapcsolatos újdonságok és javítások. Ennek a verziónak a buildszáma V3.10.34.30, és általánosan elérhető egy önálló frissítésben 2020 augusztusában.
 
 ## <a name="update-release-23"></a>23-ös frissítési kiadás
 

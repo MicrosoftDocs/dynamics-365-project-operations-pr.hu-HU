@@ -1,6 +1,6 @@
 ---
 title: Alapszintű Árajánlat-készítési, Árképzési és Számlázási útmutató
-description: A témakör hivatkozásai a Project Service Automation árajánlat-készítéséről, számlázásáról és árképzéséről tartalmaznak információt.
+description: Ez a cikk a Project Service Automation alapszintű árajánlatával, díjszabásával és számlázásával kapcsolatos információkra mutató hivatkozásokat tartalmaz.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910801"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Alapszintű árajánlat-készítési, árképzési és számlázási útmutató
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592235"
 
 A megfelelő erőforrások megfelelő időben történő megkeresése, a projektek erőforrásainak lefoglalása és a felhasznált erőforrások megtartása segíti a szervezeteket a bevételi célok és az ügyfél-elégedettségi célok teljesítésében. 
 
-A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi témakörökbe:
+A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
 
 - [Árajánlat-készítés, árképzés és számlázás](../quote-bill-price.md)
 - [Értékesítési folyamatok](../basic-sales-process.md)
@@ -50,7 +50,7 @@ A témakörben korábban szereplő PDF-hivatkozás el lett távolítva, és a ta
 - [Tényadatok rögzítése](../advanced-actuals.md)
 
 > [!NOTE]
-> Ez a témakör egy későbbi dokumentációs frissítésben kerül eltávolításra. 
+> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
 title: Újdonságok - 2021. augusztus - Project Operations erőforrás/nem készletalapú forgatókönyvekhez
-description: Ez a témakör a Project Operations 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást az erőforrás/nem készletalapú forgatókönyvek esetében.
+description: Ez a cikk a Project Operations 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912289"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok - 2021. augusztus - Project Operations erőforrás/nem készletalapú forgatókönyvekhez
 
 *Érvényesség: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén*
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.13.0.152 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és számvitel Dynamics 365 Finance környezetvédelmi verzióban 10.0.20.
+   - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.20-as verzió.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -54,7 +54,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó t
 | Idő és költség | 2336884 | A **Hét másolása** időbejegyzés gombnak nem csak az aktuális felhasználó számára kell működnie. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

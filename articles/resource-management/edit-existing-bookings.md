@@ -1,24 +1,24 @@
 ---
 title: Foglalások szerkesztése
-description: A témakör a foglalások frissítésével és módosításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a foglalások frissítésével és módosításával kapcsolatos információkat tartalmaz.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915233"
 ---
 # <a name="edit-bookings"></a>Foglalások szerkesztése
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-Ha olyan projektben történik módosítás, amelyhez a meglévő foglalások frissítése szükséges, akkor többféleképpen is elvégezheti a módosításokat. A témakör a foglalások frissítésével és módosításával kapcsolatos információkat vázolja fel.
+Ha olyan projektben történik módosítás, amelyhez a meglévő foglalások frissítése szükséges, akkor többféleképpen is elvégezheti a módosításokat. Ez a cikk a foglalások frissítését és módosítását ismerteti.
 
 ## <a name="resource-reconciliation"></a>Erőforrás-egyeztetés
 

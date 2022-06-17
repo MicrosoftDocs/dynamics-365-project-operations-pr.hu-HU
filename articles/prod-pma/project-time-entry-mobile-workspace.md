@@ -1,6 +1,6 @@
 ---
 title: Projektidő-beviteli mobil munkaterület
-description: Ez a témakör a Projektidő-beviteli mobil munkaterület használatáról nyújt információkat. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
+description: Ez a cikk a Projekt időbevitel mobil munkaterületéről nyújt tájékoztatást. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919541"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projektidő-beviteli mobil munkaterület
 
 [!include [banner](../includes/banner.md)]
 
-Ez a témakör a **Projektidő-beviteli** mobil munkaterület használatáról nyújt információkat. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
+Ez a cikk a **Projekt időbevitel** mobil munkaterületéről nyújt tájékoztatást. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
 
 Ez a mobil munkaterület a Dynamics 365 Unified Ops mobilalkalmazással való használatra készült. 
 

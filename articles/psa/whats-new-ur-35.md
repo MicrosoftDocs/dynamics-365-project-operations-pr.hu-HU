@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 35-es frissítési kiadásának V3 változatában
-description: Ez a témakör a Microsoft Dynamics 365 Project Service Automation Update Release 35, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a 35-ös kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e210777f1e4d149b700721ac7fb9bd129b1166fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28b4a5ccbfff83c9b1a18cb0b4062af9cdaf8f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912841"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-35-v3"></a>Újdonságok vagy változások a Project Service Automation 35-es frissítési kiadásának V3 változatában
 
@@ -29,7 +29,7 @@ ms.locfileid: "8574031"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 35-os frissítési kiadásában. Ennek a verziónak a build száma V3.10.56.110, és 2021 szeptemberében egy önfrissítéssel válik általánosan elérhetővé.
+Ez a cikk azokat a funkciókat és javításokat sorolja fel, amelyek a Project Service Automation 35-ös, V3-as kiadásának újdonságai vagy módosításai. Ennek a verziónak a build száma V3.10.56.110, és 2021 szeptemberében egy önfrissítéssel válik általánosan elérhetővé.
 
 ## <a name="update-release-35"></a>35-ös frissítési kiadás
 

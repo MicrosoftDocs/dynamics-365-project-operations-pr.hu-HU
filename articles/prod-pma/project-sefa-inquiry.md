@@ -1,6 +1,6 @@
 ---
 title: A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
-description: Ez a témakör a szövetségi díjak kiadásával kapcsolatos lekérdezés ütemezésére vonatkozó információkat tartalmaz.
+description: Ez a cikk a szövetségi díjak kiadási ütemtervének vizsgálatáról nyújt tájékoztatást.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: b88c97f3dcb1020ccf17788256990485580f6964
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 00f9e97b9a6b3e8fe5e9cf9143e670612869b84c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916659"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
 

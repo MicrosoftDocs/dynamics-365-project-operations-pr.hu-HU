@@ -1,6 +1,6 @@
 ---
 title: Árajánlatok – alapfogalmak
-description: Ez a témakör a Project Operations projektárajánlatairól és értékesítési árajánlatairól nyújt információt.
+description: Ez a cikk a Project Operationsben elérhető projektajánlatokról és értékesítési árajánlatokról nyújt tájékoztatást.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912519"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>A csak Projektalapú árajánlatokra jellemző fogalmak
 
@@ -35,7 +35,7 @@ A Dynamics 365 Project Operations rendszerben kétféle árajánlat létezik: pr
 - **Mezők és fogalmak**: Az értékesítési árajánlat nem tartalmaz bizonyos olyan mezőket és fogalmakat, amelyek szerepelnek egy projektárajánlatban. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
 - **Típus**: Az értékesítési árajánlatokat és a projektárajánlatokat egy értékkészlet-alapú **Típus** mező is azonosítja. Értékesítési árajánlat esetén ebben a mezőben az érték **elemalapú**. A projektárajánlat esetén az érték **Munkaalapú**.
 
-Ez a témakör a projektárajánlat részletes adataival foglalkozik.
+Ez a cikk a projekt idézetek részleteire összpontosít.
 
 A Project Operations projektárajánlata több sorelemmel vagy árajánlatsorral is rendelkezhet. A projektárajánlat két rácsot tartalmaz a sorokhoz. Az egyik rács a projektalapú sorokhoz használható, amelyek lehetővé teszik a részletes becslést. A másik rács az egyszerű egységárat és a mennyiségi alapú megközelítést használó termékalapú sorokhoz tartozik.
 

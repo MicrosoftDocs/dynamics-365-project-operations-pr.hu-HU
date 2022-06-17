@@ -1,6 +1,6 @@
 ---
 title: Speciális szerződések létrehozása folyamatalapú számlázáshoz
-description: Ez a témakör elmagyarázza, hogyan hozhatók létre a projektszerződések, hogy a befejezett munkák aránya alapján számlákat lehessen létrehozni az ügyfelek számára.
+description: Ez a cikk bemutatja, hogyan hozhat létre projektszerződéseket, hogy a befejezett munka százalékos aránya alapján számlákat hozhasson létre a vevők számára.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913669"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Speciális szerződések létrehozása folyamatalapú számlázáshoz
 [!include [banner](../includes/banner.md)]
 
-Ez a témakör elmagyarázza, hogyan hozhatók létre a projektszerződések, hogy a befejezett munkák aránya alapján számlákat lehessen létrehozni az ügyfelek számára. A számlaösszegeket a program automatikusan kiszámítja a projekthez beállított, meghatározott költségvetési kategóriákhoz. A számla időzítését akkor adja meg a program, amikor egyezteti a projektszerződést az ügyféllel.
+Ez a cikk azt ismerteti, hogyan hozhat létre projektszerződéseket, hogy a befejezett munka százalékos aránya alapján számlákat hozhasson létre a vevők számára. A számlaösszegeket a program automatikusan kiszámítja a projekthez beállított, meghatározott költségvetési kategóriákhoz. A számla időzítését akkor adja meg a program, amikor egyezteti a projektszerződést az ügyféllel.
 
-Az ebben a témakör található eljárások segítségével beállíthat egy szerződést, egy társított projektet és a számlázási szabályokat, amelyek kiszámítják a projekthez beállított munkavégzési kategóriákhoz tartozó számlaösszegeket.
+A cikkben ismertetett eljárásokkal beállíthat egy szerződést, egy társított projektet, valamint azokat a számlázási szabályokat, amelyek a projekthez beállított költségvetési munkakategóriákhoz tartozó számlaösszegeket számítják ki.
 
 A szerződés és a projekt létrehozása után beállíthatja a projekt részleteit. Megadhatja például a tevékenységeket, és a projekthez rendelheti a dolgozókat.
 

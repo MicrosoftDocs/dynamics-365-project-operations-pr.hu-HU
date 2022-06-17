@@ -1,26 +1,26 @@
 ---
 title: Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a témakör információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. novemberi kiadásában váltak elérhetővé.
+description: Ez a cikk a Project Operations 2020. novemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923421"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a CDS-környezet 4.4.0.70 verzióján
-- Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.14-es verzióban
+- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.14-es verzió
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Project Operations erőforrás-/nem készletalapú forgatókönyvek frissítései
 
@@ -65,7 +65,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Projekt könyvelése  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | A Több szerződéssor funkció engedélyezése a CDS-integráció nélkül nem lehetséges.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

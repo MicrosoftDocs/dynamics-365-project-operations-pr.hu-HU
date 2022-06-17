@@ -1,26 +1,26 @@
 ---
 title: Újdonságok vagy módosítások 2021 áprilisában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: Ez témakör a Project Operations 2021 áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/gyártáson alapuló forgatókönyvek esetében.
+description: Ez a cikk a Project Operations 2021. áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készletezett/éles környezetben üzembe helyezett forgatókönyvekhez.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916475"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 áprilisában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
 _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Projektmenedzsment és számvitel Dynamics 365 Finance környezetben 10.0.18-as verzió
+- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.18-as verzió
  
 ### <a name="quality-updates"></a>Minőségi frissítések
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és 
 | Utazás és költség                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Ha egy költségkategória nem projektkategória, a **Költségek** lapon kiválasztott pénzügyi dimenziók nem lesznek átmásolva a költségjelentésbe.                                          |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-A Pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalókért tanulmányozza a Szabályozási frissítések című [témakört](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

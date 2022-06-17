@@ -1,6 +1,6 @@
 ---
 title: Előrejelzési modellek létrehozása a projektköltségvetésekhez
-description: Ez a témakör ismerteti, hogyan lehet előrejelzési modellt létrehozni a fennmaradó költségvetésekhez.
+description: Ez a cikk azt ismerteti, hogyan hozhat létre előrejelzési modellt a fennmaradó költségvetésekhez.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916705"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Előrejelzési modellek létrehozása a projektköltségvetésekhez 
 
 [!include [banner](../includes/banner.md)]
 
-Ez a témakör ismerteti, hogyan lehet előrejelzési modellt létrehozni a fennmaradó költségvetésekhez. Egy költségvetés-ellenőrzés alá tartozó projekt a következő két típusú költségvetést használja: eredeti és fennmaradó. A projektek költségvetésének létrehozásakor meg kell adnia az **Előrejelzési modellek** lapon létrehozott eredeti és fennmaradó költségvetési előrejelzési modelleket. A projektek költségvetések a megadott modellek alapján jönnek létre, amikor véglegesíti a projekt költségvetését.
+Ez a cikk azt ismerteti, hogyan hozhat létre előrejelzési modellt a fennmaradó költségvetésekhez. Egy költségvetés-ellenőrzés alá tartozó projekt a következő két típusú költségvetést használja: eredeti és fennmaradó. A projektek költségvetésének létrehozásakor meg kell adnia az **Előrejelzési modellek** lapon létrehozott eredeti és fennmaradó költségvetési előrejelzési modelleket. A projektek költségvetések a megadott modellek alapján jönnek létre, amikor véglegesíti a projekt költségvetését.
 
 > [!NOTE]
 > A költségvetés-ellenőrzéshez használt előrejelzési modell nem lehet almodell vagy nem használható almodellként.

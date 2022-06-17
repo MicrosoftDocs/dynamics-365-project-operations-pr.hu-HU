@@ -1,6 +1,6 @@
 ---
 title: Projekt előrehaladása és költségfogyasztása
-description: Ez a témakör a projekt előrehaladásának és a költségfelhasználásnak a nyomon követéséről nyújt információkat.
+description: Ez a cikk a projekt előrehaladásának és a költségfelhasználásnak a nyomon követéséről nyújt tájékoztatást.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921765"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projekt előrehaladása és költségfogyasztása
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575261"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükségessége iparáganként eltérő. Egyes iparágak granulált szinten követik el, mások viszont magasabb szinten követnek nyomot. Ez a témakör bemutatja, hogyan kell ütemezni a szervezet követelményeit.
+Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükségessége iparáganként eltérő. Egyes iparágak granulált szinten követik el, mások viszont magasabb szinten követnek nyomot. Ez a cikk bemutatja, hogyan ütemezheti a szervezet követelményeinek való megfelelést.
 
 ## <a name="effort-tracking-view"></a>Erőfeszítések nyomon követésének megtekintése
 

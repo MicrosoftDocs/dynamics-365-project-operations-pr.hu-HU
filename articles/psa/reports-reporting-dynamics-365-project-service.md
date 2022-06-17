@@ -1,6 +1,6 @@
 ---
-title: Jelentés kezdőlapja
-description: Ez a témakör a Dynamics 365 Project Service Automation rendszerben történő jelentések leírását tartalmazza.
+title: Jelentéskészítés kezdőlapja
+description: Ez a cikk a Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921673"
 ---
 # <a name="reporting-home-page"></a>Jelentéskészítés kezdőlapja
 
@@ -47,7 +47,7 @@ A Microsoft Power BI és a Dynamics 365 együttesen hatékony módszert kínál 
 
 
 ## <a name="additional-resources"></a>További információforrások
-A PSA-ban történő jelentéssel kapcsolatos további információkért lásd a következő témákat:
+A PSA-ban való jelentéskészítéssel kapcsolatos további információkért tekintse meg a következő cikkeket:
 
 - [Munka a Project Service adatmodellel](reports-working-project-service-data-model.md)
 - [Irányítópultok](reports-dashboards.md)

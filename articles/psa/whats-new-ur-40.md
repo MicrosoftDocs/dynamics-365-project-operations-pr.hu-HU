@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 40-es frissítési kiadásának V3 változatában
-description: Ez a témakör a Microsoft Dynamics 365 Project Service Automation Update Release 40, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a 40-es kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 25f375ce648eb7d233f6433739832caee351830d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca7f340b8d544b183aa0390ac3c11a38f536ed0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912795"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-40-v3"></a>Újdonságok vagy változások a Project Service Automation 40-es frissítési kiadásának V3 változatában
 
@@ -29,21 +29,21 @@ ms.locfileid: "8588647"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a témakör felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 40-os frissítési kiadásában. Ennek a verziónak a build száma V3.10.61.61, és általánosan elérhető egy önálló frissítésben 2022 februárjában.
+Ez a cikk azokat a szolgáltatásokat és javításokat sorolja fel, amelyek a Project Service Automation 40-es kiadásának 3.-as verziójához újak vagy módosultak. Ennek a verziónak a build száma V3.10.61.61, és általánosan elérhető egy önálló frissítésben 2022 februárjában.
 
 ## <a name="update-release-40"></a>40-ös frissítési kiadás
 
 ### <a name="features"></a>Funkciók
-A Project Service Automation-ről a Project Operations - Lite-ra történő frissítés 1. fázisa 2022 februárjában jelenik meg minden ügyfél számára. A jogosultság ellenőrzéséhez olvassa el a Frissítés a projektszolgáltatás automatizálásáról a projektműveletekre című [témakört](upgrade-project-operations-non-stocked.md). Ha az alkalmazás nem jelenik meg a példányban az Admin Centerben, lépjen kapcsolatba az Power Platform ügyfélszolgálattal, és kérje, hogy engedélyezze a járatot a környezetekben. A kérésnek tartalmaznia kell azoknak a környezeti azonosítóknak a listáját, amelyekben engedélyezni kell a járatot.
+A Project Service Automationről a Project Operations - Lite-ra való frissítés 1. fázisa 2022 februárjában jelenik meg minden ügyfél számára. A jogosultság ellenőrzéséhez lásd: [Frissítés a Project Service Automationről a Project Operationsre](upgrade-project-operations-non-stocked.md). Ha az alkalmazás nem jelenik meg a példányban a Felügyeleti központban, forduljon az Power Platform ügyfélszolgálathoz, és kérje meg, hogy engedélyezze a járatot a környezetekben. A kérelemnek tartalmaznia kell azon környezeti azonosítók listáját, ahol a járatot engedélyezni kell.
 
 ### <a name="bug-fixes"></a>Hibajavítások
 
 A következő problémák kerültek kijavításra.
 
 **Idő és költség**
-- Egy megjegyzésbejegyzés hiányzik, ha egy időbejegyzést elutasítanak vagy visszavonnak. 
+- Egy jegyzetbejegyzés hiányzik, ha egy időbevitelt elutasítanak vagy törölnek. 
 
 **Értékesítés**
 
-- Ha a költség- vagy értékesítési becsléseket beépített beépülő modulokkal frissíti, helytelenül küldhet olyan JSON-hasznos adatokat, amelyek nem érvényesek a felhasználói felületen kívül.
-- Ha az ajánlatsorokat a gyorsnézettel frissíti, aktiválhatja az ajánlatokat.
+- Ha a költség- vagy értékesítési becsléseket beépített beépülő modulokkal frissíti, helytelenül küldhet olyan JSON-adatcsomagokat, amelyek nem érvényesek a felhasználói felületen kívül.
+- Ha a gyorsnézettel frissíti az árajánlatsorokat, aktiválhatja az idézőjeleket.

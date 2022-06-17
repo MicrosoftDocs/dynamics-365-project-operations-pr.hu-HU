@@ -1,6 +1,6 @@
 ---
 title: Nyugta rögzítése OCR használatával
-description: Ez a témakör a nyugták optikai karakterfelismeréssel (OCR) való feldolgozásáról nyújt információkat.
+description: Ez a cikk a nyugták optikai karakterfelismerési (OCR) feldolgozásáról nyújt tájékoztatást.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee16a43fa544af793676072f304d732359d3d9ec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917809"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Nyugta rögzítése OCR használatával
 
@@ -52,7 +52,7 @@ Ha költséget szeretne létrehozni, vagy költséget szeretne egyeztetni egy ny
 
 ## <a name="installation"></a>Telepítés
 
-Ezeknek a speciális költségelszámolási képességeknek a használatához telepítse a Költségkezelési szolgáltatás bővítményt a 365 Pénzügy szolgáltatáshoz Microsoft Dynamics, és kapcsolja be a példány szolgáltatásait. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
+Ezeknek a speciális költségképességeknek a használatához telepítse a Költségkezelési szolgáltatás bővítményt a 365 Finance szolgáltatáshoz Microsoft Dynamics, és kapcsolja be a példány funkcióit. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
 
 1. Jelentkezzen be az LCS rendszerbe, és nyissa meg a kívánt környezetet.
 2. Válassza a **Minden részlet** lehetőséget.
@@ -85,7 +85,7 @@ Nem, a Microsoft általános gépi tanulás modellt készített a nyugtákat fel
 
 **Hol érhető el és hol kerül feldolgozásra a szolgáltatás?**
 
-A szolgáltatás különböző régiókban való elérhetőségét az alábbi táblázat tartalmazza. Ha a régió jelenleg nem támogatott, küldjön egy kérelmet az OCR-szolgáltatás elérhetőségének rangsorolására a régióban. 
+A funkció különböző régiókban való elérhetőségét az alábbi táblázat sorolja fel. Ha a régió jelenleg nem támogatott, küldjön be egy kérést az OCR szolgáltatás elérhetőségének rangsorolására a régióban. 
 
 | Régió | Támogatott                         |
 |--------|-----------------------------------|

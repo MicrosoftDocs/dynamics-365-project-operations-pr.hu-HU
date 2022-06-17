@@ -1,24 +1,24 @@
 ---
 title: Újdonságok 2020. december – Project Operations Lite központi telepítés – ajánlattól proforma számlázásig
-description: Ez a témakör információval szolgál a minőségi frissítésekről, amelyek a Project Operations Lite központi telepítés – ajánlattól proforma számlázásig 2020. decemberi kiadásában váltak elérhetővé.
+description: Ez a cikk a Project Operations Lite üzembe helyezésének 2020. decemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást – a proforma számlázással kapcsolatos megállapodásról.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924065"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Újdonságok 2020. december – Project Operations Lite központi telepítés – ajánlattól proforma számlázásig
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
   - Project Operations a Dataverse-környezet 4.5.0.134 verzióján 
 

@@ -1,18 +1,18 @@
 ---
 title: Proforma számlák
-description: Ez témakör a Project Operations szolgáltatásban lévő proforma számlákról nyújt információt.
+description: Ez a cikk a Project Operations proforma számláiról nyújt tájékoztatást.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7b56c3908cce3115d5c95a4b1b233db70fb6c149
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920569"
 ---
 # <a name="proforma-invoices"></a>Proforma számlák
 
@@ -84,7 +84,7 @@ Projektszámla-vázlat létrehozásakor minden olyan még nem számlázott ért�
 A számla megerősítéséhez válassza a **Megerősítés** lehetőséget. A Megerősítés egyirányú művelet. Ha a **Megerősítés** lehetőséget választja, a rendszer a számlát csak olvashatóvá teszi, és tényleges számlázott értékesítési értékeket hoz létre az egyes számlasorok adatairól. Ha a számlasor-adat egy nem számlázott tényleges értékesítésre mutat, akkor a rendszer a nem számlázott értékesítési értéket is megfordítja. (Azon számlasor-adatok, amelyeket egy idő- vagy költségbejegyzés alapján hoztak létre, egy nem számlázott tényleges értékesítésre vonatkoznak.) A főkönyvi integrációs rendszerek ezt a visszafordítást felhasználhatják a folyamatban lévő projektmunka (WIP) megfordítására, számviteli célokból.
 
 > [!NOTE]
-> A megerősített proforma számlák és a kapcsolódó bejegyzések, például a számlasorok és a számlasor részletei nem szerkeszthetők és nem törölhetők. 
+> A visszaigazolt proforma számlák és a kapcsolódó rekordok, például a számlasorok és a számlasorok adatai nem szerkeszthetők vagy törölhetők. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Megerősített számla kijavítása
 

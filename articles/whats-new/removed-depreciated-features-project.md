@@ -1,24 +1,24 @@
 ---
 title: Eltávolított vagy elavult funkciók a Dynamics 365 Project Operations
-description: Ez a témakör az eltávolított vagy a programból való eltávolításra tervezett szolgáltatásokat ismerteti Dynamics 365 Project Operations.
+description: Ez a cikk azokat a funkciókat ismerteti, amelyeket eltávolítottak, vagy amelyeket a Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921489"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Eltávolított vagy elavult funkciók a Dynamics 365 Project Operations
 
 _**A következőre vonatkozik:** Project Operations az erőforrás-/nem készletalapú forgatókönyvekhez, Lite központi telepítés – ajánlattól proforma számlázásig, és Project Operations a készlet-/termelésalapú forgatókönyvekhez_
 
-Ez a témakör az eltávolított vagy a programból való eltávolításra tervezett szolgáltatásokat ismerteti Dynamics 365 Project Operations.
+Ez a cikk azokat a funkciókat ismerteti, amelyeket eltávolítottak, vagy amelyeket a Dynamics 365 Project Operations.
 
 - Az *eltávolított* funkciók a továbbiakban nem érhetőek el a termékben.
 - Az *elavult* funkciók nem állnak aktív fejlesztés alatt, és eltávolíthatják őket egy későbbi frissítésben.
@@ -26,49 +26,49 @@ Ez a témakör az eltávolított vagy a programból való eltávolításra terve
 Ez a lista segítséget kíván nyújtani Önnek ezen eltávolítások és elavult funkciók figyelembe vételében saját tervezés céljából.
 
 > [!NOTE]
-> A Pénzügy és műveletek alkalmazások objektumaival kapcsolatos részletes információk a [**Technikai referenciajelentésekben találhatók**](/dynamics/s-e/global/axtechrefrep_61). Összehasonlíthatja a jelentések különböző verzióit, hogy megismerje azokat az objektumokat, amelyek a Pénzügy és műveletek alkalmazások minden verziójában megváltoztak vagy el lettek távolítva.
+> A Finance and Operations alkalmazásokban található objektumokra vonatkozó részletes információk a [**Technikai referenciajelentésekben találhatók**](/dynamics/s-e/global/axtechrefrep_61). A jelentések különböző verzióinak összehasonlításával megismerheti azokat az objektumokat, amelyek a Finance and Operations alkalmazások egyes verzióiban megváltoztak vagy el lettek távolítva.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>A Project Operations 2022. márciusi kiadásában eltávolított vagy elavult funkciók
 
-### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Projektmenedzsment és -könyvelés "Mindig hozzon létre korrekciós tranzakciót" paraméter
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Projektmenedzsment és könyvelés "Mindig hozzon létre korrekciós tranzakciót" paraméter
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Elavulás/eltávolítás oka** | Ellenőrzési célokra korrekciós tranzakciókra van szükség. Az elavulás után ez a paraméter el lesz rejtve. A rendszer mindig korrekciós tranzakciókat hoz létre, ugyanúgy, mint jelenleg, ha a paraméter **értéke Igen**. |
+| **Elavulás/eltávolítás oka** | Ellenőrzési célokból korrekciós tranzakciókra van szükség. Az elavulás után ez a paraméter el lesz rejtve. A rendszer mindig korrekciós tranzakciókat hoz létre, ahogyan jelenleg is teszi, ha a paraméter Igen értékre **van állítva**. |
 | **Másik funkció váltja fel?** | No |
 | **Érintett termékterületek** | Alkalmazás |
-| **Központi telepítés lehetősége** | Projektműveletek termeléshez/raktározott forgatókönyvekhez |
-| **Állapot** | Elavult: 2023. március 1-jéig elrejtjük a paramétert, és megváltoztatjuk a rendszer viselkedését, hogy a korrekciós tranzakciók mindig létrejönjenek. |
+| **Központi telepítés lehetősége** | Projektműveletek éles/raktározott forgatókönyvekhez |
+| **Állapot** | Elavult: 2023. március 1-jéig elrejtjük a paramétert, és megváltoztatjuk a rendszer viselkedését, hogy a korrekciós tranzakciók mindig létrejöjjenek. |
 
-### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Projektmenedzsment és -számvitel "Helyesbítés dátumának használata új projektdátumként" paraméter
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Projektvezetés és könyvelés "A módosítási dátum használata új projektdátumként" paraméter
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Elavulás/eltávolítás oka** | Ezt a paramétert eredetileg a pénzügyi időszak bezárásakor történő kiigazítások engedélyezésére használták. Erre azonban már nincs szükség, mert a tranzakció könyvelési dátuma a nyitott időszak első dátumára módosítható, ha be van állítva. A projektdátumot nem szabad módosítani, mert a tranzakció időpontjában jelenik meg. |
+| **Elavulás/eltávolítás oka** | Ezt a paramétert eredetileg arra használták, hogy lehetővé tegyék a beállításokat, amikor egy pénzügyi időszak bezártak. Erre azonban már nincs szükség, mert a tranzakció könyvelési dátuma a nyílt időszak első dátumára módosítható, ha konfigurálva van. A projekt dátumát nem szabad megváltoztatni, mert az a tranzakció bekövetkezésének dátumát jelöli. |
 | **Másik funkció váltja fel?** | No |
 | **Érintett termékterületek** | Alkalmazás |
-| **Központi telepítés lehetősége** | Projektműveletek termeléshez/raktározott forgatókönyvekhez |
-| **Állapot** | Elavult: 2023. március 1-jéig elrejtjük a paramétert, és megváltoztatjuk a rendszer viselkedését, hogy a projekt dátuma soha ne módosuljon a módosításokkor. |
+| **Központi telepítés lehetősége** | Projektműveletek éles/raktározott forgatókönyvekhez |
+| **Állapot** | Elavult: 2023. március 1-jéig elrejtjük a paramétert, és megváltoztatjuk a rendszer viselkedését, hogy a projekt dátuma soha ne változzon a korrekciókon. |
 
-### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Erőforrás-igénylő munkafolyamat a Project Operations-ben raktározott/termelésalapú forgatókönyvekhez
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Erőforrás-kérelem munkafolyamata a Project Operationsben készletezett/éles környezetben
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Elavulás/eltávolítás oka** | Elavult az alacsony használat és a tranzakciós mennyiség korlátozása miatt. |
+| **Elavulás/eltávolítás oka** | Elavult az alacsony használat és a tranzakciós volumen korlátozásai miatt. |
 | **Másik funkció váltja fel?** | No |
 | **Érintett termékterületek** | Alkalmazás |
-| **Központi telepítés lehetősége** | Projektműveletek termeléshez/raktározott forgatókönyvekhez |
-| **Állapot** | Elavult: 2023. március 1-jéig letiltjuk azt a lehetőséget, hogy erőforrásokat igényeljünk a projekthez a munkafolyamat használatával. |
+| **Központi telepítés lehetősége** | Projektműveletek éles/raktározott forgatókönyvekhez |
+| **Állapot** | Elavult: 2023. március 1-jéig letiltjuk az erőforrások kérésének lehetőségét a projekthez a munkafolyamat használatával. |
 
-### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projektszámla-javaslat lap Fejléc és Sorok nézet nélkül
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>A projektszámla-javaslat lap fejléc és sorok nézetek nélkül
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Elavulás/eltávolítás oka** | Elavult a Projekt használata számlajavaslattal és a Számlanapló képernyőkkel együtt bevezetett lap javítása miatt a **Fejléc és sorok nézet** funkcióval. |
+| **Elavulás/eltávolítás oka** | Elavult a Projektszámla-javaslat és a számlanapló-űrlapok használata a **Fejléc és sorok nézet** funkciókulcstal együtt bevezetett oldal fejlesztései miatt. |
 | **Másik funkció váltja fel?** | Igen |
 | **Érintett termékterületek** | Alkalmazás |
-| **Központi telepítés lehetősége** | Projektműveletek termeléshez/raktározott forgatókönyvekhez; Projektműveletek erőforrás- és nem raktározott forgatókönyvekhez |
-| **Állapot** | Elavult: 2023. március 1-jéig kikapcsoljuk a korábbi (örökölt) oldalt, és alapértelmezés szerint bekapcsoljuk a **Projekt használata számlajavaslatot és a számlanapló űrlapokat a Fejléc és sorok nézet** funkcióbillentyűvel. |
+| **Központi telepítés lehetősége** | Projektműveletek termelési/raktározott forgatókönyvekhez; Projektműveletek erőforrás-/nem készletezett forgatókönyvekhez |
+| **Állapot** | Elavult: 2023. március 1-jéig kikapcsoljuk a korábbi (örökölt) oldalt, és alapértelmezés szerint bekapcsoljuk a **Projektszámla-javaslat és a számlanapló űrlapok használata a Fejléc és sorok nézet** funkciókulcsgal. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>A Project Operations 2021. decemberi kiadásában eltávolított vagy elavult funkciók
 
@@ -78,8 +78,8 @@ Ez a lista segítséget kíván nyújtani Önnek ezen eltávolítások és elavu
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Elavulás/eltávolítás oka** | Az alacsony használat miatt elavult. Azok az ügyfelek, akik a Project Operations-t erőforrás-/nem raktározott forgatókönyvekhez használják, kihasználhatják [az Office-csoportokkal](../project-management/collaboration-groups.md) való együttműködést. |
+| **Elavulás/eltávolítás oka** | Az alacsony használat miatt elavult. Azok az ügyfelek, akik a Project Operationst erőforrás-/nem készletezett forgatókönyvekhez használják, kihasználhatják [az Office-csoportokkal](../project-management/collaboration-groups.md) való együttműködést. |
 | **Másik funkció váltja fel?** | No |
 | **Érintett termékterületek** | Alkalmazás  |
-| **Központi telepítés lehetősége** | Projektműveletek termeléshez/raktározott forgatókönyvekhez |
-| **Állapot** | Elavult: 2022. december 1-jéig azt tervezzük, hogy a továbbiakban nem támogatjuk az együttműködési munkaterületeket. |
+| **Központi telepítés lehetősége** | Projektműveletek éles/raktározott forgatókönyvekhez |
+| **Állapot** | Elavult: 2022. december 1-jéig azt tervezzük, hogy már nem támogatjuk az együttműködési munkaterületeket. |

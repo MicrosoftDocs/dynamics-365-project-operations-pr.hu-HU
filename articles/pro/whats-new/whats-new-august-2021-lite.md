@@ -1,24 +1,24 @@
 ---
 title: Újdonságok - 2021. augusztus - Project Operations könnyű telepítés
-description: Ez a témakör a Project Operations könnyű telepítés 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations lite telepítésének 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922041"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>Újdonságok - 2021. augusztus - Project Operations könnyű telepítés
 
 _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
   - Project Operations a Dataverse-környezet 4.13.0.152 verzióján
 

@@ -1,25 +1,25 @@
 ---
 title: A Finance környezetben való Project Operations frissítése
-description: Ez a témakör a Projektműveletek Dynamics 365 Finance környezetben történő frissítéséről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations Dynamics 365 Finance környezetben való frissítésével kapcsolatos információkat tartalmaz.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912473"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>A Finance környezetben való Project Operations frissítése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 
-Ez a témakör tájékoztatást nyújt a Dynamics 365 Finance környezetben történő frissítésről Dynamics 365 Project Operations. A Project Operations Update 5 (UR5) lehetőségre való frissítéséhez három művelet szükséges:
+Ez a cikk a Dynamics 365 Finance környezetben való frissítéssel Dynamics 365 Project Operations kapcsolatos információkat tartalmaz. A Project Operations Update 5 (UR5) lehetőségre való frissítéséhez három művelet szükséges:
 
 - [A csomag importálása az előzetes verzió projektjébe](#import)
 - [A frissítés telepítése](#apply)
@@ -119,7 +119,7 @@ Az entitások biztonsági jogosultságának alábbi frissítései az UR5-ös ver
 4. A **Tábla leképezési verziója** lapon alkalmazza a leképezés új verzióját mindhárom entitásra.
 5. A **Kettős írás** lapon válassza a futtatás lehetőséget a leképezések újraindításához.
 6. A leképezések listájában válassza ki a **Főkönyvi (msdyn_ledgers)** leképezés minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. 
-7. A Főkiszolgáló kezdeti szinkronizáláshoz **mezőben válassza** a **Pénzügy és műveletek alkalmazások lehetőséget**, majd válassza a Futtatás **lehetőséget**.
+7. A Kezdeti szinkronizálás **főkiszolgálója mezőben válassza** a **Finance and Operations alkalmazások**, majd a Futtatás **lehetőséget**.
  
  ![Főkönyvi leképezés szinkronizálása.](media/DW6.png)
  

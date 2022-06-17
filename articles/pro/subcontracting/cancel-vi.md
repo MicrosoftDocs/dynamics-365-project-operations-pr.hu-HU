@@ -1,35 +1,35 @@
 ---
-title: Projekt szállítói számlájának visszavonása
-description: Ez a témakör bemutatja, hogyan lehet törölni egy projekt szállítói számláját a Microsoftban Dynamics 365 Project Operations, valamint a projekt szállítói számlájának visszavonásának pénzügyi hatását.
+title: Projekt szállítói számlájának érvénytelenítése
+description: Ez a cikk azt ismerteti, hogyan törölhet egy projektszállítói számlát a Microsoftnál Dynamics 365 Project Operations, és milyen pénzügyi hatása van a projekt szállítói számla törlésének.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911553"
 ---
-# <a name="cancel-a-project-vendor-invoice"></a>Projekt szállítói számlájának visszavonása
+# <a name="cancel-a-project-vendor-invoice"></a>Projekt szállítói számlájának érvénytelenítése
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A szállítói számla megerősítése után nem lehet szerkeszteni vagy törölni. Ha egy megerősített szállítói számlán hiba történt, a Mégse művelettel sztornírozhatja a szállítói számla hatását, és új szállítói számlát hozhat létre.
+A szállítói számla megerősítése után az nem szerkeszthető vagy törölhető. Ha hiba történt egy visszaigazolt szállítói számlán, a Mégse művelettel visszafordíthatja a szállítói számla hatását, és létrehozhat egy új szállítói számlát.
 
-Ha szállítói számlán a Mégse lehetőséget **választja**, a következő jelenség jelenik meg:
+Ha a Szállítói számlán a Mégse lehetőséget **választja**, a következő viselkedés jelenik meg:
 
-1. A szállítói számla állapota Visszavonva értékre **frissül**.
-2. A visszavont szállítói számla és a hozzá kapcsolódó bejegyzések írásvédetté válnak, és nem szerkeszthetők vagy törölhetők.
-3. A szállítói számlasorok alapján a szállítói számla megerősítése részeként létrehozott költségalapokat a rendszer sztornírozza.
-4. Ha az egyeztetési folyamat részeként bármilyen költség-tényleges érték a szállítói számlasorokhoz volt csatolva, az eredeti szállítói számla visszaigazolása sztornírozta azokat. A szállítói számla törlése során ezek a költségalapokat a program újra létrehozza. A származás az idő-, költség- vagy anyagfelhasználási bejegyzésekre mutat.
-5. A szállítói számla visszavonása után ismét létrehozhat korrekciós naplókat, feldolgozhatja az időbejegyzések visszahívását, és visszavonhatja az eredeti idő-, költség- vagy anyagatikai adatok jóváhagyását.
+1. A szállítói számla állapota Törölve állapotra **frissül**.
+2. A törölt szállítói számla és a kapcsolódó rekordok írásvédetté válnak, és nem szerkeszthetők vagy törölhetők.
+3. A szállítói számlasorok alapján a szállítói számla visszaigazolásának részeként létrehozott költség-tényleges értékeket a rendszer visszavonja.
+4. Ha az egyeztetési folyamat részeként bekerülési értékeket kapcsoltak a szállítói számlasorokhoz, az eredeti szállítói számla megerősítése visszavonta azokat. A szállítói számla törlése során a rendszer újra létrehozza ezeket a költség-tényleges költségeket. Az eredet az idő, a költség vagy az anyaghasználat bejegyzéseire mutat.
+5. A szállítói számla törlése után ismét létrehozhat javítási naplókat, feldolgozhatja az időbeviteli visszahívásokat, és visszavonhatja az eredeti idő, költség vagy anyag tényleges adatainak jóváhagyását.
 
 > [!NOTE]
-> Csak a visszaigazolt projekt szállítói számlák törölhetők. Más államokban a szállítói számlák nem vonhatók vissza.
+> Csak a visszaigazolt projektszállítói számlák törölhetők. A más államokban lévő szállítói számlákat nem lehet visszavonni.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

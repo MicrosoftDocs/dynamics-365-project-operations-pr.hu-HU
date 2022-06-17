@@ -1,17 +1,17 @@
 ---
 title: Tranzakciókategória használata árképzési dimenzióként
-description: Ez a témakör a tranzakciós kategória mező árazási dimenzióként való használatáról nyújt tájékoztatást.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan használhatja a Tranzakciós kategória mezőt árképzési dimenzióként.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911697"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tranzakciókategória használata árképzési dimenzióként
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591131"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-Ez a témakör bemutatja, hogyan lehet a **Tranzakciós kategória** mezőt használni árképzési dimenzióként. 
+Ez a cikk azt ismerteti, hogyan használhatja a **Tranzakciós kategória** mezőt árképzési dimenzióként. 
 
 ## <a name="prerequisites"></a>Előfeltételek
-Az ebben a témakörben található az eljárások befejezése előtt egy új árképzési dimenzió megoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása árazási dimenzióként](create-custom-fields-entities-pricing-dimensions.md) című témakört.
+A cikkben ismertetett eljárások befejezése előtt új díjszabási dimenziómegoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása árazási dimenzióként](create-custom-fields-entities-pricing-dimensions.md) című témakört.
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Adja hozzá a Tranzakciós kategória mezőt az űrlapokhoz és nézetekhez
 Ha azt szeretné , hogy a **Tranzakciós kategória** mező látható legyen az árképzési dimenzió megoldásban, akkor az összes űrlaphoz és nézethez hozzá kell adnia a mezőt entitásként.

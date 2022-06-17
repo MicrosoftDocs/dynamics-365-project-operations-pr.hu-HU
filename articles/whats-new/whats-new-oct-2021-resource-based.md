@@ -1,27 +1,27 @@
 ---
 title: 2021. októberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: A témakör a Project Operations lite telepítés 2021. októberi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást az erőforrás / nem készletezett forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2021. októberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914640"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. októberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
 *Érvényesség: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén*
 
-Ez a témakör a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
+Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.25.0.91 verziójú Microsoft Dataverse-környezetben
-   - Projektmenedzsment és számvitel Dynamics 365 Finance 10.0.21-es verzióban
+   - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.21-es verzió
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -49,7 +49,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a Kettős ír�
 | Számlázás és árképzés | 2338357 | A projekt kiválasztásakor az anyaghasználati napló pénznemének alapértelmezetten a projekt pénzneméből kell származnia. |
 | Idő és költség | 2414777 | A Jóváhagyás visszavonásának – amennyiben a költség vagy időbejegyzés több projekt-jóváhagyással rendelkezik – lehetségesnek kell lennie. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

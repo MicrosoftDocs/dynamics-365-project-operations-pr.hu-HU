@@ -1,17 +1,17 @@
 ---
 title: Alapértelmezett árlisták
-description: Ez a témakör az alapértelmezett értékesítési és önköltségi árlistákról nyújt tájékoztatást a Project Operations alkalmazásban.
+description: Ez a cikk a Project Operations alapértelmezett értékesítési és önköltségi árlistáiról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 83458d6f62c8790eb967cf07c21ffe7851e14a3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917717"
 ---
 # <a name="default-price-lists"></a>Alapértelmezett árlisták
 

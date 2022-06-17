@@ -1,17 +1,17 @@
 ---
 title: Alvállalkozói szerződéses sorok forrásai
-description: Ez a témakör elmagyarázza, hogyan lehet megadni a szállító által egy adott alvállalkozói szerződéssorhoz biztosított dedikált erőforrásokat az időre vonatkozóan.
+description: Ez a cikk azt ismerteti, hogyan adhatja meg azokat a dedikált erőforrásokat, amelyeket a szállító biztosít egy adott alvállalkozói sorhoz az időre.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924157"
 ---
 # <a name="subcontract-line-resources"></a>Alvállalkozói szerződéses sorok forrásai
 

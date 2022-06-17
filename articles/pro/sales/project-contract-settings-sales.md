@@ -1,23 +1,23 @@
 ---
 title: Projektszerződés beállításai - Lite
-description: Ez a témakör a szerződéssorokra hatással levő mezőkről, valamint az összes sorra vonatkozóan összefoglalt szerződésre vonatkozó információkra vonatkozó információkat tartalmaz.
+description: Ez a cikk a szerződéssorokat befolyásoló mezőkről, valamint az összes sorra kiterjedően összefoglalt, a szerződésről szóló információkat tartalmaz.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917073"
 ---
 # <a name="header-details-for-project-contracts"></a>Fejlécadatok projektszerződések esetében
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a témakör a teljes szerződésre vonatkozó mezőkre vonatkozó információkat tartalmaz, beleértve az összes szerződéssorra hatással levő beállításokat is. Ezenkívül tartalmaz a szerződésre vonatkozó, összes sorelemen keresztül összesített információkat, amelyek a projektszerződés KPI-jaira hatással vannak.
+Ez a cikk a teljes projektszerződésre vonatkozó mezőkről nyújt tájékoztatást, beleértve az összes szerződéssort érintő beállításokat is. Ezenkívül tartalmaz a szerződésre vonatkozó, összes sorelemen keresztül összesített információkat, amelyek a projektszerződés KPI-jaira hatással vannak.
 
 A következő táblázat a projektszerződés olyan mezőit sorolja fel, amelyek egyediek a Dynamics 365 Project Operations alkalmazásban, vagy a Dynamics 365 Sales értékesítési megrendelésinél viselkedésük valamilyen fontos változással rendelkezik.
 
@@ -35,11 +35,11 @@ A következő táblázat a projektszerződés olyan mezőit sorolja fel, amelyek
 A következő fő teljesítménymutatók érhetők el a projekt szerződés **Szerződési teljesítmény** lapján. 
 
 >[!NOTE]
->A Szerződés teljesítése **lapon szereplő** összes összeg a környezet alapértelmezett pénznemében van kifejezve.
+>A Szerződés teljesítése **lapon található** összes összeg a környezet alapértelmezett pénznemében van kifejezve.
 
 | Mező | Hely | Description |
 | --- | --- | --- |
-| Szerződés értéke | Általános szerződés | A projektszerződés teljes értéke.|
+| Szerződés értéke | Általános szerződés | A projektszerződés összértéke.|
 | Számlázott összeg | Általános szerződés | A szerződésben szereplő összes számlán szereplő összegek összege.|
 | Felmerült költség | Általános szerződés | A szerződéshez leképezett összes projektre vonatkozóan a naplózott összes költség összege. |
 | Bruttó nyereség | Általános szerződés | Számlázott összeg – a felmerült költség adott dátumig/számlázott összeg |

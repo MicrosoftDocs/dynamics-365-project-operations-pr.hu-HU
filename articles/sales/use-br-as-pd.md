@@ -1,26 +1,26 @@
 ---
 title: Foglalható erőforrás használata árképzési dimenzióként
-description: Ez a témakör a foglalható erőforrások árazási dimenzióként való használatának módjáról tartalmaz tájékoztatást.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan használhat egy foglalható erőforrást díjszabási dimenzióként.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914819"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Foglalható erőforrás használata árképzési dimenzióként
 
  _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_ 
 
-Ez a témakör a foglalható erőforrások árazási dimenzióként való használatának módjáról tartalmaz tájékoztatást. Ha az árképzési stratégiája úgy van beállítva, hogy minden egyes foglalt erőforrásnak külön ára vagy önköltségi ára legyen, akkor használja a lefoglalható erőforrást árazási dimenzióként.
+Ez a cikk arról nyújt tájékoztatást, hogyan használhat egy foglalható erőforrást díjszabási dimenzióként. Ha az árképzési stratégiája úgy van beállítva, hogy minden egyes foglalt erőforrásnak külön ára vagy önköltségi ára legyen, akkor használja a lefoglalható erőforrást árazási dimenzióként.
 
 ## <a name="prerequisites"></a>Előfeltételek
-Az ebben a témakörben található az eljárások befejezése előtt egy új árképzési dimenzió megoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása című témakört](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+A cikkben ismertetett eljárások befejezése előtt új díjszabási dimenziómegoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása című témakört](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Foglalható erőforrás mező hozzáadása az űrlapokhoz és a nézetekhez
 Ha azt szeretné , hogy a **Foglalható erőforrás** mező látható legyen az árképzési dimenzió megoldásban, akkor az összes űrlaphoz és nézethez hozzá kell adnia a mezőt entitásként.

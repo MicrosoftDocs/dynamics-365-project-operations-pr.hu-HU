@@ -1,17 +1,17 @@
 ---
 title: Költségrészletezés
-description: Ez a témakör bemutatja, hogyan részletezheti a költségeket az újragondolt Költség-munkaterület használatával.
+description: Ez a cikk azt ismerteti, hogyan részletezheti a költségeket az újragondolt Költség munkaterület használatával.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920937"
 ---
 # <a name="expense-itemization"></a>Költségrészletezés
 
@@ -19,31 +19,31 @@ ms.locfileid: "8574525"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A szervezetek gyakran megkövetelik az alkalmazottaktól, hogy részletes bontásban számolják el az utazás során felmerült költségeket. Például egy szállodai fólió több tételes sort tartalmazhat a szobaárra, az adóra, a parkolásra és a tartózkodás időtartama alatt minden nap felmerülő egyéb költségekre vonatkozóan. Vagy az étkezési költség megkövetelheti, hogy részletesebb bontást biztosítson reggelire, ebédre vagy vacsorára. A szervezet igényeitől függetlenül minden költségkategória beállítható úgy, hogy tükrözze az alkategóriákat vagy a költségeket alkotó sorcikkeket. Bár a cikkezés mindig is támogatott a **Költségkezelésben**, az **újragondolt költség-munkaterület** hatékonyabb részletezést tesz lehetővé, **ha engedélyezve van az ismétlődő költségek gyors** részletezésének képessége funkció.  
+A szervezetek gyakran megkövetelik az alkalmazottaktól, hogy részletes bontást adjanak az utazás során felmerült költségekről. Például egy szállodai fólió több tételes sort is tartalmazhat a szobaár, az adó, a parkolás és egyéb egyéb költségek tekintetében, amelyek naponta felmerülnek a tartózkodás időtartama alatt. Vagy egy étkezési költség megkövetelheti, hogy részletesebb bontást biztosítson reggelire, ebédre vagy vacsorára. Bármi legyen is a szervezet igényei, minden költségkategória beállítható úgy, hogy tükrözze a költséget alkotó alkategóriákat vagy sorokat. Bár a tételesítés mindig is támogatott volt a **Költségkezelésben**, az **Újragondolt költség** munkaterület hatékonyabb tételes megjelenítést tesz lehetővé, **ha az ismétlődő költségek gyors** tételes képessége funkció engedélyezve van.  
 
-## <a name="enable-quick-itemization"></a>Gyorstétel engedélyezése 
+## <a name="enable-quick-itemization"></a>Gyors elemezés engedélyezése 
 
-Az ismétlődő költségek részletezésének képessége gyorsan **részletezheti az** ismétlődő költségeket, miközben elkerülheti, hogy a tartózkodás időtartama alatt minden alkalommal meg kelljen adnia a napi költségeket. A gyors részletezés engedélyezéséhez hajtsa végre az alábbi lépéseket.
+Használhatja az **Ismétlődő költségek tétele funkcióval gyorsan** tételesen tételesen, miközben elkerülheti, hogy a tartózkodás időtartamára minden alkalommal meg kelljen adnia a napi költségeket. A gyors elemezés engedélyezéséhez hajtsa végre a következő lépéseket.
 
-1. Nyissa meg a **Szolgáltatáskezelés** munkaterületet, és a szolgáltatások listájában keresse meg és válassza ki az **újragondolt** költségjelentések lehetőséget. 
+1. Lépjen a **Funkciókezelés** munkaterületre, és a funkciók listájában keresse meg és válassza ki a **Költségjelentések újragondolása lehetőséget**. 
 2. Válassza ki az **Engedélyezés most** lehetőséget. 
-3. A szolgáltatáslistában keresse meg és válassza ki az **ismétlődő költségek gyors** részletezésének lehetősége lehetőséget.
+3. A funkciólistában keresse meg és válassza ki az **Ismétlődő költségek tételes lehetőség gyors** tételét.
 4. Válassza ki az **Engedélyezés most** lehetőséget. 
 
-## <a name="itemization-grid"></a>Cikkezési rács 
+## <a name="itemization-grid"></a>Tételenkénti rács 
 
-Ha egy költségkategória alkategóriákkal vagy különböző összetevőkkel rendelkezik, amelyek ezt a költséget alkotják, akkor részletezhető. Költség részletezéséhez válassza ki a költségsort a költségjelentésben, majd a Költség részletei **ablaktáblán válassza a** Műveletek **részletezése** > **lehetőséget**. A **Itemization** csúszka mezőket tartalmazó rácsot jelenít meg. Az alábbi táblázat példákat mutat be a rács minden mezőjére és arra, hogy a mező hogyan jelenik meg a költségjelentésben. 
+Ha egy költségkategóriának vannak alkategóriái vagy különböző összetevői, amelyek a ráfordítást alkotják, akkor tételes lehet. Egy költség tételesítéséhez válassza ki a költségsort a költségjelentésben, majd a Költség részletei ablaktáblán válassza a **Műveletek tételesítése** **lehetőséget** > **.** Az **Elemi csúszka** egy mezőket tartalmazó rácsot jelenít meg. Az alábbi táblázat egy példát mutat be a rács egyes mezőire, valamint arra, hogy a mező hogyan jelenik meg a költségjelentésben. 
 
 |     Mező          |     Description                                                                                  |     Példa              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Alkategória    |     A Költségkategória típusa (**Hotel**) alatt konfigurált alkategóriák listája.             |     Napi szobaár      |
+|     Alkategória    |     A Hotel **költségkategória-típus** alatt konfigurált alkategóriák listája.             |     Napi szobaár      |
 |     Kezdési dátum     |     A költségtétel első felmerülésének dátuma.                                           |     09/13/2021           |
-|     Napidíj     |     A költségtételhez felmerült összeg.                                                    |     200                  |
-|     Mennyiség       |     A töltés ismétlődésének száma egy folyamatos időszakban.                       |     3                    |
+|     Napi árfolyam     |     A költségtételnél felmerült összeg.                                                    |     200                  |
+|     Mennyiség       |     Azon alkalmak száma, amikor a töltés egy folyamatos időszak alatt megismétlődik.                       |     3                    |
 
-![Részletezze a költségeket.](media/Itemization%20screen%201.png)
+![Tételes költség.](media/Itemization%20screen%201.png)
 
-Cikktétel mentésekor a Cikkszámolás rácsban megadott mennyiséghez egy egyedi tételes sor jelenik meg. Minden sor a rácsban megadott dátummal kezdődik.
+Elemi megjelenítés mentésekor egy egyedi tételes sort fog látni az Itemization rácsban megadott mennyiséghez. Minden sor a rácsban megadott dátummal kezdődik.
 
 ![Tételes jelentés.](media/Itemization%20screen%202.png)
 
