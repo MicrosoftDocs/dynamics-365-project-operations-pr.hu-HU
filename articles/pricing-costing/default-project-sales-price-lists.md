@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917717"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036414"
 ---
 # <a name="default-price-lists"></a>Alapértelmezett árlisták
 
@@ -25,7 +25,7 @@ A Dynamics 365 Project Operations rendszerben minden projektajánlat és szerző
 A rendszer a következő folyamatot hajtja végre annak meghatározásához, hogy mely árlista legyen alapértelmezett a projektajánlatban:
 
 1. A rendszer megvizsgálja azokat az árlistákat, amelyek a partner projektárlistáihoz kapcsolódnak. 
-2. Ha a partner bejegyzéséhez a projektárlisták vannak csatolva, akkor a rendszer a projekthez tartozó paraméterekhez csatolt értékesítési árlistát keresi meg, amelyek megfelelnek a projektajánlat pénznemének.
+2. Ha a fiókrekordhoz nem csatolnak projektárlistákat, a rendszer megvizsgálja a projektparaméterekhez csatolt eladási árlistákat, amelyek megegyeznek a projekt árajánlatának pénznemével.
 3. Következő lépésként a rendszer ellenőrzi a projekt ajánlat hatályossági dátumának megfelelő hatályosságú árlistákat. Pontosan azt a dátumot, amikor az árajánlatot létrehozták.
 4. Ha több árlista is van, amelyek a projekt ajánlatának dátumán hatályosak, akkor az összes árlista alapértelmezés szerint szerepel a projektajánlatban.
 5. Ha a projektajánlat dátumára vonatkozóan nincs hatályos árlista, akkor a projektárajánlatban nem szerepel alapértelmezett árlista. A projekt ajánlatában egy figyelmeztető üzenet fog megjelenni. Az üzenet jelzi, hogy mivel nincsenek csatolt projektárlisták, a becsült és a tényleges projektmunka és -költségek nem lesznek beárazva.

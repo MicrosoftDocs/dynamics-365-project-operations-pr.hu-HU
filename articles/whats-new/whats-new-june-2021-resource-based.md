@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910587"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028249"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2021. júniusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
 
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations 4.11.0.156 vagy 4.11.0.164 verziójú Dynamics 365 Dataverse-környezetben.
-- Projektmenedzsment és könyvelés a Finance and Operations alkalmazáskörnyezetekben a 10.0.19-es verzió.
+- Projektmenedzsment és könyvelés a pénzügyi és üzemeltetési alkalmazások környezetében 10.0.19-es verzió.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -38,7 +38,7 @@ Ebben a kiadásban nincsenek frissítések a Project Operations kettős írású
 
 A Project Operations kettős írású leképezései aktuális listájának és verzióinak felsorolását lásd: [Project Operations kettős írás leképezési verziói](../environment/resource-dual-write-maps.md).
 
-Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations-megoldás Dataverse és a Finance and Operations alkalmazások megoldásverziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verziója **Kettős írás** oldalon látható a **Verzió** oszlopban. Aktiválhatja a leképzés új verzióját a **Táblaleképezés verziója** lehetőség kiválasztásával, majd a legújabb verzió kiválasztásával, majd a kiválasztott verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations-megoldás Dataverse, valamint a pénzügyi és üzemeltetési alkalmazások megoldásverziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verziója **Kettős írás** oldalon látható a **Verzió** oszlopban. Aktiválhatja a leképzés új verzióját a **Táblaleképezés verziója** lehetőség kiválasztásával, majd a legújabb verzió kiválasztásával, majd a kiválasztott verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó táblaoszlopokkal kapcsolatos probléma a leképezésekben](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) részt a Kettős írás hibaelhárítási útmutatójában.
 

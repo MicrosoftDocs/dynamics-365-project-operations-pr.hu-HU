@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912473"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030038"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>A Finance környezetben való Project Operations frissítése
 
@@ -119,7 +119,7 @@ Az entitások biztonsági jogosultságának alábbi frissítései az UR5-ös ver
 4. A **Tábla leképezési verziója** lapon alkalmazza a leképezés új verzióját mindhárom entitásra.
 5. A **Kettős írás** lapon válassza a futtatás lehetőséget a leképezések újraindításához.
 6. A leképezések listájában válassza ki a **Főkönyvi (msdyn_ledgers)** leképezés minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. 
-7. A Kezdeti szinkronizálás **főkiszolgálója mezőben válassza** a **Finance and Operations alkalmazások**, majd a Futtatás **lehetőséget**.
+7. A Kezdeti szinkronizálás **főkiszolgálója mezőben válassza** a **Finance and operations apps**, majd a Futtatás **lehetőséget**.
  
  ![Főkönyvi leképezés szinkronizálása.](media/DW6.png)
  

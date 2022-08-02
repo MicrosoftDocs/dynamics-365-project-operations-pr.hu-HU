@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912427"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029257"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2021. áprilisban – Project Operations erőforrásalapú vagy nem készletalapú forgatókönyvekhez
 
@@ -42,13 +42,13 @@ Az alábbi lista a Project Operations 2021. áprilisi kiadásában módosított 
 | **Entitásleképezés** | **Frissített verzió** | **Hozzászólások** |
 | --- | --- | --- |
 | Project Operations integrációjának tényleges adatai (msdyn\_actuals) | 1.0.0.14 | Az anyag projekt tényének szinkronizálása során módosított leképezés. |
-| A Project Operations integrációs entitása kiadások becsléséhez (msdyn\_estimateslines) | 1.0.0.2 | Projektszerződés-sor szinkronizálása a Finance and Operations alkalmazásokhoz a feladatalapú számlázás támogatása érdekében. |
-| A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments) | 1.0.0.5 | Projektszerződés-sor szinkronizálása a Finance and Operations alkalmazásokhoz a feladatalapú számlázás támogatása érdekében. |
-| Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Új táblaleképezés az anyagbecslések Finance and Operations alkalmazásokból való Dataverse szinkronizálásához. |
-| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn\_projectvendorinvoices) | 1.0.0.0 | Új táblaleképezés a szállítói számlafejlécek Finance and Operations alkalmazásokból a következőre történő szinkronizálásához: Dataverse. |
-| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Új táblaleképezés a szállítói számlasorok Finance and Operations alkalmazásokból a következőre történő szinkronizálásához: Dataverse. |
+| A Project Operations integrációs entitása kiadások becsléséhez (msdyn\_estimateslines) | 1.0.0.2 | Projektszerződés-sor szinkronizálás hozzáadva a pénzügyi és üzemeltetési alkalmazásokhoz a feladatalapú számlázási támogatás érdekében. |
+| A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments) | 1.0.0.5 | Projektszerződés-sor szinkronizálás hozzáadva a pénzügyi és üzemeltetési alkalmazásokhoz a feladatalapú számlázási támogatás érdekében. |
+| Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Új táblatérkép az anyagbecslések szinkronizálásához a pénzügyi és üzemeltetési alkalmazásokba Dataverse. |
+| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn\_projectvendorinvoices) | 1.0.0.0 | Új táblatérkép a szállítói számlafejlécek szinkronizálásához a pénzügyi és üzemeltetési alkalmazásokból a következőbe: Dataverse. |
+| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Új táblaleképezés a szállítói számlasorok szinkronizálásához a pénzügyi és üzemeltetési alkalmazásokból a következőbe: Dataverse. |
 
-Mindig a térkép legújabb verzióját kell futtatnia a környezetben, és engedélyeznie kell az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldás és a Finance and Operations megoldás verziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verzióját aktiválhatja a **Táblatérkép verziói** pontban, ott pedig az legújabb verzió kiválasztásával, majd a kijelölt verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldásának, valamint a pénzügyi és üzemeltetési megoldás verziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verzióját aktiválhatja a **Táblatérkép verziói** pontban, ott pedig az legújabb verzió kiválasztásával, majd a kijelölt verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ha problémát tapasztal a térkép elindításával kapcsolatban, kövesse a [Kettős írás hibaelhárítási útmutató térkép szakaszának Hiányzó táblaoszlopok című ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)részében található utasításokat.
 

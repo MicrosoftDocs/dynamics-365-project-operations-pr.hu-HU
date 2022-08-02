@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933035"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029717"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -61,7 +61,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Projekt   Tervezés és nyomon követés | 2057197.          | A becsléssorok másolása a feladathivatkozással nem támogatott                                                                                                     |
 | Projekt   Tervezés és nyomon követés | 2060687.          | Az időzóna-figyelmeztetés egy adott időtartam elteltével eltűnik                                                                                                      |
 | Erőforrás   kezelés           | 1832887.          | Az alapértelmezett erőforrás-kategória azonosítójának statikusnak kell lennie ahhoz, hogy biztosíthatók legyenek a megismételhető adatbetöltések a Dataverse és Finance környezetekhez                                                 |
-| Idő és költség              | 2081793.          | **A költségkategória nevét** le kell képezni a Költségkategória leírása **mezőre** a Finance and Operations alkalmazásokban                                                  |
+| Idő és költség              | 2081793.          | **A költségkategória nevét** le kell képezni a Költségkategória leírása **mezőre** a pénzügyi és műveleti alkalmazásokban                                                  |
 | Idő és költség              | 2034882.          | Az **Új** gomb kétszer jelenik meg a parancssorban az időbejegyzésekhez a Dynamics 365 Field Service telepítésekor                                          |
 | Idő és költség              | 2056028.          | Az **Időszerkesztés** oldal frissítése, hogy tartalmazza az idősort                                                                                                              |
 | Idő és költség              | 1983747.          | Az időbevitel diagramja további adatokat jelenít meg                                                                                                                   |
@@ -106,7 +106,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Utazás és költség                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | A költségjelentés automatikus feladási munkafolyamata befejeződött, de a számla nincs feladva                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

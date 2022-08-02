@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927423"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028613"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Beszerzési kategóriák használata projektbeszerzési rendelésekkel és függőben lévő szállítói számlákkal
 
@@ -25,7 +25,7 @@ A beszerzési szakemberek katalógusokat hozhatnak létre és tarthatnak karban 
 A következő verziók szükségesek ahhoz, hogy a beszerzési kategóriákat projektvásárlási rendelésekkel együtt használhassa a Microsoft Dynamics 365 Project Operations nem készletezett/erőforrás-alapú forgatókönyveihez:
 
 - Project Operations-megoldás Dataverse 4.41.0.45-es vagy újabb verziója
-- Finance and Operations környezet 10.0.26-os vagy újabb verzió
+- Pénzügyi és üzemeltetési környezet 10.0.26-os vagy újabb verziója
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Kétírásos térképek futtatása beszerzési kategória támogatásához
 

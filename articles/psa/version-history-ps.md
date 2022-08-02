@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: MT
+ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
+ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
+ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959629"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "9190669"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>A Project Service 3.x frissítési kiadási ütemezése
 
@@ -37,38 +37,38 @@ ms.locfileid: "8959629"
 
 | Megoldás  | Legutóbbi verzió |
 |-------|----|
-| Project Service Automation    | 3.10.75.142 |
-| A Project Service Automation asztali bővítmény                | 3.60          |
+| Project Service Automation    | 3.10.76.168. |
+| A Project Service Automation asztali bővítmény                | 3.60.          |
 
 A Project Service frissítéseivel kapcsolatos információkért keresse fel a [Dynamics 365 kibocsátási terveket](/dynamics365/release-plans/). 
 
 | Állomás  | Régió | Aktuális verzió | Következő verzió |  Ütemezett dátum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. állomás</strong> | |  |  | |
-| | <i>Első kiadás</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 01.
+| | <i>Első kiadás</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. augusztus 26.
 |<strong>2. állomás</strong> | |  |  | |
-| | <i>Dél-Amerika</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Kanada</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>India</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Franciaország</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Dél-afrikai Köztársaság</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Németország</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Svájc</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Korea</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
-| | <i>Norvégia</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 08.
+| | <i>Dél-Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>India</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Franciaország</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Dél-afrikai Köztársaság</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Németország</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Svájc</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Korea</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
+| | <i>Norvégia</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 02.
 |<strong>3. állomás</strong> | |  |  | |
-| | <i>Japán</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 15.
-| | <i>Ázsia és a Csendes-óceáni térség</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 15.
-| | <i>Nagy-Britannia</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 15.
-| | <i>Óceánia</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 15.
-| | <i>Egyesült Arab Emírségek</i> | [3.10.75.142](whats-new-ur-44.md) | Később eldöntendő | 2022. július 15.
+| | <i>Japán</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 09.
+| | <i>Ázsia és a Csendes-óceáni térség</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 09.
+| | <i>Nagy-Britannia</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 09.
+| | <i>Óceánia</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 09.
+| | <i>Egyesült Arab Emírségek</i> | [3.10.76.168](whats-new-ur-45.md) | Később eldöntendő | 2022. szeptember 09.
 |<strong>4. állomás</strong> | |  |  | |
-| | <i>Európa</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022. június 17.
+| | <i>Európa</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. július 29.
 |<strong>5. állomás</strong> | |  |  | |
-| | <i>Észak-Amerika</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022. június 24.
+| | <i>Észak-Amerika</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. augusztus 05.
 |<strong>6. állomás</strong> | |  |  | |
-| | <i>Kormányzati közösségi felhő</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022. június 24.
-| | <i>Dedikált méretcsoportok</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022. július 01.
+| | <i>Kormányzati közösségi felhő</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. augusztus 03.
+| | <i>Dedikált méretcsoportok</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. augusztus 05.
 
 
 

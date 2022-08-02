@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922777"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028797"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – telepítési útmutató
 
@@ -22,10 +22,10 @@ Ez a telepítési típus a következő lehetőségeket nyújtja a Projektalapú 
 
 - Projekttervezés a [munkalebontási struktúrák](work-breakdown-structures.md) használatával
 - A készletezett készletek beszerzése és felhasználása projektekhez
-- Projektalapú értékesítések kezelése a **Dynamics 365 Finance and Operations alkalmazások Értékesítés és marketing** moduljával
-- A projekt díjszabása és költségszámítása a költségarány és a számladíj konfigurációinak felhasználásával a Finance and Operations alkalmazásokban
-- Erőforrás-kezelés projektekhez a Finance and Operations alkalmazásokban
-- A projekt előrehaladásának és időkövetésének követése a Finance and Operations alkalmazásokban
+- Projektalapú értékesítések kezelése a **Dynamics 365 pénzügyi és műveleti alkalmazások Sales and marketing** moduljával
+- A projekt díjszabása és költségszámítása a költségarány és a számlakamat-konfigurációk használatával a pénzügyi és üzemeltetési alkalmazásokban
+- Erőforrás-kezelés projektekhez a pénzügyi és üzemeltetési alkalmazásokban
+- A projekt előrehaladásának és időkövetésének nyomon követése a pénzügyi és üzemeltetési alkalmazásokban
 - A projektek és a projekten kívüli kiadások költségkezelési tapasztalatai az OCR-funkció segítségével végzett nyugtarögzítéssel
 - Számlázás nagyvállalati szintű áfa és dátum szerint átváltási árfolyamok rendszer használatával
 - Konfigurálható projektcsoportok a befejezetlen termelés könyveléséhez és az elhatárolásokhoz

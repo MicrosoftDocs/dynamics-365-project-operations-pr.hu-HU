@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911323"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028751"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 márciusában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -121,7 +121,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Projektvezetés és könyvelés | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | A régebbi munkalebontási struktúra (WBS) osztály metódus, a **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** elavult.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

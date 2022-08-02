@@ -6,12 +6,12 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923421"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029533"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -65,7 +65,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Projekt könyvelése  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | A Több szerződéssor funkció engedélyezése a CDS-integráció nélkül nem lehetséges.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

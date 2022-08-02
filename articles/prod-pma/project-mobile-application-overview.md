@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922869"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028889"
 ---
 # <a name="project-mobile-applications-overview"></a>Projek mobilalkalmazásainak áttekintése
 
@@ -33,11 +33,11 @@ A Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felha
 
 ## <a name="project-time-entry-workspace"></a>Projektidő-beviteli munkaterület
 
-A Projektidő-beviteli munkaterület lehetővé teszi, hogy a felhasználók időt adjanak meg és mentsenek a projekthez. Nem engedi azonban, hogy a felhasználók projekthez tartozó munkaidő-nyilvántartásokat küldjenek el vagy hagyjanak jóvá. Csak időbevitelre használható. Ezt a mobil munkaterületet a Finance and Operations mobilalkalmazással együtt kell használni.
+A Projektidő-beviteli munkaterület lehetővé teszi, hogy a felhasználók időt adjanak meg és mentsenek a projekthez. Nem engedi azonban, hogy a felhasználók projekthez tartozó munkaidő-nyilvántartásokat küldjenek el vagy hagyjanak jóvá. Csak időbevitelre használható. Ezt a mobil munkaterületet a finance and operations mobilalkalmazással együtt kell használni.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Saját időnyilvántartásaim/Időnyilvántartások áttekintésre
 
-A Saját időnyilvántartásaim (mobilra optimalizált) és az Időnyilvántartások áttekintésre (mobilra optimalizált) egy olyan megoldást alkotnak, amelyekkel mobileszközön hozhatnak létre, küldhetnek el és hagyhatnak jóvá projektekhez tartozó munkaidő-nyilvántartásokat. A dolgozók az alkalmazás URL-címén keresztül érhetik el a Finance funkciót. Ehhez a megoldáshoz nincs szükség a Finance and Operations mobilalkalmazásra.
+A Saját időnyilvántartásaim (mobilra optimalizált) és az Időnyilvántartások áttekintésre (mobilra optimalizált) egy olyan megoldást alkotnak, amelyekkel mobileszközön hozhatnak létre, küldhetnek el és hagyhatnak jóvá projektekhez tartozó munkaidő-nyilvántartásokat. A dolgozók az alkalmazás URL-címén keresztül érhetik el a Finance funkciót. Ehhez a megoldáshoz nincs szükség a finance and operations mobilalkalmazásra.
 
 ## <a name="for-more-information"></a>További információkért
 

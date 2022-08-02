@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921489"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028332"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Eltávolított vagy elavult funkciók a Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Ez a cikk azokat a funkciókat ismerteti, amelyeket eltávolítottak, vagy amely
 Ez a lista segítséget kíván nyújtani Önnek ezen eltávolítások és elavult funkciók figyelembe vételében saját tervezés céljából.
 
 > [!NOTE]
-> A Finance and Operations alkalmazásokban található objektumokra vonatkozó részletes információk a [**Technikai referenciajelentésekben találhatók**](/dynamics/s-e/global/axtechrefrep_61). A jelentések különböző verzióinak összehasonlításával megismerheti azokat az objektumokat, amelyek a Finance and Operations alkalmazások egyes verzióiban megváltoztak vagy el lettek távolítva.
+> A pénzügyi és műveleti alkalmazások objektumairól részletes információk a [**Technikai referenciajelentésekben találhatók**](/dynamics/s-e/global/axtechrefrep_61). A jelentések különböző verzióinak összehasonlításával megismerheti azokat az objektumokat, amelyek megváltoztak vagy el lettek távolítva a pénzügyi és üzemeltetési alkalmazások egyes verzióiban.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>A Project Operations 2022. márciusi kiadásában eltávolított vagy elavult funkciók
 

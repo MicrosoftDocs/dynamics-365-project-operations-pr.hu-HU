@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931195"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028476"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Több forrással rendelkező projektszerződések cikk-követelményei
 
@@ -33,7 +33,7 @@ Contoso két ügyfelével, az Adatum US-val és az Adatum Corporate-val nyerte e
 
 ### <a name="prerequisites"></a>Előfeltételek
 
-- Microsoft Dynamics 365 A Finance and Operations **10.0.27-es vagy újabb** verziója szükséges a több számlaszámlával rendelkező cikkkövetelmények használatához.
+- Microsoft Dynamics 365 A Finance **10.0.27-es vagy újabb** verziója szükséges a több számlaszámlával rendelkező cikkkövetelmények használatához.
 - A rendszergazdának engedélyeznie kell a Több finanszírozási forrással rendelkező elemkövetelmények engedélyezése a **Project Operations készletezett/éles környezetben futó forgatókönyvekhez** funkciót a **Funkciókezelés** munkaterületen.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>A számla számla alapértelmezett szabályainak beállítása

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927147"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029395"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Újdonságok és változások 2021. májusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -93,7 +93,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Utazás és költség                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Szinkronizálási problémák vannak a Költség mobilalkalmazással. 
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A Lifecycle Services (LCS) szolgáltatásba is bejelentkezhet, és megtekintheti a tervezett szabályozói frissítéseket a Problémakeresés eszköz segítségével. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A Lifecycle Services (LCS) szolgáltatásba is bejelentkezhet, és megtekintheti a tervezett szabályozói frissítéseket a Problémakeresés eszköz segítségével. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

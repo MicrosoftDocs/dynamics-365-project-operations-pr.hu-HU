@@ -4,7 +4,7 @@ description: Projektsablon létrehozása a Project Service szolgáltatásban
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598997"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177428"
 ---
 # <a name="create-a-project-template-project-service"></a>Projektsablon létrehozása (Project Service)
 
@@ -35,12 +35,19 @@ A projektsablonokkal időt takaríthat meg, ha a vállalat rendszeresen tesz aj�
 ## <a name="components-of-project-template"></a>Projektsablon összetevői
  A projektsablon három összetevőből áll:  
   
-- **Munkalebontási szerkezet**: A munkalebontási szerkezet egy projektsablonban ugyanazokat az elemeket tartalmazza, mint a projekt. Létrehozhat feladathierarchiát, kioszthat szerepeket feladatokhoz, meghatározhat ütemezési attribútumokat, beállíthat függőségeket és megtekinthet minden adatot a Gantt-diagramon. A projektsablonok munkalebontási szerkezete támogatja az egyes feladatok feladatmódját. Nincs különbség a projektsablon és a projekt között, amikor ütemtervet hoz létre.  
+- **Munkalebontási szerkezet**: A munkalebontási szerkezet egy projektsablonban ugyanazokat az elemeket tartalmazza, mint a projekt. Létrehozhat egy tevékenységhierarchiát, szerepköröket társíthat a tevékenységhez, meghatározhatja az ütemezési attribútumokat, beállíthatja a függőségeket, és megtekintheti a Gantt összes adatát. A projektsablonok munkalebontási struktúrája az egyes tevékenységek tevékenységmódjait is támogatja. A munkaütemezés létrehozásakor nincs különbség a projektsablon és a projekt között.  
   
 - **Projektbecslés**: A projektbecslések a sablonokban ugyanúgy működnek, ahogy a projektekben, kivéve, hogy a költségeket és eladási árakat meghatározó árlisták mind a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] paraméterek között megtalálható alapértelmezett költség- és eladásiár-listák. A többi funkció ugyanaz, mint egy projektben.  
   
 - **Projektcsoport létrehozása**: Amikor projektcsoportot hoz létre projektsablonból, nem foglalhat le névvel rendelkező erőforrást a sablonban. A munkalebontási struktúrában használhatja a **Projektcsoport létrehozása** lehetőséget az általános erőforrások generálásához. Megadhatja a szükséges készségeket és a szakmai tapasztalatokat az általános erőforrásokhoz. Nem helyettesíthet általános erőforrást foglalható erőforrással a projektsablonokban.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Projektsablon létrehozása meglévő projektből
+A következő módokon hozhat létre projektsablont egy projektből:
+
+- **Munkalebontási struktúra**: A projektből származtatott sablonban lévő munkalebontási struktúra átmásolja az összes tevékenységet és függőséget. A létrehozott hozzárendelések a projektsablon létrehozásakor a projektcsapathoz hozzáadott általános csapattagokon alapulnak.
+- **Projektbecslések**: Amikor egy meglévő projektből hoznak létre projektsablont, a forrásprojektből származó becslések átmásolódnak a projektsablonba.
+- **Projektcsapat tagjai**: Amikor egy sablont egy meglévő projektből hoznak létre, a rendszer az összes megnevezett csapattagot lecseréli a szervezet általános erőforrására. Minden pozíciónév és szerepkör megmarad.
+
 ## <a name="create-a-project-from-a-template"></a>Projekt létrehozása sablonból  
  A következő módokon hozhat létre projektet sablonból:  
   

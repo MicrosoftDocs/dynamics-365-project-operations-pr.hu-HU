@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 74cace069e0b5a982e6ea1df0607ff72f1911a0f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916475"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028159"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy módosítások 2021 áprilisában a Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -83,7 +83,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Utazás és költség                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Ha egy költségkategória nem projektkategória, a **Költségek** lapon kiválasztott pénzügyi dimenziók nem lesznek átmásolva a költségjelentésbe.                                          |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

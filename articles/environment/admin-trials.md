@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959640"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029303"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Regisztrálás a Project Operations próbaverziókra 
 
@@ -86,11 +86,11 @@ Mielőtt elkezdené, jelentkezzen be egy böngészőbe a felhasználói munkafi�
  
   Amikor a kiépítés befejeződött, a környezet állapota **Kész**. A környezet kiépítése bemutató adatok telepítését is magában foglalja.
  
-4.  Válassza ki a megfelelő Microsoft Dataverse URL-címet és a Finance and Operations alkalmazások URL-címeit az üzembe helyezés ellenőrzéséhez.
+4.  Válassza ki a megfelelő Microsoft Dataverse URL-címet és a pénzügyi és üzemeltetési alkalmazások URL-címeit az üzembe helyezés ellenőrzéséhez.
 
 ## <a name="configuring-dual-write"></a>Kettős írás beállítása
 - A kettős írás biztonsági szerepköreinek konfigurálásához lásd: [Biztonsági beállítások frissítése a Project Operations szolgáltatásban a Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- A kettős írású konfiguráció eléréséhez lépjen a Finance and Operations példányhoz, majd lépjen az Adatkezelés **kettős írása lapra** > **·**.
+- A kettős írású konfiguráció eléréséhez lépjen a pénzügyi és műveleti példányhoz, majd lépjen az Adatkezelés **kettős írása lapra** > **·**.
 - A kettős írású térképek konfigurálásához lásd: [Project Operations kettős írású leképezések](resource-provision-new-environment.md#run-project-operations-dual-write-maps) futtatása.
 
 ## <a name="assign-licenses"></a>Licencek hozzárendelése
@@ -117,7 +117,7 @@ Az alábbi források hasznos útmutatást nyújtanak a Project Operations-szal k
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Mi a teendő, ha ALM-re vagy ELM-re van szükségem a Finance and Operations alkalmazások környezetéhez?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Mi a teendő, ha ALM-re vagy ELM-re van szükségem a pénzügyi és üzemeltetési alkalmazások környezetéhez?
 
 - Azon partnerek számára, akiknek teljes körű környezet-életciklus-kezelési képességekre van szükségük, tekintse meg a [Partner tesztkörnyezeti licenckérelmet](https://experience.dynamics.com/requestlicense) az új partneri ajánlat áttekintéséhez. 
 - A belső felhasználási jogokról bővebb információt kereső partnerek számára lásd: [Belső felhasználási jogok felhő- és szoftverelőny (microsoft.com](https://partner.microsoft.com/membership/internal-use-software)).

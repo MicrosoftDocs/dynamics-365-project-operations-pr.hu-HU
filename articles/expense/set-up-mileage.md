@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930137"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064281"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>A futásteljesítmény beállítása futásteljesítmény-szintek használatával
 
@@ -50,5 +50,15 @@ A **Futásteljesítmény összeg kiszámításának engedélyezése több futás
 
 A funkció engedélyezése után állítsa vissza a futásteljesítményt úgy, hogy az megfelelően tükrözze a **Mennyiség** mező értékét. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Engedélyezze a Futásteljesítmény-összegek kiszámítását pénzügyi év funkció szerint
+
+A **Futásteljesítmény-összegek kiszámítása pénzügyi év** funkció szerint lehetővé teszi a Költségkezelési paraméterek új beállítását, amely naptári év helyett pénzügyi év szerint végzi el a futásteljesítmény-összegek kiszámítását. A szolgáltatás engedélyezéséhez kövesse az alábbi lépéseket.
+
+1. Válassza a **Munkaterületek** > **Szolgáltatáskezelés** lehetőséget.
+1. A listában keresse meg és válassza a **Futásteljesítmény-összegek számítása pénzügyi év** alapján lehetőséget, majd válassza az Engedélyezés most **lehetőséget**.
+1. Lépjen a **Költségkezelés** > **beállításának** > **általános** > **költségkezelési paramétereihez**.
+1. **A Költségkezelési paraméterek** lapon keresse meg és engedélyezze **a pénzügyi év használata a futásteljesítmény-összegekhez** lehetőséget.
+
+Miután engedélyezte **a pénzügyi év használata a futásteljesítmény-összegekhez** funkciót, a futásteljesítmény-összegeket a rendszer pénzügyi év számítja ki.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

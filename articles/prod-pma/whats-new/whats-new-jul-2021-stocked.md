@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933633"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028843"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Újdonságok és változások 2021. júliusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
 
@@ -64,7 +64,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Utazás és költség                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Ha a munkafolyamat nem található, akkor a **Költségdokeumentum állapotának visszaállítása** eszköz vissza kell állítsa a költségjelentést **Vázlat** állapotra. 
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A Lifecycle Services (LCS) szolgáltatásba is bejelentkezhet, és megtekintheti a tervezett szabályozói frissítéseket a Problémakeresés eszköz segítségével. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A Lifecycle Services (LCS) szolgáltatásba is bejelentkezhet, és megtekintheti a tervezett szabályozói frissítéseket a Problémakeresés eszköz segítségével. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

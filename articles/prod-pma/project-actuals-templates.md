@@ -1,6 +1,6 @@
 ---
-title: Projektadatok szinkronizálása közvetlenül a Project Service Automation szolgáltatásból a projektintegrációs naplóba a Finance and Operations alkalmazásban való közzétételhez
-description: Ez a cikk azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projekt tényleges adatainak közvetlenül a Finance and Operations szolgáltatással Microsoft Dynamics 365 Project Service Automation való szinkronizálására szolgálnak.
+title: Projektadatok szinkronizálása közvetlenül a Project Service Automationből a projektintegrációs naplóba a pénzügyekben és műveletekben való közzétételhez
+description: Ez a cikk azokat a sablonokat és mögöttes tevékenységeket ismerteti, amelyek a projekt tényleges adatainak közvetlenül a pénzügyek Microsoft Dynamics 365 Project Service Automation és műveletek közötti szinkronizálására szolgálnak.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929493"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028981"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projektadatok szinkronizálása közvetlenül a Project Service Automation szolgáltatásból a projektintegrációs naplóba a Finance and Operations alkalmazásban való közzétételhez
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projektadatok szinkronizálása közvetlenül a Project Service Automationből a projektintegrációs naplóba a pénzügyekben és műveletekben való közzétételhez
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ A Project Service Automation és Finance közötti integrációs megoldás az ad
 
 A következő ábra azt mutatja be, hogyan történik az adatok szinkronizálása a Project Service Automation és a Finance rendszer között.
 
-[![Adatfolyam a Project Service Automation és a Finance and Operations integrációjához.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Adatfolyam a Project Service Automation integrációjához a pénzügyekkel és a műveletekkel.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Tényleges projektadatok a Project Service Automation alkalmazásból
 

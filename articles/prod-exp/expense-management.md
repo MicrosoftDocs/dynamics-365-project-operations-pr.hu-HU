@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934047"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029349"
 ---
 # <a name="expense-management-overview"></a>Költségkezelés áttekintése
 
@@ -43,7 +43,7 @@ További információkért lásd: [Átdolgozott költségjelentések](ExpenseWor
 
 ### <a name="blogs"></a>Blogok
 
-Véleményeket, híreket és egyéb információkat találhat a [Microsoft Dynamics 365 blogon](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) és a [Microsoft Dynamics 365 Finance and Operations - Financials blogon](https://community.dynamics.com/365/financeandoperations/b/financials).
+Véleményeket, híreket és egyéb információkat találhat a [Microsoft Dynamics 365 blogon](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) és a [Microsoft Dynamics 365 Finance - Financials blogon](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 A [Microsoft Dynamics Operations partnerközösség blogja](https://community.dynamics.com/partner/b/operationspartnercommunityblog) a Microsoft Dynamics partnereknek egyetlen erőforrást biztosít, ahol megismerhetik, hogy mik az újdonságok és trendek az MBS Operations szolgáltatásban.
 

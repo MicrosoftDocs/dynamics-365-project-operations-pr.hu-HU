@@ -2,22 +2,22 @@
 title: A Project Operations integrációs naplója
 description: Ez a cikk az integrációs naplóval való munkáról nyújt tájékoztatást a Project Operationsben.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923881"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106278"
 ---
 # <a name="integration-journal-in-project-operations"></a>A Project Operations integrációs naplója
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Az idő- és Költségbejegyzések **tényleges érték** tranzakciókat hoznak létre, amelyek a projekttel kapcsolatban befejezett tevékenységek működési nézetét jelentik. A Dynamics 365 Project Operations a könyvelők számára eszközt biztosít a tranzakciók felülvizsgálatára, és szükség esetén a számviteli attribútumok módosítására. A felülvizsgálat és a helyesbítések befejeződése után a tranzakciókat a projekt részfőkönyvébe és a főkönyvbe könyveli a rendszer. A könyvelő ezeket a tevékenységeket a **Project Operations Integration** journal(**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration journal használatával végezheti** el.
+Az idő-, költség-, díj- és anyagbevitelek tényleges **tranzakciókat hoznak létre**, amelyek a projekttel szemben befejezett munka működési nézetét képviselik. A Dynamics 365 Project Operations a könyvelők számára eszközt biztosít a tranzakciók felülvizsgálatára, és szükség esetén a számviteli attribútumok módosítására. A felülvizsgálat és a helyesbítések befejeződése után a tranzakciókat a projekt részfőkönyvébe és a főkönyvbe könyveli a rendszer. A könyvelő ezeket a tevékenységeket a **Project Operations Integration** journal (**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration journal) segítségével végezheti** el.
 
 ![Integrációs napló folyamata.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ A Project Operations integrációsnapló-soraiban csak a következő számlázá
 - **Számlázási áfacsoport** és a **Számlázási cikk áfacsoportja**
 - **Pénzügyi dimenziók** (az **összegek elosztása** művelet használatával)
 
-Az integrációs naplósorok törölhetők, de a feladatlan sorokat a rendszer ismét beszúrja a naplóba, miután újra futtatja az **Importálás az előkészítésből** időszakos folyamatot.
+Az integrációs napló sorai törölhetők. A fel nem adott sorok azonban ismét bekerülnek a naplóba, miután újrafuttatta az Importálás az **átmeneti** időszaki folyamatból folyamatot.
+
+### <a name="post-the-project-operations-integration-journal"></a>A Project Operations integrációs naplójának közzététele
 
 Az integrációs napló feladásakor létrejön egy projektrészfőkönyv és főkönyvi tranzakciók. Ezeket használják a lefelé irányuló ügyfélszámlázás során, a bevétel elszámolása és a pénzügyi jelentéskészítés során.
 
+A kiválasztott Project Operations integrációs napló a Post **használatával** adhatja fel a Project Operations integrációs naplójának oldalán. Minden napló automatikusan közzétehető egy folyamat futtatásával a Periodics Project Operations integrációja **a Project Operations projektműveletek** > **utáni integrációs naplójában** > **·**.
+
+A feladás történhet interaktívan vagy kötegben. Vegye figyelembe, hogy a 100 sornál több sorból álló naplók automatikusan egy kötegben lesznek közzétéve. A jobb teljesítmény érdekében, ha a sok sort tartalmazó naplókat egy kötegben teszik közzé, engedélyezze a **Projektműveletek utáni integrációs napló több kötegelt feladat** használatával funkciót a **Funkciókezelés** munkaterületen. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>A feladási hibákat tartalmazó összes sor átvitele új naplóba
+
+> [!NOTE]
+> Ennek a képességnek a használatához engedélyezze az **Összes sor átvitele feladási hibákkal egy új Project Operations integrációs naplóba** funkciót a **Funkciókezelés** munkaterületen.
+
+A Project Operations integrációs naplóba való feladás során a rendszer a napló minden sorát ellenőrzi. A rendszer minden olyan sort közzétesz, amely nem tartalmaz hibát, és létrehoz egy új naplót minden olyan sorhoz, amely feladási hibát tartalmaz. A feladási hibasorokkal rendelkező naplók áttekintéséhez nyissa meg **a Projektvezetési és könyvelési** > **naplók Projektműveletek** > **integrációs naplóját**, és szűrje a naplókat az **Eredeti napló** mező használatával.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

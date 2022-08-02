@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912381"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110887"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2022. áprilisban – Project Operations erőforrásalapú vagy nem készletalapú forgatókönyvekhez
 
@@ -25,7 +25,7 @@ Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
-A beszerzési kategóriák projektbeszerzési rendelésekben és függőben lévő szállítói számlákban használhatók. További tájékoztatás: [Beszerzési kategóriák használata projektvásárlási rendelésekkel és függőben lévő szállítói számlákkal](configure-procurement-categories.md).
+A beszerzési kategóriák projektbeszerzési rendelésekben és függőben lévő szállítói számlákban használhatók. További tájékoztatás: [Beszerzési kategóriák használata projektvásárlási rendelésekkel és függőben lévő szállítói számlákkal](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 
@@ -45,16 +45,16 @@ Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hi
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | ------------ | ---------------- | -------------- |
-| Idő és költség | 2573900 | A **Modern jóváhagyás** funkciót alapértelmezés szerint engedélyezni kell. |
-| Számlázás és árképzés | 2603313 | Kijavítottunk egy ismétlődő rekordhibát, amely megakadályozta a termékkel rendelkező árajánlat- és szerződéssorok hozzáadását. |
-| Üzembe helyezés és konfigurálás | 2611368 | Az ügyfeleknek képesnek kell lenniük arra, hogy akár öt egyéni entitást is hozzáadjanak a megoldáshoz a modern alkalmazástervező használatával. |
-| Idő és költség | 2628285 | Kijavítottunk egy hibát, amely befolyásolta a megfelelő erőforrás-kategória beállítását az időbevitel importálása során. |
-|   Lehetőségkezelés| 2628815 | Frissítse az idézőjelsor részletes leírásának karakterkorlátját úgy, hogy az megfeleljen a tevékenység tárgyának karakterkorlátjának, hogy az importálás sikeres legyen azokban a feladatokban, ahol a tárgy 100 karakternél hosszabb. |
-| Idő és költség| 2629547 | A **projektjóváhagyások Beküldési szempontja** mezőnek arra a felhasználóra kell mutatnia, aki beadta a rekordot. |
-| Idő és költség| 2629865 | A **Kategória** másolása mező a tevékenységekről a projektek másolásakor. |
-| Idő és költség| 2636463 | Kijavítottuk a jóváhagyások szűrőit a modern jóváhagyási űrlapokon. |
-| Projekttervezés és nyomon követés | 2648300 | Kijavítottunk egy hibát, amely megakadályozta a projekt tulajdonosának módosítását. |
-| Számlázás és árképzés | 2563000 | Nem szabad megengedni a nem számlázott értékesítés naplósorait, ha a pénznem eltér a szerződés pénznemétől. |
+| Idő és költség | 2573900. | A **Modern jóváhagyás** funkciót alapértelmezés szerint engedélyezni kell. |
+| Számlázás és árképzés | 2603313. | Kijavítottunk egy ismétlődő rekordhibát, amely megakadályozta a termékkel rendelkező árajánlat- és szerződéssorok hozzáadását. |
+| Központi telepítés és konfiguráció | 2611368. | Az ügyfeleknek képesnek kell lenniük arra, hogy akár öt egyéni entitást is hozzáadjanak a megoldáshoz a modern alkalmazástervező használatával. |
+| Idő és költség | 2628285. | Kijavítottunk egy hibát, amely befolyásolta a megfelelő erőforrás-kategória beállítását az időbevitel importálása során. |
+|   Lehetőségkezelés| 2628815. | Frissítse az idézőjelsor részletes leírásának karakterkorlátját úgy, hogy az megfeleljen a tevékenység tárgyának karakterkorlátjának, hogy az importálás sikeres legyen azokban a feladatokban, ahol a tárgy 100 karakternél hosszabb. |
+| Idő és költség| 2629547. | A **projektjóváhagyások Beküldési szempontja** mezőnek arra a felhasználóra kell mutatnia, aki beadta a rekordot. |
+| Idő és költség| 2629865. | A **Kategória** másolása mező a tevékenységekről a projektek másolásakor. |
+| Idő és költség| 2636463. | Kijavítottuk a jóváhagyások szűrőit a modern jóváhagyási űrlapokon. |
+| Projekttervezés és nyomon követés | 2648300. | Kijavítottunk egy hibát, amely megakadályozta a projekt tulajdonosának módosítását. |
+| Számlázás és árképzés | 2563000. | Nem szabad megengedni a nem számlázott értékesítés naplósorait, ha a pénznem eltér a szerződés pénznemétől. |
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
 

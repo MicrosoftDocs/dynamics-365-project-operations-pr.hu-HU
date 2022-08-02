@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912243"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028705"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>A teljes számlázású számlázási mérföldkövek áttelepítése átálláskor
 
@@ -46,7 +46,7 @@ Contoso a Microsofttal Dynamics 365 Project Operations együtt fog élesedni er�
 3. Adjon hozzá egy leképezést a tranzakciós állapothoz.
 
     1. Válassza a Leképezés **hozzáadása lehetőséget**.
-    2. Az új sorban, a **Finance and Operations alkalmazások** oszlopban válassza ki a **TRANSSTATUS TRANSSTATUS \[\]** mezőt.
+    2. Az új sorban, a **Finance and operations alkalmazások** oszlopban válassza ki a **TRANSSTATUS TRANSSTATUS \[\]** mezőt.
     3. Az oszlopban válassza az **Microsoft Dataverse** msdyn invoicestatus Invoice status (msdyn **invoicestatus \_ Invoice status) lehetőséget\[.\]**
     4. **A Térkép típusa** oszlopban válassza a jobbra mutató nyilat (**\>**).
     5. A megjelenő párbeszédpanelen a Szinkronizálás iránya **mezőben válassza** a **Dataverse Finance and Operations alkalmazások lehetőséget**.

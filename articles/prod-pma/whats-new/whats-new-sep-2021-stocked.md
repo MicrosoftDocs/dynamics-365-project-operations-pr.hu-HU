@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: be0f397df4a3e1973e1f5546e43b2cf9578950a0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916521"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029855"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy változások a Project Operationsben, 2021. szeptember a készletezett/éles környezetben tárolt forgatókönyvek esetén
 
@@ -91,6 +91,6 @@ Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet a Lifecycle Services (LCS) szolgáltatásba Microsoft Dynamics is, és a Problémakereső eszközzel megtekintheti a tervezett szabályozási frissítéseket. A problémakeresés lehetővé teszi az ország vagy régió, a funkció típusa és a kiadás szerinti keresést.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet a Lifecycle Services (LCS) szolgáltatásba Microsoft Dynamics is, és a Problémakereső eszközzel megtekintheti a tervezett szabályozási frissítéseket. A problémakeresés lehetővé teszi az ország vagy régió, a funkció típusa és a kiadás szerinti keresést.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

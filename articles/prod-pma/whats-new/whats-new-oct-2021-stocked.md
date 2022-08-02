@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aa36199c9e7b0a70307c5e9fb163d82554f6be16
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933679"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029946"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Újdonságok vagy változások a Project Operationsben, 2021. október a készletezett/éles környezetben tárolt forgatókönyvek esetén
 
@@ -30,7 +30,7 @@ Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire
 | Projektvezetés és könyvelés | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | A **Projektbezárás megakadályozása, ha vannak nyitott tranzakciók léteznek** funkció, nem működik. |
 | Projektvezetés és könyvelés | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | A szabadszöveges számlák számlázási besorolása nem tölti ki automatikusan a projektek dimenzióit, ha az adott funkció engedélyezve van. |
 | Projektvezetés és könyvelés | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | Nem vállalatközi forgatókönyvekben a wip- és a felhalmozott bevételi összegek nem lesznek megfelelően visszavonva a projektszámla feladásakor. |
-| Projektvezetés és könyvelés | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | A terhelési és jóváírási értékek akkor váltanak át, ha a Microsoft Excel bővítményt a Projekt költségnaplójával együtt használják, és az **Ellenszámla típusa** mező Project **értékre** van állítva. |
+| Projektvezetés és könyvelés | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | A terhelési és jóváírási értékek akkor váltanak át, ha a Microsoft Excel bővítményt a Projekt költségnaplójával együtt használják, és az **Ellenszámla típusa** mező Project értékre **van állítva**. |
 | Projektvezetés és könyvelés | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | A projekttranzakciókban feladott összeg túlbecsüli egy olyan projektvásárlási rendelést, amely készletezett cikkeket tartalmaz, és amely nem vonható leadóösszegekkel rendelkezik, amikor **a UseTax** meg van jelölve. |
 | Projektvezetés és könyvelés | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | A rendszer felosztja az összeget a projekt eredményjelentései és a projekt WIP-jelentései között. |
 | Projektvezetés és könyvelés | [582065](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582065) | Az aktuális készlet helytelen a részben visszaadott cikkszükséglet kiigazítása után. |
@@ -80,6 +80,6 @@ Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
 
-További információ a Finance and Operations alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet a Lifecycle Services (LCS) szolgáltatásba Microsoft Dynamics is, és a Problémakereső eszközzel megtekintheti a tervezett szabályozási frissítéseket. A problémakeresés lehetővé teszi az ország vagy régió, a funkció típusa és a kiadás szerinti keresést.
+További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet a Lifecycle Services (LCS) szolgáltatásba Microsoft Dynamics is, és a Problémakereső eszközzel megtekintheti a tervezett szabályozási frissítéseket. A problémakeresés lehetővé teszi az ország vagy régió, a funkció típusa és a kiadás szerinti keresést.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
