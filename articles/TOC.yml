@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
-        - name: 2022. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: 2022. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: 2022. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: 2022. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: 2021. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 2021. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 2021. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: 2021. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: 2021. január – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: 2022. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Archívum
+          items:
+            - name: 2022. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: 2022. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: 2022. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: 2022. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: 2022. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: 2021. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: 2021. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: 2021. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: 2021. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: 2021. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: 2021. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: 2021. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: 2021. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: 2021. április – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: 2021. február – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: 2021. január – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projekt értékesítési folyamata
       items:
         - name: Projekt értékesítési folyamatának áttekintése
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Tényadatok áttekintése
           href: actuals/actuals-overview.md
+        - name: A tényadatok hatásai idő és anyagalapú együttműködésben
+          href: actuals/ActualsonTM.md
+        - name: A tényadatok hatásai rögzített árú együttműködésben
+          href: actuals/ActualonFP.md
+        - name: A tényadatok hatása egy együttműködés értékesítés előtti fázisában
+          href: actuals/ActualonPreSales.md
+        - name: A tényadatok hatása egy belső projektben
+          href: actuals/ActualonInternal.md
         - name: Tranzakciók eredete – tényadatok csatolása a forráshoz
           href: actuals/linkingactuals.md
         - name: Tranzakciókapcsolatok – Különböző tranzakciótípusok tényadatainak csatolása
@@ -513,9 +527,11 @@
             - name: Projektalapú proforma számla megerősítése
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Projektalapú helyesbítő számlák létrehozása
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Projektalapú számlák automatizálásának konfigurálása
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Projektalapú helyesbítő számlák
+              href: proforma-invoicing/corrective-invoices.md
         - name: Ügyfélszámlázás
           items:
             - name: Projektszámla-ajánlatok kezelése
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: 'Újdonságok 2021 2. hullám, korai hozzáférés – egyszerű központi telepítés'
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Újdonságok 2022. májusában – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: Újdonságok 2022. áprilisban – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: Újdonságok 2022. márciusban – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: Újdonságok 2022. februárban – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: Újdonságok 2021. decemberben – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Újdonságok 2021. novemberben – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Újdonságok 2021. októberben – egyszerű telepítés
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Újdonságok 2021. szeptemberben – egyszerű telepítés
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Újdonságok 2021. augusztusban – egyszerű telepítés
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Újdonságok 2021. júliusban – egyszerű telepítés
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Újdonságok 2021. júniusában – egyszerű telepítés
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Újdonságok 2021. májusában – egyszerű telepítés
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Újdonságok 2021. áprilisban – egyszerű telepítés
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Újdonságok 2021. márciusban – egyszerű telepítés
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Újdonságok 2021. februárban – egyszerű telepítés
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Újdonságok 2021. januárban – egyszerű telepítés
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: Újdonságok 2020. decemberben – egyszerű telepítés
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Újdonságok 2020. novemberben – egyszerű telepítés
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: Újdonságok 2022. júliusában – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Archívum
+          items:
+            - name: Újdonságok 2022. júniusában – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: 'Újdonságok 2021 2. hullám, korai hozzáférésben – egyszerű központi telepítés'
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: Újdonságok 2022. májusában – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: Újdonságok 2022. áprilisban – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: Újdonságok 2022. márciusban – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: Újdonságok 2022. februárban – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: Újdonságok 2021. decemberben – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: Újdonságok 2021. novemberben – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: Újdonságok 2021. októberben – egyszerű telepítés
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: Újdonságok 2021. szeptemberben – egyszerű telepítés
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: Újdonságok 2021. augusztusban – egyszerű telepítés
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: Újdonságok 2021. júliusban – egyszerű telepítés
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: Újdonságok 2021. júniusában – egyszerű telepítés
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: Újdonságok 2021. májusában – egyszerű telepítés
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: Újdonságok 2021. áprilisban – egyszerű telepítés
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: Újdonságok 2021. márciusban – egyszerű telepítés
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: Újdonságok 2021. februárban – egyszerű telepítés
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: Újdonságok 2021. januárban – egyszerű telepítés
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: Újdonságok 2020. decemberben – egyszerű telepítés
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: Újdonságok 2020. novemberben – egyszerű telepítés
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projekt értékesítési folyamata
       items:
         - name: Projekt értékesítési folyamatának áttekintése
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
   items:
+    - name: Első lépések
+      items:
+        - name: Az adatintegráció konfigurálása
+          items:
+            - name: A Project Service Automation áttekintése
+              href: prod-pma/PSA-integration.md
+            - name: A Project Service Automation integráció paraméterei
+              href: prod-pma/PSA-parameters.md
+            - name: Projektszerződések és projektek szinkronizálása közvetlenül a Project Service Automation rendszerből a Finance-be
+              href: prod-pma/project-contracts-templates.md
+            - name: Projekt tényleges adatainak közvetlen szinkronizálása a Project Service Automation alkalmazásból közvetlenül a projektintegrációs naplóba a feladáshoz a pénzügy és műveletek szolgáltatásba
+              href: prod-pma/project-actuals-templates.md
+            - name: Projektbecslések szinkronizálása közvetlenül a Project Service Automationből a pénzügy és műveletek szolgáltatásba
+              href: prod-pma/project-estimates-templates.md
+            - name: Projekt költségkategóriák szinkronizálása a pénzügy és műveletek és a Project Service Automation között
+              href: prod-pma/project-categories-templates.md
+            - name: Projektfeladatok szinkronizálása közvetlenül a Project Service Automationből a pénzügy és műveletek szolgáltatásba
+              href: prod-pma/project-tasks-template.md
+        - name: Környezetek üzembe helyezése
+          items:
+            - name: A Finance környezetben lévő Project Operations frissítése
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2021. októberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Újdonságok 2021. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Újdonságok 2021. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Újdonságok 2021. májusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: Újdonságok 2021. áprilisban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: Újdonságok 2021. márciusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: Újdonságok 2021. januárban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: Újdonságok 2020. decemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: Újdonságok 2020. novemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: Újdonságok 2022. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Archívum
+          items:
+            - name: Újdonságok 2022. júniusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: Újdonságok 2021. októberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: Újdonságok 2021. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: Újdonságok 2021. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: Újdonságok 2021. májusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: Újdonságok 2021. áprilisban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: Újdonságok 2021. márciusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: Újdonságok 2021. januárban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: Újdonságok 2020. decemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: Újdonságok 2020. novemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – központi telepítés áttekintése
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projektmenedzsment és könyvelés – áttekintés
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Projekt időbeviteli mobil munkaterület
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Projekt munkaidő-nyilvántartás mobilalkalmazása
+        - name: Project Timesheet mobilalkalmazás
           href: prod-pma/project-timesheet.md
-        - name: Projekt munkaidő-nyilvántartása mobileszközön
+        - name: Project Timesheet mobileszközön
           href: prod-pma/mobile-timesheets.md
+        - name: Projektfázis átnevezése vagy módosítása
+          href: prod-pma/tasks/rename-project.md
         - name: Egyéni mezők megvalósítása a Project Timesheet mobilalkalmazáshoz
           href: prod-pma/custom-fields-mobile.md
     - name: Erőforrás-kezelés
@@ -1150,6 +1202,8 @@
       items:
         - name: Projekt-előrejelzések és költségvetések
           href: prod-pma/project-forecasts-budgets.md
+        - name: A projektköltségvetések vagy költségvetés-verziók felosztása a különböző időszakok között
+          href: prod-pma/tasks/allocate-project.md
         - name: Előrejelzési modellek létrehozása a projektköltségvetésekhez
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: A projektköltségvetések átadása a pénzügyi év végén
@@ -1246,6 +1300,10 @@
       items:
         - name: Projekt becslésének eltávolítása
           href: prod-pma/eliminate-project-estimate.md
+    - name: Közigazgatás
+      items:
+        - name: A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
+          href: prod-pma/project-sefa-inquiry.md
 - name: Költségkezelés
   items:
     - name: Költségkezelés áttekintése
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Delegálás kezelése
           href: expense/manage-delegation.md
+        - name: Költségkezelés konfigurálása
+          href: prod-exp/plan-expense-management.md
         - name: Költségkezelési paraméterek konfigurálása
           href: expense/configure-expense-management-parameters.md
         - name: Hitelkártya-integráció beállítása
@@ -1278,10 +1338,14 @@
       items:
         - name: Felosztások egy költségjelentésen
           href: expense/distributions-expense-report.md
+        - name: Bankkártya-tranzakciók importálása és karbantartása
+          href: prod-exp/import-credit-card.md
     - name: Költségjelentések jóváhagyása
       items:
         - name: Költségjelentések és több jóváhagyó
           href: expense/expense-reports-multiple-approvers.md
+        - name: Költségdelegálás kezelése
+          href: prod-exp/manage-expense-delegation.md
     - name: Költségjelentések közzététele
       href: expense/posting-expense-reports.md
     - name: Utazási kérelem
@@ -1294,16 +1358,20 @@
       href: expense/expense-using-mobile.md
     - name: Pénzügyi kezelés
       items:
-        - name: ÁFA-visszaigénylés
+        - name: Áfa-visszaigénylés
           href: expense/vat-recovery.md
+        - name: Költségjelentés megtekintése főkönyvből vagy beszerzésből
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
       href: psa/overview.md
     - name: Újdonságok
       items:
-        - name: A Project Service 3.x frissítési kiadásának ütemezése
+        - name: A Project Service 3.x frissítéseinek kiadási ütemezése
           href: psa/version-history-ps.md
+        - name: A 44-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-44.md
         - name: A 43-as frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur43.md
         - name: A 42-es frissítési kiadás V3 verziójának újdonságai vagy változásai
@@ -1360,11 +1428,13 @@
           href: psa/whats-new-ur-24.md
         - name: 'A 23, V3-as frissítési kiadás újdonságai vagy változásai'
           href: psa/whats-new-ur-23.md
-        - name: 'A 22, V3-as frissítési kiadás újdonságai vagy változásai'
+        - name: A 22-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-22.md
+        - name: A 21-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-21.md
-        - name: 'A 20, V3-as frissítési kiadás újdonságai vagy változásai'
+        - name: A 20-as frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-20.md
-        - name: 'A 19, V3-as frissítési kiadás újdonságai vagy változásai'
+        - name: A 19-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-19.md
         - name: 'A 18, V3-as frissítési kiadás újdonságai vagy változásai'
           href: psa/whats-new-ur-18.md
