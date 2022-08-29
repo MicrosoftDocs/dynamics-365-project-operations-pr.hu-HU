@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922087"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261257"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Projekt felszerelése szerződéses alkalmazottakkal és az alvállalkozói szerződésben rögzített kapacitással
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 

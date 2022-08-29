@@ -6,16 +6,14 @@ ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914175"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261420"
 ---
 # <a name="header-details-for-subcontracts"></a>Az alvállalkozói szerződések fejlécének adatai
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 

@@ -1,17 +1,17 @@
 ---
-title: Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban
+title: Konfigurációs adatok beállítása és alkalmazása a Microsoft Dataverse szolgáltatásban
 description: Ez a cikk a konfigurációs adatok Project Operationsben való beállításáról és alkalmazásáról nyújt tájékoztatást.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928021"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230240"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurációs adatok beállítása és alkalmazása a Common Data Service szolgáltatásban 
 
@@ -21,10 +21,10 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 ## <a name="prerequisites"></a>Előfeltételek
 
-Mielőtt megkezdi az adatok konfigurálását a Common Data Service (CDS) szolgáltatásban, a következő előfeltételeknek kell teljesülniük:
+Mielőtt elkezdené konfigurálni az adatokat a Microsoft Dataverse, a következő előfeltételeknek kell teljesülniük:
 
-1.  CdS-környezet és Dynamics 365 Finance környezet kiépítése a Project Operations számára.
-2.  A jogi személynek a Dynamics 365 Finance származó adatai meg vannak osztva a CDS-környezettel. Ez azt jelenti, hogy a **vállalat** entitás a CDS-ben a következő vállalati rekordokkal rendelkezik:
+1.  Dataverse Környezet és Dynamics 365 Finance környezet kiépítése a Project Operations számára.
+2.  A Dynamics 365 Finance jogi személy adatait megosztjuk a Dataverse környezettel. Ez azt jelenti, hogy a **Vállalat** entitása Dataverse a következő vállalati rekordokkal rendelkezik:
   - THPM
   - USPM
   - GBPM

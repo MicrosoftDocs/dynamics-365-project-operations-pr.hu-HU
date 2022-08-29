@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929217"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230318"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 
@@ -45,9 +45,9 @@ A következő lista az aktuális Projektütemezési API-kat sorolja fel.
 - **msdyn_CreateProjectV1**: Ez az API projekt létrehozására használható. A projekt és az alapértelmezett projektvödör azonnal létrejön.
 - **msdyn_CreateTeamMemberV1**: Ez az API projekt csoporttag létrehozására használható. A csoporttag-rekord azonnal létrejön.
 - **msdyn_CreateOperationSetV1**: Ez az API több olyan kérés ütemezésére használható, amelyet egy tranzakción belül kell végrehajtani.
-- **msdyn_PSSCreateV1**: Ez az API entitás létrehozására használható. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet.
-- **msdyn_PSSUpdateV1**: Ez az API entitás frissítésére használható. Az entitás a frissítés műveletet támogató bármely Projektütemezési entitás lehet.
-- **msdyn_PSSDeleteV1**: Ez az API entitás törlésére használható. Az entitás a törlés műveletet támogató bármely Projektütemezési entitás lehet.
+- **msdyn_PssCreateV1**: Ez az API egy entitás létrehozására használható. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet.
+- **msdyn_PssUpdateV1**: Ez az API egy entitás frissítésére használható. Az entitás a frissítés műveletet támogató bármely Projektütemezési entitás lehet.
+- **msdyn_PssDeleteV1**: Ezzel az API-val törölhet egy entitást. Az entitás a törlés műveletet támogató bármely Projektütemezési entitás lehet.
 - **msdyn_ExecuteOperationSetV1**: Ez az API az adott műveletkészleten belüli összes művelet végrehajtására használható.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Projektütemezési API-k használata az OperationSet elemmel
