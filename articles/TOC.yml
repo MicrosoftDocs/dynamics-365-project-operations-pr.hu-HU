@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
-        - name: 2022. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 2022. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archívum
           items:
+            - name: 2022. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 2022. május – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -384,6 +386,42 @@
           items:
             - name: Erőforrás-kihasználtság áttekintése
               href: resource-management/resource-utilization-overview.md
+    - name: Alvállalkozók kezelése
+      items:
+        - name: Alvállalkozói szerződések kezelése a Project Operations alkalmazásban
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Az alvállalkozói szerződéskötés kulcsfogalmai
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Szállítói és projektárlisták kezelése
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Alvállalkozók lefoglalható erőforrásként
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Fejlécadatok alvállalkozói szerződések esetében
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Alvállalkozóiszerződés-sorok az időre
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Alvállalkozóiszerződés-sorok a költségkategóriákhoz
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Alvállalkozóiszerződés-sorok termékekhez
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alvállalkozóiszerződéssor-erőforrások
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alvállalkozóiszerződéssor-mérföldkövek
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Alvállalkozóiprojektcsoporttag-regisztráció
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Alvállalkozói lehetőségek projektcsoporttagok számára
+          href: pro/subcontracting/subcon-options.md
+        - name: Az alvállalkozók erőforrás-hozzárendelései költségeinek becslése
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Ütemezési tábla konfigurálása a szerződéses alkalmazottak és az alvállalkozói szerződésben rögzített kapacitás megjelenítéséhez
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projekt felszerelése szerződéses alkalmazottakkal és az alvállalkozói szerződésben rögzített kapacitással
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Az alvállalkozói szerződésben rögzített összetevők felvételi ideje, költségei és anyagfelhasználása'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Állapotátváltások az alvállalkozói szerződésben
+          href: pro/subcontracting/subcon-states.md
     - name: Idő
       items:
         - name: Idő áttekintése
@@ -580,6 +618,8 @@
       items:
         - name: Teljesen számlázott számlázási mérföldkövek áttelepítése az átállás során
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Projekt állapotának szinkronizálása a lezárt projektekkel szembeni bejegyzések megakadályozásához
+          href: advanced-configuration/sync-project-status.md
     - name: Frissítés
       items:
         - name: A Modern jóváhagyások frissítési szempontjai
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2022. júliusában – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Újdonságok 2022. augusztusban – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archívum
           items:
+            - name: Újdonságok 2022. júliusában – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Újdonságok 2022. júniusában – egyszerű központi telepítés
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: 'Újdonságok 2021 2. hullám, korai hozzáférésben – egyszerű központi telepítés'
