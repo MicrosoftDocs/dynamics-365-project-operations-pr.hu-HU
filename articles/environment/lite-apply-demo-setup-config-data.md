@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922317"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409993"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Bemutató beállítások és konfigurációs adatok alkalmazása a Project Operations alkalmazáshoz – Lite 
 
@@ -21,10 +21,10 @@ _**Lite telepítés – ajánlattól proforma számlázásig_
 
 ## <a name="prerequisites"></a>Előfeltételek
 
-A konfiguráció megkezdése előtt rendelkeznie kell egy Common Data Service (CDS) környezettel, amelyet a Dynamics 365 Project Operations alkalmazáshoz létesítettek.
+A konfiguráció megkezdése előtt ki kell építenie egy Dataverse környezetet a következőhöz: Dynamics 365 Project Operations.
 
 
-## <a name="instructions"></a>Útmutatások
+## <a name="instructions"></a>Utasítások
 
 1. Töltse le a [fő adatcsomagot](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
 2. Keresse meg a *ProjSamSampleSetupData – CE only CMT* nevű mappát, és futtassa a *DataMigrationUtility* végrehajtható fájlt.

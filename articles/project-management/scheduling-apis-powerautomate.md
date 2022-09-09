@@ -6,12 +6,12 @@ ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afec082c680596e8dcb8ec0b350b4bb7853c49ff
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916337"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404456"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Projektütemezési API-k használata a Power Automate-tel
 
@@ -247,7 +247,7 @@ Kövesse az alábbi lépéseket egy olyan projekttevékenység létrehozásához
 
     ```
     {
-        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
         "msdyn_resourceassignmentid": "@{guid()}",
         "msdyn_name": "ScheduleAPIDemoAssign1",
         "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",

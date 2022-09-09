@@ -1,45 +1,85 @@
 ---
-title: Az önköltségi árak megoldása a becsléseken és a tényeken
-description: Ez a cikk arról nyújt tájékoztatást, hogy a projektbecslések és -tényleges költségek önköltségi árai hogyan oldódnak meg.
+title: Költséghányadok meghatározása a projektbecslésekhez és a tényleges adatokhoz
+description: Ez a cikk a projektbecslések és -tényleges költségek meghatározásának módjáról nyújt tájékoztatást.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917533"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410152"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Az önköltségi árak megoldása a becsléseken és a tényeken 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Költséghányadok meghatározása a projektbecslésekhez és a tényleges adatokhoz
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Az önköltségi árak és az önköltségi árlista feloldásához a becslések és a tényadatok esetében a rendszer a kapcsolódó projekt **Dátum**, **Pénznem** és **Szerződéskötési egység** mezőiben szereplő információkat használja. Az önköltségi árlistája feloldását követően az alkalmazás feloldja a költségdíjat.
+Az önköltségi árlista és a költségárak becslési és tényleges környezetben történő meghatározásához a rendszer a **kapcsolódó projekt Dátum**, **Pénznem** és **Szerződéses egység** mezőjében található információkat használja.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>A tényleges és a becslési sorok önköltségi díjainak feloldása Időhöz
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>A költségszintek meghatározása a becsült és a tényleges kontextusban az időhöz
 
-Az Időre vonatkozó becslési sorok az ajánlatra és a szerződéssor részletes adataira hivatkoznak a projekthez tartozó idő-és erőforrás-hozzárendelésekhez.
+Az idő **kontextusának** becslése a következőkre utal:
 
-Az önköltségi árlista feloldása után az Idő becslési sorában szereplő **Szerepkör** és **Erőforrás-kezelő részleg** mezők egyeztetésre kerülnek az árlista szerepkörársoraival. Ez az egyezés feltételezi, hogy a munkaerőköltséghez a szokásos árképzési dimenziókat használja. Ha bármely más mező alapján konfigurálja az árképzést a rendszerben, vagy a **Szerepkör** és az **Erőforrás-kezelési egység** mellett más mezőket is használ, akkor a rendszer ezzel a kombinációval kéri le az egyező szerepkörársort. Ha az alkalmazás egy olyan szerepkörársort talál, amely rendelkezik önköltségi rátával a **Szerepkör** és az **Erőforrás-kezelési egység** mező kombinációjára, amely az alapértelmezett önköltségi ráta. Ha az alkalmazás nem tudja egyeztetni a **Szerepkör** és az **Erőforrás-kezelő egység** mezők értékeit, akkor lekéri az egyező szerepkört tartalmazó szerepkörársorokat, de az **Erőforrás-kezelő egység** nullértékeivel. Ha egy megfelelő szerepkör-ár rekordot talált, akkor a rendszer az adott bejegyzésből kiszámítja a költségdíj alapértékeit. 
+- Idézet sor részletei az **Időhöz**.
+- A szerződéssor részletei az **Időhöz**.
+- Erőforrás-hozzárendelések egy projekten.
+
+Az Idő **tényleges kontextusa** a következőkre utal:
+
+- Bejegyzési és javítási naplósorok az **Időhöz**.
+- Naplósorok, amelyek az időbevitel elküldésekor jönnek létre.
+
+Az önköltségi árlista meghatározása után a rendszer a következő lépéseket hajtja végre az alapértelmezett költségdíj megadásához.
+
+1. A rendszer megfelelteti a Szerepkör és **az** Erőforrásegység **mezők kombinációját az Idő** becsült vagy tényleges kontextusában **az árlistában szereplő szerepkör-ársorokkal**. Ez az egyezés feltételezi, hogy a munkaerőköltséghez a standard díjszabási dimenziókat használja. Ha úgy konfigurálta a rendszert, hogy a Szerepkör **és** az Erőforrásegységtől **eltérő vagy azon felül** eső mezőket egyeztesse, a rendszer egy másik kombinációt használ az egyező szerepkör ársorának lekéréséhez.
+1. Ha a rendszer olyan szerepkör-ársort talál, amely költségtariánnyal rendelkezik a szerepkör **és** az **erőforrásegység** kombinációjához, a rendszer ezt a költségrátát használja alapértelmezett költségdíjként.
+1. Ha a rendszer nem tud megegyezni a Szerepkör **és** az Erőforrásegység **értékekkel, lekéri azokat a** szerepkör-ársorokat, amelyek a Szerepkör **mezőhöz egyező értékeket, az** **Erőforrásegység** mezőhöz pedig null értékeket tartalmaznak. Miután a rendszer rendelkezik egyező szerepkör-árrekorddal, a rekordból származó költségráta lesz az alapértelmezett költségdíj.
 
 > [!NOTE]
-> Ha eltérő prioritást állított be a **Szerepkör** és **Erőforrás-kezelési egység** mezőhöz, vagy ha más, magasabb prioritású dimenziók találhatók, ez a viselkedés ennek megfelelően változik. A rendszer beolvassa a szerepkörárak rekordjait az egyes árazási dimenzióértékek egyező értékeivel az elsőbbségi sorrendben, azokkal a sorokkal, amelyek a legutóbb használt dimenziókra vonatkozóan nullértékkel rendelkeznek.
+> Ha a Szerepkör **és** az **Erőforrásegység** mezők eltérő rangsorolását konfigurálja, vagy ha más dimenziói is vannak, amelyek magasabb prioritással rendelkeznek, az előző viselkedés ennek megfelelően változik. A rendszer lekéri azokat a szerepkör-árrekordokat, amelyek olyan értékeit tartalmazza, amelyek prioritási sorrendben egyeznek az egyes árképzési dimenziók értékével. Azok a sorok, amelyek null értékűek ezekhez a dimenziókhoz, az utolsók.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>A tényleges és a becslési sorok önköltségi díjainak feloldása Költséghez
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>A tényleges költségdíjak meghatározása és a költség becsült sorai
 
-A Költség becslés sorai az ajánlatra, a költségekhez tartozó szerződéssor részleteire és a projekt költségbecslési soraira vonatkozik.
+A költség **becsült kontextusa** a következőkre utal:
 
-A költségárlista feloldása után a rendszer a költségbecslés sor **Kategória** és **Egység** mezőinek kombinációját használja a feloldott árlista **Kategóriaársor** lehetőséggel való egyezéshez. Ha a rendszer egy olyan kategória-ársort talál, amely rendelkezik önköltségi rátával a **Kategória** és az **Egység** mező kombinációjára, akkor az önköltségi ráta alapértelmezés szerint megjelenik. Ha a rendszer nem tudja egyeztetni a **Kategória** és az **Egység** értékeket, vagy ha talál egy megfelelő kategóriaársort, de az árképzési mód nem az **Egységár**, akkor a költségarány az alapértelmezett nulla (0) lesz.
+- Árajánlat sor részletei a **Költséghez**.
+- A szerződéssor részletei a **Költséghez**.
+- Egy projekt költségbecslései.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Költségárak megoldása a tényekhez és a becslésekhez az Anyag számára
+A Költség **tényleges kontextusa** a következőkre vonatkozik:
 
-Az Anyagra vonatkozó becsléssorok az anyagra vonatkozó ajánlatsor- és szerződéssor-részletekre hivatkoznak, valamint a projekt anyagbecslését jelölik.
+- Bejegyzési és javítási naplósorok a **Költséghez**.
+- Naplósorok, amelyek a költségbejegyzés elküldésekor jönnek létre.
 
-Az önköltségi árlista feloldása után a rendszer a becsült sor **Termék** és **Kiszerelés** mezőinek kombinációját használja az anyagbecsléshez, hogy megfeleljen a feloldott árlista **Árlistaelemek** sorainak. Ha a rendszer olyan termékársort talál, amely a **Termék** és **Kiszerelés** mezőkombináció költségarányát tartalmazza, a költségarány alapértelmezettre lesz beállítva. Ha a rendszer nem tudja összeegyeztetni a **Termék** és **Kiszerelés** értékeket, vagy ha meg tudja találni az egyező árlistaelemsort, de az árképzési módszer a Standard költségen vagy a Jelenlegi költségen alapul, és egyik sincs meghatározva a terméken, akkor a kiszerelésköltség alapértelmezés szerint nulla.
+Az önköltségi árlista meghatározása után a rendszer a következő lépéseket hajtja végre az alapértelmezett költségdíj megadásához.
 
+1. A rendszer megfelelteti a Kategória és **az** Egység **mezők kombinációját a Költség** becsült vagy tényleges kontextusában **az árlistában** szereplő kategóriaársorokkal.
+1. Ha a rendszer olyan kategória-ársort talál, amely a Kategória **és** az Egység **kombinációhoz tartozik költségdíjjal, akkor ezt a** költségrátát használja alapértelmezett költségként.
+1. Ha a rendszer nem tud megfelelni a Kategória és az **Egység** értéknek **, az ár alapértelmezés szerint 0** (nulla) **értékre van állítva.**
+1. A becslési környezetben, ha a rendszer talál egy megfelelő kategória ársort, de az árképzési módszer nem más, mint **az egységenkénti** ár, a költségráta alapértelmezés szerint 0 **(nulla) értékre** van állítva.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>A tényleges költségszintek meghatározása és a material becsült sorai
+
+Az anyag **becsült kontextusa** a következőkre utal:
+
+- Idézet sor részletei az **anyaghoz**.
+- A Szerződéssor részletei az **anyaghoz**.
+- Anyagbecslések egy projektről.
+
+Az Anyag **tényleges kontextusa** a következőkre utal:
+
+- Bejegyzési és javítási naplósorok az **anyaghoz**.
+- Naplósorok, amelyek az anyaghasználati napló elküldésekor jönnek létre.
+
+Az önköltségi árlista meghatározása után a rendszer a következő lépéseket hajtja végre az alapértelmezett költségdíj megadásához.
+
+1. A rendszer a Termék és az **Egység** mezők kombinációját használja az Anyag **becsült vagy tényleges kontextusában** az árlista árlista cikksoraival **szemben.**
+1. Ha a rendszer olyan árlista-cikksort talál, amely a Termék **és** az Egység **kombinációhoz tartozó költséghányadot tartalmaz, akkor ezt a** költségrátát használja alapértelmezett költségdíjként.
+1. Ha a rendszer nem tud megegyezni a **Termék** és **az Egység** értékekkel, az egységköltség alapértelmezés szerint 0 **(nulla) értékre van állítva**.
+1. A becsült vagy a tényleges környezetben, ha a rendszer talál egy megfelelő árlista-tételsort, de az árképzési módszer nem más, mint **a Pénznem összege**, az egységköltség alapértelmezés szerint 0-ra **van** állítva. Ez a viselkedés azért fordul elő, mert a Project Operations csak a **pénznemösszeg-árazási** módszert támogatja a projektben használt anyagokhoz.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

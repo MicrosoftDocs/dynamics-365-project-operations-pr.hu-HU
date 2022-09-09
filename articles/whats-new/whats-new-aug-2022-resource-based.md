@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348102"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403859"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok - 2022. augusztus - Project Operations erőforrás/nem készletalapú forgatókönyvekhez
 
@@ -38,6 +38,11 @@ Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hi
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
 |   Lehetőségkezelés | 2762089. | Hibakezelés a szerződés lezárásakor elveszettként, ha az automatikus mentés le van tiltva a szervezetben.|
+|Projekttervezés és nyomon követés | 2767841. | Telemetria frissíti a Projekt entitást létrehozó vagy frissítési forgatókönyveket.|
+|Számlázás és árképzés | 2771072. | Null referencia kivétel kezelése árajánlat nyerése közben.|
+|Számlázás és árképzés | 2844181. |Nem sikerült lekérni a korrelációs azonosítót és blokkolni a számla létrehozását.|
+|Számlázás és árképzés | 2852836. | A vállalatközi tényleges adatok hiányoznak a CE-ben létrehozott és jóváhagyott Vállalatközi költségekhez.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektmenedzsment és számvitel a pénzügyekben
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183904"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403954"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Újdonságok 2022. júliusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
 
@@ -45,6 +45,12 @@ Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hi
 | Számlázás és árképzés | 2675880. | Megakadályozhatja, hogy egy projekt olyan szerződéssorhoz kapcsolódjon, amely nem munkaalapú. |
 | Számlázás és árképzés | 2664396. | Ha egy árajánlati árlistát árajánlat nélkül ment, akkor olyan hibának kell lennie, amely szerint az árajánlat nem lehet üres. |
 | Számlázás és árképzés | 2184019. | A **Feladatalapú számlázás** lap nem jeleníthető meg olyan projekteknél, amelyek nem rendelkeznek támogatási szerződéssel vagy árajánlattal. |
+| Idő és költség | 2754459. | Ha az ismétlődő ütemezési felhőfolyamat inaktív, jelenítse meg a szalagcímet, és kerülje meg az aszinkron feldolgozást. |
+| Számlázás és árképzés | 2724391. | A rendszer rossz kivételt jelent, ha a projektszerződés felosztása számlázási szabályból hiányzik egy vevői érték. |
+| Számlázás és árképzés | 2708638. | A rekord nem található meg az anyaghasználatok és jóváhagyások az anyaghasználatokhoz című témakörben a rácskereséssel végzett keresés során.|
+| Számlázás és árképzés | 2686977. | A számlasor érvényesítésének megakadályozása a számla létrehozása során. |
+| Számlázás és árképzés | 2683032. | A díjköteles szerepkörök és kategóriák másolása nem lépi túl az 5000 rekordot.|
+| Számlázás és árképzés | 2673363. | A Project költségfelhasználási %-a sérült, ha a projekthez az Erőfeszítés és a Költségbecslések és a tényleges adatok is léteznek. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektmenedzsment és számvitel a pénzügyekben
 

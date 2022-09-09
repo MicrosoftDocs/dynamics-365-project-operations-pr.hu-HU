@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295881"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409938"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -36,7 +36,7 @@ A Dynamics 365 Project Operations két összetevőből áll:
 
 | Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a pénzügyi és üzemeltetési alkalmazások környezetében | 
 | --- | --- |
-| 4.45.0.53. | 10.0.28. |
+| 4.45.0.53. | 10.0.29. |
 
 Project Operations-erőforrás/nem készletezett forgatókönyv esetén javasoljuk, hogy kétírásos Vezénylési verziót használjon 2.3.1.15 vagy újabb verzióval.
 
@@ -47,24 +47,24 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | Állomás | Régió | Aktuális verziószám | Az egyszerű központi telepítés automatikus frissítései | Automatikus frissítések az erőforráshoz/nem készlet alapú telepítés | Következő verziószám | A következő általánosan elérhető verzió |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Első kiadás         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. augusztus 26.       |
+|   &nbsp;  | Első kiadás         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.      |
 | 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 02.       |
-|   &nbsp;  | Kanada                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 02.       |
-|   &nbsp;  | India                 |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 02.       |
-|   &nbsp;  | Franciaország                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 02.       |
-|   &nbsp;  | Dél-afrikai Köztársaság          |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 02.       |
-|   &nbsp;  | Svájc           |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 02.       |
+|   &nbsp;  | Dél-Amerika         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Kanada                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | India                 |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Franciaország                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Dél-afrikai Köztársaság          |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Svájc           |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
 | 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japán                 |  4.44.0.22.      | Teljesítés      | Teljesítés       | 4.45.0.53.                 | 2022. augusztus 19.       |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.44.0.22.      | Teljesítés      | Teljesítés       | 4.45.0.53.                 | 2022. augusztus 19.       |
-|   &nbsp;  | Nagy-Britannia         |  4.44.0.22.      | Teljesítés      | Teljesítés       | 4.45.0.53.                 | 2022. augusztus 19.       |
-|   &nbsp;  | Óceánia               |  4.44.0.22.      | Teljesítés      | Teljesítés       | 4.45.0.53.                 | 2022. augusztus 19.       |
-|   &nbsp;  | Egyesült Arab Emírségek  |  4.44.0.22.      | Teljesítés      | Teljesítés       | 4.45.0.53.                 | 2022. augusztus 19.       |
+|   &nbsp;  | Japán                 |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Nagy-Britannia         |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Óceánia               |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Egyesült Arab Emírségek  |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
 | 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.44.0.22.      | Teljesítés           | Teljesítés            | 4.45.0.53.           | 2022. augusztus 26.       |
+|   &nbsp;  | Európa                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. szeptember 16.       |
 | 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika         |  4.44.0.22.      | Teljesítés           | Teljesítés            | 4.45.0.53.           | 2022. szeptember 02.       |
+|   &nbsp;  | Észak-Amerika         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. szeptember 16.       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Kiadási ütemezés a projektmenedzsmenthez és a könyveléshez a pénzügyi és üzemeltetési alkalmazások környezetében
 
