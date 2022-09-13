@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektárajánlatok másolása
               href: sales/lose-quote.md
+            - name: Projektárajánlat aktiválása és felülvizsgálata
+              href: sales/activation-and-revision.md
             - name: Projektárajánlatok bezárása
               href: sales/win-quote.md
         - name: Projektszerződések kezelése
@@ -198,11 +200,13 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Számlaütemezések létrehozása projektalapú szerződéssorokon
                   href: sales/invoice-schedules-contract-line.md
+            - name: Projektalapú szerződések másolása
+              href: sales/copy-project-based-contracts-sales.md
             - name: Projektszerződés jóváhagyása
               href: pro/sales/confirm-contract-sales.md
             - name: Előlegek és foglalók
               items:
-                - name: Foglalón alapuló szerződések beállítása
+                - name: Előlegek és foglalóalapú szerződések
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Foglalóütemezés beállítása
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekt értékesítési árlistáinak felülbírálása
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Az önköltségi árak megoldása a becslésekhez és a tényekhez
+            - name: Az önköltségi árak meghatározása a becslésekhez és a tényekhez
               href: pricing-costing/cost-price-resolution.md
-            - name: Az értékesítési árak megoldása a becslésekhez és a tényekhez
+            - name: Az értékesítési árak meghatározása a becslésekhez és a tényekhez
               href: pricing-costing/sales-price-resolution.md
             - name: Árlisták másolása
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektalapú árajánlatok másolása
               href: sales/lose-quote.md
+            - name: Projektárajánlat aktiválása és felülvizsgálata
+              href: sales/activation-and-revision.md
             - name: Projektalapú árajánlatok lezárása
               href: pro/sales/win-quote-sales.md
         - name: Projektalapú szerződések kezelése
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekt értékesítési árlistáinak felülbírálása
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Az önköltségi árak megoldása a becsléseken és a tényeken
+            - name: Az önköltségi árak meghatározása a becsléseken és a tényeken
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Az értékesítési árak megoldása a becslésekhez és a tényekhez
+            - name: Az értékesítési árak meghatározása a becslésekhez és a tényekhez
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Árlisták másolása
               href: pricing-costing/copy-price-lists.md
