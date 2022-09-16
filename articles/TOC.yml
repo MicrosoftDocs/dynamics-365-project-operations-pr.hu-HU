@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekt értékesítési árlistáinak felülbírálása
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Hatályossági dátummal rendelkező felülbírálások beállítása egy árlista adott áraihoz
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Az önköltségi árak meghatározása a becslésekhez és a tényekhez
               href: pricing-costing/cost-price-resolution.md
             - name: Az értékesítési árak meghatározása a becslésekhez és a tényekhez
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Áruk és szolgáltatások rendelése projektekhez a projekt beszerzési rendeléseivel
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: 'Szállítói számlák alvállalkozói szerződésekhez a következőben: Dataverse'
+          items:
+            - name: Szállítói számlák létrehozása
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: A szállítói számlák ellenőrzése jóváhagyott tényadatokkal
+              href: pro/subcontracting/VI-Verification.md
+            - name: Projekt szállítói számláinak megerősítése
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Szállítók megtartása
           items:
             - name: Szállítók megtartása – áttekintés
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekt értékesítési árlistáinak felülbírálása
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Hatályossági dátummal rendelkező felülbírálások beállítása egy árlista adott áraihoz
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Az önköltségi árak meghatározása a becsléseken és a tényeken
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Az értékesítési árak meghatározása a becslésekhez és a tényekhez
