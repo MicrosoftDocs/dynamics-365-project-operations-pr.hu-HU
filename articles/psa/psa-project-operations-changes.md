@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925353"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459929"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>A Project Service Automation szolgáltatásról Project Operations alkalmazás közötti funkcióváltozások
 
 A Lite-ról Dynamics 365 Project Service Automation való Dynamics 365 Project Operations frissítés három fázisban történik. Ez a cikk azokról a főbb változásokról nyújt tájékoztatást, amelyekre számíthat, amikor a frissítés befejeződött.
 
-| Frissítés kézbesítése | 1. fázis <br>(2022. január) | 2. fázis <br>(2022. áprilisi hullám) | 3. fázis  |
+| Frissítés kézbesítése | 1. fázis <br>(2022. január) | 2. fázis <br>(November 2022) | 3. fázis  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nincs függőség a projektek munkalebontási struktúrájától (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | A munkalebontási struktúrát a Project Operations jelenleg támogatott korlátai tartalmazzák. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -41,7 +41,7 @@ A felhasználói élmény legjelentősebb változásai a projekttervezés terül
 
 Az alábbi táblázat összefoglalja a Project Service Automation és a Project Operations közötti ütemezési különbségeket.
 
-|  Ütemezés     |   Project Operations   |   PSA   |
+|  Ütemezés     |   Project Operations   |   Psa   |
 |-----------------|------------------------|---------|
 | Projektsablonok – Projektsablonok definiálása és alkalmazása projektsablonok létrehozása a projekt létrehozásakor  |  &nbsp;    | :heavy_check_mark: |
 | Projektmunka-bontási struktúra (WBS) integrációja asztali ügyféllel   |    &nbsp;  | :heavy_check_mark: |

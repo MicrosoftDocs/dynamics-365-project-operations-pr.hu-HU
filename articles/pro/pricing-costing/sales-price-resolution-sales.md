@@ -1,23 +1,23 @@
 ---
-title: Határozza meg az értékesítési árakat a projektbecslésekhez és -tényleges adatokhoz
+title: Az értékesítési árak meghatározása a becslésekhez és a tényekhez
 description: Ez a cikk arról nyújt tájékoztatást, hogyan határozzák meg a projektbecslések és -tényleges adatok értékesítési árait.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410121"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475187"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Határozza meg az értékesítési árakat a projektbecslésekhez és -tényleges adatokhoz
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Az értékesítési árak meghatározása a becslésekhez és a tényekhez
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Az eladási árak meghatározásához a becslések és a tényleges adatok alapján a Microsoftnál Dynamics 365 Project Operations a rendszer először a dátumot és a pénznemet használja a bejövő becslésben vagy a tényleges környezetben az eladási árlista meghatározásához. Konkrétan a tényleges kontextusban a rendszer a **Tranzakció dátuma** mezőt használja annak meghatározására, hogy melyik árlista alkalmazható. Az eladási árlista meghatározása után a rendszer meghatározza az értékesítést vagy a számlakamatot.
+Az eladási árak meghatározásához a becslések és a tényleges adatok alapján a Microsoftnál Dynamics 365 Project Operations a rendszer először a dátumot és a pénznemet használja a bejövő becslésben vagy a tényleges környezetben az eladási árlista meghatározásához. Konkrétan a tényleges kontextusban a rendszer a **Tranzakció dátuma** mezőt használja annak meghatározására, hogy melyik árlista alkalmazható. A **bejövő becslés vagy tényleges tranzakciódátum-értékét** összehasonlítjuk az **árlistában szereplő Tényleges kezdés (Időzóna-független)** és **Tényleges befejezés (Időzóna-független)** értékekkel. Az eladási árlista meghatározása után a rendszer meghatározza az értékesítést vagy a számlakamatot.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Az értékesítési arányok meghatározása a tényleges és becsült sorokban az Idő számára
 

@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230254"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446038"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Frissítés a Project Service Automationről a Project Operationsre
 
@@ -29,7 +29,7 @@ ms.locfileid: "9230254"
 
 A frissítési teljesítési program három szakaszra oszlik.
 
-| Frissítés kézbesítése | 1. szakasz (2022. január) | 2. fázis (2022. áprilisi hullám) | 3. fázis  |
+| Frissítés kézbesítése | 1. szakasz (2022. január) | 2. szakasz (2022. november) | 3. fázis (2023. áprilisi hullám)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nincs függőség a projektek munkalebontási struktúrájától (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS a projektműveletek jelenleg támogatott határain belül | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ A frissítési teljesítési program három szakaszra oszlik.
 
 A frissítési folyamat részeként frissítési naplókat adtunk hozzá az oldaltérképhez, hogy a rendszergazdák könnyebben diagnosztizálhassák a hibákat. Az új interfész mellett új érvényesítési szabályok is hozzáadódnak az adatok integritásának biztosításához a frissítés után. A következő ellenőrzések lesznek hozzáadva a frissítési folyamathoz.
 
-| Érvényesítés | 1. szakasz (2022. január) | 2. fázis (2022. áprilisi hullám) | 3. fázis  |
+| Érvényesítés | 1. szakasz (2022. január) | 2. szakasz (2022. november) | 3. fázis  |
 |-------------|------------------------|---------------------------|---------------------------|
 | A munkalebontási struktúrát a rendszer ellenőrzi a gyakori adatintegritási szabálysértések ellen (például olyan erőforrás-hozzárendelések, amelyek ugyanahhoz a szülőfeladathoz vannak társítva, de különböző szülőprojektekkel rendelkeznek). | | :heavy_check_mark: | :heavy_check_mark: |
 | A munkalebontási struktúrát a rendszer a Project for the [Web ismert korlátai alapján érvényesíti](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

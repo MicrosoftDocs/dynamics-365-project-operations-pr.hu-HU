@@ -1,68 +1,95 @@
 ---
-title: Az értékesítési árak megoldása a becslésekhez és a tényekhez
-description: Ez a cikk a becslések és a tényleges adatok értékesítési díjainak megoldásáról nyújt tájékoztatást.
+title: Határozza meg az értékesítési árakat a projektalapú becslésekhez és tényleges adatokhoz
+description: Ez a cikk a projektalapú becslések és tényleges adatok értékesítési árainak meghatározásáról nyújt tájékoztatást.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911829"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475372"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Az értékesítési árak megoldása a becslésekhez és a tényekhez
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Határozza meg az értékesítési árakat a projektalapú becslésekhez és tényleges adatokhoz
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A becsült és tény értékesítési árak feloldásakor a Dynamics 365 Project Operations alkalmazásban a rendszer először a kapcsolódó projektajánlat vagy szerződés dátumát és pénznemét használja az értékesítési árlista feloldásához. Az értékesítési árlista feloldását követően a rendszer feloldja az értékesítési vagy a számlázási rátát.
+Az eladási árak meghatározásához a becslések és a tényleges adatok alapján a Microsoftnál Dynamics 365 Project Operations a rendszer először a dátumot és a pénznemet használja a bejövő becslésben vagy a tényleges környezetben az eladási árlista meghatározásához. Konkrétan a tényleges kontextusban a rendszer a **Tranzakció dátuma** mezőt használja annak meghatározására, hogy melyik árlista alkalmazható. A **bejövő becslés vagy tényleges tranzakciódátum-értékét** összehasonlítjuk az **árlistában szereplő Tényleges kezdés (Időzóna-független)** és **Tényleges befejezés (Időzóna-független)** értékekkel. Az eladási árlista meghatározása után a rendszer meghatározza az értékesítést vagy a számlakamatot.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>A tényleges és a becslési sorok értékesítési arányainak feloldása időpontra
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Az értékesítési arányok meghatározása a tényleges és becsült sorokban az Idő számára
 
-A Project Operations becslési sorai az időpontokra vonatkozóan jelzik az ajánlati sort és a szerződéssorok részleteit, valamint az erőforrás-hozzárendeléseket a projekten.
+Az idő **kontextusának** becslése a következőkre utal:
 
-Miután megoldódott az értékesítési árlista, a rendszer a következő lépéseket hajtja végre a számlázási ráta alapértelmezett értékének meghatározására.
+- Idézet sor részletei az **Időhöz**.
+- A szerződéssor részletei az **Időhöz**.
+- Erőforrás-hozzárendelések egy projekten.
 
-1. A rendszer az időre vonatkozó becslési sorban található **Szerepkör**, **Erőforrás-kezelési vállalat** és **Erőforrás-kezelési egység** mezőkkel felelteti meg a szerepkörársorokat a megoldott árlistában. Ez a megfeleltetés feltételezi, hogy a számlázási árakhoz beépített árazási dimenziókat használnak. Ha bármely más mező alapján konfigurálja az árképzést, vagy a **Szerepkör**, **Erőforrás-kezelési vállalat** és az **Erőforrás-kezelési egység** mellett, akkor a rendszer ezzel a kombinációval kéri le az egyező szerepkörársort.
-2. Ha a rendszer egy olyan szerepkörársort talál, amely rendelkezik számlázási rátával a **szerepkör**, **Erőforrás-kezelő vállalat** és az **erőforrás-kezelési egység** mező kombinációjára, akkor a számlázási ráta alapértelmezés szerint megjelenik.
-3. Ha a rendszer nem tudja egyeztetni a **szerepkör**, **Erőforrás-kezelő vállalat** és az **Erőforrás-kezelő egység** mezők értékeit, akkor lekéri az egyező szerepkört tartalmazó szerepkörársorokat, de az **Erőforrás-kezelő egység** nullértékeivel. Ha a rendszer talál egy megfelelő szerepkörárrekordot, akkor a program a számlázási ráta alapértelmezett értéket az adott rekordból veszi. Ez az egyeztetés feltételezi, hogy létezik beépített konfiguráció a **Szerepkör** és az **Erőforrás-kezelési egység** relatív prioritásához értékesítési árképzési dimenzióként.
+Az Idő **tényleges kontextusa** a következőkre utal:
+
+- Bejegyzési és javítási naplósorok az **Időhöz**.
+- Naplósorok, amelyek az időbevitel elküldésekor jönnek létre.
+- Számlasor részletei az **Időhöz**. 
+
+Az értékesítések árlistájának meghatározása után a rendszer a következő lépéseket hajtja végre az alapértelmezett számlakamat megadásához.
+
+1. A rendszer megfelelteti a Szerepkör **,** a Forrásvállalat **és** az **Erőforrásegység** mezők kombinációját az Idő becsült vagy tényleges kontextusában **az árlistában** szereplő szerepkör-ársorokkal. Ez az egyezés feltételezi, hogy a használatra kész díjszabási dimenziókat használja a számlázási díjakhoz. Ha úgy konfigurálta a díjszabást, hogy az a Szerepkör **, az Erőforrás-kezelő vállalat** és az Erőforrásegységtől **eltérő vagy** azon felüli **mezőkön alapuljon, a rendszer a mezők ezen kombinációjával lekéri az egyező szerepkör ársorát**.
+1. Ha a rendszer olyan szerepkör-ársort talál, amely számlakamatot tartalmaz a Szerepkör **,** az Erőforrás-kezelő vállalat **és** az **Erőforrásegység** kombinációhoz, akkor ezt a számlakamatot használja alapértelmezett számlakamatként.
 
 > [!NOTE]
-> Ha eltérő prioritást állított be a **Szerepkör**, **Erőforrás-kezelő vállalat** és **Erőforrás-kezelési egység** mezőhöz, vagy ha más, magasabb prioritású dimenziók találhatók, ez a viselkedés ennek megfelelően változik. A rendszer beolvassa a szerepkörárak rekordjait az egyes árazási dimenzióértékek egyező értékeivel az elsőbbségi sorrendben, azokkal a sorokkal, amelyek a legutóbb használt dimenziókra vonatkozóan nullértékkel rendelkeznek.
+> Ha a Szerepkör **,** az Erőforrásvállalat **és** az **Erőforrásegység** mezők eltérő rangsorolását konfigurálja, vagy ha más dimenziói is vannak, amelyek magasabb prioritással rendelkeznek, az előző viselkedés ennek megfelelően változik. A rendszer lekéri azokat a szerepkör-árrekordokat, amelyek olyan értékeit tartalmazza, amelyek prioritási sorrendben egyeznek az egyes árképzési dimenziók értékével. Azok a sorok, amelyek null értékűek ezekhez a dimenziókhoz, az utolsók.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>A tényleges és a becslési sorok értékesítési arányainak feloldása költséghez
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Az értékesítési arányok meghatározása a tényleges és a becsült sorokban a Költséghez
 
-A Project Operations becslési sorai aköltségekre vonatkozóan jelzik az ajánlati sort és a szerződéssorok részleteit, a költségekre és a költségbecslési sorokra vonatkozóan a projekten.
+A költség **becsült kontextusa** a következőkre utal:
 
-Miután megoldódott az értékesítési árlista, a rendszer a következő lépéseket hajtja végre az értékesítési egységár alapértelmezett értékének meghatározására.
+- Árajánlat sor részletei a **Költséghez**.
+- A szerződéssor részletei a **Költséghez**.
+- Egy projekt költségbecslési sorai.
 
-1. A rendszer a költségre vonatkozó becslési sorban található **Kategória** és **Egység** mezőkombinációval felelteti meg a kategória-ársorokat a megoldott árlistában.
-2. Ha a rendszer egy olyan kategória-ársort talál, amely rendelkezik értékesítési rátával a **Kategória** és az **Egység** mező kombinációjára, akkor az értékesítési ráta alapértelmezés szerint megjelenik.
-3. Ha a rendszer megfelelő kategória-árlistát talál, akkor az árképzési mód használható az értékesítési ár alapértelmezett értékének meghatározására. A következő táblázat mutatja be a költség alapértelmezett ármeghatározáso működését a Project Operationsban.
+A Költség **tényleges kontextusa** a következőkre vonatkozik:
+
+- Bejegyzési és javítási naplósorok a **Költséghez**.
+- Naplósorok, amelyek a költségbejegyzés elküldésekor jönnek létre.
+- Számlasor részletei a **Költséghez**. 
+
+Az értékesítések árlistájának meghatározása után a rendszer a következő lépéseket hajtja végre az alapértelmezett értékesítési egységár megadásához.
+
+1. A rendszer megfelelteti a Költség becsült sorában **található Kategória** és **Egység** mezők kombinációját **az árlistán szereplő kategóriaársorokkal.**
+1. Ha a rendszer olyan kategória-ársort talál, amely a Kategória **és** az Egység **kombináció értékesítési rátájával rendelkezik, akkor ezt az** értékesítési arányt használja alapértelmezett értékesítési arányként.
+1. Ha a rendszer talál egyező kategória ársort, a rendszer az árképzési módszerrel adja meg az alapértelmezett eladási árat. Az alábbi táblázat a Project Operations költségárainak alapértelmezett viselkedését mutatja be.
 
     | Környezet | Árképzési mód | Alapértelmezett ár |
     | --- | --- | --- |
-    | Becslés | Kiszerelésenkénti ár | A kategória ár sora alapján |
-    | &nbsp; | Költségen | 0.00. |
-    | &nbsp; | Haszonkulcs feletti költség | 0.00. |
-    | Tényadat | Kiszerelésenkénti ár | A kategória ár sora alapján |
-    | &nbsp; | Költségen | A kapcsolódó költségek tényleges értéke alapján |
-    | &nbsp; | Haszonkulcs feletti költség | A kategória ár sora szerint megadott árrés alkalmazása a kapcsolódó költség tényleges értékének egységköltségrátájára |
+    | Becslés | Egységár | A kategória ársora alapján. |
+    |        | Költségen | 0.00. |
+    |        | Haszonkulcs feletti költség | 0.00. |
+    | Tényleges | Egységár | A kategória ársora alapján. |
+    |        | Költségen | A kapcsolódó tényleges költség alapján. |
+    |        | Haszonkulcs feletti költség | A rendszer a kategória ársora által meghatározott felárat alkalmazza a kapcsolódó tényleges költség egységköltségi rátájára. |
 
-4. Ha a rendszernem nem sikerül egyeztetni a **Kategória** és **Egység** mezőértékeket, az értékesítési ráta alapértelmezett értéke nulla lesz (0).
+1. Ha a rendszer nem tudja egyeztetni a **Kategória** és **az Egység** értéket, az értékesítési arány alapértelmezés szerint 0 **(nulla) értékre van állítva**.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Értékesítési árak megoldása a tényekhez és a becslésekhez az anyag számára
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Az értékesítési arányok meghatározása a tényleges és a becsült sorokban az anyaghoz
 
-A Project Operations szolgáltatásban az anyagbecslési sorok az anyagra vonatkozó ajánlatsor- és szerződéssor-részleteket, valamint a projekt anyagbecslési sorait jelölik.
+Az anyag **becsült kontextusa** a következőkre utal:
 
-Miután megoldódott az értékesítési árlista, a rendszer a következő lépéseket hajtja végre az értékesítési egységár alapértelmezett értékének meghatározására.
+- Idézet sor részletei az **anyaghoz**.
+- A Szerződéssor részletei az **anyaghoz**.
+- Anyagbecslési sorok egy projekten.
 
-1. A rendszer a becslési sorban szereplő **Termék** és **Egység** mezőkombinációt használja az anyaghoz, hogy megegyezzen a feloldott árlista árlistaelemeivel.
-2. Ha a rendszer olyan árlistaelem sort talál, amely a **Termék** és az **Egység** mezőkombináció eladási díját tartalmazza, illetve az árképzési módszer **Pénznem összege**, akkor a rendszer az árlistasorban megadott eladási árat használja.
-3. Ha a **Termék** és **Egység** mező értékei nem egyeznek, az értékesítési ár nullára csökken.
+Az Anyag **tényleges kontextusa** a következőkre utal:
 
+- Bejegyzési és javítási naplósorok az **anyaghoz**.
+- Naplósorok, amelyek az anyaghasználati napló elküldésekor jönnek létre.
+- Számlasor részletei az **Anyaghoz**. 
 
+Az értékesítések árlistájának meghatározása után a rendszer a következő lépéseket hajtja végre az alapértelmezett értékesítési egységár megadásához.
+
+1. A rendszer egyezteti az Anyag **becsült sorának Termék** és **Egység** mezőinek **kombinációját** az árlista árlista cikksoraival.
+1. Ha a rendszer olyan árlista-cikksort talál, amely értékesítési rátával rendelkezik a Termék és az **Egység** kombinációhoz, és ha az árképzési módszer **Pénznem összege**, akkor az árlista sorában megadott eladási árat **használja a rendszer.** 
+1. Ha a **Termék** és **az Egység** mező értéke nem egyezés, vagy ha az árképzési módszer nem **azonos a Pénznem összegével**, az értékesítési arány alapértelmezés szerint 0 **-ra**(nulla) van állítva. Ez a viselkedés azért fordul elő, mert a Project Operations csak a **pénznemösszeg-árazási** módszert támogatja a projektben használt anyagokhoz.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

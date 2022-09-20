@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410152"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475234"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Költséghányadok meghatározása a projektbecslésekhez és a tényleges adatokhoz
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Az önköltségi árlista és a költségárak becslési és tényleges környezetben történő meghatározásához a rendszer a **kapcsolódó projekt Dátum**, **Pénznem** és **Szerződéses egység** mezőjében található információkat használja.
+A becslések és a tényleges adatok költségárainak meghatározásához a Microsoftban Dynamics 365 Project Operations a rendszer először a dátumot és a pénznemet használja a bejövő becslésben vagy a tényleges környezetben az önköltségi árlista meghatározásához. Konkrétan a tényleges kontextusban a rendszer a **Tranzakció dátuma** mezőt használja annak meghatározására, hogy melyik árlista alkalmazható. A **bejövő becslés vagy tényleges tranzakciódátum-értékét** összehasonlítjuk az **árlistában szereplő Tényleges kezdés (Időzóna-független)** és **Tényleges befejezés (Időzóna-független)** értékekkel. Az önköltségi árlista meghatározása után a rendszer meghatározza a költségdíjat. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>A költségszintek meghatározása a becsült és a tényleges kontextusban az időhöz
 
