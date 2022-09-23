@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Korábban jóváhagyott bejegyzések visszahívása
           href: approvals/recall-cancel.md
+        - name: Biztonság és jóváhagyások
+          href: approvals/approvals-security.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
@@ -560,9 +562,11 @@
               href: procurement/vendor-retention-overview.md
             - name: Szállítómegtartás beállítása
               href: procurement/set-up-vendor-retention.md
+            - name: Kifizetés fizetéskor
+              href: procurement/Pay-when-paid.md
     - name: Számlázás
       items:
-        - name: Számlafeldolgozás áttekintése
+        - name: Számlázási folyamat áttekintése
           href: invoicing/post-project-invoices.md
         - name: Proforma számlázás
           items:
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Korábban jóváhagyott bejegyzések visszahívása
           href: approvals/recall-cancel.md
+        - name: Biztonság és jóváhagyások
+          href: approvals/approvals-security.md
         - name: Fejlesztői jegyzetek
           items:
             - name: Fejlesztői jegyzetek a jóváhagyásokhoz
