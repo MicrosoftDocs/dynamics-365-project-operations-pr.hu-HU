@@ -2,20 +2,20 @@
 title: Állapotátváltások az alvállalkozói szerződésben
 description: Ez a cikk az alvállalkozói szerződés állapotátalakulásait ismerteti a Microsoftban Dynamics 365 Project Operations az alvállalkozói szerződés létrehozásakor, végrehajtásakor és lezárásakor.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261203"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522937"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Állapotátváltások az alvállalkozói szerződésben 
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 Ez a cikk az alvállalkozói szerződés állapotátlépéseit ismerteti a Microsoftban Dynamics 365 Project Operations. Minden állam tervezetként, megerősítettként, lezártként vagy töröltként jelenik meg. Az alábbi képen az állapotátmenetek láthatók.
 

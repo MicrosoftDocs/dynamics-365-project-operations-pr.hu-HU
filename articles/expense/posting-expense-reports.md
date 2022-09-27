@@ -1,8 +1,8 @@
 ---
 title: Költségjelentések közzététele
 description: Ez a cikk a költségjelentések feladását ismerteti.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934507"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524872"
 ---
 # <a name="post-expense-reports"></a>Költségjelentések közzététele
 
@@ -30,5 +30,15 @@ A költségjelentés elküldéséhez a **Jóváhagyott költségjelentések** ol
 
 Az összes költségjelentés egyszerre is elküldhető a listából. Jelölje ki az összes költségjelentést, majd válassza a **Küldés** lehetőséget.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>A Költségkötelezettség szállítói pénznemben történő feladásának engedélyezése készpénzes fizetési mód esetén funkció engedélyezése
+
+A **Költségkötelezettség szállítói pénznemben történő feladásának lehetősége készpénzfizetési mód** esetén funkció lehetővé teszi a költségjelentések feladását a szállító pénznemében a készpénzes fizetési módhoz.
+
+Jelenleg a készpénzköltségek benyújtásakor a költségjelentések a könyvelési pénznemben kerülnek feladásra. A tranzakció pénzneme, a könyvelési pénznem és a szállító pénzneme közötti összegátváltás miatt a rendszer helytelen összeget fizet ki a szállítóknak, ha a ráfordítás tranzakciós dátuma és a tényleges fizetési dátum eltérő átváltási árfolyammal rendelkezik.
+
+Ez a funkció biztosítja, hogy a szállítói egyenleg a szállító pénznemében legyen rögzítve a költségjelentés feladásakor.
+
+1. Válassza a **Munkaterületek** \> **Szolgáltatáskezelés** lehetőséget.
+2. A listában keresse meg és válassza a **Képesség költségkötelezettség feladására szállítói pénznemben a készpénzes fizetési módhoz** lehetőséget, majd válassza az Engedélyezés most **lehetőséget**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

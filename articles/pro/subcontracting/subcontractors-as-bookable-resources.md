@@ -2,20 +2,20 @@
 title: Alvállalkozók beállítása lefoglalható erőforrásként
 description: Ez a cikk azt ismerteti, hogyan állíthatja be és tarthatja karban a rendszer felhasználóitól és kapcsolattartóitól létrehozott alvállalkozói erőforrásokat, hogy azok társíthatók legyenek a Microsoft alvállalkozóihoz Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261326"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522704"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Alvállalkozók beállítása lefoglalható erőforrásként
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A következő lépésekkel lehet beállítani az alvállalkozókat lefoglalható erőforrásként a Microsoft Dynamics 365 Project Operations alkalmazásban.
 

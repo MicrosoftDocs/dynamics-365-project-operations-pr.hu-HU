@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230318"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541127"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-
-## <a name="scheduling-entities"></a>Ütemezési entitások
+**Ütemezési entitások**
 
 A projektütemezési API-k lehetőséget biztosítanak a létrehozási, frissítési és törlési műveletek végrehajtására **Ütemező entitásokkal**. Ezeket az entitásokat a Project for the web ütemezési motorja kezeli. Az **Ütemezési entitásokkal** végzett műveletek létrehozása, frissítése és törlése korlátozott volt a korábbi Dynamics 365 Project Operations kiadásokban.
 
 Az alábbi táblázat a Projektütemezési entitások teljes listáját tartalmazza.
 
-| Entitás neve  | Entitás logikai neve |
-| --- | --- |
-| Project | msdyn_project |
-| Projektfeladat  | msdyn_projecttask  |
-| Projektfeladat függősége  | msdyn_projecttaskdependency  |
-| Erőforrás-hozzárendelés | msdyn_resourceassignment |
-| Projektgyűjtő  | msdyn_projectbucket |
-| Projektcsoporttag | msdyn_projectteam |
+| **Entitás neve**         | **Entitás logikai neve**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projektfeladat            | msdyn_projecttask           |
+| Projektfeladat függősége | msdyn_projecttaskdependency |
+| Erőforrás-hozzárendelés     | msdyn_resourceassignment    |
+| Projektgyűjtő          | msdyn_projectbucket         |
+| Projektcsoporttag     | msdyn_projectteam           |
+| Projekt-ellenőrzőlisták      | msdyn_projectchecklist      |
+| Projektcímke           | msdyn_projectlabel          |
+| A címkézendő projektfeladat   | msdyn_projecttasktolabel    |
+| Projektfutam          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 Az OperationSet egy munkaegység-minta, amely akkor használható, ha egy tranzakción belül több ütemezést is fel kell dolgozni, amely a kérelmeket érinti.
 
-## <a name="project-schedule-apis"></a>Projektütemezés API-k
+**Projektütemezés API-k**
 
 A következő lista az aktuális Projektütemezési API-kat sorolja fel.
 
-- **msdyn_CreateProjectV1**: Ez az API projekt létrehozására használható. A projekt és az alapértelmezett projektvödör azonnal létrejön.
-- **msdyn_CreateTeamMemberV1**: Ez az API projekt csoporttag létrehozására használható. A csoporttag-rekord azonnal létrejön.
-- **msdyn_CreateOperationSetV1**: Ez az API több olyan kérés ütemezésére használható, amelyet egy tranzakción belül kell végrehajtani.
-- **msdyn_PssCreateV1**: Ez az API egy entitás létrehozására használható. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet.
-- **msdyn_PssUpdateV1**: Ez az API egy entitás frissítésére használható. Az entitás a frissítés műveletet támogató bármely Projektütemezési entitás lehet.
-- **msdyn_PssDeleteV1**: Ezzel az API-val törölhet egy entitást. Az entitás a törlés műveletet támogató bármely Projektütemezési entitás lehet.
-- **msdyn_ExecuteOperationSetV1**: Ez az API az adott műveletkészleten belüli összes művelet végrehajtására használható.
+| **Api**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Ez az API egy projekt létrehozására szolgál. A projekt és az alapértelmezett projektvödör azonnal létrejön.                         |
+| **msdyn_CreateTeamMemberV1**            | Ez az API egy projektcsapat-tag létrehozására szolgál. A csoporttag-rekord azonnal létrejön.                                  |
+| **msdyn_CreateOperationSetV1**          | Ez az API több olyan kérés ütemezésére szolgál, amelyeket egy tranzakción belül kell végrehajtani.                                        |
+| **msdyn_PssCreateV1**                   | Ez az API egy entitás létrehozására szolgál. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet. |
+| **msdyn_PssUpdateV1**                   | Ez az API egy entitás frissítésére szolgál. Az entitás lehet a frissítési műveletet támogató Projektütemezés-entitások bármelyike  |
+| **msdyn_PssDeleteV1**                   | Ez az API egy entitás törlésére szolgál. Az entitás a törlés műveletet támogató bármely Projektütemezési entitás lehet. |
+| **msdyn_ExecuteOperationSetV1**         | Ez az API az adott műveletkészleten belüli összes művelet végrehajtására szolgál.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Ez az API az erőforrás-hozzárendelés tervezett munkaeloszlásának frissítésére szolgál.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Projektütemezési API-k használata az OperationSet elemmel
+
+
+**Projektütemezési API-k használata az OperationSet elemmel**
 
 Mivel a **CreateProjectV1** és a **CreateTeamMemberV1** rekordok azonnal létrejönnek, ezek az API-k nem használhatók közvetlenül az **OperationSetben**. Az API-val azonban létrehozhatja a szükséges rekordokat, létrehozhat egy **OperationSetet**, majd használhatja ezeket az előre létrehozott rekordokat az **OperationSetben**.
 
-## <a name="supported-operations"></a>Támogatott műveletek
+**Támogatott műveletek**
 
-| Ütemezési entitás | Létrehozás | Update | Delete | Fontos tényezők |
-| --- | --- | --- | --- | --- |
-Projektfeladat | Igen | Igen | Igen | A **Folyamat,** **a Befejezett munkamennyiség** és **a Munkaigénylés** mezők szerkeszthetők a Webes Projektben, de a Project Operationsben nem szerkeszthetők.  |
-| Projektfeladat függősége | Igen |  | Igen | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és létrehozható egy új rekord. |
-| Erőforrás-hozzárendelés | Igen | Igen | | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és létrehozható egy új rekord. |
-| Projektgyűjtő | Igen | Igen | Igen | Az alapértelmezett gyűjtő a **CreateProjectV1** API használatával jön létre. A projektgyűjtők létrehozásának és törlésének támogatása a 16-os frissítésben lett hozzáadva. |
-| A projekt csapattagja | Igen | Igen | Igen | A létrehozáshoz használja a **CreateTeamMemberV1** API-t. |
-| Project | Igen | Igen |  | A következő mezőkkel végzett műveletek nem támogatottak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, és **Duration**. |
+| **Ütemezési entitás**   | **Létrehozás** | **Frissítés** | **Delete** | **Fontos tényezők**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projektfeladat            | Igen        | Igen        | Igen        | A **Folyamat,** **a Befejezett munkamennyiség** és **a Munkaigénylés** mezők szerkeszthetők a Webes Projektben, de a Project Operationsben nem szerkeszthetők.                                                                                                                                                                                             |
+| Projektfeladat függősége | Igen        | No         | Igen        | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és létrehozható egy új rekord.                                                                                                                                                                                                                                 |
+| Erőforrás-hozzárendelés     | Igen        | Igen\*      | Igen        | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és létrehozható egy új rekord. Külön API-t biztosítottunk az erőforrás-hozzárendelési eloszlások frissítéséhez. |
+| Projektgyűjtő          | Igen        | Igen        | Igen        | Az alapértelmezett gyűjtő a **CreateProjectV1** API használatával jön létre. A projektgyűjtők létrehozásának és törlésének támogatása a 16-os frissítésben lett hozzáadva.                                                                                                                                                                                                   |
+| A projekt csapattagja     | Igen        | Igen        | Igen        | A létrehozáshoz használja a **CreateTeamMemberV1** API-t.                                                                                                                                                                                                                                                                                           |
+| Project                 | Igen        | Igen        |            | A következő mezőkkel végzett műveletek nem támogatottak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, és **Duration**.                                                                                       |
+| Projekt-ellenőrzőlisták      | Igen        | Igen        | Igen        |                                                                                                                                                                                                                                                                                                                                                         |
+| Projektcímke           | No         | Igen        | No         | A címkenevek módosíthatók. Ez a szolgáltatás csak a Webes Projecthez bővítményhez érhető el                                                                                                                                                                                                                                                                      |
+| A címkézendő projektfeladat   | Igen        | No         | Igen        | Ez a szolgáltatás csak a Webes Projecthez bővítményhez érhető el                                                                                                                                                                                                                                                                                                  |
+| Projektfutam          | Igen        | Igen        | Igen        | A **Kezdés** mező dátumának korábbinak kell lennie, mint a **Befejezés** mezőnek. Ugyanazon projekt sprintjei nem lehetnek átfedésben egymással. Ez a szolgáltatás csak a Webes Projecthez bővítményhez érhető el                                                                                                                                                                    |
 
-Ezek az API-k egyéni mezőket tartalmazó entitásobjektumokkal hívhatóak meg.
+
+
 
 Ez az azonosító-tulajdonság nem kötelező. Ha rendelkezésre áll, a rendszer megpróbálja használni, illetve kivételt okoz, ha nem használható. Ha nincs biztosítva, a rendszer fogja létrehozni.
 
-## <a name="restricted-fields"></a>Korlátozott mezők
+**Korlátozások és ismert problémák**
 
-Az alábbi táblázatok határozzák meg azokat a mezőket, amelyek a Létrehozás **és** a Szerkesztés **beállításból** vannak korlátozva.
-
-### <a name="project-task"></a>Projektfeladat
-
-| Logikai név                           | Létrehozhat     | Szerkeszthet         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Nem (a Project esetében igen)             | Nem (a Project esetében igen)               |
-| msdyn_effortremaining                  | Nem (a Project esetében igen)              | Nem (a Project esetében igen)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Nem (a Project esetében igen)             | Nem (a Project esetében igen) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Projektfeladat függősége
-
-| Logikai név                  | Létrehozhat     | Szerkeszthet     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Igen            | No           |
-| msdyn_predecessortaskname     | Igen            | No           |
-| msdyn_project                 | Igen            | No           |
-| msdyn_projectname             | Igen            | No           |
-| msdyn_projecttaskdependencyid | Igen            | No           |
-| msdyn_successortask           | Igen            | No           |
-| msdyn_successortaskname       | Igen            | No           |
-
-### <a name="resource-assignment"></a>Erőforrás-hozzárendelés
-
-| Logikai név                 | Létrehozhat     | Szerkeszthet     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Igen            | No           |
-| msdyn_bookableresourceidname | Igen            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Igen            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>A projekt csapattagja
-
-| Logikai név                                     | Létrehozhat     | Szerkeszthet     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Logikai név                           | Létrehozhat     | Szerkeszthet     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Igen            | No           |
-| msdyn_contractorganizationalunitid     | Igen            | No           |
-| msdyn_contractorganizationalunitidname | Igen            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Igen            | Igen          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Projektgyűjtő
-
-| Logikai név          | Létrehozhat      | Szerkeszthet     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Igen             | No           |
-| msdyn_name            | Igen             | Igen          |
-| msdyn_project         | Igen             | No           |
-| msdyn_projectbucketid | Igen             | No           |
-
-## <a name="limitations-and-known-issues"></a>Korlátozások és ismert problémák
 Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
-- A Projektütemezés API-kat csak a Microsoft Project licenccel **rendelkező felhasználók használhatják**. Nem használhatják:
+-   A Projektütemezés API-kat csak a Microsoft Project licenccel **rendelkező felhasználók használhatják**. Nem használhatják:
+    -   Alkalmazásfelhasználók
+    -   Rendszerfelhasználók
+    -   Integrációs felhasználók
+    -   Más felhasználók, akik nem rendelkeznek a szükséges licenccel
+-   Minden **OperationSet** legfeljebb 100 művelettel rendelkezhet.
+-   Minden felhasználó legfeljebb 10 nyitott **OperationSet** művelettel rendelkezhet.
+-   A Project Operations jelenleg legfeljebb 500 projektfeladatot támogat.
+-   Minden Erőforrás-hozzárendelési eloszlás frissítése művelet egyetlen műveletnek számít.
+-   A frissített kontúrok minden listája legfeljebb 100 időszeletet tartalmazhat.
+-   Az **OperationSet** hibaállapotok és hibanaplók jelenleg nem érhetők el.
+-   Projektenként legfeljebb 400 sprint van.
+-   [A projektek és tevékenységek](/project-for-the-web/project-for-the-web-limits-and-boundaries) korlátai és határai.
+-   A címkék jelenleg csak a Webes Projecthez érhetők el.
 
-    - Alkalmazásfelhasználók
-    - Rendszerfelhasználók
-    - Integrációs felhasználók
-    - Más felhasználók, akik nem rendelkeznek a szükséges licenccel
+**Hibakezelés**
 
-- Minden **OperationSet** legfeljebb 100 művelettel rendelkezhet.
-- Minden felhasználó legfeljebb 10 nyitott **OperationSet** művelettel rendelkezhet.
-- A Project Operations jelenleg legfeljebb 500 projektfeladatot támogat.
-- Az **OperationSet** hibaállapotok és hibanaplók jelenleg nem érhetők el.
-- [Projektek és feladatok korlátai és korlátai](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Az Operation Setsből generált hibák áttekintéséhez lépjen a **Beállítások** \> **Ütemezésintegráció** \> **Műveleti készletek** lapra.
+-   A Projektütemező szolgáltatásból származó hibák megtekintéséhez menjena **Beállítások** \> **Ütemezésintegráció** \> **PSS hibanaplókban** menübe.
 
-## <a name="error-handling"></a>Hibakezelés
+**Erőforrás-hozzárendelési kontúrok szerkesztése**
 
-- Az Operation Setsből generált hibák áttekintéséhez lépjen a **Beállítások** \> **Ütemezésintegráció** \> **Műveleti készletek** lapra.
-- A Projektütemező szolgáltatásból származó hibák megtekintéséhez menjena **Beállítások** \> **Ütemezésintegráció** \> **PSS hibanaplókban** menübe.
+Az entitást frissítő összes többi projektütemezési API-val ellentétben az erőforrás-hozzárendelési kontúr API kizárólag egyetlen mező, msdyn_plannedwork egyetlen entitáson msydn_resourceassignment frissítéséért felelős.
 
-## <a name="sample-scenario"></a>Példaforgatókönyv
+Adott ütemezési mód:
+
+-   **rögzített egységek**
+-   A projektnaptár 9-5p 9-5pst, hétfő, kedd, Thurs, péntek (NINCS MUNKA SZERDÁNKÉNT)
+-   Az erőforrásnaptár pedig 9-1p PST hétfőtől péntekig
+
+Ez a feladat egy hétre, napi négy órára szól. Ennek az az oka, hogy az erőforrásnaptár 9-1 PST vagy napi négy óra között van.
+
+| &nbsp;     | Feladatok | Kezdési dátum | Befejező dátum  | Mennyiség | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 munkavállaló |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Ha például azt szeretné, hogy a dolgozó ezen a héten naponta csak három órát dolgozzon, és egy órát hagyjon más tevékenységek számára.
+
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours minta hasznos adat:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Ez a hozzárendelés az Update Contour Schedule API futtatása után.
+
+| &nbsp;     | Feladatok | Kezdési dátum | Befejező dátum  | Mennyiség | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 munkavállaló | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Példaforgatókönyv**
 
 Ebben a forgatókönyvben létre fog hozni egy projektet, egy csoporttagot, négy feladatot és két erőforrás-hozzárendelést. Ezután frissít egy feladatot, frissíti a projektet, töröl egy feladatot, töröl egy erőforrás-hozzárendelést, és létrehoz egy feladatfüggőséget.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>További minták
+** További minták
 
 ```csharp
 #region Call actions --- Sample code ----

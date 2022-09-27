@@ -2,20 +2,20 @@
 title: Alvállalkozói szerződés mérföldkövei
 description: Ez a cikk azt ismerteti, hogyan hozhat létre és tarthat fenn mérföldkő-alapú számlaütemezést egy szállítóval kötött alvállalkozói szerződéshez.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261796"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522467"
 ---
 # <a name="subcontract-line-milestones"></a>Alvállalkozói szerződés mérföldkövei
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A Dynamics 365 Project Operations rendszerben egy fix áras számlázási módszerrel rendelkező alvállalkozói szerződéssor meghatározhat egy mérföldkő alapú számlázási ütemtervet a szállítóval.
 

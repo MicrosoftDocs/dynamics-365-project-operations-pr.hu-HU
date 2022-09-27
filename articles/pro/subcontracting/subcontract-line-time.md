@@ -2,20 +2,20 @@
 title: Alvállalkozói szerződés sorai időre
 description: Ez a cikk azt ismerteti, hogyan rögzítheti az alvállalkozói sorokat az időre vonatkozóan, és hogyan rögzítheti a szállítóktól való idővásárlási időt.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261985"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522235"
 ---
 # <a name="subcontract-lines-for-time"></a>Alvállalkozói szerződés sorai időre
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A Dynamics 365 Project Operations rendszerben egy alvállalkozói szerződésnek lehet egy alvállalkozói szerződés sora az időre vonatkozóan. Az alvállalkozói idősorok lehetővé teszik a projektmenedzser számára, hogy a projektfeladatok és az erőforrásigények ellátásához szállítói erőforrás-időt vásároljon.
 

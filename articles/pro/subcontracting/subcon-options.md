@@ -2,20 +2,20 @@
 title: Alvállalkozói lehetőségek projektcsoporttagok számára
 description: Ez a cikk a Microsoft projektcsapat-tagjainak alvállalkozói lehetőségeit ismerteti Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261609"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522281"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Alvállalkozói lehetőségek projektcsoporttagok számára
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 A Microsoftban Dynamics 365 Project Operations kiértékelheti az egy vagy több projektcsapattag számára elérhető alvállalkozói lehetőségeket. A rendelkezésre álló alvállalkozói lehetőségek a következőket teszik lehetővé:
 

@@ -2,16 +2,16 @@
 title: A Project Operations integrációs naplója
 description: Ez a cikk az integrációs naplóval való munkáról nyújt tájékoztatást a Project Operationsben.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106278"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541080"
 ---
 # <a name="integration-journal-in-project-operations"></a>A Project Operations integrációs naplója
 
@@ -65,6 +65,12 @@ A feladás történhet interaktívan vagy kötegben. Vegye figyelembe, hogy a 10
 > [!NOTE]
 > Ennek a képességnek a használatához engedélyezze az **Összes sor átvitele feladási hibákkal egy új Project Operations integrációs naplóba** funkciót a **Funkciókezelés** munkaterületen.
 
-A Project Operations integrációs naplóba való feladás során a rendszer a napló minden sorát ellenőrzi. A rendszer minden olyan sort közzétesz, amely nem tartalmaz hibát, és létrehoz egy új naplót minden olyan sorhoz, amely feladási hibát tartalmaz. A feladási hibasorokkal rendelkező naplók áttekintéséhez nyissa meg **a Projektvezetési és könyvelési** > **naplók Projektműveletek** > **integrációs naplóját**, és szűrje a naplókat az **Eredeti napló** mező használatával.
+Ez a funkció segít javítani a Project Operations integrációs naplójának felhasználói élményét. Ha engedélyezve van, a kettős írás időzítésével kapcsolatos problémák és beállítási problémák már nem akadályozzák meg az érvényes naplók közzétételét. A Project Operations integrációs naplóba való feladás során a rendszer a napló minden sorát ellenőrzi. Közzéteszi az összes hibát nem tartalmazó sort, és új naplót hoz létre minden olyan sorhoz, amely feladási hibát tartalmaz.
+
+A feladási hibasorokkal rendelkező naplók áttekintéséhez nyissa meg a **Projektvezetési és könyvelési** \> **naplók Projektműveletek** \> **integrációs naplóját**, és szűrje a naplók listáját az **Eredeti napló** mező használatával. A következő ábra egy olyan példát mutat be, ahol a **Project Operations integrációs naplólapján** található naplók ilyen módon lettek szűrve.
+
+![Az eredeti napló a Project Operations integrációs napló oldalán jelenik meg.](./media/transferLines-originalJournal.png)
+
+Ha egy időszakos kötegelt feladat úgy van konfigurálva, hogy közzétegye az integrációs naplót, a feladás újra megtörténik, és a naplók feladásra kerülnek, ha az időzítési probléma megoldódott. A fennmaradó naplókat manuálisan kell megvizsgálni a naplók áttekintésével és a szükséges intézkedések megtételével.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Az alvállalkozók erőforrás-hozzárendelései költségeinek becslése
 description: Ez a cikk néhányat ismertet, hogyan számítja ki a Microsoft Dynamics 365 Project Operations az alvállalkozói erőforrás-hozzárendelések költségbecslését.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262062"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522657"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Az alvállalkozók erőforrás-hozzárendelései költségeinek becslése
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 Az alvállalkozói projektcsapat tagjainak feladat-hozzárendelései a **kapcsolódó csapattagrekordban az alvállalkozóhoz csatolt Beszerzési** ár lista használatával kerülnek költségre. Ez eltér attól, ahogyan az alkalmazottak erőforrás-hozzárendeléseinek költségesek, ahol az alkalmazotti erőforrások tevékenység-hozzárendelései a **projekt szerződéses egységéhez csatolt Önköltségi** árlista használatával kerülnek költségre. 
 
