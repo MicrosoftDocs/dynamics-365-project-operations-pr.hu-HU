@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409938"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622018"
 ---
 # <a name="project-operations-updates"></a>Project Operations-frissítések
 
@@ -47,24 +47,24 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | Állomás | Régió | Aktuális verziószám | Az egyszerű központi telepítés automatikus frissítései | Automatikus frissítések az erőforráshoz/nem készlet alapú telepítés | Következő verziószám | A következő általánosan elérhető verzió |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Első kiadás         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.      |
+|   &nbsp;  | Első kiadás         |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 07.      |
 | 2. állomás |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dél-Amerika         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Kanada                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | India                 |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Franciaország                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Dél-afrikai Köztársaság          |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Svájc           |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Dél-Amerika         |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 14.       |
+|   &nbsp;  | Kanada                |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 14.       |
+|   &nbsp;  | India                 |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 14.       |
+|   &nbsp;  | Franciaország                |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 14.       |
+|   &nbsp;  | Dél-afrikai Köztársaság          |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 14.       |
+|   &nbsp;  | Svájc           |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő                 | 2022. október 14.       |
 | 3. állomás |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japán                 |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Nagy-Britannia         |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Óceánia               |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
-|   &nbsp;  | Egyesült Arab Emírségek  |  4.45.0.53.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. szeptember 09.       |
+|   &nbsp;  | Japán                 |  4.46.0.60.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. október 21.       |
+|   &nbsp;  | Ázsia és a Csendes-óceáni térség          |  4.46.0.60.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. október 21.       |
+|   &nbsp;  | Nagy-Britannia         |  4.46.0.60.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. október 21.       |
+|   &nbsp;  | Óceánia               |  4.46.0.60.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. október 21.       |
+|   &nbsp;  | Egyesült Arab Emírségek  |  4.46.0.60.      | Teljesítés      | Teljesítés       | Később eldöntendő                 | 2022. október 21.       |
 | 4. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Európa                |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. szeptember 16.       |
+|   &nbsp;  | Európa                |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. október 28.       |
 | 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Észak-Amerika         |  4.45.0.53.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. szeptember 16.       |
+|   &nbsp;  | Észak-Amerika         |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. november 04.       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Kiadási ütemezés a projektmenedzsmenthez és a könyveléshez a pénzügyi és üzemeltetési alkalmazások környezetében
 

@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
-        - name: 2022. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: 2022. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Archívum
           items:
+            - name: 2022. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022. június – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2022. augusztusban – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Újdonságok 2022. szeptemberben – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Archívum
           items:
+            - name: Újdonságok 2022. augusztusban – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Újdonságok 2022. júliusában – egyszerű központi telepítés
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Újdonságok 2022. júniusában – egyszerű központi telepítés
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2022. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Újdonságok 2022. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Archívum
           items:
+            - name: Újdonságok 2022. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Újdonságok 2022. júniusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Újdonságok 2021. októberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
@@ -1436,6 +1442,10 @@
       items:
         - name: A Project Service 3.x frissítéseinek kiadási ütemezése
           href: psa/version-history-ps.md
+        - name: A 47-es frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-47.md
+        - name: A 45-ös frissítési kiadás V3 verziójának újdonságai vagy változásai
+          href: psa/whats-new-ur-45.md
         - name: A 44-es frissítési kiadás V3 verziójának újdonságai vagy változásai
           href: psa/whats-new-ur-44.md
         - name: A 43-as frissítési kiadás V3 verziójának újdonságai vagy változásai
