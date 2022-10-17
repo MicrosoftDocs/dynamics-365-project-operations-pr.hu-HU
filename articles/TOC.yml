@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Újdonságok és változások a Project Service Automation 3. verziójában
           href: psa/whats-new-changed-v3.md
+    - name: Frissítés a Project Service Automation szolgáltatásról (Project Operations Egyszerű 4.x)
+      items:
+        - name: Frissítés a Project Service Automation szolgáltatásról Project Operations alkalmazásra
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: A Project Service Automation szolgáltatásról Project Operations alkalmazás közötti funkcióváltozások
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation és Project Operations közötti projektütemezés átalakítási folyamata
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: A végrehajtás megtervezése (3.x alkalmazásverzió)
       items:
         - name: Mintaadatok telepítése
