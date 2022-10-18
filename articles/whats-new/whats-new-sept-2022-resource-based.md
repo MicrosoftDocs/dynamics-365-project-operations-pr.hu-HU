@@ -1,18 +1,18 @@
 ---
 title: 2022. szeptemberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a cikk a Microsoft Dynamics 365 Project Operations 2022. szeptemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Microsoft Dynamics 365 Project Operations 2022. szeptemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást az erőforrás-/nem készletalapú forgatókönyvekhez.
 author: ramagadu
 ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621343"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634808"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022. szeptemberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
 
@@ -20,35 +20,36 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
 
-- Project Operations egy Dataverse környezeti verzióban 4.46.0.60
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.29-es verzió
+- Project Operations környezeti Dataverse verzióban 4.46.0.60
+- Projektvezetés és könyvelés Dynamics 365 Finance környezetben 10.0.29-es verzió
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
 | Funkcióterület | Funkció neve | További információ |
 | --- | --- | --- |
-| Lehetőségkezelés | **Idézetek felülvizsgálata és aktiválása**<br>A Project Operations az értékesítési folyamat teljes támogatását biztosítja. A projekt idézetek aktiválhatók, hogy egy olyan állapotot képviseljenek, ahol az idézet csak olvasható és felülvizsgálat alatt áll. Az aktivált idézetek módosíthatók, hogy új idézeteket hozzanak létre, amelyek megnövelt verziószámmal rendelkeznek. Az aktivált projektjegyzések vagy árajánlat-változatok megnyertként vagy elveszettként zárhatók le. | [Projektárajánlat aktiválása és felülvizsgálata](/dynamics365/project-operations/sales/activation-and-revision) |
-| Számlázás és árképzés | **Az időzónafüggetlen ár alapértelmezett**<br>A Project Operations bevezette az időzóna-agnosztikus dátum koncepcióját a projekt összes tényleges elemére. Egy új mező, **a Tranzakció dátuma** mostantól elérhető a naplósorokban és a tényleges adatokban, és a tranzakció dátumának tárolására szolgál, de anélkül, hogy ezt a dátumot koordinált világidőre konvertálná. Ezt a dátumot fogjuk használni az olyan downstream folyamatokhoz, mint az ár alapértelmezett beállítása és a számla létrehozása. | <p>[Költséghányadok meghatározása projektalapú becslésekhez és tényleges adatokhoz](/dynamics365/project-operations/pricing-costing/cost-price-resolution)</p><p>[Határozza meg az értékesítési árakat a projektalapú becslésekhez és tényleges adatokhoz](/dynamics365/project-operations/pricing-costing/sales-price-resolution)</p> |
-| Számlázás és árképzés | **Hatálybalépési árfelülírások a Project Operationsben**<br>Az érvényes dátum szerinti árfelülírások lehetővé teszik az árlistában szereplő konkrét árak felülbírálását vagy módosítását. | [Hatálybalépéskori árfelülírások](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
-| Alvállalkozói | **Alvállalkozásba adás és szállítói számla egyeztetése**<br>Ez a funkció lehetővé teszi az ügyfelek számára, hogy alvállalkozói szerződést hozzanak létre az erőforrás-idő, a költségkategóriák és a projektmunkához használt anyagok megvásárlásához. Azt is lehetővé teszi az ügyfelek számára, hogy pénzügyi és üzemeltetési alkalmazásokban rögzítsék a szállítói számlákat, amelyek a projektmenedzserek Dataverse számára elérhetők lesznek ellenőrzésre. | <p>[Alvállalkozói szerződések kezelése](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)</p><p>[Szállítói számlák létrehozása](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)</p> |
-| Idő és költség | **Globális jóváhagyó**<br>Ez a funkció lehetővé teszi a független szoftverszállító (ISV) és a központosított jóváhagyást, függetlenül a projekt vagy a csapattagok állapotától. | [Biztonság és jóváhagyások](/dynamics365/project-operations/approvals/approvals-security) |
-| Költségkezelés | **Költségkötelezettség feladásának lehetősége a szállító pénznemében**<br>Ez a funkció lehetővé teszi a költségjelentések feladását a szállító pénznemében a készpénzes fizetési módhoz. | [Költségkötelezettség feladásának lehetősége a szállító pénznemében](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
-| Projektbeszerzés | **Fizetés a szállítói kifizetések kifizetése esetén**<br>Ez a funkció lehetővé teszi a Fizetés fizetés fizetéskor (PWP) funkció használatát a Project Operations nem készletkörnyezetekben. Lehetővé teszi a szállítói kifizetések zárolását/visszatartását a visszatartási feltételek alapján, amíg a kifizetés meg nem érkezik a vevőtől. | [Fizetés a szállítói kifizetések kifizetése esetén](/dynamics365/project-operations/procurement/pay-when-paid) |
-| Projektbeszerzés | **Projektbeszerzési igénylések**<br>Ez a funkció lehetővé teszi a felhasználók számára, hogy projekthez kapcsolódó beszerzési rendeléseket hozzanak létre olyan jogi személyekben, ahol a Project Operations on Dynamics 365 Customer Engagement integráció engedélyezve van. A projektvásárlási rendelések felhasználhatók a projekthez kapcsolódó nem készletezett anyagbeszerzések rögzítésére beszerzési osztály személyisége alapján. A projektvásárlási rendelések nem lesznek szinkronizálva a következővel Dataverse: . Virtuális entitással azonban megjelenítheti a Project beszerzésirendelés-sorait a Dataverse projektmenedzseri adatokhoz. A projekthez kapcsolódó szállítói számla költsége integrálva van a Projekt tényleges adatai entitással a Dataverse. A projektköltséget a projekt analitikus fájlban rögzíti a Project Operations integrációs naplója segítségével. | |
+| Lehetőségkezelés | **Árajánlatok felülvizsgálata és aktiválása**<br>A Project Operations teljes mértékben támogatja az értékesítési folyamatot. A projektajánlatok aktiválhatók egy olyan állapot ábrázolására, ahol az árajánlat írásvédett és felülvizsgálat alatt áll. Az aktivált árajánlatok felülvizsgálhatók olyan új árajánlatok létrehozásához, amelyek bővített verziószámmal rendelkeznek. Az aktivált projektajánlatok vagy árajánlat-módosítások megnyertként vagy elveszettként zárhatók le. | [Projektárajánlat aktiválása és felülvizsgálata](/dynamics365/project-operations/sales/activation-and-revision) |
+| Számlázás és árképzés | **Időzónafüggetlen ár-nemteljesítés**<br>A Project Operations bevezette az időzónafüggetlen dátum fogalmát a projekt összes tényadatán. Egy új mező, a Tranzakció dátuma **mostantól elérhető a naplósorokban és a tényadatokban, és a tranzakció dátumának tárolására lesz használva, anélkül azonban,** hogy ezt a dátumot egyezményes világidőre konvertálná. Ezt a dátumot fogjuk használni az olyan lefelé irányuló folyamatokhoz, mint az ár nemteljesítése és a számla létrehozása. | <p>[Költségarányok meghatározása projektalapú becslésekhez és tényadatokhoz](/dynamics365/project-operations/pricing-costing/cost-price-resolution)</p><p>[Értékesítési árak meghatározása projektalapú becslésekhez és tényadatokhoz](/dynamics365/project-operations/pricing-costing/sales-price-resolution)</p> |
+| Számlázás és árképzés | **Dátum-hatályos árfelülírások a Project Operations rendszerben**<br>A dátum szerinti érvényben lévő árfelülbírálások lehetőséget nyújtanak az árlistában szereplő konkrét árak felülbírálására vagy módosítására. | [Dátum szerinti árfelülírások](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
+| Alvállalkozói | **Alvállalkozók és szállítói számlák egyeztetése**<br>Ez a funkció lehetővé teszi az ügyfelek számára, hogy alvállalkozókat hozzanak létre az erőforrás-idő, a költségkategóriák és a projektmunkához használt anyagok megvásárlásához. Azt is lehetővé teszi az ügyfelek számára, hogy a pénzügyi és üzemeltetési alkalmazásokban rögzítsék a szállítói számlákat, amelyek a projektmenedzserek Dataverse számára elérhetők lesznek ellenőrzés céljából. | <p>[Alvállalkozói szerződések kezelése](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)</p><p>[Szállítói számlák létrehozása](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)</p> |
+| Idő és költség | **Globális jóváhagyó**<br>Ez a funkció lehetővé teszi a független szoftverszállítót (ISV) és a központi jóváhagyást, függetlenül a projekt vagy a csapattag állapotától a projektben. | [Biztonság és jóváhagyások](/dynamics365/project-operations/approvals/approvals-security) |
+| Költségkezelés | **Költségkötelezettség feladásának lehetősége a szállító pénznemében**<br>Ez a funkció lehetővé teszi, hogy a költségjelentéseket a készpénzes fizetési módhoz tartozó szállítói pénznemben adják fel. | [Költségkötelezettség feladásának lehetősége a szállító pénznemében](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
+| Projekt beszerzés | **Fizetés szállítói kifizetésekkor**<br>Ez a funkció lehetővé teszi a Fizetés fizetéskor (PWP) funkció használatát a Project Operations nem készletkörnyezetekkel. Lehetővé teszi a szállítói kifizetések zárolását/visszatartását a visszatartási feltételek alapján, amíg a kifizetés meg nem érkezik a vevőtől. | [Fizetés szállítói kifizetésekkor](/dynamics365/project-operations/procurement/pay-when-paid) |
+| Projekt beszerzés | **Projektbeszerzési igénylések**<br>Ez a funkció lehetővé teszi a felhasználók számára, hogy projekthez kapcsolódó beszerzési rendeléseket hozzanak létre olyan jogi személyekben, ahol a Project Operations Dynamics 365 Customer Engagement integrációja engedélyezve van. A projekt beszerzési rendelései felhasználhatók a nem készletezett anyagbeszerzések rögzítésére a projekttel szemben a beszerzési osztály személye szerint. A projekt beszerzési rendelései nem lesznek szinkronizálva a következővel:Dataverse. Virtuális entitás használatával azonban megjelenítheti a projekt beszerzési rendelési sorait Dataverse a projektmenedzser adataihoz. A projekthez kapcsolódó szállítói számla költsége integrálva van a Projekt tényleges adatai entitással a Dataverse. A projektköltség rögzítésre kerül a Project Subledgerben a Project Operations integrációs naplójának használatával. | |
+|Projekttervezés és nyomon követés|**Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal** </br> </br>Az erőforrás-hozzárendelési kontúrszerkesztési API lehetővé teszi a fejlesztők számára, hogy programozott módon adják meg a feladathozzárendelő erőfeszítéseit bármely támogatott dátumtartományban a részletesebb időfázisos munkamennyiség-tervezés érdekében.|[Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 
-Az alábbi táblázat a Project Operations 2022. szeptemberi kiadásában módosított vagy hozzáadott kettős írású térképeket mutatja be.
+Az alábbi táblázat azokat a kettős írású leképezéseket mutatja be, amelyeket a Project Operations 2022. szeptemberi kiadásában módosítottak vagy adtak hozzá.
 
 | Entitásleképezés | Frissített verzió | Hozzászólások |
 | -------------- | ------------------- | ------------|
-| Project Operations integrációjának tényleges adatai (msdyn_actuals) | 1.0.0.15. | Ez a térkép támogatja az alvállalkozói adatok feldolgozását a Project Operations segítségével erőforrás-alapú forgatókönyvek esetén. |
-| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn_projectvendorinvoices) | 1.0.0.2 | Ez a térkép támogatja az alvállalkozói adatok feldolgozását a Project Operations segítségével erőforrás-alapú forgatókönyvek esetén. |
-| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Ez a térkép támogatja az alvállalkozói adatok feldolgozását a Project Operations segítségével erőforrás-alapú forgatókönyvek esetén. |
+| Project Operations integrációjának tényleges adatai (msdyn_actuals) | 1.0.0.15. | Ez a térkép támogatja az alvállalkozói tényadatok Project Operations alkalmazással történő feldolgozását erőforrás-alapú forgatókönyvekhez. |
+| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn_projectvendorinvoices) | 1.0.0.2 | Ez a térkép támogatja az alvállalkozói tényadatok Project Operations alkalmazással történő feldolgozását erőforrás-alapú forgatókönyvekhez. |
+| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Ez a térkép támogatja az alvállalkozói tényadatok Project Operations alkalmazással történő feldolgozását erőforrás-alapú forgatókönyvekhez. |
 
-Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldás és a Finance megoldás verziójának frissítése közben. Előfordulhat, hogy egyes funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon tekintheti meg. A térkép új verziójának aktiválásához válassza **Táblatérkép verziói** pontot, ott pedig az legújabb verziót válassza ki, majd a kijelölt verziót mentse. Ha testreszabott egy beépített táblázattérképet, alkalmazza újra a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Mindig a térkép legújabb verzióját futtassa a környezetben, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldás és a Finance megoldás verziójának frissítésekor. Előfordulhat, hogy egyes funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon tekintheti meg. A térkép új verziójának aktiválásához válassza **Táblatérkép verziói** pontot, ott pedig az legújabb verziót válassza ki, majd a kijelölt verziót mentse. Ha testreszabott egy beépített táblatérképet, alkalmazza újra a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hibaelhárítási útmutató Hiányzó táblaoszlopok probléma a térképeken [című szakaszának utasításait](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
+Ha problémába ütközik a térkép indításakor, kövesse a Kettős írás hibaelhárítási útmutató Hiányzó táblaoszlopok probléma a térképeken [című szakaszában található](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) utasításokat.
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -56,25 +57,25 @@ Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hi
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
-| Számlázás és árképzés | 2754422. | Az anyag- és költségbecslések nem áramlanak a Finance-be, amikor a projekteket bemásolják Dataverse. |
-| Idő és költség | 2787409. | A nem érvényes jóváhagyók jóváhagyhatják a nem projektidő-bejegyzést. |
-| Lehetőségkezelés | 2788907. | Frissített hibaüzenet a jelzőket tartalmazó rendeléssorok egyediségének érvényesítéséről. |
-| Idő és költség | 2842253. | Null kivételkezelés az időjóváhagyáshoz. |
+| Számlázás és árképzés | 2754422. | Az anyag- és költségbecslések nem áramlanak a Finance-be, amikor a projekteket a Dataverse. |
+| Idő és költség | 2787409. | A nem érvényes jóváhagyó jóváhagyhat egy nem projektidő-bejegyzést. |
+| Lehetőségkezelés | 2788907. | Frissített hibaüzenet a jelzőket tartalmazó rendeléssorok egyediségének ellenőrzéséről. |
+| Idő és költség | 2842253. | Null kivétel kezelése az idő jóváhagyásához. |
 | Számlázás és árképzés | 2844181. | A korrelációs azonosító lekérésének elmulasztása blokkolja a számla létrehozását. |
-| Számlázás és árképzés | 2876628. | QLD, CLD – Az árlista felbontásának becslése az árlista örökölt dátumtartomány-mezőit kell használnia. |
-| Alvállalkozói | 2893222. | Ha egy alvállalkozói sorhoz nincs megadva szerepkör, lehetővé kell tenni, hogy ezt a sort egy csapattagon bármely szerepkörhöz kiválassza. |
+| Számlázás és árképzés | 2876628. | QLD, CLD – Az árlista felbontásának becsléséhez az árlista örökölt dátumtartomány-mezőit kell használnia. |
+| Alvállalkozói | 2893222. | Ha egy alvállalkozói sorhoz nincs megadva szerepkör, akkor lehetővé kell tenni, hogy ezt a sort egy csapattagon bármely szerepkörhöz kiválassza. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektmenedzsment és számvitel a pénzügyekben
+### <a name="project-management-and-accounting-in-finance"></a>Projektvezetés és könyvelés a Finance-ben
 
-A frissítésben található hibajavításokkal kapcsolatos információkért jelentkezzen be a Lifecycle Services szolgáltatásba Microsoft Dynamics, és tekintse meg a [tudásbáziscikket](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+A frissítésben szereplő hibajavításokkal kapcsolatos információkért jelentkezzen be a Lifecycle Services szolgáltatásba, és tekintse meg a Microsoft Dynamics [tudásbáziscikket](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
-## <a name="features-turned-on-by-default-in-upcoming-release"></a>Alapértelmezés szerint be van kapcsolva funkciók a közelgő kiadásban
+## <a name="features-turned-on-by-default-in-upcoming-release"></a>A közelgő kiadásban alapértelmezés szerint bekapcsolt funkciók
 
-Az alábbi táblázat azokat a szolgáltatásokat sorolja fel, amelyek alapértelmezés szerint be vannak kapcsolva a 10.0.30-as verzióban. A legtöbb automatikusan bekapcsolt funkció kikapcsolható a [Funkciókezelésben](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). A jövőben előfordulhat, hogy egyes, automatikusan bekapcsolt funkciók eltávolításra kerülnek a funkciókezelésből, és kötelezővé válnak. Ez a módosítás biztosítja, hogy az ügyfelek a jelenlegi funkciókat használják, így a fejlesztések a hozzáadáskor a jelenlegi funkciókra építhetnek. A funkciók soha nem lesznek automatikusan engedélyezve egy évnél rövidebb idő alatt, kivéve, ha elengedhetetlennek minősülnek.
+Az alábbi táblázat a 10.0.30-as verzióban alapértelmezés szerint bekapcsolt szolgáltatásokat sorolja fel. A legtöbb automatikusan bekapcsolt funkció kikapcsolható a [Funkciókezelésben](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). A jövőben előfordulhat, hogy egyes automatikusan bekapcsolt funkciók törlődnek a funkciókezelésből, és kötelezővé válnak. Ez a módosítás biztosítja, hogy az ügyfelek az aktuális funkciókat használják, így a fejlesztések a hozzáadáskor az aktuális funkciókra épülhetnek. A funkciók soha nem lesznek automatikusan engedélyezve kevesebb mint egy év alatt, kivéve, ha úgy ítélik meg, hogy elengedhetetlenek.
 
-| Funkció neve | Dátum engedélyezése | Hozzáadott funkció | Funkció állapota | Modul |
+| Funkció neve | Engedélyezés dátuma | Funkció hozzáadva | Funkció állapota | Modul |
 | --- | --- | --- |--- |--- |
-| Engedélyezze az aszinkron műveletet, ha a felhasználónak váltania kell a szinkronizálási és az aszinkron műveletek között | 2022. október 21. | 2021. április 9. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
-| A szükséges bevételek költségpolitikai értékelése | 2022. október 21. | 2021. december 20. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
+| Aszinkron művelet engedélyezése, ha a felhasználónak váltania kell a szinkronizálási és az aszinkron műveletek között | 2022. október 21. | 2021. április 9. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
+| A szükséges bevételek költségpolitikájának értékelése | 2022. október 21. | 2021. december 20. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
 | A dolgozók delegálásával létrehozott költségjelentések listanézete | 2022. október 21. | 2020. február 19. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
-| A futásteljesítmény-összteljesítmény kiszámítása pénzügyi év szerint | 2022. október 21. | 2022. május 10. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
+| A futásteljesítmény teljes kiszámítása pénzügyi év szerint | 2022. október 21. | 2022. május 10. | Alapértelmezés szerint be van kapcsolva | Költségkezelés |
