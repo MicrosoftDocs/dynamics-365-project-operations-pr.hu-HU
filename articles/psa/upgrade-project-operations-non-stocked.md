@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686978"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709447"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Frissítés a Project Service Automation szolgáltatásról Project Operations alkalmazásra
 
@@ -70,7 +70,7 @@ A 3. fázis előfeltételei az általánosan elérhető dátum közeledtével fr
 
 ## <a name="licensing"></a>Licencelés
 
-Ha aktív licenccel rendelkezik a Project Service Automation szolgáltatáshoz, telepítheti és használhatja a Project Operations szolgáltatást, amely a Project Service Automation összes funkcióját tartalmazza. Ezután egy külön környezetben tesztelheti a Project Operations képességeit, miközben továbbra is használja a Project Service Automationt az éles környezetben. A Project Service Automation-licencek lejárta után át kell térnie a Project Operations szolgáltatásra. Az áttérés tervezésekor figyelembe kell vennie azt a tényt, hogy a Project Operations licenc nem tartalmaz Project Service Automation licencet.
+Ha aktív licenccel rendelkezik a Project Service Automation szolgáltatáshoz, telepítheti és használhatja a Project Operations szolgáltatást, amely a Project Service Automation összes funkcióját tartalmazza. Ily módon tesztelheti a Project Operations képességeit, miközben továbbra is használja a Project Service Automationt az éles környezetben. A Project Service Automation-licencek lejárta után át kell térnie a Project Operations szolgáltatásra. Az áttérés tervezésekor figyelembe kell vennie azt a tényt, hogy a Project Operations licenc nem tartalmaz Project Service Automation licencet. Azok az ügyfelek, akik olyan forgatókönyvekkel rendelkeznek, amelyekben üzembe helyezték a Project Service Automationt, és továbbra is használniuk vagy növelniük kell a PSA-licenceiket, miközben a Project Operations szolgáltatásra való áttérést tervezik, ideiglenes PSA-licenceket kérhetnek a Project Operations vásárolt licencei alapján. Egy Project Service Automation-licenc lesz kiadva egy Project Operations licenchez. Az ideiglenes PSA-licencek az alábbi linken keresztül kérhetők: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testreszabások tesztelése és újrabontása
 
