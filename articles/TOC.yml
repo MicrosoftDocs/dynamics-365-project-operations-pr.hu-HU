@@ -1752,11 +1752,9 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Hogyan szabható testre a Projektfázisok üzleti folyamat?
               href: psa/FAQ-customize-bpf.md
-            - name: Frissítési szempontok a munkalebontási struktúrához
-              href: psa/upgrade-considerations-tasks.md
         - name: Tanulmányok
           href: psa/white-papers.md
-        - name: Rendszergazdák kézikönyve
+        - name: Rendszergazdai útmutató
           items:
             - name: Rendszergazdai útmutató (Project Service)
               href: psa/admin-guide.md
