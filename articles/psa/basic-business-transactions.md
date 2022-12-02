@@ -1,6 +1,6 @@
 ---
 title: Üzleti tranzakciók
-description: Ez a cikk az üzleti tranzakciókról nyújt tájékoztatást.
+description: Ez a cikk az üzleti tranzakciókról tartalmaz információkat.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Tekintse át a projektek és a projektszerződések számlázási hátralékát
-description: Ez a cikk arról nyújt tájékoztatást, hogyan tekintheti át az idő-, költség- és termékhátralékokat, és hogyan jelölheti meg őket készen állóként a számlázásra.
+description: Ez a cikk információkat nyújt arról, hogy miként lehet áttekinteni az időt, a költségeket és a termékmaradványokat, és hogyan jelölheti meg őket készen a számlázásra.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928895"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ha egy tranzakció kész, hogy egy számlát létrehozott és feldolgozott, a tranzakciót **Számlázásra kész**-ként kell jelölni. Ez a cikk a létrehozható tranzakciók típusait ismerteti.
+Ha egy tranzakció kész, hogy egy számlát létrehozott és feldolgozott, a tranzakciót **Számlázásra kész**-ként kell jelölni. Ez a cikk leírja a létrehozható tranzakciók típusait.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Tekintse át az idő- és anyagszámlázási elmaradást
 

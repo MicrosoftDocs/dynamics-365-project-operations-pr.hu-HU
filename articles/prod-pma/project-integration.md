@@ -26,7 +26,7 @@ ms.locfileid: "8684967"
 
 [!include [banner](../includes/banner.md)]
 
-A projektek ütemezésének tervezése és karbantartása összetett lehet, így a projektmenedzsereknek a feladat kezelését segítő eszközöket kell használniuk. A Microsoft Project Client programmal történő integráció segítséget nyújt a projekt munkalebontási struktúrájának megnyitásához és kezeléséhez. A projektmenedzser közzéteheti a módosításokat a Dynamics 365 Finance projekt munkalebontási struktúrájában.
+A projektek ütemezésének tervezése és karbantartása összetett lehet, így a projektmenedzsereknek a feladat kezelését segítő eszközöket kell használniuk. A Microsoft Project Client programmal történő integráció segítséget nyújt a projekt munkalebontási struktúrájának megnyitásához és kezeléséhez. A projektmenedzser bármilyen változást közzétehet a Dynamics 365 Finance projekt munkalebontási struktúrájában.
 
 > [!NOTE]
 > A júliusi frissítés (10.0.4 verzió) használata esetén a KB 4054797 és 4055884 telepítése szükséges.
@@ -39,7 +39,7 @@ A Microsoft Project Client programmal való integráció engedélyezéséhez egy
 •   Kattintson a **Megnyitás** lehetőségre, majd kattintson a **Futtatás** lehetőségre, amikor a rendszer rákérdez.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>A meglévő vázlat munkalebontási struktúra megnyitása és módosítása a Microsoft Project Client alkalmazásban
-Ha egy Dynamics 365 Finance projekt már létrehozott munkalebontási struktúrával, a munkalebontási struktúra megnyitható a Microsoft Project Client alkalmazásban, ha a munkalebontási struktúra vázlatos állapotban van. A **Projekt** oldalról való megnyitáshoz kattintson a **Megnyitás Microsoft Project alkalmazásban** hivatkozásra a **Terv** lapról. Ez az oldal megnyitható a Microsoft Project Client alkalmazásból is a **Megnyitás** lehetőségre kattintva a **Microsoft Dynamics 365** lapon. Válassza a **Jogi entitás** és a **Projekt** elemet a listáról.
+Ha egy Dynamics 365 Finance projekthez már létrehoztak egy munkalebontási struktúrát, akkor a munkalebontási struktúra megnyitható a Microsoft Project Client alkalmazásban, ha a munkalebontási struktúra vázlat állapotú. A **Projekt** oldalról való megnyitáshoz kattintson a **Megnyitás Microsoft Project alkalmazásban** hivatkozásra a **Terv** lapról. Ez az oldal megnyitható a Microsoft Project Client alkalmazásból is a **Megnyitás** lehetőségre kattintva a **Microsoft Dynamics 365** lapon. Válassza a **Jogi entitás** és a **Projekt** elemet a listáról.
 
 > [!NOTE]
 > Ha Internet Explorer böngészőt használ, kattintson a **Mentés** gombra, hogy a fájl letöltési helyéről manuálisan meg tudja nyitni a fájlt. Másik lehetőségként a **Mentés és megnyitás** gombra kattintva nyissa meg a fájlt a Microsoft Project Client programban. Mentéskor ne nevezze át a fájlt.

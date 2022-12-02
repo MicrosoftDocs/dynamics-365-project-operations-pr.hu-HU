@@ -1,6 +1,6 @@
 ---
 title: Projekt létrehozása és frissítése
-description: Ez a cikk a Project Operations projektek frissítésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk a projektek Project Operationsben való frissítéséről nyújt tájékoztatást.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

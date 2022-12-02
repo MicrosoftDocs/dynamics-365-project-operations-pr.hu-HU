@@ -1,6 +1,6 @@
 ---
 title: Speciális szervezeti egységek
-description: Ez a cikk a szervezeti egységekről nyújt tájékoztatást Dynamics 365 Project Service Automation.
+description: Ez a cikk a Dynamics 365 Project Service Automation alkalmazás szervezeti egységeiről tartalmaz információkat.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927101"
 ---
-# <a name="about-organizational-units"></a>A szervezeti egységekről 
+# <a name="about-organizational-units"></a>A szervezeti egységek bemutatása 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 42-es frissítési kiadásának V3 változatában
-description: Ez a cikk a 42-es, V3-as frissítésben Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a Microsoft Dynamics 365 Project Service Automation Update Release 42, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912718"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation 42-es, V3-as kiadásának újdonságai és módosításai. Ez a verzió buildszáma V3.10.73.61, és általánosan elérhető egy önfrissítéssel 2022 áprilisában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 42-os frissítési kiadásában. A verzió build száma V3.10.73.61, és általánosan elérhető lesz önálló frissítésként 2022 áprilisában.
 
 ## <a name="update-release-42"></a>42-ös frissítési kiadás
 
@@ -39,10 +39,10 @@ A következő problémák kerültek kijavításra.
 
 **Idő és költség**
 
-- Ha egy adatlapot elutasítanak, a rendszer helytelenül rendszerként **azonosítja azt a felhasználót, aki elutasította azt**.
-- Időbejegyzések importálásakor az **Erőforráskategória** érték hiányzik.
-- A projektjóváhagyók jóváhagyhatják a beküldött projekteket, ha az engedélyeik nincsenek kifejezetten Jóváhagyható értékre **állítva**.
+- Elutasított időnyilvántartás esetén az elutasító felhasználó helytelenül **Rendszer** értékkel van azonosítva.
+- Időbejegyzések importálásakor hiányzik az **Erőforráskategória** érték.
+- A projekt jóváhagyók akkor is jóváhagyhatják a beküldött projekteket, ha az engedélyük nincs kifejezetten a **Jóváhagyhat** értékre állítva.
 
 **Értékesítés**
 
-- Ha a tényleges adatokat nem gyökérszintű feladatokra naplózza, a tényleges költségek helytelenül vannak összesítve.
+- Nem gyökérszintű feladatokhoz való tényadatok naplózása esetén a tényleges költségeket nem megfelelően összesíti a rendszer.

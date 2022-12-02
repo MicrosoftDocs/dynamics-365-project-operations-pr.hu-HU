@@ -1,6 +1,6 @@
 ---
 title: Alapszintű Árajánlat-készítési, Árképzési és Számlázási útmutató
-description: Ez a cikk a Project Service Automation alapszintű árajánlatával, díjszabásával és számlázásával kapcsolatos információkra mutató hivatkozásokat tartalmaz.
+description: A cikk hivatkozásai a Project Service Automation árajánlat-készítéséről, számlázásáról és árképzéséről tartalmaznak információt.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910801"
 
 A megfelelő erőforrások megfelelő időben történő megkeresése, a projektek erőforrásainak lefoglalása és a felhasznált erőforrások megtartása segíti a szervezeteket a bevételi célok és az ügyfél-elégedettségi célok teljesítésében. 
 
-A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
+A cikkben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi cikkekbe:
 
 - [Árajánlat-készítés, árképzés és számlázás](../quote-bill-price.md)
 - [Értékesítési folyamatok](../basic-sales-process.md)
@@ -50,7 +50,7 @@ A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat
 - [Tényadatok rögzítése](../advanced-actuals.md)
 
 > [!NOTE]
-> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
+> Ez a cikk egy későbbi dokumentációs frissítésben kerül eltávolításra. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

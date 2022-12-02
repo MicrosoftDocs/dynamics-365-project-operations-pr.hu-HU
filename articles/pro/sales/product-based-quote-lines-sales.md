@@ -1,6 +1,6 @@
 ---
 title: Termékalapú árajánlatsorok áttekintése - Lite
-description: Ez a cikk a termékalapú árajánlatsorok használatáról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a termékalapú árajánlatsorok használatáról.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

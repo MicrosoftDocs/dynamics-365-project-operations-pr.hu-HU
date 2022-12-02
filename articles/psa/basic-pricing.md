@@ -1,6 +1,6 @@
 ---
 title: Projektárképzés
-description: Ez a cikk arról nyújt tájékoztatást, hogyan működik a díjszabás Dynamics 365 Project Service Automation.
+description: Ez a cikk információkat ad arról, hogyan működik az árképzés a Dynamics 365 Project Service Automation-ben.
 author: rumant
 ms.custom:
 - dyn365-projectservice

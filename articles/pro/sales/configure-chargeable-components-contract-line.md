@@ -1,6 +1,6 @@
 ---
 title: A projektalapú szerződéssor felszámítható összetevőinek konfigurálása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan adhat hozzá díjköteles összetevőket a Project Operations szerződéses soraihoz.
+description: Ez a cikk tájékoztatást nyújt arról, hogyan lehet a felszámítható összetevőket felvenni a Project Operations szerződéssoraiba.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

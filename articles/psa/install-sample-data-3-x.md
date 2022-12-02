@@ -1,6 +1,6 @@
 ---
 title: Mintaadatok telepítése
-description: Ez a cikk a mintaadatok Project Service Automationben való telepítéséről nyújt tájékoztatást.
+description: Ez a cikk a Project Service Automation alkalmazásban a mintaadatok telepítésével kapcsolatos tudnivalókat tartalmaz.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

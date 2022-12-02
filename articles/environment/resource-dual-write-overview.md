@@ -18,7 +18,7 @@ ms.locfileid: "8927975"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Project Operations [kettős írási képességekkel](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) szinkronizálja az adatokat az adatok között Microsoft Dataverse és Dynamics 365 Finance.
+A Project Operations [kettős írási képességeket](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) alkalmaz az adatok szinkronizálására a Microsoft Dataverse és a Dynamics 365 Finance felületen.
 
 Az alábbi ábra azt mutatja be, hogyan szinkronizálják az adatokat a(z) Dataverse és a pénzügyek közötti integráció részeként.
 

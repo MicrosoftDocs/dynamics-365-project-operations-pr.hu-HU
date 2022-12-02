@@ -1,6 +1,6 @@
 ---
 title: Erőforráskezelési útmutató
-description: Ez a cikk a Project Service Automation erőforrás-kezelésével kapcsolatos információkhoz mutató hivatkozásokat tartalmaz
+description: Ez a cikk linkeket tartalmaz a Project Service Automation erőforrás-kezelésével kapcsolatos információkhoz
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910777"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
+A cikkben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi cikkekbe:
 
 - [Erőforrás-gazdálkodási honlap](../resource-management-home-page.md)
 - [Fő fogalmak](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat
 - [Erőforrás-kezelési GYIK](../resource-management-faq.md)
 
 > [!NOTE]
-> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
+> Ez a cikk egy későbbi dokumentációs frissítésben kerül eltávolításra. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

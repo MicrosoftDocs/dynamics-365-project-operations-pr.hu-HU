@@ -1,6 +1,6 @@
 ---
 title: 2021. október újdonságok – A Project Operations Lite telepítés
-description: Ez a cikk a Project Operations lite telepítésének 2021. októberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations lite telepítés 2021. októberi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article

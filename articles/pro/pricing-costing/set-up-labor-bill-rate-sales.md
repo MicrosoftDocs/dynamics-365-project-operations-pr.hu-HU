@@ -1,6 +1,6 @@
 ---
 title: A munka számlázási arányának beállítása – Lite
-description: Ez a cikk a munkaszámlázási díjak Project Operationsben való beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a Project Operationsban a munkaszámlázási díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

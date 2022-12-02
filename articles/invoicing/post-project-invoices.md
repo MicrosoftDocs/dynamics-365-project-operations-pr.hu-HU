@@ -1,6 +1,6 @@
 ---
 title: Számlafeldolgozás áttekintése
-description: Ez a cikk áttekintést nyújt a Project Operations számlázásáról erőforrás-/nem készletalapú forgatókönyvek esetén.
+description: Ez a cikk a számlák Project Operations szolgáltatással való feldolgozásának áttekintését részletezi az erőforrás/nem készletezett anyagokon alapuló forgatókönyvekhez.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ A Project Operations erőforrás-/nem készleten alapuló forgatókönyvek átfo
 
 ![Számlázási folyamat ábrája.](./media/invoicing-flow.png)
 
-A projektszerződéssor meghatározza a társított projekttranzakciók számlázási módját. Amikor a Projektmenedzser jóváhagyja az idő- és költségtranzakciókat, a rendszer rögzíti a tranzakciókat a **Projekt tényleges adatai** entitásban, és elküldi az adatokat a **projektvezetési és könyvelési** modulnak Dynamics 365 Finance. A Projektkönyvelő ezután a [Project Operations integrációs](../project-accounting/project-operations-integration-journal.md) napló segítségével áttekinti és közzéteszi a rekordokat. Ez a folyamat fontos könyvelési részleteket tartalmaz a projekt tényadataihoz, mint például a számlázás, az áfacsoport, a számlázási cikkek értékesítési áfacsoportja és a pénzügyi dimenziók.
+A projektszerződéssor meghatározza a társított projekttranzakciók számlázási módját. Amikor a Projektmenedzser jóváhagyja az idő- és költségtranzakciókat, a rendszer rögzíti a tranzakciókat a **Projekt tényadatok** entitásban, és elküldi az adatokat a Dynamics 365 Finance-ben lévő **Projektmenedzsment és a könyvelés** modulnak. A Projektkönyvelő ezután a [Project Operations integrációs](../project-accounting/project-operations-integration-journal.md) napló segítségével áttekinti és közzéteszi a rekordokat. Ez a folyamat fontos könyvelési részleteket tartalmaz a projekt tényadataihoz, mint például a számlázás, az áfacsoport, a számlázási cikkek értékesítési áfacsoportja és a pénzügyi dimenziók.
 
 A Projektmenedzser áttekintheti a számlázatlan értékesítési tranzakciókat az idő és anyag számlázási módszerrel, az [Idő és anyag számlázási elmaradás](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) lehetőségben, és a rögzített árú számlázásban a [Rögzített árú mérföldkövek](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones) lehetőségben. Ezek a nézetek lehetővé teszik a következő számlázási ciklusba bevehető tranzakciók szűrését és kiválasztását, majd **Számlázásra kész** megjelölését.
 

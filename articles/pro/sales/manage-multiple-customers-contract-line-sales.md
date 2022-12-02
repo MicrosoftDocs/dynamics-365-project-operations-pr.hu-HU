@@ -1,6 +1,6 @@
 ---
 title: Több ügyfél kezelése projektalapú szerződéssorokon - Lite
-description: Ez a cikk több ügyfél projektalapú szerződéssorokon történő kezeléséről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a több ügyfélnek a projektalapú szerződéssorokon való kezeléséről.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

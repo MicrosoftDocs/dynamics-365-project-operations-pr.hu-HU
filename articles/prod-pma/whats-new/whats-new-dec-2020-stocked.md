@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2020 decemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: Ez a cikk a Project Operations 2020. decemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/éles környezetben üzembe helyezett forgatókönyvekhez.
+description: Ez a cikk információval szolgál a készletalapú/termelésalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020 decemberi kiadásában váltak elérhetővé.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -20,7 +20,7 @@ _A következőre vonatkozik: Project Operations készleten vagy gyártáson alap
 
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-  - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.15-ös verzió
+  - Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.15-ös verziójú környezetekben
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -139,7 +139,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-További információ a Dynamics 365 Finance szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Dynamics 365 Finance szabályozási frissítéseivel kapcsolatos további tudnivalók a [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. A szabályozási frissítések megismerésének másik módja, ha bejelentkezik a Lifecycle Services (LCS) szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

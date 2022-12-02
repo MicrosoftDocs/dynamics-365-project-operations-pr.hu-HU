@@ -1,6 +1,6 @@
 ---
 title: Projektek és feladatok leképezése egy projektalapú árajánlatsorba
-description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet projekteket és tevékenységeket leképezni egy projektalapú tevékenységsorra.
+description: Ez a cikk a projektek és feladatok projektalapú feladatsorra való leképezésével kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

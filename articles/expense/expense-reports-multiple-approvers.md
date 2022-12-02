@@ -1,6 +1,6 @@
 ---
 title: Költségjelentések és több jóváhagyó
-description: Ez a cikk az egynél több személy jóváhagyását igénylő költségjelentésekről nyújt tájékoztatást.
+description: Ez a cikk az olyan költségjelentésekről tartalmaz információkat, amelyeket több személynek kell jóváhagynia.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

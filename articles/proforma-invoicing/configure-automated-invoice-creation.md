@@ -1,6 +1,6 @@
 ---
 title: Automatikus számlalétrehozás konfigurálása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan konfigurálhatja a rendszert a számlák automatikus létrehozására.
+description: Ez a cikk a rendszer számlák automatikus létrehozásához történő konfigurálásáról tartalmaz információkat.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

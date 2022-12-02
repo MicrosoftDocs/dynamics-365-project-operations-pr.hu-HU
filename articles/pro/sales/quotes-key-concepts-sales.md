@@ -1,6 +1,6 @@
 ---
 title: Árajánlatok fő fogalmai - Lite
-description: Ez a cikk a projektajánlatok Project Operationsben való használatáról nyújt tájékoztatást.
+description: Ez a cikk a projektárajánlatok Project Operationsben való használatáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

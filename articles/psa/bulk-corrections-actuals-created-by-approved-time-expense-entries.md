@@ -1,6 +1,6 @@
 ---
 title: A jóváhagyott idő-és költség tételek által létrehozott tényadatok tömeges javítása
-description: Ez a cikk azt ismerteti, hogy a rendszergazdák hogyan végezhetnek egyszeri vagy tömeges javításokat a korábban jóváhagyott idő- vagy költségbejegyzéseken, ha a számlázás nem fejeződött be.
+description: Ez a cikk ismerteti, hogy egy adminisztrátor számára hogyan lehetséges a korábban jóváhagyott idő vagy kiadási tételekre egyszeri vagy tömeges helyesbítéseket végezni, ha a számlázás nem fejeződött be.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916292"
 
 Időnként előfordulhat, hogy egy idő-vagy költségbejegyzés helytelenül van megadva. Előfordulhat például, hogy egy tanácsadó helytelen időpontot választki időbejegyzés létrehozásakor, vagy egy költség bevitelekor felcserél számokat. Ha egy tanácsadó nem tudja frissíteni a beküldött bejegyzéseket, az adminisztrátor közvetlenül kijavíthatja a projekthez tartozó bejegyzést.
 
-A cikkben található eljárások végrehajtásához rendszergazdai engedélyekre lesz szüksége.
+A jelen cikk eljárásainak végrehajtásához rendszergazdai jogosultságokra van szükség.
 
 ## <a name="correct-approved-time-entries"></a>Jóváhagyott időbejegyzések kijavítása     
 

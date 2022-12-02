@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kapacitás szinkronizálása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan szinkronizálhatja az erőforrások kapacitását a naptárak és a projektek között.
+description: Ez a cikk információkat tartalmaz arról, hogyan szinkronizálható az erőforrások kapacitása a naptárak és a projektek között.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

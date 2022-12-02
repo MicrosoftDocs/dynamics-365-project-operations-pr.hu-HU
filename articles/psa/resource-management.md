@@ -1,6 +1,6 @@
 ---
 title: Projektek beszerzése kezdőlap
-description: Ez a cikk a Project Service Automation (PSA) for Dynamics 365 erőforrás-kezelési képességeiről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a Dynamics 365 Project Service Automation (PSA) erőforrás-kezelési képességeiről.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. Az 
 - Fenntartja a készségek és jártassági adattárat.
 
 
-A PSA-ban általános vagy megnevezett erőforrásokkal foglalkoztathatja a projektet. Különböző módszerekkel felveheti és kijelölheti a csapattagokat, valamint kezelheti a foglalásaikat és feladataikat. További információt a következő cikkekben talál:
+A PSA-ban általános vagy megnevezett erőforrásokkal foglalkoztathatja a projektet. Különböző módszerekkel felveheti és kijelölheti a csapattagokat, valamint kezelheti a foglalásaikat és feladataikat. További információkért lásd a következő cikkeket:
 
 - [Megnevezett foglalható erőforrások foglalása a projektcsapatba és feladatokhoz hozzárendelés](assign-named-bookable-resource.md)
 - [Általános foglalható erőforrások hozzárendelése egy feladathoz és erőforrás-követelmények generálása](assign-generic-bookable-resource.md)

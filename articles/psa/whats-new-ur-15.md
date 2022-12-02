@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 15-es frissítési kiadásának V3 változatában
-description: Ez a cikk a Project Service Automation 15., V3-as kiadásának újdonságairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 15-ös frissítési kiadásának V3 verziójában.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915647"
 
 Örömmel jelentjük be a Dynamics 365 Project Service Automation (PSA) alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez nyissa meg a megoldások oldalt. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy módosultak a PSA V3 15., 15. kiadásának frissítéséhez. Ennek a verziónak a build száma V 3.10.5.28, és általánosan elérhető egy önálló frissítésben 2020 januárjában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a PSA V3. 15-ös frissítési kiadásában. Ennek a verziónak a build száma V 3.10.5.28, és általánosan elérhető egy önálló frissítésben 2020 januárjában.
 
 ## <a name="update-release-15"></a>15-ös frissítési kiadás 
 

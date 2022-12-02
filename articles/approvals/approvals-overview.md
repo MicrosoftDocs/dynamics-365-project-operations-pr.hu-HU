@@ -1,6 +1,6 @@
 ---
 title: Jóváhagyások áttekintése
-description: Ez a cikk a jóváhagyásokkal való munkáról nyújt tájékoztatást a Project Operationsben.
+description: Ez a cikk a jóváhagyások Project Operationsben való használatáról nyújt tájékoztatást.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

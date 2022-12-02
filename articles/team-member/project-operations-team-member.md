@@ -1,6 +1,6 @@
 ---
-title: Project Operations Team Member alkalmazás
-description: Ez a cikk a Microsoft Project Operations Team Member alkalmazásáról nyújt tájékoztatást Dynamics 365 Project Operations.
+title: Project Operations-csapattag alkalmazás
+description: Ez a cikk a Microsoft Project Operations Csapattag alkalmazásával kapcsolatban nyújt tájékoztatást a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918223"
 ---
-# <a name="project-operations-team-member-app"></a>Project Operations Team Member alkalmazás
+# <a name="project-operations-team-member-app"></a>Project Operations-csapattag alkalmazás
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Project Operations Team Member alkalmazás (korábbi nevén Project Resource Hub) tartalmazza a Microsoft Dynamics 365 Project Operations által a csapattagok felhasználói licencének kínált összes képességet.
+A Project Operations csoporttag alkalmazás (korábban Projekterőforrás-központ) minden olyan lehetőséget tartalmaz, amit a Microsoft Dynamics 365 Project Operations kínál a csoporttagok felhasználói licenchez.
 
-Íme néhány a Project Operations Team Member alkalmazás képességei közül:
+Íme a Project Operations csoporttagok alkalmazás néhány képessége:
 
 - Időbejegyzés
-- Költségbevitel (Lite üzembe helyezés)
+- Költségbevitel (Lite telepítés)
 - Anyagfelhasználás
 - Approvals
 - Bővíthetőség (legfeljebb 15 entitás)
 
-A Project Operations Team Member alkalmazás használatához teljes Project Operations-licenccel vagy Dynamics Team Members felhasználói licenccel kell rendelkeznie. A licencekkel kapcsolatos további információkért lásd a [Dynamics 365 licencelési útmutatóját](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). A Project Operations Team Member alkalmazáshoz a Project Operations telepítése szükséges.
+A Project Operations csoporttagok alkalmazás használatához teljes Project Operations licenccel vagy Dynamics csoporttagok felhasználói licenccel kell rendelkeznie. A licencekkel kapcsolatos további információért tekintse át a [Dynamics 365 licencelési útmutatóját](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). A Project Operations csoporttag alkalmazáshoz Project Operations telepítése szükséges.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

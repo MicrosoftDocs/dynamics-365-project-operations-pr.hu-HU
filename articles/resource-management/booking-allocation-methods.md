@@ -1,6 +1,6 @@
 ---
 title: Foglalási allokációs módszerek
-description: Ez a cikk arról nyújt tájékoztatást, hogyan működnek a foglalási kiosztási módszerek a Project Operationsben.
+description: Ez a cikk arról tartalmaz információkat, hogy a foglalási allokációs módszerek hogyan működnek a Project Operations rendszerben.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

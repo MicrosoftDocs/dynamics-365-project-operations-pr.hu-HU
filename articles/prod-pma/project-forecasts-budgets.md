@@ -1,6 +1,6 @@
 ---
 title: Projekt-előrejelzések és költségvetések
-description: Microsoft Dynamics A 365 Finance projekt-előrejelzéseket és projektköltségvetéseket biztosít a projektek kezeléséhez és ellenőrzéséhez.
+description: A Microsoft Dynamics 365 Finance projekt-előrejelzéseket és projektköltségvetéseket biztosít a projektek kezeléséhez és ellenőrzéséhez.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

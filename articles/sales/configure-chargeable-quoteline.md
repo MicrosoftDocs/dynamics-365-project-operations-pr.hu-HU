@@ -1,6 +1,6 @@
 ---
 title: A projektalapú árajánlatsor felszámítható összetevőinek konfigurálása
-description: Ez a cikk a projektalapú árajánlatsorok tartalmaz, díjköteles és nem terhelhető összetevőiről nyújt tájékoztatást.
+description: Ez a cikk a projektenalapú ajánlatsorokban szereplő, számlázható és nem számlázható összetevőkkel kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

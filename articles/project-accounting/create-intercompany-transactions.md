@@ -1,6 +1,6 @@
 ---
 title: Vállalatközi tranzakciók létrehozása
-description: Ez a cikk a vállalatközi tranzakciók létrehozásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a vállalatközi tranzakciók létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ A vállalatközi tranzakciók jóváhagyásakor a rendszer a következő tényle
 
 A költségek, a beszerzési egységárak és a szervezeti egységek közötti értékesítési tranzakciók ára és pénzneme a **szervezeti egység** által vezérelt. Fontos ezt figyelembe venni, amikor eldönti, hogyan kell felépíteni a vállalatokat és a szervezeti egységeket a megvalósításban.
 
-A lehetőség, az ajánlat, a projekt szerződés és a projekt rekordjainak létrehozásakor a rendszer ellenőrzi, hogy a szerződő egység pénzneme megegyezik-e a szerződő vállalat pénzügyi pénznemével. Ha nem egyeznek meg, akkor ezek a rekordok nem hozhatók létre. A szervezeti egység pénznemét Dynamics 365 Project Operations szolgáltatásban lehet meghatározni a **Dataverse** > **Beállítások** > **Szervezeti egységek** helyen. A vállalat könyvelési pénznemét a Dynamics 365 Finance határozza meg a **Főkönyv** > **beállítása Főkönyv beállítása** > **Főkönyv menüpontban**. A pénznemet a rendszer a Dataverse-környezetébe a főköny kettős írású leképezésével szinkronizálja.
+A lehetőség, az ajánlat, a projekt szerződés és a projekt rekordjainak létrehozásakor a rendszer ellenőrzi, hogy a szerződő egység pénzneme megegyezik-e a szerződő vállalat pénzügyi pénznemével. Ha nem egyeznek meg, akkor ezek a rekordok nem hozhatók létre. A szervezeti egység pénznemét Dynamics 365 Project Operations szolgáltatásban lehet meghatározni a **Dataverse** > **Beállítások** > **Szervezeti egységek** helyen. A vállalat könyvelési pénzneme a Dynamics 365 Finance-ban van megadva az **Általános főkönyv** > **Főkönyv beállítása** > **Főkönyv** helyen. A pénznemet a rendszer a Dataverse-környezetébe a főköny kettős írású leképezésével szinkronizálja.
 
 A rendszer a következő helyzetekben hozza létre az erőforráskezelés költségeket és a szervezeti egység közötti valós értékesítéseket:
 
   - Ha a beszerzési egység eltér a szerződő egységtől
   - Ha a beszerzési vállalat eltér a szerződő vállalattól
 
-A további elszámolás céljából azonban csak azokat a tranzakciókat helyezik át a Dynamics 365 Finance környezetbe, amelyek a szerződő társaságtól eltérő forrástársasággal rendelkeznek.
+Azonban csak olyan tranzakciók kerülnek át a Dynamics 365 Finance környezetbe további könyvelésre, ahol a beszerzési vállalat eltér a szerződő vállalattól.
 
 A projektek tényleges adatainak könyvelése a Project Operations integrációs naplójában van rögzítve a Finance-ban. A rendszer a következő naplósorokat hozza létre.
 

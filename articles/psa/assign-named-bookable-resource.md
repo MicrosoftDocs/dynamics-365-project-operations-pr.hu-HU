@@ -1,6 +1,6 @@
 ---
 title: Nevesített foglalható erőforrások foglalása projektcsoporthoz, és feladatok hozzárendelése
-description: Ez a cikk arról nyújt tájékoztatást, hogyan foglalhat le elnevezett erőforrásokat a projektcsapatoknak, és hogyan rendelheti hozzá őket a tevékenységekhez.
+description: Ez a cikk információt nyújt a nevesített erőforrásoknak a projektcsoportokhoz való foglalásáról, és a feladatokhoz való hozzárendeléséről.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

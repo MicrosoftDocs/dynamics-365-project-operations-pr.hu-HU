@@ -1,6 +1,6 @@
 ---
 title: Helyesbítő naplók létrehozása és megerősítése
-description: Ez a cikk a javítási napló létrehozásáról és megerősítéséről nyújt tájékoztatást.
+description: Ez a cikk a helyesbítő napló létrehozásáról és megerősítéséről tartalmaz további információt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928067"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Előfordulhat, hogy egy idő- vagy költségbevitel helytelenül van megadva. Előfordulhat például, hogy egy tanácsadó rossz dátumot választ ki, amikor létrehoz egy időbejegyzést, vagy rossz projektet választ, amikor költséget ad meg. Ha egy tanácsadó nem tudja frissíteni a beküldött bejegyzéseket, a háttéradminisztrátor közvetlenül kijavíthatja a projekt tényleges adatait.
+Időnként előfordulhat, hogy egy idő-vagy költségbejegyzés helytelenül van megadva. Előfordulhat például, hogy egy tanácsadó helytelen időpontot választ ki időbejegyzés létrehozásakor, vagy egy költség bevitelekor rossz projektet választ ki. Ha egy tanácsadó nem tudja frissíteni a beküldött bejegyzéseket, a háttéradminisztrátor közvetlenül kijavíthatja a projekthez tartozó tényadatokat.
 
 ## <a name="correct-approved-time-entries"></a>Jóváhagyott időbejegyzések kijavítása     
 
@@ -73,30 +73,30 @@ Hajtsa végre az alábbi lépéseket egy vagy több költségbejegyzés kijavít
 
 6. Ha a javított értékek a várt módon jelennek meg ,válassza a **Jóváhagyás** lehetőséget. A párbeszédpanelen válassza az **OK** lehetőséget. Ha az értékek nem a várt módon jelennek meg , válassza a **Mégse** lehetőséget a **Jóváhagyott kiadások** listájához való visszatéréshez. Ismételje meg a 2 – 5. lépéseket. 
 
-7. A javítási napló megerősítése után térjen vissza a frissített projekthez vagy projektekhez a módosítások megtekintéséhez.
+7. A helyesbítő napló megerősítése után lépjen vissza a frissített projekthez vagy projektekhez, és tekintse meg a változtatásokat.
 
-8. A projektoldal **Tényleges adatok** lapján tekintse át a **Tényleges társított nézet** listát. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva.
+8. A projekt oldalán a **Tényadatok** lapon tekintse át a **Tényleges adatok társított nézete** listát. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Jóváhagyott anyaghasználati naplók kijavítása
+## <a name="correct-approved-material-usage-logs"></a>Jóváhagyott anyaghasználati naplók javítása
 
-Az alábbi lépésekkel javíthat ki egy vagy több anyaghasználati naplóbejegyzést.
+Hajtsa végre az alábbi lépéseket egy vagy több anyaghasználati napló kijavításához.
 
-1. Az Értékesítések **terület bal oldali navigációs ablaktábla Tranzakciók** csoportjában **válassza a** Ténylegesek **lehetőséget**.
+1. Az **Értékesítés** terület bal oldali navigációs ablaktáblájának **Tranzakciók** területén válassza a **Tényadatok** lehetőséget.
 
-2. **A Tényleges adatok listában oszlopszűrők** használatával válassza ki az **Anyagtranzakciós** osztályt, hogy csak az anyagok tényleges adatai jelenjenek meg. Használjon más oszlopszűrőket a megjelenített tényleges adatok további korlátozásához. Miután megtalálta a kívánt tényleges készletet, válassza ki a tényleges adatokat, majd válassza a Helyes bejegyzések **lehetőséget**. A rendszer automatikusan létrehoz egy új javítási naplót, és hozzárendeli az **Anyagjavítás** típusát.
+2. A **Tényadatok** listában oszlopszűrők használatával válassza ki az **Anyag** tranzakciós osztályt, hogy csak az anyagok tényadatai legyenek láthatók. Más oszlopszűrőkkel tovább korlátozhatja a látható tényadatokat. Miután megkeresi a kívánt tényadat-készletet, jelölje ki a tényadatokat, majd válassza a **Bejegyzések javítása** lehetőséget. A rendszer automatikusan létrehoz egy új helyesbítő naplót az **Anyag helyesbítése** hozzárendelt típussal.
 
-3. **Az Új napló** lap Leírás **mezőjében** adja meg a javítás leírását. Ezután az **Anyagkorrekció** lap Új értékek az **anyagokhoz** szakaszban válassza ki a kijelölt anyagsorok javításához használni kívánt adatmezőket. Hozzárendelheti például az anyagot egy másik projekthez, vagy kijavíthatja a terméket, az anyag dátumát vagy az alvállalkozói szerződést.
+3. Az **Új napló** oldal **Leírás** mezőjében adja meg a javítás leírását. Ezt követően az **Anyaghelyesbítések** lap **Anyagok új értékei** szakaszában válassza ki az adatmezőket a kijelölt anyagsorok helyesbítéséhez. Az anyagot hozzárendelheti például egy másik projekthez, vagy javíthatja a terméket, az anyagdátumát vagy az alvállalkozói szerződést.
 
-4. Válassza a **Előnézet** elemet. Ezután a párbeszédpanelen válassza az OK **gombot**.
+4. Válassza a **Előnézet** elemet. Majd a párbeszédpanelen válassza az **OK** lehetőséget.
 
-5. **A Naplósorok** lapon ellenőrizze a javításokat. Megtekintheti azoknak az eredeti tényleges adatoknak a listáját, amelyek a visszafordított kijelölt anyagbejegyzésekhez és a létrehozott javított megfelelő sorokhoz kapcsolódnak.
+5. Ellenőrizze a javításokat a **Naplósorok** lapon. Megtekintheti a sztornírozott kijelölt anyagbejegyzésekhez kapcsolódó eredeti tényadatok listáját, valamint a hozzájuk tartozó helyesbített sorokat, amelyek létre lettek hozva.
 
-6. Ha a javított értékek a várt módon jelennek meg ,válassza a **Jóváhagyás** lehetőséget. Ezután a párbeszédpanelen válassza az OK **gombot**. Ha az értékek nem a várt módon jelennek meg, válassza a Mégse **lehetőséget** a **Ténylegesek** listához való visszatéréshez. Ezután ismételje meg a 2–5. lépést.
+6. Ha a javított értékek a várt módon jelennek meg ,válassza a **Jóváhagyás** lehetőséget. Majd a párbeszédpanelen válassza az **OK** lehetőséget. Ha az értékek nem a várt módon jelennek meg , válassza a **Mégse** lehetőséget a **Tényadatok** listájához való visszatéréshez. Majd ismételje meg a 2 – 5. lépéseket.
 
-7. A javítási napló megerősítése után térjen vissza a frissített projekthez vagy projektekhez a módosítások megtekintéséhez.
+7. A helyesbítő napló megerősítése után lépjen vissza a frissített projekthez vagy projektekhez, és tekintse meg a változtatásokat.
 
-8. A projektoldal **Tényleges adatok** lapján tekintse át a **Tényleges társított nézet** listát. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva.
+8. A projekt oldalán a **Tényadatok** lapon tekintse át a **Tényleges adatok társított nézete** listát. Az eredeti bejegyzések és a helyesbített bejegyzések vannak felsorolva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

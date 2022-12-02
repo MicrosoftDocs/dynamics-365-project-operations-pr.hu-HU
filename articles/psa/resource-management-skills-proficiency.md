@@ -1,6 +1,6 @@
 ---
 title: Készség- és jártassági modellek
-description: Ez a cikk a készségek és jártassági modellek használatáról nyújt tájékoztatást.
+description: Ez a cikk a készségek és a jártassági modellek használatáról nyújt információkat.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

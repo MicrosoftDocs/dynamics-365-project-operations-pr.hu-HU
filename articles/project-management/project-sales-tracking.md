@@ -1,6 +1,6 @@
 ---
 title: Projekt értékesítés nyomon követése
-description: Ez a cikk arról nyújt tájékoztatást, hogy a Project Operations hogyan követi nyomon a projekt munkabevételeinek előrehaladását.
+description: Ez a cikk arról nyújt tájékoztatást, hogy a Project Operations hogyan követi nyomon a projektből származó munkabevételeket.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

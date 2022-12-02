@@ -1,6 +1,6 @@
 ---
 title: Projektfázistípusok
-description: Ez a cikk a projekt szakaszairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projekt szakaszairól.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

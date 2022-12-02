@@ -1,6 +1,6 @@
 ---
 title: Alkalmi előleg létrehozása szerződésen
-description: Ez a cikk a szerződéshez szükséges előlegek létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk a szerződéshez igény szerinti előleg létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

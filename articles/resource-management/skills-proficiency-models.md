@@ -1,6 +1,6 @@
 ---
 title: Szakértelem és minősítések
-description: Ez a cikk a szakértelem és a minősítési jellemzők erőforrásokhoz való hozzáadásáról nyújt tájékoztatást.
+description: Ez a cikk a szakértelem és minősítési jellemzők erőforrásokhoz való hozzáadásával kapcsolatban nyújt tájékoztatást.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

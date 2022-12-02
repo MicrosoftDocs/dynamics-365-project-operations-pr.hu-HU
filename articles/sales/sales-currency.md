@@ -1,6 +1,6 @@
 ---
 title: Pénznem
-description: Ez a cikk arról nyújt tájékoztatást, hogyan adhat hozzá és távolíthat el pénznemtípusokat a Project Operationsben.
+description: Ez a cikk a pénznemtípusok Project Operations rendszerben történő hozzáadásáról és eltávolításáról tartalmaz tájékoztatást.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

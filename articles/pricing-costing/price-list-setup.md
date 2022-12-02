@@ -1,6 +1,6 @@
 ---
 title: Árlisták beállítása
-description: Ez a cikk a költség- és eladási árlisták beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a költség- és értékesítési árlisták beállításáról nyújt információkat.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

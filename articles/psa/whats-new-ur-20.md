@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 20-es frissítési kiadásának V3 változatában
-description: Ez a cikk a Project Service Automation 20-as, V3-as kiadásában elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 20-as frissítési kiadásában
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8913065"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation V3 20-as kiadásának újdonságaival vagy módosításaival kapcsolatos szolgáltatásokat és javításokat sorolja fel. A verzió build száma V 3.10.31.37, és általánosan elérhető lesz önálló frissítésként 2020 júniusában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 20-es frissítési kiadásában. A verzió build száma V 3.10.31.37, és általánosan elérhető lesz önálló frissítésként 2020 júniusában.
 
 ## <a name="update-release-20"></a>20-ös frissítési kiadás
 

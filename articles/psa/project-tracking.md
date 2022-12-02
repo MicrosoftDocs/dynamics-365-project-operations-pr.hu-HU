@@ -1,6 +1,6 @@
 ---
 title: Projekt előrehaladása és költségfogyasztása
-description: Ez a cikk a projekt előrehaladásának és a költségfelhasználásnak a nyomon követéséről nyújt tájékoztatást.
+description: Ez a cikk a projekt előrehaladásának és a költségfelhasználásnak a nyomon követéséről nyújt információkat.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921765"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükségessége iparáganként eltérő. Egyes iparágak granulált szinten követik el, mások viszont magasabb szinten követnek nyomot. Ez a cikk bemutatja, hogyan ütemezheti a szervezet követelményeinek való megfelelést.
+Az előrehaladás ütemtervéhez viszonyított nyomon követésének szükségessége iparáganként eltérő. Egyes iparágak granulált szinten követik el, mások viszont magasabb szinten követnek nyomot. Ez a cikk bemutatja, hogyan kell ütemezni a szervezet követelményeit.
 
 ## <a name="effort-tracking-view"></a>Erőfeszítések nyomon követésének megtekintése
 

@@ -1,6 +1,6 @@
 ---
 title: Költségsablonok beállítása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre és használhat költségsablonokat a Project Operationsben.
+description: Ez a cikk információt nyújt a költségsablonok létrehozásáról és használatáról a Project Operations szolgáltatásban.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918407"
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 
-Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre és használhat költségsablonokat a Project Operationsben. A költségsablon határozza meg a következőket:
+Ez a cikk információt nyújt a költségsablonok létrehozásáról és használatáról a Project Operations szolgáltatásban. A költségsablon határozza meg a következőket:
 
 - A projektkategóriákat az előrejelzésekhez, és az aktuális tranzakciókat, a amelyek bele vannak számítva a projekt készenlétszámításának százalékos értékébe. Ezután a készültségi százalék értékét használja a program annak kiszámítására, hogy mekkora bevétel lett realizálva.
 - Az, hogy a készültségi százalék módosítható-e, ha az automatikusan van számítva.
@@ -56,7 +56,7 @@ Annak eldöntése, hogy melyik megközelítési módot alkalmazza a költségkat
 ## <a name="create-cost-templates"></a>Költségsablonok létrehozása
 Kövesse az alábbi a lépéseket költségsablonok létrehozásához:
 
-1. A költségsablonok eléréséhez a Dynamics 365 Finance környezetben lépjen a **Projektvezetés és könyvelés** > **beállítása Becsült** > **·** > **költség sablonra**.
+1. A költségsablonok eléréséhez a Dynamics 365 Finance-környezetben nyissa meg a **Projektvezetés és könyvelés** > **Beállítások** > **Becslések** > **Költségsablon** lehetőséget.
 2. Új költségsablon létrehozásához válassza az **Új** lehetőséget. Adjon meg egy nevet és egy leírást.
 3. Adja meg a költségsor azonosítóját mindegyik tranzakciótípus esetében.
 4. Válasszon egy alapértelmezett készültségi módszert:

@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kihasználtság áttekintése
-description: Ez a cikk a Project Operations erőforrás-kihasználtságáról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az erőforrás-kihasználtságról a Project Operations alkalmazásban.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Projektárlisták kezelése projektszerződéseken
-description: Ez a cikk a projektszerződések projektárlistáinak kezeléséről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a projektárlisták a projektszerződéseken való kezeléséről.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

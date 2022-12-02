@@ -1,6 +1,6 @@
 ---
 title: A munkaerő és a kiadások elszámolóárainak konfigurálása
-description: Ez a cikk azt ismerteti, hogyan állíthatja be a projekt munkaerő- és kiadási standard költségeit.
+description: Ez a cikk azt mutatja be, hogyan állíthatók be a munkaerő és a kiadások elszámolóárai egy projekten belül.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919513"
 
 [!include [banner](../../includes/banner.md)]
 
-Ez a cikk azt ismerteti, hogyan állíthatja be a projekt munkaerő- és kiadási standard költségeit. Ez a feladat a USSI adatkészletet használja.
+Ez a cikk azt mutatja be, hogyan állíthatók be a munkaerő és a kiadások elszámolóárai egy projekten belül. Ez a feladat a USSI adatkészletet használja.
 
 1. Az ablaktáblán kattintson a **Modulok > Projektvezetés és könyvelés > Beállítás > Árak > Önköltségi ár (óra)** lehetőségre.
 2. Válassza az **Új** lehetőséget.

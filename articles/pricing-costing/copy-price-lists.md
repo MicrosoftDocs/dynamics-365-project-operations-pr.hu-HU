@@ -1,6 +1,6 @@
 ---
 title: Árlisták másolása
-description: Ez a cikk az árlisták Project Operationsben való másolásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk az árlisták Project Operations alkalmazásban való másolásáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

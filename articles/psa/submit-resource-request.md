@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kérés benyújtása
-description: Ez a cikk a projekterőforrásra vonatkozó kérelmek elküldésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projekt erőforrás iránti kérelem benyújtásáról.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

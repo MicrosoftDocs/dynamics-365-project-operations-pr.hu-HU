@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők beállítása árazási dimenziókként
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthat be árképzési dimenziókat egyéni mezők használatával.
+description: Ez a cikk az egyedi árazási dimenziók egyéni mezőkkel történő beállításáról nyújt információkat.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917579"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Mielőtt hozzákezd, ez a cikk feltételezi, hogy befejezte a cikkek eljárásait, [Egyéni mezők és entitások](create-custom-fields-entities-pricing-dimensions.md) létrehozása, valamint [A szükséges egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](add-custom-fields-price-setup-transactional-entities.md). Ha még nem fejezte be ezeket az eljárásokat, térjen vissza, fejezze be őket, majd térjen vissza ehhez a cikkhez. 
+Ez a cikk feltételezi, hogy már elvégezte a következő cikkekben ismertetett eljárásokat: [Egyéni mezők és entitások létrehozása](create-custom-fields-entities-pricing-dimensions.md) és [Kötelező egyéni mezők hozzáadása az ár beállításához és a tranzakciós entitások](add-custom-fields-price-setup-transactional-entities.md). Ha még nem fejezte be ezeket az eljárásokat, menjen vissza, és fejezze be őket, majd térjen vissza ehhez a cikkhez. 
 
-Ez a cikk az egyéni árképzési dimenziók beállításával kapcsolatos információkat tartalmaz. A **Paraméterek** oldal **Mennyiségalapú árazási dimenziók** lapján láthatók az árképzési dimenzió entitásaiban lévő rekordok. Alapértelmezés szerint ezen a lapon két sor van a rácsban:
+Ez a cikk az egyedi árazási dimenziók beállításáról nyújt információkat. A **Paraméterek** oldal **Mennyiségalapú árazási dimenziók** lapján láthatók az árképzési dimenzió entitásaiban lévő rekordok. Alapértelmezés szerint ezen a lapon két sor van a rácsban:
 
 - **msdyn_resourcecategory** (Szerepkör)
 - **msdyn_OrganizationalUnit** (Szervezeti egység)

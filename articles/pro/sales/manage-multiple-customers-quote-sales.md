@@ -1,6 +1,6 @@
 ---
 title: Több ügyfél kezelése projektárajánlatokon - Lite
-description: Ez a cikk tájékoztatást nyújt az árajánlatok több ügyféllel való munkáról, akik finanszírozzák a projektet. (Sales)
+description: Ez a cikk tájékoztatást nyújt a projekt finanszírozását végző több ügyfelet tartalmazó árajánlatok használatáról. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

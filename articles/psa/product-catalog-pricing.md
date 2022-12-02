@@ -1,6 +1,6 @@
 ---
 title: Termékkatalógus árképzése
-description: Ez a cikk a termékkatalógus díjszabásának (PSA) működéséről Dynamics 365 Project Service Automation nyújt tájékoztatást.
+description: Ez a cikk ismerteti, hogyan működik a termékkatalógus árképzése a Dynamics 365 Project Service Automation (PSA) szolgáltatásban.
 author: rumant
 ms.custom:
 - dyn365-projectservice

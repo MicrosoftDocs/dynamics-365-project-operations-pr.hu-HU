@@ -1,6 +1,6 @@
 ---
 title: Árképzési dimenzió kikapcsolása
-description: Ez a cikk a díjszabási dimenziók kikapcsolásáról nyújt tájékoztatást.
+description: Ez a cikk az árképzési dimenziók kikapcsolásáról nyújt információkat.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

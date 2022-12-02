@@ -1,6 +1,6 @@
 ---
 title: Projekterőforrás ütemezési teljesítménye
-description: Ez a cikk arról nyújt tájékoztatást, hogyan javíthatja az erőforrás-ütemezés teljesítményét számos projekt esetében.
+description: Ez a cikk a nagy számú projektre vonatkozó erőforrás-ütemezési teljesítmény javításával kapcsolatban tartalmaz tájékoztatást.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2021. júliusában – Project Operations egyszerű telepítés
-description: Ez a cikk a Project Operations lite telepítésének 2021. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations 2021. júliusi kiadásában az egyszerű telepítésben elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article

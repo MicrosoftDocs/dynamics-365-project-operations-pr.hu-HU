@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-egyeztetés áttekintése
-description: Ez a cikk olyan információkat tartalmaz, amelyek segítenek biztosítani, hogy a projektek erőforrás-foglalásai és hozzárendelései igazodjanak egymáshoz.
+description: Ez a cikk olyan információkat nyújt, amelyekkel biztosítható az erőforrásfoglalások és a projektek hozzárendeléseinek igazítása.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

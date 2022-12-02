@@ -1,6 +1,6 @@
 ---
 title: Költségekre vonatkozó pénzügyi becslések projekteknél
-description: Ez a cikk a projektalapú költségek meghatározásáról vagy becsléséről nyújt tájékoztatást.
+description: Ez a cikk a projektalapú kiadások definiálásával vagy becslésével kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

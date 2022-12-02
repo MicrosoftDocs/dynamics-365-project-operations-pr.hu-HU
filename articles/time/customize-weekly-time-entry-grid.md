@@ -1,6 +1,6 @@
 ---
 title: Időbejegyzések kiterjesztése
-description: Ez a cikk arról nyújt tájékoztatást, hogy a fejlesztők hogyan tudják meghosszabbítani az időbeviteli vezérlőket.
+description: Ez a cikk információt nyújt arról, hogy a fejlesztők hogyan tudják kiterjeszteni az időbejegyzés-vezérlőt.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -43,7 +43,7 @@ Az időbejegyzések több forgatókönyvben használt alapentitások. A 2020. á
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Időbejegyzések és az Időforrás-entitás
-Minden időbejegyzés egy időforrásrekordhoz van társítva. Ez a rekord határozza meg, hogy mely alkalmazásoknak és hogyan kell feldolgozniuk az időbevitelt.
+Minden időbejegyzés egy időforrásrekordhoz van társítva. Ez a rekord határozza meg, mely alkalmazások és miként dolgozzák fel az időbejegyzést.
 
 Az időbejegyzések mindig folytonos időegységek, amelyek kezdése, befejezése és időtartama egymáshoz kapcsolódnak.
 
@@ -55,7 +55,7 @@ A logika a következő helyzetekben automatikusan frissíti az időbejegyzési r
     - **msdyn_end**
     - **msdyn_duration**
 
-- A **msdyn_start** és **msdyn_end** mezők időzónával vannak tisztában.
+- A **msdyn_start** és **msdyn_end** mezők figyelembe veszik az időzónákat.
 - Az időbejegyzések csak az **msdyn_date** és **msdyn_duration** meghatározása esetén éjfélkor indulnak el. A **msdyn_start** és **msdyn_end** mezők ennek megfelelően frissülnek.
 
 #### <a name="time-entry-types"></a>Időbejegyzés típusai
@@ -80,55 +80,55 @@ Három fő lépés van az egyéni mező hozzáadásához a heti időbeviteli rá
 
 1. Adja hozzá az egyéni mezőt a **Gyorslétrehozás** párbeszédpanelhez.
 2. Konfigurálja a rácsot az egyéni mező megjelenítéséhez.
-3. Adja hozzá az egyéni mezőt a Sorszerkesztés **vagy** az **Időbevitel szerkesztési** oldalához, ha szükséges.
+3. Adja hozzá az egyéni mezőt a **Sorszerkesztés** vagy **Időbejegyzés szerkesztése** oldalhoz igény szerint.
 
-Győződjön meg arról, hogy az új mező rendelkezik a szükséges ellenőrzésekkel a Sorszerkesztés **vagy** az **Időbevitel szerkesztése** lapon. A feladat részeként zárolja a mezőt az időbevitel állapota alapján.
+Azt is ellenőrizze, hogy az új mező rendelkezik-e a szükséges érvényesítésekkel a **Sorszerkesztés** vagy **Időbejegyzés-szerkesztés** oldalon. Ennek a feladatnak a részeként zárolja a mezőt az időbejegyzés állapota alapján.
 
-Amikor hozzáad egy egyéni mezőt az **Időbevitel** rácshoz, majd közvetlenül a rácsban hoz létre időbejegyzéseket, a bejegyzések egyéni mezője automatikusan úgy lesz beállítva, hogy az megfeleljen a sornak. 
+Ha egyéni mezőt ad az **Időbejegyzés** rácshoz, majd közvetlenül a rácsban hoz létre időbejegyzéseket, akkor a bejegyzések egyéni mezője automatikusan úgy van beállítva, hogy az egyezzen a sorral. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Az egyéni mező hozzáadása a Gyorslétrehozás párbeszédpanelhez
-Adja hozzá az egyéni mezőt a **Gyorslétrehozás: Időbevitel** létrehozása párbeszédpanelhez. A felhasználók ezután beírhatnak egy értéket, amikor az **Új** lehetőséget választva adnak hozzá időbejegyzéseket.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Adja hozzá az egyéni mezőt a Gyors létrehozás párbeszédpanelhez
+Az egyéni mezőt adja hozzá az **Gyorslétrehozás: Időbejegyzés** párbeszédpanelhez. A felhasználók ezután beírhatnak egy értéket, amikor az **Új** lehetőséget választva adnak hozzá időbejegyzéseket.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>A rács konfigurálása az egyéni mező megjelenítéséhez
-Kétféleképpen adhat hozzá egyéni mezőt a **Heti időbeviteli** rácshoz.
+Kétféle módon adhat hozzá egyéni mezőt a **Heti időbevitel** rácshoz.
 
-- Szabja testre a **Saját Heti időbejegyzések nézetet**, és adja hozzá az egyéni mezőt. Megadhatja az egyéni mező pozícióját és méretét a rácsban a nézet tulajdonságainak szerkesztésével.
-- Hozzon létre egy új egyéni időbeviteli nézetet, és állítsa be alapértelmezett nézetként. Ennek a nézetnek tartalmaznia kell a **Leírás** és **a Külső megjegyzések** mezőket azokon az oszlopokon kívül, amelyeket a rácsnak tartalmaznia kell. A rács pozícióját, méretét és alapértelmezett rendezési sorrendjét a nézet tulajdonságainak szerkesztésével adhatja meg. Ezután állítsa be a nézet egyedi vezérlőjét úgy, hogy az egy **Időbeviteli rács** vezérlő legyen. Adja hozzá a vezérlőt a nézethez, és válassza ki a Web, a Telefon **és** a Táblagép **beállításhoz**. **·** Ezután konfigurálja a Heti időbeviteli **rács paramétereit**. Állítsa a **Kezdő dátum** mezőt msdyn **dátumra\_**, állítsa a **Duration** mezőt **msdyn\_ duration** értékre, és állítsa az **Állapot** mezőt msdyn **entrystatus\_ értékre**. A **Csak olvasható állapotlista** mező a következőre **van beállítva: 192350002 (Jóváhagyva)**, **192350003 (Elküldve)** vagy **192350004 (Visszahívás kérve)**.
+- Lehetősége van a **Saját heti időbejegyzések** nézet testreszabására, és az egyedi mező hozzáadására. Meghatározhatja az egyéni mező helyét és méretét a rácson, a nézetben szereplő tulajdonságok szerkesztésével.
+- Hozzon létre egy új, egyéni időbeviteli nézetet és alapértelmezett nézetként állítása be. Ennek a nézetnek tartalmaznia kell a **Leírás** és **Külső megjegyzések** mezőket, azon oszlopok mellett, amelyeket a rácson szeretne elhelyezni. A rács pozícióját, méretét és alapértelmezett rendezési sorrendjét úgy határozhatja meg, hogy szerkeszti ezeket a tulajdonságokat a nézetben. Ezután állítsa be a nézet egyedi vezérlőjét úgy, hogy az egy **Időbeviteli rács** vezérlő legyen. Adja hozzá ezt a vezérlőt a nézethez, és válassza ki a **Web**, **Telefon** és **Tablet** formátumokhoz. Ezután konfigurálja a **Heti időbeviteli rács** paramétereit. Állítsa a **Kezdő dátum** mezőt **msdyn\_date** értékre, állítsa az **Időtartam** mezőt **msdyn\_duration** értékre, és állítsa az **Állapot** mezőt **msdyn\_entrystatus** értékre. A **Csak olvasható állapotlistamező** beállítása **192350002 (jóváhagyott)**, **192350003 (beküldve)** vagy **192350004 (visszahívás igénylése)**.
 
-### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Az egyéni mező hozzáadása a megfelelő szerkesztési laphoz
-Az időbevitel vagy időbejegyzések sorának szerkesztéséhez használt oldalak az Űrlapok **alatt** találhatók. A **bejegyzés** szerkesztése gomb a rácsban megnyitja a **Bejegyzés** szerkesztése lapot, a **Sor** szerkesztése gomb pedig a **Sorszerkesztés** lapot. Ezeket az oldalakat szerkesztheti úgy, hogy egyéni mezőket tartalmazzanak.
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Egyéni mező hozzáadása a megfelelő szerkesztési oldalhoz
+Az időbejegyzések vagy időbejegyzés-sorok szerkesztéséhez használt lapok az **Űrlapok** alatt találhatók . A rács **Bejegyzés szerkesztés** bejegyzése gombja megnyitja a **Bejegyzés szerkesztése** oldalt, a **Sor szerkesztése** gomb pedig a **Sorszerkesztés** oldalt. Ezeket az oldalakat szerkesztheti úgy, hogy egyéni mezőket tartalmazzanak.
 
-Mindkét beállítás eltávolítja a Project **és** a **Project Tevékenység** entitások beépített szűrését, így az entitások összes keresési nézete láthatóvá válik. Azonnal csak a vonatkozó keresési nézetek láthatók.
+Mindkét lehetőség eltávolítja a **Projekt** és a **Projektfeladat** entitásokból a kész szűréseket, így az entitások összes keresési nézete látható lesz. Azonnal csak a vonatkozó keresési nézetek láthatók.
 
-Meg kell határoznia az egyéni mező megfelelő lapját. Valószínűleg, ha hozzáadta a mezőt a rácshoz, annak a Sorszerkesztési **oldalon kell lennie, amely az** időbejegyzések teljes sorára vonatkozó mezőkhöz használatos. Ha az egyéni mezőnek minden nap egyedi értéke van a sorban (például ha ez egy egyéni mező a befejezési időpontra), akkor az **Időbevitel szerkesztése** lapon kell lennie.
+Meg kell határoznia a megfelelő oldalt az egyéni mezőhöz. Valószínűleg, ha hozzáadta a mezőt a rácshoz, akkor azon a **Sorszerkesztés** oldalon kell lennie, amelyet azokhoz a mezőkhöz használnak, amelyek az összes időbejegyzésre vonatkoznak. Ha az egyéni mezőnek minden napra egyedi értéke van a sorban (például ez egy egyéni mező a befejezési időhöz), akkor az **Időbejegyzés szerkesztése** oldalra lépjen.
 
-Ha hozzá szeretné adni az egyéni mezőt egy oldalhoz, húzzon egy **Mező** elemet az oldal megfelelő helyére, majd állítsa be a tulajdonságait.
+Az egyéni mező az oldalhoz való hozzáadásához húzza a **Mező** elemet az oldal megfelelő pozíciójába, majd állítsa be annak tulajdonságait.
 
 ### <a name="add-new-option-set-values"></a>Új beállítási értékek hozzáadása
-Ha értékkészlet értékeket szeretne hozzáadni egy beépített mezőhöz, kövesse az alábbi lépéseket.
+Ahhoz, hogy egyéni értékkészlet-értékeket adjon hozzá egy gyári mezőhöz, kövesse az alábbi lépéseket.
 
-1. Nyissa meg a mező szerkesztési lapját, majd a Típus **csoportban** válassza a szerkesztés **lehetőséget** a értékkészlet mellett.
-2. Adjon hozzá egy új opciót, amelynek egyedi címkéje és színe van. Ha új időbeviteli állapotot szeretne hozzáadni, a beépített mező neve **Entry Status (Bejegyzés állapota**) lesz.
+1. Nyissa meg a mező szerkesztési oldalát, majd a **Típus** alatt válassza a beállítás mellett a **Szerkesztés** lehetőséget.
+2. Adjon hozzá egy új opciót, amelynek egyedi címkéje és színe van. Ha új időbeviteli státust szeretne hozzáadni, akkor a kész mező neve **Beviteli állapot**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Új időbeviteli állapot kijelölése csak olvashatóként
-Ha egy új időbeviteli állapotot csak olvashatónak szeretne megadni, akkor adja hozzá az új időbeviteli értéket a **Csak olvasható állapotlista** tulajdonsághoz. Ügyeljen arra, hogy a számot adja hozzá, ne a címkét. Az időbeviteli rács szerkeszthető része mostantól zárolva lesz az új állapotú sorok számára. Ha a csak olvasható állapotlista **tulajdonságot eltérően szeretné beállítani a** különböző **Időbevitel** nézetekhez, adja hozzá az **Időbevitel** rácsot egy nézet Egyéni vezérlők **szakaszához**, és konfigurálja a paramétereket a megfelelő módon.
+Ha egy új időbeviteli állapotot csak olvashatónak szeretne megadni, akkor adja hozzá az új időbeviteli értéket a **Csak olvasható állapotlista** tulajdonsághoz. Ügyeljen arra, hogy a számot adja hozzá, nem a címkét. Az időbeviteli rács szerkeszthető része az új állapotú sorok számára immár zárolva lesz. Ha eltérő módon szeretne konfigurálni a **Csak olvasható állapotlista** tulajdonságot a különböző **Időbejegyzés** nézetekhez, vegye fel az **Időbejegyzés** rácsot a nézet **Egyéni vezérlők** területére, és szükség szerint állítsa be a paramétereket.
 
-Ezután adjon hozzá üzleti szabályokat a Sorszerkesztés **és** az **Időbevitel szerkesztési oldalának összes mezőjének zárolásához**. Az oldalak üzleti szabályainak eléréséhez nyissa meg az egyes oldalakhoz tartozó űrlapszerkesztő, majd válassza az Üzleti szabályok **lehetőséget**. Az állapotot hozzáadhatja a feltételhez a meglévő üzleti szabályokban, vagy hozzáadhat egy új üzleti szabályt az új állapothoz.
+Ezután adjon hozzá üzleti szabályokat az összes mező lezárásához az **Sor szerkesztése** és az **Időbejegyzés szerkesztése** oldalakon. Az oldalak üzleti szabályaihoz úgy férhet hozzá, hogy megnyitja az oldal folyamatszerkesztőjét, majd kiválasztja az **Üzleti szabályok** lehetőséget. Az állapotot hozzáadhatja a feltételhez a meglévő üzleti szabályokban, vagy hozzáadhat egy új üzleti szabályt az új állapothoz.
 
 ### <a name="add-custom-validation-rules"></a>Egyéni ellenőrzési szabályok hozzáadása
-A Heti időbeviteli **rácshoz kétféle érvényesítési szabályt** adhat hozzá:
+Kétféle típusú ellenőrzési szabályt adhat hozzá a **Heti időbevitel** rács felhasználói élményéhez:
 
 - Az oldalakon működő ügyféloldali üzleti szabályok
-- Kiszolgálóoldali beépülő modul érvényesítései, amelyek a bejegyzés minden frissítésére vonatkoznak
+- Kiszolgálóoldali beépülőmodul-érvényesítések, amelyek minden időbejegyzés-frissítésre érvényesek
 
 #### <a name="client-side-business-rules"></a>Ügyféloldali üzleti szabályok
-Az üzleti szabályok segítségével zárolhatja és feloldhatja a mezőket, mezőkbe írhat be alapértelmezett értékeket, és meghatározhatja azokat az érvényesítéseket, amelyek csak az aktuális időbeviteli rekordból tartalmaznak információt. Egy oldal üzleti szabályainak eléréséhez nyissa meg a űrlapszerkesztő, majd válassza az Üzleti szabályok **lehetőséget**. Ezután szerkesztheti a meglévő üzleti szabályokat, vagy hozzáadhat új üzleti szabályokat.
+Az üzleti szabályok segítségével zárolhatja és feloldhatja a mezőket, mezőkbe írhat be alapértelmezett értékeket, és meghatározhatja azokat az érvényesítéseket, amelyek csak az aktuális időbeviteli rekordból tartalmaznak információt. Az oldal üzleti szabályaihoz úgy férhet hozzá, hogy megnyitja az egyes oldalak folyamatszerkesztőjét, majd kiválasztja az **Üzleti szabályok** lehetőséget. Ezután szerkesztheti a meglévő üzleti szabályokat, vagy hozzáadhat új üzleti szabályokat.
 
-#### <a name="server-side-plug-in-validations"></a>Kiszolgálóoldali beépülő modulok ellenőrzése
-Beépülő modulos ellenőrzéseket kell használnia minden olyan ellenőrzéshez, amely több környezetet igényel, mint amennyi egy egyszeri bejegyzési rekordban elérhető. Ezeket minden olyan ellenőrzéshez is használnia kell, amelyet a rácsban lévő beágyazott frissítéseken szeretne futtatni. Az ellenőrzések befejezéséhez hozzon létre egy egyéni beépülő modult az **Időbevitel** entitáson.
+#### <a name="server-side-plug-in-validations"></a>Kiszolgálóoldali beépülőmodul-ellenőrzések
+A beépülő modul érvényesítéseket használhatja minden olyan érvényesítéshez, amely több kontextust igényel, mint amely egyetlen időbejegyzés-rekordban elérhető. Ezeket a rácson belül, beágyazott frissítéseken futtatni kívánt ellenőrzésekhez is használhatja. Az ellenőrzések befejezéséhez hozzon létre egy egyedi beépülő modult az **Időbejegyzés** entitáson.
 
 ### <a name="limits"></a>Korlátozások
-Jelenleg az **Időbevitel** rács méretkorlátja 500 sor. Ha 500-nál több sor van, a felesleges sorok nem jelennek meg. Ezt a méretkorlátot nem lehet növelni.
+Jelenleg az **Időbeviteli** rács mérethatára 500 sor. Ha 500-nál több sor van, akkor a további sorok nem fognak megjelenni. Ezt a méretkorlátot nem lehet növelni.
 
 ### <a name="copying-time-entries"></a>Időbejegyzések másolása
 Az **Időbejegyzés másolásához használt oszlopok** nézet használatával adja meg a másolandó mezők listáját az időbejegyzés során. A **Dátum** és az **Időtartam** kötelező mezők, és nem lehet ezeket eltávolítani a nézetből.

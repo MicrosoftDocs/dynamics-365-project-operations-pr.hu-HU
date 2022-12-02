@@ -1,6 +1,6 @@
 ---
 title: Munkaidősablon létrehozása
-description: Ez a cikk azt ismerteti, hogyan hozhat létre munkaidő-sablont a Project Szolgáltatásban.
+description: Ez a cikk ismerteti, hogyan hozható létre munkaidősablon a Project Service szolgáltatásban.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

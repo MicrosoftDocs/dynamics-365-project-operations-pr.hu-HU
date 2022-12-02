@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 27.5-es gyorsjavításának V3 változatában
-description: Ez a cikk a Project Service Automation 27.5-ös kiadásának gyorsjavítása 3. verziójában elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek elérhetőek a Project Service Automation 27.5-ös gyorsjavításának V3 változatában.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8928757"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation V3 27.5-ös frissítésének újdonságaival vagy módosításaival kapcsolatos szolgáltatásokat és javításokat sorolja fel. Ennek a verziónak a build száma V3.10.45.119, és általánosan elérhető egy önálló frissítésben 2021. januárjában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 27.5-es frissítési kiadásában. Ennek a verziónak a build száma V3.10.45.119, és általánosan elérhető egy önálló frissítésben 2021. januárjában.
 
 ## <a name="update-release-275"></a>27.5-ös frissítési kiadás
 

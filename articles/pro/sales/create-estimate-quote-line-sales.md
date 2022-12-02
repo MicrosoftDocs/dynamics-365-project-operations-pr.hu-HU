@@ -1,6 +1,6 @@
 ---
 title: Projektalapú árajánlatsor becslése
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre becslést egy projektalapú árajánlatsoron.
+description: Ez a cikk azt ismerteti, hogyan lehet becslést létrehozni egy projektalapú árajánlatsorban.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

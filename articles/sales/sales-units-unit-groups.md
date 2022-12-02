@@ -1,6 +1,6 @@
 ---
 title: Egységek és egységcsoportok
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre egységeket és egységcsoportokat a Dynamics 365 Project Operations.
+description: Ez a cikk az egységek és egységcsoportok Dynamics 365 Project Operations rendszerben történő létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -28,7 +28,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 Az egység az a mennyiség vagy mértékegység, amiben a terméket vagy szolgáltatásokat értékesíti. Például a kertészeti készletek eladása esetén előfordulhat, hogy vetőmagot csomag, doboz és raklap egységben értékesíti. Az egységcsoport ezen különböző kiszerelések gyűjteménye.
 
-A cikkben található lépések végrehajtásához győződjön meg arról, hogy rendszergazdai vagy értékesítési szakmai vezetői szerepkörhöz van rendelve, vagy ezzel egyenértékű engedélyekkel rendelkezik.
+A cikk lépéseinek végrehajtásához rendszergazdai, Sales Professional menedzseri vagy ezzel egyenértékű jogosultsággal kell rendelkezni.
 
 ## <a name="create-a-unit-group"></a>Egységcsoport létrehozása
 

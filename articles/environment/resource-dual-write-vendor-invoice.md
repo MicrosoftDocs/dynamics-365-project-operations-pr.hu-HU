@@ -1,6 +1,6 @@
 ---
 title: Szállítói számla integrációja
-description: Ez a cikk a szállítói számlák Project Operationsben való integrációjával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a Project Operations szolgáltatásban lévő szállítói számlák integrációjáról nyújt információt.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 A projekthez kapcsolódó beszerzés a(z) Dynamics 365 Project Operations felületen a **Kötelezettségek** > **Számlák** > **Függőben lévő szállítói számlák** pontban egy függőben lévő szállítói számla bizonylat használatával rögzíthető. További információkért lásd: [Nem raktározott anyagok beszerzése függőben lévő szállítói számlával](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> A cikkben ismertetett funkciók használata előtt tekintse át és alkalmazza a szükséges konfigurációkat. További információkért lásd: [Nem raktározott anyagok és függőben lévő szállítói számlák engedélyezése](../procurement/configure-materials-nonstocked.md).
+> Mielőtt a jelen cikk leírt funkciókat használod, tekintsd át és alkalmazd a szükséges konfigurációkat. További információkért lásd: [Nem raktározott anyagok és függőben lévő szállítói számlák engedélyezése](../procurement/configure-materials-nonstocked.md).
 
 A Project Operations felületen a projekttel kapcsolatos szállítói számlák feladása speciális könyvelési szabályok alkalmazásával történik:
 
@@ -34,7 +34,7 @@ A Project Operations felületen a projekttel kapcsolatos szállítói számlák 
      > [!NOTE]
      > A szállítói számla részletei a(z) Dataverse felületen nem szerkeszthetők.
 
-Az adó-alrendszeri adatszolgáltatási kötelezettség, a szállítói analitikus és egyéb pénzügyi feladások a szállítói számla feladásakor Dynamics 365 Finance adott esetben kerülnek rögzítésre.
+Az adózói alkönyv, a szállítói alkönyv és egyéb pénzügyi könyvelések a szállítói számla Dynamics 365 Finance felületen való könyvelésekor kerülnek rögzítésre.
 
 ![Szállítói számla integrációja.](media/DW7VendorInvoice.png)
 

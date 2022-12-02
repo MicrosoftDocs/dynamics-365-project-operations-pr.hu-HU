@@ -1,6 +1,6 @@
 ---
 title: Foglalható erőforrás használata árképzési dimenzióként
-description: Ez a cikk arról nyújt tájékoztatást, hogyan használhat egy foglalható erőforrást díjszabási dimenzióként.
+description: Ez a cikk a foglalható erőforrások árazási dimenzióként való használatának módjáról tartalmaz tájékoztatást.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914819"
 
  _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_ 
 
-Ez a cikk arról nyújt tájékoztatást, hogyan használhat egy foglalható erőforrást díjszabási dimenzióként. Ha az árképzési stratégiája úgy van beállítva, hogy minden egyes foglalt erőforrásnak külön ára vagy önköltségi ára legyen, akkor használja a lefoglalható erőforrást árazási dimenzióként.
+Ez a cikk a foglalható erőforrások árazási dimenzióként való használatának módjáról tartalmaz tájékoztatást. Ha az árképzési stratégiája úgy van beállítva, hogy minden egyes foglalt erőforrásnak külön ára vagy önköltségi ára legyen, akkor használja a lefoglalható erőforrást árazási dimenzióként.
 
 ## <a name="prerequisites"></a>Előfeltételek
-A cikkben ismertetett eljárások befejezése előtt új díjszabási dimenziómegoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása című témakört](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Az ebben a cikkben található az eljárások befejezése előtt egy új árképzési dimenzió megoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása című témakört](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Foglalható erőforrás mező hozzáadása az űrlapokhoz és a nézetekhez
 Ha azt szeretné , hogy a **Foglalható erőforrás** mező látható legyen az árképzési dimenzió megoldásban, akkor az összes űrlaphoz és nézethez hozzá kell adnia a mezőt entitásként.

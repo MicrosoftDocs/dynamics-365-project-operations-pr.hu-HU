@@ -1,6 +1,6 @@
 ---
 title: Projektszámla-javaslatok teljesítménye
-description: Ez a cikk a projektszámla-javaslatok teljesítménybeli fejlesztéseiről nyújt tájékoztatást.
+description: Ez cikk a projektszámla-javaslatok teljesítményfejlesztéséről nyújt tájékoztatást.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

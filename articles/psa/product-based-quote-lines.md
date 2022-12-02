@@ -1,6 +1,6 @@
 ---
 title: Termékalapú árajánlatsorok
-description: Ez a cikk a termékalapú árajánlatsorokról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a termékalapú árajánlatsorokról.
 author: rumant
 ms.custom:
 - dyn365-projectservice

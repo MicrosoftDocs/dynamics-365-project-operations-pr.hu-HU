@@ -1,6 +1,6 @@
 ---
 title: Beépülő modul attribútumainak frissítése új árképzési dimenziókkal
-description: Ez a cikk a bővítményattribútumok díjszabási dimenziókhoz való frissítésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk az árazási dimenziókhoz tartozó bővítményattribútumok frissítésének módjáról nyújt információt.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920017"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Beépülő modul attribútumainak frissítése új árképzési dimenziókkal
 
-Ez a cikk a bővítményattribútumok díjszabási dimenziókhoz való frissítésével kapcsolatos információkat tartalmaz.
+Ez a cikk az árazási dimenziókhoz tartozó bővítményattribútumok frissítésének módjáról nyújt információt.
 
 > [!NOTE]
-> Ez a cikk csak a Dynamics 365 Project Operations.
+> Ez a cikk csak az Dynamics 365 Project Operations ajánlat és a szerződés funkciókra vonatkozik.
 
 ## <a name="prerequisites"></a>Előfeltételek
-A cikkben található lépések végrehajtása előtt el kell végeznie a következő cikkekben található eljárásokat:
+A cikk lépéseinek végrehajtása előtt az alábbi cikkekben ismertetett lépéseket kell végrehajtania:
 
   - [Egyéni mezők és entitások létrehozása](create-custom-fields-entities-pricing-dimensions.md) 
   - [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz ](add-custom-fields-price-setup-transactional-entities.md)
   - [Egyéni mezők beállítása árazási dimenziókként](set-up-custom-fields-pricing-dimensions.md). 
   
-Ha még nem fejezte be ezeket az eljárásokat, fejezze ki őket, majd térjen vissza ehhez a cikkhez.
+Ha még nem fejezte be ezeket az eljárásokat, fejezze be őket, majd térjen vissza ehhez a cikkhez.
 
 ## <a name="register-a-plug-in"></a>Beépülő modul regisztrációja
 Ha egy projektajánlatsora jön létre az **Ajánlati sor** lapon a projekt ajánlati sora esetében, a rendszer két becslési sort hoz létre. Az egyik sor a becslés költségoldalán van, a másik sor pedig az értékesítés oldalon. Ugyanez vonatkozik a projektszerződésekre.

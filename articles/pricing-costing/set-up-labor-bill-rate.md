@@ -1,6 +1,6 @@
 ---
 title: A munka számlázási arányának beállítása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthatja be a munkaszámlázási díjakat a Project Operationsben.
+description: Ez a cikk a Project Operationsban a munkaszámlázási díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

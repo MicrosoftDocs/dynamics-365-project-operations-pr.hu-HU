@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 39-es frissítési kiadásának V3 változatában
-description: Ez a cikk a 39-es kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a Microsoft Dynamics 365 Project Service Automation Update Release 39, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922455"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation 39-es, V3-as kiadásának újdonságaival vagy módosításaival kapcsolatos szolgáltatásokat és javításokat sorolja fel. Ez a verzió buildszáma V3.10.60.170, és általánosan elérhető egy önfrissítéssel 2022 januárjában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 39-os frissítési kiadásában. Ennek a verziónak a build száma V3.10.60.170, és általánosan elérhető egy önálló frissítésben 2022. januárjában.
 
 ## <a name="update-release-39"></a>39-ös frissítési kiadás
 
@@ -39,14 +39,14 @@ A következő problémák kerültek kijavításra.
 
 **Általános**
 
-- Számos fejlesztés történt az arab fordítás oldaltérképén.
+- Arab fordításhoz számos továbbfejlesztés történt az oldaltérképen.
 
 **Projektmenedzsment**
 
-- Hiba történik, ha egy projekt projektmenedzserét olyan felhasználóra módosítja, aki már csapattag a projektben.
+- Hiba történik, ha a projektvezetőt olyan felhasználóra módosítja a projekten, aki már csoporttag a projekten.
 
 **Értékesítés**
 
-- A Projektszerződés árlistájának **tulajdonosa** helytelen, ha az árlista automatikusan létrejön. 
-- Az árlista dátumhatékonyságát a rendszer nem veszi figyelembe, ha az árlistát alkalmazza a projektparaméterre.
-- Előfordulhat, hogy a szerződő egység nem rendelkezik a megfelelő alapértelmezett értékkel két külön idézőjel szerkesztésekor.
+- Helytelen a **Projekt szerződés árlista** tulajdonosa az árlista automatikus létrehozásakor. 
+- Nincs figyelembe véve az árlista érvényességi dátuma amikor az árlistát alkalmazza a projektparaméterre.
+- Előfordulhat, hogy két külön árajánlat szerkesztése során a szerződő egység nem a megfelelő alapértelmezett értéket használja.

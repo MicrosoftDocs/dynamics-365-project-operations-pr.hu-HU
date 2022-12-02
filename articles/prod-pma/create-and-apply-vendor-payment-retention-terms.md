@@ -1,6 +1,6 @@
 ---
 title: Szállítói kifizetéssel kapcsolatos visszatartási feltételek létrehozása és alkalmazása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthat be és tarthat fenn visszatartási feltételeket a szállítói kifizetésekhez.
+description: Ez a cikk a szállítói kifizetések visszatartási feltételeinek beállításával és karbantartásával kapcsolatban tartalmaz tájékoztatást.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: A projektajánlat elemzése
-description: Ez a cikk a projekt idézetek elemzéséről nyújt tájékoztatást.
+description: Ez a cikk a projectajánlatok elemzésével kapcsolatos információkat tartalmaz.
 author: rumant
 ms.custom:
 - dyn365-projectservice

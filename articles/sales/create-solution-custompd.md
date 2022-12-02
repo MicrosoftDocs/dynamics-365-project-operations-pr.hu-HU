@@ -1,6 +1,6 @@
 ---
 title: Megoldás létrehozása egyéni árképzési dimenziókhoz
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre megoldásokat az egyéni díjszabási dimenziókhoz.
+description: Ez a cikk az árazási dimenziókhoz tartozó megoldások létrehozásáról nyújt információt.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

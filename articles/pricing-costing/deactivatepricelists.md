@@ -1,6 +1,6 @@
 ---
 title: Árlisták inaktiválása
-description: Ez a cikk bemutatja, hogyan lehet deaktiválni vagy eltávolítani a nem használt vagy régi árlistákat.
+description: Ez a cikk ismerteti a fel nem használt vagy régi árlisták inaktiválását vagy eltávolítását.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

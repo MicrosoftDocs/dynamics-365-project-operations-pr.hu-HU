@@ -1,6 +1,6 @@
 ---
 title: Fejlesztői jegyzetek jóváhagyásokhoz
-description: Ez a cikk további fejlesztői információkat tartalmaz a jóváhagyásokkal kapcsolatos munkáról.
+description: Ez a cikk további fejlesztői információkat nyújt a jóváhagyások használatáról.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projektbecslések importálása egy projektalapú árajánlatsorhoz - Lite
-description: Ez a cikk arról nyújt tájékoztatást, hogyan importálhat becsléseket egy projektből egy árajánlatsorba.
+description: Ez a cikk azt ismerteti, hogyan lehet becsléseket importálni egy projektből egy ajánlatsorba.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

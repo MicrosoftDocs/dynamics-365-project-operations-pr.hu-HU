@@ -1,6 +1,6 @@
 ---
 title: Projektek erőforrás-kezelése kezdőlap
-description: Ez a cikk a projektforrásokról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projekterőforrások biztosításáról.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924019"
 
 [!include [banner](../includes/banner.md)]
 
-Ez a cikk a projektforrásokról nyújt tájékoztatást.
+Ez a cikk információkat nyújt a projekterőforrások biztosításáról.
 
-Az egyik kihívás a projektmenedzserek és az erőforrás-menedzserek számára a projekt tervezési fázisában az erőforrás-elosztás, ahol meg kell határozniuk és le kell foglalniuk a megfelelő erőforrást a projekten végzett munkához. A Dynamics 365 Finance a projektek erőforrás-kezelési képességei lehetővé teszik olyan szerepkörök definiálását, amelyek ideiglenes erőforrásként vannak kezelve, amelyek egy adott előjegyzéshez vagy egy adott előjegyzés egy részéhez foglalhatók le. Az ilyen típusú erőforrás-biztosítás segítségével a projektmenedzserek és az erőforrás-menedzserek a következő feladatokat hajthatják végre:
+Az egyik kihívás a projektmenedzserek és az erőforrás-menedzserek számára a projekt tervezési fázisában az erőforrás-elosztás, ahol meg kell határozniuk és le kell foglalniuk a megfelelő erőforrást a projekten végzett munkához. A Dynamics 365 Finance alkalmazásban a projektek erőforrás-biztosítási képességei lehetővé teszik ideiglenes erőforrásokként kezelt szerepek megadását, amelyek lefoglalhatók egy adott aktivitáshoz vagy egy aktivitás részéhez. Az ilyen típusú erőforrás-biztosítás segítségével a projektmenedzserek és az erőforrás-menedzserek a következő feladatokat hajthatják végre:
 
 - Olyan szerepkört adhatnak meg, amely rendelkezik a szükséges kompetenciákkal, hogy könnyen megfeleltethető legyen az erőforrásokkal.
 - Szerepkörök használatával megadhatják a fenntartott erőforrásokon alapuló kezdeti aktivitási ütemezést.
@@ -41,7 +41,7 @@ Az egyik kihívás a projektmenedzserek és az erőforrás-menedzserek számára
 
 A projektek tervezése során a tervezett erőforrások lecserélhetők a munkatársakkal ellátott erőforrásokat. A projektmenedzser ugyancsak visszatérhet, és frissítheti az erőforrás-biztosítási foglalásokat a projekt bármely fázisában.
 
-A következő cikkek információkat nyújtanak azokról a feladatokról, amelyeket el kell végezni, amikor erőforrásokat tartalmazó projekteken dolgozik.
+A következő cikkek azokról a feladatokról tartalmaznak tájékoztatást, amelyeket a projektek erőforrás-kezelési projektjeinek végrehajtásakor végre kell hajtani.
 
 - [Projekt-erőforrások beállítása](set-up-project-resources.md)
 - [Erőforrás-kompetenciák kezelése](manage-resource-competencies.md)

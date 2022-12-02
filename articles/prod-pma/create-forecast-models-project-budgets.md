@@ -1,6 +1,6 @@
 ---
 title: Előrejelzési modellek létrehozása a projektköltségvetésekhez
-description: Ez a cikk azt ismerteti, hogyan hozhat létre előrejelzési modellt a fennmaradó költségvetésekhez.
+description: Ez a cikk ismerteti, hogyan lehet előrejelzési modellt létrehozni a fennmaradó költségvetésekhez.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916705"
 
 [!include [banner](../includes/banner.md)]
 
-Ez a cikk azt ismerteti, hogyan hozhat létre előrejelzési modellt a fennmaradó költségvetésekhez. Egy költségvetés-ellenőrzés alá tartozó projekt a következő két típusú költségvetést használja: eredeti és fennmaradó. A projektek költségvetésének létrehozásakor meg kell adnia az **Előrejelzési modellek** lapon létrehozott eredeti és fennmaradó költségvetési előrejelzési modelleket. A projektek költségvetések a megadott modellek alapján jönnek létre, amikor véglegesíti a projekt költségvetését.
+Ez a cikk ismerteti, hogyan lehet előrejelzési modellt létrehozni a fennmaradó költségvetésekhez. Egy költségvetés-ellenőrzés alá tartozó projekt a következő két típusú költségvetést használja: eredeti és fennmaradó. A projektek költségvetésének létrehozásakor meg kell adnia az **Előrejelzési modellek** lapon létrehozott eredeti és fennmaradó költségvetési előrejelzési modelleket. A projektek költségvetések a megadott modellek alapján jönnek létre, amikor véglegesíti a projekt költségvetését.
 
 > [!NOTE]
 > A költségvetés-ellenőrzéshez használt előrejelzési modell nem lehet almodell vagy nem használható almodellként.

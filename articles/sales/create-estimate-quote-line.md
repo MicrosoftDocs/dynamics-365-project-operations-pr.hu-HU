@@ -1,6 +1,6 @@
 ---
 title: Becslések létrehozása egy árajánlatsorban
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre becslést egy projekt árajánlatsorán.
+description: Ez a cikk azt ismerteti, hogyan lehet becslést létrehozni egy árajánlatsorban egy projekthez.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

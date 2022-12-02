@@ -1,6 +1,6 @@
 ---
 title: Projekt számlaajánlatok kezelése
-description: Ez a cikk részletesen ismerteti az ügyfelek felé irányuló számlák project operations használatával történő feldolgozását erőforrás-/nem készletalapú forgatókönyvek esetén.
+description: A cikk az ügyfél felé irányuló számlák Project Operations szolgáltatással való feldolgozását részletezi az erőforrás/nem készletezett anyagokon alapuló forgatókönyvekhez.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ A projekt számlajavaslatait feldolgozhatja a számlázási osztály, ha teljes�
   - A projektmenedzser jóváhagyja a proforma számlát a Microsoft Dataverse-ben.
   - A proforma számlán szereplő minden időre és anyagra vonatkozó számlázatlan értékesítési tranzakciók szerepet azon a proforma számlán, amelyet a Dynamics 365 **Project Operations integrációs** naplója segítségével tettek közzé.
 
-A következő lépésekkel hajthat végre egy projektszámla-javaslatot Dynamics 365 Finance.
+A következő lépésekkel teljesítsen egy projekt számlajavaslatot a Dynamics 365 Finance-ben.
 
 1. Tekintse át az időpont- és anyagtranzakciók számlázási adatait, és tegye közzé a **Project Operations integrációs** naplót.
 2. Tekintse át a rögzített árú számlázási mérföldkövek számlázási adatait.

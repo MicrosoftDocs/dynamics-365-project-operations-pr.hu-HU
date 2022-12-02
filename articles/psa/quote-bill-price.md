@@ -1,6 +1,6 @@
 ---
 title: Árajánlat, árazás és számlázás kezdőlapja
-description: Ez a cikk az árajánlatokról, az árakról és a számlázásról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az árajánlatokról, az árakról és a számlázásról.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926733"
 
 Az árajánlat, az árazás és a számlázás olyan szolgáltatások, amelyeket mind a kis, mind a nagy szervezetek használnak. Ha megérti, hogy ezek a szolgáltatások hogyan működnek az alkalmazásban, a szervezetek könnyebben testreszabhatják a konfigurációkat.
 
-A következő cikkek további információkat nyújtanak a PSA árajánlati, árképzési és számlázási funkcióiról:
+A következő cikkekben további információ található a PSA-ban szereplő ajánlatadási, árazási és számlázási funkciókról:
 
 - [Értékesítési folyamat](basic-sales-process.md)
 - [Árajánlat sorok](basic-quote-lines.md)

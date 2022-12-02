@@ -1,6 +1,6 @@
 ---
 title: Foglalóütemezés beállítása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthat be megőrzői ütemezést a Project Operationsben.
+description: Ez a cikk információt nyújt a foglalói ütemezés beállításáról a Project Operations szolgáltatásban.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

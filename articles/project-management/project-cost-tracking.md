@@ -1,6 +1,6 @@
 ---
 title: Projektköltség nyomon követése
-description: Ez a cikk arról nyújt tájékoztatást, hogy a Project Operations hogyan követi nyomon a haladást a munkaerőköltségekkel és a projektre fordított kiadásokkal szemben.
+description: Ez a cikk arról nyújt tájékoztatást, hogy a Project Operations hogyan követi nyomon a projektből származó munkaköltséget és -kiadást.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

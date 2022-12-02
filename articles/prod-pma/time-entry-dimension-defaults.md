@@ -1,6 +1,6 @@
 ---
 title: Pénzügyi dimenziók alapértelmezéseinek megadása a projekt időbejegyzéseihez
-description: Ez a cikk arról nyújt tájékoztatást, hogy a rendszer hogyan alkalmazza az alapértelmezett pénzügyi dimenziókat az időbejegyzésekre.
+description: Ez a cikk arról ad tájékoztatást, hogyan vannak alkalmazva az alapértelmezett pénzügyi dimenziók az időbejegyzésekre.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916567"
 
 [!include [banner](../includes/banner.md)]
 
-Ha pénzügyi dimenziókat használ a projektidő-bejegyzésekhez, az alapértelmezett dimenzióértéket a rendszer a következő sorrendben értékeli ki:
+Ha pénzügyi dimenziókat használ a projekt időbejegyzéseihez, akkor az alapértelmezett érték kiértékelése következő sorrendben történik:
 
 1. Erőforrás
 2. Project
 3. Finanszírozási forrás
 
-Ha például az alapértelmezett dimenzió meg van adva egy erőforráson, a rendszer az alapértelmezett értéket alkalmazza a projekthez megadott alapértelmezett értékre. Hasonlóképpen, ha az alapértelmezett dimenzió meg van adva egy projekten, a rendszer az alapértelmezett értéket alkalmazza a finanszírozási forráshoz megadott alapértelmezett értékre.
+Ha például egy erőforrásnál meg van adva az alapértelmezett dimenzió, akkor a program a projekthez megadott alapértelmezett értéket felülírja az alapértelmezett értékkel. Hasonlóan, ha például egy projektnél meg van adva az alapértelmezett dimenzió, akkor a program a projekthez megadott alapértelmezett értékkel felülírja a finanszírozási forráshoz megadott alapértelmezett értékkel.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

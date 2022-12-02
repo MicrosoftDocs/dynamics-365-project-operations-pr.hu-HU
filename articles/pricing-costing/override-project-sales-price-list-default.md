@@ -1,6 +1,6 @@
 ---
 title: Projekt értékesítési árlistáinak felülbírálása
-description: Ez a cikk az egyéni eladási árlisták létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk az egyéni értékesítési árlisták létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

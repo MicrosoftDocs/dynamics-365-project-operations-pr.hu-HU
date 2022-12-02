@@ -1,6 +1,6 @@
 ---
 title: Lehetőség lezárása
-description: Ez a cikk a projektlehetőségek bezárásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a projektalapú lehetőség lezárását ismerteti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

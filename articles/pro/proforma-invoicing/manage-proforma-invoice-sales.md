@@ -1,6 +1,6 @@
 ---
 title: Proforma projektszámla kezelése
-description: Ez a cikk a proforma projektszámlákkal való munkamódszerekről nyújt tájékoztatást.
+description: Ez a cikk a proforma projektszámlák használatáról nyújt információt.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

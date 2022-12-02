@@ -1,6 +1,6 @@
 ---
 title: Rögzített árú bevétel becslési projektjei
-description: Ez a cikk a projektek rögzített árú bevételeiről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt rögzített áru bevételekről a projektekben.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Amikor létrehoz egy projektszerződés-sort a következő attribútumokkal a Dy
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Rögzített árú bevétel becslési projektek ellenőrzése
 A rögzített árú bevételbecslési projektek áttekintéséhez hajtsa végre a következő lépéseket:
 
-1. A Dynamics 365 Finance környezetben lépjen a **Projektek menedzsment és könyvelése** > **projektek** > **Fix árú bevételbecslési projektek**.
+1. A Dynamics 365 Finance környezetben nyissa meg a **Projektvezetés és könyvelés** > **Projektek** > **Rögzített árú bevételbecslési projektek lehetőséget**.
 2. Jelölje ki a megtekinteni kívánt projektet, és kattintson duplán a **Projektbecslés azonosítójára** a bejegyzés megnyitásához, és tekintse át a projekt részleteit.
 3. Bontsa ki a **Projekt** lapot. A **Kijelölt projektek** rácsán egy projekt jelenik meg. A rendszer ezt használja alapértelmezett projektként, mert a projekt szerződéssorához társított projekt. 
 4. A társítás módosításához válasszon ki további projekteket, és vegye fel őket a **Kijelölt projektek** rácsára. Ha ebben a táblázatban több projektet is kijelöl, a projekt százalékos készültségi szintjét és a bevételi becsléseket a program az összes kijelölt projekthez együttesen számítja ki.

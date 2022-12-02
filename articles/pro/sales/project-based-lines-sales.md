@@ -1,6 +1,6 @@
 ---
 title: Projektalapú lehetőségsorok - Lite
-description: Ez a cikk a projektalapú lehetőségsorokról nyújt tájékoztatást. (Pro)
+description: Ez a cikk a projektalapú lehetőségsorokat ismerteti. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

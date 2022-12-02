@@ -1,6 +1,6 @@
 ---
 title: Ütemezési módok
-description: Ez a cikk az ütemezési módokról nyújt tájékoztatást.
+description: Ez a cikk az ütemezési módokkal kapcsolatban nyújt információkat.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Amikor beállítja a projekt ütemezési módját, beállítja az alábbi érté
 | Fix ráfordítású feladat    | Az időtartam újraszámításra kerül. | Az egységek újraszámításra kerülnek.    | Az időtartam újraszámításra kerül. |
 | Fix időtartamú feladat  | Az erőfeszítést újraszámolják.   | Az erőfeszítést újraszámolják.    | Az egységek újraszámításra kerülnek.   |
 
-Az adott mód következményeiről a [Feladattípus módosítása](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72) című lapon tájékozódhat a pontosabb ütemezésért. A cikkben a Munka **kifejezést** használják az Erőfeszítés **helyett**.
+Az adott mód következményeiről a [Feladattípus módosítása](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72) című lapon tájékozódhat a pontosabb ütemezésért. A cikkben a **Munka** kifejezést használjuk **Erőfeszítés** helyett.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>A szervezet ütemezési módjának módosítása
 

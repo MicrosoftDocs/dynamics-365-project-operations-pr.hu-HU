@@ -1,6 +1,6 @@
 ---
 title: Projektárajánlatok kezelése
-description: Ez a cikk a projekt idézeteiről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projektárajánlatokról.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ A projektárajánlatok listája az **Árajánlatok** listaoldalon látható.
 Árajánlatokat lehet létrehozni vagy törölni ebből a listából vagy részletes oldalakról.
 
  > [!NOTE]
- > Azok az idézetek, amelyekhez projektek, tevékenységek, becslések, naplók és/vagy tényleges adatok vannak társítva, nem törölhetők. Továbbá, ha egy idézetet Megnyert vagy Elveszettként zárnak le, akkor a továbbiakban nem törölhető vagy módosítható. 
+ > A projektekkel, feladatokkal, becslésekkel, adatokat és/vagy társított tényadatokkal rendelkező árajánlatok nem törölhetők. Emellett, ha egy ajánlatot Megnyertként vagy Elvesztettként lezárnak, akkor az a továbbiakban nem törölhető, és nem módosítható. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

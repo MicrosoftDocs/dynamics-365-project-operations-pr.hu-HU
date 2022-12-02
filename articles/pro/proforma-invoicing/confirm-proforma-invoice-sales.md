@@ -1,6 +1,6 @@
 ---
 title: Proforma projektszámla megerősítése
-description: Ez a cikk a proforma projektszámlák Project Operationsben való megerősítéséről nyújt tájékoztatást.
+description: Ez a cikk a proforma projektszámlák Project Operations szolgáltatásban való megerősítéséről nyújt információt.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

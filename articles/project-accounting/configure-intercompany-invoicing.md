@@ -1,6 +1,6 @@
 ---
 title: A vállalatközi számlázás konfigurálása
-description: Ez a cikk információkat és példákat tartalmaz a vállalatok közötti számlázás projektekhez való konfigurálásáról.
+description: Ez a cikk információkat és példákat tartalmaz a vállalatközi számlázás konfigurálásához a projektekhez.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ A következő példában a Contoso Robotics USA (USPM) a kölcsönvevő jogi sze
 
 1. **A vállalatközi könyvelés konfigurálása a jogi személyek között**. A kölcsönadó és kölcsönvevő jogi személyek minden párját tagját be kell állítani a főkönyvi [vállalatközi könyvelés](/dynamics365/finance/general-ledger/intercompany-accounting-setup) lapján.
     
-    1. A Dynamics 365 Finance a **Főkönyvi** > **feladás beállítás vállalatközi könyvelése című** > **témakörben olvashat**. Hozzon létre egy rekordot a következő adatokkal:
+    1. A Dynamics 365 Finance alkalmazásban válassza a **Főkönyv** > **Feladás beállításai** > **Vállalatközi könyvelés** lehetőséget. Hozzon létre egy rekordot a következő adatokkal:
 
         - **Eredeti vállalat** = **GBPM**
         - **Célvállalat** = **USPM**

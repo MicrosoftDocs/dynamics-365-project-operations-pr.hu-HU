@@ -1,6 +1,6 @@
 ---
 title: Számlázható projektek könyvelésének konfigurálása
-description: Ez a cikk a számlázható projektek könyvelési lehetőségeiről nyújt tájékoztatást.
+description: A cikk a számlázható projektek könyvelési lehetőségeivel kapcsolatos információkat biztosít.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

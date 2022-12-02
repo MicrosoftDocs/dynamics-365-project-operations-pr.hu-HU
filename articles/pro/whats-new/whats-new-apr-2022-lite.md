@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2022. áprilisban – Project Operations egyszerű telepítés
-description: Ez a cikk a Microsoft Dynamics 365 Project Operations Lite központi telepítésének 2022. áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Microsoft Dynamics 365 Project Operations könnyű telepítés 2022. áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -18,21 +18,21 @@ ms.locfileid: "8927469"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a következő Microsoft Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Project Operations egy Dataverse környezeti verzióban 4.41.0.45
+- Project Operations 4.41.0.45 verziójú Dataverse-környezetben
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
-| Idő és költség | 2573900 | A **Modern jóváhagyás** funkciót alapértelmezés szerint engedélyezni kell. |
-| Számlázás és árképzés | 2603313 | Kijavítottunk egy ismétlődő rekordhibát, amely megakadályozta a termékkel rendelkező árajánlat- és szerződéssorok hozzáadását. |
-| Üzembe helyezés és konfigurálás | 2611368 | Az ügyfeleknek képesnek kell lenniük arra, hogy akár öt egyéni entitást is hozzáadjanak a megoldáshoz a modern alkalmazástervező használatával. |
-| Idő és költség | 2628285 | Kijavítottunk egy hibát, amely befolyásolta a megfelelő erőforrás-kategória beállítását az időbevitel importálása során. |
-|   Lehetőségkezelés| 2628815 | Frissítse az idézőjelsor részletes leírásának karakterkorlátját úgy, hogy az megfeleljen a tevékenység tárgyának karakterkorlátjának, hogy az importálás sikeres legyen azokban a feladatokban, ahol a tárgy 100 karakternél hosszabb. |
-| Idő és költség| 2629547 | A **projektjóváhagyások Beküldési szempontja** mezőnek arra a felhasználóra kell mutatnia, aki beadta a rekordot. |
-| Idő és költség| 2629865 | A **Kategória** másolása mező a tevékenységekről a projektek másolásakor. |
-| Idő és költség| 2636463 | Kijavítottuk a jóváhagyások szűrőit a modern jóváhagyási űrlapokon. |
-| Projekttervezés és nyomon követés | 2648300 | Kijavítottunk egy hibát, amely megakadályozta a projekt tulajdonosának módosítását. |
-| Számlázás és árképzés | 2563000 | Nem szabad megengedni a nem számlázott értékesítés naplósorait, ha a pénznem eltér a szerződés pénznemétől. |
+| Idő és költség | 2573900. | A **Modern jóváhagyás** funkciót alapértelmezés szerint engedélyezni kell. |
+| Számlázás és árképzés | 2603313. | Kijavított egy duplikált rekorddal kapcsolatos hibát amely megakadályozta a termékkel rendelkező árajánlat és szerződéssorok hozzáadását. |
+| Központi telepítés és konfiguráció | 2611368. | Az ügyfelek a modern alkalmazástervező segítségével legfeljebb öt egyéni entitást adhatnak hozzá a megoldáshoz. |
+| Idő és költség | 2628285. | Kijavított egy problémát, amely hatással volt a megfelelő erőforrás-kategória beállítására az időbevitel importálása során. |
+|   Lehetőségkezelés| 2628815. | Frissítse az árajánlatsor részletes leírásának karakterkorlátját, hogy megfeleljen a feladat tárgya karakterkorlátának, hogy az importálás sikeres legyen az olyan feladatok esetén, amelyek tárgya 100 karakternél hosszabb. |
+| Idő és költség| 2629547. | A projekt-jóváhagyások **Beküldő** mezője a bejegyzést beküldő felhasználóra kell mutasson. |
+| Idő és költség| 2629865. | A **Kategória másolása** mező a feladatokon projektek másolásakor |
+| Idő és költség| 2636463. | A jóváhagyások szűrőit a modern jóváhagyási űrlapokon javította. |
+| Projekttervezés és nyomon követés | 2648300. | Kijavított egy problémát, amely megakadályozza a projekt tulajdonosának módosítását. |
+| Számlázás és árképzés | 2563000. | Nem engedélyezettek a naplósorok a nem számlázott értékesítéshez, amennyiben a pénznem eltér a szerződés pénznemétől. |

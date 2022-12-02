@@ -1,6 +1,6 @@
 ---
 title: Több pénznemű forgatókönyvek (3.x verzió)
-description: Ez a cikk a több pénznemű forgatókönyvekről nyújt tájékoztatást.
+description: Ez a cikk több pénznemű forgatókönyvekről tartalmaz információt.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Használja az Ütemezési táblát a projekt erőforrásainak lefoglalásához
-description: Ez a cikk az erőforrások lefoglalásának módjáról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az erőforrások lefoglalásáról.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

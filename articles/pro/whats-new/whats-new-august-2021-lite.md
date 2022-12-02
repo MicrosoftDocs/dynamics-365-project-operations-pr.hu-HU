@@ -1,6 +1,6 @@
 ---
 title: Újdonságok - 2021. augusztus - Project Operations könnyű telepítés
-description: Ez a cikk a Project Operations lite telepítésének 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations könnyű telepítés 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article

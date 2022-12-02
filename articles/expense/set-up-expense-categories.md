@@ -1,6 +1,6 @@
 ---
 title: Költségkategóriák beállítása
-description: Ez a cikk a költségkategóriák és a megosztott kategóriák költségjelentésekhez való beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a költségkategóriák és a megosztott kategóriák költségjelentésekhez való beállításával kapcsolatban tartalmaz tájékoztatást.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

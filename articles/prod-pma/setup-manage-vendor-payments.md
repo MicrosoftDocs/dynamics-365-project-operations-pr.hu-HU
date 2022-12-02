@@ -1,6 +1,6 @@
 ---
 title: Fizetéskor fizetett szállítói kifizetések beállítása és használata
-description: Ez a cikk azt ismerteti, hogyan hozhat létre fizetéskor (PWP) feltételeket, hogy a vevői kifizetések alapján részleges szállítói kifizetéseket tehessen közzé.
+description: Ez a cikk elmagyarázza, hogyan hozhat létre fizetéskor fizetett (PWP) feltételeket annak érdekében, hogy az ügyfelek kifizetése alapján kiadja a részleges szállítói kifizetéseket.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

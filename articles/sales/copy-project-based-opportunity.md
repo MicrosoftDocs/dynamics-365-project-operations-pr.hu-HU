@@ -1,6 +1,6 @@
 ---
 title: Projektalapú lehetőségek másolása
-description: Ez a cikk a projektalapú lehetőségek project operationsben való másolásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a projektalapú lehetőségek a Project Operationsben való másolásának módjáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

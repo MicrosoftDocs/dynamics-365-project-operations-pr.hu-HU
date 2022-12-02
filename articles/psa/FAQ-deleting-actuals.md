@@ -1,6 +1,6 @@
 ---
 title: Miért nem tudok rekordokat törölni a tényadatok entitásból?
-description: Ez a cikk arról nyújt tájékoztatást, hogy miért nem törölhet rekordokat a tényleges entitásból.
+description: Ez a cikk arról tájékoztat, hogy miért nem lehet bejegyzéseket törölni a tényleges entitásból.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

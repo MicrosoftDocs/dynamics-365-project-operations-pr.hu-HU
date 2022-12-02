@@ -1,6 +1,6 @@
 ---
 title: Csapattagok hozzáadása a Csapattag rácsból
-description: Ez a cikk arról nyújt tájékoztatást, hogyan kezelheti a csapattagok erőforrásait.
+description: Ez a cikk információkat nyújt a csapattag erőforrások kezeléséről.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

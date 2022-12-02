@@ -1,6 +1,6 @@
 ---
 title: Nem készletezett anyagok és függőben lévő szállítói számlák konfigurálása
-description: Ez a cikk a nem raktározott anyagok és a függőben lévő szállítói számlák engedélyezését ismerteti.
+description: Ez a cikk elmagyarázza, hogyan engedélyezheti a nem raktározott anyagokat és a függőben lévő szállítói számlákat.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Kettős írású térképek futtatása nem raktározott anyagokhoz és szállítói számlaintegrációhoz
 
-Ez a rész a nem raktározott anyagokhoz és szállítói számlákhoz szükséges térképek konkrét adatairól nyújt tájékoztatást. Ellenőrizze, hogy az Új környezet [kiépítése cikkben felsorolt](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) előfeltétel-leképezések futnak-e a környezeten.
+Ez a rész a nem raktározott anyagokhoz és szállítói számlákhoz szükséges térképek konkrét adatairól nyújt tájékoztatást. Ellenőrizze, hogy a Rendelkezésben felsorolt előfeltételes térképek [új környezet](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) cikk fut-e a környezetében.
 
 1. Nyissa meg a Lifecycle Services (LCS) lapot, navigáljon az LCS-projekthez, és lépjen a **Környezetvédelem részletei** oldalra.
 2. A **Common Data Service Környezeti információk** szakaszban válassza a **CDS-re alkalmazásokra mutató hivatkozás** lehetőséget. Miután kijelölte a hivatkozást, a rendszer átirányítja a leképezésekben szereplő entitások listájára.

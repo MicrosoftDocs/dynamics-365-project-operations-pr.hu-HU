@@ -1,6 +1,6 @@
 ---
 title: Tranzakciókategória használata árképzési dimenzióként
-description: Ez a cikk arról nyújt tájékoztatást, hogyan használhatja a Tranzakciós kategória mezőt árképzési dimenzióként.
+description: Ez a cikk a tranzakciós kategória mező árazási dimenzióként való használatáról nyújt tájékoztatást.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911697"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-Ez a cikk azt ismerteti, hogyan használhatja a **Tranzakciós kategória** mezőt árképzési dimenzióként. 
+Ez a cikk bemutatja, hogyan lehet a **Tranzakciós kategória** mezőt használni árképzési dimenzióként. 
 
 ## <a name="prerequisites"></a>Előfeltételek
-A cikkben ismertetett eljárások befejezése előtt új díjszabási dimenziómegoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása árazási dimenzióként](create-custom-fields-entities-pricing-dimensions.md) című témakört.
+Az ebben a cikkben található az eljárások befejezése előtt egy új árképzési dimenzió megoldással kell rendelkeznie a szervezet számára. Ha még nem hozott létre ilyet, olvassa el az [Egyéni mezők és entitások létrehozása árazási dimenzióként](create-custom-fields-entities-pricing-dimensions.md) című témakört.
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Adja hozzá a Tranzakciós kategória mezőt az űrlapokhoz és nézetekhez
 Ha azt szeretné , hogy a **Tranzakciós kategória** mező látható legyen az árképzési dimenzió megoldásban, akkor az összes űrlaphoz és nézethez hozzá kell adnia a mezőt entitásként.

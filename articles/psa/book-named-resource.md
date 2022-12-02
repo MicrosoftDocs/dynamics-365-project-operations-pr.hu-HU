@@ -1,6 +1,6 @@
 ---
 title: Nevesített erőforrások foglalása erőforrás-követelményekből
-description: Ez a cikk az elnevezett erőforrások általános erőforrásigényhez való foglalásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a nevesített erőforrásoknak egy általános erőforrás-követelmény részére történő foglalásáról nyújt tájékoztatást.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

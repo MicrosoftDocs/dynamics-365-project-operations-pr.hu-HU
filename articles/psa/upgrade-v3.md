@@ -1,6 +1,6 @@
 ---
 title: Frissítéssel kapcsolatos szempontok – frissítés a Microsoft Dynamics 365 Project Service Automation 2.x vagy 1.x verzióról a 3. verzióra
-description: Ez a cikk azokról a szempontokról nyújt tájékoztatást, amelyeket a Project Service Automation 2.x vagy 1.x verziójáról a 3-as verzióra való frissítéskor meg kell vizsgálnia.
+description: Ez a cikk információkat nyújt azokról a szempontokról, amelyeket mérlegelnie kell, amikor a Project Service Automation 2.x vagy 1.x verziójáról a 3-as verzióra frissít.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ A Project Service Automation 2. és 1. verziójában a feladat-hozzárendelések
 
 A Project Service Automation 3. verziójában megváltozott a foglalható erőforrások feladatokhoz rendelésének alapjául szolgáló séma. A sori feladat már elavult, és van egy közvetlen 1:1 kapcsolat a feladatot a **Feladatentitás** és a csapat tagja az **Erőforrás-hozzárendelés** entitás között. A projektcsoport tagjaihoz rendelt feladatokat most közvetlenül az erőforrás-hozzárendelés entitás tárolja.  
 
-Ezek a változások befolyásolják minden meglévő projekt frissítését, amelyhez a projektcsoportban megnevezett foglalható erőforrásokhoz és általános erőforrásokhoz vannak hozzárendelve erőforrás-hozzárendelések. Ez a cikk azokat a szempontokat tartalmazza, amelyeket figyelembe kell vennie a projekteknél, amikor a 3-as verzióra frissít. 
+Ezek a változások befolyásolják minden meglévő projekt frissítését, amelyhez a projektcsoportban megnevezett foglalható erőforrásokhoz és általános erőforrásokhoz vannak hozzárendelve erőforrás-hozzárendelések. Ez a cikk azokat a szempontokat tartalmazza, amelyeket figyelembe kell vennie a projekteknél, amikor a 3. verzióra frissít. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>A megnevezett erőforrásokhoz rendelt feladatok
 Az alapul szolgáló feladat entitás felhasználásával a 2. és az 1. verzió feladatai lehetővé tették a csapat tagjai számára, hogy az alapértelmezésben meghatározott szerepüktől eltérő szerepet is ábrázoljanak. Például Gracie George-ot, aki alapértelmezés szerint a programmenedzser szerepét kapta, hozzá lehet rendelni egy Fejlesztői szereppel bíró feladathoz. A 3. verzióban a megnevezett csapattagok szerepe mindig az alapértelmezés, tehát minden olyan feladat, amelyre Gracie George hozzá van rendelve, Garcie a programkezelő alapértelmezett szerepét használja.

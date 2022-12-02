@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 40-es frissítési kiadásának V3 változatában
-description: Ez a cikk a 40-es kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a Microsoft Dynamics 365 Project Service Automation Update Release 40, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -29,21 +29,21 @@ ms.locfileid: "8912795"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk azokat a szolgáltatásokat és javításokat sorolja fel, amelyek a Project Service Automation 40-es kiadásának 3.-as verziójához újak vagy módosultak. Ennek a verziónak a build száma V3.10.61.61, és általánosan elérhető egy önálló frissítésben 2022 februárjában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 40-os frissítési kiadásában. Ennek a verziónak a build száma V3.10.61.61, és általánosan elérhető egy önálló frissítésben 2022 februárjában.
 
 ## <a name="update-release-40"></a>40-ös frissítési kiadás
 
 ### <a name="features"></a>Funkciók
-A Project Service Automationről a Project Operations - Lite-ra való frissítés 1. fázisa 2022 februárjában jelenik meg minden ügyfél számára. A jogosultság ellenőrzéséhez lásd: [Frissítés a Project Service Automationről a Project Operationsre](upgrade-project-operations-non-stocked.md). Ha az alkalmazás nem jelenik meg a példányban a Felügyeleti központban, forduljon az Power Platform ügyfélszolgálathoz, és kérje meg, hogy engedélyezze a járatot a környezetekben. A kérelemnek tartalmaznia kell azon környezeti azonosítók listáját, ahol a járatot engedélyezni kell.
+A Project Service Automation és a Project Operations – Lite közötti frissítés 1. fázisa 2022 februárjában minden ügyfél számára elérhető lesz. A jogosultság ellenőrzéséhez tekintse meg a [Frissítés a Project Service Automation szolgáltatásról Project Operations – Lite szolgáltatásra](upgrade-project-operations-non-stocked.md) című cikket. Ha az alkalmazás nem jelenik meg a példányán a Power Platform felügyeleti központban, forduljon a támogatáshoz, és kérje a tesztelés engedélyezését a környezet számára. Kérésének tartalmaznia kell azon környezetazonosítók listáját, ahol engedélyezni kell a tesztelést.
 
 ### <a name="bug-fixes"></a>Hibajavítások
 
 A következő problémák kerültek kijavításra.
 
 **Idő és költség**
-- Egy jegyzetbejegyzés hiányzik, ha egy időbevitelt elutasítanak vagy törölnek. 
+- Egy jegyzetbejegyzés akkor hiányzik, amikor egy időbejegyzést elutasítanak vagy visszavonnak. 
 
 **Értékesítés**
 
-- Ha a költség- vagy értékesítési becsléseket beépített beépülő modulokkal frissíti, helytelenül küldhet olyan JSON-adatcsomagokat, amelyek nem érvényesek a felhasználói felületen kívül.
-- Ha a gyorsnézettel frissíti az árajánlatsorokat, aktiválhatja az idézőjeleket.
+- Ha gyári beépülő modulokon frissíti a költség- vagy értékesítésibecsléseket, helytelenül engedélyezve lesz Önnek a JSON hasznos adatok küldése, amelyek a felhasználói felületen kívül nem érvényesek.
+- Ha a betekintő nézet használatával frissíti az árajánlatsorokat, akkor az árajánlatok aktiválása engedélyezett Önnek.

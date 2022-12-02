@@ -1,6 +1,6 @@
 ---
 title: Projektalapú árajánlatsorok számlaütemezései
-description: Ez a cikk a számlaütemezések és mérföldkövek árajánlatsorokhoz való létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk a számlaütemezések és az árajánlatsorok mérföldköveinek létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

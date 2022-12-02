@@ -1,6 +1,6 @@
 ---
 title: Újdonságok és változások a Project Service Automation 3. verziójában
-description: Ez a cikk a Project Service Automation 3-as verziójában újdonságokról és változásokról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt arról, hogy milyen újdonságok és változások vannak a Project Service Automation 3. verziójában.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926595"
 
 
 
-Ez a cikk a Project Service Automation felhasználói felületének (UI), funkcióinak és terminológiájának a 2-es vagy 1-es és 3-as verzió közötti változásairól nyújt tájékoztatást.
+Ez a cikk információkat ad a felhasználói felület (UI), a funkcionalitás és a terminológia változásairól a Project Service Automation (PSA) programban a 2. vagy 1. verzió és a 3. verzió között.
 
 ## <a name="project-scheduling"></a>Projekt ütemezése
 A korábbi verziókban Work Breakdown Structure (WBS) néven ismert projektütemezést átneveztük Ütemezésre, és az **Ütemezés** fülre kattintva érhető el. 
@@ -150,7 +150,7 @@ Ha feladatokkal rendelkezik erőforrásokra foglalások nélkül (foglaláshián
 Ez a szakasz információkat tartalmaz az idő, a költségek és a jóváhagyások változásairól a Project Service Automation 3. verziójában. A Dynamics 365 Project Service Automation megoldás részeként az **Időbevitel** szolgáltatást frissítették, hogy kihasználják az Egyesített felület keretrendszerét. Ez lehetővé teszi egy következetes, egységes felhasználói felület biztosítását, amely a reszponzív kialakítást követi az optimális megtekintéshez bármilyen képernyőméretben vagy eszközön. 
 
 ### <a name="landing-page"></a>Kezdőlap
-A nem kibővíthető egyedi időbeviteli környezetet kivezettük a 3. verzióban. Ehelyett most egy kibővíthető és hozzáférhető natív rácsélmény érhető el. Az időbeviteli funkcióhoz a bal oldali webhelytérkép segítségével férhet hozzá. Ezzel a változással többé nem lehet megadni időt hetenként. Ehelyett minden egyes naphoz időbejegyzést kell létrehoznia a rácsban. Néhány időbejegyzés létrehozása után a felhasználók tömegesen hozhatnak létre időbejegyzéseket a cikk későbbi részében ismertetett Másolás **funkcióval**. 
+A nem kibővíthető egyedi időbeviteli környezetet kivezettük a 3. verzióban. Ehelyett most egy kibővíthető és hozzáférhető natív rácsélmény érhető el. Az időbeviteli funkcióhoz a bal oldali webhelytérkép segítségével férhet hozzá. Ezzel a változással többé nem lehet megadni időt hetenként. Ehelyett minden egyes naphoz időbejegyzést kell létrehoznia a rácsban. Néhány időbejegyzés létrehozása után a felhasználók tömegesen hozhatnak létre időbejegyzéseket a **Másolás** funkcióval, amelyet később a cikkben ismertetünk. 
 
 ![Időbeviteli céloldal.](media/time-entry-landing-page-07.png)
  

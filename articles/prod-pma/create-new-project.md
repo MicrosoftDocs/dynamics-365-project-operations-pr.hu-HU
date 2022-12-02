@@ -1,6 +1,6 @@
 ---
 title: Új projekt létrehozása
-description: Ez a cikk az új projekt létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk információt nyújt egy új projekt létrehozásáról.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

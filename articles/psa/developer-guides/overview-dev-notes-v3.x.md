@@ -1,6 +1,6 @@
 ---
 title: Fejlesztési kezdőlap (Project Service Automation 3.x)
-description: Ez a cikk olyan cikkekre mutató hivatkozásokat tartalmaz, amelyek fejlesztési információkat nyújtanak a (PSA) 3.x verziójához Dynamics 365 Project Service Automation.
+description: Ez a cikk olyan cikkekhez tartalmaz linkeket, amelyek a Dynamics 365 Project Service Automation (PSA) 3.x verzió fejlesztéseiről nyújtanak információkat.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8928987"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-A Dynamics 365 Project Service Automation 3.x új funkciókat, új platformlehetőségek megvalósítását és a meglévő szolgáltatások fejlesztését kínálja különféle területeken. A következő cikkek további információkat nyújtanak a PSA legújabb verziójában végrehajtott módosításokról:
+A Dynamics 365 Project Service Automation 3.x új funkciókat, új platformlehetőségek megvalósítását és a meglévő szolgáltatások fejlesztését kínálja különféle területeken. A következő cikkek további információkat nyújtanak a PSA legújabb verziójában végrehajtott változásokról:
 
 - [Az entitás, a vezérlés és a felhasználói felület változásai (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Idő- és költségbeli változások (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

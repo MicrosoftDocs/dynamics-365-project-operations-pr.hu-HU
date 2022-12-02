@@ -1,6 +1,6 @@
 ---
 title: Általános erőforrás-követelmények teljesítése
-description: Ez a cikk arról nyújt tájékoztatást, hogyan foglalhat le elnevezett erőforrásokat egy általános erőforrásigényhez.
+description: Ez a cikk a nevesített erőforrásoknak egy általános erőforrás-követelmény részére történő foglalásáról nyújt tájékoztatást.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

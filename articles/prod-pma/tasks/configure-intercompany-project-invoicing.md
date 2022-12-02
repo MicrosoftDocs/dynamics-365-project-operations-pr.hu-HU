@@ -1,6 +1,6 @@
 ---
 title: A vállalatközi projektek számlázásának konfigurálása
-description: Ez a cikk bemutatja, hogyan állíthatja be a projekt számlázását a szervezet két vállalata között.
+description: Ez a cikk azt mutatja be, hogyan állítható be projektszámlázás a szervezet két vállalata között.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916613"
 
 [!include [banner](../../includes/banner.md)]
 
-Ez a cikk bemutatja, hogyan állíthatja be a projekt számlázását a szervezet két vállalata között. Ez a feladat a USSI adatkészletet használja.
+Ez a cikk azt mutatja be, hogyan állítható be projektszámlázás a szervezet két vállalata között. Ez a feladat a USSI adatkészletet használja.
 
 1. A Navigáció ablaktáblán nyissa meg a következőt: **Modulok > Kötelezettségek > Szállítók > Minden szállító**.
 2. Keresse meg, majd jelölje ki a kívánt rekordot a **Minden szállító** listán.

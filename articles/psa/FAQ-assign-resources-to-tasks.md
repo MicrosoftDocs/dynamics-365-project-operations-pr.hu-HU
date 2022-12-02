@@ -1,6 +1,6 @@
 ---
 title: Erőforrás hozzárendelése egy feladathoz
-description: Ez a cikk az erőforrások tevékenységekhez való hozzárendelésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt az erőforrások hozzárendeléséről feladatokhoz.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

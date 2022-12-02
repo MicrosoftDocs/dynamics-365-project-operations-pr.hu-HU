@@ -1,6 +1,6 @@
 ---
 title: A felhasználói felületen történő navigálás
-description: Ez a cikk a Dynamics 365 Project műveleteinek projektmenedzsmentjével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a Dynamics 365 Project Operations Projektmenedzsment funkciójáról.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

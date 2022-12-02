@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2021. február – Project Operations Lite központi telepítés
-description: Ez a cikk a Project Operations lite üzembe helyezésének 2021. februári kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk információval szolgál a minőségi frissítésekről, amelyek a Project Operations Lite központi telepítés 2021 februári kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article

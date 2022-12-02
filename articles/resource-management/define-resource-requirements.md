@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-követelmények meghatározása
-description: Ez a cikk az erőforrás-követelményekkel kapcsolatos információk meghatározásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információt nyújt az erőforrás-követelmények meghatározásával kapcsolatban.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

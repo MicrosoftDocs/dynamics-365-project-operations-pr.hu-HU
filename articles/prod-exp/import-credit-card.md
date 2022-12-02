@@ -1,6 +1,6 @@
 ---
 title: Bankkártya-tranzakciók importálása és karbantartása
-description: Ez a cikk a költségekkel kapcsolatos hitelkártya-tranzakciók importálását és karbantartását ismerteti. Ezek a tranzakciók úgy állíthatók be, hogy ismétlődő ütemezésben automatikusan importálásra kerülnek, illetve szükség esetén kézzel is importálhatók.
+description: Ez a cikk a költséggel kapcsolatos hitelkártya-tranzakciók importálását és karbantartását ismerteti. Ezek a tranzakciók úgy állíthatók be, hogy ismétlődő ütemezésben automatikusan importálásra kerülnek, illetve szükség esetén kézzel is importálhatók.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

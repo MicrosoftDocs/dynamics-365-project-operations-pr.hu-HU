@@ -1,6 +1,6 @@
 ---
 title: Árazási dimenzió kikapcsolása
-description: Ez a cikk bemutatja, hogyan állíthat be árképzési dimenziókat a Project Service megoldásban.
+description: Ez a cikk bemutatja, hogyan állíthatja be az árazási dimenziókat a Project Service megoldásban.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

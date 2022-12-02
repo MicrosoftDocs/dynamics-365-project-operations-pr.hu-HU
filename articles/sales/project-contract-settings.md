@@ -1,6 +1,6 @@
 ---
 title: Projektszerződés beállításai
-description: Ez a cikk a szerződéssorokat befolyásoló mezőkről, valamint az összes sorban összefoglalt szerződésről nyújt tájékoztatást.
+description: Ez a cikk a szerződéssorokra hatással levő mezőkről, valamint az összes sorra vonatkozóan összefoglalt szerződésre vonatkozó információkra vonatkozó információkat tartalmaz.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921581"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a cikk a teljes projektszerződésre vonatkozó mezőkről nyújt tájékoztatást, beleértve az összes szerződéssort érintő beállításokat is. Ezenkívül tartalmaz a szerződésre vonatkozó, összes sorelemen keresztül összesített információkat, amelyek a projektszerződés KPI-jaira hatással vannak.
+Ez a cikk a teljes szerződésre vonatkozó mezőkre vonatkozó információkat tartalmaz, beleértve az összes szerződéssorra hatással levő beállításokat is. Ezenkívül tartalmaz a szerződésre vonatkozó, összes sorelemen keresztül összesített információkat, amelyek a projektszerződés KPI-jaira hatással vannak.
 
 A következő táblázat a projektszerződés olyan mezőit sorolja fel, amelyek egyediek a Dynamics 365 Project Operations alkalmazásban, vagy a Dynamics 365 Sales értékesítési megrendelésinél viselkedésük valamilyen fontos változással rendelkezik.
 

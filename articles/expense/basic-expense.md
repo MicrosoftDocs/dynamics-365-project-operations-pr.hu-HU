@@ -1,6 +1,6 @@
 ---
 title: Költségbejegyzés (Lite)
-description: Ez a cikk arról nyújt tájékoztatást, hogyan dolgozhat költségbevitellel egy egyszerűsített üzemelő példányban.
+description: Ez a cikk a költségbejegyzések Lite telepítésben történő használatának módjával kapcsolatos információkat tartalmaz.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Proforma számlák
-description: Ez a cikk a Project Operations proforma számláiról nyújt tájékoztatást.
+description: Ez cikk a Project Operations szolgáltatásban lévő proforma számlákról nyújt információt.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Projektszámla-vázlat létrehozásakor minden olyan még nem számlázott ért�
 A számla megerősítéséhez válassza a **Megerősítés** lehetőséget. A Megerősítés egyirányú művelet. Ha a **Megerősítés** lehetőséget választja, a rendszer a számlát csak olvashatóvá teszi, és tényleges számlázott értékesítési értékeket hoz létre az egyes számlasorok adatairól. Ha a számlasor-adat egy nem számlázott tényleges értékesítésre mutat, akkor a rendszer a nem számlázott értékesítési értéket is megfordítja. (Azon számlasor-adatok, amelyeket egy idő- vagy költségbejegyzés alapján hoztak létre, egy nem számlázott tényleges értékesítésre vonatkoznak.) A főkönyvi integrációs rendszerek ezt a visszafordítást felhasználhatják a folyamatban lévő projektmunka (WIP) megfordítására, számviteli célokból.
 
 > [!NOTE]
-> A visszaigazolt proforma számlák és a kapcsolódó rekordok, például a számlasorok és a számlasorok adatai nem szerkeszthetők vagy törölhetők. 
+> A visszaigazolt proforma számlák és a kapcsolódó rekordok, például a számlasorok és a számlasorok részletei nem szerkeszthetők és nem törölhetők. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Megerősített számla kijavítása
 

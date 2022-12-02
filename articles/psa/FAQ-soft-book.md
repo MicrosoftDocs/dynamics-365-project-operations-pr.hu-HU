@@ -1,6 +1,6 @@
 ---
 title: Erőforrás puha foglalása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan ütemezheti vagy lágyan foglalhatja le a projektcsapat tagjait.
+description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet ideiglenes ütemezést vagy puha foglalást végrehajtani a projektcsoport tagjain.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

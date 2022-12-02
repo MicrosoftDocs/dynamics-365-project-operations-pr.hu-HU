@@ -1,6 +1,6 @@
 ---
 title: A munka költségarányának beállítása – Lite
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthatja be a munka költségszintjét a Project Operationsben.
+description: Ez a cikk a Project Operations munkabérköltségeire vonatkozó díjak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

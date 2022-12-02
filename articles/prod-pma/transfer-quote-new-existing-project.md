@@ -1,6 +1,6 @@
 ---
 title: Árajánlat átadása egy projekthez
-description: Ez a cikk arról nyújt tájékoztatást, hogyan vihet át egy árajánlatot egy új vagy meglévő projektbe.
+description: Ez a cikk az ajánlatok új vagy meglévő projektbe történő átadásával kapcsolatban tartalmaz tájékoztatást.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Szoftverkövetelmények
-description: Ez a cikk a követelmények manuális foglalásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt arról, hogyan kell foglalni a követelményeket.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

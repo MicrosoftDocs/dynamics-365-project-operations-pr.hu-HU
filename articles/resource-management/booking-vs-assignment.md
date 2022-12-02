@@ -1,6 +1,6 @@
 ---
 title: Foglalások és hozzárendelések
-description: Ez a cikk az erőforrás-foglalások és az erőforrás-hozzárendelések közötti különbségeket ismerteti.
+description: Ez a cikk információkat biztosít az erőforrás-foglalások és az erőforrás-hozzárendelések közötti különbségekről.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

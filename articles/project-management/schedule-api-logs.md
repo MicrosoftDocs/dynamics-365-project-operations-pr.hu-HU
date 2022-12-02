@@ -1,6 +1,6 @@
 ---
 title: Projektütemezési naplók
-description: Ez a cikk olyan információkat és mintákat tartalmaz, amelyek segítségével a Projektütemezési naplók segítségével nyomon követheti a Projektütemezés szolgáltatással és a Projektütemezés API-kkal kapcsolatos hibákat.
+description: A cikk olyan tudnivalókat és mintákat tartalmaz, amelyek segítenek a Projektütemezési naplók segítségével nyomon követni a projektütemezési szolgáltatáshoz és a projektütemezési API-khoz kapcsolódó hibák.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
@@ -15,88 +15,88 @@ ms.locfileid: "8923698"
 ---
 # <a name="project-scheduling-logs"></a>Projektütemezési naplók
 
-_**Érintett:** Projektműveletek erőforrás-/nem készletalapú forgatókönyvekhez, Egyszerűsített telepítés – ajánlat a proforma számlázáshoz_, _Project for the Web_
+_**A következőre érvényes:** Project Operations erőforrás / nem készletezett alapú forgatókönyvek_, Lite telepítése – üzlet a proforma számlázáshoz, _Project for the Web_
 
-A Microsoft Dynamics 365 Project Operations a [Webes Projektet használja](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) elsődleges ütemezési motorként. A szabványos Microsoft Dataverse webalkalmazás-programozási felületek (API-k) használata helyett a Project Operations az új Projektütemezés API-kat használja a projekttevékenységek, erőforrás-hozzárendelések, tevékenységfüggőségek, projektkategóriák és projektcsapatok tagjainak létrehozásához, frissítéséhez és törléséhez. Ha azonban a létrehozási, frissítési vagy törlési műveletek programozott módon futnak a munkalebontási struktúra (WBS) entitásokon, hibák léphetnek fel. A hibák és a műveletek előzményeinek nyomon követéséhez két új felügyeleti naplót valósítottunk meg: a műveletkészletet és a projektütemezési szolgáltatást (PSS).To track these errors and the history of operations, it are two new administrative logs implemented to: Operation Set and Project Scheduling Service (PSS).**To track these errors and the history of operations, it have two new administrative logs implemented to:** Operation Set **and** Project Scheduling A naplók eléréséhez lépjen a **Beállítások** \> **ütemezési integrációja oldalra.**
+A Microsoft Dynamics 365 Project Operations a [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) alkalmazást használja elsődleges ütemezési motorként. A normál Microsoft Dataverse webes alkalmazásokprogramozási felületek (API-k) használata helyett a Project Operations az új projektütemezési API-kat használják a projektfeladatok, erőforrás-hozzárendelések, feladat függőségek, projektütemezések és projektcsoporttagok létrehozására, frissítésére és törlésére. Azonban a létrehozási, frissítési vagy törlési műveletek programozott módon futnak a munkalebontási struktúra (WBS) entitásain hibák fordulhatnak elő. Az ilyen hibák és a műveletek előzményeinek nyomon követéséhez két új felügyeleti napló lett bevezetve: **Művelethalmaz** és **Projektütemezési szolgáltatás** (PSS). Ha hozzá szeretne férni ezekhez a naplókhoz, akkor menjen a **Beállítások** \> **Ütemezési integráció** menüpontba.
 
-Az alábbi ábra a Projektütemezés-naplók adatmodelljét mutatja be.
+A következő ábrán a Projektütemezési naplók adatmodellje látható.
 
-![Adatmodell a projektütemezési naplókhoz.](media/LOGDATAMODEL.jpg)
+![A projektütemezési naplók adatmodellje.](media/LOGDATAMODEL.jpg)
 
-## <a name="operation-set-log"></a>Műveleti készlet naplója
+## <a name="operation-set-log"></a>Műveleti halmaz napló
 
-A műveletkészlet naplója nyomon követi egy olyan műveletkészlet végrehajtását, amely egy vagy több létrehozási, frissítési vagy törlési művelet futtatására szolgál egy kötegben projekteken, projekttevékenységeken, erőforrás-hozzárendeléseken, tevékenységfüggőségeken, projektkategóriákon vagy projektcsapattagokon. A **Művelet az állapotban** mező a műveletkészlet általános állapotát mutatja. A műveletkészlet hasznos adatcsomagjának részleteit a rendszer a kapcsolódó műveletikészlet-részletes rekordokban rögzíti.
+Az műveleti halmaz napló nyomon követi egy művelethalmaz végrehajtását, amely egy vagy több létrehozási, frissítési vagy törlési művelet futtatására használatos egy kötegben projekteken, projektfeladatokon, erőforrás-hozzárendeléseken, feladat-függőségeken, projektgyűjtőkön vagy projekt csoporttagokon. Az **Művelet állapota** mezőben megmutatja művelethalmaz általános állapotát. A művelethalmaz hasznos terhelésének részleteit a rendszer a kapcsolódó Művelethalma részletei rekordokban rögzíti.
 
-### <a name="operation-set"></a>Műveletkészlet
+### <a name="operation-set"></a>Műveleti halmaz
 
-Az alábbi táblázat a Műveletkészlet entitáshoz **kapcsolódó mezőket mutatja be**.
+A következő táblázat mutatja a mezőket, a **Műveleti halmaz** entitáshoz kapcsolódnak.
 
 | Séma neve            | Description                                                                                                  | Megjelenített név            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | A műveletkészlet befejezésének vagy sikertelenségének dátuma/időpontja.                                                | CompletedOn            |
-| msdyn_correlationid   | A **kérés correlationId** értéke.                                                                  | CorrelationId          |
-| msdyn_description     | A műveletkészlet leírása.                                                                        | Description            |
-| msdyn_executedon      | A rekord futtatásának dátuma/időpontja.                                                                       | Végrehajtva            |
+| msdyn_completedon     | A művelethalmaz befejezésének vagy meghiúsulásának dátuma és időpontja.                                                | CompletedOn            |
+| msdyn_correlationid   | A kérelem **correlationId** értéke.                                                                  | CorrelationId          |
+| msdyn_description     | A műveleti halmaz leírása.                                                                        | Description            |
+| msdyn_executedon      | A rekord futtatásának dátuma és időpontja.                                                                       | Végrehajtva            |
 | msdyn_operationsetId  | Az entitáspéldányok egyedi azonosítója.                                                                   | OperationSet           |
-| msdyn_Project         | A műveletkészlethez kapcsolódó projekt.                                                            | Project                |
-| msdyn_projectid       | A **kérelem projectId** értéke.                                                                      | ProjectId (elavult) |
+| msdyn_Project         | A műveleti halmazhoz kapcsolódó projekt.                                                            | Project                |
+| msdyn_projectid       | A kérelem **projectId** értéke.                                                                      | ProjectId (elavult) |
 | msdyn_projectName     | Nem alkalmazható.                                                                                              | Nem alkalmazható         |
-| msdyn_PSSErrorLog     | A műveletkészlethez társított Project Scheduling Service hibanapló egyedi azonosítója. | PSS-hibanapló          |
+| msdyn_PSSErrorLog     | A művelethalmazhoz társított Projektütemezésiszolgáltatás-hibanapló egyedi azonosítója. | PSS-hibanapló          |
 | msdyn_PSSErrorLogName | Nem alkalmazható.                                                                                              | Nem alkalmazható         |
-| msdyn_status          | A műveletkészlet állapota.                                                                             | Állam                 |
+| msdyn_status          | A műveleti halmaz állapota.                                                                             | Állam                 |
 | msdyn_statusName      | Nem alkalmazható.                                                                                              | Nem alkalmazható         |
-| msdyn_useraadid       | Annak Azure Active Directory a felhasználónak az objektumazonosítója,Azure AD akihez a kérés tartozik.                     | UserAADID              |
+| msdyn_useraadid       | Azon felhasználó Azure Active Directory (Azure AD) objektumazonosítója, akihez ez a kérelem tartozik.                     | UserAADID              |
 
-### <a name="operation-set-detail"></a>A műveletkészlet részletei
+### <a name="operation-set-detail"></a>Műveleti halmaz adatai
 
-Az alábbi táblázat a Műveleti készlet részletei entitáshoz **kapcsolódó mezőket mutatja be**.
+A következő táblázat bemutatja a mezőket, amelyek **Műveleti halmaz részletei** entitáshoz kapcsolódnak.
 
 | Séma neve                 | Description                                                                                 | Megjelenített név           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | A kérelem szerializált Dataverse mezői.                                            | CdsPayload            |
-| msdyn_entityname           | A kérelemhez tartozó entitás neve.                                                     | EntityName            |
-| msdyn_httpverb             | A kérés módja.                                                                         | HTTP-parancs (elavult) |
+| msdyn_cdspayload           | Szerializált Dataverse-mezők a kérelem.                                            | CdsPayload            |
+| msdyn_entityname           | Az entitás neve ehhez kéréshez.                                                     | EntityName            |
+| msdyn_httpverb             | A kérelmi metódus.                                                                         | HTTP-parancs (elavult) |
 | msdyn_httpverbName         | Nem alkalmazható.                                                                             | Nem alkalmazható        |
-| msdyn_operationset         | Annak a műveletkészletnek az egyedi azonosítója, amelyhez a rekord tartozik.                      | OperationSet          |
+| msdyn_operationset         | A művelethalmaz egyedi azonosítója, amelyhez a rekord tartozik.                      | OperationSet          |
 | msdyn_operationsetdetailId | Az entitáspéldányok egyedi azonosítója.                                                  | OperationSet Detail   |
 | msdyn_operationsetName     | Nem alkalmazható.                                                                             | Nem alkalmazható        |
-| msdyn_operationtype        | A műveletkészlet részleteinek művelettípusa.                                             | OperationType         |
+| msdyn_operationtype        | A művelethalmaz részleteinek művelettípusa.                                             | OperationType         |
 | msdyn_operationtypeName    | Nem alkalmazható.                                                                             | Nem alkalmazható        |
-| msdyn_psspayload           | A kérelem szerializált Projektütemezési szolgáltatás mezői.                           | PssPayload            |
-| msdyn_recordid             | A kérelemrekord azonosítója.                                                       | Rekordazonosító             |
-| msdyn_requestnumber        | Egy automatikusan generált szám, amely azonosítja azt a sorrendet, amelyben a kérelmek érkeztek. | Kérelem száma        |
+| msdyn_psspayload           | A kérelem szericializált projektütemezésiszolgáltatás-mezői.                           | PssPayload            |
+| msdyn_recordid             | A kérelemrekord elsődleges azonosítója.                                                       | Rekordazonosító             |
+| msdyn_requestnumber        | Egy automatikusan létrehozott szám, amely azonosítja a kérések beérkezésének sorrendjét | Kérelem száma        |
 
-## <a name="project-scheduling-service-error-logs"></a>A Projektütemezés szolgáltatás hibanaplói
+## <a name="project-scheduling-service-error-logs"></a>A projektütemezési szolgáltatási hibanaplói
 
-A Projektütemezési szolgáltatás hibanaplói rögzítik azokat a hibákat, amelyek akkor fordulnak elő, amikor a Projektütemezés szolgáltatás megpróbál egy **Mentési** vagy **megnyitási** műveletet. Három támogatott forgatókönyv létezik, ahol ezek a naplók jönnek létre:
+A Projektütemezési szolgáltatás hibanaplók rögzítik a Projektütemezési szolgáltatás **Mentés** és **Megnyitás** műveletének megkísérlésekor előforduló hibákat. Ezek a naplók három támogatott alkalmazási helyzetből vannak generálva:
 
-- A felhasználó által kezdeményezett műveletek kritikusan meghiúsulnak (például a hiányzó jogosultságok miatt nem hozható létre hozzárendelés).
-- A Projektütemezési szolgáltatás nem hozhat létre, frissíthet, törölhet és nem hajthat végre programozott módon semmilyen más lépcsőzetes műveletet egy entitáson.
-- A felhasználó hibákat tapasztal, ha egy rekord nem nyílik meg (például amikor megnyitnak egy projektet, vagy frissítik egy csapattag adatait).
+- A felhasználó által indított műveletek végrehajtása kritikusan meghiúsul (például hiányzó jogosultságok miatt nem lehet hozzárendelést létrehozni).
+- A Projektütemezési szolgáltatás nem tud programozott módon létrehozni, frissíteni, törölni vagy más kaszkádolt műveletet végrehajtani egy entitáson.
+- A felhasználó hibát tapasztal, ha egy rekordnem nyílik meg (például projekt megnyitásakor vagy egy csoporttagjainak információinak frissítésekor).
 
 ### <a name="project-scheduling-service-log"></a>Projektütemezési szolgáltatás naplója
 
-Az alábbi táblázat a Projektütemezés szolgáltatás naplójában szereplő mezőket mutatja be.
+A következő táblázat mutatja a mezőket, amelyek szerepelnek a Projektütemezési szolgáltatás naplójában.
 
 | Séma neve          | Description                                                                    | Megjelenített név    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | A kivétel hívásverme.                                               | Hívásverem     |
 | msdyn_correlationid | A hiba korrelációs azonosítója.                                               | CorrelationId  |
-| msdyn_errorcode     | A hibakód vagy a Dataverse HTTP-hibakód tárolására szolgáló mező. | Hibakód     |
+| msdyn_errorcode     | A Dataverse-hibakód vagy a HTTP-hibakód tárolására használt mező. | Hibakód     |
 | msdyn_HelpLink      | A nyilvános súgódokumentációra mutató hivatkozás.                                       | Súgó hivatkozása      |
 | msdyn_log           | A Projektütemezési szolgáltatás naplója.                                   | Napló            |
 | msdyn_project       | A hibanaplóhoz társított projekt.                             | Project        |
-| msdyn_projectName   | A projekt neve, ha a műveletkészlet hasznos terhelése megmarad. | Nem alkalmazható |
+| msdyn_projectName   | A projekt neve, ha a művelethalmaz hasznos terhelése megmarad. | Nem alkalmazható |
 | msdyn_psserrorlogId | Az entitáspéldányok egyedi azonosítója.                                     | PSS-hibanapló  |
-| msdyn_SessionId     | A projekt munkamenetének azonosítója.                                                        | Munkamenet-azonosító     |
+| msdyn_SessionId     | Projekt munkamenet-azonosítója.                                                        | Munkamenet-azonosító     |
 
-## <a name="error-log-cleanup"></a>Hibanapló tisztítása
+## <a name="error-log-cleanup"></a>Hibanapló-törlés
 
-Alapértelmezés szerint mind a Project Scheduling Service hibanaplói, mind a műveleti készlet naplója 90 naponta tisztítható. A 90 napnál régebbi rekordok törlődnek. A projektparaméterek **lapon a** msdyn_StateOperationSetAge **mező értékének módosításával azonban a** rendszergazdák úgy módosíthatják a tisztítási tartományt, hogy az 1 és 120 nap között legyen. Az érték módosítására számos módszer áll rendelkezésre:
+Alapértelmezés szerint a Projektütemezési szolgáltatás hibanaplói és a Művelethalmaz naplója is 90 naponta an törölve. Minden 90 napnál régebbi rekord törlésre kerül. Azonban a **Projektparaméterek** oldalon az **msdyn_StateOperationSetAge** mező értékének módosításával a rendszergazdák módosíthatják a tisztítási tartományt úgy, hogy az 1 és 120 nap között legyen. Az érték módosítására többféle módszer áll rendelkezésre:
 
-- Testreszabhatja a **Projektparaméter** entitást egy egyéni oldal létrehozásával és az **Elavult műveletek beállítása kor** mező hozzáadásával.
-- Használjon olyan ügyfélkódot, amely a [WebApi szoftverfejlesztői készletet (SDK) használja](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-- Használjon olyan SDK-kódot, amely az Xrm SDK **updateRecord metódust** (ügyfél API-referenciát) használja a modellvezérelt alkalmazásokban. Power Apps tartalmaz egy leírást és támogatott paramétereket az **updateRecord** metódushoz.
+- Szabja testre a **Projektparaméter** entitást egy egyéni lap létrehozásával és az **Elavult műveletek korának beállítása** mezőjének hozzáadásával.
+- A [WebApi szoftverfejlesztői készletet (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) használó ügyfélkód használata.
+- A Modellalapú alkalmazásokban az Xrm SDK **updateRecord** metódust (ügyfél API reference) használó Service SDK-kód használata. A Power Apps leírást és a támogatott paramétereket tartalmazza a **updateRecord** metódushoz.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

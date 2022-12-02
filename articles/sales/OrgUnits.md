@@ -1,6 +1,6 @@
 ---
 title: Szervezeti egységek
-description: Ez a cikk a szervezeti egységek fogalmát ismerteti, és elmagyarázza, hogyan hozhat létre és tarthat fenn szervezeti egységeket a Microsoftban Dynamics 365 Project Operations.
+description: Ez a cikk a szervezeti egységek fogalmát ismerteti, valamint ismerteti a szervezeti egységek létrehozását és karbantartását a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -22,45 +22,45 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921627"
 ---
-# <a name="organizational-units-overview"></a>Szervezeti egységek áttekintése
+# <a name="organizational-units-overview"></a>A szervezeti egységek áttekintése
 
-A Microsoftban Dynamics 365 Project Operations a *szervezeti egység* egy különálló csoport vagy részleg egy professzionális szolgáltató vállalatnál, amely költségtérítéssel rendelkező számlázható erőforrásokat alkalmaz.
+Egy Microsoft Dynamics 365 Project Operations alkalmazásban a *szervezeti egység* egy másik csoport vagy osztály egy professzionális szolgáltatásokat nyújtó vállalatnál, amely más költség arányú számlázható erőforrásokat alkalmaz.
 
-Azoknál a professzionális szolgáltató vállalatoknál, amelyek különböző gyakorlati területeken vagy üzletágakban alkalmaznak műszaki erőforrásokat, a szerepkör betöltésének költsége változhat, attól függően, hogy a szerepkört melyik szakterületen vagy üzletágban töltik be. Ebben a forgatókönyvben a szervezeti egységek fogalma segít abban, hogy lehetővé teszi a számlázható szerepkörök csoportosítását egy olyan vállalat részlegében, amely külön költségstruktúrával rendelkezik az adott szerepkörökhöz.
+A különböző gyakorlati területeken vagy üzletágakban technikai forrásokat foglalkoztató professzionális szolgáltatásokat nyújtó vállalatok esetében az egyik gyakorlati területen vagy üzletágban egy szerepkör kitöltésének költsége eltérhet egy másik gyakorlati területen vagy üzletágnál fellépő költségtől. Ebben a forgatókönyvben szervezeti egységek rendszere segítséget nyújt egy vállalati osztály számlázható szerepköreinek csoportosításában, amely eltérő költségstruktúrával rendelkezik.
 
-## <a name="the-concept-of-organizational-units-in-project-operations"></a>A szervezeti egységek fogalma a projektműveletekben
+## <a name="the-concept-of-organizational-units-in-project-operations"></a>A szervezeti egységek koncepciója a Project Operations alkalmazásban
 
-A Project Operationsben egy szervezeti egység egy adott pénznemmel és egy adott önköltségi árlistákkal rendelkezik.
+Egy Project Operations szervezeti egység meghatározott pénznemmel és önköltségi árlistával rendelkezik.
 
 Egy szervezeti egység pénzneme a költségek nyomon követésére szolgáló elsődleges pénznem.
 
-Az egyes szervezeti egységekhez egy vagy több önköltségi árlista is csatolható. A Project Operations a következő korlátozásokat alkalmazza a szervezeti egységhez csatolható árlistákon:
+Az egyes szervezeti egységekhez egy vagy több önköltségi árlista is csatolható. A Project Operations a következő korlátozásokat szabja a szervezeti egységhez csatolható árlisták esetén:
 
-- Az árlistáknak a szervezeti egység pénznemében kell lenniük.
-- Az árlistáknak önköltségi árlistáknak kell lenniük.
+- Az árlisták a szervezeti egység pénznemében jelennek meg.
+- Az árlista csak önköltségi árlista lehet.
 
-Ezenkívül az Erőforrás entitás tartalmaz egy attribútumot a szervezeti egységhez. Minden erőforrás hozzárendelhető egy szervezeti egységhez.
+Emellett az Erőforrás entitás szervezeti egységéhez tartozik egy attribútum. Minden erőforrás hozzárendelhető egy szervezeti egységhez.
 
 ### <a name="roles-of-organizational-units"></a>A szervezeti egységek szerepe
 
-A szervezeti egység két szerepet játszik a projektműveletekben:
+A szervezeti egységek két szerepet töltenek be a Project Operations alkalmazásban:
 
 - **Szerződő részleg** – Az a szervezeti egység, amely azt a vállalatot vagy részleget reprezentálja, amely elsősorban felelős az értékesítés megnyeréséért és a munka és szolgáltatások ügyfélnek történő leszállításáért. A szerződő részleget a fejlécben a **Szerződő részleg** mező azonosítja a **Lehetőség**, **Árajánlat**, **Projektszerződés** és **Projekt** oldalon.
 - **Erőforrás-kezelő részleg** – Az a szervezeti egység, amelyhez egy erőforrás tartozik, vagy hozzá van rendelve. Ez a szervezeti egység erőforrásokat biztosít bizonyos szerepkörökhöz a munkanyilatkozatoknál (SOW) és projekteknél, amelyek a szerződő egység tulajdonában vannak.
 
 ![Szerződő egységek és erőforrás-kezelő részlegek.](media/OrgUnits.png)
 
-### <a name="organizational-unit-faq"></a>Szervezeti egység GYIK
+### <a name="organizational-unit-faq"></a>Szervezeti egység – GYIK
 
 Az alábbiakban a szervezeti egységekkel kapcsolatos leggyakrabban elhangzó kérdéseket válaszoljuk meg.
 
-#### <a name="how-is-the-organizational-unit-entity-in-project-operations-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>Hogyan kapcsolódik a Project Operations Szervezeti egység entitása a Dynamics 365 rendszerben már létező Szervezet entitáshoz?
+#### <a name="how-is-the-organizational-unit-entity-in-project-operations-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>Hogyan kapcsolódik a Dynamics 365 alkalmazásban már létező Szervezet entitáshoz a Project Operations Szervezeti egység entitása?
 
-A Dynamics 365 Szervezet entitása egy globális Dynamics 365-példány nevét jelöli. Ez a név általában a globális vállalat neve is.
+A Dynamics 365 alkalmazás Szervezet entitása a globális Dynamics 365-példány nevének felel meg. Ez a név általában a globális vállalat neve is.
 
 A Szervezeti egység entitás a globális vállalat egy csoportjának vagy osztályának felel meg. Ez a csoport vagy osztály szerepköröket és önköltségi árlistát tartalmaz ezekhez a szerepkörökhöz, ezek a szerepkörök és árlisták pedig eltérnek a vállalaton belüli egyéb csoportok vagy osztályok szerepköreitől és árától.
 
-A Project Operations telepítésekor a szervezet alapján létrejön egy alapértelmezett szervezeti egység. Minden létező erőforrás hozzá van rendelve az alapértelmezett szervezeti egységhez. Ha új Active Directory-felhasználókat vagy -erőforrásokat importál a Dynamics 365-be, a felhasználói importálási folyamat hozzárendeli őket a Project Operations alapértelmezett szervezeti egységéhez.
+A Project Operations telepítésekor egy alapértelmezett szervezeti egység jön létre a szervezet alapján. Minden létező erőforrás hozzá van rendelve az alapértelmezett szervezeti egységhez. Ha az Active Directory bármelyik új felhasználóját vagy erőforrását importálja a Dynamics 365 rendszerbe, akkor a felhasználói importálási folyamat a Project Operations alapértelmezett szervezeti egységéhez rendeli hozzá azokat.
 
 #### <a name="how-does-the-organizational-unit-entity-differ-from-the-business-unit-entity"></a>Miben különbözik a Szervezeti egység entitás a Részleg entitástól?
 
@@ -70,16 +70,16 @@ A Szervezeti egység entitás egy olyan vállalati csoportot vagy részleget rep
 
 A Dynamics 365 telepítése során optimalizálja a részlegek hierarchiájának biztonsági engedélyezését és a felhasználók részlegek számára történő hozzárendelését. Rendelje hozzá azokat a felhasználókat, akiknek általában ugyanazokhoz a bejegyzésekhez kell hozzáférniük, ugyanannál a részlegnél. A szervezeti egységnek nincs hatása a biztonsági engedélyezésre vagy a hozzáférésre.
 
-**Példa, amely egy lehetséges különbséget mutat be a szervezeti egységek és üzleti egységek modellezésében**
+**A szervezeti egységek és a szervezeti egységek modellezésében egy lehetséges különbséget bemutató példa**
 
-A Contoso Ltd. rendelkezik a Microsoft egy virágzó technológiai gyakorlatával. Ferenc és Etelka mindketten C\#-fejlesztők, de Etelka az Egyesült Államokban dolgozik, Ferenc pedig Indiában. A projektfeladatok többsége erőforrásokat igényel mind Contoso Indiából, mind Contoso EGYESÜLT ÁLLAMOKból, Prakash és Tricia pedig ugyanolyan szintű biztonsági hozzáférést igényel a projektekhez ezen a gyakorlati területen. A Contoso India fejlesztőinek költsége azonban jelentősen eltér a Contoso USA fejlesztőinek költségétől.
+A Contoso Ltd. rendelkezik a Microsoft egy virágzó technológiai gyakorlatával. Ferenc és Etelka mindketten C\#-fejlesztők, de Etelka az Egyesült Államokban dolgozik, Ferenc pedig Indiában. A projektek nagy részéhez szükség van a Contoso India és a Contoso USA erőforrásaira is, így Ferencnek és Etelkának ugyanolyan szintű biztonsági hozzáférésre van szüksége a gyakorlati terület projektjeire vonatkozóan. A Contoso India fejlesztőinek költsége azonban jelentősen eltér a Contoso USA fejlesztőinek költségétől.
 
-Itt van egy optimális módszer a forgatókönyv tervezésére a Dynamics 365 és a Project Operations használatával.
+Az alábbiakban optimális megoldást talál ennek a forgatókönyvnek a megoldására a Dynamics 365 és a Project Operations használatával.
 
-1. Hozzon létre egy Microsoft technológiai gyakorlatot egy részlegre vonatkozóan, és társítsa ezzel Ferencet és Etelkát. Ily módon segít biztosítani, hogy mindkét alkalmazott azonos szintű biztonsági hozzáféréssel rendelkezzen az adott gyakorlati területen lévő projektekhez. Mindketten képesek lesznek ellenőrizni az előrehaladást, és jelenteni az időt, a költségeket, az anyaghasználatot és a tevékenységfrissítéseket.
-2. Hozzon létre két szervezeti egységet, amelyek segítenek biztosítani, hogy a projekt költsége megfelelően tükröződjön.
-3. Társítsd Triciát Contoso USA-val és Prakash-t Contoso Indiával.
-4. Rendelje hozzá a megfelelő önköltségi árlistát mindkét szervezeti egységhez. Ily módon segít biztosítani, hogy a Prakash és Tricia projektjében rögzített költségek pontosan tükrözzék a Contoso Usa és Contoso India közötti költségkülönbséget.
+1. Hozzon létre egy Microsoft technológiai gyakorlatot egy részlegre vonatkozóan, és társítsa ezzel Ferencet és Etelkát. Így biztosítható, hogy mindkét alkalmazott ugyanolyan szintű biztonsági hozzáféréssel rendelkezzen az adott gyakorlati területen lévő minden projekthez. Mindketten ellenőrizhetik a folyamatot, és jelenthetik az idő, a költségek, az anyaghasználat és a feladatok frissítéseit.
+2. Hozzon létre két szervezeti egységet, amelyek segítségével biztosítható, hogy a projekt költségét helyesen tükrözze a rendszer.
+3. Társítsa Etelkát a Contoso USA-hoz, Ferencet pedig a Contoso Indiához.
+4. Rendelje hozzá a megfelelő önköltségi árlistát mindkét szervezeti egységhez. Így biztosíthatja, hogy a projektben Ferenc és Etelka által rögzített költségek pontosan tükrözzék a Contoso USA és a Contoso India közötti különbségeket.
 
 #### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Tartoznak szervezeti egységek a Dynamics 365 alkalmazás értékesítési területeihez?
 
@@ -87,32 +87,32 @@ Nincs társítás vagy kapcsolat az értékesítési területek és a szervezeti
 
 A szervezeti egység a vállalat olyan belső csoportja vagy részlege, amely a más részlegek vagy külső vevők számára értékesített szerepkörök egy csoportjának költségeit követi nyomon.
 
-**Példa, amely egy lehetséges különbséget mutat be a szervezeti egységek és értékesítési területek modellezésében**
+**A szervezeti egységek és az értékesítései területek modellezésében egy lehetséges különbséget bemutató példa**
 
-A Contoso Ltd. két fejlesztési központtal rendelkezik: Contoso USA és Contoso India. Az erőforrások költsége nagymértékben eltér a két fejlesztési központ között. Contoso számos nemzetközi piacon értékesíti informatikai (IT) szolgáltatásait, például Latin-Amerikában, Észak-Amerikában, Ázsiában és a csendes-óceáni térségben, Nyugat-Európában és a Közel-Keleten. Az ugyanahhoz a projekt-szerepkörhöz tartozó számlázási díjak ezek között a piacok között is széles körben változhatnak. A Contoso USA-t és a Contoso Indiát szervezeti egységként kell beállítani, és mindegyik szervezeti egységnek saját önköltségi árlistával kell rendelkeznie. Ázsiát és a csendes-óceáni térséget, Latin-Amerikát, Észak-Amerikát, Nyugat-Európát és a Közel-Keletet értékesítési területként kell beállítani, és minden értékesítési területnek rendelkeznie kell saját értékesítési árlistával.
+A Contoso Ltd. két fejlesztési központtal rendelkezik: Contoso USA és Contoso India. Az erőforrások költségei nagyban különböznek a két fejlesztési központban. A Contoso számos nemzetközi piacon értékesíti informatikai (IT) szolgáltatásait, többek között Latin-Amerikában, Észak-Amerikában, Ázsiában és a csendes-óceáni térségben, Nyugat-Európában és a Közel-Keleten. Az ugyanahhoz a projekt-szerepkörhöz tartozó számlázási díjak ezek között a piacok között is széles körben változhatnak. A Contoso USA-t és a Contoso Indiát szervezeti egységként kell beállítani, és mindegyik szervezeti egységnek saját önköltségi árlistával kell rendelkeznie. Ázsiát és a csendes-óceáni térséget, Latin-Amerikát, Észak-Amerikát, Nyugat-Európát és a Közel-Keletet értékesítési területként kell beállítani, és minden értékesítési területnek rendelkeznie kell saját értékesítési árlistával.
 
 #### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Miért van korlátozás az árlisták szervezeti egységekkel való társítására?
 
 Az értékesítési árképzés általában egyedi azokon a földrajzi területeken vagy piacokon, ahol a szolgáltatásokat értékesítik. Egy vállalat belső divíziói általában nem rendelkeznek saját értékesítési árképzéssel a hasonló típusú szolgáltatásoknál. A belső divíziók értékesített termékeinek költségei azonban eltérőek, attól függően, hogy milyen képzettséggel rendelkeznek az általuk foglalkoztatott személyek, és milyen munkakörülmények jellemzik a régió működését. Mivel a szervezeti egységek a vállalat belső részlegei, csak önköltségi árlistákkal rendelkezhetnek.
 
-#### <a name="why-cant-we-associate-sales-price-lists-with-organizational-units"></a>Miért nem tudjuk társítani az eladási árlistákat a szervezeti egységekhez?
+#### <a name="why-cant-we-associate-sales-price-lists-with-organizational-units"></a>Miért nem társíthatók az értékesítési árlisták a szervezeti egységekhez?
 
-A Project Operationsben az értékesítési árlisták hozzárendelhetők a vevőkhöz és az értékesítési területekhez. Az olyan tranzakciós entitások, mint a Lehetőség, az Árajánlat, a Projektszerződés és a Projekt, a vevői számlához vagy az értékesítési területhez csatolt eladási árlistákat használják a számlázási díjak és a projekttevékenység lehetséges bevételeinek meghatározásához.
+A Project Operationsben az értékesítési árlisták az ügyfelekhez és az értékesítési területekhez rendelhetők hozzá. A tranzakciós entitásokat – például a Lehetőséget, az Árajánlatot, a Projektszerződést és a Projektet – az ügyfél fiókjához vagy az értékesítési területhez rendelik hozzá, hogy értékesítési árlisták segítségével megállapítsák a számlázási díjakat és a potenciális bevételt a projekt aktivitási arányánál.
 
-A önköltségi árlisták szervezeti egységekhez vannak társítva. Az olyan tranzakciós entitások, mint a Lehetőség, az Árajánlat, a Projektszerződés és a Projekt, a szerződő egységhez csatolt önköltségi árlistákat használják a projektfelépítés költségeinek meghatározásához.
+A önköltségi árlisták szervezeti egységekhez vannak társítva. A tranzakciós entitások, mint például a Lehetőség, az Árajánlat, a Projektszerződés és a Projekt – olyan önköltségi árlistákat használnak, amelyek a szerződő részleghez vannak csatolva a projektek teljesítési költségeinek meghatározásához.
 
-#### <a name="are-organizational-units-hierarchical-in-project-operations"></a>A szervezeti egységek hierarchikus a Project Operationsben?
+#### <a name="are-organizational-units-hierarchical-in-project-operations"></a>Hierarchikusak a szervezeti egységek a Project Operations alkalmazásban?
 
-Nem. A Project Operations jelenlegi kiadásában a szervezeti egységek nem hierarchikus. Ezért nem hajthatja végre a következő feladatokat:
+Nem. A Project Operations jelenlegi kiadásában a szervezeti egységek nem hierarchikusak. Például az alábbi feladatokat nem végezheti el:
 
-- Állítson be egy mintát az alapértelmezett önköltségi árak megadásához, amely felfelé halad a hierarchián.
-- A szervezetiegység-hierarchia különböző szintjein felhalmozott bevétel vagy költség jelentése.
+- Alapértelmezés szerinti önköltségi árak megadására vonatkozó minta konfigurálása, amely végighalad egy hierarchián.
+- A szervezeti egység hierarchiájának különböző szintjein összesítve jelenteni a bevételt vagy a költséget.
 
-#### <a name="were-a-big-multinational-firm-that-has-a-complex-multilevel-hierarchy-of-cost-centers-divisions-and-billing-offices-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Nagy multinacionális cég vagyunk, amely összetett, többszintű hierarchiával rendelkezik költséghelyekből, divíziókból és számlázási irodákból. Hogyan tudjuk a legjobban kihasználni a szervezeti egységek fogalmát a Project Operations jelenlegi verziójában?
+#### <a name="were-a-big-multinational-firm-that-has-a-complex-multilevel-hierarchy-of-cost-centers-divisions-and-billing-offices-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Nagy multinacionális vállalat vagyunk komplex, többszintű költséghelyekkel, osztályokkal és számlázási irodákkal. Hogyan lehet legjobban használni a szervezeti egységek fogalmát a jelenlegi Project Operations-verzióban?
 
-Ha a költséghelyek, divíziók, számlázási irodák stb. összetett hierarchiája van, állítsa be a hierarchia levélcsomópontjait különálló szervezeti egységekként.
+Ha komplex hierarchiájú költséghelyekkel, osztályokkal, számlázási irodákkal stb. rendelkezik, akkor az adott hierarchia levélcsomópontjait külön szervezeti egységként kell beállítani.
 
-Az alábbi példa egy tipikus hierarchiát mutat be.
+A következő példa egy tipikus hierarchiát mutat.
 
 **Contoso India**
 
@@ -138,7 +138,7 @@ Az alábbi példa egy tipikus hierarchiát mutat be.
     - Műszaki tanácsadók
     - Funkcionális tanácsadók
 
-Ha a hierarchia hasonlít erre a példára, akkor azt egy egyszerű listaként kell beállítania az itt látható módon:
+Ha hierarchiája ehhez a példához hasonló, akkor az itt látható módon, lapos listaként kell beállítani:
 
 - Contoso India – SAP-gyakorlat – Műszaki tanácsadók
 - Contoso India – SAP-gyakorlat – Funkcionális tanácsadók
@@ -149,26 +149,26 @@ Ha a hierarchia hasonlít erre a példára, akkor azt egy egyszerű listaként k
 - Contoso USA – Microsoft technológiai gyakorlat – Műszaki tanácsadók
 - Contoso USA – Microsoft technológiai gyakorlat – Műszaki tanácsadók
 
-#### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Kis professzionális szolgáltatást nyújtó vállalat vagyunk, amely egyetlen részlegként működik. Hogyan tudjuk a legjobban kihasználni a szervezeti egységek fogalmát a Project Operations jelenlegi verziójában?
+#### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Kis professzionális szolgáltatást nyújtó vállalat vagyunk, amely egyetlen részlegként működik. Hogyan lehet legjobban használni a szervezeti egységek fogalmát a jelenlegi Project Operations-verzióban?
 
-Ha vállalata egy önköltségi árlistát tartalmazó egyetlen egységként működik, nem kell semmilyen szervezeti egységet beállítania. A Project Operations telepítése egy alapértelmezett szervezeti egységet hoz létre, amelynek neve megegyezik a szervezet nevével. Alapértelmezés szerint minden felhasználó hozzá van rendelve a szervezeti egységhez. Ha a rendszernek ki kell választania egy szervezeti egységet, akkor alapértelmezés szerint ez a szervezeti egység lesz kiválasztva.
+Ha vállalata egy önköltségi árlistát tartalmazó egyetlen egységként működik, nem kell semmilyen szervezeti egységet beállítania. A Project Operations telepítése során egy alapértelmezett szervezeti egységet hoz létre, amelynek neve megegyezik a szervezet nevével. Alapértelmezés szerint minden felhasználó hozzá van rendelve a szervezeti egységhez. Ha a rendszernek ki kell választania egy szervezeti egységet, akkor alapértelmezés szerint ez a szervezeti egység lesz kiválasztva.
 
-#### <a name="when-a-project-is-created-from-a-quote-or-project-contract-line-the-default-contracting-unit-comes-from-the-quote-or-project-contract-what-is-the-default-contracting-unit-if-a-project-is-created-before-sales-entities-such-as-quote-or-project-contract"></a>Ha létrehoz egy projektet árajánlat vagy projekt-szerződéssor alapján, az alapértelmezett szerződő részleg az árajánlatból vagy a projektszerződésből származik. Mi az alapértelmezett szerződéses egység, ha egy projektet olyan értékesítési entitások előtt hoznak létre, mint az Árajánlat vagy a Projektszerződés?
+#### <a name="when-a-project-is-created-from-a-quote-or-project-contract-line-the-default-contracting-unit-comes-from-the-quote-or-project-contract-what-is-the-default-contracting-unit-if-a-project-is-created-before-sales-entities-such-as-quote-or-project-contract"></a>Ha létrehoz egy projektet árajánlat vagy projekt-szerződéssor alapján, az alapértelmezett szerződő részleg az árajánlatból vagy a projektszerződésből származik. Ha a projekt létrehozása az értékesítési entitások, például az Árajánlat vagy a Projektszerződés létrehozása előtt történik, mi lesz az alapértelmezett szerződő részleg?
 
-Ha önmagában egy projektet hoznak létre, a projekt alapértelmezett szerződő részlege az a felhasználó, aki létrehozza azt. Ez a felhasználó egyben az alapértelmezett projektvezető is. Ha a projekt egy értékesítési entitásra, például árajánlatra vagy projektszerződésre van leképezve, akkor a projekt szerződő egysége az értékesítési entitáson alapul. Ebben az esetben a projektbecslések újraszámíthatók, mivel az önköltségi árlista segítségével kiszámíthatók a költségbecslés változásai, a szerződő részleg módosulása esetén. Az eladási árlista a rendszer arra szolgál, hogy kiszámítsa azokat az értékesítési becsléseket, amelyek úgy módosulnak, hogy azok szinkronban legyenek az árajánlat projekt árlistájával.
+Ha önmagában egy projektet hoznak létre, a projekt alapértelmezett szerződő részlege az a felhasználó, aki létrehozza azt. Ez a felhasználó egyben az alapértelmezett projektvezető is. Ha a projekt egy értékesítési entitásra van leképezve – például Árajánlathoz vagy Projektszerződéshez –, akkor a projektben szereplő szerződő részleg az értékesítési entitáson alapul. Ebben az esetben a projektbecslések újraszámíthatók, mivel az önköltségi árlista segítségével kiszámíthatók a költségbecslés változásai, a szerződő részleg módosulása esetén. Az értékesítési árlista segítségével kiszámíthatók a módosítani kívánt értékesítési becslések, hogy azok szinkronban legyenek az árajánlat projekt árlista mezőjében szereplő árakkal.
 
-A **projekt Szerződéses egység** és **Pénznem** mezői szerkesztésre zárolva vannak, mert szinkronban kell lenniük annak az értékesítési entitásnak (árajánlat vagy projektszerződés) az értékeivel, amelyhez a projekt hozzá van rendelve.
+A **Szerződő részleg** és a **Pénznem** mezők nem szerkeszthetők, mivel szinkronban kell lenniük az értékesítési entitások értékeivel (árajánlat vagy projektszerződés), amelyekre a projekt le van képezve.
 
-## <a name="create-and-maintain-organizational-units-in-project-operations"></a>Szervezeti egységek létrehozása és karbantartása a Project Operationsben
+## <a name="create-and-maintain-organizational-units-in-project-operations"></a>Szervezeti egységek létrehozása és karbantartása a Project Operations alkalmazásban
 
-Ha szervezeti egységet szeretne létrehozni a Project Operationsben, kövesse az alábbi lépéseket.
+A következő lépésekkel hozzon létre egy szervezeti egységet a Project Operations alkalmazásban.
 
-1. Lépjen a Szervezeti egységek beállításai **lapra.\>**
+1. Lépjen a **Beállítások \> Szervezeti egységek** pontba.
 2. Válassza az **Új** lehetőséget.
-3. **Az Általános** terület Név **mezőjében** adja meg a szervezeti egység nevét. Ezután állítsa be a többi mezőt szükség szerint.
-4. Válassza a Mentés **lehetőséget** a rekord létrehozásához, hogy továbbra is szerkeszthesse.
-5. Az Önköltségi árlisták **alatt** válassza a pluszjelet (**+**) az árlista hozzáadásához. Itt csak olyan árlistákat adhat hozzá, amelyek költségkörnyezettel **rendelkeznek**.
-6. **A Név** mezőben válassza a **Keresés** gombot, és válassza ki azt az árlistát, amelyet elérhetővé szeretne tenni a szervezeti egység számára. Szükség szerint folytassa az árlisták hozzáadását.
-7. Ha befejezte az árlisták hozzáadását, válassza a Mentés **lehetőséget** az oldal jobb alsó sarkában.
+3. Az **Általános** területen a **Név** mezőben írjon be egy nevet a szervezeti egységnek. Ezt követően állítsa be a többi mezőt igény szerint.
+4. Kattintson a **Mentés** gombra a rekord létrehozásához, így folytathatja a szerkesztést.
+5. Egy árlista hozzáadásához az **Önköltségi árlisták** alatt kattintson a pluszjel (**+**) ikonra. Itt csak a **Költség** környezettel rendelkező árlistákat adhat hozzá.
+6. A **Név** mezőben kattintson a **Keresés** gombra, és válasszon ki egy árlistát, amelyet elérhetővé szeretne tenni ezen szervezeti egység számára. Folytassa az árlisták hozzáadását igény szerint.
+7. Amikor befejezte az árlisták hozzáadását, az oldal jobb alsó sarkában válassza a **Mentés** ikont.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

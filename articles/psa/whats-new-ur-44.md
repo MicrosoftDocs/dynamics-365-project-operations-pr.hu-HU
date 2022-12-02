@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 44-es frissítési kiadásának V3 változatában
-description: Ez a cikk a 44-es kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a Microsoft Dynamics 365 Project Service Automation Update Release 44, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918683"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation 44-es, V3-as kiadásának újdonságaival vagy módosításaival kapcsolatos szolgáltatásokat és javításokat sorolja fel. A verzió build száma V3.10.75.142, és általánosan elérhető lesz önálló frissítésként 2022 júniusában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 44-os frissítési kiadásában. A verzió build száma V3.10.75.142, és általánosan elérhető lesz önálló frissítésként 2022 júniusában.
 
 ## <a name="update-release-44"></a>44-ös frissítési kiadás
 
@@ -39,4 +39,4 @@ A következő problémák kerültek kijavításra.
 
 **Idő és költség**
 
-- A késleltetett rendszerfeladatok megakadályozták a függőben lévő jóváhagyások feldolgozását.
+- A elhalasztott rendszerfeladatok megakadályozták a függőben lévő jóváhagyások feldolgozását.

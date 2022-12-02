@@ -1,6 +1,6 @@
 ---
 title: Árképzési dimenziók áttekintése
-description: Ez a cikk a Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations árazási dimenzióiról nyújt információkat.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ A Dynamics 365 Project Operations alapértelmezett árképzési dimenziókkal re
 
 ![Képernyőkép a Project Service paramétereiről az „Értékesítésre vonatkozó” mező kiemelésével.](media/PS-OOB-parameters.png)
 
-Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információt a következő cikkekben talál. 
+Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információért tekintse át a következő cikkeket. 
   
   > [!NOTE]
   > Az eljárásokat a felsorolás sorrendjében kell elvégezni.

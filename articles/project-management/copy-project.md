@@ -1,6 +1,6 @@
 ---
 title: Projekt másolása
-description: Ez a cikk a projektek másolásáról nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk információkat nyújt a projektek másolásáról a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
@@ -25,14 +25,14 @@ A Dynamics 365 Project Operations segítségével gyorsan építhet új projekte
 - Projektbecslések
 - Projekt költségbecslései
 - Projektanyag-becslések
-- Projekt ellenőrzőlisták
-- Projekt gyűjtők
+- Projekt-ellenőrzőlisták
+- Projektgyűjtők
 
 ## <a name="project-properties"></a>Projekt tulajdonságai
 
-A projekt másolásakor a rendszer a következő mezőkben lévő értékeket másolja.
+A projekt másolásakor a következő mezők értékei kerülnek másolásra.
 
-| Mező | Projektműveletek nem raktározott anyagok | Projektműveletek Lite | Webes projekt |
+| Mező | Project Operations – nem készletezett anyagok | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ A projekt másolásakor a rendszer a következő mezőkben lévő értékeket m�
 | Teljes projektállapot | :heavy_check_mark: | :heavy_check_mark: | |
 | Hozzászólások | :heavy_check_mark: | :heavy_check_mark: | |
 | Becslések | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Becsült kezdő dátum</p><p><strong>Megjegyzés:</strong> Ez a mező azt a dátumot határozza meg, amikor a projekt létrejön a másolatból. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Becsült befejezési dátum</p><p><strong>Megjegyzés:</strong> Az ebben a mezőben szereplő dátum az új projekt másolatból készült kezdési dátuma alapján módosul.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Becsült kezdő dátum</p><p><strong>Megjegyzés:</strong> Ez a mező azt a dátumot határozza meg, amikor a projektet létrehozzák a másolatból. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Becsült befejezési dátum</p><p><strong>Megjegyzés:</strong> A dátum ebben a mezőben másolatból készített új projekt kezdési dátumából van korrigálva.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Munkamennyiség (óra) | :heavy_check_mark: | :heavy_check_mark: | |
 | Becsült munkaköltség | :heavy_check_mark: | :heavy_check_mark: | |
 | Becsült önköltség | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ A projekt másolásakor a rendszer a következő mezőkben lévő értékeket m�
 
 ## <a name="work-breakdown-structure"></a>Munkalebontási struktúra
 
-A projekt másolásakor a teljes erőforrásokkal feltöltött munkalebontási struktúra másolódik. A megnevezett erőforrások helyébe általános erőforrások lépnek. Ha a megnevezett erőforrások nem rendelkeznek az általános erőforrással megegyező munkaidővel, a rendszer újraszámítja az ütemezést, és a tevékenység időtartama változhat.
+A projekt másolásakor a teljes erőforrásokkal feltöltött munkalebontási struktúra másolódik. A megnevezett erőforrások helyébe általános erőforrások lépnek. Ha a megnevezett erőforrások nem rendelkeznek az általános erőforrással megegyező munkaidővel, az ütemezés újraszámításra kerül, és a feladatok időtartama változhat.
 
 ## <a name="project-team-members"></a>Projektcsoporttagok
 
 Amikor egy projektcsoportot a forrásprojektből másol, az általános erőforrásokat átmásolja a program. Az általános erőforrások hozzárendelései szintén megmaradnak, ahogy a forrásprojektben voltak. A megnevezett erőforrásokat a rendszer általános csapattagokká alakítja.
 
 > [!NOTE]
-> A csapattagok és a hozzárendelések nem lesznek átmásolva a Webes Projektben.
+> A csoporttagokat és a hozzárendeléseket a rendszer nem másolja a Project for the Web szolgáltatásba.
 
 ## <a name="estimates"></a>Becslések
 
@@ -75,6 +75,6 @@ A projektek másolásának programozott elérésével kapcsolatos tudnivalók a 
 
 ## <a name="quotes-and-contracts"></a>Árajánlatok és szerződések
 
-Az árajánlatok és szerződések nem kapcsolódnak a célprojekthez.
+Az ajánlatok és szerződések nem kapcsolódnak a cél projekthez.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

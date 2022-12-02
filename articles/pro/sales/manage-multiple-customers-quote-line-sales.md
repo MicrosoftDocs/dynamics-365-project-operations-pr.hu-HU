@@ -1,6 +1,6 @@
 ---
 title: Több ügyfél kezelése projektalapú árajánlatsorokon - Lite
-description: Ez a cikk azt ismerteti, hogyan kezelhet több ügyfelet projektalapú árajánlatsorokon.
+description: Ez a cikk azt ismerteti, hogyan lehet több ügyfelet kezelni projektalapú árajánlatsorokban.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

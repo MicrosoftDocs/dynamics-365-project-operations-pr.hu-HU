@@ -1,6 +1,6 @@
 ---
 title: Az erőforrás-követelmények teljesítése
-description: Ez a cikk az erőforrás-követelmények teljesítéséről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt az erőforrás-követelmények teljesítéséről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Erőforrásokhoz kapcsolódó idő pénzügyi becslései projekteknél
-description: Ez a cikk az időre vonatkozó pénzügyi becslések kiszámításának módjáról nyújt tájékoztatást.
+description: Ez a cikk az idő pénzügyi becslésének kiszámításáról nyújt tájékoztatást.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekt állapotának megismerése
-description: Ez a cikk a projektekhez rendelt állapotról nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations alkalmazásban található projektekhez rendelt állapotokkal kapcsolatos információkat biztosít.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

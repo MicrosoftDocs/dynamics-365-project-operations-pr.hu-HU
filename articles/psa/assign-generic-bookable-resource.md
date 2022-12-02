@@ -1,6 +1,6 @@
 ---
 title: Általános foglalható erőforrások hozzárendelése egy feladathoz és projektcsoporthoz
-description: Ez a cikk az általános erőforrások tevékenységekhez és projektcsapatokhoz való foglalásáról nyújt tájékoztatást.
+description: Ez a cikk információt nyújt az általános erőforrásoknak a feladatokhoz és a projektcsoportokhoz való foglalásáról.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Árajánlat lezárása - Lite
-description: Ez a cikk az árajánlatok project operationsben való lezárásáról nyújt tájékoztatást.
+description: Ez a cikk az árajánlatok Project Operationsben való lezárásáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

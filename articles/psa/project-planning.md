@@ -1,6 +1,6 @@
 ---
 title: Projekttervezési kezdőlap
-description: Ez a cikk a projekttervezéssel kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projekttervezésről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ A PSA projektmenedzsment eszközei segítenek a projektek egyszerű futtatásáb
 - Előrejelzés a folyamatban lévő projektek erőforrásigényeiről.
 - A projektek sikeres végrehajtása az előrehaladás és a költségfogyasztás nyomon követésével.
 
-A következő cikkek olyan információkat tartalmaznak, amelyek segítenek a projektmenedzsereknek a munka becslésében, a projektköltségek becslésében és az erőforrás-követelmények előrejelzésében a PSA által támogatott eszközök használatával:
+A következő cikkek olyan információkat nyújtanak, amelyek a PSA által támogatott eszközök használatával segítenek a projektmenedzsereknek a munka megbecslésében, a projektköltségek megbecslésében és az erőforrásigény előrejelzésében:
 
 - [Ütemezés létrehozása](project-creating.md)
 - [A projekt költségének és bevételének megbecslése](project-estimating.md)

@@ -1,6 +1,6 @@
 ---
 title: Projektütemezési API teljesítménye
-description: Ez a cikk a Projektütemezési API-k teljesítmény-referenciaértékeiről nyújt tájékoztatást, és azonosítja az optimális használatot szolgáló ajánlott eljárásokat.
+description: Ez a cikk nyújt tájékoztatást a projektütemezési API-k teljesítménymutatóiról, valamint gyakorlati megoldásokat tartalmaz az optimális használathoz.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911185"
 
 _**A következőre érvényes:** Project Operations erőforrás / nem készletezett alapú forgatókönyvek, Lite telepítése – üzlet a proforma számlázáshoz, Project for the Web_
 
-Ez a cikk a Project ütemezési alkalmazásprogramozási felületeinek (API-k) teljesítmény-teljesítménytesztjeiről nyújt tájékoztatást, és ismerteti a használat optimalizálásának ajánlott eljárásait.
+Ez a cikk nyújt tájékoztatást a projektütemezési alkalmazás programozási interfészek (API-k) teljesítménymutatóiról, valamint a legjobb gyakorlati megoldásokat tartalmazza a használat optimalitálásához.
 
 ## <a name="project-scheduling-service"></a>Projektütemezési szolgáltatás
 A Projektütemezési szolgáltatás egy többbérlős szolgáltatás, amely a Microsoft Azure szolgáltatásban fut. Az együttműködés gyors és folyamatos használatot biztosít a felhasználók számára a projekteken való munka során. Ez a változáskérések elfogadásával, feldolgozásával, majd az eredmény azonnali visszaküldésával érhető el. A szolgáltatás aszinkron módon kitart a Dataverse mellett, és nem tiltja a felhasználókat más műveletek elvégzésében.
 
-A Projektütemezés API-k a Projektütemezés szolgáltatásra támaszkodnak a cikk későbbi szakaszaiban részletesebben ismertetett kérések futtatásához.
+A projektütemezési API-k a Projektütemező szolgáltatásra támaszkodnak olyan kérelmek futtatásához, amelyeket a cikk későbbi szakaszaiban részletesebben ismertetünk.
 
 A projekt ütemezési API-k úgy vannak kialakítva, hogy együttműködjön a munkalebontási struktúra (WBS) entitásokkal:
 

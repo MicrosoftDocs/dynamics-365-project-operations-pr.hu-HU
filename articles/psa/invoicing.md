@@ -1,6 +1,6 @@
 ---
 title: Számlázás a Project Service Automation alkalmazásban
-description: Ez a cikk a számlázással kapcsolatos információkat tartalmaz.
+description: Ez a cikk a számlázással kapcsolatban nyújt információkat.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Miután a **ProcessRunner** munkafolyamat futtatása befejeződött, meghívja a
 A számlák létrehozására szolgáló kötegelt folyamat feladat ismétlődő feladat. Ha ezt a kötegelt folyamatot többször futtatja, akkor a feladatból több példány jön létre, és hibákat okoz. Ezért a kötegelt folyamatot csak egyszer kell elindítania, és csak akkor kell újraindítania, ha az leáll.
 
 > [!NOTE]
-> A Project Service Automation alkalmazásban a kötegelt számlázás csak azoknál a projekt-szerződéssoroknál fut, amelyeket a számlák ütemezései konfigurálnak. A rögzített árú számlázási móddal rendelkező szerződéssornál a mérföldkövek konfigurálása szükséges. Az idő-és anyagelszámolású számlázási móddal rendelkező projekt-szerződéssorok esetében el kell végezni a dátum alapú számlázási ütemezés beállítását. A számlázási gyakoriságok beállításáról egy árajánlaton alapuló projekt összefüggésében az Árajánlatok és árajánlatsorok című cikkben [található információk](basic-quote-lines.md#invoice-schedule). Ugyanez érvényes a projektalapú szerződéssor esetében is.      
+> A Project Service Automation alkalmazásban a kötegelt számlázás csak azoknál a projekt-szerződéssoroknál fut, amelyeket a számlák ütemezései konfigurálnak. A rögzített árú számlázási móddal rendelkező szerződéssornál a mérföldkövek konfigurálása szükséges. Az idő-és anyagelszámolású számlázási móddal rendelkező projekt-szerződéssorok esetében el kell végezni a dátum alapú számlázási ütemezés beállítását. A számlázási gyakoriság egy ajánlati soron alapuló projekt környezetében történő beállításával kapcsolatos információk az [Árajánlatok és árajánlatsorok](basic-quote-lines.md#invoice-schedule) cikkben találhatók. Ugyanez érvényes a projektalapú szerződéssor esetében is.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA számlavázlat szerkesztése
 

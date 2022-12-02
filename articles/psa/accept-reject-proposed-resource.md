@@ -1,6 +1,6 @@
 ---
 title: Projekterőforrás-ajánlat elfogadása vagy elutasítása
-description: Ez a cikk a javasolt projekterőforrás jóváhagyásáról vagy elutasításáról nyújt tájékoztatást.
+description: Ez a cikk projekterőforrás-ajánlatok jóváhagyásával vagy elutasításával kapcsolatban tartalmaz tájékoztatást.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916199"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ez a cikk a javasolt projekterőforrás jóváhagyásáról vagy elutasításáról nyújt tájékoztatást.
+Ez a cikk projekterőforrás-ajánlatok jóváhagyásával vagy elutasításával kapcsolatban tartalmaz tájékoztatást.
 
 Amikor egy erőforrás-kezelő egy elnevezett erőforrást ajánl egy projekt általános erőforrás-kérelmének kitöltéséhez, a rendszer frissíti az általános csoporttag **Kérelem állapota** mezőjét a következőre: **Ellenőrzés szükséges**. A kérelmet a program elküldi jóváhagyásra vagy elutasításra a projektmenedzsernek.
 

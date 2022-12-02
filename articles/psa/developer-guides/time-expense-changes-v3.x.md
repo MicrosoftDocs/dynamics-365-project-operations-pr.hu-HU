@@ -1,6 +1,6 @@
 ---
 title: Idő és Költség változások (Project Service Automation 3.x)
-description: Ez a cikk az Idő és a költség megoldásának változásairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az idő- és költségmegoldások változásairól.
 author: makk
 ms.custom:
 - dyn365-projectservice

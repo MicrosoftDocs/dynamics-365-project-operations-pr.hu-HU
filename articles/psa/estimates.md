@@ -1,6 +1,6 @@
 ---
 title: Becslések
-description: Ez a cikk a becslésekről nyújt tájékoztatást Dynamics 365 Project Service Automation.
+description: Ez a cikk információkat nyújt a becslésekről a Dynamics 365 Project Service Automation rendszerben.
 author: rumant
 ms.custom:
 - dyn365-projectservice

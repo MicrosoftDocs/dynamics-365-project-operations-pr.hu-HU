@@ -1,6 +1,6 @@
 ---
 title: Utazási kérelmek
-description: Ez a cikk az utazási igénylésekről nyújt tájékoztatást.
+description: Ez a cikk az utazási kérelmekről tartalmaz információkat.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

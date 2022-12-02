@@ -1,6 +1,6 @@
 ---
 title: Fő fogalmak
-description: Ez a cikk a Project Service Automation erőforrás-kezelésének kulcsfogalmairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az erőforrás-kezelés kulcsfontosságú koncepcióiról a Project Service Automation területén.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

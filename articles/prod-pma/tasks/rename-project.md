@@ -24,7 +24,7 @@ ms.locfileid: "8683863"
 
 [!include [banner](../../includes/banner.md)]
 
-A projektfázisok útmutatóul szolgálhatnak a projekt életciklusához. Megadhatja azokat a projektfázisokat, amelyeket szerepeltetni szeretne a projektekben a Projektmenedzsment és könyvelési paraméterek oldal Projektfázis területén. Dynamics 365 Finance öt előre definiált projektszakaszt és három felhasználó által definiált szakaszt biztosít. A projektek előrehaladásának nyomon követéséhez a használt projektfázis nevét frissítheti. A felhasználó által definiált állapotnevek is megadhatók. Ez a feladat azt mutatja be, hogyan lehet átnevezni vagy módosítani egy projektfázist, és a USSI adatkészlet használatát.
+A projektfázisok útmutatóul szolgálhatnak a projekt életciklusához. Megadhatja azokat a projektfázisokat, amelyeket szerepeltetni szeretne a projektekben a Projektmenedzsment és könyvelési paraméterek oldal Projektfázis területén. A Dynamics 365 Finance öt előre definiált projektfázist és három felhasználó által megadott fázist biztosít. A projektek előrehaladásának nyomon követéséhez a használt projektfázis nevét frissítheti. A felhasználó által definiált állapotnevek is megadhatók. Ez a feladat azt mutatja be, hogyan lehet átnevezni vagy módosítani egy projektfázist, és a USSI adatkészlet használatát.
 
 1. Lépjen a Projektmenedzsment és könyvelés > Beállítás > Projektmenedzsment és könyvelési paraméterek lehetőségre.
 2. Kattintson a Projektfázis lapra.

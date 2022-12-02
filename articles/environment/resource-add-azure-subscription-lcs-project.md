@@ -1,6 +1,6 @@
 ---
 title: Azure-előfizetés hozzáadása LCS-projekthez
-description: Ez a cikk arról nyújt tájékoztatást, hogyan csatlakoztathatja Azure-előfizetését egy LCS-projekthez.
+description: Ez a cikk az Azure-előfizetésnek egy LCS-projekttel való összekapcsolásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8912151"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A felhőalapú környezeteket meglévő Azure-előfizetések segítségével kell telepíteni. Ez a cikk azt ismerteti, hogyan csatlakoztathatja meglévő Azure-előfizetését egy LCS-projekthez. 
+A felhőalapú környezeteket meglévő Azure-előfizetések segítségével kell telepíteni. Ez a cikk bemutatja a meglévő Azure-előfizetésének egy LCS-projekttel való összekapcsolását. 
 
 ## <a name="grant-admin-consent"></a>Rendszergazdai jóváhagyás megadása
 
@@ -59,13 +59,13 @@ Az engedélyezés most már kész.
 2. Adja meg az Azure-előfizetés azonosítóját. Az Azure-előfizetésének azonosítóját az [Azure Portal](https://ms.portal.azure.com/) webhelyen, a képernyő bal alsó részén található **Beállítások** alatt találja.
 3. Az **Azure Resource Manager használatának konfigurálása** mezőben válassza az **Igen** lehetőséget.
 4. Ügyeljen arra, hogy az Azure-előfizetésének AAD bérlői tartománya megfeleljen a tartományt birtokló Azure-előfizetésnek, amelyet használ, és válassza a **Következő** lehetőséget.
-5. A **Microsoft Azure beállítása** képernyőn válassza a **Tovább** lehetőséget a megerősítéshez. Ha hibaüzenetet kap ezen a képernyőn, térjen vissza a cikk A Dynamics Deployment Services hozzáférésének biztosítása az Azure-előfizetéshez [című szakaszához](#provide), és győződjön meg arról, hogy elvégezte az összes lépést.
+5. A **Microsoft Azure beállítása** képernyőn válassza a **Tovább** lehetőséget a megerősítéshez. Ha a képernyőn hibaüzenet jelenik meg, akkor térjen vissza a cikk [Hozzáférés biztosítása a Dynamics Deployment Services számára az Azure-előfizetéshez](#provide) szakaszához, és ellenőrizze, hogy az összes lépést végrehajtotta-e.
 6. Töltse le az Azure felügyeleti tanúsítványt a számítógép egy helyi mappájába. Kérje meg az Azure előfizetés-rendszergazdát, hogy töltse fel a tanúsítványt az Azure felügyeleti portálra az előfizetés kiválasztásával és a **Beállítások** > **Felügyeleti tanúsítványok** pontra lépve. Ez a tanúsítvány teszi lehetővé, hogy a LCS az Ön nevében kommunikáljon az Azure-ral. Ezt a lépést kihagyhatja, ha a felhasználó hozzáféréssel rendelkezik az előfizetéshez.
 7. Válassza a **Következő** lehetőséget.
 8. Válassza ki a telepítendő Azure-régiót, és jelöljön ki egy olyan adatközpontot, amely közel van ahhoz a helyhez, ahol a rendszert használni kívánja.
 9.  Válassza a **Kapcsolódás** lehetőséget.
 
-Sikeresen kapcsolódott az Azure-előfizetéséhez. Mostantól üzembe helyezheti Dynamics 365 Finance felhőben üzemeltetett környezetekben.
+Sikeresen kapcsolódott az Azure-előfizetéséhez. Most már telepítheti a Dynamics 365 Finance felhőalapú környezeteit.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Erőforrások kezelése
-description: Ez a cikk az erőforrások kezelésének módjáról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az erőforrások kezeléséről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

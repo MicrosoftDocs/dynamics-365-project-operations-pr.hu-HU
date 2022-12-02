@@ -1,6 +1,6 @@
 ---
-title: Pénznemek eltérési hibája
-description: Ez a cikk hibaelhárítási információkat tartalmaz egy pénznemeltéreltérési hibáról, amely adott rekordtípusok mentésekor következik be.
+title: Pénznemeltérés hiba
+description: Ez a cikk a bizonyos bejegyzéstípusok mentésekor jelentkező a pénznemeltérés hibával kapcsolatos hibaelhárítási információikat biztosít.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8914727"
 ---
-# <a name="currency-mismatch-error"></a>Pénznemek eltérési hibája 
+# <a name="currency-mismatch-error"></a>Pénznemeltérés hiba 
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Projekt, szerződés, árajánlat vagy foglalható erőforrás mentésekor a következő hibaüzenet jelenhet meg: **A vállalat pénznemének birtoklása nem egyezik meg a szerződő egység pénznemével. A folytatáshoz válasszon másik tulajdonosi társaságot vagy szerződéses egységet**. Ennek az az oka, hogy devizaeltérés van a rekordra vonatkozó szerződéses egység pénzneme és a tulajdonos cég pénzneme között.
+Egy projekt, szerződés, árajánlat vagy foglalható erőforrás mentésekor a **A tulajdonosként megadott vállalat pénzneme nem egyezik meg a szerződő egység pénznemével. A folytatáshoz válasszon másik vállalatot vagy szerződő egységet a projektszerződéshez** hiba jelenthet meg. Ez azért van így, mert a rekord szerződő egységének pénzneme nem egyezik meg a tulajdonos vállalat pénznemével.
 
 
 ## <a name="resolution"></a>Felbontás
 
-A probléma megoldásához tegye a következőket:
-- Ellenőrizze a rekord szerződő egységének pénznemét. A pénznemet úgy tekintheti meg, hogy megnyitja a szervezeti egység rekordját, és ellenőrzi az értéket a **Pénznem** **mező Általános** lapján.
-- Ellenőrizze a tulajdonos társaság pénznemét. A pénznemet **a Vállalati rekordban a Kapcsolódó** > **főkönyvek** menüpontban tekintheti meg. Kattintson duplán a vállalathoz társított főkönyvi rekordra, és ellenőrizze az értéket a **Könyvelési pénznem** mező Általános lapján.**·**
+A probléma megkerüléséhez tegye a következőket:
+- Ellenőrizze a rekordhoz tartozó a szerződő egység pénznemét. A pénznem a szervezeti egység rekordjának megnyitása után az **Általános** lapon található **Pénznem** mezőben láthatja.
+- A tulajdonos vállalat pénznemének ellenőrzése. A pénznem a vállalat rekordjában a **Kapcsolódó** > **Főkönyvek** menüben láthatja. Kattintson duplán a vállalathoz társított főkönyvi rekordra, és ellenőrizze a **Könyvelési pénznem** mezőben az **Általános** lapon.
 
-Ha a szerződő egységben beállított pénznem és a főkönyvi rekord nem egyezik, módosítsa a konfigurációt, vagy válasszon különböző értékeket a rekord mentésekor. A rendszer megköveteli, hogy ezek a rekordok egyezzenek a vállalatközi számlázási folyamatok megfelelő biztosítása érdekében. További információ a vállalatközi konfigurációkról: [Vállalatközi tranzakciók](../../project-accounting/create-intercompany-transactions.md) létrehozása.
+Ha a szerződő egységben és a főkönyvi rekordban beállított pénznem nem egyezik, módosítsa a konfigurációt, vagy válasszon más értékeket a bejegyzés mentésekor. A rendszer megköveteli, hogy ezek a bejegyzések megegyezzenek a megfelelő vállalatközi számlázási folyamatok biztosításához. Az vállalatközi konfigurációkról további tudnivalókat a [Vállalatközi tranzakciók létrehozása](../../project-accounting/create-intercompany-transactions.md) szakasz tartalmaz.
 
-Ha a vállalati rekordhoz nincs társított főkönyvi rekord, ez azt jelzi, hogy hiányzik a konfiguráció a környezet beállításakor. A konfigurációt a rendszergazdának ki kell javítania. A rendszergazdának a Kettős írás konfigurációkhoz **kell mennie,** és le kell állítania és újra kell indítania **a Főkönyvek kettős írású leképezését** a térkép kezdeti szinkronizálásával és annak előfeltételeivel. További információért lásd: [Project Operations kettős írásos térképverziók](../../environment/resource-dual-write-maps.md).
+Ha a vállalati rekordhoz nincs hozzárendelve főkönyvi bejegyzés, ez azt jelzi, hogy a környezet beállításakor hiányzik egy konfiguráció. A konfigurációt a rendszergazdának kell kijavítania. A rendszergazdának meg kell nyitnia a **Kettős írási konfigurációkat**, és le kell állítania és újra kell indítania **Főkönyvek kettős írású leképezését** a leképezés kezdeti szinkronizálásával és az előfeltételekkel. További információért lásd: [Project Operations kettős írásos térképverziók](../../environment/resource-dual-write-maps.md).

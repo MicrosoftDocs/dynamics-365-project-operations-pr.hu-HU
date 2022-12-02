@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2022. február – Project Operations Lite központi telepítés
-description: Ez a cikk a Project Operations egyszerűsített telepítésének 2022. februári kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations lite telepítés 2022. februári kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -18,22 +18,22 @@ ms.locfileid: "8922823"
 
 _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a következő Microsoft Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Project Operations egy Dataverse környezeti verzióban 4.28.0.120
+- Project Operations 4.28.0.120 verziójú Dataverse-környezetben
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
-Ettől a kiadástól kezdve akár 300 csapattagot is hozzáadhat egyetlen projekthez. Korábban a csapattagok számának korlátja 150 volt. További információ: [Projektkorlátok](../../project-management/create-wbs.md#project-limitations).
+A kiadást követően egy projekthez legfeljebb 300 csoporttagot adhat hozzá. Korábban a csoporttagok számának korlátozása 150 volt. További információ: [Projektkorlátok](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
-| Számlázás és árképzés | 2497369 | Az anyagkorrekciónak követnie kell a **korrekciós** paraméterek dátumértékét. |
-| Számlázás és árképzés | 2498697 | Továbbfejlesztettük az Időbevitel visszahívásának biztonsági **konfigurációját**. |
-| Számlázás és árképzés | 2517455 | A **Frissített számlasor-tranzakciók** művelet nem aktiválható egyszerre többször is ugyanazon számla esetében. |
-| Számlázás és árképzés | 2517465 | A **Számlasor részleteinek** inaktiválása művelet le van tiltva, mert nem támogatott. |
-| Számlázás és árképzés | 2556660 | Rögzítettük a projektparaméter-rekordhoz csatolt árlistán végzett dátum-hatékonysági ellenőrzéseket. |
-|   Lehetőségkezelés | 2369202 | Kijavítottuk azt az üzleti logikát, amely ellenőrzi, hogy az egymást átfedő hatásidőpontokkal rendelkező árlisták csatolhatók-e ugyanahhoz a projektszerződéshez. |
-|   Lehetőségkezelés | 2385965 | Kijavítottuk a viselkedést a **Projektszerződés** oldal Vevők **lapján, amikor a** Mentés és bezárás **lehetőséget választotta**. |
+| Számlázás és árképzés | 2497369. | Az anyagkorrekciónak a **Korrekció** paraméterekben megadott dátumértéket kell követnie. |
+| Számlázás és árképzés | 2498697. | Javított a biztonsági beállításokat az **Időbevitel visszahívása** elemhez. |
+| Számlázás és árképzés | 2517455. | A **Frissített számlasor-tranzakciók** művelet nem aktiválható egyszerre több alkalommal ugyanahhoz a számlához. |
+| Számlázás és árképzés | 2517465. | A **Számlasor részleteinek inaktiválása** művelet le van tiltva, mert az nem támogatott. |
+| Számlázás és árképzés | 2556660. | Javítva lettek projektparaméter-rekordhoz csatolt árlistán végzett érvényességidátum-ellenőrzést. |
+|   Lehetőségkezelés | 2369202. | Javítva lett az üzleti logika, amely ellenőrzi, hogy ugyanahhoz a projektszerződéshez csatolhatók-e az egymást átfedő dátumokat tartalmazó árlisták. |
+|   Lehetőségkezelés | 2385965. | Kijavította a viselkedést a **Projektszerződés** oldal **Ügyfelek** lapján, amikor a **Mentés és bezárás** lehetőséget választja. |

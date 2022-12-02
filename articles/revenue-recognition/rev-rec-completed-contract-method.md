@@ -1,6 +1,6 @@
 ---
 title: Bevételi becslések kezelése
-description: Ez a cikk a projektek bevételi becsléseivel kapcsolatos munka részleteiről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a bevételi becslések használatához a projektekhez.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928481"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Bevételi becsléseket hozhat létre, számíthat ki, könyvelhet, sztornírozhat vagy szűntethet meg. Ezt manuálisan vagy egy időszakos folyamattal teheti meg. Ez a cikk a projektek bevételi becsléseivel kapcsolatos munka részleteiről nyújt tájékoztatást.
+Bevételi becsléseket hozhat létre, számíthat ki, könyvelhet, sztornírozhat vagy szűntethet meg. Ezt manuálisan vagy egy időszakos folyamattal teheti meg. Ez a cikk információt nyújt a bevételi becslések használatához a projektekhez.
 
 ### <a name="manage-revenue-estimates-manually"></a>Bevételi becslések kezelése manuálisan
 

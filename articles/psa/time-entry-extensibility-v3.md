@@ -1,6 +1,6 @@
 ---
 title: Heti időbejegyzés testreszabása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan valósíthat meg olyan egyéni üzleti szabályokat, amelyek támogatják a szervezet gyakorlatait.
+description: Ez a cikk ismerteti az egyéni üzleti szabályok végrehajtásának módját, amelyek támogatják a szervezet gyakorlatait.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ A **Dimenziók** szakasz oszlopfejlécként mutatja az összes olyan méretet, a
 - Típus
 - Bejegyzés állapota
 
-A **Dimenziók** szakasz nem engedi meg a sorszerkesztést. Ezt a részt egy olyan nézet támogatja, amely lehetővé teszi az egyedi mezők hozzáadását a heti időbeviteli rácshoz. Az egyéni mezők hozzáadásával kapcsolatos információkért tekintse meg a cikk későbbi, "Bővíthetőség" című szakaszát.
+A **Dimenziók** szakasz nem engedi meg a sorszerkesztést. Ezt a részt egy olyan nézet támogatja, amely lehetővé teszi az egyedi mezők hozzáadását a heti időbeviteli rácshoz. Az egyéni mezők hozzáadásával kapcsolatos információkat a cikk későbbi szakaszában, a „Bővíthetőség” szakaszban talál.
 
 ### <a name="duration"></a>Duration
 Az Időtartam szakasz a hét napjait mutatja oszlopfejlécként. Ez a szakasz lehetővé teszi a belső szerkesztést. Miután létrehozott egy időbeviteli sort, amely rendelkezik megfelelő dimenziókkal, a felhasználók gyorsan bevihetik az ezen dimenziókra fordított időt.

@@ -1,6 +1,6 @@
 ---
 title: Jelentéskészítő útmutató
-description: Ez a cikk a jelentésekkel kapcsolatos információkra mutató hivatkozásokat tartalmaz.
+description: Ez a cikk linkeket tartalmaz a jelentéssel kapcsolatos információkhoz.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919189"
 
 Az alkalmazás jelentési módszerei és technológiái segíthetnek meghatározni a projektek állapotát, és meghatározni, mikor kell korrekciós lépéseket tenni. 
 
-A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
+A cikkben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi cikkekbe:
 
 - [Jelentés kezdőlapja](../reports-reporting-dynamics-365-project-service.md)
 - [Irányítópultok](../reports-dashboards.md)
 - [A Project Service Automation adatmodelljével való együttműködés](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
+> Ez a cikk egy későbbi dokumentációs frissítésben kerül eltávolításra. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

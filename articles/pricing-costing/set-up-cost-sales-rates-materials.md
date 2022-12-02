@@ -1,6 +1,6 @@
 ---
 title: Költség- és értékesítési árak beállítása az anyagokhoz
-description: Ez a cikk a projektekhez használt anyagok költség- és értékesítési díjainak beállításáról nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a projektekben használt anyagok költség- és értékesítési díjának beállításáról.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ A termékek költség- és értékesítési díjának beállításához végezze
 2. Az **Árlistaelemek** menüben válassza az **Új árlistaelem** lehetőséget. 
 3. A **Gyors létrehozás** lapon adja meg azt a terméket és kiszerelést, amelyhez az új árat létrehozza.
 
-A katalóguscikkek árainak meghatározásával kapcsolatos további információkért lásd: [Termékárak meghatározása árlistákkal és árlistaelemekkel](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products), [valamint Decimális pontosság pénznemben és árképzésben](/dynamics365/sales/decimal-precision-currency-pricing).
+A katalogizált cikkek árának meghatározásáról a [Termékek díjszabásának definiálása árlistákkal és árlistaelemekkel](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) és a [Tizedesjegypontosság pénznemben és árképzésben](/dynamics365/sales/decimal-precision-currency-pricing) részben talál további információt.
 > [!NOTE]
-> Dynamics 365 Project Operations nem támogatja a dynamics 365 Sales-ként használt termékek összes árképzési módszerét. A projektekben használt termékek esetében az egyetlen támogatott árképzési módszer a *Pénznem összege*.
+> A Dynamics 365 Project Operations nem támogatja az összes árképzési módszert, mint a Dynamics 365 Sales termékként. A projekteken használható termékek esetén az egyetlen támogatott árképzési mód a *Pénznem összege*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

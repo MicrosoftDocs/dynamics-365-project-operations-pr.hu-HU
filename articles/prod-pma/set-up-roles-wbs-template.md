@@ -1,6 +1,6 @@
 ---
 title: Szerepkörök beállítása a munkalebontási struktúra sablonjaihoz
-description: Ez a cikk a szerepkör-információk beállításáról nyújt tájékoztatást a Munkalebontási struktúra sablonjaiban.
+description: Ez a cikk a munkalebontási struktúra sablonok szerepkör-információinak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

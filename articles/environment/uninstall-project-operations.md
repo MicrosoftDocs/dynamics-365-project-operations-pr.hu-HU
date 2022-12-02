@@ -1,6 +1,6 @@
 ---
 title: A(z) Dynamics 365 Project Operations eltávolítása
-description: Ez a cikk az eltávolítás módjáról nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk információkat ad arról, hogyan távolítható el a Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Az Dynamics 365 Project Operations eltávolításhoz rendszergazdai szerepkörre
     | 6 | ProjectServiceCore_Patch                           | Nincsenek további megjegyzések.                                                                         |
     | 7 | ProjectServiceCore                                 | Nincsenek további megjegyzések.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Ha nem található, hagyja ki ezt a megoldást.                                                            |
-    | 9 | FieldServiceCommon                                 | Szükséges a kettős íráshoz Dynamics 365 Finance vagy Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Szükséges a kettős íráshoz Dynamics 365 Finance vagy Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Szükséges a Dynamics 365 Finance vagy a Dynamics 365 Supply Chain Management kettős írásához.   |
+    | 10 | msdyn_AssetCommon                                  | Szükséges a Dynamics 365 Finance vagy a Dynamics 365 Supply Chain Management kettős írásához.   |
     | 11 | msdyn_TESA_Anchor                                  | A Dynamics 365 Field Service használatához szükséges.                                                     |
     | 12 | msdyn_TESA_Patch                                   | A Dynamics 365 Field Service használatához szükséges.                                                     |
     | 13 | msdyn_TESA                                         | A Dynamics 365 Field Service használatához szükséges.                                                     |

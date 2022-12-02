@@ -1,6 +1,6 @@
 ---
 title: Speciális szerződések létrehozása folyamatalapú számlázáshoz
-description: Ez a cikk bemutatja, hogyan hozhat létre projektszerződéseket, hogy a befejezett munka százalékos aránya alapján számlákat hozhasson létre a vevők számára.
+description: Ez a cikk elmagyarázza, hogyan hozhatók létre a projektszerződések, hogy a befejezett munkák aránya alapján számlákat lehessen létrehozni az ügyfelek számára.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913669"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Speciális szerződések létrehozása folyamatalapú számlázáshoz
 [!include [banner](../includes/banner.md)]
 
-Ez a cikk azt ismerteti, hogyan hozhat létre projektszerződéseket, hogy a befejezett munka százalékos aránya alapján számlákat hozhasson létre a vevők számára. A számlaösszegeket a program automatikusan kiszámítja a projekthez beállított, meghatározott költségvetési kategóriákhoz. A számla időzítését akkor adja meg a program, amikor egyezteti a projektszerződést az ügyféllel.
+Ez a cikk elmagyarázza, hogyan hozhatók létre a projektszerződések, hogy a befejezett munkák aránya alapján számlákat lehessen létrehozni az ügyfelek számára. A számlaösszegeket a program automatikusan kiszámítja a projekthez beállított, meghatározott költségvetési kategóriákhoz. A számla időzítését akkor adja meg a program, amikor egyezteti a projektszerződést az ügyféllel.
 
-A cikkben ismertetett eljárásokkal beállíthat egy szerződést, egy társított projektet, valamint azokat a számlázási szabályokat, amelyek a projekthez beállított költségvetési munkakategóriákhoz tartozó számlaösszegeket számítják ki.
+Az ebben a cikkben található eljárások segítségével beállíthat egy szerződést, egy társított projektet és a számlázási szabályokat, amelyek kiszámítják a projekthez beállított munkavégzési kategóriákhoz tartozó számlaösszegeket.
 
 A szerződés és a projekt létrehozása után beállíthatja a projekt részleteit. Megadhatja például a tevékenységeket, és a projekthez rendelheti a dolgozókat.
 

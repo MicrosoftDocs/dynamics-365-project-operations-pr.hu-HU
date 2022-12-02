@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2021. március – Project Operations Lite központi telepítés
-description: Ez a cikk a Project Operations lite telepítésének 2021. márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk információval szolgál a minőségi frissítésekről, amelyek a Project Operations Lite központi telepítés 2021 márciusi kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article

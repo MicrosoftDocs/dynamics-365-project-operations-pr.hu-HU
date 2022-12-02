@@ -1,6 +1,6 @@
 ---
-title: A belső projekt tényleges hatása
-description: Ez a cikk a Microsoft belső projektjének különböző eseményeire gyakorolt tényleges adatok táblázatára gyakorolt hatásról nyújt tájékoztatást Dynamics 365 Project Operations.
+title: A tényadatok hatása egy belső projektben
+description: Ez a cikk a különböző események a Tényadatok táblára gyakorolt hatásról nyújt tájékoztatást egy belső projekthez Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -20,19 +20,19 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921351"
 ---
-# <a name="actuals-impact-for-an-internal-project"></a>A belső projekt tényleges hatása
+# <a name="actuals-impact-for-an-internal-project"></a>A tényadatok hatása egy belső projektben
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű központi telepítés – proforma számlázás_
 
-Az alábbi táblázat a belső projektmegjegyzés különböző eseményein létrehozott különböző tranzakciótípusok tényleges adatait sorolja fel.
+Az alábbi táblázat a különféle tranzakciótípusok tényadatait sorolja fel, amelyek egy belső projektben a különböző eseményekhez létrejönnek.
 
-| Esemény | Tényleges költség | Példa |
+| Event | Tényleges költség | Példa |
 |---|---|---|
-| Létrejön az idő. | Nem alkalmazható | <p>Bob Kozack, a Fabrikam amerikai szervezeti egységtől, amelynek költségaránya óránként 100 dollár (100 USD), egy "Arm Installation at Adatum" nevű projekten dolgozik. Ez a projekt egy rögzített árú számlázási módszerre van leképezve a szerződéssoron. Íme egy minta időbejegyzés Bob Kozaktól:</p><p>Bob Kozack - 8 óra</p> |
-| Az idő beküldésre kerül. | Nem alkalmazható | Létrejön egy költségnapló-sor az időbevitelhez. Az alapértelmezett bekerülési érték a naplóbejegyzésben kerül megírásra. |
-| A rendszer visszahívja az időbejáratot, mielőtt jóváhagyják. | Nem alkalmazható | |
-| Az idő jóváhagyásra kerül. | Létrejön egy tényleges költség. | <p>Új tényleges, létrehozott tényleges:</p><ul><li>**Tényleges költség:** Bob Kozack, 8 óra, USD 800</li></ul> |
-| Az idő-jóváhagyás megszakad. | <p>Az eredeti tényleges költség kiigazítási állapota Korrigáltra **frissül**.</p><p>Létrejön egy tényleges visszafordítási költség, amelynek kiigazítási **állapota Kiigazíthatatlan**.</p> | <p>Meglévő tényleges, frissített tényleges:</p><ul><li>**Tényleges költség:** Bob Kozack, 8 óra, USD 800, *korrigált*</li></ul><p>Új tényleges, amely a korábbi pénzügyi hatás visszafordítására jön létre:</p><ul><li>**Tényleges költség:** Bob Kozack, (8 óra), (800 USD), *Kiigazíthatatlan*</li></ul> |
-| Az időbevitelt a rendszer a jóváhagyás után visszahívja. | <p>Az eredeti tényleges költség kiigazítási állapota Korrigáltra **frissül**.</p><p>Létrejön egy tényleges visszafordítási költség, amelynek kiigazítási **állapota Kiigazíthatatlan**.</p> | <p>Meglévő tényleges, frissített tényleges:</p><ul><li>**Tényleges költség:** Bob Kozack, 8 óra, USD 800, *korrigált*</li></ul><p>Új tényleges, amely a korábbi pénzügyi hatás visszafordítására jön létre:</p><ul><li>**Tényleges költség:** Bob Kozack, (8 óra), (800 USD), *Kiigazíthatatlan*</li></ul> |
+| Létrehozás időpontja. | Nem alkalmazható | <p>Péter, a Fabrikam US szervezeti egységtől, amely 100 dollár (100 USD) óradíjjal dolgozik egy „Arm Installation at Adatum” nevű projekten dolgozik. Ez a projekt egy rögzített árú számlázási módra van leképezve a szerződéssoron. Íme Bob Balak minta időbevitele:</p><p>Bob Kozack – 8 óra</p> |
+| Idő benyújtva. | Nem alkalmazható | Az időbejegyzéshez létrejön egy költségnaplósor. Az alapértelmezett költségdíjat megadják a naplóbejegyzésben. |
+| A jóváhagyás előtt visszahívják az időbevitelt. | Nem alkalmazható | |
+| Az idő jóvá lett hagyva. | A tényleges költség létrejön. | <p>Létrehozott új tényadat:</p><ul><li>**Tényleges költség:** Bob Kozack, 8 óra, 800 USD</li></ul> |
+| Az időjóváhagyást visszavonják. | <p>A program az eredeti tényleges költség állapotát **Helyesbítve** értékre módosítja .</p><p>Létrejön egy sztornírozott költség tényadat amelynek helyesbítési állapota **Nem korrigálható**.</p> | <p>Frissített meglévő tényadat:</p><ul><li>**Tényleges költség:** Bob Kozack, 8 óra, 800 USD *Korrigált*</li></ul><p>Az előző pénzügyi hatás sztornírozásához létrehozott új tényadat:</p><ul><li>**Tényleges költség:** Bob Kozack (8 óra), (800 USD) *Nem korrigálható*</li></ul> |
+| A jóváhagyás után visszahívják az időbevitelt. | <p>A program az eredeti tényleges költség állapotát **Helyesbítve** értékre módosítja .</p><p>Létrejön egy sztornírozott költség tényadat amelynek helyesbítési állapota **Nem korrigálható**.</p> | <p>Frissített meglévő tényadat:</p><ul><li>**Tényleges költség:** Bob Kozack, 8 óra, 800 USD *Korrigált*</li></ul><p>Az előző pénzügyi hatás sztornírozásához létrehozott új tényadat:</p><ul><li>**Tényleges költség:** Bob Kozack (8 óra), (800 USD) *Nem korrigálható*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

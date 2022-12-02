@@ -1,6 +1,6 @@
 ---
 title: Ütemezési segéd áttekintése
-description: Ez a cikk az ütemezési segéddel az erőforrások lefoglalásához való használatáról nyújt tájékoztatást.
+description: Ez a cikk az erőforrások Ütemezési segéddel végzett foglalásához nyújt tájékoztatást.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

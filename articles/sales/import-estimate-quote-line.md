@@ -1,6 +1,6 @@
 ---
 title: Projektbecslések importálása egy projekt árajánlatsorhoz
-description: Ez a cikk a becslések projektből a projekt árajánlatsorába történő importálásáról nyújt tájékoztatást.
+description: Ez cikk a projektből történő becslések importálása egy projekt árajánlatsorába műveletről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

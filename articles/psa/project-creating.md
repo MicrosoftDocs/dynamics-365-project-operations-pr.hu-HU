@@ -1,6 +1,6 @@
 ---
 title: Projekt ütemezése
-description: Ez a cikk az ütemezések létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk információt nyújt az ütemezés létrehozásáról.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

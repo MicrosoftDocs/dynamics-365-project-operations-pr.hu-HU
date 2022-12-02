@@ -1,6 +1,6 @@
 ---
 title: Új egyéni entitás-űrlapok hozzáadása (Project Service Automation 2.x)
-description: Ez a cikk arról nyújt tájékoztatást, hogyan adhat hozzá egyéni entitásűrlapokat lehetőségekhez, árajánlatokhoz, rendelésekhez vagy számlákhoz a 2.x verzióban Dynamics 365 Project Service Automation.
+description: Ez a cikk a lehetőségekhez, ajánlatokhoz, megrendelésekhez és számlákhoz tartozó egyéni entitás-űrlapok hozzáadásával kapcsolatban tartalmaz tájékoztatást a Dynamics 365 Project Service Automation 2.x alkalmazásban.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Munkavégzés személyes kiadásokkal egy költségjelentésen
-description: Ez a cikk tájékoztatást nyújt arról, hogyan kell dolgozni az alkalmazottaknál az üzleti célú utazás során felmerült személyes költségekkel.
+description: Ez a cikk tájékoztatást nyújt arról, hogyan kell használni az üzleti céllal utazó alkalmazottak személyes kiadásait.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

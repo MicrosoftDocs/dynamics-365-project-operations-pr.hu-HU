@@ -1,6 +1,6 @@
 ---
 title: Anyaghasználat rögzítése projekteknél és projektfeladatoknál
-description: Ez a cikk a projektek és projekttevékenységek anyaghasználatának naplózásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információt nyújt arról, hogyan naplózhat anyaghasználatot projekteknél és projektfeladatoknál.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

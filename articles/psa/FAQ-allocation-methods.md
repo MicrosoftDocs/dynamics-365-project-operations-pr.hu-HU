@@ -1,6 +1,6 @@
 ---
 title: Foglaláselosztási módszerek a Project Service Automation alkalmazásban
-description: Ez a cikk a felosztások lefoglalásának különböző módjairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a beosztás lefoglalásának különféle módjairól.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

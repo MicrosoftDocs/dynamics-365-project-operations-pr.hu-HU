@@ -1,6 +1,6 @@
 ---
 title: Projektmenedzsment áttekintése
-description: Ez a cikk a projektmenedzsmentről nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk információkat nyújt a Projektmenedzsment beállításokról a Dynamics 365 Project Operations rendszerben.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

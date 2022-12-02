@@ -1,6 +1,6 @@
 ---
 title: Irányítópultok
-description: Ez a cikk a Dynamics 365 Project Service Automation.
+description: Ez a cikk a Dynamics 365 Project Service Automation részét képező jelentéskészítő műszerfalakkal kapcsolatos információkat nyújt.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Munkabérköltségek díjainak beállítása
-description: Ez a cikk tájékoztatást nyújt arról, hogyan állíthat be díjakat a munkaköltséghez Projektműveletek
+description: Ez a cikk a Project Operations munkabérköltségeire vonatkozó díjak beállításával kapcsolatban tartalmaz tájékoztatást
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Munka tervezése a Microsoft Projekt programban a Project Service bővítmény segítségével
-description: Ez a cikk a Microsoft Project Microsoft project szolgáltatáshoz való Microsoft Project bővítményének használatáról nyújt tájékoztatást.
+description: Ez a cikk a Microsoft Project Service Microsoft Project bővítményének használatával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

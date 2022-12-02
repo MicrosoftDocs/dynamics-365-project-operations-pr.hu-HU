@@ -1,6 +1,6 @@
 ---
 title: A telepítés típusának meghatározása
-description: Ez a cikk olyan információkat tartalmaz, amelyek segítségével meghatározhatja a Project-műveletek megfelelő telepítési típusát a vállalat számára.
+description: Ez a cikk a Project Operations az Ön vállalatának megfelelő telepítéstípusának megállapításában segítő információkat tartalmaz.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>A Dynamics meglévő Dynamics 365 Project Service Automation rendszert használó ügyfelei
 A Project Operations a Project Service Automation szolgáltatással szállított képességeket tartalmazza. A frissítés elérési úta 2021-es 1 kiadási hullámban jelennek meg az ügyfelek számára.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A projektmenedzsmentet és könyvelést használó Dynamics 365 Finance meglévő ügyfelei 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>A Dynamics 365 Finance Projektmenedzsment és könyvelés alkalmazást használó meglévő ügyfelei 
 
 A projektmenedzsment és-számlázási funkciót használó meglévő Finance ügyfelek továbbra is használhatják azt. Lásd: [Projekt Operations készletalapú vagy gyártási megrendeléseken alapuló forgatókönyvekhez](#pma).
 

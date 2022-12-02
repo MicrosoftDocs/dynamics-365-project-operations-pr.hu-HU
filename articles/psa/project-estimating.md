@@ -1,6 +1,6 @@
 ---
 title: A projekt költségei és bevételei
-description: Ez a cikk a projektköltségek és -bevételek becsléséről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projekt költségeinek és bevételeinek megbecsléséről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

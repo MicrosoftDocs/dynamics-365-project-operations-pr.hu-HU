@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2020. novemberben – Project Operations Lite központi telepítés – ajánlattól proforma számlázásig
-description: Ez a cikk a Project Operations Lite üzembe helyezésének 2020. novemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást – a proforma számlázással kapcsolatos ajánlatról.
+description: Ez a cikk információval szolgál a minőségi frissítésekről, amelyek a Project Operations Lite központi telepítés – ajánlattól proforma számlázásig 2020. novemberi kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

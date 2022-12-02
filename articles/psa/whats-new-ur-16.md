@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 16-es frissítési kiadásának V3 változatában
-description: Ez a cikk a Project Service Automation 16-os, V3-as kiadásában elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 16-os frissítési kiadásában.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8926503"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz.  Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Előnyben részesített telepítése, frissítése](/dynamics365/project-service/upgrade-psa-home-page).
-Ez a cikk a PSA V3 16-os kiadásának újdonságaival vagy módosításával kapcsolatos funkciókat és javításokat sorolja fel. Ennek a verziónak a build száma V3.10.6.34, és általánosan elérhető egy önálló frissítésben 2020. januárjában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a PSA V3. 16-ös frissítési kiadásában. Ennek a verziónak a build száma V3.10.6.34, és általánosan elérhető egy önálló frissítésben 2020. januárjában.
 
 
 ## <a name="update-release-16"></a>16-ös frissítési kiadás

@@ -1,6 +1,6 @@
 ---
 title: Projektalapú szerződéssor becslése - lite
-description: Ez a cikk a projektalapú szerződéssorok becslésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projektalapú szerződéssorokkal kapcsolatos becslésről.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

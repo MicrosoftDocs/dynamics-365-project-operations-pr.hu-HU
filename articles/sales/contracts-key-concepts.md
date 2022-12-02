@@ -1,6 +1,6 @@
 ---
 title: Projektszerződések – Fő fogalmak
-description: Ez a cikk a Projektműveletek projektszerződéseinek kulcsfogalmairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projektszerződések fő fogalmairól a Project Operations alkalmazásban.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 
 
-Ez a cikk azokat a kulcsfogalmakat ismerteti, amelyekkel tisztában kell lennie, mielőtt elkezdené használni a Project-szerződéseket a következőben Dynamics 365 Project Operations:
+Ez a cikk bemutatja a legfontosabb fogalmakat, amelyeket ismernie kell a Dynamics 365 Project Operations projektszerződéseinek használata előtt:
 
 ## <a name="owning-company"></a>Tulajdonos vállalat
 
-A tulajdonos társaság a projektműveletek projektmenedzsment és könyvelés moduljának **jogi** személye Dynamics 365 Finance. A birtokló vállalat képviseli azt a jogi entitást, amely az üzletből származó költséget és bevételt könyveli.
+A tulajdonos vállalat a Dynamics 365 Finance alkalmazásból a Project Operations **Projektmenedzsment és könyvelés moduljában** a jogi személy. A birtokló vállalat képviseli azt a jogi entitást, amely az üzletből származó költséget és bevételt könyveli.
 
 ## <a name="contracting-unit"></a>Szerződő részleg
 

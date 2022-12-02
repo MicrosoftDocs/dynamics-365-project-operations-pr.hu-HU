@@ -1,6 +1,6 @@
 ---
 title: Napidíjköltségek
-description: Ez a cikk tájékoztatást nyújt arról, hogyan kell dolgozni a napidíjas költségekkel.
+description: Ez a cikk információt nyújt a napidíjas kiadások használatáról.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -23,104 +23,104 @@ ms.locfileid: "8923191"
 # <a name="per-diem-expenses"></a>Napidíjköltségek
 
 > [!IMPORTANT] 
-> A cikkben ismertetett funkciók a megcélzott felhasználók számára érhetők el az előzetes verzió részeként.
+> A cikkben bemutatott funkció az előzetes verzió részeként áll rendelkezésre a megcélzott felhasználók számára.
 
-A napidíj egy rögzített, előre meghatározott napidíj, amelyet a vállalat fizet az alkalmazottainak szállásért (szállodákért), étkezésért és járulékos költségekért, amelyeket ezek az alkalmazottak viselnek, miközben munkába utaznak. A vállalat ezt a juttatást a tényleges utazási költségek kifizetése helyett fizeti ki az alkalmazottaknak. Az alkalmazottak a járulékos/egyéb **napidíjukat felhasználhatják** a tippek, a szobaszerviz, a mosoda vagy a vegytisztítási szolgáltatások fedezésére fontos üzleti találkozókon. A napidíj változhat attól függően, hogy a munkáltató úgy dönt-e, hogy megtéríti-e a szállás és az étkezés együttes költségét, vagy csak az étkezések és a járulékos költségek megtérítését.
+A napidíjas fizetés rögzített, előre meghatározott napi költségtérítés, amit a vállalat fizet a alkalmazottainak szállás (szállodák), étkezés és egyéb járulékos kiadások fedezésére, amelyek az alkalmazottak számára a munkával kapcsolatos utazások során felmerülnek. A vállalat a tényleges utazási kiadások helyett ezt a költségtérítést fizeti az alkalmazottaknak. A munkatársak a **Járulékos/egyéb** napidíjas térítést használhatják a fontos üzleti értekezlethez kapcsolódó borravalók, szobaszolgáltatások, és mosoda. tisztítószolgáltatások fedezésére. A napidíj mértéke attól függően változhat, hogy a munkáltató visszatéríti-e a szállás és étkezések teljes költségét vagy csak az étkezéseket és a járulékos költségeket téríti.
 
-A napidíj az évszaktól, az utazás helyétől vagy mindkettőtől függhet. Napidíj-alapú szabály létrehozásakor megadhatja, hogy a napidíj egy százalékát visszatartsa, ha egy alkalmazott ingyenes étkezést vagy szolgáltatásokat kap. Beállíthatja azt is, hogy a minimális óraszámot és a maximális óraszámot a napidíj alkalmazható legyen az alkalmazott utazására.
+A napidíj az évszaktól, az utazás helyétől vagy mindkettőtől függhet. Amikor napidíjat hoz létre, megadhatja, hogy a napidíj bizonyos százalékát visszatartsák, ha egy munkavállaló ingyenes étkezést vagy szolgáltatásokat kap. Beállíthatja azt a minimális és maximális óraszámot is, amelyre a napidíj a munkavállaló utazása esetében vonatkozhat.
 
-A napidíj a napidíjként történő kiszámítása a naponta kínált teljes juttatásként történik, levonva ebből a munkavállalónak nyújtott étkezéscsökkentést (az ingyenes étkezések költségét).
+A napidíjat a rendszer úgy számítja ki, hogy a napi teljes költségtérítésből kivonja az étkezésekkel kapcsolatos levonást (az ingyenes étkezás ára), amelyet a munkavállalónak biztosítanak.
 
-## <a name="configure-per-diems"></a>Napidíjas konfiguráció
+## <a name="configure-per-diems"></a>Napidíjak konfigurálása
 
-A napidíj-költségek konfigurálásához kövesse az alábbi lépéseket.
+Az napidíjak konfigurálásához kövesse az alábbi lépéseket.
 
-1. Lépjen a **Költségkezelés** \> **beállítása** \> **általános** \> **költségkezelési paraméterek elemre.**
-2. **A Napidíjas** lap Étkezés csökkentésének kiszámítása mezőjén **válassza** ki, hogyan kell kiszámítani a napidíjakat:
+1. Válassza a **Költségkezelés** \> **Beállítás** \> **Általános** \> **Költségkezelési paraméterek** lehetőséget.
+2. Az **Étkezési levonás számításának alapja** mezőben a **Napidíj** lapon adja meg, hogy hogyan kell kiszámítani a napidíjat:
 
-    - **Étkezés típusa utazásonként** – Számítsa ki a napidíjat a megadott étkezés típusa (reggeli, ebéd vagy vacsora) és az étkezés csökkentése alapján, amelyet az egyes étkezéstípusokhoz az utazás időtartamára vonatkozó napidíjra határoznak meg.
-    - **Étkezés típusa naponta** – Számítsa ki a napidíjas napidíjat a beírt étkezés típusa és az egyes étkezési típusokra meghatározott étkezéscsökkentés alapján a napi napi napidíjra.
-    - **Napi** étkezések száma - Számítsa ki a napidíjat a naponta megadott étkezések száma és az étkezés csökkentése alapján az egyes naponta biztosított étkezések száma alapján.
+    - **Étkezéstípus utanként**– A napidíj megadott étkezéstípus (reggeli, ebéd vagy vacsora) és az út időtartamára meghatározott az napidíjban egyes étkezéstípusokhoz meghatározott étkezési levonás alapján lesz kiszámítva.
+    - **Étkezéstípus naponként**– A napidíj megadott étkezéstípus és a napra meghatározott az napidíjban egyes étkezéstípusokhoz meghatározott étkezési levonás alapján lesz kiszámítva.
+    - **Étkezések száma naponta** – A napidíj kiszámítása a naponta megadott étkezések és az egyes napokhoz megadott étkezések számához, amelyek meg van adva az egyes napokhoz.
 
-3. Lépjen a **Költségkezelés** \> **beállítási** \> **számításai és kódjai** \> **lapkahelyenként** elemre.
-4. Adjon hozzá olyan helyeket, ahol a napidíjak felhasználhatók.
-5. Minden hozzáadott helynél a **Napidíjak** lapon válassza ki a napidíj és a pénznemet, amelyek a szállás, étkezések és egyéb költségek adott kezdési és befejezési dátumai között érvényesek. A napidíjak és pénznemek konfigurálásához lépjen a **Költségkezelés** \> **beállítása** \> **Számítások és kódok** \> **napidíjként című témakörbe.**
+3. Válassza a **Költségkezelés** \> **Beállítások** \> **Számítások és kódok** \> **Napidíjhelyek** menüpontot.
+4. Helyek hozzáadása, ahol a napidíj használható.
+5. A **Napidíj** lapon hozzáadott helyek mindegyikéhez válassza ki a napidíj mértékét és a pénznemet, amely egy adott kezdő és záró dátum között érvényes a szállás, az étkezés és az egyéb költségek esetében. A napidíj díjainak és a pénznemeinek konfigurálásához válassza a **Költségkezelés** \> **Beállítások** \> **Számítások és kódok** \> **Napidíjak** menüpontot.
 
 ## <a name="per-diems-in-the-reimagined-expense-interface"></a>Napidíjak az újragondolt költségfelületen
 
-A napidíjas funkciót az újragondolt **Költségkezelés** munkaterület támogatja a 365 Finance 10.0.25-ös és újabb verzióiban Microsoft Dynamics.
+A napidíj funkció támogatott a Microsoft Dynamics 365 Finance 10.0.25 és újabb verzióinak **Költségkezelés** munkaterületén.
 
-A napidíjak engedélyezéséhez kövesse az alábbi lépéseket.
+Az napidíjak engedélyezéséhez hajtsa végre az alábbi lépéseket.
 
-1. **A Funkciókezelés** munkaterületen keresse meg és válassza ki a listában a **Költségjelentések újragondolva** funkciót, majd válassza az Engedélyezés most **lehetőséget**.
-2. Keresse meg és válassza ki a listában a **Költségjelentés újragondolt felületének** lapkája funkciót, majd válassza az Engedélyezés most **lehetőséget**.
+1. Keresse meg és jelölje ki a listában az **Költségjelentések újragondolva** szolgáltatást a **Szolgáltatáskezelés** munkaterületen, majd válassza az **Engedélyezés most** lehetőséget.
+2. Keresse meg és jelölje ki a listában az **Napidíj Költségjelentések az újragondolt felületen** szolgáltatást a listában majd válassza az **Engedélyezés most** lehetőséget.
 
 ## <a name="how-the-feature-works"></a>A funkció működése
 
-Ez a szakasz három konfigurációs forgatókönyvre mutat be példákat. Az étkezés csökkentésének **kiszámítása mező minden egyes példában** más értékre van állítva. Mindhárom példa esetében a fizetendő teljes összeg megegyezik az étkezés csökkentésének alkalmazásáig. Ezt követően a teljes fizetendő összeg minden példánál eltérő.
+Ez a szakasz három konfigurálási helyzetre mutat be példákat. Minden egyes példában az **Étkezési levonás számításának alapja:** mező eltérő értékre van állítva. Mindhárom példa esetén a teljes kifizetendő összeg megegyezik az étkezési levonás alkalmazásáig. Ezután a teljes kifizetendő összeg különbözik az egyes példákban.
 
-A három példához használt napidíj létrehozásához kövesse az alábbi lépéseket.
+A mindhárom példához használt napidíjas költségének létrehozásához hajtsa végre a következő lépéseket.
 
-1. Lépjen a **Munkaterületek** \> **költségkezelése oldalra.**
-2. Válassza az Új költségjelentés **lehetőséget**, vagy válasszon ki egy meglévő költségjelentést.
-3. Adjon hozzá egy új költséget. A Kategória **mezőben válassza a** Napilaponként **lehetőséget**. Válaszd ki az utazásod helyét, valamint kezdési és befejezési dátumát. A szállásra, étkezésre és járulékos költségekre (egyéb költségekre) vonatkozó napidíjat a kiválasztott helyre beállított napidíj alapján számítják ki.
+1. Válassza a **Munkaterületek** \> **Költségkezelés** lehetőséget.
+2. Válassza az **Új költségjelentés** lehetőséget, vagy válasszon ki egy meglévő költségjelentést.
+3. Adjon hozzá egy új költséget. Válassza a **Kategória** mezőben a **Napidíj** lehetőséget. Adja meg az út helyét, valamint a kezdési és befejezési dátumát. A napidíj a szálláshoz étkezésekhez és egyéb költségekhez (egyéb kiadások) a kiválasztott helyhez beállított napi költségtérítés alapján lesz kiszámítva.
 
-    Például Redmondot (USA) **választja** helyként. Az adott hely napidíja 150 amerikai dollár (150 USD) a szállásért, USD 75 az étkezésért és a USD 5 a járulékos költségekért. A kezdő dátum január 10., a befejezés dátuma január 14. Ezért a kiválasztott időtartam öt nap, amikor a kiválasztott konfiguráció naptári nap az idővel, és a kiválasztott idő a kezdési és befejezési dátumokon 12:00 órakor kezdődik és ér véget. Íme a számítások:
+    A hely például **Redmond (USA)** lesz. Ennek a helynek a napi költségkerete 150 dollár (150 USD) szállásra, 75 amerikai dollár (USD) étkezésre, valamint 5 amerikai dollár (USD) egyéb költségekre. A kezdő dátum január 10, a záró dátum január 14. Így a kijelölt időtartam öt nap, amikor a kiválasztott konfiguráció naptári nap az idővel, és a kiválasztott idő a kezdő és a záró dátumon 12:00 órakor kezdődik és végződik. Itt vannak a számítások:
 
-    - Teljes fizetendő összeg = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-    - Étkezés és a teljes mennyiségből származó járulékos rész = 5 × (75 + 5) = USD 400
+    - Teljes kifizetendő összeg = 5 × (150 + 75 + 5) = 5 × 230 = 1150 amerikai dollár (USD)
+    - A teljes összeg étkezés és egyéb költségek része = 5 × (75 + 5) = 400 amerikai dollár (USD)
 
-Ha az utazás során reggelit, ebédet és vacsorát biztosítottak, ezeket az ételeket étkezéscsökkentésként kell elszámolni.
+Ha az út során ebédet és vacsorát biztosítanak, akkor ezek az étkezések étkezéslevonásnak számítanak.
 
-### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>1. példa: Napidíjanként, ahol az étkezés csökkentése az utazásonkénti étkezés típusán alapul
+### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>1. példa: Napidíj, amikor az étkezési levonás az utankénti étkezéstípuson alapul
 
-Ebben a példában az étkezés csökkentése 30 százalék a reggelinél, 30 százalék az ebédnél és 40 százalék a vacsoránál. A Költségkezelés paraméterei oldalon az **Étkezés** csökkentésének **kiszámítása mező értéke Étkezés típusa utazásonként értékre van állítva**.**·** Íme a számítások, ha három reggelit, két ebédet és nulla vacsorát biztosítottak a munkavállalónak:
+Ebben a példában az étkezési levonás 30 százalék a reggelire, 30 százalék az ebédre, a 40 százalékot a vacsorára. A **Költségkezelés paraméterei** oldalon az **Étkezési levonás számításának alapja:** mező beállítása **Étkezéstípus utanként**. Itt vannak a számítások, ha az alkalmazott számára három reggelit, két ebédet és két vacsorát biztosította munkáltató:
 
-- Étkezés csökkentése = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
-- Étkezések és járulékos étkezések = 400 – 112,50 = USD 287.50
-- Teljes fizetendő összeg = Teljes támogatás – Étkezés csökkentése = 1 150 – 112,50 = USD 1,037.50
+- Étkezési levonás = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = 112,50 amerikai dollár (USD)
+- Étkezés és egyéb költségek = 400 – 112,50 = 287,50 amerikai dollár (USD)
+- Összes kifizetendő összeg = Teljes költségtérítés – Étkezési levonás = 1150 – 112,50 = 1037,50 amerikai dollár (USD)
 
-![Napidíj, ahol az étkezés csökkentése az utazásonkénti étkezés típusán alapul.](media/1-meal-type-per-trip.png)
+![Napidíj kiadás, amikor az étkezési levonás az utankénti étkezéstípuson alapul.](media/1-meal-type-per-trip.png)
 
-### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>2. példa: Napidíjasanként, ahol az étkezés csökkentése a napi étkezés típusán alapul
+### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>2. példa: Napidíj, amikor az étkezési levonás az napi étkezéstípuson alapul
 
-Ebben a példában az étkezés csökkentése 30 százalék a reggelinél, 30 százalék az ebédnél és 40 százalék a vacsoránál. A Költségkezelés paraméterei lapon az **Étkezés** csökkentésének **kiszámítása mező értéke Étkezés típusa naponta** értékre van állítva **.** Ebben az esetben a **Költség** szerkesztése párbeszédpanel Étkezések **rácsában törölje a** jelölőnégyzetek jelölését, hogy jelezze, mely étkezéseket biztosították Önnek az utazás során.
+Ebben a példában az étkezési levonás 30 százalék a reggelire, 30 százalék az ebédre, a 40 százalékot a vacsorára. A **Költségkezelés paraméterei** oldalon az **Étkezési levonás számításának alapja:** mező beállítása **Étkezéstípus naponként**. Ebben az esetben a **Költség szerkesztése** párbeszédpanel **Étkezések** rácsában törölje a jelölőnégyzeteket annak jelzéséhez, hogy az út során milyen étkezések lettek biztosítva.
 
-Például itt vannak a számítások, ha az utazás első három napjára reggelit biztosítottak:
+Itt vannak például a számítások arra az esetre hogy az út első három napja során volt biztosítva étkezés:
 
-- Napi étkezéscsökkentés az első három nap mindegyikében = 75 × 30% = USD 22.50
-- Teljes étkezéscsökkentés = 3 × 22,50 = USD 67.50
-- Étkezések és járulékos események az 1–3. napokban = 75 – 22,50 = USD 57.50
-- Összes étkezés és járulékos étkezés = Az ötnapos étkezések és járulékos étkezések összege = 400 – 67,50 = USD 332.50
-- Teljes fizetendő összeg = Teljes összeg – Étkezés csökkentése = 1 150 – 67,50 = USD 1,082.50
+- Napi étkezési levonás az első három napra = 75 × 30% = 22,50 amerikai dollár (USD)
+- Teljes étkezési levonás = 3 × 22,50 = 67,50 amerikai dollár (USD)
+- Étkezések és egyéb költéségek események az 1– 3. napra = 75 – 22,50 = 57,50 amerikai dollár (USD)
+- Összes étkezés és egyéb költség = Az étkezések és egyéb költésége öt napra = 400 – 67,50 = 332,50 amerikai dollár (USD)
+- Összes kifizetendő összeg = Teljes összeg – Étkezési levonás = 1150 – 67,50 = 1082,50 amerikai dollár (USD)
 
-![Napidíjonkénti költség, ahol az étkezés csökkentése a napi étkezés típusán alapul.](media/2-meal-type-per-day.png)
+![Napidíj kiadás, amikor az étkezési levonás az naponkénti étkezéstípuson alapul.](media/2-meal-type-per-day.png)
 
-### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>3. példa: Napidíjasanként, ahol az étkezések csökkentése a napi étkezések számán alapul
+### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>3. példa: Napidíj, amikor az étkezési levonás az napi étkezések számán alapul
 
-Ebben a példában az étkezés csökkentését a naponta megadott étkezések száma alapján számítjuk ki (azaz a **Költségkezelési paraméterek** oldalon az Étkezéscsökkentés kiszámítása mező szerint **oldalon a** Napi étkezések **száma értékre** van állítva). **A Költségek** szerkesztése párbeszédpanel Étkezések **rácsában törölje a jelet a** jelölőnégyzetekből, hogy jelezze, mely étkezések voltak megadva.
-Ebben az esetben az étkezés csökkentése csak a rendelkezésre álló ételek számán alapul, nem pedig a rendelkezésre álló étkezés típusán (reggeli/ebéd/vacsora).
+Ebben a példában az étkezési levonása az egy napon biztosított étkezések számán alapul (ez azt jelenti, hogy a **Költségkezelés paramétereinek** oldalán az **Étkezési levonás számításának alapja** mezőjének beállítása **Étkezések száma naponta**). A **Költség szerkesztése** párbeszédpanel **Étkezések** rácsában törölje a jelölőnégyzeteket annak jelzéséhez, hogy mely étkezések lettek biztosítva.
+Ebben az esetben a étkezési levonás kizárólag a biztosított étkezések száma alapján történik, nem pedig a biztosított étkezés típusa (reggeli/ebéd/vacsora) alapján.
 
-Íme a napidíjakra vonatkozó számítások, amikor a napidíjat szállásra USD 150, az étkezésre USD 75, valamint a járulékos USD 5:
+A következő számítások vannak alkalmazva, ha a napi költségkeret 150 amerikai dollár (USD) szállásra, 75 amerikai dollár (USD) étkezésekre, illetve ki lehet 5 amerikai dollár (USD) egyéb költségekre:
 
-- **Teljes fizetendő** összeg = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-- **Egy étkezés:** Étkezés csökkentése = 20% = USD 15
-- **Két étkezés:** Étkezés csökkentése = 50% = USD 37.50
-- **Három étkezés:** Étkezés csökkentése = 100% = USD 75
+- **Teljes kifizetendő összeg** = 5 × (150 + 75 + 5) = 5 × 230 = 1150 amerikai dollár (USD)
+- **Egy étkezés:** Étkezési levonás: 20% = 15 amerikai dollár (USD)
+- **Két étkezés:** Étkezési levonás: 50% = 37,50 amerikai dollár (USD)
+- **Három étkezés:** Étkezési levonás: 100% = 75 amerikai dollár (USD)
 
-Íme az étkezésekre és a **járulékos juttatásokra** vonatkozó számítások, amelyek magukban foglalják a járulékos USD 5:
+A következő számítások szolgálnak az **étkezések és egyéb költségek költségkerethez**, amely 5 amerikai dollárt (USD) tartalmaz egyéb költségekre:
 
-- 1. nap - Két étkezés megadva = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- 2. nap - Két étkezés = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- 3. nap - Egy étkezés megadva = (75 – 15) + 5 = 60 + 5 = USD 65
-- 4. nap - Nulla étkezés = (75-0) + 5 = 75 + 5 = USD 80
-- 5. nap - Három étkezés = (75 – 75) + 5 = 0 + 5 = USD 5
+- 1. nap – Két étkezés biztosítva = (75 – 37,50) + 5 = 37,50 + 5 = 42,50 amerikai dollár (USD)
+- 2. nap – Két étkezés biztosítva = (75 – 37,50) + 5 = 37,50 + 5 = 42,50 amerikai dollár (USD)
+- 3. nap – Két étkezés biztosítva = (75 – 15) + 5 = 60 + 5 = 65 amerikai dollár (USD)
+- 4. nap – Nulla étkezés biztosítva = (75 – 0) + 5 = 75 + 5 = 80 amerikai dollár (USD)
+- 5. nap – Három étkezés biztosítva = (75 – 75) + 5 = 0 + 5 = 5 amerikai dollár (USD)
 
-- Összes étkezés és járulékos étkezés = Étkezések és járulékos események az 1. napra+ 2. nap + 3. nap + 4. nap+ 5. nap = USD 235
-- Teljes étkezéscsökkentés = Étkezéscsökkentés az 1. napra+ 2. nap +3. nap+4. nap+ 5. nap= 37,5+ 37,5+ 15 + 0+ 75 = USD 165
-- Teljes fizetendő összeg = Összes támogatás – Teljes étkezéscsökkentés = USD 1,150 - USD 165 = USD 985
+- Összes étkezés és egyéb költség = Étkezések és egyéb költségek 1. nap + 2. nap + 3. nap + 4. nap + 5. nap = 235 amerikai dollár (USD)
+- A teljes étkezési levonás = Étkezési levonás az 1. napra + 2. napra +3. napra + 4. napra + 5. napra = 37,5+ 37,5+ 15 + 0+ 75 = 165 amerikai dollár (USD)
+- Összes kifizetendő összeg = Teljes költségtérítés – Teljes étkezési levonás = 1150 amerikai dollár (USD) – 165 amerikai dollár (USD)= 985 amerikai dollár (USD)
 
-![Napidíjra vetítve, ahol az étkezés csökkentése a napi étkezések számán alapul.](media/3-number-of-meals-per-day.png)
+![Napidíj kiadás, amikor az étkezési levonás az étkezések számán múlik naponta.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> A Finance 10.0.23-as verziójától kezdve, ha az újragondolt költségfelületet használja, nem hozhat létre olyan napidíjas költségeket, amelyek egymást átfedő dátumokkal rendelkeznek. Ha megpróbálja, hibaüzenetet fog kapni.
+> A Finaince 10.0.23-as verziójától, ha az újragondolt költségfelületet használja, nem hozhat létre napidíjas költségeket átfedő dátumokkal. Ha megpróbálja, egy hibaüzenet jelenik meg.

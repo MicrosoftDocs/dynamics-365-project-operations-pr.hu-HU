@@ -1,6 +1,6 @@
 ---
 title: Egyéni megoldások létrehozása árképzési dimenziókra
-description: Ez a cikk azt ismerteti, hogyan hozhat létre egyéni megoldást egyéni díjszabási dimenziók létrehozásakor.
+description: Ez a cikk ismerteti, hogyan lehet egyéni megoldást létrehozni egyéni árképzési dimenziók létrehozásakor.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Projekt foglalása
-description: Ez a cikk az erőforrások projekthez való foglalásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információt nyújt az erőforrások lefoglalásáról egy projekthez.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Amikor egy erőforrás-kezelőnek közvetlenül egy projekthez kell lefoglalnia 
     - Duration
    
    > [!NOTE]
-   > Dynamics 365 Project Operations Jelenleg nem támogatja az ütemezési táblát.   
+   > Jelenleg a Dynamics 365 Project Operations nem támogatja az ütemezési táblát.   
 
 ## <a name="book-from-the-project-form"></a>Foglalás a Projekt űrlapról
 

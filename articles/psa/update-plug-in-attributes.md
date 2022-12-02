@@ -1,6 +1,6 @@
 ---
 title: Bővítményattribútumok frissítése új árképzési dimenziók felvételéhez
-description: Ez a cikk a tarifadimenziók beépülő modulattribútumainak frissítésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk az árazási dimenziókhoz tartozó bővítményattribútumok frissítéséről nyújt információt.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913209"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ha nem használja a Project Service Automation (PSA) árajánlati és szerződéskötési funkcióit, kihagyhatja ezt a cikket.
+> Ha nem a Project Service Automation (PSA) ajánlati és szerződéses szolgáltatásokat használja, kihagyhatja ezt a cikket.
 
-Ez a cikk feltételezi, hogy befejezte a cikkek eljárásait, Egyéni mezők és entitások [létrehozása,](create-custom-fields-entities.md)[Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md), valamint [Egyéni mezők beállítása árképzési dimenzióként](set-up-pricing-dimensions.md). Ha még nem fejezte be ezeket az eljárásokat, térjen vissza, fejezze be őket, majd térjen vissza ehhez a cikkhez.
+Ez a cikk feltételezi, hogy először elvégezte a következő cikkek eljárásait: [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md), [Egyéni mezők hozzáadása az ár a telepítést és tranzakciós szervezetek](field-references.md) és [Egyéni mezők beállítása árképzési dimenziókként](set-up-pricing-dimensions.md). Ha még nem fejezte be ezeket az eljárásokat, menjen vissza, és fejezze be őket, majd térjen vissza ehhez a cikkhez.
 
 Amikor egy **Árajánlatsor** oldalon elkészül egy árajánlati sor egy projekt árajánlatsorához, a rendszer két becslési sort hoz létre a háttérben - egy sort a becslés költségoldalához, egy pedig az értékesítés oldalához. Ugyanez vonatkozik a projektszerződésekre.
 

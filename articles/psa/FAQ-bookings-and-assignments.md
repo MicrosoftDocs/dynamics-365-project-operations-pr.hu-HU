@@ -1,6 +1,6 @@
 ---
 title: Erőforrások lefoglalása és a feladat-hozzárendelésekhez való kapcsolódásuk
-description: Ez a cikk az elnevezett erőforrások, erőforrás-foglalások és tevékenység-hozzárendelések kezeléséről, valamint az egymáshoz való viszonyukról nyújt tájékoztatást.
+description: Ez a cikk ismerteti az elnevezett erőforrások kezelését, az erőforrás-foglalásokat és a feladat-hozzárendeléseket, és azt, hogy ezek hogyan kapcsolódnak egymáshoz.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

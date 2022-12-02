@@ -1,6 +1,6 @@
 ---
 title: Összehangolja a foglalásokat és a feladatokat
-description: Ez a cikk a tényleges adatokról nyújt tájékoztatást.
+description: Ez a cikk az tényadatokról nyújt információkat.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

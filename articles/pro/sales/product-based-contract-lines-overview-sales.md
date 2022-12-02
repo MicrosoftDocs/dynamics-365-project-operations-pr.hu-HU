@@ -1,6 +1,6 @@
 ---
 title: Termékalapú szerződéssorok áttekintése - Lite
-description: Ez a cikk a termékalapú szerződéssorokról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a termékalapú szerződéssorokról.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

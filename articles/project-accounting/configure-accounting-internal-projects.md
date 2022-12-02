@@ -1,6 +1,6 @@
 ---
 title: Belső projektek könyvelésének konfigurálása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthat be könyvelési gyakorlatokat a belső projektekhez a Project Operationsben.
+description: Ez a cikk a Project Operations alkalmazásban a belső projektek könyvelési gyakorlatainak beállításával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

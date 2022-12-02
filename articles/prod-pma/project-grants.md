@@ -1,6 +1,6 @@
 ---
 title: Projekttámogatások
-description: Ez a cikk azt ismerteti, hogyan hozhat létre vagy módosíthat egy támogatást.
+description: Ez a cikk elmagyarázza, hogyan hozhat létre és módosíthat egy támogatást.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

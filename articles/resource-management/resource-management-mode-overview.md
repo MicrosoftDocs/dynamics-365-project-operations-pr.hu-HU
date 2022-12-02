@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kezelési módok áttekintése
-description: Ez a cikk az erőforrás-kezelési funkciókról nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations Erőforráskezelés funkciójáról nyújt információkat.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Azoknál a szervezeteknél, akik rugalmasságot igényelnek az erőforrások elo
 
 ![Hibrid mód.](./media/resource-management-hybrid.png)
 
-A támogatott központi módú folyamaton kívül tekintse meg a következő cikkeket az összes többi támogatott foglalási folyamat hibrid módban történő kezeléséhez:
+A támogatott központi mód folyamata mellett a következő cikkek nyújtanak információkat a hibrid módban használható további támogatott foglalási folyamatokkal kapcsolatban:
 
 Erőforrás közvetlen foglalása egy projekthez:
 - [Nevesített foglalható erőforrások foglalása projektcsoporthoz, és feladatok hozzárendelése](/dynamics365/project-service/assign-named-bookable-resource)

@@ -1,6 +1,6 @@
 ---
 title: Árképzés és költségdimenziók kezdőlap
-description: Ez a cikk áttekintést nyújt a díjszabási dimenziókról.
+description: Ez a cikk áttekintést nyújt az árképzési dimenziókról.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ A PSA alapértelmezett árképzési dimenziókkal rendelkezik. Megnézheti ezeke
 > [!IMPORTANT]
 > Ha a PSA 3. verzióját megelőzően használta a használatra kész szerepköröket és szervezeti egységeket árképzési dimenziókként, akkor nem lesz észlelhető változás. Továbbra is használhatja a Project Service szolgáltatást a megszokott módon. 
 
-Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információt a következő cikkekben talál, azonban vegye figyelembe, hogy az eljárásokat az alább felsorolt sorrendben kell végrehajtania:
+Ha további attribútumok használatával szükséges árakat vagy költségeket fizetnie az erőforrásokért, testreszabott mezőket, entitásokat és dimenziókat hozhat létre. További információt a következő cikkekben talál, azonban vegye figyelembe, hogy az eljárásokat az alábbiakban felsorolt sorrendben kell elvégeznie:
 
 - [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md)
 - [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md)

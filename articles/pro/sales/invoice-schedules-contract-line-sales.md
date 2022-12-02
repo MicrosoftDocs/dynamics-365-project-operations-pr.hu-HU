@@ -1,6 +1,6 @@
 ---
 title: Számlaütemezések létrehozása egy projektalapú szerződéssoron - lite
-description: Ez a cikk a számlaütemezések és mérföldkövek létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk a számlaütemezések és a mérföldkövek létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: A projekt beállításai
-description: Ez a cikk a projektmenedzsment beállításairól nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projektkezelési beállításokról.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

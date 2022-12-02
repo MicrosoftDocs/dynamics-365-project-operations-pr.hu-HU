@@ -1,6 +1,6 @@
 ---
 title: Érdeklődők kezelése - Lite
-description: Ez a cikk a projektalapú érdeklődők (pro) kezeléséről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projektalapú érdeklődőkkel kapcsolatban (pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

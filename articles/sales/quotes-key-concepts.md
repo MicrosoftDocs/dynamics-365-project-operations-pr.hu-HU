@@ -1,6 +1,6 @@
 ---
 title: Árajánlatok – alapfogalmak
-description: Ez a cikk a Project Operationsben elérhető projektajánlatokról és értékesítési árajánlatokról nyújt tájékoztatást.
+description: Ez a cikk a Project Operations projektárajánlatairól és értékesítési árajánlatairól nyújt információt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ A Dynamics 365 Project Operations rendszerben kétféle árajánlat létezik: pr
 - **Mezők és fogalmak**: Az értékesítési árajánlat nem tartalmaz bizonyos olyan mezőket és fogalmakat, amelyek szerepelnek egy projektárajánlatban. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
 - **Típus**: Az értékesítési árajánlatokat és a projektárajánlatokat egy értékkészlet-alapú **Típus** mező is azonosítja. Értékesítési árajánlat esetén ebben a mezőben az érték **elemalapú**. A projektárajánlat esetén az érték **Munkaalapú**.
 
-Ez a cikk a projekt idézetek részleteire összpontosít.
+Ez a cikk a projektárajánlat részletes adataival foglalkozik.
 
 A Project Operations projektárajánlata több sorelemmel vagy árajánlatsorral is rendelkezhet. A projektárajánlat két rácsot tartalmaz a sorokhoz. Az egyik rács a projektalapú sorokhoz használható, amelyek lehetővé teszik a részletes becslést. A másik rács az egyszerű egységárat és a mennyiségi alapú megközelítést használó termékalapú sorokhoz tartozik.
 

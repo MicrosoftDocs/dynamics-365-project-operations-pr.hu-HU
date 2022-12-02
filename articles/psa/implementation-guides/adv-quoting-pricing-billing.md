@@ -1,6 +1,6 @@
 ---
 title: Fejlett árajánlat-készítés, árképzés és számlázás
-description: Ez a cikk a Project Service Automation árajánlatáról, számlázásáról és díjszabásáról nyújt tájékoztatást.
+description: Ez a cikk a Project Service Automation árajánlat-készítéséről, számlázásáról és árképzéséről nyújt információt.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921811"
 
 A megfelelő erőforrások megfelelő időben történő megkeresése, a projektek erőforrásainak lefoglalása és a felhasznált erőforrások megtartása segíti a szervezeteket a bevételi célok és az ügyfél-elégedettségi célok teljesítésében. 
 
-A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
+A cikkben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi cikkekbe:
 
 - [Árajánlat-készítés, árképzés és számlázás](../quote-bill-price.md)
 - [Értékesítési folyamatok](../basic-sales-process.md)
@@ -50,7 +50,7 @@ A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat
 - [Tényadatok rögzítése](../advanced-actuals.md)
 
 > [!NOTE]
-> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
+> Ez a cikk egy későbbi dokumentációs frissítésben kerül eltávolításra. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

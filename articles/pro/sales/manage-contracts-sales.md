@@ -1,6 +1,6 @@
 ---
 title: Projektszerződések kezelése
-description: Ez a cikk a projektalapú szerződések megtekintésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projektalapú szerződéssorok megtekintéséről.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ A projektszerződések listája a **Szerződések** listaoldalon látható.
 Szerződéseket lehet létrehozni vagy törölni ebből a listából vagy részletes oldalakról.
 
 > [!NOTE]
-> Nem törölhetők azok a szerződések, amelyekhez projektek, tevékenységek, becslések, naplók és/vagy tényleges adatok vannak társítva. 
+> A projektekkel, feladatokkal, becslésekkel, adatokat és/vagy társított tényadatokkal rendelkező szerződések nem törölhetők. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

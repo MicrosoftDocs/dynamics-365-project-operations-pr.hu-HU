@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kezelési alapfogalmak
-description: Ez a cikk a Project Operations erőforrás-kezelési képességeiről Microsoft Dynamics nyújt tájékoztatást.
+description: Ez a cikk a Microsoft Dynamics Project Operations erőforrás-kezelés képességével kapcsolatos információkat tartalmaz.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

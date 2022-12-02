@@ -1,6 +1,6 @@
 ---
 title: Termékárlisták
-description: Ez a cikk a katalógus árlistáiról nyújt tájékoztatást a projektajánlatokhoz és szerződésekhez használt katalógus-árképzésben.
+description: Ez a cikk a projektárajánlatokhoz és szerződésekhez használatos katalógusárképzésben szereplő árlistákról nyújt információkat.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

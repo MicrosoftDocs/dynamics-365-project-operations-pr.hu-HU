@@ -1,6 +1,6 @@
 ---
 title: Időbevitel felhasználói felületének viselkedése
-description: Ez a cikk az időbevitel felhasználói felületének viselkedéséről nyújt tájékoztatást.
+description: Ez a cikk az időbevitel felhasználói felületének viselkedéséről nyújt információkat.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

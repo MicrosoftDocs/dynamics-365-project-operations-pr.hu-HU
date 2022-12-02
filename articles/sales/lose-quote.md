@@ -1,6 +1,6 @@
 ---
 title: Projektalapú árajánlatok másolása
-description: Ez a cikk a projektalapú árajánlatok Project Operationsben való másolásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a projektalapú árajánlatok Project Operationsben való másolásának módjáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

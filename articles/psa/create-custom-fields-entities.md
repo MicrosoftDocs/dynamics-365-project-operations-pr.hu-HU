@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők és entitások létrehozása
-description: Ez a cikk azt ismerteti, hogyan hozhat létre beállításkészleteket és entitásokat a saját megoldásában a Power Apps platformon.
+description: Ez a cikk ismerteti, hogyan hozhatók létre értékkészlet-halmazok és entitások saját megoldásban a Power Apps platformon.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926917"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Hajtsa végre az alábbi lépéseket minden olyan alkalommal, amikor egyéni értékkészletet vagy entitást szeretne létrehozni a Power Apps platformon.  
-A cikkben ismertetett eljárásokat a Project Service Automation (PSA) webes felületének használatával kell elvégezni.
+A cikk eljárásait a Project Service Automation (PSA) webfelületének használatával kell elvégezni.
 
 > [!IMPORTANT]
 > Javasoljuk, hogy minden egyéni árképzési dimenziót külön megoldásban hajtson végre. Ez a fontos gyakorlati tanács rugalmasságot biztosít a jövőben a változtatások frissítéséhez vagy eltávolításához szükség szerint, segítséget nyújt munkájának újbóli felhasználásában, és megkönnyíti a módosítások másik példányra való átvitelét. Miután elvégezte az összes szükséges módosítást, exportálja a megoldást **Felügyelt megoldásként**, majd importálja azt más példányokra az árképzési beállítások újbóli felhasználása céljából.

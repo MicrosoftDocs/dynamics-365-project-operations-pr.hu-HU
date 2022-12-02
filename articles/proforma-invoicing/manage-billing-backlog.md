@@ -1,6 +1,6 @@
 ---
 title: Számlázási elmaradás kezelése
-description: Ez a cikk arról nyújt tájékoztatást, hogyan tekintheti meg és használhatja a számlázási hátralékot a Project Operationsben.
+description: Ez a cikk a Project Operationsban a számlázási elmaradások megtekintésével és használatával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

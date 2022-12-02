@@ -1,6 +1,6 @@
 ---
 title: Nyugta rögzítése OCR használatával
-description: Ez a cikk a nyugták optikai karakterfelismerési (OCR) feldolgozásáról nyújt tájékoztatást.
+description: Ez a cikk a nyugták optikai karakterfelismeréssel (OCR) való feldolgozásáról nyújt információkat.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Ha költséget szeretne létrehozni, vagy költséget szeretne egyeztetni egy ny
 
 ## <a name="installation"></a>Telepítés
 
-Ezeknek a speciális költségképességeknek a használatához telepítse a Költségkezelési szolgáltatás bővítményt a 365 Finance szolgáltatáshoz Microsoft Dynamics, és kapcsolja be a példány funkcióit. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
+A költségek ilyen speciális funkcióinak használatához telepíteni kell a Költségkezelési szolgáltatás bővítményt a Microsoft Dynamics 365 Finance rendszerhez, és be kell kapcsolni a funkciókat a példányban. A bővítményt a projektből, a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásból érheti el.
 
 1. Jelentkezzen be az LCS rendszerbe, és nyissa meg a kívánt környezetet.
 2. Válassza a **Minden részlet** lehetőséget.
@@ -85,7 +85,7 @@ Nem, a Microsoft általános gépi tanulás modellt készített a nyugtákat fel
 
 **Hol érhető el és hol kerül feldolgozásra a szolgáltatás?**
 
-A funkció különböző régiókban való elérhetőségét az alábbi táblázat sorolja fel. Ha a régió jelenleg nem támogatott, küldjön be egy kérést az OCR szolgáltatás elérhetőségének rangsorolására a régióban. 
+A szolgáltatás különböző régiókban való elérhetőségét a következő táblázat tartalmazza. Ha az Ön régiója jelenleg nem támogatott, küldjön be egy kérelmet, az OCR-szolgáltatás elérhetővé tételének priorizálásával kapcsolatosan az Ön régiójában. 
 
 | Régió | Támogatott                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ A funkció különböző régiókban való elérhetőségét az alábbi tábláz
 | Kanada    | Igen                               |
 | Egyesült Királyság     | Igen                               |
 | AUS    | Igen                               |
-| EU     | Részben. Csak angol nyelvű nyugták. |
+|  EU     | Részlegesen. Csak angol nyelvű nyugták. |
 | Ázsia   | No                                |
 | Japán  | No                                |
 | Afrika | No                                |

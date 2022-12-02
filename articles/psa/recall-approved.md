@@ -1,6 +1,6 @@
 ---
 title: Emlékezzen a jóváhagyott idő- vagy költségbejegyzésre
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hívhat vissza egy korábban jóváhagyott idő- vagy költségtranzakciót.
+description: Ez a cikk információkat tartalmaz egy korábban jóváhagyott idő- vagy költségügylet visszahívásáról.
 author: rumant
 ms.custom: ''
 ms.author: rumant

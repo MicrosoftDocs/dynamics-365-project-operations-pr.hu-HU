@@ -1,6 +1,6 @@
 ---
 title: Foglalási állapotok
-description: Ez a cikk egy hivatkozást tartalmaz arról, hogyan állíthatja be a foglalási állapotokat a Project Operations szolgáltatáshoz.
+description: Ez a cikk információt nyújt a foglalási állapotok beállításáról a Project Operations szolgáltatásban.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-gazdálkodási honlap
-description: Ez a cikk az erőforrások kezeléséről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az erőforrások kezeléséről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913255"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. A megfelelő források megtalálásának és lefoglalásának képessége, amikor szüksége van rájuk, és felhasználásuk elősegíti a szervezetet a bevételi célok és az ügyfél-elégedettség célok elérésében. A következő cikkek a következő erőforrás-kezelési képességekre összpontosítanak Dynamics 365 Project Service Automation:
+Az erőforrások a szolgáltatás-alapú szervezetek legfontosabb eszközei. A megfelelő források megtalálásának és lefoglalásának képessége, amikor szüksége van rájuk, és felhasználásuk elősegíti a szervezetet a bevételi célok és az ügyfél-elégedettség célok elérésében. A következő cikkek a Dynamics 365 Project Service Automation erőforrás-kezelési képességeire összpontosítanak:
 
 - [Erőforrások kezelése](manage-resources.md)
 - [Fő fogalmak](reports-key-concepts.md)

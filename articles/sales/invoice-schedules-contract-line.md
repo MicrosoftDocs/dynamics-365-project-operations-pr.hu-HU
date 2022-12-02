@@ -1,6 +1,6 @@
 ---
 title: Számlaütemezés létrehozása egy projektalapú szerződéssoron
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre számlaütemezéseket és mérföldköveket a szerződéssorokon.
+description: Ez a cikk a számlaütemezések és az szerződéssorok mérföldköveinek létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

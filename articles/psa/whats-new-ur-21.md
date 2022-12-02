@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 21-es frissítési kiadásának V3 változatában
-description: Ez a cikk a Project Service Automation 21-es kiadásának 3-as verziójában elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek elérhetők a Project Service Automation V3. 21-es frissítési kiadásában.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8918821"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation V3 21., 21. kiadásának frissítésével kapcsolatos új vagy módosított funkciókat és javításokat sorolja fel. A verzió build száma V 3.10.32.50, és általánosan elérhető lesz önálló frissítésként 2020 júniusában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3. 21-es frissítési kiadásában. A verzió build száma V 3.10.32.50, és általánosan elérhető lesz önálló frissítésként 2020 júniusában.
 
 ## <a name="update-release-21"></a>21-ös frissítési kiadás
 

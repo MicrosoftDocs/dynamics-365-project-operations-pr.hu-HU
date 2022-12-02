@@ -1,6 +1,6 @@
 ---
-title: Tranzakciós eredetek – Tényleges adatok csatolása a forrásukhoz
-description: Ez a cikk azt ismerteti, hogy a tranzakciós eredet fogalmát hogyan használják a tényleges adatok eredeti forrásrekordokhoz, például időbevitelhez, költségbevitelhez vagy anyaghasználati naplókhoz való csatolására.
+title: Tranzakciók eredete – tényadatok csatolása a forrásukhoz
+description: Ez a cikk ismerteti, hogyan van használva a tranzakcióeredetek koncepciója a tényadatok összekapcsolásához az forrásrekordokkal, például az időbejegyzési, költségbejegyzési vagy anyaghasználati naplókkal.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921305"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Tranzakciós eredetek – Tényleges adatok csatolása a forrásukhoz
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Tranzakciók eredete – tényadatok csatolása a forrásukhoz
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A tranzakciós eredetrekordok azért jönnek létre, hogy a tényleges adatokat a forrásukhoz kössék, például az időbejegyzéseket, a költségbejegyzéseket, az anyaghasználati naplókat és a projektszámlákat.
+A tranzakcióeredet rekordjai azért jönnek létre, hogy a tényadatokat a forrásukhoz kapcsolják, például az időbejegyzéseket, a költségbejegyzéseket, az anyaghasználati naplókat és a projektszámlákat.
 
 A következő példa az időbejegyzések tipikus feldolgozását mutatja be a Project Operations projekt életciklusában.
 
-> ![Teljes feldolgozási idő a Project Operationsben.](media/basic-guide-17.png)
+> ![Időbejegyzések feldolgozása a Project Operations alkalmazásban.](media/basic-guide-17.png)
  
-1. Az időbevitel beküldése két naplósor létrehozását eredményezi: egyet a költségekhez, egyet pedig a számlázatlan értékesítésekhez.
-2. Az időbevitel esetleges jóváhagyása két tényleges értéket eredményez: egyet a költségekhez, egyet pedig a számlázatlan értékesítésekhez.
+1. Az időbejegyzések beküldése két naplósor létrehozását eredményezi: egy a költségről, egy pedig a nem számlázott értékesítésekről.
+2. Az időbejegyzés végleges jóváhagyása két tényadat létrehozását eredményezi: egy a költségről, egy pedig a nem számlázott értékesítésekről.
 3. Amikor a felhasználó létrehoz egy projektszámlát, a számlasor tranzakcióját a rendszer a nem számlázott értékesítésből származó tényadatok felhasználásával hozza létre.
 4. A számla megerősítését követően két új tényadat jön létre: a nem számlázott értékesítés sztornózása és a számlázott értékesítés tényadata.
 
-A feldolgozási munkafolyamat minden eseménye elindítja rekordok létrehozását a Tranzakció eredete entitásban, hogy segítsen felépíteni a kapcsolatok nyomon követését e rekordok között, amelyek az időbevitel, a naplósor, a tényleges és a számlasor részletei között jönnek létre.
+A feldolgozási munkafolyamat minden elem elindítja a tranzakció eredete a tranzakció eredte entitásban lévő rekordok létrehozását, így nyomon követheti az időpontentitásokon keresztül létrehozott rekordok közötti kapcsolatok nyomkövetését, a naplósort, a tényadatot és a számlasor részleteit.
 
 A következő táblázat az előző munkafolyamat tranzakció eredete entitásának rekordjait mutatja be.
 
@@ -70,8 +70,8 @@ A következő táblázat az előző munkafolyamat tranzakció eredete entitásá
 | Helyesbítő számla GUID      | Számla                  | Új, számlázatlan értékesítési tényadat GUID    | Tényleges                            |                          |
 
 
-Az alábbi ábra azokat a hivatkozásokat mutatja be, amelyek a tényleges adatok és azok forrásai között jönnek létre különböző eseményeken, a Project Operations időbejegyzéseinek példáján keresztül.
+Az alábbi ábra a Project Operations időbejegyzéseinek példája segítségével mutatja be a különböző eseményeken létrehozott különböző ténytípusok és a forrásaik között létrehozott hivatkozásokat mutatja be.
 
-> ![Hogyan kapcsolódnak a tényleges adatok a forrásrekordokhoz a Project Operationsben.](media/TransactionOrigins.png)
+> ![A tényadatokat hogyan vannak összekapcsolva a forrásrekordokkal a Project Operations alkalmazásban.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

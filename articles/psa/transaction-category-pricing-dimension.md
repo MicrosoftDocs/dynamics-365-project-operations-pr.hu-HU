@@ -1,6 +1,6 @@
 ---
 title: Tranzakciós kategória használata árképzési dimenzióként
-description: Ez a cikk a tranzakciós kategóriák árképzési dimenzióként való használatáról nyújt tájékoztatást.
+description: Ez a cikk a tranzakciós kategória árazási dimenzióként való használatáról nyújt tájékoztatást.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915739"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ez a cikk bemutatja, hogyan használhat egy tranzakciós kategóriát árképzési dimenzióként. Mielőtt elkezdené, ha még nem hozott létre árképzési megoldást, akkor létre kell hoznia egy újat. Ha már van árképzési dimenziós megoldása, akkor megváltoztathatja azt. Ha még nem hozott létre új árképzési dimenziós megoldást a szervezet számára, hajtsa végre az [Egyéni mezők és entitások](create-custom-fields-entities.md) létrehozása cikkben található eljárásokat.
+Ez a cikk bemutatja, hogyan lehet tranzakciós kategóriát használni árképzési dimenzióként. Mielőtt elkezdené, ha még nem hozott létre árképzési megoldást, akkor létre kell hoznia egy újat. Ha már van árképzési dimenziós megoldása, akkor megváltoztathatja azt. Ha még nem hozott létre új árképzési dimenziós megoldást a szervezetének, akkor hajtsa végre az [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md) cikkben szereplő eljárásokat.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Tranzakciós kategória hozzáadása űrlapokhoz és nézetekhez
 Annak érdekében, hogy a tranzakciós kategóriák megjelenjenek az árazási dimenzió megoldás felhasználói felületén, végig kell lépnie a főbb entitások összes űrlapján és nézeté, és ezeket a mezőket hozzá kell adnia ezen entitások űrlapjaihoz és nézeteihez.

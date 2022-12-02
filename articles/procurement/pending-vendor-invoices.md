@@ -1,6 +1,6 @@
 ---
-title: Nem raktározott anyagok vagy beszerzési kategóriák vásárlása függőben lévő szállítói számla használatával
-description: Ez a cikk a függőben lévő szállítói számlák rögzítésének módját ismerteti.
+title: Nem készletezett anyagok vagy beszerzési kategóriák beszerzése függőben lévő szállítói számla alapján
+description: Ez a cikk ismerteti, hogyan lehet rögzíteni a függőben lévő szállítói számlákat.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921995"
 ---
-# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nem raktározott anyagok vagy beszerzési kategóriák vásárlása függőben lévő szállítói számla használatával
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nem készletezett anyagok vagy beszerzési kategóriák beszerzése függőben lévő szállítói számla alapján
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Mivel egy vállalat nem raktározott anyagokat vagy beszerzési kategóriákat szerez be egy projekthez, a költségek azonnal nyilvántarthatók a projekttel szemben. 
+Amikor egy vállalat nem készleten lévő vagy beszerzési kategóriákat szerez egy projekthez, a költségek azonnal rögzítve lesznek a projekten belül. 
 
-A Contoso Robotics US például egy berendezés felújítási projektjét végzi, és szoftverlicencekre van szüksége. Ezeket a licenceket egy harmadik fél szállítótól szerzik be.  A Dynamics 365 Finance használatával a Kötelezettségekért felelős ügyintéző egy függőben lévő szállítói számladokumentumot rögzít, és a licencköltségeket közvetlenül a berendezés megújítási projektjéhez rendeli. 
+A Contoso Robotics US például egy berendezés felújítási projektjét végzi, és szoftverlicencekre van szüksége. Ezeket a licenceket egy harmadik fél szállítótól szerzik be.  A Dynamics 365 Finance használata esetén a kinnlevőségek számlák könyvelője rögzíti a függőben lévő szállítói számla dokumentumát, és a licencköltségeket közvetlenül a berendezésfelújítási projekthez rendeli. 
 
 > [!IMPORTANT]
-> A cikkben ismertetett funkciók használata előtt tekintse át és alkalmazza a szükséges konfigurációkat. További tájékoztatás: [Nem készletezett anyagok és függőben lévő szállítói számlák](configure-materials-nonstocked.md) engedélyezése és [Beszerzési kategóriák használata projekt beszerzési rendelésekkel és függőben lévő szállítói számlákkal](configure-procurement-categories.md)
+> Mielőtt a jelen cikk leírt funkciókat használod, tekintsd át és alkalmazd a szükséges konfigurációkat. További információ: [Nem raktározott anyagok és függőben lévő szállítói számlák engedélyezése](configure-materials-nonstocked.md) és [Használjon beszerzési kategóriákat a projekt beszerzési rendeléseihez és a függőben lévő szállítói számlákhoz](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Projekthez kapcsolódó, függőben lévő szállítói számla kiküldése 
 
 A függőben lévő szállítói számlák a **Függőben lévő szállítói számlák** oldalon (**Kötelezettségek** > **Számlák** > **Függőben lévő szállítói számlák**) rögzíthetők. A következő lépésekkel tegye közzé a projekttel kapcsolatos, függőben lévő szállítói számlát:
 
-1. Lépjen a Kötelezettségek számlák **lapra** > **·**, és válassza az Új **lehetőséget**. 
-1. **A Számla számlamezőben** válasszon ki egy szállítót, majd a **Szám** mezőbe írja be a szállítói számla azonosítóját.
-1. Adjon hozzá egy sort a szállítói számlához, majd a **Cikkszám** mezőben válassza ki a szállítótól vásárolt nem készletezett cikket. Másik lehetőségként a **Beszerzési kategória** mezőben válassza ki a szállítótól beszerzett beszerzési kategóriát.   
-1. Adja hozzá a megvásárolt mennyiséget. A rendszer kitölti az egységárat a nem raktározott cikkár-konfiguráció alapján. 
+1. Lépjen a **Kötelezettségek** > **Számlák** pontra, és válassza az **Új** lehetőséget. 
+1. A **Számlapartner** mezőben jelöljön ki egy szállítót, a **Szám** mezőben pedig adja meg a szállítói számla azonosítóját.
+1. Vegyen fel egy sort a szállító számlájához, majd a **Cikkszám** mezőben jelölje ki a szállítótól megvásárolt, nem készleten kívüli tételt. Másik lehetőségként válassza ki a **Beszerzési kategória** mezőben azt a kategóriát, amit az beszállítótól vásárolt.   
+1. Adja hozzá a megvásárolt mennyiséget. A rendszer a nem készleten alapuló cikkárkonfiguráció alapján kitölti az egységárat. 
 1. Ellenőrizze a sorban a teljes összeget és az egyéb szükséges adatokat.
-1. A sor részleteiben, a **Projekt** lapon válassza ki annak a projektnek az azonosítóját, amelybe ezt az elemet rögzíteni fogja.
-1. Nem kötelező: Válassza ki a tevékenység számát, és frissítse a projektkategóriát és a sortulajdonságot.
-1. Adja fel a függőben lévő szállítói számlát. A számla feladásakor a rendszer a következő információkat rögzíti:
+1. A sor részleteiben a **Projekt** lapon jelölje ki annak a projektnek az azonosítóját, amelybe ezt az elemet rögzíteni fogja.
+1. Opcionális: Válassza ki a tevékenység számát, és frissítse a projektkategóriát és a sortulajdonságot.
+1. Adja fel a függőben lévő szállítói számlát. A rendszer a következő információkat rögzíti a számla feladásakor:
     
     - A szállító egyenlege.
     - Az áfa összege.

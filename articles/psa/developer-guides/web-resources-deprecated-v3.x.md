@@ -1,6 +1,6 @@
 ---
 title: Elavult webes erőforrások a Project Service Automation 3.x-ben
-description: Ez a cikk a 3.0-s verzióban Dynamics 365 Project Service Automation már nem használt webes erőforrásokat ismerteti.
+description: Ez a cikk azokat a webes erőforrásokat írja le, amelyeket már nem használnak a Dynamics 365 Project Service Automation 3.0 verziójában.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Lehetőség fejléc/összegzés
-description: Ez a cikk a projektalapú ügyletekről és a projektalapú lehetőségsorokról nyújt tájékoztatást.
+description: Ez a cikk a projektalapú üzleteket és a projektalapú lehetőségsorokat ismerteti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

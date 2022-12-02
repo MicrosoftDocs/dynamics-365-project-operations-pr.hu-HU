@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kezelési GYIK
-description: Ez a cikk az erőforrás-kezeléssel kapcsolatos gyakori kérdésekre ad választ.
+description: Ez a cikk válaszokat ad az erőforrás-kezeléssel kapcsolatos gyakran feltett kérdésekre.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Jelentéskészítés kezdőlapja
-description: Ez a cikk a Dynamics 365 Project Service Automation.
+description: Ez a cikk a Dynamics 365 Project Service Automation rendszerben történő jelentések leírását tartalmazza.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ A Microsoft Power BI és a Dynamics 365 együttesen hatékony módszert kínál 
 
 
 ## <a name="additional-resources"></a>További információforrások
-A PSA-ban való jelentéskészítéssel kapcsolatos további információkért tekintse meg a következő cikkeket:
+A PSA-ban történő jelentéssel kapcsolatos további információkért lásd a következő cikkeket:
 
 - [Munka a Project Service adatmodellel](reports-working-project-service-data-model.md)
 - [Irányítópultok](reports-dashboards.md)

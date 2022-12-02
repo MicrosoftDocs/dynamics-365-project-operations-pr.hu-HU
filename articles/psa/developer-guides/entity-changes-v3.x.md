@@ -1,6 +1,6 @@
 ---
 title: Entitás, vezérlés és a felhasználói felület változásai (Project Service Automation 3.x)
-description: Ez a cikk a Project Service Automation 3.x megoldási változásait Microsoft Dynamics ismerteti.
+description: Ez a cikk leírja a Microsoft Dynamics Project Service Automation 3.x megoldásbeli változásait.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926871"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-A Service Project Service Automation (PSA) 3.x Microsoft Dynamics kiadásával számos változtatást hajtottak végre az entitásokban, a vezérlőkben, a nézetekben és a felhasználói felületen. Ez a cikk ezekről a fontos változásokról nyújt tájékoztatást.
+A Service Project Service Automation (PSA) 3.x Microsoft Dynamics kiadásával számos változtatást hajtottak végre az entitásokban, a vezérlőkben, a nézetekben és a felhasználói felületen. Ez a cikk információkat nyújt ezekről a fontos változásokról.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>A szülő-gyermek kapcsolatok értékesítési dokumentumokhoz, értékesítési dokumentumsorokhoz, értékesítési dokumentumsorokhoz tartozó entitások
 A Dynamics 365 Project Service Automation (PSA) 3.0 verzió megjelenése előtti verziókban az értékesítési dokumentumok, az értékesítési dokumentumsorok és az értékesítési dokumentumsorok részletek entitások közötti egyes kapcsolatok olyan karakterlánc-mezők segítségével valósultak meg, amelyek a kapcsolódó entitás karakterlánc GUID-jének karakterlánc reprezentációját tartalmazták. Ennek oka a platform korlátai voltak, amelyek miatt jelentős egyedi kód volt szükséges a megoldás szerver- és kliens oldalán ahhoz, hogy ezek a kapcsolatok hasonlóan működjenek a tipikus Dynamics CRM-entitáskapcsolatokkal, és hogy a karakterláncmezők úgy működjenek, mint keresési mezők.

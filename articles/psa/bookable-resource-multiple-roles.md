@@ -1,6 +1,6 @@
 ---
 title: A projektek értékesítésének és költségeinek becslése, ha egy foglalt erőforrás több szerepkört tölt be egy projekthez
-description: Ez a cikk arról nyújt tájékoztatást, hogy a díjszabási dimenziók hogyan használhatók egy olyan erőforrás díjszabásának és költségszámításának támogatására, amely több szerepkört tölt be egy projekten.
+description: Ez a cikk információkat tartalmaz arról, hogyan használhatók árképzési dimenziók a több szerepkörrel rendelkező erőforrásra vonatkozó árképzés és költségszámítás támogatására.
 author: rumant
 ms.custom:
 - dyn365-projectservice

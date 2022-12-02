@@ -1,6 +1,6 @@
 ---
 title: Foglaló vagy előleg számlázása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan számlázhat ki egy megőrzőt vagy előleget a Project Operationsben.
+description: Ez a cikk foglaló és előleg a Project Operations rendszerben történő számlázásáról tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

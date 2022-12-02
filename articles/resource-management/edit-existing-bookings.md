@@ -18,7 +18,7 @@ ms.locfileid: "8915233"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-Ha olyan projektben történik módosítás, amelyhez a meglévő foglalások frissítése szükséges, akkor többféleképpen is elvégezheti a módosításokat. Ez a cikk a foglalások frissítését és módosítását ismerteti.
+Ha olyan projektben történik módosítás, amelyhez a meglévő foglalások frissítése szükséges, akkor többféleképpen is elvégezheti a módosításokat. Ez a cikk a foglalások frissítésével és módosításával kapcsolatos információkat vázolja fel.
 
 ## <a name="resource-reconciliation"></a>Erőforrás-egyeztetés
 

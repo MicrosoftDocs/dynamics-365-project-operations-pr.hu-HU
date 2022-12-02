@@ -1,6 +1,6 @@
 ---
 title: Projektalapú lehetőségsorok
-description: Ez a cikk a projektalapú lehetőségsorokkal való munkáról nyújt tájékoztatást.
+description: Ez a cikk a projektalapú lehetőségsorok használatát ismerteti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

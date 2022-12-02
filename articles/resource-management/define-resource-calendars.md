@@ -1,6 +1,6 @@
 ---
 title: Erőforrásnaptárak meghatározása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan határozhatja meg az erőforrások munkaóranaptárait a Project Operationsben.
+description: Ez a cikk a Project Operations erőforrásaihoz tartozó munkaidőnaptárak definiálásával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

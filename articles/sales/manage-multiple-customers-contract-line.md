@@ -1,6 +1,6 @@
 ---
 title: Több ügyfél kezelése projektalapú szerződéssorokon
-description: Ez a cikk a több ügyfelet tartalmazó szerződéssorokkal és szerződésekkel való munkáról nyújt tájékoztatást.
+description: Ez a cikk a több ügyfelet tartalmazó szerződéssorok és szerződések használatáról tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

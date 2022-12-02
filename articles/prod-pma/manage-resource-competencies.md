@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-kompetenciák kezelése
-description: Ez a cikk a projekterőforrások kompetenciáinak beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projekterőforrások kompetenciáinak beállításáról.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

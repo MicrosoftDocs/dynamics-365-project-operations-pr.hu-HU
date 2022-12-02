@@ -1,6 +1,6 @@
 ---
 title: Anyagokra vonatkozó pénzügyi becslések projekteknél
-description: Ez a cikk a projektalapú anyagok meghatározásáról vagy becsléséről nyújt tájékoztatást.
+description: Ez cikk a projektalapú anyagokra meghatározásáról vagy becsléséről nyújt tájékoztatást.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925700"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Dynamics 365 Project Operations lehetővé teszi a projektmenedzserek számára, hogy minden projekthez vagy feladathoz projektalapú anyagköltségeket határozzanak meg. Minden anyagbecslés társítható egy adott projektfeladathoz. A projektekben használt anyagok lehetnek beírt termékek vagy termékek a termékkatalógusból. A termék és az egység minden egyes kombinációjához meghatározható egy ár az értékesítések projekt árlistáiban és a projekt árlistáiban a költségekhez.  
+A Dynamics 365 Project Operations lehetővé teszi a projektmenedzserek számára, hogy minden projekthez vagy feladathoz projektalapú anyagköltségeket határozzanak meg. Minden anyagbecslés társítható egy adott projektfeladathoz. A projektekhez használt anyagok lehetnek nem katalogizált termékek vagy a termékkatalógusból származó termékek. Egy termék és egy egység minden kombinációjához meg lehet határozni egy árat a projekt értékesítési árlistáiban és a projek költségtárlistáiban.  
 
 Projektanyag-becslés megtekintéséhez, hozzáadásához vagy törléséhez végezze el a következő lépéseket.
 

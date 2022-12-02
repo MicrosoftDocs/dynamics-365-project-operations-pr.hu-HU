@@ -1,6 +1,6 @@
 ---
 title: Termékalapú lehetőségsorok - Lite
-description: Ez a cikk a Project Operations termékalapú lehetőségsorairól nyújt tájékoztatást.
+description: Ez a cikk a Project Operations termékalapú lehetőség sorelemeit ismerteti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Szállítói visszatartás– áttekintés
-description: Ez a cikk áttekintést nyújt a szállítói megtartási képességekről.
+description: Ez a cikk áttekintést ad a szállítói visszatartás képességről.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

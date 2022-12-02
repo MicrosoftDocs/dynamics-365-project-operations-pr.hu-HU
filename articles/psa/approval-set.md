@@ -1,6 +1,6 @@
 ---
 title: Jóváhagyási készletek a Project Service Automation-ben
-description: Ez a cikk a jóváhagyási készletről, a kérelmekről és a műveletek részhalmazairól nyújt tájékoztatást.
+description: Ez cikk információkat tartalmaz a jóváhagyási készletről, a kérelmekről, valamint ezen műveletek részhalmazairól.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

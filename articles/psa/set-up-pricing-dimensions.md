@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők beállítása árazási dimenziókként
-description: Ez a cikk az egyéni árképzési dimenziók beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk az egyedi árazási dimenziók beállításáról nyújt információkat.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922600"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Mielőtt hozzákezd, ez a cikk feltételezi, hogy befejezte a cikkek eljárásait, [Egyéni mezők és entitások](create-custom-fields-entities.md) létrehozása és [Egyéni mezők hozzáadása az árbeállításhoz és a tranzakciós entitásokhoz](field-references.md). Ha még nem fejezte be ezeket az eljárásokat, térjen vissza, fejezze be őket, majd térjen vissza ehhez a cikkhez. 
+Ez a cikk feltételezi, hogy először elvégezte a következő cikkek eljárásait: [Egyéni mezők és entitások létrehozása](create-custom-fields-entities.md) és [Egyéni mezők hozzáadása az ár a telepítést és tranzakciós szervezetek](field-references.md). Ha még nem fejezte be ezeket az eljárásokat, menjen vissza, és fejezze be őket, majd térjen vissza ehhez a cikkhez. 
 
-Ez a cikk az egyéni árképzési dimenziók beállításával kapcsolatos információkat tartalmaz. A Project Service webes felületén, a **Paraméterek** oldalon, az **Összeg alapú árképzési dimenziók** lapon megjelennek az árazási dimenziók entitásaiban szereplő rekordok. Alapértelmezés szerint a Project Service telepítése 2 sort hoz létre a fül rácsában:
+Ez a cikk az egyedi árazási dimenziók beállításáról nyújt információkat. A Project Service webes felületén, a **Paraméterek** oldalon, az **Összeg alapú árképzési dimenziók** lapon megjelennek az árazási dimenziók entitásaiban szereplő rekordok. Alapértelmezés szerint a Project Service telepítése 2 sort hoz létre a fül rácsában:
 
 - **msdyn_resourcecategory** (Szerepkör)
 - **msdyn_OrganizationalUnit** (Szervezeti egység)

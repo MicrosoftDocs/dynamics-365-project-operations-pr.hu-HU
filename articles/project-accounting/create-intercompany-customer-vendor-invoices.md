@@ -1,6 +1,6 @@
 ---
 title: Vállalatközi ügyfél- és szállítói számlák létrehozása
-description: Ez a cikk a vállalatközi vevői és szállítói számlák létrehozásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a vállalatközi vevői és szállítói létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Ezt a folyamatot használhatja vállalatközi vevői számla manuális létrehoz
 
 A kölcsönbeadó jogi személyben a következő lépéseket kell végrehajtani. 
 
-1. A Dynamics 365 Finance a Projektvezetési és könyvelési **projektszámlák** > **vállalatközi vevői számlák című** > **témakörben találja**. A **Vállalatközi vevői számlák** listaoldalán, a műveleti ablaktáblán válassza az **Új** lehetőséget.
+1. A Dynamics 365 Finance alkalmazásban válassza a **Projektvezetés és könyvelés** > **Projektszámlák** > **Vállalatközi vevői számlák** lehetőséget. A **Vállalatközi vevői számlák** listaoldalán, a műveleti ablaktáblán válassza az **Új** lehetőséget.
 2. A **Vállalatközi számla létrehozása** oldal **Jogi személy** mezőjében jelöljön ki egy kölcsönvevő jogi személyt.
 3. Nem kötelező: Adja meg a specifikus projektszerződést és projektszámot.
 4. Szűkítse a keresést egy dátumtartomány kiválasztásával. Adja meg a **Kezdődátum** és a **Záró dátum** mezőben az adott dátumokat. A keresési eredményekben csak azok a vállalatközi tranzakciók jelennek meg, amelyek a dátumtartományban lettek feladva.

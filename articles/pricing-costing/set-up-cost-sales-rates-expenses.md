@@ -1,6 +1,6 @@
 ---
 title: Költség- és értékesítési árak beállítása a kiadásokhoz
-description: Ez a cikk a tranzakciós és költségkategóriák költség- és értékesítési díjainak beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a költség és értékesítési ráták tranzakciós és költségkategóriákhoz való beállításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Az erőforrások számlázható kihasználtságának megtekintése
-description: Ez a cikk az erőforrás-kihasználtsági nézetről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az erőforrás-kihasználtsági nézetről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

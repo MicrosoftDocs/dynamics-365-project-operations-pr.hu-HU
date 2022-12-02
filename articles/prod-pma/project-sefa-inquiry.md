@@ -1,6 +1,6 @@
 ---
 title: A szövetségi díjak kiadásaira vonatkozó lekérdezés ütemezése
-description: Ez a cikk a szövetségi díjak kiadási ütemtervének vizsgálatáról nyújt tájékoztatást.
+description: Ez a cikk a szövetségi díjak kiadásával kapcsolatos lekérdezés ütemezésére vonatkozó információkat tartalmaz.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

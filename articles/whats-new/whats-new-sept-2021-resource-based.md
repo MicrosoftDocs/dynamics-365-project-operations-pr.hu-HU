@@ -1,6 +1,6 @@
 ---
 title: 2021. szeptemberi újdonságok – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a cikk a Project Operations 2021. szeptemberi kiadásában elérhető minőségi frissítésekről nyújt információt erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Project Operations lite telepítés 2021. szeptemberi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást az erőforrás / nem készletezett forgatókönyvekhez.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.locfileid: "8923375"
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.14.0.99 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.20-as verzió.
+   - Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.20-as verziójú környezetekben.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 
@@ -45,7 +45,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a Kettős ír�
 | Számlázás és árképzés | 2385802 | Javítottuk a projektösszegek frissítésekkor a negatív tényleges óráknál jelentkező hibát. |
 | Számlázás és árképzés | 2389675 | Továbbfejlesztett proforma számlamegerősítés viselkedés. A hosszú ideje futó feladatok entitásának figyelembe kell vennie a könyvelés számára a megerősítő eredmények írásához szükséges tevékenységet. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Cikkek bevételezése a cikkszükségletből származó beszerzési rendelésen
-description: Ez a cikk azt ismerteti, hogyan kaphat cikkeket egy beszerzési rendeléshez egy cikkszükségletből.
+description: Ez a cikk ismerteti, hogyan lehet cikkeket bevételezni egy cikkszükségletből származó beszerzési rendelésen.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929539"
 
 [!include [banner](../../includes/banner.md)]
 
-Ez a cikk azt ismerteti, hogyan kaphat cikkeket egy beszerzési rendeléshez egy cikkszükségletből.
+Ez a cikk ismerteti, hogyan lehet cikkeket bevételezni egy cikkszükségletből származó beszerzési rendelésen.
 
 Cikktranzakció helyett egy cikkszükségletet használva megtervezheti a szállítást éppen a cikk tényleges felhasználása előtt, létrehozhat egy beszerzési rendelést, belefoglalhatja a cikket egy megállapodási keretrendszerbe, és belefoglalhatja a cikkszükségletet a gyártási tervezésbe. 
 

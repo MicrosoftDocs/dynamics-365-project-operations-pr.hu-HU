@@ -1,6 +1,6 @@
 ---
 title: Használjon egy meglévő mezőt a Project Service-ben árképzési dimenzióként
-description: Ez a cikk a meglévő Project Service-mezők díjszabási dimenzióként való használatáról nyújt tájékoztatást.
+description: Ez a cikk ismerteti a meglévő Project Service mezők árazási dimenzióként történő használatát.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

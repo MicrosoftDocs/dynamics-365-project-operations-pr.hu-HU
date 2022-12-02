@@ -1,6 +1,6 @@
 ---
 title: Projektárajánlatok létrehozása lehetőségekből
-description: Ez a cikk a projektajánlat lehetőségből való létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk a projektárajánlatok lehetőségekből történő létrehozását ismerteti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

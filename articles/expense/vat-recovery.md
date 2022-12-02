@@ -1,6 +1,6 @@
 ---
 title: Áfa-visszaigénylés a Költségkezelésben
-description: Ez a cikk bemutatja, hogyan kaphat visszatérítést a jogosult hozzáadottérték-adó (áfa) tranzakciók után.
+description: Ez a cikk ismerteti, hogyan fogadhatók visszatérítések a jogosult ÁFA-tranzakciókra vonatkozóan.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

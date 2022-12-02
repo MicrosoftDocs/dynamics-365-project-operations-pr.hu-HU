@@ -1,6 +1,6 @@
 ---
 title: Érdeklődők kezelése
-description: Ez a cikk a projektalapú érdeklődők kezeléséről nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt a projektalapú érdeklődőkkel kapcsolatban.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

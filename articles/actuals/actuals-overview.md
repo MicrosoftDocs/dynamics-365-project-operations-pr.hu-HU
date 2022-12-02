@@ -1,6 +1,6 @@
 ---
 title: Tényadatok
-description: Ez a cikk arról nyújt tájékoztatást, hogyan dolgozhat a tényleges adatokkal a Microsoftban Dynamics 365 Project Operations.
+description: Ez a cikk a Microsoft Dynamics 365 Project Operations tényadatokkal való munkára vonatkozó információit mutatja be.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924801"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű központi telepítés – proforma számlázás_
 
-A tényleges adatok a projekt felülvizsgált és jóváhagyott pénzügyi és ütemezési előrehaladását jelentik. Ezek akkor jönnek létre, amikor az idő-, költség- és anyaghasználati bejegyzéseket, naplóbejegyzéseket és számlákat jóváhagyják.
+A tényleges adatok a projekt felülvizsgált és jóváhagyott pénzügyi és ütemezési előrehaladását jelentik. Az idő-, költség-, anyagfelhasználási tételek, valamint a naplótételek és számlák jóváhagyásával jönnek létre.
 
 > [!IMPORTANT]
-> A tényleges adatokat nem szabad szerkeszteni vagy törölni a rendszerből. Ellenkező esetben hátrányosan érintheti a pénzügyi integritást és a más pénzügyi és számviteli rendszerekkel való integrációt. A Microsoft Dynamics 365 Project Operations lehetővé teszi, hogy a tényleges adatok megfordításával és cseréjével szerkessze a tényleges adatokat a projektek üzleti folyamatának életciklusának különböző pontjain.
+> A tényadatokat nem szabad szerkeszteni vagy törölni a rendszerből. Máskülönben a pénzügyi integritást, valamint az egyéb pénzügyi és könyvelési rendszerekkel való integrációt ez negatívan érinti. A Microsoft Dynamics 365 Project Operations lehetővé teszi, hogy a projektek üzleti folyamatának különböző pontjaina tényadatok visszavonását és cseréjét a szerkesztéshez.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Tényadatok rögzítése projektesemények alapján
 
-A Project Operations a projekt elköteleződési életciklusa során bekövetkező pénzügyi tranzakciókat ténylegesként rögzíti. A tényleges adatok létrehozása az életciklus különböző eseményein attól függően változik, hogy a projekt elköteleződése az idő- és anyagszámlázási modellt vagy a rögzített árú számlázási modellt használja-e, és hogy az értékesítés előtti szakaszban van-e, vagy belső projektről van-e szó.
+A Project Operations tényadatokként rögzíti a projektegyüttműködés életciklusa során bekövetkező pénzügyi tranzakciókat. A tényadatok különböző eseményeken való létrehozása az életciklus során attól függően változik, hogy a projektaktivitása idő- és anyag alapú számlázási modellt vagy a rögzített árú számlázási modellt használja-e, és hogy az értékesítés előtti fázisban van-e, vagy egy belső projekt.
 
-A következő cikkek ismertetik a Tényleges adatok táblázatra gyakorolt hatást a különböző változatok különböző eseményeinél:
+A következő cikkek ismertetik a különböző események a Tényadatok táblára gyakorolt hatásait:
 
-- [A tényleges hatás egy adott időben és az anyagok bevonása](ActualsonTM.md)
-- [Tényleges hatás rögzített ármegállapításban](ActualonFP.md)
-- [Tényleges hatás az elköteleződés értékesítés előtti szakaszában](ActualonPreSales.md)
-- [A belső projekt tényleges hatása](ActualonInternal.md)
+- [A tényadatok hatásai idő és anyagalapú együttműködésben](ActualsonTM.md)
+- [A tényadatok hatásai rögzített árú együttműködésben](ActualonFP.md)
+- [A tényadatok hatása egy együttműködés értékesítés előtti fázisában](ActualonPreSales.md)
+- [A tényadatok hatása egy belső projektben](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

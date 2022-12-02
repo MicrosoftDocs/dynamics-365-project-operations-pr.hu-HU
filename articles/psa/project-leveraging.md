@@ -1,6 +1,6 @@
 ---
 title: Értékesítési becslések és projektek
-description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet kihasználni az ütemezést és a becsléseket az értékesítési folyamatban.
+description: Ez a cikk információkat nyújt arról, hogyan lehet kihasználni az ütemezést és a becsléseket az értékesítési folyamatban.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

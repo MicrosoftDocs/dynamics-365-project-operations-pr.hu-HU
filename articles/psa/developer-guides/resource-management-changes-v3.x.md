@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-menedzsment változások (Project Service Automation 3.x)
-description: Ez a cikk az Erőforrás-kezelés terület változásairól nyújt tájékoztatást.
+description: Ez a cikk az erőforrás-kezelési terület változásairól nyújt információkat.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916015"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-A cikk szakaszai a 3.x verzió Erőforrás-kezelés területén Dynamics 365 Project Service Automation végrehajtott módosításokról nyújtanak információt.
+A cikk szakaszai információkat tartalmaznak a Dynamics 365 Project Service Automation 3.x. változat erőforrás-kezelési területén végrehajtott változásokról.
 
 ## <a name="project-estimates"></a>Projektbecslések
 

@@ -1,6 +1,6 @@
 ---
 title: Tényadatok áttekintése
-description: Ez a cikk a projekt tényleges adatairól nyújt tájékoztatást.
+description: Ez a cikk a projektek tényadataival kapcsolatban nyújt tájékoztatást.
 author: rumant
 ms.custom:
 - dyn365-projectservice

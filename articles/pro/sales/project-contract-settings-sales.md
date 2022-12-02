@@ -1,6 +1,6 @@
 ---
 title: Projektszerződés beállításai - Lite
-description: Ez a cikk a szerződéssorokat befolyásoló mezőkről, valamint az összes sorra kiterjedően összefoglalt, a szerződésről szóló információkat tartalmaz.
+description: Ez a cikk a szerződéssorokra hatással levő mezőkről, valamint az összes sorra vonatkozóan összefoglalt szerződésre vonatkozó információkra vonatkozó információkat tartalmaz.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917073"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a cikk a teljes projektszerződésre vonatkozó mezőkről nyújt tájékoztatást, beleértve az összes szerződéssort érintő beállításokat is. Ezenkívül tartalmaz a szerződésre vonatkozó, összes sorelemen keresztül összesített információkat, amelyek a projektszerződés KPI-jaira hatással vannak.
+Ez a cikk a teljes szerződésre vonatkozó mezőkre vonatkozó információkat tartalmaz, beleértve az összes szerződéssorra hatással levő beállításokat is. Ezenkívül tartalmaz a szerződésre vonatkozó, összes sorelemen keresztül összesített információkat, amelyek a projektszerződés KPI-jaira hatással vannak.
 
 A következő táblázat a projektszerződés olyan mezőit sorolja fel, amelyek egyediek a Dynamics 365 Project Operations alkalmazásban, vagy a Dynamics 365 Sales értékesítési megrendelésinél viselkedésük valamilyen fontos változással rendelkezik.
 
@@ -35,11 +35,11 @@ A következő táblázat a projektszerződés olyan mezőit sorolja fel, amelyek
 A következő fő teljesítménymutatók érhetők el a projekt szerződés **Szerződési teljesítmény** lapján. 
 
 >[!NOTE]
->A Szerződés teljesítése **lapon található** összes összeg a környezet alapértelmezett pénznemében van kifejezve.
+>A **Szerződési teljesítmény** lapon található összes összeg a környezet alapértelmezett pénznemében van megjelölve.
 
 | Mező | Hely | Description |
 | --- | --- | --- |
-| Szerződés értéke | Általános szerződés | A projektszerződés összértéke.|
+| Szerződés értéke | Általános szerződés | A projektszerződés teljes értéke.|
 | Számlázott összeg | Általános szerződés | A szerződésben szereplő összes számlán szereplő összegek összege.|
 | Felmerült költség | Általános szerződés | A szerződéshez leképezett összes projektre vonatkozóan a naplózott összes költség összege. |
 | Bruttó nyereség | Általános szerződés | Számlázott összeg – a felmerült költség adott dátumig/számlázott összeg |

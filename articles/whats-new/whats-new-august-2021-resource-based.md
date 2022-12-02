@@ -1,6 +1,6 @@
 ---
 title: Újdonságok - 2021. augusztus - Project Operations erőforrás/nem készletalapú forgatókönyvekhez
-description: Ez a cikk a Project Operations 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2021. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást az erőforrás/nem készletalapú forgatókönyvek esetében.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.locfileid: "8912289"
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.13.0.152 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.20-as verzió.
+   - Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.20-as verziójú környezetekben.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -54,7 +54,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó t
 | Idő és költség | 2336884 | A **Hét másolása** időbejegyzés gombnak nem csak az aktuális felhasználó számára kell működnie. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

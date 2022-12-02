@@ -1,6 +1,6 @@
 ---
 title: Projektalapú proforma számla megerősítése
-description: Ez a cikk a proforma projektalapú számla megerősítéséről nyújt tájékoztatást.
+description: Ez a cikk a proforma projektalapú számlák megerősítéséről nyújt információt.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

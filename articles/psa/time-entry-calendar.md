@@ -1,6 +1,6 @@
 ---
 title: Időbeviteli naptár
-description: Ez a cikk az időbeviteli naptár használatáról nyújt tájékoztatást.
+description: Ez a cikk az időbeviteli naptár használatáról nyújt információkat.
 author: rumant
 ms.custom:
 - dyn365-projectservice

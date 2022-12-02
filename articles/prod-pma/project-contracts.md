@@ -44,7 +44,7 @@ Egyes projektszerződések azt határozzák meg, hogy több fél osztozik a fele
 -   Egy közúti projektet két önkormányzat társfinanszíroz.
 -   Egy hídprojektet kormányzati támogatás és egy magánvállalat finanszíroz.
 
-A Dynamics 365 Finance egyetlen tranzakció vagy egy teljes projekt számlázását feloszthatja több ügyfél, támogatás vagy szervezet között. 
+A Dynamics 365 Finance alkalmazásban egyetlen tranzakció vagy egy teljes projekt számlázását feloszthatja több ügyfél, támogatás vagy szervezet között. 
 
 A több finanszírozóval rendelkező projektek esetében a speciális finanszírozási projekt finanszírozásához hozzájáruló feleket finanszírozási forrásoknak nevezik. Az ügyfél, szervezet vagy támogatás finanszírozási forrásként való meghatározása után egy vagy több finanszírozási szabályhoz rendelhető hozzá. A finanszírozási szabályok tartalmazzák azokat a feltételeket, amelyek meghatározzák, hogy a felszámított költségek hogyan vannak kiosztva a projektek különböző finanszírozási forrásaihoz. 
 

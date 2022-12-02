@@ -1,6 +1,6 @@
 ---
 title: Használja a Project Service bővítményt munkájának megtervezéséhez a Microsoft Project szolgáltatásban | MicrosoftDocs
-description: Ez a cikk a Microsoft Project szolgáltatáshoz készült Microsoft Project bővítmény hozzáadásáról, konfigurálásáról és használatáról nyújt tájékoztatást.
+description: Ez a cikk a Microsoft Project Service Microsoft Project bővítményének hozzáadásával, konfigurálásával és használatával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

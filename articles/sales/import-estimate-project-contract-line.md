@@ -1,6 +1,6 @@
 ---
 title: Becslések importálása egy projektalapú szerződéssorba
-description: Ez a cikk arról nyújt tájékoztatást, hogyan importálhat becsléseket egy projektből egy szerződéssorba.
+description: Ez a cikk azt ismerteti, hogyan lehet becsléseket importálni egy projektből egy szerződéssorba.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

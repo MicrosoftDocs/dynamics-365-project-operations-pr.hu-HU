@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 43-es frissítési kiadásának V3 változatában
-description: Ez a cikk a 43-as kiadás V3-as verziójában Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a Microsoft Dynamics 365 Project Service Automation Update Release 43, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8915325"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk azokat a szolgáltatásokat és javításokat sorolja fel, amelyek a Project Service Automation 43-as, V3-as kiadásának újdonságai vagy módosításai. A verzió build száma V3.10.74.200, és általánosan elérhető lesz önálló frissítésként 2022 májusában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 43-os frissítési kiadásában. A verzió build száma V3.10.74.200, és általánosan elérhető lesz önálló frissítésként 2022 májusában.
 
 ## <a name="update-release-43"></a>43-ös frissítési kiadás
 
@@ -40,6 +40,6 @@ A következő problémák kerültek kijavításra.
 
 **Idő és költség**
 
-- Amikor időbejegyzéseket importál foglalásokból vagy erőforrás-hozzárendelésekből, a kapcsolódó foglalható erőforrásra való hivatkozás nem marad meg.
-- Ha az időbeviteli rács teljes képernyősre van kibontva, a tab billentyűvel való navigálás a rácsban nem működik.
-- Egy másik felhasználó által létrehozott időbevitel elküldésekor a **Beküldés dátuma** mező helytelenül lesz feltöltve azzal a felhasználóval, aki létrehozta az időlapot.
+- Ha időbejegyzéseket importál foglalásokból vagy erőforrás-hozzárendelésekből, akkor a rendszer nem tartja meg a kapcsolódó lefoglalható erőforrásra vonatkozó hivatkozást.
+- Ha az időbeviteli rács teljes képernyősre van kiterjesztve, akkor a tabulátorbillentyűvel történő navigálás a rácson nem működik.
+- Egy másik felhasználó által létrehozott időbejegyzés elküldésekor a rendszer helytelenül tölti ki a **Beküldő** mezőt az időnyilvántartást létrehozó felhasználóval.

@@ -1,6 +1,6 @@
 ---
 title: Több ügyfél kezelése egy projektszerződésen - Lite
-description: Ez a cikk a projektszerződések több ügyfélének kezeléséről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a több ügyfélnek a projektszerződéseken való kezeléséről.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

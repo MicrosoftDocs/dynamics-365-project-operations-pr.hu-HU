@@ -1,6 +1,6 @@
 ---
 title: Projektcsoport létrehozása
-description: Ez a cikk a projektcsapatok létrehozásáról és kezeléséről nyújt tájékoztatást.
+description: Ez a cikk a projektcsoportok létrehozásával és kezelésével kapcsolatban tartalmaz tájékoztatást.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

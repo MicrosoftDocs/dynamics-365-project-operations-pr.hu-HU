@@ -1,6 +1,6 @@
 ---
 title: Újdonságok - 2021 wave 2 korai hozzáférés - Project Operations könnyű telepítés
-description: Ez a cikk a Project Operations lite üzembe helyezésének 2021. hullám 2. hullámának korai hozzáférésű kiadásában elérhető funkciókról nyújt tájékoztatást.
+description: Ez a cikk a Project Operations könnyű telepítés 2021 wave 2 korai hozzáférésű kiadásában elérhető funkciókról nyújt tájékoztatást.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article

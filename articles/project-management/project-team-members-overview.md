@@ -1,6 +1,6 @@
 ---
 title: Projektcsoporttagok
-description: Ez a cikk a projektcsapattagok adataival, attribútumaival és ütemezésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk a projektcsapattagok információinak, attribútumainak és ütemezésének kezelését ismerteti.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

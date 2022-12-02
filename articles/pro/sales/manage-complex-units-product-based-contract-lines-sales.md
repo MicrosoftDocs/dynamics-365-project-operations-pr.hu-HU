@@ -1,6 +1,6 @@
 ---
 title: Bonyolult egységek kezelése termékalapú szerződéssorokhoz - lite
-description: Ez a cikk az előfizetéses termékek értékesítésének támogatásáról nyújt tájékoztatást.
+description: Ez az cikk az előfizetéses termékek értékesítésének támogatásával kapcsolatos információkat tartalmaz.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

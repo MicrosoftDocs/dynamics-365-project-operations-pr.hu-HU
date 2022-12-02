@@ -1,6 +1,6 @@
 ---
 title: Értékesítési folyamatok
-description: Ez a cikk az alapvető értékesítési folyamatokról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Képességek és jártasságok meghatározása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan állíthat be jártassági modelleket az erőforrások értékeléséhez.
+description: Ez a cikk az erőforrások értékelésére szolgáló jártassági modellek beállításáról nyújt információkat.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

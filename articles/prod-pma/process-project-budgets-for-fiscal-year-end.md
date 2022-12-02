@@ -1,6 +1,6 @@
 ---
 title: A projektek költségvetésének átadása pénzügyi év végén
-description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet átvinni a fennmaradó költségvetési összegeket a következő évekbe, és hogyan hozhat létre költségvetési nyilvántartási adatokat.
+description: A cikk azt ismerteti, hogy miként lehet áthelyezni a fennmaradó költségvetési összegeket a következő évekre, és létrehozni a költségvetés-nyilvántartási adatokat.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

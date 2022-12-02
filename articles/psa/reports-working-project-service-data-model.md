@@ -1,6 +1,6 @@
 ---
 title: Munka a Project Service Automation adatmodelljével
-description: Ez a cikk az adatmodellel való munka során szerzett információkat tartalmaz.
+description: Ez a cikk információt nyújt az adatmodell működéséről.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8926687"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-A Dynamics 365 Project Service Automation kiterjeszti más alkalmazás entitásokat, és bevezeti saját entitásokat az Common Data Service adatmodellben. Ez a cikk néhány olyan entitást ismertet, amelyekkel a tipikus PSA-jelentéskészítési forgatókönyvekben találkozni fog.
+A Dynamics 365 Project Service Automation kiterjeszti más alkalmazás entitásokat, és bevezeti saját entitásokat az Common Data Service adatmodellben. Ez a cikk leírja azokat az entitásokat, amelyekkel tipikus PSA jelentési forgatókönyvekben találkozhat.
 
 ## <a name="reporting-on-opportunities"></a>Jelentés a lehetőségekről
 

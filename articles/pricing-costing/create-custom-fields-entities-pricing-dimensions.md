@@ -1,6 +1,6 @@
 ---
 title: Egyéni mezők és entitások létrehozása árazási dimenzióként
-description: Ez a cikk az egyéni beállításkészletek vagy entitások létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk az egyéni értékkészletek és entitások létrehozását ismerteti.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
