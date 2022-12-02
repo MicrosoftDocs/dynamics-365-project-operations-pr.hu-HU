@@ -1,6 +1,6 @@
 ---
 title: Az alvállalkozói szerződéskötés kulcsfogalmai
-description: Ez a cikk néhány kulcsfontosságú fogalmat ismertet, amelyek a Microsoft alvállalkozásba adására vonatkoznak Dynamics 365 Project Operations.
+description: A cikk a Microsoft Dynamics 365 Project Operations alvállalkozói szerződésekre vonatkozó néhány alapvető fogalmat ismerteti.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9522751"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A cikk néhány kulcsfontosságú fogalmat ismertet, amelyekkel tisztában kell lennie, mielőtt elkezdené használni a Microsoft alvállalkozói funkcióját Dynamics 365 Project Operations.
+Ez a cikk ismerteti néhány olyan alapvető fogalmat, amelyről tudnia kell, mielőtt elkezdi használni a Microsoft Dynamics 365 Project Operations alvállalkozói funkcióit .
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Szerződéskötési egység az alvállalkozói szerződésen
 

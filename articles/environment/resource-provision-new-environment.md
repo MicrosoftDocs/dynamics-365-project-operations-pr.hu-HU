@@ -1,6 +1,6 @@
 ---
 title: Új környezet kiépítése
-description: Ez a cikk az új Project Operations-környezet kiépítéséről nyújt tájékoztatást.
+description: Ez a cikk az új Project Operations-környezet kialakításának módjával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 
 
-Ez a cikk arról nyújt tájékoztatást, hogyan építhet ki új Dynamics 365 Project Operations környezetet erőforrás-/nem készletalapú forgatókönyvekhez.
+Ez a cikk arról tartalmaz tájékoztatást, hogyan építhet ki új Dynamics 365 Project Operations-környezetet erőforrás-/nem készletalapú forgatókönyvekhez.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Az automatizált Project Operations-kiépítés engedélyezése egy LCS-projektben
 
@@ -34,7 +34,7 @@ A következő lépésekkel engedélyezheti az automatizált Project Operations-k
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations-környezet kiépítése
 
-1. Nyisson meg egy új Dynamics 365 Finance [bemutató környezetet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [tesztkörnyezeti/éles környezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) üzembe helyezését. 
+1. Nyisson meg egy új Dynamics 365 Finance [demókörnyezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vagy [teszt-/éles környezet](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) telepítést. 
 2. Haladjon végig a **Környezet kiépítése** varázslón. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Előfordulhat, hogy a Finance-környezetre minőségi frissítéseket kell alkal
 
     ![Megoldások alkalmazása.](./media/13ApplySolutions.png)
 
-5. Válassza ki mindkét megoldást, **Dynamics 365 Finance Kettős írási entitástérképet** és **Dynamics 365 Project Operations a Kettős írási entitásleképezéseket**, majd válassza az Alkalmaz **lehetőséget**.
+5. Válassza a mindkét megoldást: **Dynamics 365 Finance kettős írású entitásleképezés** és **Dynamics 365 Project Operations kettős írású entitásleképezése**, majd válassza az **Alkalmaz** lehetőséget.
 
     ![Megoldások megerősítése.](./media/14ConfirmSolutions.png)
 

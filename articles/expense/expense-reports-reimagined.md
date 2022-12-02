@@ -1,6 +1,6 @@
 ---
-title: Újragondolt költségjelentések (videót tartalmaz)
-description: Ez a cikk a költségjelentések bejegyzésének újratervezett és újragondolt élményét ismerteti.
+title: Költségjelentések újragondolva (videót tartalmaz)
+description: Ez a cikk a költségjelentések bejegyzésének átalakított és újragondolt élményét ismerteti.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Az új élmény bekapcsolásához a **Szolgáltatáskezelés** munkaterületen k
 | Új kiadási sorok mentése és hozzáadása | A **Mentés** és az **Új** gombok új kiadások beírása esetén elérhetők, hogy gyorsabban megadhassa a kiadási sorokat. |
 | Jobb láthatóság a felosztott és a tételezett sorokban | A tételezett és a felosztott sorok hozzá lettek adva közvetlenül a kiadások listájához, és segítségükkel könnyebben megállapíthatja, hogy vannak-e hibák. |
 | Alkategóriák részleteinek megtekintése elemi sorokban | A fölérendelt költség elemezett sorai az alkategóriák címkéit mutatják a költségjelentésen. Az elemek részletezése segítségével egy pillantással áttekintheti a részletes információkat.|
-|Az ismétlődő költségek gyors tétele | Az újragondolt költség munkaterület lehetővé teszi az ismétlődő költségek gyors tétele az alkategória, a kezdő dátum és a mennyiség hozzáadásával. A mennyiség azt jelenti, hogy hányszor ismétlődik meg a töltés egy folyamatos időszak alatt. |
+|Az ismétlődő kiadások gyors tételezése | Az újragondolt költség-munkaterület lehetővé teszi, hogy az ismétlődő kiadásokat gyorsan tételezze az alkategória, a kezdő dátum és a mennyiséggel hozzáadásával. A mennyiség azt jelenti, hogy hány alkalommal ismétlődik a díj egy folyamatos időszakban. |
 | Bizonylatok megjelenítése a tételezés során | A bizonylatok megjeleníthetők a tételezés. |
 | Készpénzelőleg kiválasztása | Jelöljön ki egy vagy több készpénzelőleget egyetlen költségtranzakció teljesítéséhez. |
 | Készpénzelőleg egyenlege | Amikor költségbejegyzést hoz létre a jóváhagyott és a kifizetett készpénzelőlegek alapján, valós időben áttekinti a készpénzelőlegek egyenlegét. |

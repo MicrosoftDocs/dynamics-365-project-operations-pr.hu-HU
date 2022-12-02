@@ -1,6 +1,6 @@
 ---
 title: Szerepalapú árazás beállítása
-description: Ez a cikk az egyes szerepkörök díjszabásának beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk az árazás specifikus szerepkörökhöz történő beállításáról nyújt információkat.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

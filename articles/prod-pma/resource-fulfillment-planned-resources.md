@@ -1,6 +1,6 @@
 ---
 title: Tervezett erőforrások erőforrás-teljesítése
-description: Ez a cikk a projekt tervezett erőforrásairól nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a projekt tervezett erőforrásairól.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

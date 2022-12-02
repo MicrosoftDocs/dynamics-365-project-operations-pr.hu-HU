@@ -1,6 +1,6 @@
 ---
 title: Javasolt erőforrások áttekintése
-description: Ez a cikk a projekterőforrások javaslatával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információt nyújt a projekt erőforrásainak javaslatáról.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ A javasolt erőforrások felülvizsgálatához kövesse az alábbi lépéseket:
     A következő állapotfrissítések történnek:
 
     - Az **Ütemezési asszisztens** oldalon a státuszjelzők frissülnek, hogy jelezzék, hogy a foglalás javasolt, nem pedig véglegesen lefoglalt.
-    - Az erőforrás-kérelemben a kérelem felülvizsgálójának módosítania kell az állapotot **Felülvizsgálatra szorul**.
-    - **A projekt Csapat** lapján az általános csapattag **Kérelem állapota** értéke automatikusan **Felülvizsgálatra szorul**.
+    - Az erőforrás-kérelmen a kérelem felülvizsgálójának át kell változtatnia az állapotot **Áttekintés igényel** értékre.
+    - A projekt **Csapat** lapján az általános csapattag **Állapotkérés** értéke automatikusan megváltozik **Áttekintést igényel** értékre.
 
 A projektmenedzser elfogadhatja vagy elutasíthatja a javaslatot.
 

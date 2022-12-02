@@ -1,6 +1,6 @@
 ---
 title: Erőforrásigény szerkesztése
-description: Ez a cikk az erőforrásigényekkel kapcsolatos információk frissítésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információt nyújt az erőforrás-követelmények frissítésével kapcsolatban.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

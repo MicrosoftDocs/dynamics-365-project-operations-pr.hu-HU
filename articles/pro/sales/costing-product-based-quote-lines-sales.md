@@ -1,6 +1,6 @@
 ---
 title: Termékalapú árajánlatsorok költségszámítása
-description: Ez a cikk az önköltségi ár termékalapú árajánlatsorra való alkalmazásáról nyújt tájékoztatást.
+description: Ez a cikk az önköltség termékalapú árajánlatsorokra való alkalmazásával kapcsolatban tartalmaz információkat.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

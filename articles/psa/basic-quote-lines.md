@@ -1,6 +1,6 @@
 ---
 title: Árajánlatok és árajánlatsorok
-description: Ez a cikk az idézetekről és az idézetvonalakról nyújt tájékoztatást.
+description: Ez a cikk az árajánlatkról és az áranjánlatsorokról tartalmaz információkat.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ A Dynamics 365 Project Service Automation rendszerben kétféle árajánlat lét
 - Az értékesítési árajánlat nem tartalmaz bizonyos olyan mezőket és fogalmakat, amelyek szerepelnek a projektárajánlatban. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
 - Az értékesítési árajánlatokat és a projektárajánlatokat egy értékkészlet-alapú **Típus** nevű mező is azonosítja. Értékesítési árajánlat esetén ebben a mezőben az érték **elemalapú**. A projektárajánlat esetén az érték **Munkaalapú**.
 
-Ez a cikk a projekt idézetek részleteire összpontosít.
+Ez a cikk a projektárajánlat részletes adatait veszi figyelembe.
 
 A PSA-ban lévő projektárajánlat több sorral vagy ajánlati sorral is rendelkezhet. A projektárajánlat két rácsot tartalmaz a sorokhoz. Az egyik rács a projektalapú sorokhoz használható, amelyek lehetővé teszik a részletes becslést. A másik rács az egyszerű egységárat és a mennyiségi alapú megközelítést használó termékalapú sorokhoz tartozik.
 

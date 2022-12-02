@@ -1,6 +1,6 @@
 ---
 title: A Project Service Automation integrációs paraméterei
-description: Ez a cikk azt ismerteti, hogyan konfigurálhatja az alapértelmezett adatok bevitelének módját a 365 Finance szolgáltatással való Microsoft Dynamics 365 for Project Service Automation integráció során Microsoft Dynamics.
+description: Ez a cikk ismerteti, hogyan kell beállítani az alapértelmezett adatok bevitelének módját a Microsoft Dynamics 365 for Project Service Automation alkalmazás a Microsoft Dynamics 365 Finance rendszerrel való integrációjakor.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932299"
 
 [!include[banner](../includes/banner.md)]
 
-A Project Service Automation integrációs paraméterei **lapon konfigurálhatja, hogy a** rendszer hogyan adja meg az alapértelmezett adatokat a Dynamics 365 Finance való integráláskor Dynamics 365 Project Service Automation. Ahhoz, hogy a projektek sikeresen szinkronizálhatók legyenek a Project Service Automation alkalmazásból a Finance rendszerbe, be kell állítania a következő mezőket.
+A **Project Service Automation integrációs paraméterei** oldalon beállíthatja, hogyan történjen az alapértelmezett adatok bevitele a Dynamics 365 Project Service Automation és a Dynamics 365 Finance integrációja során. Ahhoz, hogy a projektek sikeresen szinkronizálhatók legyenek a Project Service Automation alkalmazásból a Finance rendszerbe, be kell állítania a következő mezőket.
 
 A **Project Service Automation integrációs paraméterei** oldal megnyitásához nyissa meg a **Projektmenedzsment és könyvelés** \> **Beállítások** \> **Dynamics 365 for Project Service Automation integrációs paraméterei** lehetőséget. 
 

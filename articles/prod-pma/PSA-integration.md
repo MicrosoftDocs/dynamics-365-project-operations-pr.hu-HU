@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation áttekintése
-description: Ez a cikk a Dynamics 365 Project Service Automation Dynamics 365 Finance integrációs megoldásról nyújt tájékoztatást.
+description: Ez a cikk a Dynamics 365 Project Service Automation és a Dynamics 365 Finance integrációs megoldásával kapcsolatban nyújt tájékoztatást.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929585"
 [!include[banner](../includes/banner.md)]
 
 
-A Project Service Automation to Finance integrációs megoldás az Adatintegrációs funkcióval szinkronizálja az adatokat a Dynamics 365 Finance példányai között és Dynamics 365 Project Service Automation a Common Data Service. Az adatintegrációs szolgáltatással elérhető integrációs sablonok lehetővé teszik a projektek, projektszerződések, projektszerződéssorok, projektszerződéssor mérföldkövei, projektfeladatok, költségtranzakciós kategóriák, órabecslések és költségbecslések áramlását a Project Service Automation és a Finance között.
+A Project Service Automation és Finance közötti integrációs megoldás az adatintegrációs funkció segítségével szinkronizálja az adatokat a Dynamics 365 Finance és a Dynamics 365 Project Service Automation között a Common Data Service szolgáltatással. Az adatintegrációs szolgáltatással elérhető integrációs sablonok lehetővé teszik a projektek, projektszerződések, projektszerződéssorok, projektszerződéssor mérföldkövei, projektfeladatok, költségtranzakciós kategóriák, órabecslések és költségbecslések áramlását a Project Service Automation és a Finance között.
 
 > [!NOTE]
 > - Ha 7.3.0 verziót használ, akkor a KB 4074835 telepítésére van szükség. Ekkor lehetőség van a rögzített árú projektek integrálására.

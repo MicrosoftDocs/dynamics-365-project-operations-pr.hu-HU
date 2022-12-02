@@ -1,6 +1,6 @@
 ---
 title: Nem meghaladandó állapot és ellenőrzések kezelése
-description: Ez a cikk a Project Operationsben végrehajtott, a határértéket meg nem haladó ellenőrzésekről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a Project Operationsban végrehajtott nem meghaladandó korlát ellenőrzéseiről.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

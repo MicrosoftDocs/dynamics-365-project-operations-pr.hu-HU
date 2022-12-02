@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2021. júliusában – Project Operations erőforrás-alapú vagy nem készletalapú forgatókönyvekhez
-description: Ez a cikk a Project Operations 2021. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2021. júliusi kiadásában erőforrás-alapú vagy nem készletalapú forgatókönyvekhez elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.locfileid: "8931701"
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
    - Project Operations 4.12.0.148 vagy 4.12.0.152 verziójú Microsoft Dataverse-környezetben.
-   - Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.20-as verzió.
+   - Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.20-as verziójú környezetekben.
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -80,7 +80,7 @@ Ha probléma merül fel a leképezés indítása során, kövesse a [Hiányzó t
 | Általános                       | 2253682              | A Project Operations kettős írású megoldását nem szabad telepíteni, ha a kettős írás alapcsolmag telkepítve van egy környezetben a kettős írású vezénylési megoldás nélkül.                                                |
 | Általános                       | 2316420              | A Project Service alap központi kiépítése sikertelen az alkalmazásfelhasználó részlegének megváltozása esetén.                                                                                                                     |
 | Általános                       | 2376405              | Rögzített közzétevőre épülő frissítéssel kapcsolatos probléma (A minőségi frissítés a 4.12.0.152 verzióban érhető el)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | Funkcióterület                      | Hivatkozási szám | Minőségi frissítés                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

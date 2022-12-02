@@ -1,6 +1,6 @@
 ---
 title: Erőforrás-hozzárendelések létrehozása
-description: Ez a cikk az általános és elnevezett erőforrás-hozzárendelések létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk az általános és a megnevezett erőforrás-hozzárendelések létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933495"
@@ -18,7 +18,7 @@ ms.locfileid: "8933495"
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
 
-Az erőforrás-hozzárendelés a projektcsapat valamely tagjának közvetlen társítása egy levélcsomópont-feladathoz. Ez a cikk az erőforrások hozzárendelésének különböző módjairól nyújt tájékoztatást.
+Az erőforrás-hozzárendelés a projektcsapat valamely tagjának közvetlen társítása egy levélcsomópont-feladathoz. Ez a cikk információkat nyújt az erőforrások hozzárendelésének különböző módjairól.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Általános csapattag létrehozása feladat-hozzárendeléssel
 

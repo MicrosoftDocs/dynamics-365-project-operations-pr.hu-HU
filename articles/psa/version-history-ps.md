@@ -1,6 +1,6 @@
 ---
 title: A Project Service 3.x frissítési kiadási ütemezése
-description: Ez a cikk információkat nyújt a Dynamics 365 Project Service Automation.
+description: Ez a cikk a Dynamics 365 Project Service Automation rendelkezésre álló és következő kiadásairól tartalmaz információkat.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ A Project Service frissítéseivel kapcsolatos információkért keresse fel a [
 |<strong>4. állomás</strong> | |  |  | |
 | | <i>Európa</i> | [3.10.78.8](whats-new-ur-47.md) | Később eldöntendő | 2022. október 21.
 |<strong>5. állomás</strong> | |  |  | |
-| | <i>Észak-Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Később eldöntendő | November 04 2022
+| | <i>Észak-Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Később eldöntendő | 2022. november 04.
 |<strong>6. állomás</strong> | |  |  | |
 | | <i>Kormányzati közösségi felhő</i> | [3.10.78.8](whats-new-ur-47.md) | Később eldöntendő | 2022. november 02.
 | | <i>Dedikált méretcsoportok</i> | [3.10.78.8](whats-new-ur-47.md) | Később eldöntendő | 2022. november 11.

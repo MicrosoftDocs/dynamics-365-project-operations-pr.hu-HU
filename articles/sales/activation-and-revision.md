@@ -1,6 +1,6 @@
 ---
-title: Projektajánlat aktiválása és módosítása
-description: Ez a cikk az idézetek aktiválásáról és felülvizsgálatáról nyújt tájékoztatást a Microsoftban Dynamics 365 Project Operations.
+title: Projektárajánlat aktiválása és felülvizsgálata
+description: Ez a cikk az ajánlatok aktiválásával és felülvizsgálatával kapcsolatosan ad információkat a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,38 +13,38 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410383"
 ---
-# <a name="activate-and-revise-a-project-quote"></a>Projektajánlat aktiválása és módosítása
+# <a name="activate-and-revise-a-project-quote"></a>Projektárajánlat aktiválása és felülvizsgálata
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Az aktiválási és módosítási képességek segítségével nyomon követheti a projektalapú árajánlatok verziószámozását a becslési és egyeztetési fázisban. Ha egy idézet vázlata aktiválódik, az írásvédetté válik.
+Az aktiválási és felülvizsgálati képességek segítségével nyomon követhető a projektalapú árajánlatok verziószáma a becslési és tárgyalási fázisokban. Amikor aktiválnak egy vázlat ajánlatot, az csak olvashatóvá válik.
 
-Az aktiválási és módosítási képességek lehetővé teszik a következő feladatok elvégzését:
+Az aktiválási és felülvizsgálási lehetőségek a következő feladatok elvégzését teszik lehetővé:
 
-- Csak az aktiválás után nyerjen vagy veszítsen el árajánlatokat.
-- Tekintse át az árajánlatot, hogy módosítsa a meglévő árajánlatot, vagy hozzon létre egy új verziót.
+- Az árajánlatokat elnyerése vagy elvesztése az aktiválás után.
+- Az ajánlat átdolgozása a meglévő ajánlat módosításához vagy új verzió létrehozásához.
 
 > [!NOTE]
-> Miután engedélyezte az idézőjelek aktiválására és felülvizsgálatára szolgáló funkciót, az nem tiltható le.
+> Azajánlatok felülvizsgálata funkció engedélyezése után az nem tiltható le.
 
-A projektalapú árajánlatok aktiválásának és felülvizsgálatának bekapcsolásához kövesse az alábbi lépéseket.
+A projektalapú ajánlatok aktiválása és átdolgozása képességének bekapcsolához hajtsa végre a következő lépéseket.
 
-1. Lépjen a **Beállítások** \> **paramétereihez**.
-1. Nyissa meg a **Parameters** rekordot.
-1. A Műveleti ablaktábla Funkcióvezérlő **lapján válassza az** Idézetek **aktiválásának és felülvizsgálatának engedélyezése lehetőséget**.
+1. Válassza a **Beállítások** \> **Paraméterek** lehetőséget.
+1. Nyissa meg a **Paraméterek** rekordot.
+1. A Műveletpanel **Funkciókezelése** lapján jelölje be az **Árajánlatok aktiválásának és felülvizsgálatainak engedélyezése** lehetőséget.
 1. A jóváhagyást kérő párbeszédpanelen válassza az **OK** lehetőséget.
-1. Néhány pillanat múlva frissítse a böngészőt. Az aktiválási és felülvizsgálati képességeknek mostantól elérhetőnek kell lenniük. Tudni fogja, hogy ezek a képességek engedélyezve vannak, ha az **Idézetek** aktiválásának és változatának engedélyezése gomb már nem jelenik meg a műveleti ablaktáblán.
+1. Néhány pillanat után frissítse a böngészőjét. Aktiválási és felülvizsgálási lehetőségek most elérhetőek kell legyenek. Tudni fogja, hogy ezek a lehetőségek engedélyezve vannak, ha az **Árajánlatok aktiválásának és felülvizsgálatainak engedélyezése** gomb a már nem jelenik meg a műveletablakban.
 
 ## <a name="activating-a-quote"></a>Árajánlat aktiválása
 
-Miután engedélyezte az idézetek aktiválására és felülvizsgálatára szolgáló funkciót, az **Idézet bezárása megnyertként** és **Az idézet bezárása elveszettként** gombok a műveleti ablaktáblán nem érhetők el a projektajánlat-tervezetekhez. Csak az árajánlat aktiválása után érhetők el.
+Az Árajánlatok aktiválásának és felülvizsgálatainak engedélyezése funkció engedélyezése után az **Árajánlat lezárása megnyertként** és az **Árajánlat lezárása elvesztettként** gombok nem érhető el a műveletpanelen a projektajánlat-vázlatok esetén. Ezek csak az ajánlat aktiválása után érhetők el.
 
-Az aktiválás az árajánlati folyamat azon szakaszát jelöli, amikor meg szeretné akadályozni az árajánlat további módosítását. Ebben a szakaszban az árajánlatot belső felülvizsgálatra vagy az ügyfélnek küldik el.
+Az aktiválás az árajánlat folyamatának azt a fázisát jelenti, amikor meg szeretné akadályozni az ajánlat további módosításait. Ebben a fázisban a rendszer belső ellenőrzésre vagy az ügyfélnek küldi el az ajánlatot.
 
-Az Idézet bezárása megnyertként **és** az **Idézet bezárása elveszettként** gombok a műveleti ablaktáblán az aktivált árajánlatokhoz érhetők el. A belső vagy ügyfél-ellenőrzés eredményétől függően ezen gombok egyikével bezárhat egy aktivált árajánlatot. Az aktivált árajánlatok egyeztetését és módosítását az Idézet **felülvizsgálata lehetőség kiválasztásával** végezheti el.
+Az **Árajánlat lezárása megnyertként** és **Árajánlat lezárása elvesztettként** gombok rendelkezésre állnak a műveleti panelen. A belső vagy az ügyfél áttekintése eredményétől függőan a gombok egyikének használatával lezárhatja az aktivált ajánlatot. Az aktivált ajánlatokon a tárgyalásokat és módosításokat az **Árajánlat felülvizsgálata** gombbal érvényesítheti.
 
-## <a name="revising-a-quote"></a>Idézet felülvizsgálata
+## <a name="revising-a-quote"></a>Árajánlat felülvizsgálata
 
-Ha módosítania kell egy aktivált árajánlatot, válassza az Idézet **módosítása lehetőséget**. Az idézet be van zárva, és a **felülvizsgált** okkódot használja. Ezután létrejön egy új idézet, amely ugyanazzal az azonosítóval és egy megnövelt verziószámmal rendelkezik. Az eredeti idézet minden részletét átmásolja az új idézetbe. Az új árajánlat piszkozat státuszban van, és szükség szerint szerkeszthető.
+Ha módosítania kell egy aktivált ajánlatot, válassza az **Ajánlat felülvizsgálata** lehetőséget. A rendszer lezárja az ajánlatot, és a **felülvizsgált** okkódot használja. Ekkor létrejön egy új ajánlat, amely ugyanazzal az azonosítóval és növekményesített verziószámmal rendelkezik. A rendszer az eredeti árajánlat minden részletét átmásolja az új árajánlatba. Az új árajánlat vázlat állapotú, és igény szerint szerkeszthető.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

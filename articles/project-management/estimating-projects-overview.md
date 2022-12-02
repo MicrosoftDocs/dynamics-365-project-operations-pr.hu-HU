@@ -1,6 +1,6 @@
 ---
 title: Pénzügyi becslésekre vonatkozó fogalmak
-description: Ez a cikk a Project Operations projektjeinek pénzügyi becsléseiről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations szolgáltatásban lévő projekt pénzügyi becsléseiről nyújt információt.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

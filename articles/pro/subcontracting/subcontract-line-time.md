@@ -1,6 +1,6 @@
 ---
 title: Alvállalkozói szerződés sorai időre
-description: Ez a cikk azt ismerteti, hogyan rögzítheti az alvállalkozói sorokat az időre vonatkozóan, és hogyan rögzítheti a szállítóktól való idővásárlási időt.
+description: Ez a cikk elmagyarázza, hogyan kell rögzíteni az alvállalkozói szerződéssorokat az időre vonatkozóan, és hogyan kell rögzíteni az idő beszerzését a szállítóktól.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Időbejegyzések készítése
-description: Ez a cikk az időbejegyzések létrehozásáról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az időbejegyzések létrehozásáról.
 author: rumant
 ms.custom:
 - dyn365-projectservice

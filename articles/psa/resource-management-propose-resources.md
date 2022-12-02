@@ -1,6 +1,6 @@
 ---
 title: Javaslattétel a projekt erőforrásaira
-description: Ez a cikk a projekterőforrások javaslatával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információt nyújt a projekt erőforrásainak javaslatáról.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

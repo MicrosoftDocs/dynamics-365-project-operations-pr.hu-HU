@@ -1,6 +1,6 @@
 ---
 title: Projektalapú szerződések másolása
-description: Ez a cikk a projektszerződések Microsoftban történő másolásáról nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk információkat nyújt a projektszerződések másolásáról a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9410370"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Egyszerűen létrehozhat új projektszerződéseket, ha a meglévő szerződéseket kétféleképpen másolja:
+Az új projektszerződések egyszerűen létrehozhatók a meglévő szerződések példányainak kétféle módon történő másolásával:
 
-- **A Projektszerződések** listaoldalon válasszon ki egy projektszerződést, majd válassza a Másolás **lehetőséget**.
+- A **Projektszerződések** listán válassza ki a projektszerződést, majd válassza a **Másolás** lehetőséget.
 - A **Projektszerződés** részletek lapján válassza a **Másolás** lehetőséget.
 
-Mindkét esetben megjelenik egy párbeszédpanel, ahol beállíthatja a másolt szerződés paramétereit. A párbeszédpanel a következő mezőket tartalmazza. A kiválasztott értékektől függően a másolási folyamat megváltozhat.
+Mindkét esetben megjelenik egy párbeszédpanel, ahol beállíthatja a másolt szerződés paramétereit. A párbeszédpanel a következő mezőket tartalmazza. A kiválasztott értékektől függően előfordulhat, hogy a másolási folyamat megváltozhat.
 
 | Mező | Description | Alsóbb rétegbeli hatás |
 | --- | --- | --- |
-| Témakör | Adja meg a célszerződés témáját. A párbeszédpanel megnyitásakor a rendszer a mezőt a forrásszerződés nevére állítja be, de a "másolás" szó hozzá van fűzve. | Ennek a mezőnek nincs későbbi hatása. |
-| Ügyfelünk | Hivatkozás az ügyfél vállalati vagy partneri rekordjára. A párbeszédpanel megnyitásakor a rendszer a mezőt a forrásszerződésben szereplő fiókra állítja be. | Ez a mező az szerződésen szereplő elsődleges ügyfél. |
-| Tulajdonos vállalat | Az a vállalat, amely felelős az üzlethez kapcsolódó projektek megvalósításáért. A párbeszédpanel megnyitásakor a rendszer a mezőt a forrásszerződés tulajdonos vállalatára állítja be. | A tulajdonos társaság az a jogi személy, amely az ügylet lezárása után végrehajtja a projektet. A tulajdonos társaság pénznemének meg kell egyeznie a szerződő egység pénznemével. |
-| Szerződő részleg | Az a szervezeti egység, amely felelős az üzlethez kapcsolódó projektek megvalósításáért. A párbeszédpanel megnyitásakor a rendszer a mezőt a forrásszerződés szerződő egységére állítja. | A szerződő egység a vállalat azon részlege, amely a projekteket az üzlet lezárását követően végrehajtja. Minden egyes szerződő részleghez tartozik pénznem. Ez a pénznem a projekt során felmerült becsült és tényleges költségek jelentésére szolgál. |
-| Pénznem | A pénznem, melyben az üzlet lebonyolításra kerül. A párbeszédpanel megnyitásakor a rendszer a mezőt a forrásszerződés pénznemére állítja. A pénznem módosítható. Ha igen, az **Árképzés** másolása mező mindig Nem **értékre** van állítva, mert a forrásszerződés árlistái már nem relevánsak. | Ez a pénznem az alapértelmezett árlistákhoz, a szerződés pénzügyi becsléseinek létrehozásához, valamint az ügylet megnyerésekor az ügyfélnek történő számlázáshoz használatos. |
-| Kért szállítási dátum | Az ügyfél által kért szállítási dátum. | Ez a dátum a záró dátumként használatos, amikor meghatározott gyakorisággal hoz létre számlázási dátumokat. |
-| Árképzés másolása | Egy érték, amely jelzi, hogy a szerződés árazását le kell-e másolni a forrásszerződésből. | Ha a mező Igen **értékre** van állítva, a projekt- és termékárlista-hivatkozások átmásolódnak a forrásszerződésből a célszerződésbe. Ha nemre **van** állítva, a rendszer az alapértelmezett árlistákat használja a fiók- vagy projektparaméterek legújabb árlistái alapján. |
+| Témakör | Adja meg a célszerződés témáját. Amikor megnyílik a párbeszédpanel, a rendszer a forrás szerződés nevére állítja be ezt a mezőt a "másolat" szót hozzáfűzve. | Ennek a mezőnek nincs későbbi hatása. |
+| Ügyfelünk | Hivatkozás az ügyfél vállalati vagy partneri rekordjára. Amikor megnyílik a párbeszédpanel, a rendszer beállítja ezt a mezőt a forrásszerződés partnerére. | Ez a mező az szerződésen szereplő elsődleges ügyfél. |
+| Tulajdonos vállalat | Az üzlethez kapcsolódó projektek teljesítéséért felelős vállalat. Amikor megnyílik a párbeszédpanel, a rendszer beállítja ezt a mezőt a forrásszerződés tulajdonos vállalatára. | A tulajdonos vállalat az a jogi személy, amely az üzlet lezárása után fogja végrehajtani a projektet. A tulajdonos vállalata pénzneme meg kell egyezzen a projektben szereplő szerződő egység pénznemével. |
+| Szerződő részleg | Az üzlethez kapcsolódó projektek teljesítéséért felelős szervezeti egység. Amikor megnyílik a párbeszédpanel, a rendszer beállítja ezt a mezőt a forrásszerződés szerződő egységére. | A szerződő egység a vállalat azon részlege, amely a projekteket az üzlet lezárását követően végrehajtja. Minden egyes szerződő részleghez tartozik pénznem. A pénznem kerül felhasználásra a projekthez kapcsolódó becsült és ténylegesen felmerült költségek jelentésére. |
+| Pénznem | A pénznem, melyben az üzlet lebonyolításra kerül. Amikor megnyílik a párbeszédpanel, a rendszer beállítja ezt a mezőt a forrásszerződés pénznemére. A pénznem módosítható. Ha van, akkor az **Árképzés másolása** mező értéke mindig **Nem**, mert a forrás szerződésben szereplő árlisták már nem relevánsak. | Eza pénznem kerül felhasználásra az alapértelmezett árlistákhoz, pénzügyi becslések generálásához az szerződéshez, és az üzlet megnyerése után az ügyfélnek történő számlázásra. |
+| Kért szállítási dátum | Az ügyfél által kért szállítási dátum. | Ez a dátum a számlázási dátumok adott gyakoriság szerinti létrehozásakor záró dátumként használható. |
+| Árképzés másolása | Egy érték, amely azt jelzi, hogy a szerződésben szereplő árazást át kell-e másolni a forrásszerződésből. | Ha a mező **Igen** értékre van állítva, akkor a program a projektárlista és a termékárlista hivatkozásait átmásolja a forrásszerződésből a célszerződésbe. Ha a **Nem** beállítást választja, a rendszer a partner- vagy a projektparaméterekben található legfrissebb árlisták alapján újra alapértékekre állítja az árlistákat. |
 
-Ha a párbeszédpanelen az OK gombot **választja**, a rendszer a beállított paraméterértékek alapján másolatot készít a szerződésről. Ezután megnyílik az új szerződés.
+Amikor az **OK** lehetőséget választja, a párbeszédoldalon, a rendszer a párbeszédpanelen beállított paraméterek alapján létrehoz egy másolatot a szerződésről. Ezután megnyílik az új szerződés.
 
-A rendszer nem **másolja a következő információkat** a forrásszerződésből a célszerződésbe, mert azok az egyes szerződésekre jellemzőek:
+A következő információkat a rendszer **nem** másolja a forrásszerződésből a célszerződésbe, mert az mindegyik szerződésben egyedi:
 
 - Számlaütemezések
 - Szerződés és szerződéssor ügyfelei
 - Projektre vonatkozó referencia a projekt alapú szerződéssorok alapján
 - Ügyfélköltségvetés adatai
 
-A projektekre és termékekre vonatkozó szerződéses sorok, a szerződéssor részleteiben szereplő becslések, valamint a szerződés szintjén nem túllépett értékek másolásra kerülnek. Az alapértelmezett árak és a költségi díjak megadása a Paraméterek **másolása párbeszédpanel Díjszabás** másolása mezőjében **megadott** beállítástól függ.
+A projektek és termékek szerződéssorai, az szerződéssor részleteinek becslései és a nem meghaladandó értékek a szerződés szintjén másolásra kerülnek. Az alapértelmezett árak és a költségarány bevitele a **Paraméterek másolása** párbeszédpanelen kiválasztott **Árképzés másolása** beállítástól függnek.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

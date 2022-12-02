@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2022. március – Project Operations Lite központi telepítés
-description: Ez a cikk a Project Operations lite telepítésének 2022. márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations lite telepítés 2022. márciusi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
@@ -18,42 +18,42 @@ ms.locfileid: "8934231"
 
 _Érvényesség: Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a következő Microsoft Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Project Operations egy Dataverse környezeti verzióban 4.30.0.99
+- Project Operations 4.30.0.99 verziójú Dataverse-környezetben
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
-- Alvállalkozói szerződés: Szállítói számla létrehozása és egyeztetési élménye
+- Alvállalkozók : A szállítók számlakészítési és egyeztetési tapasztalatai
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
-| Idő és költség | 2388011 | Elutasító megjegyzések megjelenítése az időbejelentőknek a tömeges jóváhagyás során. |
-| Projekttervezés és nyomon követés | 2495294 | A projekt részletei nem szerkeszthetők a **Tevékenység részletei** lapon. |
-| Számlázás és árképzés | 2499605 | Az árajánlat mérföldkövekből létrehozott szerződéses mérföldkövek helytelenül írásvédettként vannak megjelölve. |
-| Projekttervezés és nyomon követés | 2506050 | A műveletkészlet egy órán át függőben marad, ha nincs mentendő módosítás. A készletet ezután tévesen Sikertelenként **jelölik** meg, míg azonnal be kell fejezni. |
-| Számlázás és árképzés | 2507401 | Az alapértelmezett szerződéses egységek helytelenül vannak megadva a projektekben a helytelen gyorsítótárazás miatt. |
-| Számlázás és árképzés | 2541660 | **Az értékesítési rendelések létrehozásának ellenőrzése** kettős írásban csak projektalapú rendelésekre vonatkozhat. |
-| Számlázás és árképzés | 2552745 | Az adó nem oszlik meg azon ügyfelek között, akik megosztott számlázási szabályokat állítottak be. |
-| Számlázás és árképzés | 2558859 | Továbbfejlesztett hibaüzenetek a díjszabási dimenziók beállításakor. |
-| Számlázás és árképzés | 2558933 | **A Project Estimates-ből** való importálás sikertelen lesz, ha **az msdyn\_ projektet** tarifadimenzióként adja hozzá. |
-| Számlázás és árképzés | 2559101 | A projektparaméterek törlése nincs letiltva, és problémákat okoz. |
-|   Lehetőségkezelés | 2570390 | A kettős írású beépülő modul arra kényszeríti a fióktípust az árajánlatokra, megrendelésekre és lehetőségekre, hogy Ügyfél **legyen**, még akkor is, ha az adott fióktípus nem megfelelő. |
-| Számlázás és árképzés | 2586097 | A felosztott számlázott költség tényleges adatai nem lesznek visszafordítva, amikor egy projektet eltávolítanak egy projektszerződés-sorból. |
-| Számlázás és árképzés | 2589619 | A beírt anyagra kivetett adót a számlázatlan értékesítési tényleges adatokra és a számlára terjesztik. |
-|   Lehetőségkezelés | 2594015 | Az árajánlat nem zárható le a megnyert módon azoknál az ügyfeleknél, akik net60 **fizetési feltételekkel rendelkeznek**. |
-| Projekttervezés és nyomon követés | 2595841 | A Webes Projectben a felhasználók hibaüzenetet kapnak egy hiányzó **msdyn\_ actualstart** értékről, amikor új erőforrás-kérést hoznak létre. |
-| Idő és költség | 2602511 | Az **Időbejegyzések Elutasítva mezője** a Rendszer **jelenik meg** a megnevezett felhasználó helyett elutasítóként. |
-| Idő és költség | 2602528 | A projektjóváhagyók jóváhagyhatják az olyan projektek idejét, amelyek nem szerepelnek jóváhagyóként. |
-| Számlázás és árképzés | 2608550 | A helyesbítő számla akkor is visszaigazolható, ha az eredeti nem változik. |
+| Idő és költség | 2388011. | Elutasítási megjegyzések megjelenítése a tömeges jóváhagyás során az időbejegyzések benyújtóinak. |
+| Projekttervezés és nyomon követés | 2495294. | A projekt részletei nem lehetnek szerkeszthetők a **Feladat részletei** oldalon. |
+| Számlázás és árképzés | 2499605. | Az árajánlat mérföldköveiből létrehozott szerződés-mérföldkövek nem helytelenül vannak megjelölve írásvédettként megjelölve. |
+| Projekttervezés és nyomon követés | 2506050. | A művelethalmaz egy órán át függőben marad, ha a nincs mentendő módosítás. Ezután a halmaz helytelenül a **Sikertelen** értékkel van megjelölve, annak ellenére, hogy azonnal el kellene végezni. |
+| Számlázás és árképzés | 2507401. | A helytelen gyorsítótárazás miatt a projektekben helytelenül vannak megadva az alapértelmezett szerződő egységek. |
+| Számlázás és árképzés | 2541660. | Az **Értékesítési rendelés létrehozásának ellenőrzése** a kettős írásban csak projektalapú megrendelésekhez kellene vonatkozzon. |
+| Számlázás és árképzés | 2552745. | Az adót nem lehet felosztani a felosztott számlázási szabályokat beállító ügyfelek között. |
+| Számlázás és árképzés | 2558859. | Továbbfejlesztett hibaüzenetek az árazási dimenziók beállításakor. |
+| Számlázás és árképzés | 2558933. | A **Projektbecslésből történő importálás** nem sikerül, ha az **msdyn\_project** árképzési dimenzióként van hozzáadva. |
+| Számlázás és árképzés | 2559101. | A projektparaméterek törlését nem blokkolja a rendszer, és ez problémákat okoz. |
+|   Lehetőségkezelés | 2570390. | A kettős írású beépülő modul még akkor is kényszeríti a partnertípust az árajánlatokhoz, megrendelésekhez és lehetőségekhez **Ügyfél** legyen, ha a partnertípus nem megfelelő. |
+| Számlázás és árképzés | 2586097. | A felosztott, számlázott tényleges költség nem sztornózható, ha egy projektet projektszerződéssorból eltávolítottak. |
+| Számlázás és árképzés | 2589619. | A nem katalogizált anyagok adója továbbításra kerül a számlázatlan tényleges értékesítésekre és a számlára. |
+|   Lehetőségkezelés | 2594015. | A **Net60** fizetési feltételekkel rendelkező ügyfelek esetében az árajánlat nem zárható le megnyertként. |
+| Projekttervezés és nyomon követés | 2595841. | A Project for the Web alkalmazásban a felhasználók hibaüzenetet kapnak arról, hogy hiányzik az **msdyn\_actualstart** entitás, amikor új erőforrás-kérelmet hoznak létre. |
+| Idő és költség | 2602511. | Az időbejegyzések **Elutasította** mezője a **Rendszer** értéket jeleníti meg elutasítóként a megnevezett felhasználó helyett. |
+| Idő és költség | 2602528. | A projekt jóváhagyója jóváhagyhatja az olyan projektek idejét, amelyeknél nem szerepel jóváhagyóként. |
+| Számlázás és árképzés | 2608550. | A helyesbítőszámla még akkor is meg lesz erősítve, ha az eredetin nem történt változtatás. |
 
 ## <a name="removed-and-deprecated-features"></a>Eltávolított és elavult funkciók
 
-A [Project Operations](../../whats-new/removed-depreciated-features-project.md) eltávolított vagy elavult funkcióiról szóló cikk azokat a funkciókat ismerteti, amelyek eltávolításra vagy elavultak Dynamics 365 Project Operations.
+A [Project Operations eltávolított vagy elavult funkciói](../../whats-new/removed-depreciated-features-project.md) cikk ismerteti azokat a szolgáltatásokat, amelyek el lettek távolítva vagy avultatva lettek a Dynamics 365 Project Operations alkalmazásban.
 
 - Az eltávolított funkciók a továbbiakban nem érhetőek el a termékben.
-- Az elavult funkciók nincsenek aktív fejlesztés alatt, és előfordulhat, hogy egy későbbi frissítés során el lesznek távolítva.
+- Az elavult funkciók nem állnak aktív fejlesztés alatt, és előfordulhat, eltávolíthatják őket egy későbbi frissítésben.
 
-Az elalvasztási bejelentés 12 hónappal azelőtt jelenik meg a [Project Operations](../../whats-new/removed-depreciated-features-project.md) eltávolított vagy elavult funkcióiban, hogy bármely funkciót eltávolítana a termékből.
+Az avultatási közlemény 12 hónappal az előtt jelenik meg a [Project Operations eltávolított vagy elavult funkciói](../../whats-new/removed-depreciated-features-project.md) cikkben, hogy a szolgáltatást eltávolítanák a termékből.

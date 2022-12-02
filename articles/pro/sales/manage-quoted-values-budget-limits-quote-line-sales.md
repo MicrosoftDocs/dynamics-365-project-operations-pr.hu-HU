@@ -1,6 +1,6 @@
 ---
 title: Projektalapú árajánlatsorok áttekintése
-description: Ez a cikk a projektalapú árajánlatsorok projektmunkához való használatáról nyújt tájékoztatást.
+description: Ez a cikk a projektalapú ajánlatsorok projektmunkához való használatáról tartalmaz tájékoztatást.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Árajánlat lezárása
-description: Ez a cikk a Project Operationsben az idézetek záró idézőjeleiről nyújt tájékoztatást.
+description: Ez a cikk az árajánlatok Project Operationsben való lezárásáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

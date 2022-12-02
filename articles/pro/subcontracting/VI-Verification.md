@@ -1,6 +1,6 @@
 ---
 title: A szállítói számlák ellenőrzése jóváhagyott tényadatokkal
-description: Ez a cikk azt ismerteti, hogy a Microsoft Dynamics 365 Project Operations projektmenedzserei hogyan ellenőrzik a szállítói számlákat a vállalkozók által a munka és a rögzített idő, valamint a projektcsapat tagjai által használt költségek és anyagok tényleges adataival.
+description: Ez a cikk ismerteti, hogyan teszi lehetővé a Microsoft Dynamics 365 Project Operations projektvezetők számára a szállítói számlákat ellenőrzését a jóváhagyott tényadatokkal, miután az alvállalkozók elvégezték a munkát és rögzítették az időt a kiadásokat és az anyagokat, amelyeket a projektcsoporttagok felhasználtak.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,41 +17,41 @@ ms.locfileid: "9522950"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Microsoft Dynamics 365 Project Operations a projektmenedzserek a következő módokon ellenőrzik a szállítói számlasorokat:
+A Microsoft Dynamics 365 Project Operations segítségével a projektmenedzserek a következőképpen ellenőrizhetik a szállítói számlasorokat:
 
-- Használja az **Ellenőrzés állapota** mezőt a szállítói számlasorokon.
-- Ha a szállítói számlasorok alvállalkozói sorra hivatkoznak, az alvállalkozói tevékenységből származó költség tényleges adatait összekapcsolja az adott szállítói számlasorokkal. A hivatkozás úgy jön létre, hogy a költség tényleges adatait egyezteti a szállítói számlasorokkal.
+- Használhatják a szállítói számlasorok **Ellenőrzési állapot** mezőjét.
+- Ha a szállító számlasorai egy alvállalkozói sorra hivatkoznak, akkor az alvállalkozói tevékenység költség tényadatai az adott szállítói számlasorhoz vannak társítva. Ez a hivatkozás a költség tényadatai és a szállító számlasorokhoz történő egyeztetésével jön létre.
 
     > [!NOTE]
-    > Bár az ellenőrzés állapota nyomon követhető azoknál a szállítói számlasoroknál, amelyek nem hivatkoznak alvállalkozói szerződésre, a tényleges költségek nem kapcsolhatók össze ezekkel a szállítói számlasorokkal.
+    > Annak ellenére, hogy az ellenőrzés állapota nyomon követhető az alvállalkozói szerződésre nem hivatkozó szállítói számlasorokhoz is, a költség tényadatait nem lehet az adott szállítói számlasorokhoz kapcsolni.
 
-## <a name="verification-status"></a>Ellenőrzési állapot
+## <a name="verification-status"></a>Ellenőrzés állapota
 
-A **szállítói számlasor Ellenőrzési állapota** mezője az ellenőrzés állapotát jelzi. A következő állapotok támogatottak:
+A szállítói számlasor **Ellenőrzési állapot** mezője az ellenőrzés állapotát jelzi. A következő állapotok támogatottak:
 
 1. Nem kezdődött el
 2. Folyamatban
 3. Teljesítés
 
-A Nem elindított **ellenőrzési állapotú** szállítói számlasorok szerkeszthetők.
+A **Nincs elkezdve** ellenőrzési állapotú szállítóiszámla-sorokat lehet szerkeszteni.
 
-A Folyamatban **lévő ellenőrzési állapotú** szállítói számlasorok már nem szerkeszthetők. Alvállalkozói szerződésre hivatkozó szállítói számlasor esetében az ellenőrzési állapot automatikusan Folyamatban van **értékre lesz állítva**, amint az első tényleges költség megegyezik a szállítói számla sorával.
+A **Folyamatban** ellenőrzési állapotú szállítóiszámla-sorokat már nem lehet szerkeszteni. Az alvállalkozói szerződésre hivatkozó szállítói számlasorok ellenőrzési állapota automatikusan **Folyamatban** állapotúra van állítva, amint az első költség-tényadat megfeleltetve lett a szállítói számlasornak.
 
-A Kész **ellenőrzési állapotú** szállítói számlasorok már nem szerkeszthetők. Ha a szállítói számla összes sora rendelkezik ezzel az igazolási állapottal, a szállítói számla megerősíthető.
+A **Kész** ellenőrzési állapotú szállítóiszámla-sorokat már nem lehet szerkeszteni. Ha egy szállítói számla összes sorának ez az ellenőrzési állapota, a szállítói számlát meg lehet erősíteni.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Költség-tényleges adatok egyeztetése a szállítói számlasorokkal
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Aktuális költségek egyeztetése szállítói számlasorokkal
 
-A költség tényleges adatainak egyeztetése segít a szállítói számlasorok ellenőrzési folyamatában. Ha a költség tényleges adatait egy szállítói számlasorhoz szeretné egyeztetni, kövesse az alábbi lépéseket.
+A költség-tényadatok egyeztetése segíti a szállítói számlasor ellenőrzési folyamatát. A költség tényadatainak egy szállítói számlasorhoz való egyeztetéshez hajtsa végre a következő lépéseket.
 
-1. Nyissa meg a szállítói számlasort, és válassza a **Nem egyező költség tényleges adatai** lapot. A rács a költség tényleges adatainak listáját jeleníti meg, amelyek ugyanarra az alvállalkozói sorra hivatkoznak, mint a szállítói számlasor.
-2. Jelöljön ki egy vagy több tényleges költségértéket, majd válassza az Egyezés **lehetőséget** a rács feletti eszköztáron. A rendszer ellenőrzi, hogy a kiválasztott költség tényleges adatai párosíthatók-e. Az érvényesítés után a költség tényleges adatai összekapcsolják a szállítói számlasort.
+1. Nyissa meg a szállítói számlasort, és válassza a **Nem egyeztetett tényleges költségek** lapot. A rács azokat a tényleges költségeket jeleníti meg, amelyek a szállító számlasorával azonos alvállalkozói sorra hivatkoznak.
+2. Jelöljön ki egy vagy több tényleges költséget, majd válassza a rács feletti eszköztár **Egyeztetés** gombját. A rendszer ellenőrzi, hogy a kiválasztott tényleges költségek egyeztethetőek-e. Az ellenőrzés után a tényleges költéségek össze vannak kapcsolva a szállítói számlasorral.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>A tényleges költségadatoknak a szállítói számlasorokkal való összekapcsolására használt érvényességi feltételek
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>A tényleges költségek szállítói számlasorokhoz való kapcsolásához használt ellenőrzési feltételek
 
-Az egyeztetési folyamat során a tényleges költség és a szállítói számlasor közötti kapcsolat csak akkor hozható létre, ha mindkét alábbi feltétel teljesül:
+Az egyeztetési folyamat során csak akkor lehet kapcsolatot létrehozni a tényleges költség és a szállítói számlasor között, ha mindkét alábbi feltétel teljesül:
 
-- A **Kiigazítás állapota** mezőnek minden kiválasztott tényleges költséghez üresnek kell lennie. Más szóval, a tényleges költségeket nem szabad más tényleges költségekkel helyettesíteni a visszahívási, jóváhagyási vagy javítási naplófolyamat során.
-- A következő mezők értékei megegyeznek a szállítói számlasor és a kiválasztott tényleges költség között. Ha valamelyik mező nincs beállítva a szállítói számla sorában, akkor azt nem veszi figyelembe az egyezésnél.
+- A **Korrekció állapota** mezőnek üresnek kell lennie minden egyes kiválasztott tényleges költséghez. Más szavakkal, a tényleges költségek nem lettek lecserélve más tényleges költségekkel a jóváhagyási, visszavonási vagy korrekciós napló foyamata során.
+- A következő mezők értékei egyeztetve vannak a szállítói számlasor és a kiválasztott tényleges költség között. Ha valamelyik mező nincs beállítva a szállító számlasoron, akkor az nem lesz figyelembe véve az egyeztetéshez.
 
     - Projektszerződés
     - Projektszerződéssor
@@ -61,14 +61,14 @@ Az egyeztetési folyamat során a tényleges költség és a szállítói száml
     - Erőforrás-kategória
     - Tranzakció kategóriája
     - Termék
-    - Alvállalkozói vonal
+    - Alvállalkozóiszerződés-sor
     - Lefoglalható erőforrás
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>A szállítói számlasorból származó költség tényleges adatok leválasztása
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Aktuális költségek és a szállítóiszámla-sor egyeztetésének megszüntetése
 
-A tényleges költség nem egyezése a szállítói számlán lévő ellenőrzési folyamatban is segíthet, mivel lehetővé teszi a korábban létrehozott hivatkozások eltávolítását. A költség-tényleges adatok csak azokból a szállítói számlasorokból vonhatók össze, amelyek ellenőrzési állapota **Folyamatban** van. Ha le szeretné bontani a költség tényleges adatait egy szállítói számlasorból, kövesse az alábbi lépéseket.
+A tényleges költségek egyeztetésének megszüntetése is segíthet egy szállítói számla ellenőrzési folyamatában, hiszen lehetővé teszi a korábban létrehozott hivatkozások eltávolítását. Csak a **Folyamatban** ellenőrzési állapotú szállítóiszámla-sorokat kapcsán lehet a tényleges költségek egyeztetését megszűntetni. A költség tényadatainak egy szállítói számlasorhoz való egyeztetésének megszüntetéséhez hajtsa végre a következő lépéseket.
 
-1. Nyissa meg a szállítói számlasort, és válassza az **Egyező költség tényleges adatai** lapot. A rács a szállítói számlasorra hivatkozó költség tényleges adatok listáját jeleníti meg.
-2. Jelöljön ki egy vagy több tényleges költségértéket, majd válassza a Leegyezés **lehetőséget** a rács feletti eszköztáron.
+1. Nyissa meg a szállítói számlasort, és válassza az **Egyeztetett tényleges költségek** lapot. A rács azokat a tényleges költségeket jeleníti meg, amelyek a szállító számlasorra hivatkoznak.
+2. Jelöljön ki egy vagy több tényleges költséget, majd válassza a rács feletti eszköztár **Leválasztás** gombját.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Újdonságok és változások 2022. júliusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: Ez a cikk a Microsoft Dynamics 365 Project Operations 2022. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készleten/éles környezetben üzembe helyezett forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2022. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a Microsoft Dynamics 365 Project Operations készlet-/gyártásalapú forgatókönyvek esetében.
 author: ramagadu
 ms.date: 8/17/2022
 ms.topic: article
@@ -18,38 +18,38 @@ ms.locfileid: "9305918"
 
 _**A következőre vonatkozik:** Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez_
 
-Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a következő Microsoft Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.28-as verzió
+- Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.28-as verziójú környezetekben
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
-A frissítésben található hibajavításokkal kapcsolatos információkért jelentkezzen be a Lifecycle Services (LCS) szolgáltatásba Microsoft Dynamics, és tekintse meg a [tudásbáziscikket](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Ha további tájékoztatást szeretne kapni a frissítésben található hibajavításokról, lépjen be a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásokba, és tekintse meg a [Tudásbázis cikket](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
 
-## <a name="features-turned-on-by-default-in-upcoming-release"></a>Alapértelmezés szerint be van kapcsolva funkciók a közelgő kiadásban
+## <a name="features-turned-on-by-default-in-upcoming-release"></a>Az érkező kiadásban alapértelmezetten bekapcsolt funkciók
 
-Az alábbi táblázat azokat a szolgáltatásokat sorolja fel, amelyek alapértelmezés szerint be vannak kapcsolva a 10.0.29-es verzióban. A legtöbb automatikusan bekapcsolt funkció kikapcsolható a [Funkciókezelésben](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). A jövőben előfordulhat, hogy egyes, automatikusan bekapcsolt funkciók eltávolításra kerülnek a funkciókezelésből, és kötelezővé válnak. Ez a módosítás biztosítja, hogy az ügyfelek a jelenlegi funkciókat használják, így a fejlesztések a hozzáadáskor a jelenlegi funkciókra építhetnek. A funkciók soha nem lesznek automatikusan engedélyezve egy évnél rövidebb idő alatt, kivéve, ha elengedhetetlennek minősülnek.
+Ez a kiadás a 10.0.29 verzióban alapértelmezetten bekapcsolt funkciókat tartalmazza. A legtöbb olyan funkció, amely automatikusan be lett kapcsolva, a [Funkciókezelésben](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) kikapcsolható. A jövőben előfordulhat, hogy egyes funkciók, amelyek automatikusan be vannak kapcsolva, eltávolításra kerülnek a Szolgáltatáskezelésből, és kötelezővé válnak. A változás biztosítja, hogy az ügyfelek a naprakész funkciókat használják, így a fejlesztések a hozzáadásuk során a jelenlegi funkciókra épülhessenek. A szolgáltatások egy évnél rövidebb idő alatt soha nem lesznek automatikusan engedélyezve, kivéve ha ez alapvető fontosságú.
 
-| Funkció neve | Dátum engedélyezése | Hozzáadott funkció | Funkció állapota | Modul |
+| Funkció neve | Dátum engedélyezése | Funkció hozzáadva | Funkció állapota | Modul |
 | --- | --- | --- |--- |--- |
-| Az óratranzakció módosításának engedélyezése a finanszírozási szabály felosztásának változása alapján | 2022. szeptember 16. | 2020. október 7. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Projekt beszerzési rendelés előrefizetési számla visszafordítási funkciója | 2022. szeptember 16. | 2021. október 6. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Számlajavaslat-sorok törlése a Project Operations erőforrás-alapú/nem készletezett forgatókönyvekhez való használatakor | 2022. szeptember 16. | 2021. október 6. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Feladott projekttranzakció könyvelésének módosítása | 2022. szeptember 16. | 2020. május 10. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Alapértelmezett könyvelési beállítás engedélyezése a projekthez | 2022. szeptember 16. | 2020. február 19. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Több szerződéssor engedélyezése a projekthez | 2022. szeptember 16. | 2020. június 29. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| A Project Hour-naplók olvashatóvá tétele, ha az aktuális jóváhagyási állapot nem teszi lehetővé a szerkesztést | 2022. szeptember 16. | 2021. október 6. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Értékesítési sorok szinkronizálásának engedélyezése a beszerzési sorokból a beszerzési sorok frissítésekor és a beszerzési rendelés módosításának kezelési paramétere bekapcsolásakor | 2022. szeptember 16. | 2020. október 7. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Projektműveletek engedélyezése Dynamics 365 Customer Engagement | 2022. szeptember 16. | 2020. június 29. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
-| Projekttranzakció-visszafordítási korrekciós funkció | 2022. szeptember 16. | 2020. július 13. | Alapértelmezés szerint be van kapcsolva | Projektvezetés és könyvelés |
+| Az óratranzakció korrekciójának engedélyezése a finanszírozási szabály felosztásának módosítása alapján | 2022. szeptember 16. | 2020. október 7. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| Projekt beszerzési rendelés előre fizetett a számla sztornózása funkció | 2022. szeptember 16. | 2021. október 6. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| Számlajavaslatsorok törlése Project Operations erőforrás alapú / nem készletalapú forgatókönyvek használata esetén | 2022. szeptember 16. | 2021. október 6. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| A könyvelés korrekciója egy feladott projekttranzakción | 2022. szeptember 16. | 2020. május 10. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| Projekt alapértelmezett könyvelési beállításának engedélyezése | 2022. szeptember 16. | 2020. február 19. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| Több szerződéssor engedélyezése a projekthez | 2022. szeptember 16. | 2020. június 29. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| A Projektórák legyenek írásvédettek, ha a jelenlegi jóváhagyási állapot nem teszi lehetővé a szerkesztést | 2022. szeptember 16. | 2021. október 6. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| Az értékesítési sorok frissítésének engedélyezési a vásárlási sorokból, ha a beszerzési sorok módosítva vannak, és felügyeleti paraméter be van kapcsolva | 2022. szeptember 16. | 2020. október 7. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| A Project Operations a Dynamics 365 Customer Engagement alkalmazásban engedélyezése | 2022. szeptember 16. | 2020. június 29. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
+| Projekttranzakciók sztornójavítás funkciója | 2022. szeptember 16. | 2020. július 13. | Alapértelmezés szerint be | Projektvezetés és könyvelés |
 
-## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Funkciók, amelyek kötelezővé válnak a következő kiadásban
+## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>A jövőbeni kiadásban kötelezővé váló szolgáltatások
 
-Az alábbi táblázat azokat a funkciókat sorolja fel, amelyek a 10.0.29-es verziótól kezdve kötelezőek.
+Ez a kiadás a 10.0.29 verziótól kötelező funkciókat tartalmazza.
 
-| Funkció neve | Dátum engedélyezése | Hozzáadott funkció | Funkció állapota | Modul |
+| Funkció neve | Dátum engedélyezése | Funkció hozzáadva | Funkció állapota | Modul |
 | --- | --- | --- | --- | --- |
-| Számítsa ki a finanszírozási forrás lekötött értékét az árfolyam kerekítése nélkül | 2022. szeptember 16. | 2020. június 14. | Kötelező | Projektvezetés és könyvelés |
-| Projektkorrekció feladásának engedélyezése ugyanazzal a főkönyvi számlával, mint az eredeti tranzakció | 2022. szeptember 16. | 2020. június 14. | Kötelező | Projektvezetés és könyvelés |
-| A projektszerződés lekötött összegének részletei | 2022. szeptember 16. | 2019. augusztus 31. | Kötelező | Projektvezetés és könyvelés |
-| Erőforrás szerinti rendezés engedélyezése a projektszámla-javaslatok létrehozása során | 2022. szeptember 16. | 2019. augusztus 31. | Kötelező | Projektvezetés és könyvelés |
+| A véglegesített érték kiszámítása a finanszírozási forrásban az átváltási árfolyam kerekítése nélkül | 2022. szeptember 16. | 2020. június 14. | Kötelező | Projektvezetés és könyvelés |
+| Projektkorrekció feladásának engedélyezése az eredeti tranzakcióval azonos főkönyvi számlával | 2022. szeptember 16. | 2020. június 14. | Kötelező | Projektvezetés és könyvelés |
+| Projektszerződés végleges összegének részletei | 2022. szeptember 16. | 2019. augusztus 31. | Kötelező | Projektvezetés és könyvelés |
+| Erőforrás szerinti rendezés engedélyezése projektszámla-ajánlat létrehozása során | 2022. szeptember 16. | 2019. augusztus 31. | Kötelező | Projektvezetés és könyvelés |

@@ -1,6 +1,6 @@
 ---
 title: Költségjelentések közzététele
-description: Ez a cikk a költségjelentések feladását ismerteti.
+description: Ez a cikk ismerteti a költségjelentések elküldésének módját.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ A költségjelentés elküldéséhez a **Jóváhagyott költségjelentések** ol
 
 Az összes költségjelentés egyszerre is elküldhető a listából. Jelölje ki az összes költségjelentést, majd válassza a **Küldés** lehetőséget.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>A Költségkötelezettség szállítói pénznemben történő feladásának engedélyezése készpénzes fizetési mód esetén funkció engedélyezése
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>A Költségkötelezettség feladása a szállító pénznemében képesség engedélyezése a készpénzes fizetési mód funkcióhoz
 
-A **Költségkötelezettség szállítói pénznemben történő feladásának lehetősége készpénzfizetési mód** esetén funkció lehetővé teszi a költségjelentések feladását a szállító pénznemében a készpénzes fizetési módhoz.
+A **Költségkötelezettség feladása a szállító pénznemében képesség** funkció lehetővé teszi, hogy a költségjelentéseket a szállító pénznemében adja fel készpénzes fizetési módhoz.
 
-Jelenleg a készpénzköltségek benyújtásakor a költségjelentések a könyvelési pénznemben kerülnek feladásra. A tranzakció pénzneme, a könyvelési pénznem és a szállító pénzneme közötti összegátváltás miatt a rendszer helytelen összeget fizet ki a szállítóknak, ha a ráfordítás tranzakciós dátuma és a tényleges fizetési dátum eltérő átváltási árfolyammal rendelkezik.
+Jelenleg, amikor készpénzes kiadást ad fel, a költségjelentések a könyvelési pénznemben vannak feladva. Az átváltás miatt a tranzakciós pénznem, a könyvelési pénznem és a szállító pénzneme között helytelen összeg lesz kifizetve a szállítóknak, ha a költség tranzakciós dátuma és az aktuális kifizetés dátuma között eltér a váltási árfolyam.
 
-Ez a funkció biztosítja, hogy a szállítói egyenleg a szállító pénznemében legyen rögzítve a költségjelentés feladásakor.
+Ez a funkció biztosítja, hogy a szállító egyenlege a költségjelentés közzétévekor a szállító pénznemében legyen rögzítve.
 
 1. Válassza a **Munkaterületek** \> **Szolgáltatáskezelés** lehetőséget.
-2. A listában keresse meg és válassza a **Képesség költségkötelezettség feladására szállítói pénznemben a készpénzes fizetési módhoz** lehetőséget, majd válassza az Engedélyezés most **lehetőséget**.
+2. A listában keresse meg és jelölje ki a **Költségkötelezettség feladása a szállító pénznemében képesség** lehetőséget, majd válassza az **Engedélyezés most** lehetőséget.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

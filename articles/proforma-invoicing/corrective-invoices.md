@@ -1,6 +1,6 @@
 ---
 title: Helyesbítő projektalapú számlák
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre és erősíthet meg korrekciós projektalapú számlákat a Project Operationsben.
+description: Ez a cikk információt nyújt arról, hogyan hozhat létre és erősíthet meg helyesbítő projektalapú számlákat a Project Operations szolgáltatásban.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekt becslésének eltávolítása
-description: Ez a cikk a projektbecslés befejezését követő megszüntetéséről nyújt tájékoztatást.
+description: Ez a cikk a projektbecslés eltávolításával kapcsolatosan tartalmaz információkat, miután az elkészült.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

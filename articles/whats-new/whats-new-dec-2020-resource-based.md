@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2020. december – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a cikk a Project Operations 2020. decemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. decemberi kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a Dataverse-környezet 4.5.0.134 verzióján
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.15-ös verzió
+- Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.15-ös verziójú környezetekben
 
 A kiadás frissítésével kapcsolatban a [Project Operations frissítése a pénzügyi környezetben](ur5-nonstocked-installation.md) szakaszban talál további információkat.
 
@@ -61,12 +61,12 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Projekt   Tervezés és nyomon követés | 2057197.          | A becsléssorok másolása a feladathivatkozással nem támogatott                                                                                                     |
 | Projekt   Tervezés és nyomon követés | 2060687.          | Az időzóna-figyelmeztetés egy adott időtartam elteltével eltűnik                                                                                                      |
 | Erőforrás   kezelés           | 1832887.          | Az alapértelmezett erőforrás-kategória azonosítójának statikusnak kell lennie ahhoz, hogy biztosíthatók legyenek a megismételhető adatbetöltések a Dataverse és Finance környezetekhez                                                 |
-| Idő és költség              | 2081793.          | **A költségkategória nevét** le kell képezni a Költségkategória leírása **mezőre** a pénzügyi és műveleti alkalmazásokban                                                  |
+| Idő és költség              | 2081793.          | A **Költségkategória nevét** a **Költségkategória leírása** mezőhöz kell leképezni a pénzügyi és műveleti alkalmazásokban                                                  |
 | Idő és költség              | 2034882.          | Az **Új** gomb kétszer jelenik meg a parancssorban az időbejegyzésekhez a Dynamics 365 Field Service telepítésekor                                          |
 | Idő és költség              | 2056028.          | Az **Időszerkesztés** oldal frissítése, hogy tartalmazza az idősort                                                                                                              |
 | Idő és költség              | 1983747.          | Az időbevitel diagramja további adatokat jelenít meg                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | Funkcióterület                        | Hivatkozási szám | Minőségi frissítés                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Ez a kiadás a következő funkciókat tartalmazza:
 | Utazás és költség                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | A költségjelentés automatikus feladási munkafolyamata befejeződött, de a számla nincs feladva                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A pénzügyi és műveleti alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Projektkategóriák konfigurálása
-description: Ez a cikk a projektkategóriák beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projektkategóriák beállításáról.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ A tranzakciós kategóriákat a Project Operations modul definiálja.
 
 ## <a name="shared-categories"></a>Megosztott kategóriák
 
-A Dynamics 365 a Megosztott kategóriák koncepciót használja a költségek kategorizálására különböző alkalmazásokban, például Dynamics 365 Finance, Dynamics 365 Ellátási lánc és Dynamics 365 Project Operations. Minden létrehozott tranzakciós kategória esetében a Project Operations automatikusan négy kapcsolódó megosztott kategóriát hoz létre: az órákat, a költségeket, a díjakat és a cikkeket. A megosztott kategóriákat áttekintheti és módosíthatja, ha a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Kategóriák** \> **Megosztott kategóriák** menüpontra lép.
+A Dynamics 365 a megosztott kategóriák koncepciója segítségével kategorizálja a különböző alkalmazások, például a Dynamics 365 Finance, Dynamics 365 Supply Chain és a Dynamics 365 Project Operations kiadásait. Minden létrehozott tranzakciós kategória esetében a Project Operations automatikusan négy kapcsolódó megosztott kategóriát hoz létre: az órákat, a költségeket, a díjakat és a cikkeket. A megosztott kategóriákat áttekintheti és módosíthatja, ha a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Kategóriák** \> **Megosztott kategóriák** menüpontra lép.
 
 ## <a name="project-categories"></a>Projektkategóriák
 

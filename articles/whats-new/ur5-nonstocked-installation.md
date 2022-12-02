@@ -1,6 +1,6 @@
 ---
 title: A Finance környezetben való Project Operations frissítése
-description: Ez a cikk a Project Operations Dynamics 365 Finance környezetben való frissítésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk a Project Operations a Dynamics 365 Finance környezetben való frissítésével kapcsolatosan tartalmaz információkat.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030038"
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 
-Ez a cikk a Dynamics 365 Finance környezetben való frissítéssel Dynamics 365 Project Operations kapcsolatos információkat tartalmaz. A Project Operations Update 5 (UR5) lehetőségre való frissítéséhez három művelet szükséges:
+Ez a cikk a Dynamics 365 Project Operations a Dynamics 365 Finance környezetben való frissítésével kapcsolatosan tartalmaz információkat. A Project Operations Update 5 (UR5) lehetőségre való frissítéséhez három művelet szükséges:
 
 - [A csomag importálása az előzetes verzió projektjébe](#import)
 - [A frissítés telepítése](#apply)
@@ -119,7 +119,7 @@ Az entitások biztonsági jogosultságának alábbi frissítései az UR5-ös ver
 4. A **Tábla leképezési verziója** lapon alkalmazza a leképezés új verzióját mindhárom entitásra.
 5. A **Kettős írás** lapon válassza a futtatás lehetőséget a leképezések újraindításához.
 6. A leképezések listájában válassza ki a **Főkönyvi (msdyn_ledgers)** leképezés minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. 
-7. A Kezdeti szinkronizálás **főkiszolgálója mezőben válassza** a **Finance and operations apps**, majd a Futtatás **lehetőséget**.
+7. Válassza ki a **Kezdeti szinkronizálás fő eleme** mezőjében a **pénzügyi és műveleti alkalmazások** elemet, majd válassza a **Futtatás** lehetőséget.
  
  ![Főkönyvi leképezés szinkronizálása.](media/DW6.png)
  

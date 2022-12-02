@@ -1,6 +1,6 @@
 ---
 title: Projektalapú szerződéssorok áttekintése
-description: Ez a cikk a projektalapú szerződéssorok használatával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projektalapú szerződéssorok használatáról.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

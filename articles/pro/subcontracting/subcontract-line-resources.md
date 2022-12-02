@@ -1,6 +1,6 @@
 ---
 title: Alvállalkozói szerződéses sorok forrásai
-description: Ez a cikk azt ismerteti, hogyan adhatja meg azokat a dedikált erőforrásokat, amelyeket a szállító biztosít egy adott alvállalkozói sorhoz az időre.
+description: Ez a cikk elmagyarázza, hogyan lehet megadni a szállító által egy adott alvállalkozói szerződéssorhoz biztosított dedikált erőforrásokat az időre vonatkozóan.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

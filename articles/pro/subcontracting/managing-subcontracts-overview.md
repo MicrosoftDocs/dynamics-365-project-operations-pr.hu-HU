@@ -1,6 +1,6 @@
 ---
 title: Alvállalkozói szerződések kezelése Project Operations-ben
-description: Ez a cikk áttekintést nyújt a projektalapú szervezetekben jellemzően a teljes alvállalkozói szerződések kezelésének folyamatáról.
+description: Ez a cikk áttekintést nyújt a projektalapú szervezeteknél jellemzően végponttól végpontig tartó alvállalkozói szerződéskezelési folyamatról.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522328"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-Ez a cikk áttekintést nyújt a projektalapú szervezetek teljes alvállalkozói kezelési folyamatáról. A szolgáltatások alvállalkozásba adása jellemzően az alábbi ábrán látható üzleti folyamatok folyamatát követi.
+Ez a cikk áttekintést nyújt a projektalapú szervezetek alvállalkozói szerződések teljes körű menedzsment folyamatáról. A szolgáltatások alvállalkozásba adása jellemzően az alábbi ábrán látható üzleti folyamatok folyamatát követi.
 
 ![Alvállalkozói folyamat](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Az alvállalkozói szerződéssor lehet mennyiségi vagy munkaalapú.
 
 Ha egy alvállalkozói szerződéssor **mennyiségi alapú**, az alvállalkozói szerződéssoron időre, költségre vagy anyagra vásárolt mennyiség bármely projektben felhasználható.
 
-Ha egy alvállalkozói szerződés sora **munkaalapú**, az alvállalkozói szerződés sora a projekttervben egy csomópont által képviselt munkarészhez tartozik. Az alvállalkozói szerződéssor értéke az adott munkarész teljesítéséhez szükséges összes komponens összege. Ezeket alvállalkozói szerződéssor részleteiként modellezik, és lehetnek idő-, költség- vagy anyaggyűjtemények. Munkán alapuló alvállalkozói szerződéssor esetében az alvállalkozói szerződéssor szintén egyetlen projekthez van rendelve. Az ilyen típusú alvállalkozói szerződések a Project Operations által nem támogatott kurrencellensek.
+Ha egy alvállalkozói szerződés sora **munkaalapú**, az alvállalkozói szerződés sora a projekttervben egy csomópont által képviselt munkarészhez tartozik. Az alvállalkozói szerződéssor értéke az adott munkarész teljesítéséhez szükséges összes komponens összege. Ezeket alvállalkozói szerződéssor részleteiként modellezik, és lehetnek idő-, költség- vagy anyaggyűjtemények. Munkán alapuló alvállalkozói szerződéssor esetében az alvállalkozói szerződéssor szintén egyetlen projekthez van rendelve. Az ilyen típusú alvállalkozói szerződésket a Project Operations jelenleg nem támogatja.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

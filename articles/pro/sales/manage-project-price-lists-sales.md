@@ -1,6 +1,6 @@
 ---
 title: Projektárlisták kezelése projektárajánlatokon
-description: Ez a cikk az árajánlatokon szereplő projekt árlistákkal kapcsolatos munkáról nyújt tájékoztatást.
+description: Ez a cikk a projektárlisták árajánlatokban történő használatát ismerteti.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

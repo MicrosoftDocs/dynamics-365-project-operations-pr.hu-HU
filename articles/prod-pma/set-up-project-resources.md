@@ -1,6 +1,6 @@
 ---
 title: Projekt-erőforrások beállítása
-description: Ez a cikk a projekterőforrások beállításával vagy kérésével kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projekterőforrások beállításáról vagy kéréséről.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

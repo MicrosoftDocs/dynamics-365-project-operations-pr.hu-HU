@@ -1,6 +1,6 @@
 ---
 title: Projektárajánlat beállításai
-description: Ez a cikk a projektajánlatokra vonatkozó és azokra vonatkozó hatásokról nyújt tájékoztatást.
+description: Ez a cikk a projektárajánlatokra érvényes és azokat érintő információkkal és beállításokkal kapcsolatos tudnivalókat tartalmaz.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

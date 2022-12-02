@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2022. júliusában – Project Operations egyszerű telepítés
-description: Ez a cikk a Microsoft Dynamics 365 Project Operations Lite központi telepítésének 2022. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Microsoft Dynamics 365 Project Operations könnyű telepítés 2022. júliusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,25 +18,25 @@ ms.locfileid: "9404000"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a következő Microsoft Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Project Operations egy Dataverse környezeti verzióban 4.44.0.22
+- Project Operations 4.44.0.22 verziójú Dataverse-környezetben
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
-| Központi telepítés és konfiguráció | 2761472. | A Project Operations telepítési hibája a rendszer kezeli. |
-| Számlázás és árképzés | 2746940. | Az alvállalkozói sor nevének legfeljebb 100 karakter hosszúságúnak kell lennie. |
-| Számlázás és árképzés | 2739162. | Az ügyfeleknek látniuk kell a menüszalag gombjait a tényleges rács nézetben. |
-| Projekttervezés és nyomon követés | 2730318. | Frissítettük a projekt tárgyában lévő nem támogatott karakterek érvényesítését. |
-| Számlázás és árképzés | 2705361. | A mérföldkőnek számlázott értékesítési tényeket bele kell foglalni a projektkövetési mezőkbe. |
-| Számlázás és árképzés | 2675880. | Megakadályozhatja, hogy egy projekt olyan szerződéssorhoz kapcsolódjon, amely nem munkaalapú. |
-| Számlázás és árképzés | 2664396. | Ha egy árajánlati árlistát árajánlat nélkül ment, akkor olyan hibának kell lennie, amely szerint az árajánlat nem lehet üres. |
-| Számlázás és árképzés | 2184019. | A **Feladatalapú számlázás** lap nem jeleníthető meg olyan projekteknél, amelyek nem rendelkeznek támogatási szerződéssel vagy árajánlattal. |
-| Idő és költség | 2754459. | Ha az ismétlődő ütemezési felhőfolyamat inaktív, jelenítse meg a szalagcímet, és kerülje meg az aszinkron feldolgozást. |
-| Számlázás és árképzés | 2724391. | A rendszer rossz kivételt jelent, ha a projektszerződés felosztása számlázási szabályból hiányzik egy vevői érték. |
-| Számlázás és árképzés | 2708638. | A rekord nem található meg az anyaghasználatok és jóváhagyások az anyaghasználatokhoz című témakörben a rácskereséssel végzett keresés során.|
-| Számlázás és árképzés | 2686977. | A számlasor érvényesítésének megakadályozása a számla létrehozása során. |
-| Számlázás és árképzés | 2683032. | A díjköteles szerepkörök és kategóriák másolása nem lépi túl az 5000 rekordot.|
-| Számlázás és árképzés | 2673363. | A Project költségfelhasználási %-a sérült, ha a projekthez az Erőfeszítés és a Költségbecslések és a tényleges adatok is léteznek. |
+| Központi telepítés és konfiguráció | 2761472. | Egy Project Operations telepítési hiba kezelve lett. |
+| Számlázás és árképzés | 2746940. | Az alvállalkozói sornevének maximális hossza 100 karakter lehet. |
+| Számlázás és árképzés | 2739162. | Az ügyfeleknek meg kell tudni tekinteniük a menüszalag gombokat a tényadatok rácsnézetében. |
+| Projekttervezés és nyomon követés | 2730318. | A projekt tárgyában szereplő nem támogatott karakterek frissített ellenőrzése. |
+| Számlázás és árképzés | 2705361. | A mérföldkő számlázott tényleges értékesítésinek szerepelnie kell a projektkövetés mezőkben. |
+| Számlázás és árképzés | 2675880. | Megakadályozza, hogy egy projekteket egy szerződéssorhoz legyen kapcsolva, ami nem munkaalapú. |
+| Számlázás és árképzés | 2664396. | Ha az árajanlat artistáját árajánlat nélkül mentik, akkor hiba szükséges, ami jelzi hogy az ajánlat nem lehet üres. |
+| Számlázás és árképzés | 2184019. | Nem szabad megjeleníteni a **Feladatalapú számlázás** lapot olyan projekteknél, amelyekhez nincs mögöttes szerződés vagy ajánlat. |
+| Idő és költség | 2754459. | Ha a ismétlődő ütemezés felhőfolyamat inaktív, mutasson egy címsávot, és mellőzze az aszinkron feldolgozást. |
+| Számlázás és árképzés | 2724391. | Nem megfelelő kivétel jelenik meg, ha egy projektszerződés felosztása számlázási szabályból hiányzik egy ügyfélérték. |
+| Számlázás és árképzés | 2708638. | A rendszer nem talált rekordot az Anyaghasználatok és Anyaghasználatok Jóváhagyásai táblázatos rácskeresése során|
+| Számlázás és árképzés | 2686977. | A számlasor ellenőrzésének megakadályozása a számla létrehozásakor. |
+| Számlázás és árképzés | 2683032. | A számlázható szerepkörök és kategóriák másolása nem méretez túl 5000 bejegyzésen.|
+| Számlázás és árképzés | 2673363. | A projekt költségfogyasztási %-a sérült, ha a projekthez Ráfordítás- és Költségbecslések és tényadatai is léteznek. |

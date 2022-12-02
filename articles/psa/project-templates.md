@@ -1,6 +1,6 @@
 ---
 title: Projektsablonok
-description: Ez a cikk arról nyújt tájékoztatást, hogyan használhatja a projektsablonokat a projekt gyors beállításához.
+description: Ez a cikk ismerteti, hogyan lehet a projektsablonokat használni a gyors projektbeállításhoz.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

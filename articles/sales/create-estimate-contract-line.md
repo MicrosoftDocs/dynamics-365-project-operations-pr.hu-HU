@@ -1,6 +1,6 @@
 ---
 title: Projektszerződéssor becslése
-description: Ez a cikk a projektszerződés-sorra vonatkozó becslésekről nyújt tájékoztatást.
+description: Ez a cikk a projektszerződéssor becsléséről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

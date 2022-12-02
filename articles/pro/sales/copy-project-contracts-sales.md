@@ -1,6 +1,6 @@
 ---
 title: Projektszerződések másolása
-description: Ez a cikk a projektszerződések Project Operationsben való másolásával kapcsolatos információkat tartalmaz.
+description: Ez a cikk információkat nyújt a projektszerződések másolásáról a Project Operations alkalmazásban.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

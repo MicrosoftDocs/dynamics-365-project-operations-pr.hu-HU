@@ -1,6 +1,6 @@
 ---
 title: Szállítói számlák létrehozása
-description: Ez a cikk a szállítói számlák fogalmát ismerteti, és elmagyarázza, hogyan hozhatja létre őket a Microsoftban Dynamics 365 Project Operations.
+description: Ez a cikk ismerteti a szállítói számlák fogalmát, és ismerteti azok létrehozási módszerét a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: suvaidya
 ms.date: 9/12/2022
 ms.topic: article
@@ -17,87 +17,87 @@ ms.locfileid: "9475467"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A cikkben ismertetett funkciók használatához engedélyeznie kell az Alvállalkozói tényleges feldolgozás engedélyezése a **Project Operations használatával erőforrás-alapú forgatókönyvekhez** funkciót a **Funkciókezelés** munkaterületen.
+A cikkben ismertetett funkciók használatához engedélyeznie kell a **Szolgáltatáskezelés** munkaterületén az **Alvállalkozói tényadatok feldolgozásának engedélyezése a Project Operations alkalmazással erőforrás alapú forgatókönyvekben** funkciót.
 
-A Microsoftnál Dynamics 365 Project Operations a szállítói számlázással rögzítheti a szállítók által befejezett projekt szolgáltatásainak és/vagy anyagainak leszállításából származó költségeket.
+A Microsoft Dynamics 365 Project Operations alkalmazásban a szállítói számlázás a szállítók által a projekten elvégzett szolgáltatásokból és/vagy anyagokból származó költségek rögzítésére használható.
 
-Amikor a szolgáltatásokat és/vagy anyagokat alvállalkozásba adják egy szállítónak, az alvállalkozói szerződés az adott szállítóval kötött szerződéses megállapodást jelenti. Ahogy a szállító nyújtja a szolgáltatásokat, vagy ahogy az anyagokat fogadják és felhasználják a projektfeladatokhoz, a költségeket a projekten rögzítik. A szállító ezután rendszeresen számlákat küld. Ezeket a számlákat ellenőrzik, és összevetik a projekten rögzített költségekkel. Az ellenőrzési folyamat befejezése után a szállítói számlát visszaigazolják, és kifizetésre felszabadítják.
+Amikor szolgáltatásokat és/vagy anyagokat alvállalkozásba ad egy beszállítónak, az alvállalkozói szerződés az adott szállítóval kötött szerződéses megállapodást képviseli. Amint az szállító teljesíti a szolgáltatásokat, vagy ahogy az anyagokat megérkeztek és felhasználták a projektfeladatok során, a költségeket a projekthez rögzíti a rendszer. Ezt követően a szállító időszakosan számlákat küld. Ezeket a számlákat ellenőrzik és megfelelteti a projektben rögzített költségekhez. Az ellenőrzési folyamat befejezése után a a szállító számlája meg lesz erősítve, és engedélyezve lesz a kifizetése.
 
 ## <a name="scenarios-for-use"></a>Használati forgatókönyvek
 
-A Project Operations szállítói számlái két különböző forgatókönyv támogatására használhatók:
+A Project Operations alkalmazásban szereplő szállítói számlák két különböző forgatókönyv támogatására használhatók:
 
-- Az ügyfelek a teljes alvállalkozói élményt használják.
-- Az ügyfelek nem használják a teljes alvállalkozói élményt, hanem egységes képet szeretnének kapni a Project Operations projektjeinek költségeiről.
+- Az ügyfelek, akik a teljes alvállalkozói élményt használják.
+- Az ügyfelek, akik nem használják a teljes alvállalkozói élményt, de egységes képben nézetet látni a projektek költségeiről a Project Operations alkalmazásban.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Az ügyfelek a teljes alvállalkozói élményt használják
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Az ügyfelek, akik a teljes alvállalkozói élményt használják
 
-A szállítói számla felhasználói élménye lehetővé teszi az alvállalkozásba adott összetevőkre hivatkozó időbevitelek, anyaghasználat és költségbejegyzések ellenőrzését, valamint a szállítói számlasorokkal való egyeztetésüket. Ezzel a folyamattal ellenőrizhető a szállítói számlasorok pontossága. Az ellenőrzési folyamat befejezése és a szállítói számla megerősítése után a rendszer visszafordítja a jóváhagyott idő-, költség- és anyaghasználati naplókban rögzített tényleges adatokat, majd a szállítói számlasorok használatával új költség-tényleges költségeket hoz létre.
+A szállítói számla élmények lehetőséget biztosítanak az alvállalkozó által alvállalkozásba adott összetevőkre hivatkozó idő-, anyaghasználati és költségbejegyzések ellenőrzésére, valamint a szállítói számlasorokkal való egyeztetésére. Ezzel a folyamattal ellenőrizhető a szállítói számlasorok pontossága. Az ellenőrzési folyamat befejezése és a szállítói számla jóváhagyása után a rendszer visszavonja a jóváhagyott idő-, költség- és anyaghasználati naplókban rögzített tényadatokat, majd a szállító számlasorait használva új költség-tényadatokat hoz létre.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Az ügyfelek nem használják a teljes alvállalkozói élményt, de egységes képet szeretnének kapni a project operations-projektek költségeinekről
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Az ügyfelek, akik nem használják a teljes alvállalkozói élményt, de egységes képben nézetet látni a projektek költségeiről a Project Operations alkalmazásban
 
-Ha az alvállalkozói folyamatot egy harmadik féltől származó rendszerben követi nyomon, az adott harmadik féltől származó rendszerből származó költségeket rögzítheti a Project Operationsbe olyan szállítói számlák létrehozásával, amelyek nem hivatkoznak alvállalkozói szerződésekre. Ily módon a projektmenedzserek egyetlen, egységes nézettel rendelkezhetnek egy adott projekt összes költségéről.
+Ha egy harmadik fél rendszerében követi nyomon az alvállalkozói folyamatokat, akkor az adott külső rendszerből a Project Operations alkalmazásba rögzítheti a költségeket olyan szállítói számlák létrehozásával, amelyek nem hivatkoznak az alvállalkozói szerződésekre. Így a projektvezetők egyetlen, egységes nézetben tekinthetik meg az adott projekt összes költségét.
 
-## <a name="create-vendor-invoices-in-project-operations"></a>Szállítói számlák létrehozása a Project Operationsben
+## <a name="create-vendor-invoices-in-project-operations"></a>Szállítói számlák létrehozása a Project Operations alkalmazásban
 
-A szállítói számlák Dynamics 365 Finance-ben jönnek létre a **Kötelezettségek** modul használatával. Szállítói számlákat nem hozhat létre közvetlenül a Dataverse.
+A szállítók számlái a Dynamics 365 Finance alkalmazásban hozhatók létre a **Kötelezettségek** modul használatával. A szállítói számlák nem hozhatók létre közvetlenül a Dataverse-ben.
 
 ### <a name="set-up-vendor-invoice-verification"></a>Szállítói számla ellenőrzésének beállítása
 
-Ha a szállítói számlát alvállalkozói szerződéshez Dataverse szánják, engedélyeznie kell a **Pm által végzett kézi ellenőrzés kötelező** paramétert. Az opció beállítása határozza meg, hogy a szállítói számlát automatikusan vissza kell-e erősíteni a Dataverse, vagy manuális megerősítést igényel. Minden projektszállítói számla fejléce tartalmaz egy azonos nevű beállítást. Alapértelmezés szerint az összes projektszállítói számla fejlécén lévő beállítás az itt beállított értékre van állítva. Az értéket azonban szükség szerint frissítheti az egyes szállítói számlák fejlécében.
+Ha a szállító számláját egy alvállalkozói szerződéshez szánják a Dataverse-ben, engedélyeznie kell a **Projektvezető manuális ellenőrzése szükséges** paramétert. A beállítás azt határozza meg, hogy a szállító számláját automatikusan meg kell-e erősíteni a Dataverse-ben, vagy manuális megerősítést igényel-e. Minden projekt szállítói számláinak fejlécében lehetőség van ugyanarra a névre. Alapértelmezés szerint a projektszállítói számlák fejlécén az itt megadott értékre lesznek beállítva. Az értéket azonban szükség szerint frissítheti az egyes szállítók számláinak fejlécében.
 
-Ha a beállítás Igen értékre **van állítva, a Finance rendszerben létrehozott és szinkronizált** Dataverse szállítói számla Vázlat **állapotú**. A számlát ezután a projektmenedzsernek érvényesítenie és ellenőriznie kell, majd meg kell erősítenie, mielőtt feldolgozná és feladná az adott projekt- és főkönyvi számlákra a Finance rendszerben.
+Ha a beállítás **Igen**, akkor a Finance-ban létrehozott és Dataverse-ben a szinkronizált számla állapota **Vázlat** lesz. Ezt követően a számlát a projektmenedzsernek ellenőriznie és hitelesítenie kell, és meg kell erősítenie, mielőtt feldolgozzák és feladják a megfelelő projekthez a főkönyvi számlára a Finance-ben.
 
-Ha a beállítás nem **értékre** van állítva, a szállítói számla automatikusan megerősítésre kerül. Nincs szükség további intézkedésre.
+Ha a beállítás **Nem**, a szállító számlája automatikusan meg lesz erősítve. További művelet nem szükséges.
 
-A szállítói számla ellenőrzésének beállításához kövesse az alábbi lépéseket.
+A szállítói számlák ellenőrzésének beállításához kövesse az alábbi lépéseket:
 
-1. A Pénzügyek területen lépjen a **Projektvezetési és könyvelés** \> **beállítása Projektvezetési és könyvelési paraméterek elemre.** \> **·**
-1. **A Pénzügyi** lapon állítsa a Kötelező a PM általi manuális ellenőrzés beállítást **Igen** értékre **, ha a** vállalati szabályzat megköveteli az alvállalkozói szállítói számlák ellenőrzését. Ha a projektmenedzser általi ellenőrzés nem szükséges, Dataverse hagyja a értékkészlet Nem **értékre**. Alapértelmezés szerint a beállítás a Függőben lévő **szállítói számla** oldalon lesz használva.
+1. A Finance-ben a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Projektmenedzsment és könyvelési paraméterek** lehetőségre.
+1. Ha a vállalati irányelv az alvállalkozók számláinak ellenőrzését igényli, akkor állítsa a **Pénzügyi** lapon a **Projektvezető manuális ellenőrzése szüksége** paramétert **Igen** értékre. Ha a projektvezető által végzett ellenőrzés nem kötelező a Dataverse-ben, hagyja az értékkészletet **Nem** értéken. Alapértelmezés szerint a **Függőben lévő szállítói számla** oldal beállítása lesz használva.
 
 > [!NOTE]
-> Az alvállalkozói Dataverse szerződésekhez létrehozott szállítói számlák csak akkor dolgozhatók fel megfelelően, ha a **Pm által végzett manuális ellenőrzés kötelező** beállítás Igen **értékre** van állítva. Az alvállalkozók által létrehozott idő-, anyag- és költségköltség-tényleges adatokat a projektmenedzser csak akkor tudja manuálisan egyeztetni a szállítói számlasorokkal, ha ez a beállítás Igen **értékre** van állítva.
+> Az alvállalkozók számára létrehozott szállítói számlák a Dataverse-ben csak akkor dolgozhatóak fel megfelelően, ha a **Projektvezető manuális ellenőrzése szükséges** beállítása **Igen**. Az alvállalkozók által létrehozott idő-, anyag- és költség tényadatokat a projektvezető csak akkor tudja manuálisan megfeleltetni a szállítói számla sorainak, ha a beállítás **Igen**.
 
-### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Beszerzési integrációs fiók beállítása szállítói számlákhoz
+### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Beszerzési integrációs fiók beállítása a szállítói számlákhoz
 
-Amikor egy szállítói számlát a Finance for Project Operations – Integrated environment (nem készlet) területen adnak fel, a pénzügyi adatok feladásra kerülnek a Beszerzési integrációs számlára. A rendszer létrehozza a feladott számla tényleges adatait Dataverse. Ezek a tényleges adatok a Finance mappában vannak közzétéve a Project integrációs napló használatával. A Projektintegrációs napló közzététele közzéteszi a tényleges költséget, és megfordítja a beszerzési integrációs fiókot.
+Amikor egy szállító számláját feladják a Finance for Project Operations szolgáltatásban – Az integrált környezet (nem készletezett) pénzügyi adatok fel lesznek adva Beszerzési integrációs számlára.. A rendszer elő létrehozza a feladott számlához tartozó tényadatokat a Dataverse-ben. Ezek a tényadatok fel lesznek adva a Pénzügyben a Projektintegrációs naplóval. A Projektintegrációs napló a közzététele közzé teszi a valós költséget, és visszavonja a Beszerzési integrációs fiókot.
 
-Beszerzési integrációs fiók szállítói számlákhoz való beállításához kövesse az alábbi lépéseket.
+Beszerzési integrációs fiók beállításához a szállítói számlákhoz kövesse az alábbi lépéseket.
 
-1. A Pénzügyek területen lépjen a **Projektvezetési és könyvelés** \> **beállítása Projektvezetési és könyvelési paraméterek elemre.** \> **·**
-1. A Dynamics 365 ügyfélkapcsolati műveletek projektműveletei lapon válassza az **Anyagbeszerzés** **integrációs** fiók \> lehetőséget.**·**
+1. A Finance-ben a **Projektmenedzsment és könyvelés** \> **Beállítás** \> **Projektmenedzsment és könyvelési paraméterek** lehetőségre.
+1. A **Project Operations a Dynamics 365 Customer Engagement alkalmazásban** lapon válassza az **Anyagok** \> **Beszerzési integráció** lehetőséget.
 
-### <a name="create-and-post-subcontract-vendor-invoices"></a>Alvállalkozói szállítói számlák létrehozása és feladása
+### <a name="create-and-post-subcontract-vendor-invoices"></a>Alvállalkozói szállítói számlák létrehozása feladása
 
-Amikor egy kötelezettségekért felelős ügyintéző számlát kap az alvállalkozótól, új számla jön létre a Finance-ben.
+Amikor egy Kötelezettségkezelő adminisztrátor számlát kap az alvállalkozótól, a Finance-ben új számla jön létre.
 
-1. A Pénzügyek területen lépjen a Kötelezettségek **számlák** \> **·**\> függőben lévő szállítói számlák elemre.**·**
-1. A műveleti ablaktáblán **válassza az** Új **lehetőséget** egy szállítói számla létrehozásához.
-1. A számla fejlécében, a Számlaszámla **mezőben válassza az** Alvállalkozó **lehetőséget**.
+1. A Finance-ben válassza a **Kötelezettségek** \> **Számlák** \> **Nyitott szállítói számlák** menüpontot.
+1. A **Műveleti Panelen** válassza az **Új** lehetőséget új szállítói számla létrehozásához.
+1. A **Számla** mező számlafejlécében válassza az **Alvállalkozó** lehetőséget.
 1. Válassza ki a számla dátumát.
-1. **A Fejléc** lapon állítsa a **Pm által végzett manuális ellenőrzés kötelező** beállítást Igen **értékre**. Ennek a beállításnak az alapértelmezett beállítása a **Projektvezetési és könyvelési paraméterek** oldalon található. Ez azonban a szállítói számla szintjén módosítható.
-1. A Számlasor **gyorslapon válassza a** Sor **hozzáadása lehetőséget** a szállítói számlasor létrehozásához.
-1. Válassza ki az alvállalkozói sorokhoz létrehozott beszerzési kategóriát, és adja meg az egységárat, a mértékegységet és a mennyiséget.
-1. A szállítói számlasorok szakasz Projekt **lapján válassza ki azt a** projektet, amellyel az alvállalkozó megosztja az alvállalkozói számlát.
-1. Válassza ki a projektkategóriát. Bármilyen típusú **tétel**, költség **·**, **anyag** vagy **óra** lehet.
-1. Csak akkor válassza ki a szerepkört, **ha a kiválasztott projektkategória Óra** típusú.
-1. Válassza a Feladás **lehetőséget** a szállítói számla feladásához.
+1. A **Fejléc** lapon állítsa a **Projektvezető manuális ellenőrzése szükséges** paramétert **Igen** lehetőségre. Ennek a beállításnak az alapértelmezett beállítása a **Projektmenedzsment és könyvelési paraméterek** oldalról jön. A szállítói számlák szintjén azonban ez módosítható.
+1. A **Számla sor** gyorslapon válassza a **Sor hozzáadása** lehetőséget a szállítói számlasor létrehozásához.
+1. Válassza ki az alvállalkozói sorok számára létrehozott beszerzési kategóriákat, majd adja meg az egységárat, a mértékegységet és a mennyiséget.
+1. A **Projekt** lap szállítói számlasorok szakaszában válassza ki azt a projektet, amelyhez az alvállalkozó megosztja az alvállalkozó számláját.
+1. Válassza ki a projektkategóriát. Lehet bármilyen típusú **Cikk**, **Költség**, **Anyag** vagy **Óra** lehet.
+1. Csak akkor jelölje ki a szerepkört, ha a kijelölt projektkategória **Óra** típusú.
+1. Adja fel a szállítói számlát a **Feladás** gombot választva.
 
-Másik lehetőségként szállítói számlát is létrehozhat, ha a **Kötelezettségek**\> számlák **·**\> A szállítói számlák **megnyitása elemre** lép, és az Új **lehetőséget választja.**
+Másik lehetőségként létrehozhat egy szállítói számlát a **Kötelezettségek** \> **Számlák** \> **Szállítói számlák megnyitása** menüpontban az **Új** lehetőséggel.
 
-A szállítói számla feladásakor az elérhetővé válik a Dataverse projektmenedzser ellenőrzéséhez és feldolgozásához.
+Amikor feladják a szállító számláját, az elérhetővé válik Dataverse-ben a projektvezető számára ellenőrzéshez és feldolgozáshoz.
 
-## <a name="vendor-invoice-processing-in-dataverse"></a>Szállítói számlafeldolgozás Dataverse
+## <a name="vendor-invoice-processing-in-dataverse"></a>Szállítói számla feldolgozása a Dataverse-ben
 
-A létrehozott Dataverse szállítói számlán néhány mezőérték a Finance rendszerben rögzített szállítói számlából származik. Más értékek az alvállalkozói szerződésből származó alapértelmezett értékek.
+A Dataverse-ben létrehozott szállítói számlán bizonyos mezőértékek a Finance-ben rögzített szállítói számláról jönnek. Más értékek az alvállalkozóból származó alapértelmezett értékek.
 
-A rendszer a következő mezőket és a kapcsolódó rekordokat másolja az alvállalkozói szerződésből a szállítói számla fejlécébe:
+A következő mezőket és kapcsolódó rekordokat a rendszer az alvállalkozói szerződésből a szállítói számla fejlécébe másolja:
 
 - Pénznem
 - Szerződő részleg
 - Fizetési feltételek
 
-A szállítói számlasorokban a Project Operations a következő mezőértékeket használja az alapértelmezett alvállalkozói és alvállalkozói sorhivatkozás megadásához:
+A szállítói számlasorokon a Project Operations a következő mezőértékeket használja az alapértelmezett alvállalkozói és alvállalkozói sor hivatkozásait:
 
 - Tranzakcióosztály
 - Beosztás
@@ -107,6 +107,6 @@ A szállítói számlasorokban a Project Operations a következő mezőértékek
 - Feladatok
 
 > [!NOTE]
-> A rögzített árú alvállalkozói sorok nem támogatottak a Project Operationsben.
+> A Project Operations nem támogatja a rögzített árú alvállalkozói sorokat.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

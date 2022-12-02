@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2021. májusában – Project Operations erőforrásalapú vagy nem készletalapú forgatókönyvekhez
-description: Ez a cikk a Project Operations 2021. májusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2021. májusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást az erőforrásalapú/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations, 4.10.0.186-os verziójú Dynamics 365 Dataverse-környezetben
-- Projektmenedzsment és könyvelés a pénzügyi és üzemeltetési alkalmazások környezetében 10.0.18-as verzió
+- Projektmenedzsment és könyvelés a 10.0.18-es verziójú pénzügyi és műveleti alkalmazáskörnyezetekben
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -41,7 +41,7 @@ Az alábbi lista a Project Operations 2021. májusi kiadásában módosított va
 | Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Minőségi frissítések |
 | Projektek V2 (msdyn\_projects) | 1.0.0.2 | Minőségi frissítések |
 
-Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations-megoldás Dataverse, valamint a pénzügyi és üzemeltetési alkalmazások megoldásverziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verziójának aktiválásához válassza **Táblatérkép verziói** pontot, ott pedig az legújabb verziót válassza ki, majd a kijelölt verziót mentse. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+A Project Operations Dataverse megoldás és a pénzügyi és műveleti alkalmazások megoldás verziójának frissítése során mindig futtassa a környezetben a leképezés legújabb verzióját, és engedélyezze az összes kapcsolódó táblaleképezést. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verziójának aktiválásához válassza **Táblatérkép verziói** pontot, ott pedig az legújabb verziót válassza ki, majd a kijelölt verziót mentse. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ha problémát tapasztal a térkép elindításával kapcsolatban, kövesse a [Kettős írás hibaelhárítási útmutató térkép szakaszának Hiányzó táblaoszlopok című ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)részében található utasításokat.
 
@@ -67,7 +67,7 @@ Ha problémát tapasztal a térkép elindításával kapcsolatban, kövesse a [K
 | Időbejegyzés | 2202476 | Az **Időbevitel** oldal mostantól reaktív rácsvezérlőt használ, és kijavít az olyan problémákat, mint a rács elcsúszása. |
 | Időbejegyzés | 2223377 | Az időbevitel el van rejtve a **Foglalható erőforrás** oldal **Kapcsolódó** szakaszában, hogy elkerülhető legyen a használhatósággal kapcsolatos zavar. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |

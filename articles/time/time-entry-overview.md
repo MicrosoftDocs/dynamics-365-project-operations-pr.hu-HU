@@ -1,6 +1,6 @@
 ---
 title: Idő áttekintése
-description: Ez a cikk a Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations Idő funkciójáról nyújt információkat.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

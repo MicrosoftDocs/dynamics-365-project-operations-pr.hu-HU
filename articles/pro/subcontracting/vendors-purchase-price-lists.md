@@ -1,6 +1,6 @@
 ---
 title: A szállítói és a beszerzési árlista kezelése a Project Operations alkalmazásban
-description: Ez a cikk olyan információkat tartalmaz, amelyek segítségével szállítói adatokat és beszerzési árlistákat hozhat létre és tarthat fenn alvállalkozásba adás céljából.
+description: Ez a cikk nyújt tájékoztatást a szállítói adatok létrehozásához és karbantartásához, valamint az alvállalkozók árlistáihoz.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Csoporttagok karbantartása
-description: Ez a cikk az elnevezett erőforrások projektcsapatokhoz való foglalásáról és a tevékenységekhez való hozzárendeléséről nyújt tájékoztatást.
+description: Ez a cikk információt nyújt a nevesített erőforrásoknak a projektcsoportokhoz való foglalásáról, és a feladatokhoz való hozzárendeléséről.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

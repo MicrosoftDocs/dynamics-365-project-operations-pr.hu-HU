@@ -1,6 +1,6 @@
 ---
 title: Projektek és feladatok leképezése egy projektalapú szerződéssorra - Lite
-description: Ez a cikk a projektek és feladatok szerződéssorhoz való hozzáadásáról és eltávolításáról nyújt tájékoztatást.
+description: Ez a cikk a projektek és feladatok szerződéssorhoz való hozzáadásával és eltávolításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

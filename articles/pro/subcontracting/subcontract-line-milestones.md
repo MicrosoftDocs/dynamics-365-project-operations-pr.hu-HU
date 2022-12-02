@@ -1,6 +1,6 @@
 ---
 title: Alvállalkozói szerződés mérföldkövei
-description: Ez a cikk azt ismerteti, hogyan hozhat létre és tarthat fenn mérföldkő-alapú számlaütemezést egy szállítóval kötött alvállalkozói szerződéshez.
+description: Ez a cikk elmagyarázza, hogyan hozhat létre és tarthat fenn mérföldkőalapú számlaütemezést egy szállítóval kötött alvállalkozói szerződéshez.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

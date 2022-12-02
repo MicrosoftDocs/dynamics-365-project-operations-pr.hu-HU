@@ -1,6 +1,6 @@
 ---
-title: Hatálybalépéskori árfelülírások
-description: Ez a cikk azt ismerteti, hogyan állíthat be árfelülírásokat adott árakhoz az árlistában.
+title: Hatályossági dátummal rendelkező árfelülbírálások
+description: Ez a cikk ismerteti, hogyan lehet árfelülbírálást beállítani adott árakhoz az árlistában.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -14,99 +14,99 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9446002"
 ---
-# <a name="date-effective-price-overrides"></a>Hatálybalépéskori árfelülírások 
+# <a name="date-effective-price-overrides"></a>Hatályossági dátummal rendelkező árfelülbírálások 
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-*Az érvényes dátum szerinti árfelülírások* lehetővé teszik az árlistában szereplő konkrét árak felülbírálását vagy módosítását. Van például egy standard árlistája, amely 2022. január 1-jétől 2022. december 31-ig érvényes. Ez az árlista számos szerepkör árait tartalmazza. A hálózati technikus **szerepkörhöz** beállított ár óránként 100 amerikai dollár (USD). Amikor egy hálózati technikus 2022. január 1. és 2022. december 31. között naplózza az időt, az idő ára 100 USD. 2022. október 1-jén csak *a* hálózati technikus **szerepkör árát** kell módosítania, óránként 100 USD óráról óránként 110 USD-ra. Az **Érvényességi ár felülbírálásának** dátuma funkció lehetővé teszi, hogy ezt a módosítást az adott szerepkör-árhoz tartozó sor felülbírálásaként állítsa be. Ezért nem kell a teljes árlistát lemásolnia, és csak az egy sor árát módosítania.
+A *Hatályossági dátummal rendelkező árfelülbírálások* segítségével felülbírálhat vagy módosíthat adott árakat az árlistában. Tegyük fel például, hogy van egy standard árlista, amely 2022. január 1. és 2022. december 31. között hatályos. Ez az árlista számos szerepkör árát tartalmazza. A **Hálózati technikus** szerepkör számára beállított ár óránként 100 amerikai dollár (USD). Amikor egy hálózati technikus 2022. január 1. és 2022. december 31. között időt naplóz, az idő ára 100 USD lesz. 2022 . október 1-én **csak** a *Hálózati technikus* szerepkör árát módosítja 100 USD értéktől óránként 110 USD re. A **Hatályossági dátummal rendelkező árfelülbírálások** funkció lehetővé teszi, hogy a sor felülbírálásként alkalmazza ezt a módosítást ehhez az adott szerepkörárhoz. Ezért nem kell a teljes árlistát másolni, és csak ennek az egy sornak az árát kell módosítani.
 
-## <a name="date-effective-price-overrides-for-labor-pricing"></a>Hatálybalépéskori árfelülírások a munkaerő-árazáshoz
+## <a name="date-effective-price-overrides-for-labor-pricing"></a>Hatályossági dátummal rendelkező árfelülbírálások munkadíjhoz
 
-A projekten a munkaidő dátum-tényleges árfelülírásainak beállításának folyamata két alapvető lépésből áll.
+A projekten belül a munkaidíjra vonatkozó hatályossági dátummal rendelkező árfelülbírálások beállításának folyamata két alapvető lépésből áll.
 
-1. Engedélyezze a **Date effective price overrides** funkciót.
-1. Állítson be egy érvényes dátum szerinti árfelülírást.
+1. A **Hatályossági dátummal rendelkező árfelülbírálások** funkció engedélyezése.
+1. Hatályossági dátummal rendelkező árfelülbírálás beállítása.
 
-### <a name="enable-the-date-effective-price-overrides-feature"></a>Az Érvényességi ár felülbírálásának dátuma funkció engedélyezése
+### <a name="enable-the-date-effective-price-overrides-feature"></a>A Hatályossági dátummal rendelkező árfelülbírálások funkció engedélyezése
 
 > [!NOTE]
-> **Az Érvényességi ár felülbírálásának** dátuma funkció engedélyezése után nem tiltható le.
+> A **Hatályossági dátummal rendelkező árfelülbírálások** funkció engedélyezése után az nem tiltható le.
 
-A Hatálybalépés dátuma szerinti árfelülírások **funkció engedélyezéséhez** kövesse az alábbi lépéseket.
+A **Hatályossági dátummal rendelkező árfelülbírálások** funkció engedélyezéséhez hajtsa végre a következő lépéseket.
 
-1. Lépjen a **Beállítások** \> **paramétereihez**.
-1. Nyissa meg a **Parameters** rekordot.
-1. A Műveleti panel Funkcióvezérlő **lapján válassza a** Dátum tényleges árfelülsőinek **engedélyezése lehetőséget**.
+1. Válassza a **Beállítások** \> **Paraméterek** lehetőséget.
+1. Nyissa meg a **Paraméterek** rekordot.
+1. A Műveletpanel **Funkcióvezérlés** lapján válassza a **Hatályossági dátummal rendelkező árfelülbírálások engedélyezése** lehetőséget.
 1. A jóváhagyást kérő párbeszédpanelen válassza az **OK** lehetőséget.
-1. Néhány pillanat múlva frissítse a böngészőt. A dátumalapú árfelültetési képességeknek mostantól elérhetőnek kell lenniük. Tudni fogja, hogy ezek a képességek engedélyezve vannak, ha **a Dátum tényleges árfelülírások** engedélyezése már nem jelenik meg a műveleti ablaktáblán.
+1. Néhány pillanat után frissítse a böngészőjét. A Hatályossági dátummal rendelkező árfelülbírálások képességeknek most már elérhetőnek kell lennie. Tudni fogja, hogy ezek a lehetőségek engedélyezve vannak, ha az **Hatályossági dátummal rendelkező árfelülbírálások** lehetőség már nem jelenik meg a műveletablakban.
 
-### <a name="set-up-a-date-effective-price-override"></a>Hatálybalépési dátum szerinti árátrendezés beállítása
+### <a name="set-up-a-date-effective-price-override"></a>Hatályossági dátummal rendelkező árfelülbírálás beállítása
 
-A dátum-hatályos árfelülírások a költség **-,** értékesítési **vagy** beszerzési **árlistákon** állíthatók be.
+A hatályossági dátummal rendelkező árfelülbírálások csak a **Költség**, **Értékesítés** vagy **Beszerzés** árlistákon állíthatók be.
 
 > [!NOTE]
->Az Érvényességi ár felülbírálásának **dátuma viselkedése** jelenleg a következő korlátozásokkal rendelkezik:
+>A **Hatályossági dátummal rendelkező árfelülbírálások** jelenleg a következő korlátozásokkal rendelkezik:
 >
-> - Csak a szerepkörárak és a szerepkör-árárak támogatják a **Project Operations tényleges árfelülírásainak** dátuma funkciót.
-> - Ha az árlista részletei oldalon található **Másolás** művelettel másol egy árlistát, és amikor a szerződés létrehozása során szabványos vagy egyéni árlistából hoz létre projektárlistát, a **rendszer nem** másolja ki a forrásárlistából a tényleges árfelültetéseket **.**
+> - Csak a szerepkörárak és a szerepkörárrések támogatják a **Hatályossági dátummal rendelkező árfelülbírálások** szolgáltatást a Project Operations alkalmazásban.
+> - Ha az **Árlista részletei** lapon a **Másolás** művelettel másol egy árlistát, és amikor létrehoz egy projektárlistát egy standard vagy egyéni árlistából a szerződés létrehozása során, a hatályossági dátummal rendelkező árfelülbírálások **nem** lesznek másolva a forrás árlistából.
 
-Ha dátum-tényleges árfelülsőt szeretne beállítani egy szerepkörárhoz vagy egy szerepkör-árjelöléshez, kövesse az alábbi lépéseket.
+Hatályossági dátummal rendelkező árfelülbírálások beállításához egy szerepkörárhoz vagy a szerepkörárréshez, kövesse ezeket a lépéseket.
 
-1. Nyissa meg annak az árlistának az oldalát, amelyhez be szeretné állítani a hatálybalépési dátum szerinti árfelfüggesztést.
-1. Válassza a **Szerepkörárak** lapot. Ez a lap felsorolja az **árlistában szereplő összes szerepkör-árrekordot**.
-1. Válassza ki azt a **szerepkör-árrekordot**, amelyhez új, érvényes dátum szerinti felülbírálási árat szeretne beállítani, majd koppintson duplán (vagy kattintson duplán) **a szerepkör ára** elemre a **szerepkör árának részletei** oldal megnyitásához.
-1. Válassza az **Érvényességi idő felülbírálásának** dátuma lapot. Az ezen a lapon található rács felsorolja a kiválasztott **szerepkör-árrekord** összes érvényes dátum-felülbírálását.
-1. A rács feletti eszköztáron válassza az Új szerepkör árának felülbírálása **lehetőséget**. Megnyílik az **Új szerepkör árának felülbírálása** csúszka.
-1. Adja meg az érvényesség dátumát, az egységet és az új árat az ár felülbírálásához. Ezután válassza a Mentés **lehetőséget**, és zárja be az űrlapot.
+1. Nyissa meg annak az árlistának az oldalát, amelyhez be szeretné állítani a hatályossági dátummal rendelkező árfelülbírálást.
+1. Válassza a **Szerepkörárak** lapot. Ez a lap az árlista **Szerepkörár** rekordjait sorolja fel.
+1. Válassza ki azt a **Szerepkörár** rekordot amelyhez be szeretné állítani az Hatályossági dátummal rendelkező árfelülbírálást, majd koppintson duplán (vagy kattintson duplán) a **Szerepkörár** elemre a **Szerepkörár részletei** lap megnyitásához.
+1. Válassza a **Hatályossági dátummal rendelkező árfelülbírálások** lapot . A lap rácsa felsorolja a kijelölt **Szerepkörár** rekord összes hatályossági dátummal rendelkező árfelülbírálását.
+1. A rács feletti eszköztáron válassza az **Új szerepkörár-felülbírálás** lehetőséget. Megnyílik az **Új szerepkörár felülbírálás** csúszka.
+1. Adja meg a hatályosság kezdődátumát, az egységet és az új árat az árfelülbírálásához. Majd válassz a **Mentés** lehetőséget, és zárja be az űrlapot.
 
 > [!NOTE]
-> - A szerepkör árának vagy a szerepkör árának felárazásának dátum szerinti érvényes árfelülsője a díjszabási dimenzióértékek ugyanazon kombinációjára vonatkozik, amely a szülőszerepeltetési **árában** vagy **a szerepkör árjelölő** sorában található.
-> - Az Érvényesség kezdete **mezőben kiválasztott** dátumnak a szülőárlista érvényességi dátumán belül kell lennie. Az árfelülsőlés az Érvényesség **kezdete mezőben kiválasztott** napon lép hatályba, és a szülőárlista záró dátumának végéig érvényes. Ha ugyanahhoz a szerepkör-árhoz egy másik hatálybalépési dátum-árfelülsőt állít be, az első árfelirtás az Érvényesség kezdete **mezőben kiválasztott** napon lép hatályba, és a második felülírás kezdetéig érvényes lesz.
+> - A Hatályossági dátummal rendelkező árfelülbírálás egy szerepkörárhoz vagy szerepkörárréshez ugyanazon árazási dimenzióértékek kombinációjára érvényes, amelyek a szülő **Szerepkörár** vagy **Szerepkörárrés** soron léteznek.
+> - Az **Érvényesség kezdete** mezőben kiválasztott dátumnak a fölérendelt árlista érvényességi dátumán belül kell lennie. Az árfelülbírálás az **Érvényesség kezdete** mezőben kiválasztott dátumon lép életbe, és a fölérendelt árlista záró dátumának végéig érvényes. Ha ugyanazon a szerepköráron további hatályossági dátummal rendelkező árfelülbírálást állít be, az első árfelülbírálás az **Érvényesség kezdete** mezőben kijelölt dátumon lép hatályba, és a második felülbírálás kezdetéig érvényes.
 
 ## <a name="examples"></a>Példák
 
-### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>1. példa: A szerepkör árának dátum-effektivitásának meghatározása olyan szerepkör-árhoz, amely szerepkör-ár-felülbírálásokkal rendelkezik
+### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>1. példa: Az érvényességi dátum meghatározása egy olyan szerepkörárhoz, amely szerepkörár-felülbírálásokkal rendelkezik
 
-Az alábbi példa bemutatja, hogyan határozzák meg a dátumhatékonyságot egy adott szerepkör-árhoz, amelyre a szerepkör árának felülbírálásai be vannak állítva.
+A következő példa azt mutatja be, hogyan határozható meg a az érvényességi dátum egy adott szerepkörárnál, amelyhez szerepkörár-felülbírálások vannak beállítva.
 
-**Árlista A: január 1-jétől június 30-ig**
+**A árlista: Január 1. és június 30. között**
 
-*Szerepkör ára*
+*Szerepkörár*
 
-| Szerepkör ára | Kiszerelés | Ár | A bejövő tranzakciók díjszabására gyakorolt hatás |
+| Szerepkörár | Kiszerelés | Ár | A bejövő tranzakciók árképzésére gyakorolt hatás |
 |---|---|---|---|
-| Hálózati technikus | Óra | 100 | Ezt az árat minden olyan tranzakciónál felhasználjuk, ahol a tranzakció dátuma január 1. és március 14. között van. |
+| Hálózati technikus | Óra | 100 | Ezt az árat kell használni minden olyan tranzakciónál, ahol a tranzakció dátuma január 1. és március 14. között van. |
 
-*Szerepkör-ár felülbírálása*
+*Szerepkörár-felülbírálás*
 
-| Hatékony a | Kiszerelés | Ár | A bejövő tranzakciók díjszabására gyakorolt hatás |
+| Érvényesség kezdete | Kiszerelés | Ár | A bejövő tranzakciók árképzésére gyakorolt hatás |
 |---|---|---|---|
-| 15. március | Óra | 110 | Ezt az árat használjuk minden olyan tranzakciónál, ahol a tranzakció dátuma március 15. és március 30. között van. |
-| 1. ápr. | Óra | 120 | Ezt az árat használjuk minden olyan tranzakciónál, ahol a tranzakció dátuma április 1. és június 30. között van. |
+| 15. március | Óra | 110 | Ezt az árat kell használni minden olyan tranzakciónál, ahol a tranzakció dátuma március 15. és március 30. között van. |
+| 1. ápr. | Óra | 120 | Ezt az árat kell használni minden olyan tranzakciónál, ahol a tranzakció dátuma április 1. és június 30. között van. |
 
-### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>2. példa: Dátum-hatékonyság meghatározása olyan szerepkör-ármegállapozáshoz, amelynek szerepkör-ármegállapítási felülbírálásai vannak
+### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>2. példa: Az érvényességi dátum meghatározása egy olyan szerepkörárréshez, amely szerepkörárrés-felülbírálásokkal rendelkezik
 
-Az alábbi példa bemutatja, hogyan határozzák meg a dátumok hatékonyságát egy adott szerepkör-árjelentkezéshez, amelyhez a szerepkör árjelentőjel-felülbírálásai be vannak állítva.
+A következő példa azt mutatja be, hogyan határozható meg a az érvényességi dátum egy adott szerepkörárrésnél, amelyhez szerepkörárrés-felülbírálások vannak beállítva.
 
-**Árlista A: január 1-jétől június 30-ig**
+**A árlista: Január 1. és június 30. között**
 
-*Szerepkör ára*
+*Szerepkörár*
 
-| Szerepkör ára | Munkaórák | Kiszerelés | Ár | A bejövő tranzakciók díjszabására gyakorolt hatás |
+| Szerepkörár | Munkaórák | Kiszerelés | Ár | A bejövő tranzakciók árképzésére gyakorolt hatás |
 |---|---|---|---|---|
-| Hálózati technikus | Szabályos | Óra | 100 | Ezt az árat minden olyan tranzakciónál felhasználjuk, ahol a tranzakció dátuma január 1. és március 14. között van. |
+| Hálózati technikus | Szabályos | Óra | 100 | Ezt az árat kell használni minden olyan tranzakciónál, ahol a tranzakció dátuma január 1. és március 14. között van. |
 
-*Szerepkör szerinti árjelentkezés*
+*Szerepkörárrés*
 
-| Szervezeti egység | Munkaórák | Felár felszámítása % |
+| Szervezeti egység | Munkaórák | Árrés % |
 |---|---|---|
 | Contoso USA | Túlóra | 10% |
 
-*Szerepkör-árjelek felülbírálása*
+*Szerepkörárrés felülbírálása*
 
-| Hatékony a | Ár | A bejövő tranzakciók díjszabására gyakorolt hatás |
+| Érvényesség kezdete | Ár | A bejövő tranzakciók árképzésére gyakorolt hatás |
 |---|---|---|
-| 15. március | 20% | Ezt a felár százalékos arányt minden olyan tranzakciónál felhasználjuk, ahol a tranzakció dátuma március 15. és március 30. között van. |
-| 1. ápr. | 25% | Ezt a jelölést minden olyan tranzakciónál felhasználjuk, ahol a tranzakció dátuma április 1. és június 30. között van. |
+| 15. március | 20% | Ezt az árrés százalékértéket kell használni minden olyan tranzakciónál, ahol a tranzakció dátuma március 15. és március 30. között van. |
+| 1. ápr. | 25% | Ezt az árrést kell használni minden olyan tranzakciónál, ahol a tranzakció dátuma április 1. és június 30. között van. |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

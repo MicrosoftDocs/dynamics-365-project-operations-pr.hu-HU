@@ -1,6 +1,6 @@
 ---
 title: A projektszerződések fő fogalmai – Lite
-description: Ez a cikk a projektszerződések kulcsfogalmairól nyújt tájékoztatást.
+description: Ez a cikk a projektszerződések fő fogalmaival kapcsolatos információkat tartalmaz.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
 
 
-Ez a cikk azokat a kulcsfogalmakat ismerteti, amelyekkel tisztában kell lennie, mielőtt elkezdené használni a Project-szerződéseket a következőben Dynamics 365 Project Operations:
+Ez a cikk bemutatja a legfontosabb fogalmakat, amelyeket ismernie kell a Dynamics 365 Project Operations projektszerződéseinek használata előtt:
 
 ## <a name="contracting-unit"></a>Szerződő részleg
 

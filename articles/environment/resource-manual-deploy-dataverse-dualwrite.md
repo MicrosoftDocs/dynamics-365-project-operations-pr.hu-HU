@@ -1,6 +1,6 @@
 ---
 title: A Project Operations Dataverse alkalmazás manuális telepítése kettős írási támogatással
-description: Ez a cikk azt ismerteti, hogyan telepítheti manuálisan a Project Operations Dataverse alkalmazást, hogy az támogassa a kettős írást.
+description: A cikk ismerteti, hogyan lehet manuálisan telepíteni a Project Operations Dataverse alkalmazást, hogy támogassa a kettős írást.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028567"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a cikk azt ismerteti, hogyan telepítheti manuálisan a Microsoftot Dynamics 365 Project Operations úgy, hogy az támogassa a Microsoft Dataverse kettős írást. A Project Operations észleli a környezet konfigurációját, és további támogatást nyújt a kettős íráshoz, ha teljesülnek az előfeltételek.
+Ez a cikk ismerteti, hogyan lehet manuálisan telepíteni a Microsoft Dynamics 365 Project Operations alkalmazást a Microsoft Dataverse rendszerbe, hogy támogassa a kettős írást. A Project Operations észleli a környezet konfigurációját, és további támogatást nyújt a kettős íráshoz, ha teljesülnek az előfeltételek.
 
-A Lifecycle Services (LCS) használatával történő Microsoft Dynamics üzembe helyezés során, ha követte a cikkben található utasításokat, kihagyhatja az Microsoft Power Platform integráció (korábbi nevén a Common Data Service környezet) üzembe helyezését.
+Az Microsoft Dynamics Lifecycle Services (LCS) szolgáltatáson keresztüli telepítés esetén, ha követi a cikk útmutatását, kihagyhatja a Microsoft Power Platform integráció (korábban Common Data Service környezet) telepítését.
 
 A Project Operations Dataverse-környezetbe kettős írás támogatással való telepítésének folyamata a következő négy fő lépésből áll:
 
@@ -37,7 +37,7 @@ A művelet befejezéséhez rendszergazdaként kell bejelentkeznie.
 3. Válassza ki a környezet típusát. Ha regisztrált a próbaverziós ajánlatra, válassza a **Próbaverzió (előfizetés alapú)** lehetőséget.
 4. Erősítse meg a telepítési régiót.
 5. Engedélyezze az **Adatbázis létrehozása ehhez a környezethez** beállítást. 
-6. Erősítse meg a nyelvet, majd erősítse meg, hogy a pénznem megegyezik-e a pénzügyi és műveleti alkalmazások pénznemével.
+6. Erősítse meg a nyelvet, és győződjön meg arról, hogy a pénznem megfelel a pénzügyi és műveleti alkalmazások pénznemének.
 7. Engedélyezze a **Dynamics 365 alkalmazások** beállítást, és győződjön meg arról, hogy az **Automatikusan telepítse ezeket az alkalmazásokat** mező beállítása **Nincs**.
 8. Adjon hozzá egy biztonsági csoportot, ha szükséges biztonsági csoport.
 9. Válassza ki a **Mentés** gombot a környezet létrehozásához.
@@ -62,4 +62,4 @@ Ezt az eljárást csak akkor tudja végrehajtani, ha a Project Operations telep�
 
 ## <a name="link-your-environments"></a><a name="link"></a>Saját környezetek társítása
 
-Dataverse A környezet üzembe helyezése után beállíthatja a hivatkozást a pénzügyi és üzemeltetési alkalmazásokban. Kövesse a [Kettős írású varázsló használata a környezetek összekapcsoláshoz](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) rész lépéseit.
+A Dataverse-környezet telepítése után beállíthatja a hivatkozást az pénzügyi és műveleti alkalmazásaiban. Kövesse a [Kettős írású varázsló használata a környezetek összekapcsoláshoz](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) rész lépéseit.

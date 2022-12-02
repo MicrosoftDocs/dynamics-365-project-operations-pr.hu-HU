@@ -1,6 +1,6 @@
 ---
 title: Költségkezelés konfigurálása
-description: Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket meg kell hoznia a tervezési folyamat során, mielőtt konfigurálná a Költségkezelést a 365 Finance alkalmazásban Microsoft Dynamics.
+description: Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket a tervezési folyamat során el kell végeznie a Költségkezelés konfigurálása előtt a Microsoft Dynamics 365 Finance szolgáltatásban.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934001"
 ---
 # <a name="configure-expense-management"></a>Költségkezelés konfigurálása
 
-Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket a költségkezelés konfigurálása előtt meg kell hoznia a tervezési folyamat során. A Költségkezelés során információkat tárolhat a fizetési módszerekről, az utazási igénylésekről, a költségjelentésekről, a házirendekről stb.
+Ez a cikk azokat a szempontokat és döntéseket ismerteti, amelyeket a tervezési folyamat során el kell végeznie a Költségkezelés konfigurálása előtt. A Költségkezelés során információkat tárolhat a fizetési módszerekről, az utazási igénylésekről, a költségjelentésekről, a házirendekről stb.
 
 Mivel a Költségkezelésre szolgáló konfiguráció megtervezése során számos döntés a szervezet hierarchiája és pénzügyi struktúrája alapján történik, az adott területek esetén át kell tekintenie tervezési dokumentumokat.
 

@@ -1,6 +1,6 @@
 ---
 title: Projektnaptárak meghatározása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan alkalmazhat naptársablont egy projektre a projekt ütemezésének nyomon követéséhez.
+description: A cikk tájékoztatást nyújt arról, hogyan lehet naptári sablont alkalmazni a projekt ütemezésének nyomon követésére.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

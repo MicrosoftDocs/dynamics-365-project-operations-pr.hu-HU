@@ -1,6 +1,6 @@
 ---
 title: Szállítói számlasorok mérföldkövekhez
-description: Ez a cikk azt ismerteti, hogyan hozhat létre szállítói számlasorokat az alvállalkozói szerződések mérföldköveihez.
+description: Ez a cikk ismerteti, hogyan lehet alvállalkozói szerződésen létrehozni a szállító számlasorokat a mérföldkövek számára.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,28 +17,28 @@ ms.locfileid: "9260998"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Microsoft Dynamics 365 Project Operations szállítói számlái rendelkezhetnek szállítói számlasorokkal az alvállalkozói sorban meghatározott mérföldkövekhez. A projektmenedzserek a mérföldkövekhez használt szállítói számlasorok segítségével rögzíthetik a projekthez beszerzett szolgáltatásokkal vagy termékekkel kapcsolatban felmerülő mérföldkő-alapú költségekként beszerzett szolgáltatások költségeit.
+A Microsoft Dynamics 365 Project Operations szállítói számlái az alvállalkozói sorban definiált mérföldkövekhez szállítói számlasorokat tartalmazhatnak. A projektvezetők a mérföldkövek szállítói számlasorait használhatják a projekthez kapcsolódó, mérföldköveken alapuló költségekként beszerzett szolgáltatásokhoz vagy termékekhez kapcsolódó költségeket.
 
-A mérföldkövek szállítói számlasorainak mindig olyan alvállalkozói sorra kell hivatkozniuk, amely rögzített árú számlázási módszerrel rendelkezik. Amikor a mérföldkövekhez tartozó szállítói számlasor alvállalkozói sorra hivatkozik, a projektmenedzserek egyeztethetik és ellenőrizhetik az adott alvállalkozói sorra hivatkozó idő- és költségköltségeket, költségeket vagy anyagokat a szállító által kiszámlázott mérföldkővel.
+A mérföldkövek szállítói számlasorának mindig hivatkozni kell egy Rögzített árú számlázási módú alvállalkozói sorhoz. Ha egy mérföldkövekhez tartozó szállítói számlasor egy alvállalkozói sorra hivatkozik, a projektvezetők egyeztethetik és ellenőrizhetik a mögöttes idő, kiadások vagy anagyok költségét, amelyek az alvállalkozói sorra hivatkoznak a szállító által számlázott mérföldkővel szemben.
 
-Az alábbi táblázat a szállítói számlasorok mérföldkövek mezőiről nyújt tájékoztatást.
+Az alábbi táblázat ismerteti a mérföldkövekhez kapcsolódó szállítói számlasorok mezőit.
 
 | Mező | Description | Funkcionális hatás |
 | --- | --- | --- |
-| Name | A szállítói számlasor neve, hogy segítsen az azonosításban. | Ez a név jelenik meg az első oszlopként az összes olyan keresésben, amely a szállítói számlasorokon alapul. |
-| Description | A szállító által a szállítói számlasoron számlázott szolgáltatások rövid leírása. | None |
-| Alvállalkozói szerződés | Az alvállalkozás, amelyre a szolgáltatásokat eredetileg megrendelték. | Ha alvállalkozói szerződést választ a szállítói számlához, a szállítói számla összes sora örökli ezt a beállítást. A szállítói számlák nem tartalmazhatnak olyan szállítói számlasorokat, amelyek különböző alvállalkozói szerződésekre hivatkoznak. |
-| Alvállalkozói vonal | Az alvállalkozói vonal, amelyen a szolgáltatásokat megrendelték. A kiválasztható alvállalkozói sorok listája a kiválasztott alvállalkozói szerződés soraira korlátozódik. | Ha egy szállítói számlasoron alvállalkozói sor van kiválasztva a mérföldkövekhez, a Szerepkör **és** a Tranzakciós kategória **mezők, valamint a** termékkel kapcsolatos mezők irrelevánsak és nem érhetők el. A **Mennyiség**, **a Mennyiség és** a **Mennyiség csoport** mezők szintén nem relevánsak a mérföldkőalapú szállítói számlasorok esetében. |
-| Tranzakció dátuma | Az a dátum, amikor a szállítói számlasor tényleges költségének tényleges költséget rögzíti a projektben. | None |
-| Tranzakcióosztály | Válassza a Mérföldkő **lehetőséget** egy alvállalkozói sorban meghatározott befejezett mérföldkő szállítói számlájának rögzítéséhez. | None |
-| Mérföldkő | Válassza ki a kapcsolódó alvállalkozói sorban meghatározott mérföldkövet, amely számlakészként **van** megjelölve. | Az alvállalkozói sor mérföldkövei, amelyek állapota Készen áll a **számlára**, kiválaszthatók a szállítói számlasoron. |
-| Project | Annak a projektnek a neve, amelyen a számlázandó szolgáltatásokat használták. | Ez a mező kötelező, és nem hagyható üresen. |
-| Feladatok | Annak a projektfeladatnak a neve, amelyen a számlázandó szolgáltatásokat használták. Ez a mező csak akkor érhető el, ha egy projekt ki van jelölve. A projekttevékenység kiválasztása nem kötelező. | Ha ezt a mezőt üresen hagyja, a projektmenedzser a szállítói számlasort a kapcsolódó alvállalkozói sorban lévő tranzakciós osztálynak megfelelően egyeztetheti, amelyet a projekt bármely tevékenységénél rögzítenek. Ha a szállítói számlasor nem hivatkozik alvállalkozói sorra, és ez a mező üresen marad, a szállítói számlasor által létrehozott tényleges költség nem lesz összekapcsolva a nem számlázott értékesítési tényleges adatokkal. Ebben az esetben, ha a feladatalapú számlázás be van állítva, előfordulhat, hogy a költségek nem számlázhatók ki a végfelhasználónak. |
-| Mérföldkő összege | Adja meg a mérföldkő értékét, amely a számlázásra kész alvállalkozói sorban van meghatározva. | None |
+| Name | A szállítói számla neve, amely segítséget nyújt az azonosításában. | Ez a név lesz megjelenítve első oszlopként minden olyan keresésben, amelyek a szállítói számlasorokon alapulnak. |
+| Description | Az alvállalkozói számlán a beszállító által számlázott szolgáltatások rövid leírása. | None |
+| Alvállalkozói szerződés | Az az alvállalkozó, amelytől a szolgáltatásokat eredetileg megrendelték. | Amikor egy alvállalkozói szerződés ki van jelölve a szállítói számlához, a szállítói számla minden sora örökli ezt a beállítást. A szállítói számlákon nem lehetnek olyan szállítói számlasorokat, amelyek más alvállalkozói szerződésekre hivatkoznak. |
+| Alvállalkozóiszerződés-sor | Az az alvállalkozói sor, amelytől a szolgáltatásokat megrendelték. A választható alvállalkozói sorok listája a kijelölt alvállalkozó szerződés soraira van korlátozva. | Ha egy alvállalkozó sort kiválaszt egy mérföldkövekhez tartozó szállítói számlasoron, akkor a **Szerepkör** és a **Tranzakciókategória** mezők, illetve a termékhez kapcsolódó mezők nem érhetők el. A **Mennyiség**, az **Egység** és az **Egységcsoport** mező nem releváns a mérföldkő alapú szállítói számlasorok szempontjából. |
+| Tranzakció dátuma | Az a dátum, amikor a szállítói számlasor tényleges költségét rögzíteni fogják a projekthez. | None |
+| Tranzakcióosztály | Válassza a **Mérföldkő** lehetőséget, hogy rögzítsen egy szállítói számlát egy teljesített mérföldkőhöz, amely egy alvállalkozói soron lett definiálva. | None |
+| Mérföldkő | Válassza ki azt a mérföldkövet, amely a **Számlázásra kész** jelölésű kapcsolódó alvállalkozói sorban van definiálva. | A **Számlázásra kész** állapottal rendelkező alvállalkozóisor-mérföldkövek nem jelölhetők ki egy szállítói számlasoron. |
+| Project | Annak a projektnek a neve, amelyhez a számlázott szolgáltatásokat felhasználták. | Ez egy kötelező mező, és nem lehet üres. |
+| Feladatok | Annak a projektfeladatnak a neve, amelyhez a számlázott szolgáltatásokat felhasználták. Ez a mező csak akkor érhető el, ha egy projekt ki van jelölve. A projektfeladat kiválasztása nem kötelező. | Ha a mezőt üresen hagyja, akkor a projektvezető a szállító számlasorát megfeleltetheti az a projekt bármelyik feladatához rögzített kapcsolódó alvállalkozói sor tranzakcióosztályainak. Ha a szállítói számlasor nem hivatkozik alvállalkozói sorra, és ez a mező üresen marad, a szállítói számlasor által létrehozott tényleges költség nem lesz társítva egyetlen nem számlázatlan tényleges értékesítéshez sem. Ebben az esetben a feladatalapú számlázás beállítása esetén előfordulhat, hogy a költségeket nem lehet a végfelhasználónak kiszámlázni. |
+| Mérföldkő összege | Adja meg annak a mérföldkőnek az értékét, amely a számlázásra kész alvállalkozói sorban van definiálva. | None |
 | Forgalmi adó | Adja meg az áfa összegét. | None |
-| Végösszeg | A szállítói számlasor teljes összege, beleértve az adókat is. Ez a mező Mérföldkő *összege* + *Áfaként* kerül kiszámításra. | None |
+| Végösszeg | Az szállítói számlasor teljes összege az adókkal együtt. A mező számításának képlete *Mérföldkő összege* + *Áfa*. | None |
 
 > [!NOTE]
-> Amikor létrejön egy alvállalkozói sor mérföldkövére hivatkozó szállítói számlasor, az alvállalkozói mérföldkő állapota létrejön **szállítói számlára**. Ezután a szállítói számla megerősítésekor az alvállalkozói sor mérföldkövének állapota a Szállítói számla visszaigazolt **állapotára** frissül.
+> Az alvállalkozói sor mérföldkövére hivatkozó szállítói számlasor létrehozásakor az alvállalkozói mérföldkövek állapota **Szállítói számla létrehozva** értékre módosul. Ezt követően, amikor a szállító számlája megerősítést nyer, az alvállalkozói sor mérföldkövének állapota **Szállítói számla megerősítve** értékre lesz frissítve.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Konfigurációs adatok beállítása és alkalmazása a Microsoft Dataverse szolgáltatásban
-description: Ez a cikk a konfigurációs adatok Project Operationsben való beállításáról és alkalmazásáról nyújt tájékoztatást.
+description: Ez a cikk a beállításról és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 ## <a name="prerequisites"></a>Előfeltételek
 
-Mielőtt elkezdené konfigurálni az adatokat a Microsoft Dataverse, a következő előfeltételeknek kell teljesülniük:
+Mielőtt megkezdi az adatok konfigurálását a Microsoft Dataverse-szolgáltatásban, a következő előfeltételeknek kell teljesülniük:
 
-1.  Dataverse Környezet és Dynamics 365 Finance környezet kiépítése a Project Operations számára.
-2.  A Dynamics 365 Finance jogi személy adatait megosztjuk a Dataverse környezettel. Ez azt jelenti, hogy a **Vállalat** entitása Dataverse a következő vállalati rekordokkal rendelkezik:
+1.  Dataverse-környezet és egy Dynamics 365 Finance környezet kiépítése a Project Operations alkalmazáshoz.
+2.  A jogi személy adatait meg vannak osztva a Dynamics 365 Finance-ből a Dataverse-környezetbe. Ez azt jelenti, hogy a **Vállalat** entitás a Dataverse-ben a következő vállalati rekordokkal rendelkezik:
   - THPM
   - USPM
   - GBPM

@@ -1,6 +1,6 @@
 ---
 title: Projektre vonatkozó értékesítési rendelések idő és anyag típusú projekteknél
-description: Ez a cikk azt ismerteti, hogyan hozhat létre projektalapú értékesítési rendeléseket idő- és anyagprojektekhez.
+description: Ez a cikk elmagyarázza, hogyan lehet projektalapú értékesítési rendeléseket létrehozni idő és anyag típusú projekteknél.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933817"
 
 [!include[banner](../includes/banner.md)]
 
-Ez a cikk azt ismerteti, hogyan hozhat létre értékesítési rendelést egy projekthez. Az értékesítési rendelések csak **idő és anyag** típusú projektekhez hozhatók létre.
+Ez a cikk ismerteti, hogyan hozhat létre egy értékesítési rendelést egy projekthez. Az értékesítési rendelések csak **idő és anyag** típusú projektekhez hozhatók létre.
 
 Ha egy idő és anyagelszámolású projekthez több finanszírozási forrás tartozik a projektszerződésben, engedélyeznie kell az **Értékesítési rendelések engedélyezése több finanszírozási forrású projektekhez** paramétert a **Projektmenedzsment és könyvelési paraméterek** oldalon. 
 

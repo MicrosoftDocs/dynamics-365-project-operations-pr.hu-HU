@@ -1,6 +1,6 @@
 ---
 title: Értékesítési folyamat áttekintése
-description: Ez a cikk az alapvető értékesítési folyamatokról nyújt tájékoztatást.
+description: Ez a cikk információkat nyújt az alapvető értékesítési folyamatokról.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

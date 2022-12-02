@@ -1,6 +1,6 @@
 ---
 title: A futásteljesítmény beállítása futásteljesítmény-szintek használatával
-description: Ez a cikk a futásteljesítmény-arányokról és a futásteljesítmény-szintekről nyújt tájékoztatást.
+description: Ez a cikk a futásteljesítménnyel és futásteljesítmény-szintekkel kapcsolatosan tartalmaz információkat.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ A **Futásteljesítmény összeg kiszámításának engedélyezése több futás
 
 A funkció engedélyezése után állítsa vissza a futásteljesítményt úgy, hogy az megfelelően tükrözze a **Mennyiség** mező értékét. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Engedélyezze a Futásteljesítmény-összegek kiszámítását pénzügyi év funkció szerint
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>A futásteljesítmény-végösszegek számítása pénzügyi év szolgáltatással engedélyezése
 
-A **Futásteljesítmény-összegek kiszámítása pénzügyi év** funkció szerint lehetővé teszi a Költségkezelési paraméterek új beállítását, amely naptári év helyett pénzügyi év szerint végzi el a futásteljesítmény-összegek kiszámítását. A szolgáltatás engedélyezéséhez kövesse az alábbi lépéseket.
+A **futásteljesítmény-végösszegek számítása pénzügyi év szolgáltatással** funkció lehetővé tesz egy új beállítást a költségkezelési paraméterekben, amelyek a naptári év helyett pénzügyi év alapján végzik a futásteljesítmény-végösszegek számítását. A szolgáltatás engedélyezéséhez kövesse az alábbi lépéseket.
 
 1. Válassza a **Munkaterületek** > **Szolgáltatáskezelés** lehetőséget.
-1. A listában keresse meg és válassza a **Futásteljesítmény-összegek számítása pénzügyi év** alapján lehetőséget, majd válassza az Engedélyezés most **lehetőséget**.
-1. Lépjen a **Költségkezelés** > **beállításának** > **általános** > **költségkezelési paramétereihez**.
-1. **A Költségkezelési paraméterek** lapon keresse meg és engedélyezze **a pénzügyi év használata a futásteljesítmény-összegekhez** lehetőséget.
+1. Keresse meg és jelölje ki a listában a **futásteljesítmény-végösszegek számítása pénzügyi év alapján** lehetőséget, és válassza az **Engedélyezés most** elemet.
+1. Válassza a **Költségkezelés** > **Beállítás** > **Általános** > **Költségkezelési paraméterek** lehetőséget.
+1. A **Költségkezelés paraméterei** oldalon keresse meg és engedélyezze a **Futásteljesítmény-végösszegek számítása pénzügyi év szolgáltatással** funkciót.
 
-Miután engedélyezte **a pénzügyi év használata a futásteljesítmény-összegekhez** funkciót, a futásteljesítmény-összegeket a rendszer pénzügyi év számítja ki.
+Miután engedélyezi a **Futásteljesítmény-végösszegek számítása pénzügyi év szolgáltatással** funkciót, a futásteljesítmény-végösszegek pénzügyi év alapján lesznek számítva.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

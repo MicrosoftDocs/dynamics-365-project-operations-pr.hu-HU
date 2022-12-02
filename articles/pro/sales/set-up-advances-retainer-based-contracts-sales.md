@@ -1,6 +1,6 @@
 ---
 title: Foglalón alapuló szerződések beállítása
-description: Ez a cikk a megtartókon alapuló szerződéskötési modellekről és a Project Operationsben elért előrehaladásokról nyújt tájékoztatást.
+description: Ez a cikk a Project Operationsban szereplő foglaló alapú szerződési modellek és előlegek információit tartalmazza.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

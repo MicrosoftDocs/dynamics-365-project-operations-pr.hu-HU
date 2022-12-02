@@ -1,6 +1,6 @@
 ---
 title: Project Operations-frissítések
-description: Ez a cikk a Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations közzétett verzióival kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**A következőre vonatkozik:** Project Operations az erőforrás-/nem készlet
 A Dynamics 365 Project Operations két összetevőből áll:
 
 - A Project Operations a Dataverse környezetben lefedi a lehetőségtől a proforma számlázásig vonatkozó lehetőségeket. A Dataverse-t használja a rendszer a Project Operations Lite központi telepítésében és az erőforrás-/nem készletalapú forgatókönyvek telepítésében.
-- A projektmenedzsment és a számvitel a Dynamics 365 Finance környezetben magában foglalja a költségkezelési képességeket, a projekt könyvelését és a bevételek elszámolását. A Finance and operations alkalmazáskörnyezetet a Project Operations erőforrás-/nem készletalapú forgatókönyvekhez, a Project Operations pedig a készletezett/éles környezetben használt forgatókönyvekhez használja.
+- A projektmenedzsment és könyvelés a Dynamics 365 Finance környezetben magában foglalja a költségkezelési lehetőségeket, a projektek könyvelését és az árbevétel-elszámolást. A pénzügyi és műveleti alkalmazáskörnyezet a Project Operations az erőforrás-/nem készletalapú forgatókönyvekhez, és Project Operations a készlet-/termelésalapú forgatókönyvekhez esetekben használatos.
 
 ## <a name="project-operations-release-notes"></a>Project Operations kiadási megjegyzései
 - Project Operations legfrissebb kiadási megjegyzései az [Erőforrás-/nem készletalapú](whats-new-july-2022-resource-based.md) forgatókönyvhöz.
@@ -34,11 +34,11 @@ A Dynamics 365 Project Operations két összetevőből áll:
 
 ## <a name="project-operations-latest-version"></a>A Project Operations legújabb verziója
 
-| Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a pénzügyi és üzemeltetési alkalmazások környezetében | 
+| Project Operations a Dataverse-környezetben | Projektmenedzsment és könyvelés a pénzügyi és műveleti alkalmazáskörnyezetekben | 
 | --- | --- |
 | 4.45.0.53. | 10.0.29. |
 
-Project Operations-erőforrás/nem készletezett forgatókönyv esetén javasoljuk, hogy kétírásos Vezénylési verziót használjon 2.3.1.15 vagy újabb verzióval.
+A Project Operations Erőforrás/Nem készletezett forgatókönyv esetén javasoljuk, hogy a kettős írás Orchestration 2.3.1.15-es vagy újabb verzióját használja.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>A Project Operations kiadási ütemezése a Dataverse-környezetben
 
@@ -66,7 +66,7 @@ A Project Operations frissítései a Dataverse-környezetben havonta rendelkezé
 | 5. állomás |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Észak-Amerika         |  4.46.0.60.      | Teljesítés           | Teljesítés            | Később eldöntendő           | 2022. november 04.       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Kiadási ütemezés a projektmenedzsmenthez és a könyveléshez a pénzügyi és üzemeltetési alkalmazások környezetében
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>A Projektmenedzsment és a könyvelés kiadási ütemezése a pénzügyi és műveleti alkalmazások környezetében
 
 A Projektmenedzsment és könyvelés frissítései évente nyolc alkalommal kerülnek kiadásra.
 

@@ -1,6 +1,6 @@
 ---
 title: Projekttervezés és nyomon követés
-description: Ez a cikk a Project Service Automationben a tervezéssel és a nyomon követéssel kapcsolatos információkra mutató hivatkozást tartalmaz.
+description: Ez a cikk linket biztosít a Project Service Automation tervezéssel és nyomon követéssel kapcsolatos információihoz.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933265"
 
 A Project Service alkalmazás segíti a szolgáltatószervezeteket a lehetőségek azonosításában, az ajánlatok benyújtásában, a szerződéses megállapodások megkötésében, az erőforrások kezelésében, az idő és költségek nyomon követésében, az ügyfeleknek való számlázásban, valamint a projektek időben és költségvetésen belüli teljesítésében. 
 
-A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat áthelyeztük a következő cikkekbe:
+A cikkben korábban szereplő PDF-hivatkozás el lett távolítva, és a tartalma átkerült az alábbi cikkekbe:
 
 - [Projekt ütemezése](../project-creating.md)
 - [A projekt költségei és bevételei](../project-estimating.md)
@@ -43,7 +43,7 @@ A cikkben korábban szereplő PDF-hivatkozást eltávolítottuk, és a tartalmat
 - [Projektbeállítások](../project-settings.md)
 
 > [!NOTE]
-> Ezt a cikket egy későbbi dokumentációfrissítéssel eltávolítjuk. 
+> Ez a cikk egy későbbi dokumentációs frissítésben kerül eltávolításra. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

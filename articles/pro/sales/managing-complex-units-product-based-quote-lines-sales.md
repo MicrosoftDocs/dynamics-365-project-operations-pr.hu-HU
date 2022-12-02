@@ -1,6 +1,6 @@
 ---
 title: Összetett egységek kezelése, például felhasználónként vagy havonta, termékalapú árajánlatsoroknál - Lite
-description: Ez a cikk a termékalapú árajánlat-sorok összetett egységeinek kezeléséről nyújt tájékoztatást.
+description: Ez a cikk az összetett egységek kezeléséről tartalmaz tájékoztatást a termékalapú árajánlatsorok esetében.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Költségkezelési paraméterek konfigurálása
-description: Ez a cikk azokat a paramétereket ismerteti, amelyek a Költségkezelés általános viselkedését szabályozzák.
+description: Ez a cikk ismerteti azokat a paramétereket, amelyek a Költségkezelés általános működését szabályozzák.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931471"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a cikk azokat a paramétereket ismerteti, amelyek szabályozzák a költségkezelés általános viselkedését.
+Ez a cikk ismerteti azokat a paramétereket, amelyek a Költségkezelés általános működését szabályozzák.
 
 ## <a name="general"></a>Általános
 

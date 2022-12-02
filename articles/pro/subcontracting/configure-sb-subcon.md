@@ -1,6 +1,6 @@
 ---
 title: Ütemezési tábla konfigurálása a szerződéses alkalmazottak és az alvállalkozói szerződésben rögzített kapacitás megjelenítéséhez
-description: Ez a cikk azt ismerteti, hogyan konfigurálhatja az Ütemezési táblát a Microsoftban Dynamics 365 Project Operations úgy, hogy az alvállalkozói erőforrás-kapacitást jelenítse meg a projekterőforrás-követelmények személyzete során.
+description: Ez a cikk azt mutatja be, hogyan konfigurálható az ütemezési tábla a Microsoft Dynamics 365 Project Operations alkalmazásban, hogy megjelenítse az alvállalkozói erőforráskapacitást a projekterőforrás-követelmények személyzethez rendelése során.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
@@ -17,48 +17,48 @@ ms.locfileid: "9262219"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Microsoft Dynamics 365 Project Operations ütemezési táblája kétféleképpen használható erőforrások kereséséhez:
+A Microsoft Dynamics 365 Project Operations ütemezési tábláján kétféleképpen kereshet erőforrásokat:
 
-- Általános erőforrás-keresés az adott projektalapú erőforrás-követelmény kontextusa nélkül.
-- Követelményspecifikus erőforrás-keresés, ahol a projektkövetelmény biztosítja a javasolt erőforrások kontextusát.
+- Általános erőforrás-keresés bármilyen projektalapú erőforrás-követelmény környezete nélkül.
+- Követelményspecifikus erőforrás-keresés, ahol a projektkövetelmény biztosítja a javasolt erőforrások környezetét.
 
-Ahhoz, hogy értesítse az ütemezési táblát az alvállalkozói erőforrás-kapacitásról és a szerződéses dolgozókról, frissítenie kell az Ütemezési tábla beállításait. Ezek a frissítések a következők: 
-- Frissítse az ütemezési tábla beállításait az általános erőforrás-kereséshez.
-- Frissítse az Ütemezési tábla beállításait a követelményalapú erőforrás-kereséshez.
+Ha értesítenie kell az ütemezési táblát az alvállalkozók erőforrás-kapacitásról és a szerződéses alkalmazottakról, akkor módosítania kell az Ütemezési tábla beállításait. Ezek a frissítések a következők: 
+- Az ütemezési tábla beállításainak frissítése az általános erőforrás-kereséshez.
+- Az ütemezési tábla beállításainak frissítése a követelmény alapú erőforrás-kereséshez.
 
 ## <a name="update-schedule-board-settings-for-general-resource-search"></a>Az ütemezési tábla beállításainak frissítése az általános erőforrás-kereséshez
-### <a name="update-filters-for-general-resource-search"></a>Szűrők frissítése az általános erőforrás-kereséshez
-Erőforrás keresésekor frissíteni kell az ütemezési táblán elérhető szűrőket, hogy külső erőforrásokat is kereshessen az alábbiak bármelyikének vagy mindegyikének megadásával:
-  - Dolgozó típusa, függetlenül attól, hogy a megjelenített erőforrások szerződéses alkalmazottaknak vagy alkalmazottaknak kell-e lenniük.
-  - Szállítóvállalat, amelyhez az erőforrásnak tartoznia kell.
-  - Egy adott alvállalkozói vagy alvállalkozói vonalhoz tartozó erőforrások.
+### <a name="update-filters-for-general-resource-search"></a>Az általános erőforrás-keresés szűrőinek frissítése
+Egy erőforrás keresésekor az ütemezési táblán elérhető szűrőket frissíteni kell, hogy külső erőforrásokra is kereshessen a következők bármelyikének vagy mindegyikének a megadásával:
+  - A dolgozó típusa, hogy a látható erőforrások a szerződéses alkalmazottak vagy az alkalmazottak-e.
+  - A szállító vállalat, amelyhez a erőforrásnak tartoznia kell.
+  - Adott alvállalkozói szerződéshez vagy alvállalkozói sorhoz tartozó erőforrások.
     
-### <a name="update-retrieve-resource-query"></a>Erőforrás-lekérdezés lekérésének frissítése
-A kereséshez használt lekérdezést is frissíteni kell, hogy ezeket a további szűrőattribútumokat használja. A következő lépésekkel frissítheti az ütemezési tábla konfigurációját az általános erőforrás-kereséshez:  
-1. Nyissa meg **az Ütemezési tábla beállításainak** ütemezése egy adott ütemezési táblához.
-2. Nyissa meg az **Általános beállítások** lapot, és görgessen az Egyéb beállítások **részhez**.
-3. Az ebben a szakaszban található beállítások listájában frissítse a Szűrőelrendezést **a** **Project Operations Lite** alapértelmezett szűrőelrendezésére.
-4. Frissítse **az Erőforrások lekérése lekérdezést** az **erőforrások alapértelmezett lekérése lekérdezésre a Project Operations Lite-hez**.
+### <a name="update-retrieve-resource-query"></a>Erőforrás-lekérés lekérdezés frissítése
+A kereséshez használt lekérdezést is frissíteni kell, hogy használja ezeket a további szűrőattribútumokat. Az általános erőforrások keresés konfigurációjának frissítéséhez az ütemezési táblán használja a következő lépéseket:  
+1. Nyissa meg az **Ütemezési tábla beállításait** egy adott ütemezési táblához.
+2. Nyissa meg az **Általános beállítások** lapot, és görgessen az **Egyéb beállítások** részhez.
+3. Az ebben a szakaszban található beállítások listájában frissítse a **Szűrő elrendezést** beállítást **Alapértelmezett szűrőelrendezés a Project Operations Lite szolgáltatáshoz** értékre.
+4. Frissítse az **Erőforrás-beszerzési lekérdezés** beállítást **Alapértelmezett lekérési erőforrásokra vonatkozó lekérdezés a Project Operations Lite szolgáltatáshoz** értékre.
 
 ![Az ütemezési tábla beállításainak frissítése az általános erőforrás-kereséshez](../media/BoardSettings.png)  
 
-## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Ütemezési tábla beállításainak frissítése a követelményalapú erőforrás-kereséshez
-### <a name="update-filters-for-requirement-specific-resource-search"></a>Szűrők frissítése a követelményspecifikus erőforrás-kereséshez 
-Erőforrás keresésekor frissíteni kell az ütemezési táblán elérhető szűrőket, hogy külső erőforrásokat is kereshessen az alábbiak bármelyikének vagy mindegyikének megadásával:
- - Dolgozó típusa, függetlenül attól, hogy a megjelenített erőforrások szerződéses alkalmazottaknak vagy alkalmazottaknak kell-e lenniük.
- - Szállítóvállalat, amelyhez az erőforrásnak tartoznia kell.
- - Egy adott alvállalkozói vagy alvállalkozói vonalhoz tartozó erőforrások.
+## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Az ütemezési tábla beállításainak frissítése a követelmény alapú erőforrás-kereséshez
+### <a name="update-filters-for-requirement-specific-resource-search"></a>Az követelményspecifikus erőforrás-keresés szűrőinek frissítése 
+Egy erőforrás keresésekor az ütemezési táblán elérhető szűrőket frissíteni kell, hogy külső erőforrásokra is kereshessen a következők bármelyikének vagy mindegyikének a megadásával:
+ - A dolgozó típusa, hogy a látható erőforrások a szerződéses alkalmazottak vagy az alkalmazottak-e.
+ - A szállító vállalat, amelyhez a erőforrásnak tartoznia kell.
+ - Adott alvállalkozói szerződéshez vagy alvállalkozói sorhoz tartozó erőforrások.
 
-### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Erőforrás-lekérdezés frissítése a követelményspecifikus erőforrás-kereséshez 
-A kereséshez használt lekérdezést is frissíteni kell, hogy ezeket a további szűrőattribútumokat használja. A következő lépésekkel frissítheti az ütemezési tábla konfigurációját a követelményalapú erőforrás-kereséshez:
+### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Az erőforrás lekérése lekérdezés frissítése követelményspecifikus erőforrás-kereséshez 
+A kereséshez használt lekérdezést is frissíteni kell, hogy használja ezeket a további szűrőattribútumokat. A követelményalapú erőforráskeresés konfigurációjának frissítéséhez az ütemezési táblán használja a következő lépéseket:
 
-1. Nyissa meg **az Ütemezési tábla beállításainak** ütemezése egy adott ütemezési táblához, majd válassza az Alapértelmezett beállítások **megnyitása lehetőséget** a követelményspecifikus keresés beállításainak megnyitásához.
-2. Nyissa meg az **Általános beállítások** lapot, és görgessen az Egyéb beállítások **részhez**.
-3. Az ebben a szakaszban található beállítások listájában frissítse a Szűrőelrendezést **a** **Project Operations Lite** alapértelmezett szűrőelrendezésére.
-4. Frissítse **az Erőforrások lekérése lekérdezést** az **erőforrások alapértelmezett lekérése lekérdezésre a Project Operations Lite-hez**.
-5. Nyissa meg az **Ütemezéstípusok** lapot, és lépjen a Projekt **elemre**.
-6. A Project beállításai alatt frissítse az Ütemezési segéd erőforrások lekérése lekérdezését **az** erőforrások alapértelmezett lekérése lekérdezésre **a Project Operations Lite-hez, és frissítse** az ütemezési segéd lekérési kényszerek lekérdezését **az** **alapértelmezett lekérési kényszerek lekérdezésére a Project Operations Lite-hez**.**·**
+1. Nyissa meg az **Ütemezési tábla beállításait** az adott ütemezési táblához, majd válassza az **Alapértelmezett beállítások megnyitása** lehetőséget a követelményspecifikus keresés beállításainak megnyitásához.
+2. Nyissa meg az **Általános beállítások** lapot, és görgessen az **Egyéb beállítások** részhez.
+3. Az ebben a szakaszban található beállítások listájában frissítse a **Szűrő elrendezést** beállítást **Alapértelmezett szűrőelrendezés a Project Operations Lite szolgáltatáshoz** értékre.
+4. Frissítse az **Erőforrás-beszerzési lekérdezés** beállítást **Alapértelmezett lekérési erőforrásokra vonatkozó lekérdezés a Project Operations Lite szolgáltatáshoz** értékre.
+5. Nyissa meg az **Ütemezési típusok** lapot, és menjen a **Projekt** szakaszba.
+6. A **Projekt** beállításai alatt frissítse az **Ütemezési segéd – Erőforrás-beszerzési lekérdezés** beállítást **Alapértelmezett lekérési erőforrásokra vonatkozó lekérdezés a Project Operations Lite szolgáltatáshoz** értékre és az **Ütemezési segéd – korlátozásbeszerzési lekérdezés** beállítást **Alapértelmezett lekérési korlátokra vonatkozó lekérdezés a Project Operations Lite szolgáltatáshoz** értékre.
 
-![Ütemezési tábla beállításainak frissítése a követelményalapú erőforrás-kereséshez](../media/SASettings.png)  
+![Az ütemezési tábla beállításainak frissítése a követelmény alapú erőforrás-kereséshez](../media/SASettings.png)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

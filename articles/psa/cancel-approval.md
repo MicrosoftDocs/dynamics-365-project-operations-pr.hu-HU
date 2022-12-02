@@ -1,6 +1,6 @@
 ---
 title: A korábban jóváhagyott idő- és költségbejegyzések visszavonása
-description: Ez a cikk a jóváhagyott projektidő- és költségtranzakciók visszavonásáról nyújt tájékoztatást.
+description: Ez a cikk a projekt jóváhagyott idő- és költségtranzakciójának visszavonásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.custom:
 - dyn365-projectservice

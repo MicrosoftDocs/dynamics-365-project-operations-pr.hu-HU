@@ -1,6 +1,6 @@
 ---
 title: Bemutató beállítások és konfigurációs adatok alkalmazása – Lite
-description: Ez a cikk arról nyújt tájékoztatást, hogyan alkalmazhat bemutató beállítási és konfigurációs adatokat a Project Operations számára.
+description: Ez a cikk a bemutató beállítás és a konfigurációs adatok Project Operations rendszerben való alkalmazásáról tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9409993"
@@ -21,7 +21,7 @@ _**Lite telepítés – ajánlattól proforma számlázásig_
 
 ## <a name="prerequisites"></a>Előfeltételek
 
-A konfiguráció megkezdése előtt ki kell építenie egy Dataverse környezetet a következőhöz: Dynamics 365 Project Operations.
+A konfiguráció megkezdése előtt rendelkeznie kell egy Dataverse-környezettel, amelyet a Dynamics 365 Project Operations alkalmazáshoz létesítettek.
 
 
 ## <a name="instructions"></a>Utasítások

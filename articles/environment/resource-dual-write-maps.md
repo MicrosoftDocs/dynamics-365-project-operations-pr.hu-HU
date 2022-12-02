@@ -1,6 +1,6 @@
 ---
 title: Project Operations kettős írás leképezési verziói
-description: Ez a cikk a Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations alkalmazáshoz szükséges kettős írású térképek listáját tartalmazza.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ A Project Operations megoldáshoz a következő térképek szükségesek. Győz�
 
 | Táblaleképezés | Kezdeti szinkronizálás |
 | --- | --- |
-| Főkönyv (msdyn_ledgers) | A táblázattérképhez és az összes előfeltételhez kezdeti szinkronizálásra van szükség. A kezdeti szinkronizálás főkiszolgálója a pénzügyi és üzemeltetési alkalmazások. |
+| Főkönyv (msdyn_ledgers) | A táblázattérképhez és az összes előfeltételhez kezdeti szinkronizálásra van szükség. Kezdeti szinkronizálás fő eleme a pénzügyi és műveleti alkalmazások. |
 | Jogi entitások (cdm_companies) | Nem kötelező. A rendszer automatikusan feltölti ezt az entitást, ha a környezeteket kettős írással kapcsolják össze. |
 | Ügyfelek V3 (fiókok) | Nem szükséges a kiépítéshez. |
 | Szállítók V2 (msdyn_vendors) | Nem szükséges a kiépítéshez. |
 
-1. A leképezések listájában válassza ki a Főkönyvi **(msdyn\_ledgers)** térkép minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. A Master for initial sync (Mester a kezdeti szinkronizáláshoz **) mezőben válassza a** Finance and operations apps (Pénzügyi és üzemeltetési alkalmazások) **lehetőséget** a főkönyvi térképhez és az összes előfeltétel-térképhez is. Válassza a **Futtatás** lehetőséget.
+1. A leképezések listájában válassza ki a Főkönyvi **(msdyn\_ledgers)** térkép minden előfeltételét, majd jelölje ki a **Kezdeti szinkronizálás** jelölőnégyzetet. A **Kezdeti szinkronizálás mestere** mezőjében válassza ki a **Pénzügyi és műveleti alkalmazásokat** mind a főkönyvi leképezéshez, mind az összes előfeltétel térképhez. Válassza a **Futtatás** lehetőséget.
 
 ![Főkönyvi leképezés szinkronizálása.](media/DW6.png)
 
@@ -46,7 +46,7 @@ A Project Operations megoldáshoz a következő térképek szükségesek. A kett
 | Projektszerződés fejlécei (értékesítési megbízások) | 1.0.0.1 | Nem szükséges a kiépítéshez. ||
 | Projektszerződéssorok (salesorderdetails) | 1.0.0.0 | Nem szükséges a kiépítéshez. ||
 | Projektfinanszírozási forrás (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nem szükséges a kiépítéshez. ||
-| Projektintegrációs táblázat az anyagbecslésekhez (msdyn\_ becsült vonalak) | 1.0.0.0 | Nem szükséges a kiépítéshez. ||
+| Projectintegrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Nem szükséges a kiépítéshez. ||
 | Projektszámla-ajánlatok V2 (számlák) | 1.0.0.3 | Nem szükséges a kiépítéshez. ||
 | Project Operations integrációjának tényleges adatai (msdyn_actuals) | 1.0.0.15. | Nem szükséges a kiépítéshez. |10.0.29 vagy újabb|
 | Project Operations integráció szerződéssor mérföldkövek (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nem szükséges a kiépítéshez. ||

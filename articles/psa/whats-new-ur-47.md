@@ -1,6 +1,6 @@
 ---
 title: Újdonságok vagy változások a Project Service Automation 47-es frissítési kiadásának V3 változatában
-description: Ez a cikk a 47-es, V3-as kiadásban Microsoft Dynamics 365 Project Service Automation elérhető funkciókat és javításokat sorolja fel.
+description: Ez a cikk a Microsoft Dynamics 365 Project Service Automation Update Release 47, V3 verzióban elérhető funkciókat és javításokat sorolja fel.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9477281"
 
 Örömünkre szolgál, ha bejelentjük a Microsoft Dynamics 365 Project Service Automation alkalmazás legújabb frissítését. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Kompatibilis a Dynamics 365 9.x rendszerrel. A kiadásra frissítéshez keresse fel a Dynamics 365 online megoldások felügyeleti központját, és telepítse a frissítést. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk azokat a funkciókat és javításokat sorolja fel, amelyek a Project Service Automation 45-ös, V3-as kiadásának újdonságai vagy módosításai. Ennek a verziónak a buldszáma V3.10.78.8, és általánosan elérhető 2022. júliusában önálló frissítésen keresztül.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation V3 45-os frissítési kiadásában. Ennek a verziónak a buldszáma V3.10.78.8, és általánosan elérhető 2022. júliusában önálló frissítésen keresztül.
 
 ## <a name="update-release-47"></a>47-ös frissítési kiadás
 
@@ -38,4 +38,4 @@ Ez a cikk azokat a funkciókat és javításokat sorolja fel, amelyek a Project 
 A következő problémák kerültek kijavításra.
 
 **Erőforráskezelés**
-- Az érvényesítést frissítették annak biztosítása érdekében, hogy a felhasználók ne tudjanak null hivatkozási kivételt aktiválni, amikor lefoglalható erőforrás nélkül **próbálnak meg projektcsapattagot létrehozni**.
+- Az ellenőrzés frissült, annak biztosítására, hogy a felhasználók ne válthassanak ki nullreferencia kivételt, amikor **Foglalható erőforrás** nélkül próbálnak meg létrehozni egy projektcsoport-tagot.

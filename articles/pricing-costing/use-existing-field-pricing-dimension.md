@@ -1,6 +1,6 @@
 ---
 title: Project Operations-mezők mint árképzési dimenziók
-description: Ez a cikk a mezők díjszabási dimenzióként való használatával nyújt tájékoztatást a Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations rendszerben mezők árazási dimenzióként való használatáról nyújt információkat.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

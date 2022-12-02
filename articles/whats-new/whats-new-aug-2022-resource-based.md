@@ -1,6 +1,6 @@
 ---
 title: Újdonságok - 2022. augusztus - Project Operations erőforrás/nem készletalapú forgatókönyvekhez
-description: Ez a cikk a Microsoft Dynamics 365 Project Operations 2022. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2022. augusztusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a Microsoft Dynamics 365 Project Operations erőforrás/nem készletalapú forgatókönyvek esetében.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,18 +18,18 @@ ms.locfileid: "9403859"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a cikk a Microsoft Dynamics 365 Project Operations következő összetevőire és verzióira vonatkozik:
+Ez a cikk a következő Microsoft Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
-- Project Operations egy Dataverse környezeti verzióban 4.45.0.53
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.28-as verzió
+- Project Operations 4.45.0.53 verziójú Dataverse-környezetben
+- Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.28-as verziójú környezetekben
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations kettős írású térképeinek frissítése
 
 Ebben a kiadásban nincsenek frissítések a Project Operations kettős írású leképezéseihez. A Project Operations kettős írású leképezései aktuális listájának és verzióinak felsorolását lásd: [Project Operations kettős írás leképezési verziói](../environment/resource-dual-write-maps.md).
 
-Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldás és a Finance megoldás verziójának frissítése közben. Előfordulhat, hogy egyes funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon tekintheti meg. A térkép új verziójának aktiválásához válassza **Táblatérkép verziói** pontot, ott pedig az legújabb verziót válassza ki, majd a kijelölt verziót mentse. Ha testreszabott egy beépített táblázattérképet, alkalmazza újra a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+A Project Operations Dataverse megoldás és a Finance megoldás verziójának frissítése során mindig futtassa a környezetben a leképezés legújabb verzióját, és engedélyezze az összes kapcsolódó táblaleképezést. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a leképezés legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon tekintheti meg. A térkép új verziójának aktiválásához válassza **Táblatérkép verziói** pontot, ott pedig az legújabb verziót válassza ki, majd a kijelölt verziót mentse. Ha testreszabott egy gyári táblaleképezést, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hibaelhárítási útmutató Hiányzó táblaoszlopok probléma a térképeken [című szakaszának utasításait](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
+Ha problémát tapasztal a leképezés elindításával kapcsolatban, kövesse a [Kettős írás hibaelhárítási útmutató térkép szakaszának Hiányzó táblaoszlopok című](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) részében található utasításokat.
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -37,13 +37,13 @@ Ha a térkép indításakor problémába ütközik, kövesse a Kettős írás hi
 
 | Funkcióterület | Hivatkozási szám | Minőségi frissítés |
 | --- | --- | --- |
-|   Lehetőségkezelés | 2762089. | Hibakezelés a szerződés lezárásakor elveszettként, ha az automatikus mentés le van tiltva a szervezetben.|
-|Projekttervezés és nyomon követés | 2767841. | Telemetria frissíti a Projekt entitást létrehozó vagy frissítési forgatókönyveket.|
-|Számlázás és árképzés | 2771072. | Null referencia kivétel kezelése árajánlat nyerése közben.|
-|Számlázás és árképzés | 2844181. |Nem sikerült lekérni a korrelációs azonosítót és blokkolni a számla létrehozását.|
-|Számlázás és árképzés | 2852836. | A vállalatközi tényleges adatok hiányoznak a CE-ben létrehozott és jóváhagyott Vállalatközi költségekhez.|
+|   Lehetőségkezelés | 2762089. | Hibakezelés a szerződés elvesztettként való lezárásakor, ha az automatikus mentés le van tiltva a szervezetben.|
+|Projekttervezés és nyomon követés | 2767841. | Telemetriafrissítések a Projekt entitás Létrehozás és Frissítés forgatókönyveihez.|
+|Számlázás és árképzés | 2771072. | Null referencia kivételkezelés árajánlat megnyerése esetén.|
+|Számlázás és árképzés | 2844181. |Hiba a korrelációs azonosító lekérésében és a számlalétrehozás blokkolásában.|
+|Számlázás és árképzés | 2852836. | A CE-ben létrehozott és vállalati költséghez hiányoznak vállalatközi tényadatok.|
 
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektmenedzsment és számvitel a pénzügyekben
+### <a name="project-management-and-accounting-in-finance"></a>Projektmenedzsment és könyvelés a Finance-ban
 
-A frissítésben található hibajavításokkal kapcsolatos információkért jelentkezzen be a Lifecycle Services (LCS) szolgáltatásba Microsoft Dynamics, és tekintse meg a [tudásbáziscikket](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Ha további tájékoztatást szeretne kapni a frissítésben található hibajavításokról, lépjen be a Microsoft Dynamics Lifecycle Services (LCS) szolgáltatásokba, és tekintse meg a [Tudásbázis cikket](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).

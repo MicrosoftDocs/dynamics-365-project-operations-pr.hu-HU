@@ -1,6 +1,6 @@
 ---
 title: Alvállalkozói lehetőségek projektcsoporttagok számára
-description: Ez a cikk a Microsoft projektcsapat-tagjainak alvállalkozói lehetőségeit ismerteti Dynamics 365 Project Operations.
+description: Ez a cikk a projektcsoporttagokra vonatkozó alvállalkozói lehetőségeket ismerteti a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,53 +17,53 @@ ms.locfileid: "9522281"
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A Microsoftban Dynamics 365 Project Operations kiértékelheti az egy vagy több projektcsapattag számára elérhető alvállalkozói lehetőségeket. A rendelkezésre álló alvállalkozói lehetőségek a következőket teszik lehetővé:
+A Microsoft Dynamics 365 Project Operations alkalmazásban kiértékelheti a projektcsoport egy vagy több tagja számára elérhető alvállalkozói lehetőségeket. Az elérhető alvállalkozói lehetőségek a következőkre biztosítanak lehetőséget Önnek:
 
-- Hozzon létre egy új alvállalkozói szerződést és/vagy hozzon létre új sorokat egy meglévő alvállalkozói szerződéshez a kiválasztott projektcsapat tagjai számára. 
-- Tartalék egy már meglévő alvállalkozói és alvállalkozói vonallal szemben. 
+- Új alvállalkozói szerződés létrehozása és/vagy új sorok létrehozása egy meglévő alvállalkozó szerződések a kijelölt csoporttagokhoz. 
+- Foglalást hozhat létre egy már meglévő alvállalkozó szerződéssel vagy alvállalkozói sorral szemben. 
 
-Választhat az általános projektcsapatok számára elérhető alvállalkozói lehetőségek közül, vagy választhat a projektcsapat azon tagjai közül, akik olyan megnevezett erőforrással rendelkeznek, amely szerződéses dolgozó. 
+Választhat az általános projektcsoporttagokhoz rendelkezésre álló alvállalkozói lehetőségek közül, illetve választhat a projektcsoport olyan tagjai közül, akikhez egy elnevezet erőforrás lett rendelve, aki egy szerződéses dolgozó. 
 
-A következőkre vonatkozóan nem állnak rendelkezésre alvállalkozói lehetőségek:
+Nincsenek elérhető alvállalkozói lehetőségek a következőkhöz:
 
-- A projektcsapat tagjai, akik egy alkalmazottal dolgoztak. 
-- A projektcsapat tagjai, akik már társítva vannak egy alvállalkozói és alvállalkozói vonallal. 
+- Projektcsoport-tagok, akikhez munkavállalói kiosztással rendelkeznek. 
+- Olyan projektcsoporttagok, akik már hozzá vannak rendelve egy alvállalkozói szerződéshez vagy alvállalkozói sorhoz. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>A projektcsapat személyzettel nem rendelkező tagjának alvállalkozásba adása
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Nem személyzeti projektcsoporttag alvállalkozói használata
 
-Egy általános vagy személyzet nélküli projektcsapattag számára elérhető alvállalkozói lehetőségek áttekintéséhez és kiválasztásához kövesse az alábbi lépéseket:
+A projektcsoport általános vagy nem alkalmazott tagjaira vonatkozó alvállalkozói lehetőségek áttekintéséhez és a rendelkezésre álló lehetőségek áttekintéséhez és kiválasztásához hajtsa végre a következő lépéseket:
 
-1. Válasszon ki egy vagy több projektcsapat-tagrekordot, ahol az erőforrás egy általános erőforrás.
-2. Győződjön meg arról, hogy a kiválasztott projektcsapattag-rekordok egyike sem alvállalkozásba van adva. 
-3. Válassza az **Alvállalkozási beállítások lehetőséget** a projektcsapat tagjainak alrácsán. **Megnyílik az Alvállalkozási beállítások** párbeszédpanel. 
-4. Ha csak egy projektcsapat-tagrekordot választott ki az 1. lépésben, akkor a következő lehetőségek lesznek elérhetők:
-    - Hozzon létre új alvállalkozói sorokat. 
-    - Tartalék egy meglévő alvállalkozói szerződés ellen: Ha az 1. lépésben több projektcsapat-tagrekordot választott ki, akkor az egyetlen rendelkezésre álló lehetőség egy új alvállalkozói sorok létrehozása.
-5. A meglévő alvállalkozói sorra való tartalékolási lehetőség lehetővé teszi, hogy kiválasszon egy alvállalkozói és alvállalkozói sort, amely számára tartalékot szeretne képezni. Amikor alvállalkozói sort választ ki a kapacitás lefoglalásához, győződjön meg arról, hogy a kiválasztott alvállalkozói sor időhöz kötött, és hogy a projektcsapat tagjánál szükséges szerepkör megegyezik az alvállalkozói sorban megvásárolt szerepkörrel.
-6. Ha úgy dönt, hogy új alvállalkozói sorokat hoz létre a projektcsapat tagjai számára, a rendszer lehetővé teszi, hogy kiválassza azt az alvállalkozói szerződést, amelyet létre szeretne hozni ezekhez a sorokhoz. Az alvállalkozói szerződésnek, amelyben új sorokat szeretne létrehozni, Vázlat **állapotban kell lennie**. Ezzel a lehetőséggel új alvállalkozói sorokat hozhat létre a kiválasztott projektcsapat tagjai számára, a rendszer egy alvállalkozói sort hoz létre az egyes projektcsapat-tagok számára. A rendszer átmásolja a szerepkört, az órákat és a dátumokat a projektcsapat tagjából az egyes létrehozott alvállalkozói sorokba. 
-7. Ha egy általános csapattag alvállalkozói és alvállalkozói sorhoz van társítva, az **általános csapattag sor Dolgozó típusa** mezője Szerződés-feldolgozóra **·**, az **Alvállalkozói érvényesség** értéke pedig Érvényes **értékre** lesz állítva.
+1. Válasszon ki egy vagy több olyan projektcsoport-tagrekordot, ahol az erőforrás általános erőforrás.
+2. Győződjön meg róla, hogy a kijelölt projektcsoporttag-rekordok egyike sincs még alvállalkozásba adva. 
+3. Válassza ki az **Alvállalkozásba adás beállításai** elemet a projektcsoporttagok részrácsán. Megnyílik az **Alvállalkozásba adás beállításai** párbeszédpanel. 
+4. Ha csak egy projektcsoporttag-rekordot jelölt ki az 1. lépésben, a következő beállítások használhatók:
+    - Új alvállalkozói sorok létrehozása. 
+    - Foglalás meglévő alvállalkozóhoz Ha több projektcsoport-tagrekordot jelölt ki az 1. lépésben, akkor az egyetlen elérhető lehetőség új alvállalkozói sorok létrehozása.
+5. A meglévő alvállalkozósorral vonatkozó foglalási lehetőség lehetővé teszi egy olyan alvállalkozó és alvállalkozósor kiválasztását, amellyel szemben foglalni szeretne Amikor kijelöl egy alvállalkozói sort a kapacitás lefoglalásához, gondoskodnia kell arról, hogy a kijelölt alvállalkozói sor idő legyen, és hogy a projektcsoport tagja által megkövetelt szerepkör megegyezzen az alvállalkozói soron megvásárolt szerepkörrel.
+6. Ha azt választja, hogy új alvállalkozói sorokat hoz létre a projektcsoport tagjai számára, akkor a rendszer lehetővé teszi a sorok létrehozásához használni kívánt alvállalkozói sorok kijelölését. Az új sorok létrehozásához kiválasztott alvállalkozónak **Vázlat** állapotúnak kell lennie. Ezzel a lehetőséggel új alvállalkozósorok létrehozására a kijelölt projektcsoport tagjai számára, a rendszer egy alvállalkozói sort hoz létre időhöz az egyes projektcsoporttagok számára. A szerepkör, az órák és a dátumok az egyes létrehozott alvállalkozói sorának projektcsoporttagjából lesznek másolva. 
+7. Amikor egy általános csoporttaghoz alvállalkozói és alvállalkozói sor van társítva, a program az általános csoporttagsor **Dolgozó típusa** mezőjét a **Szerződéses dolgozó** értékre frissíti, az **Alvállakozó érvényessége** elem **Érvényes** értékre lesz állítva.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>A projektcsapat személyzettel rendelkező tagjának alvállalkozásba adása
+## <a name="subcontracting-a-staffed-project-team-member"></a>Személyzeti projektcsoporttag alvállalkozói használata
 
-Az általános vagy személyzet nélküli csapattagokhoz hasonlóan a személyzettel rendelkező projektcsapattag alvállalkozói lehetőségeit is megtekintheti, ha a személyzettel rendelkező csapattag szerződéses alkalmazott. Ha át szeretné tekinteni és ki szeretne választani egy alkalmazott vagy megnevezett projektcsapattag számára elérhető alvállalkozói lehetőségek közül, kövesse az alábbi lépéseket:
+Az általános és a nem személyzeti csoporttagokhoz hasonlóan az alvállalkozói lehetőségek is megtekinthetők a személyzeti csoporttagokhoz is, amíg a személyzeti csoporttagok szerződéses dolgozók. A projektcsoport személyzeti vagy elnevezett tagjaira vonatkozó alvállalkozói lehetőségek áttekintéséhez és a rendelkezésre álló lehetőségek áttekintéséhez és kiválasztásához hajtsa végre a következő lépéseket:
 
-1. Válasszon ki egy vagy több projektcsapat-tagrekordot, ahol az erőforrás egy megnevezett szerződéses dolgozó.
-2. Győződjön meg arról, hogy a kiválasztott projektcsapattag-rekordok egyike sem alvállalkozásba van adva. 
-3. Válassza az **Alvállalkozási beállítások lehetőséget** a projektcsapat tagjainak alrácsán. **Megnyílik az Alvállalkozási beállítások** párbeszédpanel. 
-4. Ha csak egy projektcsapat-tagrekordot választott ki az 1. lépésben, akkor a következő lehetőségek lesznek elérhetők:
-      - Hozzon létre új alvállalkozói sorokat.
-      - Tartalék meglévő alvállalkozói szerződés ellenében.
-  Ha az 1. lépésben több projektcsapattag-rekordot választott ki, akkor az egyetlen elérhető lehetőség egy új alvállalkozói sorok létrehozása.
-5. A meglévő alvállalkozói sorra való tartalékolási lehetőség lehetővé teszi, hogy kiválasszon egy alvállalkozói és alvállalkozói sort, amely számára tartalékot szeretne képezni. Amikor alvállalkozói sort választ a kapacitás lefoglalásához, győződjön meg a következőkről:
-      - A kiválasztott alvállalkozói sor az időre vonatkozik. 
-      - A projektcsapat tagjánál szükséges szerepkör megegyezik az alvállalkozói vonalon megvásárolt szerepkörrel. 
-      - A szállító, amelyhez a szerződéses dolgozó társítva van, megegyezik az alvállalkozói szerződésben szereplő szállítóval.
-6. Ha úgy dönt, hogy új alvállalkozói sorokat hoz létre a projektcsapat tagjai számára, a rendszer lehetővé teszi, hogy kiválassza azt az alvállalkozói szerződést, amelyet létre szeretne hozni ezekhez a sorokhoz. Ezzel a beállítással meg kell győződnie arról, hogy az a szállító, amelyhez a szerződéses dolgozó tartozik, megegyezik az alvállalkozói szerződés szállítójával. 
-7. Az alvállalkozói szerződésnek, amelyben új sorokat szeretne létrehozni, Vázlat **állapotban kell lennie**. Ezzel a lehetőséggel új alvállalkozói sorokat hozhat létre a kiválasztott projektcsapat tagjai számára, a rendszer egy alvállalkozói sort hoz létre az egyes projektcsapat-tagok számára. A rendszer átmásolja a szerepkört, az órákat és a dátumokat a projektcsapat tagjából az egyes létrehozott alvállalkozói sorokba.  
-8. Ha egy megnevezett csapattag alvállalkozói és alvállalkozói sorhoz van társítva, a **megnevezett csapattag sor Dolgozó típusa** mezője Szerződés-feldolgozóra **·**, az **Alvállalkozói érvényesség** értéke pedig Érvényes **értékre** lesz állítva.
+1. Válasszon ki egy vagy több olyan projektcsoport-tagrekordot, ahol az erőforrás elnevezett szerződéses dolgozó.
+2. Győződjön meg róla, hogy a kijelölt projektcsoporttag-rekordok egyike sincs még alvállalkozásba adva. 
+3. Válassza ki az **Alvállalkozásba adás beállításai** elemet a projektcsoporttagok részrácsán. Megnyílik az **Alvállalkozásba adás beállításai** párbeszédpanel. 
+4. Ha csak egy projektcsoporttag-rekordot jelölt ki az 1. lépésben, a következő beállítások használhatók:
+      - Új alvállalkozói sorok létrehozása.
+      - Foglalás egy meglévő alvállalkozóval szemben.
+  Ha több projektcsoport-tagrekordot jelölt ki az 1. lépésben, akkor az egyetlen elérhető lehetőség új alvállalkozói sorok létrehozása.
+5. A meglévő alvállalkozósorral vonatkozó foglalási lehetőség lehetővé teszi egy olyan alvállalkozó és alvállalkozósor kiválasztását, amellyel szemben foglalni szeretne Amikor kijelöl egy alvállalkozói sort a kapacitás lefoglalása érdekében, a következőket kell biztosítani:
+      - A kijelölt alvállalkozói sor az időhöz tartozik. 
+      - A projektcsoporttaghoz szükséges szerepkör megegyezik az alvállalkozói soron megvásárolt szerepkörrel. 
+      - Az a szállító, akihez a szerződéses dolgozó társítva van, megegyezik az alvállalkozói szerződés szállítójával.
+6. Ha azt választja, hogy új alvállalkozói sorokat hoz létre a projektcsoport tagjai számára, akkor a rendszer lehetővé teszi a sorok létrehozásához használni kívánt alvállalkozói sorok kijelölését. Ennél a beállításnál gondoskodnia kell arról, hogy az alvállalkozó, akihez a szerződéses dolgozó társítva van, megegyezik az alvállalkozói szerződés szállítójával. 
+7. Az új sorok létrehozásához kiválasztott alvállalkozónak **Vázlat** állapotúnak kell lennie. Ezzel a lehetőséggel új alvállalkozósorok létrehozására a kijelölt projektcsoport tagjai számára, a rendszer egy alvállalkozói sort hoz létre időhöz az egyes projektcsoporttagok számára. A szerepkör, az órák és a dátumok az egyes létrehozott alvállalkozói sorának projektcsoporttagjából lesznek másolva.  
+8. Amikor egy elnevezett csoporttaghoz alvállalkozói és alvállalkozói sor van társítva, a program az elnevezett csoporttagsor **Dolgozó típusa** mezőjét a **Szerződéses dolgozó** értékre frissíti, az **Alvállakozó érvényessége** elem **Érvényes** értékre lesz állítva.
 
-## <a name="re-costing-subcontractor-assignments"></a>Alvállalkozói megbízások újraköltségszámítása
+## <a name="re-costing-subcontractor-assignments"></a>Alvállalkozók hozzárendelésének újraköltségezése
 
-Ha egy projektcsapattag (általános vagy elnevezett) alvállalkozói sorokhoz van csatolva az **Alvállalkozói beállítások** párbeszédpanelen, a csapattag feladataihoz rendelt hozzárendelések újraköltséget kapnak az alvállalkozói szerződéshez csatolt beszerzési árlista alapján. **A Projekt részletei** lap Becslések **lapján** válassza az Árak **frissítése gombot az** alvállalkozói szerződésről szóló döntésből eredő frissített árképzés és/vagy költségszámítás megtekintéséhez.
+Amikor egy projektcsoport tagja (általános vagy elnevezett) alvállalkozói sorokhoz kapcsolódik az **Alvállalkozói beállítások** párbeszédpanel segítségével, a csoporttag feladataihoz való hozzárendelések újraköltségezésre kerülnek az alvállalkozóhoz csatolt beszerzési árlista alapján. A **Projekt részletei** lap **Becslések** lapján az **Árak frissítése** gomb segítségével láthatja az alvállalkozásba adási döntésből származó frissített árképzési és/vagy költségszámítási eredményt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

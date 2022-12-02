@@ -1,6 +1,6 @@
 ---
 title: 2021. szeptemberi újdonságok – A Project Operations Lite telepítés
-description: Ez a cikk a Project Operations egyszerűsített telepítésének 2021. szeptemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations lite telepítés 2021. szeptemberi kiadásában elérhető minőségi frissítésekkel kapcsolatban nyújt tájékoztatást.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article

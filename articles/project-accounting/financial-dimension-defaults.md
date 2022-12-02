@@ -1,6 +1,6 @@
 ---
 title: A pénzügyi dimenzió alapértelmezései
-description: Ez a cikk a pénzügyi dimenziók alapértelmezett beállításainak beállításával kapcsolatos információkat tartalmaz.
+description: Ez a cikk a pénzügyi dimenzió alapértelmezéseinek beállításával kapcsolatban tartalmaz tájékoztatást.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 
 
 
-Dynamics 365 Project Operations a Pénzügyi dimenziók [keretrendszert használja Dynamics 365 Finance](/dynamics365/finance/general-ledger/financial-dimensions), hogy további betekintést nyújtson a projekt-analitikus és a főkönyvi tranzakciókba.
+A Dynamics 365 Project Operations a [Pénzügyi dimenziók](/dynamics365/finance/general-ledger/financial-dimensions) keretrendszert használja a Dynamics 365 Finance alkalmazásban, hogy betekintést nyújtson a projektek alkönyvei és a főkönyvek tranzakcióiba.
 
 Az alapértelmezett pénzügyi dimenziókat az ügyfél, a projekt finanszírozása, a mérföldkő, a projekt szerződéssor vagy a projekt szintjén lehet beállítani.
 

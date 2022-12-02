@@ -1,6 +1,6 @@
 ---
 title: Készpénzelőleg
-description: Ez a cikk a készpénzelőlegekről nyújt tájékoztatást.
+description: Ez a cikk a készpénzes előlegekről nyújt információkat.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Költségjelentés elküldése előtt kiválaszthatja a jelentésben a költség
  
  Ha ezek a funkciók engedélyezve vannak:
  
-  - Minden költségsorhoz hozzáadhat egy vagy több készpénzelőleget.
+  - Az egyes költségsorokhoz egy vagy több készpénzelőleget is hozzáadhat.
   - A készpénzelőleg rendelkezésre álló egyenlege valós időben látható a költségjelentés mentésekor. Ez lehetővé teszi a költségtranzakciók feldolgozását és a készpénztranzakció egyidőben való visszaküldését.
   - Az egyes költségtranzakciókhoz több készpénzelőleget is kiválaszthat.
   - A készpénzelőleg egyeztetési adatai lekérdezéssel érhetők el. 

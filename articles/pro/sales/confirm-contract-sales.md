@@ -1,6 +1,6 @@
 ---
 title: Projektszerződés jóváhagyása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan erősíthet meg egy szerződést a Project Operationsben.
+description: Ez a cikk a szerződések Project Operations alkalmazásban való megerősítéséről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

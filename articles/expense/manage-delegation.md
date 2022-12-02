@@ -1,6 +1,6 @@
 ---
 title: Delegálás kezelése
-description: Ez a cikk arról nyújt tájékoztatást, hogy a költségdelegáltak hogyan hozhatnak létre és kezelhetnek költségjelentéseket egy másik alkalmazott számára.
+description: Ez a cikk információkat tartalmaz arról, hogy egy költségdelegált hogyan hozhat létre és kezelhet egy másik alkalmazotthoz tartozó költségjelentéseket.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

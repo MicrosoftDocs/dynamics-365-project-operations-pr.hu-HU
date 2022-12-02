@@ -1,6 +1,6 @@
 ---
 title: Munkalebontási struktúra létrehozása
-description: Ez a cikk bemutatja, hogyan hozhat létre munkalebontási struktúrát (WBS), amely tartalmazza az új ütemezési felület alapvető vezérlőit.
+description: Ez cikk ismerteti, hogyan lehet létrehozni az új ütemezési felületen a munkalebontási struktúrát (WBS) az alapvezérlők számára.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Feladat behúzásához vagy előléptetéséhez hajtsa végre az alábbi lépés
 
 ### <a name="move-tasks-up-and-down"></a>Feladatok felfelé és lefelé mozgatása
 
-A feladatok a munkalebontási struktúra bármely szintjére áthelyezhetők a következő két módszer egyikével:
+A feladatok a munkalebontási struktúra bármely szintjére áthelyezhetők, az alábbi kétféle módon:
 
 - Jelöljön ki még egy feladatot, és húzza őket a kívánt helyre.
 - Jelöljön ki egy vagy több feladatot, kattintson a jobb gombbal, és válassza a **Kivágás** parancsot, jelölje ki az ütemezésben a célcellát, majd kattintson a jobb gombbal a **Beillesztés** parancsra.
@@ -95,11 +95,11 @@ Rendszergazdaként egyéni mezőket definiálhat a feladatentitáson. A mezők a
 
 ## <a name="staffing-attributes"></a>Munkaerő-attribútumok
 
-A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.  Amikor a tevékenységrácsban, a táblanézetben vagy a gantt erőforrás-választójával keres egy erőforrást, a keresés vagy a meglévő projektcsapattagokat, vagy az aktív foglalható erőforrásokat adja vissza.
+A személyzet attribútumai az ütemterv **Erőforrások** mezőjével érhetők el. Vagy keressen meglévő erőforrást, vagy válassza a **Létrehozás** elemet, és a **Gyors létrehozás** ablaktáblában új erőforrásként adja hozzá a projekt egyik csapattagját.  Ha egy erőforrást keres a feladatrács erőforrás-választójában, táblanézetben vagy gantt segítségével, akkor a keresés a projektcsoport meglévő tagjait vagy aktív foglalható erőforrásokat ad eredményül.
 
 A **Szerepkör**, az **Erőforrásbiztosító egység** és a **Pozíció neve** mezők a feladat személyzeti követelményeinek leírására szolgálnak. A személyzeti attribútumokat és a feladatütemezést a rendelkezésre álló erőforrások megkeresésére használják az adott feladat végrehajtásához.
 
-   - **Szerepkör**: Adja meg a feladat elvégzéséhez szükséges erőforrás típusát.,
+   - **Szerepkör**: Adja meg a feladat elvégzéséhez szükséges erőforrás típusát.
    - **Erőforrásbiztosító egység**: Adja meg azt az egységet, ahonnan megtörténik az erőforrások hozzárendelése a feladathoz. Ez az attribútum befolyásolja a feladat költség- és értékesítési becslését, ha az erőforrás költségét és számlamértékét erőforrásbiztosító egységek alapján állítják be.
    - **Pozíció neve**: Adjon meg egy nevet az általános erőforrás számára, hogy a név helyőrzőjeként szolgáljon azon erőforrás számára, amely végül elvégzi majd a munkát.
 
@@ -113,16 +113,16 @@ A Project Operations-ben az ütemezést a feladatok közötti korábbi kapcsolat
 
 A feladat mód nincs hatással a korábbi/függő feladatok kezdő és befejező dátumának frissítéseire.
 
-## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Az időtartam, az erőforrásnaptárak és a projektnaptárak tevékenységekre gyakorolt hatásának ismertetése
-A tevékenység időtartama a tevékenység kezdési dátumának kezdési időpontja és befejezési dátumának befejezési időpontja közötti munkaórák száma.   A webes Project a következőképpen határozza meg az időtartam mértékegységeit:
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Az időtartam, az erőforrás-naptárak, illetve a projektnaptárak feladatokra gyakorolt hatásának ismertetése
+A feladat időtartama a kezdő dátum és a feladat befejezési dátuma közötti munkaórák száma szerint van definiálva.   A Project for the web időtartam mértékegységeit a következőképpen határozza meg:
 
-| **Az időtartam mértéke** | **Mennyiség**|
+| **Időtartam mértéke** | **Mennyiség**|
 |----------------------------------------------------|----------------------|
-| Óra naponta | 8 |
-| Heti órák száma |  40 |
-| Nap havonta |  20 |
+| Napi óraszám | 8 |
+| Heti óraszám |  40 |
+| Napok egy hónapban |  20 |
 
-A nem hozzárendelt tevékenységek ütemezése a projekt naptárával történik. A kezdeti erőforrás-hozzárendeléskor azonban a tevékenység ütemezése frissül, hogy az tiszteletben tartsa az erőforrás naptárát. A hozzárendeléssel rendelkező tevékenységek későbbi módosításait a [projekt ütemezési módja](scheduling-modes.md) szabályozza. Ha többet szeretne tudni a naptárak tevékenységekre gyakorolt hatásáról, olvassa el az Erőforrásnaptárak a webes [Projectben és](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) a [Tevékenységek kezdési időpontjai & Saját projektek!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+A nem hozzárendelt feladatokat a projektnaptárral ütemezi a rendszer. A feladat ütemezése azonban a kezdeti erőforrás-hozzárendeléskor frissül, hogy az figyelembe vegye az erőforrás naptárát. Egy hozzárendeléssel rendelkező feladat későbbi módosításait a projekt [ütemezési módja](scheduling-modes.md) szabályozza. Ha többet szeretne tudni a naptárak feladatokra gyakorolt hatásról, olvassa el az [Erőforrás-naptárak a Project for the Webhez](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) és [Feladatok kezdési ideje és az Ön projektjei](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665) anyagokat.
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kisegítő lehetőségek és billentyűparancsok
@@ -139,7 +139,7 @@ Ha a Project Operations alkalmazásban a munkalebontási struktúrát használja
 | Maximális teljes erőforrás egy projekthez              | 300                  |
 | A linkek maximális száma (csak utód) egy projekthez | 600                  |
 | Maximális teljes egyéni mezők egy projekthez          | 10                   |
-| Ellenőrzőlista-elemek maximális száma feladatonként                   | 20                   |
+| Feladatonkénti maximális ellenőrzőlista-elemek                   | 20                   |
 
 **Feladatkorlátozások**
 

@@ -1,6 +1,6 @@
 ---
 title: Projekt számlázási elmaradásának kezelése
-description: Ez a cikk a projektek számlázási hátralékának kezelésekor elérhető különböző nézetekről nyújt tájékoztatást.
+description: Ez a cikk a projektek számlázási elmaradásának kezelésekor használható különböző nézetekről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

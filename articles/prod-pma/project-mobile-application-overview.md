@@ -1,6 +1,6 @@
 ---
 title: Projek mobilalkalmazásainak áttekintése
-description: Ez a cikk általános információkat nyújt a mobileszközön elérhető Projektidő-bevitel és Saját munkaidő-nyilvántartások/időnyilvántartások projektidőhöz kapcsolódó alkalmazásairól Microsoft Dynamics 365 Project Timesheet.
+description: Ez a cikk általános információkat tartalmaz a projekt időhöz kapcsolódó alkalmazásairól a Microsoft Dynamics 365 Project Timesheet alkalmazáshoz, a Projektidő-beviteli alkalmazáshoz, valamint a Saját időnyilvántartásaim/Időnyilvántartások alkalmazáshoz, amelyek mobilszközön elérhetők.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ A projekt idejéhez kapcsolódó három mobilalkalmazás érhető el, a Microsof
 
 ## <a name="project-timesheet-mobile-app"></a>Projektszintű időnyilvántartás mobilalkalmazás
 
-A Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felhasználók elküldjék és jóváhagyják a projektek munkaidő-nyilvántartásait a mobileszközeiken. Ez a mobilalkalmazás megjeleníti a munkaidő-nyilvántartási funkciókat a Dynamics 365 Finance Projektvezetési és könyvelési területén. Segít a felhasználók termelékenységének és hatékonyságának növelésében, valamint segítséget nyújt a munkaidő-nyilvántartások időben történő bevitelében és jóváhagyásában is.
+A Dynamics 365 Project Timesheet mobilalkalmazás lehetővé teszi, hogy a felhasználók elküldjék és jóváhagyják a projektek munkaidő-nyilvántartásait a mobileszközeiken. Ez a mobilalkalmazás megjeleníti a munkaidő-nyilvántartási funkciót a Dynamics 365 Finance Projektmenedzsment és könyvelés területén. Segít a felhasználók termelékenységének és hatékonyságának növelésében, valamint segítséget nyújt a munkaidő-nyilvántartások időben történő bevitelében és jóváhagyásában is.
 
 ## <a name="project-time-entry-workspace"></a>Projektidő-beviteli munkaterület
 
-A Projektidő-beviteli munkaterület lehetővé teszi, hogy a felhasználók időt adjanak meg és mentsenek a projekthez. Nem engedi azonban, hogy a felhasználók projekthez tartozó munkaidő-nyilvántartásokat küldjenek el vagy hagyjanak jóvá. Csak időbevitelre használható. Ezt a mobil munkaterületet a finance and operations mobilalkalmazással együtt kell használni.
+A Projektidő-beviteli munkaterület lehetővé teszi, hogy a felhasználók időt adjanak meg és mentsenek a projekthez. Nem engedi azonban, hogy a felhasználók projekthez tartozó munkaidő-nyilvántartásokat küldjenek el vagy hagyjanak jóvá. Csak időbevitelre használható. A mobil munkaterületet a pénzügyi és műveleti mobilalkalmazással együtt való használatra tervezték.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Saját időnyilvántartásaim/Időnyilvántartások áttekintésre
 
-A Saját időnyilvántartásaim (mobilra optimalizált) és az Időnyilvántartások áttekintésre (mobilra optimalizált) egy olyan megoldást alkotnak, amelyekkel mobileszközön hozhatnak létre, küldhetnek el és hagyhatnak jóvá projektekhez tartozó munkaidő-nyilvántartásokat. A dolgozók az alkalmazás URL-címén keresztül érhetik el a Finance funkciót. Ehhez a megoldáshoz nincs szükség a finance and operations mobilalkalmazásra.
+A Saját időnyilvántartásaim (mobilra optimalizált) és az Időnyilvántartások áttekintésre (mobilra optimalizált) egy olyan megoldást alkotnak, amelyekkel mobileszközön hozhatnak létre, küldhetnek el és hagyhatnak jóvá projektekhez tartozó munkaidő-nyilvántartásokat. A dolgozók az alkalmazás URL-címén keresztül érhetik el a Finance funkciót. Ez a megoldáshoz nincs szükség a pénzügyi és műveleti mobilalkalmazásra.
 
 ## <a name="for-more-information"></a>További információkért
 

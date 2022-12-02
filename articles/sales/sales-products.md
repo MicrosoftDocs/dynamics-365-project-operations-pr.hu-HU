@@ -1,6 +1,6 @@
 ---
 title: Termékek
-description: Ez a cikk a termékkatalógusról nyújt tájékoztatást, amellyel információkat nyújthat az ügyfeleknek a szervezet által kínált termékekről és árakról.
+description: Ez a cikk az ügyfeleknek a termékekről és a szervezet árképzéséről információkat biztosító termékkatalógusra vonatkozó információkat tartalmaz.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

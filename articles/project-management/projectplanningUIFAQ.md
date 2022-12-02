@@ -1,6 +1,6 @@
 ---
 title: A Feladat rácson való munka hibaelhárítása
-description: Ez a cikk a Feladatrácsban való munkavégzéshez szükséges hibaelhárítási információkat tartalmazza.
+description: Ez a cikk a Feladat rácson való munkavégzéshez szükséges hibaelhárítási információkat írja le.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188234"
 
 _**A következőre érvényes:** Project Operations erőforrás / nem készletezett alapú forgatókönyvek, Lite telepítése – üzlet a proforma számlázáshoz, Project for the Web_
 
-Az által Dynamics 365 Project Operations használt feladatrács egy üzemeltetett iframe a Microsoft Dataverse. A használat eredményeként bizonyos követelményeknek kell teljesülniük a hitelesítés biztosításához, és az engedélyezés megfelelően működik. Ez a cikk azokat a gyakori problémákat ismerteti, amelyek befolyásolhatják a rács renderelésének vagy a feladatok kezelésének képességét a munkalebontási struktúrában (WBS).
+A Dynamics 365 Project Operations által használt feladatrács egy hosztolt iframe a Microsoft Dataverse-en belül. Ennek következtében a hitelesítés és az engedélyezés megfelelő működésének biztosításához specifikus követelményeknek kell teljesülniük. Ez a cikk ismerteti a gyakori problémákat, amelyek hatással lehetnek a rács megjelenítésének képességére vagy a feladatok kezelésére a munkalebontási struktúrában (WBS).
 
 A gyakori problémák a következők:
 
@@ -32,7 +32,7 @@ A gyakori problémák a következők:
 
 ### <a name="mitigation-1-enable-cookies"></a>1. megoldás: Cookie-k engedélyezése
 
-A Project Operations alkalmazáshoz engedélyezni kell a külső cookie-k használatát a munkalebontási struktúra megjelenítéséhez. Ha a harmadik féltől származó cookie-k nincsenek engedélyezve, a feladatok megtekintése helyett egy üres lap jelenik meg, amikor kiválasztja a **Feladatok** lapot a **Projekt** oldalon.
+A Project Operations alkalmazáshoz engedélyezni kell a külső cookie-k használatát a munkalebontási struktúra megjelenítéséhez. Ha a külső gyártótól származó cookie-k nincsenek engedélyezve, a feladatok megjelenítése helyett egy üres oldal jelenik meg, amikor a **Projekt** lapon kijelöli a **Feladatok** fület.
 
 A következő eljárások ismertetik, hogyan lehet frissíteni a böngésző beállítását a külső cookie-k engedélyezéséhez – Microsoft Edge vagy Google Chrome böngészőknél.
 
@@ -57,7 +57,7 @@ A következő eljárások ismertetik, hogyan lehet frissíteni a böngésző be�
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>2. megoldás: Annak ellenőrzése, hogy a PEX-végpont helyesen van-e konfigurálva
 
-A Project Operations szolgáltatáshoz szükséges, hogy a projektparaméter a PEX végpontra hivatkozzon. A végpont szükséges a kommunikációhoz azzal a szolgáltatással, amely a munkalebontási struktúra megjelenítéséhez használatos. Ha a paraméter nincs engedélyezve, a következő hibaüzenet jelenik meg: "A projektparaméter érvénytelen". A PEX-végpont frissítéséhez kövesse az alábbi lépéseket.
+A Project Operations szolgáltatáshoz szükséges, hogy a projektparaméter a PEX végpontra hivatkozzon. A végpont szükséges a kommunikációhoz azzal a szolgáltatással, amely a munkalebontási struktúra megjelenítéséhez használatos. Ha a paraméter nincs engedélyezve, a következő hibaüzenet jelenik meg: „A projektparaméter érvénytelen”. A PEX-végpont frissítéséhez kövesse az alábbi lépéseket.
 
 1. Adja hozzá a **PEX végpont** mezőt a **Projektparaméterek** laphoz.
 2. Azonosítsa a használt terméktípust. Ez az érték a PEX-végpont beállítása során van használva. A lekéréskor a terméktípus már definiálva van a PEX-végpontban. Tartsa meg ezt az értéket.
@@ -71,15 +71,15 @@ A Project Operations szolgáltatáshoz szükséges, hogy a projektparaméter a P
 
 4. Távolítsa el a mezőt a **Projektparaméterek** oldalról.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. megoldás: jelentkezzen be project.microsoft.com
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. kockázatcsökkentés: Jelentkezzen be a flow.microsoft.com webhelyen
 
-A böngészőben nyisson meg egy új lapot, lépjen a project.microsoft.com, és jelentkezzen be azzal a felhasználói szerepkörrel, amelyet a Project Operations eléréséhez használ. Fontos, hogy csak egy felhasználó legyen bejelentkezve egy Microsoft-termékbe a böngészőben. A "login.microsoftonline.com megtagadták a csatlakozást" hibaüzenet leggyakrabban akkor fordul elő, ha egynél több felhasználó van bejelentkezve, amint az az alábbi ábrán látható.
+Nyisson meg egy új lapot a böngészőben, látogasson el project.microsoft.com weboldalra, és a Project Operations eléréséhez használt felhasználói szerepkör segítségével jelentkezzen be. Fontos, hogy a böngészőben csak egy felhasználó legyen bejelentkezve egy Microsoft-termékbe. A „login.microsoftonline.com elutasította a kapcsolatot” hibaüzenet általában akkor jelenik meg, ha több felhasználó van bejelentkezve, amint az a alábbi ábrán látható.
 
-![Válasszon ki egy fiókbejelentkezési oldalt, amely azt mutatja, hogy két felhasználó be van jelentkezve.](media/MULTIPLE_USERS_LOGGED_IN.png)
+![Válasszon egy fiókbejelentkezési lapot, amely azt mutatja, hogy két felhasználó van bejelentkezve.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Probléma: Nem töltődik be a projekt, és a felhasználói felület elakad a betöltésjelzőnél
 
-A hitelesítés céljából engedélyezni kell az előugró ablakokat a Feladat rács betöltéséhez. Ha az előugró ablakok nincsenek engedélyezve, a képernyő elakad a betöltésjelzőnél. Az alábbi ábra egy letiltott előugró címkével ellátott URL-t mutat a címsorban, ami azt eredményezi, hogy a pörgettyű elakad, és megpróbálja betölteni az oldalt. 
+A hitelesítés céljából engedélyezni kell az előugró ablakokat a Feladat rács betöltéséhez. Ha az előugró ablakok nincsenek engedélyezve, a képernyő elakad a betöltésjelzőnél. Az alábbi ábra egy URL-címet mutat letiltott előugró ablak jelölőjével a címsorban, ennek következtében a betöltésjelző beakad miközben megpróbálja betölteni az oldalt. 
 
    ![Elakadt betöltésjelző és előugró ablakok blokkolása.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Másik lehetőségként elvégezheti a következő lépéseket.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>3. probléma: A Project for the Web jogosultságok felügyelete
 
-A Project Operations egy külső ütemezési szolgáltatásra támaszkodik. A szolgáltatás megköveteli, hogy a felhasználó több szerepkörrel legyen hozzárendelve, amelyek lehetővé teszik számukra, hogy a munkalebontási struktúrához kapcsolódó entitásokhoz olvassanak és írjanak. Ezekhez az entitásokhoz kapcsolódnak projektfeladatok, erőforrás-hozzárendelések és feladatfüggőségek. Ha egy felhasználó nem tudja megjeleníteni a munkalebontási struktúrát, amikor a Feladatok **lapra navigál, annak valószínűleg az az oka**, hogy a **Project** for **Project Operations** nincs engedélyezve. A felhasználónak egy biztonsági szerepkör hibát vagy egy hozzáférésmegtagadási hibát kell kapnia.
+A Project Operations egy külső ütemezési szolgáltatásra támaszkodik. A szolgáltatáshoz szükséges, hogy egy felhasználóhoz több szerepkör legyen hozzárendelve, így a felhasználók a WBS szolgáltatáshoz kapcsolódó entitásokat írhatják és olvashatják. Ezekhez az entitásokhoz kapcsolódnak projektfeladatok, erőforrás-hozzárendelések és feladatfüggőségek. Ha egy felhasználó nem tudja megjeleníteni a WBS-et a **Feladatok** lapra való navigáláskor, ennek oka valószínűleg az, hogy a **Projekt** a **Project Operations** alkalmazáshoz nincs engedélyezve. A felhasználónak egy biztonsági szerepkör hibát vagy egy hozzáférésmegtagadási hibát kell kapnia.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>1. megoldás: Az alkalmazás felhasználója és a végfelhasználó biztonsági szerepkörök ellenőrzése
 

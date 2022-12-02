@@ -1,6 +1,6 @@
 ---
 title: Projektidő-beviteli mobil munkaterület
-description: Ez a cikk a Projekt időbevitel mobil munkaterületéről nyújt tájékoztatást. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
+description: Ez a cikk a Projektidő-beviteli mobil munkaterület használatáról nyújt információkat. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029671"
 
 [!include [banner](../includes/banner.md)]
 
-Ez a cikk a **Projekt időbevitel** mobil munkaterületéről nyújt tájékoztatást. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
+Ez a cikk a **Projektidő-beviteli** mobil munkaterület használatáról nyújt információkat. Ez a munkaterület lehetővé teszi, hogy a felhasználók a mobileszköz segítségével időt adjanak meg és mentsenek a projekthez.
 
 Ez a mobil munkaterület a Dynamics 365 Unified Ops mobilalkalmazással való használatra készült. 
 
@@ -44,7 +44,7 @@ A **Projektidő-beviteli** mobil munkaterületen a felhasználók konkrétan a k
 ## <a name="prerequisites"></a>Előfeltételek
 Az előfeltételek eltérnek a szervezetnél telepített Microsoft Dynamics 365 verziójától függően.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek, ha Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Előfeltételek a Dynamics 365 Finance használata esetén
 Ha a szervezetnél Finance van telepítve, a rendszergazdának közzé kell tennie a **Projektidő-beviteli** mobil munkaterületet. További információk: [Mobil munkaterület közzététele](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Előfeltételek, ha az 1611-es verziót használja a 3. vagy újabb platformfrissítéssel
@@ -82,7 +82,7 @@ Ha a z 1611-es verzió van telepítve a szervezeténél a 3. vagy újabb platfor
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilalkalmazás letöltése és telepítése
 
-Töltse le és telepítse a finance and operations mobilalkalmazást:
+Töltse le és telepítse a pénzügyi és műveleti mobilalkalmazást:
 
 -   [Android rendszerű telefonokhoz](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone-okhoz](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2020. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a cikk a Project Operations 2020. novemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. novemberi kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -20,7 +20,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a CDS-környezet 4.4.0.70 verzióján
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.14-es verzió
+- Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.14-as verziójú környezetekben
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Project Operations erőforrás-/nem készletalapú forgatókönyvek frissítései
 
@@ -42,7 +42,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Idő- és gyors költségbejegyzések | 2059859.          | A költségbejegyzés létrehozásakor váratlan előugró ablak nyílik meg.                                                                                                                         |
 | Egyéb                        | 2044181.          | (A beszerzési rendelés eltávolítása) Amikor megpróbálja eltávolítani a msdyn_ProjectServiceCore_Patch és a msdyn a Project Service központi megoldásait, a következő hibaüzenet jelenik meg: "a rekord nem érhető el".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | Funkcióterület        | Hivatkozási szám | Minőségi frissítés                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Projekt könyvelése  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | A Több szerződéssor funkció engedélyezése a CDS-integráció nélkül nem lehetséges.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Szabályozási frissítések
-További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A pénzügyi és műveleti alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

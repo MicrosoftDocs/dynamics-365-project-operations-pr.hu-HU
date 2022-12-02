@@ -1,6 +1,6 @@
 ---
 title: Vállalatközi költségek
-description: Ez a cikk arról nyújt tájékoztatást, hogyan használhatók vállalatközi költségek a dolgozó költségeinek hozzárendelésére ahhoz a jogi személyhez, amelynek a munkáját elvégezték.
+description: Ez a cikk tájékoztatást nyújt arról, hogyan lehet a vállalatközi kiadások használatával a dolgozók kiadásait ahhoz a jogi entitáshoz hozzárendelni, amelynél a munkát végrehajtották.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

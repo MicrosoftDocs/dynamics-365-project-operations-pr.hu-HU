@@ -1,6 +1,6 @@
 ---
 title: Szállítói visszatartás beállítása
-description: Ez a cikk a szállítói megtartás beállítását ismerteti.
+description: Ez a cikk ismerteti a szállítói visszatartás beállítását.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929769"
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-Ez a cikk a szállítói megtartás beállításával kapcsolatos információkat tartalmaz.
+Ez a cikk a szállítói visszatartás beállításával kapcsolatosan nyújt tájékoztatást.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>A szállítói visszatartási számla beállítása a főkönyvben
 
-1. A Dynamics 365 Finance lépjen a **Főkönyvi** > **feladás beállítása** > **fiókok automatikus tranzakciókhoz elemre**.
+1. A Dynamics 365 Finance alkalmazásban menjen a **Főkönyv** > **Feladás beállítása** > **Számlák az automatikus tranzakciókhoz** menübe.
 2. Adjon hozzá egy új sort.
 3. A **Feladás típusa** mezőben válassza a **Szállítói visszatartás** elemet.
 4. Válassza ki a szállító visszatartás feladásához a fő számlát.

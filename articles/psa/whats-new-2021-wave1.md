@@ -1,6 +1,6 @@
 ---
 title: Újdonságok és változások a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában
-description: Ez a cikk a Project Service Automation Early Access Wave 2021, V3-ban elérhető szolgáltatásokat és javításokat sorolja fel.
+description: Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek elérhetőek a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -31,7 +31,7 @@ ms.locfileid: "8930735"
 
 Örömmel jelentjük be a Project Service Automation alkalmazásának legújabb frissítését a Dynamics 365-höz. Ez a kiadás a minőséggel, a teljesítménnyel és a használhatósággal kapcsolatos fontos javításokat tartalmaz. Ez a kiadás a Dynamics 365 9.x verzióval kompatibilis. A frissítéshez erre a kiadásra látogasson el a Dynamics 365 online Felügyeleti központjába, és a frissítés telepítéséhez menjen a megoldások oldalra. További információ: [Megoldás telepítése, frissítése vagy eltávolítása](/power-platform/admin/install-remove-preferred-solution).
 
-Ez a cikk a Project Service Automation V3 korai hozzáférésű 1. hulláma 2021-es korai hozzáférésű programjának új vagy módosított funkcióit és javításait sorolja fel. Ennek a verziónak a build száma V3.10.49.3, és általánosan elérhető egy önálló frissítésben 2021 februárjában.
+Ez a cikk felsorolja azokat a funkciókat és javításokat, amelyek újak vagy megváltoztak a Project Service Automation korai hozzáférésének 2021. évi 1. hullámában, V3 változatában. Ennek a verziónak a build száma V3.10.49.3, és általánosan elérhető egy önálló frissítésben 2021 februárjában.
 
 
 ### <a name="bug-fixes"></a>Hibajavítások

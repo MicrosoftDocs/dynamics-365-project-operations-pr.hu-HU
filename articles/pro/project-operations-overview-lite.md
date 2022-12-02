@@ -1,6 +1,6 @@
 ---
 title: Egyszerű központi telepítés áttekintése
-description: Ez a cikk a Lite üzembe helyezéséről nyújt tájékoztatást Dynamics 365 Project Operations.
+description: Ez a cikk a Dynamics 365 Project Operations Lite telepítésével kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

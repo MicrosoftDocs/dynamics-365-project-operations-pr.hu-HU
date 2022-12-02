@@ -1,6 +1,6 @@
 ---
 title: Projektfázisok
-description: Ez a cikk a Project Operationsben Microsoft Dynamics elérhető projektszakaszokról nyújt tájékoztatást.
+description: Ez a cikk a Microsoft Dynamics Project Operations projektszakaszairól nyújt információt.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Ha egy projektet árajánlattal társít, vagy amikor projektet árajánlatból 
 
 ## <a name="plan"></a>Terv
 
-Ha nyer egy projekthez társított ajánlatot, és a projektet a **Szerződés** szakaszba váltják, a projekt szakasza **Terv**-re frissül. Amíg a projekt a **Terv** szakaszban van, a **Projektentitás** oldal Értékesítés **lapja** a szerződés részleteit jeleníti meg.
+Ha nyer egy projekthez társított ajánlatot, és a projektet a **Szerződés** szakaszba váltják, a projekt szakasza **Terv**-re frissül. Amíg a projekt **Tervezet** szakaszban van, az **Értékesítés** lap a **Projektentitás** oldalon a szerződés részleteit mutatja.
 
 ## <a name="deliver"></a>Kiszállítás
 

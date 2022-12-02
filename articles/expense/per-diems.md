@@ -1,6 +1,6 @@
 ---
 title: Napidíjak
-description: Ez a cikk a költségkezelésben használt napidíj-szabályokról nyújt tájékoztatást.
+description: Ez a cikk a költségkezelésben használt napidíjszabályokról nyújt tájékoztatást.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

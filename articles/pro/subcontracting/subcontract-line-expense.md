@@ -1,6 +1,6 @@
 ---
 title: Költségkategóriák alvállalkozói szerződéssorai
-description: Ez a cikk azt ismerteti, hogyan rögzíthet alvállalkozói sorokat a költségekhez, és hogyan használhatja a mezőket a szállítóktól való idővásárlás rögzítésére.
+description: Ez a cikk elmagyarázza, hogyan rögzítheti az alvállalkozói szerződés sorokat a költségekre, és hogyan használhatja a mezőket a szállítóktól történő idővásárlás rögzítésére.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

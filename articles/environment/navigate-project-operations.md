@@ -1,6 +1,6 @@
 ---
 title: A Project Operations navigálása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan férhet hozzá a Project Operationshez a Lifecycle Services szolgáltatásból.
+description: Ez a cikk információt nyújt a Project Operations elérésére a Lifecycle Services szolgáltatásból.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 A Dynamics 365 Project Operations az erőforrás/nem készletalapú forgatókönyvekhez a következő két összetevőből áll: 
 
  - A **Project Operations a Common Data Service (CDS) környezetben**: Ez az összetevő lefedi a lehetőségtől a proforma számlázásig vonatkozó lehetőségeket és folyamatokat. 
- - **Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben**: Ez a komponens a költségkezelési képességeket, a projekt könyvelését és a bevétel elszámolását fedi le. 
+ - **A projektmenedzsment és könyvelés a Dynamics 365 Finance környezetben**: Ez az összetevő magában foglalja a költségkezelési lehetőségeket, a projektek könyvelését és az árbevétel-elszámolást. 
 
-Miután kiépítette a Project Operationst a cikkben leírtak szerint, a Lifecycle Services (LCS) **Environment részletes** oldala egyszerű hozzáférést biztosít a Project Operations mindkét összetevőjéhez.  
+A Project Operations jelen cikkben leírt kiépítése után a Lifecycle Services (LCS) **Környezet részletei** oldalán egyszerűen elérheti a Project Operations mindkét összetevőjét.  
 
 A **Common Data Service környezet neve** szakaszban található környezetnévvel navigáljon a Project Operationsba a CDS-környezeten. 
 

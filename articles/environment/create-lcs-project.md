@@ -1,6 +1,6 @@
 ---
 title: Új LCS-projekt indítása
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre új projektet az LCS-ben a Project Operations-környezethez.
+description: Ez a cikk az új LCS-projektek Project Operations-környezet esetében történő létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ A Dynamics 365 Project Operations-környezetek kezeléséhez használja a Lifecy
   ![LCS-projekttípus kiválasztása.](./media/create-lcs-1.png)
 
 5. Nevezze el a projektet. 
-6. Terméknévként válassza a Finance and operations **lehetőséget**, majd válassza ki az iparágat és a módszertant. 
+6. Válassza ki a **Pénzügyi és Műveleti alkalmazások** elemet terméknévként, és válassza ki az iparágat és a módszertant. 
 7. Válassza a **Létrehozás** parancsot.
 
 ![Projekt létrehozása.](./media/create-lcs-2.png)

@@ -1,6 +1,6 @@
 ---
 title: Bemutató adatok alkalmazása a Finance felhőben szolgáltatott környezetbe
-description: Ez a cikk azt ismerteti, hogyan alkalmazhat bemutató adatokat a Project Operationsből egy Dynamics 365 Finance felhőben üzemeltetett környezetre.
+description: Ez a cikk ismerteti, hogyan lehet alkalmazni a Project Operations bemutató adatait a Dynamics 365 Finance felhőben szolgáltatott környezetre.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029900"
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 > [!IMPORTANT]
-> Ez a cikk csak a 365 Finance 10.0.13-as verziójára vonatkozik Microsoft Dynamics, és csak felhőben üzemeltetett környezetben hajtható végre. Kövesse a cikkben **található lépéseket, MIELŐTT** minőségi frissítéseket alkalmazna a környezetben.
+> Ez a cikk csak a Microsoft Microsoft Dynamics 365 Finance 10.0.13-as verziója esetében alkalmazható, és csak felhőben üzemeltetett környezeten hajtható végre. A minőségi frissítések környezetbe való alkalmazása **ELŐTT** hajtsa végre a cikk lépéseit.
 
 1. Az LCS-projektben nyissa meg a **Környezet részletei** oldalt. Figyelje meg, hogy tartalmazza a környezethez a távoli asztali protokoll (RDP) használatával való kapcsolódáshoz szükséges adatokat.
 
@@ -76,7 +76,7 @@ Ez pár percet is igénybe vehet. Kapnia egy megerősítő üzenetet, hogy a ren
 
 18. Zárja be a távoli asztali munkamenetet, és az LCS **Környezet részletei** oldal használatával lépjen be a környezetbe, és ellenőrizze, hogy az a várt módon működik.
 
-![Pénzügyek és műveletek.](./media/10FinanceAndOperations.png)
+![Pénzügyi és műveleti alkalmazások.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

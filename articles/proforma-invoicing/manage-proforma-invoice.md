@@ -1,6 +1,6 @@
 ---
 title: Projektalapú proforma számla kezelése
-description: Ez a cikk a proforma projektalapú számlák kezeléséről és használatáról nyújt tájékoztatást.
+description: Ez a cikk a proforma projektalapú számlák kezeléséről használatáról nyújt információt.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

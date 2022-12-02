@@ -1,6 +1,6 @@
 ---
 title: Projektárajánlat megerősítése, frissítése és küldése
-description: Ez a cikk arról nyújt tájékoztatást, hogyan küldhet árajánlatot az ügyfélnek megerősítésre, módosíthatja a visszajelzések alapján, majd újraküldheti az árajánlatot.
+description: Ez a cikk információkat nyújt arról, hogyan küldhet el egy árajánlatot az ügyfélnek megerősítésre, módosíthatja azt a visszajelzések alapján, majd hogyan küldheti újra az árajánlatot.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

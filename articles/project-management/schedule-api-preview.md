@@ -1,6 +1,6 @@
 ---
 title: Projektütemezés API-k használata műveletek végrehajtásához az Ütemező entitásokkal
-description: Ez a cikk információkat és mintákat tartalmaz a Project ütemezési API-k használatához.
+description: Ez cikk tájékoztatást és példákat tartalmaz a Projektütemezési API-k használatával kapcsolatban.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Az alábbi táblázat a Projektütemezési entitások teljes listáját tartalma
 | Projektcsoporttag     | msdyn_projectteam           |
 | Projekt-ellenőrzőlisták      | msdyn_projectchecklist      |
 | Projektcímke           | msdyn_projectlabel          |
-| A címkézendő projektfeladat   | msdyn_projecttasktolabel    |
+| Projektfeladat címkéhez   | msdyn_projecttasktolabel    |
 | Projektfutam          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,16 +45,16 @@ Az OperationSet egy munkaegység-minta, amely akkor használható, ha egy tranza
 
 A következő lista az aktuális Projektütemezési API-kat sorolja fel.
 
-| **Api**                                 | Description                                                                                                                       |
+| **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Ez az API egy projekt létrehozására szolgál. A projekt és az alapértelmezett projektvödör azonnal létrejön.                         |
-| **msdyn_CreateTeamMemberV1**            | Ez az API egy projektcsapat-tag létrehozására szolgál. A csoporttag-rekord azonnal létrejön.                                  |
-| **msdyn_CreateOperationSetV1**          | Ez az API több olyan kérés ütemezésére szolgál, amelyeket egy tranzakción belül kell végrehajtani.                                        |
+| **msdyn_CreateProjectV1**               | Ez az API egy projekt létrehozására szolgál. A projekt és az alapértelmezett projektgyűjtő azonnal létrejön.                         |
+| **msdyn_CreateTeamMemberV1**            | Ez az API egy projektcsoporttag létrehozására szolgál. A csoporttag-rekord azonnal létrejön.                                  |
+| **msdyn_CreateOperationSetV1**          | Ez az API több olyan kérés ütemezésére használható, amelyeket egy tranzakción belül kell végrehajtani.                                        |
 | **msdyn_PssCreateV1**                   | Ez az API egy entitás létrehozására szolgál. Az entitás a létrehozási műveletet támogató bármely Projektütemezési entitás lehet. |
-| **msdyn_PssUpdateV1**                   | Ez az API egy entitás frissítésére szolgál. Az entitás lehet a frissítési műveletet támogató Projektütemezés-entitások bármelyike  |
+| **msdyn_PssUpdateV1**                   | Ez az API egy entitás frissítésére szolgál. Az entitás a frissítés műveletet támogató bármely Projektütemezési entitás lehet  |
 | **msdyn_PssDeleteV1**                   | Ez az API egy entitás törlésére szolgál. Az entitás a törlés műveletet támogató bármely Projektütemezési entitás lehet. |
-| **msdyn_ExecuteOperationSetV1**         | Ez az API az adott műveletkészleten belüli összes művelet végrehajtására szolgál.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Ez az API az erőforrás-hozzárendelés tervezett munkaeloszlásának frissítésére szolgál.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | Ez az API az adott művelethalmazon belüli összes művelet végrehajtására használható.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Az API egy erőforrás-hozzárendelés munkakontúrjának frissítésére használható.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Mivel a **CreateProjectV1** és a **CreateTeamMemberV1** rekordok azonnal létre
 
 | **Ütemezési entitás**   | **Létrehozás** | **Frissítés** | **Delete** | **Fontos tényezők**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projektfeladat            | Igen        | Igen        | Igen        | A **Folyamat,** **a Befejezett munkamennyiség** és **a Munkaigénylés** mezők szerkeszthetők a Webes Projektben, de a Project Operationsben nem szerkeszthetők.                                                                                                                                                                                             |
-| Projektfeladat függősége | Igen        | No         | Igen        | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és létrehozható egy új rekord.                                                                                                                                                                                                                                 |
-| Erőforrás-hozzárendelés     | Igen        | Igen\*      | Igen        | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és létrehozható egy új rekord. Külön API-t biztosítottunk az erőforrás-hozzárendelési eloszlások frissítéséhez. |
-| Projektgyűjtő          | Igen        | Igen        | Igen        | Az alapértelmezett gyűjtő a **CreateProjectV1** API használatával jön létre. A projektgyűjtők létrehozásának és törlésének támogatása a 16-os frissítésben lett hozzáadva.                                                                                                                                                                                                   |
+| Projektfeladat            | Igen        | Igen        | Igen        | A **Progress**, az **EffortCompleted** és a **EffortRemaining** mezők szerkeszthetők a Project for the Web alkalmazásban, de Project Operations alkalmazásban nem.                                                                                                                                                                                             |
+| Projektfeladat függősége | Igen        | No         | Igen        | A projektfeladat függőségi rekordok nem frissülnek. Ehelyett egy régi rekord törölhető, és új rekord is létrehozható.                                                                                                                                                                                                                                 |
+| Erőforrás-hozzárendelés     | Igen        | Igen\*      | Igen        | A következő mezőkkel végzett műveletek nem támogatottak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** és **PlannedWork**. Az erőforrás-hozzárendelési rekordok nem frissülnek. Ehelyett a régi rekord törölhető, és új rekord is létrehozható. Külön API-t biztosítottunk az Erőforráshozzárendelési-kontúrok frissítéséhez. |
+| Projektgyűjtő          | Igen        | Igen        | Igen        | Az alapértelmezett gyűjtő létrehozása a **CreateProjectV1** API használatával jön létre. A projektgyűjtők létrehozásának és törlésének támogatása a 16. kiadású frissítésben lett hozzáadva.                                                                                                                                                                                                   |
 | A projekt csapattagja     | Igen        | Igen        | Igen        | A létrehozáshoz használja a **CreateTeamMemberV1** API-t.                                                                                                                                                                                                                                                                                           |
 | Project                 | Igen        | Igen        |            | A következő mezőkkel végzett műveletek nem támogatottak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, és **Duration**.                                                                                       |
 | Projekt-ellenőrzőlisták      | Igen        | Igen        | Igen        |                                                                                                                                                                                                                                                                                                                                                         |
-| Projektcímke           | No         | Igen        | No         | A címkenevek módosíthatók. Ez a szolgáltatás csak a Webes Projecthez bővítményhez érhető el                                                                                                                                                                                                                                                                      |
-| A címkézendő projektfeladat   | Igen        | No         | Igen        | Ez a szolgáltatás csak a Webes Projecthez bővítményhez érhető el                                                                                                                                                                                                                                                                                                  |
-| Projektfutam          | Igen        | Igen        | Igen        | A **Kezdés** mező dátumának korábbinak kell lennie, mint a **Befejezés** mezőnek. Ugyanazon projekt sprintjei nem lehetnek átfedésben egymással. Ez a szolgáltatás csak a Webes Projecthez bővítményhez érhető el                                                                                                                                                                    |
+| Projektcímke           | No         | Igen        | No         | A címkenevek módosíthatók. Ez a funkció csak a Project for the Web alkalmazásban érhető el                                                                                                                                                                                                                                                                      |
+| Projektfeladat címkéhez   | Igen        | No         | Igen        | Ez a funkció csak a Project for the Web alkalmazásban érhető el                                                                                                                                                                                                                                                                                                  |
+| Projektfutam          | Igen        | Igen        | Igen        | A **Kezdés** mezőnek korábbi dátuma kell legyen, mint a **Befejezés** mezőnek. Egy projekthez tartozó sprintek nem lehetnek átfedésben egymással. Ez a funkció csak a Project for the Web alkalmazásban érhető el                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Ez az azonosító-tulajdonság nem kötelező. Ha rendelkezésre áll, a rendsze
 
 Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
--   A Projektütemezés API-kat csak a Microsoft Project licenccel **rendelkező felhasználók használhatják**. Nem használhatják:
+-   A Projektütemezési API-kat csak **Microsoft Project licensszel rendelkező felhasználók használhatjak**. Nem használhatják:
     -   Alkalmazásfelhasználók
     -   Rendszerfelhasználók
     -   Integrációs felhasználók
@@ -94,12 +94,12 @@ Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 -   Minden **OperationSet** legfeljebb 100 művelettel rendelkezhet.
 -   Minden felhasználó legfeljebb 10 nyitott **OperationSet** művelettel rendelkezhet.
 -   A Project Operations jelenleg legfeljebb 500 projektfeladatot támogat.
--   Minden Erőforrás-hozzárendelési eloszlás frissítése művelet egyetlen műveletnek számít.
--   A frissített kontúrok minden listája legfeljebb 100 időszeletet tartalmazhat.
+-   Minden erőforrás-hozzárendelési kontúrozás művelet egy műveletnek számít.
+-   A frissített termékek listája legfeljebb 100 időszeletet tartalmazhat.
 -   Az **OperationSet** hibaállapotok és hibanaplók jelenleg nem érhetők el.
--   Projektenként legfeljebb 400 sprint van.
--   [A projektek és tevékenységek](/project-for-the-web/project-for-the-web-limits-and-boundaries) korlátai és határai.
--   A címkék jelenleg csak a Webes Projecthez érhetők el.
+-   Projektenként legfeljebb 400 sprint lehet.
+-   [Projektek és feladatok korlátai és határai](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   A címkék a Project for the Web alkalmazásban jelenleg nem támogatottak.
 
 **Hibakezelés**
 
@@ -108,23 +108,23 @@ Az alábbiakban felsoroljuk a korlátozásokat és az ismert problémákat:
 
 **Erőforrás-hozzárendelési kontúrok szerkesztése**
 
-Az entitást frissítő összes többi projektütemezési API-val ellentétben az erőforrás-hozzárendelési kontúr API kizárólag egyetlen mező, msdyn_plannedwork egyetlen entitáson msydn_resourceassignment frissítéséért felelős.
+Az entitást frissítő összes többi projektütemezési API-val ellentétben az erőforrás-hozzárendelési API-t csak egyetlen mező, a msdyn_plannedwork frissítésért felel, kizárólag az msydn_resourceassignment entitásban.
 
-Adott ütemezési mód:
+Az adott ütemezési mód:
 
 -   **rögzített egységek**
--   A projektnaptár 9-5p 9-5pst, hétfő, kedd, Thurs, péntek (NINCS MUNKA SZERDÁNKÉNT)
--   Az erőforrásnaptár pedig 9-1p PST hétfőtől péntekig
+-   Projektnaptár 9-5p az 9-5pst, Hétfő, Kedd, Csütörtök, Péntek (NINCS MUNKA SZERDÁNKÉNT)
+-   és az erőforrás-naptár 9-1p PST-ről hétfő–péntek
 
-Ez a feladat egy hétre, napi négy órára szól. Ennek az az oka, hogy az erőforrásnaptár 9-1 PST vagy napi négy óra között van.
+Ez a hozzárendelés egy hétre, négy órára egy napra. Ennek oka az, hogy az erőforrás-naptár 9-1 PST vagy napi négy óra.
 
-| &nbsp;     | Feladatok | Kezdési dátum | Befejező dátum  | Mennyiség | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Feladatok | Kezdési dátum | Befejező dátum  | Mennyiség | 2022 . 6. 13. | 2022. 6. 14. | 2022. 6. 15. | 2022. 6. 16. | 2022. 6. 17. |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 munkavállaló |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 dolgozó |  T1  | 2022 . 6. 13.  | 2022. 6. 17. | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Ha például azt szeretné, hogy a dolgozó ezen a héten naponta csak három órát dolgozzon, és egy órát hagyjon más tevékenységek számára.
+Például ha azt szeretné, hogy a dolgozó a héten minden nap csak három órát dolgozzon, és az egyéb feladatokra is engedélyezne egy órát.
 
-#### <a name="updatedcontours-sample-payload"></a>UpdatedContours minta hasznos adat:
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours mint hasznos adat:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Ha például azt szeretné, hogy a dolgozó ezen a héten naponta csak három ó
 }]
 ```
 
-Ez a hozzárendelés az Update Contour Schedule API futtatása után.
+Ez a Ütemezés a Frissítési kontúr API futtatása után.
 
-| &nbsp;     | Feladatok | Kezdési dátum | Befejező dátum  | Mennyiség | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Feladatok | Kezdési dátum | Befejező dátum  | Mennyiség | 2022 . 6. 13. | 2022. 6. 14. | 2022. 6. 15. | 2022. 6. 16. | 2022. 6. 17. |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 munkavállaló | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 dolgozó | T1   | 2022 . 6. 13.  | 2022. 6. 17. | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Példaforgatókönyv**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** További minták
+**További minták
 
 ```csharp
 #region Call actions --- Sample code ----

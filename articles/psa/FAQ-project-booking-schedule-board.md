@@ -1,6 +1,6 @@
 ---
 title: Projektfoglalás létrehozása az Ütemezés tábláról
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre projektfoglalást az ütemezési tábláról.
+description: Ez a cikk arról nyújt információt, hogy miként lehet létrehozni egy projektfoglalást az Ütemezés tábláról.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

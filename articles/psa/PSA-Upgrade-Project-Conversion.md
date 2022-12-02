@@ -1,6 +1,6 @@
 ---
-title: Project Service Automation a Project Operations projektütemezési átalakítási folyamatához
-description: Ez a cikk áttekintést nyújt a funkcióváltozásról Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations.
+title: Project Service Automation és Project Operations közötti projektütemezés átalakítási folyamata
+description: A cikk áttekintést a Microsoft Dynamics 365 Project Service Automation és a Dynamics 365 Project Operations közötti változásokról ad tájékoztatást.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/07/2022
@@ -23,65 +23,65 @@ ms.contentlocale: hu-HU
 ms.lasthandoff: 10/08/2022
 ms.locfileid: "9642571"
 ---
-# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation a Project Operations projektütemezési átalakítási folyamatához
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation és Project Operations közötti projektütemezés átalakítási folyamata
 
-Miután egy projektet sikeresen frissített a 3.X-ről Microsoft Dynamics 365 Project Service Automation a Lite-ra Dynamics 365 Project Operations, a projekttevékenységek szerkesztése a tevékenységrács munkalebontási struktúrájában (WBS) nem lehetséges. Az ügyfelek áttekinthetik a WBS-eket a nyomkövetési rácsban, ahol új mezőket adtak hozzá, hogy megadják a feladathoz kapcsolódó összes részletet. Azoknál a projekteknél, ahol a munkalebontási struktúrát kell szerkeszteni, a támogatható projekteket szelektíven konvertálhatja az új projektbe a webes ütemezési élmény érdekében.
+Egy projekt a Microsoft Dynamics 365 Project Service Automation 3.X verzióról Dynamics 365 Project Operations Lite verzióra való sikeres frissítését követően nem lehet szerkeszteni a projektfeladatokat a feladatrács munkalebontási struktúrában (WBS). Az ügyfelek a követési rácsban áttekinthetik a WBS-eket, ahol új mezőket lettek hozzáadva a feladathoz kapcsolódó összes részlet megadásához. Az olyan projektek esetén, ahol szerkesztésekre van szükség a WBS-ben, a jogosult projekteket szelektíven át lehet alakítani az új Project for the Web ütemezési élményre.
 
-## <a name="project-conversion-process"></a>Projekt átalakítási folyamat
+## <a name="project-conversion-process"></a>Projektátalakítási folyamat
 
-Projekt konvertálásához kövesse az alábbi lépéseket.
+Egy projekt átalakításához kövesse ezeket a lépéseket.
 
-1. Nyissa meg a projekt főoldalát, és válassza a Konvertálás **lehetőséget** a műveleti ablaktáblán.
-1. A megerősítő üzenetmezőben kattintson az OK gombra **a** projekt átalakításának megkezdéséhez. A következő műveletek történnek:
+1. Nyissa meg a projekt főoldalát, és válassza az **Átalakítás** lehetőséget a műveleti panelen.
+1. A megjelenő megerősítő üzenetben válassza a **OK** lehetőséget a projektátalakítás megerősítéséhez. A következő műveletek történnek:
 
-    1. A projekt főoldalán megjelenő üzenetsávon ez áll: "A projekt ütemezése átalakítás alatt áll. Nem módosíthatja a projektet, amíg az átalakítás be nem fejeződik."
+    1. A projekt főoldalán megjelenő üzenetsávban a következő látható: „A projekt ütemezésének átalakítása folyamatban van. A projekten nem lehet módosításokat végrehajtani, amíg az átalakítás nem fejeződik be.”
     1. A rendszer átirányítja a projektlistára.
 
-    A projekt átalakításának befejezése után a következő műveletek történnek:
+    A projektátalakítás befejezése után a következő műveleteket történnek:
 
-    1. A kijelölt projektmenedzser értesítést kap az alkalmazás jobb oldalán.
-    1. A rendszer eltávolítja azt az üzenetsávot, amely azt jelzi, hogy az átalakítás folyamatban van.
-    1. Az **Ütemezés** lapon látható a webes Project új ütemezési élménye. A megfelelő licencekkel és biztonsági szerepkörökkel rendelkező felhasználók szerkeszthetik a munkalebontási struktúrát.
-    1. Az **Ütemezési motor** mező a Webes **Projekt értékre** frissül.
-    1. A **Konvertálás** gomb el lesz távolítva a műveleti ablaktábláról.
+    1. A hozzárendelt projektmenedzser értesítést kap az alkalmazás jobb oldalán.
+    1. Az üzentsáv, amely jelzi, hogy az átalakítás folyamatban van, eltávolításra kerül.
+    1. Az **Ütemezés** lap megjeleníti az új ütemezési élményt a Project for the Web alkalmazással. A WBS-et bármely felhasználó módosíthatja, aki rendelkezik a megfelelő licencekkel és biztonsági szerepkörökkel.
+    1. Az **Ütemezési motor** mezőjét a program a **Project for the Web** értékre frissíti.
+    1. A műveletpanelről a Rendszer eltávolítja az **Átalakítás** gombot.
 
 > [!IMPORTANT]
-> A projektek tömeges átalakítása nem engedélyezett. Minden olyan kísérlet, amely nagy mennyiségű projekt egyidejű frissítésére irányul, a rendszer szabályozni fogja. Ez a korlátozás segít nagy teljesítményt biztosítani minden ügyfél számára.
+> A projektek tömeges átalakítása nem engedélyezett. A nagy mennyiségű projekt egyszerre való frissítésére tett kísérleteket a rendszer leszabályozza. Ez a korlátozás biztosítja a nagy teljesítményt minden ügyfél számára.
 
-## <a name="manual-tasks-vs-automatic-tasks"></a>Manuális feladatok vs. automatikus feladatok
+## <a name="manual-tasks-vs-automatic-tasks"></a>Manuális feladatok és automatikus feladatok
 
-Amikor egy környezetet Project Service Automationről Project Operations rendszerre frissítenek, a munkalebontási struktúrában lévő összes tevékenység automatikusan ütemezettnek minősül. A manuálisan ütemezett tevékenységek fogalma nem érhető el a Webes Projectben. Az új projektek létrehozásakor azonban meghatározhatja a projektek előnyben részesített ütemezési viselkedését az [ütemezési mód](/project-management/scheduling-modes.md) beállításával.
+Ha egy környezetet a Project Service Automation alkalmazásról a Project Operations alkalmazásra frissítenek, a WBS minden feladata automatikusan ütemezettnek lesz tekintve. A manuálisan ütemezett feladatok fogalma nem érhető el a Project for the Web alkalmazásban. Azonban az új projektek létrehozásakor az [ütemezési mód](/project-management/scheduling-modes.md) beállításának használatával meghatározhatja a projektek előnyben részesített ütemezési viselkedését.
 
-## <a name="restricted-operations-for-pre-conversion-projects"></a>Az átalakítást megelőző projektek korlátozott műveletei
+## <a name="restricted-operations-for-pre-conversion-projects"></a>Korlátozott műveletek átalakítás előtti projektekhez
 
-Ez a szakasz azokat a funkcionális különbségeket ismerteti, amelyekre akkor számíthat, ha a projekteket még nem konvertálták.
+Ez a szakasz a projektek átalakításának elmaradásakor várható funkcionális különbségeket ismerteti.
 
 ### <a name="copy-project"></a>Projekt másolása
 
-A **Másolás** művelet csak konvertált projekteken támogatott. A frissített projektek nem másolhatók az átalakítás előtt.
+A **Másolás** művelet csak az átalakított projektek esetén támogatott. A frissített projektek nem másolhatók az átalakítás előtt.
 
 ### <a name="move-project"></a>Projekt áthelyezése
 
-A projekt kezdési dátumának módosítása csak akkor helyezi át arányosan a tevékenységek kezdetét, ha a projektet átalakították.
+A projekt kezdő dátumának módosítása nem fogja arányosan eltolni a feladatok kezdetét, hacsak a projekt nem lett átalakítva.
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
-### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Mi a különbség a konvertált projektek és a frissítés befejezése után létrehozott új projektek között?
+### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Mi a különbség az átalakított projektek és az új, a frissítés után létrehozott projektek között?
 
-A környezet frissítése után konvertált projektek esetében egy jelző lesz beállítva, amely arra utasítja az ütemezést, hogy csak a projektnaptárat tartsa tiszteletben. Ez a viselkedés megegyezik a Project Service Automation viselkedésével. A jelző azonban nem lesz beállítva a frissítés után létrehozott új projektekhez. Ezért az ütemezés tiszteletben tartja az erőforrások munkaidejét, amikor egy tevékenységhez vannak rendelve.
+A környezet frissítése után átalakított projektek esetén egy jelző lesz beállítva, amely arra utasítja az ütemezést, hogy csak a projekt naptárát vegye figyelembe. Ez a viselkedés egyezik a Project Service Automation viselkedésével. A frissítés után létrehozott új projektekhez azonban nem lesz beállítva ez a jelző. Éppen ezért az ütemezés az erőforrások munkaóráit be fogja tartani, amikor egy feladathoz vannak rendelve.
 
-### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Mit tegyek, ha a projektem nem konvertálódik?
+### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Mit kell tennem, ha a projektem nem alakítása nem sikerül?
 
-Ha a projekt konvertálása sikertelen, az első lépés a hibanaplók áttekintése a munkalebontási struktúrával kapcsolatos gyakori problémák azonosítása érdekében. Ha a naplók nem jeleznek olyan konkrét hibát, amellyel kapcsolatban intézkedhet, vegye fel a kapcsolatot az ügyfélszolgálattal, hogy az esetet tovább lehessen vizsgálni.
+Ha a projekt átalakítás nem sikerül, az első lépés a hibanaplók áttekintése, és azonosítja a WBS-hez kapcsolódó, általános problémákat. Ha a naplók nem utalnak konkrét hibára, amely alapján valamilyen lépést tehetne, forduljon az ügyfélszolgálathoz az eset további kivizsgálásáért.
 
-### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Hogyan kezelik a vállalkozások bezárását a Webes Projectben?
+### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Hogyan kezeli a szünnapokat Project for the Web?
 
-A webes Project nem tartja tiszteletben a vállalat által szervezeti szinten meghatározott üzleti bezárásokat. Ez azonban tiszteletben tartja az adott munkaidő-sablonban meghatározott egyéb típusú szabadnapokat.
+A Project for the Web nem tartja be a vállalatnál szervezeti szinten definiált szünnapokat. Figyelembe veszi azonban tartani az egyéb, munkaidősablonokban definiált szabadnapokat.
 
-### <a name="what-are-the-limitations-of-project-for-the-web"></a>Milyen korlátozások vonatkoznak a webes Projectre?
+### <a name="what-are-the-limitations-of-project-for-the-web"></a>Mik a Project for the Web korlátozásai?
 
-Lásd [: Munkalebontási struktúra létrehozása: A projekt korlátozásai](/project-management/create-wbs#project-limitations.md).
+Lásd [Munkalebontási struktúra: Projekt korlátozásai](/project-management/create-wbs#project-limitations.md).
 
-### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Számíthatok változásokra a költség- és értékesítési becsléseimben?
+### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Várhatók a költség- és értékesítési becslésekben változások?
 
-Ritka esetekben, amikor az erőforrás-hozzárendelési kontúrok újraszámítása megtörténik, vagy ha a forrásprojekttől eltérő dátumhatárra esnek, különbségeket tapasztalhat az értékesítésben és a költségbecslésekben. A frissítési folyamat részeként az ügyfeleknek tesztelniük kell a projektek reprezentatív mintakészletét, hogy megértsék az esetleges ütemezési változásokat.
+Azon ritka esetekben, amikor az erőforrás-hozzárendelési kontúrok újraszámításra kerülnek, illetve a forrás projekttől eltérő dátumtartományba esnek, különbségeket tapasztalhat az értékesítési és költségbecslésekben. A frissítési folyamat részeként az ügyfelek elvárják, hogy teszteljék a projektek egy mintakészletét, hogy megértsék az esetleges ütemezést érintő módosításokat.

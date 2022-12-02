@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2021. áprilisban – Project Operations erőforrásalapú vagy nem készletalapú forgatókönyvekhez
-description: Ez a cikk a Project Operations 2021. áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk a Project Operations 2021 áprilisi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást az erőforrásalapú/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a Dataverse-környezet 4.9.0.221 verzióján
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezetben 10.0.17-es verzió
+- Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.17-as verziójú környezetekben
 
 ## <a name="features-included-in-this-release"></a>Az ebben a kiadásban elérhető funkciók
 
@@ -42,13 +42,13 @@ Az alábbi lista a Project Operations 2021. áprilisi kiadásában módosított 
 | **Entitásleképezés** | **Frissített verzió** | **Hozzászólások** |
 | --- | --- | --- |
 | Project Operations integrációjának tényleges adatai (msdyn\_actuals) | 1.0.0.14 | Az anyag projekt tényének szinkronizálása során módosított leképezés. |
-| A Project Operations integrációs entitása kiadások becsléséhez (msdyn\_estimateslines) | 1.0.0.2 | Projektszerződés-sor szinkronizálás hozzáadva a pénzügyi és üzemeltetési alkalmazásokhoz a feladatalapú számlázási támogatás érdekében. |
-| A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments) | 1.0.0.5 | Projektszerződés-sor szinkronizálás hozzáadva a pénzügyi és üzemeltetési alkalmazásokhoz a feladatalapú számlázási támogatás érdekében. |
-| Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Új táblatérkép az anyagbecslések szinkronizálásához a pénzügyi és üzemeltetési alkalmazásokba Dataverse. |
-| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn\_projectvendorinvoices) | 1.0.0.0 | Új táblatérkép a szállítói számlafejlécek szinkronizálásához a pénzügyi és üzemeltetési alkalmazásokból a következőbe: Dataverse. |
-| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Új táblaleképezés a szállítói számlasorok szinkronizálásához a pénzügyi és üzemeltetési alkalmazásokból a következőbe: Dataverse. |
+| A Project Operations integrációs entitása kiadások becsléséhez (msdyn\_estimateslines) | 1.0.0.2 | A projektszerződéssor a pénzügyi és műveleti alkalmazásokhoz való szinkronizálásának hozzáadása a feladat alapú számlázás támogatásához. |
+| A Project Operations integrációs entitása órabecslésekhez (msdyn\_resourceassignments) | 1.0.0.5 | A projektszerződéssor a pénzügyi és műveleti alkalmazásokhoz való szinkronizálásának hozzáadása a feladat alapú számlázás támogatásához. |
+| Project Operations integrációs táblázat az anyagbecslésekhez (msdyn\_estimatelines) | 1.0.0.0 | Új táblatérkép a Dataverse és a pénzügyi és műveleti alkalmazások közötti anyagbecslések szinkronizálásához. |
+| Project Operations integrációs projekt szállítói számlát exportáló entitása (msdyn\_projectvendorinvoices) | 1.0.0.0 | Új táblatérkép a Dataverse és a pénzügyi és műveleti alkalmazások közötti szállítóiszámla-fejlécek szinkronizálásához. |
+| Project Operations integrációs projekt szállítói számlasort exportáló entitása (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Új táblatérkép a Dataverse és a pénzügyi és műveleti alkalmazások közötti szállítóiszámla-sorok szinkronizálásához. |
 
-Mindig futtassa a térkép legújabb verzióját a környezetében, és engedélyezze az összes kapcsolódó táblaleképezést a Project Operations Dataverse megoldásának, valamint a pénzügyi és üzemeltetési megoldás verziójának frissítése során. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verzióját aktiválhatja a **Táblatérkép verziói** pontban, ott pedig az legújabb verzió kiválasztásával, majd a kijelölt verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+A Project Operations Dataverse megoldás és pénzügyi és művelet alkalmazások megoldásverziójának frissítésekor mindig a térkép legújabb verzióját kell futtatnia a környezetében, és engedélyeznie kell az összes kapcsolódó táblatérképet. Előfordulhat, hogy bizonyos funkciók és képességek nem működnek megfelelően, ha a térkép legújabb verziója nincs aktiválva. A térkép aktív verzióját a **Verzió** oszlopban, a **Kettős írás** oldalon láthatja. A térkép új verzióját aktiválhatja a **Táblatérkép verziói** pontban, ott pedig az legújabb verzió kiválasztásával, majd a kijelölt verzió mentésével. Ha testreszabta az egyedi táblatérképet, újra kell alkalmaznia a módosításokat. További információért lásd: [Az alkalmazás életciklusának kezelése](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ha problémát tapasztal a térkép elindításával kapcsolatban, kövesse a [Kettős írás hibaelhárítási útmutató térkép szakaszának Hiányzó táblaoszlopok című ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)részében található utasításokat.
 
@@ -79,7 +79,7 @@ Ha problémát tapasztal a térkép elindításával kapcsolatban, kövesse a [K
 | Idő és költség | 2204377 | A másolt munkaidő-nyilvántartásoknak automatikusan meg kell jelenniük, amikor az időbejegyzés során a **Hét másolása** lehetőséget választja. |
 | Idő és költség | 2209059 | Az **Állapot** mező szerkeszthető a Dynamics 365 Field Service időbejegyzésekhez. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és számvitel Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 | **Funkcióterület** | **Hivatkozási szám** | **Minőségi frissítés** |
 | --- | --- | --- |

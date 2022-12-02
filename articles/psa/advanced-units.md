@@ -1,6 +1,6 @@
 ---
 title: Egységcsoportok és egységek
-description: Ez a cikk az egységcsoportokról és egységekről nyújt tájékoztatást.
+description: Ez a cikk az egységcsoportokról és egységekről tartalmaz információkat.
 author: rumant
 ms.custom:
 - dyn365-projectservice

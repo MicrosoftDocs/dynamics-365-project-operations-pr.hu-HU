@@ -1,6 +1,6 @@
 ---
 title: Erőforrások létrehozása
-description: Ez a cikk egy linket tartalmaz a foglalható erőforrások létrehozásával kapcsolatos információkhoz.
+description: Ez a cikk a foglalható erőforrás-kategóriák létrehozásával kapcsolatos információkra mutató hivatkozást tartalmaz.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

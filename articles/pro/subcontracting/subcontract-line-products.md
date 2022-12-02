@@ -1,6 +1,6 @@
 ---
 title: Termékek alvállalkozói sorai
-description: Ez a cikk azt ismerteti, hogyan rögzíthet alvállalkozói sorokat a termékekhez, és hogyan használhatja a különböző mezőket a szállítóktól származó termékvásárlások rögzítésére.
+description: Ez a cikk elmagyarázza, hogyan rögzítse a termékek alvállalkozói sorait, és hogyan használja a különböző mezőket a szállítóktól történő termékbeszerzések rögzítésére.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

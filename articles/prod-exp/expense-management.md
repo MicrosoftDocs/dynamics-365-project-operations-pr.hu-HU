@@ -1,6 +1,6 @@
 ---
 title: Költségkezelés áttekintése
-description: Ez a cikk általános információkat tartalmaz a költségkezelésről, és további forrásokra mutató hivatkozásokat tartalmaz. A költségelszámolás segítségével integrált munkafolyamatot hozhat létre, ahol tárolhatja a fizetési mód adatait, importálhatja a hitelkártya-tranzakciókat, és nyomon követheti az alkalmazottak költéseit, amikor kiadásokat hoznak létre a vállalkozáshoz.
+description: Ez a cikk általános tudnivalókat tartalmaz a Költésgkezelésről és a további erőforrásokra mutató hivatkozásokat is. A költségelszámolás segítségével integrált munkafolyamatot hozhat létre, ahol tárolhatja a fizetési mód adatait, importálhatja a hitelkártya-tranzakciókat, és nyomon követheti az alkalmazottak költéseit, amikor kiadásokat hoznak létre a vállalkozáshoz.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ További információkért lásd: [Átdolgozott költségjelentések](ExpenseWor
 
 ### <a name="blogs"></a>Blogok
 
-Véleményeket, híreket és egyéb információkat találhat a [Microsoft Dynamics 365 blogon](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) és a [Microsoft Dynamics 365 Finance - Financials blogon](https://community.dynamics.com/365/financeandoperations/b/financials).
+A [Microsoft Dynamics 365 blogban](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) és a [Microsoft Dynamics 365 Finance – pénzügyek blogban](https://community.dynamics.com/365/financeandoperations/b/financials) is találhat véleményeket, híreket és egyéb információkat.
 
 A [Microsoft Dynamics Operations partnerközösség blogja](https://community.dynamics.com/partner/b/operationspartnercommunityblog) a Microsoft Dynamics partnereknek egyetlen erőforrást biztosít, ahol megismerhetik, hogy mik az újdonságok és trendek az MBS Operations szolgáltatásban.
 

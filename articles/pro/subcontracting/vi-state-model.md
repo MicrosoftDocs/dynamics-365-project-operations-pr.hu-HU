@@ -1,6 +1,6 @@
 ---
 title: Állapotátváltások szállítói számlán
-description: Ez a cikk a szállítói számla állapotáttűnéseit ismerteti a Microsoftban Dynamics 365 Project Operations.
+description: Ez a cikk ismerteti a szállítói számlára vonatkozó állapotátváltásokat a Microsoft Dynamics 365 Project Operations alkalmazásban.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,20 +17,20 @@ ms.locfileid: "9261019"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-Ez a cikk a szállítói számla állapotáttűnéseit ismerteti a Microsoftban Dynamics 365 Project Operations. A rendszer a következő állapotokat használja: **Piszkozat**, **Felülvizsgálat alatt**, **Megerősítve**, **Várakoztatva** és **Törölve**.
+Ez a cikk ismerteti a szállítói számlára vonatkozó állapotátváltásokat a Microsoft Dynamics 365 Project Operations alkalmazásban. A következő állapotok használatosak: **Vázlat**, **Ellenőrzés alatt**, **Megerősítve**, **Visszatartva** és **Visszavonva**.
 
-Az alábbi ábrák az állapotátmeneteket mutatják be.
+A következő ábrán ezek az állapotátmenetek láthatók:
 
-![Alvállalkozásba adási állapotátmeneti modell.](../media/VI_State_Model.jpg)
+![Az alvállalkozói szerződés állapotátmeneti modellje.](../media/VI_State_Model.jpg)
 
-Az alábbi táblázat bemutatja, hogy az egyes állapotok mit jelentenek a szállítói számla életciklusában a Project Operationsben.
+A következő táblázat azt mutatja be, hogy az egyes állapotok mit képviselnek a Project Operations szállítóiszámla-életciklusában.
 
 | State | Description | Engedélyezett átmenetek |
 | --- | --- | --- |
-| Piszkozat | Ez az állapot a szállítói számla kezdeti állapota. A sorok és az árak változhatnak. Az ebben az állapotban lévő szállítói számla szerkeszthető és törölhető. | Folyamatban |
-| Ellenőrzés alatt | Ez az állapot a szállítói számla feldolgozási állapotát jelöli. Legalább egy szállítói számlasor ellenőrzési állapota **Folyamatban** van. | Megerősítve, várakoztatva |
-| Megerősített | Ez az állapot a szállítói számla azon szakaszát jelöli, amelyben az alkalmazás költség-tényleges adatokat hozott létre az egyes szállítói számlasorokhoz. A szállítói számlasorokkal egyeztetett csatolt költség tényleges adatait a rendszer visszavonta, és lecserélte az adott szállítói számlasorokból származó tényleges költségre. Az ebben az állapotban lévő szállítói számla nem szerkeszthető vagy törölhető. A Mégse **gombbal törölheti a** visszaigazolt szállítói számlát. A Mégse művelet visszafordítja a Megerősítés művelet hatását. | Megszakított |
-| Várakoztatva | <p>Ez az állapot a szállítói számla azon szakaszát jelöli, ahol a szállítói számla nem helyezhető át a számlával vagy a szállító állapotával kapcsolatos probléma miatt. Az ebben az állapotban lévő szállítói számla nem erősíthető meg, nem törölhető, nem törölhető, nem szerkeszthető és nem törölhető.</p><p>Az Újranyitás művelettel áthelyezheti a szállítói számlát Piszkozat **vagy** **Ellenőrzés alatt** állapotba. Ha a szállítói számlán legalább egy sor ellenőrzési állapota **Folyamatban** vagy **Befejezve**, a szállítói számla újbóli megnyitása Ellenőrzés **alatt** állapotban történik. Ha a szállítói számla összes sora ellenőrzési állapota **Nem kezdődött el**, a szállítói számla Újratervezet **állapotban** lesz.</p> | Tervezet, felülvizsgálat alatt |
-| Megszakított | Ez az állapot az alvállalkozói szerződés azon szakaszát jelenti, ahol az anyagok és/vagy az alvállalkozásba adott erőforrásokkal történő tényleges leszállítása már nem szükséges. Ebben az állapotban az alvállalkozói szerződés nem használható az erőforrásokra és anyagokra vonatkozó projektkövetelmények becslésére és személyzetének növelésére, és nem is lehet hivatkozni a projekt időben, költség- és anyaghasználatára. Az ebben az állapotban lévő alvállalkozói szerződések nem szerkeszthetők vagy törölhetők. | None |
+| Piszkozat | Ez az állapot a szállítói számlák kezdeti állapota. A sorok és az árképzés is változhatnak. Az ebben az állapotban lévő szállítói számla nem szerkeszthető vagy törölhető. | Folyamatban |
+| Ellenőrzés alatt | Ez az állapot a szállítói számlák feldolgozási állapotát jelenti. Legalább egy szállítói számla ellenőrzési állapota **Folyamatban**. | Megerősítve, Visszatartva |
+| Megerősítve | Ez az állapot a szállítói számláknak azt a fázisát jelenti, ahol az alkalmazás minden egyes szállítói számlasorhoz létrehozta a költség tényadatait. A rendszer minden, a szállító számlasorával egyeztetett költség-tényadatot visszavont, és lecserélte az adott szállítói számla soraiból származó költség-tényadatokkal. Az ebben az állapotban lévő szállítói számla nem szerkeszthető vagy törölhető. A **Mégse** gomb segítségével visszavonhatja a megerősített szállítói számlát. A Mégse művelet visszavonja a Megerősítés művelet hatását. | Megszakított |
+| Várakoztatva | <p>Ez az állapot a szállítói számlák egy olyan fázisát jelenti, ahol a szállítói számla nem tud haladni mert a számlával vagy a szállító állapotával probléma van. Az ebben az állapotban lévő szállítói számla nem erősíthető meg, vonható vissza, szerkeszthető vagy törölhető.</p><p>Az Újranyitás művelet segítségével áthelyezheti a szállító számláját **Vázlat** vagy **Ellenőrzés alatt** állapotba. Ha a szállítói számla legalább egy sorának állapota **Folyamatban** vagy **Kész**, a szállító számláját a rendszer újra megnyitja **Ellenőrzés alatt** állapotban. Ha a szállítói számla minden sorának **Nincs elindítva** az ellenőrzési állapota, a szállítói számla **Vázlat** állapotból újra meg lesz nyitva.</p> | Vázlat, Ellenőrzés alatt |
+| Megszakított | Ez az fázis az alvállalkozói szerződésnek az a fázisa, amikor az anyagok szállítása és/vagy az alvállalkozói erőforrások által történő elvégzése már nem szükséges. Az ebben az állapotban alvállalkozói szerződés nem használhatók fel az erőforrások és anyagok projektkövetelményének becslésére és személyzeti hozzárendelésére, és nem hivatkozhat egy projekten időre, költségre és anyaghasználatra sem. Az ebben az állapotban lévő alvállalkozói szerződések nem szerkeszthetők és törölhetők. | None |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Költségjelentés megtekintése főkönyvből vagy beszerzésből
-description: Ez a cikk bemutatja, hogyan tekintheti meg az eredeti költségjelentést, amelyen egy tranzakció megjelent.
+description: Ez a cikk ismerteti, hogy miként tekinthető meg az eredeti költségjelentés, amelyen egy tranzakció jelent meg.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

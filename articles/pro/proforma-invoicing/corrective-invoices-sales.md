@@ -1,6 +1,6 @@
 ---
 title: Helyesbítő projektszámlák
-description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre és erősíthet meg helyesbítő számlákat a Project Operationsben.
+description: Ez a cikk információt nyújt arról, hogyan hozhat létre és erősíthet meg helyesbítő számlákat a Project Operations szolgáltatásban.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

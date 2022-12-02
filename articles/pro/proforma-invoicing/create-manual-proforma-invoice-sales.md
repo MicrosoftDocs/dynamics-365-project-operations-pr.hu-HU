@@ -1,6 +1,6 @@
 ---
 title: Proforma projektszámlák
-description: Ez a cikk a Projektműveletek proforma projektszámláiról nyújt tájékoztatást.
+description: Ez a cikk a Project Operations szolgáltatásban lévő proforma projektszámlákról nyújt információt.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

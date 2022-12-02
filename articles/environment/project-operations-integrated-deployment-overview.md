@@ -1,6 +1,6 @@
 ---
 title: Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén – telepítési útmutató
-description: Ez a cikk az erőforrás-/nem készletalapú forgatókönyvekhez készült központi telepítési típusról nyújt tájékoztatást.
+description: Ez a cikk a telepítés típusával, az erőforrás-/nem készletalapú forgatókönyvekkel kapcsolatos Project Operations kapcsolatos információkat tartalmaz.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ A telepítés típusa, a Dynamics 365 Project Operations az erőforrás-/nem ké
 - Projektbevétel elszámolása
 - Bővíthetőség a Power Platform segítségével
 
-Ez a központi telepítési típus bővítményt biztosít a Dynamics 365 Finance és Dynamics 365 Supply Chain Management alkalmazások által biztosított funkciókhoz.
+Ez a telepítési típus egy bővítményt is biztosít a Dynamics 365 Finance és a Dynamics 365 Supply Chain Management alkalmazások által biztosított funkciókhoz.
 
 Ezt a telepítést úgy kell megválasztani, hogy a Project Operations várhatóan a teljes projekt életciklusát használják, amely a következő követelményeket tartalmazza:
 

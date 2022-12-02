@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2021. májusában – Project Operations egyszerű telepítés
-description: Ez a cikk a Project Operations lite telepítésének 2021. májusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
+description: Ez a cikk a Project Operations egyszerű telepítés 2021 májusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article

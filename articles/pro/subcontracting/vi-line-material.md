@@ -1,6 +1,6 @@
 ---
 title: Szállítói számlasorok termékekhez
-description: Ez a cikk azt ismerteti, hogyan rögzítheti a termékek szállítói számlasorait, és hogyan használhatja a különböző mezőket a szállítóktól származó termékvásárlások rögzítésére.
+description: Ez a cikk elmagyarázza, hogyan rögzítse a szállítói számláját, és hogyan használja a különböző mezőket a szállítóktól történő termékbeszerzések rögzítésére.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,30 +17,30 @@ ms.locfileid: "9261561"
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Microsoft Dynamics 365 Project Operations szállítói számlája szállítói számlasorokat tartalmazhat a termékekhez (más néven anyagokhoz). A projektmenedzserek a termékek szállítói számlasorai segítségével rögzíthetik a projekteken vásárolt termékek költségeit.
+A Microsoft Dynamics 365 Project Operations szállítói számlái a termékek (más néven anyagok) szállítói számlasorait tartalmazják. A projektvezetők termékekre vonatkozó a szállítóiszámla-sorokat használhatja a projektekhez beszerzett termékek költségének rögzítéséhez.
 
-Előfordulhat, hogy a termékek szállítói számlasorai nem hivatkoznak alvállalkozói sorra az anyagokhoz, vagy nem. Ha a termékekhez tartozó szállítói számlasor alvállalkozói szerződésre hivatkozik, a projektmenedzserek egyeztethetik és ellenőrizhetik a szállítói számlasor által számlázott termékeket a projektmenedzserek által rögzített és jóváhagyott vásárolt termékek használatával.
+A termékekhez kapcsolódó szállítói számlasorok hivatkoznak egy alvállalkozói sorra az anyag vonatkozásában. Ha egy termékekhez kapcsolódó alvállalkozó számlasor egy alvállalkozói szerződésre hivatkozik, akkor a projektvezetők egyeztetnie, illetve ellenőrizni tudják a szállító számlasorában szereplő termékeket az alvállalkozók által rögzített és a projektmenedzserek által jóváhagyott beszerzett termékekkel szemben.
 
-Az alábbi táblázat a termékek szállítói számlasorainak mezőiről nyújt tájékoztatást.
+Az alábbi táblázat ismerteti az termékekhez kapcsolódó szállítói számlasorok mezőit.
 
 | Mező | Description | Funkcionális hatás |
 | --- | --- | --- |
-| Name | A szállítói számlasor neve, hogy segítsen az azonosításban. | Ez a név jelenik meg az első oszlopként az összes olyan keresésben, amely a szállítói számlasorokon alapul. |
-| Description | A szállító által a szállítói számlasoron számlázandó termékek rövid leírása. | None |
-| Alvállalkozói szerződés | Az alvállalkozói szerződés, amelyre a termékeket eredetileg megrendelték. | Ha alvállalkozói szerződést választ a szállítói számlához, a szállítói számla összes sora örökli ezt a beállítást. A szállítói számlák nem tartalmazhatnak olyan szállítói számlasorokat, amelyek különböző alvállalkozói szerződésekre hivatkoznak. |
-| Alvállalkozói vonal | Az alvállalkozói vonal, amelyen a termékeket megrendelték. A kiválasztható alvállalkozói sorok listája a kiválasztott alvállalkozói szerződés soraira korlátozódik. | Ha egy alvállalkozói sor van kiválasztva egy szállítói számlasoron a termékekhez, a Projekt **,** a Tevékenység **és** a **Termék** mezők alapértelmezett értékei az alvállalkozói sor megfelelő mezőiből kerülnek beírásra. Ha a kiválasztott alvállalkozói sor értékeket tartalmaz a Projekt **,** a Tevékenység **és** a **Termék** mezőkben, a szállítói számlasor megfelelő mezőinek értékei nem térhetnek el ezektől az értékektől. |
-| Tranzakció dátuma | Az a dátum, amikor a szállítói számlasor tényleges költségének tényleges költséget rögzíti a projektben. | None|
-| Tranzakcióosztály | A termékek számlázásakor ezt a mezőt Anyag **értékre** kell állítani. | Az Anyag **érték** azt jelzi, hogy a szállítói számlasort használják a megvásárolt anyagok számlaösszegének rögzítésére. |
-| Project | Annak a projektnek a neve, amelyről a számlázandó termékeket felhasználták. | Ez a mező kötelező, és nem hagyható üresen. |
-| Feladatok | Annak a projekttevékenységnek a neve, amelyről a számlázandó termékeket felhasználták. Ez a mező csak akkor érhető el, ha egy projekt ki van jelölve. A projekttevékenység kiválasztása nem kötelező. | Ha ez a mező üresen marad, a projektmenedzser a szállítói számlasort a projekt bármely tevékenységéhez használt megvásárolt termékkel egyeztetheti. Ha a szállítói számlasor nem hivatkozik alvállalkozói sorra, és ez a mező üresen marad, a szállítói számlasor által létrehozott tényleges költség nem lesz összekapcsolva a nem számlázott értékesítési tényleges adatokkal. Ebben az esetben, ha a feladatalapú számlázás be van állítva, a költségek nem lesznek képesek számlázni a végfelhasználónak. |
-| Termék kiválasztása | Válassza ki, hogy a számlázandó termék a katalógus meglévő terméke vagy egy beírt termék. | Az alapértelmezett érték az alvállalkozói sorból kerül megírásra, ha egy alvállalkozói sor van kiválasztva. |
-| Termék | Válassza ki a terméket a katalógusból. Ha a termék egy beírt termék, adja meg a termék nevét. | Ez a mező a meglévő termékek alapértelmezett beszerzési árainak megadására szolgál. |
-| Mennyiség | Adja meg a szállító által számlázandó anyagmennyiséget ebben a számlasorban. | None |
-| Egységcsoport | Válassza ki annak az egységnek az egységcsoportját, amelyben a számlázandó mennyiség ki van fejezve. | None |
-| Kiszerelés | Az alapértelmezett érték a kiválasztott egységcsoport alapegysége. Ezt az értéket módosíthatja úgy, hogy a kiválasztott egységcsoport bármely egységében fizessen. | A termék **- és** egységértékek **kombinációja** lesz a szállítói számlasor Egységár **mezőjének** alapértelmezett vagy számított értéke. |
-| Egységár | Az alapértelmezett egységár a termék és **az egység** értékének **kombinációját** használja a projekt árlistájából, amely a szállítói számlasor tranzakciós dátumára vonatkozik. | None |
-| Részösszeg | Ezt a csak olvasható mezőt a rendszer *Mennyiség*&times; egységárként *számítja* ki, ha az értékeket a Mennyiség **mezőben és az** Egységár **mezőben is** meg van adva. Ha az egyik vagy mindkét mező üres, megadhat egy értéket ebben a mezőben. | None |
+| Name | A szállítói számla neve, amely segítséget nyújt az azonosításában. | Ez a név lesz megjelenítve első oszlopként minden olyan keresésben, amelyek a szállítói számlasorokon alapulnak. |
+| Description | Az alvállalkozói számlán a beszállító által számlázott termékek rövid leírása. | None |
+| Alvállalkozói szerződés | Az az alvállalkozó, amelytől a termékeket eredetileg megrendelték. | Amikor egy alvállalkozói szerződés ki van jelölve a szállítói számlához, a szállítói számla minden sora örökli ezt a beállítást. A szállítói számlákon nem lehetnek olyan szállítói számlasorokat, amelyek más alvállalkozói szerződésekre hivatkoznak. |
+| Alvállalkozóiszerződés-sor | Az az alvállalkozói sor, amelytől a termékeket megrendelték. A választható alvállalkozói sorok listája a kijelölt alvállalkozó szerződés soraira van korlátozva. | Ha egy alvállalkozó sort kiválaszt egy termékekhez kapcsolódó szállító számlasoron, akkor a **Projekt**, a **Feladat** és a **Termék** mezők alapértelmezett értékeit a program az alvállalkozósor megfelelő mezőiből adja meg. Ha a kijelölt alvállalkozói sornak értékei vannak a **Projekt**, a **Feladat** és a **Termék** mezőkben, a szállítói számlasor megfelelő mezőinek értékei nem térhetnek el azoktól az értékektől. |
+| Tranzakció dátuma | Az a dátum, amikor a szállítói számlasor tényleges költségét rögzíteni fogják a projekthez. | None|
+| Tranzakcióosztály | A termékek számlázásakor ezt a mezőt **Anyag** értékre kell beállítani. | Az **Anyag** érték azt jelzi, hogy a szállító számlasor vásárolt anyagokhoz kapcsolódó számlaösszeg rögzítésére szolgál. |
+| Project | Annak a projektnek a neve, amelyhez a számlázott termékeket felhasználták. | Ez egy kötelező mező, és nem lehet üres. |
+| Feladatok | Annak a projektfeladatnak a neve, amelyhez a számlázott termékeket felhasználták. Ez a mező csak akkor érhető el, ha egy projekt ki van jelölve. A projektfeladat kiválasztása nem kötelező. | Ha a mezőt üresen hagyja, akkor a projektvezető a szállító számlasorát megfeleltetheti azokkal a beszerzett termékekkel, amelyek fel lettek használva a projekt bármelyik feladatán. Ha a szállítói számlasor nem hivatkozik alvállalkozói sorra, és ez a mező üresen marad, a szállítói számlasor által létrehozott tényleges költség nem lesz társítva egyetlen nem számlázatlan tényleges értékesítéshez sem. Ebben az esetben a feladatalapú számlázás beállítása esetén a költségeket nem lehet a végfelhasználónak kiszámlázni. |
+| Termék kiválasztása | Adja meg, hogy a számlázott termék szerepel-e egy meglévő termékkatalógusában vagy nem katalogizált termék. | Az alapértelmezett érték az alvállalkozói sorból lesz megadva az alvállalkozói sor kiválasztásakor. |
+| Termék | Válassza ki a terméket a katalógusból. Ha termék nem katalogizált termék, adja meg a termék nevét. | Ebben a mezőben a meglévő termékek alapértelmezett beszerzési árait lehet megadni. |
+| Mennyiség | Adja meg a számlasoron a szállító által számlázott anyag mennyiségét. | None |
+| Egységcsoport | Válassza ki annak az egységnek az egységcsoportját, amelyben a számlázandó mennyiség ki van kifejezve. | None |
+| Kiszerelés | Az alapértelmezett érték a kijelölt egységcsoport alapegysége. Ezt az értéket úgy módosíthatja, hogy a kijelölt egységcsoport bármelyik egységében lehessen fizetni. | A rendszer a **Termék** és az **Egység** értékek kombinációját használja az alvállalkozói szerződéssor **Egységár** mezőjének alapértelmezett vagy számított értékeként. |
+| Egységár | Az alapértelmezett egységár projektárlistában szereplő, az alvállalkozói szerződéssor kért tranzakciójának napjára vonatkozó **Termék** és **Egység** kombinációjából adódik. | None |
+| Részösszeg | Ez a csak olvasható mező automatikusan a *Mennyiség* &times; *Egységár* képlettel lesz kiszámítva, ha mind a **Mennyiség**, mind az **Egységár** mezőben megadnak értékeket. Ha a mezők egyike üres, akkor ebben a mezőben megadhat értéket. | None |
 | Forgalmi adó | Adja meg az áfa összegét. | None |
-| Végösszeg | A szállítói számlasor teljes összege, beleértve az adókat is. Ezt a mezőt a rendszer részösszeg *szerinti áfaként* + *számítja* ki. | None |
+| Végösszeg | Az szállítói számlasor teljes összege az adókkal együtt. Ez a mező a *Részösszeg* + *Forgalmi adó* képlettel kerül kiszámításra. | None |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

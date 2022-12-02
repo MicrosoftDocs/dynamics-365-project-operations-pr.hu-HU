@@ -1,6 +1,6 @@
 ---
 title: Újdonságok – 2021. március – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a cikk a Project Operations 2021. márciusi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást erőforrás-/nem készletalapú forgatókönyvekhez.
+description: Ez a cikk információval szolgál az erőforrás/nem készletalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2021 márciusi kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgató
 Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verziókra vonatkozik:
 
 - Project Operations a Dataverse-környezet 4.8.0.91 verzióján 
-- Projektmenedzsment és könyvelés Dynamics 365 Finance környezet 10.0.16-os verziójában 
+- Projektmenedzsment és könyvelés a Dynamics 365 Finance 10.0.16-os verziójú környezetekben 
 
 ## <a name="quality-updates"></a>Minőségi frissítések
 
@@ -42,13 +42,13 @@ Ez a cikk a következő Dynamics 365 Project Operations összetevőkre és verzi
 | Idő és költség | 2148910 | Az **Időbejegyzés** rács **Bejegyzés szerkesztése** oldalának megjelenítési problémája javításra került. |
 | Idő és költség | 2159798 | Szigorúbb vezérlés annak biztosítása érdekében, hogy a jóváhagyott költségbejegyzések ne legyenek szerkeszthetők. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmenedzsment és könyvelés a Dynamics 365 Finance alkalmazásban
 
 További információkért lásd: [Újdonságok – 2021. január – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-További információ a pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseiről: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). A szabályozási frissítések megismerésének másik módja, ha bejelentkezik az LCS szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A pénzügyi és műveleti alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. A szabályozási frissítések megismerésének másik módja, ha bejelentkezik az LCS szolgáltatásba, és a problémakereső eszközzel megtekinti a tervezett szabályozási frissítéseket. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Projektalapú lehetőségek kezelése
-description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet dolgozni a projektekhez kapcsolódó lehetőségekkel.
+description: Ez a cikk a projektekhez kapcsolódó lehetőségekkel való munkára vonatkozó információkat tartalmaz.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletala
 
 A projektalapú vállalatok általában a több országra és földrajzi helyekre kiterjedő teljesítéssel működnek. A projekt végrehajtásának és a teljesítésnek a költsége attól függően változhat, hogy mely földrajzi terület vagy divízió kezeli a szállítást. Ez viszont hatással lehet az üzlet árrésére. A projektalapú szolgáltatások teljesítése jellemzően nagy mennyiségű humánerőforrás-időt, jelentős utazási költségeket, az anyagi költségeket és egyéb költségeket foglalja magában.
 
-Projektalapú lehetőségek a Dynamics 365 Project Operations rendszerben Dynamics 365 Sales-bővítményekkel vannak kialakítva. A cikk részletesen ismerteti a projektalapú vállalatok által a projektalapú lehetőségek kezeléséhez szükséges további funkciókban található különböző területeket és üzleti logikát.
+Projektalapú lehetőségek a Dynamics 365 Project Operations rendszerben Dynamics 365 Sales-bővítményekkel vannak kialakítva. A cikk részletesen ismerteti a különböző mezőket és az üzleti logikát, amely a további funkciókban szerepel, amely a projektalapú vállalatok számára szükséges a projektalapú lehetőségek kezeléséhez.
 
 ## <a name="view-all-project-based-opportunities"></a>Összes projektalapú lehetőség megtekintése
 

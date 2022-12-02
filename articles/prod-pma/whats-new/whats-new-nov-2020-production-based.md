@@ -1,6 +1,6 @@
 ---
 title: Újdonságok 2020. novemberében – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-description: Ez a cikk a Project Operations 2020. novemberi kiadásában elérhető minőségi frissítésekről nyújt tájékoztatást a készletalapú, éles környezetben futó forgatókönyvekhez.
+description: Ez a cikk információval szolgál a készletalapú/termelésalapú forgatókönyvek projektjeihez tartozó minőségi frissítésekről, amelyek a Project Operations 2020. novemberi kiadásában váltak elérhetővé.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ A frissítésben szereplő javításokkal kapcsolatos információkért jelentke
 
 ## <a name="regulatory-updates"></a>Szabályozási frissítések
 
-A Dynamics 365 pénzügyi és üzemeltetési alkalmazások szabályozási frissítéseivel kapcsolatos információkért lásd: [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates). Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
+A Dynamics 365 pénzügyi és műveleti alkalmazások szabályozási frissítéseivel kapcsolatos további tudnivalók a [Szabályozási frissítések](/dynamics365/finance/localizations/regulatory-updates) című témakörben olvashatók. Bejelentkezhet az LCS-be, és megtekintheti a tervezett szabályozási frissítéseket a Problémakereső eszközzel. A Problémakereső segítségével országonként, a szolgáltatás típusa és a kiadás között kereshet.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

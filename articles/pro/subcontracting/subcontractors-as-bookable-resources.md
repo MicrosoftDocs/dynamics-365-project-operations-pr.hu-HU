@@ -1,6 +1,6 @@
 ---
 title: Alvállalkozók beállítása lefoglalható erőforrásként
-description: Ez a cikk azt ismerteti, hogyan állíthatja be és tarthatja karban a rendszer felhasználóitól és kapcsolattartóitól létrehozott alvállalkozói erőforrásokat, hogy azok társíthatók legyenek a Microsoft alvállalkozóihoz Dynamics 365 Project Operations.
+description: Ez a cikk ismerteti, hogyan lehet a rendszerben felhasználókból és kapcsolattartókból létrehozott alvállalkozói erőforrásokat beállítani és karbantartani, hogy azok a Microsoft Dynamics 365 Project Operations alkalmazásban alvállalkozókhoz társíthatók legyenek.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
