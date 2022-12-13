@@ -1,23 +1,23 @@
 ---
-title: Projektek és feladatok leképezése egy projektalapú szerződéssorra - Lite
+title: Projektek és feladatok leképezése egy projektszerződéssorba
 description: Ez a cikk a projektek és feladatok szerződéssorhoz való hozzáadásával és eltávolításával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932529"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825061"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektek és feladatok leképezése egy projektalapú szerződéssorba 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Projektek és feladatok leképezése egy projektszerződéssorba 
 
 _**A következőre vonatkozik:** Egyszerű központi telepítés – proforma számlázás, Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Projektalapú szerződéssorokon leképezheti a projekt adott feladatait a szerződéssor.
+A projektszerződés-sorokon a projekt adott tevékenységeit leképezheti a szerződéssorra.
 
 Ha adott feladatokat rendel egy szerződéssorhoz, akkor a számlázási mód, a számlázhatósági beállítások, a nem meghaladandó korlát és a szerződéssoron definiált ügyfelek csak az adott feladatra lesznek érvényesek.
 
@@ -25,7 +25,7 @@ Ha olyan helyzet van, amikor egy projekt egyik fázisa, például a prototípus 
 
 A projekt munkalebontási struktúrájában (WBS) az összes többi fázis hozzárendelhető az idő- és anyagelszámolású szerződéssorhoz.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Feladatok társítása projektalapú szerződéssorokhoz
+## <a name="associate-tasks-to-project-contract-lines"></a>Tevékenységek társítása projektszerződés-sorokhoz
 
 A feladatok társíthatók szerződéssorokhoz a **Számlázható feladatok** lapról a **Szerződéssor** oldalon, vagy a **Feladat számlázása** lapról a **Projekt** oldalon.
 

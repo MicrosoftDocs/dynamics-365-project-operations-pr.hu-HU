@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911645"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826084"
 ---
 # <a name="manage-project-quotes"></a>Projektárajánlatok kezelése
 
@@ -23,7 +23,7 @@ A Dynamics 365 Project Operations a projektárajánlatok segítséget nyújtanak
   - Árajánlatsor-adatok, amelyek meghatározzák és megbecsülik az egyes magas szintű összetevőkhöz vagy árajánlatsorhoz szükséges munkát. Az ütemezés vagy a dátumbecslések, valamint a munka pénzügyi aspektusai az adott árajánlatsorhoz köthetők.
   - Az egyes árajánlatosorokhoz szerződésközési modellek és számlázható összetevők vannak beállítva. Ez a beállítás segít a bevétel, a kiadások és a jövedelmezőség elterjedésének becslésében az egyes árajánlati sorokhoz és az általános árajánlathoz.
 
-## <a name="view-all-project-based-quotes"></a>Összes projektalapú árajánlat megtekintése
+## <a name="view-all-project-quotes"></a>Az összes projektajánlat megtekintése
 
 A projektárajánlatok listája az **Árajánlatok** listaoldalon látható. 
 

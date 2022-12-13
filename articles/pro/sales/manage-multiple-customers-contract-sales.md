@@ -1,19 +1,19 @@
 ---
-title: Több ügyfél kezelése egy projektszerződésen - Lite
+title: Több ügyfél kezelése egy projektszerződésen
 description: Ez a cikk információt nyújt a több ügyfélnek a projektszerződéseken való kezeléséről.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917208"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824535"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>Több ügyfél kezelése egy projektszerződésen - Lite
+# <a name="manage-multiple-customers-on-project-contracts"></a>Több ügyfél kezelése egy projektszerződésen
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 

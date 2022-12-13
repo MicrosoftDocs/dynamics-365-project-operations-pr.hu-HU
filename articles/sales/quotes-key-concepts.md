@@ -1,8 +1,8 @@
 ---
-title: Árajánlatok – alapfogalmak
-description: Ez a cikk a Project Operations projektárajánlatairól és értékesítési árajánlatairól nyújt információt.
+title: A csak projektalapú árajánlatokra jellemző fogalmak
+description: Ez a cikk a Microsoft projektajánlatairól nyújt tájékoztatást Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912519"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824330"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>A csak Projektalapú árajánlatokra jellemző fogalmak
+# <a name="concepts-unique-to-project-based-quotes"></a>A csak projektalapú árajánlatokra jellemző fogalmak
 
-_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
+_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A Dynamics 365 Project Operations rendszerben kétféle árajánlat létezik: projektárajánlat és értékesítési árajánlat. A két típusú árajánlat a következőkben különbözik:
+Mielőtt elkezdené használni a projektajánlatokat a Microsoftban Dynamics 365 Project Operations, tisztában kell lennie a következő kulcsfogalmakkal.
 
-- **Egyes sorelemekhez tartozó rácsok**: Az értékesítési árajánlatban csak egy rács szerepelhet a sorokban. A projektárajánlatokban két rács tartozik a sorelemekhez. Az egyik rács a projektek soraihoz, a másik pedig a termékek soraihoz használható.
-- **Aktiválás és revíziók**: Az értékesítéi árajánlatok támogatják az aktiválást és a revíziókat. A projektárajánlatokban ezek a folyamatok nem támogatottak.
-- **Csatolt megrendelések**: Az értékesítési árajánlatokhoz több megrendelés is csatolható. Egy projektárajánlathoz csak egy projektszerződés csatolható.
-- **Árajánlat megnyerése** : Ha megnyer egy értékesítési árajánlatot, a kapcsolódó lehetőség nyitva maradhat. A projekt árajánlatának megszerzése után a kapcsolódó lehetőség le lesz zárva.
-- **Mezők és fogalmak**: Az értékesítési árajánlat nem tartalmaz bizonyos olyan mezőket és fogalmakat, amelyek szerepelnek egy projektárajánlatban. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
-- **Típus**: Az értékesítési árajánlatokat és a projektárajánlatokat egy értékkészlet-alapú **Típus** mező is azonosítja. Értékesítési árajánlat esetén ebben a mezőben az érték **elemalapú**. A projektárajánlat esetén az érték **Munkaalapú**.
+## <a name="owning-company"></a>Tulajdonos vállalat
 
-Ez a cikk a projektárajánlat részletes adataival foglalkozik.
+A tulajdonos vállalat képviseli azt a jogi személyt, amely a projekt megvalósításának tulajdonosa. Az árajánlatban szereplő vevőnek érvényes vevőnek kell lennie az adott jogi személyben a Pénzügyi és műveleti alkalmazásokban. A tulajdonos vállalat pénznemének és a projektalapú árajánlatban kiválasztott szerződő egység pénznemének meg kell egyeznie.
 
-A Project Operations projektárajánlata több sorelemmel vagy árajánlatsorral is rendelkezhet. A projektárajánlat két rácsot tartalmaz a sorokhoz. Az egyik rács a projektalapú sorokhoz használható, amelyek lehetővé teszik a részletes becslést. A másik rács az egyszerű egységárat és a mennyiségi alapú megközelítést használó termékalapú sorokhoz tartozik.
+## <a name="contracting-unit"></a>Szerződő részleg
 
-- **Projektalapú**: A megajánlott értéket a rendszer a szükséges munka mennyiségének megbecslése után határozza meg. A munkát megbecsülheti magas szinten, közvetlenül az árajánlat egyes sorai alatt lévő részletként, illetve előirányzott becslések alapján, projekt és projektterv segítségével. A projektalapú árajánlatsorok csak a Project Operations használatával létrehozott, projektalapú árajánlatokban találhatók. Az ilyen típusú árajánlatsor a Microsoft Dynamics 365 Sales-ben elérhető, nem katalogizált árajánlatsorok testreszabott formája.
+A szerződő egység azt a részleget vagy gyakorlatot képviseli, amely a projekt teljesítését birtokolja. Az egyes szerződő részlegekre vonatkozóan beállíthat erőforrásköltségeket. Amikor erőforrásköltségeket ad meg egy erőforráshoz egy szerződő egységben, különböző költségrátákat állíthat be a szerződő egység által kölcsönvett erőforrásokhoz, illetve a gazdálkodó más részlegeihez vagy gyakorlatához. Ezeket a költségrátákat transzferáraknak, erőforrás-kölcsönzésnek vagy átváltási áraknak nevezzük. Amikor beállítja az erőforrások más részlegektől való kölcsönzésének költségét, a költségrátákat a kölcsönzési részleg pénznemében állíthatja be.
 
-- **Termékalapú**: A megajánlott értéket az eladott egységek mennyisége és a termék értékesítési ára alapján kerül határozza meg a rendszer. A termékalapú sor terméke származhat a Sales termékkatalógusából, vagy lehet olyan termék, amelyet Ön határoz meg. Az ilyen típusú árajánlatsor a Project Operations használatával létrehozott, projektalapú árajánlatokon is elérhető.
+## <a name="cost-currency"></a>Költség pénzneme
 
-Az árajánlatban szereplő összeg a termékalapú sorok és a projektalapú sorok teljes összege.
+A Project Operations költségpénzneme az a pénznem, amelyben a költségek jelentésre kerülnek. Ez a pénznem az árajánlat, a szerződés és a **projekt Szerződő egység** mezőjéhez csatolt pénznemből származik. A projekttel kapcsolatos költségek bármilyen pénznemben elszámolhatók. A pénznemek átváltása azonban a költségek rögzítésének pénzneméről a projekt költségpénznemére történik.
 
-> [!NOTE]
-> A Project Operationsben nem kötelező árajánlatokat és árajánlatsorokat megadni. A projektfolyamat egy projektszerződéssel indítható (értékesített projekt). Lehetőségre azonban mindig szükség van függetlenül attól, hogy árajánlattal vagy projektszerződéssel kezd-e.
+Mivel a platformon az átváltási árfolyamok nem lehetnek dátumfüggőek, a képernyőn megjelenő költségösszegek idővel változhatnak, ha frissíti a Dataverse devizaárfolyamokat. Az adatbázisban rögzített költségek azonban változatlanok maradnak, mivel az összegek abban a pénznemben vannak tárolva, amelyben felmerültek.
 
-## <a name="project-based-quote-lines"></a>Projektalapú árajánlatsorok
+## <a name="sales-currency"></a>Értékesítés pénzneme
 
-A Project Operations projektalapú árajánlatsora a következő számlázási módszerekkel rendelkezik:
+A Project Operations rendszerben az értékesítési pénznem az a pénznem, amelyben a becsült és a tényleges értékesítési összegeket rögzítik és megjelenítik. Ez az a pénznem is, amelyben a vevőnek számlázzák az ügyletet. Projektajánlat esetén az alapértelmezett értékesítési pénznem a vevőből vagy a partnerrekordból van beállítva, és az árajánlat létrehozásakor módosítható. Az értékesítési pénznem azonban nem módosítható az árajánlat mentése után. Az alapértelmezett termék- és projektárlisták az ajánlat értékesítési pénzneme alapján vannak beállítva.
 
-- Idő és anyag
-- Rögzített ár
+A költségekkel ellentétben az értékesítési értékek csak **az értékesítési pénznemben rögzíthetők** .
 
-### <a name="time-and-material"></a>Idő és anyag
+## <a name="billing-method"></a>Számlázási mód
 
-Az idő- és anyagelszámolású számlázási módszer a felhasználáson alapul. Ha ezt a számlázási módot választja, akkor a program a projektben felmerülő költségként számlázza az ügyfelet. A számlák dátumalapú, időszakos gyakorisággal jönnek létre. Az értékesítési folyamat során egy idő- és anyagelszámolású összetevő megajánlott értéke csak az ügyfélre vonatkozó végső költség becslését adja meg. Az eladó nem kötelezi magát arra, hogy pontosan az ajánlatban szereplő megajánlott értéken teljesítse a projektet. Az idő- és anyagelszámolású összetevők növelik az ügyfél kockázatát. Előfordulhat, hogy az ügyfelek a kockázat minimalizálása érdekében további nem meghaladható kikötéseket kívánnak elérni. A Project Operations nem támogatja a nem meghaladható kikötések beállítását.
+A projektek jellemzően fix díjas és fogyasztásalapú szerződéskötési modellekkel rendelkeznek. A Project Operations alkalmazásban a projekt szerződéskötési modelljét a számlázási módszer képviseli. A számlázási módszernek két értéke van: idő és anyag, valamint rögzített ár.
 
-### <a name="fixed-price"></a>Rögzített ár
+- **Idő és anyag**  – Fogyasztásalapú szerződéskötési modell, ahol minden felmerülő költséget a megfelelő bevétel fedez. A további költségek megbecslése vagy felmerülése során a megfelelő becsült és tényleges értékesítés is növekedni fog. A számlázási módszert használó árajánlatsorokon nem meghaladandó korlátokat adhat meg. Ily módon korlátozhatja a tényleges bevételt. A becsült bevételt nem befolyásolják a korlátok túllépésének tilalma.
+- **Fix ár**  – Rögzített díjú szerződéskötési modell, ahol az értékesítési értékek függetlenek a felmerült költségektől. Az értékesítési érték rögzített, és további költségek becslésével vagy felmerülésével.
 
-A rögzített árú számlázási módszerben a szolgáltató kötelezettséget vállal arra, hogy a projektet rögzített költségen nyújtja az ügyfélnek. Az ügyfél kiszámlázza a rögzített árú árajánlatsor megadott értékét, függetlenül attól, hogy a szolgáltató milyen költségek mellett teljesíti az ajánlatsort. A rögzített árú árajánlatsor a következő módszerek egyike szerint kerül kiszámlázásra: 
+## <a name="project-price-lists"></a>Projektárlisták
 
-- Átalányösszegként a projekt elején vagy végén, vagy egy mérföldkő elérésekor. 
-- Az árajánlatsor rögzített értékei egyenlő részleteinek dátumalapú gyakorisága alapján. Ezek a részletek időszakos mérföldkőként ismertek.
-- Azokban a részletekben, amelyek olyan pénzügyi értékkel rendelkeznek, amely összhangban van a projektben megvalósított munkavégzéssel vagy adott mérföldkövevel. Ebben az esetben az egyes részletfizetések értéke eltérő lehet, de az összeset fel kell venni az árajánlatsor rögzített értékéhez.
+A projektárlisták olyan árlisták, amelyek az alapértelmezett árak, nem pedig a költségdíjak megadására szolgálnak az időhöz, a költséghez és a projekthez kapcsolódó egyéb összetevőkhöz. Több árlista is lehet, és mindegyik lista rendelkezhet saját dátumérvényességgel az egyes projektárajánlatokhoz. A Project Operations nem támogatja az egymást átfedő dátumhatékonyságot a projektárlistákhoz.
 
-A Project Operations a rögzített árú árajánlatsorokra vonatkozóan mindhárom típusú számlát támogatja.
+## <a name="product-price-lists"></a>Termékárlisták
 
-## <a name="transaction-classification"></a>Tranzakció besorolása
+A termékárlisták olyan árlisták, amelyek az árajánlat termékalapú sorainak alapértelmezett árainak, nem pedig költségdíjainak megadására szolgálnak. Árajánlatonként csak egy termékárlista van.
 
-A professzionális szolgáltatást végző szervezetek általában a költségek besorolásával készítenek árajánlatot, és számlázzák az ügyfelet. A költségeket a következő tranzakciós besorolások jelölik:
+## <a name="transaction-classes"></a>Tranzakció osztályai
 
-- **Idő**: Ez a besorolás a munka vagy a humán erőforrás idejének költségét jelöli a projektben.
-- **Költség**: Ez a besorolás a projekt további költségeit jelöli. Mivel a költségek széles körben csoportosíthatók, a legtöbb szervezet olyan alkategóriákat hoz létre, mint az utazás, az autókölcsönzés, a szállodai vagy az irodai eszközök.
-- **Díj**: Ez a besorolás vegyesen jelöli a karbantartást, a büntetéseket és az olyan további elemeket, amelyeket az ügyfélnek kell állnia. 
-- **Adó**: Ez a besorolás a felhasználók által a költségek megadása során hozzáadott adó összegét jelöli.
-- **Anyaggal kapcsolatos tranzakció**: Ez a besorolás a jóváhagyott projektszámlán lévő terméksorok tényleges értékét jelöli.
-- **Mérföldkő**: Ezt a besorolást a rögzített árú számlázási logika használja.
+A Project Operations négyféle típusú tranzakciót támogat:
 
-Ezen tranzakcióosztályok egyike vagy ezek közül több is társítható az egyes árajánlatsorokkal. Az árajánlat megszerzése után a tranzakcióosztályozás és az árajánlatsor közötti leképezés a szerződéssorhoz kerül.
-  
-Előfordulhat például, hogy egy árajánlat a következő két ajánlatsort tartalmazza: 
+- Időpont
+- Költség
+- Anyag
+- Díj
 
-- Az idő- és anyagelszámolású számlázási módszert használó konzultációs munka, ahol alkalmazható az idő- és a díj tranzakcióosztálya. Például a **Dynamics AX-megvalósítással** kapcsolatos összes idő- és díjtranzakciót a rendszer az ügyfélnek számlázza a felhasznált idő és anyag alapján. 
-- Rögzített árú számlázási módszert használó kapcsolódó utazási költségek. Például a **Dynamics AX-megvalósítás** példaprojekt összes utazási költségét rögzített pénzértéken számlázza a rendszer.
+A költség- és értékesítési értékek becsülhetők és merülhetnek fel a Idő, a Költség **és** az Anyag **tranzakciós osztályokban**. **·**  **A díj** csak bevételi tranzakciós osztály.
 
-> [!NOTE]
-> Az **Idő**, a **Költség** és a **Díj** projekt- és tranzakcióosztályozási kombinációjának, amelyek árajánlatsorral vagy szerződéssorral vannak társítva, egyedinek kell lennie. Ha a projekt- és tranzakcióosztály egy adott kombinációja több szerződéssorhoz vagy árajánlatsorhoz van társítva, akkor a Project Operations nem fog megfelelően működni.
+## <a name="work-entities-and-billing-entities"></a>Munkaentitások és számlázási entitások
 
-## <a name="billing-types"></a>Számlázási típusok
+A projektek és a feladatok olyan entitások, amelyek a munkát képviselik. Az árajánlatsorok és a szerződéssorok olyan entitások, amelyek a számlázást képviselik. Különböző munkaentitásokat kapcsolhat a számlázási beállításokhoz, ha árajánlatsorokhoz vagy szerződéssorokhoz társítja őket.
 
-A **Számlázási típus** mező határozza meg a felszámíthatóság fogalmát. Ez egy értékkészlet, amelynek a következő lehetséges értékei vannak:
+## <a name="multi-customer-deals"></a>Több ügyfél közötti üzletek
 
-- **Felszámítható**: A jelen szerepkör/kategória által felhalmozott költség olyan közvetlen költség, amely a projektek végrehajtását eredményezi, és az ügyfél ezért a munkáért fizet. A kifizetést idő- és anyagelszámolású, illetve rögzített árú megállapodásként lehet kezelni. Az ezt az időt eltöltő alkalmazott azonban megkapja a megfelelő jóváírást a saját számlázható kihasználtságára vonatkozóan.
-- **Nem felszámítható**: A jelen szerepkör/kategória által felhalmozott költség olyan közvetlen költség, amely a projektek végrehajtását eredményezi akkor is, ha az ügyfél ezt nem ismeri el, és nem fizet ezért a munkáért. Az ezt az időt eltöltő alkalmazott nem kapja meg a jóváírást a számlázható kihasználtságra vonatkozóan.
-- **Kiegészítő**: A jelen szerepkör/kategória által felhalmozott költség olyan közvetlen költség, amely a projektek végrehajtását eredményezi, és az ügyfél ezt elismeri. Az ezt az időt eltöltő alkalmazott megkapja a jóváírást a számlázható kihasználtságra vonatkozóan. Ez a költség azonban nem lesz felszámítva az ügyfélnek.
-- **Nem elérhető**: Ezzel a beállítással a rendszer azokat a költségeket követi nyomon, amelyek a bevétel nyomon követését nem igénylő belső projektek során merültek fel.
+Többügyfeles ügyletekre akkor kerül sor, ha számlánként egynél több vevő van. Íme néhány tipikus példa:
 
-## <a name="invoice-schedule"></a>Számla ütemezése
+- **Eredetiberendezés-gyártó (OEM) vállalkozások és partnereik**  – A partnerek és viszonteladók olyan terméket értékesítenek, amely értéknövelt szolgáltatásokat tartalmaz. Az ügyféllel kötött megállapodás során az OEM általában felajánlja a projekt egy részének finanszírozását.
+- **Közszférabeli projektek**  – Egy helyi önkormányzat több osztálya vállalja, hogy finanszíroz egy projektet, és a számlázás egy korábban egyeztetett felosztás szerint történik. Például egy iskolai körzet és a város vagy a helyi önkormányzat egy osztálya vállalja, hogy egy uszoda épületét finanszírozza.
 
-A számlaütemezés a projektek számlázásakor bekövetkezett dátumok sorozata. Számlaütemezést tetszés szerint létrehozhat egy árajánlatsorban. Minden árajánlatsornak lehet saját számlaütemezése. A számlaütemezés létrehozásához meg kell adnia a következő attribútumértékeket:
+## <a name="invoice-schedules"></a>Számlaütemezések
 
-- Számlázás kezdő dátuma 
-- A projekt számlázásának befejezési dátumát jelentő szállítási dátum
-- Számlázási gyakoriság
+A számlaütemezések az egyes árajánlatsorokra vonatkoznak, és nem kötelezőek. A számlaütemezések meghatározott kezdő és záró dátumok, valamint a számla gyakorisága alapján jönnek létre. A rendszer a szerződés szakaszában használja őket, amikor az automatikus számlalétrehozási folyamat konfigurálva van. Az árajánlati szakaszban a számlaütemezések nem kötelezőek. Ha az árajánlat szakaszában hozták létre őket, akkor a projektajánlat megnyerésekor létrehozott projektszerződésbe másolódnak.
 
-A rendszer ezt a három attribútumértéket használja az olyan feltételes dátumok meghatározásához, amelyek alapján elvégzi a számlázást.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Eltérések a Dynamics 365 értékesítési ajánlatoktól
 
-## <a name="invoice-frequency"></a>Számlázási gyakoriság
+A Project Operations-ajánlatok Dynamics 365 értékesítési ajánlatokra épülnek. Vannak azonban olyan fontos eltérések a funkciókban, amelyekkel tisztában kell lennie:
 
-A számlázás gyakorisága olyan entitás, amely a számla létrehozásának gyakoriságát kifejező attribútumértékeket tárol. A következő attribútumok fejezik ki vagy definiálják a számla gyakorisága entitást:
+- A Project Operations árajánlatok két különböző típusú sorból állnak: az egyik a projektekhez, a másik a termékekhez.
+- A Project Operations árajánlatok saját oldal- és felhasználói felületi elemekkel, üzleti szabályokkal, beépülő modulok üzleti logikájával és ügyféloldali parancsfájlokkal rendelkeznek, amelyek megkülönböztetik őket az értékesítési ajánlatoktól.
+- A Sales (Értékesítések) részben több rendelést is csatolhat egyetlen értékesítési ajánlathoz. A Project Operations alkalmazásban csak egy projektszerződést csatolhat egy projektajánlathoz.
+- Ha megnyer egy értékesítési árajánlatot, a kapcsolódó lehetőség nyitva maradhat. A projekt árajánlatának megszerzése után a kapcsolódó lehetőség le lesz zárva.
+- Az értékesítési ajánlat nem tartalmaz olyan mezőket és fogalmakat, amelyeket a projektajánlat tartalmaz. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.
+- Az értékesítési ajánlatokat és a projektajánlatokat a értékkészlet-alapú **Típus** mező azonosítja. Értékesítési ajánlat esetén a mező **értéke Cikkalapú**. Projektajánlat esetén az érték **Munkaalapú**.
 
-- **Időszak**: A havi, a kétheti és a heti időszak támogatott. 
-- **Futtatások időszakonként**: A heti és a kétheti időszakokra vonatkozóan időszakonként csak egy futtatást lehet meghatározni. A havi időszakok esetén az egy–négy futtatást határozhat meg időszakonként. 
-- **Futtatás napjai**: A napok, amikor a számlázásnak futnia kell. Ezt az attribútumot kétféleképpen konfigurálhatja:
-  - **Hétköznapok**: Megadhatja például, hogy a számlázás hétfőnként vagy minden második hétfőn fusson. A számlázás munkanapokon történő futtatását beállítani köteles ügyfelek ezt a fajta konfigurációt részesítik előnyben. 
-  - **Naptári napok**: Megadhatja például, hogy a számlázás minden hónap hetedik és huszonegyedik napján fusson. Előfordulhat, hogy néhány szervezet az ilyen típusú konfigurációt részesíti előnyben, mert ezzel biztosítható, hogy a számlázás havonta rögzített ütemezés szerint fusson.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Rögzített árú árajánlatsor számlázásának ütemezése
-
-Rögzített árú árajánlatsor esetén a **Számla ütemezése** rács használatával hozhat létre számlázási mérföldkövet, amely megegyezik az árajánlatsor értékével.
-
-- Az egyenlően eloosztott számlázási mérföldkövek létrehozásához válassza ki a számlázás gyakoriságát, írja be a számlázás kezdési dátumát az árajánlatsorba, és válassza a **Kért teljesítési dátumot** az árajánlatsor fejlécének **Összegzés** szakaszában. Ezután válassza az **Időszakos mérföldkövek létrehozása** lehetőséget a kiválasztott számlázási gyakoriság alapján egyformán elosztott mérföldkövek létrehozásához. 
-- Ha átalányösszegű számlázási mérföldkövet szeretne létrehozni, hozzon létre egy mérföldkövet, majd adja meg az árajánlatsor értékét a mérföldkő összegeként.
-- Ha a projektterv adott feladatain alapuló számlázási mérföldköveket szeretne létrehozni, hozzon létre mérföldkőet, és képezze le a projekt ütemezési elemére a számlázási mérföldkő felhasználó felületén.
-
+Ezen különbségek miatt nem javasoljuk, hogy az értékesítési ajánlatokat és a Project üzemeltetési árajánlatokat felcserélhetően használja.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

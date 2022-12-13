@@ -1,21 +1,21 @@
 ---
-title: Projektalapú árajánlatsor becslése
-description: Ez a cikk azt ismerteti, hogyan lehet becslést létrehozni egy projektalapú árajánlatsorban.
+title: Projekt árajánlatsorának becslése
+description: Ez a cikk arról nyújt tájékoztatást, hogyan hozhat létre becslést egy projektajánlat-sorhoz.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914359"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825990"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Projektalapú árajánlatsor becslése
+# <a name="estimate-a-project-quote-line"></a>Projekt árajánlatsorának becslése
 
-_**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
+_**A következőre vonatkozik:** Egyszerű központi telepítés – proforma számlázás, Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 A projektalapú árajánlatsor olyan részletekkel rendelkezik, amelyek segítenek az árajánlatsor elkészítésére fordított munka költségének és potenciális bevételének becslésében.
 
@@ -24,7 +24,7 @@ A projektalapú árajánlatsor becsléséhez válassza ki a projektalapú áraj�
 - A becslés manuális létrehozása közvetlenül az árajánlatsorban az árajánlatsor részleteinek használatával. 
 - Hozzon létre egy projektet és egy projekttervet, majd társítsa a projektet és a feladatokat a projekten az árajánlatsorhoz. A projektterv becsült értékének az árajánlatsorba való importálásának folyamata a megadott adatok alapján engedélyezve lesz.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Projektbecslések létrehozása közvetlenül egy projektalapú árajánlatsoron
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Becslések létrehozása közvetlenül a projekt árajánlati sorában
 
 Ha egy projektalapú árajánlatsor becslését szeretné létrehozni, akkor válassza ki az **Árajánlatsor részletei** lapot. Az ezen a lapon létrehozott sor összesíti az árajánlatsorhoz tartozó ajánlati értéket. 
 
@@ -68,8 +68,7 @@ A költség árajánlatsor-részleteinek pénzneme az költség árajánlatsor-r
 
 A jövedelmezőségi számítások átváltják a költség és értékesítések árajánlatsor-részleteiben szereplő összeget a környezet alappénznemére az árajánlat teljes becsült hasznának jelentéséhez.
 
-> [!MEGJEGYZÉS
-> > A pénznem kerekítési hibái és a módosított árrések azért fordulhatnak elő, mert hiányoznak a dátumon érvényes átváltási árfolyamok. Ezeket a számításokat csak projektszerződéseken használja, mivel ezek csak becslések, és nem való tényleges törvényi vagy egyéb jelentésekre, amelyek nagyobb pontosságot igényelnek az árfolyamok kerekítéséhez és a dátumhatékonyságra való figyelemfelhíváshoz.
+> [! MEGJEGYZÉS A pénznemek kerekítési hibái és a megváltozott árrések a dátum érvényességi árfolyamainak hiánya miatt fordulhatnak elő. Ezeket a számításokat csak projektszerződéseken használja, mivel ezek csak becslések, és nem való tényleges törvényi vagy egyéb jelentésekre, amelyek nagyobb pontosságot igényelnek az árfolyamok kerekítéséhez és a dátumhatékonyságra való figyelemfelhíváshoz.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

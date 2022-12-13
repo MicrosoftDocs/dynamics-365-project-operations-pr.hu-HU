@@ -1,19 +1,19 @@
 ---
-title: Több ügyfél kezelése egy projektszerződésen
-description: Ez a cikk információt nyújt arról, hogyan lehet kezelni több ügyfelet egy projektszerződésen.
+title: Több ügyfél kezelése projektalapú szerződéseken
+description: Ez a cikk arról nyújt tájékoztatást, hogyan kezelhet több ügyfelet egy projektalapú szerződésen.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928343"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825381"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Több ügyfél kezelése egy projektszerződésen
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Több ügyfél kezelése projektalapú szerződéseken
 
 Ez a cikk információt nyújt arról, hogyan lehet kezelni több ügyfelet egy projektszerződésen. A projektszerződés akkor használható, ha több ügyfélre vonatkozó szerződéses szükséges egy üzlet finanszírozásához. A **Projektszerződés** lapon az **Összegzés** lap információkat tartalmaz az üzlet elsődleges ügyfelével kapcsolatban. Az üzletben részt vevő egyéb ügyfelek hozzáadhatók az **Ügyfelek** laphoz.
 

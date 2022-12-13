@@ -1,19 +1,19 @@
 ---
-title: Alkalmi előleg létrehozása szerződésen
+title: Eseti előleg létrehozása projektszerződéshez
 description: Ez a cikk a szerződéshez igény szerinti előleg létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922179"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824848"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Alkalmi előleg létrehozása szerződésen
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>Eseti előleg létrehozása projektszerződéshez
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 

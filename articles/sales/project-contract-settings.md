@@ -1,17 +1,17 @@
 ---
-title: Projektszerződés beállításai
-description: Ez a cikk a szerződéssorokra hatással levő mezőkről, valamint az összes sorra vonatkozóan összefoglalt szerződésre vonatkozó információkra vonatkozó információkat tartalmaz.
+title: Fejlécadatok projektalapú szerződések esetében
+description: Ez a cikk a Project Operations mezőiről és projektalapú szerződéseiről nyújt tájékoztatást.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5839a812dbb3a61fcf271ae6e80e22bfe61f7e14
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921581"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824394"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Fejlécadatok projektalapú szerződések esetében
 

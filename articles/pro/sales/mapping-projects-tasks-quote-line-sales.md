@@ -1,23 +1,23 @@
 ---
-title: Projektek és feladatok leképezése egy projektalapú árajánlatsorba
-description: Ez a cikk a projektek és feladatok projektalapú feladatsorra való leképezésével kapcsolatban tartalmaz tájékoztatást.
+title: Projektek és tevékenységek leképezése a projekt árajánlati soraira
+description: Ez a cikk arról nyújt tájékoztatást, hogyan lehet projekteket és tevékenységeket leképezni a projekt árajánlati soraira.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917165"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824277"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektek és feladatok leképezése egy projektalapú árajánlatsorba
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projektek és tevékenységek leképezése a projekt árajánlati soraira
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A projektalapú árajánlatsorokban leképezheti egy olyan projekt adott feladatait, amely már hozzá van rendelve egy árajánlatsorhoz.
+A projektajánlat-sorokon leképezheti egy olyan projekt konkrét tevékenységeit, amely már társítva van egy árajánlatsorhoz.
 
 Ha feladatokat képez le egy árajánlatsorba, akkor az árajánlatsorban megadott következő elemek csak az adott feladatokra vonatkoznak:
 

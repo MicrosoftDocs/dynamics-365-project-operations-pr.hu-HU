@@ -1,27 +1,27 @@
 ---
-title: Projektalapú árajánlatsorok számlaütemezései
+title: Számlaütemezések a projekt árajánlatsoraiban
 description: Ez a cikk a számlaütemezések és az árajánlatsorok mérföldköveinek létrehozásával kapcsolatban tartalmaz tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918315"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825756"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektalapú árajánlatsorok számlaütemezései
+# <a name="invoice-schedules-on-project-quote-lines"></a>Számlaütemezések a projekt árajánlatsoraiban
 
 _**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
 
-A projektalapú árajánlatsor lehetőséget biztosít egy számlaütemezés kifejezésére. Ez az árajánlati fázisban nem kötelező, mert az alkalmazás nem támogatja a projekt számlázását, amikor az az árajánlatsorhoz kötődik. A számlázás csak az árajánlat megnyerése után engedélyezett. A számlaütemezés árajánlati fázisában történő létrehozásának egyetlen alsóbb rétegbeli hatása az, hogy a rendszer átmásolja ezt a számlaütemezést a projektalapú szerződéssorba. Ha az árajánlati fázisban nem hoz létre számlaütemezést, akkor a projektalapú szerződéssor segítségével is megteheti.
+A projekt árajánlati sora lehetővé teszi a számlaütemezés kifejezését. Ez az árajánlati fázisban nem kötelező, mert az alkalmazás nem támogatja a projekt számlázását, amikor az az árajánlatsorhoz kötődik. A számlázás csak az árajánlat megnyerése után engedélyezett. A számlaütemezés árajánlati fázisában történő létrehozásának egyetlen alsóbb rétegbeli hatása az, hogy a rendszer átmásolja ezt a számlaütemezést a projektalapú szerződéssorba. Ha az árajánlati fázisban nem hoz létre számlaütemezést, akkor a projektalapú szerződéssor segítségével is megteheti.
 
 Összességében a számlaütemezések célja, hogy lehetővé tegyék a számlavázlatok automatikus létrehozását a projektalapú szerződéssor esetében. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Idő- és anyagelszámolású számlaütemezés létrehozása projektalapú árajánlatsorhoz
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Idő- és anyagszámla-ütemezés létrehozása projektajánlat-sorhoz
 
 Amikor a projektalapú árajánlatsor számlázási módja Idő és anyag típusú, a rendszer egy dátumalapú számlaütemezést hoz létre. Ha automatikusan szeretne létrehozni egy dátumalapú számlaütemezést, hajtsa végre az alábbi lépéseket.
 
@@ -36,7 +36,7 @@ Amikor a projektalapú árajánlatsor számlázási módja Idő és anyag típus
     - A **Tranzakció határideje** a **Számlakészítés dátuma** előtti napra van beállítva.
     - A **Futtatás állapota** beállítás automatikusan a **Nem fut** értékre van beállítva. Amikor az automatikus számlalétrehozási feladat egy bizonyos számlázási futtatási dátumnál fut, akkor a program a **Futtatás sikerült** vagy a **Futtatás nem sikerült** értékre módosítja a mezőt.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Rögzített áras számlaütemezés létrehozása projektalapú árajánlatsorhoz
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Rögzített árú számla ütemezésének létrehozása projektajánlat-sorhoz
 
 Ha a projektalapú árajánlatsor **Rögzített** számlázási móddal rendelkezik, akkor a rendszer mérföldkőre épülő számlaütemezést hoz létre. Hajtsa végre az alábbi lépéseket, hogy automatikusan előállítsa ezt az ütemezést mérföldkövek egy rögzített, a naptári időszakra egyformán elosztott készletéhez.
 

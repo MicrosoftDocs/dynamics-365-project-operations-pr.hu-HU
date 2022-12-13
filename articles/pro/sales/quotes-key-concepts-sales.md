@@ -1,17 +1,17 @@
 ---
-title: Árajánlatok fő fogalmai - Lite
+title: A csak Projektárajánlatokra jellemző fogalmak
 description: Ez a cikk a projektárajánlatok Project Operationsben való használatáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916981"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825896"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>A csak Projektárajánlatokra jellemző fogalmak
 
@@ -82,9 +82,13 @@ A számlázási ütemezések az egyes árajánlatsorokra jellemzőek, és szint�
 
 A Project Operations árajánlatai a Dynamics 365 Sales árajánlataira épülnek. Vannak azonban olyan fontos eltérések a funkciókban, amelyekkel tisztában kell lennie:
 
-- Az **Áttekintés** és **Aktiválás** műveletek nem támogatottak.
+
 - A Project Operations árajánlatai két különböző típusú sorral rendelkeznek. Az egyik a projektek számára, a másik pedig a termékek számára.
 - A Project Operations árajánlatok magukban foglalják saját űrlap- és a felhasználói felület elemeiket, az üzleti szabályokat, az üzleti logikát a beépülő modulokban és az ügyféloldali parancsfájlokat, amelyek megkülönbözteti őket a Sales árajánlataitól.
+- Az értékesítési ajánlatok lehetővé teszik, hogy több rendelést csatoljon egy értékesítési ajánlathoz. A Project Operations rendszerben csak egy projektszerződés csatolható egy projektajánlathoz.
+- Ha megnyer egy értékesítési árajánlatot, a kapcsolódó lehetőség nyitva maradhat. A projekt árajánlatának megszerzése után a kapcsolódó lehetőség le lesz zárva.
+- Az értékesítési ajánlat nem tartalmaz olyan mezőket és fogalmakat, amelyek szerepelnek a projektajánlatban. A mezők közé tartozik a **Szerződő részleg**, a **Partnerkezelő** és a **Számlázási kapcsolattartó neve**.  
+- **Típus**: Az értékesítési árajánlatokat és a projektárajánlatokat egy értékkészlet-alapú **Típus** mező is azonosítja. Értékesítési árajánlat esetén ebben a mezőben az érték **elemalapú**. A projektárajánlat esetén az érték **Munkaalapú**.
 
 A fenti okok miatt nem ajánlott a Sales árajánlatot és a Project Operations árajánlatot egymás helyett használni.
 

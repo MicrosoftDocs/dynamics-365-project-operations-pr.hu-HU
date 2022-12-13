@@ -1,23 +1,23 @@
 ---
-title: Több ügyfél kezelése egy projektárajánlaton
+title: Több ügyfél kezelése projektalapú árajánlattal
 description: Ez a cikk tájékoztatást nyújt a projekt finanszírozását végző több ügyfelet tartalmazó árajánlatok használatáról.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928205"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825151"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Több ügyfél kezelése egy projektárajánlaton
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Több ügyfél kezelése projektalapú árajánlattal
 
-_**A következőre vonatkozik:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén, egyszerű telepítés – proforma számlázás_
+_**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A projektárajánlatok támogatják azt az esetet, amikor a javaslat több ügyfelet is tartalmaz, akik az üzletet finanszírozzák. Az Árajánlat **Összegzés** lapján található a **Potenciális ügyfél** mező, amely azonosítja az üzlet elsődleges ügyfelét. Az üzlet egyéb ügyfelei a projektárajánlat **Ügyfelek** lapján állíthatók be.
+A projektalapú árajánlatok támogatják azt a forgatókönyvet, amelyben a javaslat több ügyfelet is bevon, akik finanszírozzák az üzletet. Az Árajánlat **Összegzés** lapján található a **Potenciális ügyfél** mező, amely azonosítja az üzlet elsődleges ügyfelét. Az üzlet egyéb ügyfelei a projektárajánlat **Ügyfelek** lapján állíthatók be.
 
 Az összes árajánlati ügyfél a projektárajánlat **Ügyfelek** lapján az árajánlatsori ügyfél alapértelmezett értékkel rendelkezik az árajánlathoz létrehozott minden **új** projektalapú árajánlatsor esetében. A meglévő projektalapú árajánlatsorok nem fogják örökölni az utánuk létrehozott új árajánlati ügyfélrekordokat.
 

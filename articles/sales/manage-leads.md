@@ -1,31 +1,29 @@
 ---
-title: Érdeklődők kezelése
+title: Projektalapú érdeklődők kezelése
 description: Ez a cikk információkat nyújt a projektalapú érdeklődőkkel kapcsolatban.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920201"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825802"
 ---
-# <a name="manage-leads"></a>Érdeklődők kezelése
+# <a name="manage-project-based-leads"></a>Projektalapú érdeklődők kezelése
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
 A projektalapú érdeklődők kezelhetők és minősíthetők a Project Operationsben. Az érdeklődők kezelésének folyamata magában foglalja a munkaalapú érdeklődők létrehozását és ezen érdeklődők minősítését. 
 
-## <a name="project-sales-leads"></a>Projekt érdeklődői
-
 Az **Értékesítés** területen, a bal navigációs panelen nyissa meg az **Érdeklődők** listaoldalt a rendszerben lévő összes érdeklődőrekord listájának megjelenítéséhez. A megjelenített érdeklődők listája munkaalapú és más típusú érdeklődőkből áll, amelyek létrehozhatók akkor is, ha a Dynamics 365 Sales vagy a Dynamics 365 Field Service alkalmazásokkal rendelkezik.
 
 Létrehozhat egy szűrt nézetet, amely csak a projektalapú érdeklődőket tekinti meg a **Típus** értékére vonatkozó szűrő létrehozásával. Megadhatja például, hogy csak a munkaalapú érdeklődők jelenjenek meg.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Új érdeklődő létrehozása projektalapú üzlethez
+## <a name="create-a-new-project-based-lead"></a>Új projektalapú érdeklődő létrehozása 
 
 Projekten alapuló érdeklődő minősítésekor egy lehetőség és egy partner jön létre. A projektalapú lehetőség a Lehetőség fázisában az értékesítést szolgáló tevékenységek kiindulási pontja. A projektalapú lehetőségek egyedi képességekkel rendelkeznek, amelyek a projekt munkájának értékesítéséhez szükségesek. Ezek a lehetőségek többek között a következők:
 

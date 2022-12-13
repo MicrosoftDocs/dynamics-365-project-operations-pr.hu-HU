@@ -1,32 +1,32 @@
 ---
-title: Projektalapú szerződéssor becslése - lite
+title: Projec szerződéses vonal becslése
 description: Ez a cikk információkat nyújt a projektalapú szerződéssorokkal kapcsolatos becslésről.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914405"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824770"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Projektalapú szerződéssor becslése - lite
+# <a name="estimate-a-project-contract-line"></a>Projektszerződéssor becslése
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A Dynamics 365 Project Operations szolgáltatásban a projektalapú szerződéssor részletei segítenek megbecsülni a szerződéssor teljesítéséhez szükséges az adott munkához kapcsolódó költségeket és a lehetséges bevételeket.
+A Dynamics 365 Project Operations projektszerződés-sor olyan részleteket tartalmaz, amelyek segítenek megbecsülni a szerződéssor teljesítéséhez szükséges munka költségeit és potenciális bevételét.
 
-A projektalapú szerződéssor becsléséhez nyissa meg a **Szerződéssor részletei** lapot a projektalapú **Szerződéssor** területen.  A projekt alapú szerződéssorok esetében kétféle módon lehet becslést létrehozni:
+A projektszerződés-sor becsléséhez lépjen a **projektalapú** szerződéssor Szerződéssor részletei **lapjára**.  A projekt alapú szerződéssorok esetében kétféle módon lehet becslést létrehozni:
 
    - A szerződéssor adatainak manuális hozzáadásával létrehozhat egy becslést közvetlenül a szerződéssoron.
    - Hozzon létre egy projektet és egy projekttervet, majd társítsa a projektet és a feladatokat a projekt szerződéssorához. Ez lehetővé teszi azt a folyamatot, amellyel a projektterv becslését importálhatja a szerződéssorra a szerződéssoron található összetevők alapján.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Becslés létrehozása közvetlenül egy projektalapú szerződéssoron
 
-Ahhoz, hogy közvetlenül a projektalapú szerződéssoron tudjon becsléseket létrehozni, kövesse az alábbi lépéseket:
+Ha közvetlenül egy projektszerződés-sorhoz szeretne becslést létrehozni, kövesse az alábbi lépéseket:
 
 1. Nyissa meg a szerződéssort, és válassza a **Szerződéssor részletei** lapot. Az ezen a lapon létrehozott sorokat a rendszer összefoglalja, és a **Szerződött értékként** jeleníti meg ehhez a **Szerződéssorhoz**. 
 2. A **Szerződéssor részletei** alrácsban válassza az **Új szerződéssor-részlet** lehetőséget. Megnyílik egy gyorslétrehozás csúszka. A következő mezők a **Szerződéssor részletei** lapon érhetők el.

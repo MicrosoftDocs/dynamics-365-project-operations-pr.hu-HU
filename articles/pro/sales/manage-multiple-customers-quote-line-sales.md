@@ -1,23 +1,23 @@
 ---
-title: Több ügyfél kezelése projektalapú árajánlatsorokon - Lite
-description: Ez a cikk azt ismerteti, hogyan lehet több ügyfelet kezelni projektalapú árajánlatsorokban.
+title: Több ügyfél kezelése a projekt árajánlati sorain
+description: Ez a cikk azt ismerteti, hogyan kezelhet több ügyfelet a projekt árajánlati sorain.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927791"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824441"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Több ügyfél kezelése projektalapú árajánlatsorokon - Lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Több ügyfél kezelése a projekt árajánlati sorain
 
 _**Érvényesség:** Lite telepítés – ajánlattól proforma számlázásig_
 
-A projektalapú árajánlatsorok olyan eseteket támogatnak, ahol minden árajánlatsorban szerepel azoknak az ügyfeleknek a listája, akik fizetnek érte. A projektalapú árajánlatsorban szereplő ügyfelek listája megegyező lehet az árajánlatban szereplő ügyfelek listájával. Másik lehetőségként megváltoztathatja az ügyfelek listáját is. A projektárajánlat megnyerése után a végleges projektszerződés létrehozásához a program átmásolja a projektalapú árajánlatsorban szereplő ügyféllistát a megfelelő projektalapú szerződéssorra. A projektalapú árajánlatban szereplő ügyfeleket a program a projektszerződésbe másolja.
+A projekt árajánlatsorai olyan forgatókönyveket támogatnak, amelyekben minden árajánlatsor tartalmazza az érte fizető ügyfelek listáját. A projektalapú árajánlatsorban szereplő ügyfelek listája megegyező lehet az árajánlatban szereplő ügyfelek listájával. Másik lehetőségként megváltoztathatja az ügyfelek listáját is. A projektárajánlat megnyerése után a végleges projektszerződés létrehozásához a program átmásolja a projektalapú árajánlatsorban szereplő ügyféllistát a megfelelő projektalapú szerződéssorra. A projektalapú árajánlatban szereplő ügyfeleket a program a projektszerződésbe másolja.
 
 A végleges projektszerződés számlázásakor a projektalapú szerződéssor ügyféllistája elsőbbséget élvez a projektszerződésben szereplő listával szemben. A projektszerződésben szereplő ügyféladatokat csak az alapértelmezett új projektszerződéssorokhoz lehet felhasználni.
 

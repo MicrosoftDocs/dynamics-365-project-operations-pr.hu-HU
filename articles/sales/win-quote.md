@@ -1,23 +1,23 @@
 ---
-title: Árajánlat lezárása
+title: Projektalapú árajánlatok lezárása
 description: Ez a cikk az árajánlatok Project Operationsben való lezárásáról nyújt tájékoztatást.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931885"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824220"
 ---
-# <a name="close-a-quote"></a>Egy ajánlat lezárása
+# <a name="close-project-based-quotes"></a>Projektalapú árajánlatok lezárása
 
 _**Érvényesség:** Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén_
 
-A projektárajánlat megnyertként vagy elvesztettként zárható le. Mivel az Aktiválás és Áttekintés funkciók nem támogatottak az ajánlatok esetében a Microsoft Dynamics 365 Project Operations alkalmazásban, ezért lezárhat egy vázlat ajánlatot.
+A projekt árajánlata lezárható megnyertként **vagy** elveszettként **·**. 
 
 ## <a name="close-a-quote-as-won"></a>Árajánlat lezárása megnyertként
 
