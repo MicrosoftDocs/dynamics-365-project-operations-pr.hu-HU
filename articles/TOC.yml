@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Újdonságok
       items:
-        - name: 2022. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: 2022. november – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Archívum
           items:
+            - name: 2022. október – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: 2022. szeptember – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: 2022. augusztus – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022. július – Project Operations erőforrás-/nem készletalapú forgatókönyvek esetén
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Szervezeti egységek
               href: sales/OrgUnits.md
-        - name: Projekt érdeklődőinek kezelése
+        - name: Projektalapú érdeklődők kezelése
           href: sales/manage-leads.md
-        - name: Projekt lehetőségeinek kezelése
+        - name: Projektalapú lehetőségek kezelése
           items:
             - name: Projekt lehetőségeinek kezelése – áttekintés
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Projektalapú lehetőségsorok
               href: sales/project-based-lines.md
-            - name: Projektárajánlatok létrehozása lehetőségekből
+            - name: Árajánlatok létrehozása projektlehetőségekből
               href: sales/link-quotes-opportunities.md
-            - name: Projektalapú lehetőségek másolása
+            - name: Projektlehetőségek másolása
               href: sales/copy-project-based-opportunity.md
             - name: Projektlehetőség bezárása
               href: sales/close-opportunity.md
-        - name: Projektárajánlatok kezelése
+        - name: Projektalapú árajánlatok kezelése
           items:
             - name: Projektárajánlatok kezelése – áttekintés
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Fejlécadatok projektalapú árajánlatok esetében
               href: sales/quote-values-budget-limits-contract.md
-            - name: Több ügyfél kezelése egy projektárajánlaton
+            - name: Több ügyfél kezelése projektalapú árajánlaton
               href: sales/manage-multiple-customers-quote.md
-            - name: Projektárlisták kezelése árajánlatokon
+            - name: Projektárlisták projektárajánlatokon
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektalapú árajánlatsorok
               items:
-                - name: Projektalapú árajánlatsorok áttekintése
+                - name: Projektárajánlat-sorok áttekintése
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Több ügyfél kezelése projektalapú árajánlatsorokon
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projektek és feladatok leképezése egy projektalapú árajánlatsorokba
+                - name: Projektek és feladatok leképezése projektárajánlat-sorokba
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: A projektalapú árajánlatsor felszámítható összetevőinek konfigurálása
+                - name: A projektárajánlatsorok felszámítható összetevőinek konfigurálása
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: A projektárajánlatsor felszámítható összetevőinek konfigurálása
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Projekt árajánlatsorának becslése
-                  href: sales/create-estimate-quote-line.md
-                - name: Projektbecslések importálása egy projektalapú árajánlatsorból
-                  href: sales/import-estimate-quote-line.md
-                - name: Számlaütemezések projektalapú árajánlatsorokon
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Becslések importálása projektből egy projektárajánlat-sorra
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Számlaütemezések projektárajánlat-sorokon
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektárajánlatok másolása
               href: sales/lose-quote.md
             - name: Projektárajánlat aktiválása és felülvizsgálata
               href: sales/activation-and-revision.md
-            - name: Projektárajánlatok bezárása
+            - name: Projektalapú árajánlatok lezárása
               href: sales/win-quote.md
-        - name: Projektszerződések kezelése
+        - name: Projektalapú szerződések kezelése
           items:
-            - name: Projektszerződések kezelése – áttekintés
+            - name: Projektszerződések kezelése
               href: pro/sales/manage-contracts-sales.md
             - name: A csak projektalapú szerződésekre jellemző fogalmak
               href: sales/contracts-key-concepts.md
             - name: Fejlécadatok projektalapú szerződések esetében
               href: sales/project-contract-settings.md
-            - name: Projektárlisták kezelése projektszerződéseken
+            - name: Projektárlisták kezelése projektalapú szerződéseken
               href: sales/contracts-manage-project-price-lists.md
-            - name: Több ügyfél kezelése egy projektszerződésen
+            - name: Több ügyfél kezelése projektalapú szerződéseken
               href: sales/manage-multiple-customers-contract.md
             - name: Projektalapú szerződéssorok
               items:
-                - name: Projektalapú szerződéssorok áttekintése
+                - name: Projektszerződéssorok áttekintése
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Több ügyfél kezelése projektalapú szerződéssorokon
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Projektek és feladatok leképezése egy projektszerződéssoron
+                - name: Projektek és feladatok leképezése egy projektszerződéssorba
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: A projektszerződéssor számlázható összetevőinek konfigurálása
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projektszerződéssor becslése
+                - name: Projektalapú szerződéssor becslése
                   href: sales/create-estimate-contract-line.md
-                - name: Projektbecslések importálása egy projektalapú szerződéssorból
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Számlaütemezések létrehozása projektalapú szerződéssorokon
+                - name: Projektbecslések importálása egy projektszerződéssorra
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Számlaütemezések létrehozása projektalapú szerződéssoron
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektalapú szerződések másolása
               href: sales/copy-project-based-contracts-sales.md
@@ -208,17 +210,17 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Előlegek és foglalók
               items:
-                - name: Előlegek és foglalóalapú szerződések
+                - name: Előlegen és foglalón alapuló projektszerződések
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Foglalóütemezés beállítása
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Alkalmi előleg létrehozása szerződésen
+                - name: Alkalmi előleg létrehozása projektszerződésen
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Árképzés és költségszámítás
       items:
         - name: Árlista beállítása
           items:
-            - name: Árlista meghatározása
+            - name: Árlista definiálása
               href: pricing-costing/price-list-setup.md
             - name: A munka számlázási arányának beállítása
               href: pricing-costing/set-up-labor-bill-rate.md
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Projekt állapotának szinkronizálása a lezárt projektekkel szembeni bejegyzések megakadályozásához
           href: advanced-configuration/sync-project-status.md
+        - name: Pénznemátváltás beállítása eladási árak költségarányból történő kiszámításához
+          href: advanced-configuration/currencyconversion.md
     - name: Frissítés
       items:
         - name: A Modern jóváhagyások frissítési szempontjai
@@ -664,18 +668,22 @@
           href: pro/project-operations-overview-lite.md
         - name: Regisztráció az előzetes verziós előfizetésre – Lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations telepítése – Lite
+        - name: A Project Operations Lite telepítése
           href: environment/lite-deployment.md
-        - name: Bemutató beállítások és konfigurációs adatok alkalmazása – Lite
+        - name: Demóbeállítások és konfigurációs adatok alkalmazása – Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Biztonsági modell
           href: environment/security-model.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2022. szeptemberben – egyszerű központi telepítés
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Újdonságok 2022. novemberben – egyszerű központi telepítés
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Archívum
           items:
+            - name: Újdonságok 2022. októberben – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Újdonságok 2022. szeptemberben – egyszerű központi telepítés
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Újdonságok 2022. augusztusban – egyszerű központi telepítés
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Újdonságok 2022. júliusában – egyszerű központi telepítés
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Árajánlatok létrehozása projektlehetőségekből
               href: sales/link-quotes-opportunities.md
-            - name: Projektalapú lehetőségek másolása
+            - name: Projektlehetőségek másolása
               href: sales/copy-project-based-opportunity.md
             - name: Projektlehetőség bezárása
               href: sales/close-opportunity.md
-        - name: Projektalapú árajánlatok kezelése
+        - name: Projektárajánlatok kezelése
           items:
-            - name: Projektalapú árajánlatok áttekintése
+            - name: Projektárajánlatok áttekintése
               href: pro/sales/manage-quotes-sales.md
-            - name: A csak projektárajánlatokra jellemző fogalmak
+            - name: Csak a projektárajánlatokra jellemző fogalmak
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Fejlécadatok projektárajánlatok esetében
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Több ügyfél projektárajánlatokon
+            - name: Több ügyfél kezelése projektárajánlatokon
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projektárlisták projektárajánlatokon
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Bonyolult egységek kezelése termékalapú árajánlatsorokhoz
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projektalapú árajánlatsorok
+            - name: Projektárajánlat-sorok
               items:
-                - name: Projektalapú árajánlatsorok áttekintése
+                - name: Projektárajánlat-sorok áttekintése
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Több ügyfél egy árajánlaton
+                - name: Több ügyfél kezelése projektárajánlat-sorokon
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projektek és feladatok leképezése
+                - name: Projektek és feladatok leképezése projektárajánlat-sorokba
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Számlázhatók összetevők konfigurálása
+                - name: A projektárajánlatsorok felszámítható összetevőinek konfigurálása
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Projektalapú árajánlatsor becslése
+                - name: Projekt árajánlatsorának becslése
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Becslés importálása projektből
+                - name: Becslések importálása projektből egy projektárajánlat-sorra
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Számlaütemezések kezelése
+                - name: Számlaütemezések projektárajánlat-sorokon
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projektalapú árajánlatok másolása
+            - name: Projektárajánlatok másolása
               href: sales/lose-quote.md
             - name: Projektárajánlat aktiválása és felülvizsgálata
               href: sales/activation-and-revision.md
-            - name: Projektalapú árajánlatok lezárása
+            - name: Projektárajánlatok bezárása
               href: pro/sales/win-quote-sales.md
-        - name: Projektalapú szerződések kezelése
+        - name: Projektszerződések kezelése
           items:
-            - name: Projektalapú szerződések áttekintése
+            - name: Projektszerződések áttekintése
               href: pro/sales/manage-contracts-sales.md
-            - name: A csak projektszerződésekre jellemző fogalmak
+            - name: Csak projektszerződésekre jellemző fogalmak
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Fejlécadatok projektszerződések esetében
               href: pro/sales/project-contract-settings-sales.md
-            - name: Több ügyfél egy projektszerződésen
+            - name: Több ügyfél kezelése egy projektszerződésen
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projektárlisták projektszerződéseken
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Bonyolult egységek kezelése termékalapú szerződéssorokhoz
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projektalapú szerződéssorok
+            - name: Projektszerződéssorok
               items:
-                - name: Projektalapú szerződéssorok áttekintése
+                - name: Projektszerződéssorok áttekintése
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Több szerződéses ügyfél kezelése
+                - name: Több ügyfél kezelése egy projektszerződésen
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Projektek és feladatok leképezése egy projektszerződéssorba
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: A projektszerződéssor számlázható összetevőinek konfigurálása
+                - name: Projektszerződéssor számlázható összetevőinek konfigurálása
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projektalapú szerződéssor becslése
+                - name: Projektszerződéssor becslése
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Projektbecslések importálása egy projektszerződéssorra
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Számlaütemezések kezelése projektszerződéssoron
+                - name: Számlaütemezések létrehozása projektszerződéssoron
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projektszerződések másolása
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,17 +844,17 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Előlegek és foglalók
               items:
-                - name: Előlegeken és foglalókon alapuló szerződések – Lite
+                - name: Előlegek és foglalóalapú szerződések
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Foglalók ütemezésének beállítása – Lite
+                - name: Foglalóütemezés beállítása
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Alkalmi előleg létrehozása szerződésen – Lite
+                - name: Alkalmi előleg létrehozása projektszerződésen
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Árképzés és költségszámítás
       items:
         - name: Árlista beállítása
           items:
-            - name: Árlista meghatározása
+            - name: Árlista definiálása
               href: pricing-costing/price-list-setup.md
             - name: Termékárlisták beállítása
               href: pricing-costing/product-price-list.md
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Újdonságok
       items:
-        - name: Újdonságok 2022. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Újdonságok 2022. októberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Archívum
           items:
+            - name: Újdonságok 2022. szeptemberben – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Újdonságok 2022. júliusban – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Újdonságok 2022. júniusában – Project Operations készleten vagy gyártáson alapuló forgatókönyvekhez
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations készleten vagy gyártáson alapuló forgatókönyvek esetén – központi telepítés áttekintése
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Projektmenedzsment és könyvelés – áttekintés
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projekt könyvelése
+      items:
+        - name: Projektmenedzsment és könyvelés – áttekintés
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projektkorrekciók
+          href: project-accounting/project-adjustments.md
     - name: Projekt értékesítési folyamata
       items:
         - name: Projektárajánlatok
