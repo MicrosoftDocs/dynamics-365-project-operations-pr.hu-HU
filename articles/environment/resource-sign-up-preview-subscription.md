@@ -1,17 +1,17 @@
 ---
 title: Regisztráció a Project Operations előzetes verziós előfizetésekre az erőforrás-/nem készletalapú forgatókönyvek esetén
-description: Ez a cikk információt nyújt arról, hogyan lehet regisztrálni és telepíteni a Project Operations alkalmazást erőforrás-/nem készletalapú forgatókönyvek esetén.
+description: Ez a cikk arról nyújt tájékoztatást, hogy miként iratkozhat fel és telepítheti a Project Operations erőforrás-/nem készletalapú forgatókönyvekhez.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3164add153d77a52f85c2aac442dcf90baa24440
+ms.sourcegitcommit: 0d11377bf3ac74c80afbd2013775fcc9869f926a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920109"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "9842018"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regisztráció a Project Operations előzetes verziós előfizetésekre az erőforrás-/nem készletalapú forgatókönyvek esetén
 
